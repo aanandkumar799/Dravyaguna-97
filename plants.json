@@ -1,23 +1,83 @@
 [
   {
     "id": "ashwagandha",
+
     "name": "Ashwagandha",
+
     "sanskrit_name": "अश्वगन्धा",
-    "botanical_name": "Withania somnifera",
-    "family": "Solanaceae"
-  },
-  {
-    "id": "guduchi",
-    "name": "Guduchi",
-    "sanskrit_name": "गुडूची",
-    "botanical_name": "Tinospora cordifolia",
-    "family": "Menispermaceae"
-  },
-  {
-    "id": "shatavari",
-    "name": "Shatavari",
-    "sanskrit_name": "शतावरी",
-    "botanical_name": "Asparagus racemosus",
-    "family": "Asparagaceae"
+
+    "transliteration": "Aśvagandhā",
+
+    "botanical_name": "Withania somnifera (L.) Dunal",
+
+    "family": "Solanaceae",
+
+    "english_name": "Ashwagandha",
+
+    "hindi_name": "अश्वगंधा",
+
+    "synonyms": [],
+
+    "identification": {
+      "habit": "",
+      "habitat": "",
+      "distribution": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "key_features": "",
+      "grahya_lakshana": ""
+    },
+
+    "dravyaguna": {
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "prabhava": "",
+      "dosha_karma": "",
+      "karma": [],
+      "rogaghnata": []
+    },
+
+    "therapeutics": {
+      "useful_part": [
+        "Root"
+      ],
+      "therapeutic_uses": [],
+      "indications": [],
+      "contraindications": [],
+      "dose": "",
+      "anupana": ""
+    },
+
+    "formulations": [],
+
+    "classical_information": {
+      "shlokas": [],
+      "references": []
+    },
+
+    "student": {
+      "exam_points": [],
+      "viva_questions": [],
+      "practical_points": [],
+      "mcqs": []
+    },
+
+    "images": {
+      "whole_plant": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "stem": "",
+      "bark": "",
+      "root": "",
+      "seed": ""
+    }
   }
 ]
