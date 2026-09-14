@@ -13,114 +13,7 @@
     <link rel="stylesheet"
           href="../style.css">
 
-    <style>
-
-        .plant-page {
-            max-width: 1100px;
-            margin: auto;
-            padding: 40px 20px;
-        }
-
-        .plant-header {
-            text-align: center;
-            padding: 40px 20px;
-            background: linear-gradient(
-                135deg,
-                #dcebd7,
-                #f6e8bd
-            );
-            border-radius: 25px;
-        }
-
-        .plant-header h1 {
-            font-size: 48px;
-            margin-bottom: 5px;
-        }
-
-        .sanskrit {
-            font-size: 28px;
-            font-weight: bold;
-        }
-
-        .botanical {
-            font-style: italic;
-            font-size: 18px;
-        }
-
-        .plant-image {
-            width: 100%;
-            max-width: 500px;
-            height: 300px;
-            margin: 30px auto;
-            background: #e8eadf;
-            border-radius: 20px;
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            font-size: 22px;
-        }
-
-        .section {
-            background: white;
-            margin-top: 25px;
-            padding: 30px;
-            border-radius: 20px;
-
-            box-shadow:
-                0 5px 20px rgba(0,0,0,0.07);
-        }
-
-        .section h2 {
-            color: #3f6b49;
-            margin-bottom: 15px;
-        }
-
-        .rasa-grid {
-            display: grid;
-            grid-template-columns:
-                repeat(5, 1fr);
-            gap: 12px;
-        }
-
-        .rasa-card {
-            padding: 18px;
-            text-align: center;
-            background: #f5f3e9;
-            border-radius: 12px;
-        }
-
-        .back-button {
-            display: inline-block;
-            margin-bottom: 20px;
-
-            text-decoration: none;
-            color: white;
-
-            background: #4d7657;
-
-            padding: 10px 20px;
-
-            border-radius: 25px;
-        }
-
-        @media (max-width: 768px) {
-
-            .plant-header h1 {
-                font-size: 36px;
-            }
-
-            .rasa-grid {
-                grid-template-columns: 1fr 1fr;
-            }
-
-        }
-
-    </style>
-
 </head>
-
 
 <body>
 
@@ -131,15 +24,8 @@
     </div>
 
     <nav>
-
-        <a href="../index.html">
-            Home
-        </a>
-
-        <a href="../index.html#plants">
-            Plants
-        </a>
-
+        <a href="../index.html">Home</a>
+        <a href="../index.html#plants">Plants</a>
     </nav>
 
 </header>
@@ -147,151 +33,55 @@
 
 <main class="plant-page">
 
-    <a href="../index.html"
-       class="back-button">
+    <!-- BASIC IDENTITY -->
 
-        ← Back to Plant Library
+    <section class="plant-hero">
 
-    </a>
+        <p class="small-title">
+            DRAVYAGUNA 97
+        </p>
 
+        <h1>अश्वगन्धा</h1>
 
-    <!-- PLANT HEADER -->
+        <h2>Ashwagandha</h2>
 
-    <section class="plant-header">
-
-        <div class="sanskrit">
-            अश्वगन्धा
-        </div>
-
-        <h1>
-            Ashwagandha
-        </h1>
-
-        <p class="botanical">
-            Withania somnifera (L.) Dunal
+        <p>
+            <em>Withania somnifera</em> (L.) Dunal
         </p>
 
         <p>
-            <strong>Family:</strong>
-            Solanaceae
+            Family: Solanaceae
         </p>
-
-    </section>
-
-
-    <!-- IMAGE -->
-
-    <section class="plant-image">
-
-        🌿 Ashwagandha Plant Image
 
     </section>
 
 
     <!-- QUICK FACTS -->
 
-    <section class="section">
+    <section>
 
         <h2>🌿 Quick Facts</h2>
 
-        <p>
-            <strong>Classical Name:</strong>
-            Ashwagandha
-        </p>
+        <div class="feature-grid">
 
-        <p>
-            <strong>Botanical Name:</strong>
-            Withania somnifera (L.) Dunal
-        </p>
-
-        <p>
-            <strong>Family:</strong>
-            Solanaceae
-        </p>
-
-        <p>
-            <strong>Useful Part:</strong>
-            To be added after source verification
-        </p>
-
-    </section>
-
-
-    <!-- IDENTIFICATION -->
-
-    <section class="section">
-
-        <h2>🔬 Identification</h2>
-
-        <p>
-            <strong>Habit:</strong>
-            Information to be added.
-        </p>
-
-        <p>
-            <strong>Root:</strong>
-            Information to be added.
-        </p>
-
-        <p>
-            <strong>Stem:</strong>
-            Information to be added.
-        </p>
-
-        <p>
-            <strong>Leaf:</strong>
-            Information to be added.
-        </p>
-
-        <p>
-            <strong>Flower:</strong>
-            Information to be added.
-        </p>
-
-        <p>
-            <strong>Fruit:</strong>
-            Information to be added.
-        </p>
-
-    </section>
-
-
-    <!-- RASA PANCHAKA -->
-
-    <section class="section">
-
-        <h2>🧪 Rasa Panchaka</h2>
-
-        <div class="rasa-grid">
-
-            <div class="rasa-card">
-                <strong>Rasa</strong>
-                <br>
-                To be verified
+            <div class="feature-card">
+                <h3>Sanskrit Name</h3>
+                <p>अश्वगन्धा</p>
             </div>
 
-            <div class="rasa-card">
-                <strong>Guna</strong>
-                <br>
-                To be verified
+            <div class="feature-card">
+                <h3>Botanical Name</h3>
+                <p>Withania somnifera</p>
             </div>
 
-            <div class="rasa-card">
-                <strong>Virya</strong>
-                <br>
-                To be verified
+            <div class="feature-card">
+                <h3>Family</h3>
+                <p>Solanaceae</p>
             </div>
 
-            <div class="rasa-card">
-                <strong>Vipaka</strong>
-                <br>
-                To be verified
-            </div>
-
-            <div class="rasa-card">
-                <strong>Prabhava</strong>
-                <br>
-                To be verified
+            <div class="feature-card">
+                <h3>Useful Part</h3>
+                <p>Root and other parts as traditionally indicated</p>
             </div>
 
         </div>
@@ -299,90 +89,175 @@
     </section>
 
 
-    <!-- KARMA -->
+    <!-- IDENTIFICATION -->
 
-    <section class="section">
+    <section>
 
-        <h2>⚕️ Karma & Therapeutic Uses</h2>
+        <h2>🔬 Identification</h2>
 
-        <p>
-            Classical information will be added
-            after verification from authoritative
-            Ayurvedic sources.
-        </p>
+        <div class="feature-grid">
+
+            <div class="feature-card">
+                <h3>Habit</h3>
+                <p>Add verified description here.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Root</h3>
+                <p>Add verified description here.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Stem</h3>
+                <p>Add verified description here.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Leaf</h3>
+                <p>Add verified description here.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Flower</h3>
+                <p>Add verified description here.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Fruit</h3>
+                <p>Add verified description here.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- DRAVYAGUNA -->
+
+    <section>
+
+        <h2>🧪 Rasa Panchaka</h2>
+
+        <div class="feature-grid">
+
+            <div class="feature-card">
+                <h3>Rasa</h3>
+                <p>Verified data to be added.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Guna</h3>
+                <p>Verified data to be added.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Virya</h3>
+                <p>Verified data to be added.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Vipaka</h3>
+                <p>Verified data to be added.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Prabhava</h3>
+                <p>Verified data to be added.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Dosha Karma</h3>
+                <p>Verified data to be added.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- THERAPEUTICS -->
+
+    <section>
+
+        <h2>🌿 Therapeutic Information</h2>
+
+        <div class="feature-card">
+
+            <h3>Traditional Uses</h3>
+
+            <p>
+                Verified classical information will be added
+                with appropriate references.
+            </p>
+
+        </div>
 
     </section>
 
 
     <!-- FORMULATIONS -->
 
-    <section class="section">
+    <section>
 
-        <h2>💊 Important Formulations</h2>
+        <h2>🧪 Important Formulations</h2>
 
-        <p>
-            Formulations will be added here.
-        </p>
+        <div class="feature-card">
 
-    </section>
+            <p>
+                Formulations will be added after source
+                verification.
+            </p>
 
-
-    <!-- SHLOKA -->
-
-    <section class="section">
-
-        <h2>📜 Classical Shloka</h2>
-
-        <p>
-            Verified classical verses will be
-            added here along with their source
-            reference.
-        </p>
+        </div>
 
     </section>
 
 
-    <!-- EXAM -->
+    <!-- CLASSICAL REFERENCES -->
 
-    <section class="section">
+    <section>
 
-        <h2>🎓 BAMS Exam Points</h2>
+        <h2>📖 Classical References</h2>
 
-        <ul>
+        <div class="feature-card">
 
-            <li>
-                Important identification points
-            </li>
+            <p>
+                Classical references and verified Sanskrit
+                verses will be added here.
+            </p>
 
-            <li>
-                Important Dravyaguna points
-            </li>
-
-            <li>
-                Important viva questions
-            </li>
-
-            <li>
-                Important classical references
-            </li>
-
-        </ul>
+        </div>
 
     </section>
 
 
-    <!-- REFERENCES -->
+    <!-- STUDENT -->
 
-    <section class="section">
+    <section>
 
-        <h2>📖 References</h2>
+        <h2>🎓 BAMS Quick Revision</h2>
 
-        <p>
-            Classical and authoritative references
-            will be listed here.
-        </p>
+        <div class="feature-grid">
+
+            <div class="feature-card">
+                <h3>Exam Points</h3>
+                <p>Important examination points.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Viva</h3>
+                <p>Important viva questions.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Practical</h3>
+                <p>Identification points.</p>
+            </div>
+
+        </div>
 
     </section>
+
 
 </main>
 
