@@ -12,7 +12,7 @@ fetch("plants.json")
     .then(response => {
 
         if (!response.ok) {
-            throw new Error("plants.json could not be loaded");
+            throw new Error("Unable to load plants.json");
         }
 
         return response.json();
@@ -27,10 +27,10 @@ fetch("plants.json")
     })
     .catch(error => {
 
-        console.error("Unable to load plant data:", error);
+        console.error(error);
 
         plantList.innerHTML = `
-            <p style="text-align:center;">
+            <p>
                 Unable to load plant data.
             </p>
         `;
@@ -49,9 +49,7 @@ function displayPlants(list) {
     if (list.length === 0) {
 
         plantList.innerHTML = `
-            <p style="text-align:center;">
-                No plants found.
-            </p>
+            <p>No plants found.</p>
         `;
 
         return;
@@ -87,7 +85,7 @@ function displayPlants(list) {
 
         `;
 
-        /* IMPORTANT */
+        /* THIS LINE IS ESSENTIAL */
         plantList.appendChild(card);
 
     });
@@ -99,43 +97,47 @@ function displayPlants(list) {
    SEARCH
 ========================= */
 
-searchInput.addEventListener("input", function() {
+if (searchInput) {
 
-    const searchTerm =
-        searchInput.value.toLowerCase().trim();
+    searchInput.addEventListener("input", function() {
+
+        const searchTerm =
+            searchInput.value.toLowerCase().trim();
 
 
-    const filteredPlants = plants.filter(plant => {
+        const filteredPlants = plants.filter(plant => {
 
-        return (
+            return (
 
-            (plant.name || "")
-                .toLowerCase()
-                .includes(searchTerm)
+                (plant.name || "")
+                    .toLowerCase()
+                    .includes(searchTerm)
 
-            ||
+                ||
 
-            (plant.botanical_name || "")
-                .toLowerCase()
-                .includes(searchTerm)
+                (plant.botanical_name || "")
+                    .toLowerCase()
+                    .includes(searchTerm)
 
-            ||
+                ||
 
-            (plant.family || "")
-                .toLowerCase()
-                .includes(searchTerm)
+                (plant.family || "")
+                    .toLowerCase()
+                    .includes(searchTerm)
 
-            ||
+                ||
 
-            (plant.sanskrit_name || "")
-                .toLowerCase()
-                .includes(searchTerm)
+                (plant.sanskrit_name || "")
+                    .toLowerCase()
+                    .includes(searchTerm)
 
-        );
+            );
+
+        });
+
+
+        displayPlants(filteredPlants);
 
     });
 
-
-    displayPlants(filteredPlants);
-
-});
+}
