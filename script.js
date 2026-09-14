@@ -36,25 +36,26 @@ function displayPlants(list) {
 
         card.innerHTML = `
 
-            <div class="icon">🌿</div>
+    <div class="icon">🌿</div>
 
-            <h2>${plant.name}</h2>
+    <h2>${plant.name}</h2>
 
-            <p>
-                ${plant.botanical_name}
-            </p>
+    <p>
+        ${plant.botanical_name}
+    </p>
 
-            <p>
-                Family: ${plant.family}
-            </p>
+    <p>
+        Family: ${plant.family}
+    </p>
 
-        `;
+    <a
+        href="plants/${plant.id}.html"
+        class="plant-button"
+    >
+        View Plant →
+    </a>
 
-        plantList.appendChild(card);
-
-    });
-
-}
+`;
 
 
 /* SEARCH */
