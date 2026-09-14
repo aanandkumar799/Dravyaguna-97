@@ -1,10 +1,17 @@
-plants
-│
-├── ashwagandha
-├── guduchi
-├── shatavari
-├── yashtimadhu
-├── haritaki
-├── bibhitaki
-├── amalaki
-└── ...
+[
+    {
+        "name": "Ashwagandha",
+        "botanical_name": "Withania somnifera",
+        "family": "Solanaceae"
+    },
+    {
+        "name": "Guduchi",
+        "botanical_name": "Tinospora cordifolia",
+        "family": "Menispermaceae"
+    },
+    {
+        "name": "Shatavari",
+        "botanical_name": "Asparagus racemosus",
+        "family": "Asparagaceae"
+    }
+]
