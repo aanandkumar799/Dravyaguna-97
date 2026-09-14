@@ -4,10 +4,20 @@ const searchInput = document.getElementById("searchInput");
 let plants = [];
 
 
-/* LOAD PLANT DATA */
+/* =========================
+   LOAD PLANT DATA
+========================= */
 
 fetch("plants.json")
-    .then(response => response.json())
+    .then(response => {
+
+        if (!response.ok) {
+            throw new Error("plants.json could not be loaded");
+        }
+
+        return response.json();
+
+    })
     .then(data => {
 
         plants = data;
@@ -19,14 +29,34 @@ fetch("plants.json")
 
         console.error("Unable to load plant data:", error);
 
+        plantList.innerHTML = `
+            <p style="text-align:center;">
+                Unable to load plant data.
+            </p>
+        `;
+
     });
 
 
-/* DISPLAY PLANTS */
+/* =========================
+   DISPLAY PLANTS
+========================= */
 
 function displayPlants(list) {
 
     plantList.innerHTML = "";
+
+    if (list.length === 0) {
+
+        plantList.innerHTML = `
+            <p style="text-align:center;">
+                No plants found.
+            </p>
+        `;
+
+        return;
+    }
+
 
     list.forEach(plant => {
 
@@ -36,54 +66,75 @@ function displayPlants(list) {
 
         card.innerHTML = `
 
-    <div class="icon">🌿</div>
+            <div class="icon">🌿</div>
 
-    <h2>${plant.name}</h2>
+            <h2>${plant.name}</h2>
 
-    <p>
-        ${plant.botanical_name}
-    </p>
+            <p>
+                ${plant.botanical_name}
+            </p>
 
-    <p>
-        Family: ${plant.family}
-    </p>
+            <p>
+                Family: ${plant.family}
+            </p>
 
-    <a
-        href="plants/${plant.id}.html"
-        class="plant-button"
-    >
-        View Plant →
-    </a>
+            <a
+                href="plants/${plant.id}.html"
+                class="plant-button"
+            >
+                View Plant →
+            </a>
 
-`;
+        `;
+
+        /* IMPORTANT */
+        plantList.appendChild(card);
+
+    });
+
+}
 
 
-/* SEARCH */
+/* =========================
+   SEARCH
+========================= */
 
 searchInput.addEventListener("input", function() {
 
     const searchTerm =
-        searchInput.value.toLowerCase();
+        searchInput.value.toLowerCase().trim();
 
-    const filteredPlants = plants.filter(plant =>
 
-        plant.name
-            .toLowerCase()
-            .includes(searchTerm)
+    const filteredPlants = plants.filter(plant => {
 
-        ||
+        return (
 
-        plant.botanical_name
-            .toLowerCase()
-            .includes(searchTerm)
+            (plant.name || "")
+                .toLowerCase()
+                .includes(searchTerm)
 
-        ||
+            ||
 
-        plant.family
-            .toLowerCase()
-            .includes(searchTerm)
+            (plant.botanical_name || "")
+                .toLowerCase()
+                .includes(searchTerm)
 
-    );
+            ||
+
+            (plant.family || "")
+                .toLowerCase()
+                .includes(searchTerm)
+
+            ||
+
+            (plant.sanskrit_name || "")
+                .toLowerCase()
+                .includes(searchTerm)
+
+        );
+
+    });
+
 
     displayPlants(filteredPlants);
 
