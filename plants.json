@@ -1,3 +1,23 @@
 [
   {
     "id": "ashwagandha",
+    "name": "Ashwagandha",
+    "sanskrit_name": "अश्वगन्धा",
+    "botanical_name": "Withania somnifera",
+    "family": "Solanaceae"
+  },
+  {
+    "id": "guduchi",
+    "name": "Guduchi",
+    "sanskrit_name": "गुडूची",
+    "botanical_name": "Tinospora cordifolia",
+    "family": "Menispermaceae"
+  },
+  {
+    "id": "shatavari",
+    "name": "Shatavari",
+    "sanskrit_name": "शतावरी",
+    "botanical_name": "Asparagus racemosus",
+    "family": "Asparagaceae"
+  }
+]
