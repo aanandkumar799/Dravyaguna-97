@@ -1,26 +1,264 @@
-body {
- background-color: #fdfbf7;
- color: #2e5a44;
- font-family: 'Arial', sans-serif;
- margin: 20px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f5ed;
+    color: #263b2b;
+    line-height: 1.6;
+}
+
+
+/* HEADER */
 
 header {
- border-bottom: 2px solid #d4af37;
- padding-bottom: 15px;
- text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 18px 7%;
+
+    background: #ffffff;
+
+    border-bottom: 1px solid #ddd;
 }
 
-h1 {
- color: #d4af37;
+.logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
-main {
- margin-top: 20px;
+nav {
+    display: flex;
+    gap: 20px;
 }
 
-section {
- background-color: #e8f5e9;
- border-radius: 8px;
- padding: 15px;
+nav a {
+    text-decoration: none;
+    color: #263b2b;
+    font-weight: 600;
+}
+
+
+/* HERO */
+
+.hero {
+    text-align: center;
+
+    padding: 90px 20px;
+
+    background: linear-gradient(
+        135deg,
+        #dcebd7,
+        #f6e8bd
+    );
+}
+
+.small-title {
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 58px;
+    margin: 10px 0;
+}
+
+.hero h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: auto;
+}
+
+
+/* SEARCH */
+
+.search-box {
+    margin: 30px auto 0;
+    max-width: 650px;
+}
+
+.search-box input {
+    width: 100%;
+
+    padding: 18px 20px;
+
+    border: none;
+    border-radius: 30px;
+
+    font-size: 16px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+}
+
+
+/* USER CARDS */
+
+.users {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+
+    padding: 60px 7%;
+}
+
+.user-card {
+    background: white;
+
+    padding: 35px;
+
+    text-align: center;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 8px 25px rgba(0,0,0,0.08);
+}
+
+.icon {
+    font-size: 45px;
+}
+
+.user-card h2 {
+    margin: 10px 0;
+}
+
+.user-card button {
+    margin-top: 20px;
+
+    padding: 12px 22px;
+
+    border: none;
+
+    border-radius: 25px;
+
+    background: #4d7657;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+
+/* FEATURES */
+
+.features {
+    padding: 60px 7%;
+
+    text-align: center;
+}
+
+.feature-grid {
+    margin-top: 30px;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+.feature-card {
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 18px;
+
+    font-size: 30px;
+
+    box-shadow:
+        0 5px 20px rgba(0,0,0,0.07);
+}
+
+.feature-card h3 {
+    font-size: 20px;
+
+    margin: 10px;
+}
+
+.feature-card p {
+    font-size: 15px;
+}
+
+
+/* PLANTS */
+
+.plants-section {
+    padding: 60px 7%;
+
+    text-align: center;
+}
+
+#plant-list {
+    margin-top: 30px;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+
+/* FOOTER */
+
+footer {
+    margin-top: 50px;
+
+    padding: 40px 20px;
+
+    text-align: center;
+
+    background: #263b2b;
+
+    color: white;
+}
+
+.copyright {
+    margin-top: 10px;
+
+    opacity: 0.8;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+
+        gap: 15px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .users,
+    .feature-grid,
+    #plant-list {
+        grid-template-columns: 1fr;
+    }
+
 }
