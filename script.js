@@ -1,3 +1,5 @@
+alert("JavaScript is working!");
+
 const plantList = document.getElementById("plant-list");
 
 const plants = [
