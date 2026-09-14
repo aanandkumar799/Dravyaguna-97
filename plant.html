@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Plant | DravyaGuna 97</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        🌿 DravyaGuna 97
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#plants">Plants</a>
+    </nav>
+
+</header>
+
+
+<main class="plant-page">
+
+    <div id="plant-content">
+
+        <p>Loading plant information...</p>
+
+    </div>
+
+</main>
+
+
+<footer>
+
+    <h2>🌿 DravyaGuna 97</h2>
+
+    <p>
+        Learn • Identify • Revise • Cross-check
+    </p>
+
+</footer>
+
+
+<script>
+
+const params = new URLSearchParams(window.location.search);
+
+const plantId = params.get("id");
+
+const plantContent =
+    document.getElementById("plant-content");
+
+
+if (!plantId) {
+
+    plantContent.innerHTML = `
+        <h2>Plant not specified</h2>
+        <p>Please select a plant from the Plant Library.</p>
+    `;
+
+} else {
+
+    fetch("plants.json")
+
+        .then(response => response.json())
+
+        .then(plants => {
+
+            const plant =
+                plants.find(item => item.id === plantId);
+
+
+            if (!plant) {
+
+                plantContent.innerHTML = `
+                    <h2>Plant not found</h2>
+                `;
+
+                return;
+            }
+
+
+            document.title =
+                `${plant.name} | DravyaGuna 97`;
+
+
+            plantContent.innerHTML = `
+
+                <!-- PLANT HEADER -->
+
+                <section class="plant-hero">
+
+                    <p class="small-title">
+                        DRAVYAGUNA 97
+                    </p>
+
+                    <h1>
+                        ${plant.sanskrit_name}
+                    </h1>
+
+                    <h2>
+                        ${plant.name}
+                    </h2>
+
+                    <p>
+                        <em>${plant.botanical_name}</em>
+                    </p>
+
+                    <p>
+                        Family: ${plant.family}
+                    </p>
+
+                </section>
+
+
+                <!-- IDENTITY -->
+
+                <section>
+
+                    <h2>🌿 Basic Identity</h2>
+
+                    <div class="feature-grid">
+
+                        <div class="feature-card">
+
+                            <h3>Sanskrit Name</h3>
+
+                            <p>
+                                ${plant.sanskrit_name}
+                            </p>
+
+                        </div>
+
+
+                        <div class="feature-card">
+
+                            <h3>Transliteration</h3>
+
+                            <p>
+                                ${plant.transliteration || "—"}
+                            </p>
+
+                        </div>
+
+
+                        <div class="feature-card">
+
+                            <h3>Botanical Name</h3>
+
+                            <p>
+                                ${plant.botanical_name}
+                            </p>
+
+                        </div>
+
+
+                        <div class="feature-card">
+
+                            <h3>Family</h3>
+
+                            <p>
+                                ${plant.family}
+                            </p>
+
+                        </div>
+
+
+                        <div class="feature-card">
+
+                            <h3>English Name</h3>
+
+                            <p>
+                                ${plant.english_name || "—"}
+                            </p>
+
+                        </div>
+
+
+                        <div class="feature-card">
+
+                            <h3>Hindi Name</h3>
+
+                            <p>
+                                ${plant.hindi_name || "—"}
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- IDENTIFICATION -->
+
+                <section>
+
+                    <h2>🔬 Identification</h2>
+
+                    <div class="feature-grid">
+
+                        <div class="feature-card">
+                            <h3>Habit</h3>
+                            <p>${plant.identification.habit || "—"}</p>
+                        </div>
+
+                        <div class="feature-card">
+                            <h3>Habitat</h3>
+                            <p>${plant.identification.habitat || "—"}</p>
+                        </div>
+
+                        <div class="feature-card">
+                            <h3>Root</h3>
+                            <p>${plant.identification.root || "—"}</p>
+                        </div>
+
+                        <div class="feature-card">
+                            <h3>Stem</h3>
+                            <p>${plant.identification.stem || "—"}</p>
+                        </div>
+
+                        <div class="feature-card">
+                            <h3>Leaf</h3>
+                            <p>${plant.identification.leaf || "—"}</p>
+                        </div>
+
+                        <div class="feature-card">
+                            <h3>Flower</h3>
+                            <p>${plant.identification.flower || "—"}</p>
+                        </div>
+
+                        <div class="feature-card">
+                            <h3>Fruit</h3>
+                            <p>${plant.identification.fruit || "—"}</p>
+                        </div>
+
+                        <div class="feature-card">
+                            <h3>Seed</h3>
+                            <p>${plant.identification.seed || "—"}</p>
+                        </div>
+
+                        <div class="feature-card">
+                            <h3>Bark</h3>
+                            <p>${plant.identification.bark || "—"}</p>
+                        </div>
+
+                        <div class="feature-card">
+                            <h3>Key Features</h3>
+                            <p>${plant.identification.key_features || "—"}</p>
+                        </div>
+
+                        <div class="feature-card">
+
+                            <h3>Grahya Lakshana</h3>
+
+                            <p>
+                                ${plant.identification.grahya_lakshana || "—"}
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- RASA PANCHAKA -->
+
+                <section>
+
+                    <h2>🧪 Rasa Panchaka</h2>
+
+                    <div class="feature-grid">
+
+                        <div class="feature-card">
+                            <h3>Rasa</h3>
+                            <p>${plant.dravyaguna.rasa.join(", ") || "—"}</p>
+                        </div>
+
+                        <div class="feature-card">
+                            <h3>Guna</h3>
+                            <p>${plant.dravyaguna.guna.join(", ") || "—"}</p>
+                        </div>
+
+                        <div class="feature-card">
+                            <h3>Virya</h3>
+                            <p>${plant.dravyaguna.virya || "—"}</p>
+                        </div>
+
+                        <div class="feature-card">
+                            <h3>Vipaka</h3>
+                            <p>${plant.dravyaguna.vipaka || "—"}</p>
+                        </div>
+
+                        <div class="feature-card">
+                            <h3>Prabhava</h3>
+                            <p>${plant.dravyaguna.prabhava || "—"}</p>
+                        </div>
+
+                        <div class="feature-card">
+                            <h3>Dosha Karma</h3>
+                            <p>${plant.dravyaguna.dosha_karma || "—"}</p>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- THERAPEUTICS -->
+
+                <section>
+
+                    <h2>🌿 Therapeutic Information</h2>
+
+                    <div class="feature-grid">
+
+                        <div class="feature-card">
+
+                            <h3>Useful Part</h3>
+
+                            <p>
+                                ${plant.therapeutics.useful_part.join(", ") || "—"}
+                            </p>
+
+                        </div>
+
+
+                        <div class="feature-card">
+
+                            <h3>Therapeutic Uses</h3>
+
+                            <p>
+                                ${plant.therapeutics.therapeutic_uses.join(", ") || "—"}
+                            </p>
+
+                        </div>
+
+
+                        <div class="feature-card">
+
+                            <h3>Indications</h3>
+
+                            <p>
+                                ${plant.therapeutics.indications.join(", ") || "—"}
+                            </p>
+
+                        </div>
+
+
+                        <div class="feature-card">
+
+                            <h3>Contraindications / Cautions</h3>
+
+                            <p>
+                                ${plant.therapeutics.contraindications.join(", ") || "—"}
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- FORMULATIONS -->
+
+                <section>
+
+                    <h2>🧪 Formulations</h2>
+
+                    <div class="feature-card">
+
+                        <p>
+                            Formulation data will be displayed here
+                            after verification.
+                        </p>
+
+                    </div>
+
+                </section>
+
+
+                <!-- CLASSICAL -->
+
+                <section>
+
+                    <h2>📖 Classical Information</h2>
+
+                    <div class="feature-card">
+
+                        <h3>Shlokas</h3>
+
+                        <p>
+                            Verified classical verses will be added
+                            with their exact references.
+                        </p>
+
+                    </div>
+
+                </section>
+
+
+                <!-- STUDENT -->
+
+                <section>
+
+                    <h2>🎓 BAMS Student Zone</h2>
+
+                    <div class="feature-grid">
+
+                        <div class="feature-card">
+
+                            <h3>Exam Points</h3>
+
+                            <p>
+                                Important examination points
+                                will appear here.
+                            </p>
+
+                        </div>
+
+
+                        <div class="feature-card">
+
+                            <h3>Viva Questions</h3>
+
+                            <p>
+                                Viva questions will appear here.
+                            </p>
+
+                        </div>
+
+
+                        <div class="feature-card">
+
+                            <h3>Practical Identification</h3>
+
+                            <p>
+                                Practical identification points
+                                will appear here.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+            `;
+
+        })
+
+        .catch(error => {
+
+            console.error(error);
+
+            plantContent.innerHTML = `
+                <h2>Unable to load plant data.</h2>
+            `;
+
+        });
+
+}
+
+</script>
+
+</body>
+
+</html>
