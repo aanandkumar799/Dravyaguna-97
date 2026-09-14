@@ -9,19 +9,28 @@ fetch("plants.json")
     if (!response.ok) {
       throw new Error("Could not load plants.json");
     }
+
     return response.json();
   })
+
   .then(data => {
+
     plants = data;
+
     displayPlants(plants);
+
   })
+
   .catch(error => {
+
     console.error(error);
+
     plantList.innerHTML = `
       <p style="color:red;">
         Unable to load plant database.
       </p>
     `;
+
   });
 
 
@@ -31,11 +40,14 @@ function displayPlants(list) {
   plantList.innerHTML = "";
 
   if (list.length === 0) {
+
     plantList.innerHTML = `
       <p>No plants found.</p>
     `;
+
     return;
   }
+
 
   list.forEach(plant => {
 
@@ -44,7 +56,7 @@ function displayPlants(list) {
     card.className = "user-card";
 
     card.innerHTML = `
-      
+
       <div class="icon">🌿</div>
 
       <h2>${plant.name}</h2>
@@ -73,15 +85,18 @@ function displayPlants(list) {
     plantList.appendChild(card);
 
   });
+
 }
 
 
-// Search plants
+// Search
 if (searchInput) {
 
   searchInput.addEventListener("input", function () {
 
-    const query = this.value.toLowerCase().trim();
+    const query =
+      this.value.toLowerCase().trim();
+
 
     const filteredPlants = plants.filter(plant => {
 
@@ -112,6 +127,7 @@ if (searchInput) {
       );
 
     });
+
 
     displayPlants(filteredPlants);
 
