@@ -14,38 +14,44 @@ on:
 
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   check-website:
-    name: Check Website
+    name: Website Doctor
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       - name: Check JSON files
+        shell: bash
         run: |
+          echo "======================================"
           echo "Checking JSON files..."
+          echo "======================================"
 
           find . -name "*.json" -not -path "./.git/*" -print0 |
           while IFS= read -r -d '' file
           do
             echo "Checking $file"
 
-            python -m json.tool "$file" > /dev/null
-
-            if [ $? -ne 0 ]; then
+            if python -m json.tool "$file" > /dev/null; then
+              echo "✅ Valid JSON: $file"
+            else
               echo "❌ INVALID JSON: $file"
               exit 1
             fi
-
-            echo "✅ Valid JSON: $file"
           done
 
       - name: Check required files
+        shell: bash
         run: |
+          echo "======================================"
           echo "Checking required files..."
+          echo "======================================"
 
           files=(
             "index.html"
@@ -53,6 +59,8 @@ jobs:
             "plants.json"
             "script.js"
             "style.css"
+            "lighthouserc.js"
+            "check-site.py"
           )
 
           for file in "${files[@]}"
@@ -66,12 +74,15 @@ jobs:
           done
 
       - name: Check homepage data and assets
+        shell: bash
         run: |
           python check-site.py
 
       - name: Check JavaScript syntax
+        shell: bash
         run: |
           node --check script.js
+          node --check lighthouserc.js
 
       - name: Validate HTML CSS Links Images
         uses: anishathalye/proof-html@v2
@@ -82,6 +93,21 @@ jobs:
           ignore_empty_alt: true
           disable_external: false
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run Lighthouse CI
+        shell: bash
+        run: |
+          echo "======================================"
+          echo "Running Lighthouse CI..."
+          echo "======================================"
+
+          npm install -g @lhci/cli@0.15.x
+          lhci autorun
+
       - name: Website health check complete
         run: |
           echo "======================================"
@@ -89,10 +115,13 @@ jobs:
           echo "======================================"
           echo "✅ JSON files valid"
           echo "✅ Required files present"
+          echo "✅ Homepage data and assets checked"
+          echo "✅ JavaScript syntax checked"
           echo "✅ HTML checked"
           echo "✅ CSS checked"
           echo "✅ Links checked"
           echo "✅ Images checked"
+          echo "✅ Lighthouse CI completed"
           echo "======================================"
           echo "🎉 WEBSITE HEALTH CHECK PASSED"
           echo "======================================"
