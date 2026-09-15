@@ -122,7 +122,151 @@ if (!plantId) {
 
         </section>
 
+<section class="plant-images">
 
+  <h2>🌿 Plant Identification Gallery</h2>
+
+  <div class="image-gallery">
+
+    ${
+      plant.images?.whole_plant
+      ? `
+        <div class="plant-image-card">
+
+          <img
+            src="${plant.images.whole_plant}"
+            alt="${plant.name} whole plant"
+          >
+
+          <h3>Whole Plant</h3>
+
+        </div>
+      `
+      : ""
+    }
+
+    ${
+      plant.images?.leaf
+      ? `
+        <div class="plant-image-card">
+
+          <img
+            src="${plant.images.leaf}"
+            alt="${plant.name} leaf"
+          >
+
+          <h3>Leaf</h3>
+
+        </div>
+      `
+      : ""
+    }
+
+    ${
+      plant.images?.flower
+      ? `
+        <div class="plant-image-card">
+
+          <img
+            src="${plant.images.flower}"
+            alt="${plant.name} flower"
+          >
+
+          <h3>Flower</h3>
+
+        </div>
+      `
+      : ""
+    }
+
+    ${
+      plant.images?.fruit
+      ? `
+        <div class="plant-image-card">
+
+          <img
+            src="${plant.images.fruit}"
+            alt="${plant.name} fruit"
+          >
+
+          <h3>Fruit</h3>
+
+        </div>
+      `
+      : ""
+    }
+
+    ${
+      plant.images?.root
+      ? `
+        <div class="plant-image-card">
+
+          <img
+            src="${plant.images.root}"
+            alt="${plant.name} root"
+          >
+
+          <h3>Root</h3>
+
+        </div>
+      `
+      : ""
+    }
+
+    ${
+      plant.images?.stem
+      ? `
+        <div class="plant-image-card">
+
+          <img
+            src="${plant.images.stem}"
+            alt="${plant.name} stem"
+          >
+
+          <h3>Stem</h3>
+
+        </div>
+      `
+      : ""
+    }
+
+    ${
+      plant.images?.bark
+      ? `
+        <div class="plant-image-card">
+
+          <img
+            src="${plant.images.bark}"
+            alt="${plant.name} bark"
+          >
+
+          <h3>Bark</h3>
+
+        </div>
+      `
+      : ""
+    }
+
+    ${
+      plant.images?.seed
+      ? `
+        <div class="plant-image-card">
+
+          <img
+            src="${plant.images.seed}"
+            alt="${plant.name} seed"
+          >
+
+          <h3>Seed</h3>
+
+        </div>
+      `
+      : ""
+    }
+
+  </div>
+
+</section>
         <section class="info-section">
 
           <h2>🌿 Basic Identity</h2>
