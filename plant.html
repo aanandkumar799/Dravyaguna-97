@@ -624,96 +624,96 @@ if (!plantId) {
 </div>
 
 <script>
-const plantId = new URLSearchParams(window.location.search).get("id");
+const params = new URLSearchParams(window.location.search);
+const plantId = params.get("id");
 
-const loading = document.getElementById("loading");
-const error = document.getElementById("error");
-const content = document.getElementById("plant-content");
+document.body.insertAdjacentHTML(
+    "afterbegin",
+    `
+    <div style="
+        background:#fff3cd;
+        padding:15px;
+        margin:10px;
+        border:1px solid #ffc107;
+        border-radius:10px;
+        font-family:Arial;
+    ">
+        <strong>Diagnostic:</strong><br>
+        Plant ID received: ${plantId || "NO ID"}
+    </div>
+    `
+);
 
-if (!plantId) {
-    if (loading) loading.style.display = "none";
-    if (error) {
-        error.style.display = "block";
-        error.innerHTML = "No plant ID found in the URL.";
-    }
-} else {
+fetch("./plants.json")
+    .then(response => {
+        console.log("plants.json response:", response.status);
 
-    fetch("./plants.json")
-        .then(response => {
-
-            if (!response.ok) {
-                throw new Error(
-                    "plants.json could not be loaded. HTTP status: " +
-                    response.status
-                );
-            }
-
-            return response.json();
-        })
-
-        .then(plants => {
-
-            console.log("Plant ID:", plantId);
-            console.log("Plants loaded:", plants);
-
-            const plant = plants.find(
-                item =>
-                    String(item.id).trim().toLowerCase() ===
-                    String(plantId).trim().toLowerCase()
+        if (!response.ok) {
+            throw new Error(
+                "plants.json returned HTTP " + response.status
             );
+        }
 
-            if (!plant) {
-                throw new Error(
-                    "Plant not found in plants.json: " + plantId
-                );
-            }
+        return response.json();
+    })
 
-            // Hide loading message
-            if (loading) loading.style.display = "none";
+    .then(data => {
 
-            // Show plant content
-            if (content) content.style.display = "block";
+        console.log("Database:", data);
 
-            // Basic identity
-            const name = document.getElementById("plant-name");
-            const sanskrit = document.getElementById("sanskrit-name");
-            const botanical = document.getElementById("botanical-name");
-            const family = document.getElementById("family");
+        const plant = data.find(
+            p => p.id === plantId
+        );
 
-            if (name) name.textContent = plant.name || "";
-            if (sanskrit) sanskrit.textContent = plant.sanskrit_name || "";
-            if (botanical) botanical.textContent = plant.botanical_name || "";
-            if (family) family.textContent = plant.family || "";
+        if (!plant) {
+            throw new Error(
+                "No plant with ID '" + plantId + "' exists in plants.json"
+            );
+        }
 
-            console.log("Plant loaded successfully:", plant);
+        document.body.insertAdjacentHTML(
+            "afterbegin",
+            `
+            <div style="
+                background:#d1e7dd;
+                padding:15px;
+                margin:10px;
+                border:1px solid #198754;
+                border-radius:10px;
+                font-family:Arial;
+            ">
+                ✅ DATABASE WORKING<br>
+                Plant found: <strong>${plant.name}</strong><br>
+                Botanical name: ${plant.botanical_name}
+            </div>
+            `
+        );
 
-        })
+    })
 
-        .catch(error => {
+    .catch(error => {
 
-            console.error("Plant loading error:", error);
+        console.error(error);
 
-            if (loading) {
-                loading.style.display = "none";
-            }
+        document.body.insertAdjacentHTML(
+            "afterbegin",
+            `
+            <div style="
+                background:#f8d7da;
+                color:#842029;
+                padding:15px;
+                margin:10px;
+                border:1px solid #dc3545;
+                border-radius:10px;
+                font-family:Arial;
+            ">
+                ❌ DATABASE ERROR<br><br>
+                ${error.message}
+            </div>
+            `
+        );
 
-            if (content) {
-                content.style.display = "none";
-            }
-
-            if (error) {
-                error.style.display = "block";
-                error.innerHTML = `
-                    <h2>⚠️ Error loading plant</h2>
-                    <p>${error.message}</p>
-                    <p>Please check that <strong>plants.json</strong>
-                    is present in the repository.</p>
-                `;
-            }
-
-        });
-}
-</script>
+    });
 </script>
 </body>
 </html>
