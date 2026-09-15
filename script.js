@@ -161,13 +161,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     </p>
 
                     <a
-                        href="./plant.html?id=${encodeURIComponent(
-                            plant.id || ""
-                        )}"
-                        class="plant-button"
-                    >
-                        View Plant →
-                    </a>
+    href="plant.html?id=${plant.id}"
+    class="plant-button"
+>
+    View Plant →
+</a>
 
                 </div>
 
