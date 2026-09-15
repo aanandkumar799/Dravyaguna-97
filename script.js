@@ -1,180 +1,221 @@
-const plantList = document.getElementById("plant-list");
-const searchInput = document.getElementById("search");
+document.addEventListener("DOMContentLoaded", function () {
 
-let plants = [];
+    const plantList = document.getElementById("plant-list");
+    const searchInput = document.getElementById("search");
 
-
-// ===============================
-// LOAD PLANT DATABASE
-// ===============================
-
-fetch("./plants.json")
-  .then(function(response) {
-
-    if (!response.ok) {
-      throw new Error(
-        "Database HTTP error: " + response.status
-      );
+    if (!plantList) {
+        console.error("plant-list not found");
+        return;
     }
 
-    return response.json();
-
-  })
-
-  .then(function(data) {
-
-    console.log("Plant database loaded:", data);
-
-    plants = data;
-
-    displayPlants(plants);
-
-  })
-
-  .catch(function(error) {
-
-    console.error("Database loading error:", error);
-
-    if (plantList) {
-
-      plantList.innerHTML = `
-        <div style="
-          padding:20px;
-          background:#ffe6e6;
-          border:1px solid #cc0000;
-          border-radius:12px;
-          color:#990000;
-        ">
-          <h3>Unable to load plant database</h3>
-          <p>${error.message}</p>
-        </div>
-      `;
-
-    }
-
-  });
+    let plants = [];
 
 
-// ===============================
-// DISPLAY PLANTS
-// ===============================
+    // ================================
+    // LOAD DATABASE
+    // ================================
 
-function displayPlants(list) {
+    fetch("./plants.json?v=6")
 
-  if (!plantList) {
-    console.error("plant-list element not found.");
-    return;
-  }
+        .then(function (response) {
 
-  plantList.innerHTML = "";
+            if (!response.ok) {
+                throw new Error(
+                    "Cannot load plants.json. HTTP " +
+                    response.status
+                );
+            }
 
-  if (!list || list.length === 0) {
+            return response.text();
 
-    plantList.innerHTML = `
-      <p>No plants found.</p>
-    `;
+        })
 
-    return;
-  }
+        .then(function (text) {
 
+            console.log("Raw JSON:", text);
 
-  list.forEach(function(plant) {
+            let data;
 
-    const card = document.createElement("div");
+            try {
 
-    card.className = "user-card";
+                data = JSON.parse(text);
 
+            } catch (error) {
 
-    card.innerHTML = `
+                throw new Error(
+                    "plants.json contains invalid JSON: " +
+                    error.message
+                );
 
-      <div class="icon">🌿</div>
+            }
 
-      <h2>
-        ${plant.name || ""}
-      </h2>
+            if (!Array.isArray(data)) {
 
-      <p>
-        ${plant.sanskrit_name || ""}
-      </p>
+                throw new Error(
+                    "plants.json must contain a JSON array."
+                );
 
-      <p>
-        <em>
-          ${plant.botanical_name || ""}
-        </em>
-      </p>
+            }
 
-      <p>
-        Family:
-        ${plant.family || ""}
-      </p>
+            plants = data;
 
-      <a
-        href="./plant.html?id=${encodeURIComponent(plant.id)}"
-        class="plant-button"
-      >
-        View Plant →
-      </a>
+            displayPlants(plants);
 
-    `;
+        })
 
+        .catch(function (error) {
 
-    plantList.appendChild(card);
+            console.error(error);
 
-  });
+            plantList.innerHTML = `
 
-}
+                <div style="
+                    padding:25px;
+                    margin:15px 0;
+                    background:#ffe8e8;
+                    border:2px solid #d33;
+                    border-radius:15px;
+                    text-align:center;
+                ">
 
+                    <h3>
+                        ⚠️ Unable to load plant database
+                    </h3>
 
-// ===============================
-// SEARCH
-// ===============================
+                    <p>
+                        ${error.message}
+                    </p>
 
-if (searchInput) {
+                </div>
 
-  searchInput.addEventListener(
-    "input",
-    function() {
+            `;
 
-      const query =
-        this.value.toLowerCase().trim();
+        });
 
 
-      const filteredPlants = plants.filter(
-        function(plant) {
+    // ================================
+    // DISPLAY PLANTS
+    // ================================
 
-          return (
+    function displayPlants(list) {
 
-            (plant.name || "")
-              .toLowerCase()
-              .includes(query)
+        plantList.innerHTML = "";
 
-            ||
+        if (list.length === 0) {
 
-            (plant.sanskrit_name || "")
-              .toLowerCase()
-              .includes(query)
+            plantList.innerHTML = `
+                <p>No plants found.</p>
+            `;
 
-            ||
-
-            (plant.botanical_name || "")
-              .toLowerCase()
-              .includes(query)
-
-            ||
-
-            (plant.family || "")
-              .toLowerCase()
-              .includes(query)
-
-          );
-
+            return;
         }
-      );
 
 
-      displayPlants(filteredPlants);
+        list.forEach(function (plant) {
+
+            const card =
+                document.createElement("div");
+
+            card.className = "user-card";
+
+
+            card.innerHTML = `
+
+                <div class="icon">
+                    🌿
+                </div>
+
+                <h2>
+                    ${plant.name || "Unnamed Plant"}
+                </h2>
+
+                <p>
+                    ${plant.sanskrit_name || ""}
+                </p>
+
+                <p>
+                    <em>
+                        ${plant.botanical_name || ""}
+                    </em>
+                </p>
+
+                <p>
+                    Family:
+                    ${plant.family || ""}
+                </p>
+
+                <a
+                    href="./plant.html?id=${encodeURIComponent(
+                        plant.id
+                    )}"
+                    class="plant-button"
+                >
+                    View Plant →
+                </a>
+
+            `;
+
+
+            plantList.appendChild(card);
+
+        });
 
     }
-  );
 
-}
+
+    // ================================
+    // SEARCH
+    // ================================
+
+    if (searchInput) {
+
+        searchInput.addEventListener(
+            "input",
+            function () {
+
+                const query =
+                    this.value
+                        .toLowerCase()
+                        .trim();
+
+
+                const filtered =
+                    plants.filter(function (plant) {
+
+                        return (
+
+                            (plant.name || "")
+                                .toLowerCase()
+                                .includes(query)
+
+                            ||
+
+                            (plant.sanskrit_name || "")
+                                .toLowerCase()
+                                .includes(query)
+
+                            ||
+
+                            (plant.botanical_name || "")
+                                .toLowerCase()
+                                .includes(query)
+
+                            ||
+
+                            (plant.family || "")
+                                .toLowerCase()
+                                .includes(query)
+
+                        );
+
+                    });
+
+
+                displayPlants(filtered);
+
+            }
+        );
+
+    }
+
+});
