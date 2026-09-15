@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Plant Profile | DravyaGuna 97</title>
 
-    <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
 
-    <!-- Main stylesheet -->
     <link rel="stylesheet" href="style.css">
 
     <meta
@@ -19,10 +18,6 @@
 </head>
 
 <body>
-
-<!-- =========================================================
-     HEADER
-========================================================= -->
 
 <header class="site-header">
 
@@ -45,10 +40,6 @@
 </header>
 
 
-<!-- =========================================================
-     MAIN PLANT CONTENT
-========================================================= -->
-
 <main class="plant-page">
 
     <div id="plant-content">
@@ -64,11 +55,13 @@
 </main>
 
 
-<!-- =========================================================
-     IMAGE ZOOM MODAL
-========================================================= -->
+<!-- IMAGE ZOOM MODAL -->
 
-<div id="image-modal" class="image-modal" aria-hidden="true">
+<div
+    id="image-modal"
+    class="image-modal"
+    aria-hidden="true"
+>
 
     <button
         id="close-modal"
@@ -80,64 +73,70 @@
     </button>
 
     <img
-    src="images/favicon.png"
-    id="modal-image"
-    class="modal-image"
-    alt=""
->
+        src="images/favicon.png"
+        id="modal-image"
+        class="modal-image"
+        alt="Plant image"
+    >
 
 </div>
 
-
-<!-- =========================================================
-     PLANT PROFILE SCRIPT
-========================================================= -->
 
 <script>
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    const plantContent = document.getElementById("plant-content");
+    const plantContent =
+        document.getElementById("plant-content");
 
-    /*
-     * Read plant ID from URL.
-     *
-     * Example:
-     * plant.html?id=ashwagandha
-     */
-    const params = new URLSearchParams(window.location.search);
-    const plantId = params.get("id");
+    const params =
+        new URLSearchParams(window.location.search);
+
+    const plantId =
+        params.get("id");
 
 
-    /* ---------------------------------------------------------
+    /* ---------------------------------------------
        BASIC ERROR CHECK
-    --------------------------------------------------------- */
+    --------------------------------------------- */
 
     if (!plantId) {
 
         plantContent.innerHTML = `
-            <div class="error-box">
-                <div class="error-icon">⚠️</div>
 
-                <h2>No plant selected</h2>
+            <div class="error-box">
+
+                <div class="error-icon">
+                    ⚠️
+                </div>
+
+                <h2>
+                    No plant selected
+                </h2>
 
                 <p>
-                    Please select a plant from the DravyaGuna 97 Plant Library.
+                    Please select a plant from the
+                    DravyaGuna 97 Plant Library.
                 </p>
 
-                <a href="index.html#plants" class="plant-button">
+                <a
+                    href="index.html#plants"
+                    class="plant-button"
+                >
                     ← Back to Plant Library
                 </a>
+
             </div>
+
         `;
 
         return;
     }
 
 
-    /* ---------------------------------------------------------
-       SAFE HTML FUNCTION
-    --------------------------------------------------------- */
+    /* ---------------------------------------------
+       SAFE TEXT
+    --------------------------------------------- */
 
     function safe(value) {
 
@@ -153,11 +152,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 
-    /* ---------------------------------------------------------
-       IMAGE FUNCTION
-       IMPORTANT:
-       Never creates <img src="">
-    --------------------------------------------------------- */
+    /* ---------------------------------------------
+       IMAGE CREATOR
+    --------------------------------------------- */
 
     function createImage(path, altText) {
 
@@ -170,6 +167,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         return `
+
             <div class="gallery-item">
 
                 <img
@@ -184,13 +182,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
 
             </div>
+
         `;
     }
 
 
-    /* ---------------------------------------------------------
-       SIMPLE VALUE SECTION
-    --------------------------------------------------------- */
+    /* ---------------------------------------------
+       INFORMATION ROW
+    --------------------------------------------- */
 
     function infoRow(label, value) {
 
@@ -203,103 +202,128 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         return `
+
             <div class="info-row">
 
                 <div class="info-label">
-                    ${label}
+                    ${safe(label)}
                 </div>
 
                 <div class="info-value">
-                    ${value}
+                    ${safe(value)}
                 </div>
 
             </div>
+
         `;
     }
 
 
-    /* ---------------------------------------------------------
-       ARRAY SECTION
-    --------------------------------------------------------- */
+    /* ---------------------------------------------
+       LIST CREATOR
+    --------------------------------------------- */
 
     function createList(items) {
 
-        if (!Array.isArray(items) || items.length === 0) {
-            return `<p class="not-available">Not available</p>`;
+        if (
+            !Array.isArray(items) ||
+            items.length === 0
+        ) {
+            return `
+                <p class="not-available">
+                    Not available
+                </p>
+            `;
         }
 
         return `
+
             <ul class="plant-list">
-                ${items.map(item => `
-                    <li>${safe(item)}</li>
-                `).join("")}
+
+                ${items.map(function (item) {
+
+                    return `
+                        <li>
+                            ${safe(item)}
+                        </li>
+                    `;
+
+                }).join("")}
+
             </ul>
+
         `;
     }
 
 
-    /* ---------------------------------------------------------
+    /* ---------------------------------------------
        LOAD DATABASE
-    --------------------------------------------------------- */
+    --------------------------------------------- */
 
-    fetch("./plants.json?v=7")
+    fetch("./plants.json?v=12")
 
         .then(function (response) {
 
             if (!response.ok) {
+
                 throw new Error(
                     "Unable to load plants.json. HTTP status: " +
                     response.status
                 );
+
             }
 
             return response.json();
+
         })
 
 
         .then(function (plants) {
 
             if (!Array.isArray(plants)) {
+
                 throw new Error(
                     "plants.json must contain an array."
                 );
+
             }
 
 
-            /* -------------------------------------------------
+            /* -----------------------------------------
                FIND PLANT
-            ------------------------------------------------- */
+            ----------------------------------------- */
 
-            const plant = plants.find(function (item) {
+            const plant =
+                plants.find(function (item) {
 
-                if (!item) {
-                    return false;
-                }
+                    if (!item) {
+                        return false;
+                    }
 
-                const id1 =
-                    item.id ?
-                    String(item.id).toLowerCase() :
-                    "";
+                    const id =
+                        item.id
+                        ? String(item.id).toLowerCase()
+                        : "";
 
-                const id2 =
-                    item.plantID ?
-                    String(item.plantID).toLowerCase() :
-                    "";
+                    const plantID =
+                        item.plantID
+                        ? String(item.plantID).toLowerCase()
+                        : "";
 
-                const requested =
-                    String(plantId).toLowerCase();
+                    const requested =
+                        String(plantId).toLowerCase();
 
-                return (
-                    id1 === requested ||
-                    id2 === requested
-                );
+                    return (
+                        id === requested ||
+                        plantID === requested
+                    );
 
-            });
+                });
 
 
-            /* -------------------------------------------------
+            /* -----------------------------------------
                PLANT NOT FOUND
-            ------------------------------------------------- */
+            ----------------------------------------- */
 
             if (!plant) {
 
@@ -317,12 +341,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         <p>
                             Plant ID:
-                            <strong>${safe(plantId)}</strong>
-                        </p>
-
-                        <p>
-                            Please return to the Plant Library
-                            and select a valid plant.
+                            <strong>
+                                ${safe(plantId)}
+                            </strong>
                         </p>
 
                         <a
@@ -340,9 +361,9 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
 
-            /* -------------------------------------------------
-               IDENTITY
-            ------------------------------------------------- */
+            /* -----------------------------------------
+               BASIC IDENTITY
+            ----------------------------------------- */
 
             const name =
                 plant.name ||
@@ -350,33 +371,27 @@ document.addEventListener("DOMContentLoaded", function () {
                 "Unnamed Plant";
 
             const sanskrit =
-                plant.sanskrit_name ||
-                "";
+                plant.sanskrit_name || "";
 
             const botanical =
-                plant.botanical_name ||
-                "";
+                plant.botanical_name || "";
 
             const family =
-                plant.family ||
-                "";
+                plant.family || "";
 
             const english =
-                plant.english_name ||
-                "";
+                plant.english_name || "";
 
             const hindi =
-                plant.hindi_name ||
-                "";
+                plant.hindi_name || "";
 
 
-            /* -------------------------------------------------
-               IMAGE DATA
-            ------------------------------------------------- */
+            /* -----------------------------------------
+               IMAGES
+            ----------------------------------------- */
 
             const images =
                 plant.images || {};
-
 
             let galleryHTML = "";
 
@@ -421,18 +436,18 @@ document.addEventListener("DOMContentLoaded", function () {
             );
 
 
-            /* -------------------------------------------------
+            /* -----------------------------------------
                IDENTIFICATION
-            ------------------------------------------------- */
+            ----------------------------------------- */
 
             const identification =
                 plant.identification || {};
 
-
             let identificationHTML = "";
 
-
-            if (typeof identification === "string") {
+            if (
+                typeof identification === "string"
+            ) {
 
                 identificationHTML = `
                     <p>
@@ -485,17 +500,15 @@ document.addEventListener("DOMContentLoaded", function () {
                     )}
 
                 `;
-
             }
 
 
-            /* -------------------------------------------------
+            /* -----------------------------------------
                DRAVYAGUNA
-            ------------------------------------------------- */
+            ----------------------------------------- */
 
             const dravyaguna =
                 plant.dravyaguna || {};
-
 
             const rasa =
                 dravyaguna.rasa ||
@@ -523,17 +536,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "";
 
 
-            /* -------------------------------------------------
+            /* -----------------------------------------
                THERAPEUTICS
-            ------------------------------------------------- */
+            ----------------------------------------- */
 
             const therapeutics =
                 plant.therapeutics || {};
 
-
             let therapeuticHTML = "";
 
-            if (typeof therapeutics === "string") {
+            if (
+                typeof therapeutics === "string"
+            ) {
 
                 therapeuticHTML = `
                     <p>
@@ -571,17 +585,15 @@ document.addEventListener("DOMContentLoaded", function () {
                     )}
 
                 `;
-
             }
 
 
-            /* -------------------------------------------------
+            /* -----------------------------------------
                FORMULATIONS
-            ------------------------------------------------- */
+            ----------------------------------------- */
 
             const formulations =
                 plant.formulations;
-
 
             let formulationsHTML = "";
 
@@ -590,7 +602,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 formulationsHTML =
                     createList(formulations);
 
-            } else if (typeof formulations === "string") {
+            } else if (
+                typeof formulations === "string"
+            ) {
 
                 formulationsHTML = `
                     <p>
@@ -600,28 +614,28 @@ document.addEventListener("DOMContentLoaded", function () {
 
             } else {
 
-                formulationsHTML =
-                    `<p class="not-available">
+                formulationsHTML = `
+                    <p class="not-available">
                         Not available
-                    </p>`;
-
+                    </p>
+                `;
             }
 
 
-            /* -------------------------------------------------
+            /* -----------------------------------------
                CLASSICAL INFORMATION
-            ------------------------------------------------- */
+            ----------------------------------------- */
 
             const classical =
                 plant.classical_information ||
                 plant.classical ||
                 {};
 
-
             let classicalHTML = "";
 
-
-            if (typeof classical === "string") {
+            if (
+                typeof classical === "string"
+            ) {
 
                 classicalHTML = `
                     <p>
@@ -654,21 +668,21 @@ document.addEventListener("DOMContentLoaded", function () {
                     )}
 
                 `;
-
             }
 
 
-            /* -------------------------------------------------
+            /* -----------------------------------------
                STUDENT INFORMATION
-            ------------------------------------------------- */
+            ----------------------------------------- */
 
             const student =
                 plant.student || {};
 
-
             let studentHTML = "";
 
-            if (typeof student === "string") {
+            if (
+                typeof student === "string"
+            ) {
 
                 studentHTML = `
                     <p>
@@ -701,19 +715,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     )}
 
                 `;
-
             }
 
 
-            /* =================================================
-               RENDER COMPLETE PAGE
-            ================================================= */
+            /* -----------------------------------------
+               RENDER PAGE
+            ----------------------------------------- */
 
             plantContent.innerHTML = `
-
-                <!-- =========================================
-                     HERO
-                ========================================== -->
 
                 <section class="plant-hero">
 
@@ -735,7 +744,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
                             ${
                                 sanskrit
-                                ? `<h2>${safe(sanskrit)}</h2>`
+                                ? `
+                                    <h2>
+                                        ${safe(sanskrit)}
+                                    </h2>
+                                `
                                 : ""
                             }
 
@@ -755,10 +768,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 </section>
 
-
-                <!-- =========================================
-                     BASIC IDENTITY
-                ========================================== -->
 
                 <section class="plant-section">
 
@@ -815,10 +824,43 @@ document.addEventListener("DOMContentLoaded", function () {
                 </section>
 
 
-                <!-- =========================================
-                     IMAGE GALLERY
-                ========================================== -
-</script>
+                <section class="plant-section">
+
+                    <div class="section-heading">
+
+                        <span class="section-icon">
+                            🌱
+                        </span>
+
+                        <div>
+
+                            <h2>
+                                Plant Identification
+                            </h2>
+
+                            <p>
+                                Practical identification features
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="identity-grid">
+
+                        ${identificationHTML}
+
+                    </div>
+
+                </section>
+
+
+                <section class="plant-section">
+
+                    <div class="section-heading">
+
+                        <span class="section-icon">
+                          </script>
 
 </body>
 </html>
