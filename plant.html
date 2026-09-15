@@ -533,6 +533,47 @@ if (!plantId) {
 }
 
 </script>
+<!-- Image Zoom Modal -->
+<div id="imageModal" class="image-modal">
 
+  <span class="image-modal-close">&times;</span>
+
+  <img id="modalImage" class="modal-image" src="" alt="Plant image">
+
+</div>
+
+<script>
+  const imageModal = document.getElementById("imageModal");
+  const modalImage = document.getElementById("modalImage");
+  const closeModal = document.querySelector(".image-modal-close");
+
+  document.addEventListener("click", function(event) {
+
+    if (event.target.classList.contains("plant-gallery-image")) {
+
+      modalImage.src = event.target.src;
+      modalImage.alt = event.target.alt;
+
+      imageModal.classList.add("show");
+    }
+
+  });
+
+  closeModal.addEventListener("click", function() {
+
+    imageModal.classList.remove("show");
+
+  });
+
+  imageModal.addEventListener("click", function(event) {
+
+    if (event.target === imageModal) {
+
+      imageModal.classList.remove("show");
+
+    }
+
+  });
+</script>
 </body>
 </html>
