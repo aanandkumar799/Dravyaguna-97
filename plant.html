@@ -485,24 +485,43 @@ if (!plantId) {
 
 
         <section class="info-section">
+<section class="plant-section">
 
-          <h2>🧪 Formulations</h2>
+  <h2>🧪 Classical Formulations</h2>
 
-          <div>
+  <div class="formulation-grid">
 
-            ${
-              (plant.formulations || []).length
-              ?
-              plant.formulations
-                .map(item => `<p>• ${item}</p>`)
-                .join("")
-              :
-              "<p>Formulations will be added after verification.</p>"
-            }
+    <div class="formulation-card">
+      <h3>Formulation 1</h3>
+      <p class="formulation-status">
+        Reference to be verified
+      </p>
+    </div>
 
-          </div>
+    <div class="formulation-card">
+      <h3>Formulation 2</h3>
+      <p class="formulation-status">
+        Reference to be verified
+      </p>
+    </div>
 
-        </section>
+    <div class="formulation-card">
+      <h3>Formulation 3</h3>
+      <p class="formulation-status">
+        Reference to be verified
+      </p>
+    </div>
+
+  </div>
+
+  <div class="important-note">
+    <strong>Reference policy:</strong>
+    Formulation names, ingredients, indications and classical
+    references will be added only after verification from the
+    selected Ayurvedic texts.
+  </div>
+
+</section>
 
 
         <section class="info-section">
