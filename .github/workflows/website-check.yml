@@ -21,11 +21,9 @@ jobs:
 
     steps:
 
-      # 1. Download repository
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
-      # 2. Check JSON files
       - name: Check JSON files
         run: |
           echo "Checking JSON files..."
@@ -45,7 +43,6 @@ jobs:
             echo "✅ Valid JSON: $file"
           done
 
-      # 3. Check important files
       - name: Check required files
         run: |
           echo "Checking required files..."
@@ -68,7 +65,6 @@ jobs:
             echo "✅ Found: $file"
           done
 
-      # 4. Validate HTML, CSS, links and images
       - name: Validate HTML CSS Links Images
         uses: anishathalye/proof-html@v2
         with:
@@ -78,7 +74,6 @@ jobs:
           ignore_empty_alt: true
           disable_external: false
 
-      # 5. Final success message
       - name: Website health check complete
         run: |
           echo "======================================"
