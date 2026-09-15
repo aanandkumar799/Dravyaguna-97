@@ -529,3 +529,117 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+/* =================================
+   PROFESSIONAL PLANT PROFILE
+   Step 7C
+   ================================= */
+
+.plant-profile {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.plant-header {
+  text-align: center;
+  padding: 35px 25px;
+  margin-bottom: 30px;
+  border-radius: 22px;
+  background: linear-gradient(135deg, #eef8e9, #f8fcf5);
+  border: 1px solid #dcebd5;
+}
+
+.plant-header h1 {
+  margin: 0 0 8px;
+  font-size: 2.3rem;
+}
+
+.plant-header .sanskrit {
+  font-size: 1.4rem;
+  margin: 8px 0;
+}
+
+.plant-header .botanical {
+  font-style: italic;
+  font-size: 1.05rem;
+}
+
+.plant-section {
+  margin: 28px 0;
+  padding: 28px;
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #e3eadf;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.plant-section h2 {
+  margin-top: 0;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e5efdf;
+}
+
+.plant-section h3 {
+  margin-top: 0;
+}
+
+.identification-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.identification-card {
+  padding: 20px;
+  border-radius: 16px;
+  background: #f8fbf6;
+  border: 1px solid #dcebd8;
+}
+
+.identification-card p {
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+.key-identification {
+  margin-top: 25px;
+  padding: 22px;
+  border-radius: 16px;
+  background: #f1f8ed;
+}
+
+.key-identification ul {
+  padding-left: 22px;
+}
+
+.key-identification li {
+  margin-bottom: 8px;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+  .plant-profile {
+    padding: 0 12px;
+    margin-top: 20px;
+  }
+
+  .plant-header {
+    padding: 25px 15px;
+  }
+
+  .plant-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .plant-section {
+    padding: 20px 16px;
+    border-radius: 16px;
+  }
+
+  .identification-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
