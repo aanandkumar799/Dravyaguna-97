@@ -1,0 +1,793 @@
+{
+  "title": "DravyaGuna 97 — NCISM BAMS Plant Master Index",
+  "subject": "Dravyaguna Vigyan",
+  "course": "Second Professional BAMS",
+  "authority": "National Commission for Indian System of Medicine (NCISM)",
+  "subject_code": "AyUG-DG",
+  "syllabus_point": "24. Dravya (Drug) Nama-Guna-Karma Jnana",
+  "total_plants": 97,
+  "source": {
+    "title": "Course curriculum for Second Professional BAMS — Dravyaguna Vigyan",
+    "authority": "National Commission for Indian System of Medicine",
+    "url": "https://sug.ac.in/school-of-ayurveda/pdf/syllabus/NCISM_II%20BAMS_AyUG-DG.pdf"
+  },
+  "ordering": "Official NCISM syllabus order",
+  "plants": [
+    {
+      "order": 1,
+      "id": "amalaki",
+      "name": "Amalaki",
+      "sanskrit_name": "आमलकी",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 2,
+      "id": "aragwadha",
+      "name": "Aragwadha",
+      "sanskrit_name": "आरग्वध",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 3,
+      "id": "arjuna",
+      "name": "Arjuna",
+      "sanskrit_name": "अर्जुन",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 4,
+      "id": "ashoka",
+      "name": "Ashoka",
+      "sanskrit_name": "अशोक",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 5,
+      "id": "ashwagandha",
+      "name": "Ashwagandha",
+      "sanskrit_name": "अश्वगन्धा",
+      "syllabus_marker": "",
+      "status": "verified"
+    },
+    {
+      "order": 6,
+      "id": "ativisha",
+      "name": "Ativisha",
+      "sanskrit_name": "अतिविषा",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 7,
+      "id": "bala",
+      "name": "Bala",
+      "sanskrit_name": "बला",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 8,
+      "id": "beejaka",
+      "name": "Beejaka",
+      "sanskrit_name": "बीजक",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 9,
+      "id": "bhallataka",
+      "name": "Bhallataka",
+      "sanskrit_name": "भल्लातक",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 10,
+      "id": "bharangi",
+      "name": "Bharangi",
+      "sanskrit_name": "भारङ्गी",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 11,
+      "id": "bhrungaraja",
+      "name": "Bhrungaraja",
+      "sanskrit_name": "भृङ्गराज",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 12,
+      "id": "bhumyamalaki",
+      "name": "Bhumyamalaki",
+      "sanskrit_name": "भूम्यामलकी",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 13,
+      "id": "bilva",
+      "name": "Bilva",
+      "sanskrit_name": "बिल्व",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 14,
+      "id": "brahmi",
+      "name": "Brahmi",
+      "sanskrit_name": "ब्राह्मी",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 15,
+      "id": "chandana",
+      "name": "Chandana",
+      "sanskrit_name": "चन्दन",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 16,
+      "id": "chitraka",
+      "name": "Chitraka",
+      "sanskrit_name": "चित्रक",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 17,
+      "id": "dadima",
+      "name": "Dadima",
+      "sanskrit_name": "दाडिम",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 18,
+      "id": "dhataki",
+      "name": "Dhataki",
+      "sanskrit_name": "धातकी",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 19,
+      "id": "dhamasa",
+      "name": "Dhamasa",
+      "sanskrit_name": "धमासा",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 20,
+      "id": "eranda",
+      "name": "Eranda",
+      "sanskrit_name": "एरण्ड",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 21,
+      "id": "gokshura",
+      "name": "Gokshura",
+      "sanskrit_name": "गोक्षुर",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 22,
+      "id": "guduchi",
+      "name": "Guduchi",
+      "sanskrit_name": "गुडूची",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 23,
+      "id": "guggulu",
+      "name": "Guggulu",
+      "sanskrit_name": "गुग्गुलु",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 24,
+      "id": "haridra",
+      "name": "Haridra",
+      "sanskrit_name": "हरिद्रा",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 25,
+      "id": "haritaki",
+      "name": "Haritaki",
+      "sanskrit_name": "हरीतकी",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 26,
+      "id": "hingu",
+      "name": "Hingu",
+      "sanskrit_name": "हिङ्गु",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 27,
+      "id": "jambu",
+      "name": "Jambu",
+      "sanskrit_name": "जम्बू",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 28,
+      "id": "jatamansi",
+      "name": "Jatamansi",
+      "sanskrit_name": "जटामांसी",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 29,
+      "id": "jyotishmati",
+      "name": "Jyotishmati",
+      "sanskrit_name": "ज्योतिष्मती",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 30,
+      "id": "kanchanara",
+      "name": "Kanchanara",
+      "sanskrit_name": "काञ्चनार",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 31,
+      "id": "kantakari",
+      "name": "Kantakari",
+      "sanskrit_name": "कण्टकारी",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 32,
+      "id": "kapikachhu",
+      "name": "Kapikachhu",
+      "sanskrit_name": "कपिकच्छु",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 33,
+      "id": "karkatshrungi",
+      "name": "Karkatshrungi",
+      "sanskrit_name": "कर्कटशृङ्गी",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 34,
+      "id": "katuki",
+      "name": "Katuki",
+      "sanskrit_name": "कटुकी",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 35,
+      "id": "khadira",
+      "name": "Khadira",
+      "sanskrit_name": "खदिर",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 36,
+      "id": "kumari",
+      "name": "Kumari",
+      "sanskrit_name": "कुमारी",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 37,
+      "id": "kutaja",
+      "name": "Kutaja",
+      "sanskrit_name": "कुटज",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 38,
+      "id": "latakaranja",
+      "name": "Latakaranja",
+      "sanskrit_name": "लताकरञ्ज",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 39,
+      "id": "lodhra",
+      "name": "Lodhra",
+      "sanskrit_name": "लोध्र",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 40,
+      "id": "agnimanth",
+      "name": "Agnimanth",
+      "sanskrit_name": "अग्निमन्थ",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 41,
+      "id": "ahiphena",
+      "name": "Ahiphena",
+      "sanskrit_name": "अहिफेन",
+      "syllabus_marker": "NK",
+      "status": "draft"
+    },
+    {
+      "order": 42,
+      "id": "ajamoda",
+      "name": "Ajamoda",
+      "sanskrit_name": "अजमोदा",
+      "syllabus_marker": "DK",
+      "status": "draft"
+    },
+    {
+      "order": 43,
+      "id": "apamarga",
+      "name": "Apamarga",
+      "sanskrit_name": "अपामार्ग",
+      "syllabus_marker": "DK",
+      "status": "draft"
+    },
+    {
+      "order": 44,
+      "id": "asthishrunkhala",
+      "name": "Asthishrunkhala",
+      "sanskrit_name": "अस्थिशृङ्खला",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 45,
+      "id": "bakuchi",
+      "name": "Bakuchi",
+      "sanskrit_name": "बाकुची",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 46,
+      "id": "bruhati",
+      "name": "Bruhati",
+      "sanskrit_name": "बृहती",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 47,
+      "id": "chakramarda",
+      "name": "Chakramarda",
+      "sanskrit_name": "चक्रमर्द",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 48,
+      "id": "dhanyaka",
+      "name": "Dhanyaka",
+      "sanskrit_name": "धन्यक",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 49,
+      "id": "ela",
+      "name": "Ela",
+      "sanskrit_name": "एला",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 50,
+      "id": "gambhari",
+      "name": "Gambhari",
+      "sanskrit_name": "गम्भारी",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 51,
+      "id": "japa",
+      "name": "Japa",
+      "sanskrit_name": "जपा",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 52,
+      "id": "jatiphala",
+      "name": "Jatiphala",
+      "sanskrit_name": "जातिफल",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 53,
+      "id": "jeeraka",
+      "name": "Jeeraka",
+      "sanskrit_name": "जीरक",
+      "syllabus_marker": "DK",
+      "status": "draft"
+    },
+    {
+      "order": 54,
+      "id": "kalamegha",
+      "name": "Kalamegha",
+      "sanskrit_name": "कालमेघ",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 55,
+      "id": "kampillaka",
+      "name": "Kampillaka",
+      "sanskrit_name": "कम्पिल्लक",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 56,
+      "id": "kulatha",
+      "name": "Kulatha",
+      "sanskrit_name": "कुलत्थ",
+      "syllabus_marker": "NK",
+      "status": "draft"
+    },
+    {
+      "order": 57,
+      "id": "kumkum",
+      "name": "Kumkum",
+      "sanskrit_name": "कुङ्कुम",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 58,
+      "id": "lajjalu",
+      "name": "Lajjalu",
+      "sanskrit_name": "लज्जालु",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 59,
+      "id": "lavanga",
+      "name": "Lavanga",
+      "sanskrit_name": "लवङ्ग",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 60,
+      "id": "madanphala",
+      "name": "Madanphala",
+      "sanskrit_name": "मदनफल",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 61,
+      "id": "mandukaparni",
+      "name": "Mandukaparni",
+      "sanskrit_name": "मण्डूकपर्णी",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 62,
+      "id": "manjishta",
+      "name": "Manjishta",
+      "sanskrit_name": "मञ्जिष्ठा",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 63,
+      "id": "maricha",
+      "name": "Maricha",
+      "sanskrit_name": "मरिच",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 64,
+      "id": "meshshrungi",
+      "name": "Meshashrungi",
+      "sanskrit_name": "मेषशृङ्गी",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 65,
+      "id": "methika",
+      "name": "Methika",
+      "sanskrit_name": "मेथिका",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 66,
+      "id": "musta",
+      "name": "Musta",
+      "sanskrit_name": "मुस्ता",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 67,
+      "id": "nagkeshar",
+      "name": "Nagkeshar",
+      "sanskrit_name": "नागकेशर",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 68,
+      "id": "nimba",
+      "name": "Nimba",
+      "sanskrit_name": "निम्ब",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 69,
+      "id": "nirgundi",
+      "name": "Nirgundi",
+      "sanskrit_name": "निर्गुण्डी",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 70,
+      "id": "palasha",
+      "name": "Palasha",
+      "sanskrit_name": "पलाश",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 71,
+      "id": "pashanabheda",
+      "name": "Pashanabheda",
+      "sanskrit_name": "पाषाणभेद",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 72,
+      "id": "patha",
+      "name": "Patha",
+      "sanskrit_name": "पाठा",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 73,
+      "id": "pippali",
+      "name": "Pippali",
+      "sanskrit_name": "पिप्पली",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 74,
+      "id": "punarnava",
+      "name": "Punarnava",
+      "sanskrit_name": "पुनर्नवा",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 75,
+      "id": "rasna",
+      "name": "Rasna",
+      "sanskrit_name": "रास्ना",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 76,
+      "id": "rasona",
+      "name": "Rasona",
+      "sanskrit_name": "रसोना",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 77,
+      "id": "sarpagandha",
+      "name": "Sarapagandha",
+      "sanskrit_name": "सर्पगन्धा",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 78,
+      "id": "sairayak",
+      "name": "Sairayak",
+      "sanskrit_name": "सैरयक",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 79,
+      "id": "sariva",
+      "name": "Sariva",
+      "sanskrit_name": "सारिवा",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 80,
+      "id": "shallaki",
+      "name": "Shallaki",
+      "sanskrit_name": "शल्लकी",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 81,
+      "id": "shalmali-mocharasa",
+      "name": "Shalmali (Mocharasa)",
+      "sanskrit_name": "शाल्मली (मोचरसा)",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 82,
+      "id": "shankhapushpi",
+      "name": "Shankhapushpi",
+      "sanskrit_name": "शङ्खपुष्पी",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 83,
+      "id": "shatavari",
+      "name": "Shatavari",
+      "sanskrit_name": "शतावरी",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 84,
+      "id": "shigru",
+      "name": "Shigru",
+      "sanskrit_name": "शिग्रु",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 85,
+      "id": "shunthi",
+      "name": "Shunthi",
+      "sanskrit_name": "शुण्ठी",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 86,
+      "id": "talisapatra",
+      "name": "Talisapatra",
+      "sanskrit_name": "तालिसपत्र",
+      "syllabus_marker": "NK",
+      "status": "draft"
+    },
+    {
+      "order": 87,
+      "id": "trivrut",
+      "name": "Trivrut",
+      "sanskrit_name": "त्रिवृत्",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 88,
+      "id": "tulasi",
+      "name": "Tulasi",
+      "sanskrit_name": "तुलसी",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 89,
+      "id": "twak",
+      "name": "Twak",
+      "sanskrit_name": "त्वक्",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 90,
+      "id": "usheera",
+      "name": "Usheera",
+      "sanskrit_name": "उशीर",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 91,
+      "id": "vacha",
+      "name": "Vacha",
+      "sanskrit_name": "वचा",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 92,
+      "id": "varuna",
+      "name": "Varuna",
+      "sanskrit_name": "वरुण",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 93,
+      "id": "vasa",
+      "name": "Vasa",
+      "sanskrit_name": "वासा",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 94,
+      "id": "vatsanabha",
+      "name": "Vatsanabha",
+      "sanskrit_name": "वत्सनाभ",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 95,
+      "id": "vibhitaki",
+      "name": "Vibhitaki",
+      "sanskrit_name": "विभीतकी",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 96,
+      "id": "vidanga",
+      "name": "Vidanga",
+      "sanskrit_name": "विडङ्ग",
+      "syllabus_marker": "",
+      "status": "draft"
+    },
+    {
+      "order": 97,
+      "id": "yashtimadhu",
+      "name": "Yashtimadhu",
+      "sanskrit_name": "यष्टिमधु",
+      "syllabus_marker": "",
+      "status": "draft"
+    }
+  ]
+}
