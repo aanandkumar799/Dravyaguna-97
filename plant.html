@@ -624,37 +624,96 @@ if (!plantId) {
 </div>
 
 <script>
-  const imageModal = document.getElementById("imageModal");
-  const modalImage = document.getElementById("modalImage");
-  const closeModal = document.querySelector(".image-modal-close");
+const plantId = new URLSearchParams(window.location.search).get("id");
 
-  document.addEventListener("click", function(event) {
+const loading = document.getElementById("loading");
+const error = document.getElementById("error");
+const content = document.getElementById("plant-content");
 
-    if (event.target.classList.contains("plant-gallery-image")) {
-
-      modalImage.src = event.target.src;
-      modalImage.alt = event.target.alt;
-
-      imageModal.classList.add("show");
+if (!plantId) {
+    if (loading) loading.style.display = "none";
+    if (error) {
+        error.style.display = "block";
+        error.innerHTML = "No plant ID found in the URL.";
     }
+} else {
 
-  });
+    fetch("./plants.json")
+        .then(response => {
 
-  closeModal.addEventListener("click", function() {
+            if (!response.ok) {
+                throw new Error(
+                    "plants.json could not be loaded. HTTP status: " +
+                    response.status
+                );
+            }
 
-    imageModal.classList.remove("show");
+            return response.json();
+        })
 
-  });
+        .then(plants => {
 
-  imageModal.addEventListener("click", function(event) {
+            console.log("Plant ID:", plantId);
+            console.log("Plants loaded:", plants);
 
-    if (event.target === imageModal) {
+            const plant = plants.find(
+                item =>
+                    String(item.id).trim().toLowerCase() ===
+                    String(plantId).trim().toLowerCase()
+            );
 
-      imageModal.classList.remove("show");
+            if (!plant) {
+                throw new Error(
+                    "Plant not found in plants.json: " + plantId
+                );
+            }
 
-    }
+            // Hide loading message
+            if (loading) loading.style.display = "none";
 
-  });
+            // Show plant content
+            if (content) content.style.display = "block";
+
+            // Basic identity
+            const name = document.getElementById("plant-name");
+            const sanskrit = document.getElementById("sanskrit-name");
+            const botanical = document.getElementById("botanical-name");
+            const family = document.getElementById("family");
+
+            if (name) name.textContent = plant.name || "";
+            if (sanskrit) sanskrit.textContent = plant.sanskrit_name || "";
+            if (botanical) botanical.textContent = plant.botanical_name || "";
+            if (family) family.textContent = plant.family || "";
+
+            console.log("Plant loaded successfully:", plant);
+
+        })
+
+        .catch(error => {
+
+            console.error("Plant loading error:", error);
+
+            if (loading) {
+                loading.style.display = "none";
+            }
+
+            if (content) {
+                content.style.display = "none";
+            }
+
+            if (error) {
+                error.style.display = "block";
+                error.innerHTML = `
+                    <h2>⚠️ Error loading plant</h2>
+                    <p>${error.message}</p>
+                    <p>Please check that <strong>plants.json</strong>
+                    is present in the repository.</p>
+                `;
+            }
+
+        });
+}
+</script>
 </script>
 </body>
 </html>
