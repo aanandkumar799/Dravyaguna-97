@@ -1,241 +1,184 @@
 document.addEventListener("DOMContentLoaded", function () {
+  const plantList = document.getElementById("plant-list");
+  const searchInput = document.getElementById("search");
 
-    const plantList = document.getElementById("plant-list");
-    const searchInput = document.getElementById("search");
+  if (!plantList) {
+    console.error("Plant list element not found.");
+    return;
+  }
 
-    if (!plantList) {
-        console.error("plant-list not found");
-        return;
-    }
+  let plants = [];
 
-    let plants = [];
+  // Show loading message
+  plantList.innerHTML = `
+    <p class="loading-message">
+      Loading plants...
+    </p>
+  `;
 
-    // ============================
-    // LOAD DATABASE
-    // ============================
-
-    fetch("./plants.json?v=10", {
-        cache: "no-store"
-    })
-
+  // Load plant database
+  fetch("./plants.json?v=8", {
+    cache: "no-store"
+  })
     .then(function (response) {
+      if (!response.ok) {
+        throw new Error(
+          "plants.json could not be loaded. HTTP status: " +
+            response.status
+        );
+      }
 
-        if (!response.ok) {
-            throw new Error(
-                "Cannot load plants.json. HTTP " +
-                response.status
-            );
-        }
-
-        return response.json();
-
+      return response.text();
     })
+    .then(function (text) {
+      if (!text.trim()) {
+        throw new Error("plants.json is empty.");
+      }
 
+      try {
+        return JSON.parse(text);
+      } catch (error) {
+        throw new Error(
+          "plants.json contains invalid JSON: " + error.message
+        );
+      }
+    })
     .then(function (data) {
+      if (!Array.isArray(data)) {
+        throw new Error("Plant database must be a JSON array.");
+      }
 
-        if (!Array.isArray(data)) {
-            throw new Error(
-                "plants.json must contain a JSON array."
-            );
-        }
+      plants = data;
 
-        plants = data;
-
-        console.log(
-            "Plant database loaded:",
-            plants
-        );
-
-        displayPlants(plants);
-
+      displayPlants(plants);
     })
-
     .catch(function (error) {
+      console.error("DravyaGuna 97:", error);
 
-        console.error(
-            "Database error:",
-            error
-        );
-
-        plantList.innerHTML = `
-            <div class="database-error">
-
-                <h3>
-                    ⚠️ Unable to load plant database
-                </h3>
-
-                <p>
-                    ${error.message}
-                </p>
-
-            </div>
-        `;
-
+      plantList.innerHTML = `
+        <div class="database-error">
+          <h3>Unable to load plant database</h3>
+          <p>Please refresh the page and try again.</p>
+        </div>
+      `;
     });
 
+  // Display plant cards
+  function displayPlants(list) {
+    plantList.innerHTML = "";
 
-    // ============================
-    // DISPLAY PLANTS
-    // ============================
+    if (!list || list.length === 0) {
+      plantList.innerHTML = `
+        <div class="database-error">
+          <h3>No plants found</h3>
+          <p>Try another search.</p>
+        </div>
+      `;
+      return;
+    }
 
-    function displayPlants(list) {
+    list.forEach(function (plant) {
+      if (!plant || !plant.id) {
+        return;
+      }
 
-        plantList.innerHTML = "";
+      const card = document.createElement("div");
+      card.className = "user-card plant-card";
 
-        if (!list.length) {
+      const name =
+        plant.name ||
+        plant.sanskrit_name ||
+        "Unnamed Plant";
 
-            plantList.innerHTML = `
-                <div class="no-results">
+      const sanskrit =
+        plant.sanskrit_name || "";
 
-                    <h3>
-                        🌿 No plants found
-                    </h3>
+      const botanical =
+        plant.botanical_name || "";
 
-                    <p>
-                        Try another search term.
-                    </p>
+      const family =
+        plant.family || "";
 
-                </div>
-            `;
+      card.innerHTML = `
+        <div class="icon">🌿</div>
 
-            return;
+        <h2>${escapeHTML(name)}</h2>
+
+        ${
+          sanskrit
+            ? `<p>${escapeHTML(sanskrit)}</p>`
+            : ""
         }
 
+        ${
+          botanical
+            ? `<p><em>${escapeHTML(botanical)}</em></p>`
+            : ""
+        }
 
-        list.forEach(function (plant) {
+        ${
+          family
+            ? `<p>Family: ${escapeHTML(family)}</p>`
+            : ""
+        }
 
-            const card =
-                document.createElement("article");
+        <a
+          href="./plant.html?id=${encodeURIComponent(plant.id)}"
+          class="plant-button"
+        >
+          View Plant →
+        </a>
+      `;
 
-            card.className = "plant-card";
+      plantList.appendChild(card);
+    });
+  }
 
+  // Search
+  if (searchInput) {
+    searchInput.addEventListener("input", function () {
+      const query = searchInput.value
+        .trim()
+        .toLowerCase();
 
-            let imageHTML = "";
+      if (!query) {
+        displayPlants(plants);
+        return;
+      }
 
-            if (
-                plant.images &&
-                plant.images.whole_plant
-            ) {
+      const filteredPlants = plants.filter(function (plant) {
+        if (!plant) {
+          return false;
+        }
 
-                imageHTML = `
-                    <img
-                        src="${plant.images.whole_plant}"
-                        alt="${plant.name || "Plant"}"
-                        class="plant-card-image"
-                        onerror="this.style.display='none'"
-                    >
-                `;
+        const searchableText = [
+          plant.name,
+          plant.sanskrit_name,
+          plant.transliteration,
+          plant.botanical_name,
+          plant.family,
+          plant.english_name,
+          plant.hindi_name,
+          plant.id
+        ]
+          .filter(Boolean)
+          .join(" ")
+          .toLowerCase();
 
-            } else {
+        return searchableText.includes(query);
+      });
 
-                imageHTML = `
-                    <div class="plant-card-placeholder">
-                        🌿
-                    </div>
-                `;
+      displayPlants(filteredPlants);
+    });
+  }
 
-            }
-
-
-            card.innerHTML = `
-
-                ${imageHTML}
-
-                <div class="plant-card-content">
-
-                    <h2>
-                        ${plant.name || "Unnamed Plant"}
-                    </h2>
-
-                    <p class="sanskrit-name">
-                        ${plant.sanskrit_name || ""}
-                    </p>
-
-                    <p class="botanical-name">
-                        ${plant.botanical_name || ""}
-                    </p>
-
-                    <p>
-                        <strong>Family:</strong>
-                        ${plant.family || "-"}
-                    </p>
-
-                    <a
-    href="plant.html?id=${plant.id}"
-    class="plant-button"
->
-    View Plant →
-</a>
-
-                </div>
-
-            `;
-
-
-            plantList.appendChild(card);
-
-        });
-
-    }
-
-
-    // ============================
-    // SEARCH
-    // ============================
-
-    if (searchInput) {
-
-        searchInput.addEventListener(
-            "input",
-            function () {
-
-                const query =
-                    searchInput.value
-                        .toLowerCase()
-                        .trim();
-
-
-                if (!query) {
-
-                    displayPlants(plants);
-
-                    return;
-
-                }
-
-
-                const filtered =
-                    plants.filter(function (plant) {
-
-                        return [
-
-                            plant.name,
-                            plant.sanskrit_name,
-                            plant.transliteration,
-                            plant.botanical_name,
-                            plant.family,
-                            plant.english_name,
-                            plant.hindi_name
-
-                        ]
-                        .filter(Boolean)
-                        .some(function (value) {
-
-                            return value
-                                .toString()
-                                .toLowerCase()
-                                .includes(query);
-
-                        });
-
-                    });
-
-
-                displayPlants(filtered);
-
-            }
-        );
-
-    }
-
+  // Prevent broken HTML if plant data contains special characters
+  function escapeHTML(value) {
+    return String(value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  }
 });
