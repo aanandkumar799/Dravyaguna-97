@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let plants = [];
 
   const databaseURL =
-    new URL("plants.json", window.location.href).href + "?v=20";
+    new URL("plants.json", window.location.href).href + "?v=21";
 
   function escapeHTML(value) {
     if (value === null || value === undefined) return "";
@@ -23,42 +23,69 @@ document.addEventListener("DOMContentLoaded", () => {
       .replace(/'/g, "&#039;");
   }
 
+  function arrayToText(value) {
+    if (Array.isArray(value)) return value.join(", ");
+    return value || "";
+  }
+
+  function getIdentity(plant) {
+    return plant.identity || {};
+  }
+
   function getPlantName(plant) {
+    const identity = getIdentity(plant);
+
     return (
-      plant?.identity?.name ||
-      plant?.name ||
+      identity.name ||
+      plant.name ||
       "Unnamed Plant"
     );
   }
 
-  function getBotanicalName(plant) {
+  function getSanskritName(plant) {
+    const identity = getIdentity(plant);
+
     return (
-      plant?.identity?.botanical_name ||
-      plant?.botanical_name ||
+      identity.sanskrit_name ||
+      plant.sanskrit_name ||
       ""
     );
   }
 
-  function getSanskritName(plant) {
+  function getBotanicalName(plant) {
+    const identity = getIdentity(plant);
+
     return (
-      plant?.identity?.sanskrit_name ||
-      plant?.sanskrit_name ||
+      identity.botanical_name ||
+      plant.botanical_name ||
       ""
     );
   }
 
   function getFamily(plant) {
+    const identity = getIdentity(plant);
+
     return (
-      plant?.identity?.family ||
-      plant?.family ||
+      identity.family ||
+      plant.family ||
+      ""
+    );
+  }
+
+  function getEnglishName(plant) {
+    const identity = getIdentity(plant);
+
+    return (
+      identity.english_name ||
       ""
     );
   }
 
   function getImage(plant) {
     return (
-      plant?.images?.whole_plant ||
-      plant?.images?.habit ||
+      plant.images?.whole_plant ||
+      plant.images?.habit ||
+      plant.image ||
       ""
     );
   }
@@ -68,7 +95,10 @@ document.addEventListener("DOMContentLoaded", () => {
       plantList.innerHTML = `
         <div class="empty-state">
           <h3>No plants found</h3>
-          <p>Try another plant name, Sanskrit name, botanical name or family.</p>
+          <p>
+            Try searching by plant name, Sanskrit name,
+            botanical name, family or synonym.
+          </p>
         </div>
       `;
       return;
@@ -76,11 +106,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     plantList.innerHTML = list
       .map((plant) => {
-        const id = escapeHTML(plant.id || "");
-        const name = escapeHTML(getPlantName(plant));
-        const sanskrit = escapeHTML(getSanskritName(plant));
-        const botanical = escapeHTML(getBotanicalName(plant));
-        const family = escapeHTML(getFamily(plant));
+        const id = plant.id || "";
+        const name = getPlantName(plant);
+        const sanskrit = getSanskritName(plant);
+        const botanical = getBotanicalName(plant);
+        const family = getFamily(plant);
+        const english = getEnglishName(plant);
         const image = getImage(plant);
 
         return `
@@ -92,13 +123,16 @@ document.addEventListener("DOMContentLoaded", () => {
                   <div class="plant-card-image">
                     <img
                       src="${escapeHTML(image)}"
-                      alt="${name} - whole plant"
+                      alt="${escapeHTML(name)} - whole plant"
                       loading="lazy"
                     >
                   </div>
                 `
                 : `
-                  <div class="plant-card-image plant-image-placeholder">
+                  <div
+                    class="plant-card-image plant-image-placeholder"
+                    aria-hidden="true"
+                  >
                     <span>🌿</span>
                   </div>
                 `
@@ -106,34 +140,54 @@ document.addEventListener("DOMContentLoaded", () => {
 
             <div class="plant-card-content">
 
-              <h3>${name}</h3>
+              <h3>${escapeHTML(name)}</h3>
 
               ${
                 sanskrit
-                  ? `<p class="sanskrit-name">${sanskrit}</p>`
+                  ? `
+                    <p class="sanskrit-name">
+                      ${escapeHTML(sanskrit)}
+                    </p>
+                  `
                   : ""
               }
 
               ${
                 botanical
-                  ? `<p class="botanical-name">${botanical}</p>`
+                  ? `
+                    <p class="botanical-name">
+                      ${escapeHTML(botanical)}
+                    </p>
+                  `
+                  : ""
+              }
+
+              ${
+                english
+                  ? `
+                    <p>
+                      <strong>English:</strong>
+                      ${escapeHTML(english)}
+                    </p>
+                  `
                   : ""
               }
 
               ${
                 family
-                  ? `<p class="plant-family">
-                      <strong>Family:</strong> ${family}
-                    </p>`
+                  ? `
+                    <p class="plant-family">
+                      <strong>Family:</strong>
+                      ${escapeHTML(family)}
+                    </p>
+                  `
                   : ""
               }
 
               <a
                 class="plant-card-button"
-                href="./plant.html?id=${encodeURIComponent(
-                  plant.id || ""
-                )}"
-                aria-label="View details of ${name}"
+                href="./plant.html?id=${encodeURIComponent(id)}"
+                aria-label="View details of ${escapeHTML(name)}"
               >
                 View Plant →
               </a>
@@ -145,39 +199,88 @@ document.addEventListener("DOMContentLoaded", () => {
       .join("");
   }
 
+  function buildSearchText(plant) {
+    const identity = getIdentity(plant);
+
+    const fields = [
+      plant.id,
+
+      identity.name,
+      identity.sanskrit_name,
+      identity.transliteration,
+      identity.botanical_name,
+      identity.family,
+      identity.english_name,
+      identity.hindi_name,
+
+      arrayToText(identity.regional_names),
+      arrayToText(identity.synonyms),
+
+      plant.name,
+      plant.sanskrit_name,
+      plant.botanical_name,
+      plant.family,
+
+      plant.classification?.habit,
+      plant.classification?.habitat,
+
+      plant.identification?.description,
+      plant.identification?.identification_points
+        ? arrayToText(
+            plant.identification.identification_points
+          )
+        : "",
+
+      plant.dravya_guna?.rasa
+        ? arrayToText(plant.dravya_guna.rasa)
+        : "",
+
+      plant.dravya_guna?.guna
+        ? arrayToText(plant.dravya_guna.guna)
+        : "",
+
+      plant.dravya_guna?.virya,
+      plant.dravya_guna?.vipaka,
+
+      plant.dravya_guna?.karma
+        ? arrayToText(plant.dravya_guna.karma)
+        : "",
+
+      plant.therapeutics?.indications
+        ? arrayToText(plant.therapeutics.indications)
+        : "",
+
+      plant.student?.exam_points
+        ? arrayToText(plant.student.exam_points)
+        : ""
+    ];
+
+    return fields
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+  }
+
   function filterPlants() {
-    const query = searchInput
-      ? searchInput.value.trim().toLowerCase()
-      : "";
+    if (!searchInput) {
+      renderPlants(plants);
+      return;
+    }
+
+    const query = searchInput.value
+      .trim()
+      .toLowerCase();
 
     if (!query) {
       renderPlants(plants);
       return;
     }
 
-    const filtered = plants.filter((plant) => {
-      const identity = plant.identity || {};
+    const filteredPlants = plants.filter((plant) =>
+      buildSearchText(plant).includes(query)
+    );
 
-      const searchableText = [
-        plant.id,
-        identity.name,
-        identity.sanskrit_name,
-        identity.transliteration,
-        identity.botanical_name,
-        identity.family,
-        identity.english_name,
-        identity.hindi_name,
-        ...(identity.regional_names || []),
-        ...(identity.synonyms || [])
-      ]
-        .filter(Boolean)
-        .join(" ")
-        .toLowerCase();
-
-      return searchableText.includes(query);
-    });
-
-    renderPlants(filtered);
+    renderPlants(filteredPlants);
   }
 
   async function loadPlants() {
@@ -196,7 +299,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (!response.ok) {
         throw new Error(
-          `Database request failed: ${response.status}`
+          `plants.json request failed: ${response.status}`
         );
       }
 
@@ -208,25 +311,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
       try {
         plants = JSON.parse(text);
-      } catch (jsonError) {
+      } catch (error) {
         throw new Error(
           "plants.json contains invalid JSON."
         );
       }
 
-      if (Array.isArray(plants)) {
-        // Legacy format: an array of plant records.
-        plants = plants;
-      } else if (
-        plants &&
-        typeof plants === "object" &&
-        plants.id
-      ) {
-        // Current format: one complete plant record as an object.
-        plants = [plants];
-      } else {
+      if (!Array.isArray(plants)) {
         throw new Error(
-          "plants.json must contain a plant record or an array of plant records."
+          "plants.json must contain an array of plant records."
         );
       }
 
@@ -234,12 +327,24 @@ document.addEventListener("DOMContentLoaded", () => {
         (plant) =>
           plant &&
           typeof plant === "object" &&
-          plant.id
+          typeof plant.id === "string" &&
+          plant.id.trim() !== ""
       );
+
+      if (!plants.length) {
+        throw new Error(
+          "No valid plant records were found."
+        );
+      }
 
       renderPlants(plants);
 
       if (searchInput) {
+        searchInput.removeEventListener(
+          "input",
+          filterPlants
+        );
+
         searchInput.addEventListener(
           "input",
           filterPlants
@@ -247,17 +352,22 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       console.log(
-        `DravyaGuna database loaded: ${plants.length} plant(s)`
+        `DravyaGuna database loaded successfully: ${plants.length} plant(s)`
       );
 
     } catch (error) {
-      console.error("Plant database error:", error);
+      console.error(
+        "DravyaGuna database error:",
+        error
+      );
 
       plantList.innerHTML = `
         <div class="error-state">
           <h3>Unable to load plant database</h3>
+
           <p>
-            Please check the plants.json file and try again.
+            The plant database could not be loaded.
+            Please try again.
           </p>
 
           <button
