@@ -1,431 +1,278 @@
-{
-  "id": "ashwagandha",
+[
+  {
+    "id": "ashwagandha",
 
-  "identity": {
-    "name": "Ashwagandha",
-    "sanskrit_name": "अश्वगन्धा",
-    "transliteration": "Aśvagandhā",
-    "botanical_name": "Withania somnifera (L.) Dunal",
-    "family": "Solanaceae",
-    "english_name": "Winter Cherry",
-    "common_names": [
-      "Indian Ginseng",
-      "Winter Cherry"
-    ],
-    "hindi_name": "अश्वगंधा",
-    "regional_names": [],
-    "synonyms": [
-      "अश्वगन्धा",
-      "अश्वकन्दा",
-      "वाराहकर्णी",
-      "वाजीगन्धा",
-      "बलदा",
-      "वरा"
-    ],
-    "name_meaning": "Aśvagandhā is traditionally explained in relation to the horse-like odour of the root and the strength associated with a horse."
-  },
-
-  "classification": {
-    "kingdom": "Plantae",
-    "phylum": "Streptophyta",
-    "class": "Equisetopsida",
-    "subclass": "Magnoliidae",
-    "order": "Solanales",
-    "family": "Solanaceae",
-    "genus": "Withania",
-    "species": "Withania somnifera",
-    "habit": "Subshrub or shrub",
-    "habitat": "Subtropical, semi-arid and relatively dry regions",
-    "distribution": "Native range extends from southern Europe to Central China and from Africa to Myanmar; present in India and many other regions."
-  },
-
-  "identification": {
-    "description": "An erect, branched, tomentose subshrub with ovate leaves, small greenish-yellow flowers and globose red berries enclosed by an enlarged persistent calyx.",
-    "whole_plant": "Small erect branched shrub or subshrub, commonly about 0.5–2 m depending on growing conditions, with greyish or whitish tomentose stems.",
-    "root": "The medicinal part in the Ayurvedic Pharmacopoeia is the dried mature root. Roots are generally stout, tapering and branched, with a characteristic odour.",
-    "stem": "Erect, branched and greyish-tomentose; young stems are covered with fine hairs.",
-    "leaf": "Simple, generally ovate to obovate or oblong, with entire or nearly entire margins; leaves may be tomentose, especially beneath.",
-    "flower": "Small, greenish to yellowish flowers occurring mainly in axillary clusters.",
-    "fruit": "Globose berry, approximately 5–8 mm in diameter, shiny and red when mature, enclosed by and exceeded by the enlarged persistent calyx.",
-    "seed": "Small, approximately 2 mm in diameter, reticulate seeds.",
-    "bark": "Stem bark is not the official Ayurvedic drug part. The official medicinal material is the dried mature root.",
-    "identification_points": [
-      "Erect branched tomentose habit",
-      "Ovate to oblong simple leaves",
-      "Small greenish-yellow axillary flowers",
-      "Red globose berries",
-      "Enlarged persistent calyx surrounding the fruit",
-      "Characteristic root odour",
-      "Dried mature root is the official Ayurvedic drug material"
-    ]
-  },
-
-  "images": {
-    "whole_plant": "images/plants/ashwagandha/whole-plant.webp",
-    "habit": "images/plants/ashwagandha/habit.webp",
-    "root": "images/plants/ashwagandha/root.webp",
-    "stem": "images/plants/ashwagandha/stem.webp",
-    "leaf": "images/plants/ashwagandha/leaf.webp",
-    "flower": "images/plants/ashwagandha/flower.webp",
-    "fruit": "images/plants/ashwagandha/fruit.webp",
-    "seed": "images/plants/ashwagandha/seed.webp",
-    "bark": "images/plants/ashwagandha/bark.webp"
-  },
-
-  "dravya_guna": {
-    "rasa": [
-      "Madhura",
-      "Tikta",
-      "Kashaya"
-    ],
-    "guna": [
-      "Laghu",
-      "Snigdha"
-    ],
-    "virya": "Ushna",
-    "vipaka": "Madhura",
-    "prabhava": "",
-    "karma": [
-      "Rasayana",
-      "Balya",
-      "Vajikarana"
-    ],
-    "source_note": "Ayurvedic property descriptions vary somewhat among secondary databases and publications. The values above follow the pharmacological profile reported in Ayurvedic sources consulted during this research; the primary edition/page should be checked before marking a classical citation as fully verified."
-  },
-
-  "dosha": {
-    "vata": "Shamaka",
-    "pitta": "May increase with excessive use because of Ushna Virya",
-    "kapha": "Generally described as Kapha-modulating; classical descriptions vary by source",
-    "overall": "Primarily used as a Vata-pacifying and strengthening drug; exact Dosha interpretation should be read with Rasa, Guna and Virya."
-  },
-
-  "therapeutics": {
-    "official_useful_part": [
-      "Dried mature root"
-    ],
-    "useful_part": [
-      "Root"
-    ],
-    "indications": [
-      "General debility",
-      "Weakness",
-      "Convalescence",
-      "Vata-related disorders",
-      "Conditions requiring strengthening and nourishment",
-      "Selected Rasayana applications",
-      "Selected Vajikarana applications"
-    ],
-    "therapeutic_actions": [
-      "Rasayana",
-      "Balya",
-      "Vajikarana",
-      "Brimhana",
-      "Vata-shamaka"
-    ],
-    "dose": "Root powder: 3–6 g/day according to CCRAS technical specifications citing the Ayurvedic Pharmacopoeia of India.",
-    "anupana": "Anupana is preparation- and indication-dependent; milk and ghee are traditionally used with suitable Ashwagandha preparations, but the vehicle should not be treated as universal.",
-    "duration": "Condition-dependent; duration should be determined according to formulation, indication and professional clinical assessment.",
-    "precautions": [
-      "Do not automatically substitute leaf preparations for the official root drug.",
-      "Dose of a standardized extract cannot be directly equated with the dose of crude root powder.",
-      "Use cautiously when there may be drug interactions or relevant medical conditions."
-    ],
-    "contraindications": [
-      "Pregnancy: NCCIH advises avoiding use.",
-      "Breastfeeding: NCCIH advises avoiding use because safety information is insufficient.",
-      "Before surgery: NCCIH advises avoidance.",
-      "Autoimmune disorders: NCCIH advises against use.",
-      "Thyroid disorders: NCCIH advises against use."
-    ],
-    "modern_safety_note": "NCCIH reports that short-term use up to about 3 months may be safe for some people, but long-term safety is not established. Reported adverse effects include drowsiness, gastrointestinal upset, diarrhoea and vomiting; rare cases of liver injury have also been reported."
-  },
-
-  "formulations": [
-    {
-      "name": "Ashvagandhadyarishta",
-      "dosage_form": "Arishta",
-      "indication": "Traditional strengthening and Rasayana applications",
-      "reference": "Classical formulation; primary textual reference should be verified before publication."
+    "identity": {
+      "name": "Ashwagandha",
+      "sanskrit_name": "अश्वगन्धा",
+      "transliteration": "Aśvagandhā",
+      "botanical_name": "Withania somnifera (L.) Dunal",
+      "family": "Solanaceae",
+      "english_name": "Winter Cherry",
+      "hindi_name": "अश्वगंधा",
+      "regional_names": [],
+      "synonyms": []
     },
-    {
-      "name": "Ashvagandhadi Churna",
-      "dosage_form": "Churna",
-      "indication": "Traditional strengthening and Vata-related applications",
-      "reference": "Classical formulation; primary textual reference should be verified before publication."
-    },
-    {
-      "name": "Ashvagandha Rasayana",
-      "dosage_form": "Rasayana preparation",
-      "indication": "Rasayana and strengthening applications",
-      "reference": "Classical formulation; primary textual reference should be verified before publication."
-    },
-    {
-      "name": "Ashvagandhadi Lehya",
-      "dosage_form": "Lehya",
-      "indication": "Traditional strengthening and nourishing applications",
-      "reference": "Classical formulation; primary textual reference should be verified before publication."
-    },
-    {
-      "name": "Brihat Ashvagandha Ghrita",
-      "dosage_form": "Ghrita",
-      "indication": "Traditional Rasayana and Vata-related applications",
-      "reference": "Classical formulation; primary textual reference should be verified before publication."
-    },
-    {
-      "name": "Sukumara Ghrita",
-      "dosage_form": "Ghrita",
-      "indication": "Traditional Vata-related and reproductive applications",
-      "reference": "Classical formulation; primary textual reference should be verified before publication."
-    },
-    {
-      "name": "Maharasnadi Kwatha",
-      "dosage_form": "Kwatha",
-      "indication": "Traditional musculoskeletal and Vata-related applications",
-      "reference": "Classical formulation containing Ashwagandha; primary textual reference should be verified before publication."
-    },
-    {
-      "name": "Narayana Taila",
-      "dosage_form": "Taila",
-      "indication": "Traditional external Vata-related applications",
-      "reference": "Classical formulation containing Ashwagandha; primary textual reference should be verified before publication."
-    },
-    {
-      "name": "Mahanarayana Taila",
-      "dosage_form": "Taila",
-      "indication": "Traditional external Vata-related applications",
-      "reference": "Classical formulation containing Ashwagandha; primary textual reference should be verified before publication."
-    }
-  ],
 
-  "classical_reference": {
-    "shlokas": [],
-    "shloka_policy": "No Sanskrit verse has been inserted into this master record without primary-text verification. Verified verses will be added after checking the exact edition, chapter and verse number.",
-    "nighantu_references": [
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "Subshrub",
+      "habitat": "Dry and semi-arid regions",
+      "distribution": "India and other parts of Asia and Africa"
+    },
+
+    "identification": {
+      "description": "An erect, branched, tomentose subshrub with ovate leaves, small greenish-yellow flowers and red berries enclosed by an enlarged persistent calyx.",
+      "whole_plant": "Erect, branched, greyish-tomentose subshrub.",
+      "root": "Stout, tapering, branched root with characteristic odour; dried mature root is the official Ayurvedic medicinal part.",
+      "stem": "Erect, branched and tomentose.",
+      "leaf": "Simple, ovate to oblong leaves.",
+      "flower": "Small greenish-yellow flowers, generally in axillary clusters.",
+      "fruit": "Globose red berry enclosed by an enlarged persistent calyx.",
+      "seed": "Small reticulate seeds.",
+      "bark": "Stem bark is not the official medicinal part.",
+      "identification_points": [
+        "Erect branched tomentose habit",
+        "Ovate leaves",
+        "Small greenish-yellow flowers",
+        "Red globose berries",
+        "Enlarged persistent calyx",
+        "Characteristic root odour"
+      ]
+    },
+
+    "images": {
+      "whole_plant": "images/plants/ashwagandha/whole-plant.webp",
+      "root": "images/plants/ashwagandha/root.webp",
+      "stem": "images/plants/ashwagandha/stem.webp",
+      "leaf": "images/plants/ashwagandha/leaf.webp",
+      "flower": "images/plants/ashwagandha/flower.webp",
+      "fruit": "images/plants/ashwagandha/fruit.webp",
+      "seed": "images/plants/ashwagandha/seed.webp",
+      "bark": "images/plants/ashwagandha/bark.webp",
+      "habit": "images/plants/ashwagandha/habit.webp"
+    },
+
+    "dravya_guna": {
+      "rasa": [
+        "Madhura",
+        "Tikta",
+        "Kashaya"
+      ],
+      "guna": [
+        "Laghu",
+        "Snigdha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "prabhava": "",
+      "karma": [
+        "Rasayana",
+        "Balya",
+        "Vajikarana"
+      ]
+    },
+
+    "dosha": {
+      "vata": "Shamaka",
+      "pitta": "",
+      "kapha": ""
+    },
+
+    "therapeutics": {
+      "useful_part": [
+        "Dried mature root"
+      ],
+      "indications": [
+        "General weakness",
+        "Debility",
+        "Vata-related conditions",
+        "Rasayana applications",
+        "Vajikarana applications"
+      ],
+      "therapeutic_actions": [
+        "Rasayana",
+        "Balya",
+        "Vajikarana",
+        "Brimhana"
+      ],
+      "dose": "Root powder: 3–6 g/day.",
+      "anupana": "",
+      "duration": "",
+      "precautions": "Use according to indication, preparation and professional assessment.",
+      "contraindications": "Pregnancy, breastfeeding, surgery and certain autoimmune or thyroid conditions require professional medical consideration."
+    },
+
+    "formulations": [
       {
-        "source": "Bhavaprakasha Nighantu",
-        "section": "Haritakyadi Varga",
-        "reference": "Ashvagandha entry",
-        "verified": false
-      }
-    ],
-    "samhita_references": [
-      {
-        "source": "Charaka Samhita",
-        "reference": "Ashvagandha occurrences and therapeutic/classification references require edition-specific verification.",
-        "verified": false
+        "name": "Ashvagandhadyarishta",
+        "dosage_form": "Arishta",
+        "indication": "Traditional strengthening and Rasayana applications",
+        "reference": ""
       },
       {
-        "source": "Sushruta Samhita",
-        "reference": "Ashvagandha occurrences require edition-specific verification.",
-        "verified": false
+        "name": "Ashvagandhadi Churna",
+        "dosage_form": "Churna",
+        "indication": "Traditional strengthening applications",
+        "reference": ""
       },
       {
-        "source": "Ashtanga Hridaya",
-        "reference": "Ashvagandha occurrences require edition-specific verification.",
-        "verified": false
+        "name": "Ashvagandha Rasayana",
+        "dosage_form": "Rasayana preparation",
+        "indication": "Rasayana and strengthening applications",
+        "reference": ""
       }
-    ]
-  },
+    ],
 
-  "phytochemistry": {
-    "major_constituents": [
-      "Withanolides",
-      "Withaferin A",
-      "Withanolide A",
-      "Withanolide D",
-      "Withanone",
-      "Withanosides",
-      "Sitoindosides",
-      "Alkaloids",
-      "Withanine",
-      "Anaferine",
-      "Anahygrine",
-      "Tropine",
-      "Pseudotropine",
-      "Cuscohygrine",
-      "Starch",
-      "Reducing sugars",
-      "Amino acids",
-      "Phytosterols"
-    ],
-    "chemical_notes": "Withania somnifera contains steroidal lactones called withanolides, along with alkaloids, glycosides, sitoindosides and other constituents. Chemical composition varies according to plant part, geography, genotype and extraction method."
-  },
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
 
-  "modern_information": {
-    "evidence_summary": "Modern clinical evidence is preparation-specific and varies by condition. NCCIH reports that some ashwagandha preparations may help with insomnia and stress, while evidence for several other proposed uses remains insufficient or unclear. Many studies are small and use different preparations.",
-    "recognized_uses": [
-      "Stress-related symptoms",
-      "Sleep/insomnia research",
-      "General wellness and fatigue research"
-    ],
-    "research_findings": [
-      "Some clinical trials suggest benefit for stress-related outcomes.",
-      "Some studies suggest improvement in sleep in selected populations.",
-      "Limited evidence suggests possible increases in testosterone and sperm quality after 2–4 months in some men.",
-      "Evidence is insufficient for many other promoted indications."
-    ],
-    "safety_notes": "Rare liver injury has been reported. Possible adverse effects include gastrointestinal upset, diarrhoea, vomiting and drowsiness. Potential interactions have been reported with medicines for diabetes, hypertension, immunosuppressants, sedatives, anticonvulsants and thyroid hormone medicines.",
-    "regulatory_note": "The Government of India's Ministry of AYUSH states that the Ayurvedic Pharmacopoeia defines Ashwagandha as the dried mature roots of Withania somnifera Dunal and has advised against use of its leaves as an ASU medicinal ingredient because their use has not been reported in the classical ASU texts.",
+    "phytochemistry": {
+      "major_constituents": [
+        "Withanolides",
+        "Withaferin A",
+        "Withanolide A",
+        "Withanolide D",
+        "Withanone",
+        "Withanosides",
+        "Alkaloids"
+      ],
+      "chemical_notes": "Withania somnifera contains steroidal lactones known as withanolides together with alkaloids and other phytochemicals."
+    },
+
+    "modern_information": {
+      "evidence_summary": "Modern evidence is preparation-specific. Research has investigated stress, sleep and several other conditions, but evidence is not equally strong for all proposed uses.",
+      "recognized_uses": [
+        "Stress-related symptoms",
+        "Sleep research"
+      ],
+      "safety_notes": "Possible adverse effects include gastrointestinal upset and drowsiness. Rare liver injury has been reported.",
+      "sources": [
+        "Ministry of AYUSH",
+        "CCRAS",
+        "NCCIH",
+        "Royal Botanic Gardens, Kew"
+      ]
+    },
+
+    "student": {
+      "exam_points": [
+        "Withania somnifera (L.) Dunal",
+        "Family: Solanaceae",
+        "Useful part: dried mature root",
+        "Rasayana",
+        "Balya",
+        "Vajikarana"
+      ],
+      "viva_questions": [
+        "What is the botanical name of Ashwagandha?",
+        "Which family does it belong to?",
+        "What is its official medicinal part?",
+        "What are its Rasa, Guna, Virya and Vipaka?"
+      ],
+      "identification_points": [
+        "Tomentose shrub",
+        "Ovate leaves",
+        "Greenish-yellow flowers",
+        "Red berries",
+        "Persistent enlarged calyx"
+      ],
+      "mnemonics": [],
+      "quick_revision": "Ashwagandha — Withania somnifera — Solanaceae — dried mature root — Rasayana, Balya, Vajikarana."
+    },
+
+    "teacher": {
+      "teaching_points": [
+        "Demonstrate whole-plant identification.",
+        "Explain the official medicinal part.",
+        "Demonstrate the fruit and persistent calyx.",
+        "Discuss classical versus modern evidence."
+      ],
+      "discussion_points": [
+        "Botanical identification",
+        "Dravyaguna properties",
+        "Rasayana concept",
+        "Phytochemistry",
+        "Safety"
+      ],
+      "practical_points": [
+        "Whole plant identification",
+        "Root identification",
+        "Leaf identification",
+        "Flower and fruit identification"
+      ]
+    },
+
+    "doctor": {
+      "quick_reference": "Ashwagandha (Withania somnifera) is an Ayurvedic Rasayana and Balya drug; the official medicinal material is the dried mature root.",
+      "important_indications": [
+        "General weakness",
+        "Debility",
+        "Vata-related conditions",
+        "Traditional Rasayana applications"
+      ],
+      "useful_part": "Dried mature root",
+      "dose": "Root powder: 3–6 g/day; formulation-specific dosing differs.",
+      "anupana": "",
+      "key_precautions": [
+        "Consider potential drug interactions.",
+        "Pregnancy and breastfeeding require avoidance according to NCCIH.",
+        "Consider autoimmune and thyroid conditions.",
+        "Rare liver injury has been reported."
+      ]
+    },
+
     "sources": [
-      "NCCIH — Ashwagandha: Usefulness and Safety",
-      "Ministry of AYUSH — Advisory on use of Ashwagandha leaves",
-      "CCRAS — Ashwagandha Safety Dossier / Technical Specifications",
-      "Peer-reviewed reviews of Withania somnifera phytochemistry and pharmacology"
-    ]
-  },
+      {
+        "type": "government",
+        "title": "Advisory on use of Ashwagandha leaves",
+        "author": "Ministry of AYUSH, Government of India",
+        "edition": "",
+        "year": "2021",
+        "page": "",
+        "url": "https://ayush.gov.in/resources/pdf/quality_standards/advisory-on-aswagandha.pdf",
+        "verified": true
+      },
+      {
+        "type": "government",
+        "title": "Ashwagandha Safety Dossier / Technical Specifications",
+        "author": "CCRAS",
+        "edition": "",
+        "year": "2024",
+        "page": "",
+        "url": "https://ccras.nic.in/",
+        "verified": true
+      },
+      {
+        "type": "botanical_database",
+        "title": "Withania somnifera (L.) Dunal",
+        "author": "Royal Botanic Gardens, Kew",
+        "edition": "",
+        "year": "",
+        "page": "",
+        "url": "https://powo.science.kew.org/",
+        "verified": true
+      },
+      {
+        "type": "health_information",
+        "title": "Ashwagandha: Usefulness and Safety",
+        "author": "National Center for Complementary and Integrative Health",
+        "edition": "",
+        "year": "",
+        "page": "",
+        "url": "https://www.nccih.nih.gov/health/ashwagandha",
+        "verified": true
+      }
+    ],
 
-  "student": {
-    "exam_points": [
-      "Ashwagandha — Withania somnifera (L.) Dunal",
-      "Family — Solanaceae",
-      "Official medicinal part — dried mature root",
-      "Rasa — Madhura, Tikta, Kashaya",
-      "Guna — Laghu, Snigdha",
-      "Virya — Ushna",
-      "Vipaka — Madhura",
-      "Important actions — Rasayana, Balya, Vajikarana",
-      "Root powder dose — 3–6 g/day",
-      "Characteristic botanical feature — red berry enclosed by enlarged persistent calyx"
-    ],
-    "viva_questions": [
-      "What is the botanical name of Ashwagandha?",
-      "Which family does Ashwagandha belong to?",
-      "What is the official useful part of Ashwagandha?",
-      "What are the Rasa, Guna, Virya and Vipaka of Ashwagandha?",
-      "What are the important Karmas of Ashwagandha?",
-      "What is the usual root-powder dose?",
-      "How can the fruit be identified botanically?",
-      "Why should Ashwagandha leaves not be substituted for the official root drug?"
-    ],
-    "identification_points": [
-      "Tomentose erect branched shrub",
-      "Ovate leaves",
-      "Small greenish-yellow axillary flowers",
-      "Red globose berries",
-      "Enlarged persistent calyx",
-      "Characteristic root odour"
-    ],
-    "mnemonics": [],
-    "quick_revision": "Ashwagandha = Withania somnifera, Solanaceae, dried mature root, Madhura-Tikta-Kashaya, Laghu-Snigdha, Ushna, Madhura Vipaka, Rasayana-Balya-Vajikarana."
-  },
-
-  "teacher": {
-    "teaching_points": [
-      "Demonstrate the difference between botanical plant morphology and the official medicinal part.",
-      "Show the enlarged persistent calyx around the berry as an important identification character.",
-      "Explain the relationship between Rasa, Guna and Virya when discussing Dosha action.",
-      "Discuss why root authentication and correct plant identification are important in crude-drug quality control.",
-      "Compare classical root use with modern research on root extracts."
-    ],
-    "discussion_points": [
-      "Classical identity and synonyms of Ashwagandha",
-      "Official pharmacopoeial part versus other plant parts",
-      "Rasayana and Balya concepts",
-      "Phytochemical classes, especially withanolides",
-      "Evidence versus traditional claims",
-      "Safety and drug-interaction considerations"
-    ],
-    "practical_points": [
-      "Identify the whole plant",
-      "Identify root characters",
-      "Identify leaf morphology",
-      "Identify flower and fruit",
-      "Recognize the persistent enlarged calyx",
-      "Record botanical name and family correctly"
-    ]
-  },
-
-  "doctor": {
-    "quick_reference": "Ashwagandha (Withania somnifera) is an Ayurvedic Rasayana and Balya drug for which the official Ayurvedic medicinal material is the dried mature root.",
-    "important_indications": [
-      "General weakness and debility",
-      "Vata-related conditions",
-      "Traditional Rasayana applications",
-      "Traditional Vajikarana applications"
-    ],
-    "useful_part": "Dried mature root",
-    "dose": "Root powder 3–6 g/day; formulation-specific dosing differs.",
-    "anupana": "Depends on indication and formulation; traditionally milk or ghee may be used in appropriate preparations.",
-    "key_precautions": [
-      "Avoid during pregnancy and breastfeeding according to NCCIH.",
-      "Avoid before surgery according to NCCIH.",
-      "Use caution in autoimmune and thyroid disorders.",
-      "Review potential drug interactions.",
-      "Monitor for gastrointestinal adverse effects and rare liver injury.",
-      "Do not equate concentrated extract doses with crude root-powder doses."
-    ],
-    "evidence_note": "Modern evidence is preparation-specific. Some evidence supports possible benefits for stress and insomnia, while evidence for many other promoted uses remains insufficient."
-  },
-
-  "sources": [
-    {
-      "type": "government",
-      "title": "Advisory on use of Ashwagandha leaves",
-      "author": "Ministry of AYUSH, Government of India",
-      "edition": "",
-      "year": "2021",
-      "page": "",
-      "url": "https://ayush.gov.in/resources/pdf/quality_standards/advisory-on-aswagandha.pdf",
-      "verified": true
-    },
-    {
-      "type": "government",
-      "title": "Ashwagandha Safety Dossier / Technical Specifications",
-      "author": "Central Council for Research in Ayurvedic Sciences (CCRAS)",
-      "edition": "Revised",
-      "year": "2024",
-      "page": "",
-      "url": "https://ccras.nic.in/wp-content/uploads/2024/09/Revised-Ashwagandha-Booklet-9.8.2024-final.pdf",
-      "verified": true
-    },
-    {
-      "type": "botanical_database",
-      "title": "Withania somnifera (L.) Dunal",
-      "author": "Plants of the World Online, Royal Botanic Gardens, Kew",
-      "edition": "",
-      "year": "2026",
-      "page": "",
-      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:821709-1",
-      "verified": true
-    },
-    {
-      "type": "government_health_information",
-      "title": "Ashwagandha: Usefulness and Safety",
-      "author": "National Center for Complementary and Integrative Health",
-      "edition": "",
-      "year": "",
-      "page": "",
-      "url": "https://www.nccih.nih.gov/health/ashwagandha",
-      "verified": true
-    },
-    {
-      "type": "review",
-      "title": "Biodiversity, Biochemical Profiling, and Pharmaco-Commercial Applications of Withania somnifera: A Review",
-      "author": "Peer-reviewed literature",
-      "edition": "",
-      "year": "2023",
-      "page": "",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9921868/",
-      "verified": true
-    },
-    {
-      "type": "review",
-      "title": "An updated review on phytochemistry and molecular targets of Withania somnifera (L.) Dunal",
-      "author": "Peer-reviewed literature",
-      "edition": "",
-      "year": "2023",
-      "page": "",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10090468/",
-      "verified": true
+    "metadata": {
+      "status": "research_verified_with_classical_reference_pending",
+      "last_verified": "2026-09-16",
+      "verified_by": "Government, botanical and health-information sources",
+      "version": "1.0"
     }
-  ],
-
-  "metadata": {
-    "status": "research_verified_with_classical_reference_pending",
-    "last_verified": "2026-09-16",
-    "verified_by": "Web research against government, botanical and peer-reviewed sources",
-    "version": "1.0",
-    "content_policy": "Classical Sanskrit verses and exact classical verse numbers are not marked verified until checked against a primary text edition."
   }
-}
+]
