@@ -1,13 +1,39 @@
 [
   {
     "id": "ashwagandha",
-    "name": "Ashwagandha",
-    "sanskrit_name": "अश्वगन्धा",
-    "transliteration": "Aśvagandhā",
-    "botanical_name": "Withania somnifera (L.) Dunal",
-    "family": "Solanaceae",
-    "english_name": "Ashwagandha",
-    "hindi_name": "अश्वगंधा",
+
+    "identity": {
+      "name": "Ashwagandha",
+      "sanskrit_name": "अश्वगन्धा",
+      "transliteration": "Aśvagandhā",
+      "botanical_name": "Withania somnifera (L.) Dunal",
+      "family": "Solanaceae",
+      "english_name": "Winter Cherry",
+      "hindi_name": "अश्वगंधा",
+      "regional_names": [],
+      "synonyms": []
+    },
+
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "",
+      "habitat": "",
+      "distribution": ""
+    },
+
+    "identification": {
+      "description": "",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": []
+    },
+
     "images": {
       "whole_plant": "images/ashwagandha/whole-plant.jpg",
       "leaf": "images/ashwagandha/leaf/images (2).jpeg",
@@ -17,6 +43,112 @@
       "bark": "",
       "root": "images/ashwagandha/root/images (3).jpeg",
       "seed": "images/ashwagandha/seed/images (4).jpeg"
+    },
+
+    "dravya_guna": {
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "prabhava": "",
+      "karma": []
+    },
+
+    "dosha": {
+      "vata": "",
+      "pitta": "",
+      "kapha": ""
+    },
+
+    "therapeutics": {
+      "useful_part": [],
+      "indications": [],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+
+    "formulations": [
+      {
+        "name": "",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      }
+    ],
+
+    "classical_reference": {
+      "shlokas": [
+        {
+          "text": "",
+          "transliteration": "",
+          "meaning": "",
+          "source": "",
+          "chapter": "",
+          "reference": "",
+          "verified": false
+        }
+      ],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
+
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": ""
+    },
+
+    "modern_information": {
+      "evidence_summary": "",
+      "recognized_uses": [],
+      "safety_notes": "",
+      "sources": []
+    },
+
+    "student": {
+      "exam_points": [],
+      "viva_questions": [],
+      "identification_points": [],
+      "mnemonics": [],
+      "quick_revision": ""
+    },
+
+    "teacher": {
+      "teaching_points": [],
+      "discussion_points": [],
+      "practical_points": []
+    },
+
+    "doctor": {
+      "quick_reference": "",
+      "important_indications": [],
+      "useful_part": "",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": ""
+    },
+
+    "sources": [
+      {
+        "type": "",
+        "title": "",
+        "author": "",
+        "edition": "",
+        "year": "",
+        "page": "",
+        "url": "",
+        "verified": false
+      }
+    ],
+
+    "metadata": {
+      "status": "draft",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "1.0"
     }
   }
 ]
