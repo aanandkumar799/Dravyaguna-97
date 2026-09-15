@@ -71,13 +71,11 @@
 
     "images": {
   "whole_plant": "images/ashwagandha/whole-plant.jpg",
-  "leaf": "",
-  "flower": "",
-  "fruit": "",
-  "stem": "",
+  "leaf": "images/ashwagandha/leaf.jpg",
+  "flower": "images/ashwagandha/flower.jpg",
+  "fruit": "images/ashwagandha/fruit.jpg",
+  "stem": "images/ashwagandha/stem.jpg",
   "bark": "",
-  "root": "",
-  "seed": ""
+  "root": "images/ashwagandha/root.jpg",
+  "seed": "images/ashwagandha/seed.jpg"
     }
-  }
-]
