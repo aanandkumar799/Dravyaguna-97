@@ -382,57 +382,56 @@ if (!plantId) {
 
 
 
-        <section class="info-section">
+        <section class="plant-section">
 
-          <h2>🪷 Rasa Panchaka</h2>
+  <h2>🧪 Rasa Panchaka</h2>
 
-          <div class="info-grid">
+  <div class="rasa-panchaka-grid">
 
-            <div>
-              <strong>Rasa</strong>
-              <p>
-                ${(plant.dravyaguna?.rasa || []).join(", ") || "-"}
-              </p>
-            </div>
+    <div class="rasa-card">
+      <span class="rasa-icon">👅</span>
+      <h3>Rasa</h3>
+      <p>—</p>
+    </div>
 
-            <div>
-              <strong>Guna</strong>
-              <p>
-                ${(plant.dravyaguna?.guna || []).join(", ") || "-"}
-              </p>
-            </div>
+    <div class="rasa-card">
+      <span class="rasa-icon">⚖️</span>
+      <h3>Guna</h3>
+      <p>—</p>
+    </div>
 
-            <div>
-              <strong>Virya</strong>
-              <p>
-                ${plant.dravyaguna?.virya || "-"}
-              </p>
-            </div>
+    <div class="rasa-card">
+      <span class="rasa-icon">🔥</span>
+      <h3>Virya</h3>
+      <p>—</p>
+    </div>
 
-            <div>
-              <strong>Vipaka</strong>
-              <p>
-                ${plant.dravyaguna?.vipaka || "-"}
-              </p>
-            </div>
+    <div class="rasa-card">
+      <span class="rasa-icon">🔄</span>
+      <h3>Vipaka</h3>
+      <p>—</p>
+    </div>
 
-            <div>
-              <strong>Prabhava</strong>
-              <p>
-                ${plant.dravyaguna?.prabhava || "-"}
-              </p>
-            </div>
+    <div class="rasa-card">
+      <span class="rasa-icon">✨</span>
+      <h3>Prabhava</h3>
+      <p>—</p>
+    </div>
 
-            <div>
-              <strong>Dosha Karma</strong>
-              <p>
-                ${plant.dravyaguna?.dosha_karma || "-"}
-              </p>
-            </div>
+    <div class="rasa-card">
+      <span class="rasa-icon">⚕️</span>
+      <h3>Dosha Karma</h3>
+      <p>—</p>
+    </div>
 
-          </div>
+  </div>
 
-        </section>
+  <p class="source-note">
+    Classical properties will be added after verification against
+    the selected Ayurvedic reference texts.
+  </p>
+
+</section>
 
 
         <section class="info-section">
