@@ -70,14 +70,14 @@
     },
 
     "images": {
-      "whole_plant": "",
-      "leaf": "",
-      "flower": "",
-      "fruit": "",
-      "stem": "",
-      "bark": "",
-      "root": "",
-      "seed": ""
+  "whole_plant": "images/ashwagandha/whole-plant.jpg",
+  "leaf": "",
+  "flower": "",
+  "fruit": "",
+  "stem": "",
+  "bark": "",
+  "root": "",
+  "seed": ""
     }
   }
 ]
