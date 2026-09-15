@@ -1,866 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Plant Profile | DravyaGuna 97</title>
-
+    <meta name="description" content="Detailed Ayurvedic Dravyaguna plant profile for BAMS students, teachers and doctors.">
+    <meta property="og:title" content="Plant Profile | DravyaGuna 97">
+    <meta property="og:description" content="Explore botanical identity, identification features and Dravyaguna reference information.">
+    <meta property="og:type" content="article">
     <link rel="icon" type="image/png" href="images/favicon.png">
-
     <link rel="stylesheet" href="style.css">
-
-    <meta
-        name="description"
-        content="Detailed Ayurvedic Dravyaguna plant profile for BAMS students, teachers and doctors."
-    >
 </head>
-
 <body>
-
 <header class="site-header">
-
     <div class="header-inner">
-
-        <a href="index.html" class="brand">
-            🌿 <span>DravyaGuna 97</span>
-        </a>
-
-        <nav class="main-nav">
+        <a href="index.html" class="brand">🌿 <span>DravyaGuna 97</span></a>
+        <nav class="main-nav" aria-label="Primary navigation">
             <a href="index.html">Home</a>
             <a href="index.html#plants">Plants</a>
             <a href="index.html#student">Student</a>
             <a href="index.html#teacher">Teacher</a>
             <a href="index.html#doctor">Doctor</a>
         </nav>
-
     </div>
-
 </header>
 
-
 <main class="plant-page">
-
-    <div id="plant-content">
-
+    <div id="plant-content" aria-live="polite" aria-busy="true">
         <div class="loading-box">
-            <div class="loading-icon">🌿</div>
+            <div class="loading-icon" aria-hidden="true">🌿</div>
             <h2>Loading plant information...</h2>
             <p>Please wait.</p>
         </div>
-
     </div>
-
 </main>
 
-
-<!-- IMAGE ZOOM MODAL -->
-
-<div
-    id="image-modal"
-    class="image-modal"
-    aria-hidden="true"
->
-
-    <button
-        id="close-modal"
-        class="close-modal"
-        type="button"
-        aria-label="Close image"
-    >
-        ×
-    </button>
-
-    <img
-        src="images/favicon.png"
-        id="modal-image"
-        class="modal-image"
-        alt="Plant image"
-    >
-
+<div id="image-modal" class="image-modal" aria-hidden="true" role="dialog" aria-label="Expanded plant image">
+    <button id="close-modal" class="image-modal-close" type="button" aria-label="Close image">×</button>
+    <img src="images/favicon.png" id="modal-image" class="modal-image" alt="Expanded plant image">
 </div>
 
-
 <script>
-
 document.addEventListener("DOMContentLoaded", function () {
+    const plantContent = document.getElementById("plant-content");
+    const modal = document.getElementById("image-modal");
+    const modalImage = document.getElementById("modal-image");
+    const closeModal = document.getElementById("close-modal");
+    const plantId = new URLSearchParams(window.location.search).get("id");
 
-    const plantContent =
-        document.getElementById("plant-content");
+    function safe(value) {
+        if (value === null || value === undefined || value === "") return "Not available";
+        return String(value)
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#039;");
+    }
 
-    const params =
-        new URLSearchParams(window.location.search);
+    function infoRow(label, value) {
+        if (value === null || value === undefined || value === "") return "";
+        return `<div class="info-row"><div class="info-label">${safe(label)}</div><div class="info-value">${safe(value)}</div></div>`;
+    }
 
-    const plantId =
-        params.get("id");
+    function listHTML(value) {
+        if (Array.isArray(value) && value.length) {
+            return `<ul class="plant-list">${value.map(function (item) { return `<li>${safe(item)}</li>`; }).join("")}</ul>`;
+        }
+        if (typeof value === "string" && value.trim()) return `<p>${safe(value)}</p>`;
+        return `<p class="not-available">Not available</p>`;
+    }
 
+    function imageHTML(path, label) {
+        if (typeof path !== "string" || !path.trim()) return "";
+        const cleanPath = path.replace(/[<>"']/g, "");
+        return `<figure class="gallery-item"><img src="${safe(cleanPath)}" alt="${safe(label)}" loading="lazy" class="plant-gallery-image"><figcaption>${safe(label)}</figcaption></figure>`;
+    }
 
-    /* ---------------------------------------------
-       BASIC ERROR CHECK
-    --------------------------------------------- */
+    function section(title, icon, body) {
+        return `<section class="plant-section"><div class="section-heading"><span class="section-icon" aria-hidden="true">${icon}</span><div><h2>${safe(title)}</h2></div></div>${body}</section>`;
+    }
+
+    function showError(title, message) {
+        plantContent.setAttribute("aria-busy", "false");
+        plantContent.innerHTML = `<div class="error-box"><div class="error-icon" aria-hidden="true">⚠️</div><h2>${safe(title)}</h2><p>${safe(message)}</p><a href="index.html#plants" class="plant-button">← Back to Plant Library</a></div>`;
+    }
+
+    function openModal(image) {
+        modalImage.src = image.currentSrc || image.src;
+        modalImage.alt = image.alt || "Expanded plant image";
+        modal.classList.add("show");
+        modal.setAttribute("aria-hidden", "false");
+        closeModal.focus();
+    }
+
+    function hideModal() {
+        modal.classList.remove("show");
+        modal.setAttribute("aria-hidden", "true");
+    }
+
+    closeModal.addEventListener("click", hideModal);
+    modal.addEventListener("click", function (event) { if (event.target === modal) hideModal(); });
+    document.addEventListener("keydown", function (event) { if (event.key === "Escape") hideModal(); });
 
     if (!plantId) {
-
-        plantContent.innerHTML = `
-
-            <div class="error-box">
-
-                <div class="error-icon">
-                    ⚠️
-                </div>
-
-                <h2>
-                    No plant selected
-                </h2>
-
-                <p>
-                    Please select a plant from the
-                    DravyaGuna 97 Plant Library.
-                </p>
-
-                <a
-                    href="index.html#plants"
-                    class="plant-button"
-                >
-                    ← Back to Plant Library
-                </a>
-
-            </div>
-
-        `;
-
+        showError("No plant selected", "Please select a plant from the DravyaGuna 97 Plant Library.");
         return;
     }
 
-
-    /* ---------------------------------------------
-       SAFE TEXT
-    --------------------------------------------- */
-
-    function safe(value) {
-
-        if (
-            value === null ||
-            value === undefined ||
-            value === ""
-        ) {
-            return "Not available";
-        }
-
-        return String(value);
-    }
-
-
-    /* ---------------------------------------------
-       IMAGE CREATOR
-    --------------------------------------------- */
-
-    function createImage(path, altText) {
-
-        if (
-            !path ||
-            typeof path !== "string" ||
-            path.trim() === ""
-        ) {
-            return "";
-        }
-
-        return `
-
-            <div class="gallery-item">
-
-                <img
-                    src="${path}"
-                    alt="${safe(altText)}"
-                    loading="lazy"
-                    class="plant-gallery-image"
-                >
-
-                <div class="gallery-caption">
-                    ${safe(altText)}
-                </div>
-
-            </div>
-
-        `;
-    }
-
-
-    /* ---------------------------------------------
-       INFORMATION ROW
-    --------------------------------------------- */
-
-    function infoRow(label, value) {
-
-        if (
-            value === undefined ||
-            value === null ||
-            value === ""
-        ) {
-            return "";
-        }
-
-        return `
-
-            <div class="info-row">
-
-                <div class="info-label">
-                    ${safe(label)}
-                </div>
-
-                <div class="info-value">
-                    ${safe(value)}
-                </div>
-
-            </div>
-
-        `;
-    }
-
-
-    /* ---------------------------------------------
-       LIST CREATOR
-    --------------------------------------------- */
-
-    function createList(items) {
-
-        if (
-            !Array.isArray(items) ||
-            items.length === 0
-        ) {
-            return `
-                <p class="not-available">
-                    Not available
-                </p>
-            `;
-        }
-
-        return `
-
-            <ul class="plant-list">
-
-                ${items.map(function (item) {
-
-                    return `
-                        <li>
-                            ${safe(item)}
-                        </li>
-                    `;
-
-                }).join("")}
-
-            </ul>
-
-        `;
-    }
-
-
-    /* ---------------------------------------------
-       LOAD DATABASE
-    --------------------------------------------- */
-
-    fetch("./plants.json?v=12")
-
+    fetch("./plants.json", { cache: "no-store" })
         .then(function (response) {
-
-            if (!response.ok) {
-
-                throw new Error(
-                    "Unable to load plants.json. HTTP status: " +
-                    response.status
-                );
-
-            }
-
+            if (!response.ok) throw new Error("HTTP status " + response.status);
             return response.json();
-
         })
-
-
         .then(function (plants) {
-
-            if (!Array.isArray(plants)) {
-
-                throw new Error(
-                    "plants.json must contain an array."
-                );
-
-            }
-
-
-            /* -----------------------------------------
-               FIND PLANT
-            ----------------------------------------- */
-
-            const plant =
-                plants.find(function (item) {
-
-                    if (!item) {
-                        return false;
-                    }
-
-                    const id =
-                        item.id
-                        ? String(item.id).toLowerCase()
-                        : "";
-
-                    const plantID =
-                        item.plantID
-                        ? String(item.plantID).toLowerCase()
-                        : "";
-
-                    const requested =
-                        String(plantId).toLowerCase();
-
-                    return (
-                        id === requested ||
-                        plantID === requested
-                    );
-
-                });
-
-
-            /* -----------------------------------------
-               PLANT NOT FOUND
-            ----------------------------------------- */
-
+            if (!Array.isArray(plants)) throw new Error("Plant database must contain an array.");
+            const requested = String(plantId).toLowerCase();
+            const plant = plants.find(function (item) {
+                if (!item) return false;
+                return String(item.id || item.plantID || "").toLowerCase() === requested;
+            });
             if (!plant) {
-
-                plantContent.innerHTML = `
-
-                    <div class="error-box">
-
-                        <div class="error-icon">
-                            🔍
-                        </div>
-
-                        <h2>
-                            No plant information found
-                        </h2>
-
-                        <p>
-                            Plant ID:
-                            <strong>
-                                ${safe(plantId)}
-                            </strong>
-                        </p>
-
-                        <a
-                            href="index.html#plants"
-                            class="plant-button"
-                        >
-                            ← Back to Plant Library
-                        </a>
-
-                    </div>
-
-                `;
-
+                showError("No plant information found", "No record was found for plant ID: " + plantId);
                 return;
             }
 
-
-            /* -----------------------------------------
-               BASIC IDENTITY
-            ----------------------------------------- */
-
-            const name =
-                plant.name ||
-                plant.common_name ||
-                "Unnamed Plant";
-
-            const sanskrit =
-                plant.sanskrit_name || "";
-
-            const botanical =
-                plant.botanical_name || "";
-
-            const family =
-                plant.family || "";
-
-            const english =
-                plant.english_name || "";
-
-            const hindi =
-                plant.hindi_name || "";
-
-
-            /* -----------------------------------------
-               IMAGES
-            ----------------------------------------- */
-
-            const images =
-                plant.images || {};
-
-            let galleryHTML = "";
-
-            galleryHTML += createImage(
-                images.whole_plant,
-                "Whole Plant"
-            );
-
-            galleryHTML += createImage(
-                images.leaf,
-                "Leaf"
-            );
-
-            galleryHTML += createImage(
-                images.flower,
-                "Flower"
-            );
-
-            galleryHTML += createImage(
-                images.fruit,
-                "Fruit"
-            );
-
-            galleryHTML += createImage(
-                images.stem,
-                "Stem"
-            );
-
-            galleryHTML += createImage(
-                images.bark,
-                "Bark"
-            );
-
-            galleryHTML += createImage(
-                images.root,
-                "Root"
-            );
-
-            galleryHTML += createImage(
-                images.seed,
-                "Seed"
-            );
-
-
-            /* -----------------------------------------
-               IDENTIFICATION
-            ----------------------------------------- */
-
-            const identification =
-                plant.identification || {};
-
-            let identificationHTML = "";
-
-            if (
-                typeof identification === "string"
-            ) {
-
-                identificationHTML = `
-                    <p>
-                        ${safe(identification)}
-                    </p>
-                `;
-
-            } else {
-
-                identificationHTML = `
-
-                    ${infoRow(
-                        "Habit",
-                        identification.habit
-                    )}
-
-                    ${infoRow(
-                        "Root",
-                        identification.root
-                    )}
-
-                    ${infoRow(
-                        "Stem",
-                        identification.stem
-                    )}
-
-                    ${infoRow(
-                        "Leaf",
-                        identification.leaf
-                    )}
-
-                    ${infoRow(
-                        "Flower",
-                        identification.flower
-                    )}
-
-                    ${infoRow(
-                        "Fruit",
-                        identification.fruit
-                    )}
-
-                    ${infoRow(
-                        "Seed",
-                        identification.seed
-                    )}
-
-                    ${infoRow(
-                        "Bark",
-                        identification.bark
-                    )}
-
-                `;
-            }
-
-
-            /* -----------------------------------------
-               DRAVYAGUNA
-            ----------------------------------------- */
-
-            const dravyaguna =
-                plant.dravyaguna || {};
-
-            const rasa =
-                dravyaguna.rasa ||
-                plant.rasa ||
-                "";
-
-            const guna =
-                dravyaguna.guna ||
-                plant.guna ||
-                "";
-
-            const virya =
-                dravyaguna.virya ||
-                plant.virya ||
-                "";
-
-            const vipaka =
-                dravyaguna.vipaka ||
-                plant.vipaka ||
-                "";
-
-            const karma =
-                dravyaguna.karma ||
-                plant.karma ||
-                "";
-
-
-            /* -----------------------------------------
-               THERAPEUTICS
-            ----------------------------------------- */
-
-            const therapeutics =
-                plant.therapeutics || {};
-
-            let therapeuticHTML = "";
-
-            if (
-                typeof therapeutics === "string"
-            ) {
-
-                therapeuticHTML = `
-                    <p>
-                        ${safe(therapeutics)}
-                    </p>
-                `;
-
-            } else {
-
-                therapeuticHTML = `
-
-                    ${infoRow(
-                        "Therapeutic Uses",
-                        therapeutics.uses
-                    )}
-
-                    ${infoRow(
-                        "Indications",
-                        therapeutics.indications
-                    )}
-
-                    ${infoRow(
-                        "Useful Part",
-                        therapeutics.useful_part
-                    )}
-
-                    ${infoRow(
-                        "Dosage",
-                        therapeutics.dosage
-                    )}
-
-                    ${infoRow(
-                        "Anupana",
-                        therapeutics.anupana
-                    )}
-
-                `;
-            }
-
-
-            /* -----------------------------------------
-               FORMULATIONS
-            ----------------------------------------- */
-
-            const formulations =
-                plant.formulations;
-
-            let formulationsHTML = "";
-
-            if (Array.isArray(formulations)) {
-
-                formulationsHTML =
-                    createList(formulations);
-
-            } else if (
-                typeof formulations === "string"
-            ) {
-
-                formulationsHTML = `
-                    <p>
-                        ${safe(formulations)}
-                    </p>
-                `;
-
-            } else {
-
-                formulationsHTML = `
-                    <p class="not-available">
-                        Not available
-                    </p>
-                `;
-            }
-
-
-            /* -----------------------------------------
-               CLASSICAL INFORMATION
-            ----------------------------------------- */
-
-            const classical =
-                plant.classical_information ||
-                plant.classical ||
-                {};
-
-            let classicalHTML = "";
-
-            if (
-                typeof classical === "string"
-            ) {
-
-                classicalHTML = `
-                    <p>
-                        ${safe(classical)}
-                    </p>
-                `;
-
-            } else {
-
-                classicalHTML = `
-
-                    ${infoRow(
-                        "Classical Name",
-                        classical.classical_name
-                    )}
-
-                    ${infoRow(
-                        "Synonyms",
-                        classical.synonyms
-                    )}
-
-                    ${infoRow(
-                        "Shloka",
-                        classical.shloka
-                    )}
-
-                    ${infoRow(
-                        "Reference",
-                        classical.reference
-                    )}
-
-                `;
-            }
-
-
-            /* -----------------------------------------
-               STUDENT INFORMATION
-            ----------------------------------------- */
-
-            const student =
-                plant.student || {};
-
-            let studentHTML = "";
-
-            if (
-                typeof student === "string"
-            ) {
-
-                studentHTML = `
-                    <p>
-                        ${safe(student)}
-                    </p>
-                `;
-
-            } else {
-
-                studentHTML = `
-
-                    ${infoRow(
-                        "Mnemonic",
-                        student.mnemonic
-                    )}
-
-                    ${infoRow(
-                        "Important Point",
-                        student.important_point
-                    )}
-
-                    ${infoRow(
-                        "Exam Point",
-                        student.exam_point
-                    )}
-
-                    ${infoRow(
-                        "Quick Revision",
-                        student.quick_revision
-                    )}
-
-                `;
-            }
-
-
-            /* -----------------------------------------
-               RENDER PAGE
-            ----------------------------------------- */
+            const name = plant.name || plant.common_name || "Unnamed Plant";
+            const sanskrit = plant.sanskrit_name || "";
+            const botanical = plant.botanical_name || "";
+            const family = plant.family || "";
+            const images = plant.images || {};
+            const identification = typeof plant.identification === "object" ? plant.identification : {};
+            const dravyaguna = typeof plant.dravyaguna === "object" ? plant.dravyaguna : {};
+            const therapeutics = typeof plant.therapeutics === "object" ? plant.therapeutics : {};
+            const classical = typeof (plant.classical_information || plant.classical) === "object" ? (plant.classical_information || plant.classical) : {};
+            const student = typeof plant.student === "object" ? plant.student : {};
+
+            const gallery = [
+                [images.whole_plant, "Whole plant"], [images.leaf, "Leaf"], [images.flower, "Flower"],
+                [images.fruit, "Fruit"], [images.stem, "Stem"], [images.bark, "Bark"],
+                [images.root, "Root"], [images.seed, "Seed"]
+            ].map(function (entry) { return imageHTML(entry[0], entry[1]); }).join("");
+
+            const identity = [
+                infoRow("Sanskrit Name", sanskrit), infoRow("English Name", plant.english_name),
+                infoRow("Hindi Name", plant.hindi_name), infoRow("Botanical Name", botanical), infoRow("Family", family)
+            ].join("");
+            const identificationRows = ["habit", "root", "stem", "leaf", "flower", "fruit", "seed", "bark"]
+                .map(function (key) { return infoRow(key.charAt(0).toUpperCase() + key.slice(1), identification[key]); }).join("");
+            const rasa = [infoRow("Rasa", dravyaguna.rasa || plant.rasa), infoRow("Guna", dravyaguna.guna || plant.guna), infoRow("Virya", dravyaguna.virya || plant.virya), infoRow("Vipaka", dravyaguna.vipaka || plant.vipaka), infoRow("Prabhava", dravyaguna.prabhava || plant.prabhava), infoRow("Karma", dravyaguna.karma || plant.karma)].join("");
+            const therapy = [infoRow("Uses", therapeutics.uses), infoRow("Indications", therapeutics.indications), infoRow("Useful Part", therapeutics.useful_part), infoRow("Dosage", therapeutics.dosage), infoRow("Anupana", therapeutics.anupana)].join("");
+            const references = [infoRow("Classical Name", classical.classical_name), infoRow("Synonyms", classical.synonyms), infoRow("Shloka", classical.shloka), infoRow("Reference", classical.reference)].join("");
+            const revision = [infoRow("Mnemonic", student.mnemonic), infoRow("Important Point", student.important_point), infoRow("Exam Point", student.exam_point), infoRow("Quick Revision", student.quick_revision)].join("");
 
             plantContent.innerHTML = `
-
-                <section class="plant-hero">
-
-                    <div class="plant-hero-content">
-
-                        <div class="plant-symbol">
-                            🌿
-                        </div>
-
-                        <div>
-
-                            <div class="eyebrow">
-                                DRAVYAGUNA 97 • BAMS REFERENCE
-                            </div>
-
-                            <h1>
-                                ${safe(name)}
-                            </h1>
-
-                            ${
-                                sanskrit
-                                ? `
-                                    <h2>
-                                        ${safe(sanskrit)}
-                                    </h2>
-                                `
-                                : ""
-                            }
-
-                            ${
-                                botanical
-                                ? `
-                                    <p class="botanical-name">
-                                        ${safe(botanical)}
-                                    </p>
-                                `
-                                : ""
-                            }
-
-                        </div>
-
-                    </div>
-
-                </section>
-
-
-                <section class="plant-section">
-
-                    <div class="section-heading">
-
-                        <span class="section-icon">
-                            🧾
-                        </span>
-
-                        <div>
-
-                            <h2>
-                                Basic Identity
-                            </h2>
-
-                            <p>
-                                Botanical and common identification
-                            </p>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="identity-grid">
-
-                        ${infoRow(
-                            "Sanskrit Name",
-                            sanskrit
-                        )}
-
-                        ${infoRow(
-                            "English Name",
-                            english
-                        )}
-
-                        ${infoRow(
-                            "Hindi Name",
-                            hindi
-                        )}
-
-                        ${infoRow(
-                            "Botanical Name",
-                            botanical
-                        )}
-
-                        ${infoRow(
-                            "Family",
-                            family
-                        )}
-
-                    </div>
-
-                </section>
-
-
-                <section class="plant-section">
-
-                    <div class="section-heading">
-
-                        <span class="section-icon">
-                            🌱
-                        </span>
-
-                        <div>
-
-                            <h2>
-                                Plant Identification
-                            </h2>
-
-                            <p>
-                                Practical identification features
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                    <div class="identity-grid">
-
-                        ${identificationHTML}
-
-                    </div>
-
-                </section>
-
-
-                <section class="plant-section">
-
-                    <div class="section-heading">
-
-                        <span class="section-icon">
-                          </script>
-
+                <section class="plant-hero"><div class="plant-hero-content"><div class="plant-symbol" aria-hidden="true">🌿</div><div><div class="eyebrow">DRAVYAGUNA 97 • BAMS REFERENCE</div><h1>${safe(name)}</h1>${sanskrit ? `<h2>${safe(sanskrit)}</h2>` : ""}${botanical ? `<p class="botanical-name">${safe(botanical)}</p>` : ""}</div></div></section>
+                ${section("Basic Identity", "🧾", `<div class="identity-grid">${identity}</div>`)}
+                ${gallery ? section("Identification Gallery", "🖼️", `<div class="image-gallery">${gallery}</div>`) : ""}
+                ${section("Plant Identification", "🌱", `<div class="identity-grid">${identificationRows || `<p class="not-available">Not available</p>`}</div>`)}
+                ${section("Rasa Panchaka and Karma", "🧪", `<div class="identity-grid">${rasa || `<p class="not-available">Not available</p>`}</div>`)}
+                ${section("Therapeutic Information", "⚕️", `<div class="identity-grid">${therapy || `<p class="not-available">Not available</p>`}</div>`)}
+                ${section("Important Formulations", "🧴", listHTML(plant.formulations))}
+                ${section("Classical References", "📚", `<div class="identity-grid">${references || `<p class="not-available">Not available</p>`}</div>`)}
+                ${section("BAMS Quick Revision", "🎓", `<div class="identity-grid">${revision || `<p class="not-available">Not available</p>`}</div>`)}
+            `;
+            plantContent.setAttribute("aria-busy", "false");
+            plantContent.querySelectorAll(".plant-gallery-image").forEach(function (image) { image.addEventListener("click", function () { openModal(image); }); });
+        })
+        .catch(function (error) {
+            console.error("DravyaGuna 97 plant profile:", error);
+            showError("Unable to load plant information", "Please check your connection and refresh the page.");
+        });
+});
+</script>
 </body>
 </html>

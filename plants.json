@@ -10,13 +10,13 @@
     "hindi_name": "अश्वगंधा",
     "images": {
       "whole_plant": "images/ashwagandha/whole-plant.jpg",
-      "leaf": "",
-      "flower": "",
-      "fruit": "",
-      "stem": "",
+      "leaf": "images/ashwagandha/leaf/images (2).jpeg",
+      "flower": "images/ashwagandha/flower/images.jpeg",
+      "fruit": "images/ashwagandha/fruit/images (1).jpeg",
+      "stem": "images/ashwagandha/stem/images (5).jpeg",
       "bark": "",
-      "root": "",
-      "seed": ""
+      "root": "images/ashwagandha/root/images (3).jpeg",
+      "seed": "images/ashwagandha/seed/images (4).jpeg"
     }
   }
 ]

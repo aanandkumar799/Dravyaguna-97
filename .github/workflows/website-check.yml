@@ -24,7 +24,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Check JSON files
         shell: bash
@@ -61,6 +61,7 @@ jobs:
             "style.css"
             "lighthouserc.js"
             "check-site.py"
+            "check-inline-js.py"
           )
 
           for file in "${files[@]}"
@@ -83,6 +84,7 @@ jobs:
         run: |
           node --check script.js
           node --check lighthouserc.js
+          python check-inline-js.py
 
       - name: Validate HTML CSS Links Images
         uses: anishathalye/proof-html@v2
@@ -94,7 +96,7 @@ jobs:
           disable_external: false
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 20
 
