@@ -442,3 +442,49 @@ footer {
   }
 
 }
+/* Image Zoom Modal */
+
+.image-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.image-modal.show {
+  display: flex;
+}
+
+.modal-image {
+  max-width: 95%;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.image-modal-close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 42px;
+  color: white;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.image-modal-close:hover {
+  opacity: 0.7;
+}
+
+.plant-gallery-image {
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
+
+.plant-gallery-image:hover {
+  transform: scale(1.03);
+}
