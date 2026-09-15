@@ -77,8 +77,10 @@ if (!plantId) {
 
     .then(plants => {
 
-      const plant =
-        plants.find(item => item.id === plantId);
+        const plant = plants.find(item => 
+  (item.id && item.id.toLowerCase() === plantId.toLowerCase()) ||
+  (item.plantID && item.plantID.toLowerCase() === plantId.toLowerCase())
+);
 
 
       if (!plant) {
