@@ -10,101 +10,92 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let plants = [];
 
-
-    // ================================
+    // ============================
     // LOAD DATABASE
-    // ================================
+    // ============================
 
-    fetch("./plants.json?v=6")
+    fetch("./plants.json?v=10", {
+        cache: "no-store"
+    })
 
-        .then(function (response) {
+    .then(function (response) {
 
-            if (!response.ok) {
-                throw new Error(
-                    "Cannot load plants.json. HTTP " +
-                    response.status
-                );
-            }
+        if (!response.ok) {
+            throw new Error(
+                "Cannot load plants.json. HTTP " +
+                response.status
+            );
+        }
 
-            return response.text();
+        return response.json();
 
-        })
+    })
 
-        .then(function (text) {
+    .then(function (data) {
 
-            console.log("Raw JSON:", text);
+        if (!Array.isArray(data)) {
+            throw new Error(
+                "plants.json must contain a JSON array."
+            );
+        }
 
-            let data;
+        plants = data;
 
-            try {
+        console.log(
+            "Plant database loaded:",
+            plants
+        );
 
-                data = JSON.parse(text);
+        displayPlants(plants);
 
-            } catch (error) {
+    })
 
-                throw new Error(
-                    "plants.json contains invalid JSON: " +
-                    error.message
-                );
+    .catch(function (error) {
 
-            }
+        console.error(
+            "Database error:",
+            error
+        );
 
-            if (!Array.isArray(data)) {
+        plantList.innerHTML = `
+            <div class="database-error">
 
-                throw new Error(
-                    "plants.json must contain a JSON array."
-                );
+                <h3>
+                    ⚠️ Unable to load plant database
+                </h3>
 
-            }
+                <p>
+                    ${error.message}
+                </p>
 
-            plants = data;
+            </div>
+        `;
 
-            displayPlants(plants);
-
-        })
-
-        .catch(function (error) {
-
-            console.error(error);
-
-            plantList.innerHTML = `
-
-                <div style="
-                    padding:25px;
-                    margin:15px 0;
-                    background:#ffe8e8;
-                    border:2px solid #d33;
-                    border-radius:15px;
-                    text-align:center;
-                ">
-
-                    <h3>
-                        ⚠️ Unable to load plant database
-                    </h3>
-
-                    <p>
-                        ${error.message}
-                    </p>
-
-                </div>
-
-            `;
-
-        });
+    });
 
 
-    // ================================
+    // ============================
     // DISPLAY PLANTS
-    // ================================
+    // ============================
 
     function displayPlants(list) {
 
         plantList.innerHTML = "";
 
-        if (list.length === 0) {
+        if (!list.length) {
 
             plantList.innerHTML = `
-                <p>No plants found.</p>
+                <div class="no-results">
+
+                    <h3>
+                        🌿 No plants found
+                    </h3>
+
+                    <p>
+                        Try another search term.
+                    </p>
+
+                </div>
             `;
 
             return;
@@ -114,44 +105,71 @@ document.addEventListener("DOMContentLoaded", function () {
         list.forEach(function (plant) {
 
             const card =
-                document.createElement("div");
+                document.createElement("article");
 
-            card.className = "user-card";
+            card.className = "plant-card";
+
+
+            let imageHTML = "";
+
+            if (
+                plant.images &&
+                plant.images.whole_plant
+            ) {
+
+                imageHTML = `
+                    <img
+                        src="${plant.images.whole_plant}"
+                        alt="${plant.name || "Plant"}"
+                        class="plant-card-image"
+                        onerror="this.style.display='none'"
+                    >
+                `;
+
+            } else {
+
+                imageHTML = `
+                    <div class="plant-card-placeholder">
+                        🌿
+                    </div>
+                `;
+
+            }
 
 
             card.innerHTML = `
 
-                <div class="icon">
-                    🌿
-                </div>
+                ${imageHTML}
 
-                <h2>
-                    ${plant.name || "Unnamed Plant"}
-                </h2>
+                <div class="plant-card-content">
 
-                <p>
-                    ${plant.sanskrit_name || ""}
-                </p>
+                    <h2>
+                        ${plant.name || "Unnamed Plant"}
+                    </h2>
 
-                <p>
-                    <em>
+                    <p class="sanskrit-name">
+                        ${plant.sanskrit_name || ""}
+                    </p>
+
+                    <p class="botanical-name">
                         ${plant.botanical_name || ""}
-                    </em>
-                </p>
+                    </p>
 
-                <p>
-                    Family:
-                    ${plant.family || ""}
-                </p>
+                    <p>
+                        <strong>Family:</strong>
+                        ${plant.family || "-"}
+                    </p>
 
-                <a
-                    href="./plant.html?id=${encodeURIComponent(
-                        plant.id
-                    )}"
-                    class="plant-button"
-                >
-                    View Plant →
-                </a>
+                    <a
+                        href="./plant.html?id=${encodeURIComponent(
+                            plant.id || ""
+                        )}"
+                        class="plant-button"
+                    >
+                        View Plant →
+                    </a>
+
+                </div>
 
             `;
 
@@ -163,9 +181,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 
-    // ================================
+    // ============================
     // SEARCH
-    // ================================
+    // ============================
 
     if (searchInput) {
 
@@ -174,39 +192,43 @@ document.addEventListener("DOMContentLoaded", function () {
             function () {
 
                 const query =
-                    this.value
+                    searchInput.value
                         .toLowerCase()
                         .trim();
+
+
+                if (!query) {
+
+                    displayPlants(plants);
+
+                    return;
+
+                }
 
 
                 const filtered =
                     plants.filter(function (plant) {
 
-                        return (
+                        return [
 
-                            (plant.name || "")
+                            plant.name,
+                            plant.sanskrit_name,
+                            plant.transliteration,
+                            plant.botanical_name,
+                            plant.family,
+                            plant.english_name,
+                            plant.hindi_name
+
+                        ]
+                        .filter(Boolean)
+                        .some(function (value) {
+
+                            return value
+                                .toString()
                                 .toLowerCase()
-                                .includes(query)
+                                .includes(query);
 
-                            ||
-
-                            (plant.sanskrit_name || "")
-                                .toLowerCase()
-                                .includes(query)
-
-                            ||
-
-                            (plant.botanical_name || "")
-                                .toLowerCase()
-                                .includes(query)
-
-                            ||
-
-                            (plant.family || "")
-                                .toLowerCase()
-                                .includes(query)
-
-                        );
+                        });
 
                     });
 
