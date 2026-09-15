@@ -1,629 +1,819 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta charset="UTF-8">
+    <title>Plant Profile | DravyaGuna 97</title>
 
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
 
-  <title>Plant Profile | DravyaGuna 97</title>
-    
-<link rel="icon" type="image/png" href="images/favicon.png">
-    
-  <link rel="stylesheet" href="style.css">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
 
+    <meta
+        name="description"
+        content="Detailed Ayurvedic Dravyaguna plant profile for BAMS students, teachers and doctors."
+    >
 </head>
 
 <body>
 
-<header class="header">
+<!-- =========================================================
+     HEADER
+========================================================= -->
 
-  <div class="logo">
-    🌿 DravyaGuna 97
-  </div>
+<header class="site-header">
 
-  <nav>
+    <div class="header-inner">
 
-    <a href="index.html">Home</a>
-    <a href="index.html#plants">Plants</a>
+        <a href="index.html" class="brand">
+            🌿 <span>DravyaGuna 97</span>
+        </a>
 
-  </nav>
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="index.html#plants">Plants</a>
+            <a href="index.html#student">Student</a>
+            <a href="index.html#teacher">Teacher</a>
+            <a href="index.html#doctor">Doctor</a>
+        </nav>
+
+    </div>
 
 </header>
 
 
-<main class="plant-profile">
+<!-- =========================================================
+     MAIN PLANT CONTENT
+========================================================= -->
 
-  <div id="plant-content">
+<main class="plant-page">
 
-    <p>Loading plant information...</p>
+    <div id="plant-content">
 
-  </div>
+        <div class="loading-box">
+            <div class="loading-icon">🌿</div>
+            <h2>Loading plant information...</h2>
+            <p>Please wait.</p>
+        </div>
+
+    </div>
 
 </main>
 
 
-<footer>
-
-  <p>
-    © 2026 DravyaGuna 97
-  </p>
-
-</footer>
-
-
-<script>
-
-const params = new URLSearchParams(window.location.search);
-
-const plantId = params.get("id");
-
-const plantContent =
-  document.getElementById("plant-content");
-
-
-if (!plantId) {
-
-  plantContent.innerHTML = `
-    <h2>Plant not found</h2>
-    <p>No plant ID was provided.</p>
-  `;
-
-} else {
-
-  fetch("plants.json")
-
-    .then(response => response.json())
-
-    .then(plants => {
-
-        const plant = plants.find(item => 
-  (item.id && item.id.toLowerCase() === plantId.toLowerCase()) ||
-  (item.plantID && item.plantID.toLowerCase() === plantId.toLowerCase())
-);
-
-
-      if (!plant) {
-
-        plantContent.innerHTML = `
-          <h2>Plant not found</h2>
-          <p>We could not find this plant in the database.</p>
-        `;
-
-        return;
-
-      }
-
-
-      plantContent.innerHTML = `
-
-        <section class="plant-hero">
-
-          <p class="section-label">
-            BAMS DRAVYAGUNA
-          </p>
-
-          <h1>
-            ${plant.name}
-          </h1>
-
-          <h2>
-            ${plant.sanskrit_name || ""}
-          </h2>
-
-          <p class="botanical-name">
-            ${plant.botanical_name || ""}
-          </p>
-
-          <p>
-            Family:
-            <strong>
-              ${plant.family || ""}
-            </strong>
-          </p>
-
-        </section>
-
-<section class="plant-images">
-
-  <h2>🌿 Plant Identification Gallery</h2>
-
-  <div class="image-gallery">
-
-    ${
-      plant.images?.whole_plant
-      ? `
-        <div class="plant-image-card">
-
-          <img
-  src="${plant.images.whole_plant}"
-  alt="${plant.name} whole plant"
-  class="plant-gallery-image"
->
-
-          <h3>Whole Plant</h3>
-
-        </div>
-      `
-      : ""
-    }
-
-    ${
-      plant.images?.leaf
-      ? `
-        <div class="plant-image-card">
-
-          <img
-            src="${plant.images.leaf}"
-            alt="${plant.name} leaf"
-          >
-
-          <h3>Leaf</h3>
-
-        </div>
-      `
-      : ""
-    }
-
-    ${
-      plant.images?.flower
-      ? `
-        <div class="plant-image-card">
-
-          <img
-            src="${plant.images.flower}"
-            alt="${plant.name} flower"
-          >
-
-          <h3>Flower</h3>
-
-        </div>
-      `
-      : ""
-    }
-
-    ${
-      plant.images?.fruit
-      ? `
-        <div class="plant-image-card">
-
-          <img
-            src="${plant.images.fruit}"
-            alt="${plant.name} fruit"
-          >
-
-          <h3>Fruit</h3>
-
-        </div>
-      `
-      : ""
-    }
-
-    ${
-      plant.images?.root
-      ? `
-        <div class="plant-image-card">
-
-          <img
-            src="${plant.images.root}"
-            alt="${plant.name} root"
-          >
-
-          <h3>Root</h3>
-
-        </div>
-      `
-      : ""
-    }
-
-    ${
-      plant.images?.stem
-      ? `
-        <div class="plant-image-card">
-
-          <img
-            src="${plant.images.stem}"
-            alt="${plant.name} stem"
-          >
-
-          <h3>Stem</h3>
-
-        </div>
-      `
-      : ""
-    }
-
-    ${
-      plant.images?.bark
-      ? `
-        <div class="plant-image-card">
-
-          <img
-            src="${plant.images.bark}"
-            alt="${plant.name} bark"
-          >
-
-          <h3>Bark</h3>
-
-        </div>
-      `
-      : ""
-    }
-
-    ${
-      plant.images?.seed
-      ? `
-        <div class="plant-image-card">
-
-          <img
-            src="${plant.images.seed}"
-            alt="${plant.name} seed"
-          >
-
-          <h3>Seed</h3>
-
-        </div>
-      `
-      : ""
-    }
-
-  </div>
-
-</section>
-        <section class="info-section">
-
-          <h2>🌿 Basic Identity</h2>
-
-          <div class="info-grid">
-
-            <div>
-              <strong>Classical Name</strong>
-              <p>${plant.sanskrit_name || "-"}</p>
-            </div>
-
-            <div>
-              <strong>Botanical Name</strong>
-              <p>${plant.botanical_name || "-"}</p>
-            </div>
-
-            <div>
-              <strong>Family</strong>
-              <p>${plant.family || "-"}</p>
-            </div>
-
-            <div>
-              <strong>English Name</strong>
-              <p>${plant.english_name || "-"}</p>
-            </div>
-
-            <div>
-              <strong>Hindi Name</strong>
-              <p>${plant.hindi_name || "-"}</p>
-            </div>
-
-          </div>
-
-        </section>
-
-<section class="plant-section">
-  <h2>🌿 Practical Identification</h2>
-
-  <div class="identification-grid">
-
-    <div class="identification-card">
-      <h3>🌱 Habit</h3>
-      <p>
-        Erect, branched subshrub or shrub; younger stems are
-        greyish to whitish and covered with fine hairs.
-      </p>
-    </div>
-
-    <div class="identification-card">
-      <h3>🌿 Stem</h3>
-      <p>
-        Branched, generally erect stems with a greyish or
-        whitish hairy surface.
-      </p>
-    </div>
-
-    <div class="identification-card">
-      <h3>🍃 Leaf</h3>
-      <p>
-        Leaves are generally ovate to obovate or oblong,
-        with mostly entire margins and a hairy surface,
-        especially beneath.
-      </p>
-    </div>
-
-    <div class="identification-card">
-      <h3>🌸 Flower</h3>
-      <p>
-        Small flowers occur in axillary clusters.
-        The corolla is greenish to yellowish-green.
-      </p>
-    </div>
-
-    <div class="identification-card">
-      <h3>🔴 Fruit</h3>
-      <p>
-        Globose, shiny berry, red to orange-red when mature,
-        enclosed by an enlarged persistent calyx.
-      </p>
-    </div>
-
-    <div class="identification-card">
-      <h3>🌱 Root</h3>
-      <p>
-        The root is the principal classical medicinal part
-        of Ashwagandha.
-      </p>
-    </div>
-
-    <div class="identification-card">
-      <h3>🫘 Seed</h3>
-      <p>
-        Small seeds, approximately 2 mm in diameter,
-        with a reticulate surface.
-      </p>
-    </div>
-
-  </div>
-
-  <div class="key-identification">
-    <h3>🔎 Key Identification Features</h3>
-    <ul>
-      <li>Greyish/whitish hairy young stems</li>
-      <li>Ovate to obovate hairy leaves</li>
-      <li>Small axillary greenish flowers</li>
-      <li>Red/orange globose berry</li>
-      <li>Enlarged persistent calyx surrounding the fruit</li>
-      <li>Characteristic medicinal root</li>
-    </ul>
-  </div>
-</section>
-
-
-
-        <section class="plant-section">
-
-  <h2>🧪 Rasa Panchaka</h2>
-
-  <div class="rasa-panchaka-grid">
-
-    <div class="rasa-card">
-      <span class="rasa-icon">👅</span>
-      <h3>Rasa</h3>
-      <p>—</p>
-    </div>
-
-    <div class="rasa-card">
-      <span class="rasa-icon">⚖️</span>
-      <h3>Guna</h3>
-      <p>—</p>
-    </div>
-
-    <div class="rasa-card">
-      <span class="rasa-icon">🔥</span>
-      <h3>Virya</h3>
-      <p>—</p>
-    </div>
-
-    <div class="rasa-card">
-      <span class="rasa-icon">🔄</span>
-      <h3>Vipaka</h3>
-      <p>—</p>
-    </div>
-
-    <div class="rasa-card">
-      <span class="rasa-icon">✨</span>
-      <h3>Prabhava</h3>
-      <p>—</p>
-    </div>
-
-    <div class="rasa-card">
-      <span class="rasa-icon">⚕️</span>
-      <h3>Dosha Karma</h3>
-      <p>—</p>
-    </div>
-
-  </div>
-
-  <p class="source-note">
-    Classical properties will be added after verification against
-    the selected Ayurvedic reference texts.
-  </p>
-
-</section>
-
-
-        <section class="plant-section">
-
-  <h2>💊 Therapeutic Information</h2>
-
-  <div class="therapy-grid">
-
-    <div class="therapy-card">
-      <h3>🌱 Useful Part</h3>
-      <p>
-        Dried mature root
-      </p>
-    </div>
-
-    <div class="therapy-card">
-      <h3>⚕️ Therapeutic Role</h3>
-      <p>
-        Traditionally used as a Rasayana drug and for
-        promoting strength and general well-being.
-      </p>
-    </div>
-
-    <div class="therapy-card">
-      <h3>📚 Classical Indications</h3>
-      <p>
-        To be populated after verification from the
-        selected classical Ayurvedic references.
-      </p>
-    </div>
-
-    <div class="therapy-card">
-      <h3>💧 Anupana</h3>
-      <p>
-        To be entered according to the specific
-        formulation and classical reference.
-      </p>
-    </div>
-
-  </div>
-
-  <div class="important-note">
-    <strong>Important:</strong>
-    The Ministry of AYUSH identifies the dried mature root
-    as the Ayurvedic drug. Leaves should not currently be
-    treated as an ASU therapeutic drug on the basis of
-    classical textual evidence.
-  </div>
-
-</section>
-
-
-        <section class="info-section">
-<section class="plant-section">
-
-  <h2>🧪 Classical Formulations</h2>
-
-  <div class="formulation-grid">
-
-    <div class="formulation-card">
-      <h3>Formulation 1</h3>
-      <p class="formulation-status">
-        Reference to be verified
-      </p>
-    </div>
-
-    <div class="formulation-card">
-      <h3>Formulation 2</h3>
-      <p class="formulation-status">
-        Reference to be verified
-      </p>
-    </div>
-
-    <div class="formulation-card">
-      <h3>Formulation 3</h3>
-      <p class="formulation-status">
-        Reference to be verified
-      </p>
-    </div>
-
-  </div>
-
-  <div class="important-note">
-    <strong>Reference policy:</strong>
-    Formulation names, ingredients, indications and classical
-    references will be added only after verification from the
-    selected Ayurvedic texts.
-  </div>
-
-</section>
-
-
-        <section class="plant-section classical-section">
-
-  <h2>📖 Classical Reference</h2>
-
-  <div class="shloka-card">
-
-    <div class="shloka-label">
-      श्लोक
-    </div>
-
-    <p class="sanskrit-shloka">
-      अश्वगन्धा बलापुष्टिशुक्रोजः क्षयनाशिनी ।
-      <br>
-      वायुश्लेष्महरा स्वादुपाकातिक्तोष्णकारिणी ॥
-    </p>
-
-    <div class="reference-box">
-
-      <h3>📚 Reference</h3>
-
-      <p>
-        Charaka Saṃhitā — Cikitsā Sthāna,
-        Rasāyana Adhyāya.
-      </p>
-
-      <p class="reference-status">
-        ⚠️ Exact chapter/verse numbering to be verified
-        against the selected edition before publication.
-      </p>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-        <section class="info-section">
-
-          <h2>🎓 BAMS Quick Revision</h2>
-
-          <p>
-            <strong>Exam Points:</strong>
-          </p>
-
-          <ul>
-
-            ${
-              (plant.student?.exam_points || []).length
-              ?
-              plant.student.exam_points
-                .map(item => `<li>${item}</li>`)
-                .join("")
-              :
-              "<li>Revision points will be added.</li>"
-            }
-
-          </ul>
-
-        </section>
-
-
-        <div class="back-button">
-
-          <a href="index.html#plants">
-            ← Back to Plant Library
-          </a>
-
-        </div>
-
-      `;
-
-    })
-
-    .catch(error => {
-
-      console.error(error);
-
-      plantContent.innerHTML = `
-        <h2>Error loading plant</h2>
-        <p>Please try again.</p>
-      `;
-
-    });
-
-}
-
-</script>
-<!-- Image Zoom Modal -->
-<div id="imageModal" class="image-modal">
-
-  <span class="image-modal-close">&times;</span>
-
-  <img id="modalImage" class="modal-image" src="" alt="Plant image">
+<!-- =========================================================
+     IMAGE ZOOM MODAL
+========================================================= -->
+
+<div id="image-modal" class="image-modal" aria-hidden="true">
+
+    <button
+        id="close-modal"
+        class="close-modal"
+        type="button"
+        aria-label="Close image"
+    >
+        ×
+    </button>
+
+    <img
+        id="modal-image"
+        class="modal-image"
+        alt=""
+    >
 
 </div>
 
-</body>
-</html>
+
+<!-- =========================================================
+     PLANT PROFILE SCRIPT
+========================================================= -->
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const plantContent = document.getElementById("plant-content");
+
+    /*
+     * Read plant ID from URL.
+     *
+     * Example:
+     * plant.html?id=ashwagandha
+     */
+    const params = new URLSearchParams(window.location.search);
+    const plantId = params.get("id");
+
+
+    /* ---------------------------------------------------------
+       BASIC ERROR CHECK
+    --------------------------------------------------------- */
+
+    if (!plantId) {
+
+        plantContent.innerHTML = `
+            <div class="error-box">
+                <div class="error-icon">⚠️</div>
+
+                <h2>No plant selected</h2>
+
+                <p>
+                    Please select a plant from the DravyaGuna 97 Plant Library.
+                </p>
+
+                <a href="index.html#plants" class="plant-button">
+                    ← Back to Plant Library
+                </a>
+            </div>
+        `;
+
+        return;
+    }
+
+
+    /* ---------------------------------------------------------
+       SAFE HTML FUNCTION
+    --------------------------------------------------------- */
+
+    function safe(value) {
+
+        if (
+            value === null ||
+            value === undefined ||
+            value === ""
+        ) {
+            return "Not available";
+        }
+
+        return String(value);
+    }
+
+
+    /* ---------------------------------------------------------
+       IMAGE FUNCTION
+       IMPORTANT:
+       Never creates <img src="">
+    --------------------------------------------------------- */
+
+    function createImage(path, altText) {
+
+        if (
+            !path ||
+            typeof path !== "string" ||
+            path.trim() === ""
+        ) {
+            return "";
+        }
+
+        return `
+            <div class="gallery-item">
+
+                <img
+                    src="${path}"
+                    alt="${safe(altText)}"
+                    loading="lazy"
+                    class="plant-gallery-image"
+                >
+
+                <div class="gallery-caption">
+                    ${safe(altText)}
+                </div>
+
+            </div>
+        `;
+    }
+
+
+    /* ---------------------------------------------------------
+       SIMPLE VALUE SECTION
+    --------------------------------------------------------- */
+
+    function infoRow(label, value) {
+
+        if (
+            value === undefined ||
+            value === null ||
+            value === ""
+        ) {
+            return "";
+        }
+
+        return `
+            <div class="info-row">
+
+                <div class="info-label">
+                    ${label}
+                </div>
+
+                <div class="info-value">
+                    ${value}
+                </div>
+
+            </div>
+        `;
+    }
+
+
+    /* ---------------------------------------------------------
+       ARRAY SECTION
+    --------------------------------------------------------- */
+
+    function createList(items) {
+
+        if (!Array.isArray(items) || items.length === 0) {
+            return `<p class="not-available">Not available</p>`;
+        }
+
+        return `
+            <ul class="plant-list">
+                ${items.map(item => `
+                    <li>${safe(item)}</li>
+                `).join("")}
+            </ul>
+        `;
+    }
+
+
+    /* ---------------------------------------------------------
+       LOAD DATABASE
+    --------------------------------------------------------- */
+
+    fetch("./plants.json?v=7")
+
+        .then(function (response) {
+
+            if (!response.ok) {
+                throw new Error(
+                    "Unable to load plants.json. HTTP status: " +
+                    response.status
+                );
+            }
+
+            return response.json();
+        })
+
+
+        .then(function (plants) {
+
+            if (!Array.isArray(plants)) {
+                throw new Error(
+                    "plants.json must contain an array."
+                );
+            }
+
+
+            /* -------------------------------------------------
+               FIND PLANT
+            ------------------------------------------------- */
+
+            const plant = plants.find(function (item) {
+
+                if (!item) {
+                    return false;
+                }
+
+                const id1 =
+                    item.id ?
+                    String(item.id).toLowerCase() :
+                    "";
+
+                const id2 =
+                    item.plantID ?
+                    String(item.plantID).toLowerCase() :
+                    "";
+
+                const requested =
+                    String(plantId).toLowerCase();
+
+                return (
+                    id1 === requested ||
+                    id2 === requested
+                );
+
+            });
+
+
+            /* -------------------------------------------------
+               PLANT NOT FOUND
+            ------------------------------------------------- */
+
+            if (!plant) {
+
+                plantContent.innerHTML = `
+
+                    <div class="error-box">
+
+                        <div class="error-icon">
+                            🔍
+                        </div>
+
+                        <h2>
+                            No plant information found
+                        </h2>
+
+                        <p>
+                            Plant ID:
+                            <strong>${safe(plantId)}</strong>
+                        </p>
+
+                        <p>
+                            Please return to the Plant Library
+                            and select a valid plant.
+                        </p>
+
+                        <a
+                            href="index.html#plants"
+                            class="plant-button"
+                        >
+                            ← Back to Plant Library
+                        </a>
+
+                    </div>
+
+                `;
+
+                return;
+            }
+
+
+            /* -------------------------------------------------
+               IDENTITY
+            ------------------------------------------------- */
+
+            const name =
+                plant.name ||
+                plant.common_name ||
+                "Unnamed Plant";
+
+            const sanskrit =
+                plant.sanskrit_name ||
+                "";
+
+            const botanical =
+                plant.botanical_name ||
+                "";
+
+            const family =
+                plant.family ||
+                "";
+
+            const english =
+                plant.english_name ||
+                "";
+
+            const hindi =
+                plant.hindi_name ||
+                "";
+
+
+            /* -------------------------------------------------
+               IMAGE DATA
+            ------------------------------------------------- */
+
+            const images =
+                plant.images || {};
+
+
+            let galleryHTML = "";
+
+            galleryHTML += createImage(
+                images.whole_plant,
+                "Whole Plant"
+            );
+
+            galleryHTML += createImage(
+                images.leaf,
+                "Leaf"
+            );
+
+            galleryHTML += createImage(
+                images.flower,
+                "Flower"
+            );
+
+            galleryHTML += createImage(
+                images.fruit,
+                "Fruit"
+            );
+
+            galleryHTML += createImage(
+                images.stem,
+                "Stem"
+            );
+
+            galleryHTML += createImage(
+                images.bark,
+                "Bark"
+            );
+
+            galleryHTML += createImage(
+                images.root,
+                "Root"
+            );
+
+            galleryHTML += createImage(
+                images.seed,
+                "Seed"
+            );
+
+
+            /* -------------------------------------------------
+               IDENTIFICATION
+            ------------------------------------------------- */
+
+            const identification =
+                plant.identification || {};
+
+
+            let identificationHTML = "";
+
+
+            if (typeof identification === "string") {
+
+                identificationHTML = `
+                    <p>
+                        ${safe(identification)}
+                    </p>
+                `;
+
+            } else {
+
+                identificationHTML = `
+
+                    ${infoRow(
+                        "Habit",
+                        identification.habit
+                    )}
+
+                    ${infoRow(
+                        "Root",
+                        identification.root
+                    )}
+
+                    ${infoRow(
+                        "Stem",
+                        identification.stem
+                    )}
+
+                    ${infoRow(
+                        "Leaf",
+                        identification.leaf
+                    )}
+
+                    ${infoRow(
+                        "Flower",
+                        identification.flower
+                    )}
+
+                    ${infoRow(
+                        "Fruit",
+                        identification.fruit
+                    )}
+
+                    ${infoRow(
+                        "Seed",
+                        identification.seed
+                    )}
+
+                    ${infoRow(
+                        "Bark",
+                        identification.bark
+                    )}
+
+                `;
+
+            }
+
+
+            /* -------------------------------------------------
+               DRAVYAGUNA
+            ------------------------------------------------- */
+
+            const dravyaguna =
+                plant.dravyaguna || {};
+
+
+            const rasa =
+                dravyaguna.rasa ||
+                plant.rasa ||
+                "";
+
+            const guna =
+                dravyaguna.guna ||
+                plant.guna ||
+                "";
+
+            const virya =
+                dravyaguna.virya ||
+                plant.virya ||
+                "";
+
+            const vipaka =
+                dravyaguna.vipaka ||
+                plant.vipaka ||
+                "";
+
+            const karma =
+                dravyaguna.karma ||
+                plant.karma ||
+                "";
+
+
+            /* -------------------------------------------------
+               THERAPEUTICS
+            ------------------------------------------------- */
+
+            const therapeutics =
+                plant.therapeutics || {};
+
+
+            let therapeuticHTML = "";
+
+            if (typeof therapeutics === "string") {
+
+                therapeuticHTML = `
+                    <p>
+                        ${safe(therapeutics)}
+                    </p>
+                `;
+
+            } else {
+
+                therapeuticHTML = `
+
+                    ${infoRow(
+                        "Therapeutic Uses",
+                        therapeutics.uses
+                    )}
+
+                    ${infoRow(
+                        "Indications",
+                        therapeutics.indications
+                    )}
+
+                    ${infoRow(
+                        "Useful Part",
+                        therapeutics.useful_part
+                    )}
+
+                    ${infoRow(
+                        "Dosage",
+                        therapeutics.dosage
+                    )}
+
+                    ${infoRow(
+                        "Anupana",
+                        therapeutics.anupana
+                    )}
+
+                `;
+
+            }
+
+
+            /* -------------------------------------------------
+               FORMULATIONS
+            ------------------------------------------------- */
+
+            const formulations =
+                plant.formulations;
+
+
+            let formulationsHTML = "";
+
+            if (Array.isArray(formulations)) {
+
+                formulationsHTML =
+                    createList(formulations);
+
+            } else if (typeof formulations === "string") {
+
+                formulationsHTML = `
+                    <p>
+                        ${safe(formulations)}
+                    </p>
+                `;
+
+            } else {
+
+                formulationsHTML =
+                    `<p class="not-available">
+                        Not available
+                    </p>`;
+
+            }
+
+
+            /* -------------------------------------------------
+               CLASSICAL INFORMATION
+            ------------------------------------------------- */
+
+            const classical =
+                plant.classical_information ||
+                plant.classical ||
+                {};
+
+
+            let classicalHTML = "";
+
+
+            if (typeof classical === "string") {
+
+                classicalHTML = `
+                    <p>
+                        ${safe(classical)}
+                    </p>
+                `;
+
+            } else {
+
+                classicalHTML = `
+
+                    ${infoRow(
+                        "Classical Name",
+                        classical.classical_name
+                    )}
+
+                    ${infoRow(
+                        "Synonyms",
+                        classical.synonyms
+                    )}
+
+                    ${infoRow(
+                        "Shloka",
+                        classical.shloka
+                    )}
+
+                    ${infoRow(
+                        "Reference",
+                        classical.reference
+                    )}
+
+                `;
+
+            }
+
+
+            /* -------------------------------------------------
+               STUDENT INFORMATION
+            ------------------------------------------------- */
+
+            const student =
+                plant.student || {};
+
+
+            let studentHTML = "";
+
+            if (typeof student === "string") {
+
+                studentHTML = `
+                    <p>
+                        ${safe(student)}
+                    </p>
+                `;
+
+            } else {
+
+                studentHTML = `
+
+                    ${infoRow(
+                        "Mnemonic",
+                        student.mnemonic
+                    )}
+
+                    ${infoRow(
+                        "Important Point",
+                        student.important_point
+                    )}
+
+                    ${infoRow(
+                        "Exam Point",
+                        student.exam_point
+                    )}
+
+                    ${infoRow(
+                        "Quick Revision",
+                        student.quick_revision
+                    )}
+
+                `;
+
+            }
+
+
+            /* =================================================
+               RENDER COMPLETE PAGE
+            ================================================= */
+
+            plantContent.innerHTML = `
+
+                <!-- =========================================
+                     HERO
+                ========================================== -->
+
+                <section class="plant-hero">
+
+                    <div class="plant-hero-content">
+
+                        <div class="plant-symbol">
+                            🌿
+                        </div>
+
+                        <div>
+
+                            <div class="eyebrow">
+                                DRAVYAGUNA 97 • BAMS REFERENCE
+                            </div>
+
+                            <h1>
+                                ${safe(name)}
+                            </h1>
+
+                            ${
+                                sanskrit
+                                ? `<h2>${safe(sanskrit)}</h2>`
+                                : ""
+                            }
+
+                            ${
+                                botanical
+                                ? `
+                                    <p class="botanical-name">
+                                        ${safe(botanical)}
+                                    </p>
+                                `
+                                : ""
+                            }
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- =========================================
+                     BASIC IDENTITY
+                ========================================== -->
+
+                <section class="plant-section">
+
+                    <div class="section-heading">
+
+                        <span class="section-icon">
+                            🧾
+                        </span>
+
+                        <div>
+
+                            <h2>
+                                Basic Identity
+                            </h2>
+
+                            <p>
+                                Botanical and common identification
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="identity-grid">
+
+                        ${infoRow(
+                            "Sanskrit Name",
+                            sanskrit
+                        )}
+
+                        ${infoRow(
+                            "English Name",
+                            english
+                        )}
+
+                        ${infoRow(
+                            "Hindi Name",
+                            hindi
+                        )}
+
+                        ${infoRow(
+                            "Botanical Name",
+                            botanical
+                        )}
+
+                        ${infoRow(
+                            "Family",
+                            family
+                        )}
+
+                    </div>
+
+                </section>
+
+
+                <!-- =========================================
+                     IMAGE GALLERY
+                ========================================== -
