@@ -1,35 +1,35 @@
 [
   {
     "id": "ashwagandha",
-
     "name": "Ashwagandha",
-
     "sanskrit_name": "अश्वगन्धा",
-
     "transliteration": "Aśvagandhā",
-
     "botanical_name": "Withania somnifera (L.) Dunal",
-
     "family": "Solanaceae",
-
     "english_name": "Ashwagandha",
-
     "hindi_name": "अश्वगंधा",
 
     "synonyms": [],
 
     "identification": {
-      "habit": "",
+      "habit": "Erect, branched subshrub or shrub",
       "habitat": "",
       "distribution": "",
-      "root": "",
-      "stem": "",
-      "leaf": "",
-      "flower": "",
-      "fruit": "",
-      "seed": "",
+      "root": "The root is the principal classical medicinal part.",
+      "stem": "Branched, generally erect and greyish or whitish with fine hairs.",
+      "leaf": "Ovate to obovate or oblong, generally hairy.",
+      "flower": "Small, greenish to yellowish-green flowers in axillary clusters.",
+      "fruit": "Globose red to orange-red berry enclosed by an enlarged persistent calyx.",
+      "seed": "Small seeds with a reticulate surface.",
       "bark": "",
-      "key_features": "",
+      "key_features": [
+        "Greyish or whitish hairy young stems",
+        "Hairy ovate to obovate leaves",
+        "Small axillary flowers",
+        "Red or orange-red globose berries",
+        "Enlarged persistent calyx",
+        "Characteristic medicinal root"
+      ],
       "grahya_lakshana": ""
     },
 
@@ -46,9 +46,11 @@
 
     "therapeutics": {
       "useful_part": [
-        "Root"
+        "Dried mature root"
       ],
-      "therapeutic_uses": [],
+      "therapeutic_uses": [
+        "Traditionally used as a Rasayana drug"
+      ],
       "indications": [],
       "contraindications": [],
       "dose": "",
@@ -61,30 +63,39 @@
       "shlokas": [],
       "references": []
     },
-"source_metadata": {
-  "identity_source": "",
-  "identification_source": "",
-  "dravyaguna_source": "",
-  "therapeutic_source": "",
-  "formulation_source": "",
-  "image_source": "",
-  "last_verified": "",
-  "verification_status": "Pending"
-}
+
     "student": {
-      "exam_points": [],
+      "exam_points": [
+        "Classical name: Ashwagandha",
+        "Botanical name: Withania somnifera (L.) Dunal",
+        "Family: Solanaceae",
+        "Principal classical medicinal part: Root"
+      ],
       "viva_questions": [],
       "practical_points": [],
       "mcqs": []
     },
 
     "images": {
-  "whole_plant": "images/ashwagandha/whole-plant.jpg",
-  "leaf": "images/ashwagandha/leaf.jpg",
-  "flower": "images/ashwagandha/flower.jpg",
-  "fruit": "images/ashwagandha/fruit.jpg",
-  "stem": "images/ashwagandha/stem.jpg",
-  "bark": "",
-  "root": "images/ashwagandha/root.jpg",
-  "seed": "images/ashwagandha/seed.jpg"
+      "whole_plant": "images/ashwagandha/whole-plant.jpg",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "stem": "",
+      "bark": "",
+      "root": "",
+      "seed": ""
+    },
+
+    "source_metadata": {
+      "identity_source": "",
+      "identification_source": "",
+      "dravyaguna_source": "",
+      "therapeutic_source": "",
+      "formulation_source": "",
+      "image_source": "",
+      "last_verified": "",
+      "verification_status": "Pending"
     }
+  }
+]
