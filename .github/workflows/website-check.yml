@@ -65,6 +65,14 @@ jobs:
             echo "✅ Found: $file"
           done
 
+      - name: Check homepage data and assets
+        run: |
+          python check-site.py
+
+      - name: Check JavaScript syntax
+        run: |
+          node --check script.js
+
       - name: Validate HTML CSS Links Images
         uses: anishathalye/proof-html@v2
         with:

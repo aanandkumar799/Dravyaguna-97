@@ -58,14 +58,16 @@ document.addEventListener("DOMContentLoaded", function () {
       plantList.innerHTML = `
         <div class="database-error">
           <h3>Unable to load plant database</h3>
-          <p>Please refresh the page and try again.</p>
+          <p>Please check your connection and refresh the page. If the problem continues, the plant database may be temporarily unavailable.</p>
         </div>
       `;
+      plantList.setAttribute("aria-busy", "false");
     });
 
   // Display plant cards
   function displayPlants(list) {
     plantList.innerHTML = "";
+    plantList.setAttribute("aria-busy", "false");
 
     if (!list || list.length === 0) {
       plantList.innerHTML = `
