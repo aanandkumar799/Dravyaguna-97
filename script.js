@@ -2,34 +2,21 @@ document.addEventListener("DOMContentLoaded", () => {
   const plantList = document.getElementById("plant-list");
   const searchInput = document.getElementById("search");
 
-  if (!plantList) {
-    console.error("Plant list element not found.");
-    return;
-  }
-
-  let plants = [];
-  let plantIndex = [];
-
-  /*
-   * Main detailed database
-   * Contains fully developed plant records such as Ashwagandha.
-   */
   const databaseURL =
-    new URL("plants.json", window.location.href).href + "?v=22";
+    new URL("plants.json", window.location.href).href + "?v=23";
 
-  /*
-   * Master NCISM 97-plant index
-   * Contains all 97 syllabus plants and their permanent IDs.
-   */
   const indexURL =
-    new URL("plant-index.json", window.location.href).href + "?v=1";
+    new URL("plant-index.json", window.location.href).href + "?v=2";
+
+  let masterPlants = [];
+  let currentSearchTerm = "";
+
+  /* =========================================================
+     BASIC HELPERS
+  ========================================================= */
 
   function escapeHTML(value) {
-    if (value === null || value === undefined) {
-      return "";
-    }
-
-    return String(value)
+    return String(value ?? "")
       .replace(/&/g, "&amp;")
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
@@ -37,213 +24,610 @@ document.addEventListener("DOMContentLoaded", () => {
       .replace(/'/g, "&#039;");
   }
 
-  function arrayToText(value) {
-    if (Array.isArray(value)) {
-      return value.join(", ");
-    }
+  function normalizeText(value) {
+    if (value === null || value === undefined) return "";
 
-    return value || "";
+    return String(value)
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^\p{L}\p{N}]+/gu, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function arrayToText(value) {
+    if (!Array.isArray(value)) return "";
+    return value
+      .map(item => {
+        if (typeof item === "object" && item !== null) {
+          return Object.values(item).join(" ");
+        }
+        return String(item ?? "");
+      })
+      .join(" ");
   }
 
   function getIdentity(plant) {
-    return plant.identity || {};
+    return plant?.identity || {};
   }
 
   function getPlantName(plant) {
-    const identity = getIdentity(plant);
-
     return (
-      identity.name ||
-      plant.name ||
-      "Unnamed Plant"
+      getIdentity(plant).name ||
+      plant?.name ||
+      ""
     );
   }
 
   function getSanskritName(plant) {
-    const identity = getIdentity(plant);
-
     return (
-      identity.sanskrit_name ||
-      plant.sanskrit_name ||
+      getIdentity(plant).sanskrit_name ||
+      plant?.sanskrit_name ||
+      ""
+    );
+  }
+
+  function getTransliteration(plant) {
+    return (
+      getIdentity(plant).transliteration ||
+      plant?.transliteration ||
       ""
     );
   }
 
   function getBotanicalName(plant) {
-    const identity = getIdentity(plant);
-
     return (
-      identity.botanical_name ||
-      plant.botanical_name ||
+      getIdentity(plant).botanical_name ||
+      plant?.botanical_name ||
       ""
     );
   }
 
   function getFamily(plant) {
-    const identity = getIdentity(plant);
-
     return (
-      identity.family ||
-      plant.family ||
+      getIdentity(plant).family ||
+      plant?.family ||
       ""
     );
   }
 
   function getEnglishName(plant) {
-    const identity = getIdentity(plant);
-
     return (
-      identity.english_name ||
-      plant.english_name ||
+      getIdentity(plant).english_name ||
+      plant?.english_name ||
+      ""
+    );
+  }
+
+  function getHindiName(plant) {
+    return (
+      getIdentity(plant).hindi_name ||
+      plant?.hindi_name ||
       ""
     );
   }
 
   function getImage(plant) {
+    const images = plant?.images || {};
+
     return (
-      plant.images?.whole_plant ||
-      plant.images?.habit ||
-      plant.image ||
+      images.whole_plant ||
+      images.habit ||
+      images.leaf ||
       ""
     );
   }
 
-  /*
-   * Creates a searchable text block for each plant.
-   */
-  function buildSearchText(plant) {
-    const identity = getIdentity(plant);
-
-    const fields = [
-      plant.id,
-      plant.order,
-      plant.name,
-      plant.sanskrit_name,
-      plant.botanical_name,
-      plant.family,
-      plant.english_name,
-      plant.syllabus_marker,
-
-      identity.name,
-      identity.sanskrit_name,
-      identity.transliteration,
-      identity.botanical_name,
-      identity.family,
-      identity.english_name,
-      identity.hindi_name,
-
-      arrayToText(identity.regional_names),
-      arrayToText(identity.synonyms),
-
-      plant.classification?.habit,
-      plant.classification?.habitat,
-      plant.classification?.distribution,
-
-      plant.identification?.description,
-      plant.identification?.whole_plant,
-      plant.identification?.root,
-      plant.identification?.stem,
-      plant.identification?.leaf,
-      plant.identification?.flower,
-      plant.identification?.fruit,
-      plant.identification?.seed,
-      plant.identification?.bark,
-
-      arrayToText(
-        plant.identification?.identification_points
-      ),
-
-      arrayToText(
-        plant.dravya_guna?.rasa
-      ),
-
-      arrayToText(
-        plant.dravya_guna?.guna
-      ),
-
-      plant.dravya_guna?.virya,
-      plant.dravya_guna?.vipaka,
-      plant.dravya_guna?.prabhava,
-
-      arrayToText(
-        plant.dravya_guna?.karma
-      ),
-
-      plant.dosha?.vata,
-      plant.dosha?.pitta,
-      plant.dosha?.kapha,
-
-      arrayToText(
-        plant.therapeutics?.useful_part
-      ),
-
-      arrayToText(
-        plant.therapeutics?.indications
-      ),
-
-      arrayToText(
-        plant.therapeutics?.therapeutic_actions
-      ),
-
-      plant.therapeutics?.dose,
-      plant.therapeutics?.anupana,
-
-      arrayToText(
-        plant.student?.exam_points
-      ),
-
-      arrayToText(
-        plant.student?.viva_questions
-      ),
-
-      arrayToText(
-        plant.student?.identification_points
-      ),
-
-      arrayToText(
-        plant.student?.mnemonics
-      ),
-
-      plant.student?.quick_revision,
-
-      plant.teacher?.teaching_points,
-      plant.teacher?.discussion_points,
-      plant.teacher?.practical_points,
-
-      plant.doctor?.quick_reference,
-
-      arrayToText(
-        plant.doctor?.important_indications
-      )
-    ];
-
-    return fields
-      .filter(
-        (value) =>
-          value !== null &&
-          value !== undefined &&
-          value !== ""
-      )
-      .join(" ")
-      .toLowerCase();
+  function getOrder(plant) {
+    const value = Number(plant?.order);
+    return Number.isFinite(value) ? value : 9999;
   }
 
-  /*
-   * Merge the NCISM master index with the detailed database.
-   *
-   * The index guarantees all 97 plants appear.
-   * The detailed database supplies richer information
-   * whenever a plant has already been developed.
-   */
-  function buildMasterPlantList() {
+  function getStatus(plant) {
+    return (
+      plant?.metadata?.status ||
+      plant?.status ||
+      "draft"
+    );
+  }
+
+  function getSyllabusMarker(plant) {
+    return (
+      plant?.syllabus_marker ||
+      ""
+    );
+  }
+
+  /* =========================================================
+     SEARCH DATA
+  ========================================================= */
+
+  function collectSearchText(plant) {
+    const identity = plant?.identity || {};
+    const classification = plant?.classification || {};
+    const identification = plant?.identification || {};
+    const dravyaGuna =
+      plant?.dravya_guna ||
+      plant?.dravyaguna ||
+      {};
+
+    const dosha = plant?.dosha || {};
+    const therapeutics = plant?.therapeutics || {};
+    const phytochemistry = plant?.phytochemistry || {};
+    const modern = plant?.modern_information || {};
+    const student = plant?.student || {};
+    const teacher = plant?.teacher || {};
+    const doctor = plant?.doctor || {};
+
+    const formulations = Array.isArray(plant?.formulations)
+      ? plant.formulations
+          .map(formulation =>
+            Object.values(formulation || {}).join(" ")
+          )
+          .join(" ")
+      : "";
+
+    const classical =
+      plant?.classical_reference || {};
+
+    const synonyms = arrayToText(identity.synonyms);
+    const regionalNames = arrayToText(identity.regional_names);
+
+    const rasa = arrayToText(dravyaGuna.rasa);
+    const guna = arrayToText(dravyaGuna.guna);
+    const karma = arrayToText(dravyaGuna.karma);
+
+    const usefulPart = arrayToText(
+      therapeutics.useful_part
+    );
+
+    const indications = arrayToText(
+      therapeutics.indications
+    );
+
+    const therapeuticActions = arrayToText(
+      therapeutics.therapeutic_actions
+    );
+
+    const examPoints = arrayToText(
+      student.exam_points
+    );
+
+    const vivaQuestions = arrayToText(
+      student.viva_questions
+    );
+
+    const identificationPoints = arrayToText(
+      student.identification_points
+    );
+
+    const teachingPoints = arrayToText(
+      teacher.teaching_points
+    );
+
+    const discussionPoints = arrayToText(
+      teacher.discussion_points
+    );
+
+    const practicalPoints = arrayToText(
+      teacher.practical_points
+    );
+
+    const importantIndications = arrayToText(
+      doctor.important_indications
+    );
+
+    const keyPrecautions = arrayToText(
+      doctor.key_precautions
+    );
+
+    const sources = arrayToText(
+      plant.sources
+    );
+
+    const shlokas = arrayToText(
+      classical.shlokas
+    );
+
+    const nighantuReferences = arrayToText(
+      classical.nighantu_references
+    );
+
+    const samhitaReferences = arrayToText(
+      classical.samhita_references
+    );
+
+    const majorConstituents = arrayToText(
+      phytochemistry.major_constituents
+    );
+
+    const recognizedUses = arrayToText(
+      modern.recognized_uses
+    );
+
+    return [
+      getPlantName(plant),
+      getSanskritName(plant),
+      getTransliteration(plant),
+      getBotanicalName(plant),
+      getFamily(plant),
+      getEnglishName(plant),
+      getHindiName(plant),
+
+      synonyms,
+      regionalNames,
+
+      classification.kingdom,
+      classification.habit,
+      classification.habitat,
+      classification.distribution,
+
+      identification.description,
+      identification.whole_plant,
+      identification.root,
+      identification.stem,
+      identification.leaf,
+      identification.flower,
+      identification.fruit,
+      identification.seed,
+      identification.bark,
+      arrayToText(
+        identification.identification_points
+      ),
+
+      rasa,
+      guna,
+      dravyaGuna.virya,
+      dravyaGuna.vipaka,
+      dravyaGuna.prabhava,
+      karma,
+
+      dosha.vata,
+      dosha.pitta,
+      dosha.kapha,
+
+      usefulPart,
+      indications,
+      therapeuticActions,
+      therapeutics.dose,
+      therapeutics.anupana,
+      therapeutics.duration,
+      therapeutics.precautions,
+      therapeutics.contraindications,
+
+      formulations,
+
+      shlokas,
+      nighantuReferences,
+      samhitaReferences,
+
+      majorConstituents,
+      phytochemistry.chemical_notes,
+
+      modern.evidence_summary,
+      recognizedUses,
+      modern.safety_notes,
+      sources,
+
+      examPoints,
+      vivaQuestions,
+      identificationPoints,
+      student.mnemonics,
+      student.quick_revision,
+
+      teachingPoints,
+      discussionPoints,
+      practicalPoints,
+
+      doctor.quick_reference,
+      importantIndications,
+      doctor.useful_part,
+      doctor.dose,
+      doctor.anupana,
+      keyPrecautions,
+
+      plant?.id,
+      plant?.syllabus_marker,
+      plant?.status,
+      plant?.metadata?.status
+    ].join(" ");
+  }
+
+  /* =========================================================
+     SEARCH INDEX
+  ========================================================= */
+
+  function createSearchIndex(plant) {
+    return {
+      normalized: normalizeText(
+        collectSearchText(plant)
+      ),
+
+      name: normalizeText(
+        getPlantName(plant)
+      ),
+
+      sanskrit: normalizeText(
+        getSanskritName(plant)
+      ),
+
+      transliteration: normalizeText(
+        getTransliteration(plant)
+      ),
+
+      botanical: normalizeText(
+        getBotanicalName(plant)
+      ),
+
+      family: normalizeText(
+        getFamily(plant)
+      ),
+
+      english: normalizeText(
+        getEnglishName(plant)
+      ),
+
+      hindi: normalizeText(
+        getHindiName(plant)
+      ),
+
+      id: normalizeText(
+        plant?.id || ""
+      ),
+
+      order: String(
+        getOrder(plant)
+      )
+    };
+  }
+
+  /* =========================================================
+     SEARCH SCORING
+  ========================================================= */
+
+  function scorePlant(plant, searchTerm) {
+    const query = normalizeText(searchTerm);
+
+    if (!query) return 0;
+
+    const index = plant._searchIndex;
+
+    if (!index) return 0;
+
+    const queryWords = query
+      .split(" ")
+      .filter(Boolean);
+
+    let score = 0;
+
+    /*
+      Exact matches receive the strongest score.
+    */
+
+    if (index.name === query) {
+      score += 1000;
+    }
+
+    if (index.sanskrit === query) {
+      score += 950;
+    }
+
+    if (index.transliteration === query) {
+      score += 900;
+    }
+
+    if (index.botanical === query) {
+      score += 850;
+    }
+
+    if (index.english === query) {
+      score += 800;
+    }
+
+    if (index.hindi === query) {
+      score += 800;
+    }
+
+    if (index.family === query) {
+      score += 700;
+    }
+
+    if (index.id === query) {
+      score += 750;
+    }
+
+    if (index.order === query) {
+      score += 700;
+    }
+
+    /*
+      Prefix matches.
+    */
+
+    if (index.name.startsWith(query)) {
+      score += 600;
+    }
+
+    if (index.sanskrit.startsWith(query)) {
+      score += 580;
+    }
+
+    if (index.transliteration.startsWith(query)) {
+      score += 560;
+    }
+
+    if (index.botanical.startsWith(query)) {
+      score += 540;
+    }
+
+    if (index.english.startsWith(query)) {
+      score += 520;
+    }
+
+    if (index.hindi.startsWith(query)) {
+      score += 520;
+    }
+
+    /*
+      Partial field matches.
+    */
+
+    if (index.name.includes(query)) {
+      score += 450;
+    }
+
+    if (index.sanskrit.includes(query)) {
+      score += 430;
+    }
+
+    if (index.transliteration.includes(query)) {
+      score += 410;
+    }
+
+    if (index.botanical.includes(query)) {
+      score += 390;
+    }
+
+    if (index.english.includes(query)) {
+      score += 370;
+    }
+
+    if (index.hindi.includes(query)) {
+      score += 370;
+    }
+
+    if (index.family.includes(query)) {
+      score += 300;
+    }
+
+    /*
+      General database search.
+    */
+
+    if (index.normalized.includes(query)) {
+      score += 150;
+    }
+
+    /*
+      Multi-word search.
+
+      Every individual search word must occur somewhere
+      in the searchable database text.
+    */
+
+    if (queryWords.length > 1) {
+      let matchedWords = 0;
+
+      for (const word of queryWords) {
+        if (index.normalized.includes(word)) {
+          matchedWords++;
+        }
+      }
+
+      if (matchedWords === queryWords.length) {
+        score += 250;
+      } else {
+        score += matchedWords * 35;
+      }
+    }
+
+    /*
+      Small boost for developed profiles.
+      This is NOT used to exclude draft plants.
+    */
+
+    if (
+      getStatus(plant) === "verified" ||
+      getStatus(plant) === "complete"
+    ) {
+      score += 5;
+    }
+
+    return score;
+  }
+
+  function searchPlants(searchTerm) {
+    const query = normalizeText(searchTerm);
+
+    if (!query) {
+      return [...masterPlants].sort(
+        (a, b) => getOrder(a) - getOrder(b)
+      );
+    }
+
+    return masterPlants
+      .map(plant => ({
+        plant,
+        score: scorePlant(plant, query)
+      }))
+      .filter(item => item.score > 0)
+      .sort((a, b) => {
+        if (b.score !== a.score) {
+          return b.score - a.score;
+        }
+
+        return getOrder(a.plant) - getOrder(b.plant);
+      })
+      .map(item => item.plant);
+  }
+
+  /* =========================================================
+     HIGHLIGHT SEARCH MATCH
+  ========================================================= */
+
+  function highlightText(value, searchTerm) {
+    const text = String(value ?? "");
+
+    if (!searchTerm) {
+      return escapeHTML(text);
+    }
+
+    const escaped = escapeHTML(text);
+    const normalizedQuery = normalizeText(searchTerm);
+
+    if (!normalizedQuery) {
+      return escaped;
+    }
+
+    /*
+      Highlighting is intentionally limited to simple
+      Latin-text matches so Sanskrit text is never damaged.
+    */
+
+    const safeQuery = normalizedQuery
+      .replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+    if (!safeQuery) {
+      return escaped;
+    }
+
+    try {
+      return escaped.replace(
+        new RegExp(`(${safeQuery})`, "gi"),
+        "<mark>$1</mark>"
+      );
+    } catch {
+      return escaped;
+    }
+  }
+
+  /* =========================================================
+     MASTER LIST
+  ========================================================= */
+
+  function buildMasterPlantList(
+    detailedPlants,
+    plantIndex
+  ) {
     const detailedMap = new Map();
 
-    plants.forEach((plant) => {
+    detailedPlants.forEach(plant => {
       if (
         plant &&
         typeof plant === "object" &&
         typeof plant.id === "string" &&
-        plant.id.trim() !== ""
+        plant.id.trim()
       ) {
         detailedMap.set(
           plant.id.trim(),
@@ -252,7 +636,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
 
-    const merged = plantIndex.map((indexPlant) => {
+    const merged = plantIndex.map(indexPlant => {
       const detailedPlant =
         detailedMap.get(indexPlant.id);
 
@@ -262,14 +646,24 @@ document.addEventListener("DOMContentLoaded", () => {
           ...detailedPlant,
           order:
             detailedPlant.order ||
-            indexPlant.order
+            indexPlant.order,
+
+          syllabus_marker:
+            detailedPlant.syllabus_marker ||
+            indexPlant.syllabus_marker,
+
+          _indexStatus:
+            indexPlant.status || "draft"
         };
       }
 
       return {
         ...indexPlant,
+
         identity: {
-          name: indexPlant.name || "",
+          name:
+            indexPlant.name || "",
+
           sanskrit_name:
             indexPlant.sanskrit_name || ""
         },
@@ -281,445 +675,293 @@ document.addEventListener("DOMContentLoaded", () => {
       };
     });
 
-    /*
-     * If a detailed plant exists that is not yet in the
-     * master index, keep it visible rather than losing it.
-     */
-    const indexIDs = new Set(
-      plantIndex.map((plant) => plant.id)
-    );
+    return merged
+      .sort(
+        (a, b) =>
+          getOrder(a) - getOrder(b)
+      )
+      .map(plant => {
+        plant._searchIndex =
+          createSearchIndex(plant);
 
-    plants.forEach((plant) => {
-      if (
-        plant &&
-        typeof plant.id === "string" &&
-        plant.id.trim() !== "" &&
-        !indexIDs.has(plant.id)
-      ) {
-        merged.push(plant);
-      }
-    });
-
-    /*
-     * Maintain official syllabus order.
-     */
-    merged.sort((a, b) => {
-      const orderA =
-        Number(a.order) || 9999;
-
-      const orderB =
-        Number(b.order) || 9999;
-
-      return orderA - orderB;
-    });
-
-    return merged;
+        return plant;
+      });
   }
 
-  function renderPlants(list) {
-    if (!list.length) {
-      plantList.innerHTML = `
-        <div class="empty-state">
-          <h3>No plants found</h3>
+  /* =========================================================
+     PLANT CARD
+  ========================================================= */
 
-          <p>
-            Try searching by plant name,
-            Sanskrit name, botanical name,
-            family or synonym.
-          </p>
+  function renderPlantCard(
+    plant,
+    searchTerm = ""
+  ) {
+    const name = getPlantName(plant);
+    const sanskrit = getSanskritName(plant);
+    const botanical = getBotanicalName(plant);
+    const family = getFamily(plant);
+    const english = getEnglishName(plant);
+    const image = getImage(plant);
+
+    const order = getOrder(plant);
+
+    const marker =
+      getSyllabusMarker(plant);
+
+    const status =
+      getStatus(plant);
+
+    const isDeveloped =
+      status === "verified" ||
+      status === "complete";
+
+    const plantId =
+      plant?.id || "";
+
+    const safePlantId =
+      encodeURIComponent(plantId);
+
+    const imageHTML = image
+      ? `
+        <img
+          src="${escapeHTML(image)}"
+          alt="${escapeHTML(name)}"
+          loading="lazy"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+        >
+        <div class="plant-placeholder" style="display:none;">
+          🌿
+        </div>
+      `
+      : `
+        <div class="plant-placeholder">
+          🌿
         </div>
       `;
 
-      return;
-    }
+    const statusHTML = isDeveloped
+      ? ""
+      : `
+        <span class="plant-status">
+          Profile in development
+        </span>
+      `;
 
-    plantList.innerHTML = list
-      .map((plant) => {
-        const id =
-          plant.id || "";
+    const markerHTML = marker
+      ? `
+        <span class="syllabus-marker">
+          ${escapeHTML(marker)}
+        </span>
+      `
+      : "";
 
-        const name =
-          getPlantName(plant);
+    return `
+      <article
+        class="plant-card"
+        data-plant-id="${escapeHTML(plantId)}"
+        data-order="${order}"
+      >
 
-        const sanskrit =
-          getSanskritName(plant);
+        <div class="plant-image">
+          ${imageHTML}
+        </div>
 
-        const botanical =
-          getBotanicalName(plant);
+        <div class="plant-card-content">
 
-        const family =
-          getFamily(plant);
+          <div class="plant-card-top">
+            <span class="plant-number">
+              ${order}
+            </span>
 
-        const english =
-          getEnglishName(plant);
-
-        const image =
-          getImage(plant);
-
-        const order =
-          plant.order || "";
-
-        const marker =
-          plant.syllabus_marker || "";
-
-        const status =
-          plant.metadata?.status ||
-          plant.status ||
-          "draft";
-
-        return `
-          <article
-            class="plant-card"
-            data-plant-id="${escapeHTML(id)}"
-          >
-
-            ${
-              image
-                ? `
-                  <div class="plant-card-image">
-
-                    <img
-                      src="${escapeHTML(image)}"
-                      alt="${escapeHTML(name)} - whole plant"
-                      loading="lazy"
-                    >
-
-                  </div>
-                `
-                : `
-                  <div
-                    class="plant-card-image plant-image-placeholder"
-                    aria-hidden="true"
-                  >
-
-                    <span>🌿</span>
-
-                  </div>
-                `
-            }
-
-            <div class="plant-card-content">
-
-              ${
-                order
-                  ? `
-                    <div
-                      class="plant-number"
-                      aria-label="Syllabus number ${escapeHTML(order)}"
-                    >
-                      ${escapeHTML(order)}
-                    </div>
-                  `
-                  : ""
-              }
-
-              <h3>
-                ${escapeHTML(name)}
-              </h3>
-
-              ${
-                sanskrit
-                  ? `
-                    <p class="sanskrit-name">
-                      ${escapeHTML(sanskrit)}
-                    </p>
-                  `
-                  : ""
-              }
-
-              ${
-                botanical
-                  ? `
-                    <p class="botanical-name">
-                      ${escapeHTML(botanical)}
-                    </p>
-                  `
-                  : ""
-              }
-
-              ${
-                english
-                  ? `
-                    <p>
-                      <strong>English:</strong>
-                      ${escapeHTML(english)}
-                    </p>
-                  `
-                  : ""
-              }
-
-              ${
-                family
-                  ? `
-                    <p class="plant-family">
-                      <strong>Family:</strong>
-                      ${escapeHTML(family)}
-                    </p>
-                  `
-                  : ""
-              }
-
-              ${
-                marker
-                  ? `
-                    <span class="syllabus-marker">
-                      ${escapeHTML(marker)}
-                    </span>
-                  `
-                  : ""
-              }
-
-              ${
-                status === "draft"
-                  ? `
-                    <span
-                      class="plant-status"
-                      title="Detailed profile is being developed"
-                    >
-                      Profile in development
-                    </span>
-                  `
-                  : ""
-              }
-
-              <a
-                class="plant-card-button"
-                href="./plant.html?id=${encodeURIComponent(id)}"
-                aria-label="View details of ${escapeHTML(name)}"
-              >
-                View Plant →
-              </a>
-
-            </div>
-
-          </article>
-        `;
-      })
-      .join("");
-  }
-
-  function filterPlants() {
-    if (!searchInput) {
-      renderPlants(plants);
-      return;
-    }
-
-    const query =
-      searchInput.value
-        .trim()
-        .toLowerCase();
-
-    if (!query) {
-      renderPlants(plants);
-      return;
-    }
-
-    const filteredPlants =
-      plants.filter((plant) =>
-        buildSearchText(plant)
-          .includes(query)
-      );
-
-    renderPlants(filteredPlants);
-  }
-
-  async function fetchJSON(url, errorMessage) {
-    const response =
-      await fetch(url, {
-        cache: "no-store"
-      });
-
-    if (!response.ok) {
-      throw new Error(
-        `${errorMessage}: ${response.status}`
-      );
-    }
-
-    const text =
-      await response.text();
-
-    if (!text.trim()) {
-      throw new Error(
-        `${errorMessage}: file is empty.`
-      );
-    }
-
-    try {
-      return JSON.parse(text);
-    } catch (error) {
-      throw new Error(
-        `${errorMessage}: invalid JSON.`
-      );
-    }
-  }
-
-  async function loadPlants() {
-    plantList.setAttribute(
-      "aria-busy",
-      "true"
-    );
-
-    plantList.innerHTML = `
-      <p class="loading-message">
-        Loading Dravyaguna plants...
-      </p>
-    `;
-
-    try {
-      /*
-       * Load both files.
-       */
-      const [
-        detailedDatabase,
-        masterIndex
-      ] = await Promise.all([
-        fetchJSON(
-          databaseURL,
-          "plants.json"
-        ),
-        fetchJSON(
-          indexURL,
-          "plant-index.json"
-        )
-      ]);
-
-      /*
-       * Validate detailed database.
-       */
-      if (!Array.isArray(detailedDatabase)) {
-        throw new Error(
-          "plants.json must contain an array of plant records."
-        );
-      }
-
-      plants =
-        detailedDatabase.filter(
-          (plant) =>
-            plant &&
-            typeof plant === "object" &&
-            typeof plant.id === "string" &&
-            plant.id.trim() !== ""
-        );
-
-      /*
-       * Validate master index.
-       */
-      if (
-        !masterIndex ||
-        typeof masterIndex !== "object"
-      ) {
-        throw new Error(
-          "plant-index.json must contain an object."
-        );
-      }
-
-      if (
-        !Array.isArray(
-          masterIndex.plants
-        )
-      ) {
-        throw new Error(
-          "plant-index.json must contain a plants array."
-        );
-      }
-
-      plantIndex =
-        masterIndex.plants.filter(
-          (plant) =>
-            plant &&
-            typeof plant === "object" &&
-            typeof plant.id === "string" &&
-            plant.id.trim() !== ""
-        );
-
-      if (!plantIndex.length) {
-        throw new Error(
-          "No valid plants were found in plant-index.json."
-        );
-      }
-
-      /*
-       * Build the complete 97-plant library.
-       */
-      plants =
-        buildMasterPlantList();
-
-      /*
-       * Render all plants.
-       */
-      renderPlants(plants);
-
-      /*
-       * Connect search.
-       */
-      if (searchInput) {
-        searchInput.removeEventListener(
-          "input",
-          filterPlants
-        );
-
-        searchInput.addEventListener(
-          "input",
-          filterPlants
-        );
-      }
-
-      console.log(
-        `DravyaGuna master library loaded successfully: ${plants.length} plant(s)`
-      );
-
-      console.log(
-        `NCISM master index: ${plantIndex.length} plant(s)`
-      );
-
-    } catch (error) {
-      console.error(
-        "DravyaGuna database error:",
-        error
-      );
-
-      plantList.innerHTML = `
-        <div class="error-state">
+            ${markerHTML}
+          </div>
 
           <h3>
-            Unable to load plant database
+            ${highlightText(name, searchTerm)}
           </h3>
 
-          <p>
-            The Dravyaguna plant database
-            could not be loaded.
-          </p>
+          ${
+            sanskrit
+              ? `
+                <p class="plant-sanskrit">
+                  ${highlightText(
+                    sanskrit,
+                    searchTerm
+                  )}
+                </p>
+              `
+              : ""
+          }
 
-          <button
-            type="button"
-            id="retry-plants"
-            class="plant-card-button"
+          ${
+            botanical
+              ? `
+                <p class="plant-botanical">
+                  ${highlightText(
+                    botanical,
+                    searchTerm
+                  )}
+                </p>
+              `
+              : ""
+          }
+
+          ${
+            english
+              ? `
+                <p class="plant-english">
+                  ${highlightText(
+                    english,
+                    searchTerm
+                  )}
+                </p>
+              `
+              : ""
+          }
+
+          ${
+            family
+              ? `
+                <p class="plant-family">
+                  <strong>Family:</strong>
+                  ${highlightText(
+                    family,
+                    searchTerm
+                  )}
+                </p>
+              `
+              : ""
+          }
+
+          ${statusHTML}
+
+          <a
+            class="view-plant"
+            href="./plant.html?id=${safePlantId}"
           >
-            Retry
-          </button>
+            View Plant →
+          </a>
 
         </div>
-      `;
+      </article>
+    `;
+  }
 
-      const retryButton =
-        document.getElementById(
-          "retry-plants"
-        );
+  /* =========================================================
+     RESULT INFORMATION
+  ========================================================= */
 
-      if (retryButton) {
-        retryButton.addEventListener(
-          "click",
-          loadPlants
+  function updateSearchResultInfo(
+    count,
+    total,
+    searchTerm
+  ) {
+    let info =
+      document.getElementById(
+        "search-result-info"
+      );
+
+    if (!info) {
+      info = document.createElement("div");
+      info.id = "search-result-info";
+
+      if (searchInput?.parentNode) {
+        searchInput.parentNode.insertBefore(
+          info,
+          searchInput.nextSibling
         );
       }
+    }
 
-    } finally {
-      plantList.setAttribute(
-        "aria-busy",
-        "false"
+    if (!searchTerm) {
+      info.textContent =
+        `${total} plants in the NCISM Dravyaguna library`;
+
+      info.style.display = "block";
+      return;
+    }
+
+    info.textContent =
+      `${count} ${count === 1 ? "plant" : "plants"} found for "${searchTerm}"`;
+
+    info.style.display = "block";
+  }
+
+  /* =========================================================
+     EMPTY RESULT
+  ========================================================= */
+
+  function renderNoResults(searchTerm) {
+    plantList.innerHTML = `
+      <div class="no-results">
+        <div style="font-size:3rem;">🔎</div>
+
+        <h3>No plants found</h3>
+
+        <p>
+          No plant matched
+          <strong>${escapeHTML(searchTerm)}</strong>.
+        </p>
+
+        <p>
+          Try the common name, Sanskrit name,
+          botanical name, family, formulation,
+          therapeutic use, or NCISM number.
+        </p>
+
+        <button
+          type="button"
+          id="clear-search"
+        >
+          Clear Search
+        </button>
+      </div>
+    `;
+
+    const clearButton =
+      document.getElementById(
+        "clear-search"
+      );
+
+    if (clearButton) {
+      clearButton.addEventListener(
+        "click",
+        () => {
+          if (searchInput) {
+            searchInput.value = "";
+            searchInput.focus();
+          }
+
+          currentSearchTerm = "";
+
+          renderPlants("");
+        }
       );
     }
   }
 
-  loadPlants();
-});
+  /* =========================================================
+     RENDER PLANTS
+  ========================================================= */
+
+  function renderPlants(searchTerm = "") {
+    currentSearchTerm = searchTerm;
+
+    const results =
+      searchPlants(searchTerm);
+
+    updateSearchResultInfo(
+      results.length,
+      masterPlants.length,
+      searchTerm
+    );
+
+    if (!results.length) {
+      renderNoResults(searchTerm);
+      return;
+    }
+
+    plantList.innerHTML =
+      results
+        .map(plant =>
+ 
