@@ -824,3 +824,63 @@ footer {
   }
 
 }
+/* =================================
+   CLASSICAL SHLOKA
+   ================================= */
+
+.classical-section {
+  background: linear-gradient(135deg, #fffdf7, #f8fbf6);
+}
+
+.shloka-card {
+  padding: 28px;
+  border-radius: 18px;
+  background: #ffffff;
+  border: 1px solid #e7dfc9;
+}
+
+.shloka-label {
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.sanskrit-shloka {
+  font-family: "Noto Serif Devanagari", serif;
+  font-size: 1.35rem;
+  line-height: 2.1;
+  text-align: center;
+  margin: 10px auto 25px;
+}
+
+.reference-box {
+  padding: 18px;
+  border-radius: 14px;
+  background: #f7f8f3;
+  border-left: 4px solid #7a9b68;
+}
+
+.reference-box h3 {
+  margin-top: 0;
+}
+
+.reference-box p {
+  line-height: 1.7;
+}
+
+.reference-status {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 700px) {
+
+  .shloka-card {
+    padding: 20px 14px;
+  }
+
+  .sanskrit-shloka {
+    font-size: 1.1rem;
+    line-height: 2;
+  }
+
+}
