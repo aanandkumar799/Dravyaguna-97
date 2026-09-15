@@ -434,36 +434,54 @@ if (!plantId) {
 </section>
 
 
-        <section class="info-section">
+        <section class="plant-section">
 
-          <h2>💊 Therapeutics</h2>
+  <h2>💊 Therapeutic Information</h2>
 
-          <p>
-            <strong>Useful Part:</strong>
-            ${(plant.therapeutics?.useful_part || []).join(", ") || "-"}
-          </p>
+  <div class="therapy-grid">
 
-          <p>
-            <strong>Therapeutic Uses:</strong>
-            ${(plant.therapeutics?.therapeutic_uses || []).join(", ") || "-"}
-          </p>
+    <div class="therapy-card">
+      <h3>🌱 Useful Part</h3>
+      <p>
+        Dried mature root
+      </p>
+    </div>
 
-          <p>
-            <strong>Indications:</strong>
-            ${(plant.therapeutics?.indications || []).join(", ") || "-"}
-          </p>
+    <div class="therapy-card">
+      <h3>⚕️ Therapeutic Role</h3>
+      <p>
+        Traditionally used as a Rasayana drug and for
+        promoting strength and general well-being.
+      </p>
+    </div>
 
-          <p>
-            <strong>Dose:</strong>
-            ${plant.therapeutics?.dose || "-"}
-          </p>
+    <div class="therapy-card">
+      <h3>📚 Classical Indications</h3>
+      <p>
+        To be populated after verification from the
+        selected classical Ayurvedic references.
+      </p>
+    </div>
 
-          <p>
-            <strong>Anupana:</strong>
-            ${plant.therapeutics?.anupana || "-"}
-          </p>
+    <div class="therapy-card">
+      <h3>💧 Anupana</h3>
+      <p>
+        To be entered according to the specific
+        formulation and classical reference.
+      </p>
+    </div>
 
-        </section>
+  </div>
+
+  <div class="important-note">
+    <strong>Important:</strong>
+    The Ministry of AYUSH identifies the dried mature root
+    as the Ayurvedic drug. Leaves should not currently be
+    treated as an ASU therapeutic drug on the basis of
+    classical textual evidence.
+  </div>
+
+</section>
 
 
         <section class="info-section">
