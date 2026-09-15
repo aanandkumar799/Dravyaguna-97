@@ -524,21 +524,41 @@ if (!plantId) {
 </section>
 
 
-        <section class="info-section">
+        <section class="plant-section classical-section">
 
-          <h2>📚 Classical References</h2>
+  <h2>📖 Classical Reference</h2>
 
-          ${
-            (plant.classical_information?.references || []).length
-            ?
-            plant.classical_information.references
-              .map(item => `<p>• ${item}</p>`)
-              .join("")
-            :
-            "<p>Classical references will be added after verification.</p>"
-          }
+  <div class="shloka-card">
 
-        </section>
+    <div class="shloka-label">
+      श्लोक
+    </div>
+
+    <p class="sanskrit-shloka">
+      अश्वगन्धा बलापुष्टिशुक्रोजः क्षयनाशिनी ।
+      <br>
+      वायुश्लेष्महरा स्वादुपाकातिक्तोष्णकारिणी ॥
+    </p>
+
+    <div class="reference-box">
+
+      <h3>📚 Reference</h3>
+
+      <p>
+        Charaka Saṃhitā — Cikitsā Sthāna,
+        Rasāyana Adhyāya.
+      </p>
+
+      <p class="reference-status">
+        ⚠️ Exact chapter/verse numbering to be verified
+        against the selected edition before publication.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
 
 
         <section class="info-section">
