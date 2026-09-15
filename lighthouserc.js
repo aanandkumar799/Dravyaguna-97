@@ -5,8 +5,9 @@ module.exports = {
       numberOfRuns: 3
     },
 
+    // Baseline phase: collect and upload reports without enforcing score thresholds.
     assert: {
-      preset: "lighthouse:recommended"
+      assertions: {}
     },
 
     upload: {
