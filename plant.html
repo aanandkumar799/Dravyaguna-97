@@ -114,7 +114,14 @@ document.addEventListener("DOMContentLoaded", function () {
             return response.json();
         })
         .then(function (plants) {
-            if (!Array.isArray(plants)) throw new Error("Plant database must contain an array.");
+            if (Array.isArray(plants)) {
+                // Legacy format: an array of plant records.
+            } else if (plants && typeof plants === "object" && plants.id) {
+                // Current format: one complete plant record.
+                plants = [plants];
+            } else {
+                throw new Error("Plant database must contain a plant record or an array of records.");
+            }
             const requested = String(plantId).toLowerCase();
             const plant = plants.find(function (item) {
                 if (!item) return false;
@@ -125,15 +132,16 @@ document.addEventListener("DOMContentLoaded", function () {
                 return;
             }
 
-            const name = plant.name || plant.common_name || "Unnamed Plant";
-            const sanskrit = plant.sanskrit_name || "";
-            const botanical = plant.botanical_name || "";
-            const family = plant.family || "";
+            const identityData = plant.identity || {};
+            const name = identityData.name || plant.name || plant.common_name || "Unnamed Plant";
+            const sanskrit = identityData.sanskrit_name || plant.sanskrit_name || "";
+            const botanical = identityData.botanical_name || plant.botanical_name || "";
+            const family = identityData.family || plant.family || "";
             const images = plant.images || {};
             const identification = typeof plant.identification === "object" ? plant.identification : {};
-            const dravyaguna = typeof plant.dravyaguna === "object" ? plant.dravyaguna : {};
+            const dravyaguna = typeof (plant.dravyaguna || plant.dravya_guna) === "object" ? (plant.dravyaguna || plant.dravya_guna) : {};
             const therapeutics = typeof plant.therapeutics === "object" ? plant.therapeutics : {};
-            const classical = typeof (plant.classical_information || plant.classical) === "object" ? (plant.classical_information || plant.classical) : {};
+            const classical = typeof (plant.classical_information || plant.classical || plant.classical_reference) === "object" ? (plant.classical_information || plant.classical || plant.classical_reference) : {};
             const student = typeof plant.student === "object" ? plant.student : {};
 
             const gallery = [
@@ -142,9 +150,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 [images.root, "Root"], [images.seed, "Seed"]
             ].map(function (entry) { return imageHTML(entry[0], entry[1]); }).join("");
 
-            const identity = [
-                infoRow("Sanskrit Name", sanskrit), infoRow("English Name", plant.english_name),
-                infoRow("Hindi Name", plant.hindi_name), infoRow("Botanical Name", botanical), infoRow("Family", family)
+            const identityRows = [
+                infoRow("Sanskrit Name", sanskrit), infoRow("English Name", identityData.english_name || plant.english_name),
+                infoRow("Hindi Name", identityData.hindi_name || plant.hindi_name), infoRow("Botanical Name", botanical), infoRow("Family", family)
             ].join("");
             const identificationRows = ["habit", "root", "stem", "leaf", "flower", "fruit", "seed", "bark"]
                 .map(function (key) { return infoRow(key.charAt(0).toUpperCase() + key.slice(1), identification[key]); }).join("");
@@ -155,7 +163,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             plantContent.innerHTML = `
                 <section class="plant-hero"><div class="plant-hero-content"><div class="plant-symbol" aria-hidden="true">🌿</div><div><div class="eyebrow">DRAVYAGUNA 97 • BAMS REFERENCE</div><h1>${safe(name)}</h1>${sanskrit ? `<h2>${safe(sanskrit)}</h2>` : ""}${botanical ? `<p class="botanical-name">${safe(botanical)}</p>` : ""}</div></div></section>
-                ${section("Basic Identity", "🧾", `<div class="identity-grid">${identity}</div>`)}
+                ${section("Basic Identity", "🧾", `<div class="identity-grid">${identityRows}</div>`)}
                 ${gallery ? section("Identification Gallery", "🖼️", `<div class="image-gallery">${gallery}</div>`) : ""}
                 ${section("Plant Identification", "🌱", `<div class="identity-grid">${identificationRows || `<p class="not-available">Not available</p>`}</div>`)}
                 ${section("Rasa Panchaka and Karma", "🧪", `<div class="identity-grid">${rasa || `<p class="not-available">Not available</p>`}</div>`)}

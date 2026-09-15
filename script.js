@@ -214,9 +214,19 @@ document.addEventListener("DOMContentLoaded", () => {
         );
       }
 
-      if (!Array.isArray(plants)) {
+      if (Array.isArray(plants)) {
+        // Legacy format: an array of plant records.
+        plants = plants;
+      } else if (
+        plants &&
+        typeof plants === "object" &&
+        plants.id
+      ) {
+        // Current format: one complete plant record as an object.
+        plants = [plants];
+      } else {
         throw new Error(
-          "plants.json must contain an array of plants."
+          "plants.json must contain a plant record or an array of plant records."
         );
       }
 

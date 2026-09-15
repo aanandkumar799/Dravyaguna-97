@@ -15,18 +15,27 @@ for name in required_files:
         errors.append(f"missing required file: {name}")
 
 try:
-    plants = json.loads((ROOT / "plants.json").read_text(encoding="utf-8"))
+    raw_data = json.loads((ROOT / "plants.json").read_text(encoding="utf-8"))
 except (OSError, json.JSONDecodeError) as exc:
     errors.append(f"plants.json could not be parsed: {exc}")
-    plants = []
+    raw_data = None
 
-if not isinstance(plants, list) or not plants:
+if isinstance(raw_data, list):
+    plants = raw_data
+elif isinstance(raw_data, dict) and raw_data.get("id"):
+    plants = [raw_data]
+else:
+    plants = []
+    errors.append("plants.json must contain a plant record object or an array of plant records")
+
+if not plants:
     errors.append("plants.json must contain at least one plant record")
 
 for index, plant in enumerate(plants):
     if not isinstance(plant, dict) or not plant.get("id"):
         errors.append(f"plants.json record {index + 1} has no id")
         continue
+
     images = plant.get("images", {})
     if isinstance(images, dict):
         for field, value in images.items():

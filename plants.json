@@ -1,6 +1,5 @@
 {
   "id": "ashwagandha",
-
   "identity": {
     "name": "Ashwagandha",
     "sanskrit_name": "अश्वगन्धा",
@@ -24,7 +23,6 @@
     ],
     "name_meaning": "Aśvagandhā is traditionally explained in relation to the horse-like odour of the root and the strength associated with a horse."
   },
-
   "classification": {
     "kingdom": "Plantae",
     "phylum": "Streptophyta",
@@ -38,7 +36,6 @@
     "habitat": "Subtropical, semi-arid and relatively dry regions",
     "distribution": "Native range extends from southern Europe to Central China and from Africa to Myanmar; present in India and many other regions."
   },
-
   "identification": {
     "description": "An erect, branched, tomentose subshrub with ovate leaves, small greenish-yellow flowers and globose red berries enclosed by an enlarged persistent calyx.",
     "whole_plant": "Small erect branched shrub or subshrub, commonly about 0.5–2 m depending on growing conditions, with greyish or whitish tomentose stems.",
@@ -59,19 +56,17 @@
       "Dried mature root is the official Ayurvedic drug material"
     ]
   },
-
   "images": {
-    "whole_plant": "images/plants/ashwagandha/whole-plant.webp",
-    "habit": "images/plants/ashwagandha/habit.webp",
-    "root": "images/plants/ashwagandha/root.webp",
-    "stem": "images/plants/ashwagandha/stem.webp",
-    "leaf": "images/plants/ashwagandha/leaf.webp",
-    "flower": "images/plants/ashwagandha/flower.webp",
-    "fruit": "images/plants/ashwagandha/fruit.webp",
-    "seed": "images/plants/ashwagandha/seed.webp",
-    "bark": "images/plants/ashwagandha/bark.webp"
+    "whole_plant": "images/ashwagandha/whole-plant.jpg",
+    "habit": "images/ashwagandha/whole-plant.jpg",
+    "root": "images/ashwagandha/root/images (3).jpeg",
+    "stem": "images/ashwagandha/stem/images (5).jpeg",
+    "leaf": "images/ashwagandha/leaf/images (2).jpeg",
+    "flower": "images/ashwagandha/flower/images.jpeg",
+    "fruit": "images/ashwagandha/fruit/images (1).jpeg",
+    "seed": "images/ashwagandha/seed/images (4).jpeg",
+    "bark": ""
   },
-
   "dravya_guna": {
     "rasa": [
       "Madhura",
@@ -92,14 +87,12 @@
     ],
     "source_note": "Ayurvedic property descriptions vary somewhat among secondary databases and publications. The values above follow the pharmacological profile reported in Ayurvedic sources consulted during this research; the primary edition/page should be checked before marking a classical citation as fully verified."
   },
-
   "dosha": {
     "vata": "Shamaka",
     "pitta": "May increase with excessive use because of Ushna Virya",
     "kapha": "Generally described as Kapha-modulating; classical descriptions vary by source",
     "overall": "Primarily used as a Vata-pacifying and strengthening drug; exact Dosha interpretation should be read with Rasa, Guna and Virya."
   },
-
   "therapeutics": {
     "official_useful_part": [
       "Dried mature root"
@@ -140,7 +133,6 @@
     ],
     "modern_safety_note": "NCCIH reports that short-term use up to about 3 months may be safe for some people, but long-term safety is not established. Reported adverse effects include drowsiness, gastrointestinal upset, diarrhoea and vomiting; rare cases of liver injury have also been reported."
   },
-
   "formulations": [
     {
       "name": "Ashvagandhadyarishta",
@@ -197,7 +189,6 @@
       "reference": "Classical formulation containing Ashwagandha; primary textual reference should be verified before publication."
     }
   ],
-
   "classical_reference": {
     "shlokas": [],
     "shloka_policy": "No Sanskrit verse has been inserted into this master record without primary-text verification. Verified verses will be added after checking the exact edition, chapter and verse number.",
@@ -227,7 +218,6 @@
       }
     ]
   },
-
   "phytochemistry": {
     "major_constituents": [
       "Withanolides",
@@ -251,7 +241,6 @@
     ],
     "chemical_notes": "Withania somnifera contains steroidal lactones called withanolides, along with alkaloids, glycosides, sitoindosides and other constituents. Chemical composition varies according to plant part, geography, genotype and extraction method."
   },
-
   "modern_information": {
     "evidence_summary": "Modern clinical evidence is preparation-specific and varies by condition. NCCIH reports that some ashwagandha preparations may help with insomnia and stress, while evidence for several other proposed uses remains insufficient or unclear. Many studies are small and use different preparations.",
     "recognized_uses": [
@@ -274,7 +263,6 @@
       "Peer-reviewed reviews of Withania somnifera phytochemistry and pharmacology"
     ]
   },
-
   "student": {
     "exam_points": [
       "Ashwagandha — Withania somnifera (L.) Dunal",
@@ -309,7 +297,6 @@
     "mnemonics": [],
     "quick_revision": "Ashwagandha = Withania somnifera, Solanaceae, dried mature root, Madhura-Tikta-Kashaya, Laghu-Snigdha, Ushna, Madhura Vipaka, Rasayana-Balya-Vajikarana."
   },
-
   "teacher": {
     "teaching_points": [
       "Demonstrate the difference between botanical plant morphology and the official medicinal part.",
@@ -335,7 +322,6 @@
       "Record botanical name and family correctly"
     ]
   },
-
   "doctor": {
     "quick_reference": "Ashwagandha (Withania somnifera) is an Ayurvedic Rasayana and Balya drug for which the official Ayurvedic medicinal material is the dried mature root.",
     "important_indications": [
@@ -357,7 +343,6 @@
     ],
     "evidence_note": "Modern evidence is preparation-specific. Some evidence supports possible benefits for stress and insomnia, while evidence for many other promoted uses remains insufficient."
   },
-
   "sources": [
     {
       "type": "government",
@@ -420,7 +405,6 @@
       "verified": true
     }
   ],
-
   "metadata": {
     "status": "research_verified_with_classical_reference_pending",
     "last_verified": "2026-09-16",
