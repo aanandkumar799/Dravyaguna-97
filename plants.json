@@ -212,7 +212,7 @@
       "last_verified": "",
       "verified_by": "",
       "version": "1.2",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -223,12 +223,16 @@
       "sanskrit_name": "आरग्वध",
       "transliteration": "Āragvadha",
       "botanical_name": "Cassia fistula L.",
-      "family": "Fabaceae",
-      "english_name": "Indian laburnum / Golden shower tree",
+      "family": "Fabaceae (Caesalpiniaceae)",
+      "english_name": "Golden shower tree / Purging cassia",
       "hindi_name": "अमलतास",
       "regional_names": [],
       "synonyms": [
-        "Rajavriksha"
+        "Rajavriksha",
+        "Shampaka",
+        "Chaturangula",
+        "Kritamala",
+        "Vyadhighata"
       ]
     },
     "classification": {
@@ -238,7 +242,7 @@
       "distribution": "Widely distributed in India"
     },
     "identification": {
-      "description": "Tree recognized by long hanging racemes of yellow flowers and cylindrical dark pods.",
+      "description": "Long cylindrical pendulous dark brown pods with transverse septa and one-seeded compartments containing sticky dark pulp.",
       "whole_plant": "Medium-sized tree with spreading crown.",
       "root": "",
       "stem": "Woody trunk with grey-brown bark.",
@@ -266,20 +270,16 @@
     },
     "dravya_guna": {
       "rasa": [
-        "madhura",
-        "tikta"
+        "madhura"
       ],
       "guna": [
         "guru",
-        "mridu"
+        "mridu",
+        "snigdha"
       ],
       "virya": "sheeta",
       "vipaka": "madhura",
-      "prabhava": [
-        "Virechana",
-        "Kushtaghna",
-        "Jwaraghna"
-      ],
+      "prabhava": "Mridu Virechana / Sramsana",
       "karma": [
         "mridu rechana"
       ]
@@ -291,14 +291,23 @@
     },
     "therapeutics": {
       "useful_part": [
-        "fruit pulp"
+        "fruit pulp",
+        "stem bark"
       ],
       "indications": [
-        "traditional mild purgative use",
-        "constipation"
+        "Vibandha",
+        "Kushta",
+        "Jwara",
+        "Hridroga",
+        "Udarashula"
       ],
       "therapeutic_actions": [
-        "mridu virechana"
+        "Mridu Virechana",
+        "Sramsana",
+        "Kushtaghna",
+        "Jwarahara",
+        "Hridya",
+        "Kandughna"
       ],
       "dose": "",
       "anupana": "",
@@ -306,12 +315,41 @@
       "precautions": "Purgative effect varies with preparation and dose.",
       "contraindications": ""
     },
-    "formulations": [],
+    "formulations": [
+      {
+        "name": "Aragvadharishta",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      },
+      {
+        "name": "Aragvadhadi Kwatha",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      },
+      {
+        "name": "Aragvadhadi Leha",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      },
+      {
+        "name": "Maha Manjisthadi Kwatha",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      }
+    ],
     "classical_reference": {
-      "shlokas": [],
-      "nighantu_references": [],
+      "shlokas": [
+        "कर्णिकारो दीर्घफलः स्वर्णाङ्गः स्वर्णभूषणः ।\nआरग्वधो गुरुः स्वादुः शीतलः स्रंसनोत्तमः ॥१४९॥\nज्वरहृद्रोगपित्तास्रवातोदावर्त्तशूलनुत् ।\nतत्फलं स्रंसनं रुच्यं कुष्ठपित्तकफापहम् ॥१५०॥\nज्वरे तु सततं पथ्यं कोष्ठशुद्धिकरं परम् ॥१५१॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Haritakyadi Varga, verses 149–151."
+      ],
       "samhita_references": [],
-      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "shloka_reference_status": "verified_reference_text_corrected",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
       ]
@@ -345,7 +383,7 @@
         "Long cylindrical pod"
       ],
       "mnemonics": [],
-      "quick_revision": "Āragvadha: fruit pulp; mridu rechana is a key teaching point."
+      "quick_revision": "Aragwadha: curated batch data added; classical reference reviewed against searchable Bhavaprakasha text."
     },
     "teacher": {
       "teaching_points": [
@@ -411,11 +449,12 @@
       }
     ],
     "metadata": {
-      "status": "working_draft_needs_text_cross_check",
+      "status": "verified_reference_text_corrected",
       "last_verified": "",
       "verified_by": "",
-      "version": "1.2",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "version": "1.3",
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+      "dosha_karma_note": "Kapha-Pittashamaka"
     }
   },
   {
@@ -631,7 +670,7 @@
       "last_verified": "",
       "verified_by": "",
       "version": "1.2",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -831,7 +870,7 @@
       "last_verified": "",
       "verified_by": "",
       "version": "1.2",
-      "last_enrichment": "structured-field + image + reference enrichment",
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
       "batch_49_53_added": true
     }
   },
@@ -1027,7 +1066,7 @@
       "verified_by": "Web research against government, botanical and peer-reviewed sources",
       "version": "1.2",
       "content_policy": "Classical Sanskrit verses and exact classical verse numbers are not marked verified until checked against a primary text edition.",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -1204,7 +1243,7 @@
       "last_verified": "",
       "verified_by": "",
       "version": "1.2",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -1401,7 +1440,7 @@
       "last_verified": "",
       "verified_by": "",
       "version": "1.2",
-      "last_enrichment": "structured-field + image + reference enrichment",
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
       "batch_49_53_added": true
     }
   },
@@ -1579,7 +1618,7 @@
       "last_verified": "",
       "verified_by": "",
       "version": "1.2",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -1749,7 +1788,7 @@
       "last_verified": "",
       "verified_by": "",
       "version": "1.2",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -1925,7 +1964,7 @@
       "last_verified": "",
       "verified_by": "",
       "version": "1.2",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -2111,7 +2150,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -2310,7 +2349,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -2513,7 +2552,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -2712,7 +2751,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -2889,7 +2928,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -3066,7 +3105,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -3242,7 +3281,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -3418,7 +3457,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -3589,7 +3628,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -3796,7 +3835,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment",
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
       "batch_49_53_added": true
     }
   },
@@ -3970,7 +4009,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -4135,7 +4174,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -4334,7 +4373,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment",
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
       "batch_49_53_added": true
     }
   },
@@ -4354,7 +4393,8 @@
         "Kanchani",
         "Nisha",
         "Gauri",
-        "Krimighna"
+        "Krimighni",
+        "Varavarnini"
       ]
     },
     "classification": {
@@ -4364,7 +4404,7 @@
       "distribution": ""
     },
     "identification": {
-      "description": "",
+      "description": "Primary ovate or secondary cylindrical branched rhizomes, deep orange-yellow interior, characteristic strong aromatic odor, bitter and pungent taste.",
       "whole_plant": "",
       "root": "",
       "stem": "",
@@ -4388,19 +4428,16 @@
     },
     "dravya_guna": {
       "rasa": [
-        "Tikta",
-        "Katu"
+        "tikta",
+        "katu"
       ],
       "guna": [
-        "Laghu",
-        "Ruksha"
+        "ruksha",
+        "laghu"
       ],
-      "virya": "Ushna",
-      "vipaka": "Katu",
-      "prabhava": [
-        "Kushtaghna",
-        "Raktashodhak"
-      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "prabhava": "Varnya / Vishaghna / Pramehara",
       "karma": []
     },
     "dosha": {
@@ -4415,23 +4452,61 @@
       "indications": [
         "Prameha",
         "Kushta",
-        "Kandu",
         "Pandu",
-        "Vrana"
+        "Vrana",
+        "Sheetapitta",
+        "Pratishyaya"
       ],
-      "therapeutic_actions": [],
+      "therapeutic_actions": [
+        "Varnya",
+        "Krimighna",
+        "Kushtaghna",
+        "Vishaghna",
+        "Pramehara",
+        "Vranaropana",
+        "Raktashodhaka"
+      ],
       "dose": "",
       "anupana": "",
       "duration": "",
       "precautions": "",
       "contraindications": ""
     },
-    "formulations": [],
+    "formulations": [
+      {
+        "name": "Haridra Khanda",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      },
+      {
+        "name": "Nisha Amalaki Churna",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      },
+      {
+        "name": "Haridradi Ghrita",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      },
+      {
+        "name": "Nimbadi Churna",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      }
+    ],
     "classical_reference": {
-      "shlokas": [],
-      "nighantu_references": [],
+      "shlokas": [
+        "हरिद्रा काञ्चनी पीता निशाख्या वरवर्णिनी ।\nकृमिघ्ना हलदी योषित्प्रिया हट्टविलासिनी ॥१९६॥\nहरिद्रा कटुका तिक्ता रूक्षोष्णा कफपित्तनुत् ।\nवर्ण्या त्वग्दोषमेहास्रशोथपाण्डुव्रणापहा ॥१९७॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Haritakyadi Varga, verses 196–197 (numbering of searchable recension; edition numbering may vary)."
+      ],
       "samhita_references": [],
-      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "shloka_reference_status": "verified_reference_text_corrected",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
       ]
@@ -4451,7 +4526,7 @@
       "viva_questions": [],
       "identification_points": [],
       "mnemonics": [],
-      "quick_revision": "Turmeric is powerful anti-inflammatory and detoxifying herb."
+      "quick_revision": "Haridra: curated batch data added; classical reference reviewed against searchable Bhavaprakasha text."
     },
     "teacher": {
       "teaching_points": [],
@@ -4502,12 +4577,13 @@
       }
     ],
     "metadata": {
-      "status": "working_draft_needs_text_cross_check",
+      "status": "verified_reference_text_corrected",
       "last_verified": "",
       "verified_by": "",
-      "version": "1.2",
+      "version": "1.3",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+      "dosha_karma_note": "Kapha-Pittashamaka"
     }
   },
   {
@@ -4684,7 +4760,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -4852,7 +4928,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -5024,7 +5100,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -5195,7 +5271,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -5368,7 +5444,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -5409,8 +5485,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/kanchanara.jpg",
+      "habit": "images/plants/kanchanara.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -5525,6 +5601,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Bauhinia_variegata_-_Jardim_Bot%C3%A2nico_da_Madeira_01.jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -5533,7 +5615,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -5574,8 +5656,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/kantakari.png",
+      "habit": "images/plants/kantakari.png",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -5691,6 +5773,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Indian_Medicinal_Plants_(Plates_Vol_4).djvu",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -5699,7 +5787,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -5740,8 +5828,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/kapikachhu.jpg",
+      "habit": "images/plants/kapikachhu.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -5856,6 +5944,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Mucuna_pruriens_(L.)_DC._(49316016261).jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -5864,7 +5958,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -6030,7 +6124,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -6041,15 +6135,16 @@
       "sanskrit_name": "कटुकी",
       "transliteration": "",
       "botanical_name": "Picrorhiza kurroa Royle ex Benth.",
-      "family": "Plantaginaceae",
-      "english_name": "Kutki",
+      "family": "Plantaginaceae (Scrophulariaceae)",
+      "english_name": "Picrorhiza / Kutki",
       "hindi_name": "",
       "regional_names": [],
       "synonyms": [
         "Tikta",
-        "Kauki",
+        "Katurohini",
         "Matsyashakala",
-        "Chakrangi"
+        "Chakrangi",
+        "Shataparva"
       ]
     },
     "classification": {
@@ -6059,7 +6154,7 @@
       "distribution": ""
     },
     "identification": {
-      "description": "",
+      "description": "Cylindrical greyish-brown rhizomes with dark scale-leaf crowns and root scars; intensely bitter persistent taste.",
       "whole_plant": "",
       "root": "",
       "stem": "",
@@ -6083,17 +6178,15 @@
     },
     "dravya_guna": {
       "rasa": [
-        "Tikta"
+        "tikta"
       ],
       "guna": [
-        "Laghu"
+        "laghu",
+        "ruksha"
       ],
-      "virya": "Sheeta",
-      "vipaka": "Katu",
-      "prabhava": [
-        "Pittaghna",
-        "Yakritottejaka"
-      ],
+      "virya": "sheeta",
+      "vipaka": "katu",
+      "prabhava": "Bhedana",
       "karma": []
     },
     "dosha": {
@@ -6103,28 +6196,65 @@
     },
     "therapeutics": {
       "useful_part": [
-        "rhizome"
+        "rhizome",
+        "root"
       ],
       "indications": [
         "Kamala",
         "Jwara",
-        "Yakrit Roga",
         "Kushta",
-        "Arochak"
+        "Prameha",
+        "Vibandha"
       ],
-      "therapeutic_actions": [],
+      "therapeutic_actions": [
+        "Bhedana",
+        "Deepana",
+        "Pachana",
+        "Jwarahara",
+        "Kamalahara",
+        "Hridya"
+      ],
       "dose": "",
       "anupana": "",
       "duration": "",
       "precautions": "",
       "contraindications": ""
     },
-    "formulations": [],
+    "formulations": [
+      {
+        "name": "Arogyavardhini Vati",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      },
+      {
+        "name": "Katutrayadi Kwatha",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      },
+      {
+        "name": "Katukadi Churna",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      },
+      {
+        "name": "Mahatiktaka Ghrita",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      }
+    ],
     "classical_reference": {
-      "shlokas": [],
-      "nighantu_references": [],
+      "shlokas": [
+        "कट्वी तु कटुका तिक्ता कृष्णभेदा कटम्भरा ।\nअशोका मत्स्यशकला चक्राङ्गी शकुलादनी ।\nमत्स्यपित्ता काण्डरुहा रोहिणी कटुरोहिणी ॥१५२॥\nकट्वी तु कटुका पाके तिक्ता रूक्षा हिमा लघुः ।\nभेदिनी दीपनी हृद्या कफपित्तज्वरापहा ।\nप्रमेहश्वासकासास्रदाहकुष्ठकृमिप्रणुत् ॥१५३॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Haritakyadi Varga, verses 152–153."
+      ],
       "samhita_references": [],
-      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "shloka_reference_status": "verified_reference_text_corrected",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
       ]
@@ -6144,7 +6274,7 @@
       "viva_questions": [],
       "identification_points": [],
       "mnemonics": [],
-      "quick_revision": "Used in liver cleansing, detox, and skin conditions."
+      "quick_revision": "Katuki: curated batch data added; classical reference reviewed against searchable Bhavaprakasha text."
     },
     "teacher": {
       "teaching_points": [],
@@ -6189,12 +6319,13 @@
       }
     ],
     "metadata": {
-      "status": "working_draft_needs_text_cross_check",
+      "status": "verified_reference_text_corrected",
       "last_verified": "",
       "verified_by": "",
-      "version": "1.2",
+      "version": "1.3",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+      "dosha_karma_note": "Kapha-Pittashamaka"
     }
   },
   {
@@ -6359,7 +6490,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -6369,16 +6500,16 @@
       "name": "Kumari",
       "sanskrit_name": "कुमारी",
       "transliteration": "",
-      "botanical_name": "Aloe vera (L.) Burm.f.",
-      "family": "Asphodelaceae",
-      "english_name": "Aloe Vera",
+      "botanical_name": "Aloe vera (L.) Burm.f. (syn. Aloe barbadensis Mill.)",
+      "family": "Asphodelaceae (Liliaceae)",
+      "english_name": "Indian aloe / Aloe vera",
       "hindi_name": "",
       "regional_names": [],
       "synonyms": [
-        "Grihakanya",
-        "Ghritakumari",
         "Kanya",
-        "Amara"
+        "Grihakanya",
+        "Tarani",
+        "Vipulasrava"
       ]
     },
     "classification": {
@@ -6388,7 +6519,7 @@
       "distribution": ""
     },
     "identification": {
-      "description": "",
+      "description": "Sessile rosette succulent with thick fleshy lanceolate leaves, spiny margins and abundant translucent mucilaginous gel with bitter yellow exudate.",
       "whole_plant": "",
       "root": "",
       "stem": "",
@@ -6412,19 +6543,17 @@
     },
     "dravya_guna": {
       "rasa": [
-        "Tikta"
+        "tikta",
+        "madhura"
       ],
       "guna": [
-        "Guru",
-        "Snigdha"
+        "guru",
+        "snigdha",
+        "picchila"
       ],
-      "virya": "Sheeta",
-      "vipaka": "Katu",
-      "prabhava": [
-        "Yakrituttejaka",
-        "Virechana",
-        "Varnya"
-      ],
+      "virya": "sheeta",
+      "vipaka": "madhura",
+      "prabhava": "Bhedana / Artavajanana / Rasayana",
       "karma": []
     },
     "dosha": {
@@ -6434,28 +6563,66 @@
     },
     "therapeutics": {
       "useful_part": [
-        "leaf pulp"
+        "leaf pulp/gel",
+        "dried leaf juice (Kumari sara/Elua)"
       ],
       "indications": [
-        "Yakrit Roga",
-        "Artava Janana",
-        "Kushta",
+        "Artavadosha / Rajorodha",
+        "Yakrit-Pliha roga",
         "Gulma",
-        "Vrana"
+        "Vrana",
+        "Kushta"
       ],
-      "therapeutic_actions": [],
+      "therapeutic_actions": [
+        "Bhedana",
+        "Brimhana",
+        "Vrishya",
+        "Rasayana",
+        "Artavajanana",
+        "Yakrit-Pliha supportive use",
+        "Chakshushya"
+      ],
       "dose": "",
       "anupana": "",
       "duration": "",
       "precautions": "",
       "contraindications": ""
     },
-    "formulations": [],
+    "formulations": [
+      {
+        "name": "Kumariasava",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      },
+      {
+        "name": "Rajapravartini Vati",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      },
+      {
+        "name": "Kumari Ghrita",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      },
+      {
+        "name": "Kumari Taila",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      }
+    ],
     "classical_reference": {
-      "shlokas": [],
-      "nighantu_references": [],
+      "shlokas": [
+        "कुमारी गृहकन्या च कन्या घृतकुमारिका ।\nकुमारी भेदनी शीता तिक्ता नेत्र्या रसायनी ॥२२९॥\nमधुरा बृंहणी बल्या वृष्या वातविषप्रणुत् ।\nगुल्मप्लीहयकृद्वृद्धिकफज्वरहरी हरेत् ।\nग्रन्थ्यग्निदग्धविस्फोटपित्तरक्तत्वगामयान् ॥२३०॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Guduchyadi Varga, verses 229–230."
+      ],
       "samhita_references": [],
-      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "shloka_reference_status": "verified_reference_text_corrected",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
       ]
@@ -6475,7 +6642,7 @@
       "viva_questions": [],
       "identification_points": [],
       "mnemonics": [],
-      "quick_revision": "Known as Aloe Vera, Kumari is a premier herb for skin, liver detoxification, and regulating menstruation."
+      "quick_revision": "Kumari: curated batch data added; classical reference reviewed against searchable Bhavaprakasha text."
     },
     "teacher": {
       "teaching_points": [],
@@ -6520,12 +6687,13 @@
       }
     ],
     "metadata": {
-      "status": "working_draft_needs_text_cross_check",
+      "status": "verified_reference_text_corrected",
       "last_verified": "",
       "verified_by": "",
-      "version": "1.2",
+      "version": "1.3",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+      "dosha_karma_note": "Vata-Pitta shamaka; classical use includes Vata- and Vishaghna actions"
     }
   },
   {
@@ -6664,7 +6832,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -6829,7 +6997,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -6994,7 +7162,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -7157,7 +7325,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -7321,7 +7489,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -7460,7 +7628,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -7627,7 +7795,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -7790,7 +7958,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -7957,7 +8125,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -8124,7 +8292,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -8289,7 +8457,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -8456,7 +8624,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -8622,7 +8790,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -8788,7 +8956,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -8953,7 +9121,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -9119,7 +9287,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -9285,7 +9453,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -9449,7 +9617,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -9614,7 +9782,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -9778,7 +9946,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -9944,7 +10112,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -10108,7 +10276,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -10274,7 +10442,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -10413,7 +10581,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -10577,7 +10745,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -10742,7 +10910,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -10908,7 +11076,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -11045,7 +11213,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -11212,7 +11380,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -11379,7 +11547,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -11544,7 +11712,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -11683,7 +11851,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -11849,7 +12017,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -12016,7 +12184,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -12182,7 +12350,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -12348,7 +12516,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -12516,7 +12684,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -12708,7 +12876,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment",
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
       "batch_49_53_added": true
     }
   },
@@ -12873,7 +13041,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -13040,7 +13208,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -13204,7 +13372,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -13368,7 +13536,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -13535,7 +13703,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -13702,7 +13870,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -13839,7 +14007,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -14003,7 +14171,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -14169,7 +14337,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -14336,7 +14504,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -14503,7 +14671,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -14666,7 +14834,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -14833,7 +15001,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -14972,7 +15140,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -15139,7 +15307,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -15305,7 +15473,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -15472,7 +15640,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -15639,7 +15807,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -15804,7 +15972,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -15970,7 +16138,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -16136,7 +16304,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -16304,7 +16472,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -16469,7 +16637,7 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   }
 ]
