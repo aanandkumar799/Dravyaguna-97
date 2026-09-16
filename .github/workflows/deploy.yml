@@ -27,7 +27,7 @@ jobs:
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Prepare static site and split plant data
+      - name: Prepare static site, fast index and plant dossiers
         shell: bash
         run: |
           rm -rf _site
@@ -40,6 +40,10 @@ jobs:
 
           root = Path('_site')
           plants = json.loads((root / 'plants.json').read_text(encoding='utf-8'))
+          assert isinstance(plants, list), 'plants.json must be an array'
+          core = [p for p in plants if p.get('category', 'NCISM-97') == 'NCISM-97']
+          assert len(core) == 97, f'Expected 97 NCISM records, found {len(core)}'
+
           index = []
           for p in plants:
               pid = str(p.get('id', '')).strip()
@@ -74,6 +78,7 @@ jobs:
               (root / 'data' / 'plants' / f'{pid}.json').write_text(
                   json.dumps(p, ensure_ascii=False, indent=2), encoding='utf-8'
               )
+
           index.sort(key=lambda x: (x['order'], x['name']))
           (root / 'data' / 'plants-index.json').write_text(
               json.dumps({'total': len(index), 'plants': index}, ensure_ascii=False, indent=2),
@@ -82,9 +87,30 @@ jobs:
           print(f'Prepared {len(index)} plant detail files')
           PY
 
-      - name: Add offline PWA fallback
+      - name: Wire PWA and fast dossier loading into generated site
         shell: bash
         run: |
+          python - <<'PY'
+          from pathlib import Path
+          root = Path('_site')
+
+          for filename in ['index.html', 'plant.html']:
+              p = root / filename
+              s = p.read_text(encoding='utf-8')
+              if '<link rel="manifest"' not in s:
+                  s = s.replace('</head>', '<link rel="manifest" href="manifest.json"><meta name="theme-color" content="#1b4332">\n</head>', 1)
+              if "navigator.serviceWorker.register('./sw.js')" not in s:
+                  s = s.replace('</body>', "<script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));}</script>\n</body>", 1)
+              p.write_text(s, encoding='utf-8')
+
+          p = root / 'plant.html'
+          s = p.read_text(encoding='utf-8')
+          old = "fetch(new URL('plants.json',location.href),{cache:'no-store',headers:{Accept:'application/json'}}).then"
+          new = "fetch(new URL('data/plants/'+encodeURIComponent(id)+'.json',location.href),{cache:'no-store',headers:{Accept:'application/json'}}).catch(()=>fetch(new URL('plants.json',location.href),{cache:'no-store',headers:{Accept:'application/json'}})).then"
+          if old in s:
+              s = s.replace(old, new, 1)
+          p.write_text(s, encoding='utf-8')
+          PY
           touch _site/.nojekyll
 
       - name: Upload Pages artifact
