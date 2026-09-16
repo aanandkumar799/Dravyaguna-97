@@ -30,6 +30,7 @@ jobs:
           python scripts/normalize-plants-schema.py
           python scripts/generate-site-artifacts.py
           python scripts/harden-quiz.py
+          python scripts/harden-compare.py
 
       - name: Prepare static site, fast index and plant dossiers
         shell: bash
