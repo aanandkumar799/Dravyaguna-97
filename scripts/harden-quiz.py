@@ -14,12 +14,12 @@ if old in s:
     s=s.replace(old,new,1)
 
 needle = "let plants=[], questionBank=[], activeQuestions=[], usedQuestionIds=new Set(), currentQ=0,score=0,answered=false,round=1,selectedId='all';"
-inject = """let plants=[], questionBank=[], activeQuestions=[], usedQuestionIds=new Set(), currentQ=0,score=0,answered=false,round=1,selectedId='all';
+inject = '''let plants=[], questionBank=[], activeQuestions=[], usedQuestionIds=new Set(), currentQ=0,score=0,answered=false,round=1,selectedId='all';
 const QUIZ_STATE_KEY='dravyaGuna97.quizState.v2';
 function saveQuizState(){try{sessionStorage.setItem(QUIZ_STATE_KEY,JSON.stringify({selectedId,round,currentQ,score,answered,activeQuestionIds:activeQuestions.map(q=>q.id),usedQuestionIds:[...usedQuestionIds],savedAt:Date.now()}))}catch(e){}}
 function readQuizState(){try{const raw=sessionStorage.getItem(QUIZ_STATE_KEY);return raw?JSON.parse(raw):null}catch(e){return null}}
 function clearQuizState(){try{sessionStorage.removeItem(QUIZ_STATE_KEY)}catch(e){}}
-function restoreQuizState(){const saved=readQuizState();if(!saved||!Array.isArray(saved.activeQuestionIds)||!saved.activeQuestionIds.length)return false;const ids=new Set(saved.activeQuestionIds);const restored=questionBank.filter(q=>ids.has(q.id));if(restored.length!==saved.activeQuestionIds.length)return false;selectedId=plants.some(p=>p.id===saved.selectedId)||saved.selectedId==='all'?saved.selectedId:'all';$('plantSelect').value=selectedId;round=Number(saved.round)||1;activeQuestions=saved.activeQuestionIds.map(id=>questionBank.find(q=>q.id===id)).filter(Boolean);usedQuestionIds=new Set(Array.isArray(saved.usedQuestionIds)?saved.usedQuestionIds:[]);currentQ=Math.min(Math.max(Number(saved.currentQ)||0,0),Math.max(activeQuestions.length-1,0));score=Math.max(Number(saved.score)||0,0);answered=false;$('modePill').textContent=selectedId==='all'?'Whole Series • 10 questions per round':`${plants.find(p=>p.id===selectedId)?.name||'Selected Plant'} • Focused Practice`;loadQuestion();return true}"
+function restoreQuizState(){const saved=readQuizState();if(!saved||!Array.isArray(saved.activeQuestionIds)||!saved.activeQuestionIds.length)return false;const ids=new Set(saved.activeQuestionIds);const restored=questionBank.filter(q=>ids.has(q.id));if(restored.length!==saved.activeQuestionIds.length)return false;selectedId=plants.some(p=>p.id===saved.selectedId)||saved.selectedId==='all'?saved.selectedId:'all';$('plantSelect').value=selectedId;round=Number(saved.round)||1;activeQuestions=saved.activeQuestionIds.map(id=>questionBank.find(q=>q.id===id)).filter(Boolean);usedQuestionIds=new Set(Array.isArray(saved.usedQuestionIds)?saved.usedQuestionIds:[]);currentQ=Math.min(Math.max(Number(saved.currentQ)||0,0),Math.max(activeQuestions.length-1,0));score=Math.max(Number(saved.score)||0,0);answered=false;$('modePill').textContent=selectedId==='all'?'Whole Series • 10 questions per round':`${plants.find(p=>p.id===selectedId)?.name||'Selected Plant'} • Focused Practice`;loadQuestion();return true}'''
 if needle in s and "QUIZ_STATE_KEY" not in s:
     s=s.replace(needle,inject,1)
 
@@ -27,10 +27,6 @@ old = "plants=source;populateSelector();startRound(true);"
 new = "plants=source;populateSelector();questionBank=buildQuestionBank(plants);if(!restoreQuizState())startRound(true);"
 if old in s:
     s=s.replace(old,new,1)
-
-old = "if(first||!questionBank.length){questionBank=buildQuestionBank(plants);usedQuestionIds.clear();round=1}"
-new = "if(first||!questionBank.length){questionBank=buildQuestionBank(plants);usedQuestionIds.clear();round=1}"
-# kept intentionally identical: loadData now restores before starting a new round
 
 old = "currentQ=0;score=0;round=round||1;loadQuestion();"
 new = "currentQ=0;score=0;round=round||1;loadQuestion();saveQuizState();"
@@ -64,3 +60,5 @@ if old in s:
 
 p.write_text(s,encoding='utf-8')
 print('quiz.html hardened')
+'''
+# The replacement script uses a normal Python triple-quoted string above; the prior version was missing its closing delimiter.
