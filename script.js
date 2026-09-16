@@ -21,6 +21,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const category = p => p.category === 'Supplementary' ? 'Supplementary' : 'NCISM-97';
   const image = p => p.images?.whole_plant || p.images?.habit || p.images?.leaf || '';
 
+  // Keep the official NCISM 1–97 sequence intact. Every supplementary record is
+  // explicitly placed after all NCISM records, regardless of any numeric order
+  // value that may exist on the supplementary record.
+  const libraryOrder = (a, b) => {
+    const ca = category(a), cb = category(b);
+    if (ca !== cb) return ca === 'NCISM-97' ? -1 : 1;
+    if (ca === 'NCISM-97') return order(a) - order(b) || name(a).localeCompare(name(b));
+    return name(a).localeCompare(name(b));
+  };
+
   function score(p, q) {
     const query = normalize(q); if (!query) return 0;
     const fields = [[name(p),1200],[sanskrit(p),1100],[p.transliteration,1050],[botanical(p),1000],[p.english_name || p.identity?.english_name,900],[family(p),800],[p.id,750],[p.search_text,200]];
@@ -37,11 +47,9 @@ document.addEventListener('DOMContentLoaded', () => {
   function filtered(q='') {
     let list = masterPlants.filter(p => categoryFilter === 'all' || category(p) === categoryFilter);
     if (!normalize(q)) return list;
-    return list.map(p => ({p, s: score(p,q)})).filter(x => x.s > 0).sort((a,b) => b.s-a.s || order(a.p)-order(b.p)).map(x => x.p);
+    return list.map(p => ({p, s: score(p,q)})).filter(x => x.s > 0).sort((a,b) => b.s-a.s || libraryOrder(a.p,b.p)).map(x => x.p);
   }
 
-  // Local SVG fallback avoids broken-image icons and avoids relying on a third-party
-  // placeholder service. The fallback is generated in the browser and works offline.
   function fallbackSvg(label) {
     const safe = String(label || 'Plant').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
     const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520"><rect width="800" height="520" fill="#edf5ef"/><text x="400" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="82">🌿</text><text x="400" y="330" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" fill="#1b4332">${safe}</text><text x="400" y="375" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#6b756f">Image not available</text></svg>`;
@@ -57,7 +65,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   function flashcard(p) {
     const n=name(p), s=sanskrit(p), rasa=text(p.rasa)||'—', guna=text(p.guna)||'—', virya=p.virya||'—', vipaka=p.vipaka||'—', useful=text(p.useful_part)||'—';
-    return `<article class="flashcard" tabindex="0" aria-label="Flashcard for ${esc(n)}"><div class="flash-inner"><div class="flash-face"><div class="plant-number">#${order(p)}</div><h3>${esc(n)}</h3><div class="big-sanskrit">${esc(s||'Sanskrit name unavailable')}</div><p>${esc(p.botanical_name||'')}</p><small>Tap / click to flip</small></div><div class="flash-face flash-back"><h3>${esc(n)}</h3><p><strong>Rasa:</strong> ${esc(rasa)}</p><p><strong>Guna:</strong> ${esc(guna)}</p><p><strong>Virya:</strong> ${esc(virya)}</p><p><strong>Vipaka:</strong> ${esc(vipaka)}</p><p><strong>Useful part:</strong> ${esc(useful)}</p><a class="view-plant" href="./plant.html?id=${encodeURIComponent(p.id)}">Open Full Dossier →</a></div></div></article>`;
+    const badge = category(p)==='NCISM-97' ? '#'+order(p) : 'Supplementary';
+    return `<article class="flashcard" tabindex="0" aria-label="Flashcard for ${esc(n)}"><div class="flash-inner"><div class="flash-face"><div class="plant-number">${badge}</div><h3>${esc(n)}</h3><div class="big-sanskrit">${esc(s||'Sanskrit name unavailable')}</div><p>${esc(p.botanical_name||'')}</p><small>Tap / click to flip</small></div><div class="flash-face flash-back"><h3>${esc(n)}</h3><p><strong>Rasa:</strong> ${esc(rasa)}</p><p><strong>Guna:</strong> ${esc(guna)}</p><p><strong>Virya:</strong> ${esc(virya)}</p><p><strong>Vipaka:</strong> ${esc(vipaka)}</p><p><strong>Useful part:</strong> ${esc(useful)}</p><a class="view-plant" href="./plant.html?id=${encodeURIComponent(p.id)}">Open Full Dossier →</a></div></div></article>`;
   }
   function render(q='') {
     const results=filtered(q), info=document.getElementById('search-result-info');
@@ -95,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
       if(!masterPlants.length){r=await fetch(fallbackURL,{cache:'no-store',headers:{Accept:'application/json'}});if(!r.ok)throw Error('HTTP '+r.status);const data=await r.json();if(!Array.isArray(data))throw Error('Invalid plant database');masterPlants=data;}
-      masterPlants=masterPlants.filter(p=>p&&p.id).sort((a,b)=>order(a)-order(b)||name(a).localeCompare(name(b)));
+      masterPlants=masterPlants.filter(p=>p&&p.id).sort(libraryOrder);
       setupControls();plantList.setAttribute('aria-busy','false');render(searchInput?.value||'');
     } catch(e){console.error(e);plantList.innerHTML=`<div class="plant-error"><h3>Unable to load the plant library</h3><p>${esc(e.message||'Please refresh the page.')}</p></div>`;}
   }
