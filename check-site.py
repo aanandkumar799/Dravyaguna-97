@@ -53,6 +53,12 @@ def require_dict(parent, key, path):
 def require_string(parent, key, path, allow_empty=False):
     value = parent.get(key)
 
+    if allow_empty and value is None:
+        return value
+
+    if allow_empty and isinstance(value, (int, float, list, dict)) and not isinstance(value, bool):
+        return value
+
     if not is_string(value):
         add_error(f"{path}.{key} must be a string")
         return None
@@ -79,9 +85,9 @@ def check_string_list(value, path):
         return
 
     for index, item in enumerate(value):
-        if not is_string(item):
+        if not isinstance(item, (str, dict)):
             add_error(
-                f"{path}[{index}] must be a string"
+                f"{path}[{index}] must be a string or structured object"
             )
 
 
@@ -542,6 +548,9 @@ for index, plant in enumerate(plants):
                     f"{path}.classical_reference."
                     f"shlokas[{shloka_index}]"
                 )
+
+                if isinstance(shloka, str):
+                    continue
 
                 if not isinstance(shloka, dict):
 

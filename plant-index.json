@@ -1,793 +1,2684 @@
 {
-  "title": "DravyaGuna 97 — NCISM BAMS Plant Master Index",
-  "subject": "Dravyaguna Vigyan",
-  "course": "Second Professional BAMS",
-  "authority": "National Commission for Indian System of Medicine (NCISM)",
-  "subject_code": "AyUG-DG",
-  "syllabus_point": "24. Dravya (Drug) Nama-Guna-Karma Jnana",
-  "total_plants": 97,
-  "source": {
-    "title": "Course curriculum for Second Professional BAMS — Dravyaguna Vigyan",
-    "authority": "National Commission for Indian System of Medicine",
-    "url": "https://sug.ac.in/school-of-ayurveda/pdf/syllabus/NCISM_II%20BAMS_AyUG-DG.pdf"
-  },
-  "ordering": "Official NCISM syllabus order",
+  "total": 111,
   "plants": [
     {
-      "order": 1,
       "id": "amalaki",
+      "order": 1,
+      "category": "NCISM-97",
       "name": "Amalaki",
       "sanskrit_name": "आमलकी",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "Āmalakī",
+      "botanical_name": "Phyllanthus emblica L.",
+      "family": "Phyllanthaceae",
+      "english_name": "Indian gooseberry / Amla",
+      "rasa": [
+        "amla",
+        "madhura",
+        "kashaya",
+        "tikta",
+        "katu"
+      ],
+      "guna": [
+        "guru",
+        "ruksha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "madhura",
+      "useful_part": [
+        "fruit"
+      ],
+      "search_text": "Amalaki आमलकी Āmalakī Phyllanthus emblica L. Phyllanthaceae Indian gooseberry / Amla आंवला amalaki"
     },
     {
-      "order": 2,
       "id": "aragwadha",
+      "order": 2,
+      "category": "NCISM-97",
       "name": "Aragwadha",
       "sanskrit_name": "आरग्वध",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "Āragvadha",
+      "botanical_name": "Cassia fistula L.",
+      "family": "Fabaceae (Caesalpiniaceae)",
+      "english_name": "Golden Shower Tree / Purging Cassia",
+      "rasa": [
+        "madhura"
+      ],
+      "guna": [
+        "guru",
+        "mridu",
+        "snigdha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "madhura",
+      "useful_part": [
+        "fruit pulp (Phala Majja)",
+        "stem bark (Twak)"
+      ],
+      "search_text": "Aragwadha आरग्वध Āragvadha Cassia fistula L. Fabaceae (Caesalpiniaceae) Golden Shower Tree / Purging Cassia अमलतास aragwadha"
     },
     {
-      "order": 3,
       "id": "arjuna",
+      "order": 3,
+      "category": "NCISM-97",
       "name": "Arjuna",
       "sanskrit_name": "अर्जुन",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "Arjuna",
+      "botanical_name": "Terminalia arjuna (Roxb. ex DC.) Wight & Arn.",
+      "family": "Combretaceae",
+      "english_name": "Arjuna",
+      "rasa": [
+        "kashaya"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "katu",
+      "useful_part": [
+        "bark"
+      ],
+      "search_text": "Arjuna अर्जुन Arjuna Terminalia arjuna (Roxb. ex DC.) Wight & Arn. Combretaceae Arjuna अर्जुन arjuna"
     },
     {
-      "order": 4,
       "id": "ashoka",
+      "order": 4,
+      "category": "NCISM-97",
       "name": "Ashoka",
       "sanskrit_name": "अशोक",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Saraca asoca (Roxb.) Willd.",
+      "family": "Fabaceae",
+      "english_name": "Ashoka Tree",
+      "rasa": [
+        "kashaya",
+        "tikta"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "katu",
+      "useful_part": [
+        "stem bark (Twak)",
+        "seeds (Bija)",
+        "flowers (Pushpa)"
+      ],
+      "search_text": "Ashoka अशोक  Saraca asoca (Roxb.) Willd. Fabaceae Ashoka Tree  ashoka"
     },
     {
-      "order": 5,
       "id": "ashwagandha",
+      "order": 5,
+      "category": "NCISM-97",
       "name": "Ashwagandha",
       "sanskrit_name": "अश्वगन्धा",
-      "syllabus_marker": "",
-      "status": "verified"
+      "transliteration": "Aśvagandhā",
+      "botanical_name": "Withania somnifera (L.) Dunal",
+      "family": "Solanaceae",
+      "english_name": "Winter Cherry",
+      "rasa": [
+        "Madhura",
+        "Tikta",
+        "Kashaya"
+      ],
+      "guna": [
+        "Laghu",
+        "Snigdha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "useful_part": [
+        "root"
+      ],
+      "search_text": "Ashwagandha अश्वगन्धा Aśvagandhā Withania somnifera (L.) Dunal Solanaceae Winter Cherry  ashwagandha"
     },
     {
-      "order": 6,
       "id": "ativisha",
+      "order": 6,
+      "category": "NCISM-97",
       "name": "Ativisha",
-      "sanskrit_name": "अतिविषा",
-      "syllabus_marker": "",
-      "status": "draft"
+      "sanskrit_name": "Ativisha",
+      "transliteration": "",
+      "botanical_name": "Aconitum heterophyllum Wall. ex Royle",
+      "family": "Ranunculaceae",
+      "english_name": "Indian Atees",
+      "rasa": [
+        "tikta",
+        "katu"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "useful_part": [
+        "Tuberous Root (Kanda / Mula)"
+      ],
+      "search_text": "Ativisha Ativisha  Aconitum heterophyllum Wall. ex Royle Ranunculaceae Indian Atees  ativisha"
     },
     {
-      "order": 7,
       "id": "bala",
+      "order": 7,
+      "category": "NCISM-97",
       "name": "Bala",
       "sanskrit_name": "बला",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Sida cordifolia L.",
+      "family": "Malvaceae",
+      "english_name": "Country Mallow",
+      "rasa": [
+        "madhura"
+      ],
+      "guna": [
+        "guru",
+        "snigdha",
+        "picchila"
+      ],
+      "virya": "sheeta",
+      "vipaka": "madhura",
+      "useful_part": [
+        "root",
+        "seeds",
+        "whole plant (Panchanga)"
+      ],
+      "search_text": "Bala बला  Sida cordifolia L. Malvaceae Country Mallow  bala"
     },
     {
-      "order": 8,
       "id": "beejaka",
+      "order": 8,
+      "category": "NCISM-97",
       "name": "Beejaka",
       "sanskrit_name": "बीजक",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Pterocarpus marsupium Roxb.",
+      "family": "Fabaceae",
+      "english_name": "Indian Kino Tree",
+      "rasa": [
+        "Kashaya",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "useful_part": [
+        "heartwood"
+      ],
+      "search_text": "Beejaka बीजक  Pterocarpus marsupium Roxb. Fabaceae Indian Kino Tree  beejaka"
     },
     {
-      "order": 9,
       "id": "bhallataka",
+      "order": 9,
+      "category": "NCISM-97",
       "name": "Bhallataka",
-      "sanskrit_name": "भल्लातक",
-      "syllabus_marker": "",
-      "status": "draft"
+      "sanskrit_name": "Bhallataka",
+      "transliteration": "",
+      "botanical_name": "Semecarpus anacardium L.f.",
+      "family": "Anacardiaceae",
+      "english_name": "Marking Nut / Clearing Nut",
+      "rasa": [
+        "katu",
+        "tikta",
+        "kashaya"
+      ],
+      "guna": [
+        "laghu",
+        "tikshna",
+        "snigdha"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "useful_part": [
+        "Purified Fruit pericarp / Nut (Shodhita Phala / Seed oil)"
+      ],
+      "search_text": "Bhallataka Bhallataka  Semecarpus anacardium L.f. Anacardiaceae Marking Nut / Clearing Nut  bhallataka"
     },
     {
-      "order": 10,
       "id": "bharangi",
+      "order": 10,
+      "category": "NCISM-97",
       "name": "Bharangi",
       "sanskrit_name": "भारङ्गी",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Clerodendrum serratum (L.) Moon",
+      "family": "Lamiaceae",
+      "english_name": "Blue Fountain Bush",
+      "rasa": [
+        "Tikta",
+        "Katu"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "root"
+      ],
+      "search_text": "Bharangi भारङ्गी  Clerodendrum serratum (L.) Moon Lamiaceae Blue Fountain Bush  bharangi"
     },
     {
-      "order": 11,
       "id": "bhrungaraja",
+      "order": 11,
+      "category": "NCISM-97",
       "name": "Bhrungaraja",
-      "sanskrit_name": "भृङ्गराज",
-      "syllabus_marker": "",
-      "status": "draft"
+      "sanskrit_name": "Bhringaraja",
+      "transliteration": "Bhṛṅgarāja",
+      "botanical_name": "Eclipta alba (L.) Hassk.",
+      "family": "Asteraceae (Compositae)",
+      "english_name": "False Daisy",
+      "rasa": [
+        "katu",
+        "tikta"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "useful_part": [
+        "Whole Plant (Panchanga)"
+      ],
+      "search_text": "Bhrungaraja Bhringaraja Bhṛṅgarāja Eclipta alba (L.) Hassk. Asteraceae (Compositae) False Daisy भृंगराज bhrungaraja"
     },
     {
-      "order": 12,
       "id": "bhumyamalaki",
+      "order": 12,
+      "category": "NCISM-97",
       "name": "Bhumyamalaki",
       "sanskrit_name": "भूम्यामलकी",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "Bhūmyāmalakī",
+      "botanical_name": "Phyllanthus amarus Schumach. & Thonn.",
+      "family": "Phyllanthaceae",
+      "english_name": "Bhumi amla / Stonebreaker",
+      "rasa": [
+        "tikta",
+        "madhura"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "madhura",
+      "useful_part": [
+        "whole plant"
+      ],
+      "search_text": "Bhumyamalaki भूम्यामलकी Bhūmyāmalakī Phyllanthus amarus Schumach. & Thonn. Phyllanthaceae Bhumi amla / Stonebreaker भुई आंवला bhumyamalaki"
     },
     {
-      "order": 13,
       "id": "bilva",
+      "order": 13,
+      "category": "NCISM-97",
       "name": "Bilva",
       "sanskrit_name": "बिल्व",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "Bilva",
+      "botanical_name": "Aegle marmelos (L.) Corrêa",
+      "family": "Rutaceae",
+      "english_name": "Bael",
+      "rasa": [
+        "kashaya",
+        "tikta",
+        "madhura"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "useful_part": [
+        "fruit",
+        "root"
+      ],
+      "search_text": "Bilva बिल्व Bilva Aegle marmelos (L.) Corrêa Rutaceae Bael बेल bilva"
     },
     {
-      "order": 14,
       "id": "brahmi",
+      "order": 14,
+      "category": "NCISM-97",
       "name": "Brahmi",
       "sanskrit_name": "ब्राह्मी",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "Brāhmī",
+      "botanical_name": "Bacopa monnieri (L.) Wettst.",
+      "family": "Plantaginaceae",
+      "english_name": "Water hyssop",
+      "rasa": [
+        "tikta"
+      ],
+      "guna": [
+        "laghu"
+      ],
+      "virya": "sheeta",
+      "vipaka": "madhura",
+      "useful_part": [
+        "whole plant"
+      ],
+      "search_text": "Brahmi ब्राह्मी Brāhmī Bacopa monnieri (L.) Wettst. Plantaginaceae Water hyssop ब्राह्मी brahmi"
     },
     {
-      "order": 15,
       "id": "chandana",
+      "order": 15,
+      "category": "NCISM-97",
       "name": "Chandana",
       "sanskrit_name": "चन्दन",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Santalum album L.",
+      "family": "Santalaceae",
+      "english_name": "White Sandalwood",
+      "rasa": [
+        "Madhura",
+        "Tikta"
+      ],
+      "guna": [
+        "Snigdha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "useful_part": [
+        "heartwood"
+      ],
+      "search_text": "Chandana चन्दन  Santalum album L. Santalaceae White Sandalwood  chandana"
     },
     {
-      "order": 16,
       "id": "chitraka",
+      "order": 16,
+      "category": "NCISM-97",
       "name": "Chitraka",
-      "sanskrit_name": "चित्रक",
-      "syllabus_marker": "",
-      "status": "draft"
+      "sanskrit_name": "Chitraka",
+      "transliteration": "",
+      "botanical_name": "Plumbago zeylanica L.",
+      "family": "Plumbaginaceae",
+      "english_name": "Leadwort / White Leadwort",
+      "rasa": [
+        "katu"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha",
+        "tikshna"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "useful_part": [
+        "Root bark (Mula Twak)"
+      ],
+      "search_text": "Chitraka Chitraka  Plumbago zeylanica L. Plumbaginaceae Leadwort / White Leadwort  chitraka"
     },
     {
-      "order": 17,
       "id": "dadima",
+      "order": 17,
+      "category": "NCISM-97",
       "name": "Dadima",
       "sanskrit_name": "दाडिम",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Punica granatum L.",
+      "family": "Lythraceae",
+      "english_name": "Pomegranate",
+      "rasa": [
+        "Madhura",
+        "Kashaya"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "useful_part": [
+        "fruit"
+      ],
+      "search_text": "Dadima दाडिम  Punica granatum L. Lythraceae Pomegranate  dadima"
     },
     {
-      "order": 18,
       "id": "dhataki",
+      "order": 18,
+      "category": "NCISM-97",
       "name": "Dhataki",
       "sanskrit_name": "धातकी",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Woodfordia fruticosa (L.) Kurz",
+      "family": "Lythraceae",
+      "english_name": "Fire Flame Bush",
+      "rasa": [
+        "Kashaya",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "useful_part": [
+        "flower"
+      ],
+      "search_text": "Dhataki धातकी  Woodfordia fruticosa (L.) Kurz Lythraceae Fire Flame Bush  dhataki"
     },
     {
-      "order": 19,
       "id": "dhamasa",
+      "order": 19,
+      "category": "NCISM-97",
       "name": "Dhamasa",
       "sanskrit_name": "धमासा",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Fagonia indica (syn. Fagonia cretica)",
+      "family": "Zygophyllaceae",
+      "english_name": "Fagonia",
+      "rasa": [
+        "Tikta",
+        "Kashaya"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "useful_part": [
+        "whole plant"
+      ],
+      "search_text": "Dhamasa धमासा  Fagonia indica (syn. Fagonia cretica) Zygophyllaceae Fagonia  dhamasa"
     },
     {
-      "order": 20,
       "id": "eranda",
+      "order": 20,
+      "category": "NCISM-97",
       "name": "Eranda",
       "sanskrit_name": "एरण्ड",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Ricinus communis L.",
+      "family": "Euphorbiaceae",
+      "english_name": "Castor Oil Plant",
+      "rasa": [
+        "madhura",
+        "katu",
+        "kashaya"
+      ],
+      "guna": [
+        "sukshma",
+        "tikshna",
+        "snigdha",
+        "sara",
+        "guru"
+      ],
+      "virya": "ushna",
+      "vipaka": "madhura",
+      "useful_part": [
+        "root",
+        "leaves",
+        "seeds",
+        "seed oil (Eranda Taila)"
+      ],
+      "search_text": "Eranda एरण्ड  Ricinus communis L. Euphorbiaceae Castor Oil Plant  eranda"
     },
     {
-      "order": 21,
       "id": "gokshura",
+      "order": 21,
+      "category": "NCISM-97",
       "name": "Gokshura",
       "sanskrit_name": "गोक्षुर",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Tribulus terrestris L.",
+      "family": "Zygophyllaceae",
+      "english_name": "Puncture Vine",
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Guru",
+        "Snigdha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "useful_part": [
+        "fruit"
+      ],
+      "search_text": "Gokshura गोक्षुर  Tribulus terrestris L. Zygophyllaceae Puncture Vine  gokshura"
     },
     {
-      "order": 22,
       "id": "guduchi",
+      "order": 22,
+      "category": "NCISM-97",
       "name": "Guduchi",
       "sanskrit_name": "गुडूची",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Tinospora cordifolia (Willd.) Hook.f. & Thomson",
+      "family": "Menispermaceae",
+      "english_name": "Heart-leaved Moonseed",
+      "rasa": [
+        "Tikta",
+        "Kashaya"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "useful_part": [
+        "stem"
+      ],
+      "search_text": "Guduchi गुडूची  Tinospora cordifolia (Willd.) Hook.f. & Thomson Menispermaceae Heart-leaved Moonseed  guduchi"
     },
     {
-      "order": 23,
       "id": "guggulu",
+      "order": 23,
+      "category": "NCISM-97",
       "name": "Guggulu",
       "sanskrit_name": "गुग्गुलु",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Commiphora wightii (Arn.) Bhandari",
+      "family": "Burseraceae",
+      "english_name": "Indian Bdellium / Guggul",
+      "rasa": [
+        "tikta",
+        "katu",
+        "kashaya",
+        "madhura"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha",
+        "tikshna",
+        "vishada",
+        "sukshma",
+        "sara"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "useful_part": [
+        "purified oleo-gum resin (Shodhita Niryasa)"
+      ],
+      "search_text": "Guggulu गुग्गुलु  Commiphora wightii (Arn.) Bhandari Burseraceae Indian Bdellium / Guggul  guggulu"
     },
     {
-      "order": 24,
       "id": "haridra",
+      "order": 24,
+      "category": "NCISM-97",
       "name": "Haridra",
       "sanskrit_name": "हरिद्रा",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Curcuma longa L.",
+      "family": "Zingiberaceae",
+      "english_name": "Turmeric",
+      "rasa": [
+        "tikta",
+        "katu"
+      ],
+      "guna": [
+        "ruksha",
+        "laghu"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "useful_part": [
+        "rhizome (Kanda)"
+      ],
+      "search_text": "Haridra हरिद्रा  Curcuma longa L. Zingiberaceae Turmeric  haridra"
     },
     {
-      "order": 25,
       "id": "haritaki",
+      "order": 25,
+      "category": "NCISM-97",
       "name": "Haritaki",
       "sanskrit_name": "हरीतकी",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Terminalia chebula Retz.",
+      "family": "Combretaceae",
+      "english_name": "Chebulic Myrobalan",
+      "rasa": [
+        "Kashaya",
+        "Madhura",
+        "Amla",
+        "Katu",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "useful_part": [
+        "fruit"
+      ],
+      "search_text": "Haritaki हरीतकी  Terminalia chebula Retz. Combretaceae Chebulic Myrobalan  haritaki"
     },
     {
-      "order": 26,
       "id": "hingu",
+      "order": 26,
+      "category": "NCISM-97",
       "name": "Hingu",
       "sanskrit_name": "हिङ्गु",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Ferula assa-foetida L.",
+      "family": "Apiaceae",
+      "english_name": "Asafoetida",
+      "rasa": [
+        "Katu"
+      ],
+      "guna": [
+        "Laghu",
+        "Snigdha",
+        "Tikshna"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "oleo-gum-resin"
+      ],
+      "search_text": "Hingu हिङ्गु  Ferula assa-foetida L. Apiaceae Asafoetida  hingu"
     },
     {
-      "order": 27,
       "id": "jambu",
+      "order": 27,
+      "category": "NCISM-97",
       "name": "Jambu",
       "sanskrit_name": "जम्बू",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Syzygium cumini (L.) Skeels",
+      "family": "Myrtaceae",
+      "english_name": "Black Plum",
+      "rasa": [
+        "Kashaya",
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "useful_part": [
+        "fruit/seed"
+      ],
+      "search_text": "Jambu जम्बू  Syzygium cumini (L.) Skeels Myrtaceae Black Plum  jambu"
     },
     {
-      "order": 28,
       "id": "jatamansi",
+      "order": 28,
+      "category": "NCISM-97",
       "name": "Jatamansi",
-      "sanskrit_name": "जटामांसी",
-      "syllabus_marker": "",
-      "status": "draft"
+      "sanskrit_name": "Jatamansi",
+      "transliteration": "",
+      "botanical_name": "Nardostachys jatamansi (D.Don) DC.",
+      "family": "Caprifoliaceae (Valerianaceae)",
+      "english_name": "Spikenard / Indian Nard",
+      "rasa": [
+        "tikta",
+        "kashaya",
+        "madhura"
+      ],
+      "guna": [
+        "laghu",
+        "snigdha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "katu",
+      "useful_part": [
+        "Rhizome / Root (Kanda / Mula)"
+      ],
+      "search_text": "Jatamansi Jatamansi  Nardostachys jatamansi (D.Don) DC. Caprifoliaceae (Valerianaceae) Spikenard / Indian Nard  jatamansi"
     },
     {
-      "order": 29,
       "id": "jyotishmati",
+      "order": 29,
+      "category": "NCISM-97",
       "name": "Jyotishmati",
       "sanskrit_name": "ज्योतिष्मती",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Celastrus paniculatus Willd.",
+      "family": "Celastraceae",
+      "english_name": "Intellect Tree",
+      "rasa": [
+        "Katu",
+        "Tikta"
+      ],
+      "guna": [
+        "Tikshna",
+        "Sara"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "seed/oil"
+      ],
+      "search_text": "Jyotishmati ज्योतिष्मती  Celastrus paniculatus Willd. Celastraceae Intellect Tree  jyotishmati"
     },
     {
-      "order": 30,
       "id": "kanchanara",
+      "order": 30,
+      "category": "NCISM-97",
       "name": "Kanchanara",
       "sanskrit_name": "काञ्चनार",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Bauhinia variegata L.",
+      "family": "Fabaceae",
+      "english_name": "Orchid Tree",
+      "rasa": [
+        "Kashaya"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "useful_part": [
+        "stem bark"
+      ],
+      "search_text": "Kanchanara काञ्चनार  Bauhinia variegata L. Fabaceae Orchid Tree  kanchanara"
     },
     {
-      "order": 31,
       "id": "kantakari",
+      "order": 31,
+      "category": "NCISM-97",
       "name": "Kantakari",
       "sanskrit_name": "कण्टकारी",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Solanum xanthocarpum Schrad. & Wendl.",
+      "family": "Solanaceae",
+      "english_name": "Yellow-berried Nightshade",
+      "rasa": [
+        "Katu",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "whole plant/fruit"
+      ],
+      "search_text": "Kantakari कण्टकारी  Solanum xanthocarpum Schrad. & Wendl. Solanaceae Yellow-berried Nightshade  kantakari"
     },
     {
-      "order": 32,
       "id": "kapikachhu",
+      "order": 32,
+      "category": "NCISM-97",
       "name": "Kapikachhu",
       "sanskrit_name": "कपिकच्छु",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Mucuna pruriens (L.) DC.",
+      "family": "Fabaceae",
+      "english_name": "Velvet Bean",
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Snigdha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "useful_part": [
+        "seed"
+      ],
+      "search_text": "Kapikachhu कपिकच्छु  Mucuna pruriens (L.) DC. Fabaceae Velvet Bean  kapikachhu"
     },
     {
-      "order": 33,
       "id": "karkatshrungi",
+      "order": 33,
+      "category": "NCISM-97",
       "name": "Karkatshrungi",
       "sanskrit_name": "कर्कटशृङ्गी",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Pistacia integerrima J.L.Stewart ex Brandis",
+      "family": "Anacardiaceae",
+      "english_name": "Crab's Claw",
+      "rasa": [
+        "Tikta",
+        "Kashaya"
+      ],
+      "guna": [
+        "Guru"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "gall"
+      ],
+      "search_text": "Karkatshrungi कर्कटशृङ्गी  Pistacia integerrima J.L.Stewart ex Brandis Anacardiaceae Crab's Claw  karkatshrungi"
     },
     {
-      "order": 34,
       "id": "katuki",
+      "order": 34,
+      "category": "NCISM-97",
       "name": "Katuki",
-      "sanskrit_name": "कटुकी",
-      "syllabus_marker": "",
-      "status": "draft"
+      "sanskrit_name": "Katuki",
+      "transliteration": "",
+      "botanical_name": "Picrorhiza kurroa Royle ex Benth.",
+      "family": "Plantaginaceae (Scrophulariaceae)",
+      "english_name": "Picrorhiza / Gentian",
+      "rasa": [
+        "tikta"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "katu",
+      "useful_part": [
+        "Rhizome / Root (Kanda / Mula)"
+      ],
+      "search_text": "Katuki Katuki  Picrorhiza kurroa Royle ex Benth. Plantaginaceae (Scrophulariaceae) Picrorhiza / Gentian  katuki"
     },
     {
-      "order": 35,
       "id": "khadira",
+      "order": 35,
+      "category": "NCISM-97",
       "name": "Khadira",
       "sanskrit_name": "खदिर",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Senegalia catechu (L.f.) P.J.Hurter & Mabb.",
+      "family": "Fabaceae",
+      "english_name": "Cutch Tree",
+      "rasa": [
+        "Kashaya"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "useful_part": [
+        "heartwood"
+      ],
+      "search_text": "Khadira खदिर  Senegalia catechu (L.f.) P.J.Hurter & Mabb. Fabaceae Cutch Tree  khadira"
     },
     {
-      "order": 36,
       "id": "kumari",
+      "order": 36,
+      "category": "NCISM-97",
       "name": "Kumari",
       "sanskrit_name": "कुमारी",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Aloe vera (L.) Burm.f. (syn. Aloe barbadensis Mill.)",
+      "family": "Asphodelaceae (Liliaceae)",
+      "english_name": "Indian Aloe / Aloe Vera",
+      "rasa": [
+        "tikta",
+        "madhura"
+      ],
+      "guna": [
+        "guru",
+        "snigdha",
+        "picchila"
+      ],
+      "virya": "sheeta",
+      "vipaka": "madhura",
+      "useful_part": [
+        "leaf gel/pulp",
+        "dried resinous leaf juice (Elua)"
+      ],
+      "search_text": "Kumari कुमारी  Aloe vera (L.) Burm.f. (syn. Aloe barbadensis Mill.) Asphodelaceae (Liliaceae) Indian Aloe / Aloe Vera  kumari"
     },
     {
-      "order": 37,
       "id": "kutaja",
+      "order": 37,
+      "category": "NCISM-97",
       "name": "Kutaja",
       "sanskrit_name": "कुटज",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Holarrhena pubescens Wall. ex G.Don",
+      "family": "Apocynaceae",
+      "english_name": "",
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "useful_part": [
+        "stem bark/seed"
+      ],
+      "search_text": "Kutaja कुटज  Holarrhena pubescens Wall. ex G.Don Apocynaceae   kutaja"
     },
     {
-      "order": 38,
       "id": "latakaranja",
+      "order": 38,
+      "category": "NCISM-97",
       "name": "Latakaranja",
       "sanskrit_name": "लताकरञ्ज",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Caesalpinia bonduc (L.) Roxb.",
+      "family": "Fabaceae",
+      "english_name": "Fever Nut",
+      "rasa": [
+        "Tikta",
+        "Katu"
+      ],
+      "guna": [
+        "Laghu",
+        "Tikshna"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "seed"
+      ],
+      "search_text": "Latakaranja लताकरञ्ज  Caesalpinia bonduc (L.) Roxb. Fabaceae Fever Nut  latakaranja"
     },
     {
-      "order": 39,
       "id": "lodhra",
+      "order": 39,
+      "category": "NCISM-97",
       "name": "Lodhra",
       "sanskrit_name": "लोध्र",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Symplocos racemosa Roxb.",
+      "family": "Symplocaceae",
+      "english_name": "Symplocos Tree",
+      "rasa": [
+        "Kashaya"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "useful_part": [
+        "stem bark"
+      ],
+      "search_text": "Lodhra लोध्र  Symplocos racemosa Roxb. Symplocaceae Symplocos Tree  lodhra"
     },
     {
-      "order": 40,
       "id": "agnimanth",
+      "order": 40,
+      "category": "NCISM-97",
       "name": "Agnimanth",
       "sanskrit_name": "अग्निमन्थ",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Premna integrifolia L.",
+      "family": "Lamiaceae",
+      "english_name": "Dusky Fire Brand",
+      "rasa": [
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "root"
+      ],
+      "search_text": "Agnimanth अग्निमन्थ  Premna integrifolia L. Lamiaceae Dusky Fire Brand  agnimanth"
     },
     {
-      "order": 41,
       "id": "ahiphena",
+      "order": 41,
+      "category": "NCISM-97",
       "name": "Ahiphena",
       "sanskrit_name": "अहिफेन",
-      "syllabus_marker": "NK",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Papaver somniferum L.",
+      "family": "Papaveraceae",
+      "english_name": "Opium Poppy",
+      "rasa": [
+        "Tikta",
+        "Katu"
+      ],
+      "guna": [
+        "Guru",
+        "Snigdha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "latex"
+      ],
+      "search_text": "Ahiphena अहिफेन  Papaver somniferum L. Papaveraceae Opium Poppy  ahiphena"
     },
     {
-      "order": 42,
       "id": "ajamoda",
+      "order": 42,
+      "category": "NCISM-97",
       "name": "Ajamoda",
       "sanskrit_name": "अजमोदा",
-      "syllabus_marker": "DK",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Apium leptophyllum (Pers.) F.Muell. ex Benth.",
+      "family": "Apiaceae",
+      "english_name": "",
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "useful_part": [
+        "fruit"
+      ],
+      "search_text": "Ajamoda अजमोदा  Apium leptophyllum (Pers.) F.Muell. ex Benth. Apiaceae   ajamoda"
     },
     {
-      "order": 43,
       "id": "apamarga",
+      "order": 43,
+      "category": "NCISM-97",
       "name": "Apamarga",
       "sanskrit_name": "अपामार्ग",
-      "syllabus_marker": "DK",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Achyranthes aspera L.",
+      "family": "Amaranthaceae",
+      "english_name": "Prickly Chaff Flower",
+      "rasa": [
+        "Katu",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Tikshna"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "whole plant"
+      ],
+      "search_text": "Apamarga अपामार्ग  Achyranthes aspera L. Amaranthaceae Prickly Chaff Flower  apamarga"
     },
     {
-      "order": 44,
       "id": "asthishrunkhala",
+      "order": 44,
+      "category": "NCISM-97",
       "name": "Asthishrunkhala",
       "sanskrit_name": "अस्थिशृङ्खला",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Cissus quadrangularis L.",
+      "family": "Vitaceae",
+      "english_name": "Veldt Grape",
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "useful_part": [
+        "stem"
+      ],
+      "search_text": "Asthishrunkhala अस्थिशृङ्खला  Cissus quadrangularis L. Vitaceae Veldt Grape  asthishrunkhala"
     },
     {
-      "order": 45,
       "id": "bakuchi",
+      "order": 45,
+      "category": "NCISM-97",
       "name": "Bakuchi",
       "sanskrit_name": "बाकुची",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Cullen corylifolium (L.) Medik.",
+      "family": "Fabaceae",
+      "english_name": "Purple Fleabane",
+      "rasa": [
+        "Tikta",
+        "Katu"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "seed"
+      ],
+      "search_text": "Bakuchi बाकुची  Cullen corylifolium (L.) Medik. Fabaceae Purple Fleabane  bakuchi"
     },
     {
-      "order": 46,
       "id": "bruhati",
+      "order": 46,
+      "category": "NCISM-97",
       "name": "Bruhati",
       "sanskrit_name": "बृहती",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Solanum indicum L.",
+      "family": "Solanaceae",
+      "english_name": "Indian Nightshade",
+      "rasa": [
+        "Katu",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "root"
+      ],
+      "search_text": "Bruhati बृहती  Solanum indicum L. Solanaceae Indian Nightshade  bruhati"
     },
     {
-      "order": 47,
       "id": "chakramarda",
+      "order": 47,
+      "category": "NCISM-97",
       "name": "Chakramarda",
       "sanskrit_name": "चक्रमर्द",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Senna tora (L.) Roxb.",
+      "family": "Fabaceae",
+      "english_name": "Ringworm Plant",
+      "rasa": [
+        "Tikta",
+        "Kashaya"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "seed/whole plant"
+      ],
+      "search_text": "Chakramarda चक्रमर्द  Senna tora (L.) Roxb. Fabaceae Ringworm Plant  chakramarda"
     },
     {
-      "order": 48,
       "id": "dhanyaka",
+      "order": 48,
+      "category": "NCISM-97",
       "name": "Dhanyaka",
       "sanskrit_name": "धन्यक",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Coriandrum sativum L.",
+      "family": "Apiaceae",
+      "english_name": "Coriander",
+      "rasa": [
+        "Kashaya",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Snigdha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "useful_part": [
+        "fruit"
+      ],
+      "search_text": "Dhanyaka धन्यक  Coriandrum sativum L. Apiaceae Coriander  dhanyaka"
     },
     {
-      "order": 49,
       "id": "ela",
+      "order": 49,
+      "category": "NCISM-97",
       "name": "Ela",
       "sanskrit_name": "एला",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Elettaria cardamomum (L.) Maton",
+      "family": "Zingiberaceae",
+      "english_name": "Small Cardamom",
+      "rasa": [
+        "katu",
+        "madhura"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "madhura",
+      "useful_part": [
+        "seeds (Bija)",
+        "dried fruit capsule (Phala)"
+      ],
+      "search_text": "Ela एला  Elettaria cardamomum (L.) Maton Zingiberaceae Small Cardamom  ela"
     },
     {
-      "order": 50,
       "id": "gambhari",
+      "order": 50,
+      "category": "NCISM-97",
       "name": "Gambhari",
       "sanskrit_name": "गम्भारी",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Gmelina arborea Roxb.",
+      "family": "Lamiaceae",
+      "english_name": "Beechwood",
+      "rasa": [
+        "Tikta",
+        "Kashaya"
+      ],
+      "guna": [
+        "Laghu",
+        "Snigdha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "useful_part": [
+        "root"
+      ],
+      "search_text": "Gambhari गम्भारी  Gmelina arborea Roxb. Lamiaceae Beechwood  gambhari"
     },
     {
-      "order": 51,
       "id": "japa",
+      "order": 51,
+      "category": "NCISM-97",
       "name": "Japa",
       "sanskrit_name": "जपा",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Hibiscus rosa-sinensis L.",
+      "family": "Malvaceae",
+      "english_name": "Hibiscus",
+      "rasa": [
+        "Kashaya",
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "useful_part": [
+        "flower"
+      ],
+      "search_text": "Japa जपा  Hibiscus rosa-sinensis L. Malvaceae Hibiscus  japa"
     },
     {
-      "order": 52,
       "id": "jatiphala",
+      "order": 52,
+      "category": "NCISM-97",
       "name": "Jatiphala",
       "sanskrit_name": "जातिफल",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Myristica fragrans Houtt.",
+      "family": "Myristicaceae",
+      "english_name": "Nutmeg",
+      "rasa": [
+        "tikta",
+        "katu"
+      ],
+      "guna": [
+        "laghu",
+        "tikshna"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "useful_part": [
+        "seed kernel (Bija)",
+        "aril (Jatipatri is a separate drug part)"
+      ],
+      "search_text": "Jatiphala जातिफल  Myristica fragrans Houtt. Myristicaceae Nutmeg  jatiphala"
     },
     {
-      "order": 53,
       "id": "jeeraka",
+      "order": 53,
+      "category": "NCISM-97",
       "name": "Jeeraka",
       "sanskrit_name": "जीरक",
-      "syllabus_marker": "DK",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Cuminum cyminum L.",
+      "family": "Apiaceae",
+      "english_name": "Cumin Seeds",
+      "rasa": [
+        "Katu"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "fruit"
+      ],
+      "search_text": "Jeeraka जीरक  Cuminum cyminum L. Apiaceae Cumin Seeds  jeeraka"
     },
     {
-      "order": 54,
       "id": "kalamegha",
+      "order": 54,
+      "category": "NCISM-97",
       "name": "Kalamegha",
       "sanskrit_name": "कालमेघ",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Andrographis paniculata (Burm.f.) Nees",
+      "family": "Acanthaceae",
+      "english_name": "King of Bitters",
+      "rasa": [
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "useful_part": [
+        "whole plant"
+      ],
+      "search_text": "Kalamegha कालमेघ  Andrographis paniculata (Burm.f.) Nees Acanthaceae King of Bitters  kalamegha"
     },
     {
-      "order": 55,
       "id": "kampillaka",
+      "order": 55,
+      "category": "NCISM-97",
       "name": "Kampillaka",
       "sanskrit_name": "कम्पिल्लक",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Mallotus philippensis (Lam.) Müll.Arg.",
+      "family": "Euphorbiaceae",
+      "english_name": "Kamala Tree",
+      "rasa": [
+        "Tikta",
+        "Kashaya"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "glandular powder of fruit"
+      ],
+      "search_text": "Kampillaka कम्पिल्लक  Mallotus philippensis (Lam.) Müll.Arg. Euphorbiaceae Kamala Tree  kampillaka"
     },
     {
-      "order": 56,
       "id": "kulatha",
+      "order": 56,
+      "category": "NCISM-97",
       "name": "Kulatha",
       "sanskrit_name": "कुलत्थ",
-      "syllabus_marker": "NK",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Macrotyloma uniflorum (Lam.) Verdc.",
+      "family": "Fabaceae",
+      "english_name": "Horse Gram",
+      "rasa": [
+        "Kashaya"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Amla",
+      "useful_part": [
+        "seed"
+      ],
+      "search_text": "Kulatha कुलत्थ  Macrotyloma uniflorum (Lam.) Verdc. Fabaceae Horse Gram  kulatha"
     },
     {
-      "order": 57,
       "id": "kumkum",
+      "order": 57,
+      "category": "NCISM-97",
       "name": "Kumkum",
-      "sanskrit_name": "कुङ्कुम",
-      "syllabus_marker": "",
-      "status": "draft"
+      "sanskrit_name": "Kumkuma",
+      "transliteration": "",
+      "botanical_name": "Crocus sativus L.",
+      "family": "Iridaceae",
+      "english_name": "Saffron",
+      "rasa": [
+        "tikta",
+        "katu"
+      ],
+      "guna": [
+        "snigdha",
+        "laghu"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "useful_part": [
+        "Stigma & Style (Keshara / Vartikagra)"
+      ],
+      "search_text": "Kumkum Kumkuma  Crocus sativus L. Iridaceae Saffron  kumkum"
     },
     {
-      "order": 58,
       "id": "lajjalu",
+      "order": 58,
+      "category": "NCISM-97",
       "name": "Lajjalu",
       "sanskrit_name": "लज्जालु",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Mimosa pudica L.",
+      "family": "Fabaceae",
+      "english_name": "Touch-Me-Not",
+      "rasa": [
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "useful_part": [
+        "whole plant/root"
+      ],
+      "search_text": "Lajjalu लज्जालु  Mimosa pudica L. Fabaceae Touch-Me-Not  lajjalu"
     },
     {
-      "order": 59,
       "id": "lavanga",
+      "order": 59,
+      "category": "NCISM-97",
       "name": "Lavanga",
       "sanskrit_name": "लवङ्ग",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Syzygium aromaticum (L.) Merr. & L.M.Perry",
+      "family": "Myrtaceae",
+      "english_name": "Clove",
+      "rasa": [
+        "katu",
+        "tikta"
+      ],
+      "guna": [
+        "laghu"
+      ],
+      "virya": "sheeta",
+      "vipaka": "katu",
+      "useful_part": [
+        "dried flower bud"
+      ],
+      "search_text": "Lavanga लवङ्ग  Syzygium aromaticum (L.) Merr. & L.M.Perry Myrtaceae Clove  lavanga"
     },
     {
-      "order": 60,
       "id": "madanphala",
+      "order": 60,
+      "category": "NCISM-97",
       "name": "Madanphala",
       "sanskrit_name": "मदनफल",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Randia dumetorum (Retz.) Lam.",
+      "family": "Rubiaceae",
+      "english_name": "",
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "useful_part": [
+        "fruit"
+      ],
+      "search_text": "Madanphala मदनफल  Randia dumetorum (Retz.) Lam. Rubiaceae   madanphala"
     },
     {
-      "order": 61,
       "id": "mandukaparni",
+      "order": 61,
+      "category": "NCISM-97",
       "name": "Mandukaparni",
       "sanskrit_name": "मण्डूकपर्णी",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Centella asiatica (L.) Urb.",
+      "family": "Apiaceae",
+      "english_name": "Gotu Kola",
+      "rasa": [
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "useful_part": [
+        "whole plant"
+      ],
+      "search_text": "Mandukaparni मण्डूकपर्णी  Centella asiatica (L.) Urb. Apiaceae Gotu Kola  mandukaparni"
     },
     {
-      "order": 62,
       "id": "manjishta",
+      "order": 62,
+      "category": "NCISM-97",
       "name": "Manjishta",
       "sanskrit_name": "मञ्जिष्ठा",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Rubia cordifolia L.",
+      "family": "Rubiaceae",
+      "english_name": "Indian Madder",
+      "rasa": [
+        "Tikta",
+        "Kashaya"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "useful_part": [
+        "root"
+      ],
+      "search_text": "Manjishta मञ्जिष्ठा  Rubia cordifolia L. Rubiaceae Indian Madder  manjishta"
     },
     {
-      "order": 63,
       "id": "maricha",
+      "order": 63,
+      "category": "NCISM-97",
       "name": "Maricha",
       "sanskrit_name": "मरिच",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Piper nigrum L.",
+      "family": "Piperaceae",
+      "english_name": "Black Pepper",
+      "rasa": [
+        "katu"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha",
+        "tikshna"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "useful_part": [
+        "dried unripe fruit (Phala)"
+      ],
+      "search_text": "Maricha मरिच  Piper nigrum L. Piperaceae Black Pepper  maricha"
     },
     {
-      "order": 64,
       "id": "meshshrungi",
+      "order": 64,
+      "category": "NCISM-97",
       "name": "Meshashrungi",
       "sanskrit_name": "मेषशृङ्गी",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "",
+      "family": "",
+      "english_name": "",
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "useful_part": [],
+      "search_text": "Meshashrungi मेषशृङ्गी      meshshrungi"
     },
     {
-      "order": 65,
       "id": "methika",
+      "order": 65,
+      "category": "NCISM-97",
       "name": "Methika",
       "sanskrit_name": "मेथिका",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Trigonella foenum-graecum L.",
+      "family": "Fabaceae",
+      "english_name": "Fenugreek",
+      "rasa": [
+        "Tikta",
+        "Katu"
+      ],
+      "guna": [
+        "Laghu",
+        "Snigdha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "seed"
+      ],
+      "search_text": "Methika मेथिका  Trigonella foenum-graecum L. Fabaceae Fenugreek  methika"
     },
     {
-      "order": 66,
       "id": "musta",
+      "order": 66,
+      "category": "NCISM-97",
       "name": "Musta",
       "sanskrit_name": "मुस्ता",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Cyperus rotundus L.",
+      "family": "Cyperaceae",
+      "english_name": "Nut Grass",
+      "rasa": [
+        "Tikta",
+        "Katu"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "rhizome"
+      ],
+      "search_text": "Musta मुस्ता  Cyperus rotundus L. Cyperaceae Nut Grass  musta"
     },
     {
-      "order": 67,
       "id": "nagkeshar",
+      "order": 67,
+      "category": "NCISM-97",
       "name": "Nagkeshar",
       "sanskrit_name": "नागकेशर",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Mesua ferrea L.",
+      "family": "Calophyllaceae (Guttiferae)",
+      "english_name": "Cobra's Saffron / Ironwood Tree",
+      "rasa": [
+        "kashaya",
+        "tikta"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "useful_part": [
+        "stamen / flower stamens (Pumkeshara)"
+      ],
+      "search_text": "Nagkeshar नागकेशर  Mesua ferrea L. Calophyllaceae (Guttiferae) Cobra's Saffron / Ironwood Tree  nagkeshar"
     },
     {
-      "order": 68,
       "id": "nimba",
+      "order": 68,
+      "category": "NCISM-97",
       "name": "Nimba",
       "sanskrit_name": "निम्ब",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Azadirachta indica A. Juss.",
+      "family": "Meliaceae",
+      "english_name": "Neem / Margosa Tree",
+      "rasa": [
+        "tikta",
+        "kashaya"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "katu",
+      "useful_part": [
+        "bark",
+        "leaves",
+        "seeds",
+        "seed oil",
+        "whole plant (Panchanga)"
+      ],
+      "search_text": "Nimba निम्ब  Azadirachta indica A. Juss. Meliaceae Neem / Margosa Tree  nimba"
     },
     {
-      "order": 69,
       "id": "nirgundi",
+      "order": 69,
+      "category": "NCISM-97",
       "name": "Nirgundi",
       "sanskrit_name": "निर्गुण्डी",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Vitex negundo L.",
+      "family": "Lamiaceae",
+      "english_name": "Five-leaved Chaste Tree",
+      "rasa": [
+        "Tikta",
+        "Katu"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "leaf"
+      ],
+      "search_text": "Nirgundi निर्गुण्डी  Vitex negundo L. Lamiaceae Five-leaved Chaste Tree  nirgundi"
     },
     {
-      "order": 70,
       "id": "palasha",
+      "order": 70,
+      "category": "NCISM-97",
       "name": "Palasha",
       "sanskrit_name": "पलाश",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Butea monosperma (Lam.) Taub.",
+      "family": "Fabaceae",
+      "english_name": "Flame of the Forest",
+      "rasa": [
+        "Tikta",
+        "Katu"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "seed/flower/bark"
+      ],
+      "search_text": "Palasha पलाश  Butea monosperma (Lam.) Taub. Fabaceae Flame of the Forest  palasha"
     },
     {
-      "order": 71,
       "id": "pashanabheda",
+      "order": 71,
+      "category": "NCISM-97",
       "name": "Pashanabheda",
       "sanskrit_name": "पाषाणभेद",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Bergenia ligulata (Wall.) Engl.",
+      "family": "Saxifragaceae",
+      "english_name": "Stone Breaker",
+      "rasa": [
+        "Tikta",
+        "Kashaya"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "useful_part": [
+        "rhizome"
+      ],
+      "search_text": "Pashanabheda पाषाणभेद  Bergenia ligulata (Wall.) Engl. Saxifragaceae Stone Breaker  pashanabheda"
     },
     {
-      "order": 72,
       "id": "patha",
+      "order": 72,
+      "category": "NCISM-97",
       "name": "Patha",
       "sanskrit_name": "पाठा",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Cissampelos pareira L.",
+      "family": "Menispermaceae",
+      "english_name": "Velvetleaf",
+      "rasa": [
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Tikshna"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "root"
+      ],
+      "search_text": "Patha पाठा  Cissampelos pareira L. Menispermaceae Velvetleaf  patha"
     },
     {
-      "order": 73,
       "id": "pippali",
+      "order": 73,
+      "category": "NCISM-97",
       "name": "Pippali",
       "sanskrit_name": "पिप्पली",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Piper longum L.",
+      "family": "Piperaceae",
+      "english_name": "Long Pepper",
+      "rasa": [
+        "katu"
+      ],
+      "guna": [
+        "laghu",
+        "snigdha",
+        "tikshna"
+      ],
+      "virya": "anushnasheeta",
+      "vipaka": "madhura",
+      "useful_part": [
+        "dried fruit (Phala)",
+        "root (Pippalimula)"
+      ],
+      "search_text": "Pippali पिप्पली  Piper longum L. Piperaceae Long Pepper  pippali"
     },
     {
-      "order": 74,
       "id": "punarnava",
+      "order": 74,
+      "category": "NCISM-97",
       "name": "Punarnava",
       "sanskrit_name": "पुनर्नवा",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Boerhavia diffusa L.",
+      "family": "Nyctaginaceae",
+      "english_name": "Spreading Hogweed",
+      "rasa": [
+        "madhura",
+        "tikta",
+        "kashaya"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "ushna",
+      "vipaka": "madhura",
+      "useful_part": [
+        "root",
+        "whole plant (Panchanga)"
+      ],
+      "search_text": "Punarnava पुनर्नवा  Boerhavia diffusa L. Nyctaginaceae Spreading Hogweed  punarnava"
     },
     {
-      "order": 75,
       "id": "rasna",
+      "order": 75,
+      "category": "NCISM-97",
       "name": "Rasna",
       "sanskrit_name": "रास्ना",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Pluchea lanceolata (DC.) C.B.Clarke",
+      "family": "Asteraceae",
+      "english_name": "Indian Fleabane",
+      "rasa": [
+        "Tikta"
+      ],
+      "guna": [
+        "Guru"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "root"
+      ],
+      "search_text": "Rasna रास्ना  Pluchea lanceolata (DC.) C.B.Clarke Asteraceae Indian Fleabane  rasna"
     },
     {
-      "order": 76,
       "id": "rasona",
+      "order": 76,
+      "category": "NCISM-97",
       "name": "Rasona",
       "sanskrit_name": "रसोना",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Allium sativum L.",
+      "family": "Amaryllidaceae",
+      "english_name": "Garlic",
+      "rasa": [
+        "Katu",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "bulb"
+      ],
+      "search_text": "Rasona रसोना  Allium sativum L. Amaryllidaceae Garlic  rasona"
     },
     {
-      "order": 77,
       "id": "sarpagandha",
-      "name": "Sarapagandha",
-      "sanskrit_name": "सर्पगन्धा",
-      "syllabus_marker": "",
-      "status": "draft"
+      "order": 77,
+      "category": "NCISM-97",
+      "name": "Sarpagandha",
+      "sanskrit_name": "Sarpagandha",
+      "transliteration": "",
+      "botanical_name": "Rauvolfia serpentina (L.) Benth. ex Kurz",
+      "family": "Apocynaceae",
+      "english_name": "Serpentina Root / Snakeroot",
+      "rasa": [
+        "tikta"
+      ],
+      "guna": [
+        "ruksha"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "useful_part": [
+        "Root (Mula)"
+      ],
+      "search_text": "Sarpagandha Sarpagandha  Rauvolfia serpentina (L.) Benth. ex Kurz Apocynaceae Serpentina Root / Snakeroot  sarpagandha"
     },
     {
-      "order": 78,
       "id": "sairayak",
+      "order": 78,
+      "category": "NCISM-97",
       "name": "Sairayak",
       "sanskrit_name": "सैरयक",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Barleria prionitis L.",
+      "family": "Acanthaceae",
+      "english_name": "Porcupine Flower",
+      "rasa": [
+        "Tikta",
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu",
+        "Snigdha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "root/whole plant"
+      ],
+      "search_text": "Sairayak सैरयक  Barleria prionitis L. Acanthaceae Porcupine Flower  sairayak"
     },
     {
-      "order": 79,
       "id": "sariva",
+      "order": 79,
+      "category": "NCISM-97",
       "name": "Sariva",
       "sanskrit_name": "सारिवा",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Hemidesmus indicus (L.) R.Br.",
+      "family": "Apocynaceae",
+      "english_name": "Indian Sarsaparilla",
+      "rasa": [
+        "Madhura",
+        "Tikta"
+      ],
+      "guna": [
+        "Guru",
+        "Snigdha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "useful_part": [
+        "root"
+      ],
+      "search_text": "Sariva सारिवा  Hemidesmus indicus (L.) R.Br. Apocynaceae Indian Sarsaparilla  sariva"
     },
     {
-      "order": 80,
       "id": "shallaki",
+      "order": 80,
+      "category": "NCISM-97",
       "name": "Shallaki",
       "sanskrit_name": "शल्लकी",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Boswellia serrata Roxb. ex Colebr.",
+      "family": "Burseraceae",
+      "english_name": "Indian Olibanum",
+      "rasa": [
+        "Kashaya",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "useful_part": [
+        "oleo-gum-resin"
+      ],
+      "search_text": "Shallaki शल्लकी  Boswellia serrata Roxb. ex Colebr. Burseraceae Indian Olibanum  shallaki"
     },
     {
-      "order": 81,
       "id": "shalmali-mocharasa",
+      "order": 81,
+      "category": "NCISM-97",
       "name": "Shalmali (Mocharasa)",
       "sanskrit_name": "शाल्मली (मोचरसा)",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "",
+      "family": "",
+      "english_name": "",
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "useful_part": [],
+      "search_text": "Shalmali (Mocharasa) शाल्मली (मोचरसा)      shalmali-mocharasa"
     },
     {
-      "order": 82,
       "id": "shankhapushpi",
+      "order": 82,
+      "category": "NCISM-97",
       "name": "Shankhapushpi",
       "sanskrit_name": "शङ्खपुष्पी",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Convolvulus pluricaulis Choisy",
+      "family": "Convolvulaceae",
+      "english_name": "Shankhpushpi",
+      "rasa": [
+        "Tikta"
+      ],
+      "guna": [
+        "Snigdha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "useful_part": [
+        "whole plant"
+      ],
+      "search_text": "Shankhapushpi शङ्खपुष्पी  Convolvulus pluricaulis Choisy Convolvulaceae Shankhpushpi  shankhapushpi"
     },
     {
-      "order": 83,
       "id": "shatavari",
+      "order": 83,
+      "category": "NCISM-97",
       "name": "Shatavari",
       "sanskrit_name": "शतावरी",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Asparagus racemosus Willd.",
+      "family": "Asparagaceae",
+      "english_name": "Wild Asparagus",
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Guru",
+        "Snigdha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "useful_part": [
+        "root"
+      ],
+      "search_text": "Shatavari शतावरी  Asparagus racemosus Willd. Asparagaceae Wild Asparagus  shatavari"
     },
     {
-      "order": 84,
       "id": "shigru",
+      "order": 84,
+      "category": "NCISM-97",
       "name": "Shigru",
       "sanskrit_name": "शिग्रु",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Moringa oleifera Lam.",
+      "family": "Moringaceae",
+      "english_name": "Drumstick Tree",
+      "rasa": [
+        "Katu",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "root/bark/leaf"
+      ],
+      "search_text": "Shigru शिग्रु  Moringa oleifera Lam. Moringaceae Drumstick Tree  shigru"
     },
     {
-      "order": 85,
       "id": "shunthi",
+      "order": 85,
+      "category": "NCISM-97",
       "name": "Shunthi",
       "sanskrit_name": "शुण्ठी",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Zingiber officinale Roscoe",
+      "family": "Zingiberaceae",
+      "english_name": "Dry Ginger",
+      "rasa": [
+        "katu"
+      ],
+      "guna": [
+        "laghu",
+        "snigdha"
+      ],
+      "virya": "ushna",
+      "vipaka": "madhura",
+      "useful_part": [
+        "dried rhizome (Shushka Kanda)"
+      ],
+      "search_text": "Shunthi शुण्ठी  Zingiber officinale Roscoe Zingiberaceae Dry Ginger  shunthi"
     },
     {
-      "order": 86,
       "id": "talisapatra",
+      "order": 86,
+      "category": "NCISM-97",
       "name": "Talisapatra",
       "sanskrit_name": "तालिसपत्र",
-      "syllabus_marker": "NK",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Abies webbiana Lindl.",
+      "family": "Pinaceae",
+      "english_name": "Himalayan Silver Fir",
+      "rasa": [
+        "Katu"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "leaf"
+      ],
+      "search_text": "Talisapatra तालिसपत्र  Abies webbiana Lindl. Pinaceae Himalayan Silver Fir  talisapatra"
     },
     {
-      "order": 87,
       "id": "trivrut",
+      "order": 87,
+      "category": "NCISM-97",
       "name": "Trivrut",
       "sanskrit_name": "त्रिवृत्",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Operculina turpethum (L.) Silva Manso",
+      "family": "Convolvulaceae",
+      "english_name": "Indian Jalap / Turpeth",
+      "rasa": [
+        "tikta",
+        "katu"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha",
+        "tikshna"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "useful_part": [
+        "root bark (Mula Twak)"
+      ],
+      "search_text": "Trivrut त्रिवृत्  Operculina turpethum (L.) Silva Manso Convolvulaceae Indian Jalap / Turpeth  trivrut"
     },
     {
-      "order": 88,
       "id": "tulasi",
+      "order": 88,
+      "category": "NCISM-97",
       "name": "Tulasi",
       "sanskrit_name": "तुलसी",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Ocimum tenuiflorum L.",
+      "family": "Lamiaceae",
+      "english_name": "",
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "useful_part": [
+        "leaf/whole plant"
+      ],
+      "search_text": "Tulasi तुलसी  Ocimum tenuiflorum L. Lamiaceae   tulasi"
     },
     {
-      "order": 89,
       "id": "twak",
+      "order": 89,
+      "category": "NCISM-97",
       "name": "Twak",
       "sanskrit_name": "त्वक्",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Cinnamomum verum J.Presl",
+      "family": "Lauraceae",
+      "english_name": "Cinnamon",
+      "rasa": [
+        "katu",
+        "tikta",
+        "madhura"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha",
+        "tikshna"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "useful_part": [
+        "inner stem bark (Twak)"
+      ],
+      "search_text": "Twak त्वक्  Cinnamomum verum J.Presl Lauraceae Cinnamon  twak"
     },
     {
-      "order": 90,
       "id": "usheera",
+      "order": 90,
+      "category": "NCISM-97",
       "name": "Usheera",
       "sanskrit_name": "उशीर",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Chrysopogon zizanioides (L.) Roberty",
+      "family": "Poaceae",
+      "english_name": "Vetiver",
+      "rasa": [
+        "Tikta",
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu",
+        "Snigdha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "useful_part": [
+        "root"
+      ],
+      "search_text": "Usheera उशीर  Chrysopogon zizanioides (L.) Roberty Poaceae Vetiver  usheera"
     },
     {
-      "order": 91,
       "id": "vacha",
+      "order": 91,
+      "category": "NCISM-97",
       "name": "Vacha",
-      "sanskrit_name": "वचा",
-      "syllabus_marker": "",
-      "status": "draft"
+      "sanskrit_name": "Vacha",
+      "transliteration": "",
+      "botanical_name": "Acorus calamus L.",
+      "family": "Acoraceae (Araceae)",
+      "english_name": "Sweet Flag / Calamus",
+      "rasa": [
+        "katu",
+        "tikta"
+      ],
+      "guna": [
+        "laghu",
+        "tikshna"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "useful_part": [
+        "Rhizome (Kanda)"
+      ],
+      "search_text": "Vacha Vacha  Acorus calamus L. Acoraceae (Araceae) Sweet Flag / Calamus  vacha"
     },
     {
-      "order": 92,
       "id": "varuna",
+      "order": 92,
+      "category": "NCISM-97",
       "name": "Varuna",
       "sanskrit_name": "वरुण",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Crataeva nurvala Buch.-Ham.",
+      "family": "Capparaceae",
+      "english_name": "Three-leaved Caper",
+      "rasa": [
+        "Tikta",
+        "Kashaya"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "stem bark"
+      ],
+      "search_text": "Varuna वरुण  Crataeva nurvala Buch.-Ham. Capparaceae Three-leaved Caper  varuna"
     },
     {
-      "order": 93,
       "id": "vasa",
+      "order": 93,
+      "category": "NCISM-97",
       "name": "Vasa",
       "sanskrit_name": "वासा",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Adhatoda vasica Nees (syn. Justicia adhatoda L.)",
+      "family": "Acanthaceae",
+      "english_name": "Malabar Nut",
+      "rasa": [
+        "tikta",
+        "kashaya"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "katu",
+      "useful_part": [
+        "leaves",
+        "root",
+        "flowers"
+      ],
+      "search_text": "Vasa वासा  Adhatoda vasica Nees (syn. Justicia adhatoda L.) Acanthaceae Malabar Nut  vasa"
     },
     {
-      "order": 94,
       "id": "vatsanabha",
+      "order": 94,
+      "category": "NCISM-97",
       "name": "Vatsanabha",
-      "sanskrit_name": "वत्सनाभ",
-      "syllabus_marker": "",
-      "status": "draft"
+      "sanskrit_name": "Vatsanabha",
+      "transliteration": "",
+      "botanical_name": "Aconitum ferox Wall. ex Ser.",
+      "family": "Ranunculaceae",
+      "english_name": "Monkshood / Indian Aconite",
+      "rasa": [
+        "madhura",
+        "katu",
+        "tikta",
+        "kashaya"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha",
+        "tikshna",
+        "vikasi",
+        "vyavayi"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "useful_part": [
+        "Purified Tuberous Root (Shodhita Kanda)"
+      ],
+      "search_text": "Vatsanabha Vatsanabha  Aconitum ferox Wall. ex Ser. Ranunculaceae Monkshood / Indian Aconite  vatsanabha"
     },
     {
-      "order": 95,
       "id": "vibhitaki",
+      "order": 95,
+      "category": "NCISM-97",
       "name": "Vibhitaki",
       "sanskrit_name": "विभीतकी",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Terminalia bellirica (Gaertn.) Roxb.",
+      "family": "Combretaceae",
+      "english_name": "Beleric Myrobalan",
+      "rasa": [
+        "Kashaya"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "useful_part": [
+        "fruit"
+      ],
+      "search_text": "Vibhitaki विभीतकी  Terminalia bellirica (Gaertn.) Roxb. Combretaceae Beleric Myrobalan  vibhitaki"
     },
     {
-      "order": 96,
       "id": "vidanga",
+      "order": 96,
+      "category": "NCISM-97",
       "name": "Vidanga",
       "sanskrit_name": "विडङ्ग",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Embelia ribes Burm.f.",
+      "family": "Primulaceae",
+      "english_name": "False Black Pepper",
+      "rasa": [
+        "Katu",
+        "Kashaya"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha",
+        "Tikshna"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "useful_part": [
+        "fruit"
+      ],
+      "search_text": "Vidanga विडङ्ग  Embelia ribes Burm.f. Primulaceae False Black Pepper  vidanga"
     },
     {
-      "order": 97,
       "id": "yashtimadhu",
+      "order": 97,
+      "category": "NCISM-97",
       "name": "Yashtimadhu",
       "sanskrit_name": "यष्टिमधु",
-      "syllabus_marker": "",
-      "status": "draft"
+      "transliteration": "",
+      "botanical_name": "Glycyrrhiza glabra L.",
+      "family": "Fabaceae (Papilionaceae)",
+      "english_name": "Licorice / Liquorice",
+      "rasa": [
+        "madhura"
+      ],
+      "guna": [
+        "guru",
+        "snigdha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "madhura",
+      "useful_part": [
+        "stolons and roots"
+      ],
+      "search_text": "Yashtimadhu यष्टिमधु  Glycyrrhiza glabra L. Fabaceae (Papilionaceae) Licorice / Liquorice  yashtimadhu"
+    },
+    {
+      "id": "arka",
+      "order": null,
+      "category": "Supplementary",
+      "name": "Arka",
+      "sanskrit_name": "अर्क",
+      "transliteration": "",
+      "botanical_name": "Calotropis gigantea (L.) Dryand.",
+      "family": "Apocynaceae",
+      "english_name": "Crown flower",
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "useful_part": [],
+      "search_text": "Arka अर्क  Calotropis gigantea (L.) Dryand. Apocynaceae Crown flower  arka"
+    },
+    {
+      "id": "bhanga",
+      "order": null,
+      "category": "Supplementary",
+      "name": "Bhanga",
+      "sanskrit_name": "भङ्गा",
+      "transliteration": "",
+      "botanical_name": "Cannabis sativa L.",
+      "family": "Cannabaceae",
+      "english_name": "Cannabis",
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "useful_part": [],
+      "search_text": "Bhanga भङ्गा  Cannabis sativa L. Cannabaceae Cannabis  bhanga"
+    },
+    {
+      "id": "dhattura",
+      "order": null,
+      "category": "Supplementary",
+      "name": "Dhattura",
+      "sanskrit_name": "Dhattura",
+      "transliteration": "",
+      "botanical_name": "Datura metel L.",
+      "family": "Solanaceae",
+      "english_name": "Thorn Apple / Downy Datura",
+      "rasa": [
+        "tikta",
+        "katu"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha",
+        "tikshna",
+        "vikasi",
+        "vyavayi"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "useful_part": [
+        "Purified Seed (Shodhita Bija), Leaf (Patra), Root (Mula)"
+      ],
+      "search_text": "Dhattura Dhattura  Datura metel L. Solanaceae Thorn Apple / Downy Datura  dhattura"
+    },
+    {
+      "id": "gunja",
+      "order": null,
+      "category": "Supplementary",
+      "name": "Gunja",
+      "sanskrit_name": "Gunja",
+      "transliteration": "",
+      "botanical_name": "Abrus precatorius L.",
+      "family": "Fabaceae (Papilionaceae)",
+      "english_name": "Rosary Pea / Jequirity Bean",
+      "rasa": [
+        "tikta",
+        "kashaya"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha",
+        "tikshna"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "useful_part": [
+        "Purified Seeds (Shodhita Bija), Leaves (Patra), Root (Mula)"
+      ],
+      "search_text": "Gunja Gunja  Abrus precatorius L. Fabaceae (Papilionaceae) Rosary Pea / Jequirity Bean  gunja"
+    },
+    {
+      "id": "jayapala",
+      "order": null,
+      "category": "Supplementary",
+      "name": "Jayapala",
+      "sanskrit_name": "Jayapala",
+      "transliteration": "",
+      "botanical_name": "Croton tiglium L.",
+      "family": "Euphorbiaceae",
+      "english_name": "Purging Croton",
+      "rasa": [
+        "katu"
+      ],
+      "guna": [
+        "laghu",
+        "tikshna",
+        "ruksha",
+        "vyavayi",
+        "vikasi"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "useful_part": [
+        "Purified Seed (Shodhita Bija)"
+      ],
+      "search_text": "Jayapala Jayapala  Croton tiglium L. Euphorbiaceae Purging Croton  jayapala"
+    },
+    {
+      "id": "kankola",
+      "order": null,
+      "category": "Supplementary",
+      "name": "Kankola",
+      "sanskrit_name": "कङ्कोल",
+      "transliteration": "",
+      "botanical_name": "Cubeba officinalis Miq.",
+      "family": "Piperaceae",
+      "english_name": "Cubeb",
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "useful_part": [],
+      "search_text": "Kankola कङ्कोल  Cubeba officinalis Miq. Piperaceae Cubeb  kankola"
+    },
+    {
+      "id": "karavira",
+      "order": null,
+      "category": "Supplementary",
+      "name": "Karavira",
+      "sanskrit_name": "करवीर",
+      "transliteration": "",
+      "botanical_name": "Nerium oleander L.",
+      "family": "Apocynaceae",
+      "english_name": "Oleander",
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "useful_part": [],
+      "search_text": "Karavira करवीर  Nerium oleander L. Apocynaceae Oleander  karavira"
+    },
+    {
+      "id": "karpura",
+      "order": null,
+      "category": "Supplementary",
+      "name": "Karpura",
+      "sanskrit_name": "Karpura",
+      "transliteration": "",
+      "botanical_name": "Cinnamomum camphora (L.) J.Presl",
+      "family": "Lauraceae",
+      "english_name": "Camphor",
+      "rasa": [
+        "tikta",
+        "katu",
+        "madhura"
+      ],
+      "guna": [
+        "laghu",
+        "tikshna",
+        "snigdha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "katu",
+      "useful_part": [
+        "Crystalline Extract / Sublimated Niryasa (Karpura)"
+      ],
+      "search_text": "Karpura Karpura  Cinnamomum camphora (L.) J.Presl Lauraceae Camphor  karpura"
+    },
+    {
+      "id": "kiratatikta",
+      "order": null,
+      "category": "Supplementary",
+      "name": "Kiratatikta",
+      "sanskrit_name": "Kiratatikta",
+      "transliteration": "",
+      "botanical_name": "Swertia chirata Buch.-Ham.",
+      "family": "Gentianaceae",
+      "english_name": "Chirata / Bitter Stick",
+      "rasa": [
+        "tikta"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "katu",
+      "useful_part": [
+        "Whole Plant (Panchanga)"
+      ],
+      "search_text": "Kiratatikta Kiratatikta  Swertia chirata Buch.-Ham. Gentianaceae Chirata / Bitter Stick  kiratatikta"
+    },
+    {
+      "id": "kupilu",
+      "order": null,
+      "category": "Supplementary",
+      "name": "Kupilu",
+      "sanskrit_name": "कुपीलु",
+      "transliteration": "",
+      "botanical_name": "Strychnos nux-vomica L.",
+      "family": "Loganiaceae",
+      "english_name": "Nux-vomica",
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "useful_part": [],
+      "search_text": "Kupilu कुपीलु  Strychnos nux-vomica L. Loganiaceae Nux-vomica  kupilu"
+    },
+    {
+      "id": "langali",
+      "order": null,
+      "category": "Supplementary",
+      "name": "Langali",
+      "sanskrit_name": "लाङ्गली",
+      "transliteration": "",
+      "botanical_name": "Gloriosa superba L.",
+      "family": "Colchicaceae",
+      "english_name": "Gloriosa lily",
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "useful_part": [],
+      "search_text": "Langali लाङ्गली  Gloriosa superba L. Colchicaceae Gloriosa lily  langali"
+    },
+    {
+      "id": "parasika-yavani",
+      "order": null,
+      "category": "Supplementary",
+      "name": "Parasika Yavani",
+      "sanskrit_name": "पारसीक यवानी",
+      "transliteration": "",
+      "botanical_name": "",
+      "family": "Apiaceae",
+      "english_name": "Persian ajwain",
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "useful_part": [],
+      "search_text": "Parasika Yavani पारसीक यवानी   Apiaceae Persian ajwain  parasika-yavani"
+    },
+    {
+      "id": "snuhi",
+      "order": null,
+      "category": "Supplementary",
+      "name": "Snuhi",
+      "sanskrit_name": "स्नुही",
+      "transliteration": "",
+      "botanical_name": "Euphorbia neriifolia L.",
+      "family": "Euphorbiaceae",
+      "english_name": "Indian spurge tree",
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "useful_part": [],
+      "search_text": "Snuhi स्नुही  Euphorbia neriifolia L. Euphorbiaceae Indian spurge tree  snuhi"
+    },
+    {
+      "id": "tejapatra",
+      "order": null,
+      "category": "Supplementary",
+      "name": "Tejapatra",
+      "sanskrit_name": "तेजपत्त्र",
+      "transliteration": "",
+      "botanical_name": "Cinnamomum tamala (Buch.-Ham.) T.Nees & Eberm.",
+      "family": "Lauraceae",
+      "english_name": "Indian bay leaf",
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "useful_part": [],
+      "search_text": "Tejapatra तेजपत्त्र  Cinnamomum tamala (Buch.-Ham.) T.Nees & Eberm. Lauraceae Indian bay leaf  tejapatra"
     }
   ]
 }

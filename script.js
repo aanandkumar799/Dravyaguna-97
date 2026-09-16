@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const plantList = document.getElementById('plant-list');
   const searchInput = document.getElementById('searchInput') || document.getElementById('search');
   if (!plantList) return;
-  const indexURL = new URL('data/plants-index.json', window.location.href).href;
+  const indexURL = new URL('plant-index.json', window.location.href).href;
   const fallbackURL = new URL('plants.json', window.location.href).href;
   let masterPlants = [];
   let searchTimer;
@@ -84,6 +84,16 @@ document.addEventListener('DOMContentLoaded', () => {
     try {
       let r=await fetch(indexURL,{cache:'no-store',headers:{Accept:'application/json'}});
       if(r.ok){const payload=await r.json();masterPlants=Array.isArray(payload)?payload:(payload.plants||[]);}
+      if(masterPlants.length){
+        const lookup = await fetch(fallbackURL,{cache:'no-store',headers:{Accept:'application/json'}});
+        if(lookup.ok){
+          const full = await lookup.json();
+          if(Array.isArray(full) && full.length >= masterPlants.length){
+            const details = new Map(full.map(p=>[p.id,p]));
+            masterPlants = masterPlants.map(item=>({...item,...(details.get(item.id)||{})}));
+          }
+        }
+      }
       if(!masterPlants.length){r=await fetch(fallbackURL,{cache:'no-store',headers:{Accept:'application/json'}});if(!r.ok)throw Error('HTTP '+r.status);const data=await r.json();if(!Array.isArray(data))throw Error('Invalid plant database');masterPlants=data;}
       masterPlants=masterPlants.filter(p=>p&&p.id).sort((a,b)=>order(a)-order(b)||name(a).localeCompare(name(b)));
       setupControls();plantList.setAttribute('aria-busy','false');render(searchInput?.value||'');

@@ -47,9 +47,12 @@ document.addEventListener('DOMContentLoaded',()=>{
  const closeModal=()=>{modal.classList.remove('show');modal.setAttribute('aria-hidden','true');modalImg.removeAttribute('src')};
  close.onclick=closeModal; modal.onclick=e=>{if(e.target===modal)closeModal()}; document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
  if(!id){error('No plant selected','Please select a plant from the DravyaGuna 97 library.');return}
- fetch(new URL('plants.json',location.href),{cache:'no-store',headers:{Accept:'application/json'}}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(plants=>{
-   if(!Array.isArray(plants))throw Error('Invalid plant database: expected an array.');
-   const p=plants.find(x=>String(x?.id||'').toLowerCase()===String(id).toLowerCase()); if(!p){error('Plant not found','No record was found for '+id+'.');return}
+ const dossierURL=new URL('data/plants/'+encodeURIComponent(id)+'.json',location.href);
+ const databaseURL=new URL('plants.json',location.href);
+ fetch(dossierURL,{cache:'no-store',headers:{Accept:'application/json'}})
+  .then(r=>{if(r.ok)return r.json();return fetch(databaseURL,{cache:'no-store',headers:{Accept:'application/json'}}).then(f=>{if(!f.ok)throw Error('HTTP '+f.status);return f.json()}).then(plants=>{if(!Array.isArray(plants))throw Error('Invalid plant database: expected an array.');return plants.find(x=>String(x?.id||'').toLowerCase()===String(id).toLowerCase())})})
+  .then(p=>{
+   if(!p){error('Plant not found','No record was found for '+id+'.');return}
    const i=p.identity||{}, c=p.classification||{}, d=p.identification||{}, g=p.dravya_guna||p.dravyaguna||{}, dos=p.dosha||{}, t=p.therapeutics||{}, cl=p.classical_reference||{}, ph=p.phytochemistry||{}, m=p.modern_information||{}, st=p.student||{}, te=p.teacher||{}, dr=p.doctor||{}, meta=p.metadata||{}, imgs=p.images||{};
    const name=i.name||p.name||id, sans=i.sanskrit_name||'', bot=i.botanical_name||'', status=meta.status||'draft';
    document.title=`${name} | DravyaGuna 97`;

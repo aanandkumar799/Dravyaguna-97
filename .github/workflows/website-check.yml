@@ -46,6 +46,7 @@ jobs:
             "index.html" "plants.html" "plant.html" "404.html" "plants.json"
             "plant-index.json" "robots.txt" "sitemap.xml" "script.js" "style.css"
             "manifest.json" "sw.js" "lighthouserc.js" "check-site.py" "check-inline-js.py"
+            "scripts/generate-site-artifacts.py"
           )
           for file in "${files[@]}"; do
             test -f "$file" || { echo "Missing file: $file"; exit 1; }

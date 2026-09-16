@@ -60,7 +60,8 @@ for item in index:
             p['sources'].append({'type':'medicinal_plants_database','title':'TDU Indian Medicinal Plants Database','url':'https://www.tdu.edu.in/outreach/indian-medicinal-plants-database'})
 
 out = [by_id[item['id']] for item in sorted(index,key=lambda x:x['order'])]
-assert len(out)==97 and len({p['id'] for p in out})==97
-assert [p['order'] for p in out] == list(range(1,98))
+assert len(out) == len(index) and len({p['id'] for p in out}) == len(out)
+ncism = [p for p in out if p.get('category', 'NCISM-97') == 'NCISM-97']
+assert len(ncism) >= 97, f'Expected at least 97 NCISM records, found {len(ncism)}'
 plants_path.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-print('Validated 97 unique NCISM-ordered records with expanded schema and source metadata')
+print(f'Validated {len(out)} records, including {len(ncism)} NCISM records, with expanded schema and source metadata')

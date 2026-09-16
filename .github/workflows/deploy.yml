@@ -32,60 +32,23 @@ jobs:
         run: |
           rm -rf _site
           mkdir -p _site/data/plants
-          cp -R . _site/
-          rm -rf _site/.git _site/.github _site/_site
-          python _site/scripts/normalize-plants-schema.py
+          tar --exclude='./.git' --exclude='./.github' --exclude='./_site' -cf - . | tar -xf - -C _site
+          python scripts/normalize-plants-schema.py
+          python scripts/generate-site-artifacts.py
           python - <<'PY'
           import json
           from pathlib import Path
-
           root = Path('_site')
           plants = json.loads((root / 'plants.json').read_text(encoding='utf-8'))
-          assert isinstance(plants, list), 'plants.json must be an array'
-          core = [p for p in plants if p.get('category', 'NCISM-97') == 'NCISM-97']
-          assert len(core) == 97, f'Expected 97 NCISM records, found {len(core)}'
-
-          index = []
-          for p in plants:
-              pid = str(p.get('id', '')).strip()
-              if not pid:
-                  continue
-              identity = p.get('identity') or {}
-              guna = p.get('dravya_guna') or p.get('dravyaguna') or {}
-              therapeutic = p.get('therapeutics') or {}
-              item = {
-                  'id': pid,
-                  'order': p.get('order', 9999),
-                  'category': p.get('category', 'NCISM-97'),
-                  'name': identity.get('name') or p.get('name') or pid,
-                  'sanskrit_name': identity.get('sanskrit_name', ''),
-                  'transliteration': identity.get('transliteration', ''),
-                  'botanical_name': identity.get('botanical_name', ''),
-                  'family': identity.get('family', ''),
-                  'english_name': identity.get('english_name', ''),
-                  'rasa': guna.get('rasa', []),
-                  'guna': guna.get('guna', []),
-                  'virya': guna.get('virya', ''),
-                  'vipaka': guna.get('vipaka', ''),
-                  'useful_part': therapeutic.get('useful_part', []),
-                  'search_text': ' '.join(str(x) for x in [
-                      identity.get('name',''), identity.get('sanskrit_name',''),
-                      identity.get('transliteration',''), identity.get('botanical_name',''),
-                      identity.get('family',''), identity.get('english_name',''),
-                      identity.get('hindi_name',''), p.get('id','')
-                  ])
-              }
-              index.append(item)
-              (root / 'data' / 'plants' / f'{pid}.json').write_text(
-                  json.dumps(p, ensure_ascii=False, indent=2), encoding='utf-8'
-              )
-
-          index.sort(key=lambda x: (x['order'], x['name']))
-          (root / 'data' / 'plants-index.json').write_text(
-              json.dumps({'total': len(index), 'plants': index}, ensure_ascii=False, indent=2),
-              encoding='utf-8'
-          )
-          print(f'Prepared {len(index)} plant detail files')
+          index = json.loads((root / 'plant-index.json').read_text(encoding='utf-8'))
+          assert len(plants) >= 97, f'Expected at least 97 records, found {len(plants)}'
+          assert len(index['plants']) == len(plants), 'Index/database record count mismatch'
+          assert {p['id'] for p in plants} == {p['id'] for p in index['plants']}, 'Index/database IDs mismatch'
+          (root / 'data' / 'plants').mkdir(parents=True, exist_ok=True)
+          for plant in plants:
+              (root / 'data' / 'plants' / f"{plant['id']}.json").write_text(json.dumps(plant, ensure_ascii=False, indent=2), encoding='utf-8')
+          (root / 'data' / 'plants-index.json').write_text(json.dumps(index, ensure_ascii=False, indent=2), encoding='utf-8')
+          print(f'Prepared {len(plants)} plant detail files')
           PY
 
       - name: Wire PWA and fast dossier loading into generated site
