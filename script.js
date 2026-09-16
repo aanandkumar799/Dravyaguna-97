@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const urls = {
     index: new URL('plant-index.json', window.location.href).href,
     fallback: new URL('plants.json', window.location.href).href,
-    batches: ['plant-batch-24-28.json','plant-batch-29-33.json','plant-batch-34-38.json','plant-batch-39-43.json','plant-batch-44-48.json','plant-batch-49-53.json','plant-batch-54-58.json','plant-batch-59-63.json'].map(name => new URL(name, window.location.href).href)
+    batches: ['plant-batch-24-28.json','plant-batch-29-33.json','plant-batch-34-38.json','plant-batch-39-43.json','plant-batch-44-48.json','plant-batch-49-53.json','plant-batch-54-58.json','plant-batch-59-63.json','plant-batch-64-68.json','plant-batch-69-73.json','plant-batch-74-78.json'].map(name => new URL(name, window.location.href).href)
   };
   let masterPlants = [];
   let searchTimer;
@@ -21,9 +21,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const botanical = p => p?.botanical_name || p?.identity?.botanical_name || '';
   const family = p => p?.family || p?.identity?.family || '';
   const order = p => Number.isFinite(Number(p?.order)) ? Number(p.order) : 9999;
-  const category = p => p?.category === 'Supplementary' ? 'Supplementary' : 'NCISM-97';
+  const category = p => p?.category === 'Supplementary' || p?.category === 'SUPPLEMENTAL' ? 'Supplementary' : 'NCISM-97';
   const image = p => p?.images?.whole_plant || p?.images?.habit || p?.images?.leaf || '';
-  const mergeRecord = (base = {}, patch = {}) => { const merged = {...base,...patch,identity:{...(base.identity||{}),...(patch.identity||{})},dravya_guna:{...(base.dravya_guna||{}),...(patch.dravya_guna||{})},therapeutics:{...(base.therapeutics||{}),...(patch.therapeutics||{})},metadata:{...(base.metadata||{}),...(patch.metadata||{})}}; if(base.order!==undefined&&base.order!==null) merged.order=base.order; if(base.category) merged.category=base.category; return merged; };
+  const mergeRecord = (base = {}, patch = {}) => { const merged = {...base,...patch,identity:{...(base.identity||{}),...(patch.identity||{})},dravya_guna:{...(base.dravya_guna||{}),...(patch.dravya_guna||{})},therapeutics:{...(base.therapeutics||{}),...(patch.therapeutics||{})},metadata:{...(base.metadata||{}),...(patch.metadata||{})}}; if(base.order!==undefined&&base.order!==null&&Number(base.order)!==0) merged.order=base.order; if(base.category && base.category!=='SUPPLEMENTAL') merged.category=base.category; return merged; };
   const libraryOrder = (a,b) => { const ca=category(a),cb=category(b); if(ca!==cb) return ca==='NCISM-97'?-1:1; if(ca==='NCISM-97') return order(a)-order(b)||name(a).localeCompare(name(b)); return name(a).localeCompare(name(b)); };
   function score(p,query){const q=normalize(query);if(!q)return 0;const fields=[[name(p),1200],[sanskrit(p),1100],[p.transliteration,1050],[botanical(p),1000],[p.english_name||p.identity?.english_name,900],[family(p),800],[p.id,750],[p.search_text,200]];let total=0;for(const[value,points]of fields){const x=normalize(value);if(!x)continue;if(x===q)total+=points;else if(x.startsWith(q))total+=Math.floor(points*.65);else if(x.includes(q))total+=Math.floor(points*.45);}return total;}
   function filtered(query=''){let list=masterPlants.filter(p=>categoryFilter==='all'||category(p)===categoryFilter);if(!normalize(query))return list;return list.map(p=>({p,score:score(p,query)})).filter(x=>x.score>0).sort((a,b)=>b.score-a.score||libraryOrder(a.p,b.p)).map(x=>x.p);}
