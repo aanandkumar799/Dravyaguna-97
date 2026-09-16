@@ -31,7 +31,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
       - name: Build and validate 97 records
         run: python scripts/complete-97.py
       - name: Normalize NCISM canonical plant names
