@@ -1,0 +1,115 @@
+/* DravyaGuna 97 — responsive layout and gallery safety fixes */
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body { max-width: 100%; overflow-x: hidden; }
+
+main, .container, .dossier-container, .plant-page, .plant-profile {
+  width: 100%;
+  max-width: 1100px;
+  min-width: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.plant-page { padding: 20px; }
+
+.plant-page > *, .container > *, .dossier-container > *, .plant-profile > * {
+  max-width: 100%;
+  min-width: 0;
+}
+
+.grid-container, .card-grid, .identity-grid, .identification-grid, .info-grid, .formulation-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  width: 100%;
+  min-width: 0;
+}
+
+.grid-container > *, .card-grid > *, .identity-grid > *, .identification-grid > *,
+.info-grid > *, .formulation-grid > * {
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.gallery-grid, .identification-gallery, .image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(140px, 100%), 1fr));
+  gap: .75rem;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.gallery-item, .plant-image-card {
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.gallery-grid img,
+.identification-gallery img,
+.image-gallery img,
+.gallery-item img,
+.plant-image-card img,
+.dossier-container img,
+.plant-section img {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.info-row, .info-value, .plant-section, .section-heading {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.info-value, .plant-section, .section-heading, figcaption {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.modal-image {
+  width: auto !important;
+  height: auto !important;
+  max-width: 95vw !important;
+  max-height: 90vh !important;
+  object-fit: contain;
+}
+
+@media (max-width: 767px) {
+  main, .container, .dossier-container, .plant-page, .plant-profile {
+    max-width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .grid-container, .card-grid, .identity-grid, .identification-grid,
+  .info-grid, .formulation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-grid, .identification-gallery, .image-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .gallery-grid img, .identification-gallery img, .image-gallery img,
+  .gallery-item img, .dossier-container img, .plant-section img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 380px) {
+  .gallery-grid, .identification-gallery, .image-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-grid img, .identification-gallery img, .image-gallery img,
+  .gallery-item img { height: 190px; }
+}
