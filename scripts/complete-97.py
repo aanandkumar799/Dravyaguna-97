@@ -1,0 +1,45 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+index = json.loads((ROOT / 'plant-index.json').read_text(encoding='utf-8'))['plants']
+plants_path = ROOT / 'plants.json'
+existing = json.loads(plants_path.read_text(encoding='utf-8')) if plants_path.exists() else []
+by_id = {p['id']: p for p in existing}
+
+# Botanical identity and principal prayojyanga for the remaining NCISM syllabus drugs.
+# These are working-draft fields and are intentionally marked for text/API cross-check.
+D = {
+'gokshura':('Tribulus terrestris L.','Zygophyllaceae','fruit'),'guduchi':('Tinospora cordifolia (Willd.) Hook.f. & Thomson','Menispermaceae','stem'),'guggulu':('Commiphora wightii (Arn.) Bhandari','Burseraceae','oleo-gum-resin'),'haridra':('Curcuma longa L.','Zingiberaceae','rhizome'),'haritaki':('Terminalia chebula Retz.','Combretaceae','fruit'),'hingu':('Ferula assa-foetida L.','Apiaceae','oleo-gum-resin'),'jambu':('Syzygium cumini (L.) Skeels','Myrtaceae','fruit/seed'),'jatamansi':('Nardostachys jatamansi (D.Don) DC.','Caprifoliaceae','rhizome'),'jyotishmati':('Celastrus paniculatus Willd.','Celastraceae','seed/oil'),'kanchanara':('Bauhinia variegata L.','Fabaceae','stem bark'),'kantakari':('Solanum xanthocarpum Schrad. & Wendl.','Solanaceae','whole plant/fruit'),'kapikachhu':('Mucuna pruriens (L.) DC.','Fabaceae','seed'),'karkatshrungi':('Pistacia integerrima J.L.Stewart ex Brandis','Anacardiaceae','gall'),'katuki':('Picrorhiza kurroa Royle ex Benth.','Plantaginaceae','rhizome'),'khadira':('Senegalia catechu (L.f.) P.J.Hurter & Mabb.','Fabaceae','heartwood'),'kumari':('Aloe vera (L.) Burm.f.','Asphodelaceae','leaf pulp'),'kutaja':('Holarrhena pubescens Wall. ex G.Don','Apocynaceae','stem bark/seed'),'latakaranja':('Caesalpinia bonduc (L.) Roxb.','Fabaceae','seed'),'lodhra':('Symplocos racemosa Roxb.','Symplocaceae','stem bark'),'agnimanth':('Premna integrifolia L.','Lamiaceae','root'),'ahiphena':('Papaver somniferum L.','Papaveraceae','latex'),'ajamoda':('Apium leptophyllum (Pers.) F.Muell. ex Benth.','Apiaceae','fruit'),'apamarga':('Achyranthes aspera L.','Amaranthaceae','whole plant'),'asthishrunkhala':('Cissus quadrangularis L.','Vitaceae','stem'),'bakuchi':('Cullen corylifolium (L.) Medik.','Fabaceae','seed'),'bruhati':('Solanum indicum L.','Solanaceae','root'),'chakramarda':('Senna tora (L.) Roxb.','Fabaceae','seed/whole plant'),'dhanyaka':('Coriandrum sativum L.','Apiaceae','fruit'),'ela':('Elettaria cardamomum (L.) Maton','Zingiberaceae','fruit/seed'),'gambhari':('Gmelina arborea Roxb.','Lamiaceae','root'),'japa':('Hibiscus rosa-sinensis L.','Malvaceae','flower'),'jatiphala':('Myristica fragrans Houtt.','Myristicaceae','seed'),'jeeraka':('Cuminum cyminum L.','Apiaceae','fruit'),'kalamegha':('Andrographis paniculata (Burm.f.) Nees','Acanthaceae','whole plant'),'kampillaka':('Mallotus philippensis (Lam.) Müll.Arg.','Euphorbiaceae','glandular powder of fruit'),'kulatha':('Macrotyloma uniflorum (Lam.) Verdc.','Fabaceae','seed'),'kumkum':('Crocus sativus L.','Iridaceae','stigma'),'lajjalu':('Mimosa pudica L.','Fabaceae','whole plant/root'),'lavanga':('Syzygium aromaticum (L.) Merr. & L.M.Perry','Myrtaceae','flower bud'),'madanphala':('Randia dumetorum (Retz.) Lam.','Rubiaceae','fruit'),'mandukaparni':('Centella asiatica (L.) Urb.','Apiaceae','whole plant'),'manjishta':('Rubia cordifolia L.','Rubiaceae','root'),'maricha':('Piper nigrum L.','Piperaceae','fruit'),'meshashrungi':('Gymnema sylvestre (Retz.) R.Br. ex Sm.','Apocynaceae','leaf'),'methika':('Trigonella foenum-graecum L.','Fabaceae','seed'),'musta':('Cyperus rotundus L.','Cyperaceae','rhizome'),'nagkeshar':('Mesua ferrea L.','Calophyllaceae','stamen'),'nimba':('Azadirachta indica A.Juss.','Meliaceae','bark/leaf'),'nirgundi':('Vitex negundo L.','Lamiaceae','leaf'),'palasha':('Butea monosperma (Lam.) Taub.','Fabaceae','seed/flower/bark'),'pashanabheda':('Bergenia ligulata (Wall.) Engl.','Saxifragaceae','rhizome'),'patha':('Cissampelos pareira L.','Menispermaceae','root'),'pippali':('Piper longum L.','Piperaceae','fruit'),'punarnava':('Boerhavia diffusa L.','Nyctaginaceae','root/whole plant'),'rasna':('Pluchea lanceolata (DC.) C.B.Clarke','Asteraceae','root'),'rasona':('Allium sativum L.','Amaryllidaceae','bulb'),'sarpagandha':('Rauvolfia serpentina (L.) Benth. ex Kurz','Apocynaceae','root'),'sairayak':('Barleria prionitis L.','Acanthaceae','root/whole plant'),'sariva':('Hemidesmus indicus (L.) R.Br.','Apocynaceae','root'),'shallaki':('Boswellia serrata Roxb. ex Colebr.','Burseraceae','oleo-gum-resin'),'shalmalimocharasa':('Bombax ceiba L.','Malvaceae','gum/mocharasa'),'shankhapushpi':('Convolvulus pluricaulis Choisy','Convolvulaceae','whole plant'),'shatavari':('Asparagus racemosus Willd.','Asparagaceae','root'),'shigru':('Moringa oleifera Lam.','Moringaceae','root/bark/leaf'),'shunthi':('Zingiber officinale Roscoe','Zingiberaceae','rhizome'),'talisapatra':('Abies webbiana Lindl.','Pinaceae','leaf'),'trivrut':('Operculina turpethum (L.) Silva Manso','Convolvulaceae','root bark'),'tulasi':('Ocimum tenuiflorum L.','Lamiaceae','leaf/whole plant'),'twak':('Cinnamomum verum J.Presl','Lauraceae','bark'),'usheera':('Chrysopogon zizanioides (L.) Roberty','Poaceae','root'),'vacha':('Acorus calamus L.','Acoraceae','rhizome'),'varuna':('Crataeva nurvala Buch.-Ham.','Capparaceae','stem bark'),'vasa':('Justicia adhatoda L.','Acanthaceae','leaf'),'vatsanabha':('Aconitum ferox Wall. ex Ser.','Ranunculaceae','root/tuber'),'vibhitaki':('Terminalia bellirica (Gaertn.) Roxb.','Combretaceae','fruit'),'vidanga':('Embelia ribes Burm.f.','Primulaceae','fruit'),'yashtimadhu':('Glycyrrhiza glabra L.','Fabaceae','root')}
+
+for item in index:
+    pid = item['id']
+    if pid in by_id:
+        continue
+    bot, family, part = D.get(pid, ('','',''))
+    p = {
+      'id': pid, 'order': item['order'],
+      'identity': {'name':item['name'],'sanskrit_name':item.get('sanskrit_name',''),'transliteration':'','botanical_name':bot,'family':family,'english_name':'','hindi_name':'','regional_names':[],'synonyms':[]},
+      'classification': {'kingdom':'Plantae','habit':'','habitat':'','distribution':''},
+      'identification': {'description':'','whole_plant':'','root':'','stem':'','leaf':'','flower':'','fruit':'','seed':'','bark':'','identification_points':[]},
+      'images': {'whole_plant':'','habit':'','root':'','stem':'','leaf':'','flower':'','fruit':'','seed':'','bark':''},
+      'dravya_guna': {'rasa':[],'guna':[],'virya':'','vipaka':'','prabhava':'','karma':[]},
+      'dosha': {'vata':'','pitta':'','kapha':''},
+      'therapeutics': {'useful_part':[part] if part else [],'indications':[],'therapeutic_actions':[],'dose':'','anupana':'','duration':'','precautions':'','contraindications':''},
+      'formulations': [],
+      'classical_reference': {'shlokas':[],'nighantu_references':[],'samhita_references':[]},
+      'phytochemistry': {'major_constituents':[],'chemical_notes':''},
+      'modern_information': {'evidence_summary':'','recognized_uses':[],'safety_notes':'','sources':[]},
+      'student': {'exam_points':[],'viva_questions':[],'identification_points':[],'mnemonics':[],'quick_revision':''},
+      'teacher': {'teaching_points':[],'discussion_points':[],'practical_points':[]},
+      'doctor': {'quick_reference':'','important_indications':[],'useful_part':part,'dose':'','anupana':'','key_precautions':[]},
+      'sources': [{'type':'official_syllabus','title':'NCISM II BAMS Dravyaguna Vigyan curriculum','url':'https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf'}],
+      'metadata': {'status':'working_draft_needs_text_cross_check','last_verified':'','verified_by':'','version':'0.3'}
+    }
+    by_id[pid]=p
+
+out = [by_id[item['id']] for item in sorted(index,key=lambda x:x['order'])]
+assert len(out)==97 and len({p['id'] for p in out})==97
+assert [p['order'] for p in out] == list(range(1,98))
+plants_path.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+print('Validated 97 unique NCISM-ordered records')
