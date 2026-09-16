@@ -1,0 +1,196 @@
+[
+  {
+    "id": 74,
+    "order": 0,
+    "category": "SUPPLEMENTAL",
+    "batch_id": "74-78",
+    "identity": {
+      "name": "Karpura",
+      "sanskrit_name": "Karpura (कर्पूर)",
+      "botanical_name": "Cinnamomum camphora (L.) J.Presl",
+      "family": "Lauraceae",
+      "english_name": "Camphor",
+      "useful_part": "Crystalline distillate / purified camphor (Karpura)"
+    },
+    "dravya_guna": {
+      "rasa": ["Tikta", "Katu", "Madhura"],
+      "guna": ["Laghu", "Tikshna", "Snigdha"],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "prabhava": "Hridya / Chakshushya / Vedanasthapana",
+      "dosha_karma": "Primarily Kapha-Pitta shamaka in the supplied tradition; exact properties are recension/edition dependent."
+    },
+    "therapeutics": {
+      "karma": ["Hridya", "Vedanasthapana", "Chakshushya", "Chedana", "Kasahara", "Mukhadurgandhahara", "Dahaprashamana", "Krimighna"],
+      "indications": ["Hridroga", "Shwasa / Kasa", "Mukharoga", "Trishna", "Daha", "Sandhishoola"],
+      "formulations": ["Karpuradi Churna", "Karpuradi Taila", "Karpura Rasa", "Amritdhara", "Karpurasava"]
+    },
+    "identification": "White translucent crystalline masses or powder, volatile at room temperature, with a characteristic penetrating aromatic odor and cooling sensation.",
+    "classical_reference": {
+      "text": "Bhavaprakasha Nighantu",
+      "section": "Karpuradi Varga",
+      "shloka": "",
+      "reference": "Karpuradi Varga; exact verse numbering/text requires edition-specific verification.",
+      "verification_status": "B. Classical source identified, but the supplied verse and numbering were not accepted as directly verified."
+    },
+    "metadata": {
+      "verification_notes": "Karpura is not one of the current NCISM II BAMS 97-drug entries; retained as SUPPLEMENTAL. Do not treat the supplied Bhavaprakasha verse 2-3 as verified without checking the chosen edition."
+    }
+  },
+  {
+    "id": 75,
+    "order": 28,
+    "category": "NCISM-97",
+    "batch_id": "74-78",
+    "identity": {
+      "name": "Jatamansi",
+      "sanskrit_name": "Jatamansi (जटामांसी)",
+      "botanical_name": "Nardostachys jatamansi (D.Don) DC.",
+      "family": "Caprifoliaceae (Valerianaceae, older treatment)",
+      "english_name": "Spikenard / Indian Nard",
+      "useful_part": "Rhizome / root"
+    },
+    "dravya_guna": {
+      "rasa": ["Tikta", "Kashaya"],
+      "guna": ["Laghu", "Snigdha"],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "prabhava": "Medhya / Manas-prasadana",
+      "dosha_karma": "Tridosha-shamaka is described in the verified Bhavaprakasha passage."
+    },
+    "therapeutics": {
+      "karma": ["Medhya", "Hridya", "Dahaprashamana", "Keshya", "Vishaghna"],
+      "indications": ["Manasika disorders in classical context", "Daha", "Raktadosha-related conditions", "Kushtha"],
+      "formulations": ["Jatamansyarka", "Mansyadi Kwatha", "Mansyadi Lepa", "Saraswata Churna", "Mahapaishachika Ghrita"]
+    },
+    "identification": "Aromatic, fibrous rhizome with dense fibrous remnants; characteristic heavy earthy-musky odor.",
+    "classical_reference": {
+      "text": "Bhavaprakasha Nighantu",
+      "section": "Karpuradi Varga",
+      "shloka": "जटामांसी भूतजटा जटिला च तपस्विनी ।\nमांसी तिक्ता कषाया च मेध्या कान्तिबलप्रदा ।\nस्वाद्वी हिमा त्रिदोषास्रदाहवीसर्पकुष्ठनुत् ॥",
+      "reference": "Karpuradi Varga, verse 75 in the searchable recension; some editions/secondary references number the same passage differently (e.g. 89).",
+      "verification_status": "A. Directly verified classical passage; numbering is edition-dependent."
+    },
+    "metadata": {
+      "ncism_order": 28,
+      "verification_notes": "The supplied verse 88-89 was not retained as a universal number. The text itself is verified, with recension/edition variation in numbering."
+    }
+  },
+  {
+    "id": 76,
+    "order": 91,
+    "category": "NCISM-97",
+    "batch_id": "74-78",
+    "identity": {
+      "name": "Vacha",
+      "sanskrit_name": "Vacha (वचा)",
+      "botanical_name": "Acorus calamus L.",
+      "family": "Acoraceae",
+      "english_name": "Sweet Flag / Calamus",
+      "useful_part": "Rhizome"
+    },
+    "dravya_guna": {
+      "rasa": ["Katu", "Tikta"],
+      "guna": ["Laghu", "Tikshna"],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": "Sanjnasthapana / Medhya",
+      "dosha_karma": "Kapha-Vata shamaka"
+    },
+    "therapeutics": {
+      "karma": ["Medhya", "Sanjnasthapana", "Swarya", "Vamana", "Deepana", "Pachana", "Kaphaghna"],
+      "indications": ["Apasmara", "Unmada", "Swarabheda", "Agnimandya", "Digestive disorders"],
+      "formulations": ["Saraswata Churna", "Vachadi Churna", "Brahmi Ghrita", "Sanjivani Vati", "Vachadi Taila"]
+    },
+    "identification": "Aromatic, creeping rhizome, branched and laterally compressed/cylindrical, with leaf scars and a pale spongy interior.",
+    "classical_reference": {
+      "text": "Bhavaprakasha Nighantu",
+      "section": "Haritakyadi Varga",
+      "shloka": "",
+      "reference": "The supplied verse 102-103 was not independently verified in the searched sources; Vacha is independently documented in classical therapeutic contexts such as Charaka and Sharngadhara.",
+      "verification_status": "B. Classical use verified, but the supplied Bhavaprakasha verse text/numbering is not accepted as directly verified."
+    },
+    "metadata": {
+      "ncism_order": 91,
+      "verification_notes": "Family normalized to Acoraceae. Do not display the supplied 102-103 verse as a verified Bhavaprakasha quotation until checked against the selected edition."
+    }
+  },
+  {
+    "id": 77,
+    "order": 77,
+    "category": "NCISM-97",
+    "batch_id": "74-78",
+    "identity": {
+      "name": "Sarpagandha",
+      "sanskrit_name": "Sarpagandha (सर्पगन्धा)",
+      "botanical_name": "Rauvolfia serpentina (L.) Benth. ex Kurz",
+      "family": "Apocynaceae",
+      "english_name": "Indian Snakeroot / Serpentina Root",
+      "useful_part": "Root"
+    },
+    "dravya_guna": {
+      "rasa": ["Tikta"],
+      "guna": ["Ruksha"],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": "Manas-prasadana / Nidrajanana in later Ayurvedic literature",
+      "dosha_karma": "Not normalized from the supplied record because the supplied modern-style description conflicts with classical source uncertainty."
+    },
+    "therapeutics": {
+      "karma": ["Nidrajanana", "Manasika-shamana"],
+      "indications": ["Anidra", "Manasika agitation", "Hypertension in modern pharmacological practice"],
+      "formulations": ["Sarpagandha Churna", "Sarpagandha Vati", "Sarpagandhadi Churna"]
+    },
+    "identification": "Tapering, tortuous roots with brownish cork and longitudinal fissuring; characteristically bitter.",
+    "classical_reference": {
+      "text": "Dravyaguna literature / Bhavaprakasha-related identity discussion",
+      "section": "Identity and later Ayurvedic usage",
+      "shloka": "",
+      "reference": "The supplied verse is not a verified Bhavaprakasha quotation. BharatKosha's Bhavaprakasha discussion itself notes uncertainty around the identity/name Sarpagandha and associates Rauvolfia serpentina with Nakuli/related nomenclature.",
+      "verification_status": "B. Classical identity/use requires cautious presentation; supplied shloka rejected as unverified."
+    },
+    "metadata": {
+      "ncism_order": 77,
+      "verification_notes": "Do not label the supplied 'रक्तचापविनाशिनी' verse as Bhavaprakasha. Modern antihypertensive action should be distinguished from classical textual claims."
+    }
+  },
+  {
+    "id": 78,
+    "order": 6,
+    "category": "NCISM-97",
+    "batch_id": "74-78",
+    "identity": {
+      "name": "Ativisha",
+      "sanskrit_name": "Ativisha (अतिविषा)",
+      "botanical_name": "Aconitum heterophyllum Wall. ex Royle",
+      "family": "Ranunculaceae",
+      "english_name": "Indian Atees",
+      "useful_part": "Tuberous root"
+    },
+    "dravya_guna": {
+      "rasa": ["Tikta", "Katu"],
+      "guna": ["Laghu", "Ruksha"],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": "Deepana / Pachana / Atisarahara",
+      "dosha_karma": "Kapha-Pitta shamaka in the verified Bhavaprakasha passage"
+    },
+    "therapeutics": {
+      "karma": ["Deepana", "Pachana", "Grahi", "Jwarahara", "Krimighna", "Atisarahara"],
+      "indications": ["Atisara", "Ama-related gastrointestinal disorders", "Jwara", "Agnimandya", "Chhardi", "Balaroga in classical context"],
+      "formulations": ["Balachaturbhadra Churna", "Ativishadi Churna", "Gangadhara Churna"]
+    },
+    "identification": "Small ovoid/conical tuberous roots, pale greyish-white internally, characteristically bitter; identification must distinguish Ativisha from toxic Aconitum species.",
+    "classical_reference": {
+      "text": "Bhavaprakasha Nighantu",
+      "section": "Haritakyadi Varga",
+      "shloka": "विषा त्वतिविषा विश्वा शृङ्गी प्रतिविषाऽरुणा ।\nशुक्लकन्दा चोपविषा भङ्गुरा घुणवल्लभा ॥\nविषा सोष्णा कटुस्तिक्ता पाचनी दीपनी हरेत् ।\nकफपित्तातिसारामविषकासवमिक्रिमीन् ॥",
+      "reference": "Haritakyadi Varga, verses 186-187 in the searchable recension; some editions/secondary numbering differs substantially.",
+      "verification_status": "A. Directly verified classical passage; supplied 153-154 numbering was corrected."
+    },
+    "metadata": {
+      "ncism_order": 6,
+      "verification_notes": "The searchable Bhavaprakasha text gives the Ativisha passage as 186-187, not the supplied 153-154. Botanical name standardized to Aconitum heterophyllum Wall. ex Royle."
+    }
+  }
+]
