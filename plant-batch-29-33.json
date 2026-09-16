@@ -1,0 +1,235 @@
+[
+  {
+    "id": "yashtimadhu",
+    "order": 97,
+    "category": "NCISM-97",
+    "batch_id": 29,
+    "identity": {
+      "name": "Yashtimadhu",
+      "sanskrit_name": "यष्टिमधु",
+      "transliteration": "Yaṣṭimadhu",
+      "botanical_name": "Glycyrrhiza glabra L.",
+      "family": "Fabaceae",
+      "english_name": "Liquorice / Licorice",
+      "synonyms": ["Yaṣṭimadhu", "Madhuka", "Yaṣṭyāhva", "Madhuka" ]
+    },
+    "dravya_guna": {
+      "rasa": ["Madhura"],
+      "guna": ["Guru", "Snigdha"],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "prabhava": "Rasayana; Chakshushya",
+      "karma": ["Balya", "Varnya", "Chakshushya", "Swarya", "Vrishya", "Raktapittahara", "Vranaropana"]
+    },
+    "therapeutics": {
+      "useful_part": ["Root / stolon (Mula / Kanda)"],
+      "indications": ["Swarabheda", "Kasa", "Raktapitta", "Vrana", "Daha", "Trishna", "Daurbalya"],
+      "therapeutic_actions": ["Balya", "Swarya", "Varnya", "Rasayana", "Vranaropana"]
+    },
+    "identification": {
+      "description": "Perennial herb with underground rhizomes/stolons; dried drug occurs as cylindrical, yellowish-brown to brown root/stolon pieces with a characteristic sweet taste.",
+      "identification_points": ["Cylindrical root/stolon pieces", "Yellowish-brown interior", "Intensely sweet persistent taste"]
+    },
+    "formulations": [
+      {"name": "Yashtimadhu Churna"},
+      {"name": "Yashtimadhu Ghrita"},
+      {"name": "Yashtyadi Kwatha"},
+      {"name": "Eladi Vati"}
+    ],
+    "classical_reference": {
+      "shlokas": ["यष्टी हिमा गुरुः स्वाद्वी चक्षुष्या बलवर्णकृत् ।\nसुस्निग्धा शुक्रला केश्या स्वर्या पित्तानिलास्रजित् ।\nव्रणशोथविषच्छर्दितृष्णाग्लानिक्षयापहा ॥१४६॥"],
+      "nighantu_references": ["Bhavaprakasha Nighantu, Haritakyadi Varga, verses 145–146 in the searchable recension; edition numbering should be checked against the selected print edition."],
+      "shloka_reference_status": "verified text; edition/page numbering may vary"
+    },
+    "sources": [
+      {"title": "Plants of the World Online — Glycyrrhiza glabra", "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:496941-1/general-information"},
+      {"title": "Bhavaprakasha Nighantu — Yashtimadhu passage", "url": "https://innovedatea.com/de/products/licorice-mulethi-powder-yastimadhu"}
+    ],
+    "metadata": {"status": "corrected_reviewed", "source_batch": "29", "last_reviewed": "2026-09-16"}
+  },
+  {
+    "id": "bhumyamalaki",
+    "order": 12,
+    "category": "NCISM-97",
+    "batch_id": 30,
+    "identity": {
+      "name": "Bhumyamalaki",
+      "sanskrit_name": "भूम्यामलकी",
+      "transliteration": "Bhūmyāmalakī",
+      "botanical_name": "Phyllanthus amarus Schumach. & Thonn.",
+      "family": "Phyllanthaceae",
+      "english_name": "Bhumi amla / Stonebreaker",
+      "synonyms": ["Tamalaki", "Bhūdhātrī"]
+    },
+    "dravya_guna": {
+      "rasa": ["Tikta", "Kashaya", "Madhura"],
+      "guna": ["Laghu", "Ruksha"],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "prabhava": "Rasayana",
+      "karma": ["Pittahara", "Raktapittahara", "Dahaprashamana", "Mutrala", "Yakrit-hita"]
+    },
+    "therapeutics": {
+      "useful_part": ["Whole plant (Panchanga)"],
+      "indications": ["Kamala", "Yakrit-vikara", "Trishna", "Mutrakrichra", "Raktapitta", "Kasa"],
+      "therapeutic_actions": ["Pittahara", "Dahaprashamana", "Mutrala", "Rasayana"]
+    },
+    "identification": {
+      "description": "Small annual herb with numerous small distichous leaves; minute greenish flowers and small smooth capsules occur beneath the branchlets.",
+      "identification_points": ["Small herb", "Distichous miniature leaflets", "Small capsules beneath branchlets"]
+    },
+    "formulations": [
+      {"name": "Bhumyamalaki Swarasa"},
+      {"name": "Bhumyamalakadi Kwatha"}
+    ],
+    "classical_reference": {
+      "shlokas": ["स्याद् भूम्यामलकी तिक्ता कषाया मधुरा हिमा ।"],
+      "nighantu_references": ["Bhavaprakasha Nighantu; the searchable Sanskrit dictionary corpus preserves this Bhumyamalaki verse. The supplied verse 277–278 was not accepted as an edition-independent citation."],
+      "shloka_reference_status": "verified text fragment; exact verse numbering/edition requires confirmation"
+    },
+    "sources": [
+      {"title": "Bhavaprakasha reference for Bhumyamalaki", "url": "https://sa.wikisource.org/wiki/वाचस्पत्यम्/भूत"},
+      {"title": "NCISM II BAMS Dravyaguna curriculum", "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"}
+    ],
+    "metadata": {"status": "corrected_reviewed", "source_batch": "30", "last_reviewed": "2026-09-16"}
+  },
+  {
+    "id": "jyotishmati",
+    "order": 29,
+    "category": "NCISM-97",
+    "batch_id": 31,
+    "identity": {
+      "name": "Jyotishmati",
+      "sanskrit_name": "ज्योतिष्मती",
+      "transliteration": "Jyotiṣmatī",
+      "botanical_name": "Celastrus paniculatus Willd.",
+      "family": "Celastraceae",
+      "english_name": "Staff Tree / Malkangni",
+      "synonyms": ["Katabhi", "Jyotishka", "Kanguni", "Paravatapadi", "Kakundani"]
+    },
+    "dravya_guna": {
+      "rasa": ["Katu", "Tikta"],
+      "guna": ["Tikshna", "Sara"],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": "Medhya",
+      "karma": ["Deepana", "Medhya", "Buddhi-smriti-vardhana", "Vamaka"]
+    },
+    "therapeutics": {
+      "useful_part": ["Seed (Bija)", "Seed oil (Bija Taila)"],
+      "indications": ["Medha-smriti impairment", "Agnimandya", "Selected Vata-Kapha disorders"],
+      "therapeutic_actions": ["Medhya", "Deepana", "Vamaka", "Kaphavatashamana"]
+    },
+    "identification": {
+      "description": "Woody climbing plant; seeds are enclosed by a conspicuous orange-red aril and are the principal Ayurvedic drug.",
+      "identification_points": ["Dark seeds", "Bright orange-red aril", "Climbing/lianous habit"]
+    },
+    "formulations": [
+      {"name": "Jyotishmati Taila"},
+      {"name": "Jyotishmatadi Ghrita"}
+    ],
+    "classical_reference": {
+      "shlokas": ["ज्योतिष्मती स्यात्कटभी ज्योतिष्का कङ्गुनीति च ।\nपारावतपदी पण्या लता प्रोक्ता ककुन्दनी ॥१५०॥\nज्योतिष्मती कटुस्तिक्ता सरा कफसमीरजित् ।\nअत्युष्णा वामनी तीक्ष्णा वह्निबुद्धिस्मृतिप्रदा ॥१५१॥"],
+      "nighantu_references": ["Bhavaprakasha Nighantu, Haritakyadi Varga, verses 150–151 in the searchable recension."],
+      "shloka_reference_status": "verified text; edition numbering may vary"
+    },
+    "sources": [
+      {"title": "Plants of the World Online — Celastrus paniculatus", "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:160439-1/general-information"},
+      {"title": "Bhavaprakasha Nighantu — Jyotishmati", "url": "https://vishvasa.github.io/sanskrit/koshaH/AyurvedaH/bhava-mishraH_bhAva-prakAshaH/02_2_harItakyAdivarga/"}
+    ],
+    "metadata": {"status": "corrected_reviewed", "source_batch": "31", "last_reviewed": "2026-09-16"}
+  },
+  {
+    "id": "shallaki",
+    "order": 80,
+    "category": "NCISM-97",
+    "batch_id": 32,
+    "identity": {
+      "name": "Shallaki",
+      "sanskrit_name": "शल्लकी",
+      "transliteration": "Śallakī",
+      "botanical_name": "Boswellia serrata Roxb.",
+      "family": "Burseraceae",
+      "english_name": "Indian Frankincense / Salai",
+      "synonyms": ["Gajabhakshya", "Surabhi", "Maheruna", "Kunduruki", "Vallaki"]
+    },
+    "dravya_guna": {
+      "rasa": ["Kashaya"],
+      "guna": ["Laghu", "Ruksha"],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "prabhava": "—",
+      "karma": ["Grahi", "Pittakaphahara", "Vranahara", "Raktapittahara"]
+    },
+    "therapeutics": {
+      "useful_part": ["Oleo-gum-resin (Niryasa)"],
+      "indications": ["Atisara", "Raktapitta", "Vrana", "Sandhi-shoola / inflammatory joint disorders"],
+      "therapeutic_actions": ["Grahi", "Vranahara", "Raktapittahara", "Shothahara"]
+    },
+    "identification": {
+      "description": "Resin exudate occurring as translucent to yellowish or brownish tears and masses, with a characteristic balsamic aroma.",
+      "identification_points": ["Resin tears/masses", "Balsamic aromatic odour", "Yellowish to brownish translucent appearance"]
+    },
+    "formulations": [
+      {"name": "Shallaki Niryasa"},
+      {"name": "Shallaki preparations"}
+    ],
+    "classical_reference": {
+      "shlokas": ["शल्लकी गजभक्ष्या च सुवहा सुरभी रसा ।\nमहेरुणा कुन्दुरुकी वल्लकी च बहुस्रवा ॥१९॥\nशल्लकी तुवरा शीता पित्तश्लेष्मातिसारजित् ।\nरक्तपित्तव्रणहरी पुष्टिकृत्समुदीरिता ॥२०॥"],
+      "nighantu_references": ["Bhavaprakasha Nighantu, Vatadi Varga, verses 19–20 in the searchable recension."],
+      "shloka_reference_status": "verified text; supplied verse 21–22 corrected to 19–20"
+    },
+    "sources": [
+      {"title": "Plants of the World Online — Boswellia serrata", "url": "https://powo.science.kew.org/taxon/127067-1"},
+      {"title": "Bhavaprakasha Nighantu — Vatadi Varga", "url": "https://vishvasa.github.io/sanskrit/koshaH/AyurvedaH/bhava-mishraH_bhAva-prakAshaH/06_6_vaTAdivarga/"}
+    ],
+    "metadata": {"status": "corrected_reviewed", "source_batch": "32", "last_reviewed": "2026-09-16"}
+  },
+  {
+    "id": "vacha",
+    "order": 91,
+    "category": "NCISM-97",
+    "batch_id": 33,
+    "identity": {
+      "name": "Vacha",
+      "sanskrit_name": "वचा",
+      "transliteration": "Vacā",
+      "botanical_name": "Acorus calamus L.",
+      "family": "Acoraceae",
+      "english_name": "Sweet Flag",
+      "synonyms": ["Ugragandha", "Shadgrantha", "Golomi", "Shataparvika", "Mangalya", "Ugra"]
+    },
+    "dravya_guna": {
+      "rasa": ["Katu", "Tikta"],
+      "guna": ["Laghu", "Tikshna"],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": "Medhya / Vamanopaga",
+      "karma": ["Deepana", "Pachana", "Medhya", "Vamanopaga", "Krimighna", "Kanthya"]
+    },
+    "therapeutics": {
+      "useful_part": ["Rhizome (Kanda)"],
+      "indications": ["Agnimandya", "Adhmana", "Swarabheda", "Selected neurological/mental disorders in classical practice"],
+      "therapeutic_actions": ["Deepana", "Pachana", "Medhya", "Vamanopaga", "Krimighna"]
+    },
+    "identification": {
+      "description": "Perennial aromatic rhizomatous herb of wet habitats; rhizome is cylindrical, branched, brown externally and pale/spongy within, with strong characteristic aroma.",
+      "identification_points": ["Aromatic cylindrical rhizome", "Spongy pale interior", "Distinctive nodes and leaf scars"]
+    },
+    "formulations": [
+      {"name": "Vachadi Churna"},
+      {"name": "Vachadi Ghrita"},
+      {"name": "Saraswatarishta"}
+    ],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": ["Bhavaprakasha Nighantu, Haritakyadi Varga; the supplied 102–103 citation was not accepted as verified because the searchable recension places the Vacha entry elsewhere and exact edition numbering was not independently established."],
+      "shloka_reference_status": "needs exact verse verification before quotation"
+    },
+    "sources": [
+      {"title": "Plants of the World Online — Acorus calamus", "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84009-1/general-information"},
+      {"title": "NCISM II BAMS Dravyaguna curriculum", "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"}
+    ],
+    "metadata": {"status": "corrected_reviewed", "source_batch": "33", "last_reviewed": "2026-09-16"}
+  }
+]
