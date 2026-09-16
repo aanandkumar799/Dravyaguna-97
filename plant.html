@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Plant Profile | DravyaGuna 97</title>
 <meta name="description" content="Detailed Ayurvedic Dravyaguna plant profile for BAMS students, teachers, doctors and learners.">
+<title>Plant Profile | DravyaGuna 97</title>
 <link rel="icon" type="image/png" href="images/favicon.png">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -21,7 +21,7 @@
 <main class="plant-page">
   <div id="plant-content" aria-live="polite" aria-busy="true"><div class="loading-box"><div class="loading-icon">🌿</div><h1>Loading plant information...</h1><p>Please wait.</p></div></div>
 </main>
-<div id="image-modal" class="image-modal" aria-hidden="true" role="dialog" aria-label="Expanded plant image"><button id="close-modal" class="image-modal-close" type="button" aria-label="Close image">×</button><img id="modal-image" class="modal-image" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Expanded plant image"></div>
+<div id="image-modal" class="image-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Expanded plant image"><button id="close-modal" class="image-modal-close" type="button" aria-label="Close image">×</button><img id="modal-image" class="modal-image" alt="Expanded plant image"></div>
 <script>
 document.addEventListener('DOMContentLoaded',()=>{
  const root=document.getElementById('plant-content'), modal=document.getElementById('image-modal'), modalImg=document.getElementById('modal-image'), close=document.getElementById('close-modal');
@@ -29,15 +29,14 @@ document.addEventListener('DOMContentLoaded',()=>{
  const esc=v=>String(v??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');
  const arr=v=>Array.isArray(v)?v.filter(x=>x!==null&&x!==undefined&&String(x).trim()!==''):[];
  const text=v=>Array.isArray(v)?v.map(x=>typeof x==='object'?Object.values(x).join(' — '):String(x)).filter(Boolean).join(', '):String(v??'');
- const value=(v, fallback='Not available')=>{const s=text(v).trim();return s?s:fallback};
- const list=v=>{const a=arr(v);return a.length?`<ul class="plant-list">${a.map(x=>`<li>${esc(typeof x==='object'?JSON.stringify(x):x)}</li>`).join('')}</ul>`:'<p class="not-available">Not available</p>'};
  const row=(label,v)=>{const s=text(v).trim();return `<div class="info-row"><div class="info-label">${esc(label)}</div><div class="info-value">${s?esc(s):'<span class="not-available">Not available</span>'}</div></div>`};
- const section=(title,icon,body)=>`<section class="plant-section"><div class="section-heading"><span class="section-icon">${icon}</span><div><h2>${esc(title)}</h2></div></div>${body}</section>`;
+ const section=(title,icon,body)=>`<section class="plant-section"><div class="section-heading"><span class="section-icon" aria-hidden="true">${icon}</span><div><h2>${esc(title)}</h2></div></div>${body}</section>`;
  const error=(title,msg)=>{root.innerHTML=`<div class="error-box"><div class="error-icon">⚠️</div><h2>${esc(title)}</h2><p>${esc(msg)}</p><a href="index.html#plants" class="plant-button">← Back to Plant Library</a></div>`;root.setAttribute('aria-busy','false')};
- close.onclick=()=>{modal.classList.remove('show');modal.setAttribute('aria-hidden','true')}; modal.onclick=e=>{if(e.target===modal)close.click()}; document.addEventListener('keydown',e=>{if(e.key==='Escape')close.click()});
+ const closeModal=()=>{modal.classList.remove('show');modal.setAttribute('aria-hidden','true');modalImg.removeAttribute('src')};
+ close.onclick=closeModal; modal.onclick=e=>{if(e.target===modal)closeModal()}; document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
  if(!id){error('No plant selected','Please select a plant from the DravyaGuna 97 library.');return}
- fetch('./plants.json?v=25',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(plants=>{
-   if(!Array.isArray(plants))throw Error('Invalid plant database');
+ fetch(new URL('plants.json',location.href),{cache:'no-store',headers:{Accept:'application/json'}}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(plants=>{
+   if(!Array.isArray(plants))throw Error('Invalid plant database: expected an array.');
    const p=plants.find(x=>String(x?.id||'').toLowerCase()===String(id).toLowerCase()); if(!p){error('Plant not found','No record was found for '+id+'.');return}
    const i=p.identity||{}, c=p.classification||{}, d=p.identification||{}, g=p.dravya_guna||p.dravyaguna||{}, dos=p.dosha||{}, t=p.therapeutics||{}, cl=p.classical_reference||{}, ph=p.phytochemistry||{}, m=p.modern_information||{}, st=p.student||{}, te=p.teacher||{}, dr=p.doctor||{}, meta=p.metadata||{}, imgs=p.images||{};
    const name=i.name||p.name||id, sans=i.sanskrit_name||'', bot=i.botanical_name||'', status=meta.status||'draft';
@@ -74,7 +73,10 @@ document.addEventListener('DOMContentLoaded',()=>{
    ${section('Sources','🔗',sources?`<ul class="plant-list">${sources}</ul>`:'<p class="not-available">No source list recorded.</p>')}
    <p class="medical-disclaimer"><strong>Educational reference only.</strong> This information does not replace qualified clinical judgment, official prescribing information, or professional medical advice.</p>`;
    root.setAttribute('aria-busy','false');
-   root.querySelectorAll('.plant-gallery-image').forEach(img=>img.onclick=()=>{modalImg.src=img.currentSrc||img.src;modalImg.alt=img.alt;modal.classList.add('show');modal.setAttribute('aria-hidden','false');close.focus()});
+   root.querySelectorAll('.plant-gallery-image').forEach(img=>{
+     img.addEventListener('error',()=>{img.style.display='none';const fig=img.closest('.gallery-item');if(fig)fig.classList.add('image-unavailable')},{once:true});
+     img.addEventListener('click',()=>{modalImg.src=img.currentSrc||img.src;modalImg.alt=img.alt;modal.classList.add('show');modal.setAttribute('aria-hidden','false');close.focus()});
+   });
  }).catch(e=>{console.error(e);error('Unable to load plant information','Please refresh the page. If the problem continues, the database may be temporarily unavailable.')});
 });
 </script>
