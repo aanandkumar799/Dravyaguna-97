@@ -5,6 +5,7 @@ on:
     paths:
       - 'scripts/complete-97.py'
       - 'scripts/enrich-97.py'
+      - 'scripts/audit-data-quality.py'
       - 'scripts/fix-classical-1-8.py'
       - 'scripts/fix-classical-9-13.py'
       - 'scripts/normalize-source-fields.py'
@@ -34,7 +35,7 @@ jobs:
         run: python scripts/normalize-ncism-names.py
       - name: Enrich records with plant images and reference hubs
         run: python scripts/enrich-97.py
-      - name: Apply corrected classical references for drugs 1-8
+      - name: Apply curated classical references
         run: python scripts/fix-classical-1-8.py
       - name: Apply Gemini batch 49-53 data
         run: python scripts/apply-batch-49-53-legacy.py
@@ -61,12 +62,14 @@ jobs:
         run: python scripts/apply-gemini-79-83.py
       - name: Apply full Gemini batches 84-88 data
         run: python scripts/apply-gemini-84-88.py
-      - name: Re-apply corrected classical references for drugs 1-8 and 9-13
+      - name: Re-apply curated classical references after Gemini batches
         run: |
           python scripts/fix-classical-1-8.py
           python scripts/fix-classical-9-13.py
       - name: Normalize source metadata field types
         run: python scripts/normalize-source-fields.py
+      - name: Run automated data-quality audit
+        run: python scripts/audit-data-quality.py
       - name: Final database validation
         run: |
           python - <<'PY'
