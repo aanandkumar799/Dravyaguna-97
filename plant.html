@@ -7,15 +7,27 @@
 <title>Plant Profile | DravyaGuna 97</title>
 <link rel="icon" type="image/png" href="images/favicon.png">
 <link rel="stylesheet" href="style.css">
+<style>
+@media print {
+  body { background:#fff !important; color:#000 !important; }
+  body > header, #image-modal, .print-controls, .main-nav { display:none !important; }
+  .plant-page { max-width:none !important; padding:0 !important; margin:0 !important; }
+  .plant-section, .plant-hero { break-inside:avoid; box-shadow:none !important; }
+  .plant-section { border:0 !important; }
+  a { color:#000 !important; text-decoration:none !important; }
+}
+.print-controls { display:flex; gap:10px; flex-wrap:wrap; margin:0 0 18px; }
+.print-button { border:0; border-radius:9px; padding:10px 16px; background:#1b4332; color:#fff; font:inherit; font-weight:700; cursor:pointer; }
+.back-button { display:inline-block; border:1px solid #1b4332; border-radius:9px; padding:9px 14px; color:#1b4332; font-weight:700; text-decoration:none; background:#fff; }
+.image-unavailable { background:#edf5ef; min-height:120px; display:flex; align-items:center; justify-content:center; }
+.image-unavailable::after { content:'🌿 Image not available'; color:#1b4332; font-weight:600; }
+</style>
 </head>
 <body>
 <header class="site-header">
   <div class="header-inner">
     <a href="index.html" class="brand">🌿 <span>DravyaGuna 97</span></a>
-    <nav class="main-nav" aria-label="Primary navigation">
-      <a href="index.html">Home</a><a href="index.html#plants">Plants</a>
-      <a href="index.html#student">Student</a><a href="index.html#teacher">Teacher</a><a href="index.html#doctor">Doctor</a>
-    </nav>
+    <nav class="main-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="plants.html">Plants</a><a href="index.html#student">Student</a><a href="index.html#teacher">Teacher</a><a href="index.html#doctor">Doctor</a></nav>
   </div>
 </header>
 <main class="plant-page">
@@ -31,7 +43,7 @@ document.addEventListener('DOMContentLoaded',()=>{
  const text=v=>Array.isArray(v)?v.map(x=>typeof x==='object'?Object.values(x).join(' — '):String(x)).filter(Boolean).join(', '):String(v??'');
  const row=(label,v)=>{const s=text(v).trim();return `<div class="info-row"><div class="info-label">${esc(label)}</div><div class="info-value">${s?esc(s):'<span class="not-available">Not available</span>'}</div></div>`};
  const section=(title,icon,body)=>`<section class="plant-section"><div class="section-heading"><span class="section-icon" aria-hidden="true">${icon}</span><div><h2>${esc(title)}</h2></div></div>${body}</section>`;
- const error=(title,msg)=>{root.innerHTML=`<div class="error-box"><div class="error-icon">⚠️</div><h2>${esc(title)}</h2><p>${esc(msg)}</p><a href="index.html#plants" class="plant-button">← Back to Plant Library</a></div>`;root.setAttribute('aria-busy','false')};
+ const error=(title,msg)=>{root.innerHTML=`<div class="error-box"><div class="error-icon">⚠️</div><h2>${esc(title)}</h2><p>${esc(msg)}</p><a href="plants.html" class="plant-button">← Back to Plant Library</a></div>`;root.setAttribute('aria-busy','false')};
  const closeModal=()=>{modal.classList.remove('show');modal.setAttribute('aria-hidden','true');modalImg.removeAttribute('src')};
  close.onclick=closeModal; modal.onclick=e=>{if(e.target===modal)closeModal()}; document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
  if(!id){error('No plant selected','Please select a plant from the DravyaGuna 97 library.');return}
@@ -56,7 +68,8 @@ document.addEventListener('DOMContentLoaded',()=>{
    const teacher=`<div class="identity-grid">${row('Teaching Points',te.teaching_points)}${row('Discussion Points',te.discussion_points)}${row('Practical Points',te.practical_points)}</div>`;
    const doctor=`<div class="identity-grid">${row('Quick Reference',dr.quick_reference)}${row('Important Indications',dr.important_indications)}${row('Useful Part',dr.useful_part)}${row('Dose',dr.dose)}${row('Anupana',dr.anupana)}${row('Key Precautions',dr.key_precautions)}</div>`;
    const sources=arr(p.sources).map(s=>`<li>${esc(s.title||s.type||'Source')}${s.url?` — <a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">Source</a>`:''}</li>`).join('');
-   root.innerHTML=`<section class="plant-hero"><div class="plant-hero-content"><div class="plant-symbol">🌿</div><div><div class="eyebrow">DRAVYAGUNA 97 • BAMS REFERENCE • #${esc(p.order||'')}</div><h1>${esc(name)}</h1>${sans?`<h2>${esc(sans)}</h2>`:''}${bot?`<p class="botanical-name">${esc(bot)}</p>`:''}<span class="data-status">Data status: ${esc(status)}</span></div></div></section>
+   root.innerHTML=`<div class="print-controls"><a class="back-button" href="plants.html">← Plant Library</a><button class="print-button" type="button" onclick="window.print()">🖨️ Print / Save PDF</button></div>
+   <section class="plant-hero"><div class="plant-hero-content"><div class="plant-symbol">🌿</div><div><div class="eyebrow">DRAVYAGUNA 97 • BAMS REFERENCE • #${esc(p.order||'')}</div><h1>${esc(name)}</h1>${sans?`<h2>${esc(sans)}</h2>`:''}${bot?`<p class="botanical-name">${esc(bot)}</p>`:''}<span class="data-status">Data status: ${esc(status)}</span></div></div></section>
    ${section('Basic Identity','🧾',`<div class="identity-grid">${identity}</div>`)}
    ${section('Classification','🌳',`<div class="identity-grid">${classification}</div>`)}
    ${gallery?section('Identification Gallery','🖼️',`<div class="image-gallery">${gallery}</div>`):''}
