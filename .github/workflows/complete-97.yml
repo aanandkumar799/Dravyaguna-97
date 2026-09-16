@@ -9,6 +9,7 @@ on:
       - 'scripts/fix-classical-1-8.py'
       - 'scripts/fix-classical-9-13.py'
       - 'scripts/verify-classical-14-18.py'
+      - 'scripts/verify-classical-19-23.py'
       - 'scripts/fix-missing-panchaka.py'
       - 'scripts/normalize-source-fields.py'
       - 'scripts/normalize-ncism-names.py'
@@ -70,6 +71,8 @@ jobs:
           python scripts/fix-classical-9-13.py
       - name: Apply independent classical verification for records 14-18
         run: python scripts/verify-classical-14-18.py
+      - name: Apply independent classical verification for records 19-23
+        run: python scripts/verify-classical-19-23.py
       - name: Apply missing Rasa-Panchaka corrections
         run: python scripts/fix-missing-panchaka.py
       - name: Normalize source metadata field types
@@ -101,7 +104,7 @@ jobs:
               cr = p.get('classical_reference', {})
               assert cr.get('shlokas'), f'{name} shloka missing'
               assert cr.get('nighantu_references'), f'{name} classical reference missing'
-          for name in ('Nimba','Bhallataka','Katuki','Arjuna'):
+          for name in ('Nimba','Bhallataka','Katuki','Arjuna','Tulasi','Haridra','Twak','Ela','Kutaja'):
               p = next((x for x in core if x.get('identity', {}).get('name','').lower() == name.lower()), None)
               assert p, f'{name} record missing'
               cr = p.get('classical_reference', {})
