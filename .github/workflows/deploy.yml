@@ -1,0 +1,97 @@
+name: Deploy DravyaGuna 97 to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Prepare static site and split plant data
+        shell: bash
+        run: |
+          rm -rf _site
+          mkdir -p _site/data/plants
+          cp -R . _site/
+          rm -rf _site/.git _site/.github _site/_site
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path('_site')
+          plants = json.loads((root / 'plants.json').read_text(encoding='utf-8'))
+          index = []
+          for p in plants:
+              pid = str(p.get('id', '')).strip()
+              if not pid:
+                  continue
+              identity = p.get('identity') or {}
+              guna = p.get('dravya_guna') or p.get('dravyaguna') or {}
+              therapeutic = p.get('therapeutics') or {}
+              item = {
+                  'id': pid,
+                  'order': p.get('order', 9999),
+                  'category': p.get('category', 'NCISM-97'),
+                  'name': identity.get('name') or p.get('name') or pid,
+                  'sanskrit_name': identity.get('sanskrit_name', ''),
+                  'transliteration': identity.get('transliteration', ''),
+                  'botanical_name': identity.get('botanical_name', ''),
+                  'family': identity.get('family', ''),
+                  'english_name': identity.get('english_name', ''),
+                  'rasa': guna.get('rasa', []),
+                  'guna': guna.get('guna', []),
+                  'virya': guna.get('virya', ''),
+                  'vipaka': guna.get('vipaka', ''),
+                  'useful_part': therapeutic.get('useful_part', []),
+                  'search_text': ' '.join(str(x) for x in [
+                      identity.get('name',''), identity.get('sanskrit_name',''),
+                      identity.get('transliteration',''), identity.get('botanical_name',''),
+                      identity.get('family',''), identity.get('english_name',''),
+                      identity.get('hindi_name',''), p.get('id','')
+                  ])
+              }
+              index.append(item)
+              (root / 'data' / 'plants' / f'{pid}.json').write_text(
+                  json.dumps(p, ensure_ascii=False, indent=2), encoding='utf-8'
+              )
+          index.sort(key=lambda x: (x['order'], x['name']))
+          (root / 'data' / 'plants-index.json').write_text(
+              json.dumps({'total': len(index), 'plants': index}, ensure_ascii=False, indent=2),
+              encoding='utf-8'
+          )
+          print(f'Prepared {len(index)} plant detail files')
+          PY
+
+      - name: Add offline PWA fallback
+        shell: bash
+        run: |
+          touch _site/.nojekyll
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: '_site'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
