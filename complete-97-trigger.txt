@@ -1,1 +1,1 @@
-trigger database completion - apply curated Gemini batch 69-73 2026-09-16
+trigger database completion - consolidate Gemini batches 74-107 and supplementary drugs 2026-09-16
