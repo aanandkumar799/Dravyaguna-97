@@ -51,7 +51,7 @@ jobs:
           print(f'Prepared {len(plants)} plant detail files')
           PY
 
-      - name: Wire PWA and fast dossier loading into generated site
+      - name: Wire PWA, fast dossier loading and responsive plant layout
         shell: bash
         run: |
           python - <<'PY'
@@ -73,6 +73,12 @@ jobs:
           new = "fetch(new URL('data/plants/'+encodeURIComponent(id)+'.json',location.href),{cache:'no-store',headers:{Accept:'application/json'}}).catch(()=>fetch(new URL('plants.json',location.href),{cache:'no-store',headers:{Accept:'application/json'}})).then"
           if old in s:
               s = s.replace(old, new, 1)
+
+          # plant.html already has its main stylesheet. Add the dossier stylesheet
+          # directly to the generated Pages copy so it cannot be lost to stale HTML.
+          marker = '<link rel="stylesheet" href="plant-dossier-layout.css">'
+          if marker not in s:
+              s = s.replace('</head>', marker + '\n</head>', 1)
           p.write_text(s, encoding='utf-8')
           PY
           touch _site/.nojekyll
