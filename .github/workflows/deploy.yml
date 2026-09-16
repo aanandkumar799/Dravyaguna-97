@@ -23,13 +23,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
-
       - name: Normalize source data and generate site artifacts
         shell: bash
         run: |
           python scripts/normalize-plants-schema.py
           python scripts/generate-site-artifacts.py
-
       - name: Prepare static site, fast index and plant dossiers
         shell: bash
         run: |
@@ -51,14 +49,12 @@ jobs:
           (root / 'data' / 'plants-index.json').write_text(json.dumps(index, ensure_ascii=False, indent=2), encoding='utf-8')
           print(f'Prepared {len(plants)} plant detail files')
           PY
-
       - name: Wire PWA, academic tools and responsive plant layout
         shell: bash
         run: |
           python - <<'PY'
           from pathlib import Path
           root = Path('_site')
-
           for filename in ['index.html', 'plant.html', 'plants.html', 'compare.html']:
               p = root / filename
               if not p.exists():
@@ -72,8 +68,12 @@ jobs:
                   s = s.replace('</head>', '<link rel="stylesheet" href="academic-enhancements.css">\n</head>', 1)
               if filename in ['plants.html','plant.html'] and '<script src="academic-enhancements.js" defer></script>' not in s:
                   s = s.replace('</body>', '<script src="academic-enhancements.js" defer></script>\n</body>', 1)
+              if filename == 'plant.html':
+                  if '<link rel="stylesheet" href="quick-revision-flashcards.css">' not in s:
+                      s = s.replace('</head>', '<link rel="stylesheet" href="quick-revision-flashcards.css">\n</head>', 1)
+                  if '<script src="quick-revision-flashcards.js" defer></script>' not in s:
+                      s = s.replace('</body>', '<script src="quick-revision-flashcards.js" defer></script>\n</body>', 1)
               p.write_text(s, encoding='utf-8')
-
           p = root / 'plant.html'
           s = p.read_text(encoding='utf-8')
           old = "fetch(new URL('plants.json',location.href),{cache:'no-store',headers:{Accept:'application/json'}}).then"
@@ -86,12 +86,10 @@ jobs:
           p.write_text(s, encoding='utf-8')
           PY
           touch _site/.nojekyll
-
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
           path: '_site'
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
