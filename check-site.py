@@ -900,8 +900,8 @@ if index_file.is_file() and plants:
             index_ids = [item.get("id") for item in index_records if isinstance(item, dict)]
             if data_ids != index_ids:
                 add_error("plant-index.json order and IDs must match plants.json")
-            if len(data_ids) != 97 or len(index_ids) != 97:
-                add_warning("Expected 97 plant records in both database files")
+            if len(data_ids) < 97 or len(index_ids) < 97:
+                add_warning("Expected at least 97 plant records in both database files")
     except (OSError, json.JSONDecodeError) as exc:
         add_error(f"plant-index.json could not be parsed: {exc}")
 

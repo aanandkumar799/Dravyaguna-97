@@ -59,7 +59,7 @@ for item in index:
         if not any(s.get('type') == 'medicinal_plants_database' for s in p['sources']):
             p['sources'].append({'type':'medicinal_plants_database','title':'TDU Indian Medicinal Plants Database','url':'https://www.tdu.edu.in/outreach/indian-medicinal-plants-database'})
 
-out = [by_id[item['id']] for item in sorted(index,key=lambda x:x['order'])]
+out = [by_id[item['id']] for item in sorted(index, key=lambda x: (float(x.get('order')) if isinstance(x.get('order'), (int, float)) else 9999, str(x.get('name', '')).lower()))]
 assert len(out) == len(index) and len({p['id'] for p in out}) == len(out)
 ncism = [p for p in out if p.get('category', 'NCISM-97') == 'NCISM-97']
 assert len(ncism) >= 97, f'Expected at least 97 NCISM records, found {len(ncism)}'
