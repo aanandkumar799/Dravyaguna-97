@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (!plantList) return;
   const indexURL = new URL('plant-index.json', window.location.href).href;
   const fallbackURL = new URL('plants.json', window.location.href).href;
-  const batchURL = new URL('plant-batch-24-28.json', window.location.href).href;
+  const batchURLs = ['plant-batch-24-28.json', 'plant-batch-29-33.json'].map(x => new URL(x, window.location.href).href);
   let masterPlants = [];
   let searchTimer;
   let mode = 'grid';
@@ -21,7 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const order = p => Number.isFinite(Number(p.order)) ? Number(p.order) : 9999;
   const category = p => p.category === 'Supplementary' ? 'Supplementary' : 'NCISM-97';
   const image = p => p.images?.whole_plant || p.images?.habit || p.images?.leaf || '';
-
   const libraryOrder = (a, b) => {
     const ca = category(a), cb = category(b);
     if (ca !== cb) return ca === 'NCISM-97' ? -1 : 1;
@@ -90,10 +89,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const lookup=await fetch(fallbackURL,{cache:'no-store',headers:{Accept:'application/json'}});
         if(lookup.ok){const full=await lookup.json();if(Array.isArray(full)){const details=new Map(full.map(p=>[p.id,p]));masterPlants=masterPlants.map(item=>mergeRecord(item,details.get(item.id)||{}));}}
       }
-      try{
-        const br=await fetch(batchURL,{cache:'no-store',headers:{Accept:'application/json'}});
-        if(br.ok){const batch=await br.json();if(Array.isArray(batch)){const byId=new Map(masterPlants.map(p=>[String(p.id),p]));batch.forEach(p=>{const key=String(p.id);byId.set(key,mergeRecord(byId.get(key)||{},p));});masterPlants=Array.from(byId.values());}}
-      }catch(batchError){console.warn('Batch data unavailable',batchError);}
+      const batchResults = await Promise.all(batchURLs.map(async url => {
+        try { const br=await fetch(url,{cache:'no-store',headers:{Accept:'application/json'}}); if(!br.ok) return []; const batch=await br.json(); return Array.isArray(batch) ? batch : []; }
+        catch(batchError){ console.warn('Batch data unavailable', url, batchError); return []; }
+      }));
+      const byId=new Map(masterPlants.map(p=>[String(p.id),p]));
+      batchResults.flat().forEach(p=>{const key=String(p.id);byId.set(key,mergeRecord(byId.get(key)||{},p));});
+      masterPlants=Array.from(byId.values());
       if(!masterPlants.length){r=await fetch(fallbackURL,{cache:'no-store',headers:{Accept:'application/json'}});if(!r.ok)throw Error('HTTP '+r.status);const data=await r.json();if(!Array.isArray(data))throw Error('Invalid plant database');masterPlants=data;}
       masterPlants=masterPlants.filter(p=>p&&p.id).sort(libraryOrder);
       setupControls();plantList.setAttribute('aria-busy','false');render(searchInput?.value||'');
