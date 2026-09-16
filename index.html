@@ -1,436 +1,733 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DravyaGuna 97 | Ayurvedic Plant Reference & Learning Portal</title>
+  <link rel="icon" href="images/favicon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    /* ==========================================================================
+       1. VARIABLES & BASE STYLES
+       ========================================================================== */
+    :root {
+      --primary: #1b4332;
+      --primary-light: #2d6a4f;
+      --accent: #d4a373;
+      --accent-hover: #bc8a5f;
+      --bg: #f8f9fa;
+      --surface: #ffffff;
+      --text: #212529;
+      --text-muted: #6c757d;
+      --border: #e9ecef;
+      --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+      --radius: 12px;
+      --transition: all 0.25s ease-in-out;
+    }
+
+    [data-theme="dark"] {
+      --primary: #52b788;
+      --primary-light: #74c69d;
+      --accent: #e9c46a;
+      --accent-hover: #f4a261;
+      --bg: #121417;
+      --surface: #1e2229;
+      --text: #f8f9fa;
+      --text-muted: #adb5bd;
+      --border: #2d323e;
+      --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: var(--card-shadow);
+    }
+
+    .logo {
+      font-family: 'Cinzel', serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    nav { display: flex; gap: 1rem; align-items: center; }
+    nav a {
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 500;
+      padding: 0.5rem 0.8rem;
+      border-radius: 6px;
+      transition: var(--transition);
+    }
+    nav a:hover, nav a.active {
+      background-color: var(--primary-light);
+      color: #fff;
+    }
+
+    .theme-toggle {
+      background: none;
+      border: none;
+      font-size: 1.2rem;
+      cursor: pointer;
+      color: var(--text);
+      padding: 0.5rem;
+      border-radius: 50%;
+    }
+
+    main { max-width: 1280px; margin: 2rem auto; padding: 0 1.5rem; }
+
+    /* ==========================================================================
+       2. HERO SECTION & PERSONA DASHBOARDS
+       ========================================================================== */
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: linear-gradient(135deg, rgba(27, 67, 50, 0.08), rgba(212, 163, 115, 0.15));
+      border-radius: var(--radius);
+      margin-bottom: 2.5rem;
+    }
+    .hero h1 { font-family: 'Cinzel', serif; font-size: 2.8rem; color: var(--primary); margin-bottom: 0.5rem; }
+    .hero p { color: var(--text-muted); font-size: 1.1rem; max-width: 600px; margin: 0 auto 1.5rem auto; }
+
+    .persona-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+    .persona-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.8rem;
+      text-align: center;
+      box-shadow: var(--card-shadow);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .persona-card:hover { transform: translateY(-4px); border-color: var(--primary); }
+    .persona-card.active { border: 2px solid var(--primary); background: rgba(45, 106, 79, 0.04); }
+    .persona-icon { font-size: 2.5rem; margin-bottom: 0.8rem; }
+    .persona-card h3 { color: var(--primary); margin-bottom: 0.5rem; }
+
+    /* ==========================================================================
+       3. CONTROLS, SEARCH & MULTI-FILTER BAR
+       ========================================================================== */
+    .filter-container {
+      background: var(--surface);
+      padding: 1.5rem;
+      border-radius: var(--radius);
+      box-shadow: var(--card-shadow);
+      margin-bottom: 2.5rem;
+      border: 1px solid var(--border);
+    }
+    .search-input {
+      width: 100%;
+      padding: 0.9rem 1.2rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 1rem;
+      background: var(--bg);
+      color: var(--text);
+      margin-bottom: 1rem;
+      outline: none;
+    }
+    .search-input:focus { border-color: var(--primary); }
+
+    .filters-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+    }
+    .filter-group label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 0.3rem;
+      text-transform: uppercase;
+    }
+    .filter-select {
+      width: 100%;
+      padding: 0.6rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text);
+      outline: none;
+    }
+
+    /* ==========================================================================
+       4. MAIN TAB SECTIONS (PLANTS, STUDENT VIVA, COMPARE, QUIZ)
+       ========================================================================== */
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+
+    .plant-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+    .plant-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--card-shadow);
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+    }
+    .plant-card:hover { transform: translateY(-4px); }
+    .plant-img {
+      height: 180px;
+      background-size: cover;
+      background-position: center;
+      background-color: #ddd;
+    }
+    .plant-body { padding: 1.2rem; flex-grow: 1; display: flex; flex-direction: column; }
+    .plant-title { font-size: 1.3rem; color: var(--primary); font-family: 'Cinzel', serif; }
+    .botanical-name { font-style: italic; color: var(--text-muted); font-size: 0.95rem; margin-bottom: 0.8rem; }
     
-    <meta charset="UTF-8">
+    .badge-container { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1rem; }
+    .badge {
+      background: rgba(45, 106, 79, 0.1);
+      color: var(--primary);
+      padding: 0.2rem 0.6rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    .card-actions { margin-top: auto; display: flex; gap: 0.5rem; }
+    .btn {
+      flex: 1;
+      padding: 0.6rem;
+      border: none;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+      text-align: center;
+    }
+    .btn-primary { background: var(--primary); color: #fff; }
+    .btn-primary:hover { background: var(--primary-light); }
+    .btn-outline { background: transparent; border: 1px solid var(--primary); color: var(--primary); }
+    .btn-outline:hover { background: var(--primary); color: #fff; }
 
-    <title>DravyaGuna 97 | BAMS Plant Reference</title>
+    /* Student Viva Cards & Mnemonics */
+    .viva-card {
+      background: var(--surface);
+      border-left: 5px solid var(--accent);
+      padding: 1.5rem;
+      border-radius: var(--radius);
+      margin-bottom: 1rem;
+      box-shadow: var(--card-shadow);
+    }
+    .viva-card h4 { color: var(--primary); font-size: 1.2rem; margin-bottom: 0.5rem; }
+    .mnemonic-box {
+      background: rgba(212, 163, 115, 0.15);
+      border: 1px dashed var(--accent);
+      padding: 0.8rem;
+      border-radius: 8px;
+      margin-top: 0.5rem;
+      font-weight: 500;
+    }
 
-    <meta
-        name="description"
-        content="A free, student-friendly Ayurvedic Dravyaguna plant reference for BAMS learning, identification and revision."
-    >
+    /* Comparison Tool */
+    .compare-section {
+      background: var(--surface);
+      padding: 1.5rem;
+      border-radius: var(--radius);
+      box-shadow: var(--card-shadow);
+    }
+    .compare-selectors {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .table-responsive { overflow-x: auto; }
+    .compare-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    .compare-table th, .compare-table td {
+      border: 1px solid var(--border);
+      padding: 0.8rem 1rem;
+      text-align: left;
+    }
+    .compare-table th { background: var(--primary); color: #fff; }
 
-    <meta property="og:title" content="DravyaGuna 97 | BAMS Plant Reference">
-    <meta property="og:description" content="Learn, identify, revise and cross-check Ayurvedic medicinal plants.">
-    <meta property="og:type" content="website">
-    
-<link rel="icon" type="image/png" href="images/favicon.png">
-    
-    <link rel="stylesheet" href="./style.css">
+    /* Quiz Module */
+    .quiz-container {
+      background: var(--surface);
+      padding: 2rem;
+      border-radius: var(--radius);
+      box-shadow: var(--card-shadow);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .quiz-option {
+      display: block;
+      width: 100%;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--bg);
+      color: var(--text);
+      text-align: left;
+      cursor: pointer;
+    }
+    .quiz-option:hover { border-color: var(--primary); }
 
+    footer {
+      text-align: center;
+      padding: 2rem;
+      border-top: 1px solid var(--border);
+      margin-top: 4rem;
+      color: var(--text-muted);
+    }
+  </style>
 </head>
-    
-
 <body>
 
+  <!-- HEADER -->
+  <header>
+    <div class="logo">🌿 DravyaGuna 97</div>
+    <nav>
+      <a href="#plants" class="nav-link active" onclick="switchTab('plants')">Plant Library</a>
+      <a href="#student" class="nav-link" onclick="switchTab('student')">Student Area</a>
+      <a href="#compare" class="nav-link" onclick="switchTab('compare')">Compare Dravyas</a>
+      <a href="#quiz" class="nav-link" onclick="switchTab('quiz')">Quiz</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle Dark Mode">🌙</button>
+  </header>
 
-    <!-- =========================
-         HEADER
-    ========================== -->
-
-    <header>
-
-        <div class="logo">
-            🌿 DravyaGuna 97
-        </div>
-
-
-        <nav>
-
-            <a href="#home">
-                Home
-            </a>
-
-            <a href="#plants">
-                Plants
-            </a>
-
-            <a href="#student">
-                Student
-            </a>
-
-            <a href="#teacher">
-                Teacher
-            </a>
-
-            <a href="#doctor">
-                Doctor
-            </a>
-
-        </nav>
-
-    </header>
-
-
-
-    <!-- =========================
-         HERO SECTION
-    ========================== -->
-
-    <section
-        id="home"
-        class="hero"
-    >
-
-        <div class="hero-content">
-
-
-            <p class="small-title">
-                BAMS AYURVEDIC PLANT REFERENCE
-            </p>
-
-
-            <h1>
-                DravyaGuna 97
-            </h1>
-
-
-            <h2>
-                Learn • Identify • Revise • Cross-check
-            </h2>
-
-
-            <p>
-                A student-friendly and professional reference
-                platform for Ayurvedic medicinal plants.
-            </p>
-
-
-            <!-- SEARCH -->
-
-            <div class="search-box">
-
-                <label
-                    for="search"
-                    class="visually-hidden"
-                >
-                    Search the plant library
-                </label>
-
-                <input
-                    type="text"
-                    id="search"
-                    name="plant-search"
-                    aria-label="Search the plant library"
-                    placeholder="🔍 Search Dravya, Sanskrit or Botanical name..."
-                    autocomplete="off"
-                >
-
-            </div>
-
-
-        </div>
-
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <p>BAMS Ayurvedic Medicinal Plant Reference</p>
+      <h1>DravyaGuna 97</h1>
+      <p>Learn • Identify • Revise • Cross-Check</p>
     </section>
 
+    <!-- PERSONA CARDS -->
+    <div class="persona-grid">
+      <div class="persona-card active" id="persona-student" onclick="setPersona('student')">
+        <div class="persona-icon">🎓</div>
+        <h3>Student</h3>
+        <p>Syllabus notes, viva preparation, and plant identification cards.</p>
+      </div>
+      <div class="persona-card" id="persona-teacher" onclick="setPersona('teacher')">
+        <div class="persona-icon">👨‍🏫</div>
+        <h3>Teacher</h3>
+        <p>Teaching modules, classical references, and comparison tools.</p>
+      </div>
+      <div class="persona-card" id="persona-doctor" onclick="setPersona('doctor')">
+        <div class="persona-icon">🩺</div>
+        <h3>Doctor</h3>
+        <p>Quick clinical formulations, indications, and substitute drugs.</p>
+      </div>
+    </div>
 
-
-    <!-- =========================
-         USER SECTIONS
-    ========================== -->
-
-    <section class="users">
-
-
-        <!-- STUDENT -->
-
-        <div
-            class="user-card"
-            id="student"
-        >
-
-            <div class="icon">
-                🎓
-            </div>
-
-
-            <h2>
-                Student
-            </h2>
-
-
-            <p>
-                Syllabus-oriented notes, exam points,
-                viva preparation and plant identification.
-            </p>
-
-
-            <a class="user-zone-button" href="#plants">
-                Browse Student Profiles
-            </a>
-
+    <!-- TAB 1: PLANT LIBRARY & MULTI-FILTERING -->
+    <section id="plants-tab" class="tab-content active">
+      <div class="filter-container">
+        <input type="text" id="searchInput" class="search-input" placeholder="Search by Plant Name or Botanical Name..." oninput="filterPlants()" />
+        <div class="filters-grid">
+          <div class="filter-group">
+            <label>Rasa (Taste)</label>
+            <select id="filterRasa" class="filter-select" onchange="filterPlants()">
+              <option value="">All Rasas</option>
+              <option value="Madhura">Madhura (Sweet)</option>
+              <option value="Tikta">Tikta (Bitter)</option>
+              <option value="Kashaya">Kashaya (Astringent)</option>
+              <option value="Katu">Katu (Pungent)</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Veerya (Potency)</label>
+            <select id="filterVeerya" class="filter-select" onchange="filterPlants()">
+              <option value="">All Veerya</option>
+              <option value="Ushna">Ushna (Hot)</option>
+              <option value="Sheeta">Sheeta (Cold)</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Useful Part</label>
+            <select id="filterPart" class="filter-select" onchange="filterPlants()">
+              <option value="">All Parts</option>
+              <option value="Fruit">Fruit</option>
+              <option value="Root">Root</option>
+              <option value="Bark">Bark</option>
+              <option value="Leaves">Leaves</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>BAMS Syllabus Year</label>
+            <select id="filterYear" class="filter-select" onchange="filterPlants()">
+              <option value="">All Years</option>
+              <option value="1st Year">1st Year</option>
+              <option value="2nd Year">2nd Year / Final</option>
+            </select>
+          </div>
         </div>
+      </div>
 
-
-
-        <!-- TEACHER -->
-
-        <div
-            class="user-card"
-            id="teacher"
-        >
-
-            <div class="icon">
-                👨‍🏫
-            </div>
-
-
-            <h2>
-                Teacher
-            </h2>
-
-
-            <p>
-                Teaching resources, practical identification,
-                classical references and comparison tools.
-            </p>
-
-
-            <a class="user-zone-button" href="#plants">
-                Browse Teaching Profiles
-            </a>
-
-        </div>
-
-
-
-        <!-- DOCTOR -->
-
-        <div
-            class="user-card"
-            id="doctor"
-        >
-
-            <div class="icon">
-                🩺
-            </div>
-
-
-            <h2>
-                Doctor
-            </h2>
-
-
-            <p>
-                Quick access to Dravyaguna information,
-                formulations and classical references.
-            </p>
-
-
-            <a class="user-zone-button" href="#plants">
-                Browse Clinical References
-            </a>
-
-        </div>
-
-
+      <div class="plant-grid" id="plantGrid">
+        <!-- Rendered by JavaScript -->
+      </div>
     </section>
 
-
-
-    <!-- =========================
-         FEATURES
-    ========================== -->
-
-    <section class="features">
-
-
-        <h2>
-            Explore DravyaGuna
-        </h2>
-
-
-        <div class="feature-grid">
-
-
-            <div class="feature-card">
-
-                🌿
-
-                <h3>
-                    Plant Library
-                </h3>
-
-                <p>
-                    Explore Ayurvedic medicinal plants.
-                </p>
-
-            </div>
-
-
-
-            <div class="feature-card">
-
-                🔬
-
-                <h3>
-                    Identification
-                </h3>
-
-                <p>
-                    Learn identification using plant features.
-                </p>
-
-            </div>
-
-
-
-            <div class="feature-card">
-
-                🧪
-
-                <h3>
-                    Formulations
-                </h3>
-
-                <p>
-                    Explore important Ayurvedic formulations.
-                </p>
-
-            </div>
-
-
-
-            <div class="feature-card">
-
-                🔄
-
-                <h3>
-                    Compare
-                </h3>
-
-                <p>
-                    Compare two Dravyas side by side.
-                </p>
-
-            </div>
-
-
-
-            <div class="feature-card">
-
-                🧠
-
-                <h3>
-                    Quiz
-                </h3>
-
-                <p>
-                    Test your Dravyaguna knowledge.
-                </p>
-
-            </div>
-
-
-
-            <div class="feature-card">
-
-                📖
-
-                <h3>
-                    References
-                </h3>
-
-                <p>
-                    Find classical sources and references.
-                </p>
-
-            </div>
-
-
-        </div>
-
+    <!-- TAB 2: STUDENT VIVA & REVISION MODULE -->
+    <section id="student-tab" class="tab-content">
+      <h2 style="margin-bottom: 1rem; color: var(--primary);">🎓 Student Exam & Viva Quick-Cards</h2>
+      <div id="vivaList">
+        <!-- Rendered by JavaScript -->
+      </div>
     </section>
 
-
-
-    <!-- =========================
-         PLANT LIBRARY
-    ========================== -->
-
-    <section
-        id="plants"
-        class="plants-section"
-    >
-
-
-        <h2>
-            🌿 Plant Library
-        </h2>
-
-
-        <p>
-            Explore the Dravyaguna plant collection.
-        </p>
-
-
-        <!--
-            JavaScript will insert
-            plant cards here.
-        -->
-
-        <div
-            id="plant-list"
-            aria-live="polite"
-            aria-busy="true"
-        >
-
-            <p>
-                Loading plants...
-            </p>
-
+    <!-- TAB 3: SIDE-BY-SIDE COMPARISON MATRIX -->
+    <section id="compare-tab" class="tab-content">
+      <div class="compare-section">
+        <h2 style="margin-bottom: 1rem; color: var(--primary);">🔄 Compare Two Dravyas Side-by-Side</h2>
+        <div class="compare-selectors">
+          <div>
+            <label>Select Plant 1:</label>
+            <select id="compareSelect1" class="filter-select" onchange="updateComparison()"></select>
+          </div>
+          <div>
+            <label>Select Plant 2:</label>
+            <select id="compareSelect2" class="filter-select" onchange="updateComparison()"></select>
+          </div>
         </div>
-
-
+        <div class="table-responsive">
+          <table class="compare-table">
+            <thead>
+              <tr>
+                <th>Property</th>
+                <th id="compHead1">Plant 1</th>
+                <th id="compHead2">Plant 2</th>
+              </tr>
+            </thead>
+            <tbody id="compareBody">
+              <!-- Rendered by JavaScript -->
+            </tbody>
+          </table>
+        </div>
+      </div>
     </section>
 
+    <!-- TAB 4: QUIZ MODULE -->
+    <section id="quiz-tab" class="tab-content">
+      <div class="quiz-container">
+        <h2 style="color: var(--primary); margin-bottom: 1rem;">🧠 Dravyaguna Quiz</h2>
+        <div id="quizBox">
+          <p id="quizQuestion" style="font-weight: 600; font-size: 1.1rem; margin-bottom: 1rem;"></p>
+          <div id="quizOptions"></div>
+        </div>
+        <div id="quizResult" style="margin-top: 1rem; font-weight: bold; text-align: center;"></div>
+      </div>
+    </section>
+  </main>
 
+  <footer>
+    <p>🌿 DravyaGuna 97 • Built for BAMS Students & Ayurvedic Professionals</p>
+  </footer>
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
+  <!-- JAVASCRIPT LOGIC -->
+  <script>
+    /* ==========================================================================
+       DATABASES & INITIAL DATA
+       ========================================================================== */
+    const plantsData = [
+      {
+        id: "haritaki",
+        name: "Haritaki",
+        botanical: "Terminalia chebula",
+        family: "Combretaceae",
+        rasa: "Kashaya, Tikta, Madhura, Katu, Amla",
+        veerya: "Ushna",
+        vipaka: "Madhura",
+        usefulPart: "Fruit",
+        syllabus: "1st Year",
+        constituents: "Chebulagic acid, Tannins",
+        vivaPoints: "Known as Pathya (suitable for all). Has 5 Rasas (lacks Lavana).",
+        mnemonic: "H-A-R-I: Ushna Veerya + Tridoshahara + Anulomana",
+        img: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        id: "amrutha",
+        name: "Guduchi (Amrutha)",
+        botanical: "Tinospora cordifolia",
+        family: "Menispermaceae",
+        rasa: "Tikta, Kashaya",
+        veerya: "Ushna",
+        vipaka: "Madhura",
+        usefulPart: "Stem",
+        syllabus: "1st Year",
+        constituents: "Tinosporine, Berberine",
+        vivaPoints: "Best Rasayana for Jwara (fever). Characteristic heart-shaped leaf.",
+        mnemonic: "G-U-D-U: Tikta Rasa + Ushna Veerya + Madhura Vipaka",
+        img: "https://images.unsplash.com/photo-1546852199-2d7e41706922?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        id: "ashwagandha",
+        name: "Ashwagandha",
+        botanical: "Withania somnifera",
+        family: "Solanaceae",
+        rasa: "Tikta, Kashaya, Madhura",
+        veerya: "Ushna",
+        vipaka: "Madhura",
+        usefulPart: "Root",
+        syllabus: "2nd Year",
+        constituents: "Withanolides, Withaferin A",
+        vivaPoints: "Smells like a horse (Ashwa). Premier Balya and Vatahara drug.",
+        mnemonic: "A-S-H-W-A: Balya + Rasayana + Nidrajanana",
+        img: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        id: "amalaki",
+        name: "Amalaki",
+        botanical: "Phyllanthus emblica",
+        family: "Euphorbiaceae",
+        rasa: "Amla, Kashaya, Madhura, Tikta, Katu",
+        veerya: "Sheeta",
+        vipaka: "Madhura",
+        usefulPart: "Fruit",
+        syllabus: "1st Year",
+        constituents: "Vitamin C, Emblicanin",
+        vivaPoints: "Best Vayasthapana (anti-aging) drug. Has Sheeta Veerya despite Amla Rasa.",
+        mnemonic: "A-M-L-A: Sheeta Veerya + Pittahara + Rasayana",
+        img: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=600&q=80"
+      }
+    ];
 
-    <footer>
+    const quizQuestions = [
+      {
+        q: "Which plant has Sheeta Veerya despite having predominantly Amla (Sour) Rasa?",
+        options: ["Haritaki", "Amalaki", "Guduchi", "Ashwagandha"],
+        answer: 1
+      },
+      {
+        q: "What is the botanical family of Haritaki (Terminalia chebula)?",
+        options: ["Solanaceae", "Menispermaceae", "Combretaceae", "Euphorbiaceae"],
+        answer: 2
+      }
+    ];
 
+    /* ==========================================================================
+       LOGIC & RENDER FUNCTIONS
+       ========================================================================== */
+    document.addEventListener("DOMContentLoaded", () => {
+      renderPlantCards(plantsData);
+      renderVivaCards();
+      initComparisonDropdowns();
+      loadQuiz();
+      initTheme();
+    });
 
-        <h2>
-            🌿 DravyaGuna 97
-        </h2>
+    // Theme Switcher
+    function initTheme() {
+      const btn = document.getElementById("themeToggle");
+      btn.addEventListener("click", () => {
+        const isDark = document.body.getAttribute("data-theme") === "dark";
+        document.body.setAttribute("data-theme", isDark ? "light" : "dark");
+        btn.textContent = isDark ? "🌙" : "☀️";
+      });
+    }
 
+    // Tab Navigation
+    function switchTab(tabId) {
+      document.querySelectorAll(".tab-content").forEach(el => el.classList.remove("active"));
+      document.querySelectorAll(".nav-link").forEach(el => el.classList.remove("active"));
+      
+      document.getElementById(`${tabId}-tab`).classList.add("active");
+      const activeLink = document.querySelector(`nav a[href="#${tabId}"]`);
+      if (activeLink) activeLink.classList.add("active");
+    }
 
-        <p>
-            Learn • Identify • Revise • Cross-check
-        </p>
+    // Persona Filter
+    function setPersona(persona) {
+      document.querySelectorAll(".persona-card").forEach(el => el.classList.remove("active"));
+      document.getElementById(`persona-${persona}`).classList.add("active");
+      
+      if (persona === "student") {
+        switchTab("student");
+      } else {
+        switchTab("plants");
+      }
+    }
 
+    // Render Plant Grid Cards
+    function renderPlantCards(data) {
+      const grid = document.getElementById("plantGrid");
+      grid.innerHTML = "";
 
-        <p class="copyright">
-            Educational reference for BAMS students,
-            teachers and Ayurvedic professionals.
-        </p>
+      if (data.length === 0) {
+        grid.innerHTML = `<p style="grid-column: 1/-1; text-align: center; color: var(--text-muted);">No plants matching your filter criteria.</p>`;
+        return;
+      }
 
+      data.forEach(item => {
+        const card = document.createElement("div");
+        card.className = "plant-card";
+        card.innerHTML = `
+          <div class="plant-img" style="background-image: url('${item.img}');"></div>
+          <div class="plant-body">
+            <h3 class="plant-title">${item.name}</h3>
+            <div class="botanical-name">${item.botanical} (${item.family})</div>
+            <div class="badge-container">
+              <span class="badge">Rasa: ${item.rasa.split(',')[0]}</span>
+              <span class="badge">Veerya: ${item.veerya}</span>
+              <span class="badge">Part: ${item.usefulPart}</span>
+            </div>
+            <div class="card-actions">
+              <button class="btn btn-primary" onclick="switchTab('compare')">Compare</button>
+            </div>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+    }
 
-    </footer>
+    // Filter Logic
+    function filterPlants() {
+      const search = document.getElementById("searchInput").value.toLowerCase();
+      const rasa = document.getElementById("filterRasa").value;
+      const veerya = document.getElementById("filterVeerya").value;
+      const part = document.getElementById("filterPart").value;
+      const year = document.getElementById("filterYear").value;
 
+      const filtered = plantsData.filter(plant => {
+        const matchesSearch = plant.name.toLowerCase().includes(search) || plant.botanical.toLowerCase().includes(search);
+        const matchesRasa = !rasa || plant.rasa.includes(rasa);
+        const matchesVeerya = !veerya || plant.veerya === veerya;
+        const matchesPart = !part || plant.usefulPart.includes(part);
+        const matchesYear = !year || plant.syllabus === year;
+        return matchesSearch && matchesRasa && matchesVeerya && matchesPart && matchesYear;
+      });
 
+      renderPlantCards(filtered);
+    }
 
-    <!-- =========================
-         JAVASCRIPT
-         
-         IMPORTANT:
-         Only ONE script.js
-         is loaded.
-    ========================== -->
+    // Student Viva Section
+    function renderVivaCards() {
+      const container = document.getElementById("vivaList");
+      container.innerHTML = "";
+      plantsData.forEach(p => {
+        const card = document.createElement("div");
+        card.className = "viva-card";
+        card.innerHTML = `
+          <h4>${p.name} (<em>${p.botanical}</em>)</h4>
+          <p><strong>Family:</strong> ${p.family} | <strong>Active Constituents:</strong> ${p.constituents}</p>
+          <p><strong>Viva Hot-Points:</strong> ${p.vivaPoints}</p>
+          <div class="mnemonic-box">💡 Mnemonic: ${p.mnemonic}</div>
+        `;
+        container.appendChild(card);
+      });
+    }
 
-    <script src="./script.js?v=21"></script>
+    // Side-by-Side Comparison
+    function initComparisonDropdowns() {
+      const sel1 = document.getElementById("compareSelect1");
+      const sel2 = document.getElementById("compareSelect2");
+      
+      sel1.innerHTML = "";
+      sel2.innerHTML = "";
 
+      plantsData.forEach((p, idx) => {
+        sel1.innerHTML += `<option value="${p.id}" ${idx === 0 ? 'selected' : ''}>${p.name}</option>`;
+        sel2.innerHTML += `<option value="${p.id}" ${idx === 1 ? 'selected' : ''}>${p.name}</option>`;
+      });
+      updateComparison();
+    }
 
+    function updateComparison() {
+      const id1 = document.getElementById("compareSelect1").value;
+      const id2 = document.getElementById("compareSelect2").value;
+
+      const p1 = plantsData.find(p => p.id === id1);
+      const p2 = plantsData.find(p => p.id === id2);
+
+      document.getElementById("compHead1").innerText = p1.name;
+      document.getElementById("compHead2").innerText = p2.name;
+
+      const attributes = [
+        { label: "Botanical Name", key: "botanical" },
+        { label: "Family", key: "family" },
+        { label: "Rasa", key: "rasa" },
+        { label: "Veerya", key: "veerya" },
+        { label: "Vipaka", key: "vipaka" },
+        { label: "Useful Part", key: "usefulPart" },
+        { label: "Active Constituents", key: "constituents" }
+      ];
+
+      const tbody = document.getElementById("compareBody");
+      tbody.innerHTML = "";
+
+      attributes.forEach(attr => {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <strong>${attr.label}</strong>
+          <td>${p1[attr.key]}</td>
+          <td>${p2[attr.key]}</td>
+        `;
+        tbody.appendChild(row);
+      });
+    }
+
+    // Quiz Engine
+    let currentQ = 0;
+    function loadQuiz() {
+      const q = quizQuestions[currentQ];
+      document.getElementById("quizQuestion").innerText = `${currentQ + 1}. ${q.q}`;
+      const optDiv = document.getElementById("quizOptions");
+      optDiv.innerHTML = "";
+
+      q.options.forEach((opt, idx) => {
+        const btn = document.createElement("button");
+        btn.className = "quiz-option";
+        btn.innerText = opt;
+        btn.onclick = () => checkQuiz(idx);
+        optDiv.appendChild(btn);
+      });
+    }
+
+    function checkQuiz(selectedIdx) {
+      const res = document.getElementById("quizResult");
+      if (selectedIdx === quizQuestions[currentQ].answer) {
+        res.innerHTML = `<span style="color: green;">✓ Correct Answer!</span>`;
+      } else {
+        res.innerHTML = `<span style="color: red;">✗ Incorrect. Try again!</span>`;
+      }
+    }
+  </script>
 </body>
-
 </html>
