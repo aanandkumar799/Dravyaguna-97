@@ -1,184 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plant Profile | DravyaGuna 97</title>
-    <meta name="description" content="Detailed Ayurvedic Dravyaguna plant profile for BAMS students, teachers and doctors.">
-    <meta property="og:title" content="Plant Profile | DravyaGuna 97">
-    <meta property="og:description" content="Explore botanical identity, identification features and Dravyaguna reference information.">
-    <meta property="og:type" content="article">
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plant Profile | DravyaGuna 97</title>
+<meta name="description" content="Detailed Ayurvedic Dravyaguna plant profile for BAMS students, teachers, doctors and learners.">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="site-header">
-    <div class="header-inner">
-        <a href="index.html" class="brand">🌿 <span>DravyaGuna 97</span></a>
-        <nav class="main-nav" aria-label="Primary navigation">
-            <a href="index.html">Home</a>
-            <a href="index.html#plants">Plants</a>
-            <a href="index.html#student">Student</a>
-            <a href="index.html#teacher">Teacher</a>
-            <a href="index.html#doctor">Doctor</a>
-        </nav>
-    </div>
+  <div class="header-inner">
+    <a href="index.html" class="brand">🌿 <span>DravyaGuna 97</span></a>
+    <nav class="main-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a><a href="index.html#plants">Plants</a>
+      <a href="index.html#student">Student</a><a href="index.html#teacher">Teacher</a><a href="index.html#doctor">Doctor</a>
+    </nav>
+  </div>
 </header>
-
 <main class="plant-page">
-    <div id="plant-content" aria-live="polite" aria-busy="true">
-        <div class="loading-box">
-            <div class="loading-icon" aria-hidden="true">🌿</div>
-            <h1>Loading plant information...</h1>
-            <p>Please wait.</p>
-        </div>
-    </div>
+  <div id="plant-content" aria-live="polite" aria-busy="true"><div class="loading-box"><div class="loading-icon">🌿</div><h1>Loading plant information...</h1><p>Please wait.</p></div></div>
 </main>
-
-<div id="image-modal" class="image-modal" aria-hidden="true" role="dialog" aria-label="Expanded plant image">
-    <button id="close-modal" class="image-modal-close" type="button" aria-label="Close image">×</button>
-    <img src="images/favicon.png" id="modal-image" class="modal-image" alt="Expanded plant image">
-</div>
-
+<div id="image-modal" class="image-modal" aria-hidden="true" role="dialog" aria-label="Expanded plant image"><button id="close-modal" class="image-modal-close" type="button" aria-label="Close image">×</button><img id="modal-image" class="modal-image" src="images/favicon.png" alt="Expanded plant image"></div>
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-    const plantContent = document.getElementById("plant-content");
-    const modal = document.getElementById("image-modal");
-    const modalImage = document.getElementById("modal-image");
-    const closeModal = document.getElementById("close-modal");
-    const plantId = new URLSearchParams(window.location.search).get("id");
-
-    function safe(value) {
-        if (value === null || value === undefined || value === "") return "Not available";
-        return String(value)
-            .replace(/&/g, "&amp;")
-            .replace(/</g, "&lt;")
-            .replace(/>/g, "&gt;")
-            .replace(/"/g, "&quot;")
-            .replace(/'/g, "&#039;");
-    }
-
-    function infoRow(label, value) {
-        if (value === null || value === undefined || value === "") return "";
-        return `<div class="info-row"><div class="info-label">${safe(label)}</div><div class="info-value">${safe(value)}</div></div>`;
-    }
-
-    function listHTML(value) {
-        if (Array.isArray(value) && value.length) {
-            return `<ul class="plant-list">${value.map(function (item) { return `<li>${safe(item)}</li>`; }).join("")}</ul>`;
-        }
-        if (typeof value === "string" && value.trim()) return `<p>${safe(value)}</p>`;
-        return `<p class="not-available">Not available</p>`;
-    }
-
-    function imageHTML(path, label) {
-        if (typeof path !== "string" || !path.trim()) return "";
-        const cleanPath = path.replace(/[<>"']/g, "");
-        return `<figure class="gallery-item"><img src="${safe(cleanPath)}" alt="${safe(label)}" loading="lazy" class="plant-gallery-image"><figcaption>${safe(label)}</figcaption></figure>`;
-    }
-
-    function section(title, icon, body) {
-        return `<section class="plant-section"><div class="section-heading"><span class="section-icon" aria-hidden="true">${icon}</span><div><h2>${safe(title)}</h2></div></div>${body}</section>`;
-    }
-
-    function showError(title, message) {
-        plantContent.setAttribute("aria-busy", "false");
-        plantContent.innerHTML = `<div class="error-box"><div class="error-icon" aria-hidden="true">⚠️</div><h2>${safe(title)}</h2><p>${safe(message)}</p><a href="index.html#plants" class="plant-button">← Back to Plant Library</a></div>`;
-    }
-
-    function openModal(image) {
-        modalImage.src = image.currentSrc || image.src;
-        modalImage.alt = image.alt || "Expanded plant image";
-        modal.classList.add("show");
-        modal.setAttribute("aria-hidden", "false");
-        closeModal.focus();
-    }
-
-    function hideModal() {
-        modal.classList.remove("show");
-        modal.setAttribute("aria-hidden", "true");
-    }
-
-    closeModal.addEventListener("click", hideModal);
-    modal.addEventListener("click", function (event) { if (event.target === modal) hideModal(); });
-    document.addEventListener("keydown", function (event) { if (event.key === "Escape") hideModal(); });
-
-    if (!plantId) {
-        showError("No plant selected", "Please select a plant from the DravyaGuna 97 Plant Library.");
-        return;
-    }
-
-    fetch("./plants.json", { cache: "no-store" })
-        .then(function (response) {
-            if (!response.ok) throw new Error("HTTP status " + response.status);
-            return response.json();
-        })
-        .then(function (plants) {
-            if (Array.isArray(plants)) {
-                // Legacy format: an array of plant records.
-            } else if (plants && typeof plants === "object" && plants.id) {
-                // Current format: one complete plant record.
-                plants = [plants];
-            } else {
-                throw new Error("Plant database must contain a plant record or an array of records.");
-            }
-            const requested = String(plantId).toLowerCase();
-            const plant = plants.find(function (item) {
-                if (!item) return false;
-                return String(item.id || item.plantID || "").toLowerCase() === requested;
-            });
-            if (!plant) {
-                showError("No plant information found", "No record was found for plant ID: " + plantId);
-                return;
-            }
-
-            const identityData = plant.identity || {};
-            const name = identityData.name || plant.name || plant.common_name || "Unnamed Plant";
-            const sanskrit = identityData.sanskrit_name || plant.sanskrit_name || "";
-            const botanical = identityData.botanical_name || plant.botanical_name || "";
-            const family = identityData.family || plant.family || "";
-            const images = plant.images || {};
-            const identification = typeof plant.identification === "object" ? plant.identification : {};
-            const dravyaguna = typeof (plant.dravyaguna || plant.dravya_guna) === "object" ? (plant.dravyaguna || plant.dravya_guna) : {};
-            const therapeutics = typeof plant.therapeutics === "object" ? plant.therapeutics : {};
-            const classical = typeof (plant.classical_information || plant.classical || plant.classical_reference) === "object" ? (plant.classical_information || plant.classical || plant.classical_reference) : {};
-            const student = typeof plant.student === "object" ? plant.student : {};
-
-            const gallery = [
-                [images.whole_plant, "Whole plant"], [images.leaf, "Leaf"], [images.flower, "Flower"],
-                [images.fruit, "Fruit"], [images.stem, "Stem"], [images.bark, "Bark"],
-                [images.root, "Root"], [images.seed, "Seed"]
-            ].map(function (entry) { return imageHTML(entry[0], entry[1]); }).join("");
-
-            const identityRows = [
-                infoRow("Sanskrit Name", sanskrit), infoRow("English Name", identityData.english_name || plant.english_name),
-                infoRow("Hindi Name", identityData.hindi_name || plant.hindi_name), infoRow("Botanical Name", botanical), infoRow("Family", family)
-            ].join("");
-            const identificationRows = ["habit", "root", "stem", "leaf", "flower", "fruit", "seed", "bark"]
-                .map(function (key) { return infoRow(key.charAt(0).toUpperCase() + key.slice(1), identification[key]); }).join("");
-            const rasa = [infoRow("Rasa", dravyaguna.rasa || plant.rasa), infoRow("Guna", dravyaguna.guna || plant.guna), infoRow("Virya", dravyaguna.virya || plant.virya), infoRow("Vipaka", dravyaguna.vipaka || plant.vipaka), infoRow("Prabhava", dravyaguna.prabhava || plant.prabhava), infoRow("Karma", dravyaguna.karma || plant.karma)].join("");
-            const therapy = [infoRow("Uses", therapeutics.uses), infoRow("Indications", therapeutics.indications), infoRow("Useful Part", therapeutics.useful_part), infoRow("Dosage", therapeutics.dosage), infoRow("Anupana", therapeutics.anupana)].join("");
-            const references = [infoRow("Classical Name", classical.classical_name), infoRow("Synonyms", classical.synonyms), infoRow("Shloka", classical.shloka), infoRow("Reference", classical.reference)].join("");
-            const revision = [infoRow("Mnemonic", student.mnemonic), infoRow("Important Point", student.important_point), infoRow("Exam Point", student.exam_point), infoRow("Quick Revision", student.quick_revision)].join("");
-
-            plantContent.innerHTML = `
-                <section class="plant-hero"><div class="plant-hero-content"><div class="plant-symbol" aria-hidden="true">🌿</div><div><div class="eyebrow">DRAVYAGUNA 97 • BAMS REFERENCE</div><h1>${safe(name)}</h1>${sanskrit ? `<h2>${safe(sanskrit)}</h2>` : ""}${botanical ? `<p class="botanical-name">${safe(botanical)}</p>` : ""}</div></div></section>
-                ${section("Basic Identity", "🧾", `<div class="identity-grid">${identityRows}</div>`)}
-                ${gallery ? section("Identification Gallery", "🖼️", `<div class="image-gallery">${gallery}</div>`) : ""}
-                ${section("Plant Identification", "🌱", `<div class="identity-grid">${identificationRows || `<p class="not-available">Not available</p>`}</div>`)}
-                ${section("Rasa Panchaka and Karma", "🧪", `<div class="identity-grid">${rasa || `<p class="not-available">Not available</p>`}</div>`)}
-                ${section("Therapeutic Information", "⚕️", `<div class="identity-grid">${therapy || `<p class="not-available">Not available</p>`}</div>`)}
-                ${section("Important Formulations", "🧴", listHTML(plant.formulations))}
-                ${section("Classical References", "📚", `<div class="identity-grid">${references || `<p class="not-available">Not available</p>`}</div>`)}
-                ${section("BAMS Quick Revision", "🎓", `<div class="identity-grid">${revision || `<p class="not-available">Not available</p>`}</div>`)}
-            `;
-            plantContent.setAttribute("aria-busy", "false");
-            plantContent.querySelectorAll(".plant-gallery-image").forEach(function (image) { image.addEventListener("click", function () { openModal(image); }); });
-        })
-        .catch(function (error) {
-            console.error("DravyaGuna 97 plant profile:", error);
-            showError("Unable to load plant information", "Please check your connection and refresh the page.");
-        });
+document.addEventListener('DOMContentLoaded',()=>{
+ const root=document.getElementById('plant-content'), modal=document.getElementById('image-modal'), modalImg=document.getElementById('modal-image'), close=document.getElementById('close-modal');
+ const id=new URLSearchParams(location.search).get('id');
+ const esc=v=>String(v??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');
+ const arr=v=>Array.isArray(v)?v.filter(x=>x!==null&&x!==undefined&&String(x).trim()!==''):[];
+ const text=v=>Array.isArray(v)?v.map(x=>typeof x==='object'?Object.values(x).join(' — '):String(x)).filter(Boolean).join(', '):String(v??'');
+ const value=(v, fallback='Not available')=>{const s=text(v).trim();return s?s:fallback};
+ const list=v=>{const a=arr(v);return a.length?`<ul class="plant-list">${a.map(x=>`<li>${esc(typeof x==='object'?JSON.stringify(x):x)}</li>`).join('')}</ul>`:'<p class="not-available">Not available</p>'};
+ const row=(label,v)=>{const s=text(v).trim();return `<div class="info-row"><div class="info-label">${esc(label)}</div><div class="info-value">${s?esc(s):'<span class="not-available">Not available</span>'}</div></div>`};
+ const section=(title,icon,body)=>`<section class="plant-section"><div class="section-heading"><span class="section-icon">${icon}</span><div><h2>${esc(title)}</h2></div></div>${body}</section>`;
+ const error=(title,msg)=>{root.innerHTML=`<div class="error-box"><div class="error-icon">⚠️</div><h2>${esc(title)}</h2><p>${esc(msg)}</p><a href="index.html#plants" class="plant-button">← Back to Plant Library</a></div>`;root.setAttribute('aria-busy','false')};
+ close.onclick=()=>{modal.classList.remove('show');modal.setAttribute('aria-hidden','true')}; modal.onclick=e=>{if(e.target===modal)close.click()}; document.addEventListener('keydown',e=>{if(e.key==='Escape')close.click()});
+ if(!id){error('No plant selected','Please select a plant from the DravyaGuna 97 library.');return}
+ fetch('./plants.json?v=25',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(plants=>{
+   if(!Array.isArray(plants))throw Error('Invalid plant database');
+   const p=plants.find(x=>String(x?.id||'').toLowerCase()===String(id).toLowerCase()); if(!p){error('Plant not found','No record was found for '+id+'.');return}
+   const i=p.identity||{}, c=p.classification||{}, d=p.identification||{}, g=p.dravya_guna||p.dravyaguna||{}, dos=p.dosha||{}, t=p.therapeutics||{}, cl=p.classical_reference||{}, ph=p.phytochemistry||{}, m=p.modern_information||{}, st=p.student||{}, te=p.teacher||{}, dr=p.doctor||{}, meta=p.metadata||{}, imgs=p.images||{};
+   const name=i.name||p.name||id, sans=i.sanskrit_name||'', bot=i.botanical_name||'', status=meta.status||'draft';
+   const imagePairs=[['whole_plant','Whole plant'],['habit','Habit'],['root','Root'],['stem','Stem'],['leaf','Leaf'],['flower','Flower'],['fruit','Fruit'],['seed','Seed'],['bark','Bark']];
+   const gallery=imagePairs.map(([k,label])=>{if(!imgs[k])return '';return `<figure class="gallery-item"><img src="${esc(imgs[k])}" alt="${esc(name+' '+label)}" loading="lazy" class="plant-gallery-image"><figcaption>${esc(label)}</figcaption></figure>`}).join('');
+   const identity=[row('Sanskrit Name',sans),row('Transliteration',i.transliteration),row('Botanical Name',bot),row('Family',i.family),row('English Name',i.english_name),row('Hindi Name',i.hindi_name),row('Regional Names',i.regional_names),row('Synonyms',i.synonyms)].join('');
+   const classification=[row('Kingdom',c.kingdom),row('Habit',c.habit),row('Habitat',c.habitat),row('Distribution',c.distribution)].join('');
+   const identification=[row('Description',d.description),row('Whole Plant',d.whole_plant),row('Root',d.root),row('Stem',d.stem),row('Leaf',d.leaf),row('Flower',d.flower),row('Fruit',d.fruit),row('Seed',d.seed),row('Bark',d.bark),row('Identification Points',d.identification_points)].join('');
+   const rasa=[row('Rasa',g.rasa),row('Guna',g.guna),row('Virya',g.virya),row('Vipaka',g.vipaka),row('Prabhava',g.prabhava),row('Karma',g.karma),row('Vata',dos.vata),row('Pitta',dos.pitta),row('Kapha',dos.kapha)].join('');
+   const therapy=[row('Useful Part',t.useful_part),row('Indications',t.indications),row('Therapeutic Actions',t.therapeutic_actions),row('Dose',t.dose),row('Anupana',t.anupana),row('Duration',t.duration),row('Precautions',t.precautions),row('Contraindications',t.contraindications)].join('');
+   const formulations=arr(p.formulations).map(f=>`<article class="formulation-card"><h3>${esc(f.name||'Unnamed formulation')}</h3><div class="identity-grid">${row('Dosage form',f.dosage_form)}${row('Indication',f.indication)}${row('Reference',f.reference)}</div></article>`).join('')||'<p class="not-available">No formulation recorded yet.</p>';
+   const classical=`<div class="identity-grid">${row('Shlokas',cl.shlokas)}${row('Nighantu References',cl.nighantu_references)}${row('Samhita References',cl.samhita_references)}</div>`;
+   const phytochem=`<div class="identity-grid">${row('Major Constituents',ph.major_constituents)}${row('Chemical Notes',ph.chemical_notes)}</div>`;
+   const modern=`<div class="identity-grid">${row('Evidence Summary',m.evidence_summary)}${row('Recognized Uses',m.recognized_uses)}${row('Safety Notes',m.safety_notes)}</div>`;
+   const student=`<div class="identity-grid">${row('Exam Points',st.exam_points)}${row('Viva Questions',st.viva_questions)}${row('Identification Points',st.identification_points)}${row('Mnemonics',st.mnemonics)}${row('Quick Revision',st.quick_revision)}</div>`;
+   const teacher=`<div class="identity-grid">${row('Teaching Points',te.teaching_points)}${row('Discussion Points',te.discussion_points)}${row('Practical Points',te.practical_points)}</div>`;
+   const doctor=`<div class="identity-grid">${row('Quick Reference',dr.quick_reference)}${row('Important Indications',dr.important_indications)}${row('Useful Part',dr.useful_part)}${row('Dose',dr.dose)}${row('Anupana',dr.anupana)}${row('Key Precautions',dr.key_precautions)}</div>`;
+   const sources=arr(p.sources).map(s=>`<li>${esc(s.title||s.type||'Source')}${s.url?` — <a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">Source</a>`:''}</li>`).join('');
+   root.innerHTML=`<section class="plant-hero"><div class="plant-hero-content"><div class="plant-symbol">🌿</div><div><div class="eyebrow">DRAVYAGUNA 97 • BAMS REFERENCE • #${esc(p.order||'')}</div><h1>${esc(name)}</h1>${sans?`<h2>${esc(sans)}</h2>`:''}${bot?`<p class="botanical-name">${esc(bot)}</p>`:''}<span class="data-status">Data status: ${esc(status)}</span></div></div></section>
+   ${section('Basic Identity','🧾',`<div class="identity-grid">${identity}</div>`)}
+   ${section('Classification','🌳',`<div class="identity-grid">${classification}</div>`)}
+   ${gallery?section('Identification Gallery','🖼️',`<div class="image-gallery">${gallery}</div>`):''}
+   ${section('Plant Identification','🔎',`<div class="identity-grid">${identification}</div>`)}
+   ${section('Rasa Panchaka & Dosha','🧪',`<div class="identity-grid">${rasa}</div>`)}
+   ${section('Therapeutic Information','⚕️',`<div class="identity-grid">${therapy}</div>`)}
+   ${section('Important Formulations','🧴',`<div class="formulation-grid">${formulations}</div>`)}
+   ${section('Classical References','📚',classical)}
+   ${section('Phytochemistry','🧬',phytochem)}
+   ${section('Modern Information & Safety','🔬',modern)}
+   ${section('Student Zone','🎓',student)}
+   ${section('Teacher Zone','👨‍🏫',teacher)}
+   ${section('Doctor Quick Reference','🩺',doctor)}
+   ${section('Sources','🔗',sources?`<ul class="plant-list">${sources}</ul>`:'<p class="not-available">No source list recorded.</p>')}`;
+   root.setAttribute('aria-busy','false');
+   root.querySelectorAll('.plant-gallery-image').forEach(img=>img.onclick=()=>{modalImg.src=img.currentSrc||img.src;modalImg.alt=img.alt;modal.classList.add('show');modal.setAttribute('aria-hidden','false');close.focus()});
+ }).catch(e=>{console.error(e);error('Unable to load plant information','Please refresh the page. If the problem continues, the database may be temporarily unavailable.')});
 });
 </script>
 </body>
