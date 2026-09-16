@@ -1,0 +1,198 @@
+[
+  {
+    "id": 79,
+    "order": 94,
+    "category": "NCISM-97",
+    "batch_id": "79-83",
+    "identity": {
+      "name": "Vatsanabha",
+      "sanskrit_name": "Vatsanabha (वत्सनाभ)",
+      "botanical_name": "Aconitum ferox Wall. ex Ser.",
+      "family": "Ranunculaceae",
+      "english_name": "Indian Aconite / Monkshood",
+      "useful_part": "Purified tuberous root (Shodhita Kanda)"
+    },
+    "dravya_guna": {
+      "rasa": ["Katu", "Tikta"],
+      "guna": ["Laghu", "Tikshna", "Vyavayi"],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": "Vishadravya with potent systemic action; therapeutic use requires Shodhana",
+      "dosha_karma": "Kapha-Vata shamaka is described in classical toxicological/dravyaguna contexts; properties vary by purified preparation."
+    },
+    "therapeutics": {
+      "karma": ["Deepana", "Pachana", "Jwarahara", "Vedanasthapana"],
+      "indications": ["Jwara", "Vatavyadhi", "Amavata-related pain in classical formulations", "Kasa / Shwasa in selected formulations"],
+      "formulations": ["Tribhuvan Kirti Rasa", "Anandabhairava Rasa", "Sanjivani Vati", "Mahavishagarbha Taila"]
+    },
+    "identification": "Conical tuberous root with a characteristic tapering form; unprocessed material is highly toxic and must not be presented as therapeutically interchangeable with purified material.",
+    "classical_reference": {
+      "text": "Bhavaprakasha Nighantu and allied Rasashastra/Dravyaguna literature",
+      "section": "Vishadravya / Vatsanabha discussion",
+      "shloka": "",
+      "reference": "The supplied verse 208-210 was not accepted as a directly verified Bhavaprakasha quotation without an edition-specific text check.",
+      "verification_status": "B. Classical drug identity/use recognized, but supplied shloka text and numbering not independently verified."
+    },
+    "metadata": {
+      "ncism_order": 94,
+      "verification_notes": "Vatsanabha is NCISM #94. Because this is a highly toxic Aconitum drug, the website should prominently distinguish raw/unpurified drug from Shodhita material and avoid implying unsupervised clinical use."
+    }
+  },
+  {
+    "id": 80,
+    "order": 34,
+    "category": "NCISM-97",
+    "batch_id": "79-83",
+    "identity": {
+      "name": "Katuki",
+      "sanskrit_name": "Katuki (कटुकी)",
+      "botanical_name": "Picrorhiza kurroa Royle ex Benth.",
+      "family": "Plantaginaceae (Scrophulariaceae, older treatment)",
+      "english_name": "Katuki / Picrorhiza",
+      "useful_part": "Rhizome"
+    },
+    "dravya_guna": {
+      "rasa": ["Tikta"],
+      "guna": ["Laghu", "Ruksha"],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "prabhava": "Bhedana / Yakrit-supporting action",
+      "dosha_karma": "Kapha-Pitta shamaka"
+    },
+    "therapeutics": {
+      "karma": ["Bhedana", "Deepana", "Pachana", "Jwarahara", "Yakrit-supporting"],
+      "indications": ["Kamala", "Yakrit disorders", "Jwara", "Kushta", "Vibandha"],
+      "formulations": ["Arogyavardhini Vati", "Katukadyadi / Katutrayadi preparations", "Tiktaka Ghrita", "Patoladi Kwatha"]
+    },
+    "identification": "Small, dark grey-brown rhizomes with characteristic scars and a porous pale interior; intensely bitter taste.",
+    "classical_reference": {
+      "text": "Bhavaprakasha Nighantu",
+      "section": "Haritakyadi Varga",
+      "shloka": "",
+      "reference": "The supplied 140-141 numbering and supplied verse were not accepted as a universal verified citation; edition-specific verification is required before displaying an exact quotation.",
+      "verification_status": "B. Classical source identified, but supplied verse/numbering not independently verified."
+    },
+    "metadata": {
+      "ncism_order": 34,
+      "verification_notes": "The NCISM identity is Katuki, #34. Botanical family normalized to Plantaginaceae with Scrophulariaceae retained as the older treatment."
+    }
+  },
+  {
+    "id": 81,
+    "order": 0,
+    "category": "SUPPLEMENTAL",
+    "batch_id": "79-83",
+    "identity": {
+      "name": "Kiratatikta",
+      "sanskrit_name": "Kiratatikta (किराततिक्त)",
+      "botanical_name": "Swertia chirata Buch.-Ham. ex Wall.",
+      "family": "Gentianaceae",
+      "english_name": "Chirata / Indian Gentian",
+      "useful_part": "Whole plant"
+    },
+    "dravya_guna": {
+      "rasa": ["Tikta"],
+      "guna": ["Laghu", "Ruksha"],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "prabhava": "Jwarahara / Deepana-Pachana",
+      "dosha_karma": "Kapha-Pitta shamaka"
+    },
+    "therapeutics": {
+      "karma": ["Jwarahara", "Deepana", "Pachana", "Dahaprashamana"],
+      "indications": ["Vishama Jwara", "Agnimandya", "Kamala", "Kushta", "Trishna"],
+      "formulations": ["Kiratadi Kwatha", "Sudarshana Churna", "Bhunimbadi preparations"]
+    },
+    "identification": "Erect annual herb with opposite sessile leaves, branched stem and small greenish-yellow flowers; all parts are distinctly bitter.",
+    "classical_reference": {
+      "text": "Bhavaprakasha Nighantu / Dravyaguna literature",
+      "section": "Haritakyadi Varga and related Kiratatikta discussions",
+      "shloka": "",
+      "reference": "The supplied 151-152 citation was not accepted as directly verified for the exact supplied text.",
+      "verification_status": "B. Classical drug is recognized, but exact supplied quotation/numbering requires edition-specific verification."
+    },
+    "metadata": {
+      "ncism_order": null,
+      "verification_notes": "Kiratatikta/Swertia chirata is not a distinct named entry in the current NCISM II BAMS 97-drug list. It is therefore retained as SUPPLEMENTAL rather than incorrectly mapping it to NCISM #54 Kalamegha, which is a different drug."
+    }
+  },
+  {
+    "id": 82,
+    "order": 11,
+    "category": "NCISM-97",
+    "batch_id": "79-83",
+    "identity": {
+      "name": "Bhringaraja",
+      "sanskrit_name": "Bhringaraja (भृङ्गराज)",
+      "botanical_name": "Eclipta prostrata (L.) L. (syn. Eclipta alba (L.) Hassk.)",
+      "family": "Asteraceae (Compositae)",
+      "english_name": "False Daisy",
+      "useful_part": "Whole plant"
+    },
+    "dravya_guna": {
+      "rasa": ["Katu", "Tikta"],
+      "guna": ["Laghu", "Ruksha"],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": "Keshya / Rasayana",
+      "dosha_karma": "Kapha-Vata shamaka"
+    },
+    "therapeutics": {
+      "karma": ["Keshya", "Rasayana", "Deepana", "Pachana", "Yakrit-supporting", "Shothahara"],
+      "indications": ["Khalitya / Palitya", "Kamala", "Yakrit disorders", "Shotha", "Kasa", "Pandu"],
+      "formulations": ["Bhringaraja Taila", "Mahabhringaraja Taila", "Bhringarajasava", "Shadbindu Taila"]
+    },
+    "identification": "Prostrate or erect hairy herb with opposite lanceolate leaves and small solitary white flower heads; bitter taste.",
+    "classical_reference": {
+      "text": "Bhavaprakasha Nighantu",
+      "section": "Guduchyadi Varga",
+      "shloka": "",
+      "reference": "The supplied 240-241 citation and exact supplied verse were not independently verified against a fixed edition; retained without a quotation to avoid presenting uncertain text as exact.",
+      "verification_status": "B. Classical source identified, but exact supplied quotation/numbering not independently verified."
+    },
+    "metadata": {
+      "ncism_order": 11,
+      "verification_notes": "Botanical name normalized to Eclipta prostrata, with Eclipta alba retained as a common synonym."
+    }
+  },
+  {
+    "id": 83,
+    "order": 57,
+    "category": "NCISM-97",
+    "batch_id": "79-83",
+    "identity": {
+      "name": "Kumkum",
+      "sanskrit_name": "Kumkum (कुङ्कुम)",
+      "botanical_name": "Crocus sativus L.",
+      "family": "Iridaceae",
+      "english_name": "Saffron",
+      "useful_part": "Stigma and style (Keshara)",
+      "dravya_source": "Cultivated dried stigmas of Crocus sativus"
+    },
+    "dravya_guna": {
+      "rasa": ["Tikta", "Katu"],
+      "guna": ["Laghu", "Snigdha"],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": "Varnya / Hridya / Artava-supporting",
+      "dosha_karma": "Tridosha effects are described in Ayurvedic literature; avoid overgeneralizing modern pharmacological claims."
+    },
+    "therapeutics": {
+      "karma": ["Varnya", "Hridya", "Vedanasthapana", "Shothahara", "Artavajanana", "Vrishya"],
+      "indications": ["Varnya applications", "Artava disorders in classical formulations", "Shiroshoola", "Kasa / Shwasa in selected formulations"],
+      "formulations": ["Kumkumadi Taila", "Kesaradi Churna", "Kumkumadi preparations"]
+    },
+    "identification": "Dried dark red-orange thread-like stigmas, usually three-branched per flower, intensely aromatic and capable of imparting a deep yellow colour.",
+    "classical_reference": {
+      "text": "Bhavaprakasha Nighantu",
+      "section": "Karpuradi Varga",
+      "shloka": "",
+      "reference": "The supplied 12-14 numbering and exact supplied verse were not independently verified against a fixed edition; exact citation should be checked in the selected edition before display.",
+      "verification_status": "B. Classical source identified, but supplied quotation/numbering not independently verified."
+    },
+    "metadata": {
+      "ncism_order": 57,
+      "verification_notes": "Kumkum is NCISM #57. Modern claims such as treatment of acne, angina or asthma should not be presented as established indications solely from the classical entry."
+    }
+  }
+]
