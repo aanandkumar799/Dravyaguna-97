@@ -4,14 +4,11 @@ on:
   push:
     branches:
       - main
-
   pull_request:
     branches:
       - main
-
   schedule:
     - cron: "0 6 * * 1"
-
   workflow_dispatch:
 
 permissions:
@@ -25,7 +22,6 @@ jobs:
   check-website:
     name: Website Doctor
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
@@ -33,59 +29,28 @@ jobs:
       - name: Check JSON files
         shell: bash
         run: |
-          echo "======================================"
-          echo "Checking JSON files..."
-          echo "======================================"
-
           find . -name "*.json" -not -path "./.git/*" -print0 |
-          while IFS= read -r -d '' file
-          do
+          while IFS= read -r -d '' file; do
             echo "Checking $file"
-
-            if python -m json.tool "$file" > /dev/null; then
-              echo "✅ Valid JSON: $file"
-            else
-              echo "❌ INVALID JSON: $file"
-              exit 1
-            fi
+            python -m json.tool "$file" > /dev/null || { echo "INVALID JSON: $file"; exit 1; }
           done
 
       - name: Check required files
         shell: bash
         run: |
-          echo "======================================"
-          echo "Checking required files..."
-          echo "======================================"
-
           files=(
-            "index.html"
-            "plant.html"
-            "404.html"
-            "plants.json"
-            "plant-index.json"
-            "robots.txt"
-            "sitemap.xml"
-            "script.js"
-            "style.css"
-            "lighthouserc.js"
-            "check-site.py"
-            "check-inline-js.py"
+            "index.html" "plants.html" "plant.html" "404.html" "plants.json"
+            "plant-index.json" "robots.txt" "sitemap.xml" "script.js" "style.css"
+            "manifest.json" "sw.js" "lighthouserc.js" "check-site.py" "check-inline-js.py"
           )
-
-          for file in "${files[@]}"
-          do
-            if [ ! -f "$file" ]; then
-              echo "❌ Missing file: $file"
-              exit 1
-            fi
-
-            echo "✅ Found: $file"
+          for file in "${files[@]}"; do
+            test -f "$file" || { echo "Missing file: $file"; exit 1; }
+            echo "Found: $file"
           done
 
       - name: Check homepage data and assets
         shell: bash
-        run: |
-          python check-site.py
+        run: python check-site.py
 
       - name: Check JavaScript syntax
         shell: bash
@@ -109,28 +74,8 @@ jobs:
       - name: Run Lighthouse CI
         shell: bash
         run: |
-          echo "======================================"
-          echo "Running Lighthouse CI..."
-          echo "======================================"
-
           npm install -g @lhci/cli@0.15.x
           lhci autorun
 
       - name: Website health check complete
-        run: |
-          echo "======================================"
-          echo "🌿 DRAVYAGUNA 97"
-          echo "======================================"
-          echo "✅ 97-plant database preserved and validated"
-          echo "✅ JSON files valid"
-          echo "✅ Required files present"
-          echo "✅ Homepage data and assets checked"
-          echo "✅ JavaScript syntax checked"
-          echo "✅ HTML checked"
-          echo "✅ CSS checked"
-          echo "✅ Links checked"
-          echo "✅ Images checked"
-          echo "✅ Lighthouse CI completed"
-          echo "======================================"
-          echo "🎉 WEBSITE HEALTH CHECK PASSED"
-          echo "======================================"
+        run: echo "DRAVYAGUNA 97 WEBSITE HEALTH CHECK PASSED"
