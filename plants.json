@@ -641,15 +641,15 @@
       "name": "Ashoka",
       "sanskrit_name": "अशोक",
       "transliteration": "",
-      "botanical_name": "Saraca asoca",
+      "botanical_name": "Saraca asoca (Roxb.) Willd.",
       "family": "Fabaceae",
       "english_name": "Ashoka Tree",
       "hindi_name": "",
       "regional_names": [],
       "synonyms": [
         "Hemapushpa",
-        "Tamrapallava",
-        "Kankeli",
+        "Kankelli",
+        "Vamadhara",
         "Pindapushpa"
       ]
     },
@@ -660,7 +660,7 @@
       "distribution": ""
     },
     "identification": {
-      "description": "",
+      "description": "Stem bark pieces are channelled or curved, with rough greyish-brown outer surface and reddish-brown inner surface; strongly astringent.",
       "whole_plant": "",
       "root": "",
       "stem": "",
@@ -684,35 +684,43 @@
     },
     "dravya_guna": {
       "rasa": [
-        "Tikta",
-        "Kashaya"
+        "kashaya",
+        "tikta"
       ],
       "guna": [
-        "Laghu"
+        "laghu",
+        "ruksha"
       ],
-      "virya": "Sheeta",
-      "vipaka": "Katu",
-      "prabhava": [
-        "Yonishodhana",
-        "Stambhana"
-      ],
-      "karma": []
+      "virya": "sheeta",
+      "vipaka": "katu",
+      "prabhava": "Asrigdarahara / Stri-rogahara",
+      "karma": [
+        "Asrigdarahara",
+        "Garbhashaya-shothahara",
+        "Varnya",
+        "Hridya",
+        "Vranaropana",
+        "Sangrahi"
+      ]
     },
     "dosha": {
-      "vata": "aggravated",
-      "pitta": "pacified",
-      "kapha": "pacified"
+      "vata": "generally not aggravating",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
     },
     "therapeutics": {
       "useful_part": [
-        "bark"
+        "stem bark (Twak)",
+        "seeds (Bija)",
+        "flowers (Pushpa)"
       ],
       "indications": [
+        "Asrigdara",
         "Pradara",
-        "Raktapitta",
-        "Ashmari",
-        "Mutrakrichha",
-        "Daha"
+        "Yoniroga",
+        "Daha",
+        "Trishna",
+        "Apachi"
       ],
       "therapeutic_actions": [],
       "dose": "",
@@ -721,12 +729,29 @@
       "precautions": "",
       "contraindications": ""
     },
-    "formulations": [],
+    "formulations": [
+      {
+        "name": "Ashokarishta"
+      },
+      {
+        "name": "Ashoka Ghrita"
+      },
+      {
+        "name": "Ashokaksheerapaka"
+      },
+      {
+        "name": "Chandanasava"
+      }
+    ],
     "classical_reference": {
-      "shlokas": [],
-      "nighantu_references": [],
+      "shlokas": [
+        "अशोकः शीतलस्तिक्तो ग्राही वर्ण्यः कषायकः ।\nदोषापचीतृषादाहकृमिशोषविषापहः ॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Vatadi Varga, verses 47–48"
+      ],
       "samhita_references": [],
-      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "shloka_reference_status": "reference verified; searchable text supports the core verse, but edition-level transcription should be checked",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
       ]
@@ -802,11 +827,12 @@
       }
     ],
     "metadata": {
-      "status": "needs_detailed_text_cross_check",
+      "status": "classical_text_checked",
       "last_verified": "",
       "verified_by": "",
       "version": "1.2",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment",
+      "batch_49_53_added": true
     }
   },
   {
@@ -1195,9 +1221,9 @@
       "regional_names": [],
       "synonyms": [
         "Vatyalika",
+        "Batyala",
         "Kharayashtika",
-        "Baladhya",
-        "Odanika"
+        "Bhadra"
       ]
     },
     "classification": {
@@ -1207,7 +1233,7 @@
       "distribution": ""
     },
     "identification": {
-      "description": "",
+      "description": "Subshrub with cylindrical taproot, cordate velvety leaves and yellow solitary flowers; seeds are characteristic.",
       "whole_plant": "",
       "root": "",
       "stem": "",
@@ -1231,36 +1257,42 @@
     },
     "dravya_guna": {
       "rasa": [
-        "Madhura"
+        "madhura"
       ],
       "guna": [
-        "Snigdha",
-        "Guru"
+        "guru",
+        "snigdha",
+        "picchila"
       ],
-      "virya": "Sheeta",
-      "vipaka": "Madhura",
-      "prabhava": [
+      "virya": "sheeta",
+      "vipaka": "madhura",
+      "prabhava": "Balya / Vrishya / Vataharanam",
+      "karma": [
         "Balya",
-        "rasayan",
-        "Brimhaniya"
-      ],
-      "karma": []
+        "Brimhana",
+        "Vrishya",
+        "Vatashamaka",
+        "Prajasthapana",
+        "Ojavardhaka"
+      ]
     },
     "dosha": {
-      "vata": "pacified",
-      "pitta": "not specifically documented in imported dataset",
-      "kapha": "aggravated"
+      "vata": "pacifies",
+      "pitta": "generally pacifies",
+      "kapha": "may increase"
     },
     "therapeutics": {
       "useful_part": [
-        "root/whole plant"
+        "root",
+        "seeds",
+        "whole plant (Panchanga)"
       ],
       "indications": [
-        "Vataroga",
+        "Vatavyadhi",
         "Kshaya",
-        "Daurbalya",
+        "Klaibya",
         "Raktapitta",
-        "Prameha"
+        "Daurbalya"
       ],
       "therapeutic_actions": [],
       "dose": "",
@@ -1269,12 +1301,27 @@
       "precautions": "",
       "contraindications": ""
     },
-    "formulations": [],
+    "formulations": [
+      {
+        "name": "Balarishta"
+      },
+      {
+        "name": "Bala Taila"
+      },
+      {
+        "name": "Kshirabala Taila"
+      },
+      {
+        "name": "Baladi Kwatha"
+      }
+    ],
     "classical_reference": {
       "shlokas": [],
-      "nighantu_references": [],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Guduchyadi Varga — exact verse requires edition-level verification"
+      ],
       "samhita_references": [],
-      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "shloka_reference_status": "needs_verification",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
       ]
@@ -1350,11 +1397,12 @@
       }
     ],
     "metadata": {
-      "status": "needs_detailed_text_cross_check",
+      "status": "structured_data_added_classical_text_pending",
       "last_verified": "",
       "verified_by": "",
       "version": "1.2",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment",
+      "batch_49_53_added": true
     }
   },
   {
@@ -3553,14 +3601,15 @@
       "transliteration": "",
       "botanical_name": "Ricinus communis L.",
       "family": "Euphorbiaceae",
-      "english_name": "Castor",
+      "english_name": "Castor Oil Plant",
       "hindi_name": "",
       "regional_names": [],
       "synonyms": [
-        "Panchangula",
-        "Vatari",
         "Gandharvahasta",
-        "Chitrabija"
+        "Vatari",
+        "Rubu",
+        "Chitra",
+        "Urubuka"
       ]
     },
     "classification": {
@@ -3570,7 +3619,7 @@
       "distribution": ""
     },
     "identification": {
-      "description": "",
+      "description": "Tall shrub with palmately lobed leaves, prickly three-celled fruits and smooth mottled seeds.",
       "whole_plant": "",
       "root": "",
       "stem": "",
@@ -3594,36 +3643,47 @@
     },
     "dravya_guna": {
       "rasa": [
-        "Madhura",
-        "Katu"
+        "madhura",
+        "katu",
+        "kashaya"
       ],
       "guna": [
-        "Snigdha",
-        "Guru"
+        "sukshma",
+        "tikshna",
+        "snigdha",
+        "sara",
+        "guru"
       ],
-      "virya": "Ushna",
-      "vipaka": "Madhura",
-      "prabhava": [
-        "Vatanulomana",
-        "Shoolahara"
-      ],
-      "karma": []
+      "virya": "ushna",
+      "vipaka": "madhura",
+      "prabhava": "Virechana / Vataharanam",
+      "karma": [
+        "Virechana",
+        "Vatashamaka",
+        "Vedanasthapana",
+        "Shothahara",
+        "Vrishya",
+        "Vayasthapana"
+      ]
     },
     "dosha": {
-      "vata": "pacified",
-      "pitta": "aggravated",
-      "kapha": "aggravated"
+      "vata": "pacifies",
+      "pitta": "may increase with excessive use",
+      "kapha": "generally pacifies"
     },
     "therapeutics": {
       "useful_part": [
-        "seed/root"
+        "root",
+        "leaves",
+        "seeds",
+        "seed oil (Eranda Taila)"
       ],
       "indications": [
-        "Vata Vyadhi",
         "Amavata",
-        "Shoola",
-        "Udararoga",
-        "Kati Shoola"
+        "Vatavyadhi",
+        "Vibandha",
+        "Udavarta",
+        "Gulma"
       ],
       "therapeutic_actions": [],
       "dose": "",
@@ -3632,12 +3692,30 @@
       "precautions": "",
       "contraindications": ""
     },
-    "formulations": [],
+    "formulations": [
+      {
+        "name": "Eranda Saptaka Kwatha"
+      },
+      {
+        "name": "Gandharvahastadi Taila"
+      },
+      {
+        "name": "Eranda Taila"
+      },
+      {
+        "name": "Rasnasaptaka Kwatha"
+      },
+      {
+        "name": "Simhanada Guggulu"
+      }
+    ],
     "classical_reference": {
       "shlokas": [],
-      "nighantu_references": [],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Guduchyadi Varga — exact verse requires edition-level verification"
+      ],
       "samhita_references": [],
-      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "shloka_reference_status": "needs_verification",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
       ]
@@ -3713,12 +3791,13 @@
       }
     ],
     "metadata": {
-      "status": "needs_detailed_text_cross_check",
+      "status": "structured_data_added_classical_text_pending",
       "last_verified": "",
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment",
+      "batch_49_53_added": true
     }
   },
   {
@@ -4068,14 +4147,15 @@
       "transliteration": "",
       "botanical_name": "Commiphora wightii (Arn.) Bhandari",
       "family": "Burseraceae",
-      "english_name": "Indian Bdellium",
+      "english_name": "Indian Bdellium / Guggul",
       "hindi_name": "",
       "regional_names": [],
       "synonyms": [
         "Devadhupa",
-        "Kaushika",
-        "Pur",
-        "Mahishaksha"
+        "Koushika",
+        "Pura",
+        "Mahishaksha",
+        "Palankasha"
       ]
     },
     "classification": {
@@ -4085,7 +4165,7 @@
       "distribution": ""
     },
     "identification": {
-      "description": "",
+      "description": "Irregular brownish-yellow translucent or sticky oleo-gum resin masses with strong balsamic aromatic odor.",
       "whole_plant": "",
       "root": "",
       "stem": "",
@@ -4109,36 +4189,47 @@
     },
     "dravya_guna": {
       "rasa": [
-        "Tikta",
-        "Katu"
+        "tikta",
+        "katu",
+        "kashaya",
+        "madhura"
       ],
       "guna": [
-        "Laghu",
-        "Ruksha"
+        "laghu",
+        "ruksha",
+        "tikshna",
+        "vishada",
+        "sukshma",
+        "sara"
       ],
-      "virya": "Ushna",
-      "vipaka": "Katu",
-      "prabhava": [
-        "Lekhana",
+      "virya": "ushna",
+      "vipaka": "katu",
+      "prabhava": "Vedanasthapana / Medohara / Rasayana",
+      "karma": [
+        "Medohara",
+        "Rasayana",
         "Shothahara",
-        "Vranashodhak"
-      ],
-      "karma": []
+        "Vedanasthapana",
+        "Vranaropana",
+        "Lekhana",
+        "Bhangasandhanakara"
+      ]
     },
     "dosha": {
-      "vata": "pacified",
-      "pitta": "aggravated",
-      "kapha": "pacified"
+      "vata": "generally pacifies",
+      "pitta": "may increase; use according to context",
+      "kapha": "pacifies"
     },
     "therapeutics": {
       "useful_part": [
-        "oleo-gum-resin"
+        "purified oleo-gum resin (Shodhita Niryasa)"
       ],
       "indications": [
-        "Medoroga",
         "Amavata",
         "Vatarakta",
-        "Granthi",
+        "Medoroga",
+        "Sandhivata",
+        "Granthi/Arbuda",
         "Kushta"
       ],
       "therapeutic_actions": [],
@@ -4148,12 +4239,32 @@
       "precautions": "",
       "contraindications": ""
     },
-    "formulations": [],
+    "formulations": [
+      {
+        "name": "Yogaraja Guggulu"
+      },
+      {
+        "name": "Kaishora Guggulu"
+      },
+      {
+        "name": "Kanchanara Guggulu"
+      },
+      {
+        "name": "Triphala Guggulu"
+      },
+      {
+        "name": "Simhanada Guggulu"
+      }
+    ],
     "classical_reference": {
-      "shlokas": [],
-      "nighantu_references": [],
+      "shlokas": [
+        "गुग्गुलुर्विशदस्तिक्तो वीर्योष्णः पित्तलः सरः ।\nकषायः कटुकः पाके कटू रूक्षो लघुः परः ॥३५॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Karpuradi Varga, verses 35–36 (edition numbering may vary)"
+      ],
       "samhita_references": [],
-      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "shloka_reference_status": "verified text/reference in searchable Bhavaprakasha recension; edition/page should be recorded separately",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
       ]
@@ -4218,12 +4329,13 @@
       }
     ],
     "metadata": {
-      "status": "working_draft_needs_text_cross_check",
+      "status": "classical_text_checked",
       "last_verified": "",
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment",
+      "batch_49_53_added": true
     }
   },
   {
@@ -4264,8 +4376,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/haridra.jpg",
+      "habit": "images/plants/haridra.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -4381,6 +4493,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Curcuma_longa_001.JPG",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -4430,8 +4548,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/haritaki.jpg",
+      "habit": "images/plants/haritaki.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -4552,6 +4670,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Terminalia_chebula_Retz._(53148000295).jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -4769,8 +4893,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/jambu.jpg",
+      "habit": "images/plants/jambu.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -4886,6 +5010,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Syzygium_cumini(L.)Skeels..jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -4935,8 +5065,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/jatamansi.jpg",
+      "habit": "images/plants/jatamansi.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -5051,6 +5181,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Cultivated_spikenard_Nardostachys_jatamansi_with_a_young_flowering_stem,_grown_outdoors_in_Yaroslavl_Oblast,_Russia.jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -5100,8 +5236,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/jyotishmati.jpg",
+      "habit": "images/plants/jyotishmati.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -5218,6 +5354,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Celastrus_paniculatus_Willd._(52534816887).jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -12391,9 +12533,10 @@
       "regional_names": [],
       "synonyms": [
         "Shothaghni",
-        "Raktapushpa",
+        "Raktapunarnava",
+        "Varshabhu",
         "Kathillaka",
-        "Varsabhu"
+        "Prithvi"
       ]
     },
     "classification": {
@@ -12403,7 +12546,7 @@
       "distribution": ""
     },
     "identification": {
-      "description": "",
+      "description": "Diffusely branched perennial herb with stout root, green upper leaf surface, pale/whitish lower surface and small pinkish-red flowers.",
       "whole_plant": "",
       "root": "",
       "stem": "",
@@ -12427,38 +12570,43 @@
     },
     "dravya_guna": {
       "rasa": [
-        "Madhura",
-        "Tikta",
-        "Kashaya"
+        "madhura",
+        "tikta",
+        "kashaya"
       ],
       "guna": [
-        "Laghu",
-        "Ruksha"
+        "laghu",
+        "ruksha"
       ],
-      "virya": "Ushna",
-      "vipaka": "Madhura",
-      "prabhava": [
-        "Mutrala",
+      "virya": "ushna",
+      "vipaka": "madhura",
+      "prabhava": "Shothahara / Mutrala",
+      "karma": [
         "Shothahara",
-        "rasayan"
-      ],
-      "karma": []
+        "Mutrala",
+        "Hridya",
+        "Deepana",
+        "Anulomana",
+        "Rasayana",
+        "Panduhara"
+      ]
     },
     "dosha": {
-      "vata": "aggravated",
-      "pitta": "pacified",
-      "kapha": "pacified"
+      "vata": "generally pacifies",
+      "pitta": "generally pacifies",
+      "kapha": "pacifies"
     },
     "therapeutics": {
       "useful_part": [
-        "root/whole plant"
+        "root",
+        "whole plant (Panchanga)"
       ],
       "indications": [
         "Shotha",
         "Pandu",
-        "Hridroga",
-        "Udararoga",
-        "Mutrakrichha"
+        "Vrikkaroga",
+        "Hridroga with swelling",
+        "Udara Roga"
       ],
       "therapeutic_actions": [],
       "dose": "",
@@ -12467,12 +12615,30 @@
       "precautions": "",
       "contraindications": ""
     },
-    "formulations": [],
+    "formulations": [
+      {
+        "name": "Punarnavarishta"
+      },
+      {
+        "name": "Punarnavadi Kwatha"
+      },
+      {
+        "name": "Punarnavadi Mandoora"
+      },
+      {
+        "name": "Punarnavasava"
+      },
+      {
+        "name": "Punarnavadi Guggulu"
+      }
+    ],
     "classical_reference": {
       "shlokas": [],
-      "nighantu_references": [],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Guduchyadi Varga — exact verse requires edition-level verification"
+      ],
       "samhita_references": [],
-      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "shloka_reference_status": "needs_verification",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
       ]
@@ -12537,12 +12703,13 @@
       }
     ],
     "metadata": {
-      "status": "working_draft_needs_text_cross_check",
+      "status": "structured_data_added_classical_text_pending",
       "last_verified": "",
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment"
+      "last_enrichment": "structured-field + image + reference enrichment",
+      "batch_49_53_added": true
     }
   },
   {
