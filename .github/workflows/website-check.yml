@@ -26,6 +26,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
+      - name: Normalize plant database schema for validation
+        shell: bash
+        run: python scripts/normalize-plants-schema.py
+
       - name: Check JSON files
         shell: bash
         run: |
