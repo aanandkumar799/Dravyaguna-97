@@ -1256,6 +1256,7 @@
     "teacher": {
       "teaching_points": [],
       "discussion_points": [
+        "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data."
       ],
       "practical_points": []
@@ -2491,6 +2492,13 @@
         "title": "Wikimedia Commons",
         "url": "https://commons.wikimedia.org/wiki/File:Eclipta_prostrata_(L.)_L._(48732001466).jpg",
         "license_note": "Check the original file page for current license/attribution requirements."
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
       }
     ],
     "metadata": {
@@ -5866,6 +5874,7 @@
     "teacher": {
       "teaching_points": [],
       "discussion_points": [
+        "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data."
       ],
       "practical_points": []
@@ -7718,8 +7727,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/latakaranja.jpg",
+      "habit": "images/plants/latakaranja.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -7835,6 +7844,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Caesalpinia_._bonduc_(L.)_Roxb._(AM_AK360240-3).jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -7886,8 +7901,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/lodhra.jpg",
+      "habit": "images/plants/lodhra.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -8002,6 +8017,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:%C2%BF_Symplocos_racemosa_Roxb._%3F.jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -8053,8 +8074,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/agnimanth.png",
+      "habit": "images/plants/agnimanth.png",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -8167,6 +8188,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:CADAL11104563_%E6%B5%99%E6%B1%9F%E6%9C%A8%E6%9C%AC%E6%A4%8D%E7%89%A9%E5%90%8D%E9%8C%84.djvu",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -14603,6 +14630,7 @@
     "teacher": {
       "teaching_points": [],
       "discussion_points": [
+        "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data."
       ],
       "practical_points": []
@@ -17100,6 +17128,7 @@
     "teacher": {
       "teaching_points": [],
       "discussion_points": [
+        "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data."
       ],
       "practical_points": []
@@ -18440,7 +18469,12 @@
       "english_name": "Crown flower",
       "hindi_name": "",
       "regional_names": [],
-      "synonyms": []
+      "synonyms": [
+        "Mandara",
+        "Alarka",
+        "Surya",
+        "Vikirana"
+      ]
     },
     "classification": {
       "kingdom": "Plantae",
@@ -18472,21 +18506,41 @@
       "bark": ""
     },
     "dravya_guna": {
-      "rasa": [],
-      "guna": [],
-      "virya": "",
-      "vipaka": "",
-      "prabhava": "",
+      "rasa": [
+        "Katu",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Tikshna"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": [
+        "Virechana",
+        "Kushtaghna"
+      ],
       "karma": []
     },
     "dosha": {
-      "vata": "",
-      "pitta": "",
-      "kapha": ""
+      "vata": "pacified",
+      "pitta": "aggravated",
+      "kapha": "pacified"
     },
     "therapeutics": {
-      "useful_part": [],
-      "indications": [],
+      "useful_part": [
+        "Moola Twak",
+        "Patra",
+        "Ksheera",
+        "Pushpa"
+      ],
+      "indications": [
+        "Kushta",
+        "Gulma",
+        "Udararoga",
+        "Arsha",
+        "Krimi"
+      ],
       "therapeutic_actions": [],
       "dose": "",
       "anupana": "",
@@ -18499,14 +18553,17 @@
       "shlokas": [],
       "nighantu_references": [],
       "samhita_references": [],
-      "shloka_reference_status": "requires text-level verification"
+      "shloka_reference_status": "requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
       "chemical_notes": ""
     },
     "modern_information": {
-      "evidence_summary": "",
+      "evidence_summary": "Calotropis gigantea is a toxic plant, but its purified latex and leaves are used for skin diseases and as a purgative.",
       "recognized_uses": [],
       "safety_notes": "",
       "sources": []
@@ -18516,7 +18573,7 @@
       "viva_questions": [],
       "identification_points": [],
       "mnemonics": [],
-      "quick_revision": ""
+      "quick_revision": "Calotropis gigantea is a toxic plant, but its purified latex and leaves are used for skin diseases and as a purgative."
     },
     "teacher": {
       "teaching_points": [
@@ -18550,12 +18607,27 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "supplementary_needs_source_verification",
       "source_batch": "Gemini batch 91",
-      "version": "1.0"
+      "version": "1.0",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -18572,7 +18644,12 @@
       "english_name": "Cannabis",
       "hindi_name": "",
       "regional_names": [],
-      "synonyms": []
+      "synonyms": [
+        "Vijaya",
+        "Ganja",
+        "Matulani",
+        "Madini"
+      ]
     },
     "classification": {
       "kingdom": "Plantae",
@@ -18604,21 +18681,37 @@
       "bark": ""
     },
     "dravya_guna": {
-      "rasa": [],
-      "guna": [],
-      "virya": "",
-      "vipaka": "",
-      "prabhava": "",
+      "rasa": [
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": [
+        "Vedanasthapana",
+        "Madakari"
+      ],
       "karma": []
     },
     "dosha": {
-      "vata": "",
-      "pitta": "",
-      "kapha": ""
+      "vata": "pacified",
+      "pitta": "aggravated",
+      "kapha": "aggravated"
     },
     "therapeutics": {
-      "useful_part": [],
-      "indications": [],
+      "useful_part": [
+        "Patra",
+        "Pushpa"
+      ],
+      "indications": [
+        "Atisara",
+        "Grahani",
+        "Vedana",
+        "Anidra",
+        "Dhanurvata"
+      ],
       "therapeutic_actions": [],
       "dose": "",
       "anupana": "",
@@ -18631,14 +18724,17 @@
       "shlokas": [],
       "nighantu_references": [],
       "samhita_references": [],
-      "shloka_reference_status": "requires text-level verification"
+      "shloka_reference_status": "requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
       "chemical_notes": ""
     },
     "modern_information": {
-      "evidence_summary": "",
+      "evidence_summary": "Cannabis leaf used in pain, digestion, and sleep disorders.",
       "recognized_uses": [],
       "safety_notes": "",
       "sources": []
@@ -18648,7 +18744,7 @@
       "viva_questions": [],
       "identification_points": [],
       "mnemonics": [],
-      "quick_revision": ""
+      "quick_revision": "Cannabis leaf used in pain, digestion, and sleep disorders."
     },
     "teacher": {
       "teaching_points": [
@@ -18682,12 +18778,27 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "supplementary_needs_source_verification",
       "source_batch": "Gemini batches 89, 100 and 105",
-      "version": "1.0"
+      "version": "1.0",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -18769,9 +18880,9 @@
       ]
     },
     "dosha": {
-      "vata": "",
-      "pitta": "",
-      "kapha": "",
+      "vata": "pacified",
+      "pitta": "aggravated",
+      "kapha": "pacified",
       "summary": "Kapha-Vatashamaka"
     },
     "therapeutics": {
@@ -18848,14 +18959,17 @@
         "shloka_number": "Verse 85-86",
         "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
         "page_number": "Needs checking against physical copy for exact page"
-      }
+      },
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
       "chemical_notes": ""
     },
     "modern_information": {
-      "evidence_summary": "",
+      "evidence_summary": "A toxic plant (Jimsonweed) used in purified form for asthma, pain, and skin diseases.",
       "recognized_uses": [],
       "safety_notes": "",
       "sources": []
@@ -18865,7 +18979,7 @@
       "viva_questions": [],
       "identification_points": [],
       "mnemonics": [],
-      "quick_revision": ""
+      "quick_revision": "A toxic plant (Jimsonweed) used in purified form for asthma, pain, and skin diseases."
     },
     "teacher": {
       "teaching_points": [
@@ -18899,6 +19013,19 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
@@ -18908,7 +19035,9 @@
       "gemini_later_batches_reviewed": true,
       "gemini_source_batches": [
         88
-      ]
+      ],
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     },
     "gemini_source_data": {
       "id": 88,
@@ -19053,9 +19182,9 @@
       ]
     },
     "dosha": {
-      "vata": "",
-      "pitta": "",
-      "kapha": "",
+      "vata": "pacified",
+      "pitta": "aggravated",
+      "kapha": "pacified",
       "summary": "Kapha-Vatashamaka"
     },
     "therapeutics": {
@@ -19125,14 +19254,17 @@
         "shloka_number": "Verse 236-237",
         "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
         "page_number": "Needs checking against physical copy for exact page"
-      }
+      },
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
       "chemical_notes": ""
     },
     "modern_information": {
-      "evidence_summary": "",
+      "evidence_summary": "Abrus precatorius seeds are toxic but used after purification for skin diseases and as a nervine tonic.",
       "recognized_uses": [],
       "safety_notes": "",
       "sources": []
@@ -19142,7 +19274,7 @@
       "viva_questions": [],
       "identification_points": [],
       "mnemonics": [],
-      "quick_revision": ""
+      "quick_revision": "Abrus precatorius seeds are toxic but used after purification for skin diseases and as a nervine tonic."
     },
     "teacher": {
       "teaching_points": [
@@ -19176,6 +19308,19 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
@@ -19185,7 +19330,9 @@
       "gemini_later_batches_reviewed": true,
       "gemini_source_batches": [
         86
-      ]
+      ],
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     },
     "gemini_source_data": {
       "id": 86,
@@ -19326,9 +19473,9 @@
       ]
     },
     "dosha": {
-      "vata": "",
-      "pitta": "",
-      "kapha": "",
+      "vata": "pacified",
+      "pitta": "aggravated",
+      "kapha": "pacified",
       "summary": "Kapha-Pittashamaka"
     },
     "therapeutics": {
@@ -19398,14 +19545,17 @@
         "shloka_number": "Verse 200-202",
         "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
         "page_number": "Needs checking against physical copy for exact page"
-      }
+      },
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
       "chemical_notes": ""
     },
     "modern_information": {
-      "evidence_summary": "",
+      "evidence_summary": "Croton tiglium is the most potent purgative in Ayurveda and must be used only after purification and in minute doses.",
       "recognized_uses": [],
       "safety_notes": "",
       "sources": []
@@ -19415,7 +19565,7 @@
       "viva_questions": [],
       "identification_points": [],
       "mnemonics": [],
-      "quick_revision": ""
+      "quick_revision": "Croton tiglium is the most potent purgative in Ayurveda and must be used only after purification and in minute doses."
     },
     "teacher": {
       "teaching_points": [
@@ -19449,6 +19599,19 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
@@ -19458,7 +19621,9 @@
       "gemini_later_batches_reviewed": true,
       "gemini_source_batches": [
         87
-      ]
+      ],
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     },
     "gemini_source_data": {
       "id": 87,
@@ -19537,7 +19702,12 @@
       "english_name": "Cubeb",
       "hindi_name": "",
       "regional_names": [],
-      "synonyms": []
+      "synonyms": [
+        "Sugandha Maricha",
+        "Kababchini",
+        "Chinoshana",
+        "Kola"
+      ]
     },
     "classification": {
       "kingdom": "Plantae",
@@ -19569,21 +19739,39 @@
       "bark": ""
     },
     "dravya_guna": {
-      "rasa": [],
-      "guna": [],
-      "virya": "",
-      "vipaka": "",
-      "prabhava": "",
+      "rasa": [
+        "Katu",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Tikshna"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": [
+        "Mutrala",
+        "Deepana",
+        "Hridaya"
+      ],
       "karma": []
     },
     "dosha": {
-      "vata": "",
-      "pitta": "",
-      "kapha": ""
+      "vata": "pacified",
+      "pitta": "aggravated",
+      "kapha": "pacified"
     },
     "therapeutics": {
-      "useful_part": [],
-      "indications": [],
+      "useful_part": [
+        "Phala"
+      ],
+      "indications": [
+        "Mutrakrichha",
+        "Mukharoga",
+        "Aruchi",
+        "Hridroga",
+        "Kasa"
+      ],
       "therapeutic_actions": [],
       "dose": "",
       "anupana": "",
@@ -19596,14 +19784,17 @@
       "shlokas": [],
       "nighantu_references": [],
       "samhita_references": [],
-      "shloka_reference_status": "requires text-level verification"
+      "shloka_reference_status": "requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
       "chemical_notes": ""
     },
     "modern_information": {
-      "evidence_summary": "",
+      "evidence_summary": "Cubeb pepper is a diuretic and antiseptic, useful in urinary tract infections and respiratory congestion.",
       "recognized_uses": [],
       "safety_notes": "",
       "sources": []
@@ -19613,7 +19804,7 @@
       "viva_questions": [],
       "identification_points": [],
       "mnemonics": [],
-      "quick_revision": ""
+      "quick_revision": "Cubeb pepper is a diuretic and antiseptic, useful in urinary tract infections and respiratory congestion."
     },
     "teacher": {
       "teaching_points": [
@@ -19647,12 +19838,27 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "supplementary_needs_source_verification",
       "source_batch": "Gemini batch 73",
-      "version": "1.0"
+      "version": "1.0",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -19669,7 +19875,12 @@
       "english_name": "Oleander",
       "hindi_name": "",
       "regional_names": [],
-      "synonyms": []
+      "synonyms": [
+        "Hayamaraka",
+        "Ashwamaraka",
+        "Pratihasa",
+        "Chandata"
+      ]
     },
     "classification": {
       "kingdom": "Plantae",
@@ -19701,21 +19912,40 @@
       "bark": ""
     },
     "dravya_guna": {
-      "rasa": [],
-      "guna": [],
-      "virya": "",
-      "vipaka": "",
-      "prabhava": "",
+      "rasa": [
+        "Katu",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Tikshna"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": [
+        "Kushtaghna",
+        "Vranashodhak"
+      ],
       "karma": []
     },
     "dosha": {
-      "vata": "",
-      "pitta": "",
-      "kapha": ""
+      "vata": "pacified",
+      "pitta": "aggravated",
+      "kapha": "pacified"
     },
     "therapeutics": {
-      "useful_part": [],
-      "indications": [],
+      "useful_part": [
+        "Moola",
+        "Twak",
+        "Patra"
+      ],
+      "indications": [
+        "Kushta",
+        "Vrana",
+        "Kandu",
+        "Krimi",
+        "Upadamsha"
+      ],
       "therapeutic_actions": [],
       "dose": "",
       "anupana": "",
@@ -19728,14 +19958,17 @@
       "shlokas": [],
       "nighantu_references": [],
       "samhita_references": [],
-      "shloka_reference_status": "requires text-level verification"
+      "shloka_reference_status": "requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
       "chemical_notes": ""
     },
     "modern_information": {
-      "evidence_summary": "",
+      "evidence_summary": "Oleander is a toxic plant used externally after processing for skin diseases and wound healing.",
       "recognized_uses": [],
       "safety_notes": "",
       "sources": []
@@ -19745,7 +19978,7 @@
       "viva_questions": [],
       "identification_points": [],
       "mnemonics": [],
-      "quick_revision": ""
+      "quick_revision": "Oleander is a toxic plant used externally after processing for skin diseases and wound healing."
     },
     "teacher": {
       "teaching_points": [
@@ -19779,12 +20012,27 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "supplementary_needs_source_verification",
       "source_batch": "Gemini batch 94",
-      "version": "1.0"
+      "version": "1.0",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -19866,9 +20114,9 @@
       ]
     },
     "dosha": {
-      "vata": "",
-      "pitta": "",
-      "kapha": "",
+      "vata": "not specifically documented in imported dataset",
+      "pitta": "aggravated",
+      "kapha": "pacified",
       "summary": "Tridoshashamaka (Specially Kapha-Pittashamaka)"
     },
     "therapeutics": {
@@ -19948,14 +20196,17 @@
         "shloka_number": "Verse 2-3",
         "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
         "page_number": "Needs checking against physical copy for exact page"
-      }
+      },
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
       "chemical_notes": ""
     },
     "modern_information": {
-      "evidence_summary": "",
+      "evidence_summary": "Camphor has stimulant, antispasmodic, and antiseptic actions, used in respiratory and skin conditions.",
       "recognized_uses": [],
       "safety_notes": "",
       "sources": []
@@ -19965,13 +20216,14 @@
       "viva_questions": [],
       "identification_points": [],
       "mnemonics": [],
-      "quick_revision": ""
+      "quick_revision": "Camphor has stimulant, antispasmodic, and antiseptic actions, used in respiratory and skin conditions."
     },
     "teacher": {
       "teaching_points": [
         "Retained as supplementary material from Gemini batch 74."
       ],
       "discussion_points": [
+        "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data."
       ],
       "practical_points": []
@@ -20001,6 +20253,19 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
@@ -20010,7 +20275,9 @@
       "gemini_later_batches_reviewed": true,
       "gemini_source_batches": [
         74
-      ]
+      ],
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     },
     "gemini_source_data": {
       "id": 74,
@@ -20154,9 +20421,9 @@
       ]
     },
     "dosha": {
-      "vata": "",
-      "pitta": "",
-      "kapha": "",
+      "vata": "aggravated",
+      "pitta": "pacified",
+      "kapha": "pacified",
       "summary": "Kapha-Pittashamaka"
     },
     "therapeutics": {
@@ -20235,14 +20502,17 @@
         "shloka_number": "Verse 151-152",
         "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
         "page_number": "Needs checking against physical copy for exact page"
-      }
+      },
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
       "chemical_notes": ""
     },
     "modern_information": {
-      "evidence_summary": "",
+      "evidence_summary": "Bitter tonic used for fever, appetite, and digestion.",
       "recognized_uses": [],
       "safety_notes": "",
       "sources": []
@@ -20252,7 +20522,7 @@
       "viva_questions": [],
       "identification_points": [],
       "mnemonics": [],
-      "quick_revision": ""
+      "quick_revision": "Bitter tonic used for fever, appetite, and digestion."
     },
     "teacher": {
       "teaching_points": [
@@ -20286,6 +20556,19 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
@@ -20295,7 +20578,9 @@
       "gemini_later_batches_reviewed": true,
       "gemini_source_batches": [
         81
-      ]
+      ],
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     },
     "gemini_source_data": {
       "id": 81,
@@ -20374,7 +20659,12 @@
       "english_name": "Nux-vomica",
       "hindi_name": "",
       "regional_names": [],
-      "synonyms": []
+      "synonyms": [
+        "Kupilu",
+        "Kulukaka",
+        "Ramaphala",
+        "Chipita"
+      ]
     },
     "classification": {
       "kingdom": "Plantae",
@@ -20406,21 +20696,38 @@
       "bark": ""
     },
     "dravya_guna": {
-      "rasa": [],
-      "guna": [],
-      "virya": "",
-      "vipaka": "",
-      "prabhava": "",
+      "rasa": [
+        "Tikta",
+        "Katu"
+      ],
+      "guna": [
+        "Laghu",
+        "Tikshna"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": [
+        "Vatahara",
+        "Deepana"
+      ],
       "karma": []
     },
     "dosha": {
-      "vata": "",
-      "pitta": "",
-      "kapha": ""
+      "vata": "pacified",
+      "pitta": "aggravated",
+      "kapha": "pacified"
     },
     "therapeutics": {
-      "useful_part": [],
-      "indications": [],
+      "useful_part": [
+        "Bija"
+      ],
+      "indications": [
+        "Vata Vyadhi",
+        "Gridhrasi",
+        "Amavata",
+        "Agnimandya",
+        "Klaibya"
+      ],
       "therapeutic_actions": [],
       "dose": "",
       "anupana": "",
@@ -20433,14 +20740,17 @@
       "shlokas": [],
       "nighantu_references": [],
       "samhita_references": [],
-      "shloka_reference_status": "requires text-level verification"
+      "shloka_reference_status": "requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
       "chemical_notes": ""
     },
     "modern_information": {
-      "evidence_summary": "",
+      "evidence_summary": "Strychnos nux-vomica (Nux vomica) is a highly toxic herb used in purified, minute doses to stimulate the nervous system and digestion.",
       "recognized_uses": [],
       "safety_notes": "",
       "sources": []
@@ -20450,7 +20760,7 @@
       "viva_questions": [],
       "identification_points": [],
       "mnemonics": [],
-      "quick_revision": ""
+      "quick_revision": "Strychnos nux-vomica (Nux vomica) is a highly toxic herb used in purified, minute doses to stimulate the nervous system and digestion."
     },
     "teacher": {
       "teaching_points": [
@@ -20484,12 +20794,27 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "supplementary_needs_source_verification",
       "source_batch": "Gemini batch 95",
-      "version": "1.0"
+      "version": "1.0",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -20506,7 +20831,12 @@
       "english_name": "Gloriosa lily",
       "hindi_name": "",
       "regional_names": [],
-      "synonyms": []
+      "synonyms": [
+        "Kalihari",
+        "Garbhaghatini",
+        "Agnishikha",
+        "Visalya"
+      ]
     },
     "classification": {
       "kingdom": "Plantae",
@@ -20538,21 +20868,39 @@
       "bark": ""
     },
     "dravya_guna": {
-      "rasa": [],
-      "guna": [],
-      "virya": "",
-      "vipaka": "",
-      "prabhava": "",
+      "rasa": [
+        "Katu",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Tikshna"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": [
+        "Kushtaghna",
+        "Garbhashaya Sankochaka"
+      ],
       "karma": []
     },
     "dosha": {
-      "vata": "",
-      "pitta": "",
-      "kapha": ""
+      "vata": "pacified",
+      "pitta": "aggravated",
+      "kapha": "pacified"
     },
     "therapeutics": {
-      "useful_part": [],
-      "indications": [],
+      "useful_part": [
+        "Moola",
+        "Kanda"
+      ],
+      "indications": [
+        "Kushta",
+        "Vrana",
+        "Garbhasanga",
+        "Vata Vyadhi",
+        "Krimi"
+      ],
       "therapeutic_actions": [],
       "dose": "",
       "anupana": "",
@@ -20565,14 +20913,17 @@
       "shlokas": [],
       "nighantu_references": [],
       "samhita_references": [],
-      "shloka_reference_status": "requires text-level verification"
+      "shloka_reference_status": "requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
       "chemical_notes": ""
     },
     "modern_information": {
-      "evidence_summary": "",
+      "evidence_summary": "Gloriosa superba is a potent herb used for inducing labor and in treating skin diseases, but is toxic if not used correctly.",
       "recognized_uses": [],
       "safety_notes": "",
       "sources": []
@@ -20582,7 +20933,7 @@
       "viva_questions": [],
       "identification_points": [],
       "mnemonics": [],
-      "quick_revision": ""
+      "quick_revision": "Gloriosa superba is a potent herb used for inducing labor and in treating skin diseases, but is toxic if not used correctly."
     },
     "teacher": {
       "teaching_points": [
@@ -20616,12 +20967,27 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "supplementary_needs_source_verification",
       "source_batch": "Gemini batch 93",
-      "version": "1.0"
+      "version": "1.0",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -20697,7 +21063,10 @@
       "shlokas": [],
       "nighantu_references": [],
       "samhita_references": [],
-      "shloka_reference_status": "requires text-level verification"
+      "shloka_reference_status": "requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -20748,12 +21117,20 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "supplementary_needs_source_verification",
       "source_batch": "Gemini batch 97",
-      "version": "1.0"
+      "version": "1.0",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -20770,7 +21147,12 @@
       "english_name": "Indian spurge tree",
       "hindi_name": "",
       "regional_names": [],
-      "synonyms": []
+      "synonyms": [
+        "Sudha",
+        "Samantdugdha",
+        "Vajradruma",
+        "Sihunda"
+      ]
     },
     "classification": {
       "kingdom": "Plantae",
@@ -20802,21 +21184,39 @@
       "bark": ""
     },
     "dravya_guna": {
-      "rasa": [],
-      "guna": [],
-      "virya": "",
-      "vipaka": "",
-      "prabhava": "",
+      "rasa": [
+        "Katu"
+      ],
+      "guna": [
+        "Laghu",
+        "Tikshna"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": [
+        "Virechana",
+        "Kushtaghna"
+      ],
       "karma": []
     },
     "dosha": {
-      "vata": "",
-      "pitta": "",
-      "kapha": ""
+      "vata": "pacified",
+      "pitta": "aggravated",
+      "kapha": "pacified"
     },
     "therapeutics": {
-      "useful_part": [],
-      "indications": [],
+      "useful_part": [
+        "Ksheera",
+        "Kanda",
+        "Patra"
+      ],
+      "indications": [
+        "Udararoga",
+        "Gulma",
+        "Kushta",
+        "Arsha",
+        "Pliharoga"
+      ],
       "therapeutic_actions": [],
       "dose": "",
       "anupana": "",
@@ -20829,14 +21229,17 @@
       "shlokas": [],
       "nighantu_references": [],
       "samhita_references": [],
-      "shloka_reference_status": "requires text-level verification"
+      "shloka_reference_status": "requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
       "chemical_notes": ""
     },
     "modern_information": {
-      "evidence_summary": "",
+      "evidence_summary": "Euphorbia neriifolia is a very potent purgative herb used under expert guidance for severe constipation and skin diseases.",
       "recognized_uses": [],
       "safety_notes": "",
       "sources": []
@@ -20846,7 +21249,7 @@
       "viva_questions": [],
       "identification_points": [],
       "mnemonics": [],
-      "quick_revision": ""
+      "quick_revision": "Euphorbia neriifolia is a very potent purgative herb used under expert guidance for severe constipation and skin diseases."
     },
     "teacher": {
       "teaching_points": [
@@ -20880,12 +21283,27 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "supplementary_needs_source_verification",
       "source_batch": "Gemini batches 92 and 106",
-      "version": "1.0"
+      "version": "1.0",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   },
   {
@@ -20902,7 +21320,12 @@
       "english_name": "Indian bay leaf",
       "hindi_name": "",
       "regional_names": [],
-      "synonyms": []
+      "synonyms": [
+        "Tejpatra",
+        "Patra",
+        "Dala",
+        "Guchhapatra"
+      ]
     },
     "classification": {
       "kingdom": "Plantae",
@@ -20934,21 +21357,37 @@
       "bark": ""
     },
     "dravya_guna": {
-      "rasa": [],
-      "guna": [],
-      "virya": "",
-      "vipaka": "",
-      "prabhava": "",
+      "rasa": [
+        "Tikta",
+        "Katu"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": [
+        "Deepana",
+        "Krimighna"
+      ],
       "karma": []
     },
     "dosha": {
-      "vata": "",
-      "pitta": "",
-      "kapha": ""
+      "vata": "pacified",
+      "pitta": "aggravated",
+      "kapha": "pacified"
     },
     "therapeutics": {
-      "useful_part": [],
-      "indications": [],
+      "useful_part": [
+        "Patra"
+      ],
+      "indications": [
+        "Aruchi",
+        "Hrillasa",
+        "Peenasa",
+        "Arsha",
+        "Pinasa"
+      ],
       "therapeutic_actions": [],
       "dose": "",
       "anupana": "",
@@ -20961,14 +21400,17 @@
       "shlokas": [],
       "nighantu_references": [],
       "samhita_references": [],
-      "shloka_reference_status": "requires text-level verification"
+      "shloka_reference_status": "requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
       "chemical_notes": ""
     },
     "modern_information": {
-      "evidence_summary": "",
+      "evidence_summary": "Bay leaf improves appetite, respiration and balances kapha dosha.",
       "recognized_uses": [],
       "safety_notes": "",
       "sources": []
@@ -20978,7 +21420,7 @@
       "viva_questions": [],
       "identification_points": [],
       "mnemonics": [],
-      "quick_revision": ""
+      "quick_revision": "Bay leaf improves appetite, respiration and balances kapha dosha."
     },
     "teacher": {
       "teaching_points": [
@@ -21012,12 +21454,27 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "supplementary_needs_source_verification",
       "source_batch": "Gemini batch 70",
-      "version": "1.0"
+      "version": "1.0",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
     }
   }
 ]
