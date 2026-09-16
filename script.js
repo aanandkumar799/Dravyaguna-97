@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const urls = {
     index: new URL('plant-index.json', window.location.href).href,
     fallback: new URL('plants.json', window.location.href).href,
-    batches: ['plant-batch-24-28.json','plant-batch-29-33.json','plant-batch-34-38.json','plant-batch-39-43.json','plant-batch-44-48.json']
+    batches: ['plant-batch-24-28.json','plant-batch-29-33.json','plant-batch-34-38.json','plant-batch-39-43.json','plant-batch-44-48.json','plant-batch-49-53.json']
       .map(name => new URL(name, window.location.href).href)
   };
 
@@ -33,8 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const category = p => p?.category === 'Supplementary' ? 'Supplementary' : 'NCISM-97';
   const image = p => p?.images?.whole_plant || p?.images?.habit || p?.images?.leaf || '';
 
-  // plant-index.json is the authoritative source for NCISM numbering.
-  // Detail/batch records enrich the index but must never replace its order/category.
   const mergeRecord = (base = {}, patch = {}) => {
     const merged = {
       ...base,
