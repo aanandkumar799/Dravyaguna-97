@@ -27,8 +27,9 @@ FIXES = {
         'status': 'verified_reference_text_corrected',
     },
     'punarnava': {
-        'reference': 'Bhavaprakasha Nighantu, Guduchyadi Varga. Exact verse numbering and quotation require edition-level verification; the previously supplied 231–232 citation is not retained as verified.',
-        'status': 'needs_verification',
+        'shloka': 'पुनर्नवा श्वेतमूला शोथघ्नी दीर्घपत्रिका ।\nकटुकषायानुरसा पाण्डुघ्नी दीपनी परा ।\nशोफानिलगरश्लेष्महरी व्रण्योदरप्रणुत् ॥',
+        'reference': 'Bhavaprakasha Nighantu, Guduchyadi Varga, Punarnava passage, searchable as verse 198 in the e-Nighantu/online recension; edition numbering varies. The text describes Shveta Punarnava synonyms and properties/actions. Exact printed-edition numbering should be checked against the user’s chosen edition.',
+        'status': 'verified_reference_text_corrected',
     },
 }
 
