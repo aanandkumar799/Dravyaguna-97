@@ -1,0 +1,62 @@
+[
+  {
+    "id": 89,
+    "order": 0,
+    "category": "Supplementary",
+    "batch_id": "89-93",
+    "identity": {"name":"Bhanga","sanskrit_name":"भङ्गा","botanical_name":"Cannabis sativa L.","family":"Cannabaceae","english_name":"Indian Hemp / Marijuana","useful_part":"Leaves (Patra), flowering tops (Pushpa-manjari)"},
+    "dravya_guna": {"rasa":["Katu","Tikta"],"guna":["Laghu","Tikshna","Ruksha"],"virya":"Ushna","vipaka":"Katu","prabhava":"Madakari / Vyavayi / Nidrajanana / Deepana","dosha_karma":"Kapha-Vatashamaka"},
+    "therapeutics": {"actions":["Deepana","Pachana","Nidrajanana","Madakari","Vyavayi","Grahi","Vedanasthapana","Kasahara"],"indications":["Anidra","Agnimandya","Atisara","Shoola","Unmada","Kasa"],"formulations":["Jatiphaladi Churna","Anand Bhairav Rasa","Maharasnadi Kwatha","Madananda Modaka","Vijayadi Vati"]},
+    "identification":"Palmate compound leaves with narrow serrated leaflets and resinous flowering tops.",
+    "classical_reference":{"text_grantha_name":"Bhavaprakasha Nighantu","varga_chapter":"Guduchyadi Varga","shloka_number":"Supplied 233-235; not independently verified in this edition","verification_status":"Edition-specific verification required"},
+    "safety_note":"Controlled psychoactive drug; legal status and permitted medicinal use vary by jurisdiction. No dosing guidance is provided."
+  },
+  {
+    "id": 90,
+    "order": 41,
+    "category": "NCISM-97",
+    "batch_id": "89-93",
+    "identity": {"name":"Ahiphena","sanskrit_name":"अहिफेन","botanical_name":"Papaver somniferum L.","family":"Papaveraceae","english_name":"Opium Poppy","useful_part":"Purified exudate of unripe capsule"},
+    "dravya_guna": {"rasa":["Tikta","Kashaya"],"guna":["Laghu","Ruksha","Sukshma","Vyavayi","Vikasi"],"virya":"Ushna","vipaka":"Katu","prabhava":"Nidrajanana / Stambhana / Vedanasthapana","dosha_karma":"Kapha-Vatashamaka; supplied source also notes Pitta-vardhaka"},
+    "therapeutics": {"actions":["Nidrajanana","Vedanasthapana","Grahi","Stambhana","Swasahara","Kasahara"],"indications":["Atisara","Grahani","Anidra","Shoola","Kasa / Shwasa"],"formulations":["Ahiphenasava","Nidrodaya Rasa","Karpura Rasa","Dhatri Rasayana","Sanjivani Vati"]},
+    "identification":"Dark reddish-brown to blackish resinous latex-derived material.",
+    "classical_reference":{"text_grantha_name":"Bhavaprakasha Nighantu","varga_chapter":"Dhatvadi/Vishadi section as supplied","shloka_number":"Supplied 245-246; not independently verified in this edition","verification_status":"Edition-specific verification required"},
+    "safety_note":"Opium contains controlled opioid alkaloids. This entry is educational only; no dosing or preparation instructions are provided."
+  },
+  {
+    "id": 91,
+    "order": 0,
+    "category": "Supplementary",
+    "batch_id": "89-93",
+    "identity": {"name":"Arka","sanskrit_name":"अर्क","botanical_name":"Calotropis procera / Calotropis gigantea","family":"Apocynaceae (Asclepiadaceae older usage)","english_name":"Crown Flower / Madar","useful_part":"Root bark, latex, leaves, flowers"},
+    "dravya_guna": {"rasa":["Katu","Tikta"],"guna":["Laghu","Ruksha","Tikshna"],"virya":"Ushna","vipaka":"Katu","prabhava":"Bhedana / Vamana / Ksheera-virechana","dosha_karma":"Kapha-Vatashamaka"},
+    "therapeutics": {"actions":["Deepana","Pachana","Vamana","Virechana","Shothahara","Vedanasthapana","Kushtaghna","Krimighna"],"indications":["Kushta","Shotha","Gulma","Udara Roga","Krimi","Arsha"],"formulations":["Arka Lavana","Arka Taila","Dhanvantara Ghrita","Mahavishagarbha Taila","Abhayadi Modaka"]},
+    "identification":"Erect shrub with thick leaves, milky latex and purple or white crown-like flowers.",
+    "classical_reference":{"text_grantha_name":"Bhavaprakasha Nighantu","varga_chapter":"Guduchyadi Varga","shloka_number":"Supplied 67-69; not independently verified in this edition","verification_status":"Edition-specific verification required"},
+    "safety_note":"Latex and other parts can be toxic/irritant; professional handling is required."
+  },
+  {
+    "id": 92,
+    "order": 0,
+    "category": "Supplementary",
+    "batch_id": "89-93",
+    "identity": {"name":"Snuhi","sanskrit_name":"स्नुही","botanical_name":"Euphorbia neriifolia L.","family":"Euphorbiaceae","english_name":"Common Milk Hedge / Sehund","useful_part":"Milky latex, stem/leaves"},
+    "dravya_guna": {"rasa":["Katu"],"guna":["Laghu","Ruksha","Tikshna"],"virya":"Ushna","vipaka":"Katu","prabhava":"Tivra-Virechana / Kshara-sutra processing","dosha_karma":"Kapha-Vatashamaka"},
+    "therapeutics": {"actions":["Tivra-Virechana","Shothahara","Gulmahara","Vedanasthapana","Ksharakarma"],"indications":["Udara Roga","Gulma","Shotha","Arsha","Bhagandara","Kushta"],"formulations":["Abhayadi Modaka","Snuhi Ksheeradi Varti","Kshara Sutra","Jalodarari Rasa","Vishagarbha Taila"]},
+    "identification":"Large succulent shrub with angular branches, paired spines and copious acrid milky latex.",
+    "classical_reference":{"text_grantha_name":"Bhavaprakasha Nighantu","varga_chapter":"Guduchyadi Varga","shloka_number":"Supplied 74-76; not independently verified in this edition","verification_status":"Edition-specific verification required"},
+    "safety_note":"Fresh latex is strongly irritant/toxic; clinical use requires appropriate processing and qualified supervision."
+  },
+  {
+    "id": 93,
+    "order": 0,
+    "category": "Supplementary",
+    "batch_id": "89-93",
+    "identity": {"name":"Langali","sanskrit_name":"लाङ्गली","botanical_name":"Gloriosa superba L.","family":"Colchicaceae (Liliaceae older usage)","english_name":"Glory Lily / Malabar Glory Lily","useful_part":"Purified tuberous root"},
+    "dravya_guna": {"rasa":["Katu","Tikta"],"guna":["Laghu","Tikshna"],"virya":"Ushna","vipaka":"Katu","prabhava":"Garbhashaya-sankochaka / Krimighna","dosha_karma":"Kapha-Vatashamaka"},
+    "therapeutics": {"actions":["Krimighna","Kushtaghna","Shothahara","Vedanasthapana"],"indications":["Moodha-garbha","Krimi Roga","Kushta","Sandhishoola","Vrana"],"formulations":["Langali Taila","Kasisadi Taila","Nirgundi Taila","Mahavishagarbha Taila","Kalihari Varti"]},
+    "identification":"Climbing plant with coiled tendrils, fleshy V-shaped tubers and striking reflexed red-yellow flowers.",
+    "classical_reference":{"text_grantha_name":"Bhavaprakasha Nighantu","varga_chapter":"Guduchyadi Varga","shloka_number":"Supplied 105-107; not independently verified in this edition","verification_status":"Edition-specific verification required"},
+    "safety_note":"Gloriosa superba is highly toxic; its tuber contains colchicine-related toxic constituents. No dosing or self-use instructions are provided."
+  }
+]
