@@ -26,25 +26,35 @@ document.addEventListener('DOMContentLoaded',()=>{
  const closeModal=()=>{modal.classList.remove('show');modal.setAttribute('aria-hidden','true');modalImg.removeAttribute('src')};close.onclick=closeModal;modal.onclick=e=>{if(e.target===modal)closeModal()};document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
  if(!id){error('No plant selected','Please select a plant from the DravyaGuna 97 library.');return}
  const dossierURL=new URL('data/plants/'+encodeURIComponent(id)+'.json',location.href),databaseURL=new URL('plants.json',location.href);
- const partTerms={whole_plant:'whole plant',habit:'whole plant',root:'root',stem:'stem',leaf:'leaf leaves foliage',flower:'flower flowers',fruit:'fruit fruits',seed:'seed seeds',bark:'bark trunk'};
- const partWords={root:['root','roots'],stem:['stem','stems'],leaf:['leaf','leaves','foliage'],flower:['flower','flowers'],fruit:['fruit','fruits'],seed:['seed','seeds'],bark:['bark','trunk'],whole_plant:[],habit:[]};
- const commonsSearch=async(botanical,part)=>{
-   const queries=[`"${botanical}" ${partTerms[part]||part}`,`"${botanical}"`];
+ const partTerms={whole_plant:'whole plant specimen',habit:'habit growth form morphology',root:'root roots',stem:'stem stems',leaf:'leaf leaves foliage',flower:'flower flowers inflorescence',fruit:'fruit fruits',seed:'seed seeds',bark:'bark trunk'};
+ const partWords={root:['root','roots'],stem:['stem','stems'],leaf:['leaf','leaves','foliage'],flower:['flower','flowers','inflorescence'],fruit:['fruit','fruits'],seed:['seed','seeds'],bark:['bark','trunk'],whole_plant:[],habit:['habit','growth form','shrub','tree','herb','climber','vine']};
+ const commonsSearch=async(botanical,part,usedUrls)=>{
+   const base=`"${botanical}"`;
+   const queries=part==='whole_plant'?[`${base} whole plant specimen`,`${base} plant`]:part==='habit'?[`${base} habit`,`${base} growth form`,`${base} shrub tree herb plant`]:[`${base} ${partTerms[part]||part}`,base];
    for(const q of queries){
     try{
-     const u='https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch='+encodeURIComponent(q)+'&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|extmetadata&iiurlwidth=1200&format=json&origin=*';
+     const u='https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch='+encodeURIComponent(q)+'&gsrnamespace=6&gsrlimit=12&prop=imageinfo&iiprop=url|extmetadata|mime&iiurlwidth=1200&format=json&origin=*';
      const r=await fetch(u,{cache:'force-cache'});if(!r.ok)continue;const j=await r.json();const pages=Object.values(j.query?.pages||{});
-     const candidate=pages.find(p=>{const title=String(p.title||'').toLowerCase();const species=String(botanical).toLowerCase();const nameMatch=title.includes(species.split(' ')[0]);if(!nameMatch)return false;if(part==='whole_plant'||part==='habit')return true;return (partWords[part]||[]).some(w=>title.includes(w));});
-     const info=candidate?.imageinfo?.[0];if(info){return{url:info.thumburl||info.url,title:candidate.title,page:'https://commons.wikimedia.org/wiki/'+encodeURIComponent(candidate.title.replace(/ /g,'_'))}};
+     const candidates=pages.filter(p=>{
+       const title=String(p.title||'').toLowerCase(),species=String(botanical).toLowerCase();
+       if(!title.includes(species.split(' ')[0]))return false;
+       const info=p.imageinfo?.[0];if(!info||String(info.mime||'').startsWith('video/'))return false;
+       const url=info.thumburl||info.url;if(!url||usedUrls.has(url))return false;
+       if(part==='whole_plant')return /whole\s*plant|plant\s*specimen|full\s*plant|entire\s*plant/i.test(title)&&!/(habit|leaf|flower|fruit|seed|root|bark|stem|trunk)/i.test(title);
+       if(part==='habit')return /habit|growth\s*form|shrub|tree|herb|climber|vine/i.test(title)&&!/(leaf|flower|fruit|seed|root|bark)/i.test(title);
+       return (partWords[part]||[]).some(w=>title.includes(w));
+     });
+     const candidate=candidates[0],info=candidate?.imageinfo?.[0];
+     if(info){const url=info.thumburl||info.url;usedUrls.add(url);return{url,title:candidate.title,page:'https://commons.wikimedia.org/wiki/'+encodeURIComponent(candidate.title.replace(/ /g,'_'))}};
     }catch(e){console.warn('Wikimedia lookup failed',q,e)}
    }
    return null;
  };
  const buildGallery=async(name,botanical)=>{
    const host=document.getElementById('plant-gallery-host');if(!host)return;
-   const pairs=[['whole_plant','Whole plant'],['habit','Habit'],['root','Root'],['stem','Stem'],['leaf','Leaf'],['flower','Flower'],['fruit','Fruit'],['seed','Seed'],['bark','Bark']];
-   const cards=[];
-   for(const [k,label] of pairs){const result=botanical?await commonsSearch(botanical,k):null;if(result)cards.push(`<figure class="gallery-item"><img src="${esc(result.url)}" alt="${esc(name+' '+label)}" loading="lazy" class="plant-gallery-image"><figcaption>${esc(label)}</figcaption><a class="gallery-source" href="${esc(result.page)}" target="_blank" rel="noopener noreferrer">Source: Wikimedia Commons · ${esc(result.title.replace(/^File:/,''))}</a></figure>`);else cards.push(`<figure class="gallery-item"><div class="image-loading">No verified ${esc(label.toLowerCase())} image found yet</div><figcaption>${esc(label)}</figcaption></figure>`)}
+   const pairs=[['whole_plant','Whole plant'],['habit','Habit / growth form'],['root','Root'],['stem','Stem'],['leaf','Leaf'],['flower','Flower'],['fruit','Fruit'],['seed','Seed'],['bark','Bark']];
+   const usedUrls=new Set(),cards=[];
+   for(const [k,label] of pairs){const result=botanical?await commonsSearch(botanical,k,usedUrls):null;if(result)cards.push(`<figure class="gallery-item"><img src="${esc(result.url)}" alt="${esc(name+' '+label)}" loading="lazy" class="plant-gallery-image"><figcaption>${esc(label)}</figcaption><a class="gallery-source" href="${esc(result.page)}" target="_blank" rel="noopener noreferrer">Source: Wikimedia Commons · ${esc(result.title.replace(/^File:/,''))}</a></figure>`);else cards.push(`<figure class="gallery-item"><div class="image-loading">No verified ${esc(label.toLowerCase())} image found yet</div><figcaption>${esc(label)}</figcaption></figure>`)}
    host.innerHTML=cards.join('');
    host.querySelectorAll('.plant-gallery-image').forEach(img=>{img.addEventListener('error',()=>{img.style.display='none';const fig=img.closest('.gallery-item');if(fig)fig.classList.add('image-unavailable')},{once:true});img.addEventListener('click',()=>{modalImg.src=img.currentSrc||img.src;modalImg.alt=img.alt;modal.classList.add('show');modal.setAttribute('aria-hidden','false');close.focus()})});
  };
