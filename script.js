@@ -10,6 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let masterPlants = [];
   let searchTimer = null;
+  let showAllPlants = false;
+  const initialPlantLimit = 24;
 
   function escapeHTML(value) {
     return String(value ?? "")
@@ -878,15 +880,30 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
+    const visibleResults =
+      query || showAllPlants
+        ? results
+        : results.slice(0, initialPlantLimit);
+
     plantList.innerHTML =
-      results
+      visibleResults
         .map(plant =>
           renderCard(
             plant,
             query
           )
         )
-        .join("");
+        .join("") +
+      (!query && !showAllPlants && results.length > initialPlantLimit
+        ? `<div class="plant-list-actions"><p>Showing ${initialPlantLimit} of ${results.length} plants.</p><button type="button" id="show-all-plants">Show all ${results.length} plants</button></div>`
+        : "");
+
+    document
+      .getElementById("show-all-plants")
+      ?.addEventListener("click", () => {
+        showAllPlants = true;
+        renderPlants(searchInput?.value || "");
+      });
   }
 
   /* =========================================================
@@ -1101,6 +1118,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const value =
           event.target.value;
+
+        if (!value.trim()) {
+          showAllPlants = false;
+        }
 
         searchTimer =
           setTimeout(

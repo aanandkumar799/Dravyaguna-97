@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aanandkumar799.github.io/Dravyaguna-97/sitemap.xml

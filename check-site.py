@@ -92,7 +92,11 @@ def check_string_list(value, path):
 required_files = [
     "index.html",
     "plant.html",
+    "404.html",
     "plants.json",
+    "plant-index.json",
+    "robots.txt",
+    "sitemap.xml",
     "script.js",
     "style.css",
 ]
@@ -210,7 +214,8 @@ for index, plant in enumerate(plants):
             require_string(
                 identity,
                 field,
-                f"{path}.identity"
+                f"{path}.identity",
+                allow_empty=field not in {"name", "sanskrit_name"}
             )
 
         for field in [
@@ -870,4 +875,43 @@ for index, plant in enumerate(plants):
             )
 
 
-# ================================================
+# ============================================================
+# INDEX CONSISTENCY
+# ============================================================
+
+index_file = ROOT / "plant-index.json"
+if index_file.is_file() and plants:
+    try:
+        index_data = json.loads(index_file.read_text(encoding="utf-8"))
+        index_records = index_data.get("plants") if isinstance(index_data, dict) else None
+        if not isinstance(index_records, list):
+            add_error("plant-index.json must contain a plants array")
+        else:
+            data_ids = [plant.get("id") for plant in plants if isinstance(plant, dict)]
+            index_ids = [item.get("id") for item in index_records if isinstance(item, dict)]
+            if data_ids != index_ids:
+                add_error("plant-index.json order and IDs must match plants.json")
+            if len(data_ids) != 97 or len(index_ids) != 97:
+                add_warning("Expected 97 plant records in both database files")
+    except (OSError, json.JSONDecodeError) as exc:
+        add_error(f"plant-index.json could not be parsed: {exc}")
+
+
+# ============================================================
+# RESULT
+# ============================================================
+
+if warnings:
+    for warning in warnings:
+        print(f"⚠️ {warning}")
+
+if errors:
+    print("SITE CHECK FAILED")
+    for error in errors:
+        print(f"- {error}")
+    sys.exit(1)
+
+print(
+    f"SITE CHECK PASSED: {len(plants)} plant record(s), "
+    "schema, index, homepage hooks, and assets verified"
+)

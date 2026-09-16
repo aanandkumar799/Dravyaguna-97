@@ -15,7 +15,11 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+
+concurrency:
+  group: website-doctor-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   check-website:
@@ -25,17 +29,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
-
-      - name: Complete and validate 97-plant database
-        if: github.event_name == 'push'
-        shell: bash
-        run: |
-          python scripts/complete-97.py
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add plants.json
-          git diff --cached --quiet || git commit -m 'Complete NCISM 97-plant database records'
-          git push
 
       - name: Check JSON files
         shell: bash
@@ -67,7 +60,11 @@ jobs:
           files=(
             "index.html"
             "plant.html"
+            "404.html"
             "plants.json"
+            "plant-index.json"
+            "robots.txt"
+            "sitemap.xml"
             "script.js"
             "style.css"
             "lighthouserc.js"
@@ -98,12 +95,10 @@ jobs:
           python check-inline-js.py
 
       - name: Validate HTML CSS Links Images
-        uses: anishathalye/proof-html@v2
+          uses: anishathalye/proof-html@v2
         with:
           directory: .
           enforce_https: false
-          ignore_missing_alt: true
-          ignore_empty_alt: true
           disable_external: false
 
       - name: Setup Node.js
@@ -126,7 +121,7 @@ jobs:
           echo "======================================"
           echo "🌿 DRAVYAGUNA 97"
           echo "======================================"
-          echo "✅ 97-plant database builder completed"
+          echo "✅ 97-plant database preserved and validated"
           echo "✅ JSON files valid"
           echo "✅ Required files present"
           echo "✅ Homepage data and assets checked"

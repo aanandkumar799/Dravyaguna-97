@@ -6,11 +6,15 @@ on:
       - 'complete-97-trigger.txt'
 permissions:
   contents: write
+
+concurrency:
+  group: complete-97-database
+  cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Build and validate 97 records
         run: python scripts/complete-97.py
       - name: Commit database

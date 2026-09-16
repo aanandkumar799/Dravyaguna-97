@@ -146,20 +146,17 @@ nav a {
     margin: 10px 0;
 }
 
-.user-card button {
+.user-card button,
+.user-zone-button {
+    display: inline-block;
     margin-top: 20px;
-
     padding: 12px 22px;
-
     border: none;
-
     border-radius: 25px;
-
     background: #4d7657;
-
     color: white;
-
     cursor: pointer;
+    text-decoration: none;
 }
 
 
@@ -895,4 +892,38 @@ footer {
     line-height: 2;
   }
 
+}
+
+.plant-list-actions {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  padding: 20px 0 8px;
+  text-align: center;
+}
+
+.plant-list-actions p {
+  margin: 0;
+}
+
+.plant-list-actions button {
+  padding: 11px 18px;
+  border: 0;
+  border-radius: 24px;
+  background: #4d7657;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+}
+
+.medical-disclaimer {
+  margin: 28px 0;
+  padding: 16px 18px;
+  border-left: 4px solid #c59b45;
+  border-radius: 10px;
+  background: #fff8e8;
+  color: #4a3a1c;
 }
