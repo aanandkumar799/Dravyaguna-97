@@ -7,6 +7,7 @@ on:
       - 'scripts/apply-batch-49-53.py'
       - 'scripts/apply-batch-49-53-legacy.py'
       - 'scripts/apply-batch-64-68.py'
+      - 'scripts/apply-batch-69-73.py'
       - 'complete-97-trigger.txt'
 permissions:
   contents: write
@@ -29,10 +30,12 @@ jobs:
         run: python scripts/apply-batch-49-53.py
       - name: Apply curated Gemini batch 64-68 data
         run: python scripts/apply-batch-64-68.py
+      - name: Apply curated Gemini batch 69-73 data
+        run: python scripts/apply-batch-69-73.py
       - name: Commit database and image assets
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add plants.json images/plants
-          git diff --cached --quiet || git commit -m 'Add Gemini batch 64-68 drug data'
+          git diff --cached --quiet || git commit -m 'Add Gemini batch 69-73 drug data'
           git push
