@@ -1,0 +1,13 @@
+{
+  "name": "DravyaGuna 97",
+  "short_name": "DravyaGuna 97",
+  "description": "BAMS Dravyaguna Vigyan plant reference and revision portal.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8f5ed",
+  "theme_color": "#1b4332",
+  "icons": [
+    {"src":"images/favicon.png","sizes":"192x192","type":"image/png","purpose":"any maskable"}
+  ]
+}
