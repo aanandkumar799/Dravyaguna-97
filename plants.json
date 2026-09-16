@@ -39,8 +39,8 @@
       ]
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/amalaki.jpg",
+      "habit": "images/plants/amalaki.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -108,7 +108,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [
@@ -189,13 +193,26 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Phyllanthus_emblica_L._(49546283213).jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.2"
+      "version": "1.1",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -237,8 +254,8 @@
       ]
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/aragwadha.jpg",
+      "habit": "images/plants/aragwadha.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -289,7 +306,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [
@@ -364,13 +385,26 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:(MHNT)_Cassia_fistula_MHNT.bot.2007.26.54.jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.2"
+      "version": "1.1",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -413,8 +447,8 @@
       ]
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/arjuna.png",
+      "habit": "images/plants/arjuna.png",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -471,7 +505,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [
@@ -552,13 +590,26 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Indian_Medicinal_Plants_(Text_Part_1).djvu",
+        "license_note": "Check the original file page for current license/attribution requirements."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.2"
+      "version": "1.1",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -594,8 +645,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/ashoka.jpg",
+      "habit": "images/plants/ashoka.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -633,7 +684,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -684,13 +739,26 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Asokaflower.jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "needs_detailed_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.2"
+      "version": "1.1",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -743,8 +811,8 @@
       ]
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/ashwagandha.jpg",
+      "habit": "images/plants/ashwagandha.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -793,7 +861,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -844,14 +916,27 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Asbagandha_(Assamese_%E0%A6%85%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%97%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A6%BE)_(45645607082).jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "research_verified_with_classical_reference_pending",
       "last_verified": "2026-09-16",
       "verified_by": "Web research against government, botanical and peer-reviewed sources",
-      "version": "1.0",
-      "content_policy": "Classical Sanskrit verses and exact classical verse numbers are not marked verified until checked against a primary text edition."
+      "version": "1.1",
+      "content_policy": "Classical Sanskrit verses and exact classical verse numbers are not marked verified until checked against a primary text edition.",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -887,8 +972,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/ativisha.png",
+      "habit": "images/plants/ativisha.png",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -926,7 +1011,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -977,13 +1066,26 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Indian_Medicinal_Plants_(Text_Part_1).djvu",
+        "license_note": "Check the original file page for current license/attribution requirements."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "needs_detailed_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.2"
+      "version": "1.1",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -1019,8 +1121,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/bala.jpg",
+      "habit": "images/plants/bala.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -1058,7 +1160,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -1109,13 +1215,26 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Sida_cordifolia_L._(48917496198).jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "needs_detailed_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.2"
+      "version": "1.1",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -1151,8 +1270,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/beejaka.jpg",
+      "habit": "images/plants/beejaka.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -1190,7 +1309,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -1241,13 +1364,26 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:East_Indian_or_Malabar_Kino_(Pterocarpus_marsupium_Roxb.);_b_Wellcome_V0042657.jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "needs_detailed_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.2"
+      "version": "1.1",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -1322,7 +1458,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -1373,13 +1513,20 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "needs_detailed_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.2"
+      "version": "1.1",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -1415,8 +1562,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/bharangi.jpg",
+      "habit": "images/plants/bharangi.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -1454,7 +1601,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -1505,13 +1656,26 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_7833_qsbg11mar.jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "needs_detailed_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.2"
+      "version": "1.1",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -1604,7 +1768,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [
@@ -1673,13 +1841,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.2"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -1770,7 +1946,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [
@@ -1838,13 +2018,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.2"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -1941,7 +2129,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [
@@ -2013,13 +2205,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.2"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -2110,7 +2310,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [
@@ -2178,13 +2382,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.2"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -2259,7 +2471,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -2310,13 +2526,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "needs_detailed_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.2"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -2391,7 +2615,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -2442,13 +2670,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "needs_detailed_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.2"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -2523,7 +2759,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -2574,13 +2814,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "needs_detailed_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.2"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -2655,7 +2903,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -2706,13 +2958,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "needs_detailed_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.2"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -2787,7 +3047,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -2838,13 +3102,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "needs_detailed_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.2"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -2919,7 +3191,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -2970,13 +3246,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "needs_detailed_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.2"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -3051,7 +3335,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -3097,13 +3385,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -3178,7 +3474,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -3224,13 +3524,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -3305,7 +3613,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -3351,13 +3663,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -3432,7 +3752,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -3478,13 +3802,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -3559,7 +3891,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -3605,13 +3941,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -3686,7 +4030,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -3732,13 +4080,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -3813,7 +4169,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -3859,13 +4219,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -3940,7 +4308,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -3986,13 +4358,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -4067,7 +4447,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -4113,13 +4497,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -4194,7 +4586,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -4240,13 +4636,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -4321,7 +4725,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -4367,13 +4775,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -4448,7 +4864,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -4494,13 +4914,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -4575,7 +5003,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -4621,13 +5053,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -4702,7 +5142,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -4748,13 +5192,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -4829,7 +5281,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -4875,13 +5331,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -4956,7 +5420,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -5002,13 +5470,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -5083,7 +5559,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -5129,13 +5609,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -5210,7 +5698,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -5256,13 +5748,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -5337,7 +5837,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -5383,13 +5887,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -5464,7 +5976,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -5510,13 +6026,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -5591,7 +6115,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -5637,13 +6165,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -5718,7 +6254,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -5764,13 +6304,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -5845,7 +6393,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -5891,13 +6443,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -5972,7 +6532,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -6018,13 +6582,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -6099,7 +6671,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -6145,13 +6721,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -6226,7 +6810,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -6272,13 +6860,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -6353,7 +6949,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -6399,13 +6999,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -6480,7 +7088,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -6526,13 +7138,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -6607,7 +7227,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -6653,13 +7277,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -6734,7 +7366,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -6780,13 +7416,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -6861,7 +7505,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -6907,13 +7555,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -6988,7 +7644,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -7034,13 +7694,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -7115,7 +7783,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -7161,13 +7833,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -7242,7 +7922,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -7288,13 +7972,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -7369,7 +8061,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -7415,13 +8111,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -7496,7 +8200,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -7542,13 +8250,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -7623,7 +8339,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -7669,13 +8389,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -7750,7 +8478,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -7796,13 +8528,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -7877,7 +8617,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -7923,13 +8667,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -8004,7 +8756,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -8050,13 +8806,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -8131,7 +8895,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -8177,13 +8945,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -8258,7 +9034,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -8304,13 +9084,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -8385,7 +9173,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -8431,13 +9223,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -8510,7 +9310,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -8556,13 +9360,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -8637,7 +9449,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -8683,13 +9499,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -8764,7 +9588,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -8810,13 +9638,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -8891,7 +9727,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -8937,13 +9777,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -9018,7 +9866,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -9064,13 +9916,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -9145,7 +10005,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -9191,13 +10055,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -9272,7 +10144,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -9318,13 +10194,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -9399,7 +10283,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -9445,13 +10333,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -9526,7 +10422,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -9572,13 +10472,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -9653,7 +10561,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -9699,13 +10611,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -9780,7 +10700,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -9826,13 +10750,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -9907,7 +10839,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -9953,13 +10889,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -10034,7 +10978,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -10080,13 +11028,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -10161,7 +11117,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -10207,13 +11167,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -10288,7 +11256,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -10334,13 +11306,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -10415,7 +11395,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -10461,13 +11445,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -10542,7 +11534,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -10588,13 +11584,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -10667,7 +11671,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -10713,13 +11721,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -10794,7 +11810,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -10840,13 +11860,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -10921,7 +11949,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -10967,13 +11999,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -11048,7 +12088,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -11094,13 +12138,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -11175,7 +12227,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -11221,13 +12277,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -11302,7 +12366,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -11348,13 +12416,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -11429,7 +12505,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -11475,13 +12555,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -11556,7 +12644,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -11602,13 +12694,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -11683,7 +12783,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -11729,13 +12833,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -11810,7 +12922,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -11856,13 +12972,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -11937,7 +13061,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -11983,13 +13111,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -12064,7 +13200,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -12110,13 +13250,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -12191,7 +13339,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -12237,13 +13389,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -12318,7 +13478,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -12364,13 +13528,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -12445,7 +13617,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -12491,13 +13667,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -12572,7 +13756,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -12618,13 +13806,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   },
   {
@@ -12699,7 +13895,11 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [],
-      "samhita_references": []
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -12745,13 +13945,21 @@
         "type": "medicinal_plants_database",
         "title": "TDU Indian Medicinal Plants Database",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
       }
     ],
     "metadata": {
       "status": "working_draft_needs_text_cross_check",
       "last_verified": "",
       "verified_by": "",
-      "version": "0.3"
+      "version": "1.1",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "automated image/reference enrichment"
     }
   }
 ]
