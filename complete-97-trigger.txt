@@ -1,1 +1,1 @@
-trigger rebuild with full Gemini batches 74-78 uploaded 2026-09-16 10:38 UTC
+trigger data-quality audit rebuild 2026-09-16 16:45 UTC
