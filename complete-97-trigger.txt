@@ -1,1 +1,1 @@
-trigger final database rebuild and validation 2026-09-16 10:05 UTC
+trigger rebuild with full Gemini batches 74-78 uploaded 2026-09-16 10:38 UTC
