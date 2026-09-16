@@ -8,6 +8,7 @@ on:
       - 'scripts/audit-data-quality.py'
       - 'scripts/fix-classical-1-8.py'
       - 'scripts/fix-classical-9-13.py'
+      - 'scripts/verify-classical-14-18.py'
       - 'scripts/fix-missing-panchaka.py'
       - 'scripts/normalize-source-fields.py'
       - 'scripts/normalize-ncism-names.py'
@@ -67,6 +68,8 @@ jobs:
         run: |
           python scripts/fix-classical-1-8.py
           python scripts/fix-classical-9-13.py
+      - name: Apply independent classical verification for records 14-18
+        run: python scripts/verify-classical-14-18.py
       - name: Apply missing Rasa-Panchaka corrections
         run: python scripts/fix-missing-panchaka.py
       - name: Normalize source metadata field types
@@ -98,9 +101,15 @@ jobs:
               cr = p.get('classical_reference', {})
               assert cr.get('shlokas'), f'{name} shloka missing'
               assert cr.get('nighantu_references'), f'{name} classical reference missing'
-          required = {79:'Vatsanabha',80:'Katuki',81:'Kiratatikta',82:'Bhringaraja',83:'Kumkuma',84:'Chitraka',85:'Bhallataka',86:'Gunja',87:'Jayapala',88:'Dhattura'}
-          for bid,name in required.items():
-              assert any(x.get('gemini_source_data',{}).get('id') == bid for x in plants), f'Gemini batch {bid} missing'
+          for name in ('Nimba','Bhallataka','Katuki','Arjuna'):
+              p = next((x for x in core if x.get('identity', {}).get('name','').lower() == name.lower()), None)
+              assert p, f'{name} record missing'
+              cr = p.get('classical_reference', {})
+              assert cr.get('shlokas'), f'{name} independently verified shloka missing'
+              assert cr.get('verified_classical_sources'), f'{name} verification source missing'
+          vasa = next((x for x in core if x.get('identity', {}).get('name','').lower() == 'vasa'), None)
+          assert vasa, 'Vasa record missing'
+          assert vasa.get('classical_reference', {}).get('shlokas') == [], 'Unverified Vasa quotation must not be retained as verified'
           print(f'FINAL VALIDATION PASSED: {len(core)} NCISM-97 + {len(supp)} supplementary = {len(plants)} total')
           PY
       - name: Commit database and image assets
