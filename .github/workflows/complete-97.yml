@@ -5,6 +5,7 @@ on:
     paths:
       - 'scripts/complete-97.py'
       - 'scripts/enrich-97.py'
+      - 'scripts/normalize-ncism-names.py'
       - 'scripts/apply-batch-49-53.py'
       - 'scripts/apply-batch-49-53-legacy.py'
       - 'scripts/apply-batch-64-68.py'
@@ -26,6 +27,8 @@ jobs:
       - uses: actions/checkout@v5
       - name: Build and validate 97 records
         run: python scripts/complete-97.py
+      - name: Normalize NCISM canonical plant names
+        run: python scripts/normalize-ncism-names.py
       - name: Enrich records with plant images and reference hubs
         run: python scripts/enrich-97.py
       - name: Apply Gemini batch 49-53 data
