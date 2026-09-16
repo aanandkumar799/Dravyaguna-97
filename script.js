@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const urls = {
     index: new URL('plant-index.json', window.location.href).href,
     fallback: new URL('plants.json', window.location.href).href,
-    batches: ['plant-batch-24-28.json','plant-batch-29-33.json','plant-batch-34-38.json','plant-batch-39-43.json','plant-batch-44-48.json','plant-batch-49-53.json']
+    batches: ['plant-batch-24-28.json','plant-batch-29-33.json','plant-batch-34-38.json','plant-batch-39-43.json','plant-batch-44-48.json','plant-batch-49-53.json','plant-batch-54-58.json']
       .map(name => new URL(name, window.location.href).href)
   };
 
