@@ -34,17 +34,21 @@ jobs:
       - name: Apply Gemini batch 49-53 data
         run: python scripts/apply-batch-49-53-legacy.py
 
-      - name: Normalize Gemini batch 54-63 name aliases
+      - name: Normalize Gemini batch 54-63 names to NCISM canonical names
         run: |
           python - <<'PY'
           from pathlib import Path
           p = Path('scripts/apply-batch-49-53.py')
           s = p.read_text(encoding='utf-8')
-          marker = "def merge(dst, src):"
-          aliases = "BATCH['Aragwadha'] = BATCH['Aragvadha']\nBATCH['Bhrungaraja'] = BATCH['Bhringaraja']\nBATCH['Trivrut'] = BATCH['Trivrit']\n\n"
-          if aliases not in s:
-              s = s.replace(marker, aliases + marker, 1)
+          replacements = {
+              "'Aragvadha':": "'Aragwadha':",
+              "'Bhringaraja':": "'Bhrungaraja':",
+              "'Trivrit':": "'Trivrut':",
+          }
+          for old, new in replacements.items():
+              s = s.replace(old, new)
           p.write_text(s, encoding='utf-8')
+          print('Normalized Gemini aliases to NCISM canonical names')
           PY
 
       - name: Apply Gemini batch 54-63 data
@@ -58,6 +62,25 @@ jobs:
 
       - name: Consolidate Gemini batches 74-107 and supplementary records
         run: python scripts/apply-gemini-74-107.py
+
+      - name: Final database validation
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('plants.json')
+          plants = json.loads(p.read_text(encoding='utf-8'))
+          core = [x for x in plants if x.get('category') == 'NCISM-97']
+          supp = [x for x in plants if x.get('category') == 'Supplementary']
+          names = [x.get('identity', {}).get('name') for x in core]
+          ids = [x.get('id') for x in core]
+          assert len(core) == 97, f'Expected 97 NCISM records, got {len(core)}'
+          assert len(set(names)) == 97, 'Duplicate NCISM drug names detected'
+          assert len(set(ids)) == 97, 'Duplicate NCISM IDs detected'
+          assert len(plants) == 97 + len(supp), 'Unexpected record count'
+          assert all(x.get('identity', {}).get('name') for x in plants), 'Record missing name'
+          print(f'FINAL VALIDATION PASSED: {len(core)} NCISM-97 + {len(supp)} supplementary = {len(plants)} total')
+          PY
 
       - name: Commit database and image assets
         run: |
