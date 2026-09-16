@@ -34,6 +34,7 @@ jobs:
           mkdir -p _site/data/plants
           cp -R . _site/
           rm -rf _site/.git _site/.github _site/_site
+          python _site/scripts/normalize-plants-schema.py
           python - <<'PY'
           import json
           from pathlib import Path
