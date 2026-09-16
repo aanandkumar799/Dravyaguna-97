@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const order = p => Number.isFinite(Number(p?.order)) ? Number(p.order) : 9999;
   const category = p => { const c = String(p?.category || p?.syllabus_marker || '').toUpperCase(); if(c === 'SUPPLEMENTAL' || c === 'SUPPLEMENTARY') return 'Supplementary'; if(c === 'NCISM-97') return 'NCISM-97'; return ''; };
   const canonicalKey = p => { const c = category(p); if(c === 'NCISM-97' && order(p) >= 1 && order(p) <= 97) return `ncism:${order(p)}`; const b = normalize(botanical(p)); const n = normalize(name(p)); return `supp:${b || n}`; };
-  const image = p => p?.images?.whole_plant || p?.images?.habit || p?.images?.leaf || '';
   const mergeRecord = (base = {}, patch = {}) => { const merged = {...base,...patch,identity:{...(base.identity||{}),...(patch.identity||{})},dravya_guna:{...(base.dravya_guna||{}),...(patch.dravya_guna||{})},therapeutics:{...(base.therapeutics||{}),...(patch.therapeutics||{})},metadata:{...(base.metadata||{}),...(patch.metadata||{})}}; if(base.order!==undefined&&base.order!==null&&Number(base.order)!==0) merged.order=base.order; if(base.category && base.category!=='SUPPLEMENTAL' && base.category!=='Supplementary') merged.category=base.category; return merged; };
   const libraryOrder = (a,b) => { const ca=category(a),cb=category(b); if(ca!==cb) return ca==='NCISM-97'?-1:1; if(ca==='NCISM-97') return order(a)-order(b)||name(a).localeCompare(name(b)); return name(a).localeCompare(name(b)); };
   function score(p,query){const q=normalize(query);if(!q)return 0;const fields=[[name(p),1200],[sanskrit(p),1100],[p.transliteration,1050],[botanical(p),1000],[p.english_name||p.identity?.english_name||p.english_common_name,900],[family(p),800],[p.id,750],[p.search_text,200]];let total=0;for(const[value,points]of fields){const x=normalize(value);if(!x)continue;if(x===q)total+=points;else if(x.startsWith(q))total+=Math.floor(points*.65);else if(x.includes(q))total+=Math.floor(points*.45);}return total;}
@@ -31,21 +30,62 @@ document.addEventListener('DOMContentLoaded', () => {
   function fallbackSvg(label){const safe=String(label||'Plant').replace(/[&<>\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#039;'}[c));const svg=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520"><rect width="800" height="520" fill="#edf5ef"/><text x="400" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="82">🌿</text><text x="400" y="330" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" fill="#1b4332">${safe}</text><text x="400" y="375" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#6b756f">Image not available</text></svg>`;return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;}
   function card(p){const n=name(p),img=image(p),c=category(p),id=String(p.id||'');const fallback=fallbackSvg(n||'Plant');const imageHtml=img?`<img src="${esc(img)}" alt="${esc(n)}" loading="lazy" data-fallback="${esc(fallback)}" data-botanical="${esc(botanical(p))}">`:`<img src="${fallback}" alt="${esc(n||'Plant')} image placeholder" loading="lazy" data-botanical="${esc(botanical(p))}">`;return `<article class="plant-card"><div class="plant-image">${imageHtml}</div><div class="plant-card-content"><div class="plant-card-top"><span class="plant-number">${c==='NCISM-97'?'#'+order(p):'Supplementary'}</span><span class="syllabus-marker">${c||'Unclassified'}</span></div><h3>${esc(n)}</h3>${sanskrit(p)?`<p class="plant-sanskrit">${esc(sanskrit(p))}</p>`:''}${botanical(p)?`<p class="plant-botanical"><em>${esc(botanical(p))}</em></p>`:''}${p.english_name||p.english_common_name?`<p class="plant-english">${esc(p.english_name||p.english_common_name)}</p>`:''}${family(p)?`<p class="plant-family"><strong>Family:</strong> ${esc(family(p))}</p>`:''}<a class="view-plant" href="./plant.html?id=${encodeURIComponent(id)}">Open Full Dossier →</a></div></article>`;}
   function flashcard(p){const n=name(p),s=sanskrit(p),rasa=text(p.rasa)||text(p.dravya_guna?.rasa)||'—',guna=text(p.guna)||text(p.dravya_guna?.guna)||'—';const virya=p.virya||p.dravya_guna?.virya||'—',vipaka=p.vipaka||p.dravya_guna?.vipaka||'—',useful=text(p.useful_part)||text(p.identity?.useful_part)||'—';const badge=category(p)==='NCISM-97'?'#'+order(p):'Supplementary';return `<article class="flashcard" tabindex="0" aria-label="Flashcard for ${esc(n)}"><div class="flash-inner"><div class="flash-face"><div class="plant-number">${badge}</div><h3>${esc(n)}</h3><div class="big-sanskrit">${esc(s||'Sanskrit name unavailable')}</div><p>${esc(botanical(p))}</p><small>Tap / click to flip</small></div><div class="flash-face flash-back"><h3>${esc(n)}</h3><p><strong>Rasa:</strong> ${esc(rasa)}</p><p><strong>Guna:</strong> ${esc(guna)}</p><p><strong>Virya:</strong> ${esc(virya)}</p><p><strong>Vipaka:</strong> ${esc(vipaka)}</p><p><strong>Useful part:</strong> ${esc(useful)}</p><a class="view-plant" href="./plant.html?id=${encodeURIComponent(p.id)}">Open Full Dossier →</a></div></div></article>`;}
-  async function resolveCoverImage(botanicalName){
-    const species=String(botanicalName||'').trim(); if(!species)return null;
+  const imageSources={
+    commons:{name:'Wikimedia Commons',homepage:'https://commons.wikimedia.org/',priority:1},
+    inaturalist:{name:'iNaturalist',homepage:'https://www.inaturalist.org/',priority:2},
+    gbif:{name:'GBIF',homepage:'https://www.gbif.org/',priority:3},
+    powo:{name:'Kew Plants of the World Online',homepage:'https://powo.science.kew.org/',priority:4},
+    efloraindia:{name:'eFlora of India',homepage:'https://efloraofindia.com/',priority:5},
+    indiabiodiversity:{name:'India Biodiversity Portal',homepage:'https://indiabiodiversity.org/',priority:6}
+  };
+  const cleanSpecies = species => String(species||'').replace(/\s+/g,' ').trim();
+  const speciesTokens = species => cleanSpecies(species).toLowerCase().replace(/[()]/g,'').split(/\s+/).filter(x=>x.length>2);
+  const isImageUrl = value => /^https?:\/\//i.test(String(value||''));
+  async function commonsCover(species){
     try{
       const q=`"${species}" plant`;
-      const u='https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch='+encodeURIComponent(q)+'&gsrnamespace=6&gsrlimit=15&prop=imageinfo&iiprop=url|mime&iiurlwidth=900&format=json&origin=*';
-      const r=await fetch(u,{cache:'force-cache'});if(!r.ok)return null;const j=await r.json();
-      const pages=Object.values(j.query?.pages||{});const tokens=species.toLowerCase().replace(/[()]/g,'').split(/\s+/).filter(x=>x.length>2);
-      const excluded=/(leaf|leaves|flower|flowers|fruit|seed|root|bark|stem|trunk|diagram|map|microscope|section|cross.?section|illustration)/i;
-      const candidates=pages.filter(p=>{const title=String(p.title||'');const low=title.toLowerCase();const info=p.imageinfo?.[0];if(!info||String(info.mime||'').startsWith('video/'))return false;const score=tokens.filter(t=>low.includes(t)).length;return score>=Math.min(2,tokens.length)&&!excluded.test(low)}).sort((a,b)=>{const sa=String(a.title).toLowerCase(),sb=String(b.title).toLowerCase();const aa=tokens.filter(t=>sa.includes(t)).length,bb=tokens.filter(t=>sb.includes(t)).length;return bb-aa});
-      const info=candidates[0]?.imageinfo?.[0];return info?.thumburl||info?.url||null;
+      const u='https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch='+encodeURIComponent(q)+'&gsrnamespace=6&gsrlimit=20&prop=imageinfo&iiprop=url|mime|extmetadata&iiurlwidth=1000&format=json&origin=*';
+      const r=await fetch(u,{cache:'force-cache'});if(!r.ok)return null;const j=await r.json();const tokens=speciesTokens(species);
+      const excluded=/(leaf|leaves|flower|flowers|fruit|seed|root|bark|stem|trunk|diagram|map|microscope|section|cross.?section|illustration|drawing)/i;
+      const candidates=Object.values(j.query?.pages||{}).filter(p=>{const title=String(p.title||''),low=title.toLowerCase(),info=p.imageinfo?.[0];if(!info||String(info.mime||'').startsWith('video/'))return false;const score=tokens.filter(t=>low.includes(t)).length;return score>=Math.min(2,tokens.length)&&!excluded.test(low);}).sort((a,b)=>tokens.filter(t=>String(b.title).toLowerCase().includes(t)).length-tokens.filter(t=>String(a.title).toLowerCase().includes(t)).length);
+      const p=candidates[0],info=p?.imageinfo?.[0];if(!info)return null;const url=info.thumburl||info.url;return isImageUrl(url)?{url,source:imageSources.commons.name,sourceUrl:'https://commons.wikimedia.org/wiki/'+encodeURIComponent(String(p.title||'').replace(/ /g,'_'))}:null;
     }catch(e){return null;}
   }
+  async function inaturalistCover(species){
+    try{
+      const u='https://api.inaturalist.org/v1/observations?taxon_name='+encodeURIComponent(species)+'&photos=true&photo_license=cc0,cc-by,cc-by-sa&per_page=30&order_by=quality_grade&order=desc';
+      const r=await fetch(u,{cache:'force-cache'});if(!r.ok)return null;const j=await r.json();
+      for(const obs of (j.results||[])){for(const photo of (obs.photos||[])){const code=String(photo.license_code||'').toLowerCase();if(!['cc0','cc-by','cc-by-sa'].includes(code))continue;const url=String(photo.url||'').replace('/square.','/medium.');if(!isImageUrl(url))continue;return{url,source:imageSources.inaturalist.name,sourceUrl:'https://www.inaturalist.org/observations/'+encodeURIComponent(obs.id),attribution:photo.attribution||''};}}
+    }catch(e){}
+    return null;
+  }
+  async function gbifCover(species){
+    try{
+      const u='https://api.gbif.org/v1/occurrence/search?scientificName='+encodeURIComponent(species)+'&media_type=StillImage&limit=25&offset=0';
+      const r=await fetch(u,{cache:'force-cache'});if(!r.ok)return null;const j=await r.json();
+      for(const rec of (j.results||[])){
+        const license=String(rec.license||rec.media?.[0]?.license||'').toLowerCase();
+        if(license && !/(creativecommons.org\/licenses\/(by|by-sa|zero)|cc0|cc by)/i.test(license))continue;
+        const media=(rec.media||[]).find(m=>/^https?:\/\//i.test(String(m.identifier||''))&&String(m.type||'').toLowerCase()==='stillimage')||rec.media?.find(m=>/^https?:\/\//i.test(String(m.identifier||'')));
+        if(!media)continue;
+        const url='https://api.gbif.org/v1/image/cache/1200x/occurrence/'+encodeURIComponent(rec.key)+'/media/'+encodeURIComponent(String(media.identifier).split('/').pop());
+        return{url,source:imageSources.gbif.name,sourceUrl:'https://www.gbif.org/occurrence/'+encodeURIComponent(rec.key),attribution:media.creator||rec.recordedBy||''};
+      }
+    }catch(e){}
+    return null;
+  }
+  async function reliableCover(species){
+    if(!cleanSpecies(species))return null;
+    const resolvers=[commonsCover,inaturalistCover,gbifCover];
+    for(const resolver of resolvers){const result=await resolver(species);if(result)return result;}
+    return null;
+  }
+  const image = p => p?.images?.whole_plant || p?.images?.habit || p?.images?.leaf || '';
+  const mergeRecord = (base = {}, patch = {}) => { const merged = {...base,...patch,identity:{...(base.identity||{}),...(patch.identity||{})},dravya_guna:{...(base.dravya_guna||{}),...(patch.dravya_guna||{})},therapeutics:{...(base.therapeutics||{}),...(patch.therapeutics||{})},metadata:{...(base.metadata||{}),...(patch.metadata||{})}}; if(base.order!==undefined&&base.order!==null&&Number(base.order)!==0) merged.order=base.order; if(base.category && base.category!=='SUPPLEMENTAL' && base.category!=='Supplementary') merged.category=base.category; return merged; };
+  const libraryOrder = (a,b) => { const ca=category(a),cb=category(b); if(ca!==cb) return ca==='NCISM-97'?-1:1; if(ca==='NCISM-97') return order(a)-order(b)||name(a).localeCompare(name(b)); return name(a).localeCompare(name(b)); };
   async function verifyVisibleCovers(){
     const imgs=[...plantList.querySelectorAll('img[data-botanical]')];
-    await Promise.all(imgs.map(async img=>{const botanicalName=img.dataset.botanical;if(!botanicalName)return;const verified=await resolveCoverImage(botanicalName);if(verified){img.src=verified;img.removeAttribute('data-fallback');img.dataset.verified='true';}}));
+    await Promise.all(imgs.map(async img=>{const species=img.dataset.botanical;if(!species)return;const verified=await reliableCover(species);if(verified){img.src=verified.url;img.removeAttribute('data-fallback');img.dataset.verified='true';img.dataset.imageSource=verified.source;img.title='Verified botanical image • '+verified.source+(verified.attribution?' • '+verified.attribution:'');}}));
   }
   function render(query=''){const results=filtered(query);const info=document.getElementById('search-result-info');if(info)info.textContent=query?`${results.length} result${results.length===1?'':'s'} found for “${query}”`:`${results.length} record${results.length===1?'':'s'} in ${categoryFilter==='all'?'the library':categoryFilter}`;if(!results.length){plantList.className='plant-grid';plantList.innerHTML='<div class="no-results"><div style="font-size:3rem">🔎</div><h3>No plants found</h3><p>Try a Sanskrit name, Roman name, botanical name, family, or NCISM number.</p></div>';return;}const visible=query||showAll?results:results.slice(0,initialLimit);if(mode==='flash'){plantList.className='flash-grid';plantList.innerHTML=visible.map(flashcard).join('');plantList.querySelectorAll('.flashcard').forEach(c=>{const flip=()=>c.classList.toggle('flipped');c.addEventListener('click',e=>{if(!e.target.closest('a'))flip()});c.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();flip()}});});}else{plantList.className='plant-grid';plantList.innerHTML=visible.map(card).join('')+(!query&&!showAll&&results.length>initialLimit?`<div class="plant-list-actions"><p>Showing ${initialLimit} of ${results.length} records.</p><button type="button" id="show-all-plants">Show all ${results.length}</button></div>`:'');plantList.querySelectorAll('img[data-fallback]').forEach(img=>img.addEventListener('error',()=>{img.src=img.dataset.fallback;img.removeAttribute('data-fallback');},{once:true}));document.getElementById('show-all-plants')?.addEventListener('click',()=>{showAll=true;render(searchInput?.value||'')});verifyVisibleCovers();}}
   function setupControls(){document.querySelectorAll('[data-mode]').forEach(btn=>btn.addEventListener('click',()=>{mode=btn.dataset.mode;showAll=true;document.querySelectorAll('[data-mode]').forEach(b=>b.classList.toggle('active',b.dataset.mode===mode));render(searchInput?.value||'')}));document.querySelectorAll('[data-category]').forEach(btn=>btn.addEventListener('click',()=>{categoryFilter=btn.dataset.category;showAll=false;document.querySelectorAll('[data-category]').forEach(b=>b.classList.toggle('active',b.dataset.category===categoryFilter));render(searchInput?.value||'')}));const jump=()=>{const n=Number(document.getElementById('ncismJump')?.value);if(!n)return;const p=masterPlants.find(x=>category(x)==='NCISM-97'&&order(x)===n);if(p)location.href=`./plant.html?id=${encodeURIComponent(p.id)}`;else alert('NCISM number not found in the current index.')};document.getElementById('jumpButton')?.addEventListener('click',jump);document.getElementById('ncismJump')?.addEventListener('keydown',e=>{if(e.key==='Enter')jump()});}
