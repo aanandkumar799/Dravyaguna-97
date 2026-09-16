@@ -11,15 +11,14 @@ on:
       - 'scripts/apply-batch-69-73.py'
       - 'scripts/apply-gemini-74-107.py'
       - 'scripts/apply-gemini-79-83.py'
+      - 'scripts/apply-gemini-84-88.py'
       - 'complete-97-trigger.txt'
       - '.github/workflows/complete-97.yml'
 permissions:
   contents: write
-
 concurrency:
   group: complete-97-database
   cancel-in-progress: false
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -52,6 +51,8 @@ jobs:
         run: python scripts/apply-gemini-74-107.py
       - name: Apply full Gemini batches 79-83 data
         run: python scripts/apply-gemini-79-83.py
+      - name: Apply full Gemini batches 84-88 data
+        run: python scripts/apply-gemini-84-88.py
       - name: Final database validation
         run: |
           python - <<'PY'
@@ -67,7 +68,7 @@ jobs:
           assert len(set(ids)) == 97, 'Duplicate NCISM IDs detected'
           assert len(plants) == 97 + len(supp), 'Unexpected record count'
           assert all(x.get('identity', {}).get('name') for x in plants), 'Record missing name'
-          required = {79:'Vatsanabha',80:'Katuki',81:'Kiratatikta',82:'Bhringaraja',83:'Kumkuma'}
+          required = {79:'Vatsanabha',80:'Katuki',81:'Kiratatikta',82:'Bhringaraja',83:'Kumkuma',84:'Chitraka',85:'Bhallataka',86:'Gunja',87:'Jayapala',88:'Dhattura'}
           for bid,name in required.items():
               assert any(x.get('gemini_source_data',{}).get('id') == bid for x in plants), f'Gemini batch {bid} missing'
           print(f'FINAL VALIDATION PASSED: {len(core)} NCISM-97 + {len(supp)} supplementary = {len(plants)} total')
