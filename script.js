@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const urls = {
     index: new URL('plant-index.json', window.location.href).href,
     fallback: new URL('plants.json', window.location.href).href,
-    batches: ['plant-batch-24-28.json','plant-batch-29-33.json','plant-batch-34-38.json','plant-batch-39-43.json','plant-batch-44-48.json','plant-batch-49-53.json','plant-batch-54-58.json','plant-batch-59-63.json','plant-batch-64-68.json','plant-batch-69-73.json','plant-batch-74-78.json'].map(name => new URL(name, window.location.href).href)
+    batches: ['plant-batch-24-28.json','plant-batch-29-33.json','plant-batch-34-38.json','plant-batch-39-43.json','plant-batch-44-48.json','plant-batch-49-53.json','plant-batch-54-58.json','plant-batch-59-63.json','plant-batch-64-68.json','plant-batch-69-73.json','plant-batch-74-78.json','plant-batch-79-83.json'].map(name => new URL(name, window.location.href).href)
   };
   let masterPlants = [];
   let searchTimer;
