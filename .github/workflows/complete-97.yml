@@ -5,6 +5,7 @@ on:
     paths:
       - 'scripts/complete-97.py'
       - 'scripts/enrich-97.py'
+      - 'scripts/fix-classical-9-13.py'
       - 'scripts/normalize-ncism-names.py'
       - 'scripts/apply-batch-49-53.py'
       - 'scripts/apply-batch-49-53-legacy.py'
@@ -31,6 +32,8 @@ jobs:
         run: python scripts/normalize-ncism-names.py
       - name: Enrich records with plant images and reference hubs
         run: python scripts/enrich-97.py
+      - name: Apply corrected classical references for drugs 9-13
+        run: python scripts/fix-classical-9-13.py
       - name: Apply Gemini batch 49-53 data
         run: python scripts/apply-batch-49-53-legacy.py
       - name: Normalize Gemini batch 54-63 names to NCISM canonical names
