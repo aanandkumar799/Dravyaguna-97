@@ -1257,6 +1257,7 @@
       "teaching_points": [],
       "discussion_points": [
         "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
+        "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data."
       ],
       "practical_points": []
@@ -4410,7 +4411,8 @@
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
       "last_enrichment": "structured-field + image + reference enrichment + curated batch",
       "batch_49_53_added": true,
-      "batch_54_63_added": true
+      "batch_54_63_added": true,
+      "classical_review_batch": "9-13 corrected 2026-09-16"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -4955,7 +4957,8 @@
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
       "last_enrichment": "structured-field + image + reference enrichment + curated batch",
       "batch_49_53_added": true,
-      "batch_54_63_added": true
+      "batch_54_63_added": true,
+      "classical_review_batch": "9-13 corrected 2026-09-16"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -5874,6 +5877,7 @@
     "teacher": {
       "teaching_points": [],
       "discussion_points": [
+        "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data."
       ],
@@ -8244,8 +8248,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/ahiphena.jpg",
+      "habit": "images/plants/ahiphena.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -8360,6 +8364,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:21_Papaver_somniferum_L.jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -8552,8 +8562,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/apamarga.jpg",
+      "habit": "images/plants/apamarga.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -8670,6 +8680,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Achyranthes_aspera_L._(51641809746).jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -8720,8 +8736,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/asthishrunkhala.jpg",
+      "habit": "images/plants/asthishrunkhala.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -8835,6 +8851,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Cissus_quadrangularis_(9859586963).jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -8886,8 +8908,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/bakuchi.jpg",
+      "habit": "images/plants/bakuchi.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -9004,6 +9026,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Bawchi_Seeds.jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -9224,8 +9252,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/chakramarda.jpg",
+      "habit": "images/plants/chakramarda.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -9340,6 +9368,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Senna_tora_(L.)_Roxb._(49107593058).jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -9390,8 +9424,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/dhanyaka.jpg",
+      "habit": "images/plants/dhanyaka.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -9509,6 +9543,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:(MHNT)_Coriandrum_sativum_-_inflorescence.jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -9560,8 +9600,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/ela.jpg",
+      "habit": "images/plants/ela.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -9704,6 +9744,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Elettaria_cardamomum_0zz.jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -9755,8 +9801,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/gambhari.jpg",
+      "habit": "images/plants/gambhari.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -9872,6 +9918,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Gmelina_arborea_Roxb._(49263213883).jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -9922,8 +9974,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/japa.jpg",
+      "habit": "images/plants/japa.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -10039,6 +10091,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Hibiscus_rosa-sinensis_11zz.jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -12208,7 +12266,8 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "curated batch 64-68"
+      "last_enrichment": "curated batch 64-68",
+      "classical_review_batch": "9-13 corrected 2026-09-16"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -14119,7 +14178,8 @@
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
       "last_enrichment": "structured-field + image + reference enrichment + curated batch",
       "batch_49_53_added": true,
-      "batch_54_63_added": true
+      "batch_54_63_added": true,
+      "classical_review_batch": "9-13 corrected 2026-09-16"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -14630,6 +14690,7 @@
     "teacher": {
       "teaching_points": [],
       "discussion_points": [
+        "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data."
       ],
@@ -16080,7 +16141,8 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "curated batch 64-68"
+      "last_enrichment": "curated batch 64-68",
+      "classical_review_batch": "9-13 corrected 2026-09-16"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -17128,6 +17190,7 @@
     "teacher": {
       "teaching_points": [],
       "discussion_points": [
+        "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data."
       ],
@@ -20223,6 +20286,7 @@
         "Retained as supplementary material from Gemini batch 74."
       ],
       "discussion_points": [
+        "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data."
       ],
