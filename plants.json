@@ -1258,6 +1258,7 @@
       "discussion_points": [
         "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
+        "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data."
       ],
       "practical_points": []
@@ -4325,7 +4326,7 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [
-        "Bhavaprakasha Nighantu, Guduchyadi Varga — exact verse requires edition-level verification"
+        "Bhavaprakasha Nighantu, Guduchyadi Varga. Exact verse numbering and quotation require edition-level verification; the previously supplied 60–61 citation is not retained as verified."
       ],
       "samhita_references": [],
       "shloka_reference_status": "needs_verification",
@@ -4882,10 +4883,10 @@
         "गुग्गुलुर्विशदस्तिक्तो वीर्योष्णः पित्तलः सरः ।\\nकषायः कटुकः पाके कटू रूक्षो लघुः परः ॥३५॥"
       ],
       "nighantu_references": [
-        "Bhavaprakasha Nighantu, Karpuradi Varga, verses 35–36 (edition numbering may vary)"
+        "Bhavaprakasha Nighantu, Karpuradi Varga. The searchable recension places Guggulu after the five varieties (verses 29–30) and its properties in the following verses; exact verse numbering is edition-dependent. The unverified 33–35 citation is removed."
       ],
       "samhita_references": [],
-      "shloka_reference_status": "verified text/reference in searchable Bhavaprakasha recension; edition/page should be recorded separately",
+      "shloka_reference_status": "reference_identified_numbering_needs_edition_verification",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
       ]
@@ -5877,6 +5878,7 @@
     "teacher": {
       "teaching_points": [],
       "discussion_points": [
+        "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data."
@@ -10149,8 +10151,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/jatiphala.jpg",
+      "habit": "images/plants/jatiphala.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -10278,6 +10280,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Jatiphala_(Sanskrit-_%E0%A4%9C%E0%A4%BE%E0%A4%A4%E0%A4%BF%E0%A4%AB%E0%A4%B2)_(6789044628).jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -12189,14 +12197,16 @@
       }
     ],
     "classical_reference": {
-      "shlokas": [],
+      "shlokas": [
+        "मरिचं कटुकं तीक्ष्णं दीपनं कफवातजित् ।\nउष्णं पित्तकरं रूक्षं श्वासशूलकृमीन् हरेत् ॥६०॥"
+      ],
       "nighantu_references": [
-        "Bhavaprakasha Nighantu, Haritakyadi Varga — supplied verse/reference requires edition-level verification"
+        "Bhavaprakasha Nighantu, Haritakyadi Varga, verses 59–61; verse 59 gives synonyms and verses 60–61 properties/ardraka comparison. Independently searchable recension; edition numbering may vary."
       ],
       "samhita_references": [
         "Ashtanga Hridaya, Sutrasthana 6/161–162 describes Maricha and Pippali"
       ],
-      "shloka_reference_status": "needs_verification",
+      "shloka_reference_status": "verified_reference_text_corrected",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
       ]
@@ -14103,7 +14113,7 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [
-        "Bhavaprakasha Nighantu, Guduchyadi Varga — exact verse requires edition-level verification"
+        "Bhavaprakasha Nighantu, Guduchyadi Varga. Exact verse numbering and quotation require edition-level verification; the previously supplied 231–232 citation is not retained as verified."
       ],
       "samhita_references": [],
       "shloka_reference_status": "needs_verification",
@@ -14690,6 +14700,7 @@
     "teacher": {
       "teaching_points": [],
       "discussion_points": [
+        "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data."
@@ -16065,13 +16076,15 @@
     ],
     "classical_reference": {
       "shlokas": [
-        "नागरं दीपनं वृष्यं ग्राहि हृद्यं विबन्धनुत् ॥१६३॥\nरुच्यं लघु स्वादुपाकं स्निग्धोष्णं कफवातजित् ॥१६४॥"
+        "शुण्ठी रुच्यामवातघ्नी पाचनी कटुका लघुः ।\nस्निग्धोष्णा मधुरा पाके कफवातविबन्धनुत् ॥४५॥"
       ],
-      "nighantu_references": [],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Haritakyadi Varga, verse 45; related therapeutic continuation in verse 46. Independently searchable recension; edition numbering may vary."
+      ],
       "samhita_references": [
         "Ashtanga Hridaya, Sutrasthana 6/163–164"
       ],
-      "shloka_reference_status": "verified text/reference; this is an Ashtanga Hridaya citation rather than the supplied Bhavaprakasha numbering",
+      "shloka_reference_status": "verified_reference_text_corrected",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
       ]
@@ -17190,6 +17203,7 @@
     "teacher": {
       "teaching_points": [],
       "discussion_points": [
+        "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data."
@@ -20286,6 +20300,7 @@
         "Retained as supplementary material from Gemini batch 74."
       ],
       "discussion_points": [
+        "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data."
