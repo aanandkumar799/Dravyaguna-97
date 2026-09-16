@@ -1,0 +1,70 @@
+/* DravyaGuna 97 — plant dossier layout
+   Deliberately mirrors a textbook/reference-dossier structure. */
+*,*::before,*::after{box-sizing:border-box}
+html,body{max-width:100%;overflow-x:hidden}
+
+.plant-page{width:100%;max-width:1100px;min-width:0;margin:0 auto;padding:24px 18px 50px}
+.plant-page>*{min-width:0;max-width:100%}
+
+/* Plant title card: name left, BAMS reference number right on wide screens. */
+.plant-hero{width:100%;max-width:100%;overflow:hidden}
+.plant-hero-content{width:100%;max-width:100%;min-width:0;display:flex;align-items:center;justify-content:space-between;gap:20px;text-align:left}
+.plant-hero-content>div:last-child{min-width:0}
+.plant-hero .eyebrow{overflow-wrap:anywhere}
+.plant-hero h1,.plant-hero h2,.plant-hero p{overflow-wrap:anywhere}
+
+/* Every information section is one full-width horizontal dossier card. */
+.plant-section{width:100%;max-width:100%;min-width:0;margin:22px 0;padding:26px;background:#fff;border:1px solid #e1e8e1;border-radius:18px;box-shadow:0 5px 20px rgba(0,0,0,.05);overflow:hidden}
+.plant-section .section-heading{display:flex;align-items:center;gap:12px;margin:0 0 18px;min-width:0}
+.plant-section .section-heading h2{margin:0;padding:0;border:0;color:#1b4332;font-size:1.35rem;overflow-wrap:anywhere}
+.section-icon{flex:0 0 auto;font-size:1.3rem}
+
+/* Reference rows: label column + value column, never a squeezed 2x2 card grid. */
+.identity-grid{display:grid!important;grid-template-columns:1fr!important;gap:0!important;width:100%;min-width:0}
+.info-row{display:grid;grid-template-columns:minmax(150px,205px) minmax(0,1fr);gap:18px;align-items:start;width:100%;min-width:0;padding:12px 0;border-bottom:1px solid #edf1ed}
+.info-row:last-child{border-bottom:0}
+.info-label{min-width:0;color:#1b4332;font-weight:700;overflow-wrap:anywhere}
+.info-value{min-width:0;color:#34413a;overflow-wrap:anywhere;word-break:break-word}
+.info-value *{max-width:100%}
+.not-available{color:#8a938d;font-style:italic}
+
+/* Gallery: three equal cards on desktop. */
+.image-gallery{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:16px!important;width:100%!important;max-width:100%!important;min-width:0!important;overflow:visible!important}
+.gallery-item{display:block;min-width:0;width:100%;margin:0;padding:10px;background:#f8fbf6;border:1px solid #dce8dc;border-radius:14px;overflow:hidden}
+.gallery-item img,.image-gallery img{display:block!important;width:100%!important;max-width:100%!important;height:190px!important;min-width:0!important;object-fit:cover!important;border-radius:10px}
+.gallery-item figcaption{display:block;text-align:center;font-weight:700;color:#1b4332;padding:9px 4px 2px;overflow-wrap:anywhere;word-break:break-word}
+
+.formulation-grid{display:grid;grid-template-columns:1fr;gap:14px;width:100%;min-width:0}
+.formulation-card{min-width:0;max-width:100%;padding:18px;background:#f8fbf6;border:1px solid #dce8dc;border-radius:14px;overflow:hidden}
+.plant-list{max-width:100%;overflow-wrap:anywhere;word-break:break-word}
+
+/* Safety net for any image elsewhere in the dossier. */
+.plant-section img,.plant-page img{max-width:100%;height:auto}
+.plant-section .image-gallery img{height:190px}
+
+@media(max-width:767px){
+ .plant-page{padding:14px 10px 36px}
+ .plant-hero{padding:24px 16px!important;border-radius:16px!important}
+ .plant-hero-content{align-items:flex-start;gap:12px}
+ .plant-hero h1{font-size:clamp(1.8rem,8vw,2.5rem)!important}
+ .plant-section{margin:16px 0;padding:18px 14px;border-radius:15px}
+ .plant-section .section-heading{margin-bottom:13px}
+ .plant-section .section-heading h2{font-size:1.12rem}
+ .info-row{grid-template-columns:1fr;gap:3px;padding:11px 0}
+ .info-label{font-size:.9rem}
+ .info-value{font-size:.95rem}
+ .image-gallery{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important}
+ .gallery-item{padding:7px}
+ .gallery-item img,.image-gallery img{height:145px!important}
+}
+@media(max-width:390px){
+ .plant-hero-content{display:block;text-align:center}
+ .plant-hero-content .plant-symbol{margin-bottom:5px}
+ .image-gallery{grid-template-columns:1fr!important}
+ .gallery-item img,.image-gallery img{height:190px!important}
+}
+
+@media print{
+ .plant-page{max-width:none!important;padding:0!important}
+ .plant-section{box-shadow:none!important;break-inside:avoid}
+}
