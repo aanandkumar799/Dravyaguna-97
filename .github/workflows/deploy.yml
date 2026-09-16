@@ -24,8 +24,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Setup GitHub Pages
-        uses: actions/configure-pages@v5
+      - name: Normalize source data and generate site artifacts
+        shell: bash
+        run: |
+          python scripts/normalize-plants-schema.py
+          python scripts/generate-site-artifacts.py
 
       - name: Prepare static site, fast index and plant dossiers
         shell: bash
@@ -33,8 +36,6 @@ jobs:
           rm -rf _site
           mkdir -p _site/data/plants
           tar --exclude='./.git' --exclude='./.github' --exclude='./_site' -cf - . | tar -xf - -C _site
-          python scripts/normalize-plants-schema.py
-          python scripts/generate-site-artifacts.py
           python - <<'PY'
           import json
           from pathlib import Path
