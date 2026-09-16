@@ -1,417 +1,2694 @@
 [
   {
-  "id": "ashwagandha",
-  "identity": {
-    "name": "Ashwagandha",
-    "sanskrit_name": "अश्वगन्धा",
-    "transliteration": "Aśvagandhā",
-    "botanical_name": "Withania somnifera (L.) Dunal",
-    "family": "Solanaceae",
-    "english_name": "Winter Cherry",
-    "common_names": [
-      "Indian Ginseng",
-      "Winter Cherry"
-    ],
-    "hindi_name": "अश्वगंधा",
-    "regional_names": [],
-    "synonyms": [
-      "अश्वगन्धा",
-      "अश्वकन्दा",
-      "वाराहकर्णी",
-      "वाजीगन्धा",
-      "बलदा",
-      "वरा"
-    ],
-    "name_meaning": "Aśvagandhā is traditionally explained in relation to the horse-like odour of the root and the strength associated with a horse."
-  },
-  "classification": {
-    "kingdom": "Plantae",
-    "phylum": "Streptophyta",
-    "class": "Equisetopsida",
-    "subclass": "Magnoliidae",
-    "order": "Solanales",
-    "family": "Solanaceae",
-    "genus": "Withania",
-    "species": "Withania somnifera",
-    "habit": "Subshrub or shrub",
-    "habitat": "Subtropical, semi-arid and relatively dry regions",
-    "distribution": "Native range extends from southern Europe to Central China and from Africa to Myanmar; present in India and many other regions."
-  },
-  "identification": {
-    "description": "An erect, branched, tomentose subshrub with ovate leaves, small greenish-yellow flowers and globose red berries enclosed by an enlarged persistent calyx.",
-    "whole_plant": "Small erect branched shrub or subshrub, commonly about 0.5–2 m depending on growing conditions, with greyish or whitish tomentose stems.",
-    "root": "The medicinal part in the Ayurvedic Pharmacopoeia is the dried mature root. Roots are generally stout, tapering and branched, with a characteristic odour.",
-    "stem": "Erect, branched and greyish-tomentose; young stems are covered with fine hairs.",
-    "leaf": "Simple, generally ovate to obovate or oblong, with entire or nearly entire margins; leaves may be tomentose, especially beneath.",
-    "flower": "Small, greenish to yellowish flowers occurring mainly in axillary clusters.",
-    "fruit": "Globose berry, approximately 5–8 mm in diameter, shiny and red when mature, enclosed by and exceeded by the enlarged persistent calyx.",
-    "seed": "Small, approximately 2 mm in diameter, reticulate seeds.",
-    "bark": "Stem bark is not the official Ayurvedic drug part. The official medicinal material is the dried mature root.",
-    "identification_points": [
-      "Erect branched tomentose habit",
-      "Ovate to oblong simple leaves",
-      "Small greenish-yellow axillary flowers",
-      "Red globose berries",
-      "Enlarged persistent calyx surrounding the fruit",
-      "Characteristic root odour",
-      "Dried mature root is the official Ayurvedic drug material"
-    ]
-  },
-  "images": {
-    "whole_plant": "images/ashwagandha/whole-plant.jpg",
-    "habit": "images/ashwagandha/whole-plant.jpg",
-    "root": "images/ashwagandha/root/images (3).jpeg",
-    "stem": "images/ashwagandha/stem/images (5).jpeg",
-    "leaf": "images/ashwagandha/leaf/images (2).jpeg",
-    "flower": "images/ashwagandha/flower/images.jpeg",
-    "fruit": "images/ashwagandha/fruit/images (1).jpeg",
-    "seed": "images/ashwagandha/seed/images (4).jpeg",
-    "bark": ""
-  },
-  "dravya_guna": {
-    "rasa": [
-      "Madhura",
-      "Tikta",
-      "Kashaya"
-    ],
-    "guna": [
-      "Laghu",
-      "Snigdha"
-    ],
-    "virya": "Ushna",
-    "vipaka": "Madhura",
-    "prabhava": "",
-    "karma": [
-      "Rasayana",
-      "Balya",
-      "Vajikarana"
-    ],
-    "source_note": "Ayurvedic property descriptions vary somewhat among secondary databases and publications. The values above follow the pharmacological profile reported in Ayurvedic sources consulted during this research; the primary edition/page should be checked before marking a classical citation as fully verified."
-  },
-  "dosha": {
-    "vata": "Shamaka",
-    "pitta": "May increase with excessive use because of Ushna Virya",
-    "kapha": "Generally described as Kapha-modulating; classical descriptions vary by source",
-    "overall": "Primarily used as a Vata-pacifying and strengthening drug; exact Dosha interpretation should be read with Rasa, Guna and Virya."
-  },
-  "therapeutics": {
-    "official_useful_part": [
-      "Dried mature root"
-    ],
-    "useful_part": [
-      "Root"
-    ],
-    "indications": [
-      "General debility",
-      "Weakness",
-      "Convalescence",
-      "Vata-related disorders",
-      "Conditions requiring strengthening and nourishment",
-      "Selected Rasayana applications",
-      "Selected Vajikarana applications"
-    ],
-    "therapeutic_actions": [
-      "Rasayana",
-      "Balya",
-      "Vajikarana",
-      "Brimhana",
-      "Vata-shamaka"
-    ],
-    "dose": "Root powder: 3–6 g/day according to CCRAS technical specifications citing the Ayurvedic Pharmacopoeia of India.",
-    "anupana": "Anupana is preparation- and indication-dependent; milk and ghee are traditionally used with suitable Ashwagandha preparations, but the vehicle should not be treated as universal.",
-    "duration": "Condition-dependent; duration should be determined according to formulation, indication and professional clinical assessment.",
-    "precautions": [
-      "Do not automatically substitute leaf preparations for the official root drug.",
-      "Dose of a standardized extract cannot be directly equated with the dose of crude root powder.",
-      "Use cautiously when there may be drug interactions or relevant medical conditions."
-    ],
-    "contraindications": [
-      "Pregnancy: NCCIH advises avoiding use.",
-      "Breastfeeding: NCCIH advises avoiding use because safety information is insufficient.",
-      "Before surgery: NCCIH advises avoidance.",
-      "Autoimmune disorders: NCCIH advises against use.",
-      "Thyroid disorders: NCCIH advises against use."
-    ],
-    "modern_safety_note": "NCCIH reports that short-term use up to about 3 months may be safe for some people, but long-term safety is not established. Reported adverse effects include drowsiness, gastrointestinal upset, diarrhoea and vomiting; rare cases of liver injury have also been reported."
-  },
-  "formulations": [
-    {
-      "name": "Ashvagandhadyarishta",
-      "dosage_form": "Arishta",
-      "indication": "Traditional strengthening and Rasayana applications",
-      "reference": "Classical formulation; primary textual reference should be verified before publication."
+    "id": "amalaki",
+    "order": 1,
+    "identity": {
+      "name": "Amalaki",
+      "sanskrit_name": "आमलकी",
+      "transliteration": "Āmalakī",
+      "botanical_name": "Phyllanthus emblica L.",
+      "family": "Phyllanthaceae",
+      "english_name": "Indian gooseberry / Amla",
+      "hindi_name": "आंवला",
+      "regional_names": [],
+      "synonyms": [
+        "Dhatri",
+        "Amrita"
+      ]
     },
-    {
-      "name": "Ashvagandhadi Churna",
-      "dosage_form": "Churna",
-      "indication": "Traditional strengthening and Vata-related applications",
-      "reference": "Classical formulation; primary textual reference should be verified before publication."
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "Small to medium-sized deciduous tree",
+      "habitat": "Tropical and subtropical regions; cultivated and wild",
+      "distribution": "Widely distributed in India"
     },
-    {
-      "name": "Ashvagandha Rasayana",
-      "dosage_form": "Rasayana preparation",
-      "indication": "Rasayana and strengthening applications",
-      "reference": "Classical formulation; primary textual reference should be verified before publication."
+    "identification": {
+      "description": "Small tree with pale grey bark and feathery-looking branchlets bearing numerous small leaves.",
+      "whole_plant": "Small to medium tree; crown often light and spreading.",
+      "root": "",
+      "stem": "Trunk with grey to grey-brown bark; branchlets slender.",
+      "leaf": "Small, simple, closely set on branchlets, giving a pinnate appearance.",
+      "flower": "Small, inconspicuous, greenish-yellow; male and female flowers occur on the same plant.",
+      "fruit": "Nearly spherical, smooth, pale green to yellow-green, with characteristic vertical furrows; sour/astringent taste.",
+      "seed": "Enclosed in the hard, six-ridged stone.",
+      "bark": "Grey-brown and exfoliating in older portions.",
+      "identification_points": [
+        "Spherical furrowed fruit",
+        "Small closely arranged leaves",
+        "Pale grey bark"
+      ]
     },
-    {
-      "name": "Ashvagandhadi Lehya",
-      "dosage_form": "Lehya",
-      "indication": "Traditional strengthening and nourishing applications",
-      "reference": "Classical formulation; primary textual reference should be verified before publication."
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
     },
-    {
-      "name": "Brihat Ashvagandha Ghrita",
-      "dosage_form": "Ghrita",
-      "indication": "Traditional Rasayana and Vata-related applications",
-      "reference": "Classical formulation; primary textual reference should be verified before publication."
+    "dravya_guna": {
+      "rasa": [
+        "amla",
+        "madhura",
+        "kashaya",
+        "tikta",
+        "katu"
+      ],
+      "guna": [
+        "guru",
+        "ruksha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "madhura",
+      "prabhava": "",
+      "karma": [
+        "rasayana",
+        "vayasthapana"
+      ]
     },
-    {
-      "name": "Sukumara Ghrita",
-      "dosage_form": "Ghrita",
-      "indication": "Traditional Vata-related and reproductive applications",
-      "reference": "Classical formulation; primary textual reference should be verified before publication."
+    "dosha": {
+      "vata": "generally pacifies",
+      "pitta": "pacifies",
+      "kapha": "may pacify; context dependent"
     },
-    {
-      "name": "Maharasnadi Kwatha",
-      "dosage_form": "Kwatha",
-      "indication": "Traditional musculoskeletal and Vata-related applications",
-      "reference": "Classical formulation containing Ashwagandha; primary textual reference should be verified before publication."
+    "therapeutics": {
+      "useful_part": [
+        "fruit"
+      ],
+      "indications": [
+        "traditional rasayana use",
+        "digestive and general restorative applications"
+      ],
+      "therapeutic_actions": [
+        "rasayana"
+      ],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
     },
-    {
-      "name": "Narayana Taila",
-      "dosage_form": "Taila",
-      "indication": "Traditional external Vata-related applications",
-      "reference": "Classical formulation containing Ashwagandha; primary textual reference should be verified before publication."
-    },
-    {
-      "name": "Mahanarayana Taila",
-      "dosage_form": "Taila",
-      "indication": "Traditional external Vata-related applications",
-      "reference": "Classical formulation containing Ashwagandha; primary textual reference should be verified before publication."
-    }
-  ],
-  "classical_reference": {
-    "shlokas": [],
-    "shloka_policy": "No Sanskrit verse has been inserted into this master record without primary-text verification. Verified verses will be added after checking the exact edition, chapter and verse number.",
-    "nighantu_references": [
+    "formulations": [
       {
-        "source": "Bhavaprakasha Nighantu",
-        "section": "Haritakyadi Varga",
-        "reference": "Ashvagandha entry",
-        "verified": false
-      }
-    ],
-    "samhita_references": [
-      {
-        "source": "Charaka Samhita",
-        "reference": "Ashvagandha occurrences and therapeutic/classification references require edition-specific verification.",
-        "verified": false
+        "name": "Triphala",
+        "dosage_form": "powder/decoction and other preparations",
+        "indication": "Traditional use in digestive and rasayana practice",
+        "reference": ""
       },
       {
-        "source": "Sushruta Samhita",
-        "reference": "Ashvagandha occurrences require edition-specific verification.",
-        "verified": false
-      },
-      {
-        "source": "Ashtanga Hridaya",
-        "reference": "Ashvagandha occurrences require edition-specific verification.",
-        "verified": false
+        "name": "Chyavanaprasha",
+        "dosage_form": "avaleha",
+        "indication": "Traditional rasayana preparation",
+        "reference": ""
       }
-    ]
-  },
-  "phytochemistry": {
-    "major_constituents": [
-      "Withanolides",
-      "Withaferin A",
-      "Withanolide A",
-      "Withanolide D",
-      "Withanone",
-      "Withanosides",
-      "Sitoindosides",
-      "Alkaloids",
-      "Withanine",
-      "Anaferine",
-      "Anahygrine",
-      "Tropine",
-      "Pseudotropine",
-      "Cuscohygrine",
-      "Starch",
-      "Reducing sugars",
-      "Amino acids",
-      "Phytosterols"
     ],
-    "chemical_notes": "Withania somnifera contains steroidal lactones called withanolides, along with alkaloids, glycosides, sitoindosides and other constituents. Chemical composition varies according to plant part, geography, genotype and extraction method."
-  },
-  "modern_information": {
-    "evidence_summary": "Modern clinical evidence is preparation-specific and varies by condition. NCCIH reports that some ashwagandha preparations may help with insomnia and stress, while evidence for several other proposed uses remains insufficient or unclear. Many studies are small and use different preparations.",
-    "recognized_uses": [
-      "Stress-related symptoms",
-      "Sleep/insomnia research",
-      "General wellness and fatigue research"
-    ],
-    "research_findings": [
-      "Some clinical trials suggest benefit for stress-related outcomes.",
-      "Some studies suggest improvement in sleep in selected populations.",
-      "Limited evidence suggests possible increases in testosterone and sperm quality after 2–4 months in some men.",
-      "Evidence is insufficient for many other promoted indications."
-    ],
-    "safety_notes": "Rare liver injury has been reported. Possible adverse effects include gastrointestinal upset, diarrhoea, vomiting and drowsiness. Potential interactions have been reported with medicines for diabetes, hypertension, immunosuppressants, sedatives, anticonvulsants and thyroid hormone medicines.",
-    "regulatory_note": "The Government of India's Ministry of AYUSH states that the Ayurvedic Pharmacopoeia defines Ashwagandha as the dried mature roots of Withania somnifera Dunal and has advised against use of its leaves as an ASU medicinal ingredient because their use has not been reported in the classical ASU texts.",
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
+    "phytochemistry": {
+      "major_constituents": [
+        "tannins",
+        "ascorbic-acid-related compounds",
+        "polyphenols"
+      ],
+      "chemical_notes": "Composition varies with cultivar, maturity and processing."
+    },
+    "modern_information": {
+      "evidence_summary": "Extensively studied as a medicinal fruit; research includes antioxidant and other pharmacological investigations.",
+      "recognized_uses": [],
+      "safety_notes": "Clinical use should consider preparation, dose and individual factors.",
+      "sources": [
+        "CCRAS medicinal-plant/pharmacological research resources"
+      ]
+    },
+    "student": {
+      "exam_points": [
+        "Fruit is the principal medicinal part",
+        "Important rasayana drug"
+      ],
+      "viva_questions": [
+        "Identify the fruit of Amalaki.",
+        "State rasa-panchaka of Amalaki."
+      ],
+      "identification_points": [
+        "Furrowed globose fruit",
+        "Closely arranged small leaves"
+      ],
+      "mnemonics": [],
+      "quick_revision": "Āmalakī: fruit; five tastes except salt is classically emphasized; sheeta virya; madhura vipaka."
+    },
+    "teacher": {
+      "teaching_points": [
+        "Demonstrate fruit morphology and identification"
+      ],
+      "discussion_points": [
+        "Rasa-panchaka and rasayana concept"
+      ],
+      "practical_points": [
+        "Fresh and dried fruit identification"
+      ]
+    },
+    "doctor": {
+      "quick_reference": "Traditional rasayana drug chiefly represented by its fruit.",
+      "important_indications": [],
+      "useful_part": "fruit",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
     "sources": [
-      "NCCIH — Ashwagandha: Usefulness and Safety",
-      "Ministry of AYUSH — Advisory on use of Ashwagandha leaves",
-      "CCRAS — Ashwagandha Safety Dossier / Technical Specifications",
-      "Peer-reviewed reviews of Withania somnifera phytochemistry and pharmacology"
-    ]
-  },
-  "student": {
-    "exam_points": [
-      "Ashwagandha — Withania somnifera (L.) Dunal",
-      "Family — Solanaceae",
-      "Official medicinal part — dried mature root",
-      "Rasa — Madhura, Tikta, Kashaya",
-      "Guna — Laghu, Snigdha",
-      "Virya — Ushna",
-      "Vipaka — Madhura",
-      "Important actions — Rasayana, Balya, Vajikarana",
-      "Root powder dose — 3–6 g/day",
-      "Characteristic botanical feature — red berry enclosed by enlarged persistent calyx"
+      {
+        "type": "official_research",
+        "title": "CCRAS medicinal plant research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+      },
+      {
+        "type": "official_research",
+        "title": "CCRAS pharmacological research",
+        "url": "https://ccras.nic.in/hi/services/pharmacological-research/"
+      }
     ],
-    "viva_questions": [
-      "What is the botanical name of Ashwagandha?",
-      "Which family does Ashwagandha belong to?",
-      "What is the official useful part of Ashwagandha?",
-      "What are the Rasa, Guna, Virya and Vipaka of Ashwagandha?",
-      "What are the important Karmas of Ashwagandha?",
-      "What is the usual root-powder dose?",
-      "How can the fruit be identified botanically?",
-      "Why should Ashwagandha leaves not be substituted for the official root drug?"
-    ],
-    "identification_points": [
-      "Tomentose erect branched shrub",
-      "Ovate leaves",
-      "Small greenish-yellow axillary flowers",
-      "Red globose berries",
-      "Enlarged persistent calyx",
-      "Characteristic root odour"
-    ],
-    "mnemonics": [],
-    "quick_revision": "Ashwagandha = Withania somnifera, Solanaceae, dried mature root, Madhura-Tikta-Kashaya, Laghu-Snigdha, Ushna, Madhura Vipaka, Rasayana-Balya-Vajikarana."
-  },
-  "teacher": {
-    "teaching_points": [
-      "Demonstrate the difference between botanical plant morphology and the official medicinal part.",
-      "Show the enlarged persistent calyx around the berry as an important identification character.",
-      "Explain the relationship between Rasa, Guna and Virya when discussing Dosha action.",
-      "Discuss why root authentication and correct plant identification are important in crude-drug quality control.",
-      "Compare classical root use with modern research on root extracts."
-    ],
-    "discussion_points": [
-      "Classical identity and synonyms of Ashwagandha",
-      "Official pharmacopoeial part versus other plant parts",
-      "Rasayana and Balya concepts",
-      "Phytochemical classes, especially withanolides",
-      "Evidence versus traditional claims",
-      "Safety and drug-interaction considerations"
-    ],
-    "practical_points": [
-      "Identify the whole plant",
-      "Identify root characters",
-      "Identify leaf morphology",
-      "Identify flower and fruit",
-      "Recognize the persistent enlarged calyx",
-      "Record botanical name and family correctly"
-    ]
-  },
-  "doctor": {
-    "quick_reference": "Ashwagandha (Withania somnifera) is an Ayurvedic Rasayana and Balya drug for which the official Ayurvedic medicinal material is the dried mature root.",
-    "important_indications": [
-      "General weakness and debility",
-      "Vata-related conditions",
-      "Traditional Rasayana applications",
-      "Traditional Vajikarana applications"
-    ],
-    "useful_part": "Dried mature root",
-    "dose": "Root powder 3–6 g/day; formulation-specific dosing differs.",
-    "anupana": "Depends on indication and formulation; traditionally milk or ghee may be used in appropriate preparations.",
-    "key_precautions": [
-      "Avoid during pregnancy and breastfeeding according to NCCIH.",
-      "Avoid before surgery according to NCCIH.",
-      "Use caution in autoimmune and thyroid disorders.",
-      "Review potential drug interactions.",
-      "Monitor for gastrointestinal adverse effects and rare liver injury.",
-      "Do not equate concentrated extract doses with crude root-powder doses."
-    ],
-    "evidence_note": "Modern evidence is preparation-specific. Some evidence supports possible benefits for stress and insomnia, while evidence for many other promoted uses remains insufficient."
-  },
-  "sources": [
-    {
-      "type": "government",
-      "title": "Advisory on use of Ashwagandha leaves",
-      "author": "Ministry of AYUSH, Government of India",
-      "edition": "",
-      "year": "2021",
-      "page": "",
-      "url": "https://ayush.gov.in/resources/pdf/quality_standards/advisory-on-aswagandha.pdf",
-      "verified": true
-    },
-    {
-      "type": "government",
-      "title": "Ashwagandha Safety Dossier / Technical Specifications",
-      "author": "Central Council for Research in Ayurvedic Sciences (CCRAS)",
-      "edition": "Revised",
-      "year": "2024",
-      "page": "",
-      "url": "https://ccras.nic.in/wp-content/uploads/2024/09/Revised-Ashwagandha-Booklet-9.8.2024-final.pdf",
-      "verified": true
-    },
-    {
-      "type": "botanical_database",
-      "title": "Withania somnifera (L.) Dunal",
-      "author": "Plants of the World Online, Royal Botanic Gardens, Kew",
-      "edition": "",
-      "year": "2026",
-      "page": "",
-      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:821709-1",
-      "verified": true
-    },
-    {
-      "type": "government_health_information",
-      "title": "Ashwagandha: Usefulness and Safety",
-      "author": "National Center for Complementary and Integrative Health",
-      "edition": "",
-      "year": "",
-      "page": "",
-      "url": "https://www.nccih.nih.gov/health/ashwagandha",
-      "verified": true
-    },
-    {
-      "type": "review",
-      "title": "Biodiversity, Biochemical Profiling, and Pharmaco-Commercial Applications of Withania somnifera: A Review",
-      "author": "Peer-reviewed literature",
-      "edition": "",
-      "year": "2023",
-      "page": "",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9921868/",
-      "verified": true
-    },
-    {
-      "type": "review",
-      "title": "An updated review on phytochemistry and molecular targets of Withania somnifera (L.) Dunal",
-      "author": "Peer-reviewed literature",
-      "edition": "",
-      "year": "2023",
-      "page": "",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10090468/",
-      "verified": true
+    "metadata": {
+      "status": "working_draft_needs_text_cross_check",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "0.2"
     }
-  ],
-  "metadata": {
-    "status": "research_verified_with_classical_reference_pending",
-    "last_verified": "2026-09-16",
-    "verified_by": "Web research against government, botanical and peer-reviewed sources",
-    "version": "1.0",
-    "content_policy": "Classical Sanskrit verses and exact classical verse numbers are not marked verified until checked against a primary text edition."
+  },
+  {
+    "id": "aragwadha",
+    "order": 2,
+    "identity": {
+      "name": "Aragwadha",
+      "sanskrit_name": "आरग्वध",
+      "transliteration": "Āragvadha",
+      "botanical_name": "Cassia fistula L.",
+      "family": "Fabaceae",
+      "english_name": "Indian laburnum / Golden shower tree",
+      "hindi_name": "अमलतास",
+      "regional_names": [],
+      "synonyms": [
+        "Rajavriksha"
+      ]
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "Medium-sized deciduous tree",
+      "habitat": "Dry and moist tropical regions; commonly cultivated",
+      "distribution": "Widely distributed in India"
+    },
+    "identification": {
+      "description": "Tree recognized by long hanging racemes of yellow flowers and cylindrical dark pods.",
+      "whole_plant": "Medium-sized tree with spreading crown.",
+      "root": "",
+      "stem": "Woody trunk with grey-brown bark.",
+      "leaf": "Paripinnate compound leaves with several pairs of larger leaflets.",
+      "flower": "Bright yellow, arranged in long pendulous racemes.",
+      "fruit": "Long cylindrical, dark brown to black, indehiscent pod containing many seeds in separate compartments.",
+      "seed": "Numerous, hard, embedded in dark pulp.",
+      "bark": "Grey-brown.",
+      "identification_points": [
+        "Long yellow racemes",
+        "Long cylindrical black-brown pods",
+        "Large paired leaflets"
+      ]
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "madhura",
+        "tikta"
+      ],
+      "guna": [
+        "guru",
+        "mridu"
+      ],
+      "virya": "sheeta",
+      "vipaka": "madhura",
+      "prabhava": "",
+      "karma": [
+        "mridu rechana"
+      ]
+    },
+    "dosha": {
+      "vata": "generally not aggravating when appropriately used",
+      "pitta": "pacifies",
+      "kapha": "may reduce"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "fruit pulp"
+      ],
+      "indications": [
+        "traditional mild purgative use",
+        "constipation"
+      ],
+      "therapeutic_actions": [
+        "mridu virechana"
+      ],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "Purgative effect varies with preparation and dose.",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
+    "phytochemistry": {
+      "major_constituents": [
+        "anthraquinone-related compounds",
+        "flavonoids"
+      ],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "Investigated pharmacologically; traditional use prominently concerns laxative action of fruit pulp.",
+      "recognized_uses": [],
+      "safety_notes": "Excessive laxative use may cause gastrointestinal effects and fluid/electrolyte disturbance.",
+      "sources": [
+        "CCRAS/Ayurvedic literature resources"
+      ]
+    },
+    "student": {
+      "exam_points": [
+        "Fruit pulp is important medicinal part",
+        "Known for mild purgative action"
+      ],
+      "viva_questions": [
+        "How is the fruit of Aragwadha identified?",
+        "What is its principal karma?"
+      ],
+      "identification_points": [
+        "Yellow racemes",
+        "Long cylindrical pod"
+      ],
+      "mnemonics": [],
+      "quick_revision": "Āragvadha: fruit pulp; mridu rechana is a key teaching point."
+    },
+    "teacher": {
+      "teaching_points": [
+        "Demonstrate fruit and flower morphology"
+      ],
+      "discussion_points": [
+        "Difference between Aragwadha and other Cassia/Senna drugs"
+      ],
+      "practical_points": [
+        "Pod identification"
+      ]
+    },
+    "doctor": {
+      "quick_reference": "Traditional mild purgative drug; fruit pulp is the principal part.",
+      "important_indications": [
+        "constipation"
+      ],
+      "useful_part": "fruit pulp",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": [
+        "Avoid unsupervised repeated purgative use"
+      ]
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS medicinal plant research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+      }
+    ],
+    "metadata": {
+      "status": "working_draft_needs_text_cross_check",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "0.2"
+    }
+  },
+  {
+    "id": "arjuna",
+    "order": 3,
+    "identity": {
+      "name": "Arjuna",
+      "sanskrit_name": "अर्जुन",
+      "transliteration": "Arjuna",
+      "botanical_name": "Terminalia arjuna (Roxb. ex DC.) Wight & Arn.",
+      "family": "Combretaceae",
+      "english_name": "Arjuna",
+      "hindi_name": "अर्जुन",
+      "regional_names": [],
+      "synonyms": [
+        "Dhananjaya",
+        "Partha"
+      ]
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "Large deciduous tree",
+      "habitat": "Often associated with riverbanks and moist habitats",
+      "distribution": "Widely distributed in India"
+    },
+    "identification": {
+      "description": "Large tree with characteristic smooth grey bark externally and pinkish/red inner bark when exposed.",
+      "whole_plant": "Large tree with spreading crown.",
+      "root": "",
+      "stem": "Large trunk; bark smooth, grey outside and characteristically coloured internally.",
+      "leaf": "Simple, oblong to oblong-elliptic, often with glandular features near the petiole region.",
+      "flower": "Small, greenish-white, in spikes/panicles.",
+      "fruit": "Fibrous, woody, ovoid-oblong with longitudinal ridges/angles.",
+      "seed": "Single seed within the fruit.",
+      "bark": "The principal crude drug; outer bark grey and inner surface reddish-brown.",
+      "identification_points": [
+        "Large trunk",
+        "Distinctive bark",
+        "Winged/ridged fruit"
+      ]
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "kashaya"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "katu",
+      "prabhava": "",
+      "karma": [
+        "hridya"
+      ]
+    },
+    "dosha": {
+      "vata": "may increase if excessive/drying",
+      "pitta": "generally pacifying",
+      "kapha": "reduces"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "bark"
+      ],
+      "indications": [
+        "traditional cardiovascular support",
+        "astringent applications"
+      ],
+      "therapeutic_actions": [
+        "hridya"
+      ],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [
+      {
+        "name": "Arjunarishta",
+        "dosage_form": "arishta",
+        "indication": "Traditional cardiac/general use",
+        "reference": ""
+      }
+    ],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
+    "phytochemistry": {
+      "major_constituents": [
+        "triterpenoids",
+        "flavonoids",
+        "tannins"
+      ],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "Modern research has investigated Terminalia arjuna, including cardiovascular applications.",
+      "recognized_uses": [],
+      "safety_notes": "Evidence and preparations differ; clinical use should be individualized.",
+      "sources": [
+        "CCRAS clinical/pharmacological research resources"
+      ]
+    },
+    "student": {
+      "exam_points": [
+        "Bark is the principal drug part",
+        "Important hridya dravya"
+      ],
+      "viva_questions": [
+        "Which part of Arjuna is chiefly used?",
+        "Describe Arjuna bark."
+      ],
+      "identification_points": [
+        "Grey outer bark with coloured inner surface",
+        "Large tree"
+      ],
+      "mnemonics": [],
+      "quick_revision": "Arjuna: bark; kashaya; sheeta; traditionally important as hridya."
+    },
+    "teacher": {
+      "teaching_points": [
+        "Bark identification and pharmacognosy"
+      ],
+      "discussion_points": [
+        "Traditional hridya concept and modern cardiovascular research"
+      ],
+      "practical_points": [
+        "Compare authentic bark with substitutes/adulterants"
+      ]
+    },
+    "doctor": {
+      "quick_reference": "Arjuna bark is the principal medicinal part; traditionally used as a hridya drug.",
+      "important_indications": [],
+      "useful_part": "bark",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official_research",
+        "title": "CCRAS research resources",
+        "url": "https://ccras.nic.in/services/clinical-research/"
+      },
+      {
+        "type": "official",
+        "title": "CCRAS medicinal plant research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+      }
+    ],
+    "metadata": {
+      "status": "working_draft_needs_text_cross_check",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "0.2"
+    }
+  },
+  {
+    "id": "ashoka",
+    "order": 4,
+    "identity": {
+      "name": "Ashoka",
+      "sanskrit_name": "अशोक",
+      "transliteration": "",
+      "botanical_name": "Saraca asoca",
+      "family": "Fabaceae",
+      "english_name": "",
+      "hindi_name": "",
+      "regional_names": [],
+      "synonyms": []
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "",
+      "habitat": "",
+      "distribution": ""
+    },
+    "identification": {
+      "description": "",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": []
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "prabhava": "",
+      "karma": []
+    },
+    "dosha": {
+      "vata": "",
+      "pitta": "",
+      "kapha": ""
+    },
+    "therapeutics": {
+      "useful_part": [
+        "bark"
+      ],
+      "indications": [],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "",
+      "recognized_uses": [],
+      "safety_notes": "",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [],
+      "viva_questions": [],
+      "identification_points": [],
+      "mnemonics": [],
+      "quick_revision": ""
+    },
+    "teacher": {
+      "teaching_points": [],
+      "discussion_points": [],
+      "practical_points": []
+    },
+    "doctor": {
+      "quick_reference": "",
+      "important_indications": [],
+      "useful_part": "bark",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS medicinal plant research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+      }
+    ],
+    "metadata": {
+      "status": "needs_detailed_text_cross_check",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "0.2"
+    }
+  },
+  {
+    "id": "ashwagandha",
+    "order": 5,
+    "identity": {
+      "name": "Ashwagandha",
+      "sanskrit_name": "अश्वगन्धा",
+      "transliteration": "Aśvagandhā",
+      "botanical_name": "Withania somnifera (L.) Dunal",
+      "family": "Solanaceae",
+      "english_name": "Winter Cherry",
+      "hindi_name": "",
+      "regional_names": [],
+      "synonyms": [
+        "अश्वगन्धा",
+        "अश्वकन्दा",
+        "वाराहकर्णी",
+        "वाजीगन्धा",
+        "बलदा",
+        "वरा"
+      ],
+      "common_names": [
+        "Indian Ginseng",
+        "Winter Cherry"
+      ]
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "Subshrub or shrub",
+      "habitat": "Subtropical, semi-arid and relatively dry regions",
+      "distribution": ""
+    },
+    "identification": {
+      "description": "An erect, branched, tomentose subshrub with ovate leaves, small greenish-yellow flowers and globose red berries enclosed by an enlarged persistent calyx.",
+      "whole_plant": "Small erect branched shrub or subshrub.",
+      "root": "The medicinal part is the dried mature root.",
+      "stem": "Erect, branched and greyish-tomentose.",
+      "leaf": "Simple, generally ovate to oblong leaves.",
+      "flower": "Small greenish-yellow flowers in axillary clusters.",
+      "fruit": "Globose red berry enclosed by an enlarged persistent calyx.",
+      "seed": "",
+      "bark": "",
+      "identification_points": [
+        "Erect branched tomentose habit",
+        "Ovate leaves",
+        "Small greenish-yellow flowers",
+        "Red globose berries",
+        "Enlarged persistent calyx"
+      ]
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "Madhura",
+        "Tikta",
+        "Kashaya"
+      ],
+      "guna": [
+        "Laghu",
+        "Snigdha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "prabhava": "",
+      "karma": [
+        "Rasayana",
+        "Balya",
+        "Vajikarana"
+      ]
+    },
+    "dosha": {
+      "vata": "",
+      "pitta": "",
+      "kapha": ""
+    },
+    "therapeutics": {
+      "useful_part": [
+        "root"
+      ],
+      "indications": [],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "",
+      "recognized_uses": [],
+      "safety_notes": "",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [],
+      "viva_questions": [],
+      "identification_points": [],
+      "mnemonics": [],
+      "quick_revision": ""
+    },
+    "teacher": {
+      "teaching_points": [],
+      "discussion_points": [],
+      "practical_points": []
+    },
+    "doctor": {
+      "quick_reference": "",
+      "important_indications": [],
+      "useful_part": "root",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS medicinal plant research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+      }
+    ],
+    "metadata": {
+      "status": "research_verified_with_classical_reference_pending",
+      "last_verified": "2026-09-16",
+      "verified_by": "Web research against government, botanical and peer-reviewed sources",
+      "version": "1.0",
+      "content_policy": "Classical Sanskrit verses and exact classical verse numbers are not marked verified until checked against a primary text edition."
+    }
+  },
+  {
+    "id": "ativisha",
+    "order": 6,
+    "identity": {
+      "name": "Ativisha",
+      "sanskrit_name": "अतिविषा",
+      "transliteration": "",
+      "botanical_name": "Aconitum heterophyllum Wall. ex Royle",
+      "family": "Ranunculaceae",
+      "english_name": "",
+      "hindi_name": "",
+      "regional_names": [],
+      "synonyms": []
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "",
+      "habitat": "",
+      "distribution": ""
+    },
+    "identification": {
+      "description": "",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": []
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "prabhava": "",
+      "karma": []
+    },
+    "dosha": {
+      "vata": "",
+      "pitta": "",
+      "kapha": ""
+    },
+    "therapeutics": {
+      "useful_part": [
+        "root"
+      ],
+      "indications": [],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "",
+      "recognized_uses": [],
+      "safety_notes": "",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [],
+      "viva_questions": [],
+      "identification_points": [],
+      "mnemonics": [],
+      "quick_revision": ""
+    },
+    "teacher": {
+      "teaching_points": [],
+      "discussion_points": [],
+      "practical_points": []
+    },
+    "doctor": {
+      "quick_reference": "",
+      "important_indications": [],
+      "useful_part": "root",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS medicinal plant research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+      }
+    ],
+    "metadata": {
+      "status": "needs_detailed_text_cross_check",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "0.2"
+    }
+  },
+  {
+    "id": "bala",
+    "order": 7,
+    "identity": {
+      "name": "Bala",
+      "sanskrit_name": "बला",
+      "transliteration": "",
+      "botanical_name": "Sida cordifolia L.",
+      "family": "Malvaceae",
+      "english_name": "",
+      "hindi_name": "",
+      "regional_names": [],
+      "synonyms": []
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "",
+      "habitat": "",
+      "distribution": ""
+    },
+    "identification": {
+      "description": "",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": []
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "prabhava": "",
+      "karma": []
+    },
+    "dosha": {
+      "vata": "",
+      "pitta": "",
+      "kapha": ""
+    },
+    "therapeutics": {
+      "useful_part": [
+        "root/whole plant"
+      ],
+      "indications": [],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "",
+      "recognized_uses": [],
+      "safety_notes": "",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [],
+      "viva_questions": [],
+      "identification_points": [],
+      "mnemonics": [],
+      "quick_revision": ""
+    },
+    "teacher": {
+      "teaching_points": [],
+      "discussion_points": [],
+      "practical_points": []
+    },
+    "doctor": {
+      "quick_reference": "",
+      "important_indications": [],
+      "useful_part": "root/whole plant",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS medicinal plant research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+      }
+    ],
+    "metadata": {
+      "status": "needs_detailed_text_cross_check",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "0.2"
+    }
+  },
+  {
+    "id": "beejaka",
+    "order": 8,
+    "identity": {
+      "name": "Beejaka",
+      "sanskrit_name": "बीजक",
+      "transliteration": "",
+      "botanical_name": "Pterocarpus marsupium Roxb.",
+      "family": "Fabaceae",
+      "english_name": "",
+      "hindi_name": "",
+      "regional_names": [],
+      "synonyms": []
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "",
+      "habitat": "",
+      "distribution": ""
+    },
+    "identification": {
+      "description": "",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": []
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "prabhava": "",
+      "karma": []
+    },
+    "dosha": {
+      "vata": "",
+      "pitta": "",
+      "kapha": ""
+    },
+    "therapeutics": {
+      "useful_part": [
+        "heartwood"
+      ],
+      "indications": [],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "",
+      "recognized_uses": [],
+      "safety_notes": "",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [],
+      "viva_questions": [],
+      "identification_points": [],
+      "mnemonics": [],
+      "quick_revision": ""
+    },
+    "teacher": {
+      "teaching_points": [],
+      "discussion_points": [],
+      "practical_points": []
+    },
+    "doctor": {
+      "quick_reference": "",
+      "important_indications": [],
+      "useful_part": "heartwood",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS medicinal plant research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+      }
+    ],
+    "metadata": {
+      "status": "needs_detailed_text_cross_check",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "0.2"
+    }
+  },
+  {
+    "id": "bhallataka",
+    "order": 9,
+    "identity": {
+      "name": "Bhallataka",
+      "sanskrit_name": "भल्लातक",
+      "transliteration": "",
+      "botanical_name": "Semecarpus anacardium L.f.",
+      "family": "Anacardiaceae",
+      "english_name": "",
+      "hindi_name": "",
+      "regional_names": [],
+      "synonyms": []
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "",
+      "habitat": "",
+      "distribution": ""
+    },
+    "identification": {
+      "description": "",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": []
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "prabhava": "",
+      "karma": []
+    },
+    "dosha": {
+      "vata": "",
+      "pitta": "",
+      "kapha": ""
+    },
+    "therapeutics": {
+      "useful_part": [
+        "fruit"
+      ],
+      "indications": [],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "",
+      "recognized_uses": [],
+      "safety_notes": "",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [],
+      "viva_questions": [],
+      "identification_points": [],
+      "mnemonics": [],
+      "quick_revision": ""
+    },
+    "teacher": {
+      "teaching_points": [],
+      "discussion_points": [],
+      "practical_points": []
+    },
+    "doctor": {
+      "quick_reference": "",
+      "important_indications": [],
+      "useful_part": "fruit",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS medicinal plant research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+      }
+    ],
+    "metadata": {
+      "status": "needs_detailed_text_cross_check",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "0.2"
+    }
+  },
+  {
+    "id": "bharangi",
+    "order": 10,
+    "identity": {
+      "name": "Bharangi",
+      "sanskrit_name": "भारङ्गी",
+      "transliteration": "",
+      "botanical_name": "Clerodendrum serratum (L.) Moon",
+      "family": "Lamiaceae",
+      "english_name": "",
+      "hindi_name": "",
+      "regional_names": [],
+      "synonyms": []
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "",
+      "habitat": "",
+      "distribution": ""
+    },
+    "identification": {
+      "description": "",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": []
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "prabhava": "",
+      "karma": []
+    },
+    "dosha": {
+      "vata": "",
+      "pitta": "",
+      "kapha": ""
+    },
+    "therapeutics": {
+      "useful_part": [
+        "root"
+      ],
+      "indications": [],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "",
+      "recognized_uses": [],
+      "safety_notes": "",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [],
+      "viva_questions": [],
+      "identification_points": [],
+      "mnemonics": [],
+      "quick_revision": ""
+    },
+    "teacher": {
+      "teaching_points": [],
+      "discussion_points": [],
+      "practical_points": []
+    },
+    "doctor": {
+      "quick_reference": "",
+      "important_indications": [],
+      "useful_part": "root",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS medicinal plant research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+      }
+    ],
+    "metadata": {
+      "status": "needs_detailed_text_cross_check",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "0.2"
+    }
+  },
+  {
+    "id": "bhrungaraja",
+    "order": 11,
+    "identity": {
+      "name": "Bhrungaraja",
+      "sanskrit_name": "भृङ्गराज",
+      "transliteration": "Bhṛṅgarāja",
+      "botanical_name": "Eclipta prostrata (L.) L.",
+      "family": "Asteraceae",
+      "english_name": "False daisy",
+      "hindi_name": "भृंगराज",
+      "regional_names": [],
+      "synonyms": []
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "Small annual herb, usually prostrate or ascending",
+      "habitat": "Moist fields, roadsides and disturbed places",
+      "distribution": "Widely distributed in tropical and subtropical India"
+    },
+    "identification": {
+      "description": "Small herb with opposite leaves and small white flower heads.",
+      "whole_plant": "Usually prostrate/ascending, branched herb.",
+      "root": "",
+      "stem": "Slender, branched, often hairy.",
+      "leaf": "Opposite, sessile or nearly sessile, lanceolate to oblong, usually hairy.",
+      "flower": "Small white capitula, solitary or in leaf axils/ends of branches.",
+      "fruit": "Small cypsela-like fruits.",
+      "seed": "Small, dark fruits/seeds.",
+      "bark": "",
+      "identification_points": [
+        "White small flower heads",
+        "Opposite sessile leaves",
+        "Low-growing branched herb"
+      ]
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "tikta",
+        "katu"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "prabhava": "",
+      "karma": [
+        "keshya",
+        "rasayana"
+      ]
+    },
+    "dosha": {
+      "vata": "may increase if used excessively",
+      "pitta": "generally useful in appropriate formulations",
+      "kapha": "reduces"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "whole plant"
+      ],
+      "indications": [
+        "traditional hair and scalp applications",
+        "traditional rasayana use"
+      ],
+      "therapeutic_actions": [
+        "keshya"
+      ],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
+    "phytochemistry": {
+      "major_constituents": [
+        "wedelolactone",
+        "eclalbasaponins"
+      ],
+      "chemical_notes": "Reported constituents vary by species, geography and extraction method."
+    },
+    "modern_information": {
+      "evidence_summary": "Investigated in pharmacological and phytochemical studies; traditional use includes hair/scalp preparations.",
+      "recognized_uses": [],
+      "safety_notes": "Use should follow the preparation and source-specific guidance.",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [
+        "Whole plant is the principal drug part",
+        "Important traditional keshya drug"
+      ],
+      "viva_questions": [
+        "Which part of Bhrungaraja is used?",
+        "Describe its flower head."
+      ],
+      "identification_points": [
+        "White capitula",
+        "Opposite leaves"
+      ],
+      "mnemonics": [],
+      "quick_revision": "Bhrungaraja: whole plant; tikta-katu; laghu-ruksha; ushna."
+    },
+    "teacher": {
+      "teaching_points": [
+        "Demonstrate whole-plant identification"
+      ],
+      "discussion_points": [
+        "Confusion/adulteration with related Eclipta material"
+      ],
+      "practical_points": [
+        "Observe leaf arrangement and capitulum"
+      ]
+    },
+    "doctor": {
+      "quick_reference": "Traditional keshya/rasayana drug; whole plant is used.",
+      "important_indications": [],
+      "useful_part": "whole plant",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS Medicinal Plant Research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+      }
+    ],
+    "metadata": {
+      "status": "working_draft_needs_text_cross_check",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "0.2"
+    }
+  },
+  {
+    "id": "bhumyamalaki",
+    "order": 12,
+    "identity": {
+      "name": "Bhumyamalaki",
+      "sanskrit_name": "भूम्यामलकी",
+      "transliteration": "Bhūmyāmalakī",
+      "botanical_name": "Phyllanthus amarus Schumach. & Thonn.",
+      "family": "Phyllanthaceae",
+      "english_name": "Bhumi amla / Stonebreaker",
+      "hindi_name": "भुई आंवला",
+      "regional_names": [],
+      "synonyms": []
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "Small annual herb",
+      "habitat": "Moist disturbed soils and cultivated areas",
+      "distribution": "Common in tropical and subtropical India"
+    },
+    "identification": {
+      "description": "Small herb with pinnate-looking branchlets bearing tiny leaves and small fruits beneath the branchlets.",
+      "whole_plant": "Low, delicate annual herb.",
+      "root": "",
+      "stem": "Slender, erect or branched.",
+      "leaf": "Small, simple, alternate on branchlets and arranged in two rows.",
+      "flower": "Very small, inconspicuous.",
+      "fruit": "Small globose capsules, characteristically borne below the branchlets.",
+      "seed": "Small, angular seeds.",
+      "bark": "",
+      "identification_points": [
+        "Small herb",
+        "Tiny leaves in two rows",
+        "Small fruits beneath branchlets"
+      ]
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "tikta",
+        "madhura"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "madhura",
+      "prabhava": "",
+      "karma": [
+        "pittahara"
+      ]
+    },
+    "dosha": {
+      "vata": "may increase if excessive",
+      "pitta": "pacifies",
+      "kapha": "may reduce"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "whole plant"
+      ],
+      "indications": [
+        "traditional liver and digestive applications"
+      ],
+      "therapeutic_actions": [
+        "pittahara"
+      ],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
+    "phytochemistry": {
+      "major_constituents": [
+        "lignans",
+        "flavonoids",
+        "tannins"
+      ],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "Phyllanthus species have been investigated extensively for hepatobiliary and antiviral-related pharmacology; species identification is important.",
+      "recognized_uses": [],
+      "safety_notes": "Do not equate preclinical evidence with established clinical efficacy.",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [
+        "Whole plant is used",
+        "Fruit position is an important identification feature"
+      ],
+      "viva_questions": [
+        "How do you distinguish Bhumyamalaki in the field?"
+      ],
+      "identification_points": [
+        "Fruits borne beneath branchlets"
+      ],
+      "mnemonics": [],
+      "quick_revision": "Bhūmyāmalakī: whole plant; sheeta; traditionally pittahara."
+    },
+    "teacher": {
+      "teaching_points": [
+        "Field identification"
+      ],
+      "discussion_points": [
+        "Species/substitute identification"
+      ],
+      "practical_points": [
+        "Observe underside of branchlets for fruits"
+      ]
+    },
+    "doctor": {
+      "quick_reference": "Whole plant is traditionally used; species authentication is important.",
+      "important_indications": [],
+      "useful_part": "whole plant",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS Medicinal Plant Research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+      }
+    ],
+    "metadata": {
+      "status": "working_draft_needs_text_cross_check",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "0.2"
+    }
+  },
+  {
+    "id": "bilva",
+    "order": 13,
+    "identity": {
+      "name": "Bilva",
+      "sanskrit_name": "बिल्व",
+      "transliteration": "Bilva",
+      "botanical_name": "Aegle marmelos (L.) Corrêa",
+      "family": "Rutaceae",
+      "english_name": "Bael",
+      "hindi_name": "बेल",
+      "regional_names": [],
+      "synonyms": [
+        "Shailusha"
+      ]
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "Small to medium-sized aromatic tree, often spiny",
+      "habitat": "Dry deciduous and mixed forests; cultivated near settlements",
+      "distribution": "Widely distributed in India"
+    },
+    "identification": {
+      "description": "Aromatic tree with trifoliate leaves and hard-shelled globose fruits.",
+      "whole_plant": "Small to medium tree, sometimes thorny.",
+      "root": "",
+      "stem": "Woody, often with spines.",
+      "leaf": "Trifoliate, aromatic; terminal leaflet larger.",
+      "flower": "Greenish-white, fragrant, in clusters.",
+      "fruit": "Large globose to ovoid fruit with hard woody shell and aromatic pulp.",
+      "seed": "Numerous seeds embedded in mucilaginous pulp.",
+      "bark": "Grey-brown.",
+      "identification_points": [
+        "Trifoliate aromatic leaves",
+        "Hard-shelled fruit",
+        "Aromatic foliage"
+      ]
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "kashaya",
+        "tikta",
+        "madhura"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
+      "prabhava": "",
+      "karma": [
+        "grahi",
+        "dipana"
+      ]
+    },
+    "dosha": {
+      "vata": "traditionally useful in appropriate forms",
+      "pitta": "may increase with excessive heating preparations",
+      "kapha": "reduces"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "fruit",
+        "root"
+      ],
+      "indications": [
+        "traditional digestive and grahi applications"
+      ],
+      "therapeutic_actions": [
+        "grahi",
+        "dipana"
+      ],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
+    "phytochemistry": {
+      "major_constituents": [
+        "coumarins",
+        "alkaloids",
+        "tannins",
+        "flavonoids"
+      ],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "Aegle marmelos has been investigated for gastrointestinal and other pharmacological activities.",
+      "recognized_uses": [],
+      "safety_notes": "Clinical claims should be linked to the exact preparation and evidence level.",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [
+        "Trifoliate leaf is characteristic",
+        "Fruit has hard shell",
+        "Important grahi/digestive drug"
+      ],
+      "viva_questions": [
+        "Describe Bilva leaf and fruit.",
+        "Which parts of Bilva are used?"
+      ],
+      "identification_points": [
+        "Trifoliate leaf",
+        "Hard fruit shell"
+      ],
+      "mnemonics": [],
+      "quick_revision": "Bilva: aromatic trifoliate tree; fruit/root important; grahi-dipana."
+    },
+    "teacher": {
+      "teaching_points": [
+        "Demonstrate leaf and fruit"
+      ],
+      "discussion_points": [
+        "Different uses of immature versus mature fruit"
+      ],
+      "practical_points": [
+        "Identify characteristic aromatic leaf"
+      ]
+    },
+    "doctor": {
+      "quick_reference": "Bilva is traditionally important in digestive/grahi applications.",
+      "important_indications": [],
+      "useful_part": "fruit/root",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS Medicinal Plant Research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+      }
+    ],
+    "metadata": {
+      "status": "working_draft_needs_text_cross_check",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "0.2"
+    }
+  },
+  {
+    "id": "brahmi",
+    "order": 14,
+    "identity": {
+      "name": "Brahmi",
+      "sanskrit_name": "ब्राह्मी",
+      "transliteration": "Brāhmī",
+      "botanical_name": "Bacopa monnieri (L.) Wettst.",
+      "family": "Plantaginaceae",
+      "english_name": "Water hyssop",
+      "hindi_name": "ब्राह्मी",
+      "regional_names": [],
+      "synonyms": []
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "Small succulent creeping perennial herb",
+      "habitat": "Wetlands, marshy soils, pond margins",
+      "distribution": "Widely distributed in tropical India"
+    },
+    "identification": {
+      "description": "Succulent creeping herb with opposite leaves and small white flowers.",
+      "whole_plant": "Creeping, succulent herb rooting at nodes.",
+      "root": "Fibrous roots from nodes.",
+      "stem": "Fleshy, creeping, rooting at nodes.",
+      "leaf": "Opposite, thick, obovate to spatulate, entire.",
+      "flower": "Small white, solitary flowers in leaf axils.",
+      "fruit": "Small capsule.",
+      "seed": "Tiny.",
+      "bark": "",
+      "identification_points": [
+        "Succulent creeping stem",
+        "Opposite fleshy leaves",
+        "Small white axillary flowers"
+      ]
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "tikta"
+      ],
+      "guna": [
+        "laghu"
+      ],
+      "virya": "sheeta",
+      "vipaka": "madhura",
+      "prabhava": "",
+      "karma": [
+        "medhya",
+        "rasayana"
+      ]
+    },
+    "dosha": {
+      "vata": "generally supportive in appropriate use",
+      "pitta": "pacifies",
+      "kapha": "may reduce"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "whole plant"
+      ],
+      "indications": [
+        "traditional medhya use",
+        "traditional rasayana use"
+      ],
+      "therapeutic_actions": [
+        "medhya"
+      ],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
+    "phytochemistry": {
+      "major_constituents": [
+        "bacosides"
+      ],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "Bacopa monnieri has been studied in cognition-related and neuropharmacological research.",
+      "recognized_uses": [],
+      "safety_notes": "Evidence depends on extract/preparation; avoid translating supplement evidence directly to all Ayurvedic preparations.",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [
+        "Whole plant is used",
+        "Important medhya rasayana"
+      ],
+      "viva_questions": [
+        "How is Brahmi identified?",
+        "What is its principal karma?"
+      ],
+      "identification_points": [
+        "Succulent creeping habit",
+        "Opposite fleshy leaves"
+      ],
+      "mnemonics": [],
+      "quick_revision": "Brāhmī: whole plant; tikta; laghu; sheeta; medhya."
+    },
+    "teacher": {
+      "teaching_points": [
+        "Garden identification"
+      ],
+      "discussion_points": [
+        "Brahmi versus Mandukaparni"
+      ],
+      "practical_points": [
+        "Compare leaf shape and growth habit"
+      ]
+    },
+    "doctor": {
+      "quick_reference": "Traditional medhya rasayana; whole plant used.",
+      "important_indications": [],
+      "useful_part": "whole plant",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS Database on Medicinal Plants",
+        "url": "https://ccras.nic.in/documents/database-on-medicinal-plants/"
+      }
+    ],
+    "metadata": {
+      "status": "working_draft_needs_text_cross_check",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "0.2"
+    }
+  },
+  {
+    "id": "chandana",
+    "order": 15,
+    "identity": {
+      "name": "Chandana",
+      "sanskrit_name": "चन्दन",
+      "transliteration": "",
+      "botanical_name": "Santalum album L.",
+      "family": "Santalaceae",
+      "english_name": "",
+      "hindi_name": "",
+      "regional_names": [],
+      "synonyms": []
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "",
+      "habitat": "",
+      "distribution": ""
+    },
+    "identification": {
+      "description": "",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": []
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "prabhava": "",
+      "karma": []
+    },
+    "dosha": {
+      "vata": "",
+      "pitta": "",
+      "kapha": ""
+    },
+    "therapeutics": {
+      "useful_part": [
+        "heartwood"
+      ],
+      "indications": [],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "",
+      "recognized_uses": [],
+      "safety_notes": "",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [],
+      "viva_questions": [],
+      "identification_points": [],
+      "mnemonics": [],
+      "quick_revision": ""
+    },
+    "teacher": {
+      "teaching_points": [],
+      "discussion_points": [],
+      "practical_points": []
+    },
+    "doctor": {
+      "quick_reference": "",
+      "important_indications": [],
+      "useful_part": "heartwood",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS Medicinal Plant Research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+      }
+    ],
+    "metadata": {
+      "status": "needs_detailed_text_cross_check",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "0.2"
+    }
+  },
+  {
+    "id": "chitraka",
+    "order": 16,
+    "identity": {
+      "name": "Chitraka",
+      "sanskrit_name": "चित्रक",
+      "transliteration": "",
+      "botanical_name": "Plumbago zeylanica L.",
+      "family": "Plumbaginaceae",
+      "english_name": "",
+      "hindi_name": "",
+      "regional_names": [],
+      "synonyms": []
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "",
+      "habitat": "",
+      "distribution": ""
+    },
+    "identification": {
+      "description": "",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": []
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "prabhava": "",
+      "karma": []
+    },
+    "dosha": {
+      "vata": "",
+      "pitta": "",
+      "kapha": ""
+    },
+    "therapeutics": {
+      "useful_part": [
+        "root"
+      ],
+      "indications": [],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "",
+      "recognized_uses": [],
+      "safety_notes": "",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [],
+      "viva_questions": [],
+      "identification_points": [],
+      "mnemonics": [],
+      "quick_revision": ""
+    },
+    "teacher": {
+      "teaching_points": [],
+      "discussion_points": [],
+      "practical_points": []
+    },
+    "doctor": {
+      "quick_reference": "",
+      "important_indications": [],
+      "useful_part": "root",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS Medicinal Plant Research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+      }
+    ],
+    "metadata": {
+      "status": "needs_detailed_text_cross_check",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "0.2"
+    }
+  },
+  {
+    "id": "dadima",
+    "order": 17,
+    "identity": {
+      "name": "Dadima",
+      "sanskrit_name": "दाडिम",
+      "transliteration": "",
+      "botanical_name": "Punica granatum L.",
+      "family": "Lythraceae",
+      "english_name": "",
+      "hindi_name": "",
+      "regional_names": [],
+      "synonyms": []
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "",
+      "habitat": "",
+      "distribution": ""
+    },
+    "identification": {
+      "description": "",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": []
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "prabhava": "",
+      "karma": []
+    },
+    "dosha": {
+      "vata": "",
+      "pitta": "",
+      "kapha": ""
+    },
+    "therapeutics": {
+      "useful_part": [
+        "fruit"
+      ],
+      "indications": [],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "",
+      "recognized_uses": [],
+      "safety_notes": "",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [],
+      "viva_questions": [],
+      "identification_points": [],
+      "mnemonics": [],
+      "quick_revision": ""
+    },
+    "teacher": {
+      "teaching_points": [],
+      "discussion_points": [],
+      "practical_points": []
+    },
+    "doctor": {
+      "quick_reference": "",
+      "important_indications": [],
+      "useful_part": "fruit",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS Medicinal Plant Research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+      }
+    ],
+    "metadata": {
+      "status": "needs_detailed_text_cross_check",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "0.2"
+    }
+  },
+  {
+    "id": "dhataki",
+    "order": 18,
+    "identity": {
+      "name": "Dhataki",
+      "sanskrit_name": "धातकी",
+      "transliteration": "",
+      "botanical_name": "Woodfordia fruticosa (L.) Kurz",
+      "family": "Lythraceae",
+      "english_name": "",
+      "hindi_name": "",
+      "regional_names": [],
+      "synonyms": []
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "",
+      "habitat": "",
+      "distribution": ""
+    },
+    "identification": {
+      "description": "",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": []
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "prabhava": "",
+      "karma": []
+    },
+    "dosha": {
+      "vata": "",
+      "pitta": "",
+      "kapha": ""
+    },
+    "therapeutics": {
+      "useful_part": [
+        "flower"
+      ],
+      "indications": [],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "",
+      "recognized_uses": [],
+      "safety_notes": "",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [],
+      "viva_questions": [],
+      "identification_points": [],
+      "mnemonics": [],
+      "quick_revision": ""
+    },
+    "teacher": {
+      "teaching_points": [],
+      "discussion_points": [],
+      "practical_points": []
+    },
+    "doctor": {
+      "quick_reference": "",
+      "important_indications": [],
+      "useful_part": "flower",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS Medicinal Plant Research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+      }
+    ],
+    "metadata": {
+      "status": "needs_detailed_text_cross_check",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "0.2"
+    }
+  },
+  {
+    "id": "dhamasa",
+    "order": 19,
+    "identity": {
+      "name": "Dhamasa",
+      "sanskrit_name": "धमासा",
+      "transliteration": "",
+      "botanical_name": "Fagonia indica (syn. Fagonia cretica)",
+      "family": "Zygophyllaceae",
+      "english_name": "",
+      "hindi_name": "",
+      "regional_names": [],
+      "synonyms": []
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "",
+      "habitat": "",
+      "distribution": ""
+    },
+    "identification": {
+      "description": "",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": []
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "prabhava": "",
+      "karma": []
+    },
+    "dosha": {
+      "vata": "",
+      "pitta": "",
+      "kapha": ""
+    },
+    "therapeutics": {
+      "useful_part": [
+        "whole plant"
+      ],
+      "indications": [],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "",
+      "recognized_uses": [],
+      "safety_notes": "",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [],
+      "viva_questions": [],
+      "identification_points": [],
+      "mnemonics": [],
+      "quick_revision": ""
+    },
+    "teacher": {
+      "teaching_points": [],
+      "discussion_points": [],
+      "practical_points": []
+    },
+    "doctor": {
+      "quick_reference": "",
+      "important_indications": [],
+      "useful_part": "whole plant",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS Medicinal Plant Research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+      }
+    ],
+    "metadata": {
+      "status": "needs_detailed_text_cross_check",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "0.2"
+    }
+  },
+  {
+    "id": "eranda",
+    "order": 20,
+    "identity": {
+      "name": "Eranda",
+      "sanskrit_name": "एरण्ड",
+      "transliteration": "",
+      "botanical_name": "Ricinus communis L.",
+      "family": "Euphorbiaceae",
+      "english_name": "",
+      "hindi_name": "",
+      "regional_names": [],
+      "synonyms": []
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "",
+      "habitat": "",
+      "distribution": ""
+    },
+    "identification": {
+      "description": "",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": []
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "prabhava": "",
+      "karma": []
+    },
+    "dosha": {
+      "vata": "",
+      "pitta": "",
+      "kapha": ""
+    },
+    "therapeutics": {
+      "useful_part": [
+        "seed/root"
+      ],
+      "indications": [],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": []
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "",
+      "recognized_uses": [],
+      "safety_notes": "",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [],
+      "viva_questions": [],
+      "identification_points": [],
+      "mnemonics": [],
+      "quick_revision": ""
+    },
+    "teacher": {
+      "teaching_points": [],
+      "discussion_points": [],
+      "practical_points": []
+    },
+    "doctor": {
+      "quick_reference": "",
+      "important_indications": [],
+      "useful_part": "seed/root",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS Medicinal Plant Research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+      }
+    ],
+    "metadata": {
+      "status": "needs_detailed_text_cross_check",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "0.2"
+    }
   }
-}
 ]
