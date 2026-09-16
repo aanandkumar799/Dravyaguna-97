@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const urls = {
     index: new URL('plant-index.json', window.location.href).href,
     fallback: new URL('plants.json', window.location.href).href,
-    batches: ['plant-batch-24-28.json','plant-batch-29-33.json','plant-batch-34-38.json','plant-batch-39-43.json']
+    batches: ['plant-batch-24-28.json','plant-batch-29-33.json','plant-batch-34-38.json','plant-batch-39-43.json','plant-batch-44-48.json']
       .map(name => new URL(name, window.location.href).href)
   };
 
@@ -18,8 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const initialLimit = 24;
 
   const esc = value => String(value ?? '')
-    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
-    .replace(/\"/g,'&quot;').replace(/'/g,'&#039;');
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\"/g,'&quot;').replace(/'/g,'&#039;');
   const normalize = value => String(value ?? '')
     .normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()
     .replace(/[^\p{L}\p{N}]+/gu,' ').replace(/\s+/g,' ').trim();
