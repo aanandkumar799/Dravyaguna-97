@@ -29,6 +29,7 @@ jobs:
         run: |
           python scripts/normalize-plants-schema.py
           python scripts/generate-site-artifacts.py
+          python scripts/harden-quiz.py
 
       - name: Prepare static site, fast index and plant dossiers
         shell: bash
