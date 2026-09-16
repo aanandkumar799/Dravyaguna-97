@@ -1,0 +1,197 @@
+[
+  {
+    "id": "haridra",
+    "order": 24,
+    "category": "NCISM-97",
+    "batch_id": 54,
+    "identity": {
+      "name": "Haridra",
+      "sanskrit_name": "हरिद्रा",
+      "transliteration": "Haridrā",
+      "botanical_name": "Curcuma longa L.",
+      "family": "Zingiberaceae",
+      "english_name": "Turmeric",
+      "synonyms": ["Kāñcanī", "Pītā", "Niśā", "Varavarṇinī", "Kṛmighnī", "Haladī", "Yoṣitpriyā"]
+    },
+    "dravya_guna": {
+      "rasa": ["Tikta", "Katu"],
+      "guna": ["Laghu", "Ruksha"],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": "Varnya; Krimighna; Pramehahara",
+      "karma": ["Varnya", "Krimighna", "Kushtaghna", "Pramehahara", "Vranaropana", "Kaphapittahara"]
+    },
+    "therapeutics": {
+      "useful_part": ["Rhizome (Kanda)"],
+      "indications": ["Prameha", "Kushta", "Pandu", "Vrana", "Shotha", "Raktapitta"],
+      "therapeutic_actions": ["Varnya", "Krimighna", "Kushtaghna", "Vranaropana", "Shothahara"]
+    },
+    "identification": {
+      "description": "A rhizomatous herb with branched yellow-orange rhizomes and strongly aromatic foliage; the rhizome is the principal crude drug.",
+      "identification_points": ["Branched rhizome", "Deep yellow-orange interior", "Aromatic odor", "Pungent-bitter taste"]
+    },
+    "formulations": [{"name":"Haridra Khanda"},{"name":"Nisha Amalaki"},{"name":"Haridradi Ghrita"}],
+    "classical_reference": {
+      "shlokas": ["हरिद्रा कटुका तिक्ता रूक्षोष्णा कफपित्तनुत् ।\nवर्ण्या त्वग्दोषमेहास्रशोथपाण्डुव्रणापहा ॥"],
+      "nighantu_references": ["Bhavaprakasha Nighantu, Haritakyadi Varga, verse 197 in the cited Chowkhamba numbering; searchable recensions may number this passage differently (e.g. 171–172)."],
+      "shloka_reference_status": "verified text; edition numbering varies"
+    },
+    "metadata": {"status":"corrected_reviewed","source_batch":"54","last_reviewed":"2026-09-17"}
+  },
+  {
+    "id": "aragvadha",
+    "order": 2,
+    "category": "NCISM-97",
+    "batch_id": 55,
+    "identity": {
+      "name": "Aragvadha",
+      "sanskrit_name": "आरग्वध",
+      "transliteration": "Āragvadha",
+      "botanical_name": "Cassia fistula L.",
+      "family": "Fabaceae (Caesalpiniaceae)",
+      "english_name": "Golden Shower Tree",
+      "synonyms": ["Rājavṛkṣa", "Śampāka", "Caturaṅgula", "Ārevata", "Vyādhighāta", "Kṛtamāla", "Suvarṇaka", "Karṇikāra", "Dīrghaphala"]
+    },
+    "dravya_guna": {
+      "rasa": ["Madhura"],
+      "guna": ["Guru", "Mridu", "Snigdha"],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "prabhava": "Sramsana; Mridu Virechana",
+      "karma": ["Sramsana", "Mridu Virechana", "Kushtaghna", "Jvarahara", "Hridya"]
+    },
+    "therapeutics": {
+      "useful_part": ["Fruit pulp (Phala Majja)", "Stem bark (Twak)"],
+      "indications": ["Vibandha", "Kushta", "Jwara", "Hridroga", "Udarashula"],
+      "therapeutic_actions": ["Sramsana", "Mridu Virechana", "Kushtaghna", "Jvarahara"]
+    },
+    "identification": {
+      "description": "A medium-sized tree bearing long pendulous cylindrical pods containing transverse septa and sticky dark pulp around the seeds; flowers are yellow and showy.",
+      "identification_points": ["Long pendulous pods", "Transverse septa", "Sticky dark fruit pulp", "Yellow flowers"]
+    },
+    "formulations": [{"name":"Aragvadharishta"},{"name":"Aragvadhadi Kwatha"},{"name":"Aragvadhadi Leha"}],
+    "classical_reference": {
+      "shlokas": ["आरग्वधो राजवृक्षः शम्पाकश्चतुरङ्गुलः ।\nआरेवतो व्याधिघातः कृतमालः सुवर्णकः ॥१४८॥\nकर्णिकारो दीर्घफलः स्वर्णाङ्गः स्वर्णभूषणः ।\nआरग्वधो गुरुः स्वादुः शीतलः स्रंसनोत्तमः ॥१४९॥"],
+      "nighantu_references": ["Bhavaprakasha Nighantu, Haritakyadi Varga, verses 148–150 in one searchable recension; other editions number the passage 131–132."],
+      "shloka_reference_status": "verified text; edition numbering varies"
+    },
+    "metadata": {"status":"corrected_reviewed","source_batch":"55","last_reviewed":"2026-09-17"}
+  },
+  {
+    "id": "katuki",
+    "order": 34,
+    "category": "NCISM-97",
+    "batch_id": 56,
+    "identity": {
+      "name": "Katuki",
+      "sanskrit_name": "कटुकी",
+      "transliteration": "Kaṭukī",
+      "botanical_name": "Picrorhiza kurroa Royle ex Benth.",
+      "family": "Plantaginaceae (Scrophulariaceae)",
+      "english_name": "Picrorhiza / Kutki",
+      "synonyms": ["Kaṭvī", "Kaṭukā", "Tiktā", "Kṛṣṇabhedā", "Matsyaśakalā", "Cakrāṅgī", "Kaṭurohiṇī"]
+    },
+    "dravya_guna": {
+      "rasa": ["Tikta"],
+      "guna": ["Laghu", "Ruksha"],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "prabhava": "Bhedana; Pitta-rechaka",
+      "karma": ["Bhedana", "Deepana", "Pachana", "Jwarahara", "Kamalahara", "Kaphapittahara"]
+    },
+    "therapeutics": {
+      "useful_part": ["Rhizome and root (Kanda/Mula)"],
+      "indications": ["Kamala", "Jwara", "Kushta", "Prameha", "Vibandha", "Daha"],
+      "therapeutic_actions": ["Bhedana", "Deepana", "Pachana", "Jwarahara", "Kaphapittahara"]
+    },
+    "identification": {
+      "description": "A small Himalayan perennial herb with a short stout rhizome bearing persistent scale-leaf bases and numerous rootlets; the drug is intensely bitter.",
+      "identification_points": ["Short stout rhizome", "Scale-leaf bases", "Root scars/rootlets", "Intensely bitter taste"]
+    },
+    "formulations": [{"name":"Arogyavardhini Vati"},{"name":"Katutrayadi Kwatha"},{"name":"Katukadi Churna"},{"name":"Mahatiktaka Ghrita"}],
+    "classical_reference": {
+      "shlokas": ["कट्वी तु कटुका तिक्ता कृष्णभेदा कटम्भरा ।\nअशोका मत्स्यशकला चक्राङ्गी शकुलादनी ॥१५१॥\nकट्वी तु कटुका पाके तिक्ता रूक्षा हिमा लघुः ।\nभेदिनी दीपनी हृद्या कफपित्तज्वरापहा ।\nप्रमेहश्वासकासास्रदाहकुष्ठकृमिप्रणुत् ॥१५२॥"],
+      "nighantu_references": ["Bhavaprakasha Nighantu, Haritakyadi Varga, verses 151–152."],
+      "shloka_reference_status": "verified text"
+    },
+    "metadata": {"status":"corrected_reviewed","source_batch":"56","last_reviewed":"2026-09-17"}
+  },
+  {
+    "id": "trivrit",
+    "order": 87,
+    "category": "NCISM-97",
+    "batch_id": 57,
+    "identity": {
+      "name": "Trivrit",
+      "sanskrit_name": "त्रिवृत्",
+      "transliteration": "Trivṛt",
+      "botanical_name": "Operculina turpethum (L.) Silva Manso",
+      "family": "Convolvulaceae",
+      "english_name": "Indian Jalap / Turpeth",
+      "synonyms": ["Tripuṭā", "Sārala", "Niśotara", "Kumbha", "Kūṭa"]
+    },
+    "dravya_guna": {
+      "rasa": ["Tikta", "Katu"],
+      "guna": ["Laghu", "Ruksha", "Tikshna"],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": "Sukha Virechana",
+      "karma": ["Virechana", "Kaphahara", "Pittahara", "Shothahara"]
+    },
+    "therapeutics": {
+      "useful_part": ["Root bark (Mula Twak)"],
+      "indications": ["Vibandha", "Udara Roga", "Shotha", "Arsha", "Pandu"],
+      "therapeutic_actions": ["Virechana", "Sukha Virechana", "Kaphahara", "Pittahara"]
+    },
+    "identification": {
+      "description": "A twining perennial climber with thick tuberous roots; the root bark is the principal purgative drug and is distinguished from the inner woody portion.",
+      "identification_points": ["Twining climber", "Thick tuberous roots", "Root bark used medicinally", "Purgative drug"]
+    },
+    "formulations": [{"name":"Avipattikara Churna"},{"name":"Trivrit Lehyam"},{"name":"Trivritadi Kwatha"},{"name":"Abhayarishta"}],
+    "classical_reference": {
+      "shlokas": ["त्रिवृत् is documented in Bhavaprakasha Nighantu, Guduchyadi Varga; the supplied 192–194 citation and wording require edition-level verification before being marked as an exact quotation."],
+      "nighantu_references": ["Bhavaprakasha Nighantu, Guduchyadi Varga. A literature review confirms Trivrit is placed in Guduchyadi Varga, with numbering varying by edition."],
+      "shloka_reference_status": "provisional; exact verse text/number not independently confirmed in the current review"
+    },
+    "metadata": {"status":"reviewed_provisional_reference","source_batch":"57","last_reviewed":"2026-09-17"}
+  },
+  {
+    "id": "kumari",
+    "order": 36,
+    "category": "NCISM-97",
+    "batch_id": 58,
+    "identity": {
+      "name": "Kumari",
+      "sanskrit_name": "कुमारी",
+      "transliteration": "Kumārī",
+      "botanical_name": "Aloe vera (L.) Burm.f. (syn. Aloe barbadensis Mill.)",
+      "family": "Asphodelaceae (older sources: Liliaceae)",
+      "english_name": "Indian Aloe / Aloe Vera",
+      "synonyms": ["Kanyā", "Gṛhakanyā", "Taraṇī", "Vipulasravā"]
+    },
+    "dravya_guna": {
+      "rasa": ["Tikta", "Madhura"],
+      "guna": ["Guru", "Snigdha", "Picchila"],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "prabhava": "Bhedana; Artavajanana; Rasayana",
+      "karma": ["Bhedana", "Brimhana", "Vrishya", "Rasayana", "Artavajanana", "Yakrit-Pliha hitakara"]
+    },
+    "therapeutics": {
+      "useful_part": ["Leaf pulp/gel (Patra Majja)", "Dried leaf juice/resin (Elua)"],
+      "indications": ["Artavadosha", "Rajorodha", "Yakrit-Pliha Roga", "Gulma", "Vrana", "Kushta"],
+      "therapeutic_actions": ["Bhedana", "Brimhana", "Vrishya", "Rasayana", "Artavajanana"]
+    },
+    "identification": {
+      "description": "A stemless succulent forming a rosette of thick lanceolate leaves with spiny margins and abundant translucent mucilaginous gel.",
+      "identification_points": ["Rosette habit", "Fleshy lanceolate leaves", "Spiny margins", "Translucent inner gel", "Bitter yellow latex/exudate"]
+    },
+    "formulations": [{"name":"Kumaryasava"},{"name":"Rajapravartini Vati"},{"name":"Kumari Ghrita"},{"name":"Kumari Taila"}],
+    "classical_reference": {
+      "shlokas": ["कुमारी भेदनी शीता तिक्ता स्वाद्वी रसायनी ।\nनेत्र्या वृष्या बल्या च वातपित्तविषापहा ॥"],
+      "nighantu_references": ["Bhavaprakasha Nighantu, Guduchyadi Varga; the supplied 229–230 citation and wording require edition-level verification before being treated as an exact quotation."],
+      "shloka_reference_status": "provisional; exact verse text/number not independently confirmed in the current review"
+    },
+    "metadata": {"status":"reviewed_provisional_reference","source_batch":"58","last_reviewed":"2026-09-17"}
+  }
+]
