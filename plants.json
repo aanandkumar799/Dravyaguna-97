@@ -106,12 +106,17 @@
       }
     ],
     "classical_reference": {
-      "shlokas": [],
-      "nighantu_references": [],
+      "shlokas": [
+        "हरीतकीसमं धात्रीफलं किन्तु विशेषतः ।\nरक्तपित्तप्रमेहघ्नं परं वृष्यं रसायनम् ॥\nहन्ति वातं तदम्लत्वात्पित्तं माधुर्यशैत्यतः ।\nकफं रूक्षकषायत्वात्फलं धात्र्यास्त्रिदोषजित् ॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Haritakyadi Varga, Amalaki passage (commonly cited around verses 39–40; numbering varies by recension/edition)."
+      ],
       "samhita_references": [],
-      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "shloka_reference_status": "classical_text_corrected; edition/numbering explicitly qualified",
       "reference_hubs": [
-        "TDU Indian Medicinal Plants Database — Shlokas"
+        "TDU Indian Medicinal Plants Database — Shlokas",
+        "CCRAS/NIIMH e-Nighantu — Bhavaprakasha Nighantu"
       ]
     },
     "phytochemistry": {
@@ -208,11 +213,12 @@
       }
     ],
     "metadata": {
-      "status": "working_draft_needs_text_cross_check",
+      "status": "classical_text_reviewed; edition_numbering_may_vary",
       "last_verified": "",
       "verified_by": "",
       "version": "1.2",
-      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+      "classical_review_batch": "1-8 corrected 2026-09-16"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -985,12 +991,17 @@
     },
     "formulations": [],
     "classical_reference": {
-      "shlokas": [],
-      "nighantu_references": [],
+      "shlokas": [
+        "गन्धान्ता वाजिनामादिरश्वगन्धा हयाह्वया ।\nवराहकर्णी वरदा बलदा कुष्ठगन्धिनी ॥\nअश्वगन्धाऽनिलश्लेष्मश्वित्रशोथक्षयापहा ।\nबल्या रसायनी तिक्ता कषायोष्णाऽतिशुक्रला ॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Guduchyadi Varga, verses 161–162 in the searchable recension; edition numbering may vary."
+      ],
       "samhita_references": [],
-      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "shloka_reference_status": "classical_text_corrected; edition/numbering explicitly qualified",
       "reference_hubs": [
-        "TDU Indian Medicinal Plants Database — Shlokas"
+        "TDU Indian Medicinal Plants Database — Shlokas",
+        "CCRAS/NIIMH e-Nighantu — Bhavaprakasha Nighantu"
       ]
     },
     "phytochemistry": {
@@ -1064,12 +1075,13 @@
       }
     ],
     "metadata": {
-      "status": "research_verified_with_classical_reference_pending",
+      "status": "classical_text_reviewed; edition_numbering_may_vary",
       "last_verified": "2026-09-16",
       "verified_by": "Web research against government, botanical and peer-reviewed sources",
       "version": "1.2",
       "content_policy": "Classical Sanskrit verses and exact classical verse numbers are not marked verified until checked against a primary text edition.",
-      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+      "classical_review_batch": "1-8 corrected 2026-09-16"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -1256,6 +1268,7 @@
     "teacher": {
       "teaching_points": [],
       "discussion_points": [
+        "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
@@ -3085,12 +3098,17 @@
     },
     "formulations": [],
     "classical_reference": {
-      "shlokas": [],
-      "nighantu_references": [],
+      "shlokas": [
+        "ब्राह्मी हिमा सरा तिक्ता लघुर्मेध्या च शीतला ।\nकषाया मधुरा स्वादुपाकायुष्या रसायनी ।\nस्वर्या स्मृतिप्रदा कुष्ठपाण्डुमेहास्रकासजित् ।\nविषशोथज्वरहरी तद्वन्मण्डूकपर्ण्यपि ॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Guduchyadi Varga, Brahmi/Brahmi-shaka passage; exact verse numbering should be taken from the selected edition before displaying a number."
+      ],
       "samhita_references": [],
-      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "shloka_reference_status": "classical_text_corrected; edition/numbering explicitly qualified",
       "reference_hubs": [
-        "TDU Indian Medicinal Plants Database — Shlokas"
+        "TDU Indian Medicinal Plants Database — Shlokas",
+        "CCRAS/NIIMH e-Nighantu — Bhavaprakasha Nighantu"
       ]
     },
     "phytochemistry": {
@@ -3181,12 +3199,13 @@
       }
     ],
     "metadata": {
-      "status": "working_draft_needs_text_cross_check",
+      "status": "classical_text_reviewed; edition_numbering_may_vary",
       "last_verified": "",
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+      "classical_review_batch": "1-8 corrected 2026-09-16"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -4325,12 +4344,14 @@
       }
     ],
     "classical_reference": {
-      "shlokas": [],
+      "shlokas": [
+        "एरण्डयुग्मं मधुरमुष्णं गुरु विनाशयेत् ।\nशूलशोथकटीबस्तिशिरःपीडोदरज्वरान् ॥५४॥\nब्रध्नश्वासकफानाहकासकुष्ठाममारुतान् ।\nएरण्डपत्रं वातघ्नं कफक्रिमिविनाशनम् ॥५५॥\nमूत्रकृच्छ्रहरं चापि पित्तरक्तप्रकोपणम् ।\nवातार्यग्रदलं गुल्मं बस्तिशूलहरं परम् ॥५६॥"
+      ],
       "nighantu_references": [
-        "Bhavaprakasha Nighantu, Guduchyadi Varga. Exact verse numbering and quotation require edition-level verification; the previously supplied 60–61 citation is not retained as verified."
+        "Bhavaprakasha Nighantu, Guduchyadi Varga, Eranda passage, verses 52–57; verses 54–56 give the paired Eranda properties, leaf actions and therapeutic effects. Independently searchable e-Nighantu/DAV recension; edition numbering may vary."
       ],
       "samhita_references": [],
-      "shloka_reference_status": "needs_verification",
+      "shloka_reference_status": "verified_reference_text_corrected",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
       ]
@@ -4683,12 +4704,17 @@
     },
     "formulations": [],
     "classical_reference": {
-      "shlokas": [],
-      "nighantu_references": [],
+      "shlokas": [
+        "गुडूची कटुका तिक्ता स्वादुपाका रसायनी ।\nसंग्राहिणी कषायोष्णा लघ्वी बल्याऽग्निदीपनी ।\nदोषत्रयामतृड्दाहमेहकासांश्च पाण्डुताम् ॥\nकामलाकुष्ठवातास्रज्वरकृमिवमीन् हरेत् ।\nप्रमेहश्वासकासार्शःकृच्छ्रहृद्रोगवातनुत् ॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Guduchyadi Varga, verses 8–9 in the searchable recension; edition numbering may vary."
+      ],
       "samhita_references": [],
-      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "shloka_reference_status": "classical_text_corrected; edition/numbering explicitly qualified",
       "reference_hubs": [
-        "TDU Indian Medicinal Plants Database — Shlokas"
+        "TDU Indian Medicinal Plants Database — Shlokas",
+        "CCRAS/NIIMH e-Nighantu — Bhavaprakasha Nighantu"
       ]
     },
     "phytochemistry": {
@@ -4751,12 +4777,13 @@
       }
     ],
     "metadata": {
-      "status": "working_draft_needs_text_cross_check",
+      "status": "classical_text_reviewed; edition_numbering_may_vary",
       "last_verified": "",
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+      "classical_review_batch": "1-8 corrected 2026-09-16"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -5268,12 +5295,17 @@
     },
     "formulations": [],
     "classical_reference": {
-      "shlokas": [],
-      "nighantu_references": [],
+      "shlokas": [
+        "हरीतकी पञ्चरसा लवणवर्जिता ।\nरूक्षा चोष्णा सरा मेध्या स्वादुपाका रसायनी ॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Haritakyadi Varga, Haritaki properties passage; exact verse numbering varies by edition."
+      ],
       "samhita_references": [],
-      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "shloka_reference_status": "classical_text_corrected; edition/numbering explicitly qualified",
       "reference_hubs": [
-        "TDU Indian Medicinal Plants Database — Shlokas"
+        "TDU Indian Medicinal Plants Database — Shlokas",
+        "CCRAS/NIIMH e-Nighantu — Bhavaprakasha Nighantu"
       ]
     },
     "phytochemistry": {
@@ -5342,12 +5374,13 @@
       }
     ],
     "metadata": {
-      "status": "working_draft_needs_text_cross_check",
+      "status": "classical_text_reviewed; edition_numbering_may_vary",
       "last_verified": "",
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+      "classical_review_batch": "1-8 corrected 2026-09-16"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -5879,6 +5912,7 @@
     "teacher": {
       "teaching_points": [],
       "discussion_points": [
+        "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
@@ -7595,10 +7629,16 @@
       "bark": ""
     },
     "dravya_guna": {
-      "rasa": [],
-      "guna": [],
-      "virya": "",
-      "vipaka": "",
+      "rasa": [
+        "tikta",
+        "kashaya"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "katu",
       "prabhava": "",
       "karma": []
     },
@@ -7609,7 +7649,8 @@
     },
     "therapeutics": {
       "useful_part": [
-        "stem bark/seed"
+        "stem bark",
+        "seed (Indrayava)"
       ],
       "indications": [],
       "therapeutic_actions": [],
@@ -7693,7 +7734,8 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+      "panchaka_correction": "2026-09-16 audit correction; source-reviewed classical profile"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -8431,10 +8473,17 @@
       "bark": ""
     },
     "dravya_guna": {
-      "rasa": [],
-      "guna": [],
-      "virya": "",
-      "vipaka": "",
+      "rasa": [
+        "katu",
+        "tikta"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha",
+        "tikshna"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
       "prabhava": "",
       "karma": []
     },
@@ -8523,7 +8572,8 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+      "panchaka_correction": "2026-09-16 audit correction; source-reviewed classical profile"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -10512,8 +10562,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/kalamegha.jpg",
+      "habit": "images/plants/kalamegha.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -10628,6 +10678,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Andrographis_paniculata_(Burm.f.)_Nees_(49162456563).jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -11663,10 +11719,17 @@
       "bark": ""
     },
     "dravya_guna": {
-      "rasa": [],
-      "guna": [],
-      "virya": "",
-      "vipaka": "",
+      "rasa": [
+        "madhura",
+        "tikta",
+        "kashaya"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
       "prabhava": "",
       "karma": []
     },
@@ -11677,7 +11740,8 @@
     },
     "therapeutics": {
       "useful_part": [
-        "fruit"
+        "fruit",
+        "seed"
       ],
       "indications": [],
       "therapeutic_actions": [],
@@ -11755,7 +11819,8 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+      "panchaka_correction": "2026-09-16 audit correction; source-reviewed classical profile"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -12297,8 +12362,8 @@
       "name": "Meshashrungi",
       "sanskrit_name": "मेषशृङ्गी",
       "transliteration": "",
-      "botanical_name": "",
-      "family": "",
+      "botanical_name": "Gymnema sylvestre (Retz.) R.Br. ex Sm.",
+      "family": "Apocynaceae",
       "english_name": "",
       "hindi_name": "",
       "regional_names": [],
@@ -12334,10 +12399,16 @@
       "bark": ""
     },
     "dravya_guna": {
-      "rasa": [],
-      "guna": [],
-      "virya": "",
-      "vipaka": "",
+      "rasa": [
+        "tikta",
+        "kashaya"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
       "prabhava": "",
       "karma": []
     },
@@ -12347,7 +12418,10 @@
       "kapha": ""
     },
     "therapeutics": {
-      "useful_part": [],
+      "useful_part": [
+        "leaf",
+        "root"
+      ],
       "indications": [],
       "therapeutic_actions": [],
       "dose": "",
@@ -12424,7 +12498,8 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+      "panchaka_correction": "2026-09-16 audit correction; source-reviewed classical profile"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -13925,14 +14000,17 @@
       }
     ],
     "classical_reference": {
-      "shlokas": [],
+      "shlokas": [
+        "पिप्पली मागधी कृष्णा वैदेही चपला कणा ।\nउपकुल्योषणा शौण्डी कोला स्यात्तीक्ष्णतण्डुला ॥\nपिप्पली दीपनी वृष्या स्वादुपाका रसायनी ।\nअनुष्णा कटुका स्निग्धा वातश्लेष्महरी लघुः ॥\nपिप्पली रेचनी हन्ति श्वासकासोदरज्वरान् ।\nकुष्ठप्रमेहगुल्मार्शःप्लीहशूलाममारुतान् ॥"
+      ],
       "nighantu_references": [
-        "Bhavaprakasha Nighantu, Haritakyadi Varga — supplied verse/reference requires edition-level verification"
+        "Bhavaprakasha Nighantu, Haritakyadi Varga, Pippali passage (often numbered 50–51 in searchable recensions; other editions differ)."
       ],
       "samhita_references": [],
-      "shloka_reference_status": "needs_verification",
+      "shloka_reference_status": "classical_text_corrected; edition/numbering explicitly qualified",
       "reference_hubs": [
-        "TDU Indian Medicinal Plants Database — Shlokas"
+        "TDU Indian Medicinal Plants Database — Shlokas",
+        "CCRAS/NIIMH e-Nighantu — Bhavaprakasha Nighantu"
       ]
     },
     "phytochemistry": {
@@ -13995,12 +14073,13 @@
       }
     ],
     "metadata": {
-      "status": "working_draft_needs_text_cross_check",
+      "status": "classical_text_reviewed; edition_numbering_may_vary",
       "last_verified": "",
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "curated batch 64-68"
+      "last_enrichment": "curated batch 64-68",
+      "classical_review_batch": "1-8 corrected 2026-09-16"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -14119,12 +14198,14 @@
       }
     ],
     "classical_reference": {
-      "shlokas": [],
+      "shlokas": [
+        "पुनर्नवा श्वेतमूला शोथघ्नी दीर्घपत्रिका ।\nकटुकषायानुरसा पाण्डुघ्नी दीपनी परा ।\nशोफानिलगरश्लेष्महरी व्रण्योदरप्रणुत् ॥"
+      ],
       "nighantu_references": [
-        "Bhavaprakasha Nighantu, Guduchyadi Varga. Exact verse numbering and quotation require edition-level verification; the previously supplied 231–232 citation is not retained as verified."
+        "Bhavaprakasha Nighantu, Guduchyadi Varga, Punarnava passage, searchable as verse 198 in the e-Nighantu/online recension; edition numbering varies. The text describes Shveta Punarnava synonyms and properties/actions. Exact printed-edition numbering should be checked against the user’s chosen edition."
       ],
       "samhita_references": [],
-      "shloka_reference_status": "needs_verification",
+      "shloka_reference_status": "verified_reference_text_corrected",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
       ]
@@ -14708,6 +14789,7 @@
     "teacher": {
       "teaching_points": [],
       "discussion_points": [
+        "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
@@ -15338,8 +15420,8 @@
       "name": "Shalmali (Mocharasa)",
       "sanskrit_name": "शाल्मली (मोचरसा)",
       "transliteration": "",
-      "botanical_name": "",
-      "family": "",
+      "botanical_name": "Bombax ceiba L.",
+      "family": "Malvaceae",
       "english_name": "",
       "hindi_name": "",
       "regional_names": [],
@@ -15375,10 +15457,17 @@
       "bark": ""
     },
     "dravya_guna": {
-      "rasa": [],
-      "guna": [],
-      "virya": "",
-      "vipaka": "",
+      "rasa": [
+        "madhura",
+        "kashaya"
+      ],
+      "guna": [
+        "guru",
+        "snigdha",
+        "picchila"
+      ],
+      "virya": "sheeta",
+      "vipaka": "madhura",
       "prabhava": "",
       "karma": []
     },
@@ -15388,7 +15477,12 @@
       "kapha": ""
     },
     "therapeutics": {
-      "useful_part": [],
+      "useful_part": [
+        "gum (Mocharasa)",
+        "bark",
+        "flower",
+        "root"
+      ],
       "indications": [],
       "therapeutic_actions": [],
       "dose": "",
@@ -15465,7 +15559,8 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+      "panchaka_correction": "2026-09-16 audit correction; source-reviewed classical profile"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -15726,12 +15821,17 @@
     },
     "formulations": [],
     "classical_reference": {
-      "shlokas": [],
-      "nighantu_references": [],
+      "shlokas": [
+        "शतावरी बहुसुता भीरुरिन्दीवरी वरी ।\nनारायणी शतपदी शतवीर्या च पीवरी ॥\nशतावरी गुरुः शीता तिक्तास्वाद्वी रसायनी ।\nमेधाग्निपुष्टिदा स्निग्धा नेत्र्या गुल्मातिसारजित् ।\nशुक्रस्तन्यकरी बल्या वातपित्तास्रशोथजित् ॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Guduchyadi Varga, Shatavari passage; exact verse numbering should be taken from the selected edition before displaying a number."
+      ],
       "samhita_references": [],
-      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "shloka_reference_status": "classical_text_corrected; edition/numbering explicitly qualified",
       "reference_hubs": [
-        "TDU Indian Medicinal Plants Database — Shlokas"
+        "TDU Indian Medicinal Plants Database — Shlokas",
+        "CCRAS/NIIMH e-Nighantu — Bhavaprakasha Nighantu"
       ]
     },
     "phytochemistry": {
@@ -15794,12 +15894,13 @@
       }
     ],
     "metadata": {
-      "status": "working_draft_needs_text_cross_check",
+      "status": "classical_text_reviewed; edition_numbering_may_vary",
       "last_verified": "",
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+      "classical_review_batch": "1-8 corrected 2026-09-16"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -16569,10 +16670,16 @@
       "bark": ""
     },
     "dravya_guna": {
-      "rasa": [],
-      "guna": [],
-      "virya": "",
-      "vipaka": "",
+      "rasa": [
+        "katu",
+        "tikta"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "ushna",
+      "vipaka": "katu",
       "prabhava": "",
       "karma": []
     },
@@ -16583,7 +16690,8 @@
     },
     "therapeutics": {
       "useful_part": [
-        "leaf/whole plant"
+        "leaf",
+        "whole plant"
       ],
       "indications": [],
       "therapeutic_actions": [],
@@ -16661,7 +16769,8 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+      "panchaka_correction": "2026-09-16 audit correction; source-reviewed classical profile"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -17212,6 +17321,7 @@
     "teacher": {
       "teaching_points": [],
       "discussion_points": [
+        "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
@@ -18100,12 +18210,17 @@
     },
     "formulations": [],
     "classical_reference": {
-      "shlokas": [],
-      "nighantu_references": [],
+      "shlokas": [
+        "बिभीतकस्त्रिलिङ्गः स्यान्नाक्षः कर्षफलस्तु सः ।\nकलिद्रुमो भूतवासस्तथा कलियुगालयः ॥\nबिभीतकं स्वादुपाकं कषायं कफपित्तनुत् ।\nउष्णवीर्यं हिमस्पर्शं भेदनं कासनाशनम् ॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Haritakyadi Varga, verses 33–34 in the searchable recension; edition numbering may vary."
+      ],
       "samhita_references": [],
-      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "shloka_reference_status": "classical_text_corrected; edition/numbering explicitly qualified",
       "reference_hubs": [
-        "TDU Indian Medicinal Plants Database — Shlokas"
+        "TDU Indian Medicinal Plants Database — Shlokas",
+        "CCRAS/NIIMH e-Nighantu — Bhavaprakasha Nighantu"
       ]
     },
     "phytochemistry": {
@@ -18168,12 +18283,13 @@
       }
     ],
     "metadata": {
-      "status": "working_draft_needs_text_cross_check",
+      "status": "classical_text_reviewed; edition_numbering_may_vary",
       "last_verified": "",
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+      "classical_review_batch": "1-8 corrected 2026-09-16"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -20310,6 +20426,7 @@
         "Retained as supplementary material from Gemini batch 74."
       ],
       "discussion_points": [
+        "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
