@@ -561,12 +561,26 @@
       }
     ],
     "classical_reference": {
-      "shlokas": [],
-      "nighantu_references": [],
+      "shlokas": [
+        "ककुभोऽर्जुननामाख्यो नदीसर्जश्च कीर्तितः ।\nइन्द्रद्रुर्वीरवृक्षश्च वीरश्च धवलः स्मृतः ॥२५॥",
+        "ककुभः शीतलो हृद्यः क्षतक्षयविषास्त्रजित् ।\nमेदोमेहव्रणान्हन्ति तुवरः कफपित्तहत् ॥२६॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Haritakyadi Varga, verses 25–26 in the Jain Quantum searchable scan; edition numbering may vary."
+      ],
       "samhita_references": [],
-      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "shloka_reference_status": "verified_text_location_edition_numbering_may_vary",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
+      ],
+      "verification_note": "Gemini numbering 27–28 and its wording were rejected. Other editions may shift numbering; the text is independently corroborated.",
+      "verified_classical_sources": [
+        {
+          "type": "classical_text_verification",
+          "title": "Harit Kyadi Nighant searchable scan — Arjuna passage",
+          "url": "https://jainqq.org/booktext/Harit_Kyadi_Nighant/020370",
+          "reference": "Arjuna/Kakubha passage at verses 25–26 in this scan."
+        }
       ]
     },
     "phytochemistry": {
@@ -667,14 +681,21 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "classical_text_verification",
+        "title": "Harit Kyadi Nighant searchable scan — Arjuna passage",
+        "url": "https://jainqq.org/booktext/Harit_Kyadi_Nighant/020370",
+        "reference": "Arjuna/Kakubha passage at verses 25–26 in this scan."
       }
     ],
     "metadata": {
-      "status": "working_draft_needs_text_cross_check",
-      "last_verified": "",
-      "verified_by": "",
+      "status": "verified_text_location_edition_numbering_may_vary",
+      "last_verified": "2026-09-16",
+      "verified_by": "independent searchable classical-text cross-check",
       "version": "1.2",
-      "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+      "classical_review_batch": "14-18 reviewed 2026-09-16"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -1268,6 +1289,7 @@
     "teacher": {
       "teaching_points": [],
       "discussion_points": [
+        "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
@@ -1927,13 +1949,17 @@
     ],
     "classical_reference": {
       "shlokas": [
-        "भल्लातकः कटुस्तिक्तः कषायोष्णो लघुः सरः।\nदीपनः पाचनश्चैव कफवातहरो मतः॥"
+        "भल्लातकं त्रिषु प्रोक्तमरुष्कोऽष्करोऽग्निकः ।\nतथैवाग्निमुखी भल्ली वीरवृक्षश्च शोफकृत् ॥२००॥",
+        "भल्लातकफलं पक्वं स्वादुपाकरसं लघु ।\nकषायं पाचनं स्निग्धं तीक्ष्णोष्णं चेदि भेदनम् ॥२०१॥",
+        "मेध्यं वह्निकरं हन्ति कफवातव्रणोदरम् ।\nकुष्ठार्शोग्रहणीगुल्मशोफानाहज्वरक्रिमीन् ॥२०२॥",
+        "तन्मज्जा मधुरो वृष्यो बृंहणो वातपित्तहा ।\nवृन्तमारुष्करं स्वादु पित्तघ्नं केश्यमग्निकृत् ॥२०३॥",
+        "भल्लातकः कषायोष्णः शुक्रलो मधुरो लघुः ।\nवातश्लेष्मोदरानाहकुष्ठार्शोग्रहणीगदान् ।\nहन्ति गुल्मज्वरश्वित्रवह्निमान्द्यकृमिव्रणान् ॥२०४॥"
       ],
       "nighantu_references": [
-        "Bhavaprakasha Nighantu, Haritakyadi Varga, Verse 63-65"
+        "Bhavaprakasha Nighantu, Bhallataka passage, verses 200–204 in the Vishvasa searchable transcription; printed editions/recensions may number this passage differently."
       ],
       "samhita_references": [],
-      "shloka_reference_status": "A. Directly verified classical reference",
+      "shloka_reference_status": "verified_text_location_edition_numbering_may_vary",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
       ],
@@ -1943,7 +1969,16 @@
         "shloka_number": "Verse 63-65",
         "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
         "page_number": "Needs checking against physical copy for exact page"
-      }
+      },
+      "verification_note": "Gemini quotation was rejected because its wording and numbering did not match the independently searchable classical passage.",
+      "verified_classical_sources": [
+        {
+          "type": "classical_text_verification",
+          "title": "Bhava Mishra — Bhavaprakasha Haritakyadi Varga searchable transcription",
+          "url": "https://vishvasa.github.io/sanskrit/koshaH/AyurvedaH/bhava-mishraH_bhAva-prakAshaH/02_2_harItakyAdivarga/",
+          "reference": "Bhallataka verses 200–204."
+        }
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -2007,19 +2042,26 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "classical_text_verification",
+        "title": "Bhava Mishra — Bhavaprakasha Haritakyadi Varga searchable transcription",
+        "url": "https://vishvasa.github.io/sanskrit/koshaH/AyurvedaH/bhava-mishraH_bhAva-prakAshaH/02_2_harItakyAdivarga/",
+        "reference": "Bhallataka verses 200–204."
       }
     ],
     "metadata": {
-      "status": "structured_data_added_classical_text_pending",
-      "last_verified": "",
-      "verified_by": "",
+      "status": "verified_text_location_edition_numbering_may_vary",
+      "last_verified": "2026-09-16",
+      "verified_by": "independent searchable classical-text cross-check",
       "version": "1.2",
       "last_enrichment": "structured-field + image + reference enrichment + curated batch",
       "batch_54_63_added": true,
       "gemini_later_batches_reviewed": true,
       "gemini_source_batches": [
         85
-      ]
+      ],
+      "classical_review_batch": "14-18 reviewed 2026-09-16"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97",
@@ -5111,16 +5153,32 @@
     ],
     "classical_reference": {
       "shlokas": [
-        "हरिद्रा कटुका तिक्ता वर्ण्योष्णा कफपित्तनुत् ।\\nविषदोषहरी कुष्ठकण्डूव्रणापहा ॥"
+        "हरिद्रा काञ्चनी पीता निशाख्या वरवर्णिनी ।\nकृमिघ्नी हलदी योषित्प्रिया हट्टविलासिनी ॥१९६॥",
+        "हरिद्रा कटुका तिक्ता रूक्षोष्णा कफपित्तनुत् ।\nवर्ण्या त्वग्दोषमेहास्रशोथपाण्डुव्रणापहा ॥१९७॥"
       ],
       "nighantu_references": [
-        "Bhavaprakasha Nighantu, Haritakyadi Varga, verses 196–197; edition numbering should be checked"
+        "Bhavaprakasha Nighantu, Haritakyadi Varga, 196–197 (SanskritDocuments/PCIMH recension; another recension numbers these 171–172)"
       ],
       "samhita_references": [],
-      "shloka_reference_status": "text checked against searchable recension; edition/page may vary",
+      "shloka_reference_status": "verified_text_location_edition_numbering_may_vary",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
-      ]
+      ],
+      "verified_classical_sources": [
+        {
+          "type": "classical_text_search",
+          "title": "Independent searchable Bhavaprakasha recension",
+          "url": "https://sanskritdocuments.org/~sanskrit/doc_trial/fortransfer/bhAvaprakAshanighaNTu01_sa.html",
+          "note": "Used for text-level verification; edition/recension numbering may vary."
+        },
+        {
+          "type": "classical_text_search",
+          "title": "Independent searchable Bhavaprakasha recension",
+          "url": "https://pcimh.gov.in/",
+          "note": "Used for text-level verification; edition/recension numbering may vary."
+        }
+      ],
+      "verification_note": "Text is independently supported; verse numbering varies among digital/printed recensions."
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -5195,7 +5253,10 @@
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
       "last_enrichment": "structured-field + image + reference enrichment + curated batch",
       "dosha_karma_note": "Kapha-Pittashamaka",
-      "batch_54_63_added": true
+      "batch_54_63_added": true,
+      "classical_review_batch": "19-23",
+      "classical_review_date": "2026-09-16",
+      "classical_review_method": "independent text-level comparison; Gemini quotations not accepted without source confirmation"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -5912,6 +5973,7 @@
     "teacher": {
       "teaching_points": [],
       "discussion_points": [
+        "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
@@ -7046,13 +7108,14 @@
     ],
     "classical_reference": {
       "shlokas": [
-        "कटुकी कटुका तिक्ता शीता लघ्वी च दीपनी।\nकफपित्तज्वरास्रघ्नी बालेन्द्रियापहृत् सरः॥"
+        "कट्वी तु कटुका तिक्ता कृष्णभेदा कटम्भरा ।\nअशोका मत्स्यशकला चक्राङ्गी शकुलादनी ।\nमत्स्यपित्ता काण्डरुहा रोहिणी कटुरोहिणी ॥१३४॥",
+        "कट्वी तु कटुका पाके तिक्ता रूक्षा हिमा लघुः ।\nभेदिनी दीपनी हृद्या कफपित्तज्वरापहा ।\nप्रमेहश्वासकासास्रदाहकुष्ठकृमिप्रणुत् ॥१३५॥"
       ],
       "nighantu_references": [
-        "Bhavaprakasha Nighantu, Haritakyadi Varga, Verse 140-141"
+        "Bhavaprakasha Nighantu, Haritakyadi Varga, verses 134–135 in the NIIMH-linked searchable recension; edition numbering may vary."
       ],
       "samhita_references": [],
-      "shloka_reference_status": "A. Directly verified classical reference",
+      "shloka_reference_status": "verified_text_location_edition_numbering_may_vary",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
       ],
@@ -7064,7 +7127,16 @@
         "shloka_number": "Verse 140-141",
         "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
         "page_number": "Needs checking against physical copy for exact page"
-      }
+      },
+      "verification_note": "Gemini numbering 141–142 was rejected. The searchable recension supports 134–135 and the spelling कट्वी.",
+      "verified_classical_sources": [
+        {
+          "type": "classical_text_verification",
+          "title": "Bhavaprakasha Nighantu — Katuki passage",
+          "url": "https://ayurveda360.in/ebooks-enighantu-bhavaprakasha-nighantu-haritakyadivarga/",
+          "reference": "Verses 134–135; source page identifies the NIIMH e-Nighantu reference."
+        }
+      ]
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -7123,12 +7195,18 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "classical_text_verification",
+        "title": "Bhavaprakasha Nighantu — Katuki passage",
+        "url": "https://ayurveda360.in/ebooks-enighantu-bhavaprakasha-nighantu-haritakyadivarga/",
+        "reference": "Verses 134–135; source page identifies the NIIMH e-Nighantu reference."
       }
     ],
     "metadata": {
-      "status": "classical_text_checked",
-      "last_verified": "",
-      "verified_by": "",
+      "status": "verified_text_location_edition_numbering_may_vary",
+      "last_verified": "2026-09-16",
+      "verified_by": "independent searchable classical-text cross-check",
       "version": "1.3",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
       "last_enrichment": "structured-field + image + reference enrichment + curated batch",
@@ -7137,7 +7215,8 @@
       "gemini_later_batches_reviewed": true,
       "gemini_source_batches": [
         80
-      ]
+      ],
+      "classical_review_batch": "14-18 reviewed 2026-09-16"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97",
@@ -7662,13 +7741,27 @@
     },
     "formulations": [],
     "classical_reference": {
-      "shlokas": [],
-      "nighantu_references": [],
+      "shlokas": [
+        "कुटजः कूटजः कीटो वत्सको गिरिमल्लिका ।\nकालिङ्गः शक्रशाखी च मल्लिकापुष्प इत्यपि ।\nइन्द्रो यवफलः प्रोक्तो वृक्षकः पाण्डुरद्रुमः ॥१०१॥",
+        "कुटजः कटुको रूक्षो दीपनस्तुवरो हिमः ।\nअर्शोऽतिसारपित्तास्रकफतृष्णामकुष्ठनुत् ॥१०२॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Guduchyadi Varga, 101–102 (Vishvasa recension; edition numbering may vary)"
+      ],
       "samhita_references": [],
-      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "shloka_reference_status": "corrected_from_unverified_submission",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
-      ]
+      ],
+      "verified_classical_sources": [
+        {
+          "type": "classical_text_search",
+          "title": "Independent searchable Bhavaprakasha recension",
+          "url": "https://vishvasa.github.io/sanskrit/koshaH/AyurvedaH/bhava-mishraH_bhAva-prakAshaH/04_4_guDUchyAdivarga/",
+          "note": "Used for text-level verification; edition/recension numbering may vary."
+        }
+      ],
+      "verification_note": "Gemini-submitted numbering 116–117 and quotation were not accepted; the independently searchable Bhavaprakasha passage is used."
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -7735,7 +7828,10 @@
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
       "last_enrichment": "structured-field + image + reference enrichment + curated batch",
-      "panchaka_correction": "2026-09-16 audit correction; source-reviewed classical profile"
+      "panchaka_correction": "2026-09-16 audit correction; source-reviewed classical profile",
+      "classical_review_batch": "19-23",
+      "classical_review_date": "2026-09-16",
+      "classical_review_method": "independent text-level comparison; Gemini quotations not accepted without source confirmation"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -9733,13 +9829,28 @@
         "सूक्ष्मोपकुञ्चिका तुत्था कोरङ्गी द्राविडी त्रुटिः ।\nएला सूक्ष्मा कफश्वासकासार्शोमूत्रकृच्छ्रहृत् ।\nरसे तु कटुका शीता लघ्वी वातहरी मता ॥६३॥"
       ],
       "nighantu_references": [
-        "Bhavaprakasha Nighantu, Karpuradi Varga, verse 63"
+        "Bhavaprakasha Nighantu, Karpuradi Varga, 63 (Wikisource/Vishvasa recension; edition numbering may vary)"
       ],
       "samhita_references": [],
-      "shloka_reference_status": "verified searchable text; edition numbering may vary",
+      "shloka_reference_status": "verified_text_location_edition_numbering_may_vary",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
-      ]
+      ],
+      "verified_classical_sources": [
+        {
+          "type": "classical_text_search",
+          "title": "Independent searchable Bhavaprakasha recension",
+          "url": "https://sa.wikisource.org/wiki/%E0%A4%AD%E0%A4%BE%E0%A4%B5%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B6%E0%A4%A8%E0%A4%BF%E0%A4%98%E0%A4%A3%E0%A5%8D%E0%A4%9F%E0%A5%81",
+          "note": "Used for text-level verification; edition/recension numbering may vary."
+        },
+        {
+          "type": "classical_text_search",
+          "title": "Independent searchable Bhavaprakasha recension",
+          "url": "https://vishvasa.github.io/sanskrit/koshaH/AyurvedaH/bhava-mishraH_bhAva-prakAshaH/03_3_karpUrAdivarga/",
+          "note": "Used for text-level verification; edition/recension numbering may vary."
+        }
+      ],
+      "verification_note": "The independently supported Bhavaprakasha passage is used; the Gemini quotation was not retained."
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -9812,7 +9923,10 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "curated batch 64-68"
+      "last_enrichment": "curated batch 64-68",
+      "classical_review_batch": "19-23",
+      "classical_review_date": "2026-09-16",
+      "classical_review_method": "independent text-level comparison; Gemini quotations not accepted without source confirmation"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -10735,8 +10849,8 @@
       "identification_points": []
     },
     "images": {
-      "whole_plant": "",
-      "habit": "",
+      "whole_plant": "images/plants/kampillaka.jpg",
+      "habit": "images/plants/kampillaka.jpg",
       "root": "",
       "stem": "",
       "leaf": "",
@@ -10851,6 +10965,12 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Mallotus_philippensis_(Lam.)_M%C3%BCll.Arg._(50794931407).jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
       }
     ],
     "metadata": {
@@ -12364,10 +12484,14 @@
       "transliteration": "",
       "botanical_name": "Gymnema sylvestre (Retz.) R.Br. ex Sm.",
       "family": "Apocynaceae",
-      "english_name": "",
+      "english_name": "Gymnema",
       "hindi_name": "",
       "regional_names": [],
-      "synonyms": []
+      "synonyms": [
+        "Madhunashini",
+        "Ajasringi",
+        "Meshavalli"
+      ]
     },
     "classification": {
       "kingdom": "Plantae",
@@ -12409,20 +12533,29 @@
       ],
       "virya": "ushna",
       "vipaka": "katu",
-      "prabhava": "",
+      "prabhava": [
+        "Pramehaghna",
+        "Medohara"
+      ],
       "karma": []
     },
     "dosha": {
-      "vata": "",
-      "pitta": "",
-      "kapha": ""
+      "vata": "aggravated",
+      "pitta": "pacified",
+      "kapha": "pacified"
     },
     "therapeutics": {
       "useful_part": [
         "leaf",
         "root"
       ],
-      "indications": [],
+      "indications": [
+        "Prameha",
+        "Kushta",
+        "Krimi",
+        "Mutrakrichha",
+        "Visha"
+      ],
       "therapeutic_actions": [],
       "dose": "",
       "anupana": "",
@@ -12445,7 +12578,7 @@
       "chemical_notes": ""
     },
     "modern_information": {
-      "evidence_summary": "",
+      "evidence_summary": "Known for regulating blood sugar and metabolism.",
       "recognized_uses": [],
       "safety_notes": "",
       "sources": []
@@ -12455,7 +12588,7 @@
       "viva_questions": [],
       "identification_points": [],
       "mnemonics": [],
-      "quick_revision": ""
+      "quick_revision": "Known for regulating blood sugar and metabolism."
     },
     "teacher": {
       "teaching_points": [],
@@ -12490,6 +12623,13 @@
         "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
         "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
       }
     ],
     "metadata": {
@@ -13139,14 +13279,27 @@
       }
     ],
     "classical_reference": {
-      "shlokas": [],
+      "shlokas": [
+        "निम्बः शीतो लघुग्राही कटुपाकोऽग्निवातनुत् ।\nस्रध्रः श्रमद्वाक्स्वरार्चिचक्रिमिप्रघ्नुत् ।\nव्रणपित्तकफच्छर्दिकुष्ठलासमेहनुत् ॥७४॥",
+        "निम्बपर्णं स्मृतं नेत्र्यं कृमिपित्तविषप्रघुत् ।\nवातलं कटुपाकं च सवरीचकुष्ठनुत् ॥७५॥",
+        "निम्बफलं रसे तिक्तं पाके तु कटुभेदनम् ।\nस्निग्धं लघुष्णं कुष्ठघ्नं गुल्मार्शःकृमिमेहनुत् ॥७६॥"
+      ],
       "nighantu_references": [
-        "Bhavaprakasha Nighantu, Guduchyadi Varga; searchable recension places Nimba properties around verses 73–76"
+        "Bhavaprakasha Nighantu, Nimba passage, verses 74–76 in the searchable Parul University PDF recension; edition numbering may vary."
       ],
       "samhita_references": [],
-      "shloka_reference_status": "needs_verification",
+      "shloka_reference_status": "verified_text_location_edition_numbering_may_vary",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
+      ],
+      "verification_note": "Gemini numbering 14–15 was rejected; the searchable recension places the Nimba material at 73–76.",
+      "verified_classical_sources": [
+        {
+          "type": "classical_text_verification",
+          "title": "Bhavaprakasha Nighantu searchable PDF — Nimba",
+          "url": "https://www.paruluniversity.ac.in/parul-institute-of-ayurved/pdf/PIA-Institute/E%20Shamhita/Bhavapraksha/bhava_prakash_nighantu.pdf",
+          "reference": "Verses 74–76 in the searchable recension."
+        }
       ]
     },
     "phytochemistry": {
@@ -13199,16 +13352,23 @@
         "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
         "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+      },
+      {
+        "type": "classical_text_verification",
+        "title": "Bhavaprakasha Nighantu searchable PDF — Nimba",
+        "url": "https://www.paruluniversity.ac.in/parul-institute-of-ayurved/pdf/PIA-Institute/E%20Shamhita/Bhavapraksha/bhava_prakash_nighantu.pdf",
+        "reference": "Verses 74–76 in the searchable recension."
       }
     ],
     "metadata": {
-      "status": "structured_data_added_classical_text_pending",
-      "last_verified": "",
-      "verified_by": "",
+      "status": "verified_text_location_edition_numbering_may_vary",
+      "last_verified": "2026-09-16",
+      "verified_by": "independent searchable classical-text cross-check",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
       "last_enrichment": "structured-field + image + reference enrichment + curated batch",
-      "batch_54_63_added": true
+      "batch_54_63_added": true,
+      "classical_review_batch": "14-18 reviewed 2026-09-16"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -14794,6 +14954,7 @@
         "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
+        "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data."
       ],
       "practical_points": []
@@ -15422,10 +15583,15 @@
       "transliteration": "",
       "botanical_name": "Bombax ceiba L.",
       "family": "Malvaceae",
-      "english_name": "",
+      "english_name": "Silk Cotton Tree Resin",
       "hindi_name": "",
       "regional_names": [],
-      "synonyms": []
+      "synonyms": [
+        "Shalmali Niryasa",
+        "Pichhila",
+        "Raktapushpa",
+        "Kantakadruma"
+      ]
     },
     "classification": {
       "kingdom": "Plantae",
@@ -15468,13 +15634,16 @@
       ],
       "virya": "sheeta",
       "vipaka": "madhura",
-      "prabhava": "",
+      "prabhava": [
+        "Stambhana",
+        "Raktaprasadana"
+      ],
       "karma": []
     },
     "dosha": {
-      "vata": "",
-      "pitta": "",
-      "kapha": ""
+      "vata": "not specifically documented in imported dataset",
+      "pitta": "pacified",
+      "kapha": "aggravated"
     },
     "therapeutics": {
       "useful_part": [
@@ -15483,7 +15652,13 @@
         "flower",
         "root"
       ],
-      "indications": [],
+      "indications": [
+        "Atisara",
+        "Pravahika",
+        "Pradara",
+        "Raktapitta",
+        "Vrana"
+      ],
       "therapeutic_actions": [],
       "dose": "",
       "anupana": "",
@@ -15506,7 +15681,7 @@
       "chemical_notes": ""
     },
     "modern_information": {
-      "evidence_summary": "",
+      "evidence_summary": "Cooling resin used in bleeding and Pitta disorders.",
       "recognized_uses": [],
       "safety_notes": "",
       "sources": []
@@ -15516,7 +15691,7 @@
       "viva_questions": [],
       "identification_points": [],
       "mnemonics": [],
-      "quick_revision": ""
+      "quick_revision": "Cooling resin used in bleeding and Pitta disorders."
     },
     "teacher": {
       "teaching_points": [],
@@ -15551,6 +15726,13 @@
         "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
         "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
         "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
       }
     ],
     "metadata": {
@@ -16703,13 +16885,33 @@
     },
     "formulations": [],
     "classical_reference": {
-      "shlokas": [],
-      "nighantu_references": [],
+      "shlokas": [
+        "तुलसी सुरसा ग्राम्या सुलभा बहुमञ्जरी ।\nअपेतराक्षसी गौरी भूतघ्नी देवदुन्दुभिः ॥५०॥",
+        "तुलसी कटुका तिक्ता हृद्योष्णा दाहपित्तकृत् ।\nदीपनी कुष्ठकृच्छ्रास्रपार्श्वरुक्कफवातजित् ।\nशुक्ला कृष्णा च तुलसी गुणैस्तुल्या प्रकीर्तिता ॥५१॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Pushpa Varga, 50–51 (UOH/DAV recension; edition numbering may vary)"
+      ],
       "samhita_references": [],
-      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "shloka_reference_status": "verified_text_location_edition_numbering_may_vary",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
-      ]
+      ],
+      "verified_classical_sources": [
+        {
+          "type": "classical_text_search",
+          "title": "Independent searchable Bhavaprakasha recension",
+          "url": "https://sanskrit.uohyd.ac.in/Corpus/Typed-Texts/bhava-prakash/bhavaprakashaha.html",
+          "note": "Used for text-level verification; edition/recension numbering may vary."
+        },
+        {
+          "type": "classical_text_search",
+          "title": "Independent searchable Bhavaprakasha recension",
+          "url": "https://davpharmacy.com/e-nighantu/",
+          "note": "Used for text-level verification; edition/recension numbering may vary."
+        }
+      ],
+      "verification_note": "Gemini-submitted verses 62–63 were not retained; independently supported text and numbering from searchable Bhavaprakasha recensions are used."
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -16770,7 +16972,10 @@
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
       "last_enrichment": "structured-field + image + reference enrichment + curated batch",
-      "panchaka_correction": "2026-09-16 audit correction; source-reviewed classical profile"
+      "panchaka_correction": "2026-09-16 audit correction; source-reviewed classical profile",
+      "classical_review_batch": "19-23",
+      "classical_review_date": "2026-09-16",
+      "classical_review_method": "independent text-level comparison; Gemini quotations not accepted without source confirmation"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -16890,16 +17095,32 @@
     ],
     "classical_reference": {
       "shlokas": [
-        "त्वक्पत्त्रं च वराङ्गं स्याद्भृङ्गं चोचं तथोत्कटं ।\nत्वचं लघूष्णं कटुकं स्वादु तिक्तं च रूक्षकं ॥६४॥\nपित्तलं कफवातघ्नं कण्ड्वामारुचिनाशनं ॥६५॥"
+        "त्वक्पत्रञ्च वराङ्गं स्याद् भृङ्गं चोचं तथोत्कटम् ॥६४॥",
+        "त्वचं लघूष्णं कटुकं स्वादु तिक्तञ्च रूक्षकम् ।\nपित्तलं कफवातघ्नं कण्ड्वामारुचिनाशनम् ।\nहृद्बस्तिरोगवातार्शः कृमिपीनसशुक्रहृत् ॥६५॥"
       ],
       "nighantu_references": [
-        "Bhavaprakasha Nighantu, Karpuradi Varga, verses 64–65"
+        "Bhavaprakasha Nighantu, Karpuradi Varga, 64–65 (Wikisource recension; another transcription numbers the passage 56–57)"
       ],
       "samhita_references": [],
-      "shloka_reference_status": "verified searchable text; edition/page may vary",
+      "shloka_reference_status": "corrected_from_unverified_submission",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
-      ]
+      ],
+      "verified_classical_sources": [
+        {
+          "type": "classical_text_search",
+          "title": "Independent searchable Bhavaprakasha recension",
+          "url": "https://sa.wikisource.org/wiki/%E0%A4%AD%E0%A4%BE%E0%A4%B5%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B6%E0%A4%A8%E0%A4%BF%E0%A4%98%E0%A4%A3%E0%A5%8D%E0%A4%9F%E0%A5%81",
+          "note": "Used for text-level verification; edition/recension numbering may vary."
+        },
+        {
+          "type": "classical_text_search",
+          "title": "Independent searchable Bhavaprakasha recension",
+          "url": "https://vishvasa.github.io/sanskrit/koshaH/AyurvedaH/bhava-mishraH_bhAva-prakAshaH/03_3_karpUrAdivarga/",
+          "note": "Used for text-level verification; edition/recension numbering may vary."
+        }
+      ],
+      "verification_note": "The Gemini-submitted Twak quotation was not found in the checked Bhavaprakasha recensions and was replaced by the independently supported passage."
     },
     "phytochemistry": {
       "major_constituents": [],
@@ -16966,7 +17187,10 @@
       "verified_by": "",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-      "last_enrichment": "curated batch 64-68"
+      "last_enrichment": "curated batch 64-68",
+      "classical_review_batch": "19-23",
+      "classical_review_date": "2026-09-16",
+      "classical_review_method": "independent text-level comparison; Gemini quotations not accepted without source confirmation"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -17321,6 +17545,7 @@
     "teacher": {
       "teaching_points": [],
       "discussion_points": [
+        "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
@@ -17731,12 +17956,21 @@
     "classical_reference": {
       "shlokas": [],
       "nighantu_references": [
-        "Bhavaprakasha Nighantu, Guduchyadi Varga; searchable recensions place the principal Vasa properties around verses 68–78 depending on edition"
+        "Vasa passage around verses 68–69 in the searchable PDF; OCR is imperfect, so exact Devanagari quotation is intentionally not imported."
       ],
       "samhita_references": [],
-      "shloka_reference_status": "needs_verification",
+      "shloka_reference_status": "needs_text_level_verification",
       "reference_hubs": [
         "TDU Indian Medicinal Plants Database — Shlokas"
+      ],
+      "verification_note": "Previous Gemini verse/numbering was not accepted. The Sanskrit quotation is withheld until checked against a clean e-Nighantu or print edition.",
+      "verified_classical_sources": [
+        {
+          "type": "classical_text_verification",
+          "title": "Bhavaprakasha Nighantu searchable PDF — Vasa passage",
+          "url": "https://www.paruluniversity.ac.in/parul-institute-of-ayurved/pdf/PIA-Institute/E%20Shamhita/Bhavapraksha/bhava_prakash_nighantu.pdf",
+          "reference": "Vasa passage around verses 68–69 in the searchable PDF; OCR is imperfect, so exact Devanagari quotation is intentionally not imported."
+        }
       ]
     },
     "phytochemistry": {
@@ -17796,16 +18030,23 @@
         "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
         "license": "CC BY 4.0",
         "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "classical_text_verification",
+        "title": "Bhavaprakasha Nighantu searchable PDF — Vasa passage",
+        "url": "https://www.paruluniversity.ac.in/parul-institute-of-ayurved/pdf/PIA-Institute/E%20Shamhita/Bhavapraksha/bhava_prakash_nighantu.pdf",
+        "reference": "Vasa passage around verses 68–69 in the searchable PDF; OCR is imperfect, so exact Devanagari quotation is intentionally not imported."
       }
     ],
     "metadata": {
-      "status": "structured_data_added_classical_text_pending",
-      "last_verified": "",
-      "verified_by": "",
+      "status": "needs_text_level_verification",
+      "last_verified": "2026-09-16",
+      "verified_by": "independent searchable classical-text cross-check",
       "version": "1.2",
       "image_enrichment_note": "HTTP Error 429: Too Many Requests",
       "last_enrichment": "structured-field + image + reference enrichment + curated batch",
-      "batch_54_63_added": true
+      "batch_54_63_added": true,
+      "classical_review_batch": "14-18 reviewed 2026-09-16"
     },
     "category": "NCISM-97",
     "syllabus_marker": "NCISM-97"
@@ -20426,6 +20667,7 @@
         "Retained as supplementary material from Gemini batch 74."
       ],
       "discussion_points": [
+        "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
         "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
