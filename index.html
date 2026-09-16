@@ -3,21 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DravyaGuna 97 | Comprehensive BAMS Plant Reference & Learning Portal</title>
+  <title>DravyaGuna 97 | NCISM BAMS Plant Reference & Learning Portal</title>
   <link rel="icon" href="images/favicon.png" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
   
   <style>
-    /* ==========================================================================
-       1. VARIABLES & BASE STYLES
-       ========================================================================== */
     :root {
       --primary: #1b4332;
       --primary-light: #2d6a4f;
       --accent: #d4a373;
-      --accent-hover: #bc8a5f;
       --bg: #f8f9fa;
       --surface: #ffffff;
       --text: #212529;
@@ -32,7 +28,6 @@
       --primary: #52b788;
       --primary-light: #74c69d;
       --accent: #e9c46a;
-      --accent-hover: #f4a261;
       --bg: #121417;
       --surface: #1e2229;
       --text: #f8f9fa;
@@ -47,7 +42,6 @@
       background-color: var(--bg);
       color: var(--text);
       line-height: 1.6;
-      transition: background-color 0.3s ease, color 0.3s ease;
     }
 
     header {
@@ -68,9 +62,6 @@
       font-size: 1.5rem;
       font-weight: 700;
       color: var(--primary);
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
     }
 
     nav { display: flex; gap: 1rem; align-items: center; }
@@ -93,50 +84,19 @@
       font-size: 1.2rem;
       cursor: pointer;
       color: var(--text);
-      padding: 0.5rem;
-      border-radius: 50%;
     }
 
     main { max-width: 1280px; margin: 2rem auto; padding: 0 1.5rem; }
 
-    /* ==========================================================================
-       2. HERO SECTION & PERSONA DASHBOARDS
-       ========================================================================== */
     .hero {
       text-align: center;
-      padding: 2.5rem 1rem;
+      padding: 2rem 1rem;
       background: linear-gradient(135deg, rgba(27, 67, 50, 0.08), rgba(212, 163, 115, 0.15));
       border-radius: var(--radius);
       margin-bottom: 2rem;
     }
-    .hero h1 { font-family: 'Cinzel', serif; font-size: 2.5rem; color: var(--primary); margin-bottom: 0.4rem; }
-    .hero p { color: var(--text-muted); font-size: 1.05rem; max-width: 600px; margin: 0 auto; }
+    .hero h1 { font-family: 'Cinzel', serif; font-size: 2.2rem; color: var(--primary); }
 
-    .persona-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 1.2rem;
-      margin-bottom: 2.5rem;
-    }
-    .persona-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1.5rem;
-      text-align: center;
-      box-shadow: var(--card-shadow);
-      cursor: pointer;
-      transition: var(--transition);
-    }
-    .persona-card:hover { transform: translateY(-3px); border-color: var(--primary); }
-    .persona-card.active { border: 2px solid var(--primary); background: rgba(45, 106, 79, 0.04); }
-    .persona-icon { font-size: 2.2rem; margin-bottom: 0.5rem; }
-    .persona-card h3 { color: var(--primary); margin-bottom: 0.3rem; }
-    .persona-card p { font-size: 0.9rem; color: var(--text-muted); }
-
-    /* ==========================================================================
-       3. SEARCH & MULTI-FILTER BAR
-       ========================================================================== */
     .filter-container {
       background: var(--surface);
       padding: 1.2rem;
@@ -150,27 +110,16 @@
       padding: 0.8rem 1rem;
       border: 1px solid var(--border);
       border-radius: 8px;
-      font-size: 0.95rem;
       background: var(--bg);
       color: var(--text);
       margin-bottom: 1rem;
       outline: none;
     }
-    .search-input:focus { border-color: var(--primary); }
 
     .filters-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
       gap: 0.8rem;
-    }
-    .filter-group label {
-      display: block;
-      font-size: 0.75rem;
-      font-weight: 700;
-      color: var(--text-muted);
-      margin-bottom: 0.3rem;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
     }
     .filter-select {
       width: 100%;
@@ -179,82 +128,43 @@
       border: 1px solid var(--border);
       background: var(--bg);
       color: var(--text);
-      outline: none;
-      font-size: 0.9rem;
     }
-
-    /* ==========================================================================
-       4. TAB CONTENT & CARDS
-       ========================================================================== */
-    .tab-content { display: none; }
-    .tab-content.active { display: block; }
 
     .plant-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.2rem;
     }
     .plant-card {
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius);
-      overflow: hidden;
+      padding: 1.2rem;
       box-shadow: var(--card-shadow);
-      transition: var(--transition);
       display: flex;
       flex-direction: column;
+      justify-content: space-between;
     }
-    .plant-card:hover { transform: translateY(-4px); }
-    .plant-img {
-      height: 170px;
-      background-size: cover;
-      background-position: center;
-      background-color: #e2e8f0;
+    .ncism-no {
+      font-weight: 700;
+      font-size: 0.8rem;
+      color: var(--accent);
+      text-transform: uppercase;
     }
-    .plant-body { padding: 1.2rem; flex-grow: 1; display: flex; flex-direction: column; }
-    .plant-title { font-size: 1.25rem; color: var(--primary); font-family: 'Cinzel', serif; margin-bottom: 0.2rem; }
-    .botanical-name { font-style: italic; color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.8rem; }
+    .plant-title { font-size: 1.2rem; color: var(--primary); font-family: 'Cinzel', serif; }
+    .botanical-name { font-style: italic; color: var(--text-muted); font-size: 0.88rem; margin-bottom: 0.8rem; }
     
     .badge-container { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.8rem; }
     .badge {
       background: rgba(45, 106, 79, 0.1);
       color: var(--primary);
-      padding: 0.25rem 0.55rem;
+      padding: 0.2rem 0.5rem;
       border-radius: 4px;
-      font-size: 0.78rem;
+      font-size: 0.75rem;
       font-weight: 600;
     }
 
-    .shloka-box {
-      background: rgba(212, 163, 115, 0.12);
-      border-left: 3px solid var(--accent);
-      padding: 0.7rem;
-      border-radius: 4px;
-      margin-bottom: 0.8rem;
-      font-family: 'Georgia', serif;
-      font-size: 0.88rem;
-      color: var(--text);
-      line-height: 1.5;
-    }
-    .shloka-ref {
-      font-size: 0.75rem;
-      color: var(--text-muted);
-      text-align: right;
-      display: block;
-      margin-top: 0.3rem;
-      font-style: italic;
-    }
-
-    .plant-details {
-      font-size: 0.88rem;
-      color: var(--text);
-      margin-bottom: 1rem;
-      border-top: 1px dashed var(--border);
-      padding-top: 0.6rem;
-    }
-    .plant-details p { margin-bottom: 0.3rem; }
-
-    .card-actions { margin-top: auto; display: flex; gap: 0.5rem; }
+    .card-actions { display: flex; gap: 0.5rem; margin-top: 1rem; }
     .btn {
       flex: 1;
       padding: 0.55rem;
@@ -263,539 +173,150 @@
       font-weight: 600;
       font-size: 0.85rem;
       cursor: pointer;
-      transition: var(--transition);
       text-align: center;
-      text-decoration: none;
     }
     .btn-primary { background: var(--primary); color: #fff; }
-    .btn-primary:hover { background: var(--primary-light); }
     .btn-outline { background: transparent; border: 1px solid var(--primary); color: var(--primary); }
-    .btn-outline:hover { background: var(--primary); color: #fff; }
 
-    /* Student Viva Cards & Mnemonics */
-    .viva-card {
+    /* MODAL STYLES FOR DETAILED VIEW */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 2000;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+    }
+    .modal-overlay.active { display: flex; }
+    .modal-content {
       background: var(--surface);
-      border-left: 5px solid var(--accent);
-      padding: 1.3rem;
-      border-radius: var(--radius);
-      margin-bottom: 1.2rem;
-      box-shadow: var(--card-shadow);
-    }
-    .viva-card h4 { color: var(--primary); font-size: 1.2rem; margin-bottom: 0.4rem; font-family: 'Cinzel', serif; }
-    .mnemonic-box {
-      background: rgba(212, 163, 115, 0.15);
-      border: 1px dashed var(--accent);
-      padding: 0.8rem;
-      border-radius: 8px;
-      margin-top: 0.6rem;
-      font-weight: 500;
-      font-size: 0.9rem;
-    }
-
-    /* Comparison Tool */
-    .compare-section {
-      background: var(--surface);
-      padding: 1.5rem;
-      border-radius: var(--radius);
-      box-shadow: var(--card-shadow);
-      border: 1px solid var(--border);
-    }
-    .compare-selectors {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1.5rem;
-      margin-bottom: 1.5rem;
-    }
-    .table-responsive { overflow-x: auto; }
-    .compare-table {
       width: 100%;
-      border-collapse: collapse;
-      margin-top: 1rem;
-    }
-    .compare-table th, .compare-table td {
-      border: 1px solid var(--border);
-      padding: 0.8rem 1rem;
-      text-align: left;
-      font-size: 0.9rem;
-    }
-    .compare-table th { background: var(--primary); color: #fff; }
-
-    /* Quiz Module */
-    .quiz-container {
-      background: var(--surface);
+      max-width: 900px;
+      max-height: 90vh;
+      overflow-y: auto;
+      border-radius: var(--radius);
       padding: 2rem;
-      border-radius: var(--radius);
-      box-shadow: var(--card-shadow);
-      max-width: 650px;
-      margin: 0 auto;
-      border: 1px solid var(--border);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      position: relative;
     }
-    .quiz-option {
-      display: block;
-      width: 100%;
-      padding: 0.85rem;
-      margin: 0.6rem 0;
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      background: var(--bg);
-      color: var(--text);
-      text-align: left;
+    .close-modal {
+      position: absolute;
+      top: 1rem;
+      right: 1.5rem;
+      font-size: 1.8rem;
       cursor: pointer;
-      font-size: 0.95rem;
-      transition: var(--transition);
-    }
-    .quiz-option:hover { border-color: var(--primary); background: rgba(45, 106, 79, 0.05); }
-
-    footer {
-      text-align: center;
-      padding: 2rem;
-      border-top: 1px solid var(--border);
-      margin-top: 4rem;
       color: var(--text-muted);
-      font-size: 0.9rem;
+    }
+    .dossier-section {
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1rem;
+    }
+    .dossier-section h3 {
+      color: var(--primary);
+      font-family: 'Cinzel', serif;
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+    }
+    .shloka-box {
+      background: rgba(212, 163, 115, 0.15);
+      border-left: 4px solid var(--accent);
+      padding: 0.8rem;
+      border-radius: 4px;
+      font-family: 'Georgia', serif;
+      margin: 0.5rem 0;
+    }
+
+    /* PRINT STYLES: ONLY PRINT THE SELECTED PLANT DOSSIER */
+    @media print {
+      body * { visibility: hidden; }
+      #modalOverlay, #modalOverlay * { visibility: visible; }
+      #modalOverlay {
+        position: absolute;
+        left: 0; top: 0; width: 100%; height: auto;
+        background: none;
+      }
+      .modal-content {
+        box-shadow: none;
+        max-height: none;
+        padding: 0;
+        width: 100%;
+      }
+      .close-modal, .no-print { display: none !important; }
     }
   </style>
 </head>
 <body>
 
-  <!-- HEADER -->
   <header>
     <div class="logo">🌿 DravyaGuna 97</div>
     <nav>
-      <a href="#plants" class="nav-link active" onclick="switchTab('plants')">Plant Library</a>
-      <a href="#student" class="nav-link" onclick="switchTab('student')">Student Area</a>
-      <a href="#compare" class="nav-link" onclick="switchTab('compare')">Compare Dravyas</a>
-      <a href="#quiz" class="nav-link" onclick="switchTab('quiz')">Quiz</a>
+      <a href="#plants" class="active">Plant Directory (97)</a>
     </nav>
-    <button class="theme-toggle" id="themeToggle" aria-label="Toggle Dark Mode">🌙</button>
+    <button class="theme-toggle" id="themeToggle">🌙</button>
   </header>
 
   <main>
-    <!-- HERO -->
     <section class="hero">
-      <p>BAMS Ayurvedic Medicinal Plant Reference</p>
-      <h1>DravyaGuna 97</h1>
-      <p>Learn • Identify • Revise • Cross-Check Classical References</p>
+      <h1>NCISM Official 97 Dravya Database</h1>
+      <p>Search across all 97 medicinal plants or open individual dossiers for printing.</p>
     </section>
 
-    <!-- PERSONA CARDS -->
-    <div class="persona-grid">
-      <div class="persona-card active" id="persona-student" onclick="setPersona('student')">
-        <div class="persona-icon">🎓</div>
-        <h3>Student</h3>
-        <p>Syllabus notes, classical shlokas, viva prep, and mnemonics.</p>
-      </div>
-      <div class="persona-card" id="persona-teacher" onclick="setPersona('teacher')">
-        <div class="persona-icon">👨‍🏫</div>
-        <h3>Teacher</h3>
-        <p>Classroom resources, Bhavaprakasha Nighantu references, and side-by-side matrices.</p>
-      </div>
-      <div class="persona-card" id="persona-doctor" onclick="setPersona('doctor')">
-        <div class="persona-icon">🩺</div>
-        <h3>Doctor</h3>
-        <p>Clinical indications, karmas, and classical formulations.</p>
+    <!-- SEARCH & FILTERS -->
+    <div class="filter-container">
+      <input type="text" id="searchInput" class="search-input" placeholder="Search by NCISM No, Sanskrit Name, Botanical Name, or Family..." oninput="filterPlants()" />
+      <div class="filters-grid">
+        <div class="filter-group">
+          <select id="filterRasa" class="filter-select" onchange="filterPlants()">
+            <option value="">All Rasas</option>
+            <option value="Madhura">Madhura</option>
+            <option value="Amla">Amla</option>
+            <option value="Katu">Katu</option>
+            <option value="Tikta">Tikta</option>
+            <option value="Kashaya">Kashaya</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <select id="filterVeerya" class="filter-select" onchange="filterPlants()">
+            <option value="">All Veerya</option>
+            <option value="Ushna">Ushna</option>
+            <option value="Sheeta">Sheeta</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <select id="filterPart" class="filter-select" onchange="filterPlants()">
+            <option value="">All Useful Parts</option>
+            <option value="Fruit">Fruit</option>
+            <option value="Root">Root</option>
+            <option value="Bark">Bark</option>
+            <option value="Stem">Stem</option>
+            <option value="Leaves">Leaves</option>
+          </select>
+        </div>
       </div>
     </div>
 
-    <!-- TAB 1: PLANT LIBRARY & MULTI-FILTERING -->
-    <section id="plants-tab" class="tab-content active">
-      <div class="filter-container">
-        <input type="text" id="searchInput" class="search-input" placeholder="Search by Plant Name, Sanskrit Name, Shloka text, or Botanical Name..." oninput="filterPlants()" />
-        <div class="filters-grid">
-          <div class="filter-group">
-            <label>Rasa (Taste)</label>
-            <select id="filterRasa" class="filter-select" onchange="filterPlants()">
-              <option value="">All Rasas</option>
-              <option value="Madhura">Madhura (Sweet)</option>
-              <option value="Amla">Amla (Sour)</option>
-              <option value="Katu">Katu (Pungent)</option>
-              <option value="Tikta">Tikta (Bitter)</option>
-              <option value="Kashaya">Kashaya (Astringent)</option>
-            </select>
-          </div>
-          <div class="filter-group">
-            <label>Veerya (Potency)</label>
-            <select id="filterVeerya" class="filter-select" onchange="filterPlants()">
-              <option value="">All Veerya</option>
-              <option value="Ushna">Ushna (Hot)</option>
-              <option value="Sheeta">Sheeta (Cold)</option>
-            </select>
-          </div>
-          <div class="filter-group">
-            <label>Useful Part</label>
-            <select id="filterPart" class="filter-select" onchange="filterPlants()">
-              <option value="">All Parts</option>
-              <option value="Fruit">Fruit</option>
-              <option value="Root">Root</option>
-              <option value="Bark">Bark</option>
-              <option value="Stem">Stem</option>
-              <option value="Rhizome">Rhizome</option>
-              <option value="Leaves">Leaves</option>
-            </select>
-          </div>
-          <div class="filter-group">
-            <label>BAMS Syllabus</label>
-            <select id="filterYear" class="filter-select" onchange="filterPlants()">
-              <option value="">All Years</option>
-              <option value="1st Year">1st Year</option>
-              <option value="2nd Year">2nd Year / Final</option>
-            </select>
-          </div>
-        </div>
-      </div>
-
-      <div class="plant-grid" id="plantGrid">
-        <!-- Rendered by JavaScript -->
-      </div>
-    </section>
-
-    <!-- TAB 2: STUDENT VIVA & REVISION MODULE -->
-    <section id="student-tab" class="tab-content">
-      <h2 style="margin-bottom: 1rem; color: var(--primary); font-family: 'Cinzel', serif;">🎓 Student Exam & Viva Quick-Cards (With Shlokas)</h2>
-      <div id="vivaList">
-        <!-- Rendered by JavaScript -->
-      </div>
-    </section>
-
-    <!-- TAB 3: SIDE-BY-SIDE COMPARISON MATRIX -->
-    <section id="compare-tab" class="tab-content">
-      <div class="compare-section">
-        <h2 style="margin-bottom: 1rem; color: var(--primary); font-family: 'Cinzel', serif;">🔄 Compare Two Dravyas Side-by-Side</h2>
-        <div class="compare-selectors">
-          <div>
-            <label style="font-size:0.85rem; font-weight:600; color:var(--text-muted);">Select Plant 1:</label>
-            <select id="compareSelect1" class="filter-select" onchange="updateComparison()"></select>
-          </div>
-          <div>
-            <label style="font-size:0.85rem; font-weight:600; color:var(--text-muted);">Select Plant 2:</label>
-            <select id="compareSelect2" class="filter-select" onchange="updateComparison()"></select>
-          </div>
-        </div>
-        <div class="table-responsive">
-          <table class="compare-table">
-            <thead>
-              <tr>
-                <th>Dravyaguna Property</th>
-                <th id="compHead1">Plant 1</th>
-                <th id="compHead2">Plant 2</th>
-              </tr>
-            </thead>
-            <tbody id="compareBody">
-              <!-- Rendered by JavaScript -->
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <!-- TAB 4: QUIZ MODULE -->
-    <section id="quiz-tab" class="tab-content">
-      <div class="quiz-container">
-        <h2 style="color: var(--primary); margin-bottom: 1rem; font-family: 'Cinzel', serif;">🧠 Dravyaguna Knowledge Quiz</h2>
-        <div id="quizBox">
-          <p id="quizQuestion" style="font-weight: 600; font-size: 1.1rem; margin-bottom: 1rem;"></p>
-          <div id="quizOptions"></div>
-        </div>
-        <div id="quizResult" style="margin-top: 1.2rem; font-weight: bold; text-align: center;"></div>
-        <div style="margin-top: 1.5rem; text-align: center;">
-          <button class="btn btn-primary" onclick="nextQuestion()" style="max-width: 200px;">Next Question ➔</button>
-        </div>
-      </div>
-    </section>
+    <!-- PLANT GRID -->
+    <div class="plant-grid" id="plantGrid"></div>
   </main>
 
-  <footer>
-    <p>🌿 DravyaGuna 97 • Complete Academic Reference for BAMS Students & Practitioners</p>
-  </footer>
+  <!-- MODAL FOR SINGLE PLANT DOSSIER -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-content" id="modalContent">
+      <span class="close-modal" onclick="closeModal()">&times;</span>
+      <div id="dossierBody"></div>
+    </div>
+  </div>
 
-  <!-- JAVASCRIPT LOGIC -->
+  <script src="plantsData.js"></script>
   <script>
-    /* ==========================================================================
-       DATABASES & FULL DRAVYAGUNA DATA WITH CLASSICAL SHLOKAS & VARGA
-       ========================================================================== */
-    const plantsData = [
-      {
-        id: "haritaki",
-        name: "Haritaki (अभया)",
-        botanical: "Terminalia chebula Retz.",
-        family: "Combretaceae",
-        varga: "Haritakyadi Varga (भावप्रकाश)",
-        shloka: "हरीतकी पञ्चरसा लवणोत्पादिता भृशम्। उष्णा स्वादुविपाका च स्निग्धा मेध्या रसायनी॥",
-        shlokaRef: "— भावप्रकाश निघण्टु, हरीतक्यादिवर्ग",
-        rasa: "Kashaya, Tikta, Madhura, Katu, Amla (Lacks Lavana)",
-        guna: "Laghu, Ruksha",
-        veerya: "Ushna",
-        vipaka: "Madhura",
-        prabhava: "Tridoshahara, Anulomana",
-        usefulPart: "Fruit Pericarp",
-        syllabus: "1st Year",
-        constituents: "Chebulagic acid, Gallic acid, Tannins",
-        vivaPoints: "Known as 'Pathya' (suitable for all). Has 5 Rasas (all except Lavana). Pericarp of fruit has purgative action.",
-        mnemonic: "H-A-R-I: Ushna Veerya + Tridoshahara + Anulomana (Pathya for all seasons)",
-        img: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80"
-      },
-      {
-        id: "guduchi",
-        name: "Guduchi / Amrutha (गुडूची)",
-        botanical: "Tinospora cordifolia (Willd.) Hook.f.",
-        family: "Menispermaceae",
-        varga: "Guduchyadi Varga (भावप्रकाश)",
-        shloka: "गुडूची कटुका तिक्ता स्वादुपाका रसायनी। सङ्ग्राहिणी कषायोष्णा दीपनी बलवर्धिनी॥",
-        shlokaRef: "— भावप्रकाश निघण्टु, गुडूच्यादिवर्ग",
-        rasa: "Tikta, Kashaya",
-        guna: "Guru, Snigdha",
-        veerya: "Ushna",
-        vipaka: "Madhura",
-        prabhava: "Rasayana, Jwarahara",
-        usefulPart: "Stem",
-        syllabus: "1st Year",
-        constituents: "Tinosporine, Berberine, Giloin",
-        vivaPoints: "Best Rasayana for Jwara (fever). Heart-shaped leaves with succulent stem and aerial roots.",
-        mnemonic: "G-U-D-U: Tikta Rasa + Ushna Veerya + Madhura Vipaka (Jwarahara)",
-        img: "https://images.unsplash.com/photo-1546852199-2d7e41706922?auto=format&fit=crop&w=600&q=80"
-      },
-      {
-        id: "ashwagandha",
-        name: "Ashwagandha (अश्वगन्धा)",
-        botanical: "Withania somnifera (L.) Dunal",
-        family: "Solanaceae",
-        varga: "Guduchyadi Varga (भावप्रकाश)",
-        shloka: "अश्वगन्धा कषायोष्णा तिक्ता शुक्रबलप्रदा। वातश्लेष्महारी श्वित्रशोथक्षयविनाशिनी॥",
-        shlokaRef: "— भावप्रकाश निघण्टु, गुडूच्यादिवर्ग",
-        rasa: "Tikta, Kashaya, Madhura",
-        guna: "Laghu, Snigdha",
-        veerya: "Ushna",
-        vipaka: "Madhura",
-        prabhava: "Balya, Rasayana, Medhya",
-        usefulPart: "Root",
-        syllabus: "2nd Year",
-        constituents: "Withanolides, Withaferin A",
-        vivaPoints: "Root smells like a horse ('Ashwa'). Premier Balya, Vatahara, and Vajikarana drug.",
-        mnemonic: "A-S-H-W-A: Balya + Rasayana + Nidrajanana (Nourishes Vata)",
-        img: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=600&q=80"
-      },
-      {
-        id: "amalaki",
-        name: "Amalaki (आमलकी)",
-        botanical: "Phyllanthus emblica L.",
-        family: "Euphorbiaceae",
-        varga: "Haritakyadi Varga (भावप्रकाश)",
-        shloka: "धात्री फलं स्वादु त्रिदोषघ्नं वृष्यं च रसाएनम्। हन्त्यम्लेन वातं पित्तं स्वादुशीतेन कफेन च॥",
-        shlokaRef: "— भावप्रकाश निघण्टु, हरीतक्यादिवर्ग",
-        rasa: "Amla, Kashaya, Madhura, Tikta, Katu (Lacks Lavana)",
-        guna: "Guru, Ruksha, Sheeta",
-        veerya: "Sheeta",
-        vipaka: "Madhura",
-        prabhava: "Vayasthapana, Pittahara",
-        usefulPart: "Fruit",
-        syllabus: "1st Year",
-        constituents: "Vitamin C, Emblicanin A & B, Gallic acid",
-        vivaPoints: "Best Vayasthapana (anti-aging) drug. Has Sheeta Veerya despite having Amla (sour) Rasa.",
-        mnemonic: "A-M-L-A: Sheeta Veerya + Pittahara + Vayasthapana",
-        img: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=600&q=80"
-      },
-      {
-        id: "shatavari",
-        name: "Shatavari (शतावरी)",
-        botanical: "Asparagus racemosus Willd.",
-        family: "Liliaceae / Asparagaceae",
-        varga: "Guduchyadi Varga (भावप्रकाश)",
-        shloka: "शतावरी गुरुः शीता तिक्ता स्वादुरसा रसे। महती दीपनी वृष्या मेध्या पित्तास्त्रजित्परा॥",
-        shlokaRef: "— भावप्रकाश निघण्टु, गुडूच्यादिवर्ग",
-        rasa: "Madhura, Tikta",
-        guna: "Guru, Snigdha",
-        veerya: "Sheeta",
-        vipaka: "Madhura",
-        prabhava: "Stanyajanana, Vrishya",
-        usefulPart: "Tuberous Root",
-        syllabus: "1st Year",
-        constituents: "Shatavarins (I-IV), Sarsasapogenin",
-        vivaPoints: "Tuberous roots are used. Leading Stanyajanana (galactagogue) and Pitta-Vata pacifier.",
-        mnemonic: "S-H-A-T: Sheeta Veerya + Madhura Vipaka + Stanyajanana",
-        img: "https://images.unsplash.com/photo-1515586000433-45406d8e6662?auto=format&fit=crop&w=600&q=80"
-      },
-      {
-        id: "pipali",
-        name: "Pippali (पिप्पली)",
-        botanical: "Piper longum L.",
-        family: "Piperaceae",
-        varga: "Haritakyadi Varga (भावप्रकाश)",
-        shloka: "पिप्पली स्वादुपाका च कटुका स्वादुशीतला। दीपना कटुका वृष्या स्वादुपाका रसायनी॥",
-        shlokaRef: "— भावप्रकाश निघण्टु, हरीतक्यादिवर्ग",
-        rasa: "Katu",
-        guna: "Laghu, Snigdha, Tikshna",
-        veerya: "Anushnasheeta (Slightly Warm)",
-        vipaka: "Madhura",
-        prabhava: "Deepana, Rasayana, Kasa-Shwasahara",
-        usefulPart: "Fruit, Root (Pippalimoola)",
-        syllabus: "1st Year",
-        constituents: "Piperine, Piperlongumine",
-        vivaPoints: "Katu Rasa herb with Madhura Vipaka. Dry Pippali is Kapha-Vatahara; wet Pippali increases Kapha.",
-        mnemonic: "P-I-P: Katu Rasa + Madhura Vipaka + Rasayana",
-        img: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=600&q=80"
-      },
-      {
-        id: "shunthi",
-        name: "Shunthi / Ardraka (शुण्ठी)",
-        botanical: "Zingiber officinale Roscoe",
-        family: "Zingiberaceae",
-        varga: "Haritakyadi Varga (भावप्रकाश)",
-        shloka: "शुण्ठी रुच्या कटुः पाके स्वादुरुष्णा विबन्धनुत्। वृष्या लघ्वग्निदीप्ता च वृष्यकफवातहृत्॥",
-        shlokaRef: "— भावप्रकाश निघण्टु, हरीतक्यादिवर्ग",
-        rasa: "Katu",
-        guna: "Laghu, Snigdha",
-        veerya: "Ushna",
-        vipaka: "Madhura",
-        prabhava: "Deepana, Pachana, Triptighna",
-        usefulPart: "Rhizome",
-        syllabus: "1st Year",
-        constituents: "Gingerol, Shogaol, Zingiberene",
-        vivaPoints: "Dry ginger (Shunthi) has Madhura Vipaka and Snigdha Guna, making it preferable over fresh ginger (Ardraka).",
-        mnemonic: "S-H-U-N: Katu Rasa + Ushna Veerya + Madhura Vipaka (Best Pachana)",
-        img: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80"
-      },
-      {
-        id: "maricha",
-        name: "Maricha (मरीच)",
-        botanical: "Piper nigrum L.",
-        family: "Piperaceae",
-        varga: "Haritakyadi Varga (भावप्रकाश)",
-        shloka: "मरीचं कटुकं तीक्ष्णमुष्णं कफवातजित्। दीपनं रोचनं छेदि श्वासकासकृमीञ्जयेत्॥",
-        shlokaRef: "— भावप्रकाश निघण्टु, हरीतक्यादिवर्ग",
-        rasa: "Katu",
-        guna: "Laghu, Tikshna, Ruksha",
-        veerya: "Ushna",
-        vipaka: "Katu",
-        prabhava: "Deepana, Chedana, Kaphahara",
-        usefulPart: "Fruit",
-        syllabus: "1st Year",
-        constituents: "Piperine, Piperidine, Chavicine",
-        vivaPoints: "Part of Trikatu (Shunthi, Pippali, Maricha). Strongest Chedana (scraping/expectorant) drug.",
-        mnemonic: "M-A-R: Katu Rasa + Katu Vipaka + Tikshna Guna",
-        img: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=600&q=80"
-      },
-      {
-        id: "bhallataka",
-        name: "Bhallataka (भल्लातक)",
-        botanical: "Semecarpus anacardium L.f.",
-        family: "Anacardiaceae",
-        varga: "Haritakyadi Varga (भावप्रकाश)",
-        shloka: "भल्लातकः कषायोष्णो मधुरः पाकतस्तथा। कफवातहरो छेदी कुष्ठार्शोव्रणनाशनः॥",
-        shlokaRef: "— भावप्रकाश निघण्टु, हरीतक्यादिवर्ग",
-        rasa: "Katu, Tikta, Kashaya",
-        guna: "Laghu, Tikshna, Snigdha",
-        veerya: "Ushna",
-        vipaka: "Madhura",
-        prabhava: "Chedana, Kapha-Vatahara",
-        usefulPart: "Fruit / Nut",
-        syllabus: "2nd Year",
-        constituents: "Bhilawanol, Anacardic acid",
-        vivaPoints: "Upavisha group. Requires Shodhana (purification in brick powder/coconut water) before clinical use.",
-        mnemonic: "B-H-A-L: Extremely Ushna + Tikshna + Requires Shodhana",
-        img: "https://images.unsplash.com/photo-1546852199-2d7e41706922?auto=format&fit=crop&w=600&q=80"
-      },
-      {
-        id: "nimba",
-        name: "Nimba (निम्ब)",
-        botanical: "Azadirachta indica A. Juss.",
-        family: "Meliaceae",
-        varga: "Guduchyadi Varga (भावप्रकाश)",
-        shloka: "निम्बो तिक्तो लघुरः शीतो पित्तकफव्रणनुत्। हृल्लासकुष्ठमेघ्नः कृमिहृद्विषनाशनः॥",
-        shlokaRef: "— भावप्रकाश निघण्टु, गुडूच्यादिवर्ग",
-        rasa: "Tikta, Kashaya",
-        guna: "Laghu, Ruksha",
-        veerya: "Sheeta",
-        vipaka: "Katu",
-        prabhava: "Kandughna, Kusthahara, Raktashodhaka",
-        usefulPart: "Leaves, Bark, Seeds",
-        syllabus: "1st Year",
-        constituents: "Nimbin, Nimbidin, Azadirachtin",
-        vivaPoints: "Premier Raktashodhaka (blood purifier) and Kusthahara (skin disease healer). Sheeta Veerya.",
-        mnemonic: "N-I-M: Tikta Rasa + Sheeta Veerya + Kusthahara",
-        img: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=600&q=80"
-      },
-      {
-        id: "tulsi",
-        name: "Tulasi (तुलसी)",
-        botanical: "Ocimum sanctum L. / Ocimum tenuiflorum",
-        family: "Lamiaceae",
-        varga: "Pushpa Varga / Guduchyadi Varga",
-        shloka: "तुलसी कटुका तिक्ता ह्यृद्या उष्णा दाहपित्तकृत्। दीपिनी हृदयोल्लास-कासश्वासविनाशिनी॥",
-        shlokaRef: "— भावप्रकाश निघण्टु",
-        rasa: "Katu, Tikta",
-        guna: "Laghu, Ruksha",
-        veerya: "Ushna",
-        vipaka: "Katu",
-        prabhava: "Kasa-Shwasahara, Vishaghna, Hridya",
-        usefulPart: "Leaves, Seeds",
-        syllabus: "1st Year",
-        constituents: "Eugenol, Carvacrol, Linalool",
-        vivaPoints: "Excellent Kaphahara and Vishaghna drug. Essential volatile oil component Eugenol.",
-        mnemonic: "T-U-L: Katu-Tikta + Ushna Veerya + Shwasahara",
-        img: "https://images.unsplash.com/photo-1515586000433-45406d8e6662?auto=format&fit=crop&w=600&q=80"
-      },
-      {
-        id: "brahmi",
-        name: "Brahmi (ब्राह्मी)",
-        botanical: "Bacopa monnieri (L.) Wettst.",
-        family: "Scrophulariaceae / Plantaginaceae",
-        varga: "Guduchyadi Varga (भावप्रकाश)",
-        shloka: "ब्राह्मी हिमा सरा तिक्ता स्वादुपाका रसायनी। मतिप्रज्ञाकरी आयुष्या स्वर्या मोहविनाशिनी॥",
-        shlokaRef: "— भावप्रकाश निघण्टु, गुडूच्यादिवर्ग",
-        rasa: "Tikta, Kashaya, Madhura",
-        guna: "Laghu, Snigdha",
-        veerya: "Sheeta",
-        vipaka: "Madhura",
-        prabhava: "Medhya, Prajasthapana, Unmadahara",
-        usefulPart: "Whole Plant (Panchanga)",
-        syllabus: "2nd Year",
-        constituents: "Bacosides A & B, Hersaponin",
-        vivaPoints: "Premier Medhya Rasayana (memory enhancer). Juicy creeping herb growing in marshy areas.",
-        mnemonic: "B-R-A-H: Sheeta Veerya + Madhura Vipaka + Medhya Rasayana",
-        img: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=600&q=80"
-      }
-    ];
-
-    const quizQuestions = [
-      {
-        q: "Which plant has Sheeta Veerya despite having predominantly Amla (Sour) Rasa?",
-        options: ["Haritaki", "Amalaki", "Guduchi", "Ashwagandha"],
-        answer: 1
-      },
-      {
-        q: "What is the botanical family of Haritaki (Terminalia chebula)?",
-        options: ["Solanaceae", "Menispermaceae", "Combretaceae", "Euphorbiaceae"],
-        answer: 2
-      },
-      {
-        q: "Which herb is described in Bhavaprakasha as 'महिप्रज्ञाकरी आयुष्या' (Medhya Rasayana)?",
-        options: ["Brahmi", "Tulsi", "Maricha", "Bhallataka"],
-        answer: 0
-      },
-      {
-        q: "What is the Vipaka of Shunthi (Zingiber officinale)?",
-        options: ["Katu", "Madhura", "Amla", "Tikta"],
-        answer: 1
-      },
-      {
-        q: "Which plant requires Shodhana (purification) because it belongs to the Upavisha group?",
-        options: ["Amalaki", "Shatavari", "Bhallataka", "Pippali"],
-        answer: 2
-      }
-    ];
-
-    /* ==========================================================================
-       LOGIC & RENDER FUNCTIONS
-       ========================================================================== */
     document.addEventListener("DOMContentLoaded", () => {
       renderPlantCards(plantsData);
-      renderVivaCards();
-      initComparisonDropdowns();
-      loadQuiz();
       initTheme();
     });
 
-    // Theme Switcher
     function initTheme() {
       const btn = document.getElementById("themeToggle");
       btn.addEventListener("click", () => {
@@ -805,35 +326,12 @@
       });
     }
 
-    // Tab Navigation
-    function switchTab(tabId) {
-      document.querySelectorAll(".tab-content").forEach(el => el.classList.remove("active"));
-      document.querySelectorAll(".nav-link").forEach(el => el.classList.remove("active"));
-      
-      document.getElementById(`${tabId}-tab`).classList.add("active");
-      const activeLink = document.querySelector(`nav a[href="#${tabId}"]`);
-      if (activeLink) activeLink.classList.add("active");
-    }
-
-    // Persona Filter
-    function setPersona(persona) {
-      document.querySelectorAll(".persona-card").forEach(el => el.classList.remove("active"));
-      document.getElementById(`persona-${persona}`).classList.add("active");
-      
-      if (persona === "student") {
-        switchTab("student");
-      } else {
-        switchTab("plants");
-      }
-    }
-
-    // Render Plant Grid Cards
     function renderPlantCards(data) {
       const grid = document.getElementById("plantGrid");
       grid.innerHTML = "";
 
       if (data.length === 0) {
-        grid.innerHTML = `<p style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 2rem;">No plants matching your search and filter criteria.</p>`;
+        grid.innerHTML = `<p style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 2rem;">No plants found matching your search.</p>`;
         return;
       }
 
@@ -841,164 +339,138 @@
         const card = document.createElement("div");
         card.className = "plant-card";
         card.innerHTML = `
-          <div class="plant-img" style="background-image: url('${item.img}');"></div>
-          <div class="plant-body">
-            <h3 class="plant-title">${item.name}</h3>
-            <div class="botanical-name">${item.botanical} (${item.family})</div>
+          <div>
+            <div class="ncism-no">NCISM Plant #${item.ncismNo}</div>
+            <h3 class="plant-title">${item.sanskritName} (${item.transliteration})</h3>
+            <div class="botanical-name">${item.botanicalName} | ${item.family}</div>
             <div class="badge-container">
-              <span class="badge">Veerya: ${item.veerya}</span>
-              <span class="badge">Vipaka: ${item.vipaka}</span>
-              <span class="badge">Part: ${item.usefulPart}</span>
-              <span class="badge">${item.syllabus}</span>
+              <span class="badge">Rasa: ${item.dravyaguna.rasa}</span>
+              <span class="badge">Veerya: ${item.dravyaguna.virya}</span>
+              <span class="badge">Vipaka: ${item.dravyaguna.vipaka}</span>
+              <span class="badge">Part: ${item.therapeutics.usefulPart}</span>
             </div>
-            <div class="shloka-box">
-              "${item.shloka}"
-              <span class="shloka-ref">${item.shlokaRef}</span>
-            </div>
-            <div class="plant-details">
-              <p><strong>Varga:</strong> ${item.varga}</p>
-              <p><strong>Rasa:</strong> ${item.rasa}</p>
-              <p><strong>Guna:</strong> ${item.guna}</p>
-              <p><strong>Karma:</strong> ${item.prabhava}</p>
-            </div>
-            <div class="card-actions">
-              <button class="btn btn-primary" onclick="switchTab('compare')">Compare</button>
-              <button class="btn btn-outline" onclick="window.print()">🖨️ Print</button>
-            </div>
+          </div>
+          <div class="card-actions">
+            <button class="btn btn-primary" onclick="openDossier(${item.ncismNo})">📄 Open Full Dossier</button>
+            <button class="btn btn-outline" onclick="printSinglePlant(${item.ncismNo})">🖨️ Print</button>
           </div>
         `;
         grid.appendChild(card);
       });
     }
 
-    // Filter Logic
     function filterPlants() {
       const search = document.getElementById("searchInput").value.toLowerCase();
       const rasa = document.getElementById("filterRasa").value;
       const veerya = document.getElementById("filterVeerya").value;
       const part = document.getElementById("filterPart").value;
-      const year = document.getElementById("filterYear").value;
 
       const filtered = plantsData.filter(plant => {
-        const matchesSearch = plant.name.toLowerCase().includes(search) || 
-                              plant.botanical.toLowerCase().includes(search) ||
-                              plant.shloka.includes(search);
-        const matchesRasa = !rasa || plant.rasa.includes(rasa);
-        const matchesVeerya = !veerya || plant.veerya.includes(veerya);
-        const matchesPart = !part || plant.usefulPart.includes(part);
-        const matchesYear = !year || plant.syllabus === year;
-        return matchesSearch && matchesRasa && matchesVeerya && matchesPart && matchesYear;
+        const matchesSearch = plant.ncismNo.toString().includes(search) ||
+                              plant.sanskritName.toLowerCase().includes(search) || 
+                              plant.botanicalName.toLowerCase().includes(search) ||
+                              plant.family.toLowerCase().includes(search);
+        const matchesRasa = !rasa || plant.dravyaguna.rasa.includes(rasa);
+        const matchesVeerya = !veerya || plant.dravyaguna.virya.includes(veerya);
+        const matchesPart = !part || plant.therapeutics.usefulPart.includes(part);
+        return matchesSearch && matchesRasa && matchesVeerya && matchesPart;
       });
 
       renderPlantCards(filtered);
     }
 
-    // Student Viva Section
-    function renderVivaCards() {
-      const container = document.getElementById("vivaList");
-      container.innerHTML = "";
-      plantsData.forEach(p => {
-        const card = document.createElement("div");
-        card.className = "viva-card";
-        card.innerHTML = `
-          <h4>${p.name} (<em>${p.botanical}</em>)</h4>
-          <p><strong>Family:</strong> ${p.family} | <strong>Varga:</strong> ${p.varga}</p>
-          <div class="shloka-box" style="margin-top:0.5rem;">
-            "${p.shloka}"
-            <span class="shloka-ref">${p.shlokaRef}</span>
+    function openDossier(ncismNo) {
+      const plant = plantsData.find(p => p.ncismNo === ncismNo);
+      if (!plant) return;
+
+      const body = document.getElementById("dossierBody");
+      body.innerHTML = `
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 1rem;">
+          <div>
+            <span class="ncism-no">NCISM Plant #${plant.ncismNo}</span>
+            <h2 style="font-family:'Cinzel', serif; color: var(--primary);">${plant.sanskritName} (${plant.transliteration})</h2>
+            <p style="font-style:italic;">${plant.botanicalName} | Family: ${plant.family}</p>
           </div>
-          <p><strong>Rasa Panchaka:</strong> Rasa: ${p.rasa} | Guna: ${p.guna} | Veerya: ${p.veerya} | Vipaka: ${p.vipaka}</p>
-          <p style="margin-top:0.4rem;"><strong>Active Constituents:</strong> ${p.constituents}</p>
-          <p style="margin-top:0.4rem;"><strong>Viva Hot-Points:</strong> ${p.vivaPoints}</p>
-          <div class="mnemonic-box">💡 Mnemonic: ${p.mnemonic}</div>
-        `;
-        container.appendChild(card);
-      });
+          <button class="btn btn-outline no-print" onclick="window.print()" style="max-width:150px;">🖨️ Print Dossier</button>
+        </div>
+
+        <div class="dossier-section">
+          <h3>1. Basic Identity</h3>
+          <p><strong>English / Hindi / Common Names:</strong> ${plant.identity.commonNames}</p>
+          <p><strong>Synonyms:</strong> ${plant.identity.synonyms}</p>
+        </div>
+
+        <div class="dossier-section">
+          <h3>2. Plant Identification</h3>
+          <p><strong>Habit & Habitat:</strong> ${plant.identification.habit} | ${plant.identification.habitat}</p>
+          <p><strong>Leaf & Flower:</strong> ${plant.identification.leaf} | ${plant.identification.flower}</p>
+          <p><strong>Fruit & Seed:</strong> ${plant.identification.fruit} | ${plant.identification.seed}</p>
+          <p><strong>Key Identification Points:</strong> ${plant.identification.keyPoints}</p>
+        </div>
+
+        <div class="dossier-section">
+          <h3>3. Dravyaguna (Rasa Panchaka)</h3>
+          <p><strong>Rasa:</strong> ${plant.dravyaguna.rasa} | <strong>Guna:</strong> ${plant.dravyaguna.guna}</p>
+          <p><strong>Virya:</strong> ${plant.dravyaguna.virya} | <strong>Vipaka:</strong> ${plant.dravyaguna.vipaka}</p>
+          <p><strong>Prabhava:</strong> ${plant.dravyaguna.prabhava} | <strong>Karma:</strong> ${plant.dravyaguna.karma}</p>
+          <p><strong>Dosha Action:</strong> ${plant.dravyaguna.doshaAction}</p>
+        </div>
+
+        <div class="dossier-section">
+          <h3>4. Classical References & Shlokas</h3>
+          <div class="shloka-box">
+            "${plant.classicalReferences.shloka}"
+            <br><small><strong>Source:</strong> ${plant.classicalReferences.source}</small>
+          </div>
+          <p><strong>Samhita & Nighantu References:</strong> ${plant.classicalReferences.samhitaRef}</p>
+        </div>
+
+        <div class="dossier-section">
+          <h3>5. Therapeutics & Formulations</h3>
+          <p><strong>Useful Part:</strong> ${plant.therapeutics.usefulPart} | <strong>Dose:</strong> ${plant.therapeutics.dose}</p>
+          <p><strong>Anupana:</strong> ${plant.therapeutics.anupana}</p>
+          <p><strong>Indications:</strong> ${plant.therapeutics.indications}</p>
+          <p><strong>Classical Formulations:</strong> ${plant.formulations.classicalFormulations}</p>
+          <p><strong>Precautions:</strong> ${plant.therapeutics.precautions}</p>
+        </div>
+
+        <div class="dossier-section">
+          <h3>6. Modern Information & Phytoconstituents</h3>
+          <p><strong>Major Constituents:</strong> ${plant.modernInfo.phytoconstituents}</p>
+          <p><strong>Evidence Summary:</strong> ${plant.modernInfo.pharmacologySummary}</p>
+          <p><strong>Safety Profile:</strong> ${plant.modernInfo.safetyInfo}</p>
+        </div>
+
+        <div class="dossier-section">
+          <h3>7. Student & Viva Quick Notes</h3>
+          <p><strong>Exam Points:</strong> ${plant.studentSection.examPoints}</p>
+          <p><strong>Viva Questions:</strong> ${plant.studentSection.vivaQuestions}</p>
+          <p><strong>Mnemonic:</strong> ${plant.studentSection.mnemonics}</p>
+        </div>
+
+        <div class="dossier-section">
+          <h3>8. Doctor & Teacher Quick Reference</h3>
+          <p><strong>Teacher Discussion Points:</strong> ${plant.teacherSection.discussionPoints}</p>
+          <p><strong>Doctor Quick Ref:</strong> Indications: ${plant.doctorSection.indications} | Dose: ${plant.doctorSection.dose} | Precaution: ${plant.doctorSection.precaution}</p>
+        </div>
+
+        <div style="font-size:0.75rem; color:var(--text-muted); text-align:right;">
+          Verified Source: ${plant.metadata.source} | Last Verified: ${plant.metadata.lastVerified} | Version: ${plant.metadata.version}
+        </div>
+      `;
+
+      document.getElementById("modalOverlay").classList.add("active");
     }
 
-    // Side-by-Side Comparison
-    function initComparisonDropdowns() {
-      const sel1 = document.getElementById("compareSelect1");
-      const sel2 = document.getElementById("compareSelect2");
-      
-      sel1.innerHTML = "";
-      sel2.innerHTML = "";
-
-      plantsData.forEach((p, idx) => {
-        sel1.innerHTML += `<option value="${p.id}" ${idx === 0 ? 'selected' : ''}>${p.name}</option>`;
-        sel2.innerHTML += `<option value="${p.id}" ${idx === 1 ? 'selected' : ''}>${p.name}</option>`;
-      });
-      updateComparison();
+    function closeModal() {
+      document.getElementById("modalOverlay").classList.remove("active");
     }
 
-    function updateComparison() {
-      const id1 = document.getElementById("compareSelect1").value;
-      const id2 = document.getElementById("compareSelect2").value;
-
-      const p1 = plantsData.find(p => p.id === id1);
-      const p2 = plantsData.find(p => p.id === id2);
-
-      document.getElementById("compHead1").innerText = p1.name;
-      document.getElementById("compHead2").innerText = p2.name;
-
-      const attributes = [
-        { label: "Botanical Name", key: "botanical" },
-        { label: "Family", key: "family" },
-        { label: "Classical Varga", key: "varga" },
-        { label: "Classical Shloka", key: "shloka" },
-        { label: "Rasa", key: "rasa" },
-        { label: "Guna", key: "guna" },
-        { label: "Veerya", key: "veerya" },
-        { label: "Vipaka", key: "vipaka" },
-        { label: "Karma / Action", key: "prabhava" },
-        { label: "Useful Part", key: "usefulPart" },
-        { label: "Active Constituents", key: "constituents" }
-      ];
-
-      const tbody = document.getElementById("compareBody");
-      tbody.innerHTML = "";
-
-      attributes.forEach(attr => {
-        const row = document.createElement("tr");
-        row.innerHTML = `
-          <td><strong>${attr.label}</strong></td>
-          <td>${p1[attr.key]}</td>
-          <td>${p2[attr.key]}</td>
-        `;
-        tbody.appendChild(row);
-      });
-    }
-
-    // Quiz Engine
-    let currentQ = 0;
-    function loadQuiz() {
-      const q = quizQuestions[currentQ];
-      document.getElementById("quizQuestion").innerText = `${currentQ + 1}. ${q.q}`;
-      const optDiv = document.getElementById("quizOptions");
-      optDiv.innerHTML = "";
-
-      q.options.forEach((opt, idx) => {
-        const btn = document.createElement("button");
-        btn.className = "quiz-option";
-        btn.innerText = opt;
-        btn.onclick = () => checkQuiz(idx);
-        optDiv.appendChild(btn);
-      });
-      document.getElementById("quizResult").innerHTML = "";
-    }
-
-    function checkQuiz(selectedIdx) {
-      const res = document.getElementById("quizResult");
-      if (selectedIdx === quizQuestions[currentQ].answer) {
-        res.innerHTML = `<span style="color: green;">✓ Correct Answer!</span>`;
-      } else {
-        res.innerHTML = `<span style="color: red;">✗ Incorrect. Try again!</span>`;
-      }
-    }
-
-    function nextQuestion() {
-      currentQ = (currentQ + 1) % quizQuestions.length;
-      loadQuiz();
+    function printSinglePlant(ncismNo) {
+      openDossier(ncismNo);
+      setTimeout(() => {
+        window.print();
+      }, 300);
     }
   </script>
 </body>
