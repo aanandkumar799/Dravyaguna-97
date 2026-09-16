@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (!plantList) return;
   const indexURL = new URL('plant-index.json', window.location.href).href;
   const fallbackURL = new URL('plants.json', window.location.href).href;
-  const batchURLs = ['plant-batch-24-28.json', 'plant-batch-29-33.json'].map(x => new URL(x, window.location.href).href);
+  const batchURLs = ['plant-batch-24-28.json', 'plant-batch-29-33.json', 'plant-batch-34-38.json'].map(x => new URL(x, window.location.href).href);
   let masterPlants = [];
   let searchTimer;
   let mode = 'grid';
