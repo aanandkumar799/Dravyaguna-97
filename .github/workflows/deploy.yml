@@ -28,6 +28,9 @@ jobs:
         run: |
           python scripts/normalize-plants-schema.py
           python scripts/generate-site-artifacts.py
+      - name: Public readiness validation and sitemap generation
+        shell: bash
+        run: python scripts/public-readiness.py
       - name: Prepare static site, fast index and plant dossiers
         shell: bash
         run: |
@@ -49,13 +52,13 @@ jobs:
           (root / 'data' / 'plants-index.json').write_text(json.dumps(index, ensure_ascii=False, indent=2), encoding='utf-8')
           print(f'Prepared {len(plants)} plant detail files')
           PY
-      - name: Wire PWA, academic tools and responsive plant layout
+      - name: Wire PWA, academic tools, SEO and responsive plant layout
         shell: bash
         run: |
           python - <<'PY'
           from pathlib import Path
           root = Path('_site')
-          for filename in ['index.html', 'plant.html', 'plants.html', 'compare.html']:
+          for filename in ['index.html', 'plant.html', 'plants.html', 'compare.html', 'quiz.html']:
               p = root / filename
               if not p.exists():
                   continue
@@ -64,6 +67,8 @@ jobs:
                   s = s.replace('</head>', '<link rel="manifest" href="manifest.json"><meta name="theme-color" content="#1b4332">\n</head>', 1)
               if "navigator.serviceWorker.register('./sw.js')" not in s:
                   s = s.replace('</body>', "<script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));}</script>\n</body>", 1)
+              if '<script src="public-seo.js" defer></script>' not in s:
+                  s = s.replace('</body>', '<script src="public-seo.js" defer></script>\n</body>', 1)
               if '<link rel="stylesheet" href="academic-enhancements.css">' not in s:
                   s = s.replace('</head>', '<link rel="stylesheet" href="academic-enhancements.css">\n</head>', 1)
               if filename in ['plants.html','plant.html'] and '<script src="academic-enhancements.js" defer></script>' not in s:
