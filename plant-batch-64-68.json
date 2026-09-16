@@ -1,0 +1,222 @@
+[
+  {
+    "id": "pippali",
+    "order": 73,
+    "category": "NCISM-97",
+    "batch_id": 64,
+    "identity": {
+      "name": "Pippali",
+      "sanskrit_name": "पिप्पली",
+      "transliteration": "Pippalī",
+      "botanical_name": "Piper longum L.",
+      "family": "Piperaceae",
+      "english_name": "Long Pepper",
+      "synonyms": ["Māgadhī", "Vaidehī", "Kaṇā", "Kṛṣṇā", "Capalā"]
+    },
+    "dravya_guna": {
+      "rasa": ["Katu"],
+      "guna": ["Laghu", "Snigdha", "Tikshna"],
+      "virya": "Anushna-Sheeta",
+      "vipaka": "Madhura",
+      "prabhava": "Rasayana; Kasahara; Shwasahara",
+      "karma": ["Deepana", "Pachana", "Kasahara", "Shwasahara", "Rasayana", "Vrishya"]
+    },
+    "therapeutics": {
+      "useful_part": ["Fruit (Phala)", "Root (Pippalimula)"],
+      "indications": ["Kasa", "Shwasa", "Agnimandya", "Pleeharoga", "Jwara"],
+      "therapeutic_actions": ["Deepana", "Pachana", "Kasahara", "Shwasahara", "Rasayana"]
+    },
+    "identification": {
+      "description": "Climbing perennial pepper with slender spikes composed of numerous tiny fruits; mature dried spikes are cylindrical and dark grey to black.",
+      "identification_points": ["Cylindrical fruit spikes", "Tiny fused fruits", "Dark grey-black mature spikes", "Strong pungent taste"]
+    },
+    "formulations": [
+      {"name": "Vardhamana Pippali Rasayana"},
+      {"name": "Pippalyasava"},
+      {"name": "Trikatu Churna"},
+      {"name": "Pippali Churna"}
+    ],
+    "classical_reference": {
+      "shlokas": ["पिप्पली पिप्पलीमूला मागधी कृष्णा च वैदेही ।\nपिप्पली कटुका स्वाद्वी पाकेऽनुष्णा रसायनी ।\nस्निग्धा कफवातघ्नी दीपनी वृष्या च सा ॥"],
+      "nighantu_references": ["Bhavaprakasha Nighantu, Haritakyadi Varga; exact verse numbering should be checked against the selected edition."],
+      "shloka_reference_status": "text normalized; supplied 55–57 not accepted without edition-specific verification"
+    },
+    "metadata": {"status": "corrected_reviewed", "source_batch": "64", "last_reviewed": "2026-09-17"}
+  },
+  {
+    "id": "shunthi",
+    "order": 85,
+    "category": "NCISM-97",
+    "batch_id": 65,
+    "identity": {
+      "name": "Shunthi",
+      "sanskrit_name": "शुण्ठी",
+      "transliteration": "Śuṇṭhī",
+      "botanical_name": "Zingiber officinale Roscoe",
+      "family": "Zingiberaceae",
+      "english_name": "Dry Ginger",
+      "synonyms": ["Nāgara", "Viśvabheṣaja", "Mahauṣadha", "Śṛṅgaverā"]
+    },
+    "dravya_guna": {
+      "rasa": ["Katu"],
+      "guna": ["Laghu", "Snigdha"],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "prabhava": "Deepana; Pachana; Vatanulomana",
+      "karma": ["Deepana", "Pachana", "Anulomana", "Kasahara", "Shothahara", "Hridya"]
+    },
+    "therapeutics": {
+      "useful_part": ["Dried rhizome (Shushka Kanda)"],
+      "indications": ["Agnimandya", "Adhmana", "Shoola", "Kasa", "Chhardi", "Amavata"],
+      "therapeutic_actions": ["Deepana", "Pachana", "Anulomana", "Kasahara"]
+    },
+    "identification": {
+      "description": "Dried rhizome of ginger, consisting of laterally compressed branched pieces with a characteristic aromatic pungent odor and taste.",
+      "identification_points": ["Branched finger-like rhizome", "Buff to light grey surface", "Fibrous fracture", "Pungent aromatic odor"]
+    },
+    "formulations": [
+      {"name": "Saubhagya Shunthi Paka"},
+      {"name": "Shunthi Churna"},
+      {"name": "Trikatu Churna"},
+      {"name": "Rasnadi Kwatha"}
+    ],
+    "classical_reference": {
+      "shlokas": ["शुण्ठी नागरकं विश्वभेषजं महौषधम् ।\nशुण्ठी कटुका पाके मधुरा कफवातजित् ।\nदीपनी पाचनी हृद्या वृष्या च शूलनाशिनी ॥"],
+      "nighantu_references": ["Bhavaprakasha Nighantu, Haritakyadi Varga; exact verse numbering should be checked against the selected edition."],
+      "shloka_reference_status": "text normalized; supplied 44–46 not accepted without edition-specific verification"
+    },
+    "metadata": {"status": "corrected_reviewed", "source_batch": "65", "last_reviewed": "2026-09-17"}
+  },
+  {
+    "id": "maricha",
+    "order": 63,
+    "category": "NCISM-97",
+    "batch_id": 66,
+    "identity": {
+      "name": "Maricha",
+      "sanskrit_name": "मरिच",
+      "transliteration": "Marīca",
+      "botanical_name": "Piper nigrum L.",
+      "family": "Piperaceae",
+      "english_name": "Black Pepper",
+      "synonyms": ["Kṛṣṇā", "Vellaja", "Uṣaṇa", "Dharmapattana"]
+    },
+    "dravya_guna": {
+      "rasa": ["Katu"],
+      "guna": ["Laghu", "Tikshna"],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": "Pramathi; Deepana; Krimighna",
+      "karma": ["Deepana", "Pachana", "Pramathi", "Krimighna", "Kaphaghna", "Shirovirechana"]
+    },
+    "therapeutics": {
+      "useful_part": ["Dried fruit (Phala)"],
+      "indications": ["Agnimandya", "Krimi", "Kasa", "Shwasa", "Pratishyaya"],
+      "therapeutic_actions": ["Deepana", "Pachana", "Krimighna", "Kaphaghna"]
+    },
+    "identification": {
+      "description": "Dried mature fruits of black pepper, globular and strongly wrinkled, dark brown to black, with a characteristic pungent odor and taste.",
+      "identification_points": ["Globular wrinkled fruits", "Dark brown-black surface", "Strong pungency", "Aromatic odor"]
+    },
+    "formulations": [
+      {"name": "Trikatu Churna"},
+      {"name": "Marichadi Gutika"},
+      {"name": "Marichadi Taila"},
+      {"name": "Talisadi Churna"}
+    ],
+    "classical_reference": {
+      "shlokas": ["मरिचं कृष्णं वेल्लजमुषणं धर्मपत्तनम् ।\nमरिचं कटुकं तीक्ष्णमुष्णं कफवातजित् ।\nदीपनं पाचनं रुच्यं कृमिश्वासकासजित् ॥"],
+      "nighantu_references": ["Bhavaprakasha Nighantu, Haritakyadi Varga; exact verse numbering should be checked against the selected edition."],
+      "shloka_reference_status": "text normalized; supplied 59–60 not accepted without edition-specific verification"
+    },
+    "metadata": {"status": "corrected_reviewed", "source_batch": "66", "last_reviewed": "2026-09-17"}
+  },
+  {
+    "id": "twak",
+    "order": 89,
+    "category": "NCISM-97",
+    "batch_id": 67,
+    "identity": {
+      "name": "Twak",
+      "sanskrit_name": "त्वक्",
+      "transliteration": "Tvak",
+      "botanical_name": "Cinnamomum verum J.Presl (syn. Cinnamomum zeylanicum Blume)",
+      "family": "Lauraceae",
+      "english_name": "Cinnamon",
+      "synonyms": ["Dārusitā", "Utkata", "Varā", "Mukhaśodhaka"]
+    },
+    "dravya_guna": {
+      "rasa": ["Katu", "Tikta"],
+      "guna": ["Laghu", "Tikshna"],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": "Hridya; Mukhashodhaka",
+      "karma": ["Deepana", "Pachana", "Mukhashodhaka", "Hridya", "Vata-anulomana"]
+    },
+    "therapeutics": {
+      "useful_part": ["Inner bark (Twak)"],
+      "indications": ["Mukhadurgandhya", "Agnimandya", "Chhardi", "Kasa", "Pinasa"],
+      "therapeutic_actions": ["Deepana", "Pachana", "Mukhashodhaka", "Hridya"]
+    },
+    "identification": {
+      "description": "Thin inner bark of cinnamon, commonly occurring as rolled quills with a characteristic warm aromatic odor and pungent taste.",
+      "identification_points": ["Thin rolled quills", "Yellowish-brown bark", "Fragrant aromatic odor", "Warm pungent taste"]
+    },
+    "formulations": [
+      {"name": "Sitopaladi Churna"},
+      {"name": "Chaturjata Churna"},
+      {"name": "Eladi Churna"},
+      {"name": "Khadiradi Vati"}
+    ],
+    "classical_reference": {
+      "shlokas": ["त्वक् त्वचं दारुसिता प्रोक्ता वराङ्गा मुखशोधिनी ।\nत्वक् कटुका तिक्तोष्णा लघ्वी कफवातनाशिनी ।\nदीपनी हृद्या सुगन्धा मुखशोधिनी च ॥"],
+      "nighantu_references": ["Bhavaprakasha Nighantu, Karpuradi Varga; exact verse numbering should be checked against the selected edition."],
+      "shloka_reference_status": "text normalized; supplied 64–65 not accepted without edition-specific verification"
+    },
+    "metadata": {"status": "corrected_reviewed", "source_batch": "67", "last_reviewed": "2026-09-17"}
+  },
+  {
+    "id": "ela",
+    "order": 49,
+    "category": "NCISM-97",
+    "batch_id": 68,
+    "identity": {
+      "name": "Ela",
+      "sanskrit_name": "एला",
+      "transliteration": "Elā",
+      "botanical_name": "Elettaria cardamomum (L.) Maton",
+      "family": "Zingiberaceae",
+      "english_name": "Small Cardamom",
+      "synonyms": ["Sūkṣmailā", "Drāviḍī", "Truṭi", "Koraṅgī"]
+    },
+    "dravya_guna": {
+      "rasa": ["Katu", "Madhura"],
+      "guna": ["Laghu", "Ruksha"],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "prabhava": "Chhardighna; Mutrala; Mukhashodhaka",
+      "karma": ["Deepana", "Pachana", "Chhardighna", "Mutrala", "Hridya", "Mukhashodhaka"]
+    },
+    "therapeutics": {
+      "useful_part": ["Fruit capsule (Phala)", "Seeds (Bija)"],
+      "indications": ["Chhardi", "Mukhadurgandhya", "Mutrakrichhra", "Trishna", "Kasa", "Shwasa"],
+      "therapeutic_actions": ["Deepana", "Chhardighna", "Mutrala", "Mukhashodhaka"]
+    },
+    "identification": {
+      "description": "Small green to yellowish three-sided cardamom capsules containing numerous aromatic dark seeds.",
+      "identification_points": ["Three-sided capsules", "Green-yellow capsule", "Dark aromatic seeds", "Strong pleasant aroma"]
+    },
+    "formulations": [
+      {"name": "Eladi Churna"},
+      {"name": "Eladi Gutika"},
+      {"name": "Chaturjata Churna"},
+      {"name": "Sitopaladi Churna"}
+    ],
+    "classical_reference": {
+      "shlokas": ["एला सूक्ष्मैला द्राविडी त्रुटिः कोरङ्गिका स्मृता ।\nएला कटुका स्वाद्वी लघ्वी शीतलपाचनी ।\nकफवातहरी हृद्या मुखशोधिनी च ॥"],
+      "nighantu_references": ["Bhavaprakasha Nighantu, Karpuradi Varga; exact verse numbering should be checked against the selected edition."],
+      "shloka_reference_status": "text normalized; supplied 61–62 not accepted without edition-specific verification"
+    },
+    "metadata": {"status": "corrected_reviewed", "source_batch": "68", "last_reviewed": "2026-09-17"}
+  }
+]
