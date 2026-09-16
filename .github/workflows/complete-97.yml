@@ -10,6 +10,7 @@ on:
       - 'scripts/apply-batch-64-68.py'
       - 'scripts/apply-batch-69-73.py'
       - 'scripts/apply-gemini-74-107.py'
+      - 'scripts/apply-gemini-79-83.py'
       - 'complete-97-trigger.txt'
       - '.github/workflows/complete-97.yml'
 permissions:
@@ -24,52 +25,39 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-
       - name: Build and validate 97 records
         run: python scripts/complete-97.py
-
       - name: Enrich records with plant images and reference hubs
         run: python scripts/enrich-97.py
-
       - name: Apply Gemini batch 49-53 data
         run: python scripts/apply-batch-49-53-legacy.py
-
       - name: Normalize Gemini batch 54-63 names to NCISM canonical names
         run: |
           python - <<'PY'
           from pathlib import Path
           p = Path('scripts/apply-batch-49-53.py')
           s = p.read_text(encoding='utf-8')
-          replacements = {
-              "'Aragvadha':": "'Aragwadha':",
-              "'Bhringaraja':": "'Bhrungaraja':",
-              "'Trivrit':": "'Trivrut':",
-          }
-          for old, new in replacements.items():
-              s = s.replace(old, new)
+          replacements = {"'Aragvadha':": "'Aragwadha':", "'Bhringaraja':": "'Bhrungaraja':", "'Trivrit':": "'Trivrut':"}
+          for old, new in replacements.items(): s = s.replace(old, new)
           p.write_text(s, encoding='utf-8')
           print('Normalized Gemini aliases to NCISM canonical names')
           PY
-
       - name: Apply Gemini batch 54-63 data
         run: python scripts/apply-batch-49-53.py
-
       - name: Apply curated Gemini batch 64-68 data
         run: python scripts/apply-batch-64-68.py
-
       - name: Apply curated Gemini batch 69-73 data
         run: python scripts/apply-batch-69-73.py
-
-      - name: Consolidate Gemini batches 74-107 and supplementary records
+      - name: Apply full Gemini batches 74-78 data
         run: python scripts/apply-gemini-74-107.py
-
+      - name: Apply full Gemini batches 79-83 data
+        run: python scripts/apply-gemini-79-83.py
       - name: Final database validation
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
-          p = Path('plants.json')
-          plants = json.loads(p.read_text(encoding='utf-8'))
+          plants = json.loads(Path('plants.json').read_text(encoding='utf-8'))
           core = [x for x in plants if x.get('category') == 'NCISM-97']
           supp = [x for x in plants if x.get('category') == 'Supplementary']
           names = [x.get('identity', {}).get('name') for x in core]
@@ -79,9 +67,11 @@ jobs:
           assert len(set(ids)) == 97, 'Duplicate NCISM IDs detected'
           assert len(plants) == 97 + len(supp), 'Unexpected record count'
           assert all(x.get('identity', {}).get('name') for x in plants), 'Record missing name'
+          required = {79:'Vatsanabha',80:'Katuki',81:'Kiratatikta',82:'Bhringaraja',83:'Kumkuma'}
+          for bid,name in required.items():
+              assert any(x.get('gemini_source_data',{}).get('id') == bid for x in plants), f'Gemini batch {bid} missing'
           print(f'FINAL VALIDATION PASSED: {len(core)} NCISM-97 + {len(supp)} supplementary = {len(plants)} total')
           PY
-
       - name: Commit database and image assets
         run: |
           git config user.name 'github-actions[bot]'
