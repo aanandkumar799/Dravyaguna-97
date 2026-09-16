@@ -65,7 +65,10 @@ def main():
         p = by_name[name]
         cr = p.setdefault('classical_reference', {})
         cr['shlokas'] = patch.get('shlokas', [])
-        cr['nighantu_references'] = [patch['reference']]
+        # Keep the reference field explicit for every patch. Vasa intentionally
+        # has no shloka, but its source still has a reference note.
+        reference = patch.get('reference') or patch.get('source', {}).get('reference', '')
+        cr['nighantu_references'] = [reference] if reference else []
         cr['shloka_reference_status'] = patch['status']
         cr['verification_note'] = patch['note']
         cr.setdefault('samhita_references', [])
