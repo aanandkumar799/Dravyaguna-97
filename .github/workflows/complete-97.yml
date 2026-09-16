@@ -1,4 +1,5 @@
 name: Complete Dravyaguna 97 database
+
 on:
   push:
     paths:
@@ -10,31 +11,54 @@ on:
       - 'scripts/apply-batch-69-73.py'
       - 'scripts/apply-gemini-74-107.py'
       - 'complete-97-trigger.txt'
+      - '.github/workflows/complete-97.yml'
 permissions:
   contents: write
 
 concurrency:
   group: complete-97-database
   cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+
       - name: Build and validate 97 records
         run: python scripts/complete-97.py
+
       - name: Enrich records with plant images and reference hubs
         run: python scripts/enrich-97.py
+
       - name: Apply Gemini batch 49-53 data
         run: python scripts/apply-batch-49-53-legacy.py
+
+      - name: Normalize Gemini batch 54-63 name aliases
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('scripts/apply-batch-49-53.py')
+          s = p.read_text(encoding='utf-8')
+          marker = "def merge(dst, src):"
+          aliases = "BATCH['Aragwadha'] = BATCH['Aragvadha']\nBATCH['Bhrungaraja'] = BATCH['Bhringaraja']\nBATCH['Trivrut'] = BATCH['Trivrit']\n\n"
+          if aliases not in s:
+              s = s.replace(marker, aliases + marker, 1)
+          p.write_text(s, encoding='utf-8')
+          PY
+
       - name: Apply Gemini batch 54-63 data
         run: python scripts/apply-batch-49-53.py
+
       - name: Apply curated Gemini batch 64-68 data
         run: python scripts/apply-batch-64-68.py
+
       - name: Apply curated Gemini batch 69-73 data
         run: python scripts/apply-batch-69-73.py
+
       - name: Consolidate Gemini batches 74-107 and supplementary records
         run: python scripts/apply-gemini-74-107.py
+
       - name: Commit database and image assets
         run: |
           git config user.name 'github-actions[bot]'
