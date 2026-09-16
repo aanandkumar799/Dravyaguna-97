@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const plantList = document.getElementById('plant-list');
   const searchInput = document.getElementById('searchInput') || document.getElementById('search');
   if (!plantList) return;
-
   const indexURL = new URL('data/plants-index.json', window.location.href).href;
   const fallbackURL = new URL('plants.json', window.location.href).href;
   let masterPlants = [];
@@ -11,7 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
   let categoryFilter = 'all';
   let showAll = false;
   const initialLimit = 24;
-
   const esc = v => String(v ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');
   const normalize = v => String(v ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').replace(/\s+/g,' ').trim();
   const text = v => Array.isArray(v) ? v.map(text).join(' ') : (v && typeof v === 'object' ? Object.values(v).map(text).join(' ') : String(v ?? ''));
@@ -36,48 +34,52 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     return total;
   }
-
   function filtered(q='') {
     let list = masterPlants.filter(p => categoryFilter === 'all' || category(p) === categoryFilter);
     if (!normalize(q)) return list;
     return list.map(p => ({p, s: score(p,q)})).filter(x => x.s > 0).sort((a,b) => b.s-a.s || order(a.p)-order(b.p)).map(x => x.p);
   }
 
-  function card(p) {
-    const n=name(p), img=image(p), c=category(p), id=String(p.id||'');
-    return `<article class="plant-card"><div class="plant-image">${img ? `<img src="${esc(img)}" alt="${esc(n)}" loading="lazy" onerror="this.style.display='none'">` : '<div class="plant-placeholder">🌿</div>'}</div><div class="plant-card-content"><div class="plant-card-top"><span class="plant-number">${c==='NCISM-97'?'#'+order(p):'Supplementary'}</span><span class="syllabus-marker">${c}</span></div><h3>${esc(n)}</h3>${sanskrit(p)?`<p class="plant-sanskrit">${esc(sanskrit(p))}</p>`:''}${botanical(p)?`<p class="plant-botanical"><em>${esc(botanical(p))}</em></p>`:''}${p.english_name?`<p class="plant-english">${esc(p.english_name)}</p>`:''}${family(p)?`<p class="plant-family"><strong>Family:</strong> ${esc(family(p))}</p>`:''}<a class="view-plant" href="./plant.html?id=${encodeURIComponent(id)}">Open Full Dossier →</a></div></article>`;
+  // Local SVG fallback avoids broken-image icons and avoids relying on a third-party
+  // placeholder service. The fallback is generated in the browser and works offline.
+  function fallbackSvg(label) {
+    const safe = String(label || 'Plant').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520"><rect width="800" height="520" fill="#edf5ef"/><text x="400" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="82">🌿</text><text x="400" y="330" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" fill="#1b4332">${safe}</text><text x="400" y="375" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#6b756f">Image not available</text></svg>`;
+    return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
   }
 
+  function card(p) {
+    const n=name(p), img=image(p), c=category(p), id=String(p.id||''), fallback=fallbackSvg(n || 'Plant');
+    const imageHtml = img
+      ? `<img src="${esc(img)}" alt="${esc(n)}" loading="lazy" data-fallback="${esc(fallback)}">`
+      : `<img src="${fallback}" alt="${esc(n || 'Plant')} image placeholder" loading="lazy">`;
+    return `<article class="plant-card"><div class="plant-image">${imageHtml}</div><div class="plant-card-content"><div class="plant-card-top"><span class="plant-number">${c==='NCISM-97'?'#'+order(p):'Supplementary'}</span><span class="syllabus-marker">${c}</span></div><h3>${esc(n)}</h3>${sanskrit(p)?`<p class="plant-sanskrit">${esc(sanskrit(p))}</p>`:''}${botanical(p)?`<p class="plant-botanical"><em>${esc(botanical(p))}</em></p>`:''}${p.english_name?`<p class="plant-english">${esc(p.english_name)}</p>`:''}${family(p)?`<p class="plant-family"><strong>Family:</strong> ${esc(family(p))}</p>`:''}<a class="view-plant" href="./plant.html?id=${encodeURIComponent(id)}">Open Full Dossier →</a></div></article>`;
+  }
   function flashcard(p) {
     const n=name(p), s=sanskrit(p), rasa=text(p.rasa)||'—', guna=text(p.guna)||'—', virya=p.virya||'—', vipaka=p.vipaka||'—', useful=text(p.useful_part)||'—';
     return `<article class="flashcard" tabindex="0" aria-label="Flashcard for ${esc(n)}"><div class="flash-inner"><div class="flash-face"><div class="plant-number">#${order(p)}</div><h3>${esc(n)}</h3><div class="big-sanskrit">${esc(s||'Sanskrit name unavailable')}</div><p>${esc(p.botanical_name||'')}</p><small>Tap / click to flip</small></div><div class="flash-face flash-back"><h3>${esc(n)}</h3><p><strong>Rasa:</strong> ${esc(rasa)}</p><p><strong>Guna:</strong> ${esc(guna)}</p><p><strong>Virya:</strong> ${esc(virya)}</p><p><strong>Vipaka:</strong> ${esc(vipaka)}</p><p><strong>Useful part:</strong> ${esc(useful)}</p><a class="view-plant" href="./plant.html?id=${encodeURIComponent(p.id)}">Open Full Dossier →</a></div></div></article>`;
   }
-
   function render(q='') {
-    const results=filtered(q);
-    const info=document.getElementById('search-result-info');
+    const results=filtered(q), info=document.getElementById('search-result-info');
     if(info) info.textContent=q ? `${results.length} result${results.length===1?'':'s'} found for “${q}”` : `${results.length} record${results.length===1?'':'s'} in ${categoryFilter==='all'?'the library':categoryFilter}`;
     if(!results.length){plantList.className='plant-grid';plantList.innerHTML='<div class="no-results"><div style="font-size:3rem">🔎</div><h3>No plants found</h3><p>Try a Sanskrit name, Roman name, botanical name, family, or NCISM number.</p></div>';return;}
     const visible = q || showAll ? results : results.slice(0,initialLimit);
     if(mode==='flash'){
-      plantList.className='flash-grid';
-      plantList.innerHTML=visible.map(flashcard).join('');
+      plantList.className='flash-grid'; plantList.innerHTML=visible.map(flashcard).join('');
       plantList.querySelectorAll('.flashcard').forEach(c=>{const flip=()=>c.classList.toggle('flipped');c.addEventListener('click',e=>{if(e.target.closest('a'))return;flip();});c.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();flip();}});});
     } else {
       plantList.className='plant-grid';
       plantList.innerHTML=visible.map(card).join('') + (!q&&!showAll&&results.length>initialLimit?`<div class="plant-list-actions"><p>Showing ${initialLimit} of ${results.length} records.</p><button type="button" id="show-all-plants">Show all ${results.length}</button></div>`:'');
+      plantList.querySelectorAll('img[data-fallback]').forEach(img=>img.addEventListener('error',()=>{img.src=img.dataset.fallback;img.removeAttribute('data-fallback');},{once:true}));
       document.getElementById('show-all-plants')?.addEventListener('click',()=>{showAll=true;render(searchInput?.value||'');});
     }
   }
-
   function setupControls(){
     document.querySelectorAll('[data-mode]').forEach(btn=>btn.addEventListener('click',()=>{mode=btn.dataset.mode;showAll=true;document.querySelectorAll('[data-mode]').forEach(b=>b.classList.toggle('active',b.dataset.mode===mode));render(searchInput?.value||'');}));
     document.querySelectorAll('[data-category]').forEach(btn=>btn.addEventListener('click',()=>{categoryFilter=btn.dataset.category;showAll=false;document.querySelectorAll('[data-category]').forEach(b=>b.classList.toggle('active',b.dataset.category===categoryFilter));render(searchInput?.value||'');}));
     const jump=()=>{const n=Number(document.getElementById('ncismJump')?.value);if(!n)return;const p=masterPlants.find(x=>category(x)==='NCISM-97'&&order(x)===n);if(p)location.href=`./plant.html?id=${encodeURIComponent(p.id)}`;else alert('NCISM number not found in the current index.');};
-    document.getElementById('jumpButton')?.addEventListener('click',jump);
-    document.getElementById('ncismJump')?.addEventListener('keydown',e=>{if(e.key==='Enter')jump();});
+    document.getElementById('jumpButton')?.addEventListener('click',jump); document.getElementById('ncismJump')?.addEventListener('keydown',e=>{if(e.key==='Enter')jump();});
   }
-
   async function load(){
     try {
       let r=await fetch(indexURL,{cache:'no-store',headers:{Accept:'application/json'}});
@@ -87,8 +89,6 @@ document.addEventListener('DOMContentLoaded', () => {
       setupControls();plantList.setAttribute('aria-busy','false');render(searchInput?.value||'');
     } catch(e){console.error(e);plantList.innerHTML=`<div class="plant-error"><h3>Unable to load the plant library</h3><p>${esc(e.message||'Please refresh the page.')}</p></div>`;}
   }
-
   searchInput?.addEventListener('input',e=>{clearTimeout(searchTimer);showAll=false;searchTimer=setTimeout(()=>render(e.target.value),80);});
-  setupControls();
-  load();
+  setupControls(); load();
 });
