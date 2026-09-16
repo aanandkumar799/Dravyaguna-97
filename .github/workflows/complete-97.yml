@@ -5,6 +5,7 @@ on:
       - 'scripts/complete-97.py'
       - 'scripts/enrich-97.py'
       - 'scripts/apply-batch-49-53.py'
+      - 'scripts/apply-batch-49-53-legacy.py'
       - 'complete-97-trigger.txt'
 permissions:
   contents: write
@@ -22,6 +23,8 @@ jobs:
       - name: Enrich records with plant images and reference hubs
         run: python scripts/enrich-97.py
       - name: Apply Gemini batch 49-53 data
+        run: python scripts/apply-batch-49-53-legacy.py
+      - name: Apply Gemini batch 54-63 data
         run: python scripts/apply-batch-49-53.py
       - name: Commit database and image assets
         run: |
