@@ -7,6 +7,7 @@
 <title>Plant Profile | DravyaGuna 97</title>
 <link rel="icon" type="image/png" href="images/favicon.png">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive-fix.css">
 <style>
 @media print {
   body { background:#fff !important; color:#000 !important; }
@@ -38,7 +39,7 @@
 document.addEventListener('DOMContentLoaded',()=>{
  const root=document.getElementById('plant-content'), modal=document.getElementById('image-modal'), modalImg=document.getElementById('modal-image'), close=document.getElementById('close-modal');
  const id=new URLSearchParams(location.search).get('id');
- const esc=v=>String(v??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');
+ const esc=v=>String(v??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\"/g,'&quot;').replace(/'/g,'&#039;');
  const arr=v=>Array.isArray(v)?v.filter(x=>x!==null&&x!==undefined&&String(x).trim()!==''):[];
  const text=v=>Array.isArray(v)?v.map(x=>typeof x==='object'?Object.values(x).join(' — '):String(x)).filter(Boolean).join(', '):String(v??'');
  const row=(label,v)=>{const s=text(v).trim();return `<div class="info-row"><div class="info-label">${esc(label)}</div><div class="info-value">${s?esc(s):'<span class="not-available">Not available</span>'}</div></div>`};
