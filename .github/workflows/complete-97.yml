@@ -4,6 +4,7 @@ on:
     paths:
       - 'scripts/complete-97.py'
       - 'scripts/enrich-97.py'
+      - 'scripts/apply-batch-49-53.py'
       - 'complete-97-trigger.txt'
 permissions:
   contents: write
@@ -20,10 +21,12 @@ jobs:
         run: python scripts/complete-97.py
       - name: Enrich records with plant images and reference hubs
         run: python scripts/enrich-97.py
+      - name: Apply Gemini batch 49-53 data
+        run: python scripts/apply-batch-49-53.py
       - name: Commit database and image assets
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add plants.json images/plants
-          git diff --cached --quiet || git commit -m 'Enrich 97-plant database with images and references'
+          git diff --cached --quiet || git commit -m 'Add Gemini batch 49-53 drug data'
           git push
