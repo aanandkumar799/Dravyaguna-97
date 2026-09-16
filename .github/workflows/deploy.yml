@@ -51,20 +51,26 @@ jobs:
           print(f'Prepared {len(plants)} plant detail files')
           PY
 
-      - name: Wire PWA, fast dossier loading and responsive plant layout
+      - name: Wire PWA, academic tools and responsive plant layout
         shell: bash
         run: |
           python - <<'PY'
           from pathlib import Path
           root = Path('_site')
 
-          for filename in ['index.html', 'plant.html']:
+          for filename in ['index.html', 'plant.html', 'plants.html', 'compare.html']:
               p = root / filename
+              if not p.exists():
+                  continue
               s = p.read_text(encoding='utf-8')
               if '<link rel="manifest"' not in s:
                   s = s.replace('</head>', '<link rel="manifest" href="manifest.json"><meta name="theme-color" content="#1b4332">\n</head>', 1)
               if "navigator.serviceWorker.register('./sw.js')" not in s:
                   s = s.replace('</body>', "<script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));}</script>\n</body>", 1)
+              if '<link rel="stylesheet" href="academic-enhancements.css">' not in s:
+                  s = s.replace('</head>', '<link rel="stylesheet" href="academic-enhancements.css">\n</head>', 1)
+              if filename in ['plants.html','plant.html'] and '<script src="academic-enhancements.js" defer></script>' not in s:
+                  s = s.replace('</body>', '<script src="academic-enhancements.js" defer></script>\n</body>', 1)
               p.write_text(s, encoding='utf-8')
 
           p = root / 'plant.html'
@@ -73,9 +79,6 @@ jobs:
           new = "fetch(new URL('data/plants/'+encodeURIComponent(id)+'.json',location.href),{cache:'no-store',headers:{Accept:'application/json'}}).catch(()=>fetch(new URL('plants.json',location.href),{cache:'no-store',headers:{Accept:'application/json'}})).then"
           if old in s:
               s = s.replace(old, new, 1)
-
-          # plant.html already has its main stylesheet. Add the dossier stylesheet
-          # directly to the generated Pages copy so it cannot be lost to stale HTML.
           marker = '<link rel="stylesheet" href="plant-dossier-layout.css">'
           if marker not in s:
               s = s.replace('</head>', marker + '\n</head>', 1)
