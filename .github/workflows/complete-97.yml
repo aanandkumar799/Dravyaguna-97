@@ -1,0 +1,22 @@
+name: Complete Dravyaguna 97 database
+on:
+  push:
+    paths:
+      - 'scripts/complete-97.py'
+      - 'complete-97-trigger.txt'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and validate 97 records
+        run: python scripts/complete-97.py
+      - name: Commit database
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add plants.json
+          git diff --cached --quiet || git commit -m 'Complete NCISM 97-plant database records'
+          git push
