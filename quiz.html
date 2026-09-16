@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Interactive DravyaGuna practice quiz for BAMS students.">
+<title>Practice Quiz | DravyaGuna 97</title>
+<link rel="icon" href="images/favicon.png" type="image/png">
+<link rel="stylesheet" href="style.css">
+<style>
+:root{--green:#1b4332;--green2:#2d6a4f;--cream:#f8f5ed;--line:#dfe7df;--muted:#68736c}
+body{margin:0;background:var(--cream);color:#24302a;font-family:Outfit,Arial,sans-serif;line-height:1.6}
+.quiz-page{max-width:760px;margin:auto;padding:28px 16px 60px}.quiz-head{text-align:center;margin-bottom:20px}.eyebrow{font-size:.76rem;letter-spacing:1.8px;font-weight:700;color:var(--green2);margin:0 0 8px}.quiz-head h1{color:var(--green);margin:0 0 6px;font-size:clamp(2rem,7vw,3rem)}.quiz-head p{color:var(--muted);margin:0}
+.quiz-card{background:#fff;border:1px solid #cbd5e1;border-radius:16px;padding:20px;box-shadow:0 8px 26px rgba(27,67,50,.08)}.quiz-header{display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:2px solid #e2e8f0;padding-bottom:10px;margin-bottom:18px}.quiz-title{font-size:1.08rem;font-weight:700;color:var(--green)}.quiz-score{font-size:.85rem;font-weight:700;color:#2d6a4f;background:#d8f3dc;padding:4px 9px;border-radius:999px;white-space:nowrap}.quiz-progress{height:7px;background:#edf2ee;border-radius:99px;overflow:hidden;margin-bottom:18px}.quiz-progress-bar{height:100%;width:0;background:var(--green2);transition:width .25s ease}.quiz-question{font-size:1rem;font-weight:700;color:#1e293b;margin-bottom:14px}.quiz-options{display:flex;flex-direction:column;gap:9px}.quiz-option{width:100%;background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:12px 13px;font:inherit;font-size:.94rem;color:#334155;cursor:pointer;text-align:left;transition:.18s ease;min-height:46px}.quiz-option:hover,.quiz-option:focus-visible{background:#eef3ef;border-color:#a9c5b0;outline:none}.quiz-option.correct{background:#d1fae5!important;border-color:#10b981!important;color:#065f46!important;font-weight:700}.quiz-option.incorrect{background:#fee2e2!important;border-color:#ef4444!important;color:#991b1b!important}.quiz-option:disabled{cursor:default}.quiz-explanation{margin-top:13px;padding:11px 13px;background:#f5f8f4;border-left:4px solid #d4a373;border-radius:8px;color:#46524b;font-size:.88rem}.quiz-next-btn,.quiz-restart-btn{margin-top:16px;width:100%;background:var(--green2);color:#fff;border:0;padding:12px;border-radius:9px;font:inherit;font-weight:700;cursor:pointer}.quiz-next-btn{display:none}.quiz-result{text-align:center;padding:12px 4px}.quiz-result h2{color:var(--green);margin:4px 0 8px}.final-score{font-size:2rem;font-weight:800;color:var(--green)}.quiz-note{margin-top:18px;color:var(--muted);font-size:.82rem;text-align:center}.back-link{display:block;text-align:center;margin-top:18px;color:var(--green);font-weight:700;text-decoration:none}
+@media(max-width:520px){.quiz-card{padding:15px}.quiz-header{align-items:flex-start}.quiz-title{font-size:.98rem}.quiz-question{font-size:.95rem}}
+@media print{.quiz-card{box-shadow:none}.quiz-option{color:#000}.quiz-next-btn,.quiz-restart-btn,.back-link{display:none!important}}
+</style>
+</head>
+<body>
+<main class="quiz-page">
+<section class="quiz-head"><p class="eyebrow">BAMS • DRAVYAGUNA VIGYAN • SELF-ASSESSMENT</p><h1>Practice Quiz</h1><p>Test recall of plant identity, Rasa Panchaka and core Dravyaguna concepts.</p></section>
+<section class="quiz-card" id="quizContainer">
+<div class="quiz-header"><span class="quiz-title">🌿 Dravyaguna Practice Quiz</span><span class="quiz-score" id="quizScore">Score: 0 / 0</span></div>
+<div class="quiz-progress" aria-hidden="true"><div class="quiz-progress-bar" id="progressBar"></div></div>
+<div class="quiz-question" id="quizQuestion">Loading question…</div>
+<div class="quiz-options" id="quizOptions"></div>
+<div id="quizExplanation" class="quiz-explanation" hidden></div>
+<button class="quiz-next-btn" id="nextBtn" type="button">Next Question ➔</button>
+</section>
+<p class="quiz-note"><strong>Study note:</strong> Quiz items are for educational revision. Classical statements, taxonomy and clinical information should be cross-checked against authoritative references.</p>
+<a class="back-link" href="plants.html">← Return to Plant Library</a>
+</main>
+<script>
+const quizData=[
+{question:"Which plant is classically described as predominantly Amla Rasa with Sheeta Veerya and is commonly taught as Tridoshahara?",options:["Guduchi","Amalaki","Haritaki","Vibhitaki"],answer:1,explanation:"Amalaki is taught with predominant Amla Rasa, Sheeta Veerya and Tridosha-balancing action in standard Dravyaguna teaching."},
+{question:"What is the botanical family of Brahmi (Bacopa monnieri)?",options:["Fabaceae","Solanaceae","Plantaginaceae","Lamiaceae"],answer:2,explanation:"Bacopa monnieri is currently placed in the family Plantaginaceae."},
+{question:"Which Karma is strongly associated with Brahmi (Bacopa monnieri) in Ayurvedic teaching?",options:["Deepana","Medhya","Vamana","Anulomana"],answer:1,explanation:"Brahmi is classically recognized for Medhya activity and is widely taught among Medhya Rasayana dravyas."},
+{question:"Tinospora cordifolia is the botanical name associated with which Dravya?",options:["Guduchi","Nimba","Vasa","Punarnava"],answer:0,explanation:"Guduchi is identified botanically as Tinospora cordifolia."},
+{question:"Which one is the Ayurvedic drug name for Phyllanthus emblica?",options:["Haritaki","Amalaki","Bibhitaki","Jambu"],answer:1,explanation:"Amalaki corresponds to Phyllanthus emblica in the Dravyaguna plant reference."}
+];
+let currentQ=0,score=0,answered=false;
+const $=id=>document.getElementById(id);
+function loadQuestion(){answered=false;const q=quizData[currentQ];$('quizQuestion').textContent=`Q${currentQ+1}. ${q.question}`;$('quizOptions').innerHTML='';$('quizExplanation').hidden=true;$('nextBtn').style.display='none';$('quizScore').textContent=`Score: ${score} / ${currentQ}`;$('progressBar').style.width=`${(currentQ/quizData.length)*100}%`;
+q.options.forEach((opt,idx)=>{const btn=document.createElement('button');btn.type='button';btn.className='quiz-option';btn.textContent=opt;btn.addEventListener('click',()=>selectOption(btn,idx,q.answer));$('quizOptions').appendChild(btn)})}
+function selectOption(btn,selectedIdx,correctIdx){if(answered)return;answered=true;const all=[...document.querySelectorAll('.quiz-option')];all.forEach(x=>x.disabled=true);if(selectedIdx===correctIdx){btn.classList.add('correct');score++}else{btn.classList.add('incorrect');all[correctIdx].classList.add('correct')}const q=quizData[currentQ];$('quizScore').textContent=`Score: ${score} / ${currentQ+1}`;$('quizExplanation').textContent=q.explanation;$('quizExplanation').hidden=false;$('nextBtn').style.display='block';$('progressBar').style.width=`${((currentQ+1)/quizData.length)*100}%`}
+function showResult(){const pct=Math.round(score/quizData.length*100);$('quizContainer').innerHTML=`<div class="quiz-result"><div style="font-size:2.5rem">🎉</div><h2>Quiz Completed!</h2><p>Your Final Score</p><div class="final-score">${score} / ${quizData.length}</div><p>${pct}% correct</p><button class="quiz-restart-btn" type="button" id="restartBtn">↻ Try Again</button></div>`;$('restartBtn').addEventListener('click',()=>location.reload())}
+$('nextBtn').addEventListener('click',()=>{currentQ++;if(currentQ<quizData.length)loadQuestion();else showResult()});loadQuestion();
+</script>
+</body>
+</html>
