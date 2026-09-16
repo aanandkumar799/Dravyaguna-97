@@ -191,7 +191,7 @@
 
     .plant-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
       gap: 1.5rem;
     }
     .plant-card {
@@ -215,14 +215,34 @@
     .plant-title { font-size: 1.25rem; color: var(--primary); font-family: 'Cinzel', serif; margin-bottom: 0.2rem; }
     .botanical-name { font-style: italic; color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.8rem; }
     
-    .badge-container { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1rem; }
+    .badge-container { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.8rem; }
     .badge {
       background: rgba(45, 106, 79, 0.1);
       color: var(--primary);
-      padding: 0.2rem 0.5rem;
+      padding: 0.25rem 0.55rem;
       border-radius: 4px;
       font-size: 0.78rem;
       font-weight: 600;
+    }
+
+    .shloka-box {
+      background: rgba(212, 163, 115, 0.12);
+      border-left: 3px solid var(--accent);
+      padding: 0.7rem;
+      border-radius: 4px;
+      margin-bottom: 0.8rem;
+      font-family: 'Georgia', serif;
+      font-size: 0.88rem;
+      color: var(--text);
+      line-height: 1.5;
+    }
+    .shloka-ref {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-align: right;
+      display: block;
+      margin-top: 0.3rem;
+      font-style: italic;
     }
 
     .plant-details {
@@ -355,7 +375,7 @@
     <section class="hero">
       <p>BAMS Ayurvedic Medicinal Plant Reference</p>
       <h1>DravyaGuna 97</h1>
-      <p>Learn • Identify • Revise • Cross-Check</p>
+      <p>Learn • Identify • Revise • Cross-Check Classical References</p>
     </section>
 
     <!-- PERSONA CARDS -->
@@ -363,12 +383,12 @@
       <div class="persona-card active" id="persona-student" onclick="setPersona('student')">
         <div class="persona-icon">🎓</div>
         <h3>Student</h3>
-        <p>Syllabus notes, viva prep, and quick mnemonic cards.</p>
+        <p>Syllabus notes, classical shlokas, viva prep, and mnemonics.</p>
       </div>
       <div class="persona-card" id="persona-teacher" onclick="setPersona('teacher')">
         <div class="persona-icon">👨‍🏫</div>
         <h3>Teacher</h3>
-        <p>Classroom resources, Rasa Panchaka comparison, and references.</p>
+        <p>Classroom resources, Bhavaprakasha Nighantu references, and side-by-side matrices.</p>
       </div>
       <div class="persona-card" id="persona-doctor" onclick="setPersona('doctor')">
         <div class="persona-icon">🩺</div>
@@ -380,7 +400,7 @@
     <!-- TAB 1: PLANT LIBRARY & MULTI-FILTERING -->
     <section id="plants-tab" class="tab-content active">
       <div class="filter-container">
-        <input type="text" id="searchInput" class="search-input" placeholder="Search by Plant Name, Sanskrit Name, or Botanical Name..." oninput="filterPlants()" />
+        <input type="text" id="searchInput" class="search-input" placeholder="Search by Plant Name, Sanskrit Name, Shloka text, or Botanical Name..." oninput="filterPlants()" />
         <div class="filters-grid">
           <div class="filter-group">
             <label>Rasa (Taste)</label>
@@ -431,7 +451,7 @@
 
     <!-- TAB 2: STUDENT VIVA & REVISION MODULE -->
     <section id="student-tab" class="tab-content">
-      <h2 style="margin-bottom: 1rem; color: var(--primary); font-family: 'Cinzel', serif;">🎓 Student Exam & Viva Quick-Cards</h2>
+      <h2 style="margin-bottom: 1rem; color: var(--primary); font-family: 'Cinzel', serif;">🎓 Student Exam & Viva Quick-Cards (With Shlokas)</h2>
       <div id="vivaList">
         <!-- Rendered by JavaScript -->
       </div>
@@ -491,7 +511,7 @@
   <!-- JAVASCRIPT LOGIC -->
   <script>
     /* ==========================================================================
-       DATABASES & FULL DRAVYAGUNA DATA
+       DATABASES & FULL DRAVYAGUNA DATA WITH CLASSICAL SHLOKAS & VARGA
        ========================================================================== */
     const plantsData = [
       {
@@ -499,12 +519,15 @@
         name: "Haritaki (अभया)",
         botanical: "Terminalia chebula Retz.",
         family: "Combretaceae",
+        varga: "Haritakyadi Varga (भावप्रकाश)",
+        shloka: "हरीतकी पञ्चरसा लवणोत्पादिता भृशम्। उष्णा स्वादुविपाका च स्निग्धा मेध्या रसायनी॥",
+        shlokaRef: "— भावप्रकाश निघण्टु, हरीतक्यादिवर्ग",
         rasa: "Kashaya, Tikta, Madhura, Katu, Amla (Lacks Lavana)",
         guna: "Laghu, Ruksha",
         veerya: "Ushna",
         vipaka: "Madhura",
         prabhava: "Tridoshahara, Anulomana",
-        usefulPart: "Fruit",
+        usefulPart: "Fruit Pericarp",
         syllabus: "1st Year",
         constituents: "Chebulagic acid, Gallic acid, Tannins",
         vivaPoints: "Known as 'Pathya' (suitable for all). Has 5 Rasas (all except Lavana). Pericarp of fruit has purgative action.",
@@ -516,6 +539,9 @@
         name: "Guduchi / Amrutha (गुडूची)",
         botanical: "Tinospora cordifolia (Willd.) Hook.f.",
         family: "Menispermaceae",
+        varga: "Guduchyadi Varga (भावप्रकाश)",
+        shloka: "गुडूची कटुका तिक्ता स्वादुपाका रसायनी। सङ्ग्राहिणी कषायोष्णा दीपनी बलवर्धिनी॥",
+        shlokaRef: "— भावप्रकाश निघण्टु, गुडूच्यादिवर्ग",
         rasa: "Tikta, Kashaya",
         guna: "Guru, Snigdha",
         veerya: "Ushna",
@@ -533,6 +559,9 @@
         name: "Ashwagandha (अश्वगन्धा)",
         botanical: "Withania somnifera (L.) Dunal",
         family: "Solanaceae",
+        varga: "Guduchyadi Varga (भावप्रकाश)",
+        shloka: "अश्वगन्धा कषायोष्णा तिक्ता शुक्रबलप्रदा। वातश्लेष्महारी श्वित्रशोथक्षयविनाशिनी॥",
+        shlokaRef: "— भावप्रकाश निघण्टु, गुडूच्यादिवर्ग",
         rasa: "Tikta, Kashaya, Madhura",
         guna: "Laghu, Snigdha",
         veerya: "Ushna",
@@ -550,6 +579,9 @@
         name: "Amalaki (आमलकी)",
         botanical: "Phyllanthus emblica L.",
         family: "Euphorbiaceae",
+        varga: "Haritakyadi Varga (भावप्रकाश)",
+        shloka: "धात्री फलं स्वादु त्रिदोषघ्नं वृष्यं च रसाएनम्। हन्त्यम्लेन वातं पित्तं स्वादुशीतेन कफेन च॥",
+        shlokaRef: "— भावप्रकाश निघण्टु, हरीतक्यादिवर्ग",
         rasa: "Amla, Kashaya, Madhura, Tikta, Katu (Lacks Lavana)",
         guna: "Guru, Ruksha, Sheeta",
         veerya: "Sheeta",
@@ -567,6 +599,9 @@
         name: "Shatavari (शतावरी)",
         botanical: "Asparagus racemosus Willd.",
         family: "Liliaceae / Asparagaceae",
+        varga: "Guduchyadi Varga (भावप्रकाश)",
+        shloka: "शतावरी गुरुः शीता तिक्ता स्वादुरसा रसे। महती दीपनी वृष्या मेध्या पित्तास्त्रजित्परा॥",
+        shlokaRef: "— भावप्रकाश निघण्टु, गुडूच्यादिवर्ग",
         rasa: "Madhura, Tikta",
         guna: "Guru, Snigdha",
         veerya: "Sheeta",
@@ -584,6 +619,9 @@
         name: "Pippali (पिप्पली)",
         botanical: "Piper longum L.",
         family: "Piperaceae",
+        varga: "Haritakyadi Varga (भावप्रकाश)",
+        shloka: "पिप्पली स्वादुपाका च कटुका स्वादुशीतला। दीपना कटुका वृष्या स्वादुपाका रसायनी॥",
+        shlokaRef: "— भावप्रकाश निघण्टु, हरीतक्यादिवर्ग",
         rasa: "Katu",
         guna: "Laghu, Snigdha, Tikshna",
         veerya: "Anushnasheeta (Slightly Warm)",
@@ -601,6 +639,9 @@
         name: "Shunthi / Ardraka (शुण्ठी)",
         botanical: "Zingiber officinale Roscoe",
         family: "Zingiberaceae",
+        varga: "Haritakyadi Varga (भावप्रकाश)",
+        shloka: "शुण्ठी रुच्या कटुः पाके स्वादुरुष्णा विबन्धनुत्। वृष्या लघ्वग्निदीप्ता च वृष्यकफवातहृत्॥",
+        shlokaRef: "— भावप्रकाश निघण्टु, हरीतक्यादिवर्ग",
         rasa: "Katu",
         guna: "Laghu, Snigdha",
         veerya: "Ushna",
@@ -618,6 +659,9 @@
         name: "Maricha (मरीच)",
         botanical: "Piper nigrum L.",
         family: "Piperaceae",
+        varga: "Haritakyadi Varga (भावप्रकाश)",
+        shloka: "मरीचं कटुकं तीक्ष्णमुष्णं कफवातजित्। दीपनं रोचनं छेदि श्वासकासकृमीञ्जयेत्॥",
+        shlokaRef: "— भावप्रकाश निघण्टु, हरीतक्यादिवर्ग",
         rasa: "Katu",
         guna: "Laghu, Tikshna, Ruksha",
         veerya: "Ushna",
@@ -635,6 +679,9 @@
         name: "Bhallataka (भल्लातक)",
         botanical: "Semecarpus anacardium L.f.",
         family: "Anacardiaceae",
+        varga: "Haritakyadi Varga (भावप्रकाश)",
+        shloka: "भल्लातकः कषायोष्णो मधुरः पाकतस्तथा। कफवातहरो छेदी कुष्ठार्शोव्रणनाशनः॥",
+        shlokaRef: "— भावप्रकाश निघण्टु, हरीतक्यादिवर्ग",
         rasa: "Katu, Tikta, Kashaya",
         guna: "Laghu, Tikshna, Snigdha",
         veerya: "Ushna",
@@ -652,6 +699,9 @@
         name: "Nimba (निम्ब)",
         botanical: "Azadirachta indica A. Juss.",
         family: "Meliaceae",
+        varga: "Guduchyadi Varga (भावप्रकाश)",
+        shloka: "निम्बो तिक्तो लघुरः शीतो पित्तकफव्रणनुत्। हृल्लासकुष्ठमेघ्नः कृमिहृद्विषनाशनः॥",
+        shlokaRef: "— भावप्रकाश निघण्टु, गुडूच्यादिवर्ग",
         rasa: "Tikta, Kashaya",
         guna: "Laghu, Ruksha",
         veerya: "Sheeta",
@@ -669,6 +719,9 @@
         name: "Tulasi (तुलसी)",
         botanical: "Ocimum sanctum L. / Ocimum tenuiflorum",
         family: "Lamiaceae",
+        varga: "Pushpa Varga / Guduchyadi Varga",
+        shloka: "तुलसी कटुका तिक्ता ह्यृद्या उष्णा दाहपित्तकृत्। दीपिनी हृदयोल्लास-कासश्वासविनाशिनी॥",
+        shlokaRef: "— भावप्रकाश निघण्टु",
         rasa: "Katu, Tikta",
         guna: "Laghu, Ruksha",
         veerya: "Ushna",
@@ -686,6 +739,9 @@
         name: "Brahmi (ब्राह्मी)",
         botanical: "Bacopa monnieri (L.) Wettst.",
         family: "Scrophulariaceae / Plantaginaceae",
+        varga: "Guduchyadi Varga (भावप्रकाश)",
+        shloka: "ब्राह्मी हिमा सरा तिक्ता स्वादुपाका रसायनी। मतिप्रज्ञाकरी आयुष्या स्वर्या मोहविनाशिनी॥",
+        shlokaRef: "— भावप्रकाश निघण्टु, गुडूच्यादिवर्ग",
         rasa: "Tikta, Kashaya, Madhura",
         guna: "Laghu, Snigdha",
         veerya: "Sheeta",
@@ -712,7 +768,7 @@
         answer: 2
       },
       {
-        q: "Which herb is classified as the premier Medhya Rasayana with Sheeta Veerya?",
+        q: "Which herb is described in Bhavaprakasha as 'महिप्रज्ञाकरी आयुष्या' (Medhya Rasayana)?",
         options: ["Brahmi", "Tulsi", "Maricha", "Bhallataka"],
         answer: 0
       },
@@ -795,13 +851,19 @@
               <span class="badge">Part: ${item.usefulPart}</span>
               <span class="badge">${item.syllabus}</span>
             </div>
+            <div class="shloka-box">
+              "${item.shloka}"
+              <span class="shloka-ref">${item.shlokaRef}</span>
+            </div>
             <div class="plant-details">
+              <p><strong>Varga:</strong> ${item.varga}</p>
               <p><strong>Rasa:</strong> ${item.rasa}</p>
               <p><strong>Guna:</strong> ${item.guna}</p>
               <p><strong>Karma:</strong> ${item.prabhava}</p>
             </div>
             <div class="card-actions">
               <button class="btn btn-primary" onclick="switchTab('compare')">Compare</button>
+              <button class="btn btn-outline" onclick="window.print()">🖨️ Print</button>
             </div>
           </div>
         `;
@@ -818,7 +880,9 @@
       const year = document.getElementById("filterYear").value;
 
       const filtered = plantsData.filter(plant => {
-        const matchesSearch = plant.name.toLowerCase().includes(search) || plant.botanical.toLowerCase().includes(search);
+        const matchesSearch = plant.name.toLowerCase().includes(search) || 
+                              plant.botanical.toLowerCase().includes(search) ||
+                              plant.shloka.includes(search);
         const matchesRasa = !rasa || plant.rasa.includes(rasa);
         const matchesVeerya = !veerya || plant.veerya.includes(veerya);
         const matchesPart = !part || plant.usefulPart.includes(part);
@@ -838,8 +902,13 @@
         card.className = "viva-card";
         card.innerHTML = `
           <h4>${p.name} (<em>${p.botanical}</em>)</h4>
-          <p><strong>Family:</strong> ${p.family} | <strong>Active Constituents:</strong> ${p.constituents}</p>
+          <p><strong>Family:</strong> ${p.family} | <strong>Varga:</strong> ${p.varga}</p>
+          <div class="shloka-box" style="margin-top:0.5rem;">
+            "${p.shloka}"
+            <span class="shloka-ref">${p.shlokaRef}</span>
+          </div>
           <p><strong>Rasa Panchaka:</strong> Rasa: ${p.rasa} | Guna: ${p.guna} | Veerya: ${p.veerya} | Vipaka: ${p.vipaka}</p>
+          <p style="margin-top:0.4rem;"><strong>Active Constituents:</strong> ${p.constituents}</p>
           <p style="margin-top:0.4rem;"><strong>Viva Hot-Points:</strong> ${p.vivaPoints}</p>
           <div class="mnemonic-box">💡 Mnemonic: ${p.mnemonic}</div>
         `;
@@ -875,6 +944,8 @@
       const attributes = [
         { label: "Botanical Name", key: "botanical" },
         { label: "Family", key: "family" },
+        { label: "Classical Varga", key: "varga" },
+        { label: "Classical Shloka", key: "shloka" },
         { label: "Rasa", key: "rasa" },
         { label: "Guna", key: "guna" },
         { label: "Veerya", key: "veerya" },
