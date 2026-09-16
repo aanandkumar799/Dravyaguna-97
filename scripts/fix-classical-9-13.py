@@ -22,8 +22,9 @@ FIXES = {
         'status': 'reference_identified_numbering_needs_edition_verification',
     },
     'eranda': {
-        'reference': 'Bhavaprakasha Nighantu, Guduchyadi Varga. Exact verse numbering and quotation require edition-level verification; the previously supplied 60–61 citation is not retained as verified.',
-        'status': 'needs_verification',
+        'shloka': 'एरण्डयुग्मं मधुरमुष्णं गुरु विनाशयेत् ।\nशूलशोथकटीबस्तिशिरःपीडोदरज्वरान् ॥५४॥\nब्रध्नश्वासकफानाहकासकुष्ठाममारुतान् ।\nएरण्डपत्रं वातघ्नं कफक्रिमिविनाशनम् ॥५५॥\nमूत्रकृच्छ्रहरं चापि पित्तरक्तप्रकोपणम् ।\nवातार्यग्रदलं गुल्मं बस्तिशूलहरं परम् ॥५६॥',
+        'reference': 'Bhavaprakasha Nighantu, Guduchyadi Varga, Eranda passage, verses 52–57; verses 54–56 give the paired Eranda properties, leaf actions and therapeutic effects. Independently searchable e-Nighantu/DAV recension; edition numbering may vary.',
+        'status': 'verified_reference_text_corrected',
     },
     'punarnava': {
         'reference': 'Bhavaprakasha Nighantu, Guduchyadi Varga. Exact verse numbering and quotation require edition-level verification; the previously supplied 231–232 citation is not retained as verified.',
