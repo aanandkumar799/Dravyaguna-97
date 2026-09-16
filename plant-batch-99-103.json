@@ -1,0 +1,199 @@
+[
+  {
+    "id": 99,
+    "order": 0,
+    "category": "Supplementary",
+    "batch_id": "99-103",
+    "identity": {
+      "name": "Gunja",
+      "sanskrit_name": "गुञ्जा",
+      "botanical_name": "Abrus precatorius L.",
+      "family": "Fabaceae",
+      "english_name": "Jequirity / Crab's Eye",
+      "useful_part": "Purified seeds; root"
+    },
+    "dravya_guna": {
+      "rasa": ["Tikta", "Kashaya"],
+      "guna": ["Laghu", "Ruksha", "Tikshna"],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": "Keshya / Kandughna",
+      "dosha_karma": "Kapha-Vatashamaka (Pitta-vardhaka)"
+    },
+    "therapeutics": {
+      "karma": ["Keshya", "Kandughna", "Kushtaghna", "Vrana-shodhaka"],
+      "indications": ["Indralupta", "Khalitya", "Kushta", "Kandu", "Vrana"],
+      "formulations": ["Gunjadya Taila", "Gunja Bhadra Rasa", "Jatyadi Taila"]
+    },
+    "identification": "Glossy scarlet-red ovoid seed with a distinct black zone around the hilum; highly toxic raw seed.",
+    "classical_reference": {
+      "text": "Bhavaprakasha Nighantu",
+      "section": "Guduchyadi Varga",
+      "shloka": "गुञ्जा द्वया तु तुवरा तिक्ता वातकफापहा।\nचक्षुष्या तुवरा केष्या विषव्रणविनाशिनी॥",
+      "reference": "Exact verse numbering requires edition-specific verification.",
+      "verification_status": "Edition-specific verification required"
+    },
+    "metadata": {
+      "safety": "Toxic raw seeds contain abrin. This educational record does not provide dosing or self-use instructions.",
+      "source_status": "Normalized from supplied batch; classical quotation not independently confirmed by edition."
+    }
+  },
+  {
+    "id": 100,
+    "order": 0,
+    "category": "Supplementary",
+    "batch_id": "99-103",
+    "identity": {
+      "name": "Bhanga",
+      "sanskrit_name": "भङ्गा",
+      "botanical_name": "Cannabis sativa L.",
+      "family": "Cannabaceae",
+      "english_name": "Indian Hemp / Cannabis",
+      "useful_part": "Leaves; resinous exudate"
+    },
+    "dravya_guna": {
+      "rasa": ["Tikta"],
+      "guna": ["Laghu", "Tikshna", "Vyavayi", "Vikasi"],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": "Madakari / Pachana",
+      "dosha_karma": "Kapha-Vatashamaka"
+    },
+    "therapeutics": {
+      "karma": ["Deepana", "Pachana", "Grahi", "Nidrajanana", "Vedanasthapana"],
+      "indications": ["Anidra", "Atisara", "Grahani", "Udara Shoola", "Agnimandya"],
+      "formulations": ["Jatiphaladi Churna", "Trailokya Vijaya Vati", "Anandabhairava Rasa", "Madanananda Modaka"]
+    },
+    "identification": "Palmately divided serrate leaflets and resinous flowering tops with characteristic aroma.",
+    "classical_reference": {
+      "text": "Bhavaprakasha Nighantu",
+      "section": "Guduchyadi Varga",
+      "shloka": "भङ्गा कफहरी तिक्ता ग्राहिणी पाचनी लघुः।\nतीक्ष्णोष्णा पित्तला मोहमदवाग्वह्निवर्धिनी॥",
+      "reference": "Exact verse numbering requires edition-specific verification.",
+      "verification_status": "Edition-specific verification required"
+    },
+    "metadata": {
+      "safety": "Cannabis is psychoactive and legally regulated in many contexts. No dosing or procurement guidance is provided.",
+      "source_status": "Normalized from supplied batch; classical quotation not independently confirmed by edition."
+    }
+  },
+  {
+    "id": 101,
+    "order": 41,
+    "category": "NCISM-97",
+    "batch_id": "99-103",
+    "identity": {
+      "name": "Ahiphena",
+      "sanskrit_name": "अहिफेन",
+      "botanical_name": "Papaver somniferum L.",
+      "family": "Papaveraceae",
+      "english_name": "Opium Poppy",
+      "useful_part": "Exudate of unripe capsule"
+    },
+    "dravya_guna": {
+      "rasa": ["Tikta", "Kashaya"],
+      "guna": ["Laghu", "Ruksha", "Sukshma", "Vyavayi", "Vikasi"],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": "Nidrajanana / Stambhana / Vedanasthapana",
+      "dosha_karma": "Kapha-Vatashamaka (Pitta-vardhaka)"
+    },
+    "therapeutics": {
+      "karma": ["Stambhana", "Grahi", "Nidrajanana", "Vedanasthapana"],
+      "indications": ["Atisara", "Grahani", "Anidra", "Teevra Shoola", "Kasa / Shwasa"],
+      "formulations": ["Ahiphenasava", "Nidrodaya Rasa", "Karpura Rasa", "Dugdhavati"]
+    },
+    "identification": "Dark brown narcotic latex obtained from the unripe capsule of Papaver somniferum.",
+    "classical_reference": {
+      "text": "Bhavaprakasha Nighantu",
+      "section": "Haritakyadi Varga",
+      "shloka": "अहिफेनं शोषि ग्राहि श्लेष्मघ्नं वातपित्तलम्।\nअतीसारहरं तिक्तं तथा मदकराग्रणि॥",
+      "reference": "Exact verse numbering requires edition-specific verification.",
+      "verification_status": "Edition-specific verification required"
+    },
+    "metadata": {
+      "ncism_position": 41,
+      "safety": "Controlled opioid-containing drug; educational record only. No dosing, extraction, or self-use instructions.",
+      "source_status": "Normalized from supplied batch; NCISM inclusion independently confirmed."
+    }
+  },
+  {
+    "id": 102,
+    "order": 0,
+    "category": "Supplementary",
+    "batch_id": "99-103",
+    "identity": {
+      "name": "Dhattura",
+      "sanskrit_name": "धत्तूर",
+      "botanical_name": "Datura metel L.",
+      "family": "Solanaceae",
+      "english_name": "Thorn Apple / Datura",
+      "useful_part": "Purified seeds; leaves; root"
+    },
+    "dravya_guna": {
+      "rasa": ["Tikta", "Katu"],
+      "guna": ["Laghu", "Ruksha", "Tikshna", "Vikasi"],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": "Unmadakara / Shwasahara / Kandughna",
+      "dosha_karma": "Kapha-Vatashamaka"
+    },
+    "therapeutics": {
+      "karma": ["Shwasahara", "Kasahara", "Vedanasthapana", "Kandughna"],
+      "indications": ["Shwasa", "Kasa", "Vedana", "Kandu", "Yuka"],
+      "formulations": ["Kanakasava", "Dhattura Taila", "Tribhuvanakirti Rasa", "Ekangaveera Rasa"]
+    },
+    "identification": "Large funnel-shaped flowers and a spiny capsule; seeds are flattened and yellowish-brown.",
+    "classical_reference": {
+      "text": "Bhavaprakasha Nighantu",
+      "section": "Guduchyadi Varga",
+      "shloka": "धत्तूरो मदवर्णाग्निवातकृत् ज्वरकुष्ठनुत्।\nकषायो मधुरास्तिक्तो यूकाजूकाविनाशनः॥",
+      "reference": "Exact verse numbering requires edition-specific verification.",
+      "verification_status": "Edition-specific verification required"
+    },
+    "metadata": {
+      "safety": "Datura contains potent anticholinergic tropane alkaloids and can cause severe poisoning. No dosing or self-use guidance.",
+      "source_status": "Normalized from supplied batch; classical quotation not independently confirmed by edition."
+    }
+  },
+  {
+    "id": 103,
+    "order": 94,
+    "category": "NCISM-97",
+    "batch_id": "99-103",
+    "identity": {
+      "name": "Vatsanabha",
+      "sanskrit_name": "वत्सनाभ",
+      "botanical_name": "Aconitum ferox Wall. ex Ser.",
+      "family": "Ranunculaceae",
+      "english_name": "Indian Aconite / Monkshood",
+      "useful_part": "Purified tuberous root"
+    },
+    "dravya_guna": {
+      "rasa": ["Katu", "Tikta"],
+      "guna": ["Laghu", "Ruksha", "Tikshna", "Sukshma", "Vyavayi", "Vikasi"],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": "Yogavahi / Vishama-jwarahara",
+      "dosha_karma": "Tridoshara; especially Kapha-Vatashamaka"
+    },
+    "therapeutics": {
+      "karma": ["Yogavahi", "Jwarahara", "Swedana", "Vedanasthapana", "Deepana", "Pachana"],
+      "indications": ["Sannipata Jwara", "Vishama Jwara", "Amavata", "Teevra Shoola", "Kasa / Shwasa"],
+      "formulations": ["Anandabhairava Rasa", "Tribhuvanakirti Rasa", "Sanjivani Vati", "Mrityunjaya Rasa", "Mahavishagarbha Taila"]
+    },
+    "identification": "Conical tuberous root of Aconitum ferox; raw material is highly toxic.",
+    "classical_reference": {
+      "text": "Bhavaprakasha Nighantu / Rasatarangini",
+      "section": "Dhatvadi Varga / Upavisha material",
+      "shloka": "वत्सनाभो अतिविषमः कफवातहरो मतः।\nयोगवाही त्रिदोषघ्नः श्वासकासक्षयापहः॥",
+      "reference": "Exact verse numbering requires edition-specific verification.",
+      "verification_status": "Edition-specific verification required"
+    },
+    "metadata": {
+      "ncism_position": 94,
+      "safety": "Highly toxic aconite drug; only properly processed material is discussed in classical practice. No purification procedure or dosing instructions are provided.",
+      "source_status": "Normalized from supplied batch; NCISM inclusion independently confirmed."
+    }
+  }
+]
