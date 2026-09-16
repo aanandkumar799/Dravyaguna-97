@@ -95,7 +95,7 @@ jobs:
           python check-inline-js.py
 
       - name: Validate HTML CSS Links Images
-          uses: anishathalye/proof-html@v2
+        uses: anishathalye/proof-html@v2
         with:
           directory: .
           enforce_https: false
