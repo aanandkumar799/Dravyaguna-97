@@ -1,477 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DravyaGuna 97 | NCISM BAMS Plant Reference & Learning Portal</title>
-  <link rel="icon" href="images/favicon.png" type="image/png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
-  
-  <style>
-    :root {
-      --primary: #1b4332;
-      --primary-light: #2d6a4f;
-      --accent: #d4a373;
-      --bg: #f8f9fa;
-      --surface: #ffffff;
-      --text: #212529;
-      --text-muted: #6c757d;
-      --border: #e9ecef;
-      --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
-      --radius: 12px;
-      --transition: all 0.25s ease-in-out;
-    }
-
-    [data-theme="dark"] {
-      --primary: #52b788;
-      --primary-light: #74c69d;
-      --accent: #e9c46a;
-      --bg: #121417;
-      --surface: #1e2229;
-      --text: #f8f9fa;
-      --text-muted: #adb5bd;
-      --border: #2d323e;
-      --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-    }
-
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: 'Outfit', sans-serif;
-      background-color: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-    }
-
-    header {
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      background: var(--surface);
-      border-bottom: 1px solid var(--border);
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      box-shadow: var(--card-shadow);
-    }
-
-    .logo {
-      font-family: 'Cinzel', serif;
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: var(--primary);
-    }
-
-    nav { display: flex; gap: 1rem; align-items: center; }
-    nav a {
-      text-decoration: none;
-      color: var(--text);
-      font-weight: 500;
-      padding: 0.5rem 0.8rem;
-      border-radius: 6px;
-      transition: var(--transition);
-    }
-    nav a:hover, nav a.active {
-      background-color: var(--primary-light);
-      color: #fff;
-    }
-
-    .theme-toggle {
-      background: none;
-      border: none;
-      font-size: 1.2rem;
-      cursor: pointer;
-      color: var(--text);
-    }
-
-    main { max-width: 1280px; margin: 2rem auto; padding: 0 1.5rem; }
-
-    .hero {
-      text-align: center;
-      padding: 2rem 1rem;
-      background: linear-gradient(135deg, rgba(27, 67, 50, 0.08), rgba(212, 163, 115, 0.15));
-      border-radius: var(--radius);
-      margin-bottom: 2rem;
-    }
-    .hero h1 { font-family: 'Cinzel', serif; font-size: 2.2rem; color: var(--primary); }
-
-    .filter-container {
-      background: var(--surface);
-      padding: 1.2rem;
-      border-radius: var(--radius);
-      box-shadow: var(--card-shadow);
-      margin-bottom: 2rem;
-      border: 1px solid var(--border);
-    }
-    .search-input {
-      width: 100%;
-      padding: 0.8rem 1rem;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      background: var(--bg);
-      color: var(--text);
-      margin-bottom: 1rem;
-      outline: none;
-    }
-
-    .filters-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-      gap: 0.8rem;
-    }
-    .filter-select {
-      width: 100%;
-      padding: 0.55rem;
-      border-radius: 6px;
-      border: 1px solid var(--border);
-      background: var(--bg);
-      color: var(--text);
-    }
-
-    .plant-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 1.2rem;
-    }
-    .plant-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1.2rem;
-      box-shadow: var(--card-shadow);
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-    .ncism-no {
-      font-weight: 700;
-      font-size: 0.8rem;
-      color: var(--accent);
-      text-transform: uppercase;
-    }
-    .plant-title { font-size: 1.2rem; color: var(--primary); font-family: 'Cinzel', serif; }
-    .botanical-name { font-style: italic; color: var(--text-muted); font-size: 0.88rem; margin-bottom: 0.8rem; }
-    
-    .badge-container { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.8rem; }
-    .badge {
-      background: rgba(45, 106, 79, 0.1);
-      color: var(--primary);
-      padding: 0.2rem 0.5rem;
-      border-radius: 4px;
-      font-size: 0.75rem;
-      font-weight: 600;
-    }
-
-    .card-actions { display: flex; gap: 0.5rem; margin-top: 1rem; }
-    .btn {
-      flex: 1;
-      padding: 0.55rem;
-      border: none;
-      border-radius: 6px;
-      font-weight: 600;
-      font-size: 0.85rem;
-      cursor: pointer;
-      text-align: center;
-    }
-    .btn-primary { background: var(--primary); color: #fff; }
-    .btn-outline { background: transparent; border: 1px solid var(--primary); color: var(--primary); }
-
-    /* MODAL STYLES FOR DETAILED VIEW */
-    .modal-overlay {
-      display: none;
-      position: fixed;
-      top: 0; left: 0; width: 100%; height: 100%;
-      background: rgba(0, 0, 0, 0.6);
-      z-index: 2000;
-      justify-content: center;
-      align-items: center;
-      padding: 1rem;
-    }
-    .modal-overlay.active { display: flex; }
-    .modal-content {
-      background: var(--surface);
-      width: 100%;
-      max-width: 900px;
-      max-height: 90vh;
-      overflow-y: auto;
-      border-radius: var(--radius);
-      padding: 2rem;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-      position: relative;
-    }
-    .close-modal {
-      position: absolute;
-      top: 1rem;
-      right: 1.5rem;
-      font-size: 1.8rem;
-      cursor: pointer;
-      color: var(--text-muted);
-    }
-    .dossier-section {
-      margin-bottom: 1.5rem;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 1rem;
-    }
-    .dossier-section h3 {
-      color: var(--primary);
-      font-family: 'Cinzel', serif;
-      margin-bottom: 0.5rem;
-      font-size: 1.1rem;
-    }
-    .shloka-box {
-      background: rgba(212, 163, 115, 0.15);
-      border-left: 4px solid var(--accent);
-      padding: 0.8rem;
-      border-radius: 4px;
-      font-family: 'Georgia', serif;
-      margin: 0.5rem 0;
-    }
-
-    /* PRINT STYLES: ONLY PRINT THE SELECTED PLANT DOSSIER */
-    @media print {
-      body * { visibility: hidden; }
-      #modalOverlay, #modalOverlay * { visibility: visible; }
-      #modalOverlay {
-        position: absolute;
-        left: 0; top: 0; width: 100%; height: auto;
-        background: none;
-      }
-      .modal-content {
-        box-shadow: none;
-        max-height: none;
-        padding: 0;
-        width: 100%;
-      }
-      .close-modal, .no-print { display: none !important; }
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DravyaGuna 97 — NCISM BAMS Ayurvedic medicinal plant reference for students, teachers and Ayurvedic professionals.">
+  <title>DravyaGuna 97 | NCISM BAMS Plant Reference</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <header>
-    <div class="logo">🌿 DravyaGuna 97</div>
-    <nav>
-      <a href="#plants" class="active">Plant Directory (97)</a>
-    </nav>
-    <button class="theme-toggle" id="themeToggle">🌙</button>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand">🌿 <span>DravyaGuna 97</span></a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="#plants">Plants</a>
+        <a href="#student">Student</a>
+        <a href="#teacher">Teacher</a>
+        <a href="#doctor">Doctor</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section class="hero">
-      <h1>NCISM Official 97 Dravya Database</h1>
-      <p>Search across all 97 medicinal plants or open individual dossiers for printing.</p>
+    <section class="hero-section">
+      <div class="hero-content">
+        <p class="eyebrow">NCISM • SECOND PROFESSIONAL BAMS • DRAVYAGUNA VIGYAN</p>
+        <h1>DravyaGuna 97</h1>
+        <p>Learn • Identify • Revise • Cross-check</p>
+        <p class="hero-description">A structured reference for the 97 medicinal plants in the NCISM Dravyaguna syllabus.</p>
+      </div>
     </section>
 
-    <!-- SEARCH & FILTERS -->
-    <div class="filter-container">
-      <input type="text" id="searchInput" class="search-input" placeholder="Search by NCISM No, Sanskrit Name, Botanical Name, or Family..." oninput="filterPlants()" />
-      <div class="filters-grid">
-        <div class="filter-group">
-          <select id="filterRasa" class="filter-select" onchange="filterPlants()">
-            <option value="">All Rasas</option>
-            <option value="Madhura">Madhura</option>
-            <option value="Amla">Amla</option>
-            <option value="Katu">Katu</option>
-            <option value="Tikta">Tikta</option>
-            <option value="Kashaya">Kashaya</option>
-          </select>
-        </div>
-        <div class="filter-group">
-          <select id="filterVeerya" class="filter-select" onchange="filterPlants()">
-            <option value="">All Veerya</option>
-            <option value="Ushna">Ushna</option>
-            <option value="Sheeta">Sheeta</option>
-          </select>
-        </div>
-        <div class="filter-group">
-          <select id="filterPart" class="filter-select" onchange="filterPlants()">
-            <option value="">All Useful Parts</option>
-            <option value="Fruit">Fruit</option>
-            <option value="Root">Root</option>
-            <option value="Bark">Bark</option>
-            <option value="Stem">Stem</option>
-            <option value="Leaves">Leaves</option>
-          </select>
+    <section id="plants" class="content-section" aria-labelledby="plants-heading">
+      <div class="section-heading">
+        <span class="section-icon" aria-hidden="true">🌿</span>
+        <div>
+          <h2 id="plants-heading">Plant Library</h2>
+          <p>Search by Ayurvedic name, Sanskrit name, botanical name, family, synonym, useful part, Rasa, Guna, Virya, Vipaka and more.</p>
         </div>
       </div>
-    </div>
 
-    <!-- PLANT GRID -->
-    <div class="plant-grid" id="plantGrid"></div>
+      <div class="search-panel">
+        <label for="search">Search the 97-plant database</label>
+        <input id="search" type="search" autocomplete="off" placeholder="Search Dravya, Sanskrit, botanical name, family or synonym…" aria-describedby="search-help">
+        <p id="search-help">Results are ranked by relevance. Partial names and common identifiers are supported.</p>
+      </div>
+
+      <div id="plant-list" class="plant-grid" aria-live="polite" aria-busy="true">
+        <div class="loading-box">
+          <div class="loading-icon" aria-hidden="true">🌿</div>
+          <p>Loading the 97-plant database…</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="student" class="info-card content-section">
+      <h2>🎓 Student</h2>
+      <p>Syllabus-oriented plant information, identification points, examination preparation and viva revision.</p>
+    </section>
+
+    <section id="teacher" class="info-card content-section">
+      <h2>👨‍🏫 Teacher</h2>
+      <p>Structured teaching points, practical identification and classical-reference fields for classroom use.</p>
+    </section>
+
+    <section id="doctor" class="info-card content-section">
+      <h2>🩺 Doctor</h2>
+      <p>Quick-reference access to useful parts, therapeutic information, formulations, precautions and sources.</p>
+    </section>
   </main>
 
-  <!-- MODAL FOR SINGLE PLANT DOSSIER -->
-  <div class="modal-overlay" id="modalOverlay">
-    <div class="modal-content" id="modalContent">
-      <span class="close-modal" onclick="closeModal()">&times;</span>
-      <div id="dossierBody"></div>
-    </div>
-  </div>
+  <footer class="site-footer">
+    <p><strong>DravyaGuna 97</strong> — Educational reference for BAMS students, teachers and Ayurvedic professionals.</p>
+    <p>Classical and clinical information should be cross-checked against authoritative texts and professional guidance.</p>
+  </footer>
 
-  <script src="plantsData.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      renderPlantCards(plantsData);
-      initTheme();
-    });
-
-    function initTheme() {
-      const btn = document.getElementById("themeToggle");
-      btn.addEventListener("click", () => {
-        const isDark = document.body.getAttribute("data-theme") === "dark";
-        document.body.setAttribute("data-theme", isDark ? "light" : "dark");
-        btn.textContent = isDark ? "🌙" : "☀️";
-      });
-    }
-
-    function renderPlantCards(data) {
-      const grid = document.getElementById("plantGrid");
-      grid.innerHTML = "";
-
-      if (data.length === 0) {
-        grid.innerHTML = `<p style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 2rem;">No plants found matching your search.</p>`;
-        return;
-      }
-
-      data.forEach(item => {
-        const card = document.createElement("div");
-        card.className = "plant-card";
-        card.innerHTML = `
-          <div>
-            <div class="ncism-no">NCISM Plant #${item.ncismNo}</div>
-            <h3 class="plant-title">${item.sanskritName} (${item.transliteration})</h3>
-            <div class="botanical-name">${item.botanicalName} | ${item.family}</div>
-            <div class="badge-container">
-              <span class="badge">Rasa: ${item.dravyaguna.rasa}</span>
-              <span class="badge">Veerya: ${item.dravyaguna.virya}</span>
-              <span class="badge">Vipaka: ${item.dravyaguna.vipaka}</span>
-              <span class="badge">Part: ${item.therapeutics.usefulPart}</span>
-            </div>
-          </div>
-          <div class="card-actions">
-            <button class="btn btn-primary" onclick="openDossier(${item.ncismNo})">📄 Open Full Dossier</button>
-            <button class="btn btn-outline" onclick="printSinglePlant(${item.ncismNo})">🖨️ Print</button>
-          </div>
-        `;
-        grid.appendChild(card);
-      });
-    }
-
-    function filterPlants() {
-      const search = document.getElementById("searchInput").value.toLowerCase();
-      const rasa = document.getElementById("filterRasa").value;
-      const veerya = document.getElementById("filterVeerya").value;
-      const part = document.getElementById("filterPart").value;
-
-      const filtered = plantsData.filter(plant => {
-        const matchesSearch = plant.ncismNo.toString().includes(search) ||
-                              plant.sanskritName.toLowerCase().includes(search) || 
-                              plant.botanicalName.toLowerCase().includes(search) ||
-                              plant.family.toLowerCase().includes(search);
-        const matchesRasa = !rasa || plant.dravyaguna.rasa.includes(rasa);
-        const matchesVeerya = !veerya || plant.dravyaguna.virya.includes(veerya);
-        const matchesPart = !part || plant.therapeutics.usefulPart.includes(part);
-        return matchesSearch && matchesRasa && matchesVeerya && matchesPart;
-      });
-
-      renderPlantCards(filtered);
-    }
-
-    function openDossier(ncismNo) {
-      const plant = plantsData.find(p => p.ncismNo === ncismNo);
-      if (!plant) return;
-
-      const body = document.getElementById("dossierBody");
-      body.innerHTML = `
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 1rem;">
-          <div>
-            <span class="ncism-no">NCISM Plant #${plant.ncismNo}</span>
-            <h2 style="font-family:'Cinzel', serif; color: var(--primary);">${plant.sanskritName} (${plant.transliteration})</h2>
-            <p style="font-style:italic;">${plant.botanicalName} | Family: ${plant.family}</p>
-          </div>
-          <button class="btn btn-outline no-print" onclick="window.print()" style="max-width:150px;">🖨️ Print Dossier</button>
-        </div>
-
-        <div class="dossier-section">
-          <h3>1. Basic Identity</h3>
-          <p><strong>English / Hindi / Common Names:</strong> ${plant.identity.commonNames}</p>
-          <p><strong>Synonyms:</strong> ${plant.identity.synonyms}</p>
-        </div>
-
-        <div class="dossier-section">
-          <h3>2. Plant Identification</h3>
-          <p><strong>Habit & Habitat:</strong> ${plant.identification.habit} | ${plant.identification.habitat}</p>
-          <p><strong>Leaf & Flower:</strong> ${plant.identification.leaf} | ${plant.identification.flower}</p>
-          <p><strong>Fruit & Seed:</strong> ${plant.identification.fruit} | ${plant.identification.seed}</p>
-          <p><strong>Key Identification Points:</strong> ${plant.identification.keyPoints}</p>
-        </div>
-
-        <div class="dossier-section">
-          <h3>3. Dravyaguna (Rasa Panchaka)</h3>
-          <p><strong>Rasa:</strong> ${plant.dravyaguna.rasa} | <strong>Guna:</strong> ${plant.dravyaguna.guna}</p>
-          <p><strong>Virya:</strong> ${plant.dravyaguna.virya} | <strong>Vipaka:</strong> ${plant.dravyaguna.vipaka}</p>
-          <p><strong>Prabhava:</strong> ${plant.dravyaguna.prabhava} | <strong>Karma:</strong> ${plant.dravyaguna.karma}</p>
-          <p><strong>Dosha Action:</strong> ${plant.dravyaguna.doshaAction}</p>
-        </div>
-
-        <div class="dossier-section">
-          <h3>4. Classical References & Shlokas</h3>
-          <div class="shloka-box">
-            "${plant.classicalReferences.shloka}"
-            <br><small><strong>Source:</strong> ${plant.classicalReferences.source}</small>
-          </div>
-          <p><strong>Samhita & Nighantu References:</strong> ${plant.classicalReferences.samhitaRef}</p>
-        </div>
-
-        <div class="dossier-section">
-          <h3>5. Therapeutics & Formulations</h3>
-          <p><strong>Useful Part:</strong> ${plant.therapeutics.usefulPart} | <strong>Dose:</strong> ${plant.therapeutics.dose}</p>
-          <p><strong>Anupana:</strong> ${plant.therapeutics.anupana}</p>
-          <p><strong>Indications:</strong> ${plant.therapeutics.indications}</p>
-          <p><strong>Classical Formulations:</strong> ${plant.formulations.classicalFormulations}</p>
-          <p><strong>Precautions:</strong> ${plant.therapeutics.precautions}</p>
-        </div>
-
-        <div class="dossier-section">
-          <h3>6. Modern Information & Phytoconstituents</h3>
-          <p><strong>Major Constituents:</strong> ${plant.modernInfo.phytoconstituents}</p>
-          <p><strong>Evidence Summary:</strong> ${plant.modernInfo.pharmacologySummary}</p>
-          <p><strong>Safety Profile:</strong> ${plant.modernInfo.safetyInfo}</p>
-        </div>
-
-        <div class="dossier-section">
-          <h3>7. Student & Viva Quick Notes</h3>
-          <p><strong>Exam Points:</strong> ${plant.studentSection.examPoints}</p>
-          <p><strong>Viva Questions:</strong> ${plant.studentSection.vivaQuestions}</p>
-          <p><strong>Mnemonic:</strong> ${plant.studentSection.mnemonics}</p>
-        </div>
-
-        <div class="dossier-section">
-          <h3>8. Doctor & Teacher Quick Reference</h3>
-          <p><strong>Teacher Discussion Points:</strong> ${plant.teacherSection.discussionPoints}</p>
-          <p><strong>Doctor Quick Ref:</strong> Indications: ${plant.doctorSection.indications} | Dose: ${plant.doctorSection.dose} | Precaution: ${plant.doctorSection.precaution}</p>
-        </div>
-
-        <div style="font-size:0.75rem; color:var(--text-muted); text-align:right;">
-          Verified Source: ${plant.metadata.source} | Last Verified: ${plant.metadata.lastVerified} | Version: ${plant.metadata.version}
-        </div>
-      `;
-
-      document.getElementById("modalOverlay").classList.add("active");
-    }
-
-    function closeModal() {
-      document.getElementById("modalOverlay").classList.remove("active");
-    }
-
-    function printSinglePlant(ncismNo) {
-      openDossier(ncismNo);
-      setTimeout(() => {
-        window.print();
-      }, 300);
-    }
-  </script>
+  <script src="script.js" defer></script>
 </body>
 </html>
