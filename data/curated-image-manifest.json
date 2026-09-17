@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "status": "curated-manifest",
+  "purpose": "Stable, manually reviewed image metadata for Dravyaguna 97 plant identification.",
+  "policy": {
+    "no_auto_reuse": true,
+    "no_part_fallback": true,
+    "preferred_sources": ["repository", "wikimedia-commons"],
+    "required_fields": ["plant_id", "part", "image_url", "source_url", "license", "verified_botanical_name", "verification_status"],
+    "license_note": "Every external image must be checked on its source page and credited according to its license."
+  },
+  "parts": ["whole_plant", "habit", "root", "stem", "leaf", "flower", "fruit", "seed", "bark"],
+  "records": []
+}
