@@ -2,6 +2,9 @@ name: Deploy DravyaGuna 97 to GitHub Pages
 on:
   push:
     branches: ["main"]
+  workflow_run:
+    workflows: ["Continuous plant-part image audit"]
+    types: [completed]
   workflow_dispatch:
 permissions:
   contents: read
@@ -12,6 +15,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -40,6 +44,8 @@ jobs:
           assert len(core)==97, f'Expected 97 NCISM records, found {len(core)}'
           idx=json.loads((root/'plant-index.json').read_text(encoding='utf-8'))
           assert len(idx.get('plants',[]))==97, 'Generated index must contain exactly 97 canonical records'
+          local_images=list((root/'images'/'plants').rglob('image.*')) if (root/'images'/'plants').exists() else []
+          print('Local plant image files:', len(local_images))
           for page in root.rglob('*.html'):
               html=page.read_text(encoding='utf-8')
               html=re.sub(r'<link[^>]+rel=["\'](?:icon|shortcut icon|apple-touch-icon)["\'][^>]*>', '', html, flags=re.I)
