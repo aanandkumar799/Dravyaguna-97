@@ -31,7 +31,7 @@ jobs:
       - name: Check required files
         shell: bash
         run: |
-          files=("index.html" "plants.html" "plant.html" "compare.html" "quiz.html" "practical-lab.html" "references.html" "404.html" "plant-index.json" "robots.txt" "sitemap.xml" "script.js" "style.css" "manifest.json" "sw.js" "favicon.svg" "public-seo.js" "plant-dossier-layout.css" "cover-image-fix.js" "dossier-fallback.js" "image-gallery-delay.js" "image-gallery-fix.js")
+          files=("index.html" "plants.html" "plant.html" "compare.html" "quiz.html" "viva.html" "progress.html" "rasa.html" "reference-library.html" "practical-lab.html" "references.html" "data-quality.html" "404.html" "plant-index.json" "robots.txt" "sitemap.xml" "script.js" "style.css" "manifest.json" "sw.js" "favicon.svg" "public-seo.js" "plant-dossier-layout.css" "cover-image-fix.js" "dossier-fallback.js" "image-gallery-delay.js" "image-gallery-fix.js")
           for file in "${files[@]}"; do test -f "$file" || { echo "Missing required file: $file"; exit 1; }; done
       - name: Run website doctor
         run: python check-site.py
