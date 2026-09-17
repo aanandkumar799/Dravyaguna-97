@@ -1,23 +1,17 @@
 name: DravyaGuna 97 Website Doctor
-
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   pull_request:
-    branches:
-      - main
+    branches: [main]
   schedule:
     - cron: "0 6 * * 1"
   workflow_dispatch:
-
 permissions:
   contents: read
-
 concurrency:
   group: website-doctor-${{ github.ref }}
   cancel-in-progress: true
-
 jobs:
   check-website:
     name: Website Doctor
@@ -25,68 +19,46 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
-
-      - name: Normalize plant database schema for validation
-        shell: bash
-        run: python scripts/normalize-plants-schema.py
-
-      - name: Public readiness and canonical 97 validation
-        shell: bash
+      - name: Validate modular database
         run: python scripts/public-readiness.py
-
+      - name: Validate curated image registry
+        run: python scripts/validate-curated-images.py
       - name: Check JSON files
         shell: bash
         run: |
           find . -name "*.json" -not -path "./.git/*" -print0 |
-          while IFS= read -r -d '' file; do
-            echo "Checking $file"
-            python -m json.tool "$file" > /dev/null || { echo "INVALID JSON: $file"; exit 1; }
-          done
-
+          while IFS= read -r -d '' file; do python -m json.tool "$file" >/dev/null || exit 1; done
       - name: Check required files
         shell: bash
         run: |
-          files=(
-            "index.html" "plants.html" "plant.html" "404.html" "plants.json"
-            "plant-index.json" "robots.txt" "sitemap.xml" "script.js" "style.css"
-            "manifest.json" "sw.js" "public-seo.js" "academic-verification.js" "lighthouserc.js" "check-site.py" "check-inline-js.py"
-            "scripts/generate-site-artifacts.py" "scripts/public-readiness.py"
-          )
-          for file in "${files[@]}"; do
-            test -f "$file" || { echo "Missing file: $file"; exit 1; }
-            echo "Found: $file"
-          done
-
-      - name: Check homepage data and assets
-        shell: bash
+          files=("index.html" "plants.html" "plant.html" "compare.html" "quiz.html" "practical-lab.html" "references.html" "404.html" "plant-index.json" "robots.txt" "sitemap.xml" "script.js" "style.css" "manifest.json" "sw.js" "favicon.svg" "public-seo.js" "plant-dossier-layout.css" "cover-image-fix.js" "dossier-fallback.js" "image-gallery-delay.js" "image-gallery-fix.js")
+          for file in "${files[@]}"; do test -f "$file" || { echo "Missing required file: $file"; exit 1; }; done
+      - name: Run website doctor
         run: python check-site.py
-
       - name: Check JavaScript syntax
         shell: bash
         run: |
           node --check script.js
           node --check public-seo.js
-          node --check academic-verification.js
-          node --check lighthouserc.js
+          node --check sw.js
+          node --check cover-image-fix.js
+          node --check dossier-fallback.js
+          node --check image-gallery-delay.js
+          node --check image-gallery-fix.js
           python check-inline-js.py
-
       - name: Validate HTML CSS Links Images
         uses: anishathalye/proof-html@v2
         with:
           directory: .
           enforce_https: false
           disable_external: false
-
       - name: Setup Node.js
         uses: actions/setup-node@v5
         with:
           node-version: 20
-
       - name: Run Lighthouse CI
-        shell: bash
         run: |
           npm install -g @lhci/cli@0.15.x
           lhci autorun
-
       - name: Website health check complete
         run: echo "DRAVYAGUNA 97 WEBSITE HEALTH CHECK PASSED"
