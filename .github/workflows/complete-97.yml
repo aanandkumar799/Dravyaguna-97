@@ -20,6 +20,7 @@ on:
       - 'scripts/apply-gemini-74-107.py'
       - 'scripts/apply-gemini-79-83.py'
       - 'scripts/apply-gemini-84-88.py'
+      - 'scripts/database-folder.py'
       - 'complete-97-trigger.txt'
       - '.github/workflows/complete-97.yml'
 permissions:
@@ -32,6 +33,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+      - name: Assemble modular database for pipeline
+        run: python scripts/database-folder.py assemble
       - name: Build and validate 97 records
         run: python scripts/complete-97.py
       - name: Normalize NCISM canonical plant names
@@ -115,10 +118,14 @@ jobs:
           assert vasa.get('classical_reference', {}).get('shlokas') == [], 'Unverified Vasa quotation must not be retained as verified'
           print(f'FINAL VALIDATION PASSED: {len(core)} NCISM-97 + {len(supp)} supplementary = {len(plants)} total')
           PY
-      - name: Commit database and image assets
+      - name: Split validated database into one file per plant
+        run: python scripts/database-folder.py split
+      - name: Remove legacy aggregate database
+        run: rm -f plants.json
+      - name: Commit modular database and image assets
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add plants.json images/plants
-          git diff --cached --quiet || git commit -m 'Consolidate Gemini data and add supplementary drugs'
+          git add -A data/plants images/plants plants.json
+          git diff --cached --quiet || git commit -m 'Migrate to modular one-file-per-plant database'
           git push
