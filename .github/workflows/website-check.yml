@@ -19,6 +19,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
+      - name: Normalize public HTML for validation
+        run: |
+          python scripts/normalize-public-html.py
+          # The Search Console token file is intentionally not a normal HTML document.
+          # Keep it in the repository for verification, but exclude it from HTML proofing.
+          if test -f google7cf685e23093cfe7.html; then mv google7cf685e23093cfe7.html /tmp/google7cf685e23093cfe7.html; fi
       - name: Generate favicon compatibility asset
         run: |
           python3 - <<'PY'
