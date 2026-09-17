@@ -27,7 +27,7 @@ jobs:
           python scripts/generate-site-artifacts.py
           python scripts/public-readiness.py
           python scripts/audit-data-quality.py
-      - name: Generate favicon compatibility asset outside plant image tree
+      - name: Generate favicon compatibility assets outside plant image tree
         run: |
           python3 - <<'PY'
           from pathlib import Path
@@ -43,7 +43,9 @@ jobs:
           def chunk(kind, data):
               return (struct.pack('>I', len(data)) + kind + data + struct.pack('>I', zlib.crc32(kind + data) & 0xffffffff))
           png = (b'\x89PNG\r\n\x1a\n' + chunk(b'IHDR', struct.pack('>IIBBBBB', w, h, 8, 6, 0, 0, 0)) + chunk(b'IDAT', zlib.compress(bytes(raw), 9)) + chunk(b'IEND', b''))
-          out = Path('favicon.png'); out.write_bytes(png)
+          for target in (Path('favicon.png'), Path('images/favicon.png')):
+              target.parent.mkdir(parents=True, exist_ok=True)
+              target.write_bytes(png)
           PY
       - name: Validate curated image registry
         run: python scripts/validate-curated-images.py
