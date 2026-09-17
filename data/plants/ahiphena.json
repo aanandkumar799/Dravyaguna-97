@@ -1,172 +1,20 @@
 {
-  "id": "ahiphena",
-  "order": 41,
-  "identity": {
-    "name": "Ahiphena",
-    "sanskrit_name": "अहिफेन",
-    "transliteration": "",
-    "botanical_name": "Papaver somniferum L.",
-    "family": "Papaveraceae",
-    "english_name": "Opium Poppy",
-    "hindi_name": "",
-    "regional_names": [],
-    "synonyms": [
-      "Aphena",
-      "Nidrakara",
-      "Khaskhasa"
-    ]
-  },
-  "classification": {
-    "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
-  },
-  "identification": {
-    "description": "",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": "",
-    "identification_points": []
-  },
-  "images": {
-    "whole_plant": "images/plants/ahiphena.jpg",
-    "habit": "images/plants/ahiphena.jpg",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": ""
-  },
-  "dravya_guna": {
-    "rasa": [
-      "Tikta",
-      "Katu"
-    ],
-    "guna": [
-      "Guru",
-      "Snigdha"
-    ],
-    "virya": "Ushna",
-    "vipaka": "Katu",
-    "prabhava": [
-      "Vedanasthapana",
-      "Grahi"
-    ],
-    "karma": []
-  },
-  "dosha": {
-    "vata": "pacified",
-    "pitta": "aggravated",
-    "kapha": "aggravated"
-  },
-  "therapeutics": {
-    "useful_part": [
-      "latex"
-    ],
-    "indications": [
-      "Atisara",
-      "Pravahika",
-      "Vedana",
-      "Anidra"
-    ],
-    "therapeutic_actions": [],
-    "dose": "",
-    "anupana": "",
-    "duration": "",
-    "precautions": "",
-    "contraindications": ""
-  },
-  "formulations": [],
-  "classical_reference": {
-    "shlokas": [],
-    "nighantu_references": [],
-    "samhita_references": [],
-    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
-    "reference_hubs": [
-      "TDU Indian Medicinal Plants Database — Shlokas"
-    ]
-  },
-  "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
-  },
-  "modern_information": {
-    "evidence_summary": "Processed opium used in Ayurveda for severe pain and diarrhea management under supervision.",
-    "recognized_uses": [],
-    "safety_notes": "",
-    "sources": []
-  },
-  "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
-    "mnemonics": [],
-    "quick_revision": "Processed opium used in Ayurveda for severe pain and diarrhea management under supervision."
-  },
-  "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
-  },
-  "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
-    "useful_part": "latex",
-    "dose": "",
-    "anupana": "",
-    "key_precautions": []
-  },
-  "sources": [
-    {
-      "type": "official_syllabus",
-      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
-      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
-      "author": "",
-      "edition": "",
-      "year": "",
-      "page": ""
-    },
-    {
-      "type": "medicinal_plants_database",
-      "title": "TDU Indian Medicinal Plants Database",
-      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
-    },
-    {
-      "type": "tdu_classical_database",
-      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
-      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
-      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
-    },
-    {
-      "type": "open_ayurveda_dataset",
-      "title": "Amidha Ayurveda Herb Database v2.0",
-      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
-      "license": "CC BY 4.0",
-      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
-    },
-    {
-      "type": "image",
-      "title": "Wikimedia Commons",
-      "url": "https://commons.wikimedia.org/wiki/File:21_Papaver_somniferum_L.jpg",
-      "license_note": "Check the original file page for current license/attribution requirements."
-    }
-  ],
-  "metadata": {
-    "status": "working_draft_needs_text_cross_check",
-    "last_verified": "",
-    "verified_by": "",
-    "version": "1.2",
-    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
-  },
-  "category": "NCISM-97",
-  "syllabus_marker": "NCISM-97"
+  "id":"ahiphena","order":41,
+  "identity":{"name":"Ahiphena","sanskrit_name":"अहिफेन","transliteration":"Ahiphena","botanical_name":"Papaver somniferum L.","family":"Papaveraceae","english_name":"Opium poppy","hindi_name":"पोस्त","regional_names":[],"synonyms":["Aphena","Nidrakara","Khaskhasa"]},
+  "classification":{"kingdom":"Plantae","habit":"Annual herb","habitat":"Cultivated temperate to subtropical conditions","distribution":"Cultivated in suitable regions; distribution and legal cultivation are jurisdiction-dependent"},
+  "identification":{"description":"Annual herb with a glabrous, bluish-green appearance and characteristic poppy flower and capsule.","whole_plant":"Erect annual herb with a simple or sparsely branched stem and glaucous foliage.","root":"Slender taproot.","stem":"Erect, smooth to sparsely hairy, often glaucous; upper portions bear flowers.","leaf":"Broad, lobed or toothed, glaucous leaves; upper leaves clasp the stem.","flower":"Large, showy flowers with four petals, commonly white, pink, purple or red depending on cultivar.","fruit":"Globose to ovoid capsule with a persistent stigmatic disc; diagnostic mature fruit structure.","seed":"Numerous small seeds within the capsule; colour varies by variety.","bark":"Not applicable as a distinct woody bark character.","identification_points":["Annual glaucous herb","Large four-petalled poppy flower","Characteristic capsule with stigmatic disc","Upper leaves clasping the stem"]},
+  "images":{"whole_plant":"images/plants/ahiphena.jpg","habit":"images/plants/ahiphena.jpg","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},
+  "dravya_guna":{"rasa":["Tikta","Katu"],"guna":["Guru","Snigdha"],"virya":"Ushna","vipaka":"Katu","prabhava":["Vedanasthapana","Grahi"],"karma":["Vedanasthapana","Grahi"]},
+  "dosha":{"vata":"May pacify; classical and clinical context required","pitta":"May aggravate","kapha":"May aggravate"},
+  "therapeutics":{"useful_part":["latex"],"indications":["Atisara","Pravahika","Vedana","Anidra"],"therapeutic_actions":["Vedanasthapana","Grahi"],"dose":"Not supplied in this educational dossier; opioid-containing preparations require qualified professional supervision and applicable law.","anupana":"","duration":"","precautions":"Opium and opioid-containing preparations can cause dependence, respiratory depression, constipation and other serious adverse effects. Use only under qualified medical supervision and according to applicable regulations.","contraindications":"Do not self-medicate with opium or opioid-containing preparations; contraindications depend on the preparation, patient and clinical context."},
+  "formulations":[],
+  "classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"Exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},
+  "phytochemistry":{"major_constituents":["Opium alkaloids including morphine, codeine and papaverine"],"chemical_notes":"Alkaloid composition varies by plant material and processing. Pharmacologically active opioid constituents are clinically significant."},
+  "modern_information":{"evidence_summary":"Papaver somniferum is the botanical source of opium and multiple opioid alkaloids. Modern clinical use is preparation-specific and regulated.","recognized_uses":["Source plant for opioid and non-opioid alkaloids used in regulated pharmaceutical contexts"],"safety_notes":"This dossier is educational. It does not provide instructions for extraction, preparation, dosing or non-medical use.","sources":["WHO opioid safety and medicines resources","Standard pharmacognosy references"]},
+  "student":{"exam_points":["Botanical name: Papaver somniferum L.","Family: Papaveraceae","Characteristic capsule is an important identification feature","Latex is the traditionally recognized drug material; handling and use are legally regulated"],"viva_questions":["Identify Ahiphena botanically.","Which family does Papaver somniferum belong to?","What is the characteristic fruit type used for identification?","Why does Ahiphena require special safety and regulatory consideration?"],"identification_points":["Glaucous annual herb","Large poppy flower","Distinctive capsule","Small numerous seeds"],"mnemonics":[],"quick_revision":"Ahiphena — Papaver somniferum L., Papaveraceae; annual glaucous herb with large flowers and characteristic capsule; latex is the traditionally recognized drug material and requires strict safety/regulatory control."},
+  "teacher":{"teaching_points":["Demonstrate flower and capsule characters without handling controlled plant material.","Discuss the distinction between botanical identification and regulated medicinal use.","Explain why historical Ayurvedic terminology should be interpreted alongside modern pharmacology and regulation."],"discussion_points":["Traditional drug identity versus modern opioid pharmacology","Safety, dependence and regulatory considerations"],"practical_points":["Use authenticated botanical images or herbarium material for identification; do not conduct extraction demonstrations."]},
+  "doctor":{"quick_reference":"Papaver somniferum-derived opioid material is clinically significant and regulated; therapeutic decisions are preparation-, patient- and jurisdiction-specific.","important_indications":["Historical/traditional indications include Atisara, Pravahika and Vedana"],"useful_part":"latex","dose":"Not provided","anupana":"","key_precautions":["Risk of respiratory depression and dependence","Avoid unsupervised use","Follow applicable controlled-drug regulations"]},
+  "sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"image","title":"Wikimedia Commons","url":"https://commons.wikimedia.org/wiki/File:21_Papaver_somniferum_L.jpg","license_note":"Check the original file page for current license/attribution requirements."}],
+  "metadata":{"status":"structured_dossier_completed; classical_text_requires_verification","last_verified":"","verified_by":"","version":"1.3","last_enrichment":"dossier completion batch 2026-09-17"},
+  "category":"NCISM-97","syllabus_marker":"NCISM-97"
 }
