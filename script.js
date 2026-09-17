@@ -3,9 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const searchInput = document.getElementById('searchInput') || document.getElementById('search');
   if (!plantList) return;
 
-  const INDEX_URL = new URL('plant-index.json?v=97', location.href).href;
-  const MANIFEST_URL = new URL('data/curated-image-manifest.json?v=3', location.href).href;
+  const INDEX_URL = new URL('plant-index.json?v=98', location.href).href;
+  const MANIFEST_URL = new URL('data/curated-image-manifest.json?v=4', location.href).href;
   const initialLimit = 24;
+  const EXPECTED_NCISM_COUNT = 97;
   let masterPlants = [], mode = 'grid', categoryFilter = 'all', showAll = false, coverRegistry = new Map();
 
   const esc = v => String(v ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\"/g,'&quot;').replace(/'/g,'&#039;');
@@ -16,18 +17,20 @@ document.addEventListener('DOMContentLoaded', () => {
   const botanical = p => p?.botanical_name || p?.identity?.botanical_name || '';
   const family = p => p?.family || p?.identity?.family || '';
   const order = p => Number.isFinite(Number(p?.order)) ? Number(p.order) : 9999;
-  const isNCISM = p => String(p?.category || '').toUpperCase() === 'NCISM-97' && order(p) >= 1 && order(p) <= 97;
+  const isNCISM = p => String(p?.category || '').toUpperCase() === 'NCISM-97' && order(p) >= 1 && order(p) <= EXPECTED_NCISM_COUNT;
 
   const score = (p, q) => {
     q = norm(q); if (!q) return 0;
     const fields = [[name(p),1200],[sanskrit(p),1100],[p.transliteration,1050],[botanical(p),1000],[p.english_name||p.identity?.english_name,900],[family(p),800],[p.id,750],[p.search_text,200]];
     return fields.reduce((total,[v,points]) => { const x=norm(v); if(!x) return total; return total+(x===q?points:x.startsWith(q)?points*.65:x.includes(q)?points*.45:0); },0);
   };
+
   const filtered = q => {
     let list = masterPlants.filter(p => categoryFilter === 'all' || String(p.category).toUpperCase() === categoryFilter);
     if (!norm(q)) return list;
     return list.map(p=>({p,s:score(p,q)})).filter(x=>x.s>0).sort((a,b)=>b.s-a.s||order(a.p)-order(b.p)).map(x=>x.p);
   };
+
   const placeholder = label => {
     const safe=esc(label||'Plant');
     const svg=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520"><rect width="800" height="520" fill="#edf5ef"/><text x="400" y="220" text-anchor="middle" font-family="Arial" font-size="76">🌿</text><text x="400" y="305" text-anchor="middle" font-family="Arial" font-size="30" fill="#1b4332">${safe}</text><text x="400" y="350" text-anchor="middle" font-family="Arial" font-size="18" fill="#6b756f">Verified whole-plant photograph not yet approved</text></svg>`;
@@ -43,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if(!['verified','verified-external'].includes(String(rec.verification_status))||!rec.source_url||!rec.source_name||!rec.verified_botanical_name) continue;
         const id=String(rec.plant_id||''); if(id&&!coverRegistry.has(id)) coverRegistry.set(id,rec);
       }
-    }catch(_){/* Empty registry is safe by design. */}
+    }catch(_){/* Images are optional; the library remains usable. */}
   }
 
   function card(p){
@@ -72,15 +75,34 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  function showIndexNotice(total){
+    const existing=document.getElementById('library-integrity-notice');
+    existing?.remove();
+    if(total===EXPECTED_NCISM_COUNT) return;
+    const notice=document.createElement('div');
+    notice.id='library-integrity-notice';
+    notice.className='medical-disclaimer';
+    notice.style.margin='0 0 18px';
+    notice.innerHTML=`<strong>Library data notice:</strong> ${total} of ${EXPECTED_NCISM_COUNT} NCISM-97 records are currently indexed. Available records remain searchable; missing records are not hidden behind a database error.`;
+    plantList.parentElement.insertBefore(notice,plantList);
+  }
+
   async function load(){
     plantList.setAttribute('aria-busy','true');
     try{
       const [ir]=await Promise.all([fetch(INDEX_URL,{cache:'no-store',headers:{Accept:'application/json'}}),loadCovers()]);
-      const data=await ir.json(); const rows=Array.isArray(data)?data:(Array.isArray(data?.plants)?data.plants:[]);
+      if(!ir.ok) throw new Error(`Index request failed: ${ir.status}`);
+      const data=await ir.json();
+      const rows=Array.isArray(data)?data:(Array.isArray(data?.plants)?data.plants:[]);
       masterPlants=rows.filter(isNCISM).sort((a,b)=>order(a)-order(b));
-      if(masterPlants.length!==97) throw new Error(`Expected 97 NCISM records, received ${masterPlants.length}`);
+      if(!masterPlants.length) throw new Error('No valid NCISM-97 records found in plant-index.json');
+      showIndexNotice(masterPlants.length);
       render('');
-    }catch(e){console.error(e);plantList.innerHTML='<div class="plant-error"><h3>Plant database unavailable</h3><p>The canonical NCISM-97 index could not be loaded. Please refresh after deployment.</p></div>';}finally{plantList.setAttribute('aria-busy','false');}
+    }catch(e){
+      console.error('DravyaGuna library load error:',e);
+      plantList.innerHTML='<div class="plant-error"><h3>Plant database unavailable</h3><p>The plant index could not be loaded. Please refresh after deployment or check your connection.</p><button type="button" class="plant-list-actions" id="retry-library" style="border:0;background:#1b4332;color:#fff;border-radius:9px;padding:10px 16px;font:inherit;font-weight:700;cursor:pointer">Retry</button></div>';
+      document.getElementById('retry-library')?.addEventListener('click',load);
+    }finally{plantList.setAttribute('aria-busy','false');}
   }
 
   document.querySelectorAll('[data-mode]').forEach(btn=>btn.addEventListener('click',()=>{mode=btn.dataset.mode;document.querySelectorAll('[data-mode]').forEach(x=>x.classList.toggle('active',x===btn));render(searchInput?.value||'')}));
