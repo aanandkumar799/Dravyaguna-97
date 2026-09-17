@@ -1,21 +1,18 @@
 :root{--dg-bg:#f7f5ed;--dg-surface:#fff;--dg-surface-2:#f5f8f4;--dg-text:#263b2b;--dg-muted:#68756d;--dg-border:#dfe6df;--dg-accent:#2d6a4f;--dg-accent-strong:#1b4332;--dg-shadow:0 8px 25px rgba(0,0,0,.08)}
 html.dark-mode{color-scheme:dark;--dg-bg:#0b1410;--dg-surface:#111c17;--dg-surface-2:#16231c;--dg-text:#edf5ef;--dg-muted:#aebdb4;--dg-border:#2c3d34;--dg-accent:#72b78f;--dg-accent-strong:#86c9a4;--dg-shadow:0 14px 38px rgba(0,0,0,.28)}
-html,body{background:var(--dg-bg);color:var(--dg-text);transition:background-color .2s ease,color .2s ease}
-body{background-color:var(--dg-bg)}
-body :where(header,nav,.card,.panel,.section,.info-section,.plant-section,.plant-image-card,.feature-card,.feature,.persona,.user-card,.quick-card,.search-panel,.filter-panel,.toolbar,.modal-content,.quiz-card,.question-card,.viva-card,.reference-card,.review-card,.error-box,.content-card,.comparison-card,.progress-card,.rasa-card,.identification-card,.key-identification,.table-wrap,.table-container){background-color:var(--dg-surface);color:var(--dg-text);border-color:var(--dg-border)}
-body :where(p,li,small,.muted,.description,.subtitle,.botanical-name,.source-note,.hint){color:var(--dg-muted)}
-body :where(input,select,textarea){background:var(--dg-surface);color:var(--dg-text);border-color:var(--dg-border)}
-body :where(input,select,textarea)::placeholder{color:var(--dg-muted)}
-body :where(a){color:inherit}
-body :where(a:hover){color:var(--dg-accent)}
-body :where(button,.btn,.plant-button,.user-zone-button){border-color:var(--dg-border)}
-body :where(table,th,td){border-color:var(--dg-border)}
-body :where(th){background:var(--dg-surface-2);color:var(--dg-text)}
-body :where(.hero,.plant-hero,.plant-header){background:linear-gradient(135deg,var(--dg-surface-2),var(--dg-surface));color:var(--dg-text);border-color:var(--dg-border)}
+html,body{background:var(--dg-bg)!important;color:var(--dg-text)!important;transition:background-color .2s ease,color .2s ease}
+body,body main,body .container,body .content,body .page,body .page-container,body .main-content{background-color:var(--dg-bg)!important;color:var(--dg-text)!important}
+body :where(header,nav,.nav,.navbar,.card,.panel,.section,.info-section,.plant-section,.plant-image-card,.feature-card,.feature,.persona,.user-card,.quick-card,.search-panel,.filter-panel,.toolbar,.modal-content,.quiz-card,.question-card,.viva-card,.reference-card,.review-card,.error-box,.content-card,.comparison-card,.progress-card,.rasa-card,.identification-card,.key-identification,.table-wrap,.table-container,.accordion,.accordion-item,.form-card,.result-card,.flashcard,.plant-card,.lab-card,.reference-item,.source-card,.data-card,.stat-card){background-color:var(--dg-surface)!important;color:var(--dg-text)!important;border-color:var(--dg-border)!important}
+body :where(p,li,small,.muted,.description,.subtitle,.botanical-name,.source-note,.hint,.text-muted,.secondary,.meta,.caption){color:var(--dg-muted)!important}
+body :where(input,select,textarea){background-color:var(--dg-surface)!important;color:var(--dg-text)!important;border-color:var(--dg-border)!important}
+body :where(input,select,textarea)::placeholder{color:var(--dg-muted)!important}
+body :where(a){color:inherit} body :where(a:hover){color:var(--dg-accent)}
+body :where(button,.btn,.plant-button,.user-zone-button){color:inherit;border-color:var(--dg-border)}
+body :where(table,th,td){border-color:var(--dg-border)!important} body :where(th){background:var(--dg-surface-2)!important;color:var(--dg-text)!important}
+body :where(.hero,.plant-hero,.plant-header,.banner,.page-header){background:linear-gradient(135deg,var(--dg-surface-2),var(--dg-surface))!important;color:var(--dg-text)!important;border-color:var(--dg-border)!important}
 body :where(.plant-section h2,.info-section h2){border-color:var(--dg-border)}
 body :where(.plant-image-card,.info-section,.plant-section,.card,.panel,.feature,.persona,.review-card){box-shadow:var(--dg-shadow)}
-body :where(.footer,footer){background:var(--dg-accent-strong);color:#f5fff8}
+body :where(.footer,footer){background:var(--dg-accent-strong)!important;color:#f5fff8!important}
 body :where(.theme-toggle){background:var(--dg-surface);color:var(--dg-text);border:1px solid var(--dg-border);cursor:pointer}
-body :where(.theme-toggle):focus-visible{outline:3px solid color-mix(in srgb,var(--dg-accent) 35%,transparent);outline-offset:2px}
 .dg-theme-toggle{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:40px;padding:8px 13px;border:1px solid var(--dg-border);border-radius:999px;background:var(--dg-surface);color:var(--dg-text);font:700 14px/1 Arial,sans-serif;cursor:pointer}
 @media(max-width:700px){.dg-theme-toggle{min-height:38px}}
