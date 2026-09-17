@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "status": "production-registry",
   "purpose": "Fresh image registry for the 97 NCISM Dravyaguna plants. All previous image approvals have been cleared. Images are added only after strict botanical-species, plant-part, licensing, and duplicate checks.",
   "policy": {
@@ -9,7 +9,8 @@
     "global_duplicates_forbidden": true,
     "ai_only_matches_forbidden": true,
     "wrong_image_preferred_over_missing": false,
-    "old_registry_reverification_required": true
+    "old_registry_reverification_required": true,
+    "local_assets_required": true
   },
   "parts": [
     "whole_plant",
@@ -99,14 +100,15 @@
       "plant_name": "Amalaki",
       "botanical_name": "Phyllanthus emblica L.",
       "part": "flower",
-      "image_path": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Flowers_of_Phyllanthus_emblica_L._-_Flickr_-_lalithamba.jpg/1920px-Flowers_of_Phyllanthus_emblica_L._-_Flickr_-_lalithamba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image_path": "images/plants/amalaki/flower/image.jpg",
       "source_url": "https://commons.wikimedia.org/wiki/File%3AFlowers_of_Phyllanthus_emblica_L._-_Flickr_-_lalithamba.jpg",
       "source_name": "Wikimedia Commons",
       "license": "CC BY 2.0",
       "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/45835639@N04\">Lalithamba</a> from India",
       "verified_botanical_name": "Phyllanthus emblica L.",
-      "verification_status": "verified-external",
-      "title": "Flowers of Phyllanthus emblica L. - Flickr - lalithamba.jpg"
+      "verification_status": "verified-local",
+      "title": "Flowers of Phyllanthus emblica L. - Flickr - lalithamba.jpg",
+      "source_media_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Flowers_of_Phyllanthus_emblica_L._-_Flickr_-_lalithamba.jpg/1920px-Flowers_of_Phyllanthus_emblica_L._-_Flickr_-_lalithamba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     {
       "plant_id": "amalaki",
@@ -114,14 +116,15 @@
       "plant_name": "Amalaki",
       "botanical_name": "Phyllanthus emblica L.",
       "part": "fruit",
-      "image_path": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Fruits_of_Phyllanthus_emblica_L._-_Flickr_-_lalithamba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "image_path": "images/plants/amalaki/fruit/image.jpg",
       "source_url": "https://commons.wikimedia.org/wiki/File%3AFruits_of_Phyllanthus_emblica_L._-_Flickr_-_lalithamba.jpg",
       "source_name": "Wikimedia Commons",
       "license": "CC BY 2.0",
       "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/45835639@N04\">Lalithamba</a> from India",
       "verified_botanical_name": "Phyllanthus emblica L.",
-      "verification_status": "verified-external",
-      "title": "Fruits of Phyllanthus emblica L. - Flickr - lalithamba.jpg"
+      "verification_status": "verified-local",
+      "title": "Fruits of Phyllanthus emblica L. - Flickr - lalithamba.jpg",
+      "source_media_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Fruits_of_Phyllanthus_emblica_L._-_Flickr_-_lalithamba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
     },
     {
       "plant_id": "amalaki",
@@ -2117,13 +2120,13 @@
       "plant_name": "Dadima",
       "botanical_name": "Punica granatum L.",
       "part": "flower",
-      "image_path": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/%28MHNT%29_Punica_granatum_-_Flower.jpg/1920px-%28MHNT%29_Punica_granatum_-_Flower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image_path": "",
       "source_url": "https://commons.wikimedia.org/wiki/File%3A%28MHNT%29_Punica_granatum_-_Flower.jpg",
       "source_name": "Wikimedia Commons",
       "license": "CC BY-SA 4.0",
       "author": "<div class=\"fn value\">\n<a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" title=\"User:Archaeodontosaurus\">Didier Descouens</a></div>",
       "verified_botanical_name": "Punica granatum L.",
-      "verification_status": "verified-external",
+      "verification_status": "download-failed",
       "title": "(MHNT) Punica granatum - Flower.jpg"
     },
     {
@@ -4778,13 +4781,13 @@
       "plant_name": "Latakaranja",
       "botanical_name": "Caesalpinia bonduc (L.) Roxb.",
       "part": "fruit",
-      "image_path": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Caesalpinia_bonduc_%28seed-pod%29.jpg/1920px-Caesalpinia_bonduc_%28seed-pod%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image_path": "",
       "source_url": "https://commons.wikimedia.org/wiki/File%3ACaesalpinia_bonduc_%28seed-pod%29.jpg",
       "source_name": "Wikimedia Commons",
       "license": "CC BY-SA 3.0",
       "author": "<a href=\"//commons.wikimedia.org/wiki/User:Biopics\" title=\"User:Biopics\">Hans Hillewaert</a>",
       "verified_botanical_name": "Caesalpinia bonduc (L.) Roxb.",
-      "verification_status": "verified-external",
+      "verification_status": "download-failed",
       "title": "Caesalpinia bonduc (seed-pod).jpg"
     },
     {
