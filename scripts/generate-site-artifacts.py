@@ -29,11 +29,22 @@ for plant in canonical:
 
 payload={"total":97,"plants":index}
 (ROOT/"plant-index.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-# Backward-compatible legacy endpoint. New code should use plant-index.json + data/plants/{id}.json.
 (ROOT/"plants.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
 urls=[BASE,BASE+"plants.html",BASE+"compare.html",BASE+"quiz.html",BASE+"practical-lab.html",BASE+"references.html"]+[BASE+"plant.html?id="+quote(pid,safe="") for pid in ids]
 sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f"  <url><loc>{escape(u)}</loc></url>\n" for u in urls)+"</urlset>\n"
 (ROOT/"sitemap.xml").write_text(sitemap,encoding="utf-8")
 (ROOT/"robots.txt").write_text("User-agent: *\nAllow: /\n\nSitemap: "+BASE+"sitemap.xml\n",encoding="utf-8")
+
+# The production Firebase build copies the repository into _site after this
+# script runs. Inject the verified feedback modules into the homepage here so
+# both generated deployments use the same secure Firestore feedback flow.
+home=ROOT/"index.html"
+if home.exists():
+    html=home.read_text(encoding="utf-8")
+    marker="</body>"
+    if "feedback-config.js" not in html and marker in html:
+        html=html.replace(marker,"\n<script src=\"feedback-config.js\"></script>\n<script src=\"feedback.js\"></script>\n"+marker,1)
+        home.write_text(html,encoding="utf-8")
+
 print(f"Generated index + compatibility file for {len(index)} NCISM plants and {len(urls)} sitemap URLs")
