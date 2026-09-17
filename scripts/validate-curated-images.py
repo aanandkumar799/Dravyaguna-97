@@ -34,12 +34,13 @@ for r in records:
     status = str(r.get('verification_status') or '')
     image_path = str(r.get('image_path') or '')
     if status == 'verified-local':
-        if not image_path.startswith('images/plants/'):
-            errors.append(f'Local image path required: {key} -> {image_path}')
-        else:
-            asset = ROOT / image_path
-            if not asset.exists() or asset.stat().st_size < 2048:
-                errors.append(f'Missing/invalid local image asset: {image_path}')
+        asset = ROOT / image_path
+        if not image_path.startswith('images/plants/') or not asset.exists() or asset.stat().st_size < 2048:
+            errors.append(f'Missing/invalid local image asset: {key} -> {image_path}')
+    elif status in ('verified','verified-external'):
+        if not image_path.startswith('http') or not r.get('source_url') or not r.get('verified_botanical_name'):
+            errors.append(f'Invalid external verified record: {key}')
+        warnings.append(f'Awaiting local materialization: {key}')
     elif status not in ('missing-queued','duplicate-rejected','download-failed'):
         warnings.append(f'Unmaterialized registry status: {status} ({key})')
 
@@ -56,5 +57,4 @@ print(f'Warnings: {len(warnings)}')
 print(f'Errors: {len(errors)}')
 for w in warnings[:50]: print('WARNING:', w)
 for e in errors: print('ERROR:', e)
-
 raise SystemExit(1 if errors else 0)
