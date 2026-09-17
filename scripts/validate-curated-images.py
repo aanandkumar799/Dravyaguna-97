@@ -5,10 +5,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = ROOT / 'plant-index.json'
 MANIFEST = ROOT / 'data' / 'curated-image-manifest.json'
+PARTS = ['whole_plant','habit','root','stem','leaf','flower','fruit','seed','bark']
 
 index = json.loads(INDEX.read_text(encoding='utf-8'))
 manifest = json.loads(MANIFEST.read_text(encoding='utf-8'))
-
 ncism = {int(p['order']): p for p in index.get('plants', []) if p.get('category') == 'NCISM-97' and 1 <= int(p.get('order', 0)) <= 97}
 records = manifest.get('records', [])
 errors, warnings = [], []
@@ -29,17 +29,26 @@ for r in records:
         continue
     if r.get('plant_id') != plant.get('id'):
         errors.append(f'Order {order}: manifest id {r.get("plant_id")} != index id {plant.get("id")}')
-    if r.get('part') not in manifest.get('parts', []):
+    if r.get('part') not in PARTS:
         errors.append(f'Invalid part at order {order}: {r.get("part")}')
-    for raw in r.get('image_path_candidates', []) or []:
-        path = ROOT / raw
-        if not path.exists():
-            warnings.append(f'Missing candidate asset: {raw} ({r.get("plant_id")}/{r.get("part")})')
+    status = str(r.get('verification_status') or '')
+    image_path = str(r.get('image_path') or '')
+    if status == 'verified-local':
+        if not image_path.startswith('images/plants/'):
+            errors.append(f'Local image path required: {key} -> {image_path}')
+        else:
+            asset = ROOT / image_path
+            if not asset.exists() or asset.stat().st_size < 2048:
+                errors.append(f'Missing/invalid local image asset: {image_path}')
+    elif status not in ('missing-queued','duplicate-rejected','download-failed'):
+        warnings.append(f'Unmaterialized registry status: {status} ({key})')
 
-registered_orders = {int(r.get('ncism_order',0)) for r in records if r.get('part') == 'whole_plant'}
-missing = sorted(set(range(1,98)) - registered_orders)
-if missing:
-    errors.append('Missing whole_plant registry entries for NCISM orders: ' + ', '.join(map(str, missing)))
+registered = {(str(r.get('plant_id')), str(r.get('part'))) for r in records}
+for order, plant in ncism.items():
+    for part in PARTS:
+        key = (str(plant.get('id')), part)
+        if key not in registered:
+            errors.append(f'Missing registry entry: {key}')
 
 print(f'NCISM plants: {len(ncism)}')
 print(f'Manifest records: {len(records)}')
