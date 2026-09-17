@@ -12,7 +12,7 @@ BASE = "https://aanandkumar799.github.io/Dravyaguna-97/"
 
 records=[]
 for path in sorted(DB.glob("*.json")):
-    if path.name in {"index.json", "schema.json"}: continue
+    if path.name in {"index.json","schema.json"}: continue
     data=json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(data,dict): raise SystemExit(f"{path}: record must be a JSON object")
     records.append(data)
@@ -45,7 +45,9 @@ fixes = {
         (r'index\.html#teacher', 'reference-library.html'),
         (r'index\.html#doctor', 'references.html'),
         (r'r\.verification_status===\'verified-external\'', "['verified','verified-external','verified-local'].includes(r.verification_status)"),
-        (r'src="data:image/svg\\+xml,%3Csvg[^\"]*%3C/svg%3E"', 'src="favicon.svg"'),
+        # HTML-Proofer rejects the inline SVG data URI used by the modal placeholder.
+        # Keep the placeholder as a normal repository asset instead.
+        (r'src="data:image/svg\+xml[^\"]*"', 'src="favicon.svg"'),
     ],
 }
 for filename, replacements in fixes.items():
