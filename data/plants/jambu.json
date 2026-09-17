@@ -1,174 +1,19 @@
 {
-  "id": "jambu",
-  "order": 27,
-  "identity": {
-    "name": "Jambu",
-    "sanskrit_name": "जम्बू",
-    "transliteration": "",
-    "botanical_name": "Syzygium cumini (L.) Skeels",
-    "family": "Myrtaceae",
-    "english_name": "Black Plum",
-    "hindi_name": "",
-    "regional_names": [],
-    "synonyms": [
-      "Mahaphala",
-      "Phalendra",
-      "Surabhipatra",
-      "Nilaphala"
-    ]
-  },
-  "classification": {
-    "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
-  },
-  "identification": {
-    "description": "",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": "",
-    "identification_points": []
-  },
-  "images": {
-    "whole_plant": "images/plants/jambu.jpg",
-    "habit": "images/plants/jambu.jpg",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": ""
-  },
-  "dravya_guna": {
-    "rasa": [
-      "Kashaya",
-      "Madhura"
-    ],
-    "guna": [
-      "Laghu",
-      "Ruksha"
-    ],
-    "virya": "Sheeta",
-    "vipaka": "Katu",
-    "prabhava": [
-      "Grahi",
-      "Pramehaghna"
-    ],
-    "karma": []
-  },
-  "dosha": {
-    "vata": "aggravated",
-    "pitta": "pacified",
-    "kapha": "pacified"
-  },
-  "therapeutics": {
-    "useful_part": [
-      "fruit/seed"
-    ],
-    "indications": [
-      "Prameha",
-      "Atisara",
-      "Raktapitta",
-      "Pravahika",
-      "Chhardi"
-    ],
-    "therapeutic_actions": [],
-    "dose": "",
-    "anupana": "",
-    "duration": "",
-    "precautions": "",
-    "contraindications": ""
-  },
-  "formulations": [],
-  "classical_reference": {
-    "shlokas": [],
-    "nighantu_references": [],
-    "samhita_references": [],
-    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
-    "reference_hubs": [
-      "TDU Indian Medicinal Plants Database — Shlokas"
-    ]
-  },
-  "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
-  },
-  "modern_information": {
-    "evidence_summary": "Jamun or Black Plum is used in managing diabetes and diarrhea due to its astringent and blood sugar-regulating properties.",
-    "recognized_uses": [],
-    "safety_notes": "",
-    "sources": []
-  },
-  "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
-    "mnemonics": [],
-    "quick_revision": "Jamun or Black Plum is used in managing diabetes and diarrhea due to its astringent and blood sugar-regulating properties."
-  },
-  "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
-  },
-  "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
-    "useful_part": "fruit/seed",
-    "dose": "",
-    "anupana": "",
-    "key_precautions": []
-  },
-  "sources": [
-    {
-      "type": "official_syllabus",
-      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
-      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
-      "author": "",
-      "edition": "",
-      "year": "",
-      "page": ""
-    },
-    {
-      "type": "medicinal_plants_database",
-      "title": "TDU Indian Medicinal Plants Database",
-      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
-    },
-    {
-      "type": "tdu_classical_database",
-      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
-      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
-      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
-    },
-    {
-      "type": "open_ayurveda_dataset",
-      "title": "Amidha Ayurveda Herb Database v2.0",
-      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
-      "license": "CC BY 4.0",
-      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
-    },
-    {
-      "type": "image",
-      "title": "Wikimedia Commons",
-      "url": "https://commons.wikimedia.org/wiki/File:Syzygium_cumini(L.)Skeels..jpg",
-      "license_note": "Check the original file page for current license/attribution requirements."
-    }
-  ],
-  "metadata": {
-    "status": "working_draft_needs_text_cross_check",
-    "last_verified": "",
-    "verified_by": "",
-    "version": "1.2",
-    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
-  },
-  "category": "NCISM-97",
-  "syllabus_marker": "NCISM-97"
+  "id":"jambu","order":27,
+  "identity":{"name":"Jambu","sanskrit_name":"जम्बू","transliteration":"Jambu","botanical_name":"Syzygium cumini (L.) Skeels","family":"Myrtaceae","english_name":"Black Plum","hindi_name":"जामुन","regional_names":[],"synonyms":["Mahaphala","Phalendra","Surabhipatra","Nilaphala"]},
+  "classification":{"kingdom":"Plantae","habit":"Large evergreen to semi-evergreen tree","habitat":"Moist valleys, river margins, open forests and cultivated landscapes","distribution":"Widely cultivated and naturalized throughout tropical India and other tropical regions"},
+  "identification":{"description":"A large tree with dense foliage, opposite glossy leaves, white flowers and dark purple to nearly black fleshy fruits.","whole_plant":"Large tree with dense rounded crown and dark trunk.","root":"Strong woody root system; not usually the primary identifying field character.","stem":"Trunk stout with grey-brown to dark bark; older bark may become flaky.","leaf":"Opposite, simple, elliptic to oblong leaves, thick and glossy with a characteristic turpentine-like aromatic smell when crushed.","flower":"Small white to greenish-white flowers in branched clusters.","fruit":"Oblong to ovoid fleshy berries, green when immature and purple-black when ripe, usually with a prominent seed.","seed":"Large seed enclosed in the fleshy fruit; commonly one-seeded but variation occurs.","bark":"Grey-brown to dark bark; mature bark may show patches or flakes.","identification_points":["Large tree","Opposite glossy leaves","Small pale flowers in clusters","Dark purple-black fleshy fruit"]},
+  "images":{"whole_plant":"images/plants/jambu.jpg","habit":"images/plants/jambu.jpg","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},
+  "dravya_guna":{"rasa":["Kashaya","Madhura"],"guna":["Laghu","Ruksha"],"virya":"Sheeta","vipaka":"Katu","prabhava":["Grahi","Pramehaghna"],"karma":[]},
+  "dosha":{"vata":"aggravated","pitta":"pacified","kapha":"pacified"},
+  "therapeutics":{"useful_part":["fruit/seed"],"indications":["Prameha","Atisara","Raktapitta","Pravahika","Chhardi"],"therapeutic_actions":[],"dose":"","anupana":"","duration":"","precautions":"","contraindications":""},
+  "formulations":[],
+  "classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},
+  "phytochemistry":{"major_constituents":["Anthocyanin pigments in ripe fruit","Tannins and polyphenolic constituents","Other fruit and seed secondary metabolites"],"chemical_notes":"Chemical composition differs by plant part and maturity. Published reports commonly discuss anthocyanins, tannins and polyphenols; exact quantitative claims require source-specific verification."},
+  "modern_information":{"evidence_summary":"Syzygium cumini is a widely consumed fruit tree and has a substantial traditional and research literature, including studies of fruit, seed and bark. Modern evidence should be interpreted by preparation and clinical endpoint rather than generalized to the whole plant.","recognized_uses":[],"safety_notes":"Traditional use for metabolic conditions should not replace monitoring or prescribed treatment. Verify plant part and preparation.","sources":[]},
+  "student":{"exam_points":["Jambu = Syzygium cumini","Family: Myrtaceae","Characteristic dark purple-black fleshy fruit","Fruit/seed listed as useful parts in this record"],"viva_questions":["What is the botanical name of Jambu?","Which family does Jambu belong to?","Describe the fruit of Jambu.","Which plant parts are listed as useful?"],"identification_points":["Glossy opposite leaves","White clustered flowers","Dark purple-black fruit","Large tree habit"],"mnemonics":["Jambu = Jamun: remember the glossy leaves and dark jamun fruit."],"quick_revision":"Jambu (Syzygium cumini) is a large Myrtaceae tree with glossy opposite leaves and dark purple-black fruits; the project record lists fruit/seed as useful."},
+  "teacher":{"teaching_points":["Demonstrate identification using leaf arrangement, leaf texture, flowers and fruit.","Compare traditional part-specific use with modern research on different plant parts."],"discussion_points":["Why seed, bark and fruit evidence should not be interchanged", "Variation in phytochemical profiles with fruit maturity"],"practical_points":["Observe fresh leaf and fruit characters.","Record fruit colour at immature and mature stages."]},
+  "doctor":{"quick_reference":"Jambu — Syzygium cumini (L.) Skeels; fruit/seed listed as useful in this project record, with traditional indications including Prameha and Atisara.","important_indications":["Prameha","Atisara","Raktapitta","Pravahika","Chhardi"],"useful_part":"fruit/seed","dose":"","anupana":"","key_precautions":["Verify the plant part and preparation.","Do not substitute traditional Jambu preparations for monitoring or prescribed therapy in metabolic disease."]},
+  "sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"official_pharmacopoeial_source","title":"Pharmacopoeia Commission for Indian Medicine & Homoeopathy","url":"https://pcimh.gov.in/"},{"type":"image","title":"Wikimedia Commons","url":"https://commons.wikimedia.org/wiki/File:Syzygium_cumini(L.)Skeels..jpg","license_note":"Check the original file page for current license/attribution requirements."}],
+  "metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3","image_enrichment_note":"Existing project image retained; part-specific verified images remain to be populated.","last_enrichment":"dossier enrichment batch"},"category":"NCISM-97","syllabus_marker":"NCISM-97"
 }
