@@ -2,17 +2,18 @@ document.addEventListener('DOMContentLoaded', () => {
   const plantList = document.getElementById('plant-list');
   const searchInput = document.getElementById('searchInput') || document.getElementById('search');
   if (!plantList) return;
-  const urls = {
-    index: new URL('plant-index.json', window.location.href).href,
-    fallback: new URL('plants.json', window.location.href).href,
-    batches: ['plant-batch-24-28.json','plant-batch-29-33.json','plant-batch-34-38.json','plant-batch-39-43.json','plant-batch-44-48.json','plant-batch-49-53.json','plant-batch-54-58.json','plant-batch-59-63.json','plant-batch-64-68.json','plant-batch-69-73.json','plant-batch-74-78.json','plant-batch-79-83.json','plant-batch-84-88.json','plant-batch-89-93.json','plant-batch-94-98.json'].map(name => new URL(name, window.location.href).href)
-  };
+
+  const url = file => new URL(file, window.location.href).href;
+  const INDEX_URL = url('data/plants-index.json?v=97');
+  const INDEX_FALLBACK = url('plant-index.json?v=97');
+  const MANIFEST_URL = url('data/curated-image-manifest.json?v=2');
+
   let masterPlants = [];
-  let searchTimer;
   let mode = 'grid';
   let categoryFilter = 'all';
   let showAll = false;
   const initialLimit = 24;
+
   const esc = value => String(value ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\"/g,'&quot;').replace(/'/g,'&#039;');
   const normalize = value => String(value ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').replace(/\s+/g,' ').trim();
   const text = value => Array.isArray(value) ? value.map(text).join(' ') : (value && typeof value === 'object' ? Object.values(value).map(text).join(' ') : String(value ?? ''));
@@ -21,74 +22,122 @@ document.addEventListener('DOMContentLoaded', () => {
   const botanical = p => p?.botanical_name || p?.identity?.botanical_name || '';
   const family = p => p?.family || p?.identity?.family || '';
   const order = p => Number.isFinite(Number(p?.order)) ? Number(p.order) : 9999;
-  const category = p => { const c = String(p?.category || p?.syllabus_marker || '').toUpperCase(); if(c === 'SUPPLEMENTAL' || c === 'SUPPLEMENTARY') return 'Supplementary'; if(c === 'NCISM-97') return 'NCISM-97'; return ''; };
-  const canonicalKey = p => { const c = category(p); if(c === 'NCISM-97' && order(p) >= 1 && order(p) <= 97) return `ncism:${order(p)}`; const b = normalize(botanical(p)); const n = normalize(name(p)); return `supp:${b || n}`; };
-  const mergeRecord = (base = {}, patch = {}) => { const merged = {...base,...patch,identity:{...(base.identity||{}),...(patch.identity||{})},dravya_guna:{...(base.dravya_guna||{}),...(patch.dravya_guna||{})},therapeutics:{...(base.therapeutics||{}),...(patch.therapeutics||{})},metadata:{...(base.metadata||{}),...(patch.metadata||{})}}; if(base.order!==undefined&&base.order!==null&&Number(base.order)!==0) merged.order=base.order; if(base.category && base.category!=='SUPPLEMENTAL' && base.category!=='Supplementary') merged.category=base.category; return merged; };
-  const libraryOrder = (a,b) => { const ca=category(a),cb=category(b); if(ca!==cb) return ca==='NCISM-97'?-1:1; if(ca==='NCISM-97') return order(a)-order(b)||name(a).localeCompare(name(b)); return name(a).localeCompare(name(b)); };
-  function score(p,query){const q=normalize(query);if(!q)return 0;const fields=[[name(p),1200],[sanskrit(p),1100],[p.transliteration,1050],[botanical(p),1000],[p.english_name||p.identity?.english_name||p.english_common_name,900],[family(p),800],[p.id,750],[p.search_text,200]];let total=0;for(const[value,points]of fields){const x=normalize(value);if(!x)continue;if(x===q)total+=points;else if(x.startsWith(q))total+=Math.floor(points*.65);else if(x.includes(q))total+=Math.floor(points*.45);}return total;}
-  function filtered(query=''){let list=masterPlants.filter(p=>categoryFilter==='all'||category(p)===categoryFilter);if(!normalize(query))return list;return list.map(p=>({p,score:score(p,query)})).filter(x=>x.score>0).sort((a,b)=>b.score-a.score||libraryOrder(a.p,b.p)).map(x=>x.p);}
-  function fallbackSvg(label){const safe=String(label||'Plant').replace(/[&<>\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#039;'}[c]||c));const svg=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520"><rect width="800" height="520" fill="#edf5ef"/><text x="400" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="82">🌿</text><text x="400" y="330" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" fill="#1b4332">${safe}</text><text x="400" y="375" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#6b756f">Image not available</text></svg>`;return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;}
-  const image = p => p?.images?.whole_plant || p?.images?.habit || p?.images?.leaf || '';
-  function card(p){const n=name(p),img=image(p),c=category(p),id=String(p.id||'');const fallback=fallbackSvg(n||'Plant');const imageHtml=img?`<img src="${esc(img)}" alt="${esc(n)}" loading="lazy" data-fallback="${esc(fallback)}" data-botanical="${esc(botanical(p))}">`:`<img src="${fallback}" alt="${esc(n||'Plant')} image placeholder" loading="lazy" data-botanical="${esc(botanical(p))}">`;return `<article class="plant-card"><div class="plant-image">${imageHtml}</div><div class="plant-card-content"><div class="plant-card-top"><span class="plant-number">${c==='NCISM-97'?'#'+order(p):'Supplementary'}</span><span class="syllabus-marker">${c||'Unclassified'}</span></div><h3>${esc(n)}</h3>${sanskrit(p)?`<p class="plant-sanskrit">${esc(sanskrit(p))}</p>`:''}${botanical(p)?`<p class="plant-botanical"><em>${esc(botanical(p))}</em></p>`:''}${p.english_name||p.english_common_name?`<p class="plant-english">${esc(p.english_name||p.english_common_name)}</p>`:''}${family(p)?`<p class="plant-family"><strong>Family:</strong> ${esc(family(p))}</p>`:''}<a class="view-plant" href="./plant.html?id=${encodeURIComponent(id)}">Open Full Dossier →</a></div></article>`;}
-  function flashcard(p){const n=name(p),s=sanskrit(p),rasa=text(p.rasa)||text(p.dravya_guna?.rasa)||'—',guna=text(p.guna)||text(p.dravya_guna?.guna)||'—';const virya=p.virya||p.dravya_guna?.virya||'—',vipaka=p.vipaka||p.dravya_guna?.vipaka||'—',useful=text(p.useful_part)||text(p.identity?.useful_part)||'—';const badge=category(p)==='NCISM-97'?'#'+order(p):'Supplementary';return `<article class="flashcard" tabindex="0" aria-label="Flashcard for ${esc(n)}"><div class="flash-inner"><div class="flash-face"><div class="plant-number">${badge}</div><h3>${esc(n)}</h3><div class="big-sanskrit">${esc(s||'Sanskrit name unavailable')}</div><p>${esc(botanical(p))}</p><small>Tap / click to flip</small></div><div class="flash-face flash-back"><h3>${esc(n)}</h3><p><strong>Rasa:</strong> ${esc(rasa)}</p><p><strong>Guna:</strong> ${esc(guna)}</p><p><strong>Virya:</strong> ${esc(virya)}</p><p><strong>Vipaka:</strong> ${esc(vipaka)}</p><p><strong>Useful part:</strong> ${esc(useful)}</p><a class="view-plant" href="./plant.html?id=${encodeURIComponent(p.id)}">Open Full Dossier →</a></div></div></article>`;}
-  const imageSources={
-    commons:{name:'Wikimedia Commons',homepage:'https://commons.wikimedia.org/',priority:1},
-    inaturalist:{name:'iNaturalist',homepage:'https://www.inaturalist.org/',priority:2},
-    gbif:{name:'GBIF',homepage:'https://www.gbif.org/',priority:3},
-    powo:{name:'Kew Plants of the World Online',homepage:'https://powo.science.kew.org/',priority:4},
-    efloraindia:{name:'eFlora of India',homepage:'https://efloraofindia.com/',priority:5},
-    indiabiodiversity:{name:'India Biodiversity Portal',homepage:'https://indiabiodiversity.org/',priority:6}
-  };
-  const cleanSpecies = species => String(species||'').replace(/\s+/g,' ').trim();
-  const speciesTokens = species => cleanSpecies(species).toLowerCase().replace(/[()]/g,'').split(/\s+/).filter(x=>x.length>2);
-  const isImageUrl = value => /^https?:\/\//i.test(String(value||''));
-  async function commonsCover(species){
-    try{
-      const q=`"${species}" plant`;
-      const u='https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch='+encodeURIComponent(q)+'&gsrnamespace=6&gsrlimit=20&prop=imageinfo&iiprop=url|mime|extmetadata&iiurlwidth=1000&format=json&origin=*';
-      const r=await fetch(u,{cache:'force-cache'});if(!r.ok)return null;const j=await r.json();const tokens=speciesTokens(species);
-      const excluded=/(leaf|leaves|flower|flowers|fruit|seed|root|bark|stem|trunk|diagram|map|microscope|section|cross.?section|illustration|drawing)/i;
-      const candidates=Object.values(j.query?.pages||{}).filter(p=>{const title=String(p.title||''),low=title.toLowerCase(),info=p.imageinfo?.[0];if(!info||String(info.mime||'').startsWith('video/'))return false;const score=tokens.filter(t=>low.includes(t)).length;return score>=Math.min(2,tokens.length)&&!excluded.test(low);}).sort((a,b)=>tokens.filter(t=>String(b.title).toLowerCase().includes(t)).length-tokens.filter(t=>String(a.title).toLowerCase().includes(t)).length);
-      const p=candidates[0],info=p?.imageinfo?.[0];if(!info)return null;const url=info.thumburl||info.url;return isImageUrl(url)?{url,source:imageSources.commons.name,sourceUrl:'https://commons.wikimedia.org/wiki/'+encodeURIComponent(String(p.title||'').replace(/ /g,'_'))}:null;
-    }catch(e){return null;}
+  const category = p => String(p?.category || p?.syllabus_marker || '').toUpperCase() === 'NCISM-97' ? 'NCISM-97' : '';
+
+  function score(p, query) {
+    const q = normalize(query); if (!q) return 0;
+    const fields = [[name(p),1200],[sanskrit(p),1100],[p.transliteration,1050],[botanical(p),1000],[p.english_name||p.identity?.english_name||p.english_common_name,900],[family(p),800],[p.id,750],[p.search_text,200]];
+    let total = 0;
+    for (const [value, points] of fields) {
+      const x = normalize(value); if (!x) continue;
+      if (x === q) total += points;
+      else if (x.startsWith(q)) total += Math.floor(points * .65);
+      else if (x.includes(q)) total += Math.floor(points * .45);
+    }
+    return total;
   }
-  async function inaturalistCover(species){
-    try{
-      const u='https://api.inaturalist.org/v1/observations?taxon_name='+encodeURIComponent(species)+'&photos=true&photo_license=cc0,cc-by,cc-by-sa&per_page=30&order_by=quality_grade&order=desc';
-      const r=await fetch(u,{cache:'force-cache'});if(!r.ok)return null;const j=await r.json();
-      for(const obs of (j.results||[])){for(const photo of (obs.photos||[])){const code=String(photo.license_code||'').toLowerCase();if(!['cc0','cc-by','cc-by-sa'].includes(code))continue;const url=String(photo.url||'').replace('/square.','/medium.');if(!isImageUrl(url))continue;return{url,source:imageSources.inaturalist.name,sourceUrl:'https://www.inaturalist.org/observations/'+encodeURIComponent(obs.id),attribution:photo.attribution||''};}}
-    }catch(e){}
-    return null;
+
+  function filtered(query='') {
+    let list = masterPlants.filter(p => categoryFilter === 'all' || category(p) === categoryFilter);
+    if (!normalize(query)) return list;
+    return list.map(p => ({p, score: score(p, query)})).filter(x => x.score > 0).sort((a,b) => b.score-a.score || order(a.p)-order(b.p)).map(x => x.p);
   }
-  async function gbifCover(species){
-    try{
-      const u='https://api.gbif.org/v1/occurrence/search?scientificName='+encodeURIComponent(species)+'&media_type=StillImage&limit=25&offset=0';
-      const r=await fetch(u,{cache:'force-cache'});if(!r.ok)return null;const j=await r.json();
-      for(const rec of (j.results||[])){
-        const license=String(rec.license||rec.media?.[0]?.license||'').toLowerCase();
-        if(license && !/(creativecommons.org\/licenses\/(by|by-sa|zero)|cc0|cc by)/i.test(license))continue;
-        const media=(rec.media||[]).find(m=>/^https?:\/\//i.test(String(m.identifier||''))&&String(m.type||'').toLowerCase()==='stillimage')||rec.media?.find(m=>/^https?:\/\//i.test(String(m.identifier||'')));
-        if(!media)continue;
-        const url='https://api.gbif.org/v1/image/cache/1200x/occurrence/'+encodeURIComponent(rec.key)+'/media/'+encodeURIComponent(String(media.identifier).split('/').pop());
-        return{url,source:imageSources.gbif.name,sourceUrl:'https://www.gbif.org/occurrence/'+encodeURIComponent(rec.key),attribution:media.creator||rec.recordedBy||''};
+
+  function fallbackSvg(label) {
+    const safe = String(label||'Plant').replace(/[&<>\"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#039;'}[c]||c));
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520"><rect width="800" height="520" fill="#edf5ef"/><text x="400" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="76">🌿</text><text x="400" y="305" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" fill="#1b4332">${safe}</text><text x="400" y="350" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#6b756f">Verified cover photo not yet approved</text></svg>`;
+    return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+  }
+
+  // STRICT COVER PHOTO RULE:
+  // Cover cards may display ONLY an approved WHOLE-PLANT image from the curated registry.
+  // Never use habit, leaf, bark, flower, fruit, root or stem as a cover fallback.
+  // Never perform live keyword image searches here. Never use an unverified candidate.
+  // Never reuse another plant's image. If no approved image exists, show a placeholder.
+  let coverRegistry = new Map();
+
+  async function loadCoverRegistry() {
+    try {
+      const r = await fetch(MANIFEST_URL, {cache:'no-store', headers:{Accept:'application/json'}});
+      if (!r.ok) return;
+      const manifest = await r.json();
+      for (const rec of (Array.isArray(manifest?.records) ? manifest.records : [])) {
+        if (!rec || String(rec.part) !== 'whole_plant') continue;
+        if (!rec.image_path || !/^https?:\/\//i.test(String(rec.image_path))) continue;
+        if (!['verified','verified-external'].includes(String(rec.verification_status))) continue;
+        if (!rec.source_url || !rec.source_name || !rec.verified_botanical_name) continue;
+        const pid = String(rec.plant_id || '');
+        if (pid && !coverRegistry.has(pid)) coverRegistry.set(pid, rec);
       }
-    }catch(e){}
-    return null;
+    } catch (e) { /* strict empty registry is intentional */ }
   }
-  async function reliableCover(species){
-    if(!cleanSpecies(species))return null;
-    const resolvers=[commonsCover,inaturalistCover,gbifCover];
-    for(const resolver of resolvers){const result=await resolver(species);if(result)return result;}
-    return null;
+
+  function coverFor(p) {
+    const rec = coverRegistry.get(String(p?.id || ''));
+    if (!rec) return null;
+    if (normalize(rec.verified_botanical_name) !== normalize(botanical(p))) return null;
+    return rec;
   }
-  async function verifyVisibleCovers(){
-    const imgs=[...plantList.querySelectorAll('img[data-botanical]')];
-    await Promise.all(imgs.map(async img=>{const species=img.dataset.botanical;if(!species)return;const verified=await reliableCover(species);if(verified){img.src=verified.url;img.removeAttribute('data-fallback');img.dataset.verified='true';img.dataset.imageSource=verified.source;img.title='Verified botanical image • '+verified.source+(verified.attribution?' • '+verified.attribution:'');}}));
+
+  function card(p) {
+    const n = name(p), id = String(p.id||'');
+    const rec = coverFor(p);
+    const imageHtml = rec
+      ? `<img src="${esc(rec.image_path)}" alt="${esc(n)} — verified whole-plant photograph" loading="lazy" decoding="async" data-plant-id="${esc(id)}" data-cover-verified="true" title="Verified whole-plant photograph • ${esc(rec.source_name)}">`
+      : `<img src="${fallbackSvg(n || 'Plant')}" alt="${esc(n||'Plant')} — verified whole-plant photograph unavailable" loading="lazy" data-plant-id="${esc(id)}" data-cover-unavailable="true">`;
+    return `<article class="plant-card" data-plant-id="${esc(id)}"><div class="plant-image">${imageHtml}</div><div class="plant-card-content"><div class="plant-card-top"><span class="plant-number">#${order(p)}</span><span class="syllabus-marker">NCISM-97</span></div><h3>${esc(n)}</h3>${sanskrit(p)?`<p class="plant-sanskrit">${esc(sanskrit(p))}</p>`:''}${botanical(p)?`<p class="plant-botanical"><em>${esc(botanical(p))}</em></p>`:''}${p.english_name||p.english_common_name?`<p class="plant-english">${esc(p.english_name||p.english_common_name)}</p>`:''}${family(p)?`<p class="plant-family"><strong>Family:</strong> ${esc(family(p))}</p>`:''}<a class="view-plant" href="./plant.html?id=${encodeURIComponent(id)}">Open Full Dossier →</a></div></article>`;
   }
-  function render(query=''){const results=filtered(query);const info=document.getElementById('search-result-info');if(info)info.textContent=query?`${results.length} result${results.length===1?'':'s'} found for “${query}”`:`${results.length} record${results.length===1?'':'s'} in ${categoryFilter==='all'?'the library':categoryFilter}`;if(!results.length){plantList.className='plant-grid';plantList.innerHTML='<div class="no-results"><div style="font-size:3rem">🔎</div><h3>No plants found</h3><p>Try a Sanskrit name, Roman name, botanical name, family, or NCISM number.</p></div>';return;}const visible=query||showAll?results:results.slice(0,initialLimit);if(mode==='flash'){plantList.className='flash-grid';plantList.innerHTML=visible.map(flashcard).join('');plantList.querySelectorAll('.flashcard').forEach(c=>{const flip=()=>c.classList.toggle('flipped');c.addEventListener('click',e=>{if(!e.target.closest('a'))flip()});c.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();flip()}});});}else{plantList.className='plant-grid';plantList.innerHTML=visible.map(card).join('')+(!query&&!showAll&&results.length>initialLimit?`<div class="plant-list-actions"><p>Showing ${initialLimit} of ${results.length} records.</p><button type="button" id="show-all-plants">Show all ${results.length}</button></div>`:'');plantList.querySelectorAll('img[data-fallback]').forEach(img=>img.addEventListener('error',()=>{img.src=img.dataset.fallback;img.removeAttribute('data-fallback');},{once:true}));document.getElementById('show-all-plants')?.addEventListener('click',()=>{showAll=true;render(searchInput?.value||'')});verifyVisibleCovers();}}
-  function setupControls(){document.querySelectorAll('[data-mode]').forEach(btn=>btn.addEventListener('click',()=>{mode=btn.dataset.mode;showAll=true;document.querySelectorAll('[data-mode]').forEach(b=>b.classList.toggle('active',b.dataset.mode===mode));render(searchInput?.value||'')}));document.querySelectorAll('[data-category]').forEach(btn=>btn.addEventListener('click',()=>{categoryFilter=btn.dataset.category;showAll=false;document.querySelectorAll('[data-category]').forEach(b=>b.classList.toggle('active',b.dataset.category===categoryFilter));render(searchInput?.value||'')}));const jump=()=>{const n=Number(document.getElementById('ncismJump')?.value);if(!n)return;const p=masterPlants.find(x=>category(x)==='NCISM-97'&&order(x)===n);if(p)location.href=`./plant.html?id=${encodeURIComponent(p.id)}`;else alert('NCISM number not found in the current index.')};document.getElementById('jumpButton')?.addEventListener('click',jump);document.getElementById('ncismJump')?.addEventListener('keydown',e=>{if(e.key==='Enter')jump()});}
-  async function fetchJson(url){const response=await fetch(url,{cache:'no-store',headers:{Accept:'application/json'}});if(!response.ok)throw new Error(`HTTP ${response.status}`);return response.json();}
-  async function load(){try{let indexPayload;try{indexPayload=await fetchJson(urls.index);}catch(indexError){indexPayload={plants:await fetchJson(urls.fallback)}}const indexed=Array.isArray(indexPayload)?indexPayload:(indexPayload.plants||[]);if(!Array.isArray(indexed)||!indexed.length)throw new Error('Invalid plant index.');const indexById=new Map(indexed.filter(p=>p?.id).map(p=>[String(p.id),p]));masterPlants=[...indexById.values()];try{const full=await fetchJson(urls.fallback);if(Array.isArray(full)){const details=new Map(full.filter(p=>p?.id).map(p=>[String(p.id),p]));masterPlants=masterPlants.map(item=>mergeRecord(item,details.get(String(item.id))||{}));}}catch(e){console.warn('Fallback detail database unavailable',e);}const batchResults=await Promise.all(urls.batches.map(async url=>{try{const batch=await fetchJson(url);return Array.isArray(batch)?batch:[]}catch(e){console.warn('Batch data unavailable',url,e);return[];}}));const byKey=new Map(masterPlants.map(p=>[canonicalKey(p),p]));batchResults.flat().filter(p=>p?.id).forEach(p=>{const key=canonicalKey(p);const existing=byKey.get(key);if(existing)byKey.set(key,mergeRecord(existing,p));else byKey.set(key,p);});masterPlants=[...byKey.values()].filter(p=>p?.id&&category(p)).sort(libraryOrder);setupControls();plantList.setAttribute('aria-busy','false');render(searchInput?.value||'');}catch(e){console.error(e);plantList.innerHTML=`<div class="plant-error"><h3>Unable to load the plant library</h3><p>${esc(e.message||'Please refresh the page.')}</p></div>`;plantList.setAttribute('aria-busy','false');}}
-  searchInput?.addEventListener('input',e=>{clearTimeout(searchTimer);showAll=false;searchTimer=setTimeout(()=>render(e.target.value),80);});
-  setupControls();load();
+
+  function flashcard(p) {
+    const n=name(p), s=sanskrit(p), rasa=text(p.rasa)||text(p.dravya_guna?.rasa)||'—', guna=text(p.guna)||text(p.dravya_guna?.guna)||'—';
+    const virya=p.virya||p.dravya_guna?.virya||'—', vipaka=p.vipaka||p.dravya_guna?.vipaka||'—', useful=text(p.useful_part)||text(p.identity?.useful_part)||'—';
+    return `<article class="flashcard" tabindex="0" aria-label="Flashcard for ${esc(n)}"><div class="flash-inner"><div class="flash-face"><div class="plant-number">#${order(p)}</div><h3>${esc(n)}</h3><div class="big-sanskrit">${esc(s||'Sanskrit name unavailable')}</div><p>${esc(botanical(p))}</p><small>Tap / click to flip</small></div><div class="flash-face flash-back"><h3>${esc(n)}</h3><p><strong>Rasa:</strong> ${esc(rasa)}</p><p><strong>Guna:</strong> ${esc(guna)}</p><p><strong>Virya:</strong> ${esc(virya)}</p><p><strong>Vipaka:</strong> ${esc(vipaka)}</p><p><strong>Useful part:</strong> ${esc(useful)}</p><a class="view-plant" href="./plant.html?id=${encodeURIComponent(p.id)}">Open Full Dossier →</a></div></div></article>`;
+  }
+
+  function render(query='') {
+    const results = filtered(query);
+    const info = document.getElementById('search-result-info');
+    if (info) info.textContent = query ? `${results.length} result${results.length===1?'':'s'} found for “${query}”` : `${results.length} record${results.length===1?'':'s'} in ${categoryFilter==='all'?'the NCISM-97 library':categoryFilter}`;
+    if (!results.length) { plantList.className='plant-grid'; plantList.innerHTML='<div class="no-results"><div style="font-size:3rem">🔎</div><h3>No plants found</h3><p>Try a Sanskrit name, Roman name, botanical name, family, or NCISM number.</p></div>'; return; }
+    const visible = query || showAll ? results : results.slice(0, initialLimit);
+    if (mode === 'flash') {
+      plantList.className='flash-grid'; plantList.innerHTML=visible.map(flashcard).join('');
+      plantList.querySelectorAll('.flashcard').forEach(c=>{const flip=()=>c.classList.toggle('flipped');c.addEventListener('click',e=>{if(!e.target.closest('a'))flip()});c.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();flip()}});});
+    } else {
+      plantList.className='plant-grid';
+      plantList.innerHTML=visible.map(card).join('') + (!query&&!showAll&&results.length>initialLimit ? `<div class="plant-list-actions"><p>Showing ${initialLimit} of ${results.length} records.</p><button type="button" id="show-all-plants">Show all ${results.length}</button></div>` : '');
+      plantList.querySelectorAll('img[data-cover-verified]').forEach(img=>img.addEventListener('error',()=>{const alt=img.alt.replace(/ — verified whole-plant photograph$/,'');img.src=fallbackSvg(alt);img.removeAttribute('data-cover-verified');img.dataset.coverUnavailable='true';img.alt=alt+' — verified whole-plant photograph unavailable';},{once:true}));
+      document.getElementById('show-all-plants')?.addEventListener('click',()=>{showAll=true;render(query)});
+    }
+  }
+
+  async function load() {
+    plantList.setAttribute('aria-busy','true');
+    try {
+      const [indexResponse] = await Promise.all([
+        fetch(INDEX_URL,{cache:'no-store',headers:{Accept:'application/json'}}),
+        loadCoverRegistry()
+      ]);
+      let data = indexResponse.ok ? await indexResponse.json() : null;
+      if (!data) {
+        const r=await fetch(INDEX_FALLBACK,{cache:'no-store',headers:{Accept:'application/json'}});
+        if(r.ok) data=await r.json();
+      }
+      const raw = Array.isArray(data?.plants) ? data.plants : [];
+      masterPlants = raw.filter(p=>category(p)==='NCISM-97' && order(p)>=1 && order(p)<=97).sort((a,b)=>order(a)-order(b));
+      if (masterPlants.length !== 97) throw new Error(`Expected 97 NCISM records, received ${masterPlants.length}`);
+      categoryFilter='all';
+      render('');
+    } catch (e) {
+      plantList.innerHTML='<div class="plant-error"><h3>Plant database unavailable</h3><p>The canonical NCISM-97 index could not be loaded. Please refresh after deployment.</p></div>';
+    } finally { plantList.setAttribute('aria-busy','false'); }
+  }
+
+  document.querySelectorAll('[data-mode]').forEach(btn=>btn.addEventListener('click',()=>{mode=btn.dataset.mode;document.querySelectorAll('[data-mode]').forEach(x=>x.classList.toggle('active',x===btn));render(searchInput?.value||'');}));
+  document.querySelectorAll('[data-category]').forEach(btn=>btn.addEventListener('click',()=>{categoryFilter=btn.dataset.category;showAll=false;document.querySelectorAll('[data-category]').forEach(x=>x.classList.toggle('active',x===btn));render(searchInput?.value||'');}));
+  searchInput?.addEventListener('input',()=>{showAll=false;clearTimeout(window.__dgSearchTimer);window.__dgSearchTimer=setTimeout(()=>render(searchInput.value),80);});
+  document.getElementById('jumpButton')?.addEventListener('click',()=>{const n=Number(document.getElementById('ncismJump')?.value);if(n>=1&&n<=97){const p=masterPlants.find(x=>order(x)===n);if(p)location.href=`./plant.html?id=${encodeURIComponent(p.id)}`;}});
+  document.getElementById('ncismJump')?.addEventListener('keydown',e=>{if(e.key==='Enter')document.getElementById('jumpButton')?.click();});
+
+  load();
 });
