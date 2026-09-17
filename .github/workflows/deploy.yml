@@ -39,7 +39,7 @@ jobs:
           assert len(core)==97, f'Expected 97 NCISM records, found {len(core)}'
           index=json.loads((root/'plant-index.json').read_text(encoding='utf-8'))
           assert len(index.get('plants',[]))==111, 'Generated index must contain the current 111 indexed records'
-          pages=['index.html','plants.html','plant.html','compare.html','quiz.html','practical-lab.html','references.html','404.html']
+          pages=['index.html','plants.html','plant.html','compare.html','quiz.html','viva.html','progress.html','rasa.html','reference-library.html','practical-lab.html','references.html','data-quality.html','404.html']
           for page in root.rglob('*.html'):
               html=page.read_text(encoding='utf-8')
               html=re.sub(r'<link[^>]+rel=["\'](?:icon|shortcut icon|apple-touch-icon)["\'][^>]*>', '', html, flags=re.I)
