@@ -10,7 +10,7 @@ async function load(){
   const records=Array.isArray(manifest?.records)?manifest.records:[];
   const approved=new Map();
   for(const r of records){
-    if(!r||String(r.part)!=='whole_plant'||!r.image_path)continue;
+    if(!r||String(r.part)!=='whole_plant'||!(r.image_path||r.source_media_url))continue;
     if(!['verified','verified-external','verified-local'].includes(String(r.verification_status||'').toLowerCase()))continue;
     if(!r.source_url||!r.source_name||!r.verified_botanical_name)continue;
     const id=String(r.plant_id||'');if(id&&!approved.has(id))approved.set(id,r);
@@ -30,7 +30,7 @@ async function load(){
       img.removeAttribute('data-curated');
       return;
     }
-    img.src=rec.image_path;img.dataset.curated='true';img.dataset.verified='true';img.title='✓ Exact botanical species verified • Whole plant • '+rec.source_name;
+    img.src=rec.image_path||rec.source_media_url;img.dataset.curated='true';img.dataset.verified='true';img.title='✓ Exact botanical species verified • Whole plant • '+rec.source_name;
     img.addEventListener('error',()=>{img.src=placeholder(plant?.identity?.name||plant?.name||id||'Plant');img.removeAttribute('data-curated');},{once:true});
   }));
 }
