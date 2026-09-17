@@ -1,19 +1,15 @@
 name: Deploy DravyaGuna 97 to GitHub Pages
-
 on:
   push:
     branches: ["main"]
   workflow_dispatch:
-
 permissions:
   contents: read
   pages: write
   id-token: write
-
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: false
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -23,18 +19,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
-      - name: Assemble modular database
-        shell: bash
-        run: python scripts/database-folder.py assemble
-      - name: Normalize source data and generate site artifacts
+      - name: Validate modular database and generate index
         shell: bash
         run: |
-          python scripts/normalize-plants-schema.py
           python scripts/generate-site-artifacts.py
-      - name: Public readiness validation and sitemap generation
-        shell: bash
-        run: python scripts/public-readiness.py
-      - name: Prepare static site, fast index and plant dossiers
+          python scripts/public-readiness.py
+      - name: Prepare static site
         shell: bash
         run: |
           rm -rf _site
@@ -43,73 +33,50 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          root = Path('_site')
-          plants = json.loads((root / 'plants.json').read_text(encoding='utf-8'))
-          index = json.loads((root / 'plant-index.json').read_text(encoding='utf-8'))
-          assert len(plants) >= 97, f'Expected at least 97 records, found {len(plants)}'
-          assert len(index['plants']) == len(plants), 'Index/database record count mismatch'
-          assert {p['id'] for p in plants} == {p['id'] for p in index['plants']}, 'Index/database IDs mismatch'
-          (root / 'data' / 'plants').mkdir(parents=True, exist_ok=True)
-          for plant in plants:
-              (root / 'data' / 'plants' / f"{plant['id']}.json").write_text(json.dumps(plant, ensure_ascii=False, indent=2), encoding='utf-8')
-          (root / 'data' / 'plants-index.json').write_text(json.dumps(index, ensure_ascii=False, indent=2), encoding='utf-8')
-          print(f'Prepared {len(plants)} plant detail files')
+          root=Path('_site'); db=root/'data'/'plants'
+          files=[p for p in db.glob('*.json') if p.name not in {'index.json','schema.json'}]
+          records=[json.loads(p.read_text(encoding='utf-8')) for p in files]
+          core=[p for p in records if p.get('category')=='NCISM-97' and 1<=int(p.get('order',0))<=97]
+          assert len(core)==97, f'Expected 97 NCISM records, found {len(core)}'
+          index=json.loads((root/'plant-index.json').read_text(encoding='utf-8'))
+          assert len(index['plants'])==97, 'Index must contain exactly 97 NCISM records'
+          (root/'data'/'plants-index.json').write_text(json.dumps(index,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(f'Prepared {len(files)} modular plant files; {len(core)} canonical NCISM files')
           PY
-      - name: Wire PWA, academic tools, SEO and responsive plant layout
+      - name: Wire PWA, academic tools, SEO and responsive layout
         shell: bash
         run: |
           python - <<'PY'
           from pathlib import Path
-          root = Path('_site')
-          for filename in ['index.html', 'plant.html', 'plants.html', 'compare.html', 'quiz.html', 'practical-lab.html', 'references.html']:
-              p = root / filename
-              if not p.exists():
-                  continue
-              s = p.read_text(encoding='utf-8')
-              if '<link rel="manifest"' not in s:
-                  s = s.replace('</head>', '<link rel="manifest" href="manifest.json"><meta name="theme-color" content="#1b4332">\n</head>', 1)
-              if "navigator.serviceWorker.register('./sw.js')" not in s:
-                  s = s.replace('</body>', "<script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));}</script>\n</body>", 1)
-              if '<script src="public-seo.js" defer></script>' not in s:
-                  s = s.replace('</body>', '<script src="public-seo.js" defer></script>\n</body>', 1)
-              if '<link rel="stylesheet" href="academic-enhancements.css">' not in s:
-                  s = s.replace('</head>', '<link rel="stylesheet" href="academic-enhancements.css">\n</head>', 1)
-              if filename in ['plants.html','plant.html'] and '<script src="academic-enhancements.js" defer></script>' not in s:
-                  s = s.replace('</body>', '<script src="academic-enhancements.js" defer></script>\n</body>', 1)
-              if filename in ['plants.html','plant.html'] and '<link rel="stylesheet" href="botanical-ui-enhancements.css">' not in s:
-                  s = s.replace('</head>', '<link rel="stylesheet" href="botanical-ui-enhancements.css">\n</head>', 1)
-              if filename == 'plants.html' and '<script src="library-botanical-images.js" defer></script>' not in s:
-                  s = s.replace('</body>', '<script src="library-botanical-images.js" defer></script>\n</body>', 1)
-              if filename == 'plant.html':
-                  if '<link rel="stylesheet" href="quick-revision-flashcards.css">' not in s:
-                      s = s.replace('</head>', '<link rel="stylesheet" href="quick-revision-flashcards.css">\n</head>', 1)
-                  if '<script src="quick-revision-flashcards.js" defer></script>' not in s:
-                      s = s.replace('</body>', '<script src="quick-revision-flashcards.js" defer></script>\n</body>', 1)
-                  if '<script src="academic-verification.js" defer></script>' not in s:
-                      s = s.replace('</body>', '<script src="academic-verification.js" defer></script>\n</body>', 1)
-                  if '<script src="verified-botanical-images.js" defer></script>' not in s:
-                      s = s.replace('</body>', '<script src="verified-botanical-images.js" defer></script>\n</body>', 1)
-              if filename == 'practical-lab.html' and '<script src="practical-lab-enhanced.js" defer></script>' not in s:
-                  s = s.replace('</body>', '<script src="practical-lab-enhanced.js" defer></script>\n</body>', 1)
-              if filename == 'references.html' and '<script src="classical-references-enhanced.js" defer></script>' not in s:
-                  s = s.replace('</body>', '<script src="classical-references-enhanced.js" defer></script>\n</body>', 1)
-              p.write_text(s, encoding='utf-8')
-          p = root / 'plant.html'
-          s = p.read_text(encoding='utf-8')
-          old = "fetch(new URL('plants.json',location.href),{cache:'no-store',headers:{Accept:'application/json'}}).then"
-          new = "fetch(new URL('data/plants/'+encodeURIComponent(id)+'.json',location.href),{cache:'no-store',headers:{Accept:'application/json'}}).catch(()=>fetch(new URL('plants.json',location.href),{cache:'no-store',headers:{Accept:'application/json'}})).then"
-          if old in s:
-              s = s.replace(old, new, 1)
-          marker = '<link rel="stylesheet" href="plant-dossier-layout.css">'
-          if marker not in s:
-              s = s.replace('</head>', marker + '\n</head>', 1)
-          p.write_text(s, encoding='utf-8')
+          root=Path('_site')
+          for filename in ['index.html','plant.html','plants.html','compare.html','quiz.html','practical-lab.html','references.html']:
+            p=root/filename
+            if not p.exists(): continue
+            s=p.read_text(encoding='utf-8')
+            if '<link rel="manifest"' not in s: s=s.replace('</head>','<link rel="manifest" href="manifest.json"><meta name="theme-color" content="#1b4332">\n</head>',1)
+            if "navigator.serviceWorker.register('./sw.js')" not in s: s=s.replace('</body>',"<script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));}</script>\n</body>",1)
+            if '<script src="public-seo.js" defer></script>' not in s: s=s.replace('</body>','<script src="public-seo.js" defer></script>\n</body>',1)
+            if '<link rel="stylesheet" href="academic-enhancements.css">' not in s: s=s.replace('</head>','<link rel="stylesheet" href="academic-enhancements.css">\n</head>',1)
+            if filename in ['plants.html','plant.html'] and '<script src="academic-enhancements.js" defer></script>' not in s: s=s.replace('</body>','<script src="academic-enhancements.js" defer></script>\n</body>',1)
+            if filename in ['plants.html','plant.html'] and '<link rel="stylesheet" href="botanical-ui-enhancements.css">' not in s: s=s.replace('</head>','<link rel="stylesheet" href="botanical-ui-enhancements.css">\n</head>',1)
+            if filename=='plants.html' and '<script src="library-botanical-images.js" defer></script>' not in s: s=s.replace('</body>','<script src="library-botanical-images.js" defer></script>\n</body>',1)
+            if filename=='plant.html':
+              if '<link rel="stylesheet" href="quick-revision-flashcards.css">' not in s: s=s.replace('</head>','<link rel="stylesheet" href="quick-revision-flashcards.css">\n</head>',1)
+              if '<script src="quick-revision-flashcards.js" defer></script>' not in s: s=s.replace('</body>','<script src="quick-revision-flashcards.js" defer></script>\n</body>',1)
+              if '<script src="academic-verification.js" defer></script>' not in s: s=s.replace('</body>','<script src="academic-verification.js" defer></script>\n</body>',1)
+              if '<script src="verified-botanical-images.js" defer></script>' not in s: s=s.replace('</body>','<script src="verified-botanical-images.js" defer></script>\n</body>',1)
+            if filename=='practical-lab.html' and '<script src="practical-lab-enhanced.js" defer></script>' not in s: s=s.replace('</body>','<script src="practical-lab-enhanced.js" defer></script>\n</body>',1)
+            if filename=='references.html' and '<script src="classical-references-enhanced.js" defer></script>' not in s: s=s.replace('</body>','<script src="classical-references-enhanced.js" defer></body>',1)
+            p.write_text(s,encoding='utf-8')
+          p=root/'plant.html'; s=p.read_text(encoding='utf-8'); s=s.replace("fetch(new URL('plants.json',location.href),{cache:'no-store',headers:{Accept:'application/json'}}).then","fetch(new URL('data/plants/'+encodeURIComponent(id)+'.json',location.href),{cache:'no-store',headers:{Accept:'application/json'}}).then",1)
+          if '<link rel="stylesheet" href="plant-dossier-layout.css">' not in s: s=s.replace('</head>','<link rel="stylesheet" href="plant-dossier-layout.css">\n</head>',1)
+          p.write_text(s,encoding='utf-8')
           PY
           touch _site/.nojekyll
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: '_site'
+          path: _site
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
