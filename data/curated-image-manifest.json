@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "status": "production-registry",
   "purpose": "Fresh image registry for the 97 NCISM Dravyaguna plants. All previous image approvals have been cleared. Images are added only after strict botanical-species, plant-part, licensing, and duplicate checks.",
   "policy": {
@@ -10,7 +10,11 @@
     "ai_only_matches_forbidden": true,
     "wrong_image_preferred_over_missing": false,
     "old_registry_reverification_required": true,
-    "local_assets_required": true
+    "local_assets_required": true,
+    "additional_sources": [
+      "Wikimedia Commons",
+      "iNaturalist"
+    ]
   },
   "parts": [
     "whole_plant",
@@ -30,13 +34,15 @@
       "plant_name": "Amalaki",
       "botanical_name": "Phyllanthus emblica L.",
       "part": "whole_plant",
-      "image_path": "",
-      "source_url": "",
-      "source_name": "",
-      "license": "",
-      "author": "",
-      "verified_botanical_name": "",
-      "verification_status": "missing-queued"
+      "image_path": "images/plants/amalaki/whole_plant/image.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AGardenology.org-IMG_8024_qsbg11mar.jpg",
+      "source_name": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "author": "Raffi Kojian",
+      "verified_botanical_name": "Phyllanthus emblica L.",
+      "verification_status": "verified-local",
+      "source_media_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Gardenology.org-IMG_8024_qsbg11mar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "title": "Gardenology.org-IMG 8024 qsbg11mar.jpg"
     },
     {
       "plant_id": "amalaki",
@@ -44,13 +50,15 @@
       "plant_name": "Amalaki",
       "botanical_name": "Phyllanthus emblica L.",
       "part": "habit",
-      "image_path": "",
-      "source_url": "",
-      "source_name": "",
-      "license": "",
-      "author": "",
-      "verified_botanical_name": "",
-      "verification_status": "missing-queued"
+      "image_path": "images/plants/amalaki/habit/image.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AGardenology.org-IMG_8025_qsbg11mar.jpg",
+      "source_name": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "author": "Raffi Kojian",
+      "verified_botanical_name": "Phyllanthus emblica L.",
+      "verification_status": "verified-local",
+      "source_media_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Gardenology.org-IMG_8025_qsbg11mar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "title": "Gardenology.org-IMG 8025 qsbg11mar.jpg"
     },
     {
       "plant_id": "amalaki",
@@ -8226,13 +8234,15 @@
       "plant_name": "Musta",
       "botanical_name": "Cyperus rotundus L.",
       "part": "whole_plant",
-      "image_path": "",
-      "source_url": "",
-      "source_name": "",
-      "license": "",
-      "author": "",
-      "verified_botanical_name": "",
-      "verification_status": "missing-queued"
+      "image_path": "images/plants/musta/whole_plant/image.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AAquatic_and_wetland_plants_of_southwestern_United_States_%28Page_453%29_BHL3346917.jpg",
+      "source_name": "Wikimedia Commons",
+      "license": "Public domain",
+      "author": "Correll, Donovan Stewart; Correll, Helen B.",
+      "verified_botanical_name": "Cyperus rotundus L.",
+      "verification_status": "verified-local",
+      "source_media_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Aquatic_and_wetland_plants_of_southwestern_United_States_%28Page_453%29_BHL3346917.jpg/1920px-Aquatic_and_wetland_plants_of_southwestern_United_States_%28Page_453%29_BHL3346917.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Aquatic and wetland plants of southwestern United States (Page 453) BHL3346917.jpg"
     },
     {
       "plant_id": "musta",
@@ -8240,13 +8250,15 @@
       "plant_name": "Musta",
       "botanical_name": "Cyperus rotundus L.",
       "part": "habit",
-      "image_path": "",
-      "source_url": "",
-      "source_name": "",
-      "license": "",
-      "author": "",
-      "verified_botanical_name": "",
-      "verification_status": "missing-queued"
+      "image_path": "images/plants/musta/habit/image.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACamerarius_Cyperus.jpg",
+      "source_name": "Wikimedia Commons",
+      "license": "Public domain",
+      "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+      "verified_botanical_name": "Cyperus rotundus L.",
+      "verification_status": "verified-local",
+      "source_media_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Camerarius_Cyperus.jpg/1920px-Camerarius_Cyperus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Camerarius Cyperus.jpg"
     },
     {
       "plant_id": "musta",
@@ -10382,13 +10394,15 @@
       "plant_name": "Shatavari",
       "botanical_name": "Asparagus racemosus Willd.",
       "part": "habit",
-      "image_path": "",
-      "source_url": "",
-      "source_name": "",
-      "license": "",
-      "author": "",
-      "verified_botanical_name": "",
-      "verification_status": "missing-queued"
+      "image_path": "images/plants/shatavari/habit/image.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AAsparagus_racemosus_Willd._%2848150520331%29.jpg",
+      "source_name": "Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/91314344@N00\">Dinesh Valke</a> from Thane, India",
+      "verified_botanical_name": "Asparagus racemosus Willd.",
+      "verification_status": "verified-local",
+      "source_media_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Asparagus_racemosus_Willd._%2848150520331%29.jpg/1920px-Asparagus_racemosus_Willd._%2848150520331%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Asparagus racemosus Willd. (48150520331).jpg"
     },
     {
       "plant_id": "shatavari",
@@ -10396,13 +10410,15 @@
       "plant_name": "Shatavari",
       "botanical_name": "Asparagus racemosus Willd.",
       "part": "root",
-      "image_path": "",
-      "source_url": "",
-      "source_name": "",
-      "license": "",
-      "author": "",
-      "verified_botanical_name": "",
-      "verification_status": "missing-queued"
+      "image_path": "images/plants/shatavari/root/image.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AAsparagus_racemosus_Willd._%285780788233%29.jpg",
+      "source_name": "Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/91314344@N00\">Dinesh Valke</a> from Thane, India",
+      "verified_botanical_name": "Asparagus racemosus Willd.",
+      "verification_status": "verified-local",
+      "source_media_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Asparagus_racemosus_Willd._%285780788233%29.jpg/1920px-Asparagus_racemosus_Willd._%285780788233%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Asparagus racemosus Willd. (5780788233).jpg"
     },
     {
       "plant_id": "shatavari",

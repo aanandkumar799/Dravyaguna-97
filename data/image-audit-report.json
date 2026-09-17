@@ -1,36 +1,54 @@
 {
-  "generated_at": "2026-09-17T21:25:30.689138+00:00",
+  "generated_at": "2026-09-17T21:31:48.681001+00:00",
   "plants_checked": 97,
   "slots_checked": 873,
   "filled_this_run": [
     {
       "plant_id": "amalaki",
-      "part": "flower",
-      "action": "downloaded-approved-image",
-      "path": "images/plants/amalaki/flower/image.jpg",
-      "bytes": 551089
+      "part": "whole_plant",
+      "action": "downloaded-new-image",
+      "path": "images/plants/amalaki/whole_plant/image.jpg",
+      "bytes": 361319
     },
     {
       "plant_id": "amalaki",
-      "part": "fruit",
-      "action": "downloaded-approved-image",
-      "path": "images/plants/amalaki/fruit/image.jpg",
-      "bytes": 646574
+      "part": "habit",
+      "action": "downloaded-new-image",
+      "path": "images/plants/amalaki/habit/image.jpg",
+      "bytes": 331896
+    },
+    {
+      "plant_id": "musta",
+      "part": "whole_plant",
+      "action": "downloaded-new-image",
+      "path": "images/plants/musta/whole_plant/image.jpg",
+      "bytes": 900621
+    },
+    {
+      "plant_id": "musta",
+      "part": "habit",
+      "action": "downloaded-new-image",
+      "path": "images/plants/musta/habit/image.jpg",
+      "bytes": 606701
+    },
+    {
+      "plant_id": "shatavari",
+      "part": "habit",
+      "action": "downloaded-new-image",
+      "path": "images/plants/shatavari/habit/image.jpg",
+      "bytes": 409846
+    },
+    {
+      "plant_id": "shatavari",
+      "part": "root",
+      "action": "downloaded-new-image",
+      "path": "images/plants/shatavari/root/image.jpg",
+      "bytes": 283876
     }
   ],
   "unresolved": [
     {
       "plant_id": "amalaki",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "amalaki",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "amalaki",
       "part": "root",
       "reason": "no-high-confidence-unique-image"
     },
@@ -72,5184 +90,4291 @@
     {
       "plant_id": "aragwadha",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "aragwadha",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "aragwadha",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "aragwadha",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "aragwadha",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "aragwadha",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "arjuna",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "arjuna",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "arjuna",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "arjuna",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "arjuna",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "arjuna",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "arjuna",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "arjuna",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "arjuna",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ashoka",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ashoka",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ashoka",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ashoka",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ashoka",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ashoka",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ashoka",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ashoka",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ashoka",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ashwagandha",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ashwagandha",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ashwagandha",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ashwagandha",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ashwagandha",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ashwagandha",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ashwagandha",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ashwagandha",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ashwagandha",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ativisha",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ativisha",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ativisha",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ativisha",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ativisha",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ativisha",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ativisha",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ativisha",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ativisha",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bala",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bala",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bala",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bala",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bala",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bala",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bala",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bala",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bala",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "beejaka",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "beejaka",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "beejaka",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "beejaka",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "beejaka",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "beejaka",
-      "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "beejaka",
-      "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "beejaka",
-      "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "beejaka",
-      "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhallataka",
-      "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhallataka",
-      "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhallataka",
-      "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhallataka",
-      "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhallataka",
-      "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhallataka",
-      "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhallataka",
-      "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhallataka",
-      "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhallataka",
-      "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bharangi",
-      "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bharangi",
-      "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bharangi",
-      "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bharangi",
-      "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bharangi",
-      "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bharangi",
-      "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bharangi",
-      "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bharangi",
-      "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bharangi",
-      "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhrungaraja",
-      "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhrungaraja",
-      "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhrungaraja",
-      "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhrungaraja",
-      "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhrungaraja",
-      "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhrungaraja",
-      "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhrungaraja",
-      "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhrungaraja",
-      "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhrungaraja",
-      "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhumyamalaki",
-      "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhumyamalaki",
-      "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhumyamalaki",
-      "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhumyamalaki",
-      "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhumyamalaki",
-      "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "bhumyamalaki",
-      "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "bhumyamalaki",
-      "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "bhumyamalaki",
-      "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "bhumyamalaki",
-      "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "bilva",
-      "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "bilva",
-      "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "bilva",
-      "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "bilva",
-      "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "bilva",
-      "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "bilva",
-      "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "bilva",
-      "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "bilva",
-      "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "bilva",
-      "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "brahmi",
-      "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "brahmi",
-      "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "brahmi",
-      "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "brahmi",
-      "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "brahmi",
-      "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "brahmi",
-      "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "brahmi",
-      "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "brahmi",
-      "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "brahmi",
-      "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "chandana",
-      "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "chandana",
-      "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "chandana",
-      "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "chandana",
-      "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "chandana",
-      "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "chandana",
-      "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "chandana",
-      "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "chandana",
-      "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "chandana",
-      "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "chitraka",
-      "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "chitraka",
-      "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "chitraka",
-      "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "chitraka",
-      "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "chitraka",
-      "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "chitraka",
-      "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "plant_id": "chitraka",
-      "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "chitraka",
-      "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "chitraka",
-      "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "dadima",
-      "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "dadima",
-      "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "dadima",
-      "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "dadima",
-      "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "dadima",
-      "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "dadima",
       "part": "flower",
       "reason": "download-failed",
       "detail": "HTTP Error 429: Too many requests (f061ab2)"
     },
     {
-      "plant_id": "dadima",
+      "plant_id": "beejaka",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "beejaka",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "beejaka",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhallataka",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhallataka",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhallataka",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhallataka",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhallataka",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhallataka",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhallataka",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhallataka",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhallataka",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bharangi",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bharangi",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bharangi",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bharangi",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bharangi",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bharangi",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bharangi",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bharangi",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bharangi",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhrungaraja",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhrungaraja",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhrungaraja",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhrungaraja",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhrungaraja",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhrungaraja",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhrungaraja",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhrungaraja",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhrungaraja",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhumyamalaki",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhumyamalaki",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhumyamalaki",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhumyamalaki",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhumyamalaki",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhumyamalaki",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhumyamalaki",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhumyamalaki",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhumyamalaki",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bilva",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bilva",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bilva",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bilva",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bilva",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bilva",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bilva",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bilva",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bilva",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "brahmi",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "brahmi",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "brahmi",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "brahmi",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "brahmi",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "brahmi",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "brahmi",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "brahmi",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "brahmi",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chandana",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chandana",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chandana",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chandana",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chandana",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chandana",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chandana",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chandana",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chandana",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chitraka",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chitraka",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chitraka",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chitraka",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chitraka",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chitraka",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chitraka",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chitraka",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chitraka",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dadima",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dadima",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dadima",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dadima",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dadima",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dadima",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dadima",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dadima",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dadima",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhataki",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhataki",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhataki",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhataki",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhataki",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhataki",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhataki",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhataki",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhataki",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhamasa",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhamasa",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhamasa",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhamasa",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhamasa",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhamasa",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhamasa",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhamasa",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhamasa",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "eranda",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "eranda",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "eranda",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "eranda",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "eranda",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "eranda",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "eranda",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "eranda",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "eranda",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "gokshura",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "gokshura",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "gokshura",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "gokshura",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "gokshura",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "gokshura",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "gokshura",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "gokshura",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "gokshura",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "guduchi",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "guduchi",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "guduchi",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "guduchi",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "guduchi",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "guduchi",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "guduchi",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "guduchi",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "guduchi",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "guggulu",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "guggulu",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "guggulu",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "guggulu",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "guggulu",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "guggulu",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "guggulu",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "guggulu",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "guggulu",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "haridra",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "haridra",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "haridra",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "haridra",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "haridra",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "haridra",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "haridra",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "haridra",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "haridra",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "haritaki",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "haritaki",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "haritaki",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "haritaki",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "haritaki",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "haritaki",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "haritaki",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "haritaki",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "haritaki",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "hingu",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "hingu",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "hingu",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "hingu",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "hingu",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "hingu",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "hingu",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "hingu",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "hingu",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jambu",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jambu",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jambu",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jambu",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jambu",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jambu",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jambu",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jambu",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jambu",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jatamansi",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jatamansi",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jatamansi",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jatamansi",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jatamansi",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jatamansi",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jatamansi",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jatamansi",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jatamansi",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jyotishmati",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jyotishmati",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jyotishmati",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jyotishmati",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jyotishmati",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jyotishmati",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jyotishmati",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jyotishmati",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jyotishmati",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kanchanara",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kanchanara",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kanchanara",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kanchanara",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kanchanara",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kanchanara",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kanchanara",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kanchanara",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kanchanara",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kantakari",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kantakari",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kantakari",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kantakari",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kantakari",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kantakari",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kantakari",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kantakari",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kantakari",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kapikachhu",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kapikachhu",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kapikachhu",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kapikachhu",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kapikachhu",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kapikachhu",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kapikachhu",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kapikachhu",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kapikachhu",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "karkatshrungi",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "karkatshrungi",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "karkatshrungi",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "karkatshrungi",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "karkatshrungi",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "karkatshrungi",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "karkatshrungi",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "karkatshrungi",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "karkatshrungi",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "katuki",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "katuki",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "katuki",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "katuki",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "katuki",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "katuki",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "katuki",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "katuki",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "katuki",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "khadira",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "khadira",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "khadira",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "khadira",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "khadira",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "khadira",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "khadira",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "khadira",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "khadira",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kumari",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kumari",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kumari",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kumari",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kumari",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kumari",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kumari",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kumari",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kumari",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kutaja",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kutaja",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kutaja",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kutaja",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kutaja",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kutaja",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kutaja",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kutaja",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kutaja",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "latakaranja",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "latakaranja",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "latakaranja",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "latakaranja",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "latakaranja",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "latakaranja",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "latakaranja",
       "part": "fruit",
-      "reason": "download-failed",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "latakaranja",
-      "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "latakaranja",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "latakaranja",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lodhra",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lodhra",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lodhra",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lodhra",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lodhra",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lodhra",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lodhra",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lodhra",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lodhra",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "agnimanth",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "agnimanth",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "agnimanth",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "agnimanth",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "agnimanth",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "agnimanth",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "agnimanth",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "agnimanth",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "agnimanth",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ahiphena",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ahiphena",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ahiphena",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ahiphena",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ahiphena",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ahiphena",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ahiphena",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ahiphena",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ahiphena",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ajamoda",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ajamoda",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ajamoda",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ajamoda",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ajamoda",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ajamoda",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ajamoda",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ajamoda",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ajamoda",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "apamarga",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "apamarga",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "apamarga",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "apamarga",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "apamarga",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "apamarga",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "apamarga",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "apamarga",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "apamarga",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "asthishrunkhala",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "asthishrunkhala",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "asthishrunkhala",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "asthishrunkhala",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "asthishrunkhala",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "asthishrunkhala",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "asthishrunkhala",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "asthishrunkhala",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "asthishrunkhala",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bakuchi",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bakuchi",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bakuchi",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bakuchi",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bakuchi",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bakuchi",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bakuchi",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bakuchi",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bakuchi",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bruhati",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bruhati",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bruhati",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bruhati",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bruhati",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bruhati",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bruhati",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bruhati",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "bruhati",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "chakramarda",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "chakramarda",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "chakramarda",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "chakramarda",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "chakramarda",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "chakramarda",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "chakramarda",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "chakramarda",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "chakramarda",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhanyaka",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhanyaka",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhanyaka",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhanyaka",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhanyaka",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhanyaka",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhanyaka",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhanyaka",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "dhanyaka",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ela",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ela",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ela",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ela",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ela",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ela",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ela",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ela",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "ela",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "gambhari",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "gambhari",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "gambhari",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "gambhari",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "gambhari",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "gambhari",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "gambhari",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "gambhari",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "gambhari",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "japa",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "japa",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "japa",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "japa",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "japa",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "japa",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "japa",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "japa",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "japa",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jatiphala",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jatiphala",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jatiphala",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jatiphala",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jatiphala",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jatiphala",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jatiphala",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jatiphala",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jatiphala",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jeeraka",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jeeraka",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jeeraka",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jeeraka",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jeeraka",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jeeraka",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jeeraka",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jeeraka",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "jeeraka",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kalamegha",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kalamegha",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kalamegha",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kalamegha",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kalamegha",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kalamegha",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kalamegha",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kalamegha",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kalamegha",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kampillaka",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kampillaka",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kampillaka",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kampillaka",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kampillaka",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kampillaka",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kampillaka",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kampillaka",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kampillaka",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kulatha",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kulatha",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kulatha",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kulatha",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kulatha",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kulatha",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kulatha",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kulatha",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kulatha",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kumkum",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kumkum",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kumkum",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kumkum",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kumkum",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kumkum",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kumkum",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kumkum",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kumkum",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lajjalu",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lajjalu",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lajjalu",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lajjalu",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lajjalu",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lajjalu",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lajjalu",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lajjalu",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lajjalu",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lavanga",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lavanga",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lavanga",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lavanga",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lavanga",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lavanga",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lavanga",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lavanga",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "lavanga",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "madanphala",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "madanphala",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "madanphala",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "madanphala",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "madanphala",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "madanphala",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "madanphala",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "madanphala",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "madanphala",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "mandukaparni",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "mandukaparni",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "mandukaparni",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "mandukaparni",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "mandukaparni",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "mandukaparni",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "mandukaparni",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "mandukaparni",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "mandukaparni",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "manjishta",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "manjishta",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "manjishta",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "manjishta",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "manjishta",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "manjishta",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "manjishta",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "manjishta",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "manjishta",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "maricha",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "maricha",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "maricha",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "maricha",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "maricha",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "maricha",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "maricha",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "maricha",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "maricha",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "meshshrungi",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "meshshrungi",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "meshshrungi",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "meshshrungi",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "meshshrungi",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "meshshrungi",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "meshshrungi",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "meshshrungi",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "meshshrungi",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "methika",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "methika",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "methika",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "methika",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "methika",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "methika",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "methika",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "methika",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "methika",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "musta",
-      "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "musta",
-      "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "musta",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "musta",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "musta",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "musta",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "musta",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "musta",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "musta",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nagkeshar",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nagkeshar",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nagkeshar",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nagkeshar",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nagkeshar",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nagkeshar",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nagkeshar",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nagkeshar",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nagkeshar",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nimba",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nimba",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nimba",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nimba",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nimba",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nimba",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nimba",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nimba",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nimba",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nirgundi",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nirgundi",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nirgundi",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nirgundi",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nirgundi",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nirgundi",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nirgundi",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nirgundi",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "nirgundi",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "palasha",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "palasha",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "palasha",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "palasha",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "palasha",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "palasha",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "palasha",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "palasha",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "palasha",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "pashanabheda",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "pashanabheda",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "pashanabheda",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "pashanabheda",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "pashanabheda",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "pashanabheda",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "pashanabheda",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "pashanabheda",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "pashanabheda",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "patha",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "patha",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "patha",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "patha",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "patha",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "patha",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "patha",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "patha",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "patha",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "pippali",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "pippali",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "pippali",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "pippali",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "pippali",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "pippali",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "pippali",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "pippali",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "pippali",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "punarnava",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "punarnava",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "punarnava",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "punarnava",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "punarnava",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "punarnava",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "punarnava",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "punarnava",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "punarnava",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "rasna",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "rasna",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "rasna",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "rasna",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "rasna",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "rasna",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "rasna",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "rasna",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "rasna",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "rasona",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "rasona",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "rasona",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "rasona",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "rasona",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "rasona",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "rasona",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "rasona",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "rasona",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sarpagandha",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sarpagandha",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sarpagandha",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sarpagandha",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sarpagandha",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sarpagandha",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sarpagandha",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sarpagandha",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sarpagandha",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sairayak",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sairayak",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sairayak",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sairayak",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sairayak",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sairayak",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sairayak",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sairayak",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sairayak",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sariva",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sariva",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sariva",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sariva",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sariva",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sariva",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sariva",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sariva",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "sariva",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shallaki",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shallaki",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shallaki",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shallaki",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shallaki",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shallaki",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shallaki",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shallaki",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shallaki",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shalmali-mocharasa",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shalmali-mocharasa",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shalmali-mocharasa",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shalmali-mocharasa",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shalmali-mocharasa",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shalmali-mocharasa",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shalmali-mocharasa",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shalmali-mocharasa",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shalmali-mocharasa",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shankhapushpi",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shankhapushpi",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shankhapushpi",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shankhapushpi",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shankhapushpi",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shankhapushpi",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shankhapushpi",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shankhapushpi",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shankhapushpi",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shatavari",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "shatavari",
-      "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "shatavari",
-      "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shatavari",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shatavari",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shatavari",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shatavari",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shatavari",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shatavari",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shigru",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shigru",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shigru",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shigru",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shigru",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shigru",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shigru",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shigru",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shigru",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shunthi",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shunthi",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shunthi",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shunthi",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shunthi",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shunthi",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shunthi",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shunthi",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shunthi",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "talisapatra",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "talisapatra",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "talisapatra",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "talisapatra",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "talisapatra",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "talisapatra",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "talisapatra",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "talisapatra",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "talisapatra",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "trivrut",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "trivrut",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "trivrut",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "trivrut",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "trivrut",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "trivrut",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "trivrut",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "trivrut",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "trivrut",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "tulasi",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "tulasi",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "tulasi",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "tulasi",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "tulasi",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "tulasi",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "tulasi",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "tulasi",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "tulasi",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "twak",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "twak",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "twak",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "twak",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "twak",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "twak",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "twak",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "twak",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "twak",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "usheera",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "usheera",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "usheera",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "usheera",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "usheera",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "usheera",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "usheera",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "usheera",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "usheera",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vacha",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vacha",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vacha",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vacha",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vacha",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vacha",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vacha",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vacha",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vacha",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "varuna",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "varuna",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "varuna",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "varuna",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "varuna",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "varuna",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "varuna",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "varuna",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "varuna",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vasa",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vasa",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vasa",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vasa",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vasa",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vasa",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vasa",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vasa",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vasa",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vatsanabha",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vatsanabha",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vatsanabha",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vatsanabha",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vatsanabha",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vatsanabha",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vatsanabha",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vatsanabha",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vatsanabha",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vibhitaki",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too Many Requests"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vibhitaki",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vibhitaki",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vibhitaki",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vibhitaki",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vibhitaki",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vibhitaki",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vibhitaki",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vibhitaki",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vidanga",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vidanga",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vidanga",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vidanga",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vidanga",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vidanga",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vidanga",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vidanga",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "vidanga",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "yashtimadhu",
       "part": "whole_plant",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "yashtimadhu",
       "part": "habit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "yashtimadhu",
       "part": "root",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "yashtimadhu",
       "part": "stem",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "yashtimadhu",
       "part": "leaf",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "yashtimadhu",
       "part": "flower",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "yashtimadhu",
       "part": "fruit",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "yashtimadhu",
       "part": "seed",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "yashtimadhu",
       "part": "bark",
-      "reason": "source-check-error",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     }
   ],
-  "duplicate_conflicts": [],
-  "remaining_missing": 871,
+  "remaining_missing": 865,
   "local_asset_root": "images/plants/<plant>/<part>/image.*",
   "policy": {
     "exact_species_required": true,
@@ -5259,6 +4384,10 @@
     "ai_only_matches_forbidden": true,
     "wrong_image_preferred_over_missing": false,
     "old_registry_reverification_required": true,
-    "local_assets_required": true
+    "local_assets_required": true,
+    "additional_sources": [
+      "Wikimedia Commons",
+      "iNaturalist"
+    ]
   }
 }
