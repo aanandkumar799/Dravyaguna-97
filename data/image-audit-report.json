@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-09-17T21:31:48.681001+00:00",
+  "generated_at": "2026-09-17T22:14:38.055785+00:00",
   "plants_checked": 97,
   "slots_checked": 873,
   "filled_this_run": [
     {
       "plant_id": "amalaki",
-      "part": "whole_plant",
+      "part": "stem",
       "action": "downloaded-new-image",
-      "path": "images/plants/amalaki/whole_plant/image.jpg",
-      "bytes": 361319
+      "path": "images/plants/amalaki/stem/image.jpg",
+      "bytes": 432411
     },
     {
       "plant_id": "amalaki",
-      "part": "habit",
+      "part": "leaf",
       "action": "downloaded-new-image",
-      "path": "images/plants/amalaki/habit/image.jpg",
-      "bytes": 331896
+      "path": "images/plants/amalaki/leaf/image.jpg",
+      "bytes": 474991
     },
     {
-      "plant_id": "musta",
+      "plant_id": "bilva",
+      "part": "flower",
+      "action": "downloaded-new-image",
+      "path": "images/plants/bilva/flower/image.jpg",
+      "bytes": 426452
+    },
+    {
+      "plant_id": "bilva",
+      "part": "fruit",
+      "action": "downloaded-new-image",
+      "path": "images/plants/bilva/fruit/image.jpg",
+      "bytes": 689374
+    },
+    {
+      "plant_id": "lavanga",
+      "part": "habit",
+      "action": "downloaded-new-image",
+      "path": "images/plants/lavanga/habit/image.jpg",
+      "bytes": 407705
+    },
+    {
+      "plant_id": "shunthi",
       "part": "whole_plant",
       "action": "downloaded-new-image",
-      "path": "images/plants/musta/whole_plant/image.jpg",
-      "bytes": 900621
+      "path": "images/plants/shunthi/whole_plant/image.jpg",
+      "bytes": 74035
     },
     {
-      "plant_id": "musta",
+      "plant_id": "shunthi",
       "part": "habit",
       "action": "downloaded-new-image",
-      "path": "images/plants/musta/habit/image.jpg",
-      "bytes": 606701
-    },
-    {
-      "plant_id": "shatavari",
-      "part": "habit",
-      "action": "downloaded-new-image",
-      "path": "images/plants/shatavari/habit/image.jpg",
-      "bytes": 409846
-    },
-    {
-      "plant_id": "shatavari",
-      "part": "root",
-      "action": "downloaded-new-image",
-      "path": "images/plants/shatavari/root/image.jpg",
-      "bytes": 283876
+      "path": "images/plants/shunthi/habit/image.jpg",
+      "bytes": 97666
     }
   ],
   "unresolved": [
@@ -54,16 +61,6 @@
     },
     {
       "plant_id": "amalaki",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "amalaki",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "amalaki",
       "part": "seed",
       "reason": "no-high-confidence-unique-image"
     },
@@ -370,3438 +367,3413 @@
     {
       "plant_id": "beejaka",
       "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "beejaka",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "beejaka",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "beejaka",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhallataka",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhallataka",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhallataka",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhallataka",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhallataka",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhallataka",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhallataka",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhallataka",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhallataka",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bharangi",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bharangi",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bharangi",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bharangi",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bharangi",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bharangi",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bharangi",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bharangi",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bharangi",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhrungaraja",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhrungaraja",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhrungaraja",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhrungaraja",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhrungaraja",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhrungaraja",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhrungaraja",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhrungaraja",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhrungaraja",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhumyamalaki",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhumyamalaki",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhumyamalaki",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhumyamalaki",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhumyamalaki",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhumyamalaki",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhumyamalaki",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhumyamalaki",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bhumyamalaki",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bilva",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bilva",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bilva",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bilva",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bilva",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bilva",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bilva",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "brahmi",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "brahmi",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "brahmi",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "brahmi",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "brahmi",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "brahmi",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "brahmi",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "brahmi",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "brahmi",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chandana",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chandana",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chandana",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chandana",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chandana",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chandana",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chandana",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chandana",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chandana",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chitraka",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chitraka",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chitraka",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chitraka",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chitraka",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chitraka",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chitraka",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chitraka",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chitraka",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dadima",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dadima",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dadima",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dadima",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dadima",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dadima",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dadima",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dadima",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dadima",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhataki",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhataki",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhataki",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhataki",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhataki",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhataki",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhataki",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhataki",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhataki",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhamasa",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhamasa",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhamasa",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhamasa",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhamasa",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhamasa",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhamasa",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhamasa",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhamasa",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "eranda",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "eranda",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "eranda",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "eranda",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "eranda",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "eranda",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "eranda",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "eranda",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "eranda",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "gokshura",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "gokshura",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "gokshura",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "gokshura",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "gokshura",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "gokshura",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "gokshura",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "gokshura",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "gokshura",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "guduchi",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "guduchi",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "guduchi",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "guduchi",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "guduchi",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "guduchi",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "guduchi",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "guduchi",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "guduchi",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "guggulu",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "guggulu",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "guggulu",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "guggulu",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "guggulu",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "guggulu",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "guggulu",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "guggulu",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "guggulu",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "haridra",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "haridra",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "haridra",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "haridra",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "haridra",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "haridra",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "haridra",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "haridra",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "haridra",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "haritaki",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "haritaki",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "haritaki",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "haritaki",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "haritaki",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "haritaki",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "haritaki",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "haritaki",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "haritaki",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "hingu",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "hingu",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "hingu",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "hingu",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "hingu",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "hingu",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "hingu",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "hingu",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "hingu",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jambu",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jambu",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jambu",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jambu",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jambu",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jambu",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jambu",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jambu",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jambu",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jatamansi",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jatamansi",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jatamansi",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jatamansi",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jatamansi",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jatamansi",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jatamansi",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jatamansi",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jatamansi",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jyotishmati",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jyotishmati",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jyotishmati",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jyotishmati",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jyotishmati",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jyotishmati",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jyotishmati",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jyotishmati",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jyotishmati",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kanchanara",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kanchanara",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kanchanara",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kanchanara",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kanchanara",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kanchanara",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kanchanara",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kanchanara",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kanchanara",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kantakari",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kantakari",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kantakari",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kantakari",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kantakari",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kantakari",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kantakari",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kantakari",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kantakari",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kapikachhu",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kapikachhu",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kapikachhu",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kapikachhu",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kapikachhu",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kapikachhu",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kapikachhu",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kapikachhu",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kapikachhu",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "karkatshrungi",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "karkatshrungi",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "karkatshrungi",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "karkatshrungi",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "karkatshrungi",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "karkatshrungi",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "karkatshrungi",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "karkatshrungi",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "karkatshrungi",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "katuki",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "katuki",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "katuki",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "katuki",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "katuki",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "katuki",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "katuki",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "katuki",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "katuki",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "khadira",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "khadira",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "khadira",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "khadira",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "khadira",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "khadira",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "khadira",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "khadira",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "khadira",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kumari",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kumari",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kumari",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kumari",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kumari",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kumari",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kumari",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kumari",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kumari",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kutaja",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kutaja",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kutaja",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kutaja",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kutaja",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kutaja",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kutaja",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kutaja",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kutaja",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "latakaranja",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "latakaranja",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "latakaranja",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "latakaranja",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "latakaranja",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "latakaranja",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "latakaranja",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "latakaranja",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "latakaranja",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lodhra",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lodhra",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lodhra",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lodhra",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lodhra",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lodhra",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lodhra",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lodhra",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lodhra",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "agnimanth",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "agnimanth",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "agnimanth",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "agnimanth",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "agnimanth",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "agnimanth",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "agnimanth",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "agnimanth",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "agnimanth",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ahiphena",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ahiphena",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ahiphena",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ahiphena",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ahiphena",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ahiphena",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ahiphena",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ahiphena",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ahiphena",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ajamoda",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ajamoda",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ajamoda",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ajamoda",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ajamoda",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ajamoda",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ajamoda",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ajamoda",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ajamoda",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "apamarga",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "apamarga",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "apamarga",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "apamarga",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "apamarga",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "apamarga",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "apamarga",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "apamarga",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "apamarga",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "asthishrunkhala",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "asthishrunkhala",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "asthishrunkhala",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "asthishrunkhala",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "asthishrunkhala",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "asthishrunkhala",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "asthishrunkhala",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "asthishrunkhala",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "asthishrunkhala",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bakuchi",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bakuchi",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bakuchi",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bakuchi",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bakuchi",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bakuchi",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bakuchi",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bakuchi",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bakuchi",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bruhati",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bruhati",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bruhati",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bruhati",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bruhati",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bruhati",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bruhati",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bruhati",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "bruhati",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chakramarda",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chakramarda",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chakramarda",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chakramarda",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chakramarda",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chakramarda",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chakramarda",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chakramarda",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "chakramarda",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhanyaka",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhanyaka",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhanyaka",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhanyaka",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhanyaka",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhanyaka",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhanyaka",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhanyaka",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "dhanyaka",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ela",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ela",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ela",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ela",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ela",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ela",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ela",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ela",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "ela",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "gambhari",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "gambhari",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "gambhari",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "gambhari",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "gambhari",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "gambhari",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "gambhari",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "gambhari",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "gambhari",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "japa",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "japa",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "japa",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "japa",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "japa",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "japa",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "japa",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "japa",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "japa",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jatiphala",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jatiphala",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jatiphala",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jatiphala",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jatiphala",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jatiphala",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jatiphala",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jatiphala",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jatiphala",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jeeraka",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jeeraka",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jeeraka",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jeeraka",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jeeraka",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jeeraka",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jeeraka",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jeeraka",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "jeeraka",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kalamegha",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kalamegha",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kalamegha",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kalamegha",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kalamegha",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kalamegha",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kalamegha",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kalamegha",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kalamegha",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kampillaka",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kampillaka",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kampillaka",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kampillaka",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kampillaka",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kampillaka",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kampillaka",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kampillaka",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kampillaka",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kulatha",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kulatha",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kulatha",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kulatha",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kulatha",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kulatha",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kulatha",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kulatha",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kulatha",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kumkum",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kumkum",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kumkum",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kumkum",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kumkum",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kumkum",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kumkum",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kumkum",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "kumkum",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lajjalu",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lajjalu",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lajjalu",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lajjalu",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lajjalu",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lajjalu",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lajjalu",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lajjalu",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lajjalu",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lavanga",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lavanga",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lavanga",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lavanga",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lavanga",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lavanga",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lavanga",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "lavanga",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "madanphala",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "madanphala",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "madanphala",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "madanphala",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "madanphala",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "madanphala",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "madanphala",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "madanphala",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "madanphala",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "mandukaparni",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "mandukaparni",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "mandukaparni",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "mandukaparni",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "mandukaparni",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "mandukaparni",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "mandukaparni",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "mandukaparni",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "mandukaparni",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "manjishta",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "manjishta",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "manjishta",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "manjishta",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "manjishta",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "manjishta",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "manjishta",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "manjishta",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "manjishta",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "maricha",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "maricha",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "maricha",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "maricha",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "maricha",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "maricha",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "maricha",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "maricha",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "maricha",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "meshshrungi",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "meshshrungi",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "meshshrungi",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "meshshrungi",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "meshshrungi",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "meshshrungi",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "meshshrungi",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "meshshrungi",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "meshshrungi",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "methika",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "methika",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "methika",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "methika",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "methika",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "methika",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "methika",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "methika",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "methika",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "musta",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "musta",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "musta",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "musta",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "musta",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "musta",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "musta",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nagkeshar",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nagkeshar",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nagkeshar",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nagkeshar",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nagkeshar",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nagkeshar",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nagkeshar",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nagkeshar",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nagkeshar",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nimba",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nimba",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nimba",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nimba",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nimba",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nimba",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nimba",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nimba",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nimba",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nirgundi",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nirgundi",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nirgundi",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nirgundi",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nirgundi",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nirgundi",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nirgundi",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nirgundi",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "nirgundi",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "palasha",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "palasha",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "palasha",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "palasha",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "palasha",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "palasha",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "palasha",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "palasha",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "palasha",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "pashanabheda",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "pashanabheda",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "pashanabheda",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "pashanabheda",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "pashanabheda",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "pashanabheda",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "pashanabheda",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "pashanabheda",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "pashanabheda",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "patha",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "patha",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "patha",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "patha",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "patha",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "patha",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "patha",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "patha",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "patha",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "pippali",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "pippali",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "pippali",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "pippali",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "pippali",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "pippali",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "pippali",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "pippali",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "pippali",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "punarnava",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "punarnava",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "punarnava",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "punarnava",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "punarnava",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "punarnava",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "punarnava",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "punarnava",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "punarnava",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "rasna",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "rasna",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "rasna",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "rasna",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "rasna",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "rasna",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "rasna",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "rasna",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "rasna",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "rasona",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "rasona",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "rasona",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "rasona",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "rasona",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "rasona",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "rasona",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "rasona",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "rasona",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sarpagandha",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sarpagandha",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sarpagandha",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sarpagandha",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sarpagandha",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sarpagandha",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sarpagandha",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sarpagandha",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sarpagandha",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sairayak",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sairayak",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sairayak",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sairayak",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sairayak",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sairayak",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sairayak",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sairayak",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sairayak",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sariva",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sariva",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sariva",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sariva",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sariva",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sariva",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sariva",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sariva",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "sariva",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shallaki",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shallaki",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shallaki",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shallaki",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shallaki",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shallaki",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shallaki",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shallaki",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shallaki",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shalmali-mocharasa",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shalmali-mocharasa",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shalmali-mocharasa",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shalmali-mocharasa",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shalmali-mocharasa",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shalmali-mocharasa",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shalmali-mocharasa",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shalmali-mocharasa",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shalmali-mocharasa",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shankhapushpi",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shankhapushpi",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shankhapushpi",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shankhapushpi",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shankhapushpi",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shankhapushpi",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shankhapushpi",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shankhapushpi",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shankhapushpi",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shatavari",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shatavari",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shatavari",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shatavari",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shatavari",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shatavari",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shatavari",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shigru",
+      "part": "whole_plant",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shigru",
+      "part": "habit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shigru",
+      "part": "root",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shigru",
+      "part": "stem",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shigru",
+      "part": "leaf",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shigru",
+      "part": "flower",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shigru",
+      "part": "fruit",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shigru",
+      "part": "seed",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shigru",
+      "part": "bark",
+      "reason": "no-high-confidence-unique-image"
+    },
+    {
+      "plant_id": "shunthi",
+      "part": "root",
       "reason": "download-failed",
       "detail": "HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "plant_id": "beejaka",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "beejaka",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "beejaka",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhallataka",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhallataka",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhallataka",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhallataka",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhallataka",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhallataka",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhallataka",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhallataka",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhallataka",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bharangi",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bharangi",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bharangi",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bharangi",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bharangi",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bharangi",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bharangi",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bharangi",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bharangi",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhrungaraja",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhrungaraja",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhrungaraja",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhrungaraja",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhrungaraja",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhrungaraja",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhrungaraja",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhrungaraja",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhrungaraja",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhumyamalaki",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhumyamalaki",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhumyamalaki",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhumyamalaki",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhumyamalaki",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhumyamalaki",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhumyamalaki",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhumyamalaki",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bhumyamalaki",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bilva",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bilva",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bilva",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bilva",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bilva",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bilva",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bilva",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bilva",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bilva",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "brahmi",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "brahmi",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "brahmi",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "brahmi",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "brahmi",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "brahmi",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "brahmi",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "brahmi",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "brahmi",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chandana",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chandana",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chandana",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chandana",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chandana",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chandana",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chandana",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chandana",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chandana",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chitraka",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chitraka",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chitraka",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chitraka",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chitraka",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chitraka",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chitraka",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chitraka",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chitraka",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dadima",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dadima",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dadima",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dadima",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dadima",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dadima",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dadima",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dadima",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dadima",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhataki",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhataki",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhataki",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhataki",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhataki",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhataki",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhataki",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhataki",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhataki",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhamasa",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhamasa",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhamasa",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhamasa",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhamasa",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhamasa",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhamasa",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhamasa",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhamasa",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "eranda",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "eranda",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "eranda",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "eranda",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "eranda",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "eranda",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "eranda",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "eranda",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "eranda",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "gokshura",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "gokshura",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "gokshura",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "gokshura",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "gokshura",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "gokshura",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "gokshura",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "gokshura",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "gokshura",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "guduchi",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "guduchi",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "guduchi",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "guduchi",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "guduchi",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "guduchi",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "guduchi",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "guduchi",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "guduchi",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "guggulu",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "guggulu",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "guggulu",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "guggulu",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "guggulu",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "guggulu",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "guggulu",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "guggulu",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "guggulu",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "haridra",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "haridra",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "haridra",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "haridra",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "haridra",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "haridra",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "haridra",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "haridra",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "haridra",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "haritaki",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "haritaki",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "haritaki",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "haritaki",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "haritaki",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "haritaki",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "haritaki",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "haritaki",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "haritaki",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "hingu",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "hingu",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "hingu",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "hingu",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "hingu",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "hingu",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "hingu",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "hingu",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "hingu",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jambu",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jambu",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jambu",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jambu",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jambu",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jambu",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jambu",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jambu",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jambu",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jatamansi",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jatamansi",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jatamansi",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jatamansi",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jatamansi",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jatamansi",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jatamansi",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jatamansi",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jatamansi",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jyotishmati",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jyotishmati",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jyotishmati",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jyotishmati",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jyotishmati",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jyotishmati",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jyotishmati",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jyotishmati",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jyotishmati",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kanchanara",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kanchanara",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kanchanara",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kanchanara",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kanchanara",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kanchanara",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kanchanara",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kanchanara",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kanchanara",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kantakari",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kantakari",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kantakari",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kantakari",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kantakari",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kantakari",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kantakari",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kantakari",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kantakari",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kapikachhu",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kapikachhu",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kapikachhu",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kapikachhu",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kapikachhu",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kapikachhu",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kapikachhu",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kapikachhu",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kapikachhu",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "karkatshrungi",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "karkatshrungi",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "karkatshrungi",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "karkatshrungi",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "karkatshrungi",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "karkatshrungi",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "karkatshrungi",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "karkatshrungi",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "karkatshrungi",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "katuki",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "katuki",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "katuki",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "katuki",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "katuki",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "katuki",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "katuki",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "katuki",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "katuki",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "khadira",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "khadira",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "khadira",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "khadira",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "khadira",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "khadira",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "khadira",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "khadira",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "khadira",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kumari",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kumari",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kumari",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kumari",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kumari",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kumari",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kumari",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kumari",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kumari",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kutaja",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kutaja",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kutaja",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kutaja",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kutaja",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kutaja",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kutaja",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kutaja",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kutaja",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "latakaranja",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "latakaranja",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "latakaranja",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "latakaranja",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "latakaranja",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "latakaranja",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "latakaranja",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "latakaranja",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "latakaranja",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lodhra",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lodhra",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lodhra",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lodhra",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lodhra",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lodhra",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lodhra",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lodhra",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lodhra",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "agnimanth",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "agnimanth",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "agnimanth",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "agnimanth",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "agnimanth",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "agnimanth",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "agnimanth",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "agnimanth",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "agnimanth",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ahiphena",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ahiphena",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ahiphena",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ahiphena",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ahiphena",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ahiphena",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ahiphena",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ahiphena",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ahiphena",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ajamoda",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ajamoda",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ajamoda",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ajamoda",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ajamoda",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ajamoda",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ajamoda",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ajamoda",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ajamoda",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "apamarga",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "apamarga",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "apamarga",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "apamarga",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "apamarga",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "apamarga",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "apamarga",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "apamarga",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "apamarga",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "asthishrunkhala",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "asthishrunkhala",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "asthishrunkhala",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "asthishrunkhala",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "asthishrunkhala",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "asthishrunkhala",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "asthishrunkhala",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "asthishrunkhala",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "asthishrunkhala",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bakuchi",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bakuchi",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bakuchi",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bakuchi",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bakuchi",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bakuchi",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bakuchi",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bakuchi",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bakuchi",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bruhati",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bruhati",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bruhati",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bruhati",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bruhati",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bruhati",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bruhati",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bruhati",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bruhati",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chakramarda",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chakramarda",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chakramarda",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chakramarda",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chakramarda",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chakramarda",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chakramarda",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chakramarda",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chakramarda",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhanyaka",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhanyaka",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhanyaka",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhanyaka",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhanyaka",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhanyaka",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhanyaka",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhanyaka",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhanyaka",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ela",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ela",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ela",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ela",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ela",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ela",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ela",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ela",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ela",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "gambhari",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "gambhari",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "gambhari",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "gambhari",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "gambhari",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "gambhari",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "gambhari",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "gambhari",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "gambhari",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "japa",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "japa",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "japa",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "japa",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "japa",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "japa",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "japa",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "japa",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "japa",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jatiphala",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jatiphala",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jatiphala",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jatiphala",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jatiphala",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jatiphala",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jatiphala",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jatiphala",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jatiphala",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jeeraka",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jeeraka",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jeeraka",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jeeraka",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jeeraka",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jeeraka",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jeeraka",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jeeraka",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "jeeraka",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kalamegha",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kalamegha",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kalamegha",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kalamegha",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kalamegha",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kalamegha",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kalamegha",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kalamegha",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kalamegha",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kampillaka",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kampillaka",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kampillaka",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kampillaka",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kampillaka",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kampillaka",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kampillaka",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kampillaka",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kampillaka",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kulatha",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kulatha",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kulatha",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kulatha",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kulatha",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kulatha",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kulatha",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kulatha",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kulatha",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kumkum",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kumkum",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kumkum",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kumkum",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kumkum",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kumkum",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kumkum",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kumkum",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kumkum",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lajjalu",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lajjalu",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lajjalu",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lajjalu",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lajjalu",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lajjalu",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lajjalu",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lajjalu",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lajjalu",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lavanga",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lavanga",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lavanga",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lavanga",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lavanga",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lavanga",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lavanga",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lavanga",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "lavanga",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "madanphala",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "madanphala",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "madanphala",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "madanphala",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "madanphala",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "madanphala",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "madanphala",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "madanphala",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "madanphala",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "mandukaparni",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "mandukaparni",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "mandukaparni",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "mandukaparni",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "mandukaparni",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "mandukaparni",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "mandukaparni",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "mandukaparni",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "mandukaparni",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "manjishta",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "manjishta",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "manjishta",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "manjishta",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "manjishta",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "manjishta",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "manjishta",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "manjishta",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "manjishta",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "maricha",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "maricha",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "maricha",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "maricha",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "maricha",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "maricha",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "maricha",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "maricha",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "maricha",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "meshshrungi",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "meshshrungi",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "meshshrungi",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "meshshrungi",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "meshshrungi",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "meshshrungi",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "meshshrungi",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "meshshrungi",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "meshshrungi",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "methika",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "methika",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "methika",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "methika",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "methika",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "methika",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "methika",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "methika",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "methika",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "musta",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "musta",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "musta",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "musta",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "musta",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "musta",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "musta",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nagkeshar",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nagkeshar",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nagkeshar",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nagkeshar",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nagkeshar",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nagkeshar",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nagkeshar",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nagkeshar",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nagkeshar",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nimba",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nimba",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nimba",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nimba",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nimba",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nimba",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nimba",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nimba",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nimba",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nirgundi",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nirgundi",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nirgundi",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nirgundi",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nirgundi",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nirgundi",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nirgundi",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nirgundi",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nirgundi",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "palasha",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "palasha",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "palasha",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "palasha",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "palasha",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "palasha",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "palasha",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "palasha",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "palasha",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "pashanabheda",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "pashanabheda",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "pashanabheda",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "pashanabheda",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "pashanabheda",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "pashanabheda",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "pashanabheda",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "pashanabheda",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "pashanabheda",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "patha",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "patha",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "patha",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "patha",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "patha",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "patha",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "patha",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "patha",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "patha",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "pippali",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "pippali",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "pippali",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "pippali",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "pippali",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "pippali",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "pippali",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "pippali",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "pippali",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "punarnava",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "punarnava",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "punarnava",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "punarnava",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "punarnava",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "punarnava",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "punarnava",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "punarnava",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "punarnava",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "rasna",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "rasna",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "rasna",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "rasna",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "rasna",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "rasna",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "rasna",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "rasna",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "rasna",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "rasona",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "rasona",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "rasona",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "rasona",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "rasona",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "rasona",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "rasona",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "rasona",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "rasona",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sarpagandha",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sarpagandha",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sarpagandha",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sarpagandha",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sarpagandha",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sarpagandha",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sarpagandha",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sarpagandha",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sarpagandha",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sairayak",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sairayak",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sairayak",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sairayak",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sairayak",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sairayak",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sairayak",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sairayak",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sairayak",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sariva",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sariva",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sariva",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sariva",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sariva",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sariva",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sariva",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sariva",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "sariva",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shallaki",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shallaki",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shallaki",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shallaki",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shallaki",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shallaki",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shallaki",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shallaki",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shallaki",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shalmali-mocharasa",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shalmali-mocharasa",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shalmali-mocharasa",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shalmali-mocharasa",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shalmali-mocharasa",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shalmali-mocharasa",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shalmali-mocharasa",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shalmali-mocharasa",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shalmali-mocharasa",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shankhapushpi",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shankhapushpi",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shankhapushpi",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shankhapushpi",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shankhapushpi",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shankhapushpi",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shankhapushpi",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shankhapushpi",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shankhapushpi",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shatavari",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shatavari",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shatavari",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shatavari",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shatavari",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shatavari",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shatavari",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shigru",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shigru",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shigru",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shigru",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shigru",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shigru",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shigru",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shigru",
-      "part": "seed",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shigru",
-      "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shunthi",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shunthi",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shunthi",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shunthi",
@@ -4374,7 +4346,7 @@
       "reason": "no-high-confidence-unique-image"
     }
   ],
-  "remaining_missing": 865,
+  "remaining_missing": 858,
   "local_asset_root": "images/plants/<plant>/<part>/image.*",
   "policy": {
     "exact_species_required": true,
