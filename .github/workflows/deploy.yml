@@ -45,10 +45,12 @@ jobs:
               html=re.sub(r'<link[^>]+rel=["\'](?:icon|shortcut icon|apple-touch-icon)["\'][^>]*>', '', html, flags=re.I)
               rel_fav=Path(os.path.relpath(root/'favicon-exact.jpg',page.parent)).as_posix()
               html=html.replace('</head>',f'<link rel="icon" type="image/jpeg" href="{rel_fav}"><link rel="apple-touch-icon" href="{rel_fav}">\n</head>',1)
-              rel_css=Path(os.path.relpath(root/'site-theme.css',page.parent)).as_posix()
-              if f'<link rel="stylesheet" href="{rel_css}">' not in html: html=html.replace('</head>',f'<link rel="stylesheet" href="{rel_css}">\n</head>',1)
-              rel_js=Path(os.path.relpath(root/'site-theme.js',page.parent)).as_posix()
-              if f'<script src="{rel_js}" defer></script>' not in html: html=html.replace('</body>',f'<script src="{rel_js}" defer></script>\n</body>',1)
+              for asset in ['site-theme.css','feedback.css']:
+                  rel=Path(os.path.relpath(root/asset,page.parent)).as_posix()
+                  if f'<link rel="stylesheet" href="{rel}">' not in html: html=html.replace('</head>',f'<link rel="stylesheet" href="{rel}">\n</head>',1)
+              for asset in ['feedback-config.js','site-theme.js','feedback.js']:
+                  rel=Path(os.path.relpath(root/asset,page.parent)).as_posix()
+                  if f'<script src="{rel}" defer></script>' not in html: html=html.replace('</body>',f'<script src="{rel}" defer></script>\n</body>',1)
               if page.name=='plant.html':
                   if '<link rel="stylesheet" href="plant-dossier-layout.css">' not in html: html=html.replace('</head>','<link rel="stylesheet" href="plant-dossier-layout.css">\n</head>',1)
                   for src in ['cover-image-fix.js','dossier-fallback.js','image-gallery-delay.js','academic-verification.js','strict-gallery-guard.js']:
@@ -64,7 +66,7 @@ jobs:
           m=json.loads((root/'manifest.json').read_text(encoding='utf-8'))
           m['icons']=[{'src':'favicon-exact.jpg','sizes':'128x128','type':'image/jpeg','purpose':'any'}]
           (root/'manifest.json').write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-          (root/'.nojekyll').touch()
+          (root/' .nojekyll'.strip()).touch()
           PY
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
