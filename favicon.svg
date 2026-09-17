@@ -1,5 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
 <title id="title">DravyaGuna 97</title>
 <desc id="desc">Ayurvedic DravyaGuna 97 emblem with herbal leaves, open book, and mortar and pestle</desc>
-<image href="data:image/png;base64,REPLACE_WITH_GENERATED_IMAGE_DATA" x="0" y="0" width="512" height="512" preserveAspectRatio="xMidYMid slice"/>
+<defs>
+  <radialGradient id="paper" cx="50%" cy="42%" r="62%"><stop offset="0" stop-color="#fffdf4"/><stop offset="1" stop-color="#f4ecd6"/></radialGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6d36b"/><stop offset=".5" stop-color="#c48a17"/><stop offset="1" stop-color="#f2c957"/></linearGradient>
+  <linearGradient id="leaf" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#064d2c"/><stop offset="1" stop-color="#55a92d"/></linearGradient>
+  <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8a4b18"/><stop offset=".5" stop-color="#d18b3d"/><stop offset="1" stop-color="#6b3512"/></linearGradient>
+</defs>
+<circle cx="256" cy="256" r="247" fill="url(#paper)" stroke="url(#gold)" stroke-width="10"/>
+<circle cx="256" cy="256" r="231" fill="none" stroke="#07522e" stroke-width="13"/>
+<path d="M256 72 C222 108 220 157 256 213 C292 157 290 108 256 72Z" fill="url(#leaf)" stroke="#0a5b31" stroke-width="3"/>
+<path d="M239 213 C234 163 240 121 256 84" fill="none" stroke="#d9ef86" stroke-width="5" stroke-linecap="round"/>
+<path d="M244 158 C226 148 215 136 205 121 M242 177 C223 169 209 158 198 144 M268 157 C285 147 298 136 309 122 M267 180 C287 171 302 159 315 143" fill="none" stroke="#c8e86b" stroke-width="4" stroke-linecap="round"/>
+<path d="M247 207 C202 177 166 179 137 209 C171 222 211 224 247 207Z" fill="url(#leaf)" stroke="#0a5b31" stroke-width="3"/>
+<path d="M265 207 C310 177 346 179 375 209 C341 222 301 224 265 207Z" fill="url(#leaf)" stroke="#0a5b31" stroke-width="3"/>
+<path d="M239 205 C200 200 169 193 140 209 M273 205 C312 200 343 193 372 209" fill="none" stroke="#c8e86b" stroke-width="4" stroke-linecap="round"/>
+<path d="M111 292 Q177 254 250 304 Q177 281 111 292Z" fill="#fffdf4" stroke="url(#gold)" stroke-width="7"/>
+<path d="M401 292 Q335 254 262 304 Q335 281 401 292Z" fill="#fffdf4" stroke="url(#gold)" stroke-width="7"/>
+<path d="M112 299 Q179 273 250 316 Q176 294 112 299Z" fill="#07522e"/>
+<path d="M400 299 Q333 273 262 316 Q336 294 400 299Z" fill="#07522e"/>
+<path d="M247 306 Q256 298 265 306 Q264 320 256 326 Q248 320 247 306Z" fill="#0a5b31"/>
+<ellipse cx="355" cy="217" rx="52" ry="28" fill="url(#wood)" stroke="#6b3512" stroke-width="4"/>
+<ellipse cx="355" cy="211" rx="43" ry="18" fill="#5d3217"/>
+<path d="M328 209 Q355 196 382 209 Q373 225 355 229 Q337 225 328 209Z" fill="#9a571e"/>
+<rect x="347" y="157" width="17" height="67" rx="8" fill="url(#wood)" transform="rotate(22 355 190)"/>
+<ellipse cx="372" cy="154" rx="14" ry="8" fill="#8b4b18" transform="rotate(22 372 154)"/>
+<path d="M343 205 Q351 193 359 204 Q356 216 347 218Z" fill="#4c8b28"/>
+<text x="256" y="375" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="#064d2c">DravyaGuna</text>
+<path d="M150 404 H218 M294 404 H362" stroke="#c48a17" stroke-width="5" stroke-linecap="round"/>
+<path d="M238 404 Q248 394 256 404 Q248 415 238 404Z M274 404 Q264 394 256 404 Q264 415 274 404Z" fill="#2d7a2f"/>
+<text x="256" y="453" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="55" font-weight="700" fill="#0b5a30">97</text>
 </svg>
