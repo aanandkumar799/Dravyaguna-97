@@ -1,64 +1,32 @@
 #!/usr/bin/env python3
-"""Generate deployment indexes without removing any plant records."""
+"""Generate the lightweight navigation index and sitemap from modular plant files."""
 import json
 from pathlib import Path
+from urllib.parse import quote
 from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parents[1]
-plants_path = ROOT / "plants.json"
-plants = json.loads(plants_path.read_text(encoding="utf-8"))
-if not isinstance(plants, list):
-    raise SystemExit("plants.json must contain an array")
+DB = ROOT / "data" / "plants"
+BASE = "https://aanandkumar799.github.io/Dravyaguna-97/"
 
-ids = [str(p.get("id", "")).strip() for p in plants if isinstance(p, dict)]
-if len(ids) != len(set(ids)):
-    raise SystemExit("plants.json contains duplicate IDs")
-if len(ids) < 97:
-    raise SystemExit(f"Expected at least 97 records, found {len(ids)}")
+records=[]
+for path in sorted(DB.glob("*.json")):
+    if path.name in {"index.json", "schema.json"}: continue
+    data=json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data,dict): raise SystemExit(f"{path}: record must be a JSON object")
+    records.append(data)
 
-index = []
-for plant in plants:
-    pid = str(plant.get("id", "")).strip()
-    if not pid:
-        continue
-    identity = plant.get("identity") or {}
-    guna = plant.get("dravya_guna") or plant.get("dravyaguna") or {}
-    therapeutic = plant.get("therapeutics") or {}
-    category = plant.get("category", "NCISM-97")
-    index.append({
-        "id": pid,
-        "order": plant.get("order", 9999),
-        "category": category,
-        "name": identity.get("name") or plant.get("name") or pid,
-        "sanskrit_name": identity.get("sanskrit_name", ""),
-        "transliteration": identity.get("transliteration", ""),
-        "botanical_name": identity.get("botanical_name", ""),
-        "family": identity.get("family", ""),
-        "english_name": identity.get("english_name", ""),
-        "rasa": guna.get("rasa", []),
-        "guna": guna.get("guna", []),
-        "virya": guna.get("virya", ""),
-        "vipaka": guna.get("vipaka", ""),
-        "useful_part": therapeutic.get("useful_part", []),
-        "search_text": " ".join(str(x) for x in [
-            identity.get("name", ""), identity.get("sanskrit_name", ""),
-            identity.get("transliteration", ""), identity.get("botanical_name", ""),
-            identity.get("family", ""), identity.get("english_name", ""),
-            identity.get("hindi_name", ""), pid
-        ]),
-    })
-index.sort(key=lambda item: (float(item["order"]) if isinstance(item["order"], (int, float)) else 9999, item["name"].lower()))
-(ROOT / "plant-index.json").write_text(
-    json.dumps({"total": len(index), "plants": index}, ensure_ascii=False, indent=2) + "\n",
-    encoding="utf-8",
-)
+canonical=[p for p in records if p.get("category")=="NCISM-97" and 1 <= int(p.get("order",0)) <= 97]
+ids=[str(p.get("id","")).strip() for p in canonical]
+if len(canonical)!=97: raise SystemExit(f"Expected exactly 97 NCISM-97 plant files, found {len(canonical)}")
+if len(ids)!=len(set(ids)): raise SystemExit("Duplicate NCISM plant IDs detected")
 
-base = "https://aanandkumar799.github.io/Dravyaguna-97/"
-urls = [base, base + "index.html", base + "plants.html", base + "plant.html"]
-urls += [base + "plant.html?id=" + pid for pid in ids]
-urls.append(base + "plants/ashwagandha.html")
-sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-sitemap += "".join(f"  <url><loc>{escape(url)}</loc></url>\n" for url in urls)
-sitemap += "</urlset>\n"
-(ROOT / "sitemap.xml").write_text(sitemap, encoding="utf-8")
-print(f"Generated {len(index)} index records and {len(urls)} sitemap URLs")
+index=[]
+for plant in sorted(canonical,key=lambda p:(int(p.get("order",9999)),str(p.get("id","")))):
+    pid=str(plant["id"]).strip(); identity=plant.get("identity") or {}; guna=plant.get("dravya_guna") or plant.get("dravyaguna") or {}; therapeutic=plant.get("therapeutics") or {}
+    index.append({"id":pid,"order":plant.get("order"),"category":"NCISM-97","name":identity.get("name") or plant.get("name") or pid,"sanskrit_name":identity.get("sanskrit_name",""),"transliteration":identity.get("transliteration",""),"botanical_name":identity.get("botanical_name",""),"family":identity.get("family",""),"english_name":identity.get("english_name",""),"rasa":guna.get("rasa",[]),"guna":guna.get("guna",[]),"virya":guna.get("virya",""),"vipaka":guna.get("vipaka",""),"useful_part":therapeutic.get("useful_part",[]),"search_text":" ".join(str(x) for x in [identity.get("name",""),identity.get("sanskrit_name",""),identity.get("transliteration",""),identity.get("botanical_name",""),identity.get("family",""),identity.get("english_name",""),identity.get("hindi_name",""),pid])})
+(ROOT/"plant-index.json").write_text(json.dumps({"total":97,"plants":index},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+urls=[BASE,BASE+"plants.html",BASE+"compare.html",BASE+"quiz.html",BASE+"practical-lab.html",BASE+"references.html"]+[BASE+"plant.html?id="+quote(pid,safe="") for pid in ids]
+sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f"  <url><loc>{escape(u)}</loc></url>\n" for u in urls)+"</urlset>\n"
+(ROOT/"sitemap.xml").write_text(sitemap,encoding="utf-8")
+print(f"Generated index for {len(index)} NCISM plants and {len(urls)} sitemap URLs")
