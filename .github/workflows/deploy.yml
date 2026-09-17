@@ -23,6 +23,8 @@ jobs:
         run: |
           python scripts/generate-site-artifacts.py
           python scripts/public-readiness.py
+      - name: Normalize public HTML
+        run: python scripts/normalize-public-html.py
       - name: Prepare static site
         shell: bash
         run: |
@@ -38,7 +40,7 @@ jobs:
           core=[p for p in records if p.get('category')=='NCISM-97' and 1<=int(p.get('order',0))<=97]
           assert len(core)==97, f'Expected 97 NCISM records, found {len(core)}'
           index=json.loads((root/'plant-index.json').read_text(encoding='utf-8'))
-          assert len(index.get('plants',[]))==111, 'Generated index must contain the current 111 indexed records'
+          assert len(index.get('plants',[]))==97, 'Generated index must contain exactly the 97 canonical NCISM records'
           pages=['index.html','plants.html','plant.html','compare.html','quiz.html','viva.html','progress.html','rasa.html','reference-library.html','practical-lab.html','references.html','data-quality.html','404.html']
           for page in root.rglob('*.html'):
               html=page.read_text(encoding='utf-8')
