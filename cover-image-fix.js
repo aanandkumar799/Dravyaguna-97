@@ -1,32 +1,37 @@
-/* Dravyaguna-97: homepage cover images use the static curated registry only. */
+/* Dravyaguna-97: cover images are registry-controlled and verification-gated. */
 (function(){'use strict';
-const key=u=>String(u||'').split('?')[0].toLowerCase();
+const url=file=>new URL(file,location.href).href;
+const norm=v=>String(v||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/\s+/g,' ').trim();
+function placeholder(label){const safe=String(label||'Plant').replace(/[&<>\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#039;'}[c]||c));const svg=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520"><rect width="800" height="520" fill="#edf5ef"/><text x="400" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="76">🌿</text><text x="400" y="305" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" fill="#1b4332">${safe}</text><text x="400" y="350" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#6b756f">Verified whole-plant photograph not yet approved</text></svg>`;return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;}
+async function get(file){try{const r=await fetch(url(file),{cache:'no-store',headers:{Accept:'application/json'}});return r.ok?await r.json():null}catch(e){return null}}
 async function load(){
-  const list=document.getElementById('plant-list');
-  if(!list)return;
-  try{
-    const r=await fetch(new URL('data/curated-image-manifest.json',location.href),{cache:'no-store'});
-    if(!r.ok)return;
-    const manifest=await r.json();
-    const records=new Map((manifest.records||[]).map(x=>[`${String(x.plant_id).toLowerCase()}::${x.part}`,x]));
-    const cards=[...list.querySelectorAll('.plant-card')];
-    await Promise.all(cards.map(async card=>{
-      const link=card.querySelector('a.view-plant[href*="plant.html?id="]');
-      const img=card.querySelector('.plant-image img');
-      if(!link||!img)return;
-      const id=new URL(link.href,location.href).searchParams.get('id');
-      const rec=records.get(`${String(id||'').toLowerCase()}::whole_plant`);
-      if(!rec){img.removeAttribute('src');img.alt=(img.alt||id||'Plant')+' — curated image unavailable';return;}
-      const candidates=Array.isArray(rec.image_path_candidates)?rec.image_path_candidates:(rec.image_path?[rec.image_path]:[]);
-      for(const raw of candidates){
-        const u=new URL(raw,location.href).href;
-        if(key(u)===key(img.src))return;
-        const ok=await new Promise(resolve=>{const probe=new Image();probe.onload=()=>resolve(true);probe.onerror=()=>resolve(false);probe.src=u});
-        if(ok){img.src=u;img.dataset.curated='true';img.removeAttribute('data-fallback');img.title='Curated repository image';return;}
-      }
-      img.removeAttribute('src');img.alt=(img.alt||id||'Plant')+' — curated image unavailable';
-    }));
-  }catch(e){console.warn('Curated cover registry unavailable',e)}
+  const list=document.getElementById('plant-list');if(!list)return;
+  const manifest=await get('data/curated-image-manifest.json?v=2');
+  const records=Array.isArray(manifest?.records)?manifest.records:[];
+  const approved=new Map();
+  for(const r of records){
+    if(!r||String(r.part)!=='whole_plant'||!r.image_path||!/^https?:\/\//i.test(String(r.image_path)))continue;
+    if(!['verified','verified-external'].includes(String(r.verification_status)))continue;
+    if(!r.source_url||!r.source_name||!r.verified_botanical_name)continue;
+    const id=String(r.plant_id||'');if(id&&!approved.has(id))approved.set(id,r);
+  }
+  const cards=[...list.querySelectorAll('.plant-card')];
+  await Promise.all(cards.map(async card=>{
+    const link=card.querySelector('a.view-plant[href*="plant.html?id="]');
+    const img=card.querySelector('.plant-image img');if(!link||!img)return;
+    const id=new URL(link.href,location.href).searchParams.get('id');
+    const rec=approved.get(String(id||''));
+    let plant=null;try{plant=await get(`data/plants/${encodeURIComponent(id||'')}.json?v=97`)}catch(e){}
+    const actual=norm(plant?.identity?.botanical_name||plant?.botanical_name||'');
+    if(!rec||!actual||norm(rec.verified_botanical_name)!==actual){
+      img.src=placeholder(plant?.identity?.name||plant?.name||id||'Plant');
+      img.alt=(plant?.identity?.name||plant?.name||id||'Plant')+' — verified whole-plant photograph unavailable';
+      img.removeAttribute('data-curated');
+      return;
+    }
+    img.src=rec.image_path;img.dataset.curated='true';img.dataset.verified='true';img.title='✓ Exact botanical species verified • Whole plant • '+rec.source_name;
+    img.addEventListener('error',()=>{img.src=placeholder(plant?.identity?.name||plant?.name||id||'Plant');img.removeAttribute('data-curated');},{once:true});
+  }));
 }
 function start(){let tries=0;const timer=setInterval(()=>{if(document.getElementById('plant-list')){clearInterval(timer);load()}else if(++tries>50)clearInterval(timer)},200)}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start);else start();
