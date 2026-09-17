@@ -4,36 +4,36 @@
   "identity": {
     "name": "Agnimanth",
     "sanskrit_name": "अग्निमन्थ",
-    "transliteration": "",
+    "transliteration": "Agnimantha",
     "botanical_name": "Premna integrifolia L.",
     "family": "Lamiaceae",
     "english_name": "Dusky Fire Brand",
-    "hindi_name": "",
+    "hindi_name": "अरनी",
     "regional_names": [],
-    "synonyms": [
-      "Tarkari",
-      "Nadeyi",
-      "Vaijayanti",
-      "Shriparni"
-    ]
+    "synonyms": ["Tarkari", "Nadeyi", "Vaijayanti", "Shriparni"]
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Small tree or shrub",
+    "habitat": "Tropical and subtropical regions; commonly associated with plains and moist localities",
+    "distribution": "Recorded from India; distribution varies by botanical treatment and accepted species concept"
   },
   "identification": {
-    "description": "",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": "",
-    "identification_points": []
+    "description": "A woody shrub or small tree of the Premna group, with simple opposite leaves and small flowers borne in terminal or axillary clusters.",
+    "whole_plant": "Woody shrub or small tree with branched habit.",
+    "root": "Medicinal root is the principal useful part recorded in this project; detailed field characters require specimen-level verification.",
+    "stem": "Woody, branched stem; bark grey-brown to brown on mature portions.",
+    "leaf": "Simple, opposite leaves; shape and surface characters should be confirmed against an authenticated botanical specimen.",
+    "flower": "Small flowers occurring in clustered inflorescences; detailed colour and floral characters should be checked against a pharmacognostic/botanical reference.",
+    "fruit": "Small drupe-like fruit; detailed maturity and colour characters require specimen-level verification.",
+    "seed": "Seed enclosed within the fruit; detailed diagnostic microscopy is not yet recorded.",
+    "bark": "Mature woody bark; detailed macroscopic and microscopic characters require pharmacopoeial verification.",
+    "identification_points": [
+      "Woody shrub or small tree",
+      "Simple opposite leaves",
+      "Clustered small flowers",
+      "Root is the principal useful part recorded in this dossier"
+    ]
   },
   "images": {
     "whole_plant": "images/plants/agnimanth.png",
@@ -47,18 +47,11 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": [
-      "Tikta"
-    ],
-    "guna": [
-      "Laghu"
-    ],
+    "rasa": ["Tikta"],
+    "guna": ["Laghu"],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
-      "Shoolaghna",
-      "Virechana"
-    ],
+    "prabhava": ["Shoolaghna", "Virechana"],
     "karma": []
   },
   "dosha": {
@@ -67,15 +60,8 @@
     "kapha": "not specifically documented in imported dataset"
   },
   "therapeutics": {
-    "useful_part": [
-      "root"
-    ],
-    "indications": [
-      "Shotha",
-      "Pandu",
-      "Arsha",
-      "Vata Vyadhi"
-    ],
+    "useful_part": ["root"],
+    "indications": ["Shotha", "Pandu", "Arsha", "Vata Vyadhi"],
     "therapeutic_actions": [],
     "dose": "",
     "anupana": "",
@@ -89,49 +75,69 @@
     "nighantu_references": [],
     "samhita_references": [],
     "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
-    "reference_hubs": [
-      "TDU Indian Medicinal Plants Database — Shlokas"
-    ]
+    "reference_hubs": ["TDU Indian Medicinal Plants Database — Shlokas"]
   },
   "phytochemistry": {
     "major_constituents": [],
-    "chemical_notes": ""
+    "chemical_notes": "Not yet populated from a verified pharmacognosy/phytochemistry source."
   },
   "modern_information": {
-    "evidence_summary": "Part of Dashamoola, used in vata disorders and for promoting digestion.",
+    "evidence_summary": "Agnimanth is included in the Ayurvedic Dashamoola group; this dossier does not make independent clinical efficacy claims.",
     "recognized_uses": [],
-    "safety_notes": "",
+    "safety_notes": "Dose, contraindications and clinical use require verification against authoritative Ayurvedic/pharmacopoeial sources.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Agnimanth is one of the Dashamoola drugs",
+      "Premna integrifolia L. is the botanical identity used in this project",
+      "Root is the principal useful part recorded here"
+    ],
+    "viva_questions": [
+      "What is the botanical name of Agnimanth?",
+      "Which classical group includes Agnimanth?",
+      "What is the principal useful part recorded for Agnimanth?"
+    ],
+    "identification_points": [
+      "Woody shrub or small tree",
+      "Simple opposite leaves",
+      "Clustered small flowers"
+    ],
     "mnemonics": [],
-    "quick_revision": "Part of Dashamoola, used in vata disorders and for promoting digestion."
+    "quick_revision": "Agnimanth — Premna integrifolia L.; root; member of Dashamoola; verify detailed pharmacognostic and classical data before clinical use."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Relate Agnimanth to the Dashamoola group",
+      "Demonstrate authentication using botanical characters and an identified specimen"
+    ],
+    "discussion_points": [
+      "Botanical authentication and synonymy of Agnimanth",
+      "Importance of distinguishing a verified species from historical synonym usage"
+    ],
+    "practical_points": [
+      "Observe opposite leaves and woody habit",
+      "Compare an authenticated specimen with the project's reference image"
+    ]
   },
   "doctor": {
-    "quick_reference": "",
+    "quick_reference": "Agnimanth is a Dashamoola drug; this project records the root as the useful part.",
     "important_indications": [],
     "useful_part": "root",
     "dose": "",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": ["Verify dose and clinical indications from an authoritative source before prescribing."]
   },
   "sources": [
     {
       "type": "official_syllabus",
       "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
-      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
-      "author": "",
-      "edition": "",
-      "year": "",
-      "page": ""
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "official_medicinal_plant_database",
+      "title": "e-Charak / Ministry of AYUSH medicinal plant resources",
+      "url": "https://echarak.ayush.gov.in/"
     },
     {
       "type": "medicinal_plants_database",
@@ -149,7 +155,7 @@
       "title": "Amidha Ayurveda Herb Database v2.0",
       "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
       "license": "CC BY 4.0",
-      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      "note": "Used only as a secondary structured-data aid; verify classical and clinical claims against authoritative sources."
     },
     {
       "type": "image",
@@ -160,11 +166,12 @@
   ],
   "metadata": {
     "status": "working_draft_needs_text_cross_check",
-    "last_verified": "",
-    "verified_by": "",
-    "version": "1.2",
-    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+    "last_verified": "2026-09-17",
+    "verified_by": "source-assisted repository review",
+    "version": "1.3",
+    "image_enrichment_note": "Existing image retained; additional part-specific verified images still required.",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "quality_pass": "2026-09-17"
   },
   "category": "NCISM-97",
   "syllabus_marker": "NCISM-97"
