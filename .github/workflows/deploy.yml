@@ -29,7 +29,7 @@ jobs:
           rm -rf _site
           tar --exclude='./.git' --exclude='./.github' --exclude='./_site' -cf - . | tar -xf - -C _site
           python - <<'PY'
-          import json, re
+          import json, re, os
           from pathlib import Path
           root=Path('_site')
           db=root/'data'/'plants'
@@ -39,17 +39,12 @@ jobs:
           assert len(core)==97, f'Expected 97 NCISM records, found {len(core)}'
           index=json.loads((root/'plant-index.json').read_text(encoding='utf-8'))
           assert len(index.get('plants',[]))==111, 'Generated index must contain the current 111 indexed records'
-
           pages=['index.html','plants.html','plant.html','compare.html','quiz.html','practical-lab.html','references.html','404.html']
           for page in root.rglob('*.html'):
               html=page.read_text(encoding='utf-8')
               html=re.sub(r'<link[^>]+rel=["\'](?:icon|shortcut icon|apple-touch-icon)["\'][^>]*>', '', html, flags=re.I)
-              rel_svg=Path(__import__('os').path.relpath(root/'favicon.svg', page.parent)).as_posix()
-              rel_png=Path(__import__('os').path.relpath(root/'images'/'favicon.png', page.parent)).as_posix()
-              tags=(f'<link rel="icon" type="image/svg+xml" href="{rel_svg}">'
-                    f'<link rel="icon" type="image/png" href="{rel_png}">'
-                    f'<link rel="apple-touch-icon" href="{rel_png}">')
-              html=html.replace('</head>', tags+'\n</head>', 1)
+              rel_svg=Path(os.path.relpath(root/'favicon.svg', page.parent)).as_posix()
+              html=html.replace('</head>',f'<link rel="icon" type="image/svg+xml" href="{rel_svg}">\n</head>',1)
               if page.name in pages and '<link rel="manifest"' not in html:
                   html=html.replace('</head>','<link rel="manifest" href="manifest.json"><meta name="theme-color" content="#1b4332">\n</head>',1)
               if page.name in pages and "navigator.serviceWorker.register('./sw.js')" not in html:
@@ -69,7 +64,6 @@ jobs:
               if page.name=='references.html' and '<script src="classical-references-enhanced.js" defer></script>' not in html:
                   html=html.replace('</body>','<script src="classical-references-enhanced.js" defer></script>\n</body>',1)
               page.write_text(html,encoding='utf-8')
-
           manifest=root/'manifest.json'
           m=json.loads(manifest.read_text(encoding='utf-8'))
           m['icons']=[{'src':'favicon.svg','sizes':'192x192','type':'image/svg+xml','purpose':'any maskable'}]
