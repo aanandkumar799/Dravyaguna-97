@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - 'scripts/audit-plant-images.py'
+      - 'scripts/validate-curated-images.py'
       - 'data/curated-image-manifest.json'
       - '.github/workflows/continuous-image-audit.yml'
 permissions:
@@ -16,24 +17,24 @@ concurrency:
 jobs:
   audit-images:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
     steps:
       - name: Checkout
         uses: actions/checkout@v5
       - name: Audit all 97 plants and all nine gallery parts
         run: python scripts/audit-plant-images.py
-      - name: Validate registry
+      - name: Validate registry and local assets
         run: |
           python -m json.tool data/curated-image-manifest.json >/dev/null
           python scripts/validate-curated-images.py
-      - name: Commit verified additions only
+      - name: Commit verified local image assets and registry
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/curated-image-manifest.json
+          git add images/plants data/curated-image-manifest.json data/image-audit-report.json
           if git diff --cached --quiet; then
-            echo 'No new verified image additions this run.'
+            echo 'No image changes this run.'
           else
-            git commit -m 'Update verified plant-part image registry'
+            git commit -m 'Store verified plant-part images locally'
             git push
           fi
