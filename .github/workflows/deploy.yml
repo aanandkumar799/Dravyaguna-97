@@ -58,7 +58,7 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           root = Path('_site')
-          for filename in ['index.html', 'plant.html', 'plants.html', 'compare.html', 'quiz.html']:
+          for filename in ['index.html', 'plant.html', 'plants.html', 'compare.html', 'quiz.html', 'practical-lab.html', 'references.html']:
               p = root / filename
               if not p.exists():
                   continue
@@ -80,6 +80,10 @@ jobs:
                       s = s.replace('</body>', '<script src="quick-revision-flashcards.js" defer></script>\n</body>', 1)
                   if '<script src="academic-verification.js" defer></script>' not in s:
                       s = s.replace('</body>', '<script src="academic-verification.js" defer></script>\n</body>', 1)
+              if filename == 'practical-lab.html' and '<script src="practical-lab-enhanced.js" defer></script>' not in s:
+                  s = s.replace('</body>', '<script src="practical-lab-enhanced.js" defer></script>\n</body>', 1)
+              if filename == 'references.html' and '<script src="classical-references-enhanced.js" defer></script>' not in s:
+                  s = s.replace('</body>', '<script src="classical-references-enhanced.js" defer></script>\n</body>', 1)
               p.write_text(s, encoding='utf-8')
           p = root / 'plant.html'
           s = p.read_text(encoding='utf-8')
