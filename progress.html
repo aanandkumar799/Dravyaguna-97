@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="DravyaGuna 97 study progress tracker for BAMS students.">
+<title>Study Progress | DravyaGuna 97</title>
+<link rel="icon" href="images/favicon.png" type="image/png">
+<link rel="stylesheet" href="style.css">
+<style>
+:root{--green:#1b4332;--green2:#2d6a4f;--cream:#f8f5ed;--line:#dfe8e2;--muted:#68736c}
+*{box-sizing:border-box}body{margin:0;background:var(--cream);color:#24302a;font-family:Outfit,Arial,sans-serif}.page{max-width:1120px;margin:auto;padding:26px 16px 60px}.head{text-align:center;margin-bottom:22px}.eyebrow{font-size:.76rem;letter-spacing:1.5px;font-weight:800;color:var(--green2);margin:0 0 7px}.head h1{font-family:Cinzel,serif;color:var(--green);font-size:clamp(2rem,6vw,3rem);margin:0 0 6px}.head p{color:var(--muted);margin:0}.nav{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin:16px 0 24px}.nav a,.btn{border:1px solid #cbd8ce;background:#fff;color:var(--green);padding:9px 13px;border-radius:9px;text-decoration:none;font:inherit;font-weight:700;cursor:pointer}.nav a:hover,.btn:hover{background:#edf5ef}.dashboard{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px}.stat{background:#fff;border:1px solid var(--line);border-radius:16px;padding:17px;text-align:center;box-shadow:0 6px 20px rgba(27,67,50,.06)}.stat strong{display:block;font-size:1.8rem;color:var(--green)}.stat span{font-size:.82rem;color:var(--muted)}.panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 7px 22px rgba(27,67,50,.06);margin-bottom:18px}.progress-track{height:13px;background:#edf2ee;border-radius:99px;overflow:hidden}.progress-fill{height:100%;width:0;background:var(--green2);transition:width .25s}.panel-top{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:12px}.panel h2{font-family:Cinzel,serif;color:var(--green);margin:0;font-size:1.25rem}.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:13px 0}.search{width:100%;padding:12px 14px;border:1px solid #d5dfd7;border-radius:10px;font:inherit;background:#fafcf9}.plant-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:10px}.study-item{display:flex;align-items:flex-start;gap:11px;border:1px solid #e2e9e4;border-radius:12px;padding:12px;background:#fbfdfb}.study-item.done{background:#f0f8f1;border-color:#c5dccb}.study-item input{width:19px;height:19px;margin-top:2px;accent-color:var(--green2);flex:0 0 auto}.study-name{font-weight:800;color:var(--green)}.study-meta{font-size:.78rem;color:var(--muted);margin-top:2px}.study-actions{margin-left:auto;display:flex;gap:5px}.study-actions a{font-size:.75rem;color:var(--green2);text-decoration:none;font-weight:700}.empty{padding:30px;text-align:center;color:var(--muted)}.note{font-size:.8rem;color:var(--muted);text-align:center;margin-top:18px}.danger{border-color:#e3caca;background:#fff7f7;color:#8b3030}@media(max-width:760px){.dashboard{grid-template-columns:repeat(2,1fr)}}@media(max-width:460px){.dashboard{grid-template-columns:1fr 1fr}.stat{padding:13px}.plant-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main class="page">
+<section class="head"><p class="eyebrow">BAMS • DRAVYAGUNA VIGYAN • STUDENT TOOLS</p><h1>Study Progress</h1><p>Track the NCISM 97-drug series you have studied and keep your revision organized.</p></section>
+<nav class="nav" aria-label="Student navigation"><a href="index.html">← Home</a><a href="plants.html">🌿 Plant Library</a><a href="quiz.html">🧠 Quiz</a><a href="viva.html">🎤 Viva</a><a href="compare.html">⚖️ Compare</a></nav>
+<section class="dashboard" aria-label="Progress summary"><div class="stat"><strong id="studiedCount">0</strong><span>Studied</span></div><div class="stat"><strong id="remainingCount">97</strong><span>Remaining</span></div><div class="stat"><strong id="favoriteCount">0</strong><span>Favourites</span></div><div class="stat"><strong id="percentCount">0%</strong><span>Completion</span></div></section>
+<section class="panel"><div class="panel-top"><h2>97-Drug Completion</h2><strong id="progressText">0 / 97</strong></div><div class="progress-track" aria-label="Study progress"><div class="progress-fill" id="progressFill"></div></div></section>
+<section class="panel"><div class="panel-top"><h2>Study Checklist</h2></div><input id="search" class="search" type="search" placeholder="Search by drug, Sanskrit name or botanical name…" autocomplete="off"><div class="toolbar"><button class="btn" id="showAll" type="button">All 97</button><button class="btn" id="showPending" type="button">Pending</button><button class="btn" id="showDone" type="button">Studied</button><button class="btn" id="showFav" type="button">⭐ Favourites</button><button class="btn danger" id="reset" type="button">Reset Progress</button></div><div id="plantGrid" class="plant-grid"><div class="empty">Loading NCISM 97…</div></div></section>
+<p class="note"><strong>Local progress:</strong> your checklist is stored in this browser/device using local storage. It is not a cloud account or official academic record.</p>
+</main>
+<script>
+(()=>{
+ const INDEX='plant-index.json?v=99', STUDY='dg97-study-v1', FAV='dg97-favourites-v1';
+ let plants=[],studied=new Set(),favorites=new Set(),filter='all';
+ const $=id=>document.getElementById(id); const clean=v=>String(v??'').trim();
+ const arr=v=>Array.isArray(v)?v.map(clean).filter(Boolean):(clean(v)?[clean(v)]:[]);
+ const name=p=>p.name||p.identity?.name||''; const sans=p=>p.sanskrit_name||p.identity?.sanskrit_name||''; const bot=p=>p.botanical_name||p.identity?.botanical_name||'';
+ function readSet(key){try{const v=JSON.parse(localStorage.getItem(key)||'[]');return new Set(Array.isArray(v)?v.map(String):[])}catch(_){return new Set()}}
+ function save(){try{localStorage.setItem(STUDY,JSON.stringify([...studied]))}catch(_){} }
+ function render(){
+  const q=clean($('search').value).toLowerCase(); const shown=plants.filter(p=>{const id=String(p.id); const hay=[name(p),sans(p),bot(p),p.family||''].join(' ').toLowerCase(); if(q&&!hay.includes(q))return false; if(filter==='done'&&!studied.has(id))return false; if(filter==='pending'&&studied.has(id))return false; if(filter==='fav'&&!favorites.has(id))return false; return true});
+  $('plantGrid').innerHTML=shown.length?shown.map(p=>{const id=String(p.id),done=studied.has(id),fav=favorites.has(id);return `<label class="study-item ${done?'done':''}"><input type="checkbox" data-id="${esc(id)}" ${done?'checked':''}><span><span class="study-name">${esc(String(p.order).padStart(2,'0'))}. ${esc(name(p))}</span><span class="study-meta">${esc(sans(p)||'Sanskrit not indexed')} • ${esc(bot(p)||'Botanical name not indexed')}</span></span><span class="study-actions"><a href="plant.html?id=${encodeURIComponent(id)}">Open</a>${fav?'<span title="Favourite">⭐</span>':''}</span></label>`}).join(''):'<div class="empty">No drugs match the current filters.</div>';
+  document.querySelectorAll('#plantGrid input').forEach(el=>el.addEventListener('change',()=>{const id=el.dataset.id;if(el.checked)studied.add(id);else studied.delete(id);save();update();render()}));
+ }
+ function esc(v){return String(v??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;')}
+ function update(){const n=studied.size, pct=Math.round(n/97*100);$('studiedCount').textContent=n;$('remainingCount').textContent=Math.max(0,97-n);$('favoriteCount').textContent=favorites.size;$('percentCount').textContent=pct+'%';$('progressText').textContent=n+' / 97';$('progressFill').style.width=pct+'%'}
+ function setFilter(v){filter=v;render()}
+ $('search').addEventListener('input',render);$('showAll').onclick=()=>setFilter('all');$('showPending').onclick=()=>setFilter('pending');$('showDone').onclick=()=>setFilter('done');$('showFav').onclick=()=>setFilter('fav');
+ $('reset').onclick=()=>{if(confirm('Reset your local study checklist?')){studied.clear();save();update();render()}};
+ async function init(){try{const r=await fetch(INDEX,{cache:'no-store'});if(!r.ok)throw new Error('Index unavailable');const d=await r.json();plants=(Array.isArray(d)?d:d.plants||[]).filter(p=>p.category==='NCISM-97'&&Number(p.order)>=1&&Number(p.order)<=97).sort((a,b)=>Number(a.order)-Number(b.order));studied=readSet(STUDY);favorites=readSet(FAV);update();render()}catch(e){$('plantGrid').innerHTML='<div class="empty">Could not load the NCISM plant index. Refresh and try again.</div>'}}
+ init();
+})();
+</script>
+</body></html>
