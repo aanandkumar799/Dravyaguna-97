@@ -1,56 +1,56 @@
 {
-  "generated_at": "2026-09-17T22:14:38.055785+00:00",
+  "generated_at": "2026-09-17T23:13:25.040506+00:00",
   "plants_checked": 97,
   "slots_checked": 873,
   "filled_this_run": [
     {
-      "plant_id": "amalaki",
+      "plant_id": "arjuna",
+      "part": "habit",
+      "action": "downloaded-new-image",
+      "path": "images/plants/arjuna/habit/image.jpg",
+      "bytes": 1220146
+    },
+    {
+      "plant_id": "haridra",
+      "part": "root",
+      "action": "downloaded-new-image",
+      "path": "images/plants/haridra/root/image.jpg",
+      "bytes": 193758
+    },
+    {
+      "plant_id": "haridra",
       "part": "stem",
       "action": "downloaded-new-image",
-      "path": "images/plants/amalaki/stem/image.jpg",
-      "bytes": 432411
+      "path": "images/plants/haridra/stem/image.jpg",
+      "bytes": 2006193
     },
     {
-      "plant_id": "amalaki",
+      "plant_id": "haridra",
       "part": "leaf",
       "action": "downloaded-new-image",
-      "path": "images/plants/amalaki/leaf/image.jpg",
-      "bytes": 474991
+      "path": "images/plants/haridra/leaf/image.jpg",
+      "bytes": 1584131
     },
     {
-      "plant_id": "bilva",
+      "plant_id": "nagkeshar",
+      "part": "habit",
+      "action": "downloaded-new-image",
+      "path": "images/plants/nagkeshar/habit/image.jpg",
+      "bytes": 241043
+    },
+    {
+      "plant_id": "usheera",
       "part": "flower",
       "action": "downloaded-new-image",
-      "path": "images/plants/bilva/flower/image.jpg",
-      "bytes": 426452
+      "path": "images/plants/usheera/flower/image.jpg",
+      "bytes": 695981
     },
     {
-      "plant_id": "bilva",
-      "part": "fruit",
-      "action": "downloaded-new-image",
-      "path": "images/plants/bilva/fruit/image.jpg",
-      "bytes": 689374
-    },
-    {
-      "plant_id": "lavanga",
-      "part": "habit",
-      "action": "downloaded-new-image",
-      "path": "images/plants/lavanga/habit/image.jpg",
-      "bytes": 407705
-    },
-    {
-      "plant_id": "shunthi",
+      "plant_id": "vacha",
       "part": "whole_plant",
       "action": "downloaded-new-image",
-      "path": "images/plants/shunthi/whole_plant/image.jpg",
-      "bytes": 74035
-    },
-    {
-      "plant_id": "shunthi",
-      "part": "habit",
-      "action": "downloaded-new-image",
-      "path": "images/plants/shunthi/habit/image.jpg",
-      "bytes": 97666
+      "path": "images/plants/vacha/whole_plant/image.jpg",
+      "bytes": 66191
     }
   ],
   "unresolved": [
@@ -121,11 +121,6 @@
     },
     {
       "plant_id": "arjuna",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "arjuna",
       "part": "root",
       "reason": "no-high-confidence-unique-image"
     },
@@ -1057,21 +1052,6 @@
     {
       "plant_id": "haridra",
       "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "haridra",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "haridra",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "haridra",
-      "part": "leaf",
       "reason": "no-high-confidence-unique-image"
     },
     {
@@ -2976,11 +2956,6 @@
     },
     {
       "plant_id": "nagkeshar",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nagkeshar",
       "part": "root",
       "reason": "no-high-confidence-unique-image"
     },
@@ -3772,8 +3747,7 @@
     {
       "plant_id": "shunthi",
       "part": "root",
-      "reason": "download-failed",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "shunthi",
@@ -4012,11 +3986,6 @@
     },
     {
       "plant_id": "usheera",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "usheera",
       "part": "fruit",
       "reason": "no-high-confidence-unique-image"
     },
@@ -4028,11 +3997,6 @@
     {
       "plant_id": "usheera",
       "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "vacha",
-      "part": "whole_plant",
       "reason": "no-high-confidence-unique-image"
     },
     {
@@ -4346,7 +4310,7 @@
       "reason": "no-high-confidence-unique-image"
     }
   ],
-  "remaining_missing": 858,
+  "remaining_missing": 851,
   "local_asset_root": "images/plants/<plant>/<part>/image.*",
   "policy": {
     "exact_species_required": true,
