@@ -50,6 +50,7 @@ fixes = {
         (r'index\.html#student', 'progress.html'),
         (r'index\.html#teacher', 'reference-library.html'),
         (r'index\.html#doctor', 'references.html'),
+        (r'index\.html#doctor', 'references.html'),
         (r'r\.verification_status===\'verified-external\'', "['verified','verified-external','verified-local'].includes(r.verification_status)"),
         (r'src="data:image/svg\\+xml,%3Csvg[^\"]*%3C/svg%3E"', 'src="favicon.svg"'),
     ],
@@ -63,6 +64,18 @@ for filename, replacements in fixes.items():
         html = re.sub(pattern, replacement, html, count=1)
     if html != original:
         path.write_text(html, encoding="utf-8")
+
+# Apply the same theme assets to every HTML page, not just the homepage.
+# This makes the saved dark/light preference and toggle global across the site.
+for page in sorted(ROOT.glob("*.html")):
+    html = page.read_text(encoding="utf-8")
+    original = html
+    if 'href="site-theme.css"' not in html and "</head>" in html:
+        html = html.replace("</head>", '<link rel="stylesheet" href="site-theme.css">\n</head>', 1)
+    if 'src="site-theme.js"' not in html and "</body>" in html:
+        html = html.replace("</body>", '<script src="site-theme.js" defer></script>\n</body>', 1)
+    if html != original:
+        page.write_text(html, encoding="utf-8")
 
 # The production Firebase build copies the repository into _site after this
 # script runs. Inject the verified feedback modules into the homepage here so
