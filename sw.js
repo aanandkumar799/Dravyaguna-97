@@ -1,4 +1,4 @@
-const CACHE_NAME = 'dravya-guna-97-v6';
+const CACHE_NAME = 'dravya-guna-97-v7';
 const APP_SHELL = ['./','./index.html','./plants.html','./plant.html','./compare.html','./quiz.html','./style.css','./responsive-fix.css','./plant-dossier-layout.css','./academic-enhancements.css','./academic-enhancements.js','./image-gallery-delay.js','./image-gallery-fix.js','./manifest.json','./404.html','./robots.txt','./sitemap.xml','./favicon.svg','./images/favicon.png'];
 
 self.addEventListener('install', event => {
