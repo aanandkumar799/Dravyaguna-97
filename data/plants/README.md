@@ -31,3 +31,6 @@ Where available, keep separate identification notes for whole plant, root, stem,
 2. Cross-check Sanskrit, botanical identity, rasa-panchaka, classical quotations and formulation references against authoritative texts.
 3. Update `metadata.status`, `last_verified`, and source details.
 4. Run the database validation pipeline before publication.
+
+## Migration status
+The legacy aggregate database has been migrated into individual plant JSON records. The aggregate `plants.json` file is intentionally absent from the repository.
