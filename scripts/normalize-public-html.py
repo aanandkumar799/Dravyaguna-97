@@ -33,6 +33,11 @@ def normalize(root: Path) -> None:
             '<div class="progress-track" aria-label="Study progress">',
             '<div class="progress-track" role="progressbar" aria-label="Study progress" aria-valuemin="0" aria-valuemax="97" aria-valuenow="0">'
         )
+        # The filter row is a generic layout container, not a labelled ARIA widget.
+        html = html.replace(
+            '<div class="filter-row" aria-label="Dravyaguna filters">',
+            '<div class="filter-row">'
+        )
 
         # Give the dynamically populated modal image a valid initial source.
         html = html.replace(
