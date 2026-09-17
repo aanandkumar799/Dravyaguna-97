@@ -1,16 +1,15 @@
 /*
- * DravyaGuna 97 feedback configuration.
- * Firebase web configuration is safe to expose in a public frontend.
- * Replace the placeholder values with your Firebase project settings.
+ * DravyaGuna 97 Firebase web-app configuration.
+ * This is client-side Firebase configuration; Firestore/Auth rules protect the data.
  */
 window.DRAVYAGUNA_FIREBASE_CONFIG = {
-  apiKey: "REPLACE_WITH_FIREBASE_API_KEY",
-  authDomain: "REPLACE_WITH_PROJECT_ID.firebaseapp.com",
-  projectId: "REPLACE_WITH_PROJECT_ID",
-  storageBucket: "REPLACE_WITH_PROJECT_ID.firebasestorage.app",
-  messagingSenderId: "REPLACE_WITH_MESSAGING_SENDER_ID",
-  appId: "REPLACE_WITH_FIREBASE_APP_ID"
+  apiKey: "AIzaSyBolaY9Ej3M-EXB-_zHSJEDAwdenp2uIaU",
+  authDomain: "dravya-guna-97.firebaseapp.com",
+  projectId: "dravya-guna-97",
+  storageBucket: "dravya-guna-97.firebasestorage.app",
+  messagingSenderId: "84513350587",
+  appId: "1:84513350587:web:a2a77be972725efe61da9e",
+  measurementId: "G-PCL9S31RW9"
 };
 
-/* Optional: only this address is shown as the site administrator in the UI. */
 window.DRAVYAGUNA_FEEDBACK_ADMIN_EMAIL = "";
