@@ -20,7 +20,7 @@
 (()=>{
 'use strict';
 const root=document.getElementById('plant-content'),id=new URLSearchParams(location.search).get('id');
-const esc=v=>String(v??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');
+const esc=v=>String(v??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\"/g,'&quot;').replace(/'/g,'&#039;');
 const arr=v=>Array.isArray(v)?v.filter(x=>x!==null&&x!==undefined&&String(x).trim()!==''):[];
 const text=v=>Array.isArray(v)?v.map(x=>typeof x==='object'?Object.values(x).join(' — '):String(x)).filter(Boolean).join(', '):String(v??'');
 const has=v=>text(v).trim()!=='';
@@ -46,7 +46,7 @@ async function load(){
 }
 function gallery(p,records){
  const parts=[['whole_plant','Whole plant'],['habit','Habit / growth form'],['root','Root'],['stem','Stem'],['leaf','Leaf'],['flower','Flower'],['fruit','Fruit'],['seed','Seed'],['bark','Bark']];
- const id=String(p.identity?.id||'');const local=p.images||{};const out=parts.map(([part,label])=>{const r=records.find(x=>String(x.plant_id)===id&&x.part===part&&x.verification_status==='verified-external'&&x.image_path);const path=r?.image_path||local[part];if(!path)return `<figure class="gallery-item"><div class="image-missing">🌿<br>No verified ${esc(label.toLowerCase())} image available yet</div><figcaption>${esc(label)}</figcaption></figure>`;const src=esc(path);const source=r?.source_url?`<a class="gallery-source" href="${esc(r.source_url)}" target="_blank" rel="noopener noreferrer">Verified source</a>`:'';return `<figure class="gallery-item"><img src="${src}" alt="${esc(p.identity.name+' '+label)}" loading="lazy" data-full="${src}"><figcaption>${esc(label)}</figcaption>${source}</figure>`}).join('');return `<div class="image-gallery">${out}</div>`;
+ const id=String(p.id||p.identity?.id||'');const local=p.images||{};const out=parts.map(([part,label])=>{const r=records.find(x=>String(x.plant_id)===id&&x.part===part&&x.verification_status==='verified-external'&&x.image_path);const path=r?.image_path||local[part];if(!path)return `<figure class="gallery-item"><div class="image-missing">🌿<br>No verified ${esc(label.toLowerCase())} image available yet</div><figcaption>${esc(label)}</figcaption></figure>`;const src=esc(path);const source=r?.source_url?`<a class="gallery-source" href="${esc(r.source_url)}" target="_blank" rel="noopener noreferrer">Verified source</a>`:'';return `<figure class="gallery-item"><img src="${src}" alt="${esc(p.identity.name+' '+label)}" loading="lazy" data-full="${src}"><figcaption>${esc(label)}</figcaption>${source}</figure>`}).join('');return `<div class="image-gallery">${out}</div>`;
 }
 function render(data){
  const p=data.p,i=p.identity||{},c=p.classification||{},d=p.identification||{},g=p.dravyaguna||{},dos=p.dosha||{},t=p.therapeutics||{},cl=p.classical_reference||{},ph=p.phytochemistry||{},m=p.modern_information||{},st=p.student||{},te=p.teacher||{},dr=p.doctor||{},meta=p.metadata||{};
