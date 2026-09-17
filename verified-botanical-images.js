@@ -1,39 +1,56 @@
 (()=>{
-  const clean=v=>String(v??'').replace(/\s+/g,' ').trim();
-  const esc=v=>clean(v).replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\\':'&#039;','"':'&quot;'}[c]||c));
-  const tokens=s=>clean(s).toLowerCase().replace(/[()]/g,'').split(/\s+/).filter(x=>x.length>2);
-  const partWords={whole_plant:[],habit:['tree','shrub','herb','climber','vine','habit','growth'],root:['root','roots'],stem:['stem','stems','twig','twigs'],leaf:['leaf','leaves','foliage'],flower:['flower','flowers','inflorescence'],fruit:['fruit','fruits'],seed:['seed','seeds'],bark:['bark','trunk']};
-  const excluded=/\b(map|diagram|microscope|cross[- ]?section|histology|chemical|medicine|tablet|capsule|powder|painting|logo|flag|person|animal|poster|chart)\b/i;
-  async function api(species,part,used){
-    const exact=clean(species).replace(/\s*\([^)]*\)/g,'').trim();if(!exact)return null;
-    const tk=tokens(exact),cats=[`Category:${exact}`,`Category:${exact} (${part==='fruit'?'fruit':part})`];
-    for(const cat of cats)try{
-      const u='https://commons.wikimedia.org/w/api.php?action=query&list=categorymembers&cmtitle='+encodeURIComponent(cat)+'&cmtype=file&cmlimit=80&format=json&origin=*';
-      const r=await fetch(u,{cache:'force-cache'});if(!r.ok)continue;const j=await r.json();const members=j.query?.categorymembers||[];if(!members.length)continue;
-      const ids=members.map(x=>x.pageid).filter(Boolean).join('|');if(!ids)continue;
-      const ir=await fetch('https://commons.wikimedia.org/w/api.php?action=query&pageids='+ids+'&prop=imageinfo&iiprop=url|mime&iiurlwidth=1200&format=json&origin=*',{cache:'force-cache'});if(!ir.ok)continue;const ij=await ir.json();const wanted=partWords[part]||[];
-      const candidates=Object.values(ij.query?.pages||{}).map(p=>({p,info:p.imageinfo?.[0]})).filter(x=>{
-        const title=clean(x.p?.title||''),low=title.toLowerCase(),info=x.info;if(!info||String(info.mime||'').startsWith('video/'))return false;if(excluded.test(low))return false;
-        const score=tk.filter(t=>low.includes(t)).length;if(score<Math.min(2,tk.length))return false;const url=info.thumburl||info.url;if(!/^https?:\/\//i.test(url)||used.has(url))return false;
-        if(part==='whole_plant')return !/(leaf|flower|fruit|seed|root|bark|stem|twig|trunk)/i.test(low);
-        if(part==='habit')return /(tree|shrub|herb|climber|vine|habit|growth)/i.test(low)&&!/(leaf|flower|fruit|seed|root|bark|stem|twig|trunk)/i.test(low);
-        return wanted.some(w=>low.includes(w));
-      }).sort((a,b)=>{
-        const aw=(partWords[part]||[]).filter(w=>String(a.p.title).toLowerCase().includes(w)).length,bw=(partWords[part]||[]).filter(w=>String(b.p.title).toLowerCase().includes(w)).length;return bw-aw;
-      });
-      const x=candidates[0];if(x){const url=x.info.thumburl||x.info.url;used.add(url);return{url,title:x.p.title,page:'https://commons.wikimedia.org/wiki/'+encodeURIComponent(String(x.p.title).replace(/ /g,'_'))};}
-    }catch(e){}
-    return null;
+  'use strict';
+  const PARTS=[
+    ['whole_plant','Whole plant','Exact species; overall specimen must be visible.'],
+    ['habit','Habit / growth form','Exact species; growth architecture must be visible.'],
+    ['root','Root','Exact species; actual root must be documented.'],
+    ['stem','Stem / twig','Exact species; stem or twig must be documented.'],
+    ['leaf','Leaf','Exact species; diagnostic leaf morphology must be visible.'],
+    ['flower','Flower / inflorescence','Exact species; actual flower or inflorescence must be visible.'],
+    ['fruit','Fruit','Exact species; actual fruit must be visible.'],
+    ['seed','Seed','Exact species; actual seed must be documented.'],
+    ['bark','Bark','Exact species; bark character must be visible.']
+  ];
+  const BAD=/\b(map|diagram|microscope|histology|chemical|medicine|tablet|capsule|powder|painting|logo|flag|person|animal|poster|chart|illustration|drawing|herbarium\s+sheet)\b/i;
+  const root=location.pathname.replace(/[^/]*$/,'');
+  const esc=v=>String(v??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');
+  const host=()=>document.getElementById('plant-gallery-host')||document.querySelector('.image-gallery');
+  async function get(url){try{const r=await fetch(url,{cache:'no-store',headers:{Accept:'application/json'}});return r.ok?await r.json():null}catch(e){return null}}
+  function validRecord(r,pid,botanical,part){
+    if(!r||String(r.plant_id)!==pid||String(r.part)!==part||!r.image_path)return false;
+    if(!/^https?:\/\//i.test(r.image_path))return false;
+    if(String(r.verification_status||'')!=='verified-external'&&String(r.verification_status||'')!=='verified')return false;
+    if(String(r.verified_botanical_name||'').trim().toLowerCase()!==String(botanical||'').trim().toLowerCase())return false;
+    if(!r.source_url||!r.source_name)return false;
+    if(BAD.test(String(r.title||'')+' '+String(r.source_name||'')))return false;
+    return true;
   }
-  function getGalleryHost(){return document.getElementById('plant-gallery-host')||document.querySelector('.image-gallery');}
+  function sourceLabel(r){return `${esc(r.source_name||'Verified source')} ✓`}
+  function card(name,label,note,r){
+    if(!r)return `<figure class="gallery-item botanical-missing"><div class="image-loading">🌿 Verified photograph unavailable</div><figcaption><strong>${esc(label)}</strong><small>${esc(note)}</small><small>No sufficiently verified species-and-part image is currently approved.</small></figcaption></figure>`;
+    return `<figure class="gallery-item botanical-verified"><img src="${esc(r.image_path)}" alt="${esc(name+' — '+label)}" loading="lazy" decoding="async" class="plant-gallery-image"><figcaption><strong>${esc(label)}</strong><small>${esc(note)}</small><a class="gallery-source" href="${esc(r.source_url)}" target="_blank" rel="noopener noreferrer">Source: ${sourceLabel(r)} ↗</a></figcaption></figure>`;
+  }
   async function build(){
-    const host=getGalleryHost();if(!host)return;const id=new URLSearchParams(location.search).get('id');if(!id)return;
-    let p;try{const r=await fetch(`data/plants/${encodeURIComponent(id)}.json`,{cache:'no-store'});if(r.ok)p=await r.json();else return}catch(e){return}
-    const species=p?.identity?.botanical_name||p?.botanical_name||'';if(!species)return;const name=p?.identity?.name||p?.name||id,used=new Set();
-    const pairs=[['whole_plant','Whole plant','Overall habit and plant form'],['habit','Habit / growth form','Growth form / field appearance'],['bark','Bark','Bark / trunk character'],['leaf','Leaf','Leaf morphology'],['flower','Flower','Flower / inflorescence'],['fruit','Fruit','Fruit morphology'],['seed','Seed','Seed / dried fruit if specifically documented'],['root','Root','Root morphology'],['stem','Stem (Twig)','Stem / twig character']];
-    host.innerHTML='<div class="image-loading" style="grid-column:1/-1">🔎 Verifying species-specific botanical images…</div>';
-    const cards=[];for(const [part,label,note] of pairs){const r=await api(species,part,used);cards.push(r?`<figure class="gallery-item botanical-verified"><img src="${esc(r.url)}" alt="${esc(name+' '+label)}" loading="lazy" class="plant-gallery-image"><figcaption>${esc(label)}<small>${esc(note)}</small><a class="gallery-source" href="${esc(r.page)}" target="_blank" rel="noopener noreferrer">Source: Wikimedia Commons ↗</a></figcaption></figure>`:`<figure class="gallery-item botanical-missing"><div class="image-loading">No species-specific image verified yet</div><figcaption>${esc(label)}<small>${esc(note)}</small></figcaption></figure>`)}
-    host.innerHTML=cards.join('');
+    const h=host();if(!h)return;
+    const id=new URLSearchParams(location.search).get('id');if(!id)return;
+    h.innerHTML='<div class="image-loading" style="grid-column:1/-1">🔎 Loading only independently verified botanical photographs…</div>';
+    const p=await get(`${root}data/plants/${encodeURIComponent(id)}.json`);if(!p){h.innerHTML='';return;}
+    const index=await get(`${root}plant-index.json`);const manifest=await get(`${root}data/curated-image-manifest.json`);
+    const ref=(index?.plants||[]).find(x=>String(x?.id)===String(id));
+    const botanical=String(p?.identity?.botanical_name||p?.botanical_name||ref?.botanical_name||'').trim();
+    const name=String(p?.identity?.name||p?.name||ref?.name||id).trim();
+    const records=Array.isArray(manifest?.records)?manifest.records:[];
+    const used=new Set();const approved={};
+    for(const [part,label,note] of PARTS){
+      const candidates=records.filter(r=>validRecord(r,String(id),botanical,part));
+      const r=candidates.find(x=>!used.has(String(x.image_path)));
+      if(r){used.add(String(r.image_path));approved[part]=r;}
+    }
+    h.innerHTML=PARTS.map(([part,label,note])=>card(name,label,note,approved[part])).join('');
+    h.querySelectorAll('img.plant-gallery-image').forEach(img=>{
+      img.addEventListener('error',()=>{const f=img.closest('.gallery-item');if(f){f.classList.remove('botanical-verified');f.classList.add('botanical-missing');f.innerHTML='<div class="image-loading">🌿 Verified photograph unavailable</div><figcaption><strong>Image removed</strong><small>The approved source could not be loaded.</small></figcaption>';}});
+      img.addEventListener('click',()=>{const modal=document.getElementById('image-modal'),mi=document.getElementById('modal-image');if(modal&&mi){mi.src=img.currentSrc||img.src;mi.alt=img.alt;modal.classList.add('show');modal.setAttribute('aria-hidden','false');document.getElementById('close-modal')?.focus();}});
+    });
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',build);else build();
 })();
