@@ -1,169 +1,19 @@
 {
-  "id": "meshshrungi",
-  "order": 64,
-  "identity": {
-    "name": "Meshashrungi",
-    "sanskrit_name": "मेषशृङ्गी",
-    "transliteration": "",
-    "botanical_name": "Gymnema sylvestre (Retz.) R.Br. ex Sm.",
-    "family": "Apocynaceae",
-    "english_name": "Gymnema",
-    "hindi_name": "",
-    "regional_names": [],
-    "synonyms": [
-      "Madhunashini",
-      "Ajasringi",
-      "Meshavalli"
-    ]
-  },
-  "classification": {
-    "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
-  },
-  "identification": {
-    "description": "",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": "",
-    "identification_points": []
-  },
-  "images": {
-    "whole_plant": "",
-    "habit": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": ""
-  },
-  "dravya_guna": {
-    "rasa": [
-      "tikta",
-      "kashaya"
-    ],
-    "guna": [
-      "laghu",
-      "ruksha"
-    ],
-    "virya": "ushna",
-    "vipaka": "katu",
-    "prabhava": [
-      "Pramehaghna",
-      "Medohara"
-    ],
-    "karma": []
-  },
-  "dosha": {
-    "vata": "aggravated",
-    "pitta": "pacified",
-    "kapha": "pacified"
-  },
-  "therapeutics": {
-    "useful_part": [
-      "leaf",
-      "root"
-    ],
-    "indications": [
-      "Prameha",
-      "Kushta",
-      "Krimi",
-      "Mutrakrichha",
-      "Visha"
-    ],
-    "therapeutic_actions": [],
-    "dose": "",
-    "anupana": "",
-    "duration": "",
-    "precautions": "",
-    "contraindications": ""
-  },
-  "formulations": [],
-  "classical_reference": {
-    "shlokas": [],
-    "nighantu_references": [],
-    "samhita_references": [],
-    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
-    "reference_hubs": [
-      "TDU Indian Medicinal Plants Database — Shlokas"
-    ]
-  },
-  "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
-  },
-  "modern_information": {
-    "evidence_summary": "Known for regulating blood sugar and metabolism.",
-    "recognized_uses": [],
-    "safety_notes": "",
-    "sources": []
-  },
-  "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
-    "mnemonics": [],
-    "quick_revision": "Known for regulating blood sugar and metabolism."
-  },
-  "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
-  },
-  "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
-    "useful_part": "",
-    "dose": "",
-    "anupana": "",
-    "key_precautions": []
-  },
-  "sources": [
-    {
-      "type": "official_syllabus",
-      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
-      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
-      "author": "",
-      "edition": "",
-      "year": "",
-      "page": ""
-    },
-    {
-      "type": "medicinal_plants_database",
-      "title": "TDU Indian Medicinal Plants Database",
-      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
-    },
-    {
-      "type": "tdu_classical_database",
-      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
-      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
-      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
-    },
-    {
-      "type": "open_ayurveda_dataset",
-      "title": "Amidha Ayurveda Herb Database v2.0",
-      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
-      "license": "CC BY 4.0",
-      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
-    }
-  ],
-  "metadata": {
-    "status": "working_draft_needs_text_cross_check",
-    "last_verified": "",
-    "verified_by": "",
-    "version": "1.2",
-    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
-    "panchaka_correction": "2026-09-16 audit correction; source-reviewed classical profile"
-  },
-  "category": "NCISM-97",
-  "syllabus_marker": "NCISM-97"
+  "id":"meshshrungi","order":64,
+  "identity":{"name":"Meshashrungi","sanskrit_name":"मेषशृङ्गी","transliteration":"Meshashrungi","botanical_name":"Gymnema sylvestre (Retz.) R.Br. ex Sm.","family":"Apocynaceae","english_name":"Gymnema","hindi_name":"गुड़मार","regional_names":[],"synonyms":["Madhunashini","Ajasringi","Meshavalli"]},
+  "classification":{"kingdom":"Plantae","habit":"Woody climbing shrub or twining climber","habitat":"Dry and moist deciduous forest margins, scrub and cultivated areas","distribution":"Tropical and subtropical regions of the Indian subcontinent"},
+  "identification":{"description":"A woody climber with opposite leaves and small greenish-yellow flowers; the leaves are the characteristic medicinal part.","whole_plant":"Perennial woody climber/twiner, often scrambling through surrounding vegetation.","root":"Slender to moderately stout root; medicinal identity should be confirmed from authenticated material.","stem":"Woody, branched, cylindrical to slightly angular young branches.","leaf":"Opposite, simple, elliptic to ovate leaves with entire to slightly wavy margins and a short petiole.","flower":"Small greenish to yellowish flowers borne in axillary clusters.","fruit":"Paired follicles, slender and elongated, developing after flowering.","seed":"Seeds are borne inside the follicles and may have a light tuft of hairs.","bark":"Thin bark on younger branches; older stems become more corky and woody.","identification_points":["Opposite simple leaves","Woody twining habit","Small axillary greenish flowers","Paired slender follicles","Authenticate the drug before medicinal use"]},
+  "images":{"whole_plant":"","habit":"","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},
+  "dravya_guna":{"rasa":["tikta","kashaya"],"guna":["laghu","ruksha"],"virya":"ushna","vipaka":"katu","prabhava":["Pramehaghna","Medohara"],"karma":[]},
+  "dosha":{"vata":"aggravated","pitta":"pacified","kapha":"pacified"},
+  "therapeutics":{"useful_part":["leaf","root"],"indications":["Prameha","Kushta","Krimi","Mutrakrichha","Visha"],"therapeutic_actions":["Deepana","Pramehaghna","Medohara"],"dose":"","anupana":"","duration":"","precautions":"Use authenticated material; clinical use should follow an appropriate Ayurvedic reference and practitioner guidance.","contraindications":""},
+  "formulations":[],
+  "classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},
+  "phytochemistry":{"major_constituents":["Gymnemic acids (triterpenoid saponin fraction)"],"chemical_notes":"Gymnemic acids are characteristic constituents reported from the leaves; exact profile varies with material and extraction."},
+  "modern_information":{"evidence_summary":"Gymnema sylvestre has been studied extensively for metabolic and glucose-related effects; this project does not infer clinical efficacy from preclinical or limited human evidence.","recognized_uses":[],"safety_notes":"Potential effects on glucose handling are relevant when combined with glucose-lowering therapy; clinical supervision is appropriate.","sources":[]},
+  "student":{"exam_points":["Botanical name: Gymnema sylvestre","Family: Apocynaceae","Useful parts: leaf and root","Characteristic habit: woody climber","Gymnemic acids are characteristic leaf constituents"],"viva_questions":["What is the botanical name of Meshashrungi?","Which family does Meshashrungi belong to?","Which plant part is chiefly used?","What are gymnemic acids?"],"identification_points":["Opposite simple leaves","Twining woody habit","Paired follicles"],"mnemonics":["Gymnema = Gudmar/Meshashrungi; think metabolic-use study and opposite leaves."],"quick_revision":"Meshashrungi (Gymnema sylvestre): woody climber, Apocynaceae; leaf and root are used; gymnemic acids are characteristic constituents."},
+  "teacher":{"teaching_points":["Demonstrate opposite leaves and twining habit.","Discuss botanical authentication and distinction from unrelated climbers."],"discussion_points":["Classical Prameha context versus modern metabolic research","Need for authenticated crude drug"],"practical_points":["Observe leaf arrangement, venation and petiole.","Examine authenticated fruiting material when available."]},
+  "doctor":{"quick_reference":"Meshashrungi is traditionally used in Prameha-related contexts; identify the drug correctly and avoid substituting unverified climbers.","important_indications":["Prameha","selected traditional metabolic indications"],"useful_part":"leaf/root","dose":"","anupana":"","key_precautions":["Use authenticated material","Consider glucose-lowering medicines and monitor clinically when relevant","Do not treat traditional indications as proof of modern efficacy"]},
+  "sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"pharmacopoeial_authority","title":"Pharmacopoeia Commission for Indian Medicine & Homoeopathy","url":"https://pcimh.gov.in/"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"}],
+  "metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3","image_enrichment_note":"Verified image registry is maintained separately; no unverified image URL added.","last_enrichment":"structured identification + student/teacher/doctor enrichment"},"category":"NCISM-97","syllabus_marker":"NCISM-97"
 }
