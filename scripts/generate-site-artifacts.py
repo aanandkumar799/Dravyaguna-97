@@ -50,13 +50,13 @@ fixes = {
         (r'index\.html#student', 'progress.html'),
         (r'index\.html#teacher', 'reference-library.html'),
         (r'index\.html#doctor', 'references.html'),
-        (r'src="data:image/svg\+xml,%3Csvg[^\"]*%3C/svg%3E"', 'src="images/favicon.png"'),
+        (r'r\.verification_status===\'verified-external\'', "['verified','verified-external','verified-local'].includes(r.verification_status)"),
+        (r'src="data:image/svg\\+xml,%3Csvg[^\"]*%3C/svg%3E"', 'src="favicon.svg"'),
     ],
 }
 for filename, replacements in fixes.items():
     path = ROOT / filename
-    if not path.exists():
-        continue
+    if not path.exists(): continue
     html = path.read_text(encoding="utf-8")
     original = html
     for pattern, replacement in replacements:
