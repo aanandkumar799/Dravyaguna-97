@@ -53,9 +53,6 @@ if manifest_path.is_file():
         seen.add(key)
 else: fail('Missing curated image manifest')
 
-# Favicon compatibility: legacy pages may still reference images/favicon.png.
-# The Website Doctor workflow now generates a temporary root-level favicon.png
-# because the plant-image tree must remain reserved for botanical assets.
 legacy_favicon_used=False
 for page in ROOT.rglob('*.html'):
     text=page.read_text(encoding='utf-8',errors='ignore')
@@ -65,15 +62,16 @@ for page in ROOT.rglob('*.html'):
 if legacy_favicon_used and not ((ROOT/'images'/'favicon.png').is_file() or (ROOT/'favicon.png').is_file()):
     fail('Legacy favicon reference found but no generated favicon.png compatibility asset is available')
 
-# Detect duplicate binary content using a deterministic digest rather than Python's
-# process-randomized hash implementation.
+# Detect duplicate binary content recursively. The previous non-recursive check only
+# inspected files directly under images/plants, while the actual gallery assets live
+# several directories deeper.
 plant_image_dir=ROOT/'images'/'plants'
 if plant_image_dir.is_dir():
     hashes={}
-    for p in plant_image_dir.iterdir():
+    for p in plant_image_dir.rglob('*'):
         if p.is_file():
             digest=hashlib.sha256(p.read_bytes()).hexdigest()
-            hashes.setdefault(digest,[]).append(p.name)
+            hashes.setdefault(digest,[]).append(p.relative_to(ROOT).as_posix())
     for names in hashes.values():
         if len(names)>1: fail('Duplicate image content detected among: '+', '.join(sorted(names)))
 
