@@ -47,8 +47,8 @@ jobs:
               html=re.sub(r'<link[^>]+rel=["\'](?:icon|shortcut icon|apple-touch-icon)["\'][^>]*>', '', html, flags=re.I)
               rel_svg=Path(os.path.relpath(root/'favicon.svg', page.parent)).as_posix()
               html=html.replace('</head>',f'<link rel="icon" type="image/svg+xml" href="{rel_svg}">\n</head>',1)
-              if '<link rel="stylesheet" href="'+Path(os.path.relpath(root/'site-theme.css',page.parent)).as_posix()+'">' not in html:
-                  rel_theme=Path(os.path.relpath(root/'site-theme.css', page.parent)).as_posix()
+              rel_theme=Path(os.path.relpath(root/'site-theme.css', page.parent)).as_posix()
+              if f'<link rel="stylesheet" href="{rel_theme}">' not in html:
                   html=html.replace('</head>',f'<link rel="stylesheet" href="{rel_theme}">\n</head>',1)
               if page.name in pages and '<link rel="manifest"' not in html:
                   html=html.replace('</head>','<link rel="manifest" href="manifest.json"><meta name="theme-color" content="#1b4332">\n</head>',1)
@@ -71,6 +71,23 @@ jobs:
                   html=html.replace('</body>','<script src="practical-lab-enhanced.js" defer></script>\n</body>',1)
               if page.name=='references.html' and '<script src="classical-references-enhanced.js" defer></script>' not in html:
                   html=html.replace('</body>','<script src="classical-references-enhanced.js" defer></script>\n</body>',1)
+              if page.name=='index.html' and 'data-verification-gate="required"' not in html:
+                  html=html.replace('<form class="review-form" id="reviewForm">','<form class="review-form" id="reviewForm" data-verification-gate="required">',1)
+                  guard="""
+<script>
+(function(){
+  var form=document.getElementById('reviewForm');
+  if(!form)return;
+  form.setAttribute('data-verification-status','required');
+  var button=document.getElementById('reviewSubmit');
+  var status=document.getElementById('reviewStatus');
+  if(button){button.disabled=true;button.innerHTML='<span>🔐 Verification Required</span>';button.title='Verified account required before submitting a review';}
+  if(status){status.className='review-status error';status.style.display='block';status.textContent='Reviews are locked until account/email verification is completed. No unverified comment can be submitted.';}
+  form.addEventListener('submit',function(e){e.preventDefault();e.stopImmediatePropagation();return false;},true);
+})();
+</script>
+"""
+                  html=html.replace('</body>',guard+'</body>',1)
               page.write_text(html,encoding='utf-8')
           manifest=root/'manifest.json'
           m=json.loads(manifest.read_text(encoding='utf-8'))
