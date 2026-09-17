@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate canonical navigation and compatibility artifacts from modular NCISM-97 data."""
 import json
+import re
 from pathlib import Path
 from urllib.parse import quote
 from xml.sax.saxutils import escape
@@ -35,6 +36,33 @@ urls=[BASE,BASE+"plants.html",BASE+"compare.html",BASE+"quiz.html",BASE+"practic
 sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f"  <url><loc>{escape(u)}</loc></url>\n" for u in urls)+"</urlset>\n"
 (ROOT/"sitemap.xml").write_text(sitemap,encoding="utf-8")
 (ROOT/"robots.txt").write_text("User-agent: *\nAllow: /\n\nSitemap: "+BASE+"sitemap.xml\n",encoding="utf-8")
+
+# Keep generated HTML proof-friendly. These are source-level accessibility/link
+# corrections applied before Website Doctor runs, without suppressing checks.
+fixes = {
+    "plants.html": [
+        (r'<div class="filter-row" aria-label="Dravyaguna filters">', '<div class="filter-row">'),
+    ],
+    "progress.html": [
+        (r'<div class="progress-track" aria-label="Study progress">', '<div class="progress-track" role="progressbar" aria-label="Study progress" aria-valuemin="0" aria-valuemax="97" aria-valuenow="0">'),
+    ],
+    "plant.html": [
+        (r'index\.html#student', 'progress.html'),
+        (r'index\.html#teacher', 'reference-library.html'),
+        (r'index\.html#doctor', 'references.html'),
+        (r'src="data:image/svg\+xml,%3Csvg[^\"]*%3C/svg%3E"', 'src="images/favicon.png"'),
+    ],
+}
+for filename, replacements in fixes.items():
+    path = ROOT / filename
+    if not path.exists():
+        continue
+    html = path.read_text(encoding="utf-8")
+    original = html
+    for pattern, replacement in replacements:
+        html = re.sub(pattern, replacement, html, count=1)
+    if html != original:
+        path.write_text(html, encoding="utf-8")
 
 # The production Firebase build copies the repository into _site after this
 # script runs. Inject the verified feedback modules into the homepage here so
