@@ -1,173 +1,19 @@
 {
-  "id": "japa",
-  "order": 51,
-  "identity": {
-    "name": "Japa",
-    "sanskrit_name": "जपा",
-    "transliteration": "",
-    "botanical_name": "Hibiscus rosa-sinensis L.",
-    "family": "Malvaceae",
-    "english_name": "Hibiscus",
-    "hindi_name": "",
-    "regional_names": [],
-    "synonyms": [
-      "Oundrapushpa",
-      "Raktapushpi",
-      "Arka"
-    ]
-  },
-  "classification": {
-    "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
-  },
-  "identification": {
-    "description": "",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": "",
-    "identification_points": []
-  },
-  "images": {
-    "whole_plant": "images/plants/japa.jpg",
-    "habit": "images/plants/japa.jpg",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": ""
-  },
-  "dravya_guna": {
-    "rasa": [
-      "Kashaya",
-      "Madhura"
-    ],
-    "guna": [
-      "Laghu",
-      "Ruksha"
-    ],
-    "virya": "Sheeta",
-    "vipaka": "Katu",
-    "prabhava": [
-      "Keshya",
-      "Raktashodhak",
-      "Hridaya"
-    ],
-    "karma": []
-  },
-  "dosha": {
-    "vata": "aggravated",
-    "pitta": "pacified",
-    "kapha": "pacified"
-  },
-  "therapeutics": {
-    "useful_part": [
-      "flower"
-    ],
-    "indications": [
-      "Raktapitta",
-      "Pradara",
-      "Indralupta",
-      "Keshapata"
-    ],
-    "therapeutic_actions": [],
-    "dose": "",
-    "anupana": "",
-    "duration": "",
-    "precautions": "",
-    "contraindications": ""
-  },
-  "formulations": [],
-  "classical_reference": {
-    "shlokas": [],
-    "nighantu_references": [],
-    "samhita_references": [],
-    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
-    "reference_hubs": [
-      "TDU Indian Medicinal Plants Database — Shlokas"
-    ]
-  },
-  "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
-  },
-  "modern_information": {
-    "evidence_summary": "Hibiscus flower is used to purify blood, support hair health, and cool the body, making it excellent for Pitta.",
-    "recognized_uses": [],
-    "safety_notes": "",
-    "sources": []
-  },
-  "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
-    "mnemonics": [],
-    "quick_revision": "Hibiscus flower is used to purify blood, support hair health, and cool the body, making it excellent for Pitta."
-  },
-  "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
-  },
-  "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
-    "useful_part": "flower",
-    "dose": "",
-    "anupana": "",
-    "key_precautions": []
-  },
-  "sources": [
-    {
-      "type": "official_syllabus",
-      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
-      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
-      "author": "",
-      "edition": "",
-      "year": "",
-      "page": ""
-    },
-    {
-      "type": "medicinal_plants_database",
-      "title": "TDU Indian Medicinal Plants Database",
-      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
-    },
-    {
-      "type": "tdu_classical_database",
-      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
-      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
-      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
-    },
-    {
-      "type": "open_ayurveda_dataset",
-      "title": "Amidha Ayurveda Herb Database v2.0",
-      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
-      "license": "CC BY 4.0",
-      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
-    },
-    {
-      "type": "image",
-      "title": "Wikimedia Commons",
-      "url": "https://commons.wikimedia.org/wiki/File:Hibiscus_rosa-sinensis_11zz.jpg",
-      "license_note": "Check the original file page for current license/attribution requirements."
-    }
-  ],
-  "metadata": {
-    "status": "working_draft_needs_text_cross_check",
-    "last_verified": "",
-    "verified_by": "",
-    "version": "1.2",
-    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
-  },
-  "category": "NCISM-97",
-  "syllabus_marker": "NCISM-97"
+  "id":"japa","order":51,
+  "identity":{"name":"Japa","sanskrit_name":"जपा","transliteration":"Japa","botanical_name":"Hibiscus rosa-sinensis L.","family":"Malvaceae","english_name":"Hibiscus","hindi_name":"गुड़हल","regional_names":[],"synonyms":["Oundrapushpa","Raktapushpi","Arka"]},
+  "classification":{"kingdom":"Plantae","habit":"Evergreen woody shrub","habitat":"Cultivated gardens, hedges and warm tropical/subtropical settings","distribution":"Widely cultivated throughout India and other warm regions"},
+  "identification":{"description":"A much-branched ornamental shrub with glossy serrated leaves and large conspicuous flowers, commonly red but occurring in many cultivated colour forms.","whole_plant":"Evergreen branched shrub, often maintained as a hedge or garden plant.","root":"Fibrous to branched woody root system; not a primary field character.","stem":"Much-branched woody stems, green when young and becoming brown with age.","leaf":"Simple, alternate, ovate leaves with serrated margins and pointed tips.","flower":"Large showy axillary flowers with prominent staminal column; cultivated forms vary greatly in colour and petal arrangement.","fruit":"Cultivated Hibiscus rosa-sinensis commonly shows little or no fruiting; fruit characters are therefore not dependable for routine identification.","seed":"Seeds are not a reliable routine identification character in many cultivated forms.","bark":"Thin grey-brown bark on older branches.","identification_points":["Evergreen shrub","Alternate serrated leaves","Large conspicuous axillary flower","Prominent staminal column"]},
+  "images":{"whole_plant":"images/plants/japa.jpg","habit":"images/plants/japa.jpg","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},
+  "dravya_guna":{"rasa":["Kashaya","Madhura"],"guna":["Laghu","Ruksha"],"virya":"Sheeta","vipaka":"Katu","prabhava":["Keshya","Raktashodhak","Hridaya"],"karma":[]},
+  "dosha":{"vata":"aggravated","pitta":"pacified","kapha":"pacified"},
+  "therapeutics":{"useful_part":["flower"],"indications":["Raktapitta","Pradara","Indralupta","Keshapata"],"therapeutic_actions":[],"dose":"","anupana":"","duration":"","precautions":"","contraindications":""},
+  "formulations":[],
+  "classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},
+  "phytochemistry":{"major_constituents":["Flavonoid and anthocyanin pigments","Phenolic constituents","Mucilage and other plant metabolites"],"chemical_notes":"Composition varies substantially with flower colour and cultivar. Avoid treating ornamental cultivar chemistry as identical across all Hibiscus material."},
+  "modern_information":{"evidence_summary":"Hibiscus rosa-sinensis is primarily known as an ornamental species and is also represented in traditional medicinal literature. Evidence for specific clinical uses should be assessed preparation by preparation.","recognized_uses":[],"safety_notes":"Botanical cultivar variation is substantial; authenticate the material used for medicinal purposes.","sources":[]},
+  "student":{"exam_points":["Japa = Hibiscus rosa-sinensis L.","Family: Malvaceae","Flower is the useful part listed here","Prominent staminal column is a key floral character"],"viva_questions":["What is the botanical name of Japa?","Which family does Japa belong to?","What is a distinctive floral character of Hibiscus?","Which part is listed as useful?"],"identification_points":["Branched evergreen shrub","Alternate serrated leaves","Large axillary flower","Staminal column"],"mnemonics":["Japa = Hibiscus: think of the large showy flower and staminal column."],"quick_revision":"Japa (Hibiscus rosa-sinensis) is a Malvaceae shrub with large axillary flowers; flower is the listed useful part in this project record."},
+  "teacher":{"teaching_points":["Use the flower to demonstrate Malvaceae floral characters.","Discuss cultivar variation and why colour alone is not enough for authentication."],"discussion_points":["Ornamental cultivar diversity and medicinal-drug authentication", "Traditional Keshya use versus modern evidence"],"practical_points":["Label calyx, epicalyx if present, corolla, staminal column and stigma.","Compare leaf margin and phyllotaxy with another Malvaceae specimen."]},
+  "doctor":{"quick_reference":"Japa — Hibiscus rosa-sinensis L.; flower is the useful part in this project record, with traditional indications including Pradara and hair-related uses.","important_indications":["Raktapitta","Pradara","Indralupta","Keshapata"],"useful_part":"flower","dose":"","anupana":"","key_precautions":["Authenticate the botanical material and cultivar.","Use authoritative references for formulation and dose decisions."]},
+  "sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"official_pharmacopoeial_source","title":"Pharmacopoeia Commission for Indian Medicine & Homoeopathy","url":"https://pcimh.gov.in/"},{"type":"image","title":"Wikimedia Commons","url":"https://commons.wikimedia.org/wiki/File:Hibiscus_rosa-sinensis_11zz.jpg","license_note":"Check the original file page for current license/attribution requirements."}],
+  "metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3","image_enrichment_note":"Existing project image retained; part-specific verified images remain to be populated.","last_enrichment":"dossier enrichment batch"},"category":"NCISM-97","syllabus_marker":"NCISM-97"
 }
