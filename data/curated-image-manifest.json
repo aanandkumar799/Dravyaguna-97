@@ -4777,13 +4777,14 @@
       "plant_name": "Latakaranja",
       "botanical_name": "Caesalpinia bonduc (L.) Roxb.",
       "part": "fruit",
-      "image_path": "",
-      "source_url": "",
-      "source_name": "",
-      "license": "",
-      "author": "",
-      "verified_botanical_name": "",
-      "verification_status": "missing-queued"
+      "image_path": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Caesalpinia_bonduc_%28seed-pod%29.jpg/1920px-Caesalpinia_bonduc_%28seed-pod%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACaesalpinia_bonduc_%28seed-pod%29.jpg",
+      "source_name": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Biopics\" title=\"User:Biopics\">Hans Hillewaert</a>",
+      "verified_botanical_name": "Caesalpinia bonduc (L.) Roxb.",
+      "verification_status": "verified-external",
+      "title": "Caesalpinia bonduc (seed-pod).jpg"
     },
     {
       "plant_id": "latakaranja",
