@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """Manage the modular DravyaGuna database.
 
-The canonical editable database lives in data/plants/<id>.json, one record per
-plant.  The legacy plants.json file is only assembled temporarily for the
-existing enrichment/validation scripts and is removed from the repository
-after the pipeline completes.
+Canonical editable data lives in data/plants/<id>.json, one record per plant.
+The legacy plants.json file is assembled temporarily for the existing
+validation/enrichment pipeline and removed from the repository after migration.
 
 Commands:
-  assemble  Build temporary plants.json from data/plants/*.json
-  split     Split temporary plants.json into one JSON file per record
+  assemble  Build temporary plants.json from data/plants/*.json. On the first
+            migration, if the modular folder is empty, preserve the existing
+            plants.json as the migration source.
+  split     Split temporary plants.json into one JSON file per record.
 """
 from __future__ import annotations
 
@@ -33,7 +34,7 @@ def sort_key(record: dict):
 def validate_records(records: list[dict]) -> None:
     ids = [str(r.get("id", "")).strip() for r in records]
     if not records:
-        raise SystemExit("No plant JSON files found in data/plants/")
+        raise SystemExit("No plant records found")
     if any(not x for x in ids):
         raise SystemExit("Every plant record must have a non-empty id")
     if len(ids) != len(set(ids)):
@@ -45,10 +46,17 @@ def validate_records(records: list[dict]) -> None:
 
 def assemble() -> None:
     DB_DIR.mkdir(parents=True, exist_ok=True)
+    paths = [p for p in DB_DIR.glob("*.json") if p.name not in {"index.json", "schema.json"}]
+    # First migration: the repository still contains the legacy aggregate.
+    # Do not fail before it can be split into modular files.
+    if not paths:
+        if AGGREGATE.exists():
+            print("No modular records yet; using existing plants.json as one-time migration source")
+            return
+        raise SystemExit("No modular plant JSON files and no legacy plants.json source found")
+
     records = []
-    for path in sorted(DB_DIR.glob("*.json")):
-        if path.name in {"index.json", "schema.json"}:
-            continue
+    for path in paths:
         data = json.loads(path.read_text(encoding="utf-8"))
         if not isinstance(data, dict):
             raise SystemExit(f"{path}: plant record must be a JSON object")
@@ -74,7 +82,6 @@ def split() -> None:
         (DB_DIR / f"{pid}.json").write_text(
             json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
         )
-    # Remove stale modular records that are no longer present in the database.
     for path in DB_DIR.glob("*.json"):
         if path.name not in expected and path.name not in {"index.json", "schema.json"}:
             path.unlink()
