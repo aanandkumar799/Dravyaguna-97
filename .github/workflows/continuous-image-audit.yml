@@ -1,0 +1,39 @@
+name: Continuous plant-part image audit
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: plant-image-audit
+  cancel-in-progress: false
+
+jobs:
+  audit-images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Check missing plant-part images from real sources
+        run: python scripts/audit-plant-images.py
+
+      - name: Validate image registry JSON
+        run: python -m json.tool data/curated-image-manifest.json >/dev/null && python -m json.tool data/image-audit-report.json >/dev/null
+
+      - name: Commit only verified additions
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/curated-image-manifest.json data/image-audit-report.json
+          if git diff --cached --quiet; then
+            echo 'No verified image additions this run.'
+          else
+            git commit -m 'Update verified plant-part image registry'
+            git push
+          fi
