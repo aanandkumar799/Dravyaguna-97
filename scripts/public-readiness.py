@@ -1,65 +1,40 @@
 #!/usr/bin/env python3
-"""Validate public-readiness requirements and generate an accurate sitemap/robots file."""
+"""Validate the modular NCISM-97 database and generate sitemap/robots."""
 from pathlib import Path
-import json
-import sys
+import json, sys
 from urllib.parse import quote
-
-ROOT = Path(__file__).resolve().parent.parent
-INDEX = ROOT / "plant-index.json"
-PLANTS = ROOT / "plants.json"
-BASE = "https://aanandkumar799.github.io/Dravyaguna-97/"
-REQUIRED = ["identity", "classification", "identification", "dravya_guna", "therapeutics", "classical_reference", "student", "metadata"]
-
-
-def load(path):
-    with path.open(encoding="utf-8") as f:
-        return json.load(f)
-
-
-def main():
-    errors = []
-    if not INDEX.exists() or not PLANTS.exists():
-        print("Missing plant-index.json or plants.json", file=sys.stderr)
-        return 1
-    index = load(INDEX)
-    plants = load(PLANTS)
-    indexed = [p for p in (index if isinstance(index, list) else index.get("plants", [])) if p.get("category") == "NCISM-97" and 1 <= int(p.get("order", 0)) <= 97]
-    if len(indexed) != 97:
-        errors.append(f"Canonical NCISM-97 index has {len(indexed)} records; expected 97")
-    ids = {p.get("id") for p in indexed}
-    detail_ids = {p.get("id") for p in plants if isinstance(p, dict)}
-    missing = sorted(ids - detail_ids)
-    if missing:
-        errors.append("Missing plant detail records: " + ", ".join(missing[:10]))
-    status_counts = {}
-    for p in plants:
-        if not isinstance(p, dict) or p.get("id") not in ids:
-            continue
-        for field in REQUIRED:
-            if field not in p:
-                errors.append(f"{p.get('id')}: missing required field {field}")
-        status = str(p.get("metadata", {}).get("status", "draft")).strip() or "draft"
-        status_counts[status] = status_counts.get(status, 0) + 1
-    print("NCISM-97 records:", len(indexed))
-    print("Verification status counts:", json.dumps(status_counts, ensure_ascii=False, sort_keys=True))
-    # Generate sitemap from the canonical 97 only; this prevents unrelated legacy records from being indexed as part of the syllabus.
-    urls = [BASE, BASE + "plants.html", BASE + "compare.html", BASE + "quiz.html"]
-    for p in sorted(indexed, key=lambda x: int(x.get("order", 0))):
-        urls.append(BASE + "plant.html?id=" + quote(str(p["id"]), safe=""))
-    sitemap = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-    sitemap += [f"  <url><loc>{u}</loc></url>" for u in urls]
-    sitemap.append("</urlset>")
-    (ROOT / "sitemap.xml").write_text("\n".join(sitemap) + "\n", encoding="utf-8")
-    (ROOT / "robots.txt").write_text("User-agent: *\nAllow: /\n\nSitemap: " + BASE + "sitemap.xml\n", encoding="utf-8")
-    if errors:
-        print("PUBLIC READINESS FAILED", file=sys.stderr)
-        for e in errors:
-            print(" -", e, file=sys.stderr)
-        return 1
-    print(f"PUBLIC READINESS PASSED: {len(urls)} sitemap URLs generated")
-    return 0
-
-
-if __name__ == "__main__":
-    raise SystemExit(main())
+ROOT=Path(__file__).resolve().parent.parent; DB=ROOT/"data"/"plants"; INDEX=ROOT/"plant-index.json"; BASE="https://aanandkumar799.github.io/Dravyaguna-97/"
+REQUIRED=["identity","classification","identification","dravya_guna","therapeutics","classical_reference","student","metadata"]
+records=[]
+for path in sorted(DB.glob("*.json")):
+    if path.name in {"index.json","schema.json"}: continue
+    try: data=json.loads(path.read_text(encoding="utf-8"))
+    except Exception as e: raise SystemExit(f"{path}: invalid JSON: {e}")
+    if not isinstance(data,dict): raise SystemExit(f"{path}: record must be a JSON object")
+    records.append(data)
+indexed=[p for p in records if p.get("category")=="NCISM-97" and 1<=int(p.get("order",0))<=97]
+errors=[]
+if len(indexed)!=97: errors.append(f"Expected exactly 97 NCISM-97 files; found {len(indexed)}")
+ids=[p.get("id") for p in indexed]
+if len(ids)!=len(set(ids)): errors.append("Duplicate NCISM plant IDs detected")
+orders=[int(p.get("order",0)) for p in indexed]
+if sorted(orders)!=list(range(1,98)): errors.append("NCISM order must contain every number 1-97 exactly once")
+for p in indexed:
+    missing=[f for f in REQUIRED if f not in p]
+    if missing: errors.append(f"{p.get('id')}: missing required fields: {', '.join(missing)}")
+if not INDEX.exists(): errors.append("Missing plant-index.json")
+else:
+    idx=json.loads(INDEX.read_text(encoding="utf-8")); rows=idx if isinstance(idx,list) else idx.get("plants",[])
+    core=[p for p in rows if p.get("category")=="NCISM-97" and 1<=int(p.get("order",0))<=97]
+    if len(core)!=97: errors.append(f"plant-index.json has {len(core)} canonical entries; expected 97")
+    if {p.get("id") for p in core}!={p.get("id") for p in indexed}: errors.append("Index/detail ID mismatch")
+status_counts={}
+for p in indexed:
+    status=str((p.get("metadata") or {}).get("status","draft")).strip() or "draft"; status_counts[status]=status_counts.get(status,0)+1
+print("NCISM-97 records:",len(indexed)); print("Verification status counts:",json.dumps(status_counts,ensure_ascii=False,sort_keys=True))
+urls=[BASE,BASE+"plants.html",BASE+"compare.html",BASE+"quiz.html",BASE+"practical-lab.html",BASE+"references.html"]+[BASE+"plant.html?id="+quote(str(p["id"]),safe="") for p in sorted(indexed,key=lambda x:int(x["order"]))]
+(ROOT/"sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f"  <url><loc>{u}</loc></url>\n" for u in urls)+"</urlset>\n",encoding="utf-8")
+(ROOT/"robots.txt").write_text("User-agent: *\nAllow: /\n\nSitemap: "+BASE+"sitemap.xml\n",encoding="utf-8")
+if errors:
+    print("PUBLIC READINESS FAILED",file=sys.stderr); [print(" -",e,file=sys.stderr) for e in errors]; sys.exit(1)
+print(f"PUBLIC READINESS PASSED: {len(urls)} sitemap URLs generated")
