@@ -75,7 +75,7 @@ jobs:
               if '<link rel="stylesheet" href="academic-enhancements.css">' not in s:
                   s = s.replace('</head>', '<link rel="stylesheet" href="academic-enhancements.css">\n</head>', 1)
               if filename in ['plants.html','plant.html'] and '<script src="academic-enhancements.js" defer></script>' not in s:
-                  s = s.replace('</body>', '<script src="academic-enhancements.js" defer></body>', 1)
+                  s = s.replace('</body>', '<script src="academic-enhancements.js" defer></script>\n</body>', 1)
               if filename in ['plants.html','plant.html'] and '<link rel="stylesheet" href="botanical-ui-enhancements.css">' not in s:
                   s = s.replace('</head>', '<link rel="stylesheet" href="botanical-ui-enhancements.css">\n</head>', 1)
               if filename == 'plants.html' and '<script src="library-botanical-images.js" defer></script>' not in s:
@@ -92,7 +92,7 @@ jobs:
               if filename == 'practical-lab.html' and '<script src="practical-lab-enhanced.js" defer></script>' not in s:
                   s = s.replace('</body>', '<script src="practical-lab-enhanced.js" defer></script>\n</body>', 1)
               if filename == 'references.html' and '<script src="classical-references-enhanced.js" defer></script>' not in s:
-                  s = s.replace('</body>', '<script src="classical-references-enhanced.js" defer></body>', 1)
+                  s = s.replace('</body>', '<script src="classical-references-enhanced.js" defer></script>\n</body>', 1)
               p.write_text(s, encoding='utf-8')
           p = root / 'plant.html'
           s = p.read_text(encoding='utf-8')
