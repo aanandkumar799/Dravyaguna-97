@@ -1,4 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // Compatibility anchors for legacy/internal navigation. These IDs are created
+  // before the page becomes interactive, so links such as #search and #student
+  // remain valid while the markup can evolve independently.
+  const anchorTargets = [
+    ['search', document.querySelector('.search-panel')],
+    ['student', [...document.querySelectorAll('.persona')].find(x => /student/i.test(x.textContent))],
+    ['teacher', [...document.querySelectorAll('.persona')].find(x => /teacher/i.test(x.textContent))],
+    ['doctor', [...document.querySelectorAll('.persona')].find(x => /doctor/i.test(x.textContent))]
+  ];
+  for (const [id, el] of anchorTargets) if (el && !el.id) el.id = id;
+
   const plantList = document.getElementById('plant-list');
   const searchInput = document.getElementById('searchInput') || document.getElementById('search');
   if (!plantList) return;
@@ -80,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function render(q=''){
     const results=filtered(q), info=document.getElementById('search-result-info');
-    const total=masterPlants.length, favCount=getFavorites().size;
+    const favCount=getFavorites().size;
     if(info) info.textContent=q||Object.values(filters).some(Boolean)||favoritesOnly?`${results.length} result${results.length===1?'':'s'} • ${favCount} saved favourite${favCount===1?'':'s'}`:`${results.length} records in the NCISM-97 library`;
     if(!results.length){plantList.className='plant-grid';plantList.innerHTML='<div class="no-results"><div style="font-size:3rem">🔎</div><h3>No plants found</h3><p>Try a different search term, filter, or clear the filters.</p></div>';return;}
     const visible=q||Object.values(filters).some(Boolean)||favoritesOnly||showAll?results:results.slice(0,initialLimit);
