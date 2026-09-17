@@ -47,12 +47,18 @@ jobs:
               html=re.sub(r'<link[^>]+rel=["\'](?:icon|shortcut icon|apple-touch-icon)["\'][^>]*>', '', html, flags=re.I)
               rel_svg=Path(os.path.relpath(root/'favicon.svg', page.parent)).as_posix()
               html=html.replace('</head>',f'<link rel="icon" type="image/svg+xml" href="{rel_svg}">\n</head>',1)
+              if '<link rel="stylesheet" href="'+Path(os.path.relpath(root/'site-theme.css',page.parent)).as_posix()+'">' not in html:
+                  rel_theme=Path(os.path.relpath(root/'site-theme.css', page.parent)).as_posix()
+                  html=html.replace('</head>',f'<link rel="stylesheet" href="{rel_theme}">\n</head>',1)
               if page.name in pages and '<link rel="manifest"' not in html:
                   html=html.replace('</head>','<link rel="manifest" href="manifest.json"><meta name="theme-color" content="#1b4332">\n</head>',1)
               if page.name in pages and "navigator.serviceWorker.register('./sw.js')" not in html:
                   html=html.replace('</body>',"<script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));}</script>\n</body>",1)
               if page.name in pages and '<script src="public-seo.js" defer></script>' not in html:
                   html=html.replace('</body>','<script src="public-seo.js" defer></script>\n</body>',1)
+              rel_theme_js=Path(os.path.relpath(root/'site-theme.js', page.parent)).as_posix()
+              if f'<script src="{rel_theme_js}" defer></script>' not in html:
+                  html=html.replace('</body>',f'<script src="{rel_theme_js}" defer></script>\n</body>',1)
               if page.name=='plant.html':
                   if '<link rel="stylesheet" href="plant-dossier-layout.css">' not in html:
                       html=html.replace('</head>','<link rel="stylesheet" href="plant-dossier-layout.css">\n</head>',1)
