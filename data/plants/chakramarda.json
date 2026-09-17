@@ -1,173 +1,20 @@
 {
-  "id": "chakramarda",
-  "order": 47,
-  "identity": {
-    "name": "Chakramarda",
-    "sanskrit_name": "चक्रमर्द",
-    "transliteration": "",
-    "botanical_name": "Senna tora (L.) Roxb.",
-    "family": "Fabaceae",
-    "english_name": "Ringworm Plant",
-    "hindi_name": "",
-    "regional_names": [],
-    "synonyms": [
-      "Dadrughna",
-      "Edagaja",
-      "Meshalochana",
-      "Padmata"
-    ]
-  },
-  "classification": {
-    "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
-  },
-  "identification": {
-    "description": "",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": "",
-    "identification_points": []
-  },
-  "images": {
-    "whole_plant": "images/plants/chakramarda.jpg",
-    "habit": "images/plants/chakramarda.jpg",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": ""
-  },
-  "dravya_guna": {
-    "rasa": [
-      "Tikta",
-      "Kashaya"
-    ],
-    "guna": [
-      "Laghu"
-    ],
-    "virya": "Ushna",
-    "vipaka": "Katu",
-    "prabhava": [
-      "Kushtaghna",
-      "Rechana"
-    ],
-    "karma": []
-  },
-  "dosha": {
-    "vata": "not specifically documented in imported dataset",
-    "pitta": "aggravated",
-    "kapha": "pacified"
-  },
-  "therapeutics": {
-    "useful_part": [
-      "seed/whole plant"
-    ],
-    "indications": [
-      "Dadru",
-      "Kandu",
-      "Pama",
-      "Kushta",
-      "Shwasa"
-    ],
-    "therapeutic_actions": [],
-    "dose": "",
-    "anupana": "",
-    "duration": "",
-    "precautions": "",
-    "contraindications": ""
-  },
-  "formulations": [],
-  "classical_reference": {
-    "shlokas": [],
-    "nighantu_references": [],
-    "samhita_references": [],
-    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
-    "reference_hubs": [
-      "TDU Indian Medicinal Plants Database — Shlokas"
-    ]
-  },
-  "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
-  },
-  "modern_information": {
-    "evidence_summary": "Effective in skin disorders, ringworm, and constipation.",
-    "recognized_uses": [],
-    "safety_notes": "",
-    "sources": []
-  },
-  "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
-    "mnemonics": [],
-    "quick_revision": "Effective in skin disorders, ringworm, and constipation."
-  },
-  "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
-  },
-  "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
-    "useful_part": "seed/whole plant",
-    "dose": "",
-    "anupana": "",
-    "key_precautions": []
-  },
-  "sources": [
-    {
-      "type": "official_syllabus",
-      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
-      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
-      "author": "",
-      "edition": "",
-      "year": "",
-      "page": ""
-    },
-    {
-      "type": "medicinal_plants_database",
-      "title": "TDU Indian Medicinal Plants Database",
-      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
-    },
-    {
-      "type": "tdu_classical_database",
-      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
-      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
-      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
-    },
-    {
-      "type": "open_ayurveda_dataset",
-      "title": "Amidha Ayurveda Herb Database v2.0",
-      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
-      "license": "CC BY 4.0",
-      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
-    },
-    {
-      "type": "image",
-      "title": "Wikimedia Commons",
-      "url": "https://commons.wikimedia.org/wiki/File:Senna_tora_(L.)_Roxb._(49107593058).jpg",
-      "license_note": "Check the original file page for current license/attribution requirements."
-    }
-  ],
-  "metadata": {
-    "status": "working_draft_needs_text_cross_check",
-    "last_verified": "",
-    "verified_by": "",
-    "version": "1.2",
-    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
-  },
-  "category": "NCISM-97",
-  "syllabus_marker": "NCISM-97"
+  "id":"chakramarda","order":47,
+  "identity":{"name":"Chakramarda","sanskrit_name":"चक्रमर्द","transliteration":"Chakramarda","botanical_name":"Senna tora (L.) Roxb.","family":"Fabaceae","english_name":"Ringworm Plant","hindi_name":"चक्रवर्त","regional_names":[],"synonyms":["Dadrughna","Edagaja","Meshalochana","Padmata"]},
+  "classification":{"kingdom":"Plantae","habit":"Annual herb or small branched herb","habitat":"Open fields, roadsides, wastelands and disturbed ground, especially during the rainy season","distribution":"Widely distributed in tropical and subtropical regions including India; local occurrence should be confirmed in field work"},
+  "identification":{"description":"A characteristic Senna herb with paripinnate leaves, paired leaflets and yellow flowers; mature pods and seed characters are useful for confirmation.","whole_plant":"Erect, branched annual herb, usually arising in disturbed/open ground.","root":"Slender primary root with lateral roots; detailed pharmacognostic characters require authenticated specimen study.","stem":"Green to reddish-brown, branched, generally cylindrical and becoming firmer with age.","leaf":"Paripinnate compound leaves with several pairs of opposite leaflets; a small gland may occur on the rachis near the lower leaflet pairs.","flower":"Yellow, typically five-petalled flowers borne in the leaf axils or short clusters.","fruit":"Long, slender, somewhat curved to sickle-shaped pod containing multiple seeds.","seed":"Numerous hard, flattened, angular to rhomboid seeds, brownish to dark in mature pods.","bark":"No separate bark character should be used for routine authentication of this annual herb.","identification_points":["Paripinnate compound leaves","Opposite leaflet pairs","Yellow flowers","Slender curved pods","Dark, angular seeds","Differentiate from other Cassia/Senna species by botanical characters"]},
+  "images":{"whole_plant":"images/plants/chakramarda.jpg","habit":"images/plants/chakramarda.jpg","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},
+  "dravya_guna":{"rasa":["Tikta","Kashaya"],"guna":["Laghu"],"virya":"Ushna","vipaka":"Katu","prabhava":["Kushtaghna","Rechana"],"karma":[]},
+  "dosha":{"vata":"not specifically documented in imported dataset","pitta":"aggravated","kapha":"pacified"},
+  "therapeutics":{"useful_part":["seed/whole plant"],"indications":["Dadru","Kandu","Pama","Kushta","Shwasa"],"therapeutic_actions":["Traditional Ayurvedic use includes skin-related indications and rechana context; exact application should follow authoritative texts/formularies"],"dose":"","anupana":"","duration":"","precautions":"Do not infer purgative dosing from this educational record. Authenticate the plant and consult an authoritative monograph before therapeutic use.","contraindications":"Not specified here because patient-specific and dose-specific prescribing information requires authoritative source verification."},
+  "formulations":[],
+  "classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},
+  "phytochemistry":{"major_constituents":[],"chemical_notes":"Senna/Cassia species contain anthraquinone-related compounds and other secondary metabolites; species- and part-specific claims should be checked against an authoritative pharmacognosy source before being treated as verified."},
+  "modern_information":{"evidence_summary":"Chakramarda is traditionally associated with skin-disorder use and laxative/rechana activity. This record intentionally avoids independent clinical efficacy or dosing claims.","recognized_uses":["Traditional Ayurvedic use in skin disorders","Traditional rechana/purgative context"],"safety_notes":"Avoid self-prescribing concentrated preparations or purgative doses. Correct species identification and authoritative formulation guidance are important.","sources":[]},
+  "student":{"exam_points":["Botanical name: Senna tora (L.) Roxb.","Family: Fabaceae","Paripinnate leaves with opposite leaflet pairs","Yellow flowers and slender pods are useful field characters","Traditional indications include Dadru and other Kushta contexts"],"viva_questions":["What is the botanical name and family of Chakramarda?","What are its important leaf and fruit characters?","Which part is listed as useful in this dossier?","Why should Chakramarda be distinguished from related Senna/Cassia species?"],"identification_points":["Compound paripinnate leaf","Yellow flower","Slender curved pod","Angular dark seeds"],"mnemonics":["Chakramarda: remember the paired leaflets, yellow flowers and long pods"],"quick_revision":"Chakramarda (Senna tora, Fabaceae) is a branched herb with paripinnate leaves, yellow flowers and slender pods; the project record emphasizes traditional skin-disorder and rechana contexts."},
+  "teacher":{"teaching_points":["Use an authenticated specimen to demonstrate Fabaceae/Senna morphology.","Teach leaf, flower, pod and seed characters together rather than relying on vernacular names.","Discuss the distinction between traditional indication and modern clinical evidence."],"discussion_points":["Compare Chakramarda with other Senna/Cassia taxa used in medicine.","Discuss how anthraquinone-containing plants require careful dose/formulation interpretation."],"practical_points":["Observe leaflet arrangement and rachis gland if present.","Examine mature pods and seeds.","Record specimen locality and flowering/fruiting stage.","Confirm identity against a validated herbarium or pharmacopoeial description."]},
+  "doctor":{"quick_reference":"Chakramarda — Senna tora (L.) Roxb.; Fabaceae; useful part recorded: seed/whole plant; traditional indications include Dadru, Kandu and Pama. No dose is supplied in this educational record.","important_indications":["Dadru","Kandu","Pama","Kushta","Shwasa"],"useful_part":"seed/whole plant","dose":"","anupana":"","key_precautions":["Authenticate the species before use.","Do not infer a purgative dose from this page.","Use authoritative pharmacopoeial/formulary guidance for preparation and dosing."]},
+  "sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"tdu_classical_database","title":"TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database","note":"Verify exact Devanagari verse, edition and page before quoting a classical verse."},{"type":"image","title":"Wikimedia Commons","url":"https://commons.wikimedia.org/wiki/File:Senna_tora_(L.)_Roxb._(49107593058).jpg","license_note":"Check the original file page for current license/attribution requirements."}],
+  "metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"PCIM&H/AYUSH source baseline plus structured dossier review","version":"1.3","image_enrichment_note":"Only existing whole-plant/habit image is retained; part-specific verified images remain unpopulated.","last_enrichment":"practical morphology + student/teacher/doctor sections"},
+  "category":"NCISM-97","syllabus_marker":"NCISM-97"
 }
