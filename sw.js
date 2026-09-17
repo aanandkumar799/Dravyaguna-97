@@ -1,9 +1,9 @@
-const CACHE_NAME = 'dravya-guna-97-v18';
+const CACHE_NAME = 'dravya-guna-97-v19';
 const APP_SHELL = [
   './','./index.html','./plants.html','./plant.html','./compare.html','./quiz.html','./viva.html','./progress.html','./rasa.html','./reference-library.html','./data-quality.html',
   './practical-lab.html','./references.html','./404.html','./style.css','./responsive-fix.css','./plant-dossier-layout.css','./cover-image-fix.js','./dossier-fallback.js','./image-gallery-delay.js',
   './image-gallery-fix.js','./academic-verification.js','./public-seo.js','./flashcard-entry.js','./classical-references-enhanced.js','./practical-lab-enhanced.js','./script.js',
-  './data/curated-image-manifest.json','./plant-index.json','./manifest.json','./robots.txt','./sitemap.xml','./favicon.svg'
+  './data/curated-image-manifest.json','./plant-index.json','./plants.json','./manifest.json','./robots.txt','./sitemap.xml','./favicon.svg'
 ];
 
 self.addEventListener('install', event => {
@@ -19,6 +19,8 @@ self.addEventListener('fetch', event => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
+  // Critical database artifacts: network-first prevents old plant records from
+  // surviving a successful deployment, while cache provides offline fallback.
   if (url.pathname.endsWith('.json')) {
     event.respondWith(fetch(request, {cache:'no-store'}).then(response => {
       if (response.ok) caches.open(CACHE_NAME).then(c => c.put(request, response.clone())).catch(() => {});
