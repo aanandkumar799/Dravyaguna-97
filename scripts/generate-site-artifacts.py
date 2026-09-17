@@ -33,23 +33,16 @@ payload={"total":97,"plants":index}
 (ROOT/"plants.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
 urls=[BASE,BASE+"plants.html",BASE+"compare.html",BASE+"quiz.html",BASE+"practical-lab.html",BASE+"references.html"]+[BASE+"plant.html?id="+quote(pid,safe="") for pid in ids]
-sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f"  <url><loc>{escape(u)}</loc></url>\n" for u in urls)+"</urlset>\n"
+sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f"  <url><loc>{escape(u)}</loc></url>\n" for u in urls)+'</urlset>\n'
 (ROOT/"sitemap.xml").write_text(sitemap,encoding="utf-8")
 (ROOT/"robots.txt").write_text("User-agent: *\nAllow: /\n\nSitemap: "+BASE+"sitemap.xml\n",encoding="utf-8")
 
-# Keep generated HTML proof-friendly. These are source-level accessibility/link
-# corrections applied before Website Doctor runs, without suppressing checks.
 fixes = {
-    "plants.html": [
-        (r'<div class="filter-row" aria-label="Dravyaguna filters">', '<div class="filter-row">'),
-    ],
-    "progress.html": [
-        (r'<div class="progress-track" aria-label="Study progress">', '<div class="progress-track" role="progressbar" aria-label="Study progress" aria-valuemin="0" aria-valuemax="97" aria-valuenow="0">'),
-    ],
+    "plants.html": [(r'<div class="filter-row" aria-label="Dravyaguna filters">', '<div class="filter-row">')],
+    "progress.html": [(r'<div class="progress-track" aria-label="Study progress">', '<div class="progress-track" role="progressbar" aria-label="Study progress" aria-valuemin="0" aria-valuemax="97" aria-valuenow="0">')],
     "plant.html": [
         (r'index\.html#student', 'progress.html'),
         (r'index\.html#teacher', 'reference-library.html'),
-        (r'index\.html#doctor', 'references.html'),
         (r'index\.html#doctor', 'references.html'),
         (r'r\.verification_status===\'verified-external\'', "['verified','verified-external','verified-local'].includes(r.verification_status)"),
         (r'src="data:image/svg\\+xml,%3Csvg[^\"]*%3C/svg%3E"', 'src="favicon.svg"'),
@@ -65,21 +58,18 @@ for filename, replacements in fixes.items():
     if html != original:
         path.write_text(html, encoding="utf-8")
 
-# Apply the same theme assets to every HTML page, not just the homepage.
-# This makes the saved dark/light preference and toggle global across the site.
+# Materialize the theme on every generated HTML page. Versioned URLs prevent
+# stale browser/CDN assets from hiding a newly deployed theme.
 for page in sorted(ROOT.glob("*.html")):
     html = page.read_text(encoding="utf-8")
     original = html
-    if 'href="site-theme.css"' not in html and "</head>" in html:
-        html = html.replace("</head>", '<link rel="stylesheet" href="site-theme.css">\n</head>', 1)
-    if 'src="site-theme.js"' not in html and "</body>" in html:
-        html = html.replace("</body>", '<script src="site-theme.js" defer></script>\n</body>', 1)
+    if 'href="site-theme.css' not in html and "</head>" in html:
+        html = html.replace("</head>", '<link rel="stylesheet" href="site-theme.css?v=3">\n</head>', 1)
+    if 'src="site-theme.js' not in html and "</body>" in html:
+        html = html.replace("</body>", '<script src="site-theme.js?v=3" defer></script>\n</body>', 1)
     if html != original:
         page.write_text(html, encoding="utf-8")
 
-# The production Firebase build copies the repository into _site after this
-# script runs. Inject the verified feedback modules into the homepage here so
-# both generated deployments use the same secure Firestore feedback flow.
 home=ROOT/"index.html"
 if home.exists():
     html=home.read_text(encoding="utf-8")
