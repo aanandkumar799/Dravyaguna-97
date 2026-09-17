@@ -1,175 +1,20 @@
 {
-  "id": "apamarga",
-  "order": 43,
-  "identity": {
-    "name": "Apamarga",
-    "sanskrit_name": "अपामार्ग",
-    "transliteration": "",
-    "botanical_name": "Achyranthes aspera L.",
-    "family": "Amaranthaceae",
-    "english_name": "Prickly Chaff Flower",
-    "hindi_name": "",
-    "regional_names": [],
-    "synonyms": [
-      "Shikhari",
-      "Kinihi",
-      "Mayuraka",
-      "Markati"
-    ]
-  },
-  "classification": {
-    "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
-  },
-  "identification": {
-    "description": "",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": "",
-    "identification_points": []
-  },
-  "images": {
-    "whole_plant": "images/plants/apamarga.jpg",
-    "habit": "images/plants/apamarga.jpg",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": ""
-  },
-  "dravya_guna": {
-    "rasa": [
-      "Katu",
-      "Tikta"
-    ],
-    "guna": [
-      "Laghu",
-      "Tikshna"
-    ],
-    "virya": "Ushna",
-    "vipaka": "Katu",
-    "prabhava": [
-      "Lekhana",
-      "Krimighna",
-      "Deepana"
-    ],
-    "karma": []
-  },
-  "dosha": {
-    "vata": "pacified",
-    "pitta": "aggravated",
-    "kapha": "pacified"
-  },
-  "therapeutics": {
-    "useful_part": [
-      "whole plant"
-    ],
-    "indications": [
-      "Krimi",
-      "Apachi",
-      "Medoroga",
-      "Kasa",
-      "Mutrakrichha"
-    ],
-    "therapeutic_actions": [],
-    "dose": "",
-    "anupana": "",
-    "duration": "",
-    "precautions": "",
-    "contraindications": ""
-  },
-  "formulations": [],
-  "classical_reference": {
-    "shlokas": [],
-    "nighantu_references": [],
-    "samhita_references": [],
-    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
-    "reference_hubs": [
-      "TDU Indian Medicinal Plants Database — Shlokas"
-    ]
-  },
-  "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
-  },
-  "modern_information": {
-    "evidence_summary": "Prickly Chaff Flower is used for its cleansing properties, especially in panchakarma. It aids in digestion and detoxification.",
-    "recognized_uses": [],
-    "safety_notes": "",
-    "sources": []
-  },
-  "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
-    "mnemonics": [],
-    "quick_revision": "Prickly Chaff Flower is used for its cleansing properties, especially in panchakarma. It aids in digestion and detoxification."
-  },
-  "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
-  },
-  "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
-    "useful_part": "whole plant",
-    "dose": "",
-    "anupana": "",
-    "key_precautions": []
-  },
-  "sources": [
-    {
-      "type": "official_syllabus",
-      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
-      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
-      "author": "",
-      "edition": "",
-      "year": "",
-      "page": ""
-    },
-    {
-      "type": "medicinal_plants_database",
-      "title": "TDU Indian Medicinal Plants Database",
-      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
-    },
-    {
-      "type": "tdu_classical_database",
-      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
-      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
-      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
-    },
-    {
-      "type": "open_ayurveda_dataset",
-      "title": "Amidha Ayurveda Herb Database v2.0",
-      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
-      "license": "CC BY 4.0",
-      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
-    },
-    {
-      "type": "image",
-      "title": "Wikimedia Commons",
-      "url": "https://commons.wikimedia.org/wiki/File:Achyranthes_aspera_L._(51641809746).jpg",
-      "license_note": "Check the original file page for current license/attribution requirements."
-    }
-  ],
-  "metadata": {
-    "status": "working_draft_needs_text_cross_check",
-    "last_verified": "",
-    "verified_by": "",
-    "version": "1.2",
-    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
-  },
-  "category": "NCISM-97",
-  "syllabus_marker": "NCISM-97"
+  "id":"apamarga","order":43,
+  "identity":{"name":"Apamarga","sanskrit_name":"अपामार्ग","transliteration":"Apamārga","botanical_name":"Achyranthes aspera L.","family":"Amaranthaceae","english_name":"Prickly Chaff Flower","hindi_name":"चिरचिटा / लटजीरा","regional_names":["Marathi: Aghada"],"synonyms":["Shikhari","Mayuraka","Pratyakpushpi","Kharamanjari"]},
+  "classification":{"kingdom":"Plantae","habit":"Erect herb; commonly a weed","habitat":"Open disturbed ground, roadsides and cultivated areas","distribution":"Widely distributed in India; the Ayurvedic Pharmacopoeia draft monograph describes it as occurring commonly throughout the country up to about 900 m."},
+  "identification":{"description":"An erect, stiff herb with opposite leaves and characteristic slender terminal spikes bearing small green flowers; mature inflorescences produce rough, persistent bracts that readily cling to passing material.","whole_plant":"Erect herb, commonly about 0.1–0.9 m in the pharmacopoeial description, with branched upper portions and terminal spikes.","root":"Slender taproot; detailed organoleptic authentication should follow pharmacopoeial standards.","stem":"Erect, branched, longitudinally striated stem; young portions may be hairy.","leaf":"Opposite, simple, petiolate leaves; broadly ovate to elliptic and commonly hairy, with an acute to obtuse apex.","flower":"Small greenish flowers densely arranged on elongated terminal spikes; bracts are conspicuous and stiff.","fruit":"Small utricle enclosed by persistent perianth/bracts; the mature spike is rough and prickly to touch.","seed":"Small, dark to brownish seed enclosed within the persistent floral structures.","bark":"Not a distinct bark-bearing woody drug; stem characters are used for practical identification.","identification_points":["Opposite hairy leaves","Erect herb with terminal slender spikes","Small greenish flowers densely arranged on spikes","Persistent stiff bracts give the inflorescence its prickly character","Whole plant is the pharmacopoeial drug Apāmārga Pañcāṅga"]},
+  "images":{"whole_plant":"images/plants/apamarga.jpg","habit":"images/plants/apamarga.jpg","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},
+  "dravya_guna":{"rasa":["Katu","Tikta"],"guna":["Laghu","Tikshna"],"virya":"Ushna","vipaka":"Katu","prabhava":["Lekhana","Krimighna","Deepana"],"karma":["Traditional use in Kapha-related conditions and selected cleansing procedures"]},
+  "dosha":{"vata":"pacified","pitta":"aggravated","kapha":"pacified"},
+  "therapeutics":{"useful_part":["whole plant / pañcāṅga"],"indications":["Krimi","Apachi","Medoroga","Kasa","Mutrakrichha"],"therapeutic_actions":["Traditional lekhana and deepana actions","Traditional use in selected urinary and digestive indications"],"dose":"Not populated; use only a verified formulation-specific source.","anupana":"Not populated","duration":"Not populated","precautions":"Clinical use and dose should be formulation-specific and supervised; do not infer a dose from this educational record.","contraindications":"No universal contraindication statement added without source-level verification."},
+  "formulations":[],
+  "classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"Source hub identified; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},
+  "phytochemistry":{"major_constituents":[],"chemical_notes":"Not populated in this pass; pharmacopoeial identity is prioritized over unsourced constituent lists."},
+  "modern_information":{"evidence_summary":"The official pharmacopoeial draft identifies Apāmārga Pañcāṅga as the dried whole plant of Achyranthes aspera L. Traditional medicinal uses are documented in AYUSH educational material, but individual claims should not be treated as proof of clinical efficacy.","recognized_uses":[],"safety_notes":"This dossier is educational. Traditional indications and pharmacopoeial identity do not establish efficacy for a specific patient or replace diagnosis and treatment.","sources":["PCIM&H Ayurvedic Pharmacopoeia of India draft monograph","ESIC Ayush Division educational material"]},
+  "student":{"exam_points":["Botanical name: Achyranthes aspera L.","Family: Amaranthaceae","Drug: Apāmārga Pañcāṅga / whole plant","English name: Prickly Chaff Flower","Key identification feature: terminal spike with persistent stiff bracts","Marathi: Aghada"],"viva_questions":["What is the botanical name of Apamarga?","Which family does Apamarga belong to?","What is the useful part in Apamarga Pañcāṅga?","What is the characteristic inflorescence?","Which feature helps distinguish the mature spike?"],"identification_points":["Opposite leaves","Terminal spike","Stiff persistent bracts","Erect herb"],"mnemonics":["APA = Achyranthes, Pañcāṅga, Aghada"],"quick_revision":"Apāmārga is Achyranthes aspera L. of Amaranthaceae; the official pharmacopoeial drug is the dried whole plant (Pañcāṅga), recognized by its erect habit, opposite leaves and characteristic terminal spikes."},
+  "teacher":{"teaching_points":["Demonstrate whole-plant authentication before discussing therapeutic claims.","Distinguish pharmacopoeial drug identity from generic herbal uses found online.","Discuss why the persistent spike/bracts are useful practical characters."],"discussion_points":["Compare Apamarga with other Amaranthaceae weeds during herbarium practicals.","Explain the difference between classical action terms and modern pharmacological evidence."],"practical_points":["Use authenticated herbarium material for identification.","Record leaf arrangement, indumentum, stem habit and inflorescence before drying.","For crude-drug practicals, compare material with the current pharmacopoeial monograph."]},
+  "doctor":{"quick_reference":"Whole plant (Pañcāṅga) of Achyranthes aspera L.; classical profile includes Katu-Tikta rasa, Laghu-Tikshna guna, Ushna virya and Katu vipaka. Use formulation-specific authoritative references for prescribing.","important_indications":["Krimi","Medoroga","Kasa","Mutrakrichha"],"useful_part":"whole plant / pañcāṅga","dose":"Not supplied in this educational dossier.","anupana":"Not supplied","key_precautions":["Verify botanical identity before use.","Use formulation-specific dose and indication references.","Do not treat traditional-use statements as evidence of efficacy for an individual patient."]},
+  "sources":[{"type":"official_pharmacopoeial","title":"Ayurvedic Pharmacopoeia of India / PCIM&H draft monograph — Apāmārga Pañcāṅga","url":"https://pcimh.gov.in/WriteReadData/RTF1984/Ayurvedic.pdf"},{"type":"official_educational","title":"ESIC Ayush Division — Ayurveda offering Herbal Healing: Apamarga","url":"https://www.esic.nic.in/attachments/publicationfile/7d11b02e5abb4717d53b4ce05efabd21.pdf"},{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"image","title":"Wikimedia Commons","url":"https://commons.wikimedia.org/wiki/File:Achyranthes_aspera_L._(51641809746).jpg","license_note":"Check the original file page for current license/attribution requirements."}],
+  "metadata":{"status":"quality_pass_with_classical_text_pending","last_verified":"2026-09-17","verified_by":"source-assisted dossier pass","version":"1.3","image_enrichment_note":"Existing local image retained; additional part-specific verified images remain to be curated.","last_enrichment":"dossier completion batch"},
+  "category":"NCISM-97","syllabus_marker":"NCISM-97"
 }
