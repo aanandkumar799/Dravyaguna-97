@@ -7,16 +7,12 @@
   function apply(theme){
     var dark=theme==='dark';
     root.classList.toggle('dark-mode',dark);
-    var existing=document.getElementById('themeToggle');
-    var b=document.getElementById('globalThemeToggle');
-    if(existing){
-      existing.setAttribute('aria-label',dark?'Switch to light mode':'Switch to dark mode');
-      existing.title=dark?'Switch to light mode':'Switch to dark mode';
-    }
+    var b=document.getElementById('themeToggle')||document.getElementById('globalThemeToggle');
     if(b){
-      b.innerHTML=dark?'☀️ Light Mode':'🌙 Dark Mode';
+      b.innerHTML='<span aria-hidden="true">'+(dark?'☀️':'🌙')+'</span><span>'+ (dark?'Light Mode':'Dark Mode') +'</span>';
       b.setAttribute('aria-label',dark?'Switch to light mode':'Switch to dark mode');
       b.title=dark?'Switch to light mode':'Switch to dark mode';
+      b.classList.add('theme-toggle');
     }
     var meta=document.querySelector('meta[name="theme-color"]');
     if(meta)meta.setAttribute('content',dark?'#0b1410':'#1b4332');
@@ -24,32 +20,20 @@
   function init(){
     var theme=preferred();
     var existing=document.getElementById('themeToggle');
-    if(existing){
-      /* Pages such as the homepage already have their own theme button. */
-      apply(theme);
-      existing.addEventListener('click',function(){
-        setTimeout(function(){
-          var dark=root.classList.contains('dark-mode');
-          write(dark?'dark':'light');
-          apply(dark?'dark':'light');
-        },0);
-      });
-      return;
-    }
-    apply(theme);
-    var b=document.getElementById('globalThemeToggle');
+    var b=existing||document.getElementById('globalThemeToggle');
     if(!b){
       b=document.createElement('button');
       b.type='button';
       b.id='globalThemeToggle';
-      b.className='dg-theme-toggle';
-      b.addEventListener('click',function(){
-        var next=root.classList.contains('dark-mode')?'light':'dark';
-        write(next);
-        apply(next);
-      });
-      (document.body||document.documentElement).appendChild(b);
+      b.className='theme-toggle';
+      var nav=document.querySelector('.nav');
+      if(nav)nav.appendChild(b);else document.body.appendChild(b);
     }
+    b.onclick=function(){
+      var next=root.classList.contains('dark-mode')?'light':'dark';
+      write(next);
+      apply(next);
+    };
     apply(theme);
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
