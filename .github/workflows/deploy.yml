@@ -23,8 +23,7 @@ jobs:
         run: |
           python scripts/generate-site-artifacts.py
           python scripts/public-readiness.py
-      - name: Normalize public HTML
-        run: python scripts/normalize-public-html.py
+          python scripts/audit-data-quality.py
       - name: Prepare static site
         shell: bash
         run: |
