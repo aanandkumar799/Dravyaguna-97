@@ -22,6 +22,11 @@ jobs:
       - name: Temporarily exclude Search Console verification file from HTML proofing
         run: |
           if test -f google7cf685e23093cfe7.html; then mv google7cf685e23093cfe7.html /tmp/google7cf685e23093cfe7.html; fi
+      - name: Generate canonical site artifacts
+        run: |
+          python scripts/generate-site-artifacts.py
+          python scripts/public-readiness.py
+          python scripts/audit-data-quality.py
       - name: Generate favicon compatibility asset
         run: |
           python3 - <<'PY'
@@ -47,8 +52,6 @@ jobs:
           out.write_bytes(png)
           print('Generated compatibility favicon:', out)
           PY
-      - name: Validate modular database
-        run: python scripts/public-readiness.py
       - name: Validate curated image registry
         run: python scripts/validate-curated-images.py
       - name: Check JSON files
