@@ -1,0 +1,21 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /reviews/{reviewId} {
+      allow create: if request.auth != null
+        && request.resource.data.user.uid == request.auth.uid
+        && request.resource.data.user.email == request.auth.token.email
+        && request.resource.data.user.emailVerified == true
+        && request.resource.data.status == 'new';
+      allow read, update, delete: if false;
+    }
+    match /reviewUsers/{uid} {
+      allow create, update: if request.auth != null
+        && request.auth.uid == uid
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.email == request.auth.token.email
+        && request.resource.data.emailVerified == true;
+      allow read, delete: if false;
+    }
+  }
+}
