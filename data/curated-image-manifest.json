@@ -1,26 +1,15 @@
 {
-  "version": 2,
+  "version": 3,
   "status": "production-registry",
   "purpose": "Static image registry for the 97 NCISM Dravyaguna drugs. Production pages use only entries explicitly registered here; missing plant-part images remain empty rather than being substituted with unrelated photographs.",
   "policy": {
-    "no_auto_reuse": true,
-    "no_part_fallback": true,
-    "production_external_search": false,
-    "preferred_sources": [
-      "repository",
-      "wikimedia-commons"
-    ],
-    "required_fields": [
-      "plant_id",
-      "ncism_order",
-      "part",
-      "image_path",
-      "source_url",
-      "license",
-      "verified_botanical_name",
-      "verification_status"
-    ],
-    "license_note": "External images must have their individual source-page license and attribution verified before being added to production."
+    "exact_species_required": true,
+    "part_specific_required": true,
+    "source_license_required": true,
+    "global_duplicates_forbidden": true,
+    "ai_only_matches_forbidden": true,
+    "wrong_image_preferred_over_missing": false,
+    "old_registry_reverification_required": true
   },
   "parts": [
     "whole_plant",
@@ -37,15 +26,16 @@
     {
       "plant_id": "amalaki",
       "ncism_order": 1,
+      "plant_name": "Amalaki",
+      "botanical_name": "Phyllanthus emblica L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/amalaki.jpg",
-        "images/plants/amalaki.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "amalaki",
@@ -109,13 +99,14 @@
       "plant_name": "Amalaki",
       "botanical_name": "Phyllanthus emblica L.",
       "part": "flower",
-      "image_path": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Flowers_of_Phyllanthus_emblica_L._-_Flickr_-_lalithamba.jpg/1280px-Flowers_of_Phyllanthus_emblica_L._-_Flickr_-_lalithamba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image_path": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Flowers_of_Phyllanthus_emblica_L._-_Flickr_-_lalithamba.jpg/1920px-Flowers_of_Phyllanthus_emblica_L._-_Flickr_-_lalithamba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://commons.wikimedia.org/wiki/File%3AFlowers_of_Phyllanthus_emblica_L._-_Flickr_-_lalithamba.jpg",
       "source_name": "Wikimedia Commons",
       "license": "CC BY 2.0",
       "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/45835639@N04\">Lalithamba</a> from India",
       "verified_botanical_name": "Phyllanthus emblica L.",
-      "verification_status": "verified-external"
+      "verification_status": "verified-external",
+      "title": "Flowers of Phyllanthus emblica L. - Flickr - lalithamba.jpg"
     },
     {
       "plant_id": "amalaki",
@@ -129,7 +120,8 @@
       "license": "CC BY 2.0",
       "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/45835639@N04\">Lalithamba</a> from India",
       "verified_botanical_name": "Phyllanthus emblica L.",
-      "verification_status": "verified-external"
+      "verification_status": "verified-external",
+      "title": "Fruits of Phyllanthus emblica L. - Flickr - lalithamba.jpg"
     },
     {
       "plant_id": "amalaki",
@@ -162,15 +154,16 @@
     {
       "plant_id": "aragwadha",
       "ncism_order": 2,
+      "plant_name": "Aragwadha",
+      "botanical_name": "Cassia fistula L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/aragwadha.jpg",
-        "images/plants/aragwadha.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "aragwadha",
@@ -287,15 +280,16 @@
     {
       "plant_id": "arjuna",
       "ncism_order": 3,
+      "plant_name": "Arjuna",
+      "botanical_name": "Terminalia arjuna (Roxb. ex DC.) Wight & Arn.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/arjuna.jpg",
-        "images/plants/arjuna.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "arjuna",
@@ -412,15 +406,16 @@
     {
       "plant_id": "ashoka",
       "ncism_order": 4,
+      "plant_name": "Ashoka",
+      "botanical_name": "Saraca asoca (Roxb.) Willd.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/ashoka.jpg",
-        "images/plants/ashoka.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "ashoka",
@@ -537,15 +532,16 @@
     {
       "plant_id": "ashwagandha",
       "ncism_order": 5,
+      "plant_name": "Ashwagandha",
+      "botanical_name": "Withania somnifera (L.) Dunal",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/ashwagandha.jpg",
-        "images/plants/ashwagandha.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "ashwagandha",
@@ -662,12 +658,16 @@
     {
       "plant_id": "ativisha",
       "ncism_order": 6,
+      "plant_name": "Ativisha",
+      "botanical_name": "Aconitum heterophyllum Wall. ex Royle",
       "part": "whole_plant",
-      "image_path_candidates": [],
+      "image_path": "",
       "source_url": "",
+      "source_name": "",
       "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "blocked-duplicate-asset"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "ativisha",
@@ -784,15 +784,16 @@
     {
       "plant_id": "bala",
       "ncism_order": 7,
+      "plant_name": "Bala",
+      "botanical_name": "Sida cordifolia L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/bala.jpg",
-        "images/plants/bala.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "bala",
@@ -909,15 +910,16 @@
     {
       "plant_id": "beejaka",
       "ncism_order": 8,
+      "plant_name": "Beejaka",
+      "botanical_name": "Pterocarpus marsupium Roxb.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/beejaka.jpg",
-        "images/plants/beejaka.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "beejaka",
@@ -1034,15 +1036,16 @@
     {
       "plant_id": "bhallataka",
       "ncism_order": 9,
+      "plant_name": "Bhallataka",
+      "botanical_name": "Semecarpus anacardium L.f.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/bhallataka.jpg",
-        "images/plants/bhallataka.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "bhallataka",
@@ -1159,15 +1162,16 @@
     {
       "plant_id": "bharangi",
       "ncism_order": 10,
+      "plant_name": "Bharangi",
+      "botanical_name": "Clerodendrum serratum (L.) Moon",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/bharangi.jpg",
-        "images/plants/bharangi.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "bharangi",
@@ -1284,15 +1288,16 @@
     {
       "plant_id": "bhrungaraja",
       "ncism_order": 11,
+      "plant_name": "Bhrungaraja",
+      "botanical_name": "Eclipta alba (L.) Hassk.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/bhrungaraja.jpg",
-        "images/plants/bhrungaraja.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "bhrungaraja",
@@ -1409,15 +1414,16 @@
     {
       "plant_id": "bhumyamalaki",
       "ncism_order": 12,
+      "plant_name": "Bhumyamalaki",
+      "botanical_name": "Phyllanthus amarus Schumach. & Thonn.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/bhumyamalaki.jpg",
-        "images/plants/bhumyamalaki.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "bhumyamalaki",
@@ -1534,15 +1540,16 @@
     {
       "plant_id": "bilva",
       "ncism_order": 13,
+      "plant_name": "Bilva",
+      "botanical_name": "Aegle marmelos (L.) Corrêa",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/bilva.jpg",
-        "images/plants/bilva.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "bilva",
@@ -1659,15 +1666,16 @@
     {
       "plant_id": "brahmi",
       "ncism_order": 14,
+      "plant_name": "Brahmi",
+      "botanical_name": "Bacopa monnieri (L.) Wettst.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/brahmi.jpg",
-        "images/plants/brahmi.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "brahmi",
@@ -1784,15 +1792,16 @@
     {
       "plant_id": "chandana",
       "ncism_order": 15,
+      "plant_name": "Chandana",
+      "botanical_name": "Santalum album L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/chandana.jpg",
-        "images/plants/chandana.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "chandana",
@@ -1909,15 +1918,16 @@
     {
       "plant_id": "chitraka",
       "ncism_order": 16,
+      "plant_name": "Chitraka",
+      "botanical_name": "Plumbago zeylanica L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/chitraka.jpg",
-        "images/plants/chitraka.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "chitraka",
@@ -2034,15 +2044,16 @@
     {
       "plant_id": "dadima",
       "ncism_order": 17,
+      "plant_name": "Dadima",
+      "botanical_name": "Punica granatum L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/dadima.jpg",
-        "images/plants/dadima.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "dadima",
@@ -2159,15 +2170,16 @@
     {
       "plant_id": "dhataki",
       "ncism_order": 18,
+      "plant_name": "Dhataki",
+      "botanical_name": "Woodfordia fruticosa (L.) Kurz",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/dhataki.jpg",
-        "images/plants/dhataki.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "dhataki",
@@ -2284,15 +2296,16 @@
     {
       "plant_id": "dhamasa",
       "ncism_order": 19,
+      "plant_name": "Dhamasa",
+      "botanical_name": "Fagonia indica (syn. Fagonia cretica)",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/dhamasa.jpg",
-        "images/plants/dhamasa.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "dhamasa",
@@ -2409,15 +2422,16 @@
     {
       "plant_id": "eranda",
       "ncism_order": 20,
+      "plant_name": "Eranda",
+      "botanical_name": "Ricinus communis L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/eranda.jpg",
-        "images/plants/eranda.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "eranda",
@@ -2534,15 +2548,16 @@
     {
       "plant_id": "gokshura",
       "ncism_order": 21,
+      "plant_name": "Gokshura",
+      "botanical_name": "Tribulus terrestris L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/gokshura.jpg",
-        "images/plants/gokshura.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "gokshura",
@@ -2659,15 +2674,16 @@
     {
       "plant_id": "guduchi",
       "ncism_order": 22,
+      "plant_name": "Guduchi",
+      "botanical_name": "Tinospora cordifolia (Willd.) Hook.f. & Thomson",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/guduchi.jpg",
-        "images/plants/guduchi.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "guduchi",
@@ -2784,15 +2800,16 @@
     {
       "plant_id": "guggulu",
       "ncism_order": 23,
+      "plant_name": "Guggulu",
+      "botanical_name": "Commiphora wightii (Arn.) Bhandari",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/guggulu.jpg",
-        "images/plants/guggulu.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "guggulu",
@@ -2909,15 +2926,16 @@
     {
       "plant_id": "haridra",
       "ncism_order": 24,
+      "plant_name": "Haridra",
+      "botanical_name": "Curcuma longa L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/haridra.jpg",
-        "images/plants/haridra.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "haridra",
@@ -3034,15 +3052,16 @@
     {
       "plant_id": "haritaki",
       "ncism_order": 25,
+      "plant_name": "Haritaki",
+      "botanical_name": "Terminalia chebula Retz.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/haritaki.jpg",
-        "images/plants/haritaki.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "haritaki",
@@ -3159,15 +3178,16 @@
     {
       "plant_id": "hingu",
       "ncism_order": 26,
+      "plant_name": "Hingu",
+      "botanical_name": "Ferula assa-foetida L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/hingu.jpg",
-        "images/plants/hingu.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "hingu",
@@ -3284,15 +3304,16 @@
     {
       "plant_id": "jambu",
       "ncism_order": 27,
+      "plant_name": "Jambu",
+      "botanical_name": "Syzygium cumini (L.) Skeels",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/jambu.jpg",
-        "images/plants/jambu.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "jambu",
@@ -3409,15 +3430,16 @@
     {
       "plant_id": "jatamansi",
       "ncism_order": 28,
+      "plant_name": "Jatamansi",
+      "botanical_name": "Nardostachys jatamansi (D.Don) DC.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/jatamansi.jpg",
-        "images/plants/jatamansi.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "jatamansi",
@@ -3534,15 +3556,16 @@
     {
       "plant_id": "jyotishmati",
       "ncism_order": 29,
+      "plant_name": "Jyotishmati",
+      "botanical_name": "Celastrus paniculatus Willd.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/jyotishmati.jpg",
-        "images/plants/jyotishmati.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "jyotishmati",
@@ -3659,15 +3682,16 @@
     {
       "plant_id": "kanchanara",
       "ncism_order": 30,
+      "plant_name": "Kanchanara",
+      "botanical_name": "Bauhinia variegata L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/kanchanara.jpg",
-        "images/plants/kanchanara.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "kanchanara",
@@ -3784,15 +3808,16 @@
     {
       "plant_id": "kantakari",
       "ncism_order": 31,
+      "plant_name": "Kantakari",
+      "botanical_name": "Solanum xanthocarpum Schrad. & Wendl.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/kantakari.jpg",
-        "images/plants/kantakari.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "kantakari",
@@ -3909,15 +3934,16 @@
     {
       "plant_id": "kapikachhu",
       "ncism_order": 32,
+      "plant_name": "Kapikachhu",
+      "botanical_name": "Mucuna pruriens (L.) DC.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/kapikachhu.jpg",
-        "images/plants/kapikachhu.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "kapikachhu",
@@ -4034,15 +4060,16 @@
     {
       "plant_id": "karkatshrungi",
       "ncism_order": 33,
+      "plant_name": "Karkatshrungi",
+      "botanical_name": "Pistacia integerrima J.L.Stewart ex Brandis",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/karkatshrungi.jpg",
-        "images/plants/karkatshrungi.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "karkatshrungi",
@@ -4159,15 +4186,16 @@
     {
       "plant_id": "katuki",
       "ncism_order": 34,
+      "plant_name": "Katuki",
+      "botanical_name": "Picrorhiza kurroa Royle ex Benth.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/katuki.jpg",
-        "images/plants/katuki.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "katuki",
@@ -4284,15 +4312,16 @@
     {
       "plant_id": "khadira",
       "ncism_order": 35,
+      "plant_name": "Khadira",
+      "botanical_name": "Senegalia catechu (L.f.) P.J.Hurter & Mabb.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/khadira.jpg",
-        "images/plants/khadira.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "khadira",
@@ -4409,15 +4438,16 @@
     {
       "plant_id": "kumari",
       "ncism_order": 36,
+      "plant_name": "Kumari",
+      "botanical_name": "Aloe vera (L.) Burm.f. (syn. Aloe barbadensis Mill.)",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/kumari.jpg",
-        "images/plants/kumari.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "kumari",
@@ -4534,15 +4564,16 @@
     {
       "plant_id": "kutaja",
       "ncism_order": 37,
+      "plant_name": "Kutaja",
+      "botanical_name": "Holarrhena pubescens Wall. ex G.Don",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/kutaja.jpg",
-        "images/plants/kutaja.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "kutaja",
@@ -4659,15 +4690,16 @@
     {
       "plant_id": "latakaranja",
       "ncism_order": 38,
+      "plant_name": "Latakaranja",
+      "botanical_name": "Caesalpinia bonduc (L.) Roxb.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/latakaranja.jpg",
-        "images/plants/latakaranja.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "latakaranja",
@@ -4745,13 +4777,13 @@
       "plant_name": "Latakaranja",
       "botanical_name": "Caesalpinia bonduc (L.) Roxb.",
       "part": "fruit",
-      "image_path": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Caesalpinia_bonduc_%28seed-pod%29.jpg/1280px-Caesalpinia_bonduc_%28seed-pod%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACaesalpinia_bonduc_%28seed-pod%29.jpg",
-      "source_name": "Wikimedia Commons",
-      "license": "CC BY-SA 3.0",
-      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Biopics\" title=\"User:Biopics\">Hans Hillewaert</a>",
-      "verified_botanical_name": "Caesalpinia bonduc (L.) Roxb.",
-      "verification_status": "verified-external"
+      "image_path": "",
+      "source_url": "",
+      "source_name": "",
+      "license": "",
+      "author": "",
+      "verified_botanical_name": "",
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "latakaranja",
@@ -4784,15 +4816,16 @@
     {
       "plant_id": "lodhra",
       "ncism_order": 39,
+      "plant_name": "Lodhra",
+      "botanical_name": "Symplocos racemosa Roxb.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/lodhra.jpg",
-        "images/plants/lodhra.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "lodhra",
@@ -4909,15 +4942,16 @@
     {
       "plant_id": "agnimanth",
       "ncism_order": 40,
+      "plant_name": "Agnimanth",
+      "botanical_name": "Premna integrifolia L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/agnimanth.jpg",
-        "images/plants/agnimanth.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "agnimanth",
@@ -5034,15 +5068,16 @@
     {
       "plant_id": "ahiphena",
       "ncism_order": 41,
+      "plant_name": "Ahiphena",
+      "botanical_name": "Papaver somniferum L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/ahiphena.jpg",
-        "images/plants/ahiphena.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "ahiphena",
@@ -5159,15 +5194,16 @@
     {
       "plant_id": "ajamoda",
       "ncism_order": 42,
+      "plant_name": "Ajamoda",
+      "botanical_name": "Apium leptophyllum (Pers.) F.Muell. ex Benth.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/ajamoda.jpg",
-        "images/plants/ajamoda.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "ajamoda",
@@ -5284,15 +5320,16 @@
     {
       "plant_id": "apamarga",
       "ncism_order": 43,
+      "plant_name": "Apamarga",
+      "botanical_name": "Achyranthes aspera L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/apamarga.jpg",
-        "images/plants/apamarga.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "apamarga",
@@ -5409,15 +5446,16 @@
     {
       "plant_id": "asthishrunkhala",
       "ncism_order": 44,
+      "plant_name": "Asthishrunkhala",
+      "botanical_name": "Cissus quadrangularis L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/asthishrunkhala.jpg",
-        "images/plants/asthishrunkhala.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "asthishrunkhala",
@@ -5534,15 +5572,16 @@
     {
       "plant_id": "bakuchi",
       "ncism_order": 45,
+      "plant_name": "Bakuchi",
+      "botanical_name": "Cullen corylifolium (L.) Medik.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/bakuchi.jpg",
-        "images/plants/bakuchi.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "bakuchi",
@@ -5659,15 +5698,16 @@
     {
       "plant_id": "bruhati",
       "ncism_order": 46,
+      "plant_name": "Bruhati",
+      "botanical_name": "Solanum indicum L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/bruhati.jpg",
-        "images/plants/bruhati.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "bruhati",
@@ -5784,15 +5824,16 @@
     {
       "plant_id": "chakramarda",
       "ncism_order": 47,
+      "plant_name": "Chakramarda",
+      "botanical_name": "Senna tora (L.) Roxb.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/chakramarda.jpg",
-        "images/plants/chakramarda.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "chakramarda",
@@ -5909,15 +5950,16 @@
     {
       "plant_id": "dhanyaka",
       "ncism_order": 48,
+      "plant_name": "Dhanyaka",
+      "botanical_name": "Coriandrum sativum L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/dhanyaka.jpg",
-        "images/plants/dhanyaka.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "dhanyaka",
@@ -6034,15 +6076,16 @@
     {
       "plant_id": "ela",
       "ncism_order": 49,
+      "plant_name": "Ela",
+      "botanical_name": "Elettaria cardamomum (L.) Maton",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/ela.jpg",
-        "images/plants/ela.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "ela",
@@ -6159,15 +6202,16 @@
     {
       "plant_id": "gambhari",
       "ncism_order": 50,
+      "plant_name": "Gambhari",
+      "botanical_name": "Gmelina arborea Roxb.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/gambhari.jpg",
-        "images/plants/gambhari.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "gambhari",
@@ -6284,15 +6328,16 @@
     {
       "plant_id": "japa",
       "ncism_order": 51,
+      "plant_name": "Japa",
+      "botanical_name": "Hibiscus rosa-sinensis L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/japa.jpg",
-        "images/plants/japa.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "japa",
@@ -6409,15 +6454,16 @@
     {
       "plant_id": "jatiphala",
       "ncism_order": 52,
+      "plant_name": "Jatiphala",
+      "botanical_name": "Myristica fragrans Houtt.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/jatiphala.jpg",
-        "images/plants/jatiphala.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "jatiphala",
@@ -6534,15 +6580,16 @@
     {
       "plant_id": "jeeraka",
       "ncism_order": 53,
+      "plant_name": "Jeeraka",
+      "botanical_name": "Cuminum cyminum L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/jeeraka.jpg",
-        "images/plants/jeeraka.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "jeeraka",
@@ -6659,15 +6706,16 @@
     {
       "plant_id": "kalamegha",
       "ncism_order": 54,
+      "plant_name": "Kalamegha",
+      "botanical_name": "Andrographis paniculata (Burm.f.) Nees",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/kalamegha.jpg",
-        "images/plants/kalamegha.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "kalamegha",
@@ -6784,15 +6832,16 @@
     {
       "plant_id": "kampillaka",
       "ncism_order": 55,
+      "plant_name": "Kampillaka",
+      "botanical_name": "Mallotus philippensis (Lam.) Müll.Arg.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/kampillaka.jpg",
-        "images/plants/kampillaka.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "kampillaka",
@@ -6909,15 +6958,16 @@
     {
       "plant_id": "kulatha",
       "ncism_order": 56,
+      "plant_name": "Kulatha",
+      "botanical_name": "Macrotyloma uniflorum (Lam.) Verdc.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/kulatha.jpg",
-        "images/plants/kulatha.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "kulatha",
@@ -7034,15 +7084,16 @@
     {
       "plant_id": "kumkum",
       "ncism_order": 57,
+      "plant_name": "Kumkum",
+      "botanical_name": "Crocus sativus L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/kumkum.jpg",
-        "images/plants/kumkum.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "kumkum",
@@ -7159,15 +7210,16 @@
     {
       "plant_id": "lajjalu",
       "ncism_order": 58,
+      "plant_name": "Lajjalu",
+      "botanical_name": "Mimosa pudica L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/lajjalu.jpg",
-        "images/plants/lajjalu.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "lajjalu",
@@ -7284,15 +7336,16 @@
     {
       "plant_id": "lavanga",
       "ncism_order": 59,
+      "plant_name": "Lavanga",
+      "botanical_name": "Syzygium aromaticum (L.) Merr. & L.M.Perry",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/lavanga.jpg",
-        "images/plants/lavanga.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "lavanga",
@@ -7409,15 +7462,16 @@
     {
       "plant_id": "madanphala",
       "ncism_order": 60,
+      "plant_name": "Madanphala",
+      "botanical_name": "Randia dumetorum (Retz.) Lam.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/madanphala.jpg",
-        "images/plants/madanphala.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "madanphala",
@@ -7534,15 +7588,16 @@
     {
       "plant_id": "mandukaparni",
       "ncism_order": 61,
+      "plant_name": "Mandukaparni",
+      "botanical_name": "Centella asiatica (L.) Urb.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/mandukaparni.jpg",
-        "images/plants/mandukaparni.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "mandukaparni",
@@ -7659,15 +7714,16 @@
     {
       "plant_id": "manjishta",
       "ncism_order": 62,
+      "plant_name": "Manjishta",
+      "botanical_name": "Rubia cordifolia L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/manjishta.jpg",
-        "images/plants/manjishta.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "manjishta",
@@ -7784,15 +7840,16 @@
     {
       "plant_id": "maricha",
       "ncism_order": 63,
+      "plant_name": "Maricha",
+      "botanical_name": "Piper nigrum L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/maricha.jpg",
-        "images/plants/maricha.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "maricha",
@@ -7905,19 +7962,6 @@
       "author": "",
       "verified_botanical_name": "",
       "verification_status": "missing-queued"
-    },
-    {
-      "plant_id": "meshashrungi",
-      "ncism_order": 64,
-      "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/meshashrungi.jpg",
-        "images/plants/meshashrungi.png"
-      ],
-      "source_url": "",
-      "license": "repository-pending-verification",
-      "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
     },
     {
       "plant_id": "meshshrungi",
@@ -8048,15 +8092,16 @@
     {
       "plant_id": "methika",
       "ncism_order": 65,
+      "plant_name": "Methika",
+      "botanical_name": "Trigonella foenum-graecum L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/methika.jpg",
-        "images/plants/methika.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "methika",
@@ -8173,15 +8218,16 @@
     {
       "plant_id": "musta",
       "ncism_order": 66,
+      "plant_name": "Musta",
+      "botanical_name": "Cyperus rotundus L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/musta.jpg",
-        "images/plants/musta.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "musta",
@@ -8298,15 +8344,16 @@
     {
       "plant_id": "nagkeshar",
       "ncism_order": 67,
+      "plant_name": "Nagkeshar",
+      "botanical_name": "Mesua ferrea L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/nagkeshar.jpg",
-        "images/plants/nagkeshar.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "nagkeshar",
@@ -8423,15 +8470,16 @@
     {
       "plant_id": "nimba",
       "ncism_order": 68,
+      "plant_name": "Nimba",
+      "botanical_name": "Azadirachta indica A. Juss.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/nimba.jpg",
-        "images/plants/nimba.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "nimba",
@@ -8548,15 +8596,16 @@
     {
       "plant_id": "nirgundi",
       "ncism_order": 69,
+      "plant_name": "Nirgundi",
+      "botanical_name": "Vitex negundo L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/nirgundi.jpg",
-        "images/plants/nirgundi.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "nirgundi",
@@ -8673,15 +8722,16 @@
     {
       "plant_id": "palasha",
       "ncism_order": 70,
+      "plant_name": "Palasha",
+      "botanical_name": "Butea monosperma (Lam.) Taub.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/palasha.jpg",
-        "images/plants/palasha.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "palasha",
@@ -8798,15 +8848,16 @@
     {
       "plant_id": "pashanabheda",
       "ncism_order": 71,
+      "plant_name": "Pashanabheda",
+      "botanical_name": "Bergenia ligulata (Wall.) Engl.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/pashanabheda.jpg",
-        "images/plants/pashanabheda.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "pashanabheda",
@@ -8923,15 +8974,16 @@
     {
       "plant_id": "patha",
       "ncism_order": 72,
+      "plant_name": "Patha",
+      "botanical_name": "Cissampelos pareira L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/patha.jpg",
-        "images/plants/patha.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "patha",
@@ -9048,15 +9100,16 @@
     {
       "plant_id": "pippali",
       "ncism_order": 73,
+      "plant_name": "Pippali",
+      "botanical_name": "Piper longum L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/pippali.jpg",
-        "images/plants/pippali.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "pippali",
@@ -9173,15 +9226,16 @@
     {
       "plant_id": "punarnava",
       "ncism_order": 74,
+      "plant_name": "Punarnava",
+      "botanical_name": "Boerhavia diffusa L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/punarnava.jpg",
-        "images/plants/punarnava.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "punarnava",
@@ -9298,15 +9352,16 @@
     {
       "plant_id": "rasna",
       "ncism_order": 75,
+      "plant_name": "Rasna",
+      "botanical_name": "Pluchea lanceolata (DC.) C.B.Clarke",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/rasna.jpg",
-        "images/plants/rasna.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "rasna",
@@ -9423,15 +9478,16 @@
     {
       "plant_id": "rasona",
       "ncism_order": 76,
+      "plant_name": "Rasona",
+      "botanical_name": "Allium sativum L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/rasona.jpg",
-        "images/plants/rasona.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "rasona",
@@ -9548,15 +9604,16 @@
     {
       "plant_id": "sarpagandha",
       "ncism_order": 77,
+      "plant_name": "Sarpagandha",
+      "botanical_name": "Rauvolfia serpentina (L.) Benth. ex Kurz",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/sarpagandha.jpg",
-        "images/plants/sarpagandha.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "sarpagandha",
@@ -9673,15 +9730,16 @@
     {
       "plant_id": "sairayak",
       "ncism_order": 78,
+      "plant_name": "Sairayak",
+      "botanical_name": "Barleria prionitis L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/sairayak.jpg",
-        "images/plants/sairayak.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "sairayak",
@@ -9798,15 +9856,16 @@
     {
       "plant_id": "sariva",
       "ncism_order": 79,
+      "plant_name": "Sariva",
+      "botanical_name": "Hemidesmus indicus (L.) R.Br.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/sariva.jpg",
-        "images/plants/sariva.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "sariva",
@@ -9923,15 +9982,16 @@
     {
       "plant_id": "shallaki",
       "ncism_order": 80,
+      "plant_name": "Shallaki",
+      "botanical_name": "Boswellia serrata Roxb. ex Colebr.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/shallaki.jpg",
-        "images/plants/shallaki.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "shallaki",
@@ -10044,19 +10104,6 @@
       "author": "",
       "verified_botanical_name": "",
       "verification_status": "missing-queued"
-    },
-    {
-      "plant_id": "shalmali",
-      "ncism_order": 81,
-      "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/shalmali.jpg",
-        "images/plants/shalmali.png"
-      ],
-      "source_url": "",
-      "license": "repository-pending-verification",
-      "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
     },
     {
       "plant_id": "shalmali-mocharasa",
@@ -10187,15 +10234,16 @@
     {
       "plant_id": "shankhapushpi",
       "ncism_order": 82,
+      "plant_name": "Shankhapushpi",
+      "botanical_name": "Convolvulus pluricaulis Choisy",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/shankhapushpi.jpg",
-        "images/plants/shankhapushpi.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "shankhapushpi",
@@ -10312,15 +10360,16 @@
     {
       "plant_id": "shatavari",
       "ncism_order": 83,
+      "plant_name": "Shatavari",
+      "botanical_name": "Asparagus racemosus Willd.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/shatavari.jpg",
-        "images/plants/shatavari.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "shatavari",
@@ -10437,15 +10486,16 @@
     {
       "plant_id": "shigru",
       "ncism_order": 84,
+      "plant_name": "Shigru",
+      "botanical_name": "Moringa oleifera Lam.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/shigru.jpg",
-        "images/plants/shigru.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "shigru",
@@ -10562,15 +10612,16 @@
     {
       "plant_id": "shunthi",
       "ncism_order": 85,
+      "plant_name": "Shunthi",
+      "botanical_name": "Zingiber officinale Roscoe",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/shunthi.jpg",
-        "images/plants/shunthi.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "shunthi",
@@ -10687,15 +10738,16 @@
     {
       "plant_id": "talisapatra",
       "ncism_order": 86,
+      "plant_name": "Talisapatra",
+      "botanical_name": "Abies webbiana Lindl.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/talisapatra.jpg",
-        "images/plants/talisapatra.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "talisapatra",
@@ -10812,15 +10864,16 @@
     {
       "plant_id": "trivrut",
       "ncism_order": 87,
+      "plant_name": "Trivrut",
+      "botanical_name": "Operculina turpethum (L.) Silva Manso",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/trivrut.jpg",
-        "images/plants/trivrut.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "trivrut",
@@ -10937,15 +10990,16 @@
     {
       "plant_id": "tulasi",
       "ncism_order": 88,
+      "plant_name": "Tulasi",
+      "botanical_name": "Ocimum tenuiflorum L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/tulasi.jpg",
-        "images/plants/tulasi.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "tulasi",
@@ -11062,15 +11116,16 @@
     {
       "plant_id": "twak",
       "ncism_order": 89,
+      "plant_name": "Twak",
+      "botanical_name": "Cinnamomum verum J.Presl",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/twak.jpg",
-        "images/plants/twak.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "twak",
@@ -11187,15 +11242,16 @@
     {
       "plant_id": "usheera",
       "ncism_order": 90,
+      "plant_name": "Usheera",
+      "botanical_name": "Chrysopogon zizanioides (L.) Roberty",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/usheera.jpg",
-        "images/plants/usheera.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "usheera",
@@ -11312,15 +11368,16 @@
     {
       "plant_id": "vacha",
       "ncism_order": 91,
+      "plant_name": "Vacha",
+      "botanical_name": "Acorus calamus L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/vacha.jpg",
-        "images/plants/vacha.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "vacha",
@@ -11437,15 +11494,16 @@
     {
       "plant_id": "varuna",
       "ncism_order": 92,
+      "plant_name": "Varuna",
+      "botanical_name": "Crataeva nurvala Buch.-Ham.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/varuna.jpg",
-        "images/plants/varuna.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "varuna",
@@ -11562,15 +11620,16 @@
     {
       "plant_id": "vasa",
       "ncism_order": 93,
+      "plant_name": "Vasa",
+      "botanical_name": "Adhatoda vasica Nees (syn. Justicia adhatoda L.)",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/vasa.jpg",
-        "images/plants/vasa.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "vasa",
@@ -11687,15 +11746,16 @@
     {
       "plant_id": "vatsanabha",
       "ncism_order": 94,
+      "plant_name": "Vatsanabha",
+      "botanical_name": "Aconitum ferox Wall. ex Ser.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/vatsanabha.jpg",
-        "images/plants/vatsanabha.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "vatsanabha",
@@ -11812,15 +11872,16 @@
     {
       "plant_id": "vibhitaki",
       "ncism_order": 95,
+      "plant_name": "Vibhitaki",
+      "botanical_name": "Terminalia bellirica (Gaertn.) Roxb.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/vibhitaki.jpg",
-        "images/plants/vibhitaki.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "vibhitaki",
@@ -11937,15 +11998,16 @@
     {
       "plant_id": "vidanga",
       "ncism_order": 96,
+      "plant_name": "Vidanga",
+      "botanical_name": "Embelia ribes Burm.f.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/vidanga.jpg",
-        "images/plants/vidanga.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "vidanga",
@@ -12062,15 +12124,16 @@
     {
       "plant_id": "yashtimadhu",
       "ncism_order": 97,
+      "plant_name": "Yashtimadhu",
+      "botanical_name": "Glycyrrhiza glabra L.",
       "part": "whole_plant",
-      "image_path_candidates": [
-        "images/plants/yashtimadhu.jpg",
-        "images/plants/yashtimadhu.png"
-      ],
+      "image_path": "",
       "source_url": "",
-      "license": "repository-pending-verification",
+      "source_name": "",
+      "license": "",
+      "author": "",
       "verified_botanical_name": "",
-      "verification_status": "repository-candidate"
+      "verification_status": "missing-queued"
     },
     {
       "plant_id": "yashtimadhu",
