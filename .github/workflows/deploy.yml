@@ -28,6 +28,7 @@ jobs:
         shell: bash
         run: |
           rm -rf _site
+          mkdir -p _site
           tar --exclude='./.git' --exclude='./.github' --exclude='./_site' -cf - . | tar -xf - -C _site
           python - <<'PY'
           import json, re, os
@@ -55,7 +56,7 @@ jobs:
               if page.name=='plant.html':
                   if '<link rel="stylesheet" href="plant-dossier-layout.css">' not in html:
                       html=html.replace('</head>','<link rel="stylesheet" href="plant-dossier-layout.css">\n</head>',1)
-                  for src in ['cover-image-fix.js','dossier-fallback.js','image-gallery-delay.js','academic-verification.js','identification-gallery.js']:
+                  for src in ['cover-image-fix.js','dossier-fallback.js','image-gallery-delay.js','academic-verification.js','strict-gallery-guard.js']:
                       if f'<script src="{src}" defer></script>' not in html:
                           html=html.replace('</body>',f'<script src="{src}" defer></script>\n</body>',1)
               if page.name=='plants.html' and '<script src="flashcard-entry.js" defer></script>' not in html:
