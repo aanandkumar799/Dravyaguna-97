@@ -1,0 +1,70 @@
+name: Deploy DravyaGuna 97 to Firebase Hosting
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: firebase-production
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.x'
+
+      - name: Generate production site artifacts
+        run: |
+          python scripts/generate-site-artifacts.py
+          python scripts/public-readiness.py
+
+      - name: Build Firebase site directory
+        run: |
+          rm -rf _site
+          mkdir -p _site
+          cp -R . _site/
+          rm -rf _site/.git _site/.github _site/_site
+          cp plant-index.json _site/data/plants-index.json
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('_site')
+          print('Firebase site prepared:', p.resolve())
+          print('HTML files:', len(list(p.rglob('*.html'))))
+          print('Plant records:', len(list((p/'data'/'plants').glob('*.json'))))
+          PY
+
+      - name: Validate production database
+        run: |
+          test -f _site/index.html
+          test -f _site/sitemap.xml
+          test -f _site/robots.txt
+          test -f _site/data/plants-index.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data=json.loads(Path('_site/data/plants-index.json').read_text())
+          plants=[p for p in data.get('plants',[]) if p.get('category')=='NCISM-97' and 1 <= int(p.get('order',0)) <= 97]
+          assert len(plants)==97, len(plants)
+          assert len(list(Path('_site/data/plants').glob('*.json'))) == 97
+          print('Firebase production validation: 97 canonical plants OK')
+          PY
+
+      - name: Deploy to Firebase Hosting
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}'
+          projectId: '${{ secrets.FIREBASE_PROJECT_ID }}'
+          channelId: live
