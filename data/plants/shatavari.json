@@ -1,1 +1,174 @@
-{"id":"shatavari","order":83,"category":"NCISM-97","batch_id":40,"identity":{"name":"Shatavari","sanskrit_name":"शतावरी","transliteration":"Śatāvarī","botanical_name":"Asparagus racemosus Willd.","family":"Asparagaceae","english_name":"Wild Asparagus / Shatavari","synonyms":["Bahusuta","Bhiru","Indivari","Vari","Narayani","Shatapadi","Shatavirya","Pivari"]},"dravya_guna":{"rasa":["Madhura","Tikta"],"guna":["Guru","Snigdha"],"virya":"Sheeta","vipaka":"Madhura","prabhava":"Stanyajanana; Vrishya; Rasayana","karma":["Balya","Rasayana","Stanyajanana","Vrishya","Vata-Pitta shamana"]},"therapeutics":{"useful_part":["Tuberous root (Kanda / Mula)"],"indications":["Kshaya","Stanyakshaya","Gulma","Atisara","Raktapitta","Shotha"],"therapeutic_actions":["Balya","Stanyajanana","Vrishya","Rasayana","Pittashamana"]},"identification":{"description":"Perennial climbing herb with fascicled fleshy tuberous roots and slender cladodes; dried root drug consists of numerous pale cream to buff tubers.","identification_points":["Fascicled tuberous roots","Cream to buff roots","Mucilaginous texture"]},"formulations":[{"name":"Shatavari Gulam"},{"name":"Shatavari Kalpa"},{"name":"Shatavari Ghrita"},{"name":"Narayana Taila"}],"classical_reference":{"shlokas":["शतावरी बहुसुता भीरुरिन्दीवरी वरी ।\nनारायणी शतपदी शतवीर्या च पीवरी ॥१५७॥\nमहाशतावरी चान्या शतमूल्यूर्ध्वकण्टिका ।\nसहस्रवीर्या हेतुश्च ऋष्यप्रोक्ता महोदरी ॥१५८॥\nशतावरी गुरुः शीता तिक्ता स्वाद्वी रसायनी ।\nमेधाऽग्निपुष्टिदा स्निग्धा नेत्र्या गुल्मातिसारजित् ।\nशुक्रस्तन्यकरी बल्या वातपित्तास्रशोथजित् ॥१५९॥"],"nighantu_references":["Bhavaprakasha Nighantu, Guduchyadi Varga, verses 157–159 in the searchable recension."],"shloka_reference_status":"verified text; supplied 175–177 citation corrected"},"metadata":{"status":"corrected_reviewed","source_batch":"40","last_reviewed":"2026-09-16"}}
+{
+  "id": "shatavari",
+  "order": 83,
+  "identity": {
+    "name": "Shatavari",
+    "sanskrit_name": "शतावरी",
+    "transliteration": "",
+    "botanical_name": "Asparagus racemosus Willd.",
+    "family": "Asparagaceae",
+    "english_name": "Wild Asparagus",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Shatamuli",
+      "Atirasa",
+      "Narayani",
+      "Bahusuta"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": []
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Madhura"
+    ],
+    "guna": [
+      "Guru",
+      "Snigdha"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Madhura",
+    "prabhava": [
+      "Stanyashodhana",
+      "Shukrala",
+      "rasayan",
+      "Varnya"
+    ],
+    "karma": []
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "pacified",
+    "kapha": "aggravated"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "root"
+    ],
+    "indications": [
+      "Stanyakshaya",
+      "Raktapitta",
+      "Amlapitta",
+      "Shukrakshaya"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [
+      "शतावरी बहुसुता भीरुरिन्दीवरी वरी ।\nनारायणी शतपदी शतवीर्या च पीवरी ॥\nशतावरी गुरुः शीता तिक्तास्वाद्वी रसायनी ।\nमेधाग्निपुष्टिदा स्निग्धा नेत्र्या गुल्मातिसारजित् ।\nशुक्रस्तन्यकरी बल्या वातपित्तास्रशोथजित् ॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Guduchyadi Varga, Shatavari passage; exact verse numbering should be taken from the selected edition before displaying a number."
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "classical_text_corrected; edition/numbering explicitly qualified",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas",
+      "CCRAS/NIIMH e-Nighantu — Bhavaprakasha Nighantu"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Shatavari (Asparagus racemosus) supports female reproductive health, boosts vitality, and is a top Ayurvedic rejuvenator for Pitta and Vata.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Shatavari (Asparagus racemosus) supports female reproductive health, boosts vitality, and is a top Ayurvedic rejuvenator for Pitta and Vata."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "root",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    }
+  ],
+  "metadata": {
+    "status": "classical_text_reviewed; edition_numbering_may_vary",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "classical_review_batch": "1-8 corrected 2026-09-16"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

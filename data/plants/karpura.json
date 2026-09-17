@@ -1,0 +1,317 @@
+{
+  "id": "karpura",
+  "order": null,
+  "category": "Supplementary",
+  "syllabus_marker": "Supplementary",
+  "identity": {
+    "name": "Karpura",
+    "sanskrit_name": "Karpura",
+    "transliteration": "",
+    "botanical_name": "Cinnamomum camphora (L.) J.Presl",
+    "family": "Lauraceae",
+    "english_name": "Camphor",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Ghanasara (घनसारा)",
+      "Himavaluka (हिमवालुका)",
+      "Chandra (चन्द्र)",
+      "Sphatika (स्फटिक)",
+      "Subhra (शुभ्र)"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "White translucent crystalline masses or powder, highly volatile at room temperature, characteristic penetrating aromatic odor, cool pungent taste followed by a cooling sensation.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": [
+      "White translucent crystalline masses or powder, highly volatile at room temperature, characteristic penetrating aromatic odor, cool pungent taste followed by a cooling sensation."
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "tikta",
+      "katu",
+      "madhura"
+    ],
+    "guna": [
+      "laghu",
+      "tikshna",
+      "snigdha"
+    ],
+    "virya": "sheeta",
+    "vipaka": "katu",
+    "prabhava": "Hridya / Chakshushya / Vedanasthapana",
+    "karma": [
+      "Hridya",
+      "Vedanasthapana",
+      "Chakshushya",
+      "Chedana",
+      "Kasahara",
+      "Mukhadurgandhahara",
+      "Dahaprashamana",
+      "Krimighna"
+    ]
+  },
+  "dosha": {
+    "vata": "not specifically documented in imported dataset",
+    "pitta": "aggravated",
+    "kapha": "pacified",
+    "summary": "Tridoshashamaka (Specially Kapha-Pittashamaka)"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "Crystalline Extract / Sublimated Niryasa (Karpura)"
+    ],
+    "indications": [
+      "Hridroga (Heart disease / Functional cardiac weakness)",
+      "Shwasa / Kasa (Dyspnea / Cough)",
+      "Mukharoga (Oral infections / Dental pain)",
+      "Trishna (Excessive thirst)",
+      "Daha (Burning sensation)",
+      "Sandhishoola (Joint pain / Arthralgia)"
+    ],
+    "therapeutic_actions": [
+      "Hridya",
+      "Vedanasthapana",
+      "Chakshushya",
+      "Chedana",
+      "Kasahara",
+      "Mukhadurgandhahara",
+      "Dahaprashamana",
+      "Krimighna"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Karpuradi Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Karpuradi Taila",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Karpura Rasa",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Amritdhara",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Karpurasava",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "कर्पूरः शीतलो हृद्यश्चक्षुष्यो लेपनो लघुः।\nतिक्तो मधुरः कटुकः सुगन्धिः कफपित्तहा॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Karpuradi Varga, Verse 2-3"
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "A. Directly verified classical reference",
+    "gemini_source_reference": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "sthana_section": "Nighantu Sthana",
+      "adhyaya": "N/A",
+      "varga_chapter": "Karpuradi Varga",
+      "shloka_number": "Verse 2-3",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    },
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Camphor has stimulant, antispasmodic, and antiseptic actions, used in respiratory and skin conditions.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Camphor has stimulant, antispasmodic, and antiseptic actions, used in respiratory and skin conditions."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Retained as supplementary material from Gemini batch 74."
+    ],
+    "discussion_points": [
+      "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data."
+    ],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+    "important_indications": [],
+    "useful_part": "",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Use authoritative identification and safety references."
+    ]
+  },
+  "sources": [
+    {
+      "type": "gemini_source_batch",
+      "title": "Gemini batch 74",
+      "url": ""
+    },
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+    }
+  ],
+  "metadata": {
+    "status": "supplementary_needs_source_verification",
+    "source_batch": "Gemini batch 74",
+    "version": "1.0",
+    "gemini_later_batches_reviewed": true,
+    "gemini_source_batches": [
+      74
+    ],
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+  },
+  "gemini_source_data": {
+    "id": 74,
+    "classical_sanskrit_name": "Karpura (कर्पूर)",
+    "botanical_name": "Cinnamomum camphora (L.) J.Presl",
+    "family": "Lauraceae",
+    "english_common_name": "Camphor",
+    "sanskrit_synonyms": [
+      "Ghanasara (घनसारा)",
+      "Himavaluka (हिमवालुका)",
+      "Chandra (चन्द्र)",
+      "Sphatika (स्फटिक)",
+      "Subhra (शुभ्र)"
+    ],
+    "useful_part": "Crystalline Extract / Sublimated Niryasa (Karpura)",
+    "rasa": [
+      "Tikta",
+      "Katu",
+      "Madhura"
+    ],
+    "guna": [
+      "Laghu",
+      "Tikshna",
+      "Snigdha"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Katu",
+    "prabhava": "Hridya / Chakshushya / Vedanasthapana",
+    "dosha_karma": "Tridoshashamaka (Specially Kapha-Pittashamaka)",
+    "pharmacological_therapeutic_karma": [
+      "Hridya",
+      "Vedanasthapana",
+      "Chakshushya",
+      "Chedana",
+      "Kasahara",
+      "Mukhadurgandhahara",
+      "Dahaprashamana",
+      "Krimighna"
+    ],
+    "important_indications": [
+      "Hridroga (Heart disease / Functional cardiac weakness)",
+      "Shwasa / Kasa (Dyspnea / Cough)",
+      "Mukharoga (Oral infections / Dental pain)",
+      "Trishna (Excessive thirst)",
+      "Daha (Burning sensation)",
+      "Sandhishoola (Joint pain / Arthralgia)"
+    ],
+    "important_formulations": [
+      "Karpuradi Churna",
+      "Karpuradi Taila",
+      "Karpura Rasa",
+      "Amritdhara",
+      "Karpurasava"
+    ],
+    "identification_characters": "White translucent crystalline masses or powder, highly volatile at room temperature, characteristic penetrating aromatic odor, cool pungent taste followed by a cooling sensation.",
+    "classical_shloka": "कर्पूरः शीतलो हृद्यश्चक्षुष्यो लेपनो लघुः।\nतिक्तो मधुरः कटुकः सुगन्धिः कफपित्तहा॥",
+    "shloka_source": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "sthana_section": "Nighantu Sthana",
+      "adhyaya": "N/A",
+      "varga_chapter": "Karpuradi Varga",
+      "shloka_number": "Verse 2-3",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    },
+    "verification_status": "A. Directly verified classical reference"
+  }
+}

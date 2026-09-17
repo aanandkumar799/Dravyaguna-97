@@ -1,0 +1,317 @@
+{
+  "id": "jatamansi",
+  "order": 28,
+  "identity": {
+    "name": "Jatamansi",
+    "sanskrit_name": "Jatamansi",
+    "transliteration": "",
+    "botanical_name": "Nardostachys jatamansi (D.Don) DC.",
+    "family": "Caprifoliaceae (Valerianaceae)",
+    "english_name": "Spikenard / Indian Nard",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Mansi (मांसी)",
+      "Tapasvini (तपस्विनी)",
+      "Jatila (जटिला)",
+      "Nalada (नलदा)",
+      "Bhutajata (भूतजटा)"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Dark brown highly fibrous woody rhizomes crowned with dense reddish-brown tufts of fibrous leaf-remnants, intensely aromatic heavy musky-earthy odor, bitter acrid taste.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": [
+      "Dark brown highly fibrous woody rhizomes crowned with dense reddish-brown tufts of fibrous leaf-remnants, intensely aromatic heavy musky-earthy odor, bitter acrid taste."
+    ]
+  },
+  "images": {
+    "whole_plant": "images/plants/jatamansi.jpg",
+    "habit": "images/plants/jatamansi.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "tikta",
+      "kashaya",
+      "madhura"
+    ],
+    "guna": [
+      "laghu",
+      "snigdha"
+    ],
+    "virya": "sheeta",
+    "vipaka": "katu",
+    "prabhava": "Medhya / Nidrajanana / Manasadoshahara",
+    "karma": [
+      "Medhya",
+      "Nidrajanana",
+      "Manasadoshahara",
+      "Hridya",
+      "Kushtaghna",
+      "Dahaprashamana",
+      "Keshya",
+      "Vishaghna"
+    ]
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "pacified",
+    "kapha": "aggravated",
+    "summary": "Tridoshashamaka (Specially Kapha-Pittashamaka)"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "Rhizome / Root (Kanda / Mula)"
+    ],
+    "indications": [
+      "Anidra (Insomnia)",
+      "Unmada (Psychosis / Mania)",
+      "Apasmara (Epilepsy)",
+      "Manasaroga (Anxiety / Psychiatric disorders)",
+      "Shiro-shoola (Headache)",
+      "Hridroga (Cardiac neurosis / Palpitations)"
+    ],
+    "therapeutic_actions": [
+      "Medhya",
+      "Nidrajanana",
+      "Manasadoshahara",
+      "Hridya",
+      "Kushtaghna",
+      "Dahaprashamana",
+      "Keshya",
+      "Vishaghna"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Jatamansi Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Jatamansyark",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Mansyadi Kwatha",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Saraswatarishta",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Mahakalyanaka Ghrita",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "मांसी तिक्ता कषाया च स्वाद्वी शीता च दाहहृत्।\nमेध्या कान्तिबलायुष्या कफपित्तविषापहा॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Karpuradi Varga, Verse 88-89"
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "A. Directly verified classical reference",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ],
+    "gemini_source_reference": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "sthana_section": "Nighantu Sthana",
+      "adhyaya": "N/A",
+      "varga_chapter": "Karpuradi Varga",
+      "shloka_number": "Verse 88-89",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    }
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Calms the mind, supports mental clarity, and acts as a nervine tonic.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Calms the mind, supports mental clarity, and acts as a nervine tonic."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [
+      "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data."
+    ],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "rhizome",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Cultivated_spikenard_Nardostachys_jatamansi_with_a_young_flowering_stem,_grown_outdoors_in_Yaroslavl_Oblast,_Russia.jpg",
+      "license_note": "Check the original file page for current license/attribution requirements."
+    }
+  ],
+  "metadata": {
+    "status": "working_draft_needs_text_cross_check",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "gemini_later_batches_reviewed": true,
+    "gemini_source_batches": [
+      75
+    ]
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97",
+  "gemini_source_data": {
+    "id": 75,
+    "classical_sanskrit_name": "Jatamansi (जटामांसी)",
+    "botanical_name": "Nardostachys jatamansi (D.Don) DC.",
+    "family": "Caprifoliaceae (Valerianaceae)",
+    "english_common_name": "Spikenard / Indian Nard",
+    "sanskrit_synonyms": [
+      "Mansi (मांसी)",
+      "Tapasvini (तपस्विनी)",
+      "Jatila (जटिला)",
+      "Nalada (नलदा)",
+      "Bhutajata (भूतजटा)"
+    ],
+    "useful_part": "Rhizome / Root (Kanda / Mula)",
+    "rasa": [
+      "Tikta",
+      "Kashaya",
+      "Madhura"
+    ],
+    "guna": [
+      "Laghu",
+      "Snigdha"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Katu",
+    "prabhava": "Medhya / Nidrajanana / Manasadoshahara",
+    "dosha_karma": "Tridoshashamaka (Specially Kapha-Pittashamaka)",
+    "pharmacological_therapeutic_karma": [
+      "Medhya",
+      "Nidrajanana",
+      "Manasadoshahara",
+      "Hridya",
+      "Kushtaghna",
+      "Dahaprashamana",
+      "Keshya",
+      "Vishaghna"
+    ],
+    "important_indications": [
+      "Anidra (Insomnia)",
+      "Unmada (Psychosis / Mania)",
+      "Apasmara (Epilepsy)",
+      "Manasaroga (Anxiety / Psychiatric disorders)",
+      "Shiro-shoola (Headache)",
+      "Hridroga (Cardiac neurosis / Palpitations)"
+    ],
+    "important_formulations": [
+      "Jatamansi Churna",
+      "Jatamansyark",
+      "Mansyadi Kwatha",
+      "Saraswatarishta",
+      "Mahakalyanaka Ghrita"
+    ],
+    "identification_characters": "Dark brown highly fibrous woody rhizomes crowned with dense reddish-brown tufts of fibrous leaf-remnants, intensely aromatic heavy musky-earthy odor, bitter acrid taste.",
+    "classical_shloka": "मांसी तिक्ता कषाया च स्वाद्वी शीता च दाहहृत्।\nमेध्या कान्तिबलायुष्या कफपित्तविषापहा॥",
+    "shloka_source": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "sthana_section": "Nighantu Sthana",
+      "adhyaya": "N/A",
+      "varga_chapter": "Karpuradi Varga",
+      "shloka_number": "Verse 88-89",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    },
+    "verification_status": "A. Directly verified classical reference"
+  }
+}

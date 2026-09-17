@@ -1,0 +1,201 @@
+{
+  "id": "bala",
+  "order": 7,
+  "identity": {
+    "name": "Bala",
+    "sanskrit_name": "बला",
+    "transliteration": "",
+    "botanical_name": "Sida cordifolia L.",
+    "family": "Malvaceae",
+    "english_name": "Country Mallow",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Vatyalika",
+      "Batyala",
+      "Kharayashtika",
+      "Bhadra"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Subshrub with cylindrical taproot, cordate velvety leaves and yellow solitary flowers; seeds are characteristic.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": []
+  },
+  "images": {
+    "whole_plant": "images/plants/bala.jpg",
+    "habit": "images/plants/bala.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "madhura"
+    ],
+    "guna": [
+      "guru",
+      "snigdha",
+      "picchila"
+    ],
+    "virya": "sheeta",
+    "vipaka": "madhura",
+    "prabhava": "Balya / Vrishya / Vataharanam",
+    "karma": [
+      "Balya",
+      "Brimhana",
+      "Vrishya",
+      "Vatashamaka",
+      "Prajasthapana",
+      "Ojavardhaka"
+    ]
+  },
+  "dosha": {
+    "vata": "pacifies",
+    "pitta": "generally pacifies",
+    "kapha": "may increase"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "root",
+      "seeds",
+      "whole plant (Panchanga)"
+    ],
+    "indications": [
+      "Vatavyadhi",
+      "Kshaya",
+      "Klaibya",
+      "Raktapitta",
+      "Daurbalya"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Balarishta"
+    },
+    {
+      "name": "Bala Taila"
+    },
+    {
+      "name": "Kshirabala Taila"
+    },
+    {
+      "name": "Baladi Kwatha"
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Guduchyadi Varga — exact verse requires edition-level verification"
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "needs_verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Improves strength and stamina, useful in vata disorders and nervous weakness.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Improves strength and stamina, useful in vata disorders and nervous weakness."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "root/whole plant",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official",
+      "title": "CCRAS medicinal plant research",
+      "url": "https://ccras.nic.in/services/medicinal-plant-research/",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Sida_cordifolia_L._(48917496198).jpg",
+      "license_note": "Check the original file page for current license/attribution requirements."
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    }
+  ],
+  "metadata": {
+    "status": "structured_data_added_classical_text_pending",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "batch_49_53_added": true,
+    "batch_54_63_added": true
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

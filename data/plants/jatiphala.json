@@ -1,0 +1,187 @@
+{
+  "id": "jatiphala",
+  "order": 52,
+  "identity": {
+    "name": "Jatiphala",
+    "sanskrit_name": "जातिफल",
+    "transliteration": "",
+    "botanical_name": "Myristica fragrans Houtt.",
+    "family": "Myristicaceae",
+    "english_name": "Nutmeg",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Jatikosha",
+      "Jatisasya",
+      "Malatiphala",
+      "Jatisara",
+      "Majasara"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Ovoid hard seed with marbled/ruminate brown endosperm and strong characteristic aromatic odor; mace is the separate aril.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": []
+  },
+  "images": {
+    "whole_plant": "images/plants/jatiphala.jpg",
+    "habit": "images/plants/jatiphala.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "tikta",
+      "katu"
+    ],
+    "guna": [
+      "laghu",
+      "tikshna"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "prabhava": "Grahi / Deepana / Rochana",
+    "karma": [
+      "Deepana",
+      "Grahi",
+      "Rochana",
+      "Swarya",
+      "Kaphavatahara",
+      "Mukhadurgandhahara"
+    ]
+  },
+  "dosha": {
+    "vata": "pacifies",
+    "pitta": "may increase when excessive",
+    "kapha": "pacifies"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "seed kernel (Bija)",
+      "aril (Jatipatri is a separate drug part)"
+    ],
+    "indications": [
+      "Atisara",
+      "Grahani",
+      "Aruchi",
+      "Mukha-vairasya",
+      "Kasa",
+      "Shwasa",
+      "Pinas",
+      "Kaphavata disorders"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [
+      "जातीफलं जातिकोशं मालतीफलमित्यपि ।\nजातीफलं रसे तिक्तं तीक्ष्णोष्णं रोचनं लघु ।\nकटुकं दीपनं ग्राहि स्वर्यं श्लेष्मानिलापहम् ॥\nनिहन्ति मुखवैरस्यं मलदौर्गन्ध्यकृष्णताः ।\nकृमिकासवमिश्वासशोषपीनसहृद्रुजः ॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Karpuradi Varga, verses 48–49 in the searchable recension; numbering varies by edition."
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "verified against searchable Bhavaprakasha text; supplied batch verse was corrected to the searchable recension",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Nutmeg is an aromatic stimulant used for improving digestion, inducing sleep, and relieving pain.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Nutmeg is an aromatic stimulant used for improving digestion, inducing sleep, and relieving pain."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "seed",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Jatiphala_(Sanskrit-_%E0%A4%9C%E0%A4%BE%E0%A4%A4%E0%A4%BF%E0%A4%AB%E0%A4%B2)_(6789044628).jpg",
+      "license_note": "Check the original file page for current license/attribution requirements."
+    }
+  ],
+  "metadata": {
+    "status": "classical_text_checked_batch_69_73",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

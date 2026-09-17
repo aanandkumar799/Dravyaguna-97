@@ -1,0 +1,319 @@
+{
+  "id": "ativisha",
+  "order": 6,
+  "identity": {
+    "name": "Ativisha",
+    "sanskrit_name": "Ativisha",
+    "transliteration": "",
+    "botanical_name": "Aconitum heterophyllum Wall. ex Royle",
+    "family": "Ranunculaceae",
+    "english_name": "Indian Atees",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Shuklakanda (शुक्लकन्दा)",
+      "Bhangura (भङ्गुरा)",
+      "Vishva (विश्वा)",
+      "Aruna (अरुणा)",
+      "Shringi (शृङ्गी)"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Ovoid or conical small tuberous roots (2-4 cm), light greyish-white chalky fracture, non-poisonous (nirvisha), pure intense bitter taste without numbness of tongue.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": [
+      "Ovoid or conical small tuberous roots (2-4 cm), light greyish-white chalky fracture, non-poisonous (nirvisha), pure intense bitter taste without numbness of tongue."
+    ]
+  },
+  "images": {
+    "whole_plant": "images/plants/ativisha.png",
+    "habit": "images/plants/ativisha.png",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "tikta",
+      "katu"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "prabhava": "Deepana / Pachana / Atisarahara / Bala-rogahara (Agrya Atisarahara in Children)",
+    "karma": [
+      "Deepana",
+      "Pachana",
+      "Grahi",
+      "Amapachana",
+      "Jwarahara",
+      "Krimighna",
+      "Vishaghna",
+      "Atisarahara"
+    ]
+  },
+  "dosha": {
+    "vata": "aggravated",
+    "pitta": "pacified",
+    "kapha": "pacified",
+    "summary": "Kapha-Pittashamaka"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "Tuberous Root (Kanda / Mula)"
+    ],
+    "indications": [
+      "Atisara (Diarrhea / Pediatric diarrhea)",
+      "Amaatisara (Dysentery / Infective diarrhea)",
+      "Jwara (Fever / Intermittent fever)",
+      "Agnimandya (Dyspepsia / Loss of appetite)",
+      "Chhardi (Vomiting)",
+      "Balaroga (Pediatric gastrointestinal disorders)"
+    ],
+    "therapeutic_actions": [
+      "Deepana",
+      "Pachana",
+      "Grahi",
+      "Amapachana",
+      "Jwarahara",
+      "Krimighna",
+      "Vishaghna",
+      "Atisarahara"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Balachaturbhadra Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Ativishadi Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Gangadhara Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Kutajarishta",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Sudarshana Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "अतिविषा कटुः तिक्ता उष्णोष्णा दीपनी परा।\nअतिसारज्वरच्छर्दिकफपित्तविषापहा॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Haritakyadi Varga, Verse 153-154"
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "A. Directly verified classical reference",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ],
+    "gemini_source_reference": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "sthana_section": "Nighantu Sthana",
+      "adhyaya": "N/A",
+      "varga_chapter": "Haritakyadi Varga",
+      "shloka_number": "Verse 153-154",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    }
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Aconitum heterophyllum is a key herb for fever, diarrhea, and cough, especially in children.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Aconitum heterophyllum is a key herb for fever, diarrhea, and cough, especially in children."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [
+      "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data."
+    ],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "root",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official",
+      "title": "CCRAS medicinal plant research",
+      "url": "https://ccras.nic.in/services/medicinal-plant-research/",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Indian_Medicinal_Plants_(Text_Part_1).djvu",
+      "license_note": "Check the original file page for current license/attribution requirements."
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    }
+  ],
+  "metadata": {
+    "status": "needs_detailed_text_cross_check",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "gemini_later_batches_reviewed": true,
+    "gemini_source_batches": [
+      78
+    ]
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97",
+  "gemini_source_data": {
+    "id": 78,
+    "classical_sanskrit_name": "Ativisha (अतिविषा)",
+    "botanical_name": "Aconitum heterophyllum Wall. ex Royle",
+    "family": "Ranunculaceae",
+    "english_common_name": "Indian Atees",
+    "sanskrit_synonyms": [
+      "Shuklakanda (शुक्लकन्दा)",
+      "Bhangura (भङ्गुरा)",
+      "Vishva (विश्वा)",
+      "Aruna (अरुणा)",
+      "Shringi (शृङ्गी)"
+    ],
+    "useful_part": "Tuberous Root (Kanda / Mula)",
+    "rasa": [
+      "Tikta",
+      "Katu"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": "Deepana / Pachana / Atisarahara / Bala-rogahara (Agrya Atisarahara in Children)",
+    "dosha_karma": "Kapha-Pittashamaka",
+    "pharmacological_therapeutic_karma": [
+      "Deepana",
+      "Pachana",
+      "Grahi",
+      "Amapachana",
+      "Jwarahara",
+      "Krimighna",
+      "Vishaghna",
+      "Atisarahara"
+    ],
+    "important_indications": [
+      "Atisara (Diarrhea / Pediatric diarrhea)",
+      "Amaatisara (Dysentery / Infective diarrhea)",
+      "Jwara (Fever / Intermittent fever)",
+      "Agnimandya (Dyspepsia / Loss of appetite)",
+      "Chhardi (Vomiting)",
+      "Balaroga (Pediatric gastrointestinal disorders)"
+    ],
+    "important_formulations": [
+      "Balachaturbhadra Churna",
+      "Ativishadi Churna",
+      "Gangadhara Churna",
+      "Kutajarishta",
+      "Sudarshana Churna"
+    ],
+    "identification_characters": "Ovoid or conical small tuberous roots (2-4 cm), light greyish-white chalky fracture, non-poisonous (nirvisha), pure intense bitter taste without numbness of tongue.",
+    "classical_shloka": "अतिविषा कटुः तिक्ता उष्णोष्णा दीपनी परा।\nअतिसारज्वरच्छर्दिकफपित्तविषापहा॥",
+    "shloka_source": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "sthana_section": "Nighantu Sthana",
+      "adhyaya": "N/A",
+      "varga_chapter": "Haritakyadi Varga",
+      "shloka_number": "Verse 153-154",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    },
+    "verification_status": "A. Directly verified classical reference"
+  }
+}

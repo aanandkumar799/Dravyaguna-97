@@ -1,0 +1,204 @@
+{
+  "id": "ashoka",
+  "order": 4,
+  "identity": {
+    "name": "Ashoka",
+    "sanskrit_name": "अशोक",
+    "transliteration": "",
+    "botanical_name": "Saraca asoca (Roxb.) Willd.",
+    "family": "Fabaceae",
+    "english_name": "Ashoka Tree",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Hemapushpa",
+      "Kankelli",
+      "Vamadhara",
+      "Pindapushpa"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Stem bark pieces are channelled or curved, with rough greyish-brown outer surface and reddish-brown inner surface; strongly astringent.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": []
+  },
+  "images": {
+    "whole_plant": "images/plants/ashoka.jpg",
+    "habit": "images/plants/ashoka.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "kashaya",
+      "tikta"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "sheeta",
+    "vipaka": "katu",
+    "prabhava": "Asrigdarahara / Stri-rogahara",
+    "karma": [
+      "Asrigdarahara",
+      "Garbhashaya-shothahara",
+      "Varnya",
+      "Hridya",
+      "Vranaropana",
+      "Sangrahi"
+    ]
+  },
+  "dosha": {
+    "vata": "generally not aggravating",
+    "pitta": "pacifies",
+    "kapha": "pacifies"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "stem bark (Twak)",
+      "seeds (Bija)",
+      "flowers (Pushpa)"
+    ],
+    "indications": [
+      "Asrigdara",
+      "Pradara",
+      "Yoniroga",
+      "Daha",
+      "Trishna",
+      "Apachi"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Ashokarishta"
+    },
+    {
+      "name": "Ashoka Ghrita"
+    },
+    {
+      "name": "Ashokaksheerapaka"
+    },
+    {
+      "name": "Chandanasava"
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "अशोकः शीतलस्तिक्तो ग्राही वर्ण्यः कषायकः ।\\nदोषापचीतृषादाहकृमिशोषविषापहः ॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Vatadi Varga, verses 47–48"
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "reference verified; searchable text supports the core verse, but edition-level transcription should be checked",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "A prime uterine tonic, it regulates menstruation and reduces cramps.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "A prime uterine tonic, it regulates menstruation and reduces cramps."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "bark",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official",
+      "title": "CCRAS medicinal plant research",
+      "url": "https://ccras.nic.in/services/medicinal-plant-research/",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Asokaflower.jpg",
+      "license_note": "Check the original file page for current license/attribution requirements."
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    }
+  ],
+  "metadata": {
+    "status": "classical_text_checked",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "batch_49_53_added": true,
+    "batch_54_63_added": true
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

@@ -1,1 +1,203 @@
-{"id":"ashwagandha","order":5,"category":"NCISM-97","batch_id":39,"identity":{"name":"Ashwagandha","sanskrit_name":"अश्वगन्धा","transliteration":"Aśvagandhā","botanical_name":"Withania somnifera (L.) Dunal","family":"Solanaceae","english_name":"Winter Cherry / Indian Ginseng","synonyms":["Hayagandha","Vajigandha","Varada","Balada","Hayahvaya","Varahakarni"]},"dravya_guna":{"rasa":["Tikta","Kashaya","Madhura"],"guna":["Guru","Snigdha"],"virya":"Ushna","vipaka":"Madhura","prabhava":"Balya; Rasayana; Vrishya","karma":["Balya","Brimhana","Vrishya","Rasayana","Vata-Kapha shamana"]},"therapeutics":{"useful_part":["Root (Mula)"],"indications":["Daurbalya","Kshaya","Vatavyadhi","Klaibya","Shwitra","Shotha"],"therapeutic_actions":["Balya","Brimhana","Rasayana","Vrishya","Shothahara"]},"identification":{"description":"Perennial shrub; dried root is cylindrical, tapering and yellowish-brown externally with a characteristic horse-like odour.","identification_points":["Tapering cylindrical root","Yellowish-brown root","Characteristic horse-like odour"]},"formulations":[{"name":"Ashwagandharishta"},{"name":"Ashwagandha Churna"},{"name":"Ashwagandhadi Lehya"},{"name":"Ashwagandha Ghrita"}],"classical_reference":{"shlokas":["गन्धान्ता वाजिनामादिरश्वगन्धा हयाह्वया ।\nवराहकर्णी वरदा बलदा कुष्ठगन्धिनी ॥१६१॥\nअश्वगन्धाऽनिलश्लेष्मश्वित्रशोथक्षयापहा ।\nबल्या रसायनी तिक्ता कषायोष्णाऽतिशुक्रला ॥१६२॥"],"nighantu_references":["Bhavaprakasha Nighantu, Guduchyadi Varga, verses 161–162 in the searchable recension; edition numbering may vary."],"shloka_reference_status":"verified text; supplied 189–190 citation corrected"},"metadata":{"status":"corrected_reviewed","source_batch":"39","last_reviewed":"2026-09-16"}}
+{
+  "id": "ashwagandha",
+  "order": 5,
+  "identity": {
+    "name": "Ashwagandha",
+    "sanskrit_name": "अश्वगन्धा",
+    "transliteration": "Aśvagandhā",
+    "botanical_name": "Withania somnifera (L.) Dunal",
+    "family": "Solanaceae",
+    "english_name": "Winter Cherry",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "अश्वगन्धा",
+      "अश्वकन्दा",
+      "वाराहकर्णी",
+      "वाजीगन्धा",
+      "बलदा",
+      "वरा"
+    ],
+    "common_names": [
+      "Indian Ginseng",
+      "Winter Cherry"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Subshrub or shrub",
+    "habitat": "Subtropical, semi-arid and relatively dry regions",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "An erect, branched, tomentose subshrub with ovate leaves, small greenish-yellow flowers and globose red berries enclosed by an enlarged persistent calyx.",
+    "whole_plant": "Small erect branched shrub or subshrub.",
+    "root": "The medicinal part is the dried mature root.",
+    "stem": "Erect, branched and greyish-tomentose.",
+    "leaf": "Simple, generally ovate to oblong leaves.",
+    "flower": "Small greenish-yellow flowers in axillary clusters.",
+    "fruit": "Globose red berry enclosed by an enlarged persistent calyx.",
+    "seed": "",
+    "bark": "",
+    "identification_points": [
+      "Erect branched tomentose habit",
+      "Ovate leaves",
+      "Small greenish-yellow flowers",
+      "Red globose berries",
+      "Enlarged persistent calyx"
+    ]
+  },
+  "images": {
+    "whole_plant": "images/plants/ashwagandha.jpg",
+    "habit": "images/plants/ashwagandha.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Madhura",
+      "Tikta",
+      "Kashaya"
+    ],
+    "guna": [
+      "Laghu",
+      "Snigdha"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Madhura",
+    "prabhava": [
+      "Balya",
+      "Medhya",
+      "Vrishya",
+      "rasayan"
+    ],
+    "karma": [
+      "Rasayana",
+      "Balya",
+      "Vajikarana"
+    ]
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "aggravated",
+    "kapha": "pacified"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "root"
+    ],
+    "indications": [
+      "Kshaya",
+      "Daurbalya",
+      "Vata Vyadhi",
+      "Klaibya"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [
+      "गन्धान्ता वाजिनामादिरश्वगन्धा हयाह्वया ।\nवराहकर्णी वरदा बलदा कुष्ठगन्धिनी ॥\nअश्वगन्धाऽनिलश्लेष्मश्वित्रशोथक्षयापहा ।\nबल्या रसायनी तिक्ता कषायोष्णाऽतिशुक्रला ॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Guduchyadi Varga, verses 161–162 in the searchable recension; edition numbering may vary."
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "classical_text_corrected; edition/numbering explicitly qualified",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas",
+      "CCRAS/NIIMH e-Nighantu — Bhavaprakasha Nighantu"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Ashwagandha (Withania somnifera) is a powerful adaptogen. It reduces stress, increases strength, and supports reproductive and nervous systems.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Ashwagandha (Withania somnifera) is a powerful adaptogen. It reduces stress, increases strength, and supports reproductive and nervous systems."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "root",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official",
+      "title": "CCRAS medicinal plant research",
+      "url": "https://ccras.nic.in/services/medicinal-plant-research/",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Asbagandha_(Assamese_%E0%A6%85%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%97%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A6%BE)_(45645607082).jpg",
+      "license_note": "Check the original file page for current license/attribution requirements."
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    }
+  ],
+  "metadata": {
+    "status": "classical_text_reviewed; edition_numbering_may_vary",
+    "last_verified": "2026-09-16",
+    "verified_by": "Web research against government, botanical and peer-reviewed sources",
+    "version": "1.2",
+    "content_policy": "Classical Sanskrit verses and exact classical verse numbers are not marked verified until checked against a primary text edition.",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "classical_review_batch": "1-8 corrected 2026-09-16"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

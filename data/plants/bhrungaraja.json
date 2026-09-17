@@ -1,0 +1,330 @@
+{
+  "id": "bhrungaraja",
+  "order": 11,
+  "identity": {
+    "name": "Bhrungaraja",
+    "sanskrit_name": "Bhringaraja",
+    "transliteration": "Bhṛṅgarāja",
+    "botanical_name": "Eclipta alba (L.) Hassk.",
+    "family": "Asteraceae (Compositae)",
+    "english_name": "False Daisy",
+    "hindi_name": "भृंगराज",
+    "regional_names": [],
+    "synonyms": [
+      "Markava (मार्कव)",
+      "Kesharaja (केशराज)",
+      "Bhringa (भृङ्ग)",
+      "Pitribhringi (पितृभृङ्गी)",
+      "Angaraka (अङ्गारक)"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Small annual herb, usually prostrate or ascending",
+    "habitat": "Moist fields, roadsides and disturbed places",
+    "distribution": "Widely distributed in tropical and subtropical India"
+  },
+  "identification": {
+    "description": "Prostrate or erect annual herb with appressed hairs, opposite lanceolate leaves, small solitary white ray-floreted head inflorescence, acrid bitter taste.",
+    "whole_plant": "Usually prostrate/ascending, branched herb.",
+    "root": "",
+    "stem": "Slender, branched, often hairy.",
+    "leaf": "Opposite, sessile or nearly sessile, lanceolate to oblong, usually hairy.",
+    "flower": "Small white capitula, solitary or in leaf axils/ends of branches.",
+    "fruit": "Small cypsela-like fruits.",
+    "seed": "Small, dark fruits/seeds.",
+    "bark": "",
+    "identification_points": [
+      "Prostrate or erect annual herb with appressed hairs, opposite lanceolate leaves, small solitary white ray-floreted head inflorescence, acrid bitter taste."
+    ]
+  },
+  "images": {
+    "whole_plant": "images/plants/bhrungaraja.jpg",
+    "habit": "images/plants/bhrungaraja.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "katu",
+      "tikta"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "prabhava": "Keshya / Rasayana / Yakridrakshaka",
+    "karma": [
+      "Keshya",
+      "Rasayana",
+      "Deepana",
+      "Pachana",
+      "Yakriduttejaka",
+      "Shothahara",
+      "Vishaghna",
+      "Vedanasthapana"
+    ]
+  },
+  "dosha": {
+    "vata": "may increase when excessive",
+    "pitta": "generally pacifies",
+    "kapha": "pacifies",
+    "summary": "Kapha-Vatashamaka"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "Whole Plant (Panchanga)"
+    ],
+    "indications": [
+      "Khalitya / Palitya (Hair fall / Premature greying)",
+      "Kamala (Jaundice / Hepatic dysfunction)",
+      "Yakridvriddhi (Hepatomegaly)",
+      "Shotha (Edema / Swelling)",
+      "Kasa (Cough)",
+      "Pandu (Anemia)"
+    ],
+    "therapeutic_actions": [
+      "Keshya",
+      "Rasayana",
+      "Deepana",
+      "Pachana",
+      "Yakriduttejaka",
+      "Shothahara",
+      "Vishaghna",
+      "Vedanasthapana"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Bhringaraja Taila",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Mahabhringaraj Taila",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Bhringarajasava",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Shadbindu Taila",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Bhringaraj Ghrita",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "भृङ्गराजः कटुस्तिक्त उष्णो रूक्षः कफापहः।\nकेश्यस्त्वच्यः क्रिमिश्वासकासामशोथपाण्डुहृत्॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Guduchyadi Varga, Verse 240-241"
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "A. Directly verified classical reference",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ],
+    "gemini_source_reference": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "sthana_section": "Nighantu Sthana",
+      "adhyaya": "N/A",
+      "varga_chapter": "Guduchyadi Varga",
+      "shloka_number": "Verse 240-241",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    }
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "wedelolactone",
+      "eclalbasaponins"
+    ],
+    "chemical_notes": "Reported constituents vary by species, geography and extraction method."
+  },
+  "modern_information": {
+    "evidence_summary": "Investigated in pharmacological and phytochemical studies; traditional use includes hair/scalp preparations.",
+    "recognized_uses": [],
+    "safety_notes": "Use should follow the preparation and source-specific guidance.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Whole plant is the principal drug part",
+      "Important traditional keshya drug"
+    ],
+    "viva_questions": [
+      "Which part of Bhrungaraja is used?",
+      "Describe its flower head."
+    ],
+    "identification_points": [
+      "White capitula",
+      "Opposite leaves"
+    ],
+    "mnemonics": [],
+    "quick_revision": "Bhrungaraja: whole plant; tikta-katu; laghu-ruksha; ushna."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Demonstrate whole-plant identification"
+    ],
+    "discussion_points": [
+      "Confusion/adulteration with related Eclipta material"
+    ],
+    "practical_points": [
+      "Observe leaf arrangement and capitulum"
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Traditional keshya/rasayana drug; whole plant is used.",
+    "important_indications": [],
+    "useful_part": "whole plant",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official",
+      "title": "CCRAS Medicinal Plant Research",
+      "url": "https://ccras.nic.in/services/medicinal-plant-research/",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Eclipta_prostrata_(L.)_L._(48732001466).jpg",
+      "license_note": "Check the original file page for current license/attribution requirements."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    }
+  ],
+  "metadata": {
+    "status": "structured_data_added_classical_text_pending",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "batch_54_63_added": true,
+    "gemini_later_batches_reviewed": true,
+    "gemini_source_batches": [
+      82
+    ]
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97",
+  "gemini_source_data": {
+    "id": 82,
+    "classical_sanskrit_name": "Bhringaraja (भृङ्गराज)",
+    "botanical_name": "Eclipta alba (L.) Hassk.",
+    "family": "Asteraceae (Compositae)",
+    "english_common_name": "False Daisy",
+    "sanskrit_synonyms": [
+      "Markava (मार्कव)",
+      "Kesharaja (केशराज)",
+      "Bhringa (भृङ्ग)",
+      "Pitribhringi (पितृभृङ्गी)",
+      "Angaraka (अङ्गारक)"
+    ],
+    "useful_part": "Whole Plant (Panchanga)",
+    "rasa": [
+      "Katu",
+      "Tikta"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": "Keshya / Rasayana / Yakridrakshaka",
+    "dosha_karma": "Kapha-Vatashamaka",
+    "pharmacological_therapeutic_karma": [
+      "Keshya",
+      "Rasayana",
+      "Deepana",
+      "Pachana",
+      "Yakriduttejaka",
+      "Shothahara",
+      "Vishaghna",
+      "Vedanasthapana"
+    ],
+    "important_indications": [
+      "Khalitya / Palitya (Hair fall / Premature greying)",
+      "Kamala (Jaundice / Hepatic dysfunction)",
+      "Yakridvriddhi (Hepatomegaly)",
+      "Shotha (Edema / Swelling)",
+      "Kasa (Cough)",
+      "Pandu (Anemia)"
+    ],
+    "important_formulations": [
+      "Bhringaraja Taila",
+      "Mahabhringaraj Taila",
+      "Bhringarajasava",
+      "Shadbindu Taila",
+      "Bhringaraj Ghrita"
+    ],
+    "identification_characters": "Prostrate or erect annual herb with appressed hairs, opposite lanceolate leaves, small solitary white ray-floreted head inflorescence, acrid bitter taste.",
+    "classical_shloka": "भृङ्गराजः कटुस्तिक्त उष्णो रूक्षः कफापहः।\nकेश्यस्त्वच्यः क्रिमिश्वासकासामशोथपाण्डुहृत्॥",
+    "shloka_source": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "sthana_section": "Nighantu Sthana",
+      "adhyaya": "N/A",
+      "varga_chapter": "Guduchyadi Varga",
+      "shloka_number": "Verse 240-241",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    },
+    "verification_status": "A. Directly verified classical reference"
+  }
+}

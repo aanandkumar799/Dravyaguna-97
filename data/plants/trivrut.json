@@ -1,0 +1,191 @@
+{
+  "id": "trivrut",
+  "order": 87,
+  "identity": {
+    "name": "Trivrut",
+    "sanskrit_name": "त्रिवृत्",
+    "transliteration": "",
+    "botanical_name": "Operculina turpethum (L.) Silva Manso",
+    "family": "Convolvulaceae",
+    "english_name": "Indian Jalap / Turpeth",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Triputa",
+      "Sarala",
+      "Nishotra",
+      "Kumbha",
+      "Kuta"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Long fleshy roots with central woody core, longitudinally furrowed dark reddish-brown bark and faint odor.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": []
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "tikta",
+      "katu"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha",
+      "tikshna"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "prabhava": "Sukha-Virechana",
+    "karma": [
+      "Virechana",
+      "Sukha-Virechana",
+      "Kaphahara",
+      "Pittahara",
+      "Shothahara"
+    ]
+  },
+  "dosha": {
+    "vata": "may increase if excessive",
+    "pitta": "pacifies through virechana when appropriately used",
+    "kapha": "pacifies"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "root bark (Mula Twak)"
+    ],
+    "indications": [
+      "Vibandha",
+      "Udara Roga",
+      "Shotha",
+      "Arsha",
+      "Pandu"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Avipattikar Churna"
+    },
+    {
+      "name": "Trivrit Lehyam"
+    },
+    {
+      "name": "Trivritadi Kwatha"
+    },
+    {
+      "name": "Abhayarishta"
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "त्रिवृत् तु कटुका तिक्ता रूक्षा सूक्ष्मा हिमाऽग्निजित् ।\\nसुखं विरेचयत्याशु पित्तश्लेष्मानिलापहा ॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Haritakyadi Varga; verse numbering varies by edition and should be checked"
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "text/reference pending final edition-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Operculina turpethum is a strong purgative herb used in Ayurveda for detoxification and relieving constipation.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Operculina turpethum is a strong purgative herb used in Ayurveda for detoxification and relieving constipation."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "root bark",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    }
+  ],
+  "metadata": {
+    "status": "structured_data_added_classical_text_pending",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "batch_54_63_added": true
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

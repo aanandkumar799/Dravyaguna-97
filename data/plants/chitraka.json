@@ -1,0 +1,308 @@
+{
+  "id": "chitraka",
+  "order": 16,
+  "identity": {
+    "name": "Chitraka",
+    "sanskrit_name": "Chitraka",
+    "transliteration": "",
+    "botanical_name": "Plumbago zeylanica L.",
+    "family": "Plumbaginaceae",
+    "english_name": "Leadwort / White Leadwort",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Agni (अग्नि)",
+      "Dahana (दहन)",
+      "Pathi (पथि)",
+      "Shikhi (शिखी)",
+      "Anala (अनल)"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Cylindrical brownish-grey roots with striations and rootlet scars, acrid biting persistent burning taste causing intense tingling on tongue, distinct pungent odor.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": [
+      "Cylindrical brownish-grey roots with striations and rootlet scars, acrid biting persistent burning taste causing intense tingling on tongue, distinct pungent odor."
+    ]
+  },
+  "images": {
+    "whole_plant": "images/plants/chitraka.jpg",
+    "habit": "images/plants/chitraka.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "katu"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha",
+      "tikshna"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "prabhava": "Agrya Deepaniya Dravya / Pachana / Arshoghna",
+    "karma": [
+      "Deepana",
+      "Pachana",
+      "Grahi",
+      "Shothahara",
+      "Arshoghna",
+      "Shoolaprashamana",
+      "Krimighna",
+      "Bhedana"
+    ]
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "aggravated",
+    "kapha": "pacified",
+    "summary": "Kapha-Vatashamaka"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "Root bark (Mula Twak)"
+    ],
+    "indications": [
+      "Agnimandya (Loss of appetite / Dyspepsia)",
+      "Grahani (Irritable bowel syndrome / Malabsorption)",
+      "Arsha (Hemorrhoids)",
+      "Shotha (Edema / Swelling)",
+      "Shoola (Abdominal colic)",
+      "Udara Roga (Ascites / Abdominal enlargement)"
+    ],
+    "therapeutic_actions": [
+      "Deepana",
+      "Pachana",
+      "Grahi",
+      "Shothahara",
+      "Arshoghna",
+      "Shoolaprashamana",
+      "Krimighna",
+      "Bhedana"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Chitrakadi Vati",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Chitrak Haritaki",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Chitrakadi Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Chitrak Ghrita",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Kankayana Vati",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "चित्रकोऽग्निसमः पाके कटुकः कफवातजित्।\nशोथअर्ंशःकृमिहा दीपनः पाचकः सरः॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Haritakyadi Varga, Verse 70-72"
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "A. Directly verified classical reference",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ],
+    "gemini_source_reference": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "varga_chapter": "Haritakyadi Varga",
+      "shloka_number": "Verse 70-72",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    }
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Ignites digestive fire, used in weight loss and ama digestion.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Ignites digestive fire, used in weight loss and ama digestion."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "root",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official",
+      "title": "CCRAS Medicinal Plant Research",
+      "url": "https://ccras.nic.in/services/medicinal-plant-research/",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Plumbago_zeylanica_01.JPG",
+      "license_note": "Check the original file page for current license/attribution requirements."
+    }
+  ],
+  "metadata": {
+    "status": "needs_detailed_text_cross_check",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "gemini_later_batches_reviewed": true,
+    "gemini_source_batches": [
+      84
+    ]
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97",
+  "gemini_source_data": {
+    "id": 84,
+    "name": "Chitraka",
+    "category": "NCISM-97",
+    "botanical_name": "Plumbago zeylanica L.",
+    "family": "Plumbaginaceae",
+    "english_name": "Leadwort / White Leadwort",
+    "sanskrit_synonyms": [
+      "Agni (अग्नि)",
+      "Dahana (दहन)",
+      "Pathi (पथि)",
+      "Shikhi (शिखी)",
+      "Anala (अनल)"
+    ],
+    "useful_part": "Root bark (Mula Twak)",
+    "rasa": [
+      "Katu"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha",
+      "Tikshna"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": "Agrya Deepaniya Dravya / Pachana / Arshoghna",
+    "dosha": "Kapha-Vatashamaka",
+    "karma": [
+      "Deepana",
+      "Pachana",
+      "Grahi",
+      "Shothahara",
+      "Arshoghna",
+      "Shoolaprashamana",
+      "Krimighna",
+      "Bhedana"
+    ],
+    "indications": [
+      "Agnimandya (Loss of appetite / Dyspepsia)",
+      "Grahani (Irritable bowel syndrome / Malabsorption)",
+      "Arsha (Hemorrhoids)",
+      "Shotha (Edema / Swelling)",
+      "Shoola (Abdominal colic)",
+      "Udara Roga (Ascites / Abdominal enlargement)"
+    ],
+    "formulations": [
+      "Chitrakadi Vati",
+      "Chitrak Haritaki",
+      "Chitrakadi Churna",
+      "Chitrak Ghrita",
+      "Kankayana Vati"
+    ],
+    "identification": "Cylindrical brownish-grey roots with striations and rootlet scars, acrid biting persistent burning taste causing intense tingling on tongue, distinct pungent odor.",
+    "shloka": "चित्रकोऽग्निसमः पाके कटुकः कफवातजित्।\nशोथअर्ंशःकृमिहा दीपनः पाचकः सरः॥",
+    "source": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "varga_chapter": "Haritakyadi Varga",
+      "shloka_number": "Verse 70-72",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    },
+    "verification": "A. Directly verified classical reference"
+  }
+}

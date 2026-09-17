@@ -1,0 +1,211 @@
+{
+  "id": "vasa",
+  "order": 93,
+  "identity": {
+    "name": "Vasa",
+    "sanskrit_name": "वासा",
+    "transliteration": "",
+    "botanical_name": "Adhatoda vasica Nees (syn. Justicia adhatoda L.)",
+    "family": "Acanthaceae",
+    "english_name": "Malabar Nut",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Vasaka",
+      "Vasika",
+      "Singhasya",
+      "Vajradanti",
+      "Bhishagmata"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Broad lanceolate leaves with prominent pinnate venation and white two-lipped flowers resembling a lion mouth.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": []
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "tikta",
+      "kashaya"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "sheeta",
+    "vipaka": "katu",
+    "prabhava": "Kasahara / Shwasahara / Raktapittahara",
+    "karma": [
+      "Kasahara",
+      "Shwasahara",
+      "Raktapittahara",
+      "Kaphaghna",
+      "Hridya",
+      "Swarya",
+      "Jwarahara"
+    ]
+  },
+  "dosha": {
+    "vata": "may increase when excessive",
+    "pitta": "pacifies",
+    "kapha": "pacifies"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "leaves",
+      "root",
+      "flowers"
+    ],
+    "indications": [
+      "Kasa",
+      "Shwasa",
+      "Raktapitta",
+      "Kshayaja Kasa",
+      "Jwara"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Vasavaleha"
+    },
+    {
+      "name": "Vasarishta"
+    },
+    {
+      "name": "Vasadi Kwatha"
+    },
+    {
+      "name": "Vasakasava"
+    },
+    {
+      "name": "Vasadi Ghrita"
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [
+      "Vasa passage around verses 68–69 in the searchable PDF; OCR is imperfect, so exact Devanagari quotation is intentionally not imported."
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "needs_text_level_verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ],
+    "verification_note": "Previous Gemini verse/numbering was not accepted. The Sanskrit quotation is withheld until checked against a clean e-Nighantu or print edition.",
+    "verified_classical_sources": [
+      {
+        "type": "classical_text_verification",
+        "title": "Bhavaprakasha Nighantu searchable PDF — Vasa passage",
+        "url": "https://www.paruluniversity.ac.in/parul-institute-of-ayurved/pdf/PIA-Institute/E%20Shamhita/Bhavapraksha/bhava_prakash_nighantu.pdf",
+        "reference": "Vasa passage around verses 68–69 in the searchable PDF; OCR is imperfect, so exact Devanagari quotation is intentionally not imported."
+      }
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Adhatoda vasica for cough, bleeding and Pitta conditions.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Adhatoda vasica for cough, bleeding and Pitta conditions."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "leaf",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    },
+    {
+      "type": "classical_text_verification",
+      "title": "Bhavaprakasha Nighantu searchable PDF — Vasa passage",
+      "url": "https://www.paruluniversity.ac.in/parul-institute-of-ayurved/pdf/PIA-Institute/E%20Shamhita/Bhavapraksha/bhava_prakash_nighantu.pdf",
+      "reference": "Vasa passage around verses 68–69 in the searchable PDF; OCR is imperfect, so exact Devanagari quotation is intentionally not imported."
+    }
+  ],
+  "metadata": {
+    "status": "needs_text_level_verification",
+    "last_verified": "2026-09-16",
+    "verified_by": "independent searchable classical-text cross-check",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "batch_54_63_added": true,
+    "classical_review_batch": "14-18 reviewed 2026-09-16"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

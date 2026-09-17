@@ -1,0 +1,304 @@
+{
+  "id": "dhattura",
+  "order": null,
+  "category": "Supplementary",
+  "syllabus_marker": "Supplementary",
+  "identity": {
+    "name": "Dhattura",
+    "sanskrit_name": "Dhattura",
+    "transliteration": "",
+    "botanical_name": "Datura metel L.",
+    "family": "Solanaceae",
+    "english_name": "Thorn Apple / Downy Datura",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Kanaka (कनक)",
+      "Umatta (उमत्त)",
+      "Kitava (कितव)",
+      "Madana (मदन)",
+      "Shivapriya (शिवप्रिय)"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Flat kidney-shaped light yellowish-brown seeds with reticulated test, globose spinous capsule fruit, characteristic unpleasantly heavy narcotic odor and bitter acrid taste.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": [
+      "Flat kidney-shaped light yellowish-brown seeds with reticulated test, globose spinous capsule fruit, characteristic unpleasantly heavy narcotic odor and bitter acrid taste."
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "tikta",
+      "katu"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha",
+      "tikshna",
+      "vikasi",
+      "vyavayi"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "prabhava": "Madakari / Vedanasthapana / Shoolahara / Kasahara",
+    "karma": [
+      "Vedanasthapana",
+      "Shoolaprashamana",
+      "Kasahara",
+      "Swasahara",
+      "Madakari",
+      "Kandughna",
+      "Krimighna"
+    ]
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "aggravated",
+    "kapha": "pacified",
+    "summary": "Kapha-Vatashamaka"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "Purified Seed (Shodhita Bija), Leaf (Patra), Root (Mula)"
+    ],
+    "indications": [
+      "Shwasa (Bronchial asthma / Dyspnea)",
+      "Kasa (Cough / Spasmodic bronchitis)",
+      "Sandhishoola (Joint pain / Rheumatic pain)",
+      "Kushta (Skin diseases)",
+      "Juuka (Lice infestation / Scalp infections)",
+      "Unmada (Delirium / Agitation)"
+    ],
+    "therapeutic_actions": [
+      "Vedanasthapana",
+      "Shoolaprashamana",
+      "Kasahara",
+      "Swasahara",
+      "Madakari",
+      "Kandughna",
+      "Krimighna"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Kanakasava",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Dhattura Taila",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Mahavishagarbha Taila",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Laxmi Vilas Rasa",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Tribhuvan Kirti Rasa",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "धत्तूरो मदकृत् तिक्तो जूकाज्वरकफापहः।\nउष्णो वर्णकरो कासकुष्ठकण्डूविनाशनः॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Guduchyadi Varga, Verse 85-86"
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "A. Directly verified classical reference",
+    "gemini_source_reference": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "varga_chapter": "Guduchyadi Varga",
+      "shloka_number": "Verse 85-86",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    },
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "A toxic plant (Jimsonweed) used in purified form for asthma, pain, and skin diseases.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "A toxic plant (Jimsonweed) used in purified form for asthma, pain, and skin diseases."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Retained as supplementary material from Gemini batches 88 and 102."
+    ],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+    "important_indications": [],
+    "useful_part": "",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Use authoritative identification and safety references."
+    ]
+  },
+  "sources": [
+    {
+      "type": "gemini_source_batch",
+      "title": "Gemini batches 88 and 102",
+      "url": ""
+    },
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+    }
+  ],
+  "metadata": {
+    "status": "supplementary_needs_source_verification",
+    "source_batch": "Gemini batches 88 and 102",
+    "version": "1.0",
+    "gemini_later_batches_reviewed": true,
+    "gemini_source_batches": [
+      88
+    ],
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+  },
+  "gemini_source_data": {
+    "id": 88,
+    "name": "Dhattura",
+    "category": "Supplementary",
+    "botanical_name": "Datura metel L.",
+    "family": "Solanaceae",
+    "english_name": "Thorn Apple / Downy Datura",
+    "sanskrit_synonyms": [
+      "Kanaka (कनक)",
+      "Umatta (उमत्त)",
+      "Kitava (कितव)",
+      "Madana (मदन)",
+      "Shivapriya (शिवप्रिय)"
+    ],
+    "useful_part": "Purified Seed (Shodhita Bija), Leaf (Patra), Root (Mula)",
+    "rasa": [
+      "Tikta",
+      "Katu"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha",
+      "Tikshna",
+      "Vikasi",
+      "Vyavayi"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": "Madakari / Vedanasthapana / Shoolahara / Kasahara",
+    "dosha": "Kapha-Vatashamaka",
+    "karma": [
+      "Vedanasthapana",
+      "Shoolaprashamana",
+      "Kasahara",
+      "Swasahara",
+      "Madakari",
+      "Kandughna",
+      "Krimighna"
+    ],
+    "indications": [
+      "Shwasa (Bronchial asthma / Dyspnea)",
+      "Kasa (Cough / Spasmodic bronchitis)",
+      "Sandhishoola (Joint pain / Rheumatic pain)",
+      "Kushta (Skin diseases)",
+      "Juuka (Lice infestation / Scalp infections)",
+      "Unmada (Delirium / Agitation)"
+    ],
+    "formulations": [
+      "Kanakasava",
+      "Dhattura Taila",
+      "Mahavishagarbha Taila",
+      "Laxmi Vilas Rasa",
+      "Tribhuvan Kirti Rasa"
+    ],
+    "identification": "Flat kidney-shaped light yellowish-brown seeds with reticulated test, globose spinous capsule fruit, characteristic unpleasantly heavy narcotic odor and bitter acrid taste.",
+    "shloka": "धत्तूरो मदकृत् तिक्तो जूकाज्वरकफापहः।\nउष्णो वर्णकरो कासकुष्ठकण्डूविनाशनः॥",
+    "source": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "varga_chapter": "Guduchyadi Varga",
+      "shloka_number": "Verse 85-86",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    },
+    "verification": "A. Directly verified classical reference"
+  }
+}

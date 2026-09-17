@@ -1,0 +1,204 @@
+{
+  "id": "guggulu",
+  "order": 23,
+  "identity": {
+    "name": "Guggulu",
+    "sanskrit_name": "गुग्गुलु",
+    "transliteration": "",
+    "botanical_name": "Commiphora wightii (Arn.) Bhandari",
+    "family": "Burseraceae",
+    "english_name": "Indian Bdellium / Guggul",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Devadhupa",
+      "Koushika",
+      "Pura",
+      "Mahishaksha",
+      "Palankasha"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Irregular brownish-yellow translucent or sticky oleo-gum resin masses with strong balsamic aromatic odor.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": []
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "tikta",
+      "katu",
+      "kashaya",
+      "madhura"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha",
+      "tikshna",
+      "vishada",
+      "sukshma",
+      "sara"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "prabhava": "Vedanasthapana / Medohara / Rasayana",
+    "karma": [
+      "Medohara",
+      "Rasayana",
+      "Shothahara",
+      "Vedanasthapana",
+      "Vranaropana",
+      "Lekhana",
+      "Bhangasandhanakara"
+    ]
+  },
+  "dosha": {
+    "vata": "generally pacifies",
+    "pitta": "may increase; use according to context",
+    "kapha": "pacifies"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "purified oleo-gum resin (Shodhita Niryasa)"
+    ],
+    "indications": [
+      "Amavata",
+      "Vatarakta",
+      "Medoroga",
+      "Sandhivata",
+      "Granthi/Arbuda",
+      "Kushta"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Yogaraja Guggulu"
+    },
+    {
+      "name": "Kaishora Guggulu"
+    },
+    {
+      "name": "Kanchanara Guggulu"
+    },
+    {
+      "name": "Triphala Guggulu"
+    },
+    {
+      "name": "Simhanada Guggulu"
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "गुग्गुलुर्विशदस्तिक्तो वीर्योष्णः पित्तलः सरः ।\\nकषायः कटुकः पाके कटू रूक्षो लघुः परः ॥३५॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Karpuradi Varga. The searchable recension places Guggulu after the five varieties (verses 29–30) and its properties in the following verses; exact verse numbering is edition-dependent. The unverified 33–35 citation is removed."
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "reference_identified_numbering_needs_edition_verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Excellent for arthritis, high cholesterol, and detoxification.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Excellent for arthritis, high cholesterol, and detoxification."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "oleo-gum-resin",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    }
+  ],
+  "metadata": {
+    "status": "classical_text_checked",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "batch_49_53_added": true,
+    "batch_54_63_added": true,
+    "classical_review_batch": "9-13 corrected 2026-09-16"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

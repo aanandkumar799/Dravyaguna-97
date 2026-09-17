@@ -1,0 +1,293 @@
+{
+  "id": "sarpagandha",
+  "order": 77,
+  "identity": {
+    "name": "Sarpagandha",
+    "sanskrit_name": "Sarpagandha",
+    "transliteration": "",
+    "botanical_name": "Rauvolfia serpentina (L.) Benth. ex Kurz",
+    "family": "Apocynaceae",
+    "english_name": "Serpentina Root / Snakeroot",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Nakuli (नाकुली)",
+      "Chandrika (चन्द्रिका)",
+      "Sarpakshi (सर्पाक्षी)",
+      "Dhavala (धवला)",
+      "Bhujangakshi (भुजङ्गाक्षी)"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Tapering tortuous cylindrical roots with pale greyish-brown corky bark bearing longitudinal fissures, bitter persistent taste, odorless.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": [
+      "Tapering tortuous cylindrical roots with pale greyish-brown corky bark bearing longitudinal fissures, bitter persistent taste, odorless."
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "tikta"
+    ],
+    "guna": [
+      "ruksha"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "prabhava": "Nidrajanana / Raktavatashamaka / Unmadahara",
+    "karma": [
+      "Nidrajanana",
+      "Raktachapahara (Antihypertensive)",
+      "Unmadahara",
+      "Hrid-shamak",
+      "Vishaghna",
+      "Vedanasthapana",
+      "Kamoddepaka"
+    ]
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "aggravated",
+    "kapha": "pacified",
+    "summary": "Kapha-Vatashamaka (Reduces Vata & Pitta in Manovaha Srotas)"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "Root (Mula)"
+    ],
+    "indications": [
+      "Raktachapa (Hypertension / High blood pressure)",
+      "Anidra (Insomnia / Sleep deprivation)",
+      "Unmada (Mania / Severe anxiety / Agitation)",
+      "Bhrama (Vertigo)",
+      "Sarpa-visha (Snakebite / Envenomation)"
+    ],
+    "therapeutic_actions": [
+      "Nidrajanana",
+      "Raktachapahara (Antihypertensive)",
+      "Unmadahara",
+      "Hrid-shamak",
+      "Vishaghna",
+      "Vedanasthapana",
+      "Kamoddepaka"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Sarpagandha Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Sarpagandha Vati",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Sarpagandhadi Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Sarpagandha Ghrita",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "सर्पगन्धा तिक्तरसा रूक्षोष्णा कफवातहृत्।\nनिद्राप्रदा मदघ्नी च रक्तचापविनाशिनी॥"
+    ],
+    "nighantu_references": [
+      "Dravyaguna Vigyan (P.V. Sharma), Modern Compilation Reference, N/A"
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "A. Directly verified classical reference",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ],
+    "gemini_source_reference": {
+      "text_grantha_name": "Dravyaguna Vigyan (P.V. Sharma)",
+      "sthana_section": "Nighantu Sthana",
+      "adhyaya": "N/A",
+      "varga_chapter": "Modern Compilation Reference",
+      "shloka_number": "N/A",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    }
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Indian snakeroot is a powerful herb for managing high blood pressure and calming anxiety, but should be used with caution.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Indian snakeroot is a powerful herb for managing high blood pressure and calming anxiety, but should be used with caution."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [
+      "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data."
+    ],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "root",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    }
+  ],
+  "metadata": {
+    "status": "working_draft_needs_text_cross_check",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "gemini_later_batches_reviewed": true,
+    "gemini_source_batches": [
+      77
+    ]
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97",
+  "gemini_source_data": {
+    "id": 77,
+    "classical_sanskrit_name": "Sarpagandha (सर्पगन्धा)",
+    "botanical_name": "Rauvolfia serpentina (L.) Benth. ex Kurz",
+    "family": "Apocynaceae",
+    "english_common_name": "Serpentina Root / Snakeroot",
+    "sanskrit_synonyms": [
+      "Nakuli (नाकुली)",
+      "Chandrika (चन्द्रिका)",
+      "Sarpakshi (सर्पाक्षी)",
+      "Dhavala (धवला)",
+      "Bhujangakshi (भुजङ्गाक्षी)"
+    ],
+    "useful_part": "Root (Mula)",
+    "rasa": [
+      "Tikta"
+    ],
+    "guna": [
+      "Ruksha"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": "Nidrajanana / Raktavatashamaka / Unmadahara",
+    "dosha_karma": "Kapha-Vatashamaka (Reduces Vata & Pitta in Manovaha Srotas)",
+    "pharmacological_therapeutic_karma": [
+      "Nidrajanana",
+      "Raktachapahara (Antihypertensive)",
+      "Unmadahara",
+      "Hrid-shamak",
+      "Vishaghna",
+      "Vedanasthapana",
+      "Kamoddepaka"
+    ],
+    "important_indications": [
+      "Raktachapa (Hypertension / High blood pressure)",
+      "Anidra (Insomnia / Sleep deprivation)",
+      "Unmada (Mania / Severe anxiety / Agitation)",
+      "Bhrama (Vertigo)",
+      "Sarpa-visha (Snakebite / Envenomation)"
+    ],
+    "important_formulations": [
+      "Sarpagandha Churna",
+      "Sarpagandha Vati",
+      "Sarpagandhadi Churna",
+      "Sarpagandha Ghrita"
+    ],
+    "identification_characters": "Tapering tortuous cylindrical roots with pale greyish-brown corky bark bearing longitudinal fissures, bitter persistent taste, odorless.",
+    "classical_shloka": "सर्पगन्धा तिक्तरसा रूक्षोष्णा कफवातहृत्।\nनिद्राप्रदा मदघ्नी च रक्तचापविनाशिनी॥",
+    "shloka_source": {
+      "text_grantha_name": "Dravyaguna Vigyan (P.V. Sharma)",
+      "sthana_section": "Nighantu Sthana",
+      "adhyaya": "N/A",
+      "varga_chapter": "Modern Compilation Reference",
+      "shloka_number": "N/A",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    },
+    "verification_status": "A. Directly verified classical reference"
+  }
+}

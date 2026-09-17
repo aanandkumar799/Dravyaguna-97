@@ -1,1 +1,310 @@
-{"id":"vatsanabha","order":94,"category":"NCISM-97","batch_id":24,"identity":{"name":"Vatsanabha","sanskrit_name":"वत्सनाभ","transliteration":"Vatsanābha","botanical_name":"Aconitum ferox Wall. ex Ser.","family":"Ranunculaceae","english_name":"Monkshood / Indian Aconite","synonyms":["Visha","Amrita","Mahaoushadha","Nagavisha"]},"dravya_guna":{"rasa":["Madhura","Tikta","Katu","Kashaya"],"guna":["Laghu","Ruksha","Tikshna","Vyavayi","Vikasi"],"virya":"Ushna","vipaka":"Katu","prabhava":"Rasayana (after appropriate purification)","karma":["Jwarahara","Vata-Kaphahara","Vishahara","Rasayana"]},"therapeutics":{"useful_part":["Purified tuberous root (Shodhita Kanda)"],"indications":["Jwara","Amavata","Selected Vata disorders"],"therapeutic_actions":["Jwarahara","Vedanasthapana","Vata-Kaphahara","Vishahara"],"precautions":"Aconitum is highly toxic. Raw/unpurified Vatsanabha must not be used internally; use only authenticated, properly processed material under qualified supervision."},"formulations":[{"name":"Anand Bhairav Rasa"},{"name":"Sanjivani Vati","reference":"Sharangadhara Samhita Madhyama Khanda 7/18-19; contains Shuddha Vatsanabha."},{"name":"Tribhuvan Kirti Rasa"}],"classical_reference":{"shlokas":["विषं प्राणहरं प्रोक्तं व्यवायि च विकासि च ।\nआग्नेयं वातकफहृद्योगवाहिमदावहम् ॥"],"nighantu_references":["Bhavaprakasha Nighantu, Dhatvadi Varga / Visha section; Vatsanabha is classified among Kanda Visha."],"samhita_references":["Charaka Samhita — Sthavara Visha","Sushruta Samhita — Kanda Visha"],"shloka_reference_status":"verified general Visha passage; supplied Vatsanabha-specific verse not independently confirmed"},"sources":[{"title":"Plants of the World Online — Aconitum ferox","url":"https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:707352-1"},{"title":"Therapeutic importance of Vatsanabha — JAIMS review","url":"https://jaims.in/jaims/article/download/2100/2801?inline=1"}],"metadata":{"status":"corrected_reviewed","source_batch":"24","last_reviewed":"2026-09-16"}}
+{
+  "id": "vatsanabha",
+  "order": 94,
+  "identity": {
+    "name": "Vatsanabha",
+    "sanskrit_name": "Vatsanabha",
+    "transliteration": "",
+    "botanical_name": "Aconitum ferox Wall. ex Ser.",
+    "family": "Ranunculaceae",
+    "english_name": "Monkshood / Indian Aconite",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Visha (विष)",
+      "Amrita (अमृत)",
+      "Mahoushadha (महौषध)",
+      "Nagavisha (नागविष)",
+      "Maranachitta (मरणचित्त)"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Conical tuberous root resembling a calf's navel, dark brown exterior with longitudinal wrinkles, whitish or pinkish internal fracture; highly toxic in unpurified state.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": [
+      "Conical tuberous root resembling a calf's navel, dark brown exterior with longitudinal wrinkles, whitish or pinkish internal fracture; highly toxic in unpurified state."
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "madhura",
+      "katu",
+      "tikta",
+      "kashaya"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha",
+      "tikshna",
+      "vikasi",
+      "vyavayi"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "prabhava": "Yogavahi / Rasayana / Vedanasthapana",
+    "karma": [
+      "Yogavahi",
+      "Vedanasthapana",
+      "Jwarahara",
+      "Swedana",
+      "Deepana",
+      "Pachana",
+      "Rasayana",
+      "Vyavayi"
+    ]
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "aggravated",
+    "kapha": "aggravated",
+    "summary": "Tridoshara (Specially Kapha-Vatashamaka)"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "Purified Tuberous Root (Shodhita Kanda)"
+    ],
+    "indications": [
+      "Jwara (Acute & chronic fever / Intermittent fever)",
+      "Sandhishoola (Severe joint pain / Arthralgia)",
+      "Amavata (Rheumatoid arthritis)",
+      "Kasa (Cough / Bronchial spasm)",
+      "Shwasa (Dyspnea / Asthma)",
+      "Vatavyadhi (Neurological disorders / Sciatica)"
+    ],
+    "therapeutic_actions": [
+      "Yogavahi",
+      "Vedanasthapana",
+      "Jwarahara",
+      "Swedana",
+      "Deepana",
+      "Pachana",
+      "Rasayana",
+      "Vyavayi"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Tribhuvan Kirti Rasa",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Anand Bhairav Rasa",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Sanjivani Vati",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Mrityunjaya Rasa",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Mahavisagarbha Taila",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "वत्सनाभो अतिविषवत् ज्ञेयः कफविषापहः।\nबल्यो रसायनो वृष्यो वातजिच्च महागुणः॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Dhatvadi Varga / Vishadi Section, Verse 208-210"
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "A. Directly verified classical reference",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ],
+    "gemini_source_reference": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "sthana_section": "Nighantu Sthana",
+      "adhyaya": "N/A",
+      "varga_chapter": "Dhatvadi Varga / Vishadi Section",
+      "shloka_number": "Verse 208-210",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    }
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Processed aconite, used in fevers, pain and digestion.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Processed aconite, used in fevers, pain and digestion."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "root/tuber",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    }
+  ],
+  "metadata": {
+    "status": "working_draft_needs_text_cross_check",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "gemini_later_batches_reviewed": true,
+    "gemini_source_batches": [
+      79
+    ]
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97",
+  "gemini_source_data": {
+    "id": 79,
+    "classical_sanskrit_name": "Vatsanabha (वत्सनाभ)",
+    "botanical_name": "Aconitum ferox Wall. ex Ser.",
+    "family": "Ranunculaceae",
+    "english_common_name": "Monkshood / Indian Aconite",
+    "sanskrit_synonyms": [
+      "Visha (विष)",
+      "Amrita (अमृत)",
+      "Mahoushadha (महौषध)",
+      "Nagavisha (नागविष)",
+      "Maranachitta (मरणचित्त)"
+    ],
+    "useful_part": "Purified Tuberous Root (Shodhita Kanda)",
+    "rasa": [
+      "Madhura",
+      "Katu",
+      "Tikta",
+      "Kashaya"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha",
+      "Tikshna",
+      "Vikasi",
+      "Vyavayi"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": "Yogavahi / Rasayana / Vedanasthapana",
+    "dosha_karma": "Tridoshara (Specially Kapha-Vatashamaka)",
+    "pharmacological_therapeutic_karma": [
+      "Yogavahi",
+      "Vedanasthapana",
+      "Jwarahara",
+      "Swedana",
+      "Deepana",
+      "Pachana",
+      "Rasayana",
+      "Vyavayi"
+    ],
+    "important_indications": [
+      "Jwara (Acute & chronic fever / Intermittent fever)",
+      "Sandhishoola (Severe joint pain / Arthralgia)",
+      "Amavata (Rheumatoid arthritis)",
+      "Kasa (Cough / Bronchial spasm)",
+      "Shwasa (Dyspnea / Asthma)",
+      "Vatavyadhi (Neurological disorders / Sciatica)"
+    ],
+    "important_formulations": [
+      "Tribhuvan Kirti Rasa",
+      "Anand Bhairav Rasa",
+      "Sanjivani Vati",
+      "Mrityunjaya Rasa",
+      "Mahavisagarbha Taila"
+    ],
+    "identification_characters": "Conical tuberous root resembling a calf's navel, dark brown exterior with longitudinal wrinkles, whitish or pinkish internal fracture; highly toxic in unpurified state.",
+    "classical_shloka": "वत्सनाभो अतिविषवत् ज्ञेयः कफविषापहः।\nबल्यो रसायनो वृष्यो वातजिच्च महागुणः॥",
+    "shloka_source": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "sthana_section": "Nighantu Sthana",
+      "adhyaya": "N/A",
+      "varga_chapter": "Dhatvadi Varga / Vishadi Section",
+      "shloka_number": "Verse 208-210",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    },
+    "verification_status": "A. Directly verified classical reference"
+  }
+}

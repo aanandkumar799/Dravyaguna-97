@@ -1,0 +1,172 @@
+{
+  "id": "kutaja",
+  "order": 37,
+  "identity": {
+    "name": "Kutaja",
+    "sanskrit_name": "कुटज",
+    "transliteration": "",
+    "botanical_name": "Holarrhena pubescens Wall. ex G.Don",
+    "family": "Apocynaceae",
+    "english_name": "",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": []
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": []
+  },
+  "images": {
+    "whole_plant": "images/plants/kutaja.jpg",
+    "habit": "images/plants/kutaja.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "tikta",
+      "kashaya"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "sheeta",
+    "vipaka": "katu",
+    "prabhava": "",
+    "karma": []
+  },
+  "dosha": {
+    "vata": "",
+    "pitta": "",
+    "kapha": ""
+  },
+  "therapeutics": {
+    "useful_part": [
+      "stem bark",
+      "seed (Indrayava)"
+    ],
+    "indications": [],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [
+      "कुटजः कूटजः कीटो वत्सको गिरिमल्लिका ।\nकालिङ्गः शक्रशाखी च मल्लिकापुष्प इत्यपि ।\nइन्द्रो यवफलः प्रोक्तो वृक्षकः पाण्डुरद्रुमः ॥१०१॥",
+      "कुटजः कटुको रूक्षो दीपनस्तुवरो हिमः ।\nअर्शोऽतिसारपित्तास्रकफतृष्णामकुष्ठनुत् ॥१०२॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Guduchyadi Varga, 101–102 (Vishvasa recension; edition numbering may vary)"
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "corrected_from_unverified_submission",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ],
+    "verified_classical_sources": [
+      {
+        "type": "classical_text_search",
+        "title": "Independent searchable Bhavaprakasha recension",
+        "url": "https://vishvasa.github.io/sanskrit/koshaH/AyurvedaH/bhava-mishraH_bhAva-prakAshaH/04_4_guDUchyAdivarga/",
+        "note": "Used for text-level verification; edition/recension numbering may vary."
+      }
+    ],
+    "verification_note": "Gemini-submitted numbering 116–117 and quotation were not accepted; the independently searchable Bhavaprakasha passage is used."
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": ""
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "stem bark/seed",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Holarrhena_pubescens_(Buch.-Ham.)_Wall._ex_G.Don_(51009137061).jpg",
+      "license_note": "Check the original file page for current license/attribution requirements."
+    }
+  ],
+  "metadata": {
+    "status": "working_draft_needs_text_cross_check",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "panchaka_correction": "2026-09-16 audit correction; source-reviewed classical profile",
+    "classical_review_batch": "19-23",
+    "classical_review_date": "2026-09-16",
+    "classical_review_method": "independent text-level comparison; Gemini quotations not accepted without source confirmation"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

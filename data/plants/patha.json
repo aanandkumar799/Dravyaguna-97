@@ -1,0 +1,168 @@
+{
+  "id": "patha",
+  "order": 72,
+  "identity": {
+    "name": "Patha",
+    "sanskrit_name": "पाठा",
+    "transliteration": "",
+    "botanical_name": "Cissampelos pareira L.",
+    "family": "Menispermaceae",
+    "english_name": "Velvetleaf",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Ambashtha",
+      "Prachina",
+      "Vriddhakarna",
+      "Laghu Patha"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": []
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Tikta"
+    ],
+    "guna": [
+      "Laghu",
+      "Tikshna"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": [
+      "Vishaghna",
+      "Grahi",
+      "Jwaraghna"
+    ],
+    "karma": []
+  },
+  "dosha": {
+    "vata": "not specifically documented in imported dataset",
+    "pitta": "not specifically documented in imported dataset",
+    "kapha": "not specifically documented in imported dataset"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "root"
+    ],
+    "indications": [
+      "Jwara",
+      "Atisara",
+      "Mutrakrichha",
+      "Vrana",
+      "Krimi"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Cissampelos pareira is a potent herb for detoxification, treating fever, urinary disorders, and diarrhea.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Cissampelos pareira is a potent herb for detoxification, treating fever, urinary disorders, and diarrhea."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "root",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    }
+  ],
+  "metadata": {
+    "status": "working_draft_needs_text_cross_check",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

@@ -1,0 +1,181 @@
+{
+  "id": "nagkeshar",
+  "order": 67,
+  "identity": {
+    "name": "Nagkeshar",
+    "sanskrit_name": "नागकेशर",
+    "transliteration": "",
+    "botanical_name": "Mesua ferrea L.",
+    "family": "Calophyllaceae (Guttiferae)",
+    "english_name": "Cobra's Saffron / Ironwood Tree",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Nagapushpa",
+      "Naga",
+      "Kesara",
+      "Nagakeshara",
+      "Champaka",
+      "Nagakinjalka"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Golden-yellow stamens of Mesua ferrea flower; the dried stamens are the principal drug material.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": []
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "kashaya",
+      "tikta"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "prabhava": "Amapachana / Vishaghna",
+    "karma": [
+      "Amapachana",
+      "Kandughna",
+      "Trishnahara",
+      "Chhardighna",
+      "Kushtaghna",
+      "Vishaghna"
+    ]
+  },
+  "dosha": {
+    "vata": "context dependent",
+    "pitta": "may pacify",
+    "kapha": "pacifies"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "stamen / flower stamens (Pumkeshara)"
+    ],
+    "indications": [
+      "Jwara",
+      "Kandu",
+      "Trishna",
+      "Swedadhikya",
+      "Chhardi",
+      "Hridroga/Hrillasa",
+      "Kushta",
+      "Raktapitta"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [
+      "नागपुष्पं कषायोष्णं रूक्षं लघ्वामपाचनम् ।\nज्वरकण्डूतृषास्वेदच्छर्दिहृल्लासनाशनम् ।\nदौर्गन्ध्यकुष्ठवीसर्पकफपित्तविषापहम् ॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Karpuradi Varga, verses 69–71 in the searchable recension; numbering varies by edition."
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "verified against searchable Bhavaprakasha text; edition numbering/page should be checked against the selected printed edition",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Used primarily in bleeding disorders due to its astringent and hemostatic properties. It is also good for the skin.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Used primarily in bleeding disorders due to its astringent and hemostatic properties. It is also good for the skin."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "stamen",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    }
+  ],
+  "metadata": {
+    "status": "classical_text_checked_batch_69_73",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

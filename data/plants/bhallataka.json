@@ -1,0 +1,326 @@
+{
+  "id": "bhallataka",
+  "order": 9,
+  "identity": {
+    "name": "Bhallataka",
+    "sanskrit_name": "Bhallataka",
+    "transliteration": "",
+    "botanical_name": "Semecarpus anacardium L.f.",
+    "family": "Anacardiaceae",
+    "english_name": "Marking Nut / Clearing Nut",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Arushkara (अरुष्कर)",
+      "Agnimukhi (अग्निमुखी)",
+      "Shailabija (शैलबीज)",
+      "Tapana (तपन)",
+      "Vishasphota (विषस्फोट)"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Heart-shaped or ovoid dark shiny black drupe seated on an orange-yellow fleshy receptacle (receptacle edible), pericarp filled with corrosive black vesicating juice.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": [
+      "Heart-shaped or ovoid dark shiny black drupe seated on an orange-yellow fleshy receptacle (receptacle edible), pericarp filled with corrosive black vesicating juice."
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "katu",
+      "tikta",
+      "kashaya"
+    ],
+    "guna": [
+      "laghu",
+      "tikshna",
+      "snigdha"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "prabhava": "Chedana / Rasayana / Vrana-rohana / Arshoghna",
+    "karma": [
+      "Deepana",
+      "Pachana",
+      "Chedana",
+      "Bhedana",
+      "Rasayana",
+      "Vrishya",
+      "Kushtaghna",
+      "Krimighna"
+    ]
+  },
+  "dosha": {
+    "vata": "pacifies",
+    "pitta": "may increase; strong care required",
+    "kapha": "pacifies",
+    "summary": "Kapha-Vatashamaka"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "Purified Fruit pericarp / Nut (Shodhita Phala / Seed oil)"
+    ],
+    "indications": [
+      "Arsha (Bleeding and non-bleeding hemorrhoids)",
+      "Kushta (Chronic skin diseases / Psoriasis)",
+      "Shotha (Edema)",
+      "Gulma (Abdominal tumors / Masses)",
+      "Kaphaja Roga (Severe Kapha disorders)",
+      "Grdhrasi (Sciatica)"
+    ],
+    "therapeutic_actions": [
+      "Deepana",
+      "Pachana",
+      "Chedana",
+      "Bhedana",
+      "Rasayana",
+      "Vrishya",
+      "Kushtaghna",
+      "Krimighna"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Sanjivani Vati",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Bhallataka Rasayana",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Amrita Bhallataka Lehya",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Bhallatakadi Taila",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Bhallatakadi Asava",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "भल्लातकं त्रिषु प्रोक्तमरुष्कोऽष्करोऽग्निकः ।\nतथैवाग्निमुखी भल्ली वीरवृक्षश्च शोफकृत् ॥२००॥",
+      "भल्लातकफलं पक्वं स्वादुपाकरसं लघु ।\nकषायं पाचनं स्निग्धं तीक्ष्णोष्णं चेदि भेदनम् ॥२०१॥",
+      "मेध्यं वह्निकरं हन्ति कफवातव्रणोदरम् ।\nकुष्ठार्शोग्रहणीगुल्मशोफानाहज्वरक्रिमीन् ॥२०२॥",
+      "तन्मज्जा मधुरो वृष्यो बृंहणो वातपित्तहा ।\nवृन्तमारुष्करं स्वादु पित्तघ्नं केश्यमग्निकृत् ॥२०३॥",
+      "भल्लातकः कषायोष्णः शुक्रलो मधुरो लघुः ।\nवातश्लेष्मोदरानाहकुष्ठार्शोग्रहणीगदान् ।\nहन्ति गुल्मज्वरश्वित्रवह्निमान्द्यकृमिव्रणान् ॥२०४॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Bhallataka passage, verses 200–204 in the Vishvasa searchable transcription; printed editions/recensions may number this passage differently."
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "verified_text_location_edition_numbering_may_vary",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ],
+    "gemini_source_reference": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "varga_chapter": "Haritakyadi Varga",
+      "shloka_number": "Verse 63-65",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    },
+    "verification_note": "Gemini quotation was rejected because its wording and numbering did not match the independently searchable classical passage.",
+    "verified_classical_sources": [
+      {
+        "type": "classical_text_verification",
+        "title": "Bhava Mishra — Bhavaprakasha Haritakyadi Varga searchable transcription",
+        "url": "https://vishvasa.github.io/sanskrit/koshaH/AyurvedaH/bhava-mishraH_bhAva-prakAshaH/02_2_harItakyAdivarga/",
+        "reference": "Bhallataka verses 200–204."
+      }
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Powerful digestive and stimulant, used under medical supervision for vata disorders.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Powerful digestive and stimulant, used under medical supervision for vata disorders."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "fruit",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official",
+      "title": "CCRAS medicinal plant research",
+      "url": "https://ccras.nic.in/services/medicinal-plant-research/",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    },
+    {
+      "type": "classical_text_verification",
+      "title": "Bhava Mishra — Bhavaprakasha Haritakyadi Varga searchable transcription",
+      "url": "https://vishvasa.github.io/sanskrit/koshaH/AyurvedaH/bhava-mishraH_bhAva-prakAshaH/02_2_harItakyAdivarga/",
+      "reference": "Bhallataka verses 200–204."
+    }
+  ],
+  "metadata": {
+    "status": "verified_text_location_edition_numbering_may_vary",
+    "last_verified": "2026-09-16",
+    "verified_by": "independent searchable classical-text cross-check",
+    "version": "1.2",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "batch_54_63_added": true,
+    "gemini_later_batches_reviewed": true,
+    "gemini_source_batches": [
+      85
+    ],
+    "classical_review_batch": "14-18 reviewed 2026-09-16"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97",
+  "gemini_source_data": {
+    "id": 85,
+    "name": "Bhallataka",
+    "category": "NCISM-97",
+    "botanical_name": "Semecarpus anacardium L.f.",
+    "family": "Anacardiaceae",
+    "english_name": "Marking Nut / Clearing Nut",
+    "sanskrit_synonyms": [
+      "Arushkara (अरुष्कर)",
+      "Agnimukhi (अग्निमुखी)",
+      "Shailabija (शैलबीज)",
+      "Tapana (तपन)",
+      "Vishasphota (विषस्फोट)"
+    ],
+    "useful_part": "Purified Fruit pericarp / Nut (Shodhita Phala / Seed oil)",
+    "rasa": [
+      "Katu",
+      "Tikta",
+      "Kashaya"
+    ],
+    "guna": [
+      "Laghu",
+      "Tikshna",
+      "Snigdha"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": "Chedana / Rasayana / Vrana-rohana / Arshoghna",
+    "dosha": "Kapha-Vatashamaka",
+    "karma": [
+      "Deepana",
+      "Pachana",
+      "Chedana",
+      "Bhedana",
+      "Rasayana",
+      "Vrishya",
+      "Kushtaghna",
+      "Krimighna"
+    ],
+    "indications": [
+      "Arsha (Bleeding and non-bleeding hemorrhoids)",
+      "Kushta (Chronic skin diseases / Psoriasis)",
+      "Shotha (Edema)",
+      "Gulma (Abdominal tumors / Masses)",
+      "Kaphaja Roga (Severe Kapha disorders)",
+      "Grdhrasi (Sciatica)"
+    ],
+    "formulations": [
+      "Sanjivani Vati",
+      "Bhallataka Rasayana",
+      "Amrita Bhallataka Lehya",
+      "Bhallatakadi Taila",
+      "Bhallatakadi Asava"
+    ],
+    "identification": "Heart-shaped or ovoid dark shiny black drupe seated on an orange-yellow fleshy receptacle (receptacle edible), pericarp filled with corrosive black vesicating juice.",
+    "shloka": "भल्लातकः कटुस्तिक्तः कषायोष्णो लघुः सरः।\nदीपनः पाचनश्चैव कफवातहरो मतः॥",
+    "source": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "varga_chapter": "Haritakyadi Varga",
+      "shloka_number": "Verse 63-65",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    },
+    "verification": "A. Directly verified classical reference"
+  }
+}

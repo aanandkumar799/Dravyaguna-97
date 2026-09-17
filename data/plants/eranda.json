@@ -1,0 +1,214 @@
+{
+  "id": "eranda",
+  "order": 20,
+  "identity": {
+    "name": "Eranda",
+    "sanskrit_name": "एरण्ड",
+    "transliteration": "",
+    "botanical_name": "Ricinus communis L.",
+    "family": "Euphorbiaceae",
+    "english_name": "Castor Oil Plant",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Gandharvahasta",
+      "Vatari",
+      "Rubu",
+      "Chitra",
+      "Urubuka"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Tall shrub with palmately lobed leaves, prickly three-celled fruits and smooth mottled seeds.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": []
+  },
+  "images": {
+    "whole_plant": "images/plants/eranda.jpg",
+    "habit": "images/plants/eranda.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "madhura",
+      "katu",
+      "kashaya"
+    ],
+    "guna": [
+      "sukshma",
+      "tikshna",
+      "snigdha",
+      "sara",
+      "guru"
+    ],
+    "virya": "ushna",
+    "vipaka": "madhura",
+    "prabhava": "Virechana / Vataharanam",
+    "karma": [
+      "Virechana",
+      "Vatashamaka",
+      "Vedanasthapana",
+      "Shothahara",
+      "Vrishya",
+      "Vayasthapana"
+    ]
+  },
+  "dosha": {
+    "vata": "pacifies",
+    "pitta": "may increase with excessive use",
+    "kapha": "generally pacifies"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "root",
+      "leaves",
+      "seeds",
+      "seed oil (Eranda Taila)"
+    ],
+    "indications": [
+      "Amavata",
+      "Vatavyadhi",
+      "Vibandha",
+      "Udavarta",
+      "Gulma"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Eranda Saptaka Kwatha"
+    },
+    {
+      "name": "Gandharvahastadi Taila"
+    },
+    {
+      "name": "Eranda Taila"
+    },
+    {
+      "name": "Rasnasaptaka Kwatha"
+    },
+    {
+      "name": "Simhanada Guggulu"
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "एरण्डयुग्मं मधुरमुष्णं गुरु विनाशयेत् ।\nशूलशोथकटीबस्तिशिरःपीडोदरज्वरान् ॥५४॥\nब्रध्नश्वासकफानाहकासकुष्ठाममारुतान् ।\nएरण्डपत्रं वातघ्नं कफक्रिमिविनाशनम् ॥५५॥\nमूत्रकृच्छ्रहरं चापि पित्तरक्तप्रकोपणम् ।\nवातार्यग्रदलं गुल्मं बस्तिशूलहरं परम् ॥५६॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Guduchyadi Varga, Eranda passage, verses 52–57; verses 54–56 give the paired Eranda properties, leaf actions and therapeutic effects. Independently searchable e-Nighantu/DAV recension; edition numbering may vary."
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "verified_reference_text_corrected",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Castor plant used for joint pain, digestive issues and vata-related disorders.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Castor plant used for joint pain, digestive issues and vata-related disorders."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "seed/root",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official",
+      "title": "CCRAS Medicinal Plant Research",
+      "url": "https://ccras.nic.in/services/medicinal-plant-research/",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Ricinus_communis_L._(50795808522).jpg",
+      "license_note": "Check the original file page for current license/attribution requirements."
+    }
+  ],
+  "metadata": {
+    "status": "structured_data_added_classical_text_pending",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "batch_49_53_added": true,
+    "batch_54_63_added": true,
+    "classical_review_batch": "9-13 corrected 2026-09-16"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

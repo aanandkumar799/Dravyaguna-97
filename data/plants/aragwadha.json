@@ -1,0 +1,238 @@
+{
+  "id": "aragwadha",
+  "order": 2,
+  "identity": {
+    "name": "Aragwadha",
+    "sanskrit_name": "आरग्वध",
+    "transliteration": "Āragvadha",
+    "botanical_name": "Cassia fistula L.",
+    "family": "Fabaceae (Caesalpiniaceae)",
+    "english_name": "Golden Shower Tree / Purging Cassia",
+    "hindi_name": "अमलतास",
+    "regional_names": [],
+    "synonyms": [
+      "Rajavriksha",
+      "Shampaka",
+      "Chaturangula",
+      "Kritamala",
+      "Vyadhighata"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Medium-sized deciduous tree",
+    "habitat": "Dry and moist tropical regions; commonly cultivated",
+    "distribution": "Widely distributed in India"
+  },
+  "identification": {
+    "description": "Long cylindrical pendulous dark brown pods with transverse septa and sticky dark pulp.",
+    "whole_plant": "Medium-sized tree with spreading crown.",
+    "root": "",
+    "stem": "Woody trunk with grey-brown bark.",
+    "leaf": "Paripinnate compound leaves with several pairs of larger leaflets.",
+    "flower": "Bright yellow, arranged in long pendulous racemes.",
+    "fruit": "Long cylindrical, dark brown to black, indehiscent pod containing many seeds in separate compartments.",
+    "seed": "Numerous, hard, embedded in dark pulp.",
+    "bark": "Grey-brown.",
+    "identification_points": [
+      "Long yellow racemes",
+      "Long cylindrical black-brown pods",
+      "Large paired leaflets"
+    ]
+  },
+  "images": {
+    "whole_plant": "images/plants/aragwadha.jpg",
+    "habit": "images/plants/aragwadha.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "madhura"
+    ],
+    "guna": [
+      "guru",
+      "mridu",
+      "snigdha"
+    ],
+    "virya": "sheeta",
+    "vipaka": "madhura",
+    "prabhava": "Sramsi / Mridu Virechana",
+    "karma": [
+      "Mridu Virechana",
+      "Sramsana",
+      "Kushtaghna",
+      "Jwarahara",
+      "Hridya",
+      "Kandughna"
+    ]
+  },
+  "dosha": {
+    "vata": "generally not aggravating when appropriately used",
+    "pitta": "pacifies",
+    "kapha": "may reduce"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "fruit pulp (Phala Majja)",
+      "stem bark (Twak)"
+    ],
+    "indications": [
+      "Vibandha",
+      "Kushta",
+      "Jwara",
+      "Hridroga",
+      "Udarasula"
+    ],
+    "therapeutic_actions": [
+      "Mridu Virechana",
+      "Sramsana",
+      "Kushtaghna",
+      "Jwarahara",
+      "Hridya",
+      "Kandughna"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Purgative effect varies with preparation and dose.",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Aragvadharishta"
+    },
+    {
+      "name": "Aragvadhadi Kwatha"
+    },
+    {
+      "name": "Aragvadhadi Leha"
+    },
+    {
+      "name": "Maha Manjisthadi Kwatha"
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "कर्णिकारो दीर्घफलः स्वर्णाङ्गः स्वर्णभूषणः ।\\nआरग्वधो गुरुः स्वादुः शीतलः स्रंसनोत्तमः ॥१४९॥\\nज्वरहृद्रोगपित्तास्रवातोदावर्त्तशूलनुत् ।\\nतत्फलं स्रंसनं रुच्यं कुष्ठपित्तकफापहम् ॥१५०॥\\nज्वरे तु सततं पथ्यं कोष्ठशुद्धिकरं परम् ॥१५१॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Haritakyadi Varga, verses 149–151"
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "verified text/reference in searchable recension; edition numbering may vary",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "anthraquinone-related compounds",
+      "flavonoids"
+    ],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Investigated pharmacologically; traditional use prominently concerns laxative action of fruit pulp.",
+    "recognized_uses": [],
+    "safety_notes": "Excessive laxative use may cause gastrointestinal effects and fluid/electrolyte disturbance.",
+    "sources": [
+      "CCRAS/Ayurvedic literature resources"
+    ]
+  },
+  "student": {
+    "exam_points": [
+      "Fruit pulp is important medicinal part",
+      "Known for mild purgative action"
+    ],
+    "viva_questions": [
+      "How is the fruit of Aragwadha identified?",
+      "What is its principal karma?"
+    ],
+    "identification_points": [
+      "Yellow racemes",
+      "Long cylindrical pod"
+    ],
+    "mnemonics": [],
+    "quick_revision": "Aragwadha: curated batch data added; classical reference reviewed against searchable Bhavaprakasha text."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Demonstrate fruit and flower morphology"
+    ],
+    "discussion_points": [
+      "Difference between Aragwadha and other Cassia/Senna drugs"
+    ],
+    "practical_points": [
+      "Pod identification"
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Traditional mild purgative drug; fruit pulp is the principal part.",
+    "important_indications": [
+      "constipation"
+    ],
+    "useful_part": "fruit pulp",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Avoid unsupervised repeated purgative use"
+    ]
+  },
+  "sources": [
+    {
+      "type": "official",
+      "title": "CCRAS medicinal plant research",
+      "url": "https://ccras.nic.in/services/medicinal-plant-research/",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:(MHNT)_Cassia_fistula_MHNT.bot.2007.26.54.jpg",
+      "license_note": "Check the original file page for current license/attribution requirements."
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    }
+  ],
+  "metadata": {
+    "status": "classical_text_checked",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.3",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "dosha_karma_note": "Kapha-Pittashamaka",
+    "batch_54_63_added": true
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

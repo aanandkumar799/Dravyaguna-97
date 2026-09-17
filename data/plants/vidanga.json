@@ -1,1 +1,170 @@
-{"id":"vidanga","order":96,"category":"NCISM-97","batch_id":27,"identity":{"name":"Vidanga","sanskrit_name":"विडङ्ग","transliteration":"Viḍaṅga","botanical_name":"Embelia ribes Burm.f.","family":"Primulaceae (formerly Myrsinaceae)","english_name":"False Black Pepper","synonyms":["Jantughna","Krimighna","Tandula","Amogha","Chitratandula"]},"dravya_guna":{"rasa":["Katu","Tikta"],"guna":["Laghu","Ruksha","Tikshna"],"virya":"Ushna","vipaka":"Katu","karma":["Krimighna","Deepana","Pachana","Shoolahara","Anulomana"]},"therapeutics":{"useful_part":["Fruit (Phala)"],"indications":["Krimiroga","Shoola","Adhmana","Udara","Vibandha","Agnimandya"],"therapeutic_actions":["Krimighna","Deepana","Pachana","Anulomana","Shoolahara"]},"formulations":[{"name":"Vidangarishta"},{"name":"Vidangadi Churna"},{"name":"Vidangadi Lauha"},{"name":"Sanjivani Vati"}],"classical_reference":{"shlokas":["पुंसि क्लीबे विडङ्गं स्यात्कृमिघ्नो जन्तुनाशनः ।\nतण्डुलश्च तथा वेल्लममोघा चित्रतण्डुलः ॥१००॥\nविडङ्गं कटु तीक्ष्णोष्णं रूक्षं वह्निकरं लघु ।\nशूलाध्मानोदरश्लेष्मकृमिवातविबन्धनुत् ॥१०१॥"],"nighantu_references":["Bhavaprakasha Nighantu, Haritakyadi Varga, verses 100–101 in the searchable recension."],"shloka_reference_status":"verified text; supplied verse 111–112 corrected to 100–101"},"sources":[{"title":"Plants of the World Online — Embelia ribes","url":"https://powo.science.kew.org/taxon/588451-1"},{"title":"Bhavaprakasha Nighantu — Haritakyadi Varga","url":"https://ayurveda360.in/ebooks-enighantu-bhavaprakasha-nighantu-haritakyadivarga/"}],"metadata":{"status":"corrected_reviewed","source_batch":"27","last_reviewed":"2026-09-16"}}
+{
+  "id": "vidanga",
+  "order": 96,
+  "identity": {
+    "name": "Vidanga",
+    "sanskrit_name": "विडङ्ग",
+    "transliteration": "",
+    "botanical_name": "Embelia ribes Burm.f.",
+    "family": "Primulaceae",
+    "english_name": "False Black Pepper",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Krimighna",
+      "Jantughna",
+      "Vellaja",
+      "Amogha"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": []
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Katu",
+      "Kashaya"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha",
+      "Tikshna"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": [
+      "Krimighna",
+      "Lekhana",
+      "Deepana"
+    ],
+    "karma": []
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "aggravated",
+    "kapha": "pacified"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "fruit"
+    ],
+    "indications": [
+      "Krimi",
+      "Udararoga",
+      "Agnimandya",
+      "Kushta",
+      "Prameha"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "False black pepper is the primary Ayurvedic herb for eliminating intestinal worms and parasites.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "False black pepper is the primary Ayurvedic herb for eliminating intestinal worms and parasites."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "fruit",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    }
+  ],
+  "metadata": {
+    "status": "working_draft_needs_text_cross_check",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

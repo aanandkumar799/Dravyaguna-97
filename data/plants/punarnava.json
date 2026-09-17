@@ -1,0 +1,199 @@
+{
+  "id": "punarnava",
+  "order": 74,
+  "identity": {
+    "name": "Punarnava",
+    "sanskrit_name": "पुनर्नवा",
+    "transliteration": "",
+    "botanical_name": "Boerhavia diffusa L.",
+    "family": "Nyctaginaceae",
+    "english_name": "Spreading Hogweed",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Shothaghni",
+      "Raktapunarnava",
+      "Varshabhu",
+      "Kathillaka",
+      "Prithvi"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Diffusely branched perennial herb with stout root, green upper leaf surface, pale/whitish lower surface and small pinkish-red flowers.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": []
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "madhura",
+      "tikta",
+      "kashaya"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "ushna",
+    "vipaka": "madhura",
+    "prabhava": "Shothahara / Mutrala",
+    "karma": [
+      "Shothahara",
+      "Mutrala",
+      "Hridya",
+      "Deepana",
+      "Anulomana",
+      "Rasayana",
+      "Panduhara"
+    ]
+  },
+  "dosha": {
+    "vata": "generally pacifies",
+    "pitta": "generally pacifies",
+    "kapha": "pacifies"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "root",
+      "whole plant (Panchanga)"
+    ],
+    "indications": [
+      "Shotha",
+      "Pandu",
+      "Vrikkaroga",
+      "Hridroga with swelling",
+      "Udara Roga"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Punarnavarishta"
+    },
+    {
+      "name": "Punarnavadi Kwatha"
+    },
+    {
+      "name": "Punarnavadi Mandoora"
+    },
+    {
+      "name": "Punarnavasava"
+    },
+    {
+      "name": "Punarnavadi Guggulu"
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "पुनर्नवा श्वेतमूला शोथघ्नी दीर्घपत्रिका ।\nकटुकषायानुरसा पाण्डुघ्नी दीपनी परा ।\nशोफानिलगरश्लेष्महरी व्रण्योदरप्रणुत् ॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Guduchyadi Varga, Punarnava passage, searchable as verse 198 in the e-Nighantu/online recension; edition numbering varies. The text describes Shveta Punarnava synonyms and properties/actions. Exact printed-edition numbering should be checked against the user’s chosen edition."
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "verified_reference_text_corrected",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Known for its diuretic and rejuvenating properties, Punarnava supports kidney and liver function and reduces swelling.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Known for its diuretic and rejuvenating properties, Punarnava supports kidney and liver function and reduces swelling."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "root/whole plant",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    }
+  ],
+  "metadata": {
+    "status": "structured_data_added_classical_text_pending",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "batch_49_53_added": true,
+    "batch_54_63_added": true,
+    "classical_review_batch": "9-13 corrected 2026-09-16"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

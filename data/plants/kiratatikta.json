@@ -1,0 +1,299 @@
+{
+  "id": "kiratatikta",
+  "order": null,
+  "category": "Supplementary",
+  "syllabus_marker": "Supplementary",
+  "identity": {
+    "name": "Kiratatikta",
+    "sanskrit_name": "Kiratatikta",
+    "transliteration": "",
+    "botanical_name": "Swertia chirata Buch.-Ham.",
+    "family": "Gentianaceae",
+    "english_name": "Chirata / Bitter Stick",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Bhunimba (भूनिम्ब)",
+      "Kirata (किरात)",
+      "Anaryatikta (अनार्यतिक्त)",
+      "Kandarutiktaka (काण्डतिक्त)",
+      "Ramasenaka (रामसेनक)"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Purplish-brown cylindrical stems with yellow pith, opposite decussate sessile leaves, 4-merous greenish-yellow flowers, intensely bitter taste throughout the plant.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": [
+      "Purplish-brown cylindrical stems with yellow pith, opposite decussate sessile leaves, 4-merous greenish-yellow flowers, intensely bitter taste throughout the plant."
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "tikta"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "sheeta",
+    "vipaka": "katu",
+    "prabhava": "Jwarahara (Agrya in Vishama Jwara) / Raktashodhaka",
+    "karma": [
+      "Jwarahara",
+      "Deepana",
+      "Pachana",
+      "Raktashodhaka",
+      "Krimighna",
+      "Trishnanigrahana",
+      "Dahaprashamana"
+    ]
+  },
+  "dosha": {
+    "vata": "aggravated",
+    "pitta": "pacified",
+    "kapha": "pacified",
+    "summary": "Kapha-Pittashamaka"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "Whole Plant (Panchanga)"
+    ],
+    "indications": [
+      "Vishama Jwara (Malarial / Relapsing / Typhoid fever)",
+      "Kamala (Jaundice)",
+      "Kushta (Skin diseases)",
+      "Agnimandya (Loss of appetite)",
+      "Trishna (Excessive thirst)",
+      "Prameha (Metabolic disorders / Diabetes)"
+    ],
+    "therapeutic_actions": [
+      "Jwarahara",
+      "Deepana",
+      "Pachana",
+      "Raktashodhaka",
+      "Krimighna",
+      "Trishnanigrahana",
+      "Dahaprashamana"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Sudarshana Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Kiratadi Kwatha",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Mahasudarshana Ghanvati",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Bhunimbadi Kwatha",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Chirayita Ghanvati",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "किराततिक्तः शीतोऽनलकरो लघुः।\nतिक्तो शोथतृषादाहज्वरव्रणकफापहः॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Haritakyadi Varga, Verse 151-152"
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "A. Directly verified classical reference",
+    "gemini_source_reference": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "sthana_section": "Nighantu Sthana",
+      "adhyaya": "N/A",
+      "varga_chapter": "Haritakyadi Varga",
+      "shloka_number": "Verse 151-152",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    },
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Bitter tonic used for fever, appetite, and digestion.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Bitter tonic used for fever, appetite, and digestion."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Retained as supplementary material from Gemini batch 81."
+    ],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+    "important_indications": [],
+    "useful_part": "",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Use authoritative identification and safety references."
+    ]
+  },
+  "sources": [
+    {
+      "type": "gemini_source_batch",
+      "title": "Gemini batch 81",
+      "url": ""
+    },
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+    }
+  ],
+  "metadata": {
+    "status": "supplementary_needs_source_verification",
+    "source_batch": "Gemini batch 81",
+    "version": "1.0",
+    "gemini_later_batches_reviewed": true,
+    "gemini_source_batches": [
+      81
+    ],
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+  },
+  "gemini_source_data": {
+    "id": 81,
+    "classical_sanskrit_name": "Kiratatikta (किराततिक्त)",
+    "botanical_name": "Swertia chirata Buch.-Ham.",
+    "family": "Gentianaceae",
+    "english_common_name": "Chirata / Bitter Stick",
+    "sanskrit_synonyms": [
+      "Bhunimba (भूनिम्ब)",
+      "Kirata (किरात)",
+      "Anaryatikta (अनार्यतिक्त)",
+      "Kandarutiktaka (काण्डतिक्त)",
+      "Ramasenaka (रामसेनक)"
+    ],
+    "useful_part": "Whole Plant (Panchanga)",
+    "rasa": [
+      "Tikta"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Katu",
+    "prabhava": "Jwarahara (Agrya in Vishama Jwara) / Raktashodhaka",
+    "dosha_karma": "Kapha-Pittashamaka",
+    "pharmacological_therapeutic_karma": [
+      "Jwarahara",
+      "Deepana",
+      "Pachana",
+      "Raktashodhaka",
+      "Krimighna",
+      "Trishnanigrahana",
+      "Dahaprashamana"
+    ],
+    "important_indications": [
+      "Vishama Jwara (Malarial / Relapsing / Typhoid fever)",
+      "Kamala (Jaundice)",
+      "Kushta (Skin diseases)",
+      "Agnimandya (Loss of appetite)",
+      "Trishna (Excessive thirst)",
+      "Prameha (Metabolic disorders / Diabetes)"
+    ],
+    "important_formulations": [
+      "Sudarshana Churna",
+      "Kiratadi Kwatha",
+      "Mahasudarshana Ghanvati",
+      "Bhunimbadi Kwatha",
+      "Chirayita Ghanvati"
+    ],
+    "identification_characters": "Purplish-brown cylindrical stems with yellow pith, opposite decussate sessile leaves, 4-merous greenish-yellow flowers, intensely bitter taste throughout the plant.",
+    "classical_shloka": "किराततिक्तः शीतोऽनलकरो लघुः।\nतिक्तो शोथतृषादाहज्वरव्रणकफापहः॥",
+    "shloka_source": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "sthana_section": "Nighantu Sthana",
+      "adhyaya": "N/A",
+      "varga_chapter": "Haritakyadi Varga",
+      "shloka_number": "Verse 151-152",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    },
+    "verification_status": "A. Directly verified classical reference"
+  }
+}

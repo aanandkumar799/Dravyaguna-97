@@ -1,0 +1,219 @@
+{
+  "id": "ela",
+  "order": 49,
+  "identity": {
+    "name": "Ela",
+    "sanskrit_name": "एला",
+    "transliteration": "",
+    "botanical_name": "Elettaria cardamomum (L.) Maton",
+    "family": "Zingiberaceae",
+    "english_name": "Small Cardamom",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Sukshma",
+      "Dravidi",
+      "Truti",
+      "Korangi"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Small aromatic greenish-yellow capsules containing numerous dark angular seeds.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": []
+  },
+  "images": {
+    "whole_plant": "images/plants/ela.jpg",
+    "habit": "images/plants/ela.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "katu",
+      "madhura"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "sheeta",
+    "vipaka": "madhura",
+    "prabhava": "Mutrala / Chhardighna / Anulomana",
+    "karma": [
+      "Deepana",
+      "Pachana",
+      "Chhardighna",
+      "Mutrala",
+      "Hridya",
+      "Swarya",
+      "Mukhashodhaka"
+    ]
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "aggravated",
+    "kapha": "pacified"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "seeds (Bija)",
+      "dried fruit capsule (Phala)"
+    ],
+    "indications": [
+      "Chhardi",
+      "Mukhadurgandhya",
+      "Mutrakrichhra",
+      "Trishna",
+      "Kasa",
+      "Shwasa"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Eladi Churna"
+    },
+    {
+      "name": "Eladi Gutika"
+    },
+    {
+      "name": "Chaturjata Churna"
+    },
+    {
+      "name": "Sitopaladi Churna"
+    },
+    {
+      "name": "Eladi Ghrita"
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "सूक्ष्मोपकुञ्चिका तुत्था कोरङ्गी द्राविडी त्रुटिः ।\nएला सूक्ष्मा कफश्वासकासार्शोमूत्रकृच्छ्रहृत् ।\nरसे तु कटुका शीता लघ्वी वातहरी मता ॥६३॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Karpuradi Varga, 63 (Wikisource/Vishvasa recension; edition numbering may vary)"
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "verified_text_location_edition_numbering_may_vary",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ],
+    "verified_classical_sources": [
+      {
+        "type": "classical_text_search",
+        "title": "Independent searchable Bhavaprakasha recension",
+        "url": "https://sa.wikisource.org/wiki/%E0%A4%AD%E0%A4%BE%E0%A4%B5%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B6%E0%A4%A8%E0%A4%BF%E0%A4%98%E0%A4%A3%E0%A5%8D%E0%A4%9F%E0%A5%81",
+        "note": "Used for text-level verification; edition/recension numbering may vary."
+      },
+      {
+        "type": "classical_text_search",
+        "title": "Independent searchable Bhavaprakasha recension",
+        "url": "https://vishvasa.github.io/sanskrit/koshaH/AyurvedaH/bhava-mishraH_bhAva-prakAshaH/03_3_karpUrAdivarga/",
+        "note": "Used for text-level verification; edition/recension numbering may vary."
+      }
+    ],
+    "verification_note": "The independently supported Bhavaprakasha passage is used; the Gemini quotation was not retained."
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Improves digestion, relieves nausea and freshens breath.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Improves digestion, relieves nausea and freshens breath."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "fruit/seed",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Elettaria_cardamomum_0zz.jpg",
+      "license_note": "Check the original file page for current license/attribution requirements."
+    }
+  ],
+  "metadata": {
+    "status": "working_draft_needs_text_cross_check",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "curated batch 64-68",
+    "classical_review_batch": "19-23",
+    "classical_review_date": "2026-09-16",
+    "classical_review_method": "independent text-level comparison; Gemini quotations not accepted without source confirmation"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

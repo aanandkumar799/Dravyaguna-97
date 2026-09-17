@@ -1,0 +1,198 @@
+{
+  "id": "pippali",
+  "order": 73,
+  "identity": {
+    "name": "Pippali",
+    "sanskrit_name": "पिप्पली",
+    "transliteration": "",
+    "botanical_name": "Piper longum L.",
+    "family": "Piperaceae",
+    "english_name": "Long Pepper",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Magadhi",
+      "Vaidehi",
+      "Kana",
+      "Krishna",
+      "Chapala"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Cylindrical dark fruit spikes formed by fused berries, characteristically aromatic and pungent.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": []
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "katu"
+    ],
+    "guna": [
+      "laghu",
+      "snigdha",
+      "tikshna"
+    ],
+    "virya": "anushnasheeta",
+    "vipaka": "madhura",
+    "prabhava": "Rasayana / Kasahara / Shwasahara",
+    "karma": [
+      "Rasayana",
+      "Deepana",
+      "Pachana",
+      "Kasahara",
+      "Shwasahara",
+      "Vrishya",
+      "Pleehara"
+    ]
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "aggravated",
+    "kapha": "pacified"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "dried fruit (Phala)",
+      "root (Pippalimula)"
+    ],
+    "indications": [
+      "Kasa",
+      "Shwasa",
+      "Pleeharoga",
+      "Jwara",
+      "Amavata",
+      "Agnimandya"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Vardhamana Pippali Rasayana"
+    },
+    {
+      "name": "Pippalyasava"
+    },
+    {
+      "name": "Trikatu Churna"
+    },
+    {
+      "name": "Pippali Churna"
+    },
+    {
+      "name": "Chavyadi Churna"
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "पिप्पली मागधी कृष्णा वैदेही चपला कणा ।\nउपकुल्योषणा शौण्डी कोला स्यात्तीक्ष्णतण्डुला ॥\nपिप्पली दीपनी वृष्या स्वादुपाका रसायनी ।\nअनुष्णा कटुका स्निग्धा वातश्लेष्महरी लघुः ॥\nपिप्पली रेचनी हन्ति श्वासकासोदरज्वरान् ।\nकुष्ठप्रमेहगुल्मार्शःप्लीहशूलाममारुतान् ॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Haritakyadi Varga, Pippali passage (often numbered 50–51 in searchable recensions; other editions differ)."
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "classical_text_corrected; edition/numbering explicitly qualified",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas",
+      "CCRAS/NIIMH e-Nighantu — Bhavaprakasha Nighantu"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Long pepper is a powerful stimulant for the digestive and respiratory systems. It is a key ingredient in the Trikatu formula.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Long pepper is a powerful stimulant for the digestive and respiratory systems. It is a key ingredient in the Trikatu formula."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "fruit",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    }
+  ],
+  "metadata": {
+    "status": "classical_text_reviewed; edition_numbering_may_vary",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "curated batch 64-68",
+    "classical_review_batch": "1-8 corrected 2026-09-16"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

@@ -1,0 +1,197 @@
+{
+  "id": "maricha",
+  "order": 63,
+  "identity": {
+    "name": "Maricha",
+    "sanskrit_name": "मरिच",
+    "transliteration": "",
+    "botanical_name": "Piper nigrum L.",
+    "family": "Piperaceae",
+    "english_name": "Black Pepper",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Vellaja",
+      "Krishna",
+      "Ushana",
+      "Dharmapattana"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Small globose, dark brown to black, reticulately wrinkled dried fruits with pungent aromatic taste.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": []
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "katu"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha",
+      "tikshna"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "prabhava": "Pramathi / Deepana / Krimighna",
+    "karma": [
+      "Deepana",
+      "Pachana",
+      "Pramathi",
+      "Krimighna",
+      "Shirovirechana",
+      "Chedana",
+      "Kaphaghna"
+    ]
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "aggravated",
+    "kapha": "pacified"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "dried unripe fruit (Phala)"
+    ],
+    "indications": [
+      "Agnimandya",
+      "Krimi",
+      "Sthoulya",
+      "Kasa",
+      "Shwasa",
+      "Pratishyaya"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Trikatu Churna"
+    },
+    {
+      "name": "Marichadi Gutika"
+    },
+    {
+      "name": "Marichadi Taila"
+    },
+    {
+      "name": "Talisadi Churna"
+    },
+    {
+      "name": "Kankayana Vati"
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "मरिचं कटुकं तीक्ष्णं दीपनं कफवातजित् ।\nउष्णं पित्तकरं रूक्षं श्वासशूलकृमीन् हरेत् ॥६०॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Haritakyadi Varga, verses 59–61; verse 59 gives synonyms and verses 60–61 properties/ardraka comparison. Independently searchable recension; edition numbering may vary."
+    ],
+    "samhita_references": [
+      "Ashtanga Hridaya, Sutrasthana 6/161–162 describes Maricha and Pippali"
+    ],
+    "shloka_reference_status": "verified_reference_text_corrected",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Black pepper enhances digestion, stimulates metabolism, and helps clear congestion. It is a part of the Trikatu formula.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Black pepper enhances digestion, stimulates metabolism, and helps clear congestion. It is a part of the Trikatu formula."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "fruit",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    }
+  ],
+  "metadata": {
+    "status": "working_draft_needs_text_cross_check",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "curated batch 64-68",
+    "classical_review_batch": "9-13 corrected 2026-09-16"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

@@ -1,0 +1,179 @@
+{
+  "id": "lavanga",
+  "order": 59,
+  "identity": {
+    "name": "Lavanga",
+    "sanskrit_name": "लवङ्ग",
+    "transliteration": "",
+    "botanical_name": "Syzygium aromaticum (L.) Merr. & L.M.Perry",
+    "family": "Myrtaceae",
+    "english_name": "Clove",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Devakusuma",
+      "Shrisanjna",
+      "Shriprasunaka",
+      "Sekhara"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Dark reddish-brown nail-shaped dried flower buds with four calyx teeth and an unopened rounded corolla.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": []
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "katu",
+      "tikta"
+    ],
+    "guna": [
+      "laghu"
+    ],
+    "virya": "sheeta",
+    "vipaka": "katu",
+    "prabhava": "Chhardighna / Shoolahara / Kasahara",
+    "karma": [
+      "Deepana",
+      "Pachana",
+      "Rochana",
+      "Kaphapittahara",
+      "Chhardighna",
+      "Shoolahara",
+      "Kasahara"
+    ]
+  },
+  "dosha": {
+    "vata": "context dependent",
+    "pitta": "may pacify",
+    "kapha": "pacifies"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "dried flower bud"
+    ],
+    "indications": [
+      "Kasa",
+      "Shwasa",
+      "Chhardi",
+      "Trishna",
+      "Adhmana",
+      "Shoola",
+      "Hikka",
+      "Agnimandya"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [
+      "लवङ्गं देवकुसुमं श्रीसंज्ञं श्रीप्रसूनकम् ।\nलवङ्गं कटुकं तिक्तं लघु नेत्रहितं हिमम् ।\nदीपनं पाचनं रुच्यं कफपित्तास्रनाशकृत् ।\nतृष्णां छर्दिं तथाध्मानं शूलमाशु विनाशयेत् ।\nकासं श्वासञ्च हिक्काञ्च क्षयं क्षययति ध्रुवम् ॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Karpuradi Varga, verses 58–59 in the searchable recension; numbering varies by edition."
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "verified against searchable Bhavaprakasha text; supplied batch verse was corrected to the searchable recension",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Clove is a powerful aromatic herb that acts as a pain reliever, especially for toothaches, and stimulates digestion.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Clove is a powerful aromatic herb that acts as a pain reliever, especially for toothaches, and stimulates digestion."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "flower bud",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    }
+  ],
+  "metadata": {
+    "status": "classical_text_checked_batch_69_73",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

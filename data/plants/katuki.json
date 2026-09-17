@@ -1,0 +1,314 @@
+{
+  "id": "katuki",
+  "order": 34,
+  "identity": {
+    "name": "Katuki",
+    "sanskrit_name": "Katuki",
+    "transliteration": "",
+    "botanical_name": "Picrorhiza kurroa Royle ex Benth.",
+    "family": "Plantaginaceae (Scrophulariaceae)",
+    "english_name": "Picrorhiza / Gentian",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Katurohini (कटुरोहिणी)",
+      "Tiktaka (तिक्तका)",
+      "Krishnabheda (कृष्णभेदा)",
+      "Matsyashakala (मत्स्यशकला)",
+      "Chakrangi (चक्राङ्गी)"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Sub-cylindrical grayish-brown rhizomes marked with prominent circular leaf-scars and stem remnants, porous white internal fracture, intensely bitter persistent taste.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": [
+      "Sub-cylindrical grayish-brown rhizomes marked with prominent circular leaf-scars and stem remnants, porous white internal fracture, intensely bitter persistent taste."
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "tikta"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "sheeta",
+    "vipaka": "katu",
+    "prabhava": "Bhedana / Yakridrakshaka (Hepatoprotective) / Jwarahara",
+    "karma": [
+      "Bhedana",
+      "Deepana",
+      "Pachana",
+      "Jwarahara",
+      "Yakriduttejaka",
+      "Raktashodhaka",
+      "Hridya"
+    ]
+  },
+  "dosha": {
+    "vata": "may increase when excessive",
+    "pitta": "pacifies",
+    "kapha": "pacifies",
+    "summary": "Kapha-Pittashamaka"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "Rhizome / Root (Kanda / Mula)"
+    ],
+    "indications": [
+      "Kamala (Jaundice / Hepatitis)",
+      "Yakridroga (Hepatic & splenic disorders)",
+      "Jwara (Chronic fever / Malarial fever)",
+      "Kushta (Skin diseases / Dermatitis)",
+      "Vibandha (Constipation)",
+      "Raktapitta (Bleeding disorders)"
+    ],
+    "therapeutic_actions": [
+      "Bhedana",
+      "Deepana",
+      "Pachana",
+      "Jwarahara",
+      "Yakriduttejaka",
+      "Raktashodhaka",
+      "Hridya"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Arogyavardhini Vati",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Katutrayadi Kwatha",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Tiktaka Ghrita",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Mahatiktaka Ghrita",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Patoladi Kwatha",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "कट्वी तु कटुका तिक्ता कृष्णभेदा कटम्भरा ।\nअशोका मत्स्यशकला चक्राङ्गी शकुलादनी ।\nमत्स्यपित्ता काण्डरुहा रोहिणी कटुरोहिणी ॥१३४॥",
+      "कट्वी तु कटुका पाके तिक्ता रूक्षा हिमा लघुः ।\nभेदिनी दीपनी हृद्या कफपित्तज्वरापहा ।\nप्रमेहश्वासकासास्रदाहकुष्ठकृमिप्रणुत् ॥१३५॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Haritakyadi Varga, verses 134–135 in the NIIMH-linked searchable recension; edition numbering may vary."
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "verified_text_location_edition_numbering_may_vary",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ],
+    "gemini_source_reference": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "sthana_section": "Nighantu Sthana",
+      "adhyaya": "N/A",
+      "varga_chapter": "Haritakyadi Varga",
+      "shloka_number": "Verse 140-141",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    },
+    "verification_note": "Gemini numbering 141–142 was rejected. The searchable recension supports 134–135 and the spelling कट्वी.",
+    "verified_classical_sources": [
+      {
+        "type": "classical_text_verification",
+        "title": "Bhavaprakasha Nighantu — Katuki passage",
+        "url": "https://ayurveda360.in/ebooks-enighantu-bhavaprakasha-nighantu-haritakyadivarga/",
+        "reference": "Verses 134–135; source page identifies the NIIMH e-Nighantu reference."
+      }
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Used in liver cleansing, detox, and skin conditions.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Katuki: curated batch data added; classical reference reviewed against searchable Bhavaprakasha text."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "rhizome",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    },
+    {
+      "type": "classical_text_verification",
+      "title": "Bhavaprakasha Nighantu — Katuki passage",
+      "url": "https://ayurveda360.in/ebooks-enighantu-bhavaprakasha-nighantu-haritakyadivarga/",
+      "reference": "Verses 134–135; source page identifies the NIIMH e-Nighantu reference."
+    }
+  ],
+  "metadata": {
+    "status": "verified_text_location_edition_numbering_may_vary",
+    "last_verified": "2026-09-16",
+    "verified_by": "independent searchable classical-text cross-check",
+    "version": "1.3",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "dosha_karma_note": "Kapha-Pittashamaka",
+    "batch_54_63_added": true,
+    "gemini_later_batches_reviewed": true,
+    "gemini_source_batches": [
+      80
+    ],
+    "classical_review_batch": "14-18 reviewed 2026-09-16"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97",
+  "gemini_source_data": {
+    "id": 80,
+    "classical_sanskrit_name": "Katuki (कटुकी)",
+    "botanical_name": "Picrorhiza kurroa Royle ex Benth.",
+    "family": "Plantaginaceae (Scrophulariaceae)",
+    "english_common_name": "Picrorhiza / Gentian",
+    "sanskrit_synonyms": [
+      "Katurohini (कटुरोहिणी)",
+      "Tiktaka (तिक्तका)",
+      "Krishnabheda (कृष्णभेदा)",
+      "Matsyashakala (मत्स्यशकला)",
+      "Chakrangi (चक्राङ्गी)"
+    ],
+    "useful_part": "Rhizome / Root (Kanda / Mula)",
+    "rasa": [
+      "Tikta"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Katu",
+    "prabhava": "Bhedana / Yakridrakshaka (Hepatoprotective) / Jwarahara",
+    "dosha_karma": "Kapha-Pittashamaka",
+    "pharmacological_therapeutic_karma": [
+      "Bhedana",
+      "Deepana",
+      "Pachana",
+      "Jwarahara",
+      "Yakriduttejaka",
+      "Raktashodhaka",
+      "Hridya"
+    ],
+    "important_indications": [
+      "Kamala (Jaundice / Hepatitis)",
+      "Yakridroga (Hepatic & splenic disorders)",
+      "Jwara (Chronic fever / Malarial fever)",
+      "Kushta (Skin diseases / Dermatitis)",
+      "Vibandha (Constipation)",
+      "Raktapitta (Bleeding disorders)"
+    ],
+    "important_formulations": [
+      "Arogyavardhini Vati",
+      "Katutrayadi Kwatha",
+      "Tiktaka Ghrita",
+      "Mahatiktaka Ghrita",
+      "Patoladi Kwatha"
+    ],
+    "identification_characters": "Sub-cylindrical grayish-brown rhizomes marked with prominent circular leaf-scars and stem remnants, porous white internal fracture, intensely bitter persistent taste.",
+    "classical_shloka": "कटुकी कटुका तिक्ता शीता लघ्वी च दीपनी।\nकफपित्तज्वरास्रघ्नी बालेन्द्रियापहृत् सरः॥",
+    "shloka_source": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "sthana_section": "Nighantu Sthana",
+      "adhyaya": "N/A",
+      "varga_chapter": "Haritakyadi Varga",
+      "shloka_number": "Verse 140-141",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    },
+    "verification_status": "A. Directly verified classical reference"
+  }
+}

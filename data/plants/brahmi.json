@@ -1,1 +1,207 @@
-{"id":"brahmi","order":14,"category":"NCISM-97","batch_id":41,"identity":{"name":"Brahmi","sanskrit_name":"ब्राह्मी","transliteration":"Brāhmī","botanical_name":"Bacopa monnieri (L.) Wettst.","family":"Plantaginaceae","english_name":"Water Hyssop / Thyme-leaved Gratiola","synonyms":["Kapotavanka","Somavalli","Sarasvati"]},"dravya_guna":{"rasa":["Tikta","Kashaya","Madhura"],"guna":["Laghu","Sara"],"virya":"Sheeta","vipaka":"Madhura","prabhava":"Medhya; Rasayana","karma":["Medhya","Ayushya","Rasayana","Swarya","Smritiprada"]},"therapeutics":{"useful_part":["Whole plant (Panchanga)"],"indications":["Smritibhramsha","Kushta","Pandu","Prameha","Kasa","Visha","Shotha","Jwara"],"therapeutic_actions":["Medhya","Rasayana","Swarya","Vishaghna","Jwarahara"]},"identification":{"description":"Small creeping succulent herb of moist habitats; leaves opposite, sessile, oblong and fleshy, with small white to pale bluish axillary flowers.","identification_points":["Creeping succulent habit","Fleshy opposite leaves","Small axillary flowers"]},"formulations":[{"name":"Brahmi Ghrita"},{"name":"Brahmi Vati"},{"name":"Saraswatarishta"},{"name":"Brahmi Taila"}],"classical_reference":{"shlokas":["ब्राह्मी कपोतवङ्का च सोमवल्ली सरस्वती ।\nमण्डूकपर्णी माण्डूकी त्वाष्ट्री दिव्या महौषधी ॥२७९॥\nब्राह्मी हिमा सरा तिक्ता लघुर्मेध्या च शीतला ।\nकषाया मधुरा स्वादुपाकाऽयुष्या रसायनी ॥२८०॥\nस्वर्या स्मृतिप्रदा कुष्ठपाण्डुमेहास्रकासजित् ।\nविषशोथज्वरहरी तद्वन्मण्डूकपर्णिनी ॥२८१॥"],"nighantu_references":["Bhavaprakasha Nighantu, Guduchyadi Varga, verses 279–281 in the searchable recension."],"shloka_reference_status":"verified text; supplied 280–281 was incomplete"},"metadata":{"status":"corrected_reviewed","source_batch":"41","last_reviewed":"2026-09-16"}}
+{
+  "id": "brahmi",
+  "order": 14,
+  "identity": {
+    "name": "Brahmi",
+    "sanskrit_name": "ब्राह्मी",
+    "transliteration": "Brāhmī",
+    "botanical_name": "Bacopa monnieri (L.) Wettst.",
+    "family": "Plantaginaceae",
+    "english_name": "Water hyssop",
+    "hindi_name": "ब्राह्मी",
+    "regional_names": [],
+    "synonyms": [
+      "Sarasvati",
+      "Kapoti",
+      "Somavalli",
+      "Matsyakshi"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Small succulent creeping perennial herb",
+    "habitat": "Wetlands, marshy soils, pond margins",
+    "distribution": "Widely distributed in tropical India"
+  },
+  "identification": {
+    "description": "Succulent creeping herb with opposite leaves and small white flowers.",
+    "whole_plant": "Creeping, succulent herb rooting at nodes.",
+    "root": "Fibrous roots from nodes.",
+    "stem": "Fleshy, creeping, rooting at nodes.",
+    "leaf": "Opposite, thick, obovate to spatulate, entire.",
+    "flower": "Small white, solitary flowers in leaf axils.",
+    "fruit": "Small capsule.",
+    "seed": "Tiny.",
+    "bark": "",
+    "identification_points": [
+      "Succulent creeping stem",
+      "Opposite fleshy leaves",
+      "Small white axillary flowers"
+    ]
+  },
+  "images": {
+    "whole_plant": "images/plants/brahmi.jpg",
+    "habit": "images/plants/brahmi.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "tikta"
+    ],
+    "guna": [
+      "laghu"
+    ],
+    "virya": "sheeta",
+    "vipaka": "madhura",
+    "prabhava": [
+      "Medhya",
+      "rasayan",
+      "Jwaraghna"
+    ],
+    "karma": [
+      "medhya",
+      "rasayana"
+    ]
+  },
+  "dosha": {
+    "vata": "generally supportive in appropriate use",
+    "pitta": "pacifies",
+    "kapha": "may reduce"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "whole plant"
+    ],
+    "indications": [
+      "traditional medhya use",
+      "traditional rasayana use"
+    ],
+    "therapeutic_actions": [
+      "medhya"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [
+      "ब्राह्मी हिमा सरा तिक्ता लघुर्मेध्या च शीतला ।\nकषाया मधुरा स्वादुपाकायुष्या रसायनी ।\nस्वर्या स्मृतिप्रदा कुष्ठपाण्डुमेहास्रकासजित् ।\nविषशोथज्वरहरी तद्वन्मण्डूकपर्ण्यपि ॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Guduchyadi Varga, Brahmi/Brahmi-shaka passage; exact verse numbering should be taken from the selected edition before displaying a number."
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "classical_text_corrected; edition/numbering explicitly qualified",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas",
+      "CCRAS/NIIMH e-Nighantu — Bhavaprakasha Nighantu"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "bacosides"
+    ],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Bacopa monnieri has been studied in cognition-related and neuropharmacological research.",
+    "recognized_uses": [],
+    "safety_notes": "Evidence depends on extract/preparation; avoid translating supplement evidence directly to all Ayurvedic preparations.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Whole plant is used",
+      "Important medhya rasayana"
+    ],
+    "viva_questions": [
+      "How is Brahmi identified?",
+      "What is its principal karma?"
+    ],
+    "identification_points": [
+      "Succulent creeping habit",
+      "Opposite fleshy leaves"
+    ],
+    "mnemonics": [],
+    "quick_revision": "Brāhmī: whole plant; tikta; laghu; sheeta; medhya."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Garden identification"
+    ],
+    "discussion_points": [
+      "Brahmi versus Mandukaparni"
+    ],
+    "practical_points": [
+      "Compare leaf shape and growth habit"
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Traditional medhya rasayana; whole plant used.",
+    "important_indications": [],
+    "useful_part": "whole plant",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official",
+      "title": "CCRAS Database on Medicinal Plants",
+      "url": "https://ccras.nic.in/documents/database-on-medicinal-plants/",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Bacopa_monnieri_(L.)_Wettst._(2465019988).jpg",
+      "license_note": "Check the original file page for current license/attribution requirements."
+    }
+  ],
+  "metadata": {
+    "status": "classical_text_reviewed; edition_numbering_may_vary",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "classical_review_batch": "1-8 corrected 2026-09-16"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

@@ -1,0 +1,309 @@
+{
+  "id": "vacha",
+  "order": 91,
+  "identity": {
+    "name": "Vacha",
+    "sanskrit_name": "Vacha",
+    "transliteration": "",
+    "botanical_name": "Acorus calamus L.",
+    "family": "Acoraceae (Araceae)",
+    "english_name": "Sweet Flag / Calamus",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Ugragandha (उग्रगन्धा)",
+      "Shadgrantha (षड्ग्रन्था)",
+      "Golomi (गोलोमी)",
+      "Mangalya (मङ्गल्या)",
+      "Jatila (जटिला)"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Sub-cylindrical tortuous branched rhizomes marked with triangular leaf scars and rootlets, brownish exterior and whitish spongy interior, strong peculiar aromatic odor and warm pungent bitter taste.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": [
+      "Sub-cylindrical tortuous branched rhizomes marked with triangular leaf scars and rootlets, brownish exterior and whitish spongy interior, strong peculiar aromatic odor and warm pungent bitter taste."
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "katu",
+      "tikta"
+    ],
+    "guna": [
+      "laghu",
+      "tikshna"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "prabhava": "Medhya / Sanjnasthapana / Swarya (Agrya Sanjnasthapana Dravya)",
+    "karma": [
+      "Medhya",
+      "Sanjnasthapana",
+      "Swarya",
+      "Vamana",
+      "Deepana",
+      "Pachana",
+      "Kaphaghna",
+      "Unmadahara"
+    ]
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "aggravated",
+    "kapha": "pacified",
+    "summary": "Kapha-Vatashamaka"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "Rhizome (Kanda)"
+    ],
+    "indications": [
+      "Unmada (Psychosis / Mental confusion)",
+      "Apasmara (Epilepsy)",
+      "Swarabheda (Hoarseness of voice)",
+      "Smritibhramsha (Memory impairment)",
+      "Agnimandya (Loss of appetite)",
+      "Vibandha (Constipation / Abdominal distension)"
+    ],
+    "therapeutic_actions": [
+      "Medhya",
+      "Sanjnasthapana",
+      "Swarya",
+      "Vamana",
+      "Deepana",
+      "Pachana",
+      "Kaphaghna",
+      "Unmadahara"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Saraswata Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Vachadi Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Brahmi Ghrita",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Sanjivani Vati",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Vachadi Taila",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "वचा उग्रा कटुका तिक्ता तीक्ष्णोष्णा वमनकृत् सरः।\nमेध्या वह्निकरः कण्ठ्या उन्मादापस्मारापहः॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Haritakyadi Varga, Verse 102-103"
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "A. Directly verified classical reference",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ],
+    "gemini_source_reference": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "sthana_section": "Nighantu Sthana",
+      "adhyaya": "N/A",
+      "varga_chapter": "Haritakyadi Varga",
+      "shloka_number": "Verse 102-103",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    }
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Sweet flag is a powerful herb for the mind, improving speech, intelligence, and clearing toxins from the nervous system.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Sweet flag is a powerful herb for the mind, improving speech, intelligence, and clearing toxins from the nervous system."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [
+      "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
+      "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data."
+    ],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "rhizome",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    }
+  ],
+  "metadata": {
+    "status": "working_draft_needs_text_cross_check",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "gemini_later_batches_reviewed": true,
+    "gemini_source_batches": [
+      76
+    ]
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97",
+  "gemini_source_data": {
+    "id": 76,
+    "classical_sanskrit_name": "Vacha (वचा)",
+    "botanical_name": "Acorus calamus L.",
+    "family": "Acoraceae (Araceae)",
+    "english_common_name": "Sweet Flag / Calamus",
+    "sanskrit_synonyms": [
+      "Ugragandha (उग्रगन्धा)",
+      "Shadgrantha (षड्ग्रन्था)",
+      "Golomi (गोलोमी)",
+      "Mangalya (मङ्गल्या)",
+      "Jatila (जटिला)"
+    ],
+    "useful_part": "Rhizome (Kanda)",
+    "rasa": [
+      "Katu",
+      "Tikta"
+    ],
+    "guna": [
+      "Laghu",
+      "Tikshna"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": "Medhya / Sanjnasthapana / Swarya (Agrya Sanjnasthapana Dravya)",
+    "dosha_karma": "Kapha-Vatashamaka",
+    "pharmacological_therapeutic_karma": [
+      "Medhya",
+      "Sanjnasthapana",
+      "Swarya",
+      "Vamana",
+      "Deepana",
+      "Pachana",
+      "Kaphaghna",
+      "Unmadahara"
+    ],
+    "important_indications": [
+      "Unmada (Psychosis / Mental confusion)",
+      "Apasmara (Epilepsy)",
+      "Swarabheda (Hoarseness of voice)",
+      "Smritibhramsha (Memory impairment)",
+      "Agnimandya (Loss of appetite)",
+      "Vibandha (Constipation / Abdominal distension)"
+    ],
+    "important_formulations": [
+      "Saraswata Churna",
+      "Vachadi Churna",
+      "Brahmi Ghrita",
+      "Sanjivani Vati",
+      "Vachadi Taila"
+    ],
+    "identification_characters": "Sub-cylindrical tortuous branched rhizomes marked with triangular leaf scars and rootlets, brownish exterior and whitish spongy interior, strong peculiar aromatic odor and warm pungent bitter taste.",
+    "classical_shloka": "वचा उग्रा कटुका तिक्ता तीक्ष्णोष्णा वमनकृत् सरः।\nमेध्या वह्निकरः कण्ठ्या उन्मादापस्मारापहः॥",
+    "shloka_source": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "sthana_section": "Nighantu Sthana",
+      "adhyaya": "N/A",
+      "varga_chapter": "Haritakyadi Varga",
+      "shloka_number": "Verse 102-103",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    },
+    "verification_status": "A. Directly verified classical reference"
+  }
+}

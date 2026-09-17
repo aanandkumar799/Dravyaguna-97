@@ -1,0 +1,227 @@
+{
+  "id": "haridra",
+  "order": 24,
+  "identity": {
+    "name": "Haridra",
+    "sanskrit_name": "हरिद्रा",
+    "transliteration": "",
+    "botanical_name": "Curcuma longa L.",
+    "family": "Zingiberaceae",
+    "english_name": "Turmeric",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Kanchani",
+      "Nisha",
+      "Gauri",
+      "Krimighni",
+      "Varavarnini"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Primary ovate or secondary cylindrical branched rhizomes with deep orange-yellow interior and characteristic aromatic odor.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": []
+  },
+  "images": {
+    "whole_plant": "images/plants/haridra.jpg",
+    "habit": "images/plants/haridra.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "tikta",
+      "katu"
+    ],
+    "guna": [
+      "ruksha",
+      "laghu"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "prabhava": "Varnya / Vishaghna / Pramehara",
+    "karma": [
+      "Varnya",
+      "Krimighna",
+      "Kushtaghna",
+      "Vishaghna",
+      "Pramehara",
+      "Vranaropana",
+      "Raktashodhaka"
+    ]
+  },
+  "dosha": {
+    "vata": "may increase when excessive",
+    "pitta": "may increase when excessive",
+    "kapha": "generally pacifies"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "rhizome (Kanda)"
+    ],
+    "indications": [
+      "Prameha",
+      "Kushta",
+      "Pandu",
+      "Vrana",
+      "Sheetapitta",
+      "Pratishyaya"
+    ],
+    "therapeutic_actions": [
+      "Varnya",
+      "Krimighna",
+      "Kushtaghna",
+      "Vishaghna",
+      "Pramehara",
+      "Vranaropana",
+      "Raktashodhaka"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Haridra Khanda"
+    },
+    {
+      "name": "Nisha Amalaki Churna"
+    },
+    {
+      "name": "Haridradi Ghrita"
+    },
+    {
+      "name": "Nimbadi Churna"
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "हरिद्रा काञ्चनी पीता निशाख्या वरवर्णिनी ।\nकृमिघ्नी हलदी योषित्प्रिया हट्टविलासिनी ॥१९६॥",
+      "हरिद्रा कटुका तिक्ता रूक्षोष्णा कफपित्तनुत् ।\nवर्ण्या त्वग्दोषमेहास्रशोथपाण्डुव्रणापहा ॥१९७॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Haritakyadi Varga, 196–197 (SanskritDocuments/PCIMH recension; another recension numbers these 171–172)"
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "verified_text_location_edition_numbering_may_vary",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ],
+    "verified_classical_sources": [
+      {
+        "type": "classical_text_search",
+        "title": "Independent searchable Bhavaprakasha recension",
+        "url": "https://sanskritdocuments.org/~sanskrit/doc_trial/fortransfer/bhAvaprakAshanighaNTu01_sa.html",
+        "note": "Used for text-level verification; edition/recension numbering may vary."
+      },
+      {
+        "type": "classical_text_search",
+        "title": "Independent searchable Bhavaprakasha recension",
+        "url": "https://pcimh.gov.in/",
+        "note": "Used for text-level verification; edition/recension numbering may vary."
+      }
+    ],
+    "verification_note": "Text is independently supported; verse numbering varies among digital/printed recensions."
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Turmeric is powerful anti-inflammatory and detoxifying herb.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Haridra: curated batch data added; classical reference reviewed against searchable Bhavaprakasha text."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "rhizome",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Curcuma_longa_001.JPG",
+      "license_note": "Check the original file page for current license/attribution requirements."
+    }
+  ],
+  "metadata": {
+    "status": "structured_data_added_classical_text_checked",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.3",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "dosha_karma_note": "Kapha-Pittashamaka",
+    "batch_54_63_added": true,
+    "classical_review_batch": "19-23",
+    "classical_review_date": "2026-09-16",
+    "classical_review_method": "independent text-level comparison; Gemini quotations not accepted without source confirmation"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

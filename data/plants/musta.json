@@ -1,1 +1,169 @@
-{"id":"musta","order":66,"category":"NCISM-97","batch_id":25,"identity":{"name":"Musta","sanskrit_name":"मुस्ता","transliteration":"Mustā","botanical_name":"Cyperus rotundus L.","family":"Cyperaceae","english_name":"Nut Grass / Purple Nutsedge","synonyms":["Mustaka","Kuruvinda","Bhadramusta","Varaha"]},"dravya_guna":{"rasa":["Tikta","Katu","Kashaya"],"guna":["Laghu","Ruksha"],"virya":"Sheeta","vipaka":"Katu","karma":["Deepana","Pachana","Grahi","Jwarahara","Trishnanigrahana"]},"therapeutics":{"useful_part":["Tuber (Kanda)"],"indications":["Atisara","Jwara","Trishna","Aruchi","Krimi","Kapha-Pitta-Rakta disorders"],"therapeutic_actions":["Deepana","Pachana","Grahi","Jwarahara","Trishnanigrahana"]},"formulations":[{"name":"Mustarishta"},{"name":"Mustadi Kwatha"},{"name":"Shadanga Paniya"},{"name":"Gangadhara Churna"}],"classical_reference":{"shlokas":["मुस्तकं न स्त्रियां मुस्तं त्रिषु वारिदनामकम् ।\nकुरुविन्दश्च संख्यातोऽपरः क्रोडकसेरुकः ।\nभद्रमुस्तञ्च गुन्द्रा च तथा नागरमुस्तकः ॥७७॥\nमुस्तं कटु हिमं ग्राहि तिक्तं दीपनपाचनम् ।\nकषायं कफपित्तास्रतृड्ज्वरारुचिजन्तुहृत् ॥७८॥"],"nighantu_references":["Bhavaprakasha Nighantu, Karpuradi Varga, verses 77–78 in the searchable recension; numbering varies by edition."],"shloka_reference_status":"verified text; edition numbering may vary"},"sources":[{"title":"Plants of the World Online — Cyperus rotundus","url":"https://powo.science.kew.org/taxon/305797-1"},{"title":"Bhavaprakasha Nighantu — Karpuradi Varga","url":"https://ayurveda360.in/ebooks-enighantu-bhavaprakasha-nighantu-karpuradivarga/"}],"metadata":{"status":"corrected_reviewed","source_batch":"25","last_reviewed":"2026-09-16"}}
+{
+  "id": "musta",
+  "order": 66,
+  "identity": {
+    "name": "Musta",
+    "sanskrit_name": "मुस्ता",
+    "transliteration": "",
+    "botanical_name": "Cyperus rotundus L.",
+    "family": "Cyperaceae",
+    "english_name": "Nut Grass",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Musta",
+      "Abda",
+      "Jalada",
+      "Ghan"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": []
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Tikta",
+      "Katu"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": [
+      "Deepana",
+      "Pachana",
+      "Grahi"
+    ],
+    "karma": []
+  },
+  "dosha": {
+    "vata": "aggravated",
+    "pitta": "pacified",
+    "kapha": "pacified"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "rhizome"
+    ],
+    "indications": [
+      "Atisara",
+      "Grahani",
+      "Jwara",
+      "Trishna",
+      "Aruchi"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Used to treat indigestion, fever, and obesity through its deepana and pachana actions.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Used to treat indigestion, fever, and obesity through its deepana and pachana actions."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "rhizome",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    }
+  ],
+  "metadata": {
+    "status": "working_draft_needs_text_cross_check",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

@@ -1,0 +1,210 @@
+{
+  "id": "nimba",
+  "order": 68,
+  "identity": {
+    "name": "Nimba",
+    "sanskrit_name": "निम्ब",
+    "transliteration": "",
+    "botanical_name": "Azadirachta indica A. Juss.",
+    "family": "Meliaceae",
+    "english_name": "Neem / Margosa Tree",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Picumarda",
+      "Arishta",
+      "Niyanta",
+      "Ravipriya",
+      "Netravi"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Large evergreen tree with pinnate leaves, serrated leaflets, small fragrant white flowers and yellow ripe drupes.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": []
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "tikta",
+      "kashaya"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "sheeta",
+    "vipaka": "katu",
+    "prabhava": "Kushtaghna / Kandughna / Krimighna",
+    "karma": [
+      "Kushtaghna",
+      "Krimighna",
+      "Kandughna",
+      "Vrana-shodhaka",
+      "Vrana-ropana",
+      "Jwaraghna",
+      "Raktashodhaka"
+    ]
+  },
+  "dosha": {
+    "vata": "may increase when excessive",
+    "pitta": "pacifies",
+    "kapha": "pacifies"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "bark",
+      "leaves",
+      "seeds",
+      "seed oil",
+      "whole plant (Panchanga)"
+    ],
+    "indications": [
+      "Kushta",
+      "Krimi",
+      "Vrana",
+      "Jwara",
+      "Prameha"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Nimbadi Churna"
+    },
+    {
+      "name": "Nimbaharidradi Churna"
+    },
+    {
+      "name": "Nimbadi Kwatha"
+    },
+    {
+      "name": "Nimbadi Taila"
+    },
+    {
+      "name": "Jatyadi Taila"
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "निम्बः शीतो लघुग्राही कटुपाकोऽग्निवातनुत् ।\nस्रध्रः श्रमद्वाक्स्वरार्चिचक्रिमिप्रघ्नुत् ।\nव्रणपित्तकफच्छर्दिकुष्ठलासमेहनुत् ॥७४॥",
+      "निम्बपर्णं स्मृतं नेत्र्यं कृमिपित्तविषप्रघुत् ।\nवातलं कटुपाकं च सवरीचकुष्ठनुत् ॥७५॥",
+      "निम्बफलं रसे तिक्तं पाके तु कटुभेदनम् ।\nस्निग्धं लघुष्णं कुष्ठघ्नं गुल्मार्शःकृमिमेहनुत् ॥७६॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Nimba passage, verses 74–76 in the searchable Parul University PDF recension; edition numbering may vary."
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "verified_text_location_edition_numbering_may_vary",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ],
+    "verification_note": "Gemini numbering 14–15 was rejected; the searchable recension places the Nimba material at 73–76.",
+    "verified_classical_sources": [
+      {
+        "type": "classical_text_verification",
+        "title": "Bhavaprakasha Nighantu searchable PDF — Nimba",
+        "url": "https://www.paruluniversity.ac.in/parul-institute-of-ayurved/pdf/PIA-Institute/E%20Shamhita/Bhavapraksha/bhava_prakash_nighantu.pdf",
+        "reference": "Verses 74–76 in the searchable recension."
+      }
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": ""
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "bark/leaf",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "classical_text_verification",
+      "title": "Bhavaprakasha Nighantu searchable PDF — Nimba",
+      "url": "https://www.paruluniversity.ac.in/parul-institute-of-ayurved/pdf/PIA-Institute/E%20Shamhita/Bhavapraksha/bhava_prakash_nighantu.pdf",
+      "reference": "Verses 74–76 in the searchable recension."
+    }
+  ],
+  "metadata": {
+    "status": "verified_text_location_edition_numbering_may_vary",
+    "last_verified": "2026-09-16",
+    "verified_by": "independent searchable classical-text cross-check",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "batch_54_63_added": true,
+    "classical_review_batch": "14-18 reviewed 2026-09-16"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}

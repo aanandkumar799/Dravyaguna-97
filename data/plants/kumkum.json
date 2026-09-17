@@ -1,0 +1,306 @@
+{
+  "id": "kumkum",
+  "order": 57,
+  "identity": {
+    "name": "Kumkum",
+    "sanskrit_name": "Kumkuma",
+    "transliteration": "",
+    "botanical_name": "Crocus sativus L.",
+    "family": "Iridaceae",
+    "english_name": "Saffron",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": [
+      "Kesara (केसर)",
+      "Kashmiraka (काश्मीरक)",
+      "Shonita (शोणित)",
+      "Varakesara (वरकेसर)",
+      "Vahni (वह्नि)"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "",
+    "habitat": "",
+    "distribution": ""
+  },
+  "identification": {
+    "description": "Dark reddish-orange tri-fid thread-like stigmas attached to a short yellow style top, intensely aromatic sweet odor, colors water or saliva deep golden-yellow.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": [
+      "Dark reddish-orange tri-fid thread-like stigmas attached to a short yellow style top, intensely aromatic sweet odor, colors water or saliva deep golden-yellow."
+    ]
+  },
+  "images": {
+    "whole_plant": "images/plants/kumkum.jpg",
+    "habit": "images/plants/kumkum.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "tikta",
+      "katu"
+    ],
+    "guna": [
+      "snigdha",
+      "laghu"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
+    "prabhava": "Varnya / Keshya / Hridya / Stri-rogahara",
+    "karma": [
+      "Varnya",
+      "Hridya",
+      "Vedanasthapana",
+      "Shothahara",
+      "Artavajanana",
+      "Vrishya",
+      "Vishaghna",
+      "Deepana"
+    ]
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "pacified",
+    "kapha": "aggravated",
+    "summary": "Tridoshashamaka (Specially Kapha-Pittashamaka)"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "Stigma & Style (Keshara / Vartikagra)"
+    ],
+    "indications": [
+      "Mukhadushika (Acne vulgaris / Hyperpigmentation)",
+      "Varnya (Complexion enhancement)",
+      "Hridroga (Cardiac weakness / Angina)",
+      "Artavadushti (Dysmenorrhea / Oligomenorrhea)",
+      "Shiro-shoola (Headache / Migraine)",
+      "Kasa / Shwasa (Cough / Asthma)"
+    ],
+    "therapeutic_actions": [
+      "Varnya",
+      "Hridya",
+      "Vedanasthapana",
+      "Shothahara",
+      "Artavajanana",
+      "Vrishya",
+      "Vishaghna",
+      "Deepana"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [
+    {
+      "name": "Kumkumadi Taila",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Kumkumadi Lehya",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Kesaradi Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Chandanadi Vati",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Kasturyadi Gutika",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
+  "classical_reference": {
+    "shlokas": [
+      "कुङ्कुमं कटुकं तिक्तं उष्णं श्लेष्मसीरार्तिजित्।\nवर्ण्यं वृष्यं च शोषघ्नमग्निदीप्तिप्रदं परम्॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Karpuradi Varga, Verse 12-14"
+    ],
+    "samhita_references": [],
+    "shloka_reference_status": "A. Directly verified classical reference",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ],
+    "gemini_source_reference": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "sthana_section": "Nighantu Sthana",
+      "adhyaya": "N/A",
+      "varga_chapter": "Karpuradi Varga",
+      "shloka_number": "Verse 12-14",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    }
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": ""
+  },
+  "modern_information": {
+    "evidence_summary": "Saffron used for complexion, mood elevation, and female fertility.",
+    "recognized_uses": [],
+    "safety_notes": "",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [],
+    "viva_questions": [],
+    "identification_points": [],
+    "mnemonics": [],
+    "quick_revision": "Saffron used for complexion, mood elevation, and female fertility."
+  },
+  "teacher": {
+    "teaching_points": [],
+    "discussion_points": [],
+    "practical_points": []
+  },
+  "doctor": {
+    "quick_reference": "",
+    "important_indications": [],
+    "useful_part": "stigma",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": []
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+      "author": "",
+      "edition": "",
+      "year": "",
+      "page": ""
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "open_ayurveda_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:328_Crocus_sativus_L.,_C._vernus_Wulf.jpg",
+      "license_note": "Check the original file page for current license/attribution requirements."
+    }
+  ],
+  "metadata": {
+    "status": "working_draft_needs_text_cross_check",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.2",
+    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "gemini_later_batches_reviewed": true,
+    "gemini_source_batches": [
+      83
+    ]
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97",
+  "gemini_source_data": {
+    "id": 83,
+    "classical_sanskrit_name": "Kumkuma (कुङ्कुम)",
+    "botanical_name": "Crocus sativus L.",
+    "family": "Iridaceae",
+    "english_common_name": "Saffron",
+    "sanskrit_synonyms": [
+      "Kesara (केसर)",
+      "Kashmiraka (काश्मीरक)",
+      "Shonita (शोणित)",
+      "Varakesara (वरकेसर)",
+      "Vahni (वह्नि)"
+    ],
+    "useful_part": "Stigma & Style (Keshara / Vartikagra)",
+    "rasa": [
+      "Tikta",
+      "Katu"
+    ],
+    "guna": [
+      "Snigdha",
+      "Laghu"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": "Varnya / Keshya / Hridya / Stri-rogahara",
+    "dosha_karma": "Tridoshashamaka (Specially Kapha-Pittashamaka)",
+    "pharmacological_therapeutic_karma": [
+      "Varnya",
+      "Hridya",
+      "Vedanasthapana",
+      "Shothahara",
+      "Artavajanana",
+      "Vrishya",
+      "Vishaghna",
+      "Deepana"
+    ],
+    "important_indications": [
+      "Mukhadushika (Acne vulgaris / Hyperpigmentation)",
+      "Varnya (Complexion enhancement)",
+      "Hridroga (Cardiac weakness / Angina)",
+      "Artavadushti (Dysmenorrhea / Oligomenorrhea)",
+      "Shiro-shoola (Headache / Migraine)",
+      "Kasa / Shwasa (Cough / Asthma)"
+    ],
+    "important_formulations": [
+      "Kumkumadi Taila",
+      "Kumkumadi Lehya",
+      "Kesaradi Churna",
+      "Chandanadi Vati",
+      "Kasturyadi Gutika"
+    ],
+    "identification_characters": "Dark reddish-orange tri-fid thread-like stigmas attached to a short yellow style top, intensely aromatic sweet odor, colors water or saliva deep golden-yellow.",
+    "classical_shloka": "कुङ्कुमं कटुकं तिक्तं उष्णं श्लेष्मसीरार्तिजित्।\nवर्ण्यं वृष्यं च शोषघ्नमग्निदीप्तिप्रदं परम्॥",
+    "shloka_source": {
+      "text_grantha_name": "Bhavaprakasha Nighantu",
+      "sthana_section": "Nighantu Sthana",
+      "adhyaya": "N/A",
+      "varga_chapter": "Karpuradi Varga",
+      "shloka_number": "Verse 12-14",
+      "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+      "page_number": "Needs checking against physical copy for exact page"
+    },
+    "verification_status": "A. Directly verified classical reference"
+  }
+}
