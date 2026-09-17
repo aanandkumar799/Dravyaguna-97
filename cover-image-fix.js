@@ -6,12 +6,12 @@ function placeholder(label){const safe=String(label||'Plant').replace(/[&<>\"']/
 async function get(file){try{const r=await fetch(url(file),{cache:'no-store',headers:{Accept:'application/json'}});return r.ok?await r.json():null}catch(e){return null}}
 async function load(){
   const list=document.getElementById('plant-list');if(!list)return;
-  const manifest=await get('data/curated-image-manifest.json?v=2');
+  const manifest=await get('data/curated-image-manifest.json?v=4');
   const records=Array.isArray(manifest?.records)?manifest.records:[];
   const approved=new Map();
   for(const r of records){
-    if(!r||String(r.part)!=='whole_plant'||!r.image_path||!/^https?:\/\//i.test(String(r.image_path)))continue;
-    if(!['verified','verified-external'].includes(String(r.verification_status)))continue;
+    if(!r||String(r.part)!=='whole_plant'||!r.image_path)continue;
+    if(!['verified','verified-external','verified-local'].includes(String(r.verification_status)))continue;
     if(!r.source_url||!r.source_name||!r.verified_botanical_name)continue;
     const id=String(r.plant_id||'');if(id&&!approved.has(id))approved.set(id,r);
   }
