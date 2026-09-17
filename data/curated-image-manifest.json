@@ -2117,13 +2117,14 @@
       "plant_name": "Dadima",
       "botanical_name": "Punica granatum L.",
       "part": "flower",
-      "image_path": "",
-      "source_url": "",
-      "source_name": "",
-      "license": "",
-      "author": "",
-      "verified_botanical_name": "",
-      "verification_status": "missing-queued"
+      "image_path": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/%28MHNT%29_Punica_granatum_-_Flower.jpg/1920px-%28MHNT%29_Punica_granatum_-_Flower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3A%28MHNT%29_Punica_granatum_-_Flower.jpg",
+      "source_name": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "author": "<div class=\"fn value\">\n<a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" title=\"User:Archaeodontosaurus\">Didier Descouens</a></div>",
+      "verified_botanical_name": "Punica granatum L.",
+      "verification_status": "verified-external",
+      "title": "(MHNT) Punica granatum - Flower.jpg"
     },
     {
       "plant_id": "dadima",
