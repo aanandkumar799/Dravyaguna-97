@@ -1,171 +1,20 @@
 {
-  "id": "asthishrunkhala",
-  "order": 44,
-  "identity": {
-    "name": "Asthishrunkhala",
-    "sanskrit_name": "अस्थिशृङ्खला",
-    "transliteration": "",
-    "botanical_name": "Cissus quadrangularis L.",
-    "family": "Vitaceae",
-    "english_name": "Veldt Grape",
-    "hindi_name": "",
-    "regional_names": [],
-    "synonyms": [
-      "Hadjod",
-      "Vajravalli",
-      "Asthisamharaka"
-    ]
-  },
-  "classification": {
-    "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
-  },
-  "identification": {
-    "description": "",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": "",
-    "identification_points": []
-  },
-  "images": {
-    "whole_plant": "images/plants/asthishrunkhala.jpg",
-    "habit": "images/plants/asthishrunkhala.jpg",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": ""
-  },
-  "dravya_guna": {
-    "rasa": [
-      "Madhura"
-    ],
-    "guna": [
-      "Laghu",
-      "Ruksha"
-    ],
-    "virya": "Ushna",
-    "vipaka": "Madhura",
-    "prabhava": [
-      "Sandhanakaraka",
-      "Balya"
-    ],
-    "karma": []
-  },
-  "dosha": {
-    "vata": "pacified",
-    "pitta": "aggravated",
-    "kapha": "pacified"
-  },
-  "therapeutics": {
-    "useful_part": [
-      "stem"
-    ],
-    "indications": [
-      "Bhagna",
-      "Asthi Daurbalya",
-      "Sandhishoola",
-      "Arsha"
-    ],
-    "therapeutic_actions": [],
-    "dose": "",
-    "anupana": "",
-    "duration": "",
-    "precautions": "",
-    "contraindications": ""
-  },
-  "formulations": [],
-  "classical_reference": {
-    "shlokas": [],
-    "nighantu_references": [],
-    "samhita_references": [],
-    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
-    "reference_hubs": [
-      "TDU Indian Medicinal Plants Database — Shlokas"
-    ]
-  },
-  "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
-  },
-  "modern_information": {
-    "evidence_summary": "Also called Hadjod (Cissus quadrangularis), it is the primary Ayurvedic herb for healing bone fractures and strengthening joints.",
-    "recognized_uses": [],
-    "safety_notes": "",
-    "sources": []
-  },
-  "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
-    "mnemonics": [],
-    "quick_revision": "Also called Hadjod (Cissus quadrangularis), it is the primary Ayurvedic herb for healing bone fractures and strengthening joints."
-  },
-  "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
-  },
-  "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
-    "useful_part": "stem",
-    "dose": "",
-    "anupana": "",
-    "key_precautions": []
-  },
-  "sources": [
-    {
-      "type": "official_syllabus",
-      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
-      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
-      "author": "",
-      "edition": "",
-      "year": "",
-      "page": ""
-    },
-    {
-      "type": "medicinal_plants_database",
-      "title": "TDU Indian Medicinal Plants Database",
-      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
-    },
-    {
-      "type": "tdu_classical_database",
-      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
-      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
-      "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
-    },
-    {
-      "type": "open_ayurveda_dataset",
-      "title": "Amidha Ayurveda Herb Database v2.0",
-      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
-      "license": "CC BY 4.0",
-      "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
-    },
-    {
-      "type": "image",
-      "title": "Wikimedia Commons",
-      "url": "https://commons.wikimedia.org/wiki/File:Cissus_quadrangularis_(9859586963).jpg",
-      "license_note": "Check the original file page for current license/attribution requirements."
-    }
-  ],
-  "metadata": {
-    "status": "working_draft_needs_text_cross_check",
-    "last_verified": "",
-    "verified_by": "",
-    "version": "1.2",
-    "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
-  },
-  "category": "NCISM-97",
-  "syllabus_marker": "NCISM-97"
+  "id":"asthishrunkhala","order":44,
+  "identity":{"name":"Asthishrunkhala","sanskrit_name":"अस्थिशृङ्खला","transliteration":"Asthiśṛṅkhalā","botanical_name":"Cissus quadrangularis L.","family":"Vitaceae","english_name":"Veldt Grape","hindi_name":"हड़जोड़","regional_names":["Marathi: Kandvel","Tamil: Pirandai","Telugu: Nalleru"],"synonyms":["Hadjod","Vajravalli","Asthisamharaka"]},
+  "classification":{"kingdom":"Plantae","habit":"Succulent, branched climbing or scrambling shrub/vine","habitat":"Dry tropical and subtropical regions; commonly found on hedges, rocks and disturbed ground","distribution":"Widely distributed in India and reported from other South Asian regions."},
+  "identification":{"description":"A distinctive succulent climber with quadrangular, jointed green stems; tendrils arise at nodes and small leaves occur on young shoots.","whole_plant":"Perennial succulent climber/scrambler with conspicuously four-angled stems and regularly spaced nodes.","root":"Fleshy root system; crude-drug authentication should follow the applicable pharmacopoeial or institutional standard.","stem":"Characteristic quadrangular, fleshy, jointed green stem; nodes are conspicuous and may bear tendrils and leaves.","leaf":"Simple leaves on young shoots, generally ovate to heart-shaped with a somewhat fleshy texture.","flower":"Small flowers occur in axillary or opposite clusters; detailed floral authentication should use authenticated material.","fruit":"Small globose berry, becoming darker on maturity.","seed":"Small seeds contained within the berry; seed-level identification is secondary for the commonly used stem drug.","bark":"Stem surface is green and succulent rather than forming a conventional woody bark.","identification_points":["Four-angled succulent stem","Distinct nodes and internodes","Tendrils at nodes","Climbing/scrambling habit","Stem is the commonly used medicinal part"]},
+  "images":{"whole_plant":"images/plants/asthishrunkhala.jpg","habit":"images/plants/asthishrunkhala.jpg","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},
+  "dravya_guna":{"rasa":["Madhura"],"guna":["Laghu","Ruksha"],"virya":"Ushna","vipaka":"Madhura","prabhava":["Sandhanakaraka","Balya"],"karma":["Traditional asthisandhanaka use"]},
+  "dosha":{"vata":"pacified","pitta":"aggravated","kapha":"pacified"},
+  "therapeutics":{"useful_part":["stem"],"indications":["Bhagna","Asthi Daurbalya","Sandhishoola","Arsha"],"therapeutic_actions":["Traditional use in fracture-related care","Traditional use as a strengthening/supportive drug"],"dose":"Not populated; use an authenticated formulation-specific source.","anupana":"Not populated","duration":"Not populated","precautions":"Fractures require appropriate medical assessment, reduction/immobilisation when indicated, and follow-up; the herb should not replace orthopaedic care.","contraindications":"No universal contraindication statement added without source-level verification."},
+  "formulations":[],
+  "classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"Classical text/edition still requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},
+  "phytochemistry":{"major_constituents":["Tannins","Flavonoids","Triterpenoids","Phytosterols","Saponins"],"chemical_notes":"Published reviews report multiple phytochemical groups; constituent profiles vary by plant material and extraction method."},
+  "modern_information":{"evidence_summary":"Cissus quadrangularis is widely studied for bone and musculoskeletal applications. Reviews describe experimental and traditional evidence, but this educational dossier does not convert those findings into a clinical efficacy claim.","recognized_uses":["Traditional fracture-related use"],"safety_notes":"Evidence and safety depend on preparation and patient context. Fracture management must not be delayed in favour of herbal self-treatment.","sources":["MDPI review of Cissus quadrangularis phytochemistry and pharmacology","AYUSH/ESIC educational material"]},
+  "student":{"exam_points":["Botanical name: Cissus quadrangularis L.","Family: Vitaceae","Common names: Hadjod, Asthisamharaka","Useful part: stem","Signature character: quadrangular succulent stem","Traditional action: Asthisandhanaka"],"viva_questions":["What is the botanical name of Asthishrunkhala?","Which family does it belong to?","Which plant part is commonly used?","What is the most distinctive stem character?","Why is it called Hadjod/Asthisamharaka?"],"identification_points":["Four-angled stem","Succulent internodes","Node-associated tendrils","Climbing habit"],"mnemonics":["HADJOD = HAjod's Distinctive Jointed/Quadrangular Organ is Diagnostic"],"quick_revision":"Asthishrunkhala (Cissus quadrangularis L., Vitaceae) is a succulent climber recognized by its four-angled jointed stem; the stem is the principal traditional medicinal part and is associated with asthisandhanaka use."},
+  "teacher":{"teaching_points":["Demonstrate the quadrangular stem before discussing therapeutic claims.","Relate the Sanskrit/common names to traditional asthi-sandhana use without presenting them as proof of efficacy.","Compare fresh stem morphology with dried crude drug."],"discussion_points":["Discuss traditional fracture care versus modern fracture management.","Review the difference between experimental evidence and clinical evidence.","Discuss taxonomic placement in Vitaceae."],"practical_points":["Use authenticated fresh material for morphology practicals.","Record stem cross-section, nodes, tendrils and leaf arrangement.","Do not substitute unrelated succulent climbers for the crude drug."]},
+  "doctor":{"quick_reference":"Cissus quadrangularis L.; Vitaceae; commonly used part is stem. Traditional profile in this project: Madhura rasa, Laghu-Ruksha guna, Ushna virya, Madhura vipaka. For fracture cases, use only as an adjunct to appropriate fracture care.","important_indications":["Bhagna","Asthi Daurbalya","Sandhishoola"],"useful_part":"stem","dose":"Not supplied in this educational dossier.","anupana":"Not supplied","key_precautions":["Do not substitute herbal treatment for fracture reduction, immobilisation or follow-up.","Verify botanical identity and preparation.","Use formulation-specific authoritative dosing references."]},
+  "sources":[{"type":"official_educational","title":"AYUSH Division / ESIC — Ayurveda offering Herbal Healing: Asthisamharaka","url":"https://www.esic.nic.in/attachments/publicationfile/7d11b02e5abb4717d53b4ce05efabd21.pdf"},{"type":"review","title":"A Phytochemical and Pharmacological Review of an Indian Plant: Cissus quadrangularis","url":"https://www.mdpi.com/2673-9992/21/1/20"},{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"image","title":"Wikimedia Commons","url":"https://commons.wikimedia.org/wiki/File:Cissus_quadrangularis_(9859586963).jpg","license_note":"Check the original file page for current license/attribution requirements."}],
+  "metadata":{"status":"quality_pass_with_classical_text_pending","last_verified":"2026-09-17","verified_by":"source-assisted dossier pass","version":"1.3","image_enrichment_note":"Existing local image retained; additional part-specific verified images remain to be curated.","last_enrichment":"dossier completion batch"},
+  "category":"NCISM-97","syllabus_marker":"NCISM-97"
 }
