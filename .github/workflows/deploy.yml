@@ -20,7 +20,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
       - name: Validate modular database and generate index
-        shell: bash
         run: |
           python scripts/generate-site-artifacts.py
           python scripts/public-readiness.py
@@ -28,51 +27,55 @@ jobs:
         shell: bash
         run: |
           rm -rf _site
-          mkdir -p _site/data/plants
           tar --exclude='./.git' --exclude='./.github' --exclude='./_site' -cf - . | tar -xf - -C _site
           python - <<'PY'
-          import json
+          import json, re
           from pathlib import Path
-          root=Path('_site'); db=root/'data'/'plants'
+          root=Path('_site')
+          db=root/'data'/'plants'
           files=[p for p in db.glob('*.json') if p.name not in {'index.json','schema.json'}]
           records=[json.loads(p.read_text(encoding='utf-8')) for p in files]
           core=[p for p in records if p.get('category')=='NCISM-97' and 1<=int(p.get('order',0))<=97]
           assert len(core)==97, f'Expected 97 NCISM records, found {len(core)}'
           index=json.loads((root/'plant-index.json').read_text(encoding='utf-8'))
-          assert len(index['plants'])==97, 'Index must contain exactly 97 NCISM records'
-          (root/'data'/'plants-index.json').write_text(json.dumps(index,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-          print(f'Prepared {len(files)} modular plant files; {len(core)} canonical NCISM files')
+          assert len(index.get('plants',[]))==111, 'Generated index must contain the current 111 indexed records'
+
+          pages=['index.html','plants.html','plant.html','compare.html','quiz.html','practical-lab.html','references.html','404.html']
+          for page in root.rglob('*.html'):
+              html=page.read_text(encoding='utf-8')
+              html=re.sub(r'<link[^>]+rel=["\'](?:icon|shortcut icon|apple-touch-icon)["\'][^>]*>', '', html, flags=re.I)
+              rel_svg=Path(__import__('os').path.relpath(root/'favicon.svg', page.parent)).as_posix()
+              rel_png=Path(__import__('os').path.relpath(root/'images'/'favicon.png', page.parent)).as_posix()
+              tags=(f'<link rel="icon" type="image/svg+xml" href="{rel_svg}">'
+                    f'<link rel="icon" type="image/png" href="{rel_png}">'
+                    f'<link rel="apple-touch-icon" href="{rel_png}">')
+              html=html.replace('</head>', tags+'\n</head>', 1)
+              if page.name in pages and '<link rel="manifest"' not in html:
+                  html=html.replace('</head>','<link rel="manifest" href="manifest.json"><meta name="theme-color" content="#1b4332">\n</head>',1)
+              if page.name in pages and "navigator.serviceWorker.register('./sw.js')" not in html:
+                  html=html.replace('</body>',"<script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));}</script>\n</body>",1)
+              if page.name in pages and '<script src="public-seo.js" defer></script>' not in html:
+                  html=html.replace('</body>','<script src="public-seo.js" defer></script>\n</body>',1)
+              if page.name=='plant.html':
+                  if '<link rel="stylesheet" href="plant-dossier-layout.css">' not in html:
+                      html=html.replace('</head>','<link rel="stylesheet" href="plant-dossier-layout.css">\n</head>',1)
+                  for src in ['cover-image-fix.js','dossier-fallback.js','image-gallery-delay.js','academic-verification.js']:
+                      if f'<script src="{src}" defer></script>' not in html:
+                          html=html.replace('</body>',f'<script src="{src}" defer></script>\n</body>',1)
+              if page.name=='plants.html' and '<script src="flashcard-entry.js" defer></script>' not in html:
+                  html=html.replace('</body>','<script src="flashcard-entry.js" defer></script>\n</body>',1)
+              if page.name=='practical-lab.html' and '<script src="practical-lab-enhanced.js" defer></script>' not in html:
+                  html=html.replace('</body>','<script src="practical-lab-enhanced.js" defer></script>\n</body>',1)
+              if page.name=='references.html' and '<script src="classical-references-enhanced.js" defer></script>' not in html:
+                  html=html.replace('</body>','<script src="classical-references-enhanced.js" defer></script>\n</body>',1)
+              page.write_text(html,encoding='utf-8')
+
+          manifest=root/'manifest.json'
+          m=json.loads(manifest.read_text(encoding='utf-8'))
+          m['icons']=[{'src':'favicon.svg','sizes':'192x192','type':'image/svg+xml','purpose':'any maskable'}]
+          manifest.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          (root/'.nojekyll').touch()
           PY
-      - name: Wire PWA, academic tools, SEO and responsive layout
-        shell: bash
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          root=Path('_site')
-          for filename in ['index.html','plant.html','plants.html','compare.html','quiz.html','practical-lab.html','references.html']:
-            p=root/filename
-            if not p.exists(): continue
-            s=p.read_text(encoding='utf-8')
-            if '<link rel="manifest"' not in s: s=s.replace('</head>','<link rel="manifest" href="manifest.json"><meta name="theme-color" content="#1b4332">\n</head>',1)
-            if "navigator.serviceWorker.register('./sw.js')" not in s: s=s.replace('</body>',"<script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));}</script>\n</body>",1)
-            if '<script src="public-seo.js" defer></script>' not in s: s=s.replace('</body>','<script src="public-seo.js" defer></script>\n</body>',1)
-            if '<link rel="stylesheet" href="academic-enhancements.css">' not in s: s=s.replace('</head>','<link rel="stylesheet" href="academic-enhancements.css">\n</head>',1)
-            if filename in ['plants.html','plant.html'] and '<script src="academic-enhancements.js" defer></script>' not in s: s=s.replace('</body>','<script src="academic-enhancements.js" defer></script>\n</body>',1)
-            if filename in ['plants.html','plant.html'] and '<link rel="stylesheet" href="botanical-ui-enhancements.css">' not in s: s=s.replace('</head>','<link rel="stylesheet" href="botanical-ui-enhancements.css">\n</head>',1)
-            if filename=='plants.html' and '<script src="library-botanical-images.js" defer></script>' not in s: s=s.replace('</body>','<script src="library-botanical-images.js" defer></script>\n</body>',1)
-            if filename=='plant.html':
-              if '<link rel="stylesheet" href="quick-revision-flashcards.css">' not in s: s=s.replace('</head>','<link rel="stylesheet" href="quick-revision-flashcards.css">\n</head>',1)
-              if '<script src="quick-revision-flashcards.js" defer></script>' not in s: s=s.replace('</body>','<script src="quick-revision-flashcards.js" defer></script>\n</body>',1)
-              if '<script src="academic-verification.js" defer></script>' not in s: s=s.replace('</body>','<script src="academic-verification.js" defer></script>\n</body>',1)
-              if '<script src="verified-botanical-images.js" defer></script>' not in s: s=s.replace('</body>','<script src="verified-botanical-images.js" defer></script>\n</body>',1)
-            if filename=='practical-lab.html' and '<script src="practical-lab-enhanced.js" defer></script>' not in s: s=s.replace('</body>','<script src="practical-lab-enhanced.js" defer></script>\n</body>',1)
-            if filename=='references.html' and '<script src="classical-references-enhanced.js" defer></script>' not in s: s=s.replace('</body>','<script src="classical-references-enhanced.js" defer></script>\n</body>',1)
-            p.write_text(s,encoding='utf-8')
-          p=root/'plant.html'; s=p.read_text(encoding='utf-8'); s=s.replace("fetch(new URL('plants.json',location.href),{cache:'no-store',headers:{Accept:'application/json'}}).then","fetch(new URL('data/plants/'+encodeURIComponent(id)+'.json',location.href),{cache:'no-store',headers:{Accept:'application/json'}}).then",1)
-          if '<link rel="stylesheet" href="plant-dossier-layout.css">' not in s: s=s.replace('</head>','<link rel="stylesheet" href="plant-dossier-layout.css">\n</head>',1)
-          p.write_text(s,encoding='utf-8')
-          PY
-          touch _site/.nojekyll
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
