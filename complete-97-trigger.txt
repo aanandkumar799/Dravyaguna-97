@@ -1,2 +1,3 @@
 rerun complete 97 database + image/reference pipeline 2026-09-17
 pipeline fix: classical verification reference handling
+MODULAR DATABASE MIGRATION: one JSON file per plant; legacy aggregate removed after validation
