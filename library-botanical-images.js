@@ -1,26 +1,30 @@
 (()=>{
   'use strict';
-  const esc=v=>String(v??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');
   async function get(url){try{const r=await fetch(url,{cache:'no-store'});return r.ok?await r.json():null}catch(e){return null}}
+  function plantId(img){
+    const explicit=img.dataset.plantId||img.closest('[data-plant-id]')?.dataset?.plantId;
+    if(explicit)return String(explicit);
+    const link=img.closest('.plant-card')?.querySelector('a.view-plant[href*="id="]');
+    if(link){try{return String(new URL(link.href,location.href).searchParams.get('id')||'')}catch(e){}}
+    return '';
+  }
   async function verify(){
     const list=document.getElementById('plant-list');if(!list)return;
-    const [index,manifest]=await Promise.all([get('plant-index.json'),get('data/curated-image-manifest.json')]);
+    const manifest=await get('data/curated-image-manifest.json');
     const records=Array.isArray(manifest?.records)?manifest.records:[];
     const approved=new Map();
     for(const r of records){
-      if(!r?.image_path||!['verified','verified-external'].includes(r.verification_status))continue;
-      if(r.part!=='whole_plant')continue;
+      if(r?.part!=='whole_plant'||!r.image_path||!['verified','verified-external'].includes(r.verification_status))continue;
       const key=String(r.plant_id);if(!approved.has(key))approved.set(key,r);
     }
     list.querySelectorAll('img[data-botanical]').forEach(img=>{
-      const card=img.closest('[data-plant-id],.plant-card,article,li')||img.parentElement;
-      const pid=img.dataset.plantId||card?.dataset?.plantId||'';
-      const r=approved.get(String(pid));
-      if(!r){img.removeAttribute('src');img.alt=(img.alt||'Plant')+' — verified whole-plant photograph unavailable';return;}
-      img.src=r.image_path;img.dataset.verified='true';img.dataset.source=r.source_url;img.title='Verified exact-species whole-plant photograph — '+(r.source_name||'source');
-      img.addEventListener('error',()=>{img.removeAttribute('src');img.alt=(img.alt||'Plant')+' — approved image unavailable';},{once:true});
+      const pid=plantId(img),r=approved.get(pid);
+      if(!r){img.removeAttribute('src');img.alt=(img.alt||'Plant')+' — verified exact-species photograph unavailable';return;}
+      img.src=r.image_path;img.dataset.verified='true';img.dataset.source=r.source_url;img.title='✓ Exact species verified • Whole plant • '+(r.source_name||'verified source');
+      img.addEventListener('error',()=>{img.removeAttribute('src');img.alt=(img.alt||'Plant')+' — approved photograph unavailable';},{once:true});
     });
   }
-  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',verify);else verify();
-  const target=document.getElementById('plant-list')||document.body;new MutationObserver(()=>verify()).observe(target,{childList:true,subtree:true});
+  const run=()=>setTimeout(verify,100);
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',run);else run();
+  const target=document.getElementById('plant-list')||document.body;new MutationObserver(run).observe(target,{childList:true,subtree:true});
 })();
