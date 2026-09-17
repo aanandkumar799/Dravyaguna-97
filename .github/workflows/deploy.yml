@@ -66,7 +66,7 @@ jobs:
               if '<script src="academic-verification.js" defer></script>' not in s: s=s.replace('</body>','<script src="academic-verification.js" defer></script>\n</body>',1)
               if '<script src="verified-botanical-images.js" defer></script>' not in s: s=s.replace('</body>','<script src="verified-botanical-images.js" defer></script>\n</body>',1)
             if filename=='practical-lab.html' and '<script src="practical-lab-enhanced.js" defer></script>' not in s: s=s.replace('</body>','<script src="practical-lab-enhanced.js" defer></script>\n</body>',1)
-            if filename=='references.html' and '<script src="classical-references-enhanced.js" defer></script>' not in s: s=s.replace('</body>','<script src="classical-references-enhanced.js" defer></body>',1)
+            if filename=='references.html' and '<script src="classical-references-enhanced.js" defer></script>' not in s: s=s.replace('</body>','<script src="classical-references-enhanced.js" defer></script>\n</body>',1)
             p.write_text(s,encoding='utf-8')
           p=root/'plant.html'; s=p.read_text(encoding='utf-8'); s=s.replace("fetch(new URL('plants.json',location.href),{cache:'no-store',headers:{Accept:'application/json'}}).then","fetch(new URL('data/plants/'+encodeURIComponent(id)+'.json',location.href),{cache:'no-store',headers:{Accept:'application/json'}}).then",1)
           if '<link rel="stylesheet" href="plant-dossier-layout.css">' not in s: s=s.replace('</head>','<link rel="stylesheet" href="plant-dossier-layout.css">\n</head>',1)
