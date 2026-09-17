@@ -19,7 +19,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
-      - name: Validate modular database and generate index
+      - name: Validate database and generate artifacts
         run: |
           python scripts/generate-site-artifacts.py
           python scripts/public-readiness.py
@@ -27,72 +27,43 @@ jobs:
       - name: Prepare static site
         shell: bash
         run: |
-          rm -rf _site
-          mkdir -p _site
+          rm -rf _site && mkdir -p _site
           tar --exclude='./.git' --exclude='./.github' --exclude='./_site' -cf - . | tar -xf - -C _site
+          curl -fsSL 'https://raw.githubusercontent.com/aanandkumar799/Dravyaguna-97/f2da96c8ad2ec518246ca1d2fdcf60bf0d2f4f84/favicon-exact.jpg' -o _site/favicon-exact.jpg
           python - <<'PY'
-          import json, re, os
+          import json,re,os
           from pathlib import Path
           root=Path('_site')
           db=root/'data'/'plants'
-          files=[p for p in db.glob('*.json') if p.name not in {'index.json','schema.json'}]
-          records=[json.loads(p.read_text(encoding='utf-8')) for p in files]
+          records=[json.loads(p.read_text(encoding='utf-8')) for p in db.glob('*.json') if p.name not in {'index.json','schema.json'}]
           core=[p for p in records if p.get('category')=='NCISM-97' and 1<=int(p.get('order',0))<=97]
           assert len(core)==97, f'Expected 97 NCISM records, found {len(core)}'
-          index=json.loads((root/'plant-index.json').read_text(encoding='utf-8'))
-          assert len(index.get('plants',[]))==97, 'Generated index must contain exactly the 97 canonical NCISM records'
-          pages=['index.html','plants.html','plant.html','compare.html','quiz.html','viva.html','progress.html','rasa.html','reference-library.html','practical-lab.html','references.html','data-quality.html','404.html']
+          idx=json.loads((root/'plant-index.json').read_text(encoding='utf-8'))
+          assert len(idx.get('plants',[]))==97, 'Generated index must contain exactly 97 canonical records'
           for page in root.rglob('*.html'):
               html=page.read_text(encoding='utf-8')
               html=re.sub(r'<link[^>]+rel=["\'](?:icon|shortcut icon|apple-touch-icon)["\'][^>]*>', '', html, flags=re.I)
-              rel_svg=Path(os.path.relpath(root/'favicon.svg', page.parent)).as_posix()
-              html=html.replace('</head>',f'<link rel="icon" type="image/svg+xml" href="{rel_svg}">\n</head>',1)
-              rel_theme=Path(os.path.relpath(root/'site-theme.css', page.parent)).as_posix()
-              if f'<link rel="stylesheet" href="{rel_theme}">' not in html:
-                  html=html.replace('</head>',f'<link rel="stylesheet" href="{rel_theme}">\n</head>',1)
-              if page.name in pages and '<link rel="manifest"' not in html:
-                  html=html.replace('</head>','<link rel="manifest" href="manifest.json"><meta name="theme-color" content="#1b4332">\n</head>',1)
-              if page.name in pages and "navigator.serviceWorker.register('./sw.js')" not in html:
-                  html=html.replace('</body>',"<script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));}</script>\n</body>",1)
-              if page.name in pages and '<script src="public-seo.js" defer></script>' not in html:
-                  html=html.replace('</body>','<script src="public-seo.js" defer></script>\n</body>',1)
-              rel_theme_js=Path(os.path.relpath(root/'site-theme.js', page.parent)).as_posix()
-              if f'<script src="{rel_theme_js}" defer></script>' not in html:
-                  html=html.replace('</body>',f'<script src="{rel_theme_js}" defer></script>\n</body>',1)
+              rel_fav=Path(os.path.relpath(root/'favicon-exact.jpg',page.parent)).as_posix()
+              html=html.replace('</head>',f'<link rel="icon" type="image/jpeg" href="{rel_fav}"><link rel="apple-touch-icon" href="{rel_fav}">\n</head>',1)
+              rel_css=Path(os.path.relpath(root/'site-theme.css',page.parent)).as_posix()
+              if f'<link rel="stylesheet" href="{rel_css}">' not in html: html=html.replace('</head>',f'<link rel="stylesheet" href="{rel_css}">\n</head>',1)
+              rel_js=Path(os.path.relpath(root/'site-theme.js',page.parent)).as_posix()
+              if f'<script src="{rel_js}" defer></script>' not in html: html=html.replace('</body>',f'<script src="{rel_js}" defer></script>\n</body>',1)
               if page.name=='plant.html':
-                  if '<link rel="stylesheet" href="plant-dossier-layout.css">' not in html:
-                      html=html.replace('</head>','<link rel="stylesheet" href="plant-dossier-layout.css">\n</head>',1)
+                  if '<link rel="stylesheet" href="plant-dossier-layout.css">' not in html: html=html.replace('</head>','<link rel="stylesheet" href="plant-dossier-layout.css">\n</head>',1)
                   for src in ['cover-image-fix.js','dossier-fallback.js','image-gallery-delay.js','academic-verification.js','strict-gallery-guard.js']:
-                      if f'<script src="{src}" defer></script>' not in html:
-                          html=html.replace('</body>',f'<script src="{src}" defer></script>\n</body>',1)
-              if page.name=='plants.html' and '<script src="flashcard-entry.js" defer></script>' not in html:
-                  html=html.replace('</body>','<script src="flashcard-entry.js" defer></script>\n</body>',1)
-              if page.name=='practical-lab.html' and '<script src="practical-lab-enhanced.js" defer></script>' not in html:
-                  html=html.replace('</body>','<script src="practical-lab-enhanced.js" defer></script>\n</body>',1)
-              if page.name=='references.html' and '<script src="classical-references-enhanced.js" defer></script>' not in html:
-                  html=html.replace('</body>','<script src="classical-references-enhanced.js" defer></script>\n</body>',1)
+                      if f'<script src="{src}" defer></script>' not in html: html=html.replace('</body>',f'<script src="{src}" defer></script>\n</body>',1)
+              if page.name=='plants.html' and '<script src="flashcard-entry.js" defer></script>' not in html: html=html.replace('</body>','<script src="flashcard-entry.js" defer></script>\n</body>',1)
+              if page.name=='practical-lab.html' and '<script src="practical-lab-enhanced.js" defer></script>' not in html: html=html.replace('</body>','<script src="practical-lab-enhanced.js" defer></script>\n</body>',1)
+              if page.name=='references.html' and '<script src="classical-references-enhanced.js" defer></script>' not in html: html=html.replace('</body>','<script src="classical-references-enhanced.js" defer></script>\n</body>',1)
               if page.name=='index.html' and 'data-verification-gate="required"' not in html:
                   html=html.replace('<form class="review-form" id="reviewForm">','<form class="review-form" id="reviewForm" data-verification-gate="required">',1)
-                  guard="""
-<script>
-(function(){
-  var form=document.getElementById('reviewForm');
-  if(!form)return;
-  form.setAttribute('data-verification-status','required');
-  var button=document.getElementById('reviewSubmit');
-  var status=document.getElementById('reviewStatus');
-  if(button){button.disabled=true;button.innerHTML='<span>🔐 Verification Required</span>';button.title='Verified account required before submitting a review';}
-  if(status){status.className='review-status error';status.style.display='block';status.textContent='Reviews are locked until account/email verification is completed. No unverified comment can be submitted.';}
-  form.addEventListener('submit',function(e){e.preventDefault();e.stopImmediatePropagation();return false;},true);
-})();
-</script>
-"""
+                  guard='''<script>(function(){var f=document.getElementById('reviewForm');if(!f)return;f.setAttribute('data-verification-status','required');var b=document.getElementById('reviewSubmit');var s=document.getElementById('reviewStatus');if(b){b.disabled=true;b.innerHTML='<span>🔐 Verification Required</span>';b.title='Verified account required before submitting a review'}if(s){s.className='review-status error';s.style.display='block';s.textContent='Reviews are locked until account/email verification is completed. No unverified comment can be submitted.'}f.addEventListener('submit',function(e){e.preventDefault();e.stopImmediatePropagation();return false},true)})();</script>\n'''
                   html=html.replace('</body>',guard+'</body>',1)
               page.write_text(html,encoding='utf-8')
-          manifest=root/'manifest.json'
-          m=json.loads(manifest.read_text(encoding='utf-8'))
-          m['icons']=[{'src':'favicon.svg','sizes':'192x192','type':'image/svg+xml','purpose':'any maskable'}]
-          manifest.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          m=json.loads((root/'manifest.json').read_text(encoding='utf-8'))
+          m['icons']=[{'src':'favicon-exact.jpg','sizes':'128x128','type':'image/jpeg','purpose':'any'}]
+          (root/'manifest.json').write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
           (root/'.nojekyll').touch()
           PY
       - name: Upload Pages artifact
