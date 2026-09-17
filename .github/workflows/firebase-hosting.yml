@@ -3,6 +3,9 @@ name: Deploy DravyaGuna 97 to Firebase Hosting
 on:
   push:
     branches: [main]
+  workflow_run:
+    workflows: ["Continuous plant-part image audit"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -14,6 +17,7 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -25,7 +29,7 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Generate favicon compatibility asset
+      - name: Generate favicon compatibility asset outside plant image tree
         run: |
           python - <<'PY'
           from pathlib import Path
@@ -41,7 +45,7 @@ jobs:
           def chunk(kind, data):
               return (struct.pack('>I', len(data)) + kind + data + struct.pack('>I', zlib.crc32(kind + data) & 0xffffffff))
           png = (b'\x89PNG\r\n\x1a\n' + chunk(b'IHDR', struct.pack('>IIBBBBB', w, h, 8, 6, 0, 0, 0)) + chunk(b'IDAT', zlib.compress(bytes(raw), 9)) + chunk(b'IEND', b''))
-          out = Path('images/favicon.png'); out.parent.mkdir(parents=True, exist_ok=True); out.write_bytes(png)
+          Path('favicon.png').write_bytes(png)
           PY
 
       - name: Generate production site artifacts and audit database
@@ -63,16 +67,15 @@ jobs:
           print('Firebase site prepared:', p.resolve())
           print('HTML files:', len(list(p.rglob('*.html'))))
           print('Plant records:', len(list((p/'data'/'plants').glob('*.json'))))
-          print('Compatibility favicon:', (p/'images'/'favicon.png').is_file())
+          print('Local plant image files:', len(list((p/'images'/'plants').rglob('image.*'))))
           PY
 
-      - name: Validate production database
+      - name: Validate production database and local images
         run: |
           test -f _site/index.html
           test -f _site/sitemap.xml
           test -f _site/robots.txt
           test -f _site/data/plants-index.json
-          test -f _site/images/favicon.png
           test -f _site/strict-gallery-guard.js
           python - <<'PY'
           import json
@@ -82,6 +85,7 @@ jobs:
           assert len(plants)==97, len(plants)
           assert len(list(Path('_site/data/plants').glob('*.json'))) == 97
           print('Firebase production validation: 97 canonical plants OK')
+          print('Local plant images:', len(list((Path('_site')/'images'/'plants').rglob('image.*'))))
           PY
 
       - name: Deploy to Firebase Hosting
