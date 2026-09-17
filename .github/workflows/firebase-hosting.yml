@@ -60,9 +60,9 @@ jobs:
         run: |
           rm -rf _site
           mkdir -p _site
-          cp -R . _site/
-          rm -rf _site/.git _site/.github _site/_site
+          rsync -a --exclude '_site' --exclude '.git' --exclude '.github' ./ _site/
           cp plant-index.json _site/data/plants-index.json
+          sed -i 's#https://aanandkumar799.github.io/Dravyaguna-97/#https://dravyaguna-97.web.app/#g' _site/sitemap.xml _site/robots.txt
           python - <<'PY'
           from pathlib import Path
           p = Path('_site')
