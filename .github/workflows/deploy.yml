@@ -46,9 +46,12 @@ jobs:
               html=re.sub(r'<link[^>]+rel=["\'](?:icon|shortcut icon|apple-touch-icon)["\'][^>]*>', '', html, flags=re.I)
               rel_fav=Path(os.path.relpath(root/'favicon-exact.jpg',page.parent)).as_posix()
               html=html.replace('</head>',f'<link rel="icon" type="image/jpeg" href="{rel_fav}"><link rel="apple-touch-icon" href="{rel_fav}">\n</head>',1)
-              for asset in ['site-theme.css','feedback.css']:
+              # Shared site theme is injected into every page so new pages inherit the same theme automatically.
+              # Page-specific styles (for example feedback.css) are loaded only by the page that owns them.
+              for asset in ['site-theme.css']:
                   rel=Path(os.path.relpath(root/asset,page.parent)).as_posix()
-                  if f'<link rel="stylesheet" href="{rel}">' not in html: html=html.replace('</head>',f'<link rel="stylesheet" href="{rel}">\n</head>',1)
+                  pat=r'''<link[^>]+rel=["']stylesheet["'][^>]+href=["']''' + re.escape(rel) + r'''(?:\?[^"']*)?["'][^>]*>'''
+                  if not re.search(pat,html,re.I): html=html.replace('</head>',f'<link rel="stylesheet" href="{rel}">\n</head>',1)
               for asset in ['feedback-config.js','site-theme.js','feedback.js']:
                   rel=Path(os.path.relpath(root/asset,page.parent)).as_posix()
                   # Treat versioned/query-string script tags as already present; avoid duplicate execution.
