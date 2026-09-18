@@ -1,40 +1,31 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    function isAdmin() {
-      return request.auth != null
-        && request.auth.token.email == 'aanandkumar799@gmail.com'
-        && request.auth.token.email_verified == true;
-    }
-    function isVerifiedGoogle() {
+    function verifiedGoogle() {
       return request.auth != null
         && request.auth.token.firebase.sign_in_provider == 'google.com'
         && request.auth.token.email_verified == true;
     }
-    function validReview() {
-      return isVerifiedGoogle()
-        && request.resource.data.user.uid == request.auth.uid
-        && request.resource.data.authProvider == 'google.com'
-        && request.resource.data.status == 'new'
+
+    match /reviews/{reviewId} {
+      allow create: if verifiedGoogle()
+        && request.resource.data.keys().hasAll([
+          'category','rating','message','status','authProvider','user','context','createdAt'
+        ])
         && request.resource.data.category in ['suggestion','correction','image','technical','other']
-        && request.resource.data.rating is int
         && request.resource.data.rating >= 1
         && request.resource.data.rating <= 5
         && request.resource.data.message is string
         && request.resource.data.message.size() >= 3
-        && request.resource.data.message.size() <= 2000;
+        && request.resource.data.message.size() <= 2000
+        && request.resource.data.status == 'new'
+        && request.resource.data.authProvider == 'google.com'
+        && request.resource.data.user.uid == request.auth.uid;
+      allow read, update, delete: if false;
     }
-    match /reviews/{reviewId} {
-      allow create: if validReview();
-      allow read: if isAdmin();
-      allow update, delete: if isAdmin();
-    }
+
     match /reviewUsers/{uid} {
-      allow create, update: if isVerifiedGoogle()
-        && request.auth.uid == uid
-        && request.resource.data.uid == request.auth.uid
-        && request.resource.data.emailVerified == true;
-      allow read, delete: if isAdmin();
+      allow read, write: if false;
     }
   }
 }
