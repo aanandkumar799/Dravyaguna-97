@@ -21,12 +21,12 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "small to medium-sized tree",
+    "habitat": "Tropical forests of India and Southeast Asia",
+    "distribution": "Tropical forests of India and Southeast Asia"
   },
   "identification": {
-    "description": "",
+    "description": "Tree with opposite glossy leaves, greenish-white flowers and orange-red berries containing disc-like seeds.",
     "whole_plant": "",
     "root": "",
     "stem": "",
@@ -35,7 +35,11 @@
     "fruit": "",
     "seed": "",
     "bark": "",
-    "identification_points": []
+    "identification_points": [
+      "Leaves are opposite and elliptic.",
+      "Fruit is globose and orange-red.",
+      "Seeds are flattened, disc-like and densely silky-haired."
+    ]
   },
   "images": {
     "whole_plant": "",
@@ -163,10 +167,10 @@
     }
   ],
   "metadata": {
-    "status": "supplementary_needs_source_verification",
+    "status": "supplementary_botanical_enriched_needs_classical_verification",
     "source_batch": "Gemini batch 95",
     "version": "1.0",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+    "last_enrichment": "structured botanical identification enrichment"
   }
 }
