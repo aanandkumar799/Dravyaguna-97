@@ -166,3 +166,20 @@ html[data-theme="dark"] .plant-mini .botanical{color:#aebfb6!important}
 html[data-theme="dark"] .plant-num,html[data-theme="dark"] .plant-badge{background:#20372c!important;color:#c9f2d8!important}
 html[data-theme="dark"] .search-box{background:#f8faf9!important}
 html[data-theme="dark"] .hero-note{color:#b8d9c5!important}
+
+/* Homepage theme control: fixed to the upper-right of the header */
+.site-header .header-inner{position:relative;padding-right:170px}
+.site-header .header-inner>#dgThemeToggle{position:absolute!important;right:22px;top:10px;z-index:4}
+html[data-theme="dark"] .site-header .header-inner>#dgThemeToggle{background:#172820!important;color:#edf7f0!important;border-color:#466353!important}
+html[data-theme="dark"] .source{background:#111c18!important;color:#edf7f0!important;border-color:#2a3d34!important}
+html[data-theme="dark"] .source h3{color:#edf7f0!important}
+html[data-theme="dark"] .source p{color:#b8c9c0!important}
+html[data-theme="dark"] .source-go{color:#9be4b4!important}
+html[data-theme="dark"] .dg-feedback-card,html[data-theme="dark"] .dg-feedback-panel{background:#111c18!important;color:#edf7f0!important;border-color:#2a3d34!important}
+html[data-theme="dark"] .dg-feedback-copy h2{color:#edf7f0!important}
+html[data-theme="dark"] .dg-feedback-copy p{color:#b8c9c0!important}
+html[data-theme="dark"] .dg-feedback-badge,html[data-theme="dark"] .dg-feedback-points span,html[data-theme="dark"] .dg-feedback-login{background:#172820!important;color:#dcebe2!important;border-color:#354b40!important}
+html[data-theme="dark"] .dg-field label{color:#edf7f0!important}
+html[data-theme="dark"] .dg-field input,html[data-theme="dark"] .dg-field select,html[data-theme="dark"] .dg-field textarea{background:#0b1511!important;color:#f1faf4!important;border-color:#3a5145!important}
+@media(max-width:950px){.site-header .header-inner{padding-right:170px}}
+@media(max-width:650px){.site-header .header-inner{padding-right:70px}.site-header .header-inner>#dgThemeToggle{right:14px;top:11px}.site-header .nav{padding-right:0}}
