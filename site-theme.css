@@ -105,3 +105,28 @@ html[data-theme="dark"] body .quick-link:hover,html[data-theme="dark"] body .qui
   .site-header .nav a{padding:7px 8px;font-size:.84rem}
   .site-header .nav #dgThemeToggle.nav-theme-toggle{min-width:38px}
 }
+
+/* Supplementary cards: keep the entire card readable in dark mode */
+html[data-theme="dark"] .supplementary-card{
+  background:#111c18!important;
+  border-color:#3b5147!important;
+  box-shadow:0 12px 30px rgba(0,0,0,.28)!important;
+}
+html[data-theme="dark"] .supplementary-card-content{
+  background:#111c18!important;
+  color:#edf7f0!important;
+}
+html[data-theme="dark"] .supplementary-card h3{color:#f8fafc!important}
+html[data-theme="dark"] .supplementary-card p,
+html[data-theme="dark"] .supplementary-card .supplementary-english,
+html[data-theme="dark"] .supplementary-card .supplementary-family{color:#dbe7df!important}
+html[data-theme="dark"] .supplementary-card .supplementary-botanical{color:#cbd5e1!important}
+html[data-theme="dark"] .supplementary-card .supplementary-number{background:#19372a!important;color:#d9f7e5!important}
+html[data-theme="dark"] .supplementary-card .supplementary-marker{background:#3a3019!important;color:#ffe5a3!important}
+html[data-theme="dark"] .supplementary-card .favorite-btn{background:#0d1814!important;color:#e2f4e8!important;border-color:#466353!important}
+html[data-theme="dark"] .supplementary-card .favorite-btn.active{background:#3a3019!important;color:#ffe08a!important;border-color:#8a6b2a!important}
+html[data-theme="dark"] .supplementary-card .view-plant{background:#318b5d!important;color:#fff!important;border-color:#6fcf97!important}
+html[data-theme="dark"] .supplementary-card .view-plant:hover,
+html[data-theme="dark"] .supplementary-card .view-plant:focus-visible{background:#3fae73!important;color:#fff!important}
+/* The image/header intentionally remains a pale visual canvas; keep its boundary clear. */
+html[data-theme="dark"] .supplementary-image{background:#eaf2eb!important}
