@@ -81,8 +81,20 @@ jobs:
           umask 077
           printf '%s' "$FIREBASE_SERVICE_ACCOUNT" > "$RUNNER_TEMP/firebase-service-account.json"
           echo "GOOGLE_APPLICATION_CREDENTIALS=$RUNNER_TEMP/firebase-service-account.json" >> "$GITHUB_ENV"
+          FIREBASE_PROJECT_ID="$(python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path("$RUNNER_TEMP/firebase-service-account.json").read_text(encoding="utf-8"))
+          project_id = data.get("project_id", "").strip()
+          if not project_id:
+              raise SystemExit("Firebase service-account JSON does not contain project_id.")
+          print(project_id)
+          PY
+          )"
+          echo "FIREBASE_PROJECT_ID=$FIREBASE_PROJECT_ID" >> "$GITHUB_ENV"
+          echo "Firebase project from service account: $FIREBASE_PROJECT_ID"
       - name: Deploy Firebase Hosting and Firestore rules
-        run: npx --yes firebase-tools@latest deploy --project dravya-guna-97 --only hosting,firestore:rules --non-interactive
+        run: npx --yes firebase-tools@latest deploy --project "$FIREBASE_PROJECT_ID" --only hosting,firestore:rules --non-interactive
       - name: Remove Firebase credentials
         if: always()
         run: rm -f "$RUNNER_TEMP/firebase-service-account.json"
