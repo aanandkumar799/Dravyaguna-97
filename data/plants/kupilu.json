@@ -104,25 +104,28 @@
   },
   "phytochemistry": {
     "major_constituents": [],
-    "chemical_notes": "Phytochemical field intentionally left without a compound list until source-level verification is completed."
+    "chemical_notes": "Phytochemical compound list remains source-verification pending; do not treat an unverified compound list as authoritative."
   },
   "modern_information": {
     "evidence_summary": "Strychnos nux-vomica (Nux vomica) is a highly toxic herb used in purified, minute doses to stimulate the nervous system and digestion.",
     "recognized_uses": [
       "Botanical identification and pharmacognosy/dravyaguna education."
     ],
-    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use.",
+    "safety_notes": "Educational reference only. Verify authoritative toxicological and pharmacopoeial guidance before use.",
     "sources": []
   },
   "student": {
     "exam_points": [
       "Botanical identity: Strychnos nux-vomica L.",
       "Family: Loganiaceae",
-      "Key identification: Leaves are opposite and elliptic. Fruit is globose and orange-red. Seeds are flattened, disc-like and densely silky-haired."
+      "Key identification: Leaves are opposite and elliptic. Fruit is globose and orange-red. Seeds are flattened, disc-like and densely silky-haired.",
+      "Botanical identity: Strychnos nux-vomica L.; Family: Loganiaceae; drug material is associated with the seed."
     ],
     "viva_questions": [
       "What is the botanical name and family of Kupilu?",
-      "Which morphological characters help identify Kupilu?"
+      "Which morphological characters help identify Kupilu?",
+      "What is the botanical identity and family of Kupilu?",
+      "Which characters are useful for practical identification of Kupilu?"
     ],
     "identification_points": [
       "Leaves are opposite and elliptic.",
@@ -130,11 +133,13 @@
       "Seeds are flattened, disc-like and densely silky-haired."
     ],
     "mnemonics": [],
-    "quick_revision": "Strychnos nux-vomica (Nux vomica) is a highly toxic herb used in purified, minute doses to stimulate the nervous system and digestion."
+    "quick_revision": "Kupilu — Strychnos nux-vomica L. is an accepted Kew species native from India to northern Peninsular Malaysia; it is a toxic medicinal plant."
   },
   "teacher": {
     "teaching_points": [
-      "Retained as supplementary material from Gemini batch 95."
+      "Retained as supplementary material from Gemini batch 95.",
+      "Use Kupilu to teach identification alongside explicit toxicity and source-verification documentation.",
+      "Separate botanical evidence from classical-text claims that remain unverified."
     ],
     "discussion_points": [
       "Compare the diagnostic characters of Kupilu with closely related or commonly substituted drugs.",
@@ -142,7 +147,9 @@
     ],
     "practical_points": [
       "Observe the diagnostic characters in authenticated material or herbarium specimens.",
-      "Record plant part used and identification basis separately."
+      "Record plant part used and identification basis separately.",
+      "Use authenticated material or herbarium specimens for practical identification.",
+      "Record plant part and identification basis separately."
     ]
   },
   "doctor": {
@@ -159,7 +166,9 @@
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references.",
-      "Toxicity risk: do not infer a clinical dose from this educational record."
+      "Toxicity risk: do not infer a clinical dose from this educational record.",
+      "Do not infer clinical dose from this educational record.",
+      "Verify current toxicological and pharmacopoeial guidance before clinical use."
     ]
   },
   "sources": [
