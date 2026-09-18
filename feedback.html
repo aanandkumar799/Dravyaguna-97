@@ -3,133 +3,109 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Send suggestions, corrections, bug reports and feature requests for DravyaGuna 97.">
-<meta name="theme-color" content="#1b4332">
+<meta name="description" content="Verified feedback form for DravyaGuna 97. Sign in with Google to submit suggestions, corrections and technical issues.">
+<meta name="theme-color" content="#1b4332" id="themeColor">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="site-theme.css?v=10">
-<title>Feedback | DravyaGuna 97</title>
-<script src="site-theme.js?v=1" defer></script>
+<link rel="stylesheet" href="site-theme.css?v=14">
+<link rel="stylesheet" href="feedback.css?v=1">
+<script src="site-theme.js?v=2" defer></script>
+<title>Share Feedback | DravyaGuna 97</title>
 </head>
 <body>
 <header class="site-header">
   <div class="header-inner">
-    <a class="brand" href="index.html">🌿 DravyaGuna 97</a>
+    <a class="brand" href="index.html" aria-label="DravyaGuna 97 home">🌿 DravyaGuna 97</a>
     <nav class="nav" aria-label="Primary navigation">
       <a href="index.html">Home</a>
-      <a href="plants.html">Plant Library</a>
-      <a href="practical-lab.html">Practical Lab</a>
-      <a href="reference-library.html">References</a>
-      <a href="compare.html">Compare</a>
-      <a href="quiz.html">Quiz</a>
+      <a href="plants.html">🌿 Plant Series</a>
+      <a href="practical-lab.html">🧪 Practical Lab</a>
+      <a href="reference-library.html">📚 References</a>
+      <a href="compare.html">⚖️ Compare</a>
+      <a href="quiz.html">🧠 Quiz</a>
+      <a href="supplementary.html">🌱 Supplementary</a>
     </nav>
   </div>
 </header>
-<main style="max-width:1180px;margin:auto;padding:30px 22px">
-  <section id="reviews" class="review-section" aria-label="Suggestion and feedback form">
-  <div class="dg-feedback-card">
-    <div class="dg-feedback-copy">
-      <span class="dg-feedback-badge">💬 SUGGESTIONS & FEEDBACK</span>
-      <h2>Help Improve DravyaGuna 97</h2>
-      <p>Have a suggestion, found an error, or want a new study feature? Use this form to send it to us.</p>
-      <div class="dg-feedback-points" aria-label="Feedback categories">
-        <span>🌿 Content</span>
-        <span>🛠️ Website</span>
-        <span>💡 Ideas</span>
-      </div>
+<main class="feedback-page">
+  <section class="feedback-hero">
+    <p class="eyebrow">Dravyaguna 97 • Verified feedback</p>
+    <h1>Share your feedback</h1>
+    <p>Help improve plant data, classical references, identification, formulations and website usability.</p>
+  </section>
+  <section class="feedback-card" aria-labelledby="form-title">
+    <div class="feedback-intro">
+      <span class="badge">✓ Google account required</span>
+      <h2 id="form-title">Tell us what should be improved</h2>
+      <p>Your Google account is used to verify the submission. Anonymous feedback is not accepted.</p>
+      <ul>
+        <li>Suggestions and corrections are welcome.</li>
+        <li>Choose an area when your feedback concerns a specific part of the site.</li>
+        <li>Please avoid sharing passwords, private medical information or other sensitive personal data.</li>
+      </ul>
     </div>
-    <div class="dg-feedback-panel">
+    <div class="feedback-panel">
       <div id="dgLogin"></div>
-      <form id="dgFeedbackForm" aria-label="Suggestion and feedback form" novalidate>
-        <div class="dg-feedback-grid">
-          <div class="dg-field">
-            <label for="dgCategory">What would you like to share? <span>*</span></label>
-            <select id="dgCategory" required>
-              <option value="content">Content correction / missing information</option>
-              <option value="bug">Website bug / broken link</option>
-              <option value="feature">New feature suggestion</option>
-              <option value="general">General suggestion</option>
-            </select>
-          </div>
-          <div class="dg-field">
-            <label for="dgCorrection">Related area</label>
-            <select id="dgCorrection">
-              <option value="">Select an area</option>
-              <option>Plant Library</option>
-              <option>Plant identification / Practical Lab</option>
-              <option>Classical references</option>
-              <option>Rasa Panchaka</option>
-              <option>Quiz / Viva / Revision</option>
-              <option>Compare tool</option>
-              <option>Mobile / Website design</option>
-              <option>Other</option>
-            </select>
-          </div>
-          <div class="dg-field full">
-            <label for="dgMessage">Your suggestion or feedback <span>*</span></label>
-            <textarea id="dgMessage" maxlength="2000" required placeholder="Tell us what should be corrected, added or improved…"></textarea>
-            <div class="dg-field-meta"><span>Please be as specific as possible.</span><span><b id="dgCount">0</b>/2000</span></div>
-          </div>
-          <div class="dg-field">
-            <label for="dgRating">How useful is the website for you? <span>*</span></label>
-            <div class="dg-rating" role="radiogroup" aria-label="Website usefulness">
-              <button type="button" role="radio" aria-checked="false" data-rating="1" aria-label="1 star">★</button>
-              <button type="button" role="radio" aria-checked="false" data-rating="2" aria-label="2 stars">★</button>
-              <button type="button" role="radio" aria-checked="false" data-rating="3" aria-label="3 stars">★</button>
-              <button type="button" role="radio" aria-checked="false" data-rating="4" aria-label="4 stars">★</button>
-              <button type="button" role="radio" aria-checked="false" data-rating="5" aria-label="5 stars">★</button>
+      <form id="dgFeedbackForm" class="feedback-form" novalidate>
+        <fieldset id="dgFields" disabled>
+          <div class="form-grid">
+            <div class="field">
+              <label for="dgCategory">Feedback category <span>*</span></label>
+              <select id="dgCategory" required>
+                <option value="suggestion">Suggestion</option>
+                <option value="correction">Data correction</option>
+                <option value="image">Image / identification</option>
+                <option value="technical">Technical issue</option>
+                <option value="other">Other</option>
+              </select>
             </div>
-            <input type="hidden" id="dgRating" value="0">
+            <div class="field">
+              <label for="dgCorrection">Area</label>
+              <select id="dgCorrection">
+                <option value="">Select if applicable</option>
+                <option value="plant-data">Plant data</option>
+                <option value="classical-reference">Classical reference</option>
+                <option value="formulation">Formulation</option>
+                <option value="identification">Plant identification</option>
+                <option value="image">Image</option>
+                <option value="website">Website / UI</option>
+              </select>
+            </div>
+            <div class="field full">
+              <label>Overall usefulness <span>*</span></label>
+              <div class="rating" role="radiogroup" aria-label="Overall usefulness">
+                <button type="button" data-rating="1" role="radio" aria-checked="false" aria-label="1 star">★</button>
+                <button type="button" data-rating="2" role="radio" aria-checked="false" aria-label="2 stars">★</button>
+                <button type="button" data-rating="3" role="radio" aria-checked="false" aria-label="3 stars">★</button>
+                <button type="button" data-rating="4" role="radio" aria-checked="false" aria-label="4 stars">★</button>
+                <button type="button" data-rating="5" role="radio" aria-checked="false" aria-label="5 stars">★</button>
+              </div>
+              <input id="dgRating" type="hidden" value="0">
+            </div>
+            <div class="field full">
+              <label for="dgMessage">Your feedback <span>*</span></label>
+              <textarea id="dgMessage" maxlength="2000" required placeholder="Describe your suggestion, correction or issue…"></textarea>
+              <div class="counter"><span id="dgCount">0</span>/2000</div>
+            </div>
+            <div class="field full">
+              <button id="dgSubmit" class="submit-btn" type="submit">Send feedback →</button>
+              <div id="dgStatus" class="status" role="status" aria-live="polite"></div>
+            </div>
           </div>
-          <div class="dg-field">
-            <label for="dgEmail">Email</label>
-            <input id="dgEmail" type="email" placeholder="Sign in with Google to continue" readonly>
-          </div>
-        </div>
-        <button type="submit" class="dg-submit" id="dgSubmit"><span>Send Suggestion</span><span aria-hidden="true">→</span></button>
-        <div id="dgStatus" class="dg-status" role="status" aria-live="polite"></div>
+        </fieldset>
       </form>
-      <noscript><p class="dg-status show err">Please enable JavaScript to submit this suggestion form.</p></noscript>
     </div>
-  </div>
-</section>
+  </section>
 </main>
 <footer class="footer">
-  <p><strong>DravyaGuna 97</strong></p>
-  <p><a href="index.html">← Back to Home</a></p>
-  <p>BAMS Dravyaguna learning and reference portal.</p>
+  <div class="footer-inner">
+    <div><strong>🌿 DravyaGuna 97</strong><br><small>BAMS 2nd Professional Dravyaguna learning portal.</small></div>
+    <small><a href="index.html">← Return to homepage</a></small>
+  </div>
 </footer>
-<script>
-(function(){
-  function bindFeedbackRating(){
-    document.querySelectorAll('.dg-rating button').forEach(function(btn){
-      if(btn.dataset.ratingBound==='1')return;
-      btn.dataset.ratingBound='1';
-      btn.addEventListener('click',function(){
-        var n=Number(btn.dataset.rating),input=document.getElementById('dgRating');
-        if(input)input.value=n;
-        document.querySelectorAll('.dg-rating button').forEach(function(b){
-          var active=Number(b.dataset.rating)<=n;
-          b.classList.toggle('active',active);
-          b.setAttribute('aria-checked',Number(b.dataset.rating)===n?'true':'false');
-        });
-      });
-    });
-  }
-  var form=document.getElementById('dgFeedbackForm');
-  if(form)form.addEventListener('submit',function(ev){
-    if(form.dataset.bound!=='1'){
-      ev.preventDefault();
-      var s=document.getElementById('dgStatus');
-      if(s){s.textContent='The feedback system is still loading. Please wait a moment and try again.';s.className='dg-status show err';}
-    }
-  });
-  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',bindFeedbackRating);else bindFeedbackRating();
-})();
-</script>
-<script src="feedback-config.js?v=6"></script>
+<script src="feedback-config.js?v=3"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore-compat.js"></script>
-<script src="feedback.js?v=6"></script>
+<script src="feedback.js?v=4"></script>
 </body>
 </html>
