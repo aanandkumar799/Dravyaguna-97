@@ -33,7 +33,7 @@ function googleLogin(){
 }
 function openGitHubFeedback(){var cat=document.getElementById('dgCategory')?.value||'general',msg=document.getElementById('dgMessage')?.value.trim()||'',rating=document.getElementById('dgRating')?.value||'',area=document.getElementById('dgCorrection')?.value||'';var title='Website feedback: '+cat;var body='Feedback type: '+cat+'\nRating: '+rating+'/5\nArea: '+area+'\n\n'+msg+'\n\nPage: '+location.href;window.open('https://github.com/aanandkumar799/Dravyaguna-97/issues/new?title='+encodeURIComponent(title)+'&body='+encodeURIComponent(body),'_blank','noopener,noreferrer')}
 function submit(ev){
- ev.preventDefault();if(!user){openGitHubFeedback();status('Firebase feedback is unavailable, so the public GitHub feedback form was opened.','err');return;}
+ ev.preventDefault();if(!user||!db){openGitHubFeedback();status('Online submission is unavailable, so the public feedback form was opened.','ok');return;}
  var rating=Number(document.getElementById('dgRating').value),message=document.getElementById('dgMessage').value.trim();
  if(!rating){document.querySelector('.dg-rating').classList.add('invalid');return status('Please select a rating.','err')}
  if(!message)return status('Please enter your feedback details.','err');
@@ -42,6 +42,6 @@ function submit(ev){
  var payload={category:document.getElementById('dgCategory').value,rating:rating,message:message.slice(0,2000),correction_area:document.getElementById('dgCorrection').value||null,user:{uid:user.uid,isAnonymous:!!user.isAnonymous,displayName:user.displayName||null,email:user.email||null,emailVerified:!!user.emailVerified,photoURL:user.photoURL||null},context:context(),status:'new',createdAt:firebase.firestore.FieldValue.serverTimestamp()};
  db.collection('reviews').add(payload).then(function(){return db.collection('reviewUsers').doc(user.uid).set({uid:user.uid,isAnonymous:!!user.isAnonymous,displayName:user.displayName||null,email:user.email||null,emailVerified:!!user.emailVerified,photoURL:user.photoURL||null,lastSubmittedAt:firebase.firestore.FieldValue.serverTimestamp()},{merge:true})}).then(function(){document.getElementById('dgFeedbackForm').reset();document.getElementById('dgRating').value='';document.getElementById('dgCount').textContent='0';document.querySelectorAll('.dg-rating button').forEach(function(x){x.classList.remove('active')});busy(false);status('Thanks! Your feedback has been submitted.','ok')}).catch(function(e){console.error('Feedback submission failed',e);busy(false);status('Could not submit feedback. Please try again.','err')})
 }
-function init(){mount();if(!configured()){status('Private feedback service is not configured. Use the public GitHub fallback above.','err');return}loadFirebase().then(function(){firebaseReady=true;loginUI()}).catch(function(e){console.error(e);status('Feedback service could not be loaded.','err')})}
+function init(){mount();if(!configured()){loginUI();status('Online feedback storage is unavailable. You can still submit through the public fallback.','err');return}loadFirebase().then(function(){firebaseReady=true;loginUI()}).catch(function(e){console.error(e);loginUI();status('Online feedback storage is unavailable right now. You can still submit through the public fallback.','err')})}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();
