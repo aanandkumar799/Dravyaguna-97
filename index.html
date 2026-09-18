@@ -112,24 +112,8 @@ main{max-width:1180px;margin:auto;padding:30px 22px}
   </div>
 </section>
 
-<section class="review-section" id="reviews">
-  <div class="review-card">
-    <div class="review-header">
-      <span class="review-badge">💬 Reviews &amp; Feedback</span>
-      <h2>Share Your Feedback</h2>
-      <p>Help improve DravyaGuna 97 by sharing your experience or suggestion.</p>
-    </div>
-    <form class="review-form" id="reviewForm">
-      <div class="form-row">
-        <div class="form-group"><label for="reviewName">Name</label><input type="text" id="reviewName" name="name" placeholder="Enter your name" autocomplete="name" maxlength="80" required></div>
-        <div class="form-group"><label for="reviewEmail">Email</label><input type="email" id="reviewEmail" name="email" placeholder="Enter your email" autocomplete="email" maxlength="120" required></div>
-      </div>
-      <div class="form-group"><label for="reviewMessage">Your Review</label><textarea id="reviewMessage" name="review" rows="6" maxlength="1000" placeholder="Write your review or feedback..." required></textarea><div class="character-count"><span id="charCount">0</span>/1000</div></div>
-      <button type="submit" class="review-submit" id="reviewSubmit"><span>Submit Review</span><span class="submit-arrow" aria-hidden="true">→</span></button>
-      <div class="review-status" id="reviewStatus" role="status" aria-live="polite"></div>
-    </form>
-  </div>
-</section>
+<section id="reviews" class="review-section" aria-label="Feedback"></section>
+
 </main>
 
 <footer class="footer">
@@ -172,34 +156,6 @@ main{max-width:1180px;margin:auto;padding:30px 22px}
     const sync=function(){let pref=null;try{pref=localStorage.getItem('dravyaguna-theme')}catch(e){}if(!pref)applyTheme(media.matches?'dark':'light')};
     if(media.addEventListener) media.addEventListener('change',sync); else if(media.addListener) media.addListener(sync);
   }
-
-  const reviewForm=document.getElementById('reviewForm');
-  const reviewMessage=document.getElementById('reviewMessage');
-  const charCount=document.getElementById('charCount');
-  const reviewStatus=document.getElementById('reviewStatus');
-  const reviewSubmit=document.getElementById('reviewSubmit');
-
-  reviewMessage.addEventListener('input',function(){charCount.textContent=reviewMessage.value.length});
-
-  reviewForm.addEventListener('submit',function(event){
-    event.preventDefault();
-    if(!reviewForm.checkValidity()){reviewForm.reportValidity();return;}
-    reviewSubmit.disabled=true;
-    const data={name:document.getElementById('reviewName').value.trim(),email:document.getElementById('reviewEmail').value.trim(),review:reviewMessage.value.trim(),date:new Date().toISOString()};
-    try{
-      const existing=JSON.parse(localStorage.getItem('dravyaguna-reviews')||'[]');
-      existing.push(data);
-      localStorage.setItem('dravyaguna-reviews',JSON.stringify(existing.slice(-20)));
-      reviewStatus.className='review-status success';
-      reviewStatus.textContent='Thank you! Your feedback has been saved on this device.';
-      reviewForm.reset();
-      charCount.textContent='0';
-    }catch(e){
-      reviewStatus.className='review-status error';
-      reviewStatus.textContent='Your browser could not save the review. Please try again.';
-    }
-    setTimeout(function(){reviewSubmit.disabled=false},500);
-  });
 
   let deferred;
   const install=document.getElementById('install');
