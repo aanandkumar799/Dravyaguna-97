@@ -1,4 +1,4 @@
-const CACHE_NAME = 'dravya-guna-97-v39-homepage-cleanup';
+const CACHE_NAME = 'dravya-guna-97-v40-homepage-series-removed';
 const APP_SHELL = [
   './','./index.html','./plants.html','./plant.html','./compare.html','./quiz.html','./viva.html','./progress.html','./rasa.html','./reference-library.html','./data-quality.html',
   './practical-lab.html','./references.html','./404.html','./style.css','./responsive-fix.css','./site-theme.css','./plant-dossier-layout.css','./cover-image-fix.js','./dossier-fallback.js','./image-gallery-delay.js',
