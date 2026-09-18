@@ -166,35 +166,42 @@
   },
   "phytochemistry": {
     "major_constituents": [],
-    "chemical_notes": "Phytochemical field intentionally left without a compound list until source-level verification is completed."
+    "chemical_notes": "Current Kew taxonomy should be displayed as a verification note rather than silently replacing the source-dataset botanical name."
   },
   "modern_information": {
     "evidence_summary": "Camphor has stimulant, antispasmodic, and antiseptic actions, used in respiratory and skin conditions.",
     "recognized_uses": [
       "Botanical identification and pharmacognosy/dravyaguna education."
     ],
-    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use.",
+    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use. Do not infer therapeutic dose from this educational record. Kew lists Cinnamomum camphora as a synonym of accepted Camphora officinarum and notes medicinal and poison uses; verify product-specific safety guidance.",
     "sources": []
   },
   "student": {
     "exam_points": [
       "Botanical identity: Cinnamomum camphora (L.) J.Presl",
       "Family: Lauraceae",
-      "Key identification: White translucent crystalline masses or powder, highly volatile at room temperature, characteristic penetrating aromatic odor, cool pungent taste followed by a cooling sensation."
+      "Key identification: White translucent crystalline masses or powder, highly volatile at room temperature, characteristic penetrating aromatic odor, cool pungent taste followed by a cooling sensation.",
+      "Recorded source identity: Cinnamomum camphora (L.) J.Presl; current Kew accepted name: Camphora officinarum Boerh. ex Fabr.",
+      "Drug material: camphor crystals; plant source and commercial camphor type should be distinguished."
     ],
     "viva_questions": [
       "What is the botanical name and family of Karpura?",
-      "Which morphological characters help identify Karpura?"
+      "Which morphological characters help identify Karpura?",
+      "What is the recorded botanical name of Karpura?",
+      "What family does Karpura belong to?",
+      "Why is accepted botanical nomenclature important for Karpura?"
     ],
     "identification_points": [
       "White translucent crystalline masses or powder, highly volatile at room temperature, characteristic penetrating aromatic odor, cool pungent taste followed by a cooling sensation."
     ],
     "mnemonics": [],
-    "quick_revision": "Camphor has stimulant, antispasmodic, and antiseptic actions, used in respiratory and skin conditions."
+    "quick_revision": "Karpura — camphor; current Kew taxonomy treats Cinnamomum camphora (L.) J.Presl as a synonym of accepted Camphora officinarum Boerh. ex Fabr."
   },
   "teacher": {
     "teaching_points": [
-      "Retained as supplementary material from Gemini batch 74."
+      "Retained as supplementary material from Gemini batch 74.",
+      "Discuss the difference between a historical/source-dataset name and the currently accepted taxonomic name.",
+      "Distinguish crude plant material, isolated camphor and commercial preparations when teaching pharmacognosy."
     ],
     "discussion_points": [
       "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
@@ -208,7 +215,9 @@
     ],
     "practical_points": [
       "Observe the diagnostic characters in authenticated material or herbarium specimens.",
-      "Record plant part used and identification basis separately."
+      "Record plant part used and identification basis separately.",
+      "Observe authenticated camphor crystals and document odour, appearance and volatility without ingestion.",
+      "Record whether the specimen is plant-derived camphor and identify its source documentation."
     ]
   },
   "doctor": {
@@ -225,7 +234,9 @@
     "dose": "",
     "anupana": "",
     "key_precautions": [
-      "Use authoritative identification and safety references."
+      "Use authoritative identification and safety references.",
+      "Do not infer therapeutic dose from this educational record.",
+      "Kew lists Cinnamomum camphora as a synonym of accepted Camphora officinarum and notes medicinal and poison uses; verify product-specific safety guidance."
     ]
   },
   "sources": [
