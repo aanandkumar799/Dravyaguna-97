@@ -173,7 +173,7 @@
     "recognized_uses": [
       "Botanical identification and pharmacognosy/dravyaguna education."
     ],
-    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use. Do not infer therapeutic dose from this educational record. Kew lists Cinnamomum camphora as a synonym of accepted Camphora officinarum and notes medicinal and poison uses; verify product-specific safety guidance.",
+    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use. Do not infer therapeutic do not infer clinical treatment instructions from this educational record. Kew lists Cinnamomum camphora as a synonym of accepted Camphora officinarum and notes medicinal and poison uses; verify product-specific safety guidance.",
     "sources": []
   },
   "student": {
@@ -203,16 +203,7 @@
       "Discuss the difference between a historical/source-dataset name and the currently accepted taxonomic name.",
       "Distinguish crude plant material, isolated camphor and commercial preparations when teaching pharmacognosy."
     ],
-    "discussion_points": [
-      "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data."
-    ],
+    "discussion_points": [],
     "practical_points": [
       "Observe the diagnostic characters in authenticated material or herbarium specimens.",
       "Record plant part used and identification basis separately.",
@@ -270,7 +261,7 @@
     }
   ],
   "metadata": {
-    "status": "supplementary_botanical_enriched_needs_classical_verification",
+    "status": "supplementary_audited_needs_classical_verification",
     "source_batch": "Gemini batch 74",
     "version": "1.0",
     "gemini_later_batches_reviewed": true,
@@ -278,7 +269,8 @@
       74
     ],
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "botanical + educational field enrichment"
+    "last_enrichment": "botanical + educational field enrichment",
+    "last_audit": "supplementary JSON completeness/safety audit"
   },
   "gemini_source_data": {
     "id": 74,
