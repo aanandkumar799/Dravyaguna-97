@@ -831,16 +831,18 @@
       "family": "Anacardiaceae",
       "english_name": "Crab's Claw",
       "rasa": [
-        "Tikta",
-        "Kashaya"
+        "Kashaya",
+        "Tikta"
       ],
       "guna": [
+        "Laghu",
+        "Ruksha",
         "Guru"
       ],
       "virya": "Ushna",
       "vipaka": "Katu",
       "useful_part": [
-        "gall"
+        "gall (Keeta Kosha)"
       ],
       "search_text": "Karkatshrungi कर्कटशृङ्गी Karkatashringi Pistacia integerrima J.L.Stewart ex Brandis Anacardiaceae Crab's Claw काकड़ासिंगी karkatshrungi"
     },
@@ -1005,22 +1007,18 @@
       "family": "Lamiaceae",
       "english_name": "Wind killer",
       "rasa": [
-        "katu",
-        "tikta",
-        "kashaya",
-        "madhura"
+        "Tikta"
       ],
       "guna": [
-        "laghu",
-        "ruksha"
+        "Laghu"
       ],
-      "virya": "ushna",
-      "vipaka": "katu",
+      "virya": "Ushna",
+      "vipaka": "Katu",
       "useful_part": [
-        "root",
-        "root bark"
+        "Mula (root)",
+        "Mula twak (root bark)"
       ],
-      "search_text": "Agnimanth अग्निमन्थ Agnimantha Premna integrifolia L. Lamiaceae Wind killer अरनी Arani Taggi Tirutali Airan Katu Tikta Kashaya Madhura Laghu Ruksha Ushna Katu root Mula Mula twak Dashamoola"
+      "search_text": "Agnimanth अग्निमन्थ Agnimantha Premna integrifolia L. Lamiaceae Wind killer अरनी agnimanth"
     },
     {
       "id": "ahiphena",
