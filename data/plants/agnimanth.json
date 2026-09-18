@@ -7,32 +7,56 @@
     "transliteration": "Agnimantha",
     "botanical_name": "Premna integrifolia L.",
     "family": "Lamiaceae",
-    "english_name": "Dusky Fire Brand",
+    "english_name": "Wind killer",
     "hindi_name": "अरनी",
-    "regional_names": [],
-    "synonyms": ["Tarkari", "Nadeyi", "Vaijayanti", "Shriparni"]
+    "regional_names": [
+      "English: Wind killer",
+      "Hindi: Arani",
+      "Kannada: Taggi",
+      "Malayalam: Tirutali",
+      "Marathi: Airan"
+    ],
+    "synonyms": [
+      "Nadeyi",
+      "Ketu",
+      "Vaijayantika",
+      "Jaya",
+      "Jayanti",
+      "Agnimathana",
+      "Aranika",
+      "Tarkari",
+      "Shriparni",
+      "Kshudragnimantha"
+    ],
+    "historical_botanical_names": [
+      "Clerodendron phlomidis Linn. (older treatment/name shown in textbook)",
+      "Clerodendron multiflorum O. Ktze.",
+      "Premna latifolia"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "Small tree or shrub",
-    "habitat": "Tropical and subtropical regions; commonly associated with plains and moist localities",
-    "distribution": "Recorded from India; distribution varies by botanical treatment and accepted species concept"
+    "habit": "Large shrub or small tree, reaching about 9 m in height.",
+    "habitat": "Reported throughout India; abundant in Karnataka and Maharashtra and in drier parts. Classical synonyms also describe growth on river banks.",
+    "distribution": "India; textbook notes abundant occurrence in Karnataka and Maharashtra and throughout drier parts."
   },
   "identification": {
-    "description": "A woody shrub or small tree of the Premna group, with simple opposite leaves and small flowers borne in terminal or axillary clusters.",
-    "whole_plant": "Woody shrub or small tree with branched habit.",
-    "root": "Medicinal root is the principal useful part recorded in this project; detailed field characters require specimen-level verification.",
-    "stem": "Woody, branched stem; bark grey-brown to brown on mature portions.",
-    "leaf": "Simple, opposite leaves; shape and surface characters should be confirmed against an authenticated botanical specimen.",
-    "flower": "Small flowers occurring in clustered inflorescences; detailed colour and floral characters should be checked against a pharmacognostic/botanical reference.",
-    "fruit": "Small drupe-like fruit; detailed maturity and colour characters require specimen-level verification.",
-    "seed": "Seed enclosed within the fruit; detailed diagnostic microscopy is not yet recorded.",
-    "bark": "Mature woody bark; detailed macroscopic and microscopic characters require pharmacopoeial verification.",
+    "description": "Large shrub or small tree with woody, branched habit. The supplied textbook records yellowish, lenticellate bark; simple broadly elliptic leaves; terminal pubescent paniculate corymbose cymes; small greenish-yellow flowers with disagreeable odour; and small pear-shaped fruits.",
+    "whole_plant": "Large shrub or small tree, up to about 9 m high, with branched woody habit.",
+    "root": "Cylindrical to somewhat twisted/knarled roots, sometimes longitudinally split, gradually tapering. Surface rough or longitudinally fissured and yellowish-brown; debarked surface may be silky yellow and longitudinally striated. Transverse section shows bark, narrow cortex, woody region with concentric rings and a small central pith.",
+    "stem": "Woody, branched; mature bark described as yellowish and lenticellate; trunk and large branches may be spinous.",
+    "leaf": "Leaves 5–9 cm long × 3–6 cm wide, broadly elliptic, obtuse, very shortly acuminate, glabrous, entire or dentate in the upper part, base rounded or subacute, with 4–5 pairs of main nerves; petiole about 1 cm.",
+    "flower": "Small, greenish-yellow flowers with disagreeable odour; borne in terminal pubescent paniculate corymbose cymes.",
+    "fruit": "Small pear-shaped fruit, about 4 mm long.",
+    "seed": "Seed characters are not detailed on the supplied pages.",
+    "bark": "Yellowish, lenticellate bark; trunk and large branches sometimes spinous.",
     "identification_points": [
-      "Woody shrub or small tree",
-      "Simple opposite leaves",
-      "Clustered small flowers",
-      "Root is the principal useful part recorded in this dossier"
+      "Large shrub/small tree up to about 9 m",
+      "Simple broadly elliptic leaves, 5–9 × 3–6 cm",
+      "Terminal pubescent paniculate corymbose cyme",
+      "Small greenish-yellow, disagreeably odorous flowers",
+      "Small pear-shaped fruits, about 4 mm",
+      "Root is the useful part; root diagnostic characters are described separately"
     ]
   },
   "images": {
@@ -47,86 +71,223 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": ["Tikta"],
-    "guna": ["Laghu"],
+    "rasa": [
+      "Tikta"
+    ],
+    "guna": [
+      "Laghu"
+    ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": ["Shoolaghna", "Virechana"],
+    "prabhava": [
+      "Shoolaghna",
+      "Virechana"
+    ],
     "karma": []
   },
   "dosha": {
-    "vata": "pacified",
-    "pitta": "aggravated",
-    "kapha": "not specifically documented in imported dataset"
+    "vata": "shamaka",
+    "pitta": "not specifically stated on the supplied pages",
+    "kapha": "shamaka"
   },
   "therapeutics": {
-    "useful_part": ["root"],
-    "indications": ["Shotha", "Pandu", "Arsha", "Vata Vyadhi"],
-    "therapeutic_actions": [],
-    "dose": "",
+    "useful_part": [
+      "Mula (root)",
+      "Mula twak (root bark)"
+    ],
+    "indications": [
+      "Shwayathu/Shotha",
+      "Pandu",
+      "Agnimandya",
+      "Vibandha",
+      "Jwara",
+      "Arshas",
+      "Adhmana"
+    ],
+    "therapeutic_actions": [
+      "Shothaghna",
+      "Agnivardhaka",
+      "Vibandhahara",
+      "Jwarahara",
+      "Kapha-Vata shamaka"
+    ],
+    "dose": "Kashaya 50–100 mL; Swarasa 10–20 mL; Churna 1–3 g (as shown in the supplied textbook page).",
     "anupana": "",
-    "duration": "",
-    "precautions": "",
+    "duration": "The supplied passage describes Agnimantha Kashaya for Vasameha and notes administration with ghrita and Kotha for seven days in the relevant passage.",
+    "precautions": "Use textbook doses as educational reference and verify current pharmacopoeial/clinical guidance before use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Dashamularishta",
+      "dosage_form": "Arishta",
+      "indication": "Aruchi, Shula, Shwasa",
+      "reference": "Supplied textbook, Important formulations"
+    },
+    {
+      "name": "Dashamula kwatha",
+      "dosage_form": "Kwatha",
+      "indication": "Jwara, Kasa, Shwasa",
+      "reference": "Supplied textbook, Important formulations"
+    },
+    {
+      "name": "Dhanvantara ghrita",
+      "dosage_form": "Ghrita",
+      "indication": "Kushtha, Prameha, Shotha",
+      "reference": "Supplied textbook, Important formulations"
+    },
+    {
+      "name": "Narayana taila",
+      "dosage_form": "Taila",
+      "indication": "Vatavyadhi, Prakupitavata",
+      "reference": "Supplied textbook, Important formulations"
+    },
+    {
+      "name": "Indukanta ghrita",
+      "dosage_form": "Ghrita",
+      "indication": "Vatavyadhi, Kshaya",
+      "reference": "Supplied textbook, Important formulations"
+    },
+    {
+      "name": "Prathama Brahmarasayana",
+      "dosage_form": "Rasayana",
+      "indication": "Ayurvardhaka",
+      "reference": "Supplied textbook, Important formulations"
+    },
+    {
+      "name": "Agurvadya Taila",
+      "dosage_form": "Taila",
+      "indication": "Shitajwara",
+      "reference": "Supplied textbook, Important formulations"
+    },
+    {
+      "name": "Baladi lepa",
+      "dosage_form": "Lepa",
+      "indication": "Visarpa",
+      "reference": "Supplied textbook, Important formulations"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
-    "nighantu_references": [],
-    "samhita_references": [],
-    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
-    "reference_hubs": ["TDU Indian Medicinal Plants Database — Shlokas"]
+    "nighantu_references": [
+      "Dhanvantari Nighantu: Agnimantha (Tarkari), Nadeyi, Kshudragnimantha",
+      "Kaiyyadeva Nighantu: Agnimantha, Tarkari",
+      "Raja Nighantu: Agnimantha / Premna integrifolia treatment"
+    ],
+    "samhita_references": [
+      "Su. Chi. 11/9 — Agnimantha kashaya described for Vasameha",
+      "Cha. Chi. 14/45 — Agnimantha, Shigru and Ashmantaka leaf decoction used as Avagaha in Arshas",
+      "Su. Chi. 22/51 — passage concerning Agnimantha and Karanja in Shitapitta/Urticaria, as shown on the supplied page",
+      "Cha. Chi. 21/125 — passage concerning Granthi Visarpa, as shown on the supplied page"
+    ],
+    "shloka_reference_status": "Reference numbers and Sanskrit passages were transcribed only where legible from the supplied textbook images; exact verse wording/edition should be checked against the cited text.",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": "Not yet populated from a verified pharmacognosy/phytochemistry source."
+    "major_constituents": [
+      "Premnine (alkaloid)",
+      "Ganikarine",
+      "β-sitosterol",
+      "Betulin",
+      "Palmitic acid",
+      "γ-sitosterol (as printed in supplied text)",
+      "Clerodendrin",
+      "Polyphenols",
+      "Clerodendin",
+      "Aphelandrine",
+      "D-mannitol",
+      "Essential oil"
+    ],
+    "chemical_notes": "The supplied textbook research section lists premnine as an alkaloid and reports additional root/stem-bark/leaf constituents. Constituent names and spelling should be cross-checked with the cited primary literature before treating the list as an analytical profile."
   },
   "modern_information": {
-    "evidence_summary": "Agnimanth is included in the Ayurvedic Dashamoola group; this dossier does not make independent clinical efficacy claims.",
-    "recognized_uses": [],
-    "safety_notes": "Dose, contraindications and clinical use require verification against authoritative Ayurvedic/pharmacopoeial sources.",
+    "evidence_summary": "The supplied textbook research section reports experimental studies involving Clerodendrum phlomidis, including hypoglycaemic activity of leaf aqueous extract, anthelmintic activity, anti-inflammatory/antiarthritic activity, hepatoprotective findings in CCl4-induced liver injury models, analgesic activity of aerial-part extracts, and in-vitro antioxidant assays. These are preclinical/experimental findings and should not be interpreted as proof of clinical efficacy.",
+    "recognized_uses": [
+      "Hypoglycaemic activity reported for aqueous leaf extract",
+      "Anthelmintic activity reported in experimental studies",
+      "Anti-inflammatory and antiarthritic activity reported in experimental models",
+      "Analgesic activity reported for aerial-part extracts",
+      "Antioxidant activity reported in in-vitro assays"
+    ],
+    "safety_notes": "Experimental findings in the supplied research section are not substitutes for clinical evidence or prescribing guidance.",
     "sources": []
   },
   "student": {
     "exam_points": [
-      "Agnimanth is one of the Dashamoola drugs",
-      "Premna integrifolia L. is the botanical identity used in this project",
-      "Root is the principal useful part recorded here"
+      "Useful part: Mula / Mula twak (root/root bark)",
+      "Pradhana Rasa: Katu",
+      "Guna: Laghu, Ruksha",
+      "Virya: Ushna; Vipaka: Katu",
+      "Pradhana Karma: Shothaghna",
+      "Agnimantha is one of the Dashamoola drugs",
+      "Premnine is listed as an alkaloid",
+      "Premna mucronata is listed as a substitute (API-I Vol. 3)",
+      "Agnimantha Kashaya is described as effective in Vasameha"
     ],
     "viva_questions": [
-      "What is the botanical name of Agnimanth?",
-      "Which classical group includes Agnimanth?",
-      "What is the principal useful part recorded for Agnimanth?"
+      "What is the useful part of Agnimantha?",
+      "What is the Pradhana Rasa of Agnimantha?",
+      "What are the Guna, Virya and Vipaka?",
+      "What is the Pradhana Karma?",
+      "Which classical group includes Agnimantha?",
+      "Which plant is given as a substitute for Agnimantha?",
+      "Which alkaloid is listed for Agnimantha?",
+      "For which condition is Agnimantha Kashaya described in the supplied MCQ?"
     ],
     "identification_points": [
-      "Woody shrub or small tree",
-      "Simple opposite leaves",
-      "Clustered small flowers"
+      "Large shrub/small tree up to about 9 m",
+      "Simple broadly elliptic leaves, 5–9 × 3–6 cm",
+      "Terminal pubescent paniculate corymbose cyme",
+      "Small greenish-yellow, disagreeably odorous flowers",
+      "Small pear-shaped fruits, about 4 mm",
+      "Root is the useful part; root diagnostic characters are described separately"
     ],
-    "mnemonics": [],
-    "quick_revision": "Agnimanth — Premna integrifolia L.; root; member of Dashamoola; verify detailed pharmacognostic and classical data before clinical use."
+    "mnemonics": [
+      "Katu–Tikta–Kashaya–Madhura; Laghu–Ruksha; Ushna–Katu",
+      "Root → Shothaghna, Agnivardhaka, Vibandhahara, Jwarahara"
+    ],
+    "quick_revision": "Agnimantha — Premna integrifolia L.; root/root bark; Katu-Tikta-Kashaya-Madhura; Laghu-Ruksha; Ushna virya; Katu vipaka; Shothaghna and Dashamoola drug."
   },
   "teacher": {
     "teaching_points": [
-      "Relate Agnimanth to the Dashamoola group",
-      "Demonstrate authentication using botanical characters and an identified specimen"
+      "Demonstrate external morphology and root diagnostic characters",
+      "Explain historical botanical names and synonymy shown in the textbook",
+      "Relate Agnimantha to Dashamoola and classical gana classification",
+      "Compare genuine root characters with the listed substitute Premna mucronata"
     ],
     "discussion_points": [
-      "Botanical authentication and synonymy of Agnimanth",
-      "Importance of distinguishing a verified species from historical synonym usage"
+      "Premna integrifolia versus historical Clerodendron treatments",
+      "Grahya lakshana of the root",
+      "Classical indications and formulation use",
+      "How preclinical pharmacology differs from clinical evidence"
     ],
     "practical_points": [
-      "Observe opposite leaves and woody habit",
-      "Compare an authenticated specimen with the project's reference image"
+      "Observe leaf size, shape, venation and petiole",
+      "Observe terminal paniculate corymbose cyme",
+      "Examine root surface, bark, fracture, odour and transverse section",
+      "Differentiate the genuine drug from substitute material"
     ]
   },
   "doctor": {
-    "quick_reference": "Agnimanth is a Dashamoola drug; this project records the root as the useful part.",
-    "important_indications": [],
-    "useful_part": "root",
-    "dose": "",
+    "quick_reference": "Agnimantha is a Dashamoola drug; the supplied textbook records root/root bark as the useful part and Katu-Tikta-Kashaya-Madhura rasa, Laghu-Ruksha guna, Ushna virya and Katu vipaka.",
+    "important_indications": [
+      "Shwayathu/Shotha",
+      "Pandu",
+      "Agnimandya",
+      "Vibandha",
+      "Jwara",
+      "Arshas",
+      "Adhmana"
+    ],
+    "useful_part": "Mula / Mula twak",
+    "dose": "Kashaya 50–100 mL; Swarasa 10–20 mL; Churna 1–3 g (as shown in the supplied textbook page).",
     "anupana": "",
-    "key_precautions": ["Verify dose and clinical indications from an authoritative source before prescribing."]
+    "key_precautions": [
+      "Educational reference only; verify identity, dose and indication against authoritative current sources before clinical use.",
+      "Premna mucronata is listed as a substitute in the supplied reference; authentication remains important."
+    ]
   },
   "sources": [
     {
@@ -162,17 +323,288 @@
       "title": "Wikimedia Commons",
       "url": "https://commons.wikimedia.org/wiki/File:CADAL11104563_%E6%B5%99%E6%B1%9F%E6%9C%A8%E6%9C%AC%E6%A4%8D%E7%89%A9%E5%90%8D%E9%8C%84.djvu",
       "license_note": "Check the original file page for current license/attribution requirements."
+    },
+    {
+      "type": "user_supplied_textbook",
+      "title": "Dravyaguna Vijnana — Agnimantha chapter, supplied pages 14–20",
+      "url": "",
+      "note": "Photographed textbook pages supplied by the user; used to enrich morphology, Grahya Lakshana, Rasa Panchaka, therapeutic applications, formulations, classical classification, research notes and MCQs."
     }
   ],
   "metadata": {
-    "status": "working_draft_needs_text_cross_check",
+    "status": "textbook_enriched_needs_edition_cross_check",
     "last_verified": "2026-09-17",
     "verified_by": "source-assisted repository review",
-    "version": "1.3",
+    "version": "1.5",
     "image_enrichment_note": "Existing image retained; additional part-specific verified images still required.",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
-    "quality_pass": "2026-09-17"
+    "last_enrichment": "user-supplied textbook pages 14–20: full morphology + Grahya Lakshana + classical classification + therapeutic applications + formulations + synonyms/varieties + pharmacology/research + MCQs",
+    "quality_pass": "2026-09-17",
+    "source_note": "This enrichment is based on the supplied textbook photographs. Exact Sanskrit verse wording and bibliographic edition/page details should be checked against the physical source."
   },
   "category": "NCISM-97",
-  "syllabus_marker": "NCISM-97"
+  "syllabus_marker": "NCISM-97",
+  "dravyaguna": {
+    "rasa": [
+      "Katu",
+      "Tikta",
+      "Kashaya",
+      "Madhura"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": [],
+    "karma": [
+      "Shothaghna",
+      "Agnivardhaka",
+      "Vibandhahara",
+      "Jwarahara"
+    ]
+  },
+  "important_formulations": [
+    {
+      "name": "Dashamularishta",
+      "dosage_form": "Arishta",
+      "indication": "Aruchi, Shula, Shwasa",
+      "reference": "Supplied textbook, Important formulations"
+    },
+    {
+      "name": "Dashamula kwatha",
+      "dosage_form": "Kwatha",
+      "indication": "Jwara, Kasa, Shwasa",
+      "reference": "Supplied textbook, Important formulations"
+    },
+    {
+      "name": "Dhanvantara ghrita",
+      "dosage_form": "Ghrita",
+      "indication": "Kushtha, Prameha, Shotha",
+      "reference": "Supplied textbook, Important formulations"
+    },
+    {
+      "name": "Narayana taila",
+      "dosage_form": "Taila",
+      "indication": "Vatavyadhi, Prakupitavata",
+      "reference": "Supplied textbook, Important formulations"
+    },
+    {
+      "name": "Indukanta ghrita",
+      "dosage_form": "Ghrita",
+      "indication": "Vatavyadhi, Kshaya",
+      "reference": "Supplied textbook, Important formulations"
+    },
+    {
+      "name": "Prathama Brahmarasayana",
+      "dosage_form": "Rasayana",
+      "indication": "Ayurvardhaka",
+      "reference": "Supplied textbook, Important formulations"
+    },
+    {
+      "name": "Agurvadya Taila",
+      "dosage_form": "Taila",
+      "indication": "Shitajwara",
+      "reference": "Supplied textbook, Important formulations"
+    },
+    {
+      "name": "Baladi lepa",
+      "dosage_form": "Lepa",
+      "indication": "Visarpa",
+      "reference": "Supplied textbook, Important formulations"
+    }
+  ],
+  "grahya_lakshana": {
+    "useful_part": "Mula (root) / Mula twak (root bark)",
+    "diagnostic_characters": [
+      {
+        "material": "Premna latifolia",
+        "shape": "Cylindrical, knarled roots or longitudinally split pieces.",
+        "surface": "Rough, longitudinally wrinkled, yellowish-brown with small round root scars; debarked surface silky yellow and longitudinally striated; transverse section shows closely adhering thin bark, narrow cortex, large woody portion with prominent concentric rings and small central pith.",
+        "fracture": "Short",
+        "odour": "Mild and pleasant",
+        "taste": "Astringent"
+      },
+      {
+        "material": "Clerodendron multiflorum",
+        "shape": "Cylindrical, somewhat twisted, gradually tapering roots, up to about 3 cm in diameter.",
+        "surface": "Longitudinally fissured, yellowish-brown; transverse cut portion creamish-yellow; thin bark easily separates; well-defined annual rings and dark-brown central pith. Bark occurs as small flat/slightly curved friable pieces about 1.5–2 mm thick with brown exfoliating inner surface.",
+        "fracture": "Short",
+        "odour": "Slightly pungent",
+        "taste": "Bitter"
+      }
+    ]
+  },
+  "substitutes": [
+    {
+      "name": "Premna mucronata",
+      "reference": "API-I, Vol. 3"
+    }
+  ],
+  "classical_classification": [
+    {
+      "authority": "Charaka",
+      "gana": [
+        "Shothahara varga",
+        "Shitaprashamana varga",
+        "Anuvasanopaga varga"
+      ]
+    },
+    {
+      "authority": "Sushruta",
+      "gana": [
+        "Viratarvadi Gana",
+        "Varunadi Gana",
+        "Brihat Panchamula"
+      ]
+    },
+    {
+      "authority": "Bhavaprakasha Nighantu",
+      "gana": [
+        "Guduchyadi varga 23–24"
+      ]
+    }
+  ],
+  "basonym": "अग्निं मथ्नाति दीप्नत्वात् — the supplied text explains the name in relation to the fire-producing property of rubbing dried sticks and its digestive-fire stimulating association.",
+  "varieties": [
+    {
+      "source": "Dhanvantari Nighantu",
+      "entries": [
+        "Agnimantha (Tarkari)",
+        "Nadeyi",
+        "Kshudragnimantha"
+      ]
+    },
+    {
+      "source": "Kaiyyadeva Nighantu",
+      "entries": [
+        "Agnimantha",
+        "Tarkari"
+      ]
+    },
+    {
+      "source": "Raja Nighantu",
+      "entries": [
+        "Agnimantha — Premna integrifolia Linn."
+      ]
+    }
+  ],
+  "amayika_prayoga": [
+    {
+      "condition": "Vasameha",
+      "use": "Agnimantha (Premna integrifolia) Kashaya is described as effective; the supplied passage notes administration with ghrita and Kotha for seven days.",
+      "reference": "Su. Chi. 11/9"
+    },
+    {
+      "condition": "Arshas (Haemorrhoids)",
+      "use": "Decoction prepared from leaves of Agnimantha, Shigru and Ashmantaka is used for Avagaha (tub bath).",
+      "reference": "Cha. Chi. 14/45"
+    },
+    {
+      "condition": "Granthi Visarpa",
+      "use": "A paste preparation involving Agnimantha is described on the supplied page.",
+      "reference": "Cha. Chi. 21/125"
+    },
+    {
+      "condition": "Shitapitta / Urticaria",
+      "use": "Kwatha of Agnimantha and Karanja is described as sprinkled externally; paste of the two drugs is also applied externally.",
+      "reference": "Su. Chi. 22/51"
+    }
+  ],
+  "pharmacological_actions": [
+    "Hypoglycaemic",
+    "Anthelmintic",
+    "Anti-inflammatory (aqueous leaf extract, as reported in supplied text)"
+  ],
+  "mcqs": [
+    {
+      "question": "Useful part of Agnimantha is",
+      "options": [
+        "Patra",
+        "Kanda",
+        "Mula twak",
+        "Phala"
+      ],
+      "answer": "Mula twak"
+    },
+    {
+      "question": "Pradhana Rasa of Agnimantha",
+      "options": [
+        "Madhura",
+        "Katu",
+        "Kashaya",
+        "Arla"
+      ],
+      "answer": "Katu"
+    },
+    {
+      "question": "Pradhana Karma of Agnimantha",
+      "options": [
+        "Brahmana",
+        "Bhedana",
+        "Balya",
+        "Shothaghna"
+      ],
+      "answer": "Shothaghna"
+    },
+    {
+      "question": "Agnimantha Kashaya is effective in",
+      "options": [
+        "Vasameha",
+        "Haridrameha",
+        "Shukrameha",
+        "—"
+      ],
+      "answer": "Vasameha"
+    },
+    {
+      "question": "Premnine, an alkaloid, is present in",
+      "options": [
+        "Ahiphena",
+        "Arka",
+        "Agnimantha",
+        "—"
+      ],
+      "answer": "Agnimantha"
+    },
+    {
+      "question": "Vaijayantika is a synonym of",
+      "options": [
+        "Amalaki",
+        "Agnimantha",
+        "Arka",
+        "—"
+      ],
+      "answer": "Agnimantha"
+    },
+    {
+      "question": "Premna integrifolia is the botanical name of",
+      "options": [
+        "Haridra",
+        "Panasa",
+        "Ashoka",
+        "Brihat Agnimantha"
+      ],
+      "answer": "Brihat Agnimantha"
+    },
+    {
+      "question": "Substitute for Agnimantha",
+      "options": [
+        "Premna mucronata",
+        "Plumbago zeylanica",
+        "Withania somnifera",
+        "Aegle marmelos"
+      ],
+      "answer": "Premna mucronata"
+    }
+  ],
+  "research_corner": [
+    "Experimental hypoglycaemic activity is reported for aqueous leaf extract.",
+    "Experimental anthelmintic activity is reported.",
+    "Studies of Clerodendrum phlomidis extracts reported hepatoprotective findings in CCl4-induced liver injury models.",
+    "Aerial-part extracts were evaluated for analgesic activity; methanolic and ethyl-acetate fractions were reported active at 200 mg/kg in the cited study.",
+    "Methanolic root extract was reported to show in-vitro antioxidant activity in radical-scavenging and lipid-peroxidation assays.",
+    "Crude ethanolic extract was evaluated in anti-inflammatory and adjuvant-induced antiarthritic experimental models.",
+    "Leaf extract TLC work reported adrenaline in the cited study."
+  ]
 }
