@@ -1003,19 +1003,24 @@
       "transliteration": "Agnimantha",
       "botanical_name": "Premna integrifolia L.",
       "family": "Lamiaceae",
-      "english_name": "Dusky Fire Brand",
+      "english_name": "Wind killer",
       "rasa": [
-        "Tikta"
+        "katu",
+        "tikta",
+        "kashaya",
+        "madhura"
       ],
       "guna": [
-        "Laghu"
+        "laghu",
+        "ruksha"
       ],
-      "virya": "Ushna",
-      "vipaka": "Katu",
+      "virya": "ushna",
+      "vipaka": "katu",
       "useful_part": [
-        "root"
+        "root",
+        "root bark"
       ],
-      "search_text": "Agnimanth अग्निमन्थ Agnimantha Premna integrifolia L. Lamiaceae Dusky Fire Brand अरनी agnimanth"
+      "search_text": "Agnimanth अग्निमन्थ Agnimantha Premna integrifolia L. Lamiaceae Wind killer अरनी Arani Taggi Tirutali Airan Katu Tikta Kashaya Madhura Laghu Ruksha Ushna Katu root Mula Mula twak Dashamoola"
     },
     {
       "id": "ahiphena",
