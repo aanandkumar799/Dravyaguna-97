@@ -51,7 +51,7 @@ jobs:
                   rel = Path(os.path.relpath(root / asset, page.parent)).as_posix()
                   if f'href="{rel}"' not in html:
                       html = html.replace("</head>", f'<link rel="stylesheet" href="{rel}">\n</head>', 1)
-              for asset in ["feedback-config.js", "site-theme.js", "feedback.js"]:
+              for asset in ["feedback-config.js", "feedback.js"]:
                   rel = Path(os.path.relpath(root / asset, page.parent)).as_posix()
                   pat = r'''<script[^>]+src=["']''' + re.escape(rel) + r'''(?:\?[^"']*)?["'][^>]*>'''
                   if not re.search(pat, html, re.I):
