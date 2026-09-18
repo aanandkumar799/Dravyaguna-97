@@ -1,49 +1,42 @@
 {
-  "generated_at": "2026-09-18T05:14:39.388849+00:00",
+  "generated_at": "2026-09-18T05:23:58.554358+00:00",
   "plants_checked": 97,
   "slots_checked": 873,
   "filled_this_run": [
     {
-      "plant_id": "aragwadha",
-      "part": "stem",
-      "action": "downloaded-new-image",
-      "path": "images/plants/aragwadha/stem/image.jpg",
-      "bytes": 964187
-    },
-    {
-      "plant_id": "eranda",
-      "part": "habit",
-      "action": "downloaded-new-image",
-      "path": "images/plants/eranda/habit/image.jpg",
-      "bytes": 734633
-    },
-    {
-      "plant_id": "eranda",
-      "part": "stem",
-      "action": "downloaded-new-image",
-      "path": "images/plants/eranda/stem/image.jpg",
-      "bytes": 254889
-    },
-    {
-      "plant_id": "eranda",
-      "part": "leaf",
-      "action": "downloaded-new-image",
-      "path": "images/plants/eranda/leaf/image.jpg",
-      "bytes": 317163
-    },
-    {
-      "plant_id": "latakaranja",
+      "plant_id": "ashwagandha",
       "part": "flower",
       "action": "downloaded-new-image",
-      "path": "images/plants/latakaranja/flower/image.jpg",
-      "bytes": 278412
+      "path": "images/plants/ashwagandha/flower/image.jpg",
+      "bytes": 328089
     },
     {
-      "plant_id": "shigru",
+      "plant_id": "ashwagandha",
+      "part": "fruit",
+      "action": "downloaded-new-image",
+      "path": "images/plants/ashwagandha/fruit/image.jpg",
+      "bytes": 532917
+    },
+    {
+      "plant_id": "apamarga",
+      "part": "flower",
+      "action": "downloaded-new-image",
+      "path": "images/plants/apamarga/flower/image.jpg",
+      "bytes": 295382
+    },
+    {
+      "plant_id": "shalmali-mocharasa",
       "part": "habit",
       "action": "downloaded-new-image",
-      "path": "images/plants/shigru/habit/image.jpg",
-      "bytes": 364299
+      "path": "images/plants/shalmali-mocharasa/habit/image.png",
+      "bytes": 731790
+    },
+    {
+      "plant_id": "shalmali-mocharasa",
+      "part": "root",
+      "action": "downloaded-new-image",
+      "path": "images/plants/shalmali-mocharasa/root/image.jpg",
+      "bytes": 1027207
     }
   ],
   "unresolved": [
@@ -189,16 +182,6 @@
     },
     {
       "plant_id": "ashwagandha",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ashwagandha",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ashwagandha",
       "part": "seed",
       "reason": "no-high-confidence-unique-image"
     },
@@ -1829,11 +1812,6 @@
     },
     {
       "plant_id": "apamarga",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "apamarga",
       "part": "fruit",
       "reason": "no-high-confidence-unique-image"
     },
@@ -3445,16 +3423,6 @@
     {
       "plant_id": "shalmali-mocharasa",
       "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shalmali-mocharasa",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shalmali-mocharasa",
-      "part": "root",
       "reason": "no-high-confidence-unique-image"
     },
     {
@@ -4163,7 +4131,7 @@
       "reason": "no-high-confidence-unique-image"
     }
   ],
-  "remaining_missing": 823,
+  "remaining_missing": 818,
   "local_asset_root": "images/plants/<plant>/<part>/image.*",
   "policy": {
     "exact_species_required": true,
