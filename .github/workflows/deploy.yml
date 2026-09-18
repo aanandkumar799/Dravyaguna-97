@@ -68,6 +68,14 @@ jobs:
                   html=html.replace('<form class="review-form" id="reviewForm">','<form class="review-form" id="reviewForm" data-verification-gate="required">',1)
                   guard='''<script>(function(){var f=document.getElementById('reviewForm');if(!f)return;f.setAttribute('data-verification-status','required');var b=document.getElementById('reviewSubmit');var s=document.getElementById('reviewStatus');if(b){b.disabled=true;b.innerHTML='<span>🔐 Verification Required</span>';b.title='Verified account required before submitting a review'}if(s){s.className='review-status error';s.style.display='block';s.textContent='Reviews are locked until account/email verification is completed. No unverified comment can be submitted.'}f.addEventListener('submit',function(e){e.preventDefault();e.stopImmediatePropagation();return false},true)})();</script>\n'''
                   html=html.replace('</body>',guard+'</body>',1)
+              # Add one compact, consistent feedback link to the bottom of every page.
+              if 'class="dg-feedback-footer-link"' not in html:
+                  link_rel=Path(os.path.relpath(root/'feedback.html',page.parent)).as_posix()
+                  feedback_html=f'<div class="dg-feedback-footer-link"><a href="{link_rel}" aria-label="Share your feedback">Share your feedback</a></div>'
+                  if '</footer>' in html:
+                      html=html.replace('</footer>',feedback_html+'</footer>',1)
+                  else:
+                      html=html.replace('</body>',f'<footer class="footer"><div class="footer-inner">{feedback_html}</div></footer>\n</body>',1)
               page.write_text(html,encoding='utf-8')
           import shutil
           src=root/'images'/'favicon.png'
