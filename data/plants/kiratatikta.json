@@ -161,18 +161,29 @@
   },
   "phytochemistry": {
     "major_constituents": [],
-    "chemical_notes": ""
+    "chemical_notes": "Phytochemical field intentionally left without a compound list until source-level verification is completed."
   },
   "modern_information": {
     "evidence_summary": "Bitter tonic used for fever, appetite, and digestion.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Botanical identification and pharmacognosy/dravyaguna education."
+    ],
+    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Botanical identity: Swertia chirata Buch.-Ham.",
+      "Family: Gentianaceae",
+      "Key identification: Purplish-brown cylindrical stems with yellow pith, opposite decussate sessile leaves, 4-merous greenish-yellow flowers, intensely bitter taste throughout the plant."
+    ],
+    "viva_questions": [
+      "What is the botanical name and family of Kiratatikta?",
+      "Which morphological characters help identify Kiratatikta?"
+    ],
+    "identification_points": [
+      "Purplish-brown cylindrical stems with yellow pith, opposite decussate sessile leaves, 4-merous greenish-yellow flowers, intensely bitter taste throughout the plant."
+    ],
     "mnemonics": [],
     "quick_revision": "Bitter tonic used for fever, appetite, and digestion."
   },
@@ -180,13 +191,26 @@
     "teaching_points": [
       "Retained as supplementary material from Gemini batch 81."
     ],
-    "discussion_points": [],
-    "practical_points": []
+    "discussion_points": [
+      "Compare the diagnostic characters of Kiratatikta with closely related or commonly substituted drugs.",
+      "Separate botanical identification from unverified classical-text claims."
+    ],
+    "practical_points": [
+      "Observe the diagnostic characters in authenticated material or herbarium specimens.",
+      "Record plant part used and identification basis separately."
+    ]
   },
   "doctor": {
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
-    "important_indications": [],
-    "useful_part": "",
+    "important_indications": [
+      "Vishama Jwara (Malarial / Relapsing / Typhoid fever)",
+      "Kamala (Jaundice)",
+      "Kushta (Skin diseases)",
+      "Agnimandya (Loss of appetite)",
+      "Trishna (Excessive thirst)",
+      "Prameha (Metabolic disorders / Diabetes)"
+    ],
+    "useful_part": "Whole Plant (Panchanga)",
     "dose": "",
     "anupana": "",
     "key_precautions": [
@@ -232,7 +256,7 @@
       81
     ],
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured botanical identification enrichment"
+    "last_enrichment": "botanical + educational field enrichment"
   },
   "gemini_source_data": {
     "id": 81,
