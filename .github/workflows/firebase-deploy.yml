@@ -47,11 +47,11 @@ jobs:
           root = Path("_site")
           for page in root.rglob("*.html"):
               html = page.read_text(encoding="utf-8")
-              for asset in ["site-theme.css", "feedback.css"]:
+              for asset in ["site-theme.css"]:
                   rel = Path(os.path.relpath(root / asset, page.parent)).as_posix()
                   if f'href="{rel}"' not in html:
                       html = html.replace("</head>", f'<link rel="stylesheet" href="{rel}">\n</head>', 1)
-              for asset in ["feedback-config.js", "feedback.js"]:
+              for asset in ["feedback-config.js", "site-theme.js", "feedback.js"]:
                   rel = Path(os.path.relpath(root / asset, page.parent)).as_posix()
                   pat = r'''<script[^>]+src=["']''' + re.escape(rel) + r'''(?:\?[^"']*)?["'][^>]*>'''
                   if not re.search(pat, html, re.I):
@@ -71,13 +71,16 @@ jobs:
 
           curl -fsSL 'https://raw.githubusercontent.com/aanandkumar799/Dravyaguna-97/f2da96c8ad2ec518246ca1d2fdcf60bf0d2f4f84/favicon-exact.jpg' -o _site/favicon-exact.jpg
       - name: Authenticate Firebase CLI
+        id: firebase_auth
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_DRAVYA_GUNA_97 }}
         run: |
-          test -n "$FIREBASE_SERVICE_ACCOUNT" || {
-            echo "::error::Missing FIREBASE_SERVICE_ACCOUNT_DRAVYA_GUNA_97 GitHub secret."
-            exit 1
-          }
+          if [ -z "$FIREBASE_SERVICE_ACCOUNT" ]; then
+            echo "::warning::FIREBASE_SERVICE_ACCOUNT_DRAVYA_GUNA_97 is not configured; skipping Firebase deployment."
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "available=true" >> "$GITHUB_OUTPUT"
           umask 077
           printf '%s' "$FIREBASE_SERVICE_ACCOUNT" > "$RUNNER_TEMP/firebase-service-account.json"
           echo "GOOGLE_APPLICATION_CREDENTIALS=$RUNNER_TEMP/firebase-service-account.json" >> "$GITHUB_ENV"
@@ -94,6 +97,7 @@ jobs:
           echo "FIREBASE_PROJECT_ID=$FIREBASE_PROJECT_ID" >> "$GITHUB_ENV"
           echo "Firebase project from service account: $FIREBASE_PROJECT_ID"
       - name: Deploy Firebase Hosting and Firestore rules
+        if: steps.firebase_auth.outputs.available == 'true'
         run: npx --yes firebase-tools@latest deploy --project "$FIREBASE_PROJECT_ID" --only hosting,firestore:rules --non-interactive
       - name: Remove Firebase credentials
         if: always()
