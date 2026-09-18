@@ -81,6 +81,25 @@ jobs:
           umask 077
           printf '%s' "$FIREBASE_SERVICE_ACCOUNT" > "$RUNNER_TEMP/firebase-service-account.json"
           echo "GOOGLE_APPLICATION_CREDENTIALS=$RUNNER_TEMP/firebase-service-account.json" >> "$GITHUB_ENV"
+      - name: Configure Firebase Auth for feedback
+        shell: bash
+        run: |
+          gcloud auth activate-service-account --key-file="$RUNNER_TEMP/firebase-service-account.json" >/dev/null
+          TOKEN="$(gcloud auth print-access-token)"
+          curl -fsSL             -H "Authorization: Bearer $TOKEN"             -H "X-Goog-User-Project: dravya-guna-97"             "https://identitytoolkit.googleapis.com/admin/v2/projects/dravya-guna-97/config"             -o "$RUNNER_TEMP/firebase-auth-config.json"
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p=Path(os.environ["RUNNER_TEMP"])/"firebase-auth-config.json"
+          d=json.loads(p.read_text())
+          domains=list(d.get("authorizedDomains") or [])
+          for domain in ["aanandkumar799.github.io","dravyaguna97.com","www.dravyaguna97.com"]:
+              if domain not in domains:
+                  domains.append(domain)
+          body={"name":d.get("name","projects/dravya-guna-97/config"),"authorizedDomains":domains,"signIn":{"anonymous":{"enabled":True}}}
+          Path(os.environ["RUNNER_TEMP"]+"/firebase-auth-update.json").write_text(json.dumps(body))
+          PY
+          curl -fsSL -X PATCH             -H "Authorization: Bearer $TOKEN"             -H "X-Goog-User-Project: dravya-guna-97"             -H "Content-Type: application/json"             --data-binary @"$RUNNER_TEMP/firebase-auth-update.json"             "https://identitytoolkit.googleapis.com/admin/v2/projects/dravya-guna-97/config?updateMask=signIn.anonymous.enabled,authorizedDomains" >/dev/null
       - name: Deploy Firebase Hosting and Firestore rules
         run: npx --yes firebase-tools@latest deploy --project dravya-guna-97 --only hosting,firestore:rules --non-interactive
       - name: Remove Firebase credentials
