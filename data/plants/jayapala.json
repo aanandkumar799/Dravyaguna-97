@@ -161,7 +161,7 @@
     "recognized_uses": [
       "Botanical identification and pharmacognosy/dravyaguna education."
     ],
-    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use. Toxic plant; this educational record must not be used to infer dose or unsupervised treatment. Croton tiglium is documented by Kew as a species native across tropical/subtropical Asia; safety information should be checked independently before clinical application.",
+    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use. Toxic plant; this educational record must not be used to infer do not infer clinical treatment instructions or unsupervised treatment. Croton tiglium is documented by Kew as a species native across tropical/subtropical Asia; safety information should be checked independently before clinical application.",
     "sources": []
   },
   "student": {
@@ -251,7 +251,7 @@
     }
   ],
   "metadata": {
-    "status": "supplementary_botanical_enriched_needs_classical_verification",
+    "status": "supplementary_audited_needs_classical_verification",
     "source_batch": "Gemini batch 87",
     "version": "1.0",
     "gemini_later_batches_reviewed": true,
@@ -259,7 +259,8 @@
       87
     ],
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "botanical + educational field enrichment"
+    "last_enrichment": "botanical + educational field enrichment",
+    "last_audit": "supplementary JSON completeness/safety audit"
   },
   "gemini_source_data": {
     "id": 87,
