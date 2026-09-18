@@ -1,3 +1,4 @@
+# Continuous audit: verified local assets are retained; unresolved slots remain missing.
 import json, re, urllib.parse, urllib.request
 from pathlib import Path
 from datetime import datetime, timezone
