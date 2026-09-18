@@ -62,3 +62,34 @@ html.dark-mode body :where(.search-panel input,.jump-input,.filter-select,.favor
 html.dark-mode body :where(.nav a:hover,.tool-btn:hover,.quick-link:hover){background:var(--dg-surface-2)!important;color:var(--dg-accent-strong)!important}
 html.dark-mode body :where(.plant-botanical,.plant-family,.plant-english,.plant-sanskrit,#search-help,#search-result-info,.filter-label,.library-hero p){color:var(--dg-muted)!important}
 html.dark-mode body :where(.medical-disclaimer){border-left-color:var(--dg-accent)!important}
+
+
+/* Final dark-mode pass: consistent contrast, readable controls and reduced visual noise */
+html.dark-mode{
+  --dg-bg:#08110c;
+  --dg-surface:#101a14;
+  --dg-surface-2:#17261e;
+  --dg-text:#f1f7f3;
+  --dg-muted:#b7c7bd;
+  --dg-border:#31443a;
+  --dg-accent:#86c9a4;
+  --dg-accent-strong:#9ad8b3;
+  --dg-shadow:0 16px 42px rgba(0,0,0,.34);
+  color-scheme:dark;
+}
+html.dark-mode body{background:var(--dg-bg)!important;color:var(--dg-text)!important}
+html.dark-mode body :where(.site-header,.head,.header,.library-header){background:rgba(16,26,20,.94)!important;border-color:var(--dg-border)!important}
+html.dark-mode body :where(.hero,.plant-hero,.page-header,.banner){background:linear-gradient(135deg,#14281f,#111b16)!important}
+html.dark-mode body :where(.notice,.medical-disclaimer){background:#241f14!important;color:#eee4ce!important;border-color:#725d32!important}
+html.dark-mode body :where(.btn-outline,.btn,.tool-btn,.chip,.back-button,.print-button,.theme-toggle,.dg-google-btn,.dg-signout){background:var(--dg-surface)!important;color:var(--dg-text)!important;border-color:var(--dg-border)!important}
+html.dark-mode body :where(.btn-primary,.btn.primary,.review-submit,.dg-submit,.chip.active,.tool-btn.active){background:var(--dg-accent-strong)!important;color:#08110c!important;border-color:transparent!important}
+html.dark-mode body :where(a:hover,.brand,.hero h1,.section-head h2,.feature h3,.persona h3,.panel h3,.card h2,.plant-section h2,.info-label,.label){color:var(--dg-accent)!important}
+html.dark-mode body :where(input,select,textarea){background:#0d1711!important;color:var(--dg-text)!important;border-color:var(--dg-border)!important}
+html.dark-mode body :where(input,select,textarea):focus{border-color:var(--dg-accent)!important;box-shadow:0 0 0 4px rgba(134,201,164,.14)!important}
+html.dark-mode body :where(.card,.panel,.feature,.persona,.plant-section,.review-card,.review-card,.search-panel,.toolbar,.flash-face,.flashcard,.comparison-card,.reference-card,.quiz-card,.viva-card,.dg-feedback-card,.dg-feedback-panel){box-shadow:var(--dg-shadow)!important}
+html.dark-mode body :where(.dg-status.err,.review-status.error){background:#351719!important;color:#ffc3c5!important;border-color:#713338!important}
+html.dark-mode body :where(.dg-status.ok,.review-status.success){background:#103020!important;color:#baf0ce!important;border-color:#315c45!important}
+html.dark-mode ::selection{background:#315c45;color:#fff}
+html.dark-mode ::-webkit-scrollbar{width:11px;height:11px}
+html.dark-mode ::-webkit-scrollbar-track{background:#08110c}
+html.dark-mode ::-webkit-scrollbar-thumb{background:#31443a;border-radius:99px;border:3px solid #08110c}
