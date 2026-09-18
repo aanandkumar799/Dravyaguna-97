@@ -47,3 +47,34 @@ html[data-theme="dark"] #dgThemeToggle{box-shadow:0 10px 28px rgba(0,0,0,.4)}
 .dg-feedback-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:16px}.dg-field.full{grid-column:1/-1}.dg-field label{display:block;margin:0 0 7px;font-size:13px;font-weight:800;color:var(--dg-text)}.dg-field input,.dg-field select,.dg-field textarea{width:100%;border:1px solid var(--dg-border);border-radius:11px;background:var(--dg-input);color:var(--dg-text);padding:11px 12px;outline:none}.dg-field textarea{min-height:135px;resize:vertical}
 .dg-submit{width:100%;min-height:48px;margin-top:16px;border:0;border-radius:11px;background:var(--dg-accent-strong);color:#fff;font-weight:800;cursor:pointer}.dg-status{display:none;margin-top:10px;padding:11px 12px;border-radius:10px;font-size:13px;text-align:center}.dg-status.show{display:block}.dg-status.ok{background:#eaf8ef;color:#146c3a}.dg-status.err{background:#fff1f1;color:#9b1c1c}.dg-status.loading{background:var(--dg-surface-2);color:var(--dg-text)}.dg-hidden{display:none!important}
 @media(max-width:820px){.dg-feedback-card{grid-template-columns:1fr;padding:20px}}@media(max-width:560px){.dg-feedback-grid{grid-template-columns:1fr}.dg-field.full{grid-column:auto}.dg-feedback-login{align-items:flex-start;flex-direction:column}.dg-google-btn,.dg-signout{width:100%}.dg-feedback-card{border-radius:18px;padding:14px}}
+
+/* Dark-mode readability hardening: override legacy hard-coded light colors */
+html[data-theme="dark"] body :where(.brand,.main-nav a,.nav a,.header a,.site-header a){color:#e8f5ed!important}
+html[data-theme="dark"] body :where(h1,h2,h3,h4,h5,h6,strong,b,legend,label,.title,.heading,.eyebrow,.section-title,.card-title,.plant-name,.plant-number,.plant-sanskrit,.plant-family,.plant-english,.info-label,.label,.question,.answer,.stat-value,.feature h3){color:#edf7f0!important}
+html[data-theme="dark"] body :where(a:not(.btn):not(.plant-button)){color:#b9f0ce!important}
+html[data-theme="dark"] body :where(a:hover,a:focus-visible){color:#eafff1!important}
+html[data-theme="dark"] body :where(.nav a:hover,.nav a[aria-current="page"],.main-nav a:hover,.main-nav a[aria-current="page"]){background:#20362c!important;color:#dff9e9!important}
+html[data-theme="dark"] body :where(.btn,.tool-btn,.back-button,.outline,.btn-outline,.plant-button,.print-button){background:#172820!important;color:#e9f8ee!important;border-color:#466353!important}
+html[data-theme="dark"] body :where(.btn.primary,.primary,.tool-btn.active,.print-button,.plant-list-actions button,.view-plant){background:#318b5d!important;color:#fff!important;border-color:#318b5d!important}
+html[data-theme="dark"] body :where(.search-panel,.toolbar,.card,.panel,.feature,.plant-card,.plant-section,.plant-hero,.plant-header,.error-box,.loading-box,.empty,.form-card,.result-card,.reference-card,.question-card,.quiz-card,.viva-card,.comparison-card,.progress-card,.stat-card,.flash-face,.flashcard,.table-wrap,.table-container,.source-card,.data-card,.library-header,.header,.site-header){background:#111c18!important;color:#edf7f0!important;border-color:#2a3d34!important}
+html[data-theme="dark"] body :where(.search-panel input,.jump-input,.filter-select,.toolbar input,.search-panel select,.search-panel textarea,.controls input,.controls select){background:#0b1511!important;color:#f1faf4!important;border-color:#3a5145!important;caret-color:#fff!important}
+html[data-theme="dark"] body :where(.search-panel input::placeholder,.jump-input::placeholder,.toolbar input::placeholder,.controls input::placeholder,textarea::placeholder){color:#8fa59a!important;opacity:1!important}
+html[data-theme="dark"] body :where(.plant-image,.image-missing,.gallery-item,.flash-face,.loading-plants,.no-results){background:#182720!important;color:#c5d7cc!important;border-color:#2e463a!important}
+html[data-theme="dark"] body :where(.plant-sanskrit,.plant-botanical,.plant-family,.plant-english,.meta,.description,.desc,.info,.hint,.source-note,.caption,.gallery-source,.botanical,.data-status,.data-status.warn,.medical-disclaimer,.notice,.empty,.loading-box,.loading-plants,.no-results,.subtitle,.muted){color:#afc0b6!important}
+html[data-theme="dark"] body :where(.plant-number,.syllabus-marker,.data-status){background:#20372c!important;color:#c9f2d8!important}
+html[data-theme="dark"] body :where(.medical-disclaimer,.notice){background:#2a2518!important;color:#eadfc5!important;border-left-color:#c79b4a!important}
+html[data-theme="dark"] body :where(.shloka,.sanskrit-shloka,.big-sanskrit,.classical-section){color:#f0f7f2!important}
+html[data-theme="dark"] body :where(.shloka-card,.classical-section){background:#16251e!important;border-color:#354b40!important}
+html[data-theme="dark"] body :where(th){background:#1d3028!important;color:#edf7f0!important}html[data-theme="dark"] body :where(td){background:#111c18!important;color:#dcebe2!important}
+html[data-theme="dark"] body :where(hr){border-color:#2a3d34!important}
+html[data-theme="dark"] body :where(.footer,.site-footer,footer){background:#07100d!important;color:#dceee3!important}html[data-theme="dark"] body :where(.footer a,.site-footer a,footer a){color:#baf2ce!important}
+html[data-theme="dark"] body :where(.favorite-btn){background:#17261f!important;color:#c6d8cd!important;border-color:#3a5145!important}
+html[data-theme="dark"] body :where(.favorite-btn.active){background:#352d18!important;color:#ffd76a!important}
+html[data-theme="dark"] body :where(.rating button){color:#71877b!important}
+html[data-theme="dark"] body :where(.rating button.active){color:#ffd15c!important}
+html[data-theme="dark"] body :where(.dg-status.ok){background:#153323!important;color:#b9f1cc!important;border-color:#2c6944!important}
+html[data-theme="dark"] body :where(.dg-status.err){background:#351b1d!important;color:#ffc4c8!important;border-color:#75353b!important}
+html[data-theme="dark"] body :where(.dg-field input:focus,.dg-field select:focus,.dg-field textarea:focus,.search-panel input:focus,.jump-input:focus,.filter-select:focus){border-color:#6fcf97!important;box-shadow:0 0 0 3px rgba(111,207,151,.18)!important}
+html[data-theme="dark"] body :where(.btn:hover,.tool-btn:hover,.back-button:hover,.outline:hover,.btn-outline:hover){border-color:#6fcf97!important}
+@media (prefers-contrast: more){html[data-theme="dark"]{--dg-text:#ffffff;--dg-muted:#d7e4dc;--dg-border:#587266}}
+@media (forced-colors: active){#dgThemeToggle{border:1px solid ButtonText!important;background:ButtonFace!important;color:ButtonText!important}}
