@@ -21,12 +21,12 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "shrub or small tree",
+    "habitat": "Seasonally dry tropical habitats; sandy, disturbed and open sites",
+    "distribution": "Seasonally dry tropical habitats; sandy, disturbed and open sites"
   },
   "identification": {
-    "description": "",
+    "description": "A milky-latex shrub with thick grey-green leaves; waxy crown-like flowers are distinctive.",
     "whole_plant": "",
     "root": "",
     "stem": "",
@@ -35,7 +35,11 @@
     "fruit": "",
     "seed": "",
     "bark": "",
-    "identification_points": []
+    "identification_points": [
+      "Leaves are opposite, thick and broadly elliptic.",
+      "Flowers are white to pink/purple with a central crown.",
+      "Fruit is a paired follicle; seeds are flat and silky-haired."
+    ]
   },
   "images": {
     "whole_plant": "",
@@ -166,10 +170,10 @@
     }
   ],
   "metadata": {
-    "status": "supplementary_needs_source_verification",
+    "status": "supplementary_botanical_enriched_needs_classical_verification",
     "source_batch": "Gemini batch 91",
     "version": "1.0",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+    "last_enrichment": "structured botanical identification enrichment"
   }
 }
