@@ -17,9 +17,14 @@ function apply(theme){
 function save(theme){try{localStorage.setItem(KEY,theme)}catch(e){}}
 function mount(){
   if(document.getElementById('dgThemeToggle'))return;
-  var b=document.createElement('button');b.id='dgThemeToggle';b.type='button';b.innerHTML='<span id="dgThemeIcon" aria-hidden="true">🌙</span><span id="dgThemeLabel">Dark mode</span>';
+  var b=document.createElement('button');b.id='dgThemeToggle';b.type='button';b.className='nav-theme-toggle';b.innerHTML='<span id="dgThemeIcon" aria-hidden="true">🌙</span><span id="dgThemeLabel">Dark mode</span>';
   b.addEventListener('click',function(){var next=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';save(next);apply(next)});
-  document.body.appendChild(b);apply(getTheme());
+  var nav=document.querySelector('.site-header .nav, header .nav, .nav');
+  var quiz=nav&&nav.querySelector('a[href*="quiz.html"]');
+  if(nav&&quiz)quiz.insertAdjacentElement('afterend',b);
+  else if(nav)nav.appendChild(b);
+  else document.body.appendChild(b);
+  apply(getTheme());
 }
 function init(){apply(getTheme());if(document.body)mount();else document.addEventListener('DOMContentLoaded',mount,{once:true})}
 init();
