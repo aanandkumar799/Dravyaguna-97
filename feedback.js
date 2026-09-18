@@ -20,10 +20,8 @@ function initFirebase(){
   if(window.firebase.apps&&window.firebase.apps.length)window.firebase.app();else window.firebase.initializeApp(cfg);
   auth=window.firebase.auth();db=window.firebase.firestore();firebaseReady=true;
   auth.onAuthStateChanged(function(u){user=u||null;loginUI()});
-  auth.setPersistence(window.firebase.auth.Auth.Persistence.LOCAL).catch(function(e){console.warn(e)});
-  auth.getRedirectResult().then(function(result){
-    if(result&&result.user){user=result.user;loginUI()}
-  }).catch(function(e){if(e&&e.code&&e.code!=='auth/no-auth-event')status('Google sign-in could not be completed. Please try again.','err')});
+  auth.setPersistence(window.firebase.auth.Auth.Persistence.LOCAL).catch(function(e){console.warn('Auth persistence:',e)});
+  auth.getRedirectResult().catch(function(e){if(e&&e.code&&e.code!=='auth/no-auth-event')console.warn('Redirect result:',e)});
   loginUI();
  }catch(e){console.error(e);firebaseReady=false;loginUI();status('Google sign-in could not start. Please refresh the page.','err')}
 }
@@ -42,44 +40,33 @@ function bindForm(){
 function submit(ev){
  ev.preventDefault();
  if(!providerOk())return status('Please sign in with Google before submitting feedback.','err');
- if(!firebaseReady||!db)return status('feedback service is not ready. Please refresh and try again.','err');
+ if(!firebaseReady||!db)return status('Feedback service is not ready. Please refresh and try again.','err');
  var rating=Number(document.getElementById('dgRating').value),message=document.getElementById('dgMessage').value.trim(),category=document.getElementById('dgCategory').value;
  if(!category)return status('Please choose a feedback category.','err');
  if(!rating){document.querySelector('.rating').classList.add('invalid');return status('Please select a rating.','err')}
  if(message.length<3)return status('Please enter a little more detail so the issue can be understood.','err');
  if(message.length>2000)return status('Feedback is limited to 2000 characters.','err');
  busy(true);
- user.getIdTokenResult(true).then(function(tokenResult){
+ user.getIdTokenResult().then(function(tokenResult){
    var claims=tokenResult&&tokenResult.claims||{};
-   if(claims.email_verified!==true || !claims.firebase || claims.firebase.sign_in_provider!=='google.com'){
-     throw new Error('verified-google-token-required');
-   }
+   var provider=claims.firebase&&claims.firebase.sign_in_provider;
+   if(claims.email_verified!==true || provider!=='google.com')throw new Error('verified-google-token-required');
    var payload={
      category:(category==='technical'?'bug':(category==='suggestion'?'feature':(category==='correction'||category==='image'?'content':'general'))),
-     category_label:category,
-     rating:rating,
-     message:message,
+     category_label:category,rating:rating,message:message,
      correction_area:document.getElementById('dgCorrection').value||null,
      user:{uid:user.uid,displayName:user.displayName||null,email:user.email||null,emailVerified:true,photoURL:user.photoURL||null},
      context:{page_url:location.href,page_path:location.pathname+location.search,page_title:document.title,referrer:document.referrer||'',language:navigator.language||''},
-     status:'new',
-     authProvider:'google.com',
-     createdAt:firebase.firestore.FieldValue.serverTimestamp()
+     status:'new',authProvider:'google.com',createdAt:firebase.firestore.FieldValue.serverTimestamp()
    };
    return db.collection('reviews').add(payload);
  }).then(function(){
-   document.getElementById('dgFeedbackForm').reset();
-   document.getElementById('dgRating').value='0';
-   document.getElementById('dgCount').textContent='0';
-   document.querySelectorAll('.rating button').forEach(function(x){x.classList.remove('active');x.setAttribute('aria-checked','false')});
-   busy(false);
-   status('Thanks! Your feedback has been submitted successfully.','ok');
+   document.getElementById('dgFeedbackForm').reset();document.getElementById('dgRating').value='0';document.getElementById('dgCount').textContent='0';
+   document.querySelectorAll('.rating button').forEach(function(x){x.classList.remove('active');x.setAttribute('aria-checked','false')});busy(false);status('Thanks! Your feedback has been submitted successfully.','ok');
  }).catch(function(e){
-   console.error('Feedback submission failed:',e);
-   busy(false);
-   var code=e&&e.code?e.code:'unknown';
+   console.error('Feedback submission failed:',e);busy(false);var code=e&&e.code?e.code:'unknown';
    if(code==='verified-google-token-required')status('Your Google session needs to be refreshed. Please sign out, sign in again, and submit once more.','err');
-   else if(code==='permission-denied')status('Firebase rejected the write. The signed-in account was verified, but the active Firestore rules did not accept the feedback. The Firestore deployment is waiting for the Firebase service-account permission to be corrected.','err');
+   else if(code==='permission-denied')status('Feedback is temporarily blocked by the Firestore security rules. Please try again after the Firebase rules deployment completes.','err');
    else status('Could not submit feedback ('+code+'). Please try again.','err');
  });
 }
