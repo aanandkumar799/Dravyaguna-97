@@ -2,6 +2,7 @@
 'use strict';
 var cfg=window.DRAVYAGUNA_FIREBASE_CONFIG||{},auth=null,db=null,user=null;
 var V='10.12.5';
+var firebaseReady=false;
 
 function configured(){return cfg.apiKey&&cfg.apiKey.indexOf('REPLACE_')!==0&&cfg.projectId&&cfg.projectId.indexOf('REPLACE_')!==0&&cfg.appId&&cfg.appId.indexOf('REPLACE_')!==0}
 function esc(v){return String(v==null?'':v).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
@@ -23,13 +24,26 @@ function loginUI(){
   f.classList.remove('dg-hidden');document.getElementById('dgEmail').value=user.email||'';document.getElementById('dgSignout').onclick=function(){auth.signOut()};bindForm();
  }else{
   e.innerHTML='<div class="dg-feedback-login dg-login-prompt"><div><strong>Sign in to send feedback</strong><span>Google verification keeps the feedback channel reliable and spam-resistant.</span></div><button type="button" class="dg-google-btn" id="dgGoogle"><span aria-hidden="true">G</span> Continue with Google</button></div>';
-  f.classList.add('dg-hidden');document.getElementById('dgGoogle').onclick=function(){var p=new firebase.auth.GoogleAuthProvider();p.setCustomParameters({prompt:'select_account'});setStatus('Opening Google sign-in…','loading');auth.signInWithPopup(p).catch(function(x){setStatus(x.message||'Google sign-in failed. Please try again.','err')})};
+  f.classList.add('dg-hidden');document.getElementById('dgGoogle').onclick=function(){
+  if(!firebaseReady||!auth){setStatus('Feedback service is still loading. Please try again in a moment.','err');return}
+  var p=new firebase.auth.GoogleAuthProvider();p.setCustomParameters({prompt:'select_account'});
+  setStatus('Opening Google sign-in…','loading');
+  auth.signInWithPopup(p).catch(function(x){
+    console.error('Google sign-in failed',x);
+    if(x&&['auth/popup-blocked','auth/popup-closed-by-user','auth/cancelled-popup-request'].indexOf(x.code)>=0){
+      setStatus('Opening Google sign-in page…','loading');
+      return auth.signInWithRedirect(p).catch(function(y){setStatus(y.message||'Google sign-in failed. Please try again.','err')});
+    }
+    setStatus(x&&x.message||'Google sign-in failed. Please try again.','err');
+  });
+};
  }
 }
 function bindForm(){
  var f=document.getElementById('dgFeedbackForm');if(!f||f.dataset.bound)return;f.dataset.bound='1';
  f.addEventListener('submit',function(ev){
   ev.preventDefault();if(!user)return setStatus('Please sign in with Google first.','err');
+  if(!user.emailVerified)return setStatus('Please complete email verification before submitting feedback.','err');
   var rating=Number(document.getElementById('dgRating').value),message=document.getElementById('dgMessage').value.trim();
   if(!rating){document.querySelector('.dg-rating').classList.add('invalid');return setStatus('Please select a rating.','err')}
   if(!message)return setStatus('Please enter your feedback details.','err');
