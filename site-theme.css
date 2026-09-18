@@ -146,3 +146,23 @@ html[data-theme="dark"] .supplementary-image{background:#eaf2eb!important}
   object-fit:cover;
   object-position:center;
 }
+
+
+/* Homepage v35 — dark-mode readability for the consolidated BAMS landing page */
+html[data-theme="dark"] .site-header{background:rgba(7,16,13,.94)!important;border-color:#2a3d34!important}
+html[data-theme="dark"] .brand,html[data-theme="dark"] .nav a{color:#e8f5ed!important}
+html[data-theme="dark"] .nav a:hover,html[data-theme="dark"] .nav a[aria-current="page"]{background:#20362c!important;color:#dff9e9!important}
+html[data-theme="dark"] .install-nav{background:#318b5d!important;color:#fff!important}
+html[data-theme="dark"] .hub-card,html[data-theme="dark"] .update,html[data-theme="dark"] .source,html[data-theme="dark"] .supp{background:#111c18!important;color:#edf7f0!important;border-color:#2a3d34!important}
+html[data-theme="dark"] .hub-card h3,html[data-theme="dark"] .update h3,html[data-theme="dark"] .source h3,html[data-theme="dark"] .supp h2{color:#edf7f0!important}
+html[data-theme="dark"] .hub-card p,html[data-theme="dark"] .update p,html[data-theme="dark"] .source p,html[data-theme="dark"] .supp p{color:#b8c9c0!important}
+html[data-theme="dark"] .hub-card .go,html[data-theme="dark"] .update a{color:#9be4b4!important}
+html[data-theme="dark"] .section-head h2{color:#e8f5ed!important}
+html[data-theme="dark"] .section-head p{color:#b8c9c0!important}
+html[data-theme="dark"] .plant-mini{background:#111c18!important;color:#edf7f0!important}
+html[data-theme="dark"] .plant-mini h3{color:#edf7f0!important}
+html[data-theme="dark"] .plant-mini .sanskrit{color:#b8c9c0!important}
+html[data-theme="dark"] .plant-mini .botanical{color:#aebfb6!important}
+html[data-theme="dark"] .plant-num,html[data-theme="dark"] .plant-badge{background:#20372c!important;color:#c9f2d8!important}
+html[data-theme="dark"] .search-box{background:#f8faf9!important}
+html[data-theme="dark"] .hero-note{color:#b8d9c5!important}
