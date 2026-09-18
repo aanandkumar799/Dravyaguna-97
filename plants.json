@@ -1007,10 +1007,14 @@
       "family": "Lamiaceae",
       "english_name": "Wind killer",
       "rasa": [
-        "Tikta"
+        "Katu",
+        "Tikta",
+        "Kashaya",
+        "Madhura"
       ],
       "guna": [
-        "Laghu"
+        "Laghu",
+        "Ruksha"
       ],
       "virya": "Ushna",
       "vipaka": "Katu",
@@ -1018,7 +1022,8 @@
         "Mula (root)",
         "Mula twak (root bark)"
       ],
-      "search_text": "Agnimanth अग्निमन्थ Agnimantha Premna integrifolia L. Lamiaceae Wind killer अरनी agnimanth"
+      "search_text": "Agnimanth अग्निमन्थ Agnimantha Agnimantha Premna integrifolia Premna serratifolia Lamiaceae Verbenaceae Arani Arani Jaya Jayanti Vaijayantika Tarkari Dashamoola root root bark Shothaghna",
+      "accepted_botanical_name": "Premna serratifolia L."
     },
     {
       "id": "ahiphena",
