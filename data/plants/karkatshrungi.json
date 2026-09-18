@@ -1,1 +1,298 @@
-{"id":"karkatshrungi","order":33,"identity":{"name":"Karkatshrungi","sanskrit_name":"कर्कटशृङ्गी","transliteration":"Karkatashringi","botanical_name":"Pistacia integerrima J.L.Stewart ex Brandis","family":"Anacardiaceae","english_name":"Crab's Claw","hindi_name":"काकड़ासिंगी","regional_names":[],"synonyms":["Shringi","Karkata","Vishanika","Ajashringi"]},"classification":{"kingdom":"Plantae","habit":"Small tree or shrub; medicinal drug is a plant gall","habitat":"Himalayan foothills and montane regions","distribution":"Associated with the northwestern Himalayan region and neighbouring areas"},"identification":{"description":"The crude drug Karkatashringi consists of characteristic horn-like galls formed on Pistacia integerrima, rather than an ordinary plant organ.","whole_plant":"Pistacia integerrima is a small tree or shrub; the medicinal galls are induced on the plant.","root":"Woody root system; not the traded medicinal part.","stem":"Woody branches with pinnate leaves.","leaf":"Compound pinnate leaves with narrow leaflets, characteristic of Pistacia.","flower":"Small inconspicuous flowers in inflorescences.","fruit":"Small drupe; not the principal crude drug.","seed":"Single seed within the drupe.","bark":"Grey-brown woody bark.","identification_points":["Pistacia source plant","Pinnate leaves","Characteristic horn-like gall","Gall is the medicinal drug"]},"images":{"whole_plant":"","habit":"","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},"dravya_guna":{"rasa":["Tikta","Kashaya"],"guna":["Guru"],"virya":"Ushna","vipaka":"Katu","prabhava":["Kasahara","Shwasahara","Grahi"],"karma":[]},"dosha":{"vata":"pacified","pitta":"aggravated","kapha":"pacified"},"therapeutics":{"useful_part":["gall"],"indications":["Kasa","Shwasa","Hikka","Atisara","Jwara"],"therapeutic_actions":[],"dose":"","anupana":"","duration":"","precautions":"","contraindications":""},"formulations":[],"classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},"phytochemistry":{"major_constituents":["Tannins and polyphenolic compounds","Resinous/terpenoid constituents reported in Pistacia galls"],"chemical_notes":"Gall chemistry is influenced by host plant and gall formation; exact profiles require authenticated crude drug studies."},"modern_information":{"evidence_summary":"Karkatashringi is a traditional plant-gall drug. Its pharmacological literature is limited compared with standardized modern medicines and should be interpreted cautiously.","recognized_uses":[],"safety_notes":"Authenticate the characteristic gall and host plant; do not substitute unrelated plant galls.","sources":[]},"student":{"exam_points":["Karkatashringi = Pistacia integerrima gall","Family: Anacardiaceae","Useful part: gall","Horn-like gall is the key crude-drug character"],"viva_questions":["What is the botanical source?","What is the medicinal part?","Why is it called Karkatashringi?","Which family?"],"identification_points":["Horn-like gall","Pistacia host","Pinnate leaves on source plant"],"mnemonics":["Karkata + shringi = crab-horn: remember the horn-like gall."],"quick_revision":"Karkatashringi is the characteristic gall of Pistacia integerrima, used as a crude-drug gall rather than as ordinary bark or fruit."},"teacher":{"teaching_points":["Teach crude-drug identification of a plant gall and its host species."],"discussion_points":["Gall formation and host authentication","Why gall material should not be confused with normal plant tissue"],"practical_points":["Observe shape, surface, hardness and internal structure of authenticated gall material."]},"doctor":{"quick_reference":"Karkatashringi — Pistacia integerrima gall; gall is the useful part listed here.","important_indications":["Kasa","Shwasa","Hikka","Atisara","Jwara"],"useful_part":"gall","dose":"","anupana":"","key_precautions":["Authenticate the gall and host plant.","Verify dose and formulation from authoritative references."]},"sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"official_pharmacopoeial_source","title":"PCIM&H","url":"https://pcimh.gov.in/"}],"metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3"},"category":"NCISM-97","syllabus_marker":"NCISM-97"}
+{
+  "id": "karkatshrungi",
+  "order": 33,
+  "identity": {
+    "name": "Karkatshrungi",
+    "sanskrit_name": "कर्कटशृङ्गी",
+    "transliteration": "Karkatashringi",
+    "botanical_name": "Pistacia integerrima J.L.Stewart ex Brandis",
+    "family": "Anacardiaceae",
+    "english_name": "Crab's Claw",
+    "hindi_name": "काकड़ासिंगी",
+    "regional_names": [
+      "English: Crab's Claw",
+      "Hindi: Kakra Singi",
+      "Kannada: Kakada Singi",
+      "Malayalam: Karkata Sringi",
+      "Marathi: Kakada Singi"
+    ],
+    "synonyms": [
+      "Shringi",
+      "Karkata",
+      "Vishanika",
+      "Ajashringi",
+      "Kulira Vishana",
+      "Vakra"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Tree; source plant glabrous; the medicinal crude drug is the characteristic gall.",
+    "habitat": "Himalayan slopes and the hills of Punjab and Uttar Pradesh",
+    "distribution": "Reported from Himalayan and northwestern Indian hill regions"
+  },
+  "identification": {
+    "description": "Karkatashringi is the characteristic horn-like gall occurring on Pistacia integerrima. The gall, not the ordinary root, bark or fruit, is the principal crude drug.",
+    "whole_plant": "Tree, glabrous; the source plant bears imparipinnate leaves and develops the characteristic medicinal galls.",
+    "root": "Woody root system; not the traded medicinal part.",
+    "stem": "Woody stem and branches.",
+    "leaf": "Imparipinnate leaves, about 15–20 cm long, usually with 4–5 pairs of opposite or nearly opposite lanceolate leaflets; young petioles and nerves may be finely pubescent; lateral nerves are arcuate and joined by reticulate veins.",
+    "flower": "Flowers in panicles; male inflorescences short, compact and pubescent, while female inflorescences are longer. Male flowers have 5, 6 or 7 stamens.",
+    "fruit": "Drupe, somewhat broader than long, about 6 mm broad, rugose and glabrous, becoming grey at maturity.",
+    "seed": "Single seed within the drupe.",
+    "bark": "Grey-brown woody bark.",
+    "identification_points": [
+      "Pistacia source plant",
+      "Pinnate leaves",
+      "Characteristic horn-like gall",
+      "Gall is the medicinal drug"
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Kashaya",
+      "Tikta"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha",
+      "Guru"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": [
+      "Kasahara",
+      "Shwasahara",
+      "Hikkanigrahana",
+      "Grahi"
+    ],
+    "karma": [
+      "Shwasahara",
+      "Kasahara",
+      "Hikkanigrahana",
+      "Rochana",
+      "Chardighna",
+      "Atisarajit"
+    ]
+  },
+  "dosha": {
+    "vata": "shamaka",
+    "pitta": "may be aggravated according to the cited source; verify context and formulation",
+    "kapha": "shamaka"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "gall (Keeta Kosha)"
+    ],
+    "indications": [
+      "Shwasa",
+      "Kasa",
+      "Hikka",
+      "Aruchi",
+      "Trishna",
+      "Chardi",
+      "Rajayakshma",
+      "Atisara"
+    ],
+    "therapeutic_actions": [
+      "Shwasahara",
+      "Kasahara",
+      "Hikkanigrahana",
+      "Rochana",
+      "Chardighna",
+      "Atisarajit",
+      "Grahi"
+    ],
+    "dose": "Churna (powder): 1–3 g",
+    "anupana": "Depends on indication and formulation; cited examples include sesame oil and honey.",
+    "duration": "",
+    "precautions": "",
+    "contraindications": "",
+    "formulations": [
+      {
+        "name": "Shrangyadi Churna",
+        "indications": [
+          "Hikka",
+          "Shwasa"
+        ]
+      },
+      {
+        "name": "Shringi Guda",
+        "indications": [
+          "Shwasa"
+        ]
+      },
+      {
+        "name": "Balachaturbhadra Churna",
+        "indications": [
+          "Balatisara"
+        ]
+      }
+    ]
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [
+      {
+        "section": "Synonyms",
+        "text": "The cited Bhavaprakasha passage groups names including Shringi, Karkatashringi, Vishanika, Ajashringi, Karkata and related descriptive synonyms.",
+        "reference": "Bhavaprakasha Nighantu, Haritakyadi Varga, 178–179",
+        "verification": "Paraphrased from user-provided textbook pages 379–381; not reproduced verbatim."
+      },
+      {
+        "section": "Properties and actions",
+        "text": "The cited verse describes Karkatashringi as Kashaya-Tikta and useful in cough, dyspnoea and related disorders; the source also cites additional actions.",
+        "reference": "Bhavaprakasha Nighantu, Haritakyadi Varga, 179",
+        "verification": "Paraphrased from user-provided textbook page 380."
+      }
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Haritakyadi Varga, 178–179",
+      "Dhanvantari Nighantu, Guduchyadi Varga, 84–86",
+      "Raja Nighantu, Pippalyadi Varga, 157"
+    ],
+    "samhita_references": [
+      "Charaka Samhita: cited uses for Shwasa, Kasa and Kapha-related Chardi in the supplied text",
+      "Ashtanga Sangraha: cited Vajikarana use",
+      "Priya Nighantu: cited Kasa/Hikka/Shwasa-related reference"
+    ],
+    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "Tannins",
+      "Resin",
+      "Essential oil",
+      "Pistacienoic acid A",
+      "Pistacin oil acid B",
+      "Tirucallid",
+      "β-sitosterol",
+      "Masticadienoic acid"
+    ],
+    "chemical_notes": "The supplied textbook reports α-pinene, camphene, α-terpineol and caprylic acid in the essential oil; fruit is reported to yield crystalline compounds named pistacin and pistacinin."
+  },
+  "modern_information": {
+    "evidence_summary": "Karkatashringi is a traditional plant-gall drug. Its pharmacological literature is limited compared with standardized modern medicines and should be interpreted cautiously.",
+    "recognized_uses": [],
+    "safety_notes": "Authenticate the characteristic gall and host plant; do not substitute unrelated plant galls.",
+    "sources": [
+      "Mehmood R, Imran M, Malikb A, Afzal RA. Flavonoid constituents of Pistacia integerrima. Natural Product Communications. 2012;7(8):1011–1014.",
+      "Mehla K, Balwani S, Kulshreshtha A, Nandi D, Jaisankar P, Ghosh B. Ethyl gallate isolated from Pistacia integerrima Linn. inhibits cell adhesion molecules by blocking AP-1 transcription factor. Journal of Ethnopharmacology. 2011;137(3):1345–1352.",
+      "Ahmad NS, Waheed A, Farman M, Qayyum A. Analgesic and anti-inflammatory effects of Pistacia integerrima extracts in mice. Journal of Ethnopharmacology. 2010;129(2):250–253.",
+      "Arfan M, Waliullah Khan I, Ali M, Taimur M, ur-Rehman I, Samiullah. Pistagremic acid, a new leishmanicidal triterpene isolated from Pistacia integerrima. Journal of Enzyme Inhibition and Medicinal Chemistry. 2012;27(5):646–648."
+    ]
+  },
+  "student": {
+    "exam_points": [
+      "Karkatashringi = gall of Pistacia integerrima",
+      "Family: Anacardiaceae",
+      "Useful part: Keeta Kosha (gall)",
+      "Rasa: Kashaya, Tikta",
+      "Guna: Laghu, Ruksha, Guru",
+      "Virya: Ushna",
+      "Vipaka: Katu",
+      "Key actions: Kasahara, Shwasahara, Hikkanigrahana"
+    ],
+    "viva_questions": [
+      "What is the botanical source of Karkatashringi?",
+      "Which part is used medicinally?",
+      "What are its Rasadi Panchaka properties?",
+      "What macroscopic characters identify the market sample?",
+      "Name classical formulations containing Karkatashringi.",
+      "Which synonym refers to its crab-horn-like appearance?"
+    ],
+    "identification_points": [
+      "Pistacia integerrima is the source plant",
+      "Medicinal part is the gall (Keeta Kosha), not a normal plant organ",
+      "Galls are curved or horn-shaped and may be hollow",
+      "Outer surface is rough and may be pinkish-purple to dark brown",
+      "Inner surface is reddish-brown with dust-like material",
+      "Characteristic odour and astringent taste"
+    ],
+    "mnemonics": [
+      "Karkata + shringi = crab-horn: remember the horn-like gall."
+    ],
+    "quick_revision": "Karkatashringi is the characteristic gall of Pistacia integerrima. The gall is the useful part; the supplied textbook records Kashaya-Tikta rasa, Ushna virya, Katu vipaka and uses in conditions including Kasa, Shwasa and Hikka."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Differentiate the medicinal gall from the normal organs of Pistacia integerrima.",
+      "Use macroscopic characters—shape, surface, colour, hollowness, odour and taste—for crude-drug identification.",
+      "Relate Karkatashringi to the Kasahara, Shwasahara and Hikkagrahana actions described in classical references."
+    ],
+    "discussion_points": [
+      "Gall formation and host authentication",
+      "Why gall material should not be confused with normal plant tissue"
+    ],
+    "practical_points": [
+      "Observe authenticated gall material for curved or horn-like form.",
+      "Note the rough outer surface, reddish-brown inner surface and characteristic odour.",
+      "On breaking, observe the uneven internal fracture and particulate insect-related material described for the market sample."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Karkatashringi — Pistacia integerrima gall; gall is the useful part listed here.",
+    "important_indications": [
+      "Kasa",
+      "Shwasa",
+      "Hikka",
+      "Atisara",
+      "Jwara"
+    ],
+    "useful_part": "gall",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Authenticate the gall and host plant.",
+      "Verify dose and formulation from authoritative references."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "official_pharmacopoeial_source",
+      "title": "PCIM&H",
+      "url": "https://pcimh.gov.in/"
+    }
+  ],
+  "metadata": {
+    "status": "verified_from_user_supplied_textbook_pages",
+    "last_verified": "2026-09-18",
+    "verified_by": "Project editorial pass",
+    "version": "1.3",
+    "verification_scope": "User-provided Dravyaguna Vijnana pages 377–381; data paraphrased and structured for the website, not copied verbatim."
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97",
+  "identification_points": [
+    "Pistacia integerrima is the source plant",
+    "Medicinal part is the gall (Keeta Kosha), not a normal plant organ",
+    "Galls are curved or horn-shaped and may be hollow",
+    "Outer surface is rough and may be pinkish-purple to dark brown",
+    "Inner surface is reddish-brown with dust-like material",
+    "Characteristic odour and astringent taste"
+  ]
+}
