@@ -21,12 +21,12 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "annual dioecious herb",
+    "habitat": "Cultivated and naturalised in temperate to subtropical regions",
+    "distribution": "Cultivated and naturalised in temperate to subtropical regions"
   },
   "identification": {
-    "description": "",
+    "description": "Strongly aromatic annual herb with erect branched stems and palmately divided leaves.",
     "whole_plant": "",
     "root": "",
     "stem": "",
@@ -35,7 +35,11 @@
     "fruit": "",
     "seed": "",
     "bark": "",
-    "identification_points": []
+    "identification_points": [
+      "Leaves are palmately compound with narrow serrated leaflets.",
+      "Female plants bear dense flowering clusters.",
+      "Fruits are small achenes enclosed by persistent bracts."
+    ]
   },
   "images": {
     "whole_plant": "",
@@ -162,10 +166,10 @@
     }
   ],
   "metadata": {
-    "status": "supplementary_needs_source_verification",
+    "status": "supplementary_botanical_enriched_needs_classical_verification",
     "source_batch": "Gemini batches 89, 100 and 105",
     "version": "1.0",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+    "last_enrichment": "structured botanical identification enrichment"
   }
 }
