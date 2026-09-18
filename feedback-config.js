@@ -1,7 +1,4 @@
-/*
- * DravyaGuna 97 Firebase web-app configuration.
- * This is client-side Firebase configuration; Firestore/Auth rules protect the data.
- */
+/* Client-side Firebase configuration. Firestore/Auth rules protect the data. */
 window.DRAVYAGUNA_FIREBASE_CONFIG = {
   apiKey: "AIzaSyBolaY9Ej3M-EXB-_zHSJEDAwdenp2uIaU",
   authDomain: "dravya-guna-97.firebaseapp.com",
@@ -11,5 +8,4 @@ window.DRAVYAGUNA_FIREBASE_CONFIG = {
   appId: "1:84513350587:web:a2a77be972725efe61da9e",
   measurementId: "G-PCL9S31RW9"
 };
-
-window.DRAVYAGUNA_FEEDBACK_ADMIN_EMAIL = "";
+window.DRAVYAGUNA_FEEDBACK_ADMIN_EMAIL = "aanandkumar799@gmail.com";
