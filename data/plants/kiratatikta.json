@@ -22,9 +22,9 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "annual or biennial herb",
+    "habitat": "Himalayan and temperate montane regions, commonly in moist open habitats",
+    "distribution": "Himalayan and temperate montane regions, commonly in moist open habitats"
   },
   "identification": {
     "description": "Purplish-brown cylindrical stems with yellow pith, opposite decussate sessile leaves, 4-merous greenish-yellow flowers, intensely bitter taste throughout the plant.",
@@ -224,7 +224,7 @@
     }
   ],
   "metadata": {
-    "status": "supplementary_needs_source_verification",
+    "status": "supplementary_botanical_enriched_needs_classical_verification",
     "source_batch": "Gemini batch 81",
     "version": "1.0",
     "gemini_later_batches_reviewed": true,
@@ -232,7 +232,7 @@
       81
     ],
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+    "last_enrichment": "structured botanical identification enrichment"
   },
   "gemini_source_data": {
     "id": 81,
