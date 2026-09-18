@@ -108,11 +108,11 @@ const id=new URLSearchParams(location.search).get('id');
 if(!id){app.innerHTML='<section class="plant-header"><h1>No plant selected</h1><p>Choose a supplementary plant first.</p></section>'}
 else Promise.all([
   get('data/plants/'+encodeURIComponent(id)+'.json?v=4'),
-  get('data/curated-image-manifest.json?v=6'),
-  commonsImages({identity:{botanical_name:id}})
-]).then(([p,manifest,remote])=>{
+  get('data/curated-image-manifest.json?v=6')
+]).then(async ([p,manifest])=>{
   if(!p||p.category!=='Supplementary')throw new Error('Not a supplementary record');
-  return Promise.resolve().then(()=>render(p,manifest,remote||[]));
+  const remote=await commonsImages(p);
+  render(p,manifest,remote||[]);
 }).catch(e=>{
   console.error(e);
   app.innerHTML='<section class="plant-header"><h1>Plant not found</h1><p>The supplementary record could not be loaded.</p><a class="btn btn-outline" href="supplementary.html">← Back</a></section>';
