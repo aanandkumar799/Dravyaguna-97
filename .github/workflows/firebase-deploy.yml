@@ -98,9 +98,25 @@ jobs:
           )"
           echo "FIREBASE_PROJECT_ID=$FIREBASE_PROJECT_ID" >> "$GITHUB_ENV"
           echo "Firebase project from service account: $FIREBASE_PROJECT_ID"
-      - name: Deploy Firebase Hosting and Firestore rules
+      - name: Deploy Firebase Hosting
         if: steps.firebase_auth.outputs.available == 'true'
-        run: npx --yes firebase-tools@latest deploy --project "$FIREBASE_PROJECT_ID" --only hosting,firestore:rules --non-interactive
+        run: npx --yes firebase-tools@latest deploy --project "$FIREBASE_PROJECT_ID" --only hosting --non-interactive
+
+      - name: Deploy Firestore security rules
+        id: firestore_rules
+        if: steps.firebase_auth.outputs.available == 'true'
+        continue-on-error: true
+        run: |
+          npx --yes firebase-tools@latest deploy --project "$FIREBASE_PROJECT_ID" --only firestore:rules --non-interactive
+          echo "Firestore security rules deployed successfully."
+
+      - name: Report Firestore deployment status
+        if: steps.firebase_auth.outputs.available == 'true' && steps.firestore_rules.outcome == 'failure'
+        run: |
+          echo "::warning::Hosting deployed successfully, but Firestore rules could not be deployed."
+          echo "::warning::The Firebase service account needs permission to inspect/use the Firestore API and deploy Firestore rules."
+          echo "::warning::Grant the GitHub Actions service account the required Firebase/Service Usage and Firestore rules permissions, then rerun this workflow."
+
       - name: Remove Firebase credentials
         if: always()
         run: rm -f "$RUNNER_TEMP/firebase-service-account.json"
