@@ -2,9 +2,6 @@ name: Deploy DravyaGuna 97 to GitHub Pages
 on:
   push:
     branches: ["main"]
-  workflow_run:
-    workflows: ["Continuous plant-part image audit"]
-    types: [completed]
   workflow_dispatch:
 permissions:
   contents: read
@@ -15,7 +12,6 @@ concurrency:
   cancel-in-progress: false
 jobs:
   deploy:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -33,7 +29,6 @@ jobs:
         run: |
           rm -rf _site && mkdir -p _site
           tar --exclude='./.git' --exclude='./.github' --exclude='./_site' -cf - . | tar -xf - -C _site
-          curl -fsSL 'https://raw.githubusercontent.com/aanandkumar799/Dravyaguna-97/f2da96c8ad2ec518246ca1d2fdcf60bf0d2f4f84/favicon-exact.jpg' -o _site/favicon-exact.jpg
           python - <<'PY'
           import json,re,os
           from pathlib import Path
@@ -71,8 +66,12 @@ jobs:
                   guard='''<script>(function(){var f=document.getElementById('reviewForm');if(!f)return;f.setAttribute('data-verification-status','required');var b=document.getElementById('reviewSubmit');var s=document.getElementById('reviewStatus');if(b){b.disabled=true;b.innerHTML='<span>🔐 Verification Required</span>';b.title='Verified account required before submitting a review'}if(s){s.className='review-status error';s.style.display='block';s.textContent='Reviews are locked until account/email verification is completed. No unverified comment can be submitted.'}f.addEventListener('submit',function(e){e.preventDefault();e.stopImmediatePropagation();return false},true)})();</script>\n'''
                   html=html.replace('</body>',guard+'</body>',1)
               page.write_text(html,encoding='utf-8')
+          import shutil
+          src=root/'images'/'favicon.png'
+          if src.exists(): shutil.copy2(src,root/'favicon-exact.jpg')
+          else: shutil.copy2(root/'favicon.svg',root/'favicon-exact.jpg') if (root/'favicon.svg').exists() else None
           m=json.loads((root/'manifest.json').read_text(encoding='utf-8'))
-          m['icons']=[{'src':'favicon-exact.jpg','sizes':'128x128','type':'image/jpeg','purpose':'any'}]
+          if (root/'favicon-exact.jpg').exists(): m['icons']=[{'src':'favicon-exact.jpg','sizes':'128x128','type':'image/jpeg','purpose':'any'}]
           (root/'manifest.json').write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
           (root/' .nojekyll'.strip()).touch()
           PY
