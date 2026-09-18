@@ -32,7 +32,10 @@
       "Clerodendron phlomidis Linn. (older treatment/name shown in textbook)",
       "Clerodendron multiflorum O. Ktze.",
       "Premna latifolia"
-    ]
+    ],
+    "accepted_botanical_name": "Premna serratifolia L.",
+    "taxonomy_note": "Premna integrifolia L. is the historical/medicinal-source name used in the record; Kew Plants of the World Online currently treats it as a synonym of Premna serratifolia L. The genus Premna is currently placed in Lamiaceae. Historical Ayurvedic and pharmacognostic literature may use Verbenaceae or Clerodendrum names.",
+    "family_note": "Lamiaceae (current Kew placement); older literature may list Verbenaceae."
   },
   "classification": {
     "kingdom": "Plantae",
@@ -329,17 +332,31 @@
       "title": "Dravyaguna Vijnana — Agnimantha chapter, supplied pages 14–20",
       "url": "",
       "note": "Photographed textbook pages supplied by the user; used to enrich morphology, Grahya Lakshana, Rasa Panchaka, therapeutic applications, formulations, classical classification, research notes and MCQs."
+    },
+    {
+      "type": "current_taxonomy",
+      "title": "Kew Plants of the World Online — Premna integrifolia",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:864281-1",
+      "note": "Current Kew treatment lists Premna integrifolia L. as a synonym of Premna serratifolia L."
+    },
+    {
+      "type": "medicinal_taxonomy",
+      "title": "Kew Medicinal Plant Names Services — Premna serratifolia",
+      "url": "https://mpns.science.kew.org/mpns-portal/plantDetail?dbs=wcs&fuzzy=false&nameType=all&plantId=165146&query=kew.kbuu318.icu",
+      "note": "Shows Premna integrifolia as a name used in medicinal sources and maps it to Premna serratifolia."
     }
   ],
   "metadata": {
-    "status": "textbook_enriched_needs_edition_cross_check",
-    "last_verified": "2026-09-17",
+    "status": "textbook_enriched_taxonomy_cross_checked",
+    "last_verified": "2026-09-18",
     "verified_by": "source-assisted repository review",
     "version": "1.5",
     "image_enrichment_note": "Existing image retained; additional part-specific verified images still required.",
     "last_enrichment": "user-supplied textbook pages 14–20: full morphology + Grahya Lakshana + classical classification + therapeutic applications + formulations + synonyms/varieties + pharmacology/research + MCQs",
     "quality_pass": "2026-09-17",
-    "source_note": "This enrichment is based on the supplied textbook photographs. Exact Sanskrit verse wording and bibliographic edition/page details should be checked against the physical source."
+    "source_note": "This enrichment is based on the supplied textbook photographs. Exact Sanskrit verse wording and bibliographic edition/page details should be checked against the physical source.",
+    "taxonomy_cross_check": "Current Kew taxonomy cross-check added 2026-09-18; textbook nomenclature retained for educational continuity.",
+    "verification_scope": "Existing Agnimantha textbook-enriched record cross-checked against current botanical taxonomy; textbook wording is paraphrased, not copied."
   },
   "category": "NCISM-97",
   "syllabus_marker": "NCISM-97",
