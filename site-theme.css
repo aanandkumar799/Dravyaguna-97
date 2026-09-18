@@ -205,3 +205,35 @@ html[data-theme="dark"] .dg-field input,html[data-theme="dark"] .dg-field select
 html[data-theme="dark"] .dg-feedback-footer-link a{
   color:var(--dg-accent,#6fcf97);
 }
+
+/* Homepage feedback call-to-action */
+.dg-feedback-footer-link{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:12px 20px;
+  margin:8px 0 4px;
+  font-size:1.08rem;
+  font-weight:800;
+  letter-spacing:.1px;
+  line-height:1.35;
+  border-radius:12px;
+  text-decoration:none;
+  color:var(--dg-accent-strong,#1b4332);
+  background:var(--dg-surface-2,#f2f7f3);
+  border:1px solid var(--dg-border,#d7e2da);
+  transition:transform .18s ease,box-shadow .18s ease,background .18s ease;
+}
+.dg-feedback-footer-link:hover,.dg-feedback-footer-link:focus-visible{
+  transform:translateY(-1px);
+  box-shadow:0 5px 16px rgba(0,0,0,.1);
+  text-decoration:none;
+}
+html[data-theme="dark"] .dg-feedback-footer-link{
+  color:#e8f7ee;
+  background:#172820;
+  border-color:#354b40;
+}
+@media(max-width:560px){
+  .dg-feedback-footer-link{font-size:1rem;padding:11px 17px}
+}
