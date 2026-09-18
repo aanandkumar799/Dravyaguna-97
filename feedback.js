@@ -43,7 +43,8 @@ function submit(ev){
  ev.preventDefault();
  if(!providerOk())return status('Please sign in with Google before submitting feedback.','err');
  if(!firebaseReady||!db)return status('feedback service is not ready. Please refresh and try again.','err');
- var rating=Number(document.getElementById('dgRating').value),message=document.getElementById('dgMessage').value.trim();
+ var rating=Number(document.getElementById('dgRating').value),message=document.getElementById('dgMessage').value.trim(),category=document.getElementById('dgCategory').value;
+ if(!category)return status('Please choose a feedback category.','err');
  if(!rating){document.querySelector('.rating').classList.add('invalid');return status('Please select a rating.','err')}
  if(message.length<3)return status('Please enter a little more detail so the issue can be understood.','err');
  if(message.length>2000)return status('Feedback is limited to 2000 characters.','err');
@@ -54,7 +55,8 @@ function submit(ev){
      throw new Error('verified-google-token-required');
    }
    var payload={
-     category:document.getElementById('dgCategory').value,
+     category:(category==='technical'?'bug':(category==='suggestion'?'feature':(category==='correction'||category==='image'?'content':'general'))),
+     category_label:category,
      rating:rating,
      message:message,
      correction_area:document.getElementById('dgCorrection').value||null,
