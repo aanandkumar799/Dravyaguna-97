@@ -24,7 +24,6 @@ service cloud.firestore {
         && request.auth.token.email_verified == true
         && request.resource.data.user.email == request.auth.token.email
         && request.resource.data.user.emailVerified == true
-        && request.resource.data.user.isAnonymous == false
         && request.resource.data.authProvider == 'google.com';
       allow read: if isAdmin();
       allow update, delete: if isAdmin();
