@@ -14,18 +14,42 @@ service cloud.firestore {
 
     match /reviews/{reviewId} {
       allow create: if isVerifiedGoogle()
-        && request.auth.uid == request.resource.data.user.uid
-        && request.resource.data.authProvider == "google.com"
-        && request.resource.data.status == "new"
+        && request.resource.data.keys().hasOnly([
+          "category","category_label","rating","message","correction_area",
+          "user","context","status","authProvider","createdAt"
+        ])
         && request.resource.data.category in ["content","bug","feature","general"]
+        && request.resource.data.category_label is string
         && request.resource.data.rating is int
         && request.resource.data.rating >= 1
         && request.resource.data.rating <= 5
         && request.resource.data.message is string
         && request.resource.data.message.size() >= 3
         && request.resource.data.message.size() <= 2000
+        && request.resource.data.status == "new"
+        && request.resource.data.authProvider == "google.com"
+        && request.resource.data.createdAt is timestamp
+        && request.resource.data.user is map
+        && request.resource.data.user.keys().hasOnly([
+          "uid","displayName","email","emailVerified","photoURL"
+        ])
+        && request.resource.data.user.uid == request.auth.uid
         && request.resource.data.user.email == request.auth.token.email
-        && request.resource.data.user.emailVerified == true;
+        && request.resource.data.user.emailVerified == true
+        && request.resource.data.user.displayName is string
+        && request.resource.data.user.email is string
+        && (request.resource.data.user.photoURL == null || request.resource.data.user.photoURL is string)
+        && request.resource.data.context is map
+        && request.resource.data.context.keys().hasOnly([
+          "page_url","page_path","page_title","referrer","language"
+        ])
+        && request.resource.data.context.page_url is string
+        && request.resource.data.context.page_path is string
+        && request.resource.data.context.page_title is string
+        && request.resource.data.context.referrer is string
+        && request.resource.data.context.language is string
+        && (request.resource.data.correction_area == null
+            || request.resource.data.correction_area is string);
 
       allow read: if isAdmin();
       allow update, delete: if isAdmin();
