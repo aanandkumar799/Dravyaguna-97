@@ -105,36 +105,63 @@
   },
   "phytochemistry": {
     "major_constituents": [],
-    "chemical_notes": ""
+    "chemical_notes": "Phytochemical compound list remains pending source-level verification; no unverified compound list is presented as authoritative."
   },
   "modern_information": {
     "evidence_summary": "Euphorbia neriifolia is a very potent purgative herb used under expert guidance for severe constipation and skin diseases.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Botanical identification and pharmacognosy/dravyaguna education."
+    ],
+    "safety_notes": "Do not infer dose or therapeutic use from this educational record. Latex-bearing material should be handled with appropriate laboratory precautions.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Botanical identity should be recorded as Euphorbia neriifolia L. only after reconciling the source dataset with current taxonomy.",
+      "Family: Euphorbiaceae.",
+      "Key practical feature: succulent shrub/tree with characteristic milky latex and spiny/angled branches."
+    ],
+    "viva_questions": [
+      "What is the botanical name and family of Snuhi?",
+      "What is the characteristic exudate of Snuhi?",
+      "Which safety precaution is important when handling Snuhi latex?"
+    ],
+    "identification_points": [
+      "Branches are fleshy and ribbed with paired spines.",
+      "Leaves are small and short-lived.",
+      "Flowers occur in cyathia."
+    ],
     "mnemonics": [],
-    "quick_revision": "Euphorbia neriifolia is a very potent purgative herb used under expert guidance for severe constipation and skin diseases."
+    "quick_revision": "Snuhi — Euphorbia neriifolia L., an accepted Euphorbiaceae species in Kew POWO; the record should retain explicit taxonomic and safety verification."
   },
   "teacher": {
     "teaching_points": [
-      "Retained as supplementary material from Gemini batches 92 and 106."
+      "Retained as supplementary material from Gemini batches 92 and 106.",
+      "Use Snuhi to demonstrate identification of succulent Euphorbiaceae and the importance of taxonomic synonym checking.",
+      "Kew currently accepts Euphorbia neriifolia L.; the record should not silently substitute an older Roxb. name."
     ],
     "discussion_points": [],
-    "practical_points": []
+    "practical_points": [
+      "Observe authenticated material without direct contact with latex.",
+      "Record stem/branch morphology and latex presence separately."
+    ]
   },
   "doctor": {
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
-    "important_indications": [],
-    "useful_part": "",
+    "important_indications": [
+      "Udararoga",
+      "Gulma",
+      "Kushta",
+      "Arsha",
+      "Pliharoga"
+    ],
+    "useful_part": "Ksheera, Kanda, Patra",
     "dose": "",
     "anupana": "",
     "key_precautions": [
-      "Use authoritative identification and safety references."
+      "Use authoritative identification and safety references.",
+      "Do not infer dose or therapeutic use from this educational record.",
+      "Latex-bearing material should be handled with appropriate laboratory precautions."
     ]
   },
   "sources": [
@@ -172,6 +199,6 @@
     "source_batch": "Gemini batches 92 and 106",
     "version": "1.0",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured botanical identification enrichment"
+    "last_enrichment": "botanical + educational field enrichment"
   }
 }
