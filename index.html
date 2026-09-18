@@ -153,6 +153,7 @@ html[data-theme="dark"] .dg-feedback-footer-link a:focus-visible{background:#1d3
       <a href="compare.html">⚖️ Compare</a>
       <a href="quiz.html">🧠 Quiz</a>
       <a href="supplementary.html">🌱 Supplementary</a>
+      <button id="install" class="install-nav" type="button" aria-label="Install DravyaGuna 97">📲 Install</button>
     </nav>
   </div>
 </header>
@@ -190,12 +191,7 @@ html[data-theme="dark"] .dg-feedback-footer-link a:focus-visible{background:#1d3
       </div>
 </section>
 
-<section class="section series" aria-labelledby="series-title">
-  <div class="section-head"><div><h2 id="series-title">Start with the Plant Series</h2><p>Four records are previewed here; the complete 97 remain in the database.</p></div><a class="section-link" style="color:#9be4b4" href="plants.html">View all 97 →</a></div>
-  <div id="featuredPlants" class="series-grid" aria-live="polite">
-    <div class="plant-mini"><div class="plant-mini-body"><strong>Loading plant records…</strong></div></div>
-  </div>
-</section>
+
 
 <section class="section" aria-labelledby="supp-title">
   <div class="supp"><div><h2 id="supp-title">🌱 Supplementary Plants</h2><p>Additional plant records and dossiers remain accessible separately without mixing them into the 97-plant core series.</p></div><a class="primary" href="supplementary.html">Explore Supplementary Plants →</a></div>
@@ -237,6 +233,17 @@ html[data-theme="dark"] .dg-feedback-footer-link a:focus-visible{background:#1d3
     const q=(input?.value||'').trim();
     location.href=q?'plants.html?q='+encodeURIComponent(q)+'#search':'plants.html#search';
   });
+
+  const install=document.getElementById('install');
+  let deferred=null;
+  const standalone=()=>window.matchMedia&&window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;
+  function refreshInstall(){if(!install)return;if(standalone())install.classList.add('is-installed');else install.classList.remove('is-installed');}
+  window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferred=e;refreshInstall()});
+  install?.addEventListener('click',async()=>{
+    if(deferred){deferred.prompt();try{await deferred.userChoice}catch(e){}deferred=null;refreshInstall();return;}
+    if(!standalone())alert('If the install prompt does not appear, use your browser menu and choose “Install app” or “Add to Home screen”.');
+  });
+  window.addEventListener('appinstalled',()=>{deferred=null;refreshInstall()});refreshInstall();
 
 
 })();
