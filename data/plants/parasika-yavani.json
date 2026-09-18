@@ -82,27 +82,39 @@
   },
   "phytochemistry": {
     "major_constituents": [],
-    "chemical_notes": ""
+    "chemical_notes": "Phytochemical compound list remains source-verification pending; do not treat an unverified compound list as authoritative."
   },
   "modern_information": {
     "evidence_summary": "",
-    "recognized_uses": [],
-    "safety_notes": "Contains tropane alkaloids; identification and safety must be verified from authoritative pharmacopoeial sources.",
+    "recognized_uses": [
+      "Botanical identification and pharmacognosy/dravyaguna education."
+    ],
+    "safety_notes": "Educational reference only. Verify authoritative toxicological and pharmacopoeial guidance before use.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
+    "exam_points": [
+      "Botanical identity: Hyoscyamus niger L.; Family: Solanaceae; annual or biennial habit and glandular-hairy, sticky foliage are useful diagnostic features."
+    ],
+    "viva_questions": [
+      "What is the botanical identity and family of Parasika Yavani?",
+      "Which characters are useful for practical identification of Parasika Yavani?"
+    ],
     "identification_points": [],
     "mnemonics": [],
-    "quick_revision": ""
+    "quick_revision": "Pārasīka Yavānī — Hyoscyamus niger L. is an accepted Kew species in Solanaceae, native from the Mediterranean to Iran and mainly temperate."
   },
   "teacher": {
     "teaching_points": [
-      "Retained as supplementary material from Gemini batch 97."
+      "Retained as supplementary material from Gemini batch 97.",
+      "Use Pārasīka Yavānī to teach botanical identity, nomenclature and the need to separate verified botanical facts from classical claims.",
+      "Separate botanical evidence from classical-text claims that remain unverified."
     ],
     "discussion_points": [],
-    "practical_points": []
+    "practical_points": [
+      "Use authenticated material or herbarium specimens for practical identification.",
+      "Record plant part and identification basis separately."
+    ]
   },
   "doctor": {
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
@@ -111,7 +123,9 @@
     "dose": "",
     "anupana": "",
     "key_precautions": [
-      "Use authoritative identification and safety references."
+      "Use authoritative identification and safety references.",
+      "Do not infer clinical dose from this educational record.",
+      "Verify current toxicological and pharmacopoeial guidance before clinical use."
     ]
   },
   "sources": [
@@ -148,6 +162,6 @@
     "source_batch": "Gemini batch 97",
     "version": "1.0",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured botanical identification enrichment"
+    "last_enrichment": "botanical + educational field enrichment"
   }
 }
