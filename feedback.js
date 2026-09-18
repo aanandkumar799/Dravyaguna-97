@@ -79,7 +79,7 @@ function submit(ev){
    busy(false);
    var code=e&&e.code?e.code:'unknown';
    if(code==='verified-google-token-required')status('Your Google session needs to be refreshed. Please sign out, sign in again, and submit once more.','err');
-   else if(code==='permission-denied')status('Firebase rejected the write. The signed-in account was verified, but the active Firestore rules did not accept the feedback. The rules have been refreshed; please refresh this page and try again.','err');
+   else if(code==='permission-denied')status('Firebase rejected the write. The signed-in account was verified, but the active Firestore rules did not accept the feedback. The Firestore deployment is waiting for the Firebase service-account permission to be corrected.','err');
    else status('Could not submit feedback ('+code+'). Please try again.','err');
  });
 }
