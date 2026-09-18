@@ -4,15 +4,73 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><link rel="icon" href="favicon.svg" type="image/svg+xml">
 <meta name="description" content="Supplementary Dravyaguna plant references for teacher and doctor use.">
 <meta name="theme-color" content="#1b4332">
-<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="site-theme.css?v=8">
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="site-theme.css?v=8"><style>
+.supplementary-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(285px,1fr));gap:18px}
+.supplementary-card{position:relative;background:#fff;border:1px solid #e3e8e3;border-radius:17px;overflow:hidden;box-shadow:0 8px 24px rgba(27,67,50,.07);display:flex;flex-direction:column}
+.supplementary-image{height:175px;background:#edf3ed;display:flex;align-items:center;justify-content:center;overflow:hidden;font-size:4.5rem}
+.supplementary-card-content{padding:18px;display:flex;flex-direction:column;flex:1}
+.supplementary-card-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:7px;padding-right:34px;gap:8px}
+.supplementary-number{background:#edf5ef;color:#1b4332;font-weight:700;padding:3px 9px;border-radius:20px;font-size:.8rem}
+.supplementary-marker{font-size:.72rem;color:#76551f;background:#fff3d9;padding:3px 9px;border-radius:12px;font-weight:700}
+.supplementary-card h3{margin:0;color:#1b4332;font-family:Cinzel,serif}
+.supplementary-card p{margin:5px 0}
+.supplementary-botanical{font-size:.9rem;color:#6b756f}
+.supplementary-family,.supplementary-english{font-size:.88rem}
+.supplementary-card .view-plant{display:block;margin-top:auto;padding-top:12px;text-align:center;background:#1b4332;color:#fff;padding:10px;border-radius:9px;font-weight:700;text-decoration:none}
+.supplementary-card .favorite-btn{position:absolute;top:12px;right:12px;width:38px;height:38px;border:1px solid #d8e0d9;border-radius:50%;background:#fff;font-size:1.1rem;cursor:pointer;color:#68736c;box-shadow:0 2px 8px rgba(0,0,0,.08);z-index:2}
+.supplementary-card .favorite-btn.active{color:#9b6b00;background:#fff8e9}
+@media(max-width:700px){.supplementary-grid{grid-template-columns:1fr}}
+</style>
 <title>Supplementary Plant References | DravyaGuna 97</title>
-<script src="site-theme.js?v=1" defer></script>\n</head><body>
+<script src="site-theme.js?v=1" defer></script>
+</head><body>
 <header class="site-header"><div class="header-inner"><a class="brand" href="index.html">🌿 DravyaGuna 97</a><nav class="nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="plants.html">NCISM 97</a><a href="reference-library.html">Teacher</a><a href="references.html">Doctor</a></nav></div></header>
 <main style="max-width:1180px;margin:auto;padding:28px 20px 60px">
 <section class="hero"><p class="eyebrow">TEACHER / DOCTOR REFERENCE</p><h1>Supplementary Plants</h1><p class="desc">Additional Dravyaguna reference records kept separate from the 97 NCISM plants. These are not part of the NCISM-97 syllabus list and are shown only for teacher and doctor reference.</p></section>
-<section class="section"><div class="section-head"><h2>14 Supplementary Records</h2><p>Use these for reference and teaching discussion; verify source texts before relying on classical or clinical claims.</p></div><div id="supp-grid" class="features"><div class="feature"><h3>Loading…</h3><p>Loading supplementary records.</p></div></div></section>
+<section class="section"><div class="section-head"><h2>14 Supplementary Records</h2><p>Use these for reference and teaching discussion; verify source texts before relying on classical or clinical claims.</p></div><div id="supp-grid" class="supplementary-grid" aria-live="polite"><div class="supplementary-card"><div class="supplementary-image" aria-hidden="true">🌿</div><div class="supplementary-card-content"><h3>Loading…</h3><p>Loading supplementary records.</p></div></div></div></section>
 </main><footer class="footer"><p><strong>DravyaGuna 97</strong></p><p>Supplementary reference material • not part of the NCISM-97 core list.</p></footer>
 <script>
-(function(){const g=document.getElementById('supp-grid');const esc=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));Promise.all(["arka","bhanga","dhattura","gunja","jayapala","kankola","karavira","karpura","kiratatikta","kupilu","langali","parasika-yavani","snuhi","tejapatra"].map(id=>fetch('data/plants/'+encodeURIComponent(id)+'.json?v=2',{cache:'no-store'}).then(r=>r.json()))).then(plants=>{g.innerHTML=plants.filter(p=>p&&p.category==='Supplementary').map(p=>{const i=p.identity||{};const c=p.classification||{};const status=(p.metadata||{}).status||'supplementary verification required';return '<article class="feature"><h3>'+esc(i.name||p.id)+'</h3><p><strong>'+esc(i.sanskrit_name||'')+'</strong><br><em>'+esc(i.botanical_name||'')+'</em><br>'+esc(i.family||'')+'</p><p><span class="data-status warn">Supplementary • '+esc(status.replaceAll('_',' '))+'</span></p><p><strong>Habit:</strong> '+esc(c.habit||'Not recorded')+'</p><a class="btn btn-outline" href="supplementary-plant.html?id='+encodeURIComponent(p.id)+'">Open reference →</a></article>'}).join('')}).catch(()=>{g.innerHTML='<div class="feature"><h3>Unable to load</h3><p>Please refresh.</p></div>'});})();</script>
+(function(){
+'use strict';
+const g=document.getElementById('supp-grid');
+const ids=["arka","bhanga","dhattura","gunja","jayapala","kankola","karavira","karpura","kiratatikta","kupilu","langali","parasika-yavani","snuhi","tejapatra"];
+const FAVORITES_KEY='dg97-favourites-v1';
+const esc=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const getFavorites=()=>{try{const x=JSON.parse(localStorage.getItem(FAVORITES_KEY)||'[]');return new Set(Array.isArray(x)?x.map(String):[])}catch(_){return new Set()}};
+const saveFavorites=s=>{try{localStorage.setItem(FAVORITES_KEY,JSON.stringify([...s]))}catch(_){}};
+const english=p=>p.english_name||p.identity?.english_name||p.identity?.common_name||p.common_name||'';
+const botanical=p=>p.identity?.botanical_name||p.botanical_name||'';
+const family=p=>p.identity?.family||p.family||'';
+const sanskrit=p=>p.identity?.sanskrit_name||p.sanskrit_name||'';
+const name=p=>p.identity?.name||p.name||p.id;
+const card=(p,i)=>{
+ const id=String(p.id||''),fav=getFavorites().has(id),n=name(p);
+ return '<article class="supplementary-card">'+
+ '<button class="favorite-btn '+(fav?'active':'')+'" type="button" data-favorite="'+esc(id)+'" aria-label="'+(fav?'Remove':'Add')+' '+esc(n)+' '+(fav?'from':'to')+' favourites" aria-pressed="'+fav+'">'+(fav?'★':'☆')+'</button>'+
+ '<div class="supplementary-image" role="img" aria-label="'+esc(n)+' plant preview">🌿</div>'+
+ '<div class="supplementary-card-content">'+
+ '<div class="supplementary-card-top"><span class="supplementary-number">#'+(i+1)+'</span><span class="supplementary-marker">Supplementary</span></div>'+
+ '<h3>'+esc(n)+'</h3>'+
+ (sanskrit(p)?'<p>'+esc(sanskrit(p))+'</p>':'')+
+ (botanical(p)?'<p class="supplementary-botanical"><em>'+esc(botanical(p))+'</em></p>':'')+
+ (english(p)?'<p class="supplementary-english">'+esc(english(p))+'</p>':'')+
+ (family(p)?'<p class="supplementary-family"><strong>Family:</strong> '+esc(family(p))+'</p>':'')+
+ '<a class="view-plant" href="supplementary-plant.html?id='+encodeURIComponent(id)+'">Open Reference →</a>'+
+ '</div></article>';
+};
+Promise.all(ids.map(id=>fetch('data/plants/'+encodeURIComponent(id)+'.json?v=2',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('Failed to load '+id);return r.json()})))
+.then(plants=>{
+ const rows=plants.filter(p=>p&&String(p.category||'').toLowerCase()==='supplementary');
+ g.innerHTML=rows.map(card).join('');
+ g.querySelectorAll('[data-favorite]').forEach(btn=>btn.addEventListener('click',()=>{
+   const fav=getFavorites(),id=String(btn.dataset.favorite);
+   fav.has(id)?fav.delete(id):fav.add(id);saveFavorites(fav);
+   const active=fav.has(id);btn.classList.toggle('active',active);btn.setAttribute('aria-pressed',String(active));btn.textContent=active?'★':'☆';
+   const n=btn.getAttribute('aria-label')||'';btn.setAttribute('aria-label',n.replace(/^(Remove|Add)/,active?'Remove':'Add').replace(/ (from|to) favourites$/,' '+(active?'from':'to')+' favourites'));
+ });
+})
+.catch(err=>{console.error(err);g.innerHTML='<div class="supplementary-card"><div class="supplementary-image" aria-hidden="true">⚠️</div><div class="supplementary-card-content"><h3>Unable to load</h3><p>Please refresh the page.</p></div></div>'});
+})();
+</script>
 
 </body></html>
