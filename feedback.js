@@ -21,7 +21,9 @@ function initFirebase(){
   auth=window.firebase.auth();db=window.firebase.firestore();firebaseReady=true;
   auth.onAuthStateChanged(function(u){user=u||null;loginUI()});
   auth.setPersistence(window.firebase.auth.Auth.Persistence.LOCAL).catch(function(e){console.warn(e)});
-  auth.getRedirectResult().catch(function(e){if(e&&e.code&&e.code!=='auth/no-auth-event')status('Google sign-in could not be completed. Please try again.','err')});
+  auth.getRedirectResult().then(function(result){
+    if(result&&result.user){user=result.user;loginUI()}
+  }).catch(function(e){if(e&&e.code&&e.code!=='auth/no-auth-event')status('Google sign-in could not be completed. Please try again.','err')});
   loginUI();
  }catch(e){console.error(e);firebaseReady=false;loginUI();status('Google sign-in could not start. Please refresh the page.','err')}
 }
@@ -46,7 +48,11 @@ function submit(ev){
  if(message.length<3)return status('Please enter a little more detail so the issue can be understood.','err');
  if(message.length>2000)return status('Feedback is limited to 2000 characters.','err');
  busy(true);
- user.getIdToken(true).then(function(){
+ user.getIdTokenResult(true).then(function(tokenResult){
+   var claims=tokenResult&&tokenResult.claims||{};
+   if(claims.email_verified!==true || !claims.firebase || claims.firebase.sign_in_provider!=='google.com'){
+     throw new Error('verified-google-token-required');
+   }
    var payload={
      category:document.getElementById('dgCategory').value,
      rating:rating,
@@ -70,7 +76,8 @@ function submit(ev){
    console.error('Feedback submission failed:',e);
    busy(false);
    var code=e&&e.code?e.code:'unknown';
-   if(code==='permission-denied')status('Firebase still rejected the write. The Google login is working; the Firestore rules deployment is the remaining issue.','err');
+   if(code==='verified-google-token-required')status('Your Google session needs to be refreshed. Please sign out, sign in again, and submit once more.','err');
+   else if(code==='permission-denied')status('Firebase rejected the write. The signed-in account was verified, but the active Firestore rules did not accept the feedback. The rules have been refreshed; please refresh this page and try again.','err');
    else status('Could not submit feedback ('+code+'). Please try again.','err');
  });
 }
