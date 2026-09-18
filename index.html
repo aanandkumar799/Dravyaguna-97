@@ -61,6 +61,59 @@ html[data-theme="dark"] .search-box button{background:#318b5d;color:#fff}
 .search-box{transition:box-shadow .18s ease,transform .18s ease}.search-box:focus-within{box-shadow:0 16px 38px rgba(0,0,0,.24);transform:translateY(-1px)}
 .search-box input::placeholder{color:#718078}
 @media(max-width:560px){.home-search-hint{font-size:.74rem;text-align:center}.search-box button{white-space:nowrap}}
+</style><style>
+/* Homepage v2: botanical hero + real dossier search */
+.hero{background:
+  radial-gradient(circle at 82% 22%,rgba(174,220,185,.55),transparent 24%),
+  radial-gradient(circle at 15% 85%,rgba(214,235,211,.7),transparent 30%),
+  linear-gradient(135deg,#f5f8ed 0%,#edf5e8 48%,#e1f0e5 100%)!important;
+  color:#123b2c!important;
+  border-bottom:1px solid #d7e5d9;
+}
+.hero:before{content:"🌿";right:-2%;top:-90px;color:#2d6a4f;opacity:.07}
+.eyebrow{color:#527363!important}
+.hero h1{color:#123b2c!important;text-shadow:none}
+.hero h1 span{color:#49a873!important}
+.hero .tagline{color:#47665a}
+.hero .desc{color:#5e7168!important}
+.hero-note{color:#668076!important}
+.hero-actions a:first-child{background:#0d5b40;color:#fff}
+.hero-actions a:last-child{color:#174936;background:rgba(255,255,255,.7);border-color:#b7d0c0}
+.home-search-results{max-width:900px;margin:14px auto 0;text-align:left}
+.home-result-shell{background:rgba(255,255,255,.94);border:1px solid #c9dfd0;border-radius:20px;padding:12px;box-shadow:0 18px 42px rgba(27,67,50,.14);color:#173127}
+.home-result-head{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:4px 6px 10px}
+.home-result-head strong{color:#0d5b40}
+.home-result-count{font-size:.78rem;color:#667970}
+.home-result{display:grid;grid-template-columns:110px 1fr auto;gap:14px;align-items:center;padding:12px;border:1px solid #e0ebe3;border-radius:15px;background:#fff;margin-top:8px}
+.home-result img{width:110px;height:110px;object-fit:cover;border-radius:12px;background:#edf4ef}
+.home-result h3{margin:0;color:#124b36;font-family:Cinzel,Georgia,serif;font-size:1.12rem}
+.home-result .latin{margin:2px 0 6px;color:#65776f;font-style:italic;font-size:.86rem}
+.home-result-meta{display:flex;flex-wrap:wrap;gap:6px}
+.home-result-meta span{padding:4px 8px;border-radius:999px;background:#eef7f0;border:1px solid #d5e8db;color:#356b52;font-size:.7rem;font-weight:800}
+.home-result-areas{margin-top:8px;color:#5e7168;font-size:.78rem}
+.home-result-areas b{color:#2d6a4f}
+.home-result-open{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;padding:10px 12px;border-radius:10px;background:#0d5b40;color:#fff!important;font-weight:800}
+.home-search-empty{padding:18px;text-align:center;color:#65776f}
+.home-search-empty strong{display:block;color:#234f3e;margin-bottom:3px}
+@media(max-width:650px){
+ .hero{padding:48px 14px 34px}
+ .hero h1{font-size:2.55rem}
+ .home-result{grid-template-columns:74px 1fr;gap:10px}
+ .home-result img{width:74px;height:74px}
+ .home-result-open{grid-column:1/-1;width:100%}
+ .home-result-head{align-items:flex-start;flex-direction:column;gap:2px}
+}
+html[data-theme="dark"] .hero{background:radial-gradient(circle at 80% 20%,rgba(64,125,89,.3),transparent 28%),linear-gradient(135deg,#10231b,#162e23)!important;color:#edf7f0!important;border-color:#2e473b}
+html[data-theme="dark"] .hero h1{color:#edf7f0!important}
+html[data-theme="dark"] .hero h1 span{color:#7fe0a4!important}
+html[data-theme="dark"] .hero .tagline,html[data-theme="dark"] .hero .desc{color:#c3d7cc!important}
+html[data-theme="dark"] .hero-note,html[data-theme="dark"] .eyebrow{color:#a9c5b5!important}
+html[data-theme="dark"] .home-result-shell{background:#111c18;border-color:#355044;color:#edf7f0}
+html[data-theme="dark"] .home-result{background:#17251f;border-color:#334b3f}
+html[data-theme="dark"] .home-result h3{color:#e9f7ee}
+html[data-theme="dark"] .home-result .latin,html[data-theme="dark"] .home-result-areas{color:#afc3b7}
+html[data-theme="dark"] .home-result-meta span{background:#1b3428;border-color:#365547;color:#bcefd0}
+html[data-theme="dark"] .home-search-empty{color:#afc3b7}
 </style></head>
 <body>
 <header class="site-header">
@@ -83,14 +136,15 @@ html[data-theme="dark"] .search-box button{background:#318b5d;color:#fff}
 <section class="hero" aria-labelledby="hero-title">
   <div class="hero-inner">
     <p class="eyebrow">BAMS • 2nd Professional • Dravyaguna Vigyan</p>
-    <h1 id="hero-title">Master the <span>97 Dravyas</span></h1>
-    <p class="tagline">Learn • Identify • Revise • Cross-check</p>
-    <p class="desc">A focused study portal for the BAMS undergraduate Dravyaguna plant series — with practical identification, Rasa Panchaka, classical references, formulations, revision tools and supplementary plants.</p>
+    <h1 id="hero-title">The Complete <span>Dravyaguna Database</span></h1>
+    <p class="tagline">Explore • Learn • Identify • Revise</p>
+    <p class="desc">A focused BAMS study portal for 97 medicinal plants — connecting identity, morphology, Rasa Panchaka, uses, formulations, classical references and exam-oriented revision in one place.</p>
     <form class="search-box" id="homeSearch" role="search">
       <input id="homeSearchInput" type="search" autocomplete="off" enterkeyhint="search" spellcheck="false" placeholder="Search plants, Sanskrit names, botanical names, families, Rasa, Guna…" aria-label="Search the DravyaGuna database">
       <button type="submit" aria-label="Search the DravyaGuna database">🔎 Search</button>
     </form>
     <div id="homeSearchHint" class="home-search-hint" aria-live="polite">Search the complete 97-plant database by name, Sanskrit name, botanical name, family or indexed Dravyaguna terms.</div>
+    <div id="homeSearchResults" class="home-search-results" aria-live="polite" hidden></div>
     <p class="hero-note">The complete plant database remains on the Plant Series page. This homepage only organizes access to it.</p>
     <div class="hero-actions"><a href="plants.html">Open 97 Plant Series →</a><a href="practical-lab.html">Practical Identification</a></div>
   </div>
@@ -191,14 +245,42 @@ html[data-theme="dark"] .search-box button{background:#318b5d;color:#fff}
 </script>
 <script>
 document.addEventListener('DOMContentLoaded',function(){
-  var form=document.getElementById('homeSearch'),input=document.getElementById('homeSearchInput');
-  if(!form||!input)return;
-  form.addEventListener('submit',function(e){
-    e.preventDefault();
-    var q=input.value.trim();
-    if(!q){input.focus();return;}
-    window.location.href='plants.html?q='+encodeURIComponent(q)+'#search';
-  });
+  var form=document.getElementById('homeSearch'),input=document.getElementById('homeSearchInput'),box=document.getElementById('homeSearchResults');
+  if(!form||!input||!box)return;
+  var rows=[],timer=0;
+  var norm=function(v){return String(v||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').trim();};
+  var text=function(v){return Array.isArray(v)?v.map(text).join(' '):(v&&typeof v==='object'?Object.values(v).map(text).join(' '):String(v||''));};
+  var escape=function(v){return String(v||'').replace(/[&<>"']/g,function(x){return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[x];});};
+  function score(p,q){
+    var n=norm(q), fields=[
+      [p.name,1600],[p.sanskrit_name,1500],[p.transliteration,1400],[p.botanical_name,1350],
+      [p.english_name,1200],[p.family,1050],[p.id,900],[text(p.rasa),850],[text(p.guna),850],
+      [p.virya,750],[p.vipaka,750],[text(p.useful_part),700],[p.search_text,450]
+    ];
+    var s=0; fields.forEach(function(f){var x=norm(f[0]);if(!x)return;if(x===n)s+=f[1];else if(x.startsWith(n))s+=f[1]*.7;else if(x.includes(n))s+=f[1]*.48;});
+    return s;
+  }
+  async function load(){
+    try{
+      var r=await fetch('plant-index.json?v=2',{cache:'force-cache'}); if(!r.ok)throw 0;
+      var d=await r.json(); rows=Array.isArray(d.plants)?d.plants:[];
+    }catch(e){rows=[];}
+  }
+  function render(q){
+    q=q.trim(); if(!q){box.hidden=true;box.innerHTML='';return;}
+    var hits=rows.map(function(p){return {p:p,s:score(p,q)}}).filter(function(x){return x.s>0}).sort(function(a,b){return b.s-a.s}).slice(0,5);
+    if(!hits.length){
+      box.hidden=false;box.innerHTML='<div class="home-result-shell"><div class="home-search-empty"><strong>No matching plant found</strong>Try a plant name, Sanskrit name, botanical name, family, Rasa, Guna, Virya or Vipaka.</div></div>';return;
+    }
+    box.hidden=false;
+    box.innerHTML='<div class="home-result-shell"><div class="home-result-head"><strong>🔎 Search results</strong><span class="home-result-count">'+hits.length+' matching record'+(hits.length===1?'':'s')+' shown</span></div>'+hits.map(function(x){
+      var p=x.p, meta=[p.family,p.virya,p.vipaka].filter(Boolean);
+      return '<article class="home-result"><img src="'+escape(p.image_path||('images/plants/'+encodeURIComponent(p.id)+'/whole_plant/image.jpg'))+'" alt="'+escape(p.name)+' whole plant" loading="lazy" onerror="this.style.visibility=\'hidden\'"><div><h3>'+escape(p.name)+' <span class="home-result-count">'+escape(p.sanskrit_name||'')+'</span></h3><p class="latin">'+escape(p.botanical_name||'')+'</p><div class="home-result-meta">'+meta.map(function(m){return '<span>'+escape(m)+'</span>';}).join('')+'</div><div class="home-result-areas"><b>Full dossier:</b> identity • morphology • Rasa Panchaka • therapeutics • formulations • classical references • exam points</div></div><a class="home-result-open" href="plant.html?id='+encodeURIComponent(p.id)+'">View Full Dossier →</a></article>';
+    }).join('')+'</div>';
+  }
+  input.addEventListener('input',function(){clearTimeout(timer);timer=setTimeout(function(){render(input.value)},120);});
+  form.addEventListener('submit',function(e){e.preventDefault();var q=input.value.trim();if(!q){input.focus();return;}window.location.href='plants.html?q='+encodeURIComponent(q)+'#search';});
+  load();
 });
 </script></body>
 </html>
