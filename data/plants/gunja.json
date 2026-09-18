@@ -154,18 +154,29 @@
   },
   "phytochemistry": {
     "major_constituents": [],
-    "chemical_notes": ""
+    "chemical_notes": "Phytochemical field intentionally left without a compound list until source-level verification is completed."
   },
   "modern_information": {
     "evidence_summary": "Abrus precatorius seeds are toxic but used after purification for skin diseases and as a nervine tonic.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Botanical identification and pharmacognosy/dravyaguna education."
+    ],
+    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Botanical identity: Abrus precatorius L.",
+      "Family: Fabaceae (Papilionaceae)",
+      "Key identification: Hard egg-shaped glossy seeds, bright scarlet red with a distinctive black mark at the hilum (Rakta Gunja) or glossy milk-white with black mark (Shweta Gunja), highly poisonous unpurified."
+    ],
+    "viva_questions": [
+      "What is the botanical name and family of Gunja?",
+      "Which morphological characters help identify Gunja?"
+    ],
+    "identification_points": [
+      "Hard egg-shaped glossy seeds, bright scarlet red with a distinctive black mark at the hilum (Rakta Gunja) or glossy milk-white with black mark (Shweta Gunja), highly poisonous unpurified."
+    ],
     "mnemonics": [],
     "quick_revision": "Abrus precatorius seeds are toxic but used after purification for skin diseases and as a nervine tonic."
   },
@@ -173,17 +184,30 @@
     "teaching_points": [
       "Retained as supplementary material from Gemini batches 86 and 99."
     ],
-    "discussion_points": [],
-    "practical_points": []
+    "discussion_points": [
+      "Compare the diagnostic characters of Gunja with closely related or commonly substituted drugs.",
+      "Separate botanical identification from unverified classical-text claims."
+    ],
+    "practical_points": [
+      "Observe the diagnostic characters in authenticated material or herbarium specimens.",
+      "Record plant part used and identification basis separately."
+    ]
   },
   "doctor": {
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
-    "important_indications": [],
-    "useful_part": "",
+    "important_indications": [
+      "Indralupta (Alopecia areata / Hair loss)",
+      "Kushta (Skin diseases)",
+      "Kandu (Pruritus / Itching)",
+      "Vrana (Chronic non-healing ulcers)",
+      "Shiro-shoola (Headache / Hemicrania)"
+    ],
+    "useful_part": "Purified Seeds (Shodhita Bija), Leaves (Patra), Root (Mula)",
     "dose": "",
     "anupana": "",
     "key_precautions": [
-      "Use authoritative identification and safety references."
+      "Use authoritative identification and safety references.",
+      "Toxicity risk: do not infer a clinical dose from this educational record."
     ]
   },
   "sources": [
@@ -225,7 +249,7 @@
       86
     ],
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured botanical identification enrichment"
+    "last_enrichment": "botanical + educational field enrichment"
   },
   "gemini_source_data": {
     "id": 86,
