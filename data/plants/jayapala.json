@@ -154,18 +154,29 @@
   },
   "phytochemistry": {
     "major_constituents": [],
-    "chemical_notes": ""
+    "chemical_notes": "Phytochemical field intentionally left without a compound list until source-level verification is completed."
   },
   "modern_information": {
     "evidence_summary": "Croton tiglium is the most potent purgative in Ayurveda and must be used only after purification and in minute doses.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Botanical identification and pharmacognosy/dravyaguna education."
+    ],
+    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Botanical identity: Croton tiglium L.",
+      "Family: Euphorbiaceae",
+      "Key identification: Oval 3-angled dark dull brownish seeds with a thin brittle outer test enclosing an oily pale yellow kernel, intensely acrid taste causing severe burning throat irritation."
+    ],
+    "viva_questions": [
+      "What is the botanical name and family of Jayapala?",
+      "Which morphological characters help identify Jayapala?"
+    ],
+    "identification_points": [
+      "Oval 3-angled dark dull brownish seeds with a thin brittle outer test enclosing an oily pale yellow kernel, intensely acrid taste causing severe burning throat irritation."
+    ],
     "mnemonics": [],
     "quick_revision": "Croton tiglium is the most potent purgative in Ayurveda and must be used only after purification and in minute doses."
   },
@@ -173,17 +184,31 @@
     "teaching_points": [
       "Retained as supplementary material from Gemini batch 87."
     ],
-    "discussion_points": [],
-    "practical_points": []
+    "discussion_points": [
+      "Compare the diagnostic characters of Jayapala with closely related or commonly substituted drugs.",
+      "Separate botanical identification from unverified classical-text claims."
+    ],
+    "practical_points": [
+      "Observe the diagnostic characters in authenticated material or herbarium specimens.",
+      "Record plant part used and identification basis separately."
+    ]
   },
   "doctor": {
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
-    "important_indications": [],
-    "useful_part": "",
+    "important_indications": [
+      "Vibandha (Severe stubborn constipation)",
+      "Udara Roga (Ascites / Abdominal disorders)",
+      "Jalodara (Dropsy / Abdominal fluid retention)",
+      "Shotha (Severe systemic edema)",
+      "Unmada (Psychosis / Mania)",
+      "Kaphaja Gulma (Abdominal masses)"
+    ],
+    "useful_part": "Purified Seed (Shodhita Bija)",
     "dose": "",
     "anupana": "",
     "key_precautions": [
-      "Use authoritative identification and safety references."
+      "Use authoritative identification and safety references.",
+      "Toxicity risk: do not infer a clinical dose from this educational record."
     ]
   },
   "sources": [
@@ -225,7 +250,7 @@
       87
     ],
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured botanical identification enrichment"
+    "last_enrichment": "botanical + educational field enrichment"
   },
   "gemini_source_data": {
     "id": 87,
