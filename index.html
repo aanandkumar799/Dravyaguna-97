@@ -45,14 +45,14 @@ main{max-width:1180px;margin:auto;padding:30px 22px}
 .btn{display:inline-block;padding:10px 17px;border-radius:9px;font-weight:700}.btn-primary{background:var(--green);color:white}.btn-primary:hover{background:var(--green2)}.btn-outline{border:1px solid var(--green);color:var(--green);background:var(--paper)}.btn-outline:hover{background:var(--badge)}
 .features{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.feature{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:var(--shadow)}.feature .icon{font-size:1.8rem}.feature h3{margin:8px 0 5px;color:var(--green)}.feature p{margin:0;color:var(--muted);font-size:.94rem}
 .quick{display:grid;grid-template-columns:1.3fr .7fr;gap:20px}.panel{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:26px;box-shadow:var(--shadow)}.panel h3{font-family:Cinzel,serif;color:var(--green);margin-top:0}.link-list{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.quick-link{padding:14px;border-radius:10px;background:var(--soft);border:1px solid var(--line);font-weight:600}.quick-link:hover{background:var(--badge);color:var(--green)}.notice{background:var(--hero2);border-left:4px solid var(--gold);padding:16px 18px;border-radius:10px;color:var(--ink)}
-.install{display:none;margin:18px auto 0;padding:10px 16px;border:0;border-radius:9px;background:var(--green);color:#fff;font-weight:800;cursor:pointer}
+.install{display:inline-flex;align-items:center;justify-content:center;gap:8px;margin:18px auto 0;padding:10px 16px;border:0;border-radius:9px;background:var(--green);color:#fff;font-weight:800;cursor:pointer}
 
 /* Reviews */
 .review-section{margin-top:42px;padding:0 0 10px}.review-card{max-width:850px;margin:auto;background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:38px;box-shadow:var(--shadow)}.review-header{text-align:center;margin-bottom:30px}.review-badge{display:inline-block;padding:7px 14px;margin-bottom:12px;border-radius:50px;background:var(--badge);color:var(--green);font-size:14px;font-weight:700}.review-header h2{margin:0 0 8px;font-family:Cinzel,serif;color:var(--green);font-size:1.9rem}.review-header p{margin:0;color:var(--muted)}.review-form{width:100%}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:18px}.form-group{position:relative;margin-bottom:20px}.form-group label{display:block;margin-bottom:7px;color:var(--ink);font-size:14px;font-weight:700}.form-group input,.form-group textarea{width:100%;box-sizing:border-box;border:1px solid var(--line);border-radius:12px;padding:13px 15px;background:var(--input);color:var(--ink);outline:none;transition:border-color .2s,box-shadow .2s,background-color .2s}.form-group input{height:50px}.form-group textarea{min-height:150px;resize:vertical;line-height:1.6}.form-group input::placeholder,.form-group textarea::placeholder{color:var(--muted);opacity:.8}.form-group input:focus,.form-group textarea:focus{border-color:var(--green2);box-shadow:0 0 0 4px rgba(45,106,79,.12)}.character-count{position:absolute;right:10px;bottom:8px;padding:3px 7px;border-radius:6px;background:var(--paper);color:var(--muted);font-size:12px;pointer-events:none}.review-submit{width:100%;min-height:52px;border:0;border-radius:12px;padding:14px 20px;background:var(--green);color:#fff;font-weight:800;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:10px;transition:.2s}.review-submit:hover{background:var(--green2);transform:translateY(-1px);box-shadow:0 8px 20px rgba(27,67,50,.22)}.review-submit:disabled{opacity:.65;cursor:not-allowed;transform:none;box-shadow:none}.submit-arrow{font-size:20px}.review-status{display:none;margin-top:14px;padding:12px;border-radius:10px;text-align:center;font-size:14px}.review-status.success{display:block;background:var(--success-bg);color:var(--success);border:1px solid var(--line)}.review-status.error{display:block;background:#3a1515;color:#ffb4b4;border:1px solid #6e2929}
 
 .footer{margin-top:55px;background:var(--green);color:#eaf2ec;padding:32px 22px;text-align:center}.footer p{margin:5px 0;font-size:.9rem}.footer strong{font-family:Cinzel,serif}
 @media(max-width:800px){.header-inner{align-items:flex-start;flex-direction:column}.nav{width:100%;justify-content:flex-start}.theme-toggle{align-self:flex-start}.persona-grid,.features,.quick{grid-template-columns:1fr}.link-list{grid-template-columns:1fr}.hero{padding:52px 18px}.form-row{grid-template-columns:1fr;gap:0}.review-card{padding:30px 20px}}
-@media(max-width:480px){main{padding:18px 12px}.hero{border-radius:18px;padding:42px 15px}.hero h1{font-size:2.5rem}.btn{margin:4px 2px}.review-card{border-radius:18px;padding:25px 15px}.review-header h2{font-size:1.55rem}#themeText{display:none}}
+.install-hint{display:block;color:var(--muted);font-size:.8rem;margin-top:7px}.install.is-installed{display:none!important}@media(max-width:480px){main{padding:18px 12px}.hero{border-radius:18px;padding:42px 15px}.hero h1{font-size:2.5rem}.btn{margin:4px 2px}.review-card{border-radius:18px;padding:25px 15px}.review-header h2{font-size:1.55rem}#themeText{display:none}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important}}
 </style>
 <link rel="stylesheet" href="site-theme.css?v=4">
@@ -79,7 +79,7 @@ main{max-width:1180px;margin:auto;padding:30px 22px}
   <h1>DravyaGuna 97</h1>
   <p class="tagline">Learn • Identify • Revise • Cross-check</p>
   <p class="desc">A clean, syllabus-oriented learning portal for medicinal plants, practical identification, classical references and examination preparation.</p>
-  <p><button id="install" class="install">📲 Install DravyaGuna 97</button></p>
+  <p><button id="install" class="install" type="button" aria-label="Install DravyaGuna 97">📲 Install DravyaGuna 97</button><span id="installHint" class="install-hint">Install this portal on your device for faster access.</span></p>
   <p style="margin-top:18px"><a class="btn btn-primary" href="plants.html">Explore Plant Library →</a> <a class="btn btn-outline" href="practical-lab.html">🔎 Practical Lab</a> <a class="btn btn-outline" href="reference-library.html">📜 References</a> <a class="btn btn-outline" href="quiz.html">🧠 Practice Quiz</a></p>
 </section>
 
@@ -87,8 +87,8 @@ main{max-width:1180px;margin:auto;padding:30px 22px}
   <div class="section-head"><h2>Choose Your Learning Path</h2><p>Start with the section that matches what you need today.</p></div>
   <div class="persona-grid">
     <article class="persona"><div class="icon">🎓</div><h3>Student</h3><p>Viva preparation, exam points, identification and quick revision.</p><a class="btn btn-primary" href="plants.html#search">Study as Student</a></article>
-    <article class="persona"><div class="icon">👨‍🏫</div><h3>Teacher</h3><p>Teaching points, practical identification and structured references.</p><a class="btn btn-outline" href="practical-lab.html">Practical Resources</a></article>
-    <article class="persona"><div class="icon">🩺</div><h3>Doctor</h3><p>Quick-reference fields, useful parts, formulations and precautions.</p><a class="btn btn-outline" href="plants.html#search">Quick Reference</a></article>
+    <article class="persona"><div class="icon">👨‍🏫</div><h3>Teacher</h3><p>Teaching points, practical identification and structured references.</p><a class="btn btn-outline" href="practical-lab.html">Practical Resources</a> <a class="btn btn-outline" href="supplementary.html">Supplementary Plants</a></article>
+    <article class="persona"><div class="icon">🩺</div><h3>Doctor</h3><p>Quick-reference fields, useful parts, formulations and precautions.</p><a class="btn btn-outline" href="plants.html#search">Quick Reference</a> <a class="btn btn-outline" href="supplementary.html">Supplementary Plants</a></article>
   </div>
 </section>
 
@@ -157,10 +157,18 @@ main{max-width:1180px;margin:auto;padding:30px 22px}
     if(media.addEventListener) media.addEventListener('change',sync); else if(media.addListener) media.addListener(sync);
   }
 
-  let deferred;
-  const install=document.getElementById('install');
-  window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferred=e;install.style.display='inline-block'});
-  install?.addEventListener('click',async()=>{if(!deferred)return;deferred.prompt();await deferred.userChoice;deferred=null;install.style.display='none'});
+  let deferred=null;
+  const install=document.getElementById('install'),hint=document.getElementById('installHint');
+  const standalone=()=>window.matchMedia&&window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;
+  function refreshInstall(){if(standalone()){install.classList.add('is-installed');if(hint)hint.textContent='DravyaGuna 97 is already installed on this device.';}else{install.classList.remove('is-installed');if(hint)hint.textContent=deferred?'Ready to install this portal.':'Install this portal on your device for faster access.';}}
+  window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferred=e;refreshInstall()});
+  install?.addEventListener('click',async()=>{
+    if(deferred){deferred.prompt();try{await deferred.userChoice}catch(e){}deferred=null;refreshInstall();return;}
+    if(standalone())return;
+    hint.textContent='If the install prompt does not appear, use your browser menu and choose “Install app” or “Add to Home screen”.';
+  });
+  window.addEventListener('appinstalled',()=>{deferred=null;refreshInstall()});
+  refreshInstall();
   if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
 })();
 </script>
