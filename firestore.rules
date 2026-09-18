@@ -1,6 +1,11 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
+    function isAdmin() {
+      return request.auth != null
+        && request.auth.token.email == 'aanandkumar799@gmail.com'
+        && request.auth.token.email_verified == true;
+    }
     function validReview() {
       return request.auth != null
         && request.resource.data.user.uid == request.auth.uid
@@ -13,25 +18,22 @@ service cloud.firestore {
         && request.resource.data.message.size() >= 1
         && request.resource.data.message.size() <= 2000;
     }
-
     match /reviews/{reviewId} {
       allow create: if validReview()
-        && (
-          request.auth.token.firebase.sign_in_provider == 'google.com'
-          && request.auth.token.email_verified == true
-          && request.resource.data.user.email == request.auth.token.email
-          && request.resource.data.user.emailVerified == true
-          && request.resource.data.user.isAnonymous == false
-          && request.resource.data.authProvider == 'google.com'
-        );
-      allow read, update, delete: if false;
+        && request.auth.token.firebase.sign_in_provider == 'google.com'
+        && request.auth.token.email_verified == true
+        && request.resource.data.user.email == request.auth.token.email
+        && request.resource.data.user.emailVerified == true
+        && request.resource.data.user.isAnonymous == false
+        && request.resource.data.authProvider == 'google.com';
+      allow read: if isAdmin();
+      allow update, delete: if isAdmin();
     }
-
     match /reviewUsers/{uid} {
       allow create, update: if request.auth != null
         && request.auth.uid == uid
         && request.resource.data.uid == request.auth.uid;
-      allow read, delete: if false;
+      allow read, delete: if isAdmin();
     }
   }
 }
