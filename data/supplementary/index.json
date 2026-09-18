@@ -1,0 +1,3034 @@
+{
+  "total": 14,
+  "category": "Supplementary",
+  "plants": [
+    {
+      "id": "arka",
+      "order": null,
+      "category": "Supplementary",
+      "syllabus_marker": "Supplementary",
+      "identity": {
+        "name": "Arka",
+        "sanskrit_name": "अर्क",
+        "transliteration": "",
+        "botanical_name": "Calotropis gigantea (L.) Dryand.",
+        "family": "Apocynaceae",
+        "english_name": "Crown flower",
+        "hindi_name": "",
+        "regional_names": [],
+        "synonyms": [
+          "Mandara",
+          "Alarka",
+          "Surya",
+          "Vikirana"
+        ]
+      },
+      "classification": {
+        "kingdom": "Plantae",
+        "habit": "",
+        "habitat": "",
+        "distribution": ""
+      },
+      "identification": {
+        "description": "",
+        "whole_plant": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": "",
+        "identification_points": []
+      },
+      "images": {
+        "whole_plant": "",
+        "habit": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": ""
+      },
+      "dravya_guna": {
+        "rasa": [
+          "Katu",
+          "Tikta"
+        ],
+        "guna": [
+          "Laghu",
+          "Tikshna"
+        ],
+        "virya": "Ushna",
+        "vipaka": "Katu",
+        "prabhava": [
+          "Virechana",
+          "Kushtaghna"
+        ],
+        "karma": []
+      },
+      "dosha": {
+        "vata": "pacified",
+        "pitta": "aggravated",
+        "kapha": "pacified"
+      },
+      "therapeutics": {
+        "useful_part": [
+          "Moola Twak",
+          "Patra",
+          "Ksheera",
+          "Pushpa"
+        ],
+        "indications": [
+          "Kushta",
+          "Gulma",
+          "Udararoga",
+          "Arsha",
+          "Krimi"
+        ],
+        "therapeutic_actions": [],
+        "dose": "",
+        "anupana": "",
+        "duration": "",
+        "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+        "contraindications": ""
+      },
+      "formulations": [],
+      "classical_reference": {
+        "shlokas": [],
+        "nighantu_references": [],
+        "samhita_references": [],
+        "shloka_reference_status": "requires text-level verification",
+        "reference_hubs": [
+          "TDU Indian Medicinal Plants Database — Shlokas"
+        ]
+      },
+      "phytochemistry": {
+        "major_constituents": [],
+        "chemical_notes": ""
+      },
+      "modern_information": {
+        "evidence_summary": "Calotropis gigantea is a toxic plant, but its purified latex and leaves are used for skin diseases and as a purgative.",
+        "recognized_uses": [],
+        "safety_notes": "",
+        "sources": []
+      },
+      "student": {
+        "exam_points": [],
+        "viva_questions": [],
+        "identification_points": [],
+        "mnemonics": [],
+        "quick_revision": "Calotropis gigantea is a toxic plant, but its purified latex and leaves are used for skin diseases and as a purgative."
+      },
+      "teacher": {
+        "teaching_points": [
+          "Retained as supplementary material from Gemini batch 91."
+        ],
+        "discussion_points": [],
+        "practical_points": []
+      },
+      "doctor": {
+        "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+        "important_indications": [],
+        "useful_part": "",
+        "dose": "",
+        "anupana": "",
+        "key_precautions": [
+          "Use authoritative identification and safety references."
+        ]
+      },
+      "sources": [
+        {
+          "type": "gemini_source_batch",
+          "title": "Gemini batch 91",
+          "url": ""
+        },
+        {
+          "type": "official_syllabus",
+          "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+          "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+        },
+        {
+          "type": "medicinal_plants_database",
+          "title": "TDU Indian Medicinal Plants Database",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+        },
+        {
+          "type": "open_ayurveda_dataset",
+          "title": "Amidha Ayurveda Herb Database v2.0",
+          "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+          "license": "CC BY 4.0",
+          "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+        },
+        {
+          "type": "tdu_classical_database",
+          "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+          "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+        }
+      ],
+      "metadata": {
+        "status": "supplementary_needs_source_verification",
+        "source_batch": "Gemini batch 91",
+        "version": "1.0",
+        "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+        "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      }
+    },
+    {
+      "id": "bhanga",
+      "order": null,
+      "category": "Supplementary",
+      "syllabus_marker": "Supplementary",
+      "identity": {
+        "name": "Bhanga",
+        "sanskrit_name": "भङ्गा",
+        "transliteration": "",
+        "botanical_name": "Cannabis sativa L.",
+        "family": "Cannabaceae",
+        "english_name": "Cannabis",
+        "hindi_name": "",
+        "regional_names": [],
+        "synonyms": [
+          "Vijaya",
+          "Ganja",
+          "Matulani",
+          "Madini"
+        ]
+      },
+      "classification": {
+        "kingdom": "Plantae",
+        "habit": "",
+        "habitat": "",
+        "distribution": ""
+      },
+      "identification": {
+        "description": "",
+        "whole_plant": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": "",
+        "identification_points": []
+      },
+      "images": {
+        "whole_plant": "",
+        "habit": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": ""
+      },
+      "dravya_guna": {
+        "rasa": [
+          "Tikta"
+        ],
+        "guna": [
+          "Laghu"
+        ],
+        "virya": "Ushna",
+        "vipaka": "Katu",
+        "prabhava": [
+          "Vedanasthapana",
+          "Madakari"
+        ],
+        "karma": []
+      },
+      "dosha": {
+        "vata": "pacified",
+        "pitta": "aggravated",
+        "kapha": "aggravated"
+      },
+      "therapeutics": {
+        "useful_part": [
+          "Patra",
+          "Pushpa"
+        ],
+        "indications": [
+          "Atisara",
+          "Grahani",
+          "Vedana",
+          "Anidra",
+          "Dhanurvata"
+        ],
+        "therapeutic_actions": [],
+        "dose": "",
+        "anupana": "",
+        "duration": "",
+        "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+        "contraindications": ""
+      },
+      "formulations": [],
+      "classical_reference": {
+        "shlokas": [],
+        "nighantu_references": [],
+        "samhita_references": [],
+        "shloka_reference_status": "requires text-level verification",
+        "reference_hubs": [
+          "TDU Indian Medicinal Plants Database — Shlokas"
+        ]
+      },
+      "phytochemistry": {
+        "major_constituents": [],
+        "chemical_notes": ""
+      },
+      "modern_information": {
+        "evidence_summary": "Cannabis leaf used in pain, digestion, and sleep disorders.",
+        "recognized_uses": [],
+        "safety_notes": "",
+        "sources": []
+      },
+      "student": {
+        "exam_points": [],
+        "viva_questions": [],
+        "identification_points": [],
+        "mnemonics": [],
+        "quick_revision": "Cannabis leaf used in pain, digestion, and sleep disorders."
+      },
+      "teacher": {
+        "teaching_points": [
+          "Retained as supplementary material from Gemini batches 89, 100 and 105."
+        ],
+        "discussion_points": [],
+        "practical_points": []
+      },
+      "doctor": {
+        "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+        "important_indications": [],
+        "useful_part": "",
+        "dose": "",
+        "anupana": "",
+        "key_precautions": [
+          "Use authoritative identification and safety references."
+        ]
+      },
+      "sources": [
+        {
+          "type": "gemini_source_batch",
+          "title": "Gemini batches 89, 100 and 105",
+          "url": ""
+        },
+        {
+          "type": "official_syllabus",
+          "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+          "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+        },
+        {
+          "type": "medicinal_plants_database",
+          "title": "TDU Indian Medicinal Plants Database",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+        },
+        {
+          "type": "open_ayurveda_dataset",
+          "title": "Amidha Ayurveda Herb Database v2.0",
+          "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+          "license": "CC BY 4.0",
+          "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+        },
+        {
+          "type": "tdu_classical_database",
+          "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+          "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+        }
+      ],
+      "metadata": {
+        "status": "supplementary_needs_source_verification",
+        "source_batch": "Gemini batches 89, 100 and 105",
+        "version": "1.0",
+        "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+        "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      }
+    },
+    {
+      "id": "dhattura",
+      "order": null,
+      "category": "Supplementary",
+      "syllabus_marker": "Supplementary",
+      "identity": {
+        "name": "Dhattura",
+        "sanskrit_name": "Dhattura",
+        "transliteration": "",
+        "botanical_name": "Datura metel L.",
+        "family": "Solanaceae",
+        "english_name": "Thorn Apple / Downy Datura",
+        "hindi_name": "",
+        "regional_names": [],
+        "synonyms": [
+          "Kanaka (कनक)",
+          "Umatta (उमत्त)",
+          "Kitava (कितव)",
+          "Madana (मदन)",
+          "Shivapriya (शिवप्रिय)"
+        ]
+      },
+      "classification": {
+        "kingdom": "Plantae",
+        "habit": "",
+        "habitat": "",
+        "distribution": ""
+      },
+      "identification": {
+        "description": "Flat kidney-shaped light yellowish-brown seeds with reticulated test, globose spinous capsule fruit, characteristic unpleasantly heavy narcotic odor and bitter acrid taste.",
+        "whole_plant": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": "",
+        "identification_points": [
+          "Flat kidney-shaped light yellowish-brown seeds with reticulated test, globose spinous capsule fruit, characteristic unpleasantly heavy narcotic odor and bitter acrid taste."
+        ]
+      },
+      "images": {
+        "whole_plant": "",
+        "habit": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": ""
+      },
+      "dravya_guna": {
+        "rasa": [
+          "tikta",
+          "katu"
+        ],
+        "guna": [
+          "laghu",
+          "ruksha",
+          "tikshna",
+          "vikasi",
+          "vyavayi"
+        ],
+        "virya": "ushna",
+        "vipaka": "katu",
+        "prabhava": "Madakari / Vedanasthapana / Shoolahara / Kasahara",
+        "karma": [
+          "Vedanasthapana",
+          "Shoolaprashamana",
+          "Kasahara",
+          "Swasahara",
+          "Madakari",
+          "Kandughna",
+          "Krimighna"
+        ]
+      },
+      "dosha": {
+        "vata": "pacified",
+        "pitta": "aggravated",
+        "kapha": "pacified",
+        "summary": "Kapha-Vatashamaka"
+      },
+      "therapeutics": {
+        "useful_part": [
+          "Purified Seed (Shodhita Bija), Leaf (Patra), Root (Mula)"
+        ],
+        "indications": [
+          "Shwasa (Bronchial asthma / Dyspnea)",
+          "Kasa (Cough / Spasmodic bronchitis)",
+          "Sandhishoola (Joint pain / Rheumatic pain)",
+          "Kushta (Skin diseases)",
+          "Juuka (Lice infestation / Scalp infections)",
+          "Unmada (Delirium / Agitation)"
+        ],
+        "therapeutic_actions": [
+          "Vedanasthapana",
+          "Shoolaprashamana",
+          "Kasahara",
+          "Swasahara",
+          "Madakari",
+          "Kandughna",
+          "Krimighna"
+        ],
+        "dose": "",
+        "anupana": "",
+        "duration": "",
+        "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+        "contraindications": ""
+      },
+      "formulations": [
+        {
+          "name": "Kanakasava",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        },
+        {
+          "name": "Dhattura Taila",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        },
+        {
+          "name": "Mahavishagarbha Taila",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        },
+        {
+          "name": "Laxmi Vilas Rasa",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        },
+        {
+          "name": "Tribhuvan Kirti Rasa",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        }
+      ],
+      "classical_reference": {
+        "shlokas": [
+          "धत्तूरो मदकृत् तिक्तो जूकाज्वरकफापहः।\nउष्णो वर्णकरो कासकुष्ठकण्डूविनाशनः॥"
+        ],
+        "nighantu_references": [
+          "Bhavaprakasha Nighantu, Guduchyadi Varga, Verse 85-86"
+        ],
+        "samhita_references": [],
+        "shloka_reference_status": "A. Directly verified classical reference",
+        "gemini_source_reference": {
+          "text_grantha_name": "Bhavaprakasha Nighantu",
+          "varga_chapter": "Guduchyadi Varga",
+          "shloka_number": "Verse 85-86",
+          "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+          "page_number": "Needs checking against physical copy for exact page"
+        },
+        "reference_hubs": [
+          "TDU Indian Medicinal Plants Database — Shlokas"
+        ]
+      },
+      "phytochemistry": {
+        "major_constituents": [],
+        "chemical_notes": ""
+      },
+      "modern_information": {
+        "evidence_summary": "A toxic plant (Jimsonweed) used in purified form for asthma, pain, and skin diseases.",
+        "recognized_uses": [],
+        "safety_notes": "",
+        "sources": []
+      },
+      "student": {
+        "exam_points": [],
+        "viva_questions": [],
+        "identification_points": [],
+        "mnemonics": [],
+        "quick_revision": "A toxic plant (Jimsonweed) used in purified form for asthma, pain, and skin diseases."
+      },
+      "teacher": {
+        "teaching_points": [
+          "Retained as supplementary material from Gemini batches 88 and 102."
+        ],
+        "discussion_points": [],
+        "practical_points": []
+      },
+      "doctor": {
+        "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+        "important_indications": [],
+        "useful_part": "",
+        "dose": "",
+        "anupana": "",
+        "key_precautions": [
+          "Use authoritative identification and safety references."
+        ]
+      },
+      "sources": [
+        {
+          "type": "gemini_source_batch",
+          "title": "Gemini batches 88 and 102",
+          "url": ""
+        },
+        {
+          "type": "official_syllabus",
+          "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+          "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+        },
+        {
+          "type": "medicinal_plants_database",
+          "title": "TDU Indian Medicinal Plants Database",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+        },
+        {
+          "type": "open_ayurveda_dataset",
+          "title": "Amidha Ayurveda Herb Database v2.0",
+          "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+          "license": "CC BY 4.0",
+          "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+        },
+        {
+          "type": "tdu_classical_database",
+          "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+          "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+        }
+      ],
+      "metadata": {
+        "status": "supplementary_needs_source_verification",
+        "source_batch": "Gemini batches 88 and 102",
+        "version": "1.0",
+        "gemini_later_batches_reviewed": true,
+        "gemini_source_batches": [
+          88
+        ],
+        "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+        "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      },
+      "gemini_source_data": {
+        "id": 88,
+        "name": "Dhattura",
+        "category": "Supplementary",
+        "botanical_name": "Datura metel L.",
+        "family": "Solanaceae",
+        "english_name": "Thorn Apple / Downy Datura",
+        "sanskrit_synonyms": [
+          "Kanaka (कनक)",
+          "Umatta (उमत्त)",
+          "Kitava (कितव)",
+          "Madana (मदन)",
+          "Shivapriya (शिवप्रिय)"
+        ],
+        "useful_part": "Purified Seed (Shodhita Bija), Leaf (Patra), Root (Mula)",
+        "rasa": [
+          "Tikta",
+          "Katu"
+        ],
+        "guna": [
+          "Laghu",
+          "Ruksha",
+          "Tikshna",
+          "Vikasi",
+          "Vyavayi"
+        ],
+        "virya": "Ushna",
+        "vipaka": "Katu",
+        "prabhava": "Madakari / Vedanasthapana / Shoolahara / Kasahara",
+        "dosha": "Kapha-Vatashamaka",
+        "karma": [
+          "Vedanasthapana",
+          "Shoolaprashamana",
+          "Kasahara",
+          "Swasahara",
+          "Madakari",
+          "Kandughna",
+          "Krimighna"
+        ],
+        "indications": [
+          "Shwasa (Bronchial asthma / Dyspnea)",
+          "Kasa (Cough / Spasmodic bronchitis)",
+          "Sandhishoola (Joint pain / Rheumatic pain)",
+          "Kushta (Skin diseases)",
+          "Juuka (Lice infestation / Scalp infections)",
+          "Unmada (Delirium / Agitation)"
+        ],
+        "formulations": [
+          "Kanakasava",
+          "Dhattura Taila",
+          "Mahavishagarbha Taila",
+          "Laxmi Vilas Rasa",
+          "Tribhuvan Kirti Rasa"
+        ],
+        "identification": "Flat kidney-shaped light yellowish-brown seeds with reticulated test, globose spinous capsule fruit, characteristic unpleasantly heavy narcotic odor and bitter acrid taste.",
+        "shloka": "धत्तूरो मदकृत् तिक्तो जूकाज्वरकफापहः।\nउष्णो वर्णकरो कासकुष्ठकण्डूविनाशनः॥",
+        "source": {
+          "text_grantha_name": "Bhavaprakasha Nighantu",
+          "varga_chapter": "Guduchyadi Varga",
+          "shloka_number": "Verse 85-86",
+          "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+          "page_number": "Needs checking against physical copy for exact page"
+        },
+        "verification": "A. Directly verified classical reference"
+      }
+    },
+    {
+      "id": "gunja",
+      "order": null,
+      "category": "Supplementary",
+      "syllabus_marker": "Supplementary",
+      "identity": {
+        "name": "Gunja",
+        "sanskrit_name": "Gunja",
+        "transliteration": "",
+        "botanical_name": "Abrus precatorius L.",
+        "family": "Fabaceae (Papilionaceae)",
+        "english_name": "Rosary Pea / Jequirity Bean",
+        "hindi_name": "",
+        "regional_names": [],
+        "synonyms": [
+          "Raktika (रक्तिका)",
+          "Kakananti (काकणन्ती)",
+          "Chudamani (चूडामणि)",
+          "Shikhandini (शिखण्डिनी)",
+          "Kakachinchi (काकचिञ्ची)"
+        ]
+      },
+      "classification": {
+        "kingdom": "Plantae",
+        "habit": "",
+        "habitat": "",
+        "distribution": ""
+      },
+      "identification": {
+        "description": "Hard egg-shaped glossy seeds, bright scarlet red with a distinctive black mark at the hilum (Rakta Gunja) or glossy milk-white with black mark (Shweta Gunja), highly poisonous unpurified.",
+        "whole_plant": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": "",
+        "identification_points": [
+          "Hard egg-shaped glossy seeds, bright scarlet red with a distinctive black mark at the hilum (Rakta Gunja) or glossy milk-white with black mark (Shweta Gunja), highly poisonous unpurified."
+        ]
+      },
+      "images": {
+        "whole_plant": "",
+        "habit": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": ""
+      },
+      "dravya_guna": {
+        "rasa": [
+          "tikta",
+          "kashaya"
+        ],
+        "guna": [
+          "laghu",
+          "ruksha",
+          "tikshna"
+        ],
+        "virya": "ushna",
+        "vipaka": "katu",
+        "prabhava": "Keshya / Vishaghna / Kandughna",
+        "karma": [
+          "Keshya",
+          "Vishaghna",
+          "Vrana-shodhaka",
+          "Kandughna",
+          "Balya",
+          "Vrishya",
+          "Vranarohana"
+        ]
+      },
+      "dosha": {
+        "vata": "pacified",
+        "pitta": "aggravated",
+        "kapha": "pacified",
+        "summary": "Kapha-Vatashamaka"
+      },
+      "therapeutics": {
+        "useful_part": [
+          "Purified Seeds (Shodhita Bija), Leaves (Patra), Root (Mula)"
+        ],
+        "indications": [
+          "Indralupta (Alopecia areata / Hair loss)",
+          "Kushta (Skin diseases)",
+          "Kandu (Pruritus / Itching)",
+          "Vrana (Chronic non-healing ulcers)",
+          "Shiro-shoola (Headache / Hemicrania)"
+        ],
+        "therapeutic_actions": [
+          "Keshya",
+          "Vishaghna",
+          "Vrana-shodhaka",
+          "Kandughna",
+          "Balya",
+          "Vrishya",
+          "Vranarohana"
+        ],
+        "dose": "",
+        "anupana": "",
+        "duration": "",
+        "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+        "contraindications": ""
+      },
+      "formulations": [
+        {
+          "name": "Gunja Taila",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        },
+        {
+          "name": "Gunjadi Lepa",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        },
+        {
+          "name": "Gunjadi Taila",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        },
+        {
+          "name": "Mahavishagarbha Taila",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        }
+      ],
+      "classical_reference": {
+        "shlokas": [
+          "गुञ्जा द्वया तु तिक्तोष्णा कषाया कफवातजित्।\nचक्षुष्या केशिया वृष्या च विषव्रणविनाशिनी॥"
+        ],
+        "nighantu_references": [
+          "Bhavaprakasha Nighantu, Guduchyadi Varga, Verse 236-237"
+        ],
+        "samhita_references": [],
+        "shloka_reference_status": "A. Directly verified classical reference",
+        "gemini_source_reference": {
+          "text_grantha_name": "Bhavaprakasha Nighantu",
+          "varga_chapter": "Guduchyadi Varga",
+          "shloka_number": "Verse 236-237",
+          "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+          "page_number": "Needs checking against physical copy for exact page"
+        },
+        "reference_hubs": [
+          "TDU Indian Medicinal Plants Database — Shlokas"
+        ]
+      },
+      "phytochemistry": {
+        "major_constituents": [],
+        "chemical_notes": ""
+      },
+      "modern_information": {
+        "evidence_summary": "Abrus precatorius seeds are toxic but used after purification for skin diseases and as a nervine tonic.",
+        "recognized_uses": [],
+        "safety_notes": "",
+        "sources": []
+      },
+      "student": {
+        "exam_points": [],
+        "viva_questions": [],
+        "identification_points": [],
+        "mnemonics": [],
+        "quick_revision": "Abrus precatorius seeds are toxic but used after purification for skin diseases and as a nervine tonic."
+      },
+      "teacher": {
+        "teaching_points": [
+          "Retained as supplementary material from Gemini batches 86 and 99."
+        ],
+        "discussion_points": [],
+        "practical_points": []
+      },
+      "doctor": {
+        "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+        "important_indications": [],
+        "useful_part": "",
+        "dose": "",
+        "anupana": "",
+        "key_precautions": [
+          "Use authoritative identification and safety references."
+        ]
+      },
+      "sources": [
+        {
+          "type": "gemini_source_batch",
+          "title": "Gemini batches 86 and 99",
+          "url": ""
+        },
+        {
+          "type": "official_syllabus",
+          "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+          "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+        },
+        {
+          "type": "medicinal_plants_database",
+          "title": "TDU Indian Medicinal Plants Database",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+        },
+        {
+          "type": "open_ayurveda_dataset",
+          "title": "Amidha Ayurveda Herb Database v2.0",
+          "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+          "license": "CC BY 4.0",
+          "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+        },
+        {
+          "type": "tdu_classical_database",
+          "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+          "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+        }
+      ],
+      "metadata": {
+        "status": "supplementary_needs_source_verification",
+        "source_batch": "Gemini batches 86 and 99",
+        "version": "1.0",
+        "gemini_later_batches_reviewed": true,
+        "gemini_source_batches": [
+          86
+        ],
+        "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+        "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      },
+      "gemini_source_data": {
+        "id": 86,
+        "name": "Gunja",
+        "category": "Supplementary",
+        "botanical_name": "Abrus precatorius L.",
+        "family": "Fabaceae (Papilionaceae)",
+        "english_name": "Rosary Pea / Jequirity Bean",
+        "sanskrit_synonyms": [
+          "Raktika (रक्तिका)",
+          "Kakananti (काकणन्ती)",
+          "Chudamani (चूडामणि)",
+          "Shikhandini (शिखण्डिनी)",
+          "Kakachinchi (काकचिञ्ची)"
+        ],
+        "useful_part": "Purified Seeds (Shodhita Bija), Leaves (Patra), Root (Mula)",
+        "rasa": [
+          "Tikta",
+          "Kashaya"
+        ],
+        "guna": [
+          "Laghu",
+          "Ruksha",
+          "Tikshna"
+        ],
+        "virya": "Ushna",
+        "vipaka": "Katu",
+        "prabhava": "Keshya / Vishaghna / Kandughna",
+        "dosha": "Kapha-Vatashamaka",
+        "karma": [
+          "Keshya",
+          "Vishaghna",
+          "Vrana-shodhaka",
+          "Kandughna",
+          "Balya",
+          "Vrishya",
+          "Vranarohana"
+        ],
+        "indications": [
+          "Indralupta (Alopecia areata / Hair loss)",
+          "Kushta (Skin diseases)",
+          "Kandu (Pruritus / Itching)",
+          "Vrana (Chronic non-healing ulcers)",
+          "Shiro-shoola (Headache / Hemicrania)"
+        ],
+        "formulations": [
+          "Gunja Taila",
+          "Gunjadi Lepa",
+          "Gunjadi Taila",
+          "Mahavishagarbha Taila"
+        ],
+        "identification": "Hard egg-shaped glossy seeds, bright scarlet red with a distinctive black mark at the hilum (Rakta Gunja) or glossy milk-white with black mark (Shweta Gunja), highly poisonous unpurified.",
+        "shloka": "गुञ्जा द्वया तु तिक्तोष्णा कषाया कफवातजित्।\nचक्षुष्या केशिया वृष्या च विषव्रणविनाशिनी॥",
+        "source": {
+          "text_grantha_name": "Bhavaprakasha Nighantu",
+          "varga_chapter": "Guduchyadi Varga",
+          "shloka_number": "Verse 236-237",
+          "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+          "page_number": "Needs checking against physical copy for exact page"
+        },
+        "verification": "A. Directly verified classical reference"
+      }
+    },
+    {
+      "id": "jayapala",
+      "order": null,
+      "category": "Supplementary",
+      "syllabus_marker": "Supplementary",
+      "identity": {
+        "name": "Jayapala",
+        "sanskrit_name": "Jayapala",
+        "transliteration": "",
+        "botanical_name": "Croton tiglium L.",
+        "family": "Euphorbiaceae",
+        "english_name": "Purging Croton",
+        "hindi_name": "",
+        "regional_names": [],
+        "synonyms": [
+          "Rechaka (रेचक)",
+          "Kumbhini (कुम्भिनी)",
+          "Danti-bija (दन्तीबीज)",
+          "Nikumbha (निकुम्भ)",
+          "Tintidiphala (तिन्तिडीफल)"
+        ]
+      },
+      "classification": {
+        "kingdom": "Plantae",
+        "habit": "",
+        "habitat": "",
+        "distribution": ""
+      },
+      "identification": {
+        "description": "Oval 3-angled dark dull brownish seeds with a thin brittle outer test enclosing an oily pale yellow kernel, intensely acrid taste causing severe burning throat irritation.",
+        "whole_plant": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": "",
+        "identification_points": [
+          "Oval 3-angled dark dull brownish seeds with a thin brittle outer test enclosing an oily pale yellow kernel, intensely acrid taste causing severe burning throat irritation."
+        ]
+      },
+      "images": {
+        "whole_plant": "",
+        "habit": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": ""
+      },
+      "dravya_guna": {
+        "rasa": [
+          "katu"
+        ],
+        "guna": [
+          "laghu",
+          "tikshna",
+          "ruksha",
+          "vyavayi",
+          "vikasi"
+        ],
+        "virya": "ushna",
+        "vipaka": "katu",
+        "prabhava": "Tivra-Rechana (Druta Virechana / Hydragogue Cathartic)",
+        "karma": [
+          "Tivra-Virechana",
+          "Deepana",
+          "Rechana",
+          "Kaphaghna",
+          "Shothahara",
+          "Krimighna"
+        ]
+      },
+      "dosha": {
+        "vata": "pacified",
+        "pitta": "aggravated",
+        "kapha": "pacified",
+        "summary": "Kapha-Pittashamaka"
+      },
+      "therapeutics": {
+        "useful_part": [
+          "Purified Seed (Shodhita Bija)"
+        ],
+        "indications": [
+          "Vibandha (Severe stubborn constipation)",
+          "Udara Roga (Ascites / Abdominal disorders)",
+          "Jalodara (Dropsy / Abdominal fluid retention)",
+          "Shotha (Severe systemic edema)",
+          "Unmada (Psychosis / Mania)",
+          "Kaphaja Gulma (Abdominal masses)"
+        ],
+        "therapeutic_actions": [
+          "Tivra-Virechana",
+          "Deepana",
+          "Rechana",
+          "Kaphaghna",
+          "Shothahara",
+          "Krimighna"
+        ],
+        "dose": "",
+        "anupana": "",
+        "duration": "",
+        "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+        "contraindications": ""
+      },
+      "formulations": [
+        {
+          "name": "Ichhabhedi Rasa",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        },
+        {
+          "name": "Jalodarari Rasa",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        },
+        {
+          "name": "Anand Bhairav Rasa",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        },
+        {
+          "name": "Mahamrityunjaya Rasa",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        }
+      ],
+      "classical_reference": {
+        "shlokas": [
+          "जयपालोऽतिरेची स्यात् कटुरुष्णश्च तीक्ष्णकः।\nकफपित्तहरो दीपी शोथोदरविनाशनः॥"
+        ],
+        "nighantu_references": [
+          "Bhavaprakasha Nighantu, Guduchyadi Varga, Verse 200-202"
+        ],
+        "samhita_references": [],
+        "shloka_reference_status": "A. Directly verified classical reference",
+        "gemini_source_reference": {
+          "text_grantha_name": "Bhavaprakasha Nighantu",
+          "varga_chapter": "Guduchyadi Varga",
+          "shloka_number": "Verse 200-202",
+          "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+          "page_number": "Needs checking against physical copy for exact page"
+        },
+        "reference_hubs": [
+          "TDU Indian Medicinal Plants Database — Shlokas"
+        ]
+      },
+      "phytochemistry": {
+        "major_constituents": [],
+        "chemical_notes": ""
+      },
+      "modern_information": {
+        "evidence_summary": "Croton tiglium is the most potent purgative in Ayurveda and must be used only after purification and in minute doses.",
+        "recognized_uses": [],
+        "safety_notes": "",
+        "sources": []
+      },
+      "student": {
+        "exam_points": [],
+        "viva_questions": [],
+        "identification_points": [],
+        "mnemonics": [],
+        "quick_revision": "Croton tiglium is the most potent purgative in Ayurveda and must be used only after purification and in minute doses."
+      },
+      "teacher": {
+        "teaching_points": [
+          "Retained as supplementary material from Gemini batch 87."
+        ],
+        "discussion_points": [],
+        "practical_points": []
+      },
+      "doctor": {
+        "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+        "important_indications": [],
+        "useful_part": "",
+        "dose": "",
+        "anupana": "",
+        "key_precautions": [
+          "Use authoritative identification and safety references."
+        ]
+      },
+      "sources": [
+        {
+          "type": "gemini_source_batch",
+          "title": "Gemini batch 87",
+          "url": ""
+        },
+        {
+          "type": "official_syllabus",
+          "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+          "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+        },
+        {
+          "type": "medicinal_plants_database",
+          "title": "TDU Indian Medicinal Plants Database",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+        },
+        {
+          "type": "open_ayurveda_dataset",
+          "title": "Amidha Ayurveda Herb Database v2.0",
+          "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+          "license": "CC BY 4.0",
+          "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+        },
+        {
+          "type": "tdu_classical_database",
+          "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+          "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+        }
+      ],
+      "metadata": {
+        "status": "supplementary_needs_source_verification",
+        "source_batch": "Gemini batch 87",
+        "version": "1.0",
+        "gemini_later_batches_reviewed": true,
+        "gemini_source_batches": [
+          87
+        ],
+        "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+        "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      },
+      "gemini_source_data": {
+        "id": 87,
+        "name": "Jayapala",
+        "category": "Supplementary",
+        "botanical_name": "Croton tiglium L.",
+        "family": "Euphorbiaceae",
+        "english_name": "Purging Croton",
+        "sanskrit_synonyms": [
+          "Rechaka (रेचक)",
+          "Kumbhini (कुम्भिनी)",
+          "Danti-bija (दन्तीबीज)",
+          "Nikumbha (निकुम्भ)",
+          "Tintidiphala (तिन्तिडीफल)"
+        ],
+        "useful_part": "Purified Seed (Shodhita Bija)",
+        "rasa": [
+          "Katu"
+        ],
+        "guna": [
+          "Laghu",
+          "Tikshna",
+          "Ruksha",
+          "Vyavayi",
+          "Vikasi"
+        ],
+        "virya": "Ushna",
+        "vipaka": "Katu",
+        "prabhava": "Tivra-Rechana (Druta Virechana / Hydragogue Cathartic)",
+        "dosha": "Kapha-Pittashamaka",
+        "karma": [
+          "Tivra-Virechana",
+          "Deepana",
+          "Rechana",
+          "Kaphaghna",
+          "Shothahara",
+          "Krimighna"
+        ],
+        "indications": [
+          "Vibandha (Severe stubborn constipation)",
+          "Udara Roga (Ascites / Abdominal disorders)",
+          "Jalodara (Dropsy / Abdominal fluid retention)",
+          "Shotha (Severe systemic edema)",
+          "Unmada (Psychosis / Mania)",
+          "Kaphaja Gulma (Abdominal masses)"
+        ],
+        "formulations": [
+          "Ichhabhedi Rasa",
+          "Jalodarari Rasa",
+          "Anand Bhairav Rasa",
+          "Mahamrityunjaya Rasa"
+        ],
+        "identification": "Oval 3-angled dark dull brownish seeds with a thin brittle outer test enclosing an oily pale yellow kernel, intensely acrid taste causing severe burning throat irritation.",
+        "shloka": "जयपालोऽतिरेची स्यात् कटुरुष्णश्च तीक्ष्णकः।\nकफपित्तहरो दीपी शोथोदरविनाशनः॥",
+        "source": {
+          "text_grantha_name": "Bhavaprakasha Nighantu",
+          "varga_chapter": "Guduchyadi Varga",
+          "shloka_number": "Verse 200-202",
+          "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+          "page_number": "Needs checking against physical copy for exact page"
+        },
+        "verification": "A. Directly verified classical reference"
+      }
+    },
+    {
+      "id": "kankola",
+      "order": null,
+      "category": "Supplementary",
+      "syllabus_marker": "Supplementary",
+      "identity": {
+        "name": "Kankola",
+        "sanskrit_name": "कङ्कोल",
+        "transliteration": "",
+        "botanical_name": "Cubeba officinalis Miq.",
+        "family": "Piperaceae",
+        "english_name": "Cubeb",
+        "hindi_name": "",
+        "regional_names": [],
+        "synonyms": [
+          "Sugandha Maricha",
+          "Kababchini",
+          "Chinoshana",
+          "Kola"
+        ]
+      },
+      "classification": {
+        "kingdom": "Plantae",
+        "habit": "",
+        "habitat": "",
+        "distribution": ""
+      },
+      "identification": {
+        "description": "",
+        "whole_plant": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": "",
+        "identification_points": []
+      },
+      "images": {
+        "whole_plant": "",
+        "habit": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": ""
+      },
+      "dravya_guna": {
+        "rasa": [
+          "Katu",
+          "Tikta"
+        ],
+        "guna": [
+          "Laghu",
+          "Tikshna"
+        ],
+        "virya": "Ushna",
+        "vipaka": "Katu",
+        "prabhava": [
+          "Mutrala",
+          "Deepana",
+          "Hridaya"
+        ],
+        "karma": []
+      },
+      "dosha": {
+        "vata": "pacified",
+        "pitta": "aggravated",
+        "kapha": "pacified"
+      },
+      "therapeutics": {
+        "useful_part": [
+          "Phala"
+        ],
+        "indications": [
+          "Mutrakrichha",
+          "Mukharoga",
+          "Aruchi",
+          "Hridroga",
+          "Kasa"
+        ],
+        "therapeutic_actions": [],
+        "dose": "",
+        "anupana": "",
+        "duration": "",
+        "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+        "contraindications": ""
+      },
+      "formulations": [],
+      "classical_reference": {
+        "shlokas": [],
+        "nighantu_references": [],
+        "samhita_references": [],
+        "shloka_reference_status": "requires text-level verification",
+        "reference_hubs": [
+          "TDU Indian Medicinal Plants Database — Shlokas"
+        ]
+      },
+      "phytochemistry": {
+        "major_constituents": [],
+        "chemical_notes": ""
+      },
+      "modern_information": {
+        "evidence_summary": "Cubeb pepper is a diuretic and antiseptic, useful in urinary tract infections and respiratory congestion.",
+        "recognized_uses": [],
+        "safety_notes": "",
+        "sources": []
+      },
+      "student": {
+        "exam_points": [],
+        "viva_questions": [],
+        "identification_points": [],
+        "mnemonics": [],
+        "quick_revision": "Cubeb pepper is a diuretic and antiseptic, useful in urinary tract infections and respiratory congestion."
+      },
+      "teacher": {
+        "teaching_points": [
+          "Retained as supplementary material from Gemini batch 73."
+        ],
+        "discussion_points": [],
+        "practical_points": []
+      },
+      "doctor": {
+        "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+        "important_indications": [],
+        "useful_part": "",
+        "dose": "",
+        "anupana": "",
+        "key_precautions": [
+          "Use authoritative identification and safety references."
+        ]
+      },
+      "sources": [
+        {
+          "type": "gemini_source_batch",
+          "title": "Gemini batch 73",
+          "url": ""
+        },
+        {
+          "type": "official_syllabus",
+          "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+          "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+        },
+        {
+          "type": "medicinal_plants_database",
+          "title": "TDU Indian Medicinal Plants Database",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+        },
+        {
+          "type": "open_ayurveda_dataset",
+          "title": "Amidha Ayurveda Herb Database v2.0",
+          "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+          "license": "CC BY 4.0",
+          "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+        },
+        {
+          "type": "tdu_classical_database",
+          "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+          "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+        }
+      ],
+      "metadata": {
+        "status": "supplementary_needs_source_verification",
+        "source_batch": "Gemini batch 73",
+        "version": "1.0",
+        "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+        "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      }
+    },
+    {
+      "id": "karavira",
+      "order": null,
+      "category": "Supplementary",
+      "syllabus_marker": "Supplementary",
+      "identity": {
+        "name": "Karavira",
+        "sanskrit_name": "करवीर",
+        "transliteration": "",
+        "botanical_name": "Nerium oleander L.",
+        "family": "Apocynaceae",
+        "english_name": "Oleander",
+        "hindi_name": "",
+        "regional_names": [],
+        "synonyms": [
+          "Hayamaraka",
+          "Ashwamaraka",
+          "Pratihasa",
+          "Chandata"
+        ]
+      },
+      "classification": {
+        "kingdom": "Plantae",
+        "habit": "",
+        "habitat": "",
+        "distribution": ""
+      },
+      "identification": {
+        "description": "",
+        "whole_plant": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": "",
+        "identification_points": []
+      },
+      "images": {
+        "whole_plant": "",
+        "habit": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": ""
+      },
+      "dravya_guna": {
+        "rasa": [
+          "Katu",
+          "Tikta"
+        ],
+        "guna": [
+          "Laghu",
+          "Tikshna"
+        ],
+        "virya": "Ushna",
+        "vipaka": "Katu",
+        "prabhava": [
+          "Kushtaghna",
+          "Vranashodhak"
+        ],
+        "karma": []
+      },
+      "dosha": {
+        "vata": "pacified",
+        "pitta": "aggravated",
+        "kapha": "pacified"
+      },
+      "therapeutics": {
+        "useful_part": [
+          "Moola",
+          "Twak",
+          "Patra"
+        ],
+        "indications": [
+          "Kushta",
+          "Vrana",
+          "Kandu",
+          "Krimi",
+          "Upadamsha"
+        ],
+        "therapeutic_actions": [],
+        "dose": "",
+        "anupana": "",
+        "duration": "",
+        "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+        "contraindications": ""
+      },
+      "formulations": [],
+      "classical_reference": {
+        "shlokas": [],
+        "nighantu_references": [],
+        "samhita_references": [],
+        "shloka_reference_status": "requires text-level verification",
+        "reference_hubs": [
+          "TDU Indian Medicinal Plants Database — Shlokas"
+        ]
+      },
+      "phytochemistry": {
+        "major_constituents": [],
+        "chemical_notes": ""
+      },
+      "modern_information": {
+        "evidence_summary": "Oleander is a toxic plant used externally after processing for skin diseases and wound healing.",
+        "recognized_uses": [],
+        "safety_notes": "",
+        "sources": []
+      },
+      "student": {
+        "exam_points": [],
+        "viva_questions": [],
+        "identification_points": [],
+        "mnemonics": [],
+        "quick_revision": "Oleander is a toxic plant used externally after processing for skin diseases and wound healing."
+      },
+      "teacher": {
+        "teaching_points": [
+          "Retained as supplementary material from Gemini batch 94."
+        ],
+        "discussion_points": [],
+        "practical_points": []
+      },
+      "doctor": {
+        "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+        "important_indications": [],
+        "useful_part": "",
+        "dose": "",
+        "anupana": "",
+        "key_precautions": [
+          "Use authoritative identification and safety references."
+        ]
+      },
+      "sources": [
+        {
+          "type": "gemini_source_batch",
+          "title": "Gemini batch 94",
+          "url": ""
+        },
+        {
+          "type": "official_syllabus",
+          "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+          "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+        },
+        {
+          "type": "medicinal_plants_database",
+          "title": "TDU Indian Medicinal Plants Database",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+        },
+        {
+          "type": "open_ayurveda_dataset",
+          "title": "Amidha Ayurveda Herb Database v2.0",
+          "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+          "license": "CC BY 4.0",
+          "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+        },
+        {
+          "type": "tdu_classical_database",
+          "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+          "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+        }
+      ],
+      "metadata": {
+        "status": "supplementary_needs_source_verification",
+        "source_batch": "Gemini batch 94",
+        "version": "1.0",
+        "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+        "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      }
+    },
+    {
+      "id": "karpura",
+      "order": null,
+      "category": "Supplementary",
+      "syllabus_marker": "Supplementary",
+      "identity": {
+        "name": "Karpura",
+        "sanskrit_name": "Karpura",
+        "transliteration": "",
+        "botanical_name": "Cinnamomum camphora (L.) J.Presl",
+        "family": "Lauraceae",
+        "english_name": "Camphor",
+        "hindi_name": "",
+        "regional_names": [],
+        "synonyms": [
+          "Ghanasara (घनसारा)",
+          "Himavaluka (हिमवालुका)",
+          "Chandra (चन्द्र)",
+          "Sphatika (स्फटिक)",
+          "Subhra (शुभ्र)"
+        ]
+      },
+      "classification": {
+        "kingdom": "Plantae",
+        "habit": "",
+        "habitat": "",
+        "distribution": ""
+      },
+      "identification": {
+        "description": "White translucent crystalline masses or powder, highly volatile at room temperature, characteristic penetrating aromatic odor, cool pungent taste followed by a cooling sensation.",
+        "whole_plant": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": "",
+        "identification_points": [
+          "White translucent crystalline masses or powder, highly volatile at room temperature, characteristic penetrating aromatic odor, cool pungent taste followed by a cooling sensation."
+        ]
+      },
+      "images": {
+        "whole_plant": "",
+        "habit": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": ""
+      },
+      "dravya_guna": {
+        "rasa": [
+          "tikta",
+          "katu",
+          "madhura"
+        ],
+        "guna": [
+          "laghu",
+          "tikshna",
+          "snigdha"
+        ],
+        "virya": "sheeta",
+        "vipaka": "katu",
+        "prabhava": "Hridya / Chakshushya / Vedanasthapana",
+        "karma": [
+          "Hridya",
+          "Vedanasthapana",
+          "Chakshushya",
+          "Chedana",
+          "Kasahara",
+          "Mukhadurgandhahara",
+          "Dahaprashamana",
+          "Krimighna"
+        ]
+      },
+      "dosha": {
+        "vata": "not specifically documented in imported dataset",
+        "pitta": "aggravated",
+        "kapha": "pacified",
+        "summary": "Tridoshashamaka (Specially Kapha-Pittashamaka)"
+      },
+      "therapeutics": {
+        "useful_part": [
+          "Crystalline Extract / Sublimated Niryasa (Karpura)"
+        ],
+        "indications": [
+          "Hridroga (Heart disease / Functional cardiac weakness)",
+          "Shwasa / Kasa (Dyspnea / Cough)",
+          "Mukharoga (Oral infections / Dental pain)",
+          "Trishna (Excessive thirst)",
+          "Daha (Burning sensation)",
+          "Sandhishoola (Joint pain / Arthralgia)"
+        ],
+        "therapeutic_actions": [
+          "Hridya",
+          "Vedanasthapana",
+          "Chakshushya",
+          "Chedana",
+          "Kasahara",
+          "Mukhadurgandhahara",
+          "Dahaprashamana",
+          "Krimighna"
+        ],
+        "dose": "",
+        "anupana": "",
+        "duration": "",
+        "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+        "contraindications": ""
+      },
+      "formulations": [
+        {
+          "name": "Karpuradi Churna",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        },
+        {
+          "name": "Karpuradi Taila",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        },
+        {
+          "name": "Karpura Rasa",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        },
+        {
+          "name": "Amritdhara",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        },
+        {
+          "name": "Karpurasava",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        }
+      ],
+      "classical_reference": {
+        "shlokas": [
+          "कर्पूरः शीतलो हृद्यश्चक्षुष्यो लेपनो लघुः।\nतिक्तो मधुरः कटुकः सुगन्धिः कफपित्तहा॥"
+        ],
+        "nighantu_references": [
+          "Bhavaprakasha Nighantu, Karpuradi Varga, Verse 2-3"
+        ],
+        "samhita_references": [],
+        "shloka_reference_status": "A. Directly verified classical reference",
+        "gemini_source_reference": {
+          "text_grantha_name": "Bhavaprakasha Nighantu",
+          "sthana_section": "Nighantu Sthana",
+          "adhyaya": "N/A",
+          "varga_chapter": "Karpuradi Varga",
+          "shloka_number": "Verse 2-3",
+          "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+          "page_number": "Needs checking against physical copy for exact page"
+        },
+        "reference_hubs": [
+          "TDU Indian Medicinal Plants Database — Shlokas"
+        ]
+      },
+      "phytochemistry": {
+        "major_constituents": [],
+        "chemical_notes": ""
+      },
+      "modern_information": {
+        "evidence_summary": "Camphor has stimulant, antispasmodic, and antiseptic actions, used in respiratory and skin conditions.",
+        "recognized_uses": [],
+        "safety_notes": "",
+        "sources": []
+      },
+      "student": {
+        "exam_points": [],
+        "viva_questions": [],
+        "identification_points": [],
+        "mnemonics": [],
+        "quick_revision": "Camphor has stimulant, antispasmodic, and antiseptic actions, used in respiratory and skin conditions."
+      },
+      "teacher": {
+        "teaching_points": [
+          "Retained as supplementary material from Gemini batch 74."
+        ],
+        "discussion_points": [
+          "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
+          "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
+          "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
+          "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
+          "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
+          "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
+          "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
+          "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data."
+        ],
+        "practical_points": []
+      },
+      "doctor": {
+        "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+        "important_indications": [],
+        "useful_part": "",
+        "dose": "",
+        "anupana": "",
+        "key_precautions": [
+          "Use authoritative identification and safety references."
+        ]
+      },
+      "sources": [
+        {
+          "type": "gemini_source_batch",
+          "title": "Gemini batch 74",
+          "url": ""
+        },
+        {
+          "type": "official_syllabus",
+          "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+          "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+        },
+        {
+          "type": "medicinal_plants_database",
+          "title": "TDU Indian Medicinal Plants Database",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+        },
+        {
+          "type": "open_ayurveda_dataset",
+          "title": "Amidha Ayurveda Herb Database v2.0",
+          "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+          "license": "CC BY 4.0",
+          "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+        },
+        {
+          "type": "tdu_classical_database",
+          "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+          "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+        }
+      ],
+      "metadata": {
+        "status": "supplementary_needs_source_verification",
+        "source_batch": "Gemini batch 74",
+        "version": "1.0",
+        "gemini_later_batches_reviewed": true,
+        "gemini_source_batches": [
+          74
+        ],
+        "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+        "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      },
+      "gemini_source_data": {
+        "id": 74,
+        "classical_sanskrit_name": "Karpura (कर्पूर)",
+        "botanical_name": "Cinnamomum camphora (L.) J.Presl",
+        "family": "Lauraceae",
+        "english_common_name": "Camphor",
+        "sanskrit_synonyms": [
+          "Ghanasara (घनसारा)",
+          "Himavaluka (हिमवालुका)",
+          "Chandra (चन्द्र)",
+          "Sphatika (स्फटिक)",
+          "Subhra (शुभ्र)"
+        ],
+        "useful_part": "Crystalline Extract / Sublimated Niryasa (Karpura)",
+        "rasa": [
+          "Tikta",
+          "Katu",
+          "Madhura"
+        ],
+        "guna": [
+          "Laghu",
+          "Tikshna",
+          "Snigdha"
+        ],
+        "virya": "Sheeta",
+        "vipaka": "Katu",
+        "prabhava": "Hridya / Chakshushya / Vedanasthapana",
+        "dosha_karma": "Tridoshashamaka (Specially Kapha-Pittashamaka)",
+        "pharmacological_therapeutic_karma": [
+          "Hridya",
+          "Vedanasthapana",
+          "Chakshushya",
+          "Chedana",
+          "Kasahara",
+          "Mukhadurgandhahara",
+          "Dahaprashamana",
+          "Krimighna"
+        ],
+        "important_indications": [
+          "Hridroga (Heart disease / Functional cardiac weakness)",
+          "Shwasa / Kasa (Dyspnea / Cough)",
+          "Mukharoga (Oral infections / Dental pain)",
+          "Trishna (Excessive thirst)",
+          "Daha (Burning sensation)",
+          "Sandhishoola (Joint pain / Arthralgia)"
+        ],
+        "important_formulations": [
+          "Karpuradi Churna",
+          "Karpuradi Taila",
+          "Karpura Rasa",
+          "Amritdhara",
+          "Karpurasava"
+        ],
+        "identification_characters": "White translucent crystalline masses or powder, highly volatile at room temperature, characteristic penetrating aromatic odor, cool pungent taste followed by a cooling sensation.",
+        "classical_shloka": "कर्पूरः शीतलो हृद्यश्चक्षुष्यो लेपनो लघुः।\nतिक्तो मधुरः कटुकः सुगन्धिः कफपित्तहा॥",
+        "shloka_source": {
+          "text_grantha_name": "Bhavaprakasha Nighantu",
+          "sthana_section": "Nighantu Sthana",
+          "adhyaya": "N/A",
+          "varga_chapter": "Karpuradi Varga",
+          "shloka_number": "Verse 2-3",
+          "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+          "page_number": "Needs checking against physical copy for exact page"
+        },
+        "verification_status": "A. Directly verified classical reference"
+      }
+    },
+    {
+      "id": "kiratatikta",
+      "order": null,
+      "category": "Supplementary",
+      "syllabus_marker": "Supplementary",
+      "identity": {
+        "name": "Kiratatikta",
+        "sanskrit_name": "Kiratatikta",
+        "transliteration": "",
+        "botanical_name": "Swertia chirata Buch.-Ham.",
+        "family": "Gentianaceae",
+        "english_name": "Chirata / Bitter Stick",
+        "hindi_name": "",
+        "regional_names": [],
+        "synonyms": [
+          "Bhunimba (भूनिम्ब)",
+          "Kirata (किरात)",
+          "Anaryatikta (अनार्यतिक्त)",
+          "Kandarutiktaka (काण्डतिक्त)",
+          "Ramasenaka (रामसेनक)"
+        ]
+      },
+      "classification": {
+        "kingdom": "Plantae",
+        "habit": "",
+        "habitat": "",
+        "distribution": ""
+      },
+      "identification": {
+        "description": "Purplish-brown cylindrical stems with yellow pith, opposite decussate sessile leaves, 4-merous greenish-yellow flowers, intensely bitter taste throughout the plant.",
+        "whole_plant": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": "",
+        "identification_points": [
+          "Purplish-brown cylindrical stems with yellow pith, opposite decussate sessile leaves, 4-merous greenish-yellow flowers, intensely bitter taste throughout the plant."
+        ]
+      },
+      "images": {
+        "whole_plant": "",
+        "habit": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": ""
+      },
+      "dravya_guna": {
+        "rasa": [
+          "tikta"
+        ],
+        "guna": [
+          "laghu",
+          "ruksha"
+        ],
+        "virya": "sheeta",
+        "vipaka": "katu",
+        "prabhava": "Jwarahara (Agrya in Vishama Jwara) / Raktashodhaka",
+        "karma": [
+          "Jwarahara",
+          "Deepana",
+          "Pachana",
+          "Raktashodhaka",
+          "Krimighna",
+          "Trishnanigrahana",
+          "Dahaprashamana"
+        ]
+      },
+      "dosha": {
+        "vata": "aggravated",
+        "pitta": "pacified",
+        "kapha": "pacified",
+        "summary": "Kapha-Pittashamaka"
+      },
+      "therapeutics": {
+        "useful_part": [
+          "Whole Plant (Panchanga)"
+        ],
+        "indications": [
+          "Vishama Jwara (Malarial / Relapsing / Typhoid fever)",
+          "Kamala (Jaundice)",
+          "Kushta (Skin diseases)",
+          "Agnimandya (Loss of appetite)",
+          "Trishna (Excessive thirst)",
+          "Prameha (Metabolic disorders / Diabetes)"
+        ],
+        "therapeutic_actions": [
+          "Jwarahara",
+          "Deepana",
+          "Pachana",
+          "Raktashodhaka",
+          "Krimighna",
+          "Trishnanigrahana",
+          "Dahaprashamana"
+        ],
+        "dose": "",
+        "anupana": "",
+        "duration": "",
+        "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+        "contraindications": ""
+      },
+      "formulations": [
+        {
+          "name": "Sudarshana Churna",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        },
+        {
+          "name": "Kiratadi Kwatha",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        },
+        {
+          "name": "Mahasudarshana Ghanvati",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        },
+        {
+          "name": "Bhunimbadi Kwatha",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        },
+        {
+          "name": "Chirayita Ghanvati",
+          "dosage_form": "",
+          "indication": "",
+          "reference": ""
+        }
+      ],
+      "classical_reference": {
+        "shlokas": [
+          "किराततिक्तः शीतोऽनलकरो लघुः।\nतिक्तो शोथतृषादाहज्वरव्रणकफापहः॥"
+        ],
+        "nighantu_references": [
+          "Bhavaprakasha Nighantu, Haritakyadi Varga, Verse 151-152"
+        ],
+        "samhita_references": [],
+        "shloka_reference_status": "A. Directly verified classical reference",
+        "gemini_source_reference": {
+          "text_grantha_name": "Bhavaprakasha Nighantu",
+          "sthana_section": "Nighantu Sthana",
+          "adhyaya": "N/A",
+          "varga_chapter": "Haritakyadi Varga",
+          "shloka_number": "Verse 151-152",
+          "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+          "page_number": "Needs checking against physical copy for exact page"
+        },
+        "reference_hubs": [
+          "TDU Indian Medicinal Plants Database — Shlokas"
+        ]
+      },
+      "phytochemistry": {
+        "major_constituents": [],
+        "chemical_notes": ""
+      },
+      "modern_information": {
+        "evidence_summary": "Bitter tonic used for fever, appetite, and digestion.",
+        "recognized_uses": [],
+        "safety_notes": "",
+        "sources": []
+      },
+      "student": {
+        "exam_points": [],
+        "viva_questions": [],
+        "identification_points": [],
+        "mnemonics": [],
+        "quick_revision": "Bitter tonic used for fever, appetite, and digestion."
+      },
+      "teacher": {
+        "teaching_points": [
+          "Retained as supplementary material from Gemini batch 81."
+        ],
+        "discussion_points": [],
+        "practical_points": []
+      },
+      "doctor": {
+        "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+        "important_indications": [],
+        "useful_part": "",
+        "dose": "",
+        "anupana": "",
+        "key_precautions": [
+          "Use authoritative identification and safety references."
+        ]
+      },
+      "sources": [
+        {
+          "type": "gemini_source_batch",
+          "title": "Gemini batch 81",
+          "url": ""
+        },
+        {
+          "type": "official_syllabus",
+          "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+          "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+        },
+        {
+          "type": "medicinal_plants_database",
+          "title": "TDU Indian Medicinal Plants Database",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+        },
+        {
+          "type": "open_ayurveda_dataset",
+          "title": "Amidha Ayurveda Herb Database v2.0",
+          "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+          "license": "CC BY 4.0",
+          "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+        },
+        {
+          "type": "tdu_classical_database",
+          "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+          "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+        }
+      ],
+      "metadata": {
+        "status": "supplementary_needs_source_verification",
+        "source_batch": "Gemini batch 81",
+        "version": "1.0",
+        "gemini_later_batches_reviewed": true,
+        "gemini_source_batches": [
+          81
+        ],
+        "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+        "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      },
+      "gemini_source_data": {
+        "id": 81,
+        "classical_sanskrit_name": "Kiratatikta (किराततिक्त)",
+        "botanical_name": "Swertia chirata Buch.-Ham.",
+        "family": "Gentianaceae",
+        "english_common_name": "Chirata / Bitter Stick",
+        "sanskrit_synonyms": [
+          "Bhunimba (भूनिम्ब)",
+          "Kirata (किरात)",
+          "Anaryatikta (अनार्यतिक्त)",
+          "Kandarutiktaka (काण्डतिक्त)",
+          "Ramasenaka (रामसेनक)"
+        ],
+        "useful_part": "Whole Plant (Panchanga)",
+        "rasa": [
+          "Tikta"
+        ],
+        "guna": [
+          "Laghu",
+          "Ruksha"
+        ],
+        "virya": "Sheeta",
+        "vipaka": "Katu",
+        "prabhava": "Jwarahara (Agrya in Vishama Jwara) / Raktashodhaka",
+        "dosha_karma": "Kapha-Pittashamaka",
+        "pharmacological_therapeutic_karma": [
+          "Jwarahara",
+          "Deepana",
+          "Pachana",
+          "Raktashodhaka",
+          "Krimighna",
+          "Trishnanigrahana",
+          "Dahaprashamana"
+        ],
+        "important_indications": [
+          "Vishama Jwara (Malarial / Relapsing / Typhoid fever)",
+          "Kamala (Jaundice)",
+          "Kushta (Skin diseases)",
+          "Agnimandya (Loss of appetite)",
+          "Trishna (Excessive thirst)",
+          "Prameha (Metabolic disorders / Diabetes)"
+        ],
+        "important_formulations": [
+          "Sudarshana Churna",
+          "Kiratadi Kwatha",
+          "Mahasudarshana Ghanvati",
+          "Bhunimbadi Kwatha",
+          "Chirayita Ghanvati"
+        ],
+        "identification_characters": "Purplish-brown cylindrical stems with yellow pith, opposite decussate sessile leaves, 4-merous greenish-yellow flowers, intensely bitter taste throughout the plant.",
+        "classical_shloka": "किराततिक्तः शीतोऽनलकरो लघुः।\nतिक्तो शोथतृषादाहज्वरव्रणकफापहः॥",
+        "shloka_source": {
+          "text_grantha_name": "Bhavaprakasha Nighantu",
+          "sthana_section": "Nighantu Sthana",
+          "adhyaya": "N/A",
+          "varga_chapter": "Haritakyadi Varga",
+          "shloka_number": "Verse 151-152",
+          "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+          "page_number": "Needs checking against physical copy for exact page"
+        },
+        "verification_status": "A. Directly verified classical reference"
+      }
+    },
+    {
+      "id": "kupilu",
+      "order": null,
+      "category": "Supplementary",
+      "syllabus_marker": "Supplementary",
+      "identity": {
+        "name": "Kupilu",
+        "sanskrit_name": "कुपीलु",
+        "transliteration": "",
+        "botanical_name": "Strychnos nux-vomica L.",
+        "family": "Loganiaceae",
+        "english_name": "Nux-vomica",
+        "hindi_name": "",
+        "regional_names": [],
+        "synonyms": [
+          "Kupilu",
+          "Kulukaka",
+          "Ramaphala",
+          "Chipita"
+        ]
+      },
+      "classification": {
+        "kingdom": "Plantae",
+        "habit": "",
+        "habitat": "",
+        "distribution": ""
+      },
+      "identification": {
+        "description": "",
+        "whole_plant": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": "",
+        "identification_points": []
+      },
+      "images": {
+        "whole_plant": "",
+        "habit": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": ""
+      },
+      "dravya_guna": {
+        "rasa": [
+          "Tikta",
+          "Katu"
+        ],
+        "guna": [
+          "Laghu",
+          "Tikshna"
+        ],
+        "virya": "Ushna",
+        "vipaka": "Katu",
+        "prabhava": [
+          "Vatahara",
+          "Deepana"
+        ],
+        "karma": []
+      },
+      "dosha": {
+        "vata": "pacified",
+        "pitta": "aggravated",
+        "kapha": "pacified"
+      },
+      "therapeutics": {
+        "useful_part": [
+          "Bija"
+        ],
+        "indications": [
+          "Vata Vyadhi",
+          "Gridhrasi",
+          "Amavata",
+          "Agnimandya",
+          "Klaibya"
+        ],
+        "therapeutic_actions": [],
+        "dose": "",
+        "anupana": "",
+        "duration": "",
+        "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+        "contraindications": ""
+      },
+      "formulations": [],
+      "classical_reference": {
+        "shlokas": [],
+        "nighantu_references": [],
+        "samhita_references": [],
+        "shloka_reference_status": "requires text-level verification",
+        "reference_hubs": [
+          "TDU Indian Medicinal Plants Database — Shlokas"
+        ]
+      },
+      "phytochemistry": {
+        "major_constituents": [],
+        "chemical_notes": ""
+      },
+      "modern_information": {
+        "evidence_summary": "Strychnos nux-vomica (Nux vomica) is a highly toxic herb used in purified, minute doses to stimulate the nervous system and digestion.",
+        "recognized_uses": [],
+        "safety_notes": "",
+        "sources": []
+      },
+      "student": {
+        "exam_points": [],
+        "viva_questions": [],
+        "identification_points": [],
+        "mnemonics": [],
+        "quick_revision": "Strychnos nux-vomica (Nux vomica) is a highly toxic herb used in purified, minute doses to stimulate the nervous system and digestion."
+      },
+      "teacher": {
+        "teaching_points": [
+          "Retained as supplementary material from Gemini batch 95."
+        ],
+        "discussion_points": [],
+        "practical_points": []
+      },
+      "doctor": {
+        "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+        "important_indications": [],
+        "useful_part": "",
+        "dose": "",
+        "anupana": "",
+        "key_precautions": [
+          "Use authoritative identification and safety references."
+        ]
+      },
+      "sources": [
+        {
+          "type": "gemini_source_batch",
+          "title": "Gemini batch 95",
+          "url": ""
+        },
+        {
+          "type": "official_syllabus",
+          "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+          "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+        },
+        {
+          "type": "medicinal_plants_database",
+          "title": "TDU Indian Medicinal Plants Database",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+        },
+        {
+          "type": "open_ayurveda_dataset",
+          "title": "Amidha Ayurveda Herb Database v2.0",
+          "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+          "license": "CC BY 4.0",
+          "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+        },
+        {
+          "type": "tdu_classical_database",
+          "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+          "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+        }
+      ],
+      "metadata": {
+        "status": "supplementary_needs_source_verification",
+        "source_batch": "Gemini batch 95",
+        "version": "1.0",
+        "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+        "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      }
+    },
+    {
+      "id": "langali",
+      "order": null,
+      "category": "Supplementary",
+      "syllabus_marker": "Supplementary",
+      "identity": {
+        "name": "Langali",
+        "sanskrit_name": "लाङ्गली",
+        "transliteration": "",
+        "botanical_name": "Gloriosa superba L.",
+        "family": "Colchicaceae",
+        "english_name": "Gloriosa lily",
+        "hindi_name": "",
+        "regional_names": [],
+        "synonyms": [
+          "Kalihari",
+          "Garbhaghatini",
+          "Agnishikha",
+          "Visalya"
+        ]
+      },
+      "classification": {
+        "kingdom": "Plantae",
+        "habit": "",
+        "habitat": "",
+        "distribution": ""
+      },
+      "identification": {
+        "description": "",
+        "whole_plant": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": "",
+        "identification_points": []
+      },
+      "images": {
+        "whole_plant": "",
+        "habit": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": ""
+      },
+      "dravya_guna": {
+        "rasa": [
+          "Katu",
+          "Tikta"
+        ],
+        "guna": [
+          "Laghu",
+          "Tikshna"
+        ],
+        "virya": "Ushna",
+        "vipaka": "Katu",
+        "prabhava": [
+          "Kushtaghna",
+          "Garbhashaya Sankochaka"
+        ],
+        "karma": []
+      },
+      "dosha": {
+        "vata": "pacified",
+        "pitta": "aggravated",
+        "kapha": "pacified"
+      },
+      "therapeutics": {
+        "useful_part": [
+          "Moola",
+          "Kanda"
+        ],
+        "indications": [
+          "Kushta",
+          "Vrana",
+          "Garbhasanga",
+          "Vata Vyadhi",
+          "Krimi"
+        ],
+        "therapeutic_actions": [],
+        "dose": "",
+        "anupana": "",
+        "duration": "",
+        "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+        "contraindications": ""
+      },
+      "formulations": [],
+      "classical_reference": {
+        "shlokas": [],
+        "nighantu_references": [],
+        "samhita_references": [],
+        "shloka_reference_status": "requires text-level verification",
+        "reference_hubs": [
+          "TDU Indian Medicinal Plants Database — Shlokas"
+        ]
+      },
+      "phytochemistry": {
+        "major_constituents": [],
+        "chemical_notes": ""
+      },
+      "modern_information": {
+        "evidence_summary": "Gloriosa superba is a potent herb used for inducing labor and in treating skin diseases, but is toxic if not used correctly.",
+        "recognized_uses": [],
+        "safety_notes": "",
+        "sources": []
+      },
+      "student": {
+        "exam_points": [],
+        "viva_questions": [],
+        "identification_points": [],
+        "mnemonics": [],
+        "quick_revision": "Gloriosa superba is a potent herb used for inducing labor and in treating skin diseases, but is toxic if not used correctly."
+      },
+      "teacher": {
+        "teaching_points": [
+          "Retained as supplementary material from Gemini batch 93."
+        ],
+        "discussion_points": [],
+        "practical_points": []
+      },
+      "doctor": {
+        "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+        "important_indications": [],
+        "useful_part": "",
+        "dose": "",
+        "anupana": "",
+        "key_precautions": [
+          "Use authoritative identification and safety references."
+        ]
+      },
+      "sources": [
+        {
+          "type": "gemini_source_batch",
+          "title": "Gemini batch 93",
+          "url": ""
+        },
+        {
+          "type": "official_syllabus",
+          "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+          "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+        },
+        {
+          "type": "medicinal_plants_database",
+          "title": "TDU Indian Medicinal Plants Database",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+        },
+        {
+          "type": "open_ayurveda_dataset",
+          "title": "Amidha Ayurveda Herb Database v2.0",
+          "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+          "license": "CC BY 4.0",
+          "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+        },
+        {
+          "type": "tdu_classical_database",
+          "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+          "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+        }
+      ],
+      "metadata": {
+        "status": "supplementary_needs_source_verification",
+        "source_batch": "Gemini batch 93",
+        "version": "1.0",
+        "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+        "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      }
+    },
+    {
+      "id": "parasika-yavani",
+      "order": null,
+      "category": "Supplementary",
+      "syllabus_marker": "Supplementary",
+      "identity": {
+        "name": "Parasika Yavani",
+        "sanskrit_name": "पारसीक यवानी",
+        "transliteration": "",
+        "botanical_name": "",
+        "family": "Apiaceae",
+        "english_name": "Persian ajwain",
+        "hindi_name": "",
+        "regional_names": [],
+        "synonyms": []
+      },
+      "classification": {
+        "kingdom": "Plantae",
+        "habit": "",
+        "habitat": "",
+        "distribution": ""
+      },
+      "identification": {
+        "description": "",
+        "whole_plant": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": "",
+        "identification_points": []
+      },
+      "images": {
+        "whole_plant": "",
+        "habit": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": ""
+      },
+      "dravya_guna": {
+        "rasa": [],
+        "guna": [],
+        "virya": "",
+        "vipaka": "",
+        "prabhava": "",
+        "karma": []
+      },
+      "dosha": {
+        "vata": "",
+        "pitta": "",
+        "kapha": ""
+      },
+      "therapeutics": {
+        "useful_part": [],
+        "indications": [],
+        "therapeutic_actions": [],
+        "dose": "",
+        "anupana": "",
+        "duration": "",
+        "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+        "contraindications": ""
+      },
+      "formulations": [],
+      "classical_reference": {
+        "shlokas": [],
+        "nighantu_references": [],
+        "samhita_references": [],
+        "shloka_reference_status": "requires text-level verification",
+        "reference_hubs": [
+          "TDU Indian Medicinal Plants Database — Shlokas"
+        ]
+      },
+      "phytochemistry": {
+        "major_constituents": [],
+        "chemical_notes": ""
+      },
+      "modern_information": {
+        "evidence_summary": "",
+        "recognized_uses": [],
+        "safety_notes": "",
+        "sources": []
+      },
+      "student": {
+        "exam_points": [],
+        "viva_questions": [],
+        "identification_points": [],
+        "mnemonics": [],
+        "quick_revision": ""
+      },
+      "teacher": {
+        "teaching_points": [
+          "Retained as supplementary material from Gemini batch 97."
+        ],
+        "discussion_points": [],
+        "practical_points": []
+      },
+      "doctor": {
+        "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+        "important_indications": [],
+        "useful_part": "",
+        "dose": "",
+        "anupana": "",
+        "key_precautions": [
+          "Use authoritative identification and safety references."
+        ]
+      },
+      "sources": [
+        {
+          "type": "gemini_source_batch",
+          "title": "Gemini batch 97",
+          "url": ""
+        },
+        {
+          "type": "official_syllabus",
+          "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+          "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+        },
+        {
+          "type": "medicinal_plants_database",
+          "title": "TDU Indian Medicinal Plants Database",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+        },
+        {
+          "type": "tdu_classical_database",
+          "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+          "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+        }
+      ],
+      "metadata": {
+        "status": "supplementary_needs_source_verification",
+        "source_batch": "Gemini batch 97",
+        "version": "1.0",
+        "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+        "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      }
+    },
+    {
+      "id": "snuhi",
+      "order": null,
+      "category": "Supplementary",
+      "syllabus_marker": "Supplementary",
+      "identity": {
+        "name": "Snuhi",
+        "sanskrit_name": "स्नुही",
+        "transliteration": "",
+        "botanical_name": "Euphorbia neriifolia L.",
+        "family": "Euphorbiaceae",
+        "english_name": "Indian spurge tree",
+        "hindi_name": "",
+        "regional_names": [],
+        "synonyms": [
+          "Sudha",
+          "Samantdugdha",
+          "Vajradruma",
+          "Sihunda"
+        ]
+      },
+      "classification": {
+        "kingdom": "Plantae",
+        "habit": "",
+        "habitat": "",
+        "distribution": ""
+      },
+      "identification": {
+        "description": "",
+        "whole_plant": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": "",
+        "identification_points": []
+      },
+      "images": {
+        "whole_plant": "",
+        "habit": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": ""
+      },
+      "dravya_guna": {
+        "rasa": [
+          "Katu"
+        ],
+        "guna": [
+          "Laghu",
+          "Tikshna"
+        ],
+        "virya": "Ushna",
+        "vipaka": "Katu",
+        "prabhava": [
+          "Virechana",
+          "Kushtaghna"
+        ],
+        "karma": []
+      },
+      "dosha": {
+        "vata": "pacified",
+        "pitta": "aggravated",
+        "kapha": "pacified"
+      },
+      "therapeutics": {
+        "useful_part": [
+          "Ksheera",
+          "Kanda",
+          "Patra"
+        ],
+        "indications": [
+          "Udararoga",
+          "Gulma",
+          "Kushta",
+          "Arsha",
+          "Pliharoga"
+        ],
+        "therapeutic_actions": [],
+        "dose": "",
+        "anupana": "",
+        "duration": "",
+        "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+        "contraindications": ""
+      },
+      "formulations": [],
+      "classical_reference": {
+        "shlokas": [],
+        "nighantu_references": [],
+        "samhita_references": [],
+        "shloka_reference_status": "requires text-level verification",
+        "reference_hubs": [
+          "TDU Indian Medicinal Plants Database — Shlokas"
+        ]
+      },
+      "phytochemistry": {
+        "major_constituents": [],
+        "chemical_notes": ""
+      },
+      "modern_information": {
+        "evidence_summary": "Euphorbia neriifolia is a very potent purgative herb used under expert guidance for severe constipation and skin diseases.",
+        "recognized_uses": [],
+        "safety_notes": "",
+        "sources": []
+      },
+      "student": {
+        "exam_points": [],
+        "viva_questions": [],
+        "identification_points": [],
+        "mnemonics": [],
+        "quick_revision": "Euphorbia neriifolia is a very potent purgative herb used under expert guidance for severe constipation and skin diseases."
+      },
+      "teacher": {
+        "teaching_points": [
+          "Retained as supplementary material from Gemini batches 92 and 106."
+        ],
+        "discussion_points": [],
+        "practical_points": []
+      },
+      "doctor": {
+        "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+        "important_indications": [],
+        "useful_part": "",
+        "dose": "",
+        "anupana": "",
+        "key_precautions": [
+          "Use authoritative identification and safety references."
+        ]
+      },
+      "sources": [
+        {
+          "type": "gemini_source_batch",
+          "title": "Gemini batches 92 and 106",
+          "url": ""
+        },
+        {
+          "type": "official_syllabus",
+          "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+          "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+        },
+        {
+          "type": "medicinal_plants_database",
+          "title": "TDU Indian Medicinal Plants Database",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+        },
+        {
+          "type": "open_ayurveda_dataset",
+          "title": "Amidha Ayurveda Herb Database v2.0",
+          "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+          "license": "CC BY 4.0",
+          "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+        },
+        {
+          "type": "tdu_classical_database",
+          "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+          "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+        }
+      ],
+      "metadata": {
+        "status": "supplementary_needs_source_verification",
+        "source_batch": "Gemini batches 92 and 106",
+        "version": "1.0",
+        "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+        "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      }
+    },
+    {
+      "id": "tejapatra",
+      "order": null,
+      "category": "Supplementary",
+      "syllabus_marker": "Supplementary",
+      "identity": {
+        "name": "Tejapatra",
+        "sanskrit_name": "तेजपत्त्र",
+        "transliteration": "",
+        "botanical_name": "Cinnamomum tamala (Buch.-Ham.) T.Nees & Eberm.",
+        "family": "Lauraceae",
+        "english_name": "Indian bay leaf",
+        "hindi_name": "",
+        "regional_names": [],
+        "synonyms": [
+          "Tejpatra",
+          "Patra",
+          "Dala",
+          "Guchhapatra"
+        ]
+      },
+      "classification": {
+        "kingdom": "Plantae",
+        "habit": "",
+        "habitat": "",
+        "distribution": ""
+      },
+      "identification": {
+        "description": "",
+        "whole_plant": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": "",
+        "identification_points": []
+      },
+      "images": {
+        "whole_plant": "",
+        "habit": "",
+        "root": "",
+        "stem": "",
+        "leaf": "",
+        "flower": "",
+        "fruit": "",
+        "seed": "",
+        "bark": ""
+      },
+      "dravya_guna": {
+        "rasa": [
+          "Tikta",
+          "Katu"
+        ],
+        "guna": [
+          "Laghu"
+        ],
+        "virya": "Ushna",
+        "vipaka": "Katu",
+        "prabhava": [
+          "Deepana",
+          "Krimighna"
+        ],
+        "karma": []
+      },
+      "dosha": {
+        "vata": "pacified",
+        "pitta": "aggravated",
+        "kapha": "pacified"
+      },
+      "therapeutics": {
+        "useful_part": [
+          "Patra"
+        ],
+        "indications": [
+          "Aruchi",
+          "Hrillasa",
+          "Peenasa",
+          "Arsha",
+          "Pinasa"
+        ],
+        "therapeutic_actions": [],
+        "dose": "",
+        "anupana": "",
+        "duration": "",
+        "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+        "contraindications": ""
+      },
+      "formulations": [],
+      "classical_reference": {
+        "shlokas": [],
+        "nighantu_references": [],
+        "samhita_references": [],
+        "shloka_reference_status": "requires text-level verification",
+        "reference_hubs": [
+          "TDU Indian Medicinal Plants Database — Shlokas"
+        ]
+      },
+      "phytochemistry": {
+        "major_constituents": [],
+        "chemical_notes": ""
+      },
+      "modern_information": {
+        "evidence_summary": "Bay leaf improves appetite, respiration and balances kapha dosha.",
+        "recognized_uses": [],
+        "safety_notes": "",
+        "sources": []
+      },
+      "student": {
+        "exam_points": [],
+        "viva_questions": [],
+        "identification_points": [],
+        "mnemonics": [],
+        "quick_revision": "Bay leaf improves appetite, respiration and balances kapha dosha."
+      },
+      "teacher": {
+        "teaching_points": [
+          "Retained as supplementary material from Gemini batch 70."
+        ],
+        "discussion_points": [],
+        "practical_points": []
+      },
+      "doctor": {
+        "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+        "important_indications": [],
+        "useful_part": "",
+        "dose": "",
+        "anupana": "",
+        "key_precautions": [
+          "Use authoritative identification and safety references."
+        ]
+      },
+      "sources": [
+        {
+          "type": "gemini_source_batch",
+          "title": "Gemini batch 70",
+          "url": ""
+        },
+        {
+          "type": "official_syllabus",
+          "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+          "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+        },
+        {
+          "type": "medicinal_plants_database",
+          "title": "TDU Indian Medicinal Plants Database",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+        },
+        {
+          "type": "open_ayurveda_dataset",
+          "title": "Amidha Ayurveda Herb Database v2.0",
+          "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+          "license": "CC BY 4.0",
+          "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+        },
+        {
+          "type": "tdu_classical_database",
+          "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+          "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+          "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+        }
+      ],
+      "metadata": {
+        "status": "supplementary_needs_source_verification",
+        "source_batch": "Gemini batch 70",
+        "version": "1.0",
+        "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+        "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+      }
+    }
+  ]
+}
