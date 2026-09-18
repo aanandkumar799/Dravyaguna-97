@@ -86,8 +86,10 @@ jobs:
           echo "GOOGLE_APPLICATION_CREDENTIALS=$RUNNER_TEMP/firebase-service-account.json" >> "$GITHUB_ENV"
           FIREBASE_PROJECT_ID="$(python - <<'PY'
           import json
+          import os
           from pathlib import Path
-          data = json.loads(Path("$RUNNER_TEMP/firebase-service-account.json").read_text(encoding="utf-8"))
+          credentials = Path(os.environ["RUNNER_TEMP"]) / "firebase-service-account.json"
+          data = json.loads(credentials.read_text(encoding="utf-8"))
           project_id = data.get("project_id", "").strip()
           if not project_id:
               raise SystemExit("Firebase service-account JSON does not contain project_id.")
