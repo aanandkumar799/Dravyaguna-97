@@ -106,18 +106,31 @@
   },
   "phytochemistry": {
     "major_constituents": [],
-    "chemical_notes": ""
+    "chemical_notes": "Phytochemical field intentionally left without a compound list until source-level verification is completed."
   },
   "modern_information": {
     "evidence_summary": "Oleander is a toxic plant used externally after processing for skin diseases and wound healing.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Botanical identification and pharmacognosy/dravyaguna education."
+    ],
+    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Botanical identity: Nerium oleander L.",
+      "Family: Apocynaceae",
+      "Key identification: Leaves occur in whorls and are narrow and leathery. Flowers may be white, pink or red. Fruit consists of paired follicles."
+    ],
+    "viva_questions": [
+      "What is the botanical name and family of Karavira?",
+      "Which morphological characters help identify Karavira?"
+    ],
+    "identification_points": [
+      "Leaves occur in whorls and are narrow and leathery.",
+      "Flowers may be white, pink or red.",
+      "Fruit consists of paired follicles."
+    ],
     "mnemonics": [],
     "quick_revision": "Oleander is a toxic plant used externally after processing for skin diseases and wound healing."
   },
@@ -125,17 +138,30 @@
     "teaching_points": [
       "Retained as supplementary material from Gemini batch 94."
     ],
-    "discussion_points": [],
-    "practical_points": []
+    "discussion_points": [
+      "Compare the diagnostic characters of Karavira with closely related or commonly substituted drugs.",
+      "Separate botanical identification from unverified classical-text claims."
+    ],
+    "practical_points": [
+      "Observe the diagnostic characters in authenticated material or herbarium specimens.",
+      "Record plant part used and identification basis separately."
+    ]
   },
   "doctor": {
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
-    "important_indications": [],
-    "useful_part": "",
+    "important_indications": [
+      "Kushta",
+      "Vrana",
+      "Kandu",
+      "Krimi",
+      "Upadamsha"
+    ],
+    "useful_part": "Moola, Twak, Patra",
     "dose": "",
     "anupana": "",
     "key_precautions": [
-      "Use authoritative identification and safety references."
+      "Use authoritative identification and safety references.",
+      "Toxicity risk: do not infer a clinical dose from this educational record."
     ]
   },
   "sources": [
@@ -173,6 +199,6 @@
     "source_batch": "Gemini batch 94",
     "version": "1.0",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured botanical identification enrichment"
+    "last_enrichment": "botanical + educational field enrichment"
   }
 }
