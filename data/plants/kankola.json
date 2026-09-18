@@ -105,25 +105,30 @@
   },
   "phytochemistry": {
     "major_constituents": [],
-    "chemical_notes": "Phytochemical field intentionally left without a compound list until source-level verification is completed."
+    "chemical_notes": "The record is educational and supplementary; taxonomy and classical claims remain verification items."
   },
   "modern_information": {
     "evidence_summary": "Cubeb pepper is a diuretic and antiseptic, useful in urinary tract infections and respiratory congestion.",
     "recognized_uses": [
       "Botanical identification and pharmacognosy/dravyaguna education."
     ],
-    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use.",
+    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use. Do not infer clinical dose from this educational record. Botanical nomenclature for supplementary drugs should be reconciled with an authoritative taxonomic database before final verification.",
     "sources": []
   },
   "student": {
     "exam_points": [
       "Botanical identity: Cubeba officinalis Miq.",
       "Family: Piperaceae",
-      "Key identification: Leaves are simple and entire. Fruits are small globose berries with a persistent stalk. Dried fruits are aromatic and are the usual drug form."
+      "Key identification: Leaves are simple and entire. Fruits are small globose berries with a persistent stalk. Dried fruits are aromatic and are the usual drug form.",
+      "Botanical identity recorded in the source dataset: Cubeba officinalis Miq.",
+      "Drug part: dried fruit; characteristic stalked aromatic berries are key identification features."
     ],
     "viva_questions": [
       "What is the botanical name and family of Kankola?",
-      "Which morphological characters help identify Kankola?"
+      "Which morphological characters help identify Kankola?",
+      "What is the recorded botanical name and family of Kankola?",
+      "What fruit characters help identify Kankola?",
+      "Why should the botanical synonymy of Kankola be checked before a final monograph?"
     ],
     "identification_points": [
       "Leaves are simple and entire.",
@@ -131,11 +136,13 @@
       "Dried fruits are aromatic and are the usual drug form."
     ],
     "mnemonics": [],
-    "quick_revision": "Cubeb pepper is a diuretic and antiseptic, useful in urinary tract infections and respiratory congestion."
+    "quick_revision": "Kankola — aromatic Piperaceae fruit used as a supplementary Dravyaguna record; botanical identity should be checked against the current accepted taxonomy before publication as a definitive name."
   },
   "teacher": {
     "teaching_points": [
-      "Retained as supplementary material from Gemini batch 73."
+      "Retained as supplementary material from Gemini batch 73.",
+      "Use Kankola to demonstrate identification of an aromatic fruit drug and the importance of accepted botanical nomenclature.",
+      "Compare morphology with related Piperaceae fruits and document substitution risk."
     ],
     "discussion_points": [
       "Compare the diagnostic characters of Kankola with closely related or commonly substituted drugs.",
@@ -143,7 +150,9 @@
     ],
     "practical_points": [
       "Observe the diagnostic characters in authenticated material or herbarium specimens.",
-      "Record plant part used and identification basis separately."
+      "Record plant part used and identification basis separately.",
+      "Observe authenticated dried fruits and note size, stalk, surface and aroma.",
+      "Record the specimen or herbarium source used for identification."
     ]
   },
   "doctor": {
@@ -159,7 +168,9 @@
     "dose": "",
     "anupana": "",
     "key_precautions": [
-      "Use authoritative identification and safety references."
+      "Use authoritative identification and safety references.",
+      "Do not infer clinical dose from this educational record.",
+      "Botanical nomenclature for supplementary drugs should be reconciled with an authoritative taxonomic database before final verification."
     ]
   },
   "sources": [
