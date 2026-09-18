@@ -22,9 +22,9 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "small tree or shrub",
+    "habitat": "Tropical lowland regions; cultivated and naturalised in warm climates",
+    "distribution": "Tropical lowland regions; cultivated and naturalised in warm climates"
   },
   "identification": {
     "description": "Oval 3-angled dark dull brownish seeds with a thin brittle outer test enclosing an oily pale yellow kernel, intensely acrid taste causing severe burning throat irritation.",
@@ -217,7 +217,7 @@
     }
   ],
   "metadata": {
-    "status": "supplementary_needs_source_verification",
+    "status": "supplementary_botanical_enriched_needs_classical_verification",
     "source_batch": "Gemini batch 87",
     "version": "1.0",
     "gemini_later_batches_reviewed": true,
@@ -225,7 +225,7 @@
       87
     ],
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+    "last_enrichment": "structured botanical identification enrichment"
   },
   "gemini_source_data": {
     "id": 87,
