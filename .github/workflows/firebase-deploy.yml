@@ -1,8 +1,18 @@
-name: Firebase Deploy
+name: Firebase Production Deploy
 
 on:
   push:
     branches: ["main"]
+    paths:
+      - "firebase.json"
+      - "firestore.rules"
+      - "data/**"
+      - "scripts/**"
+      - "*.html"
+      - "*.js"
+      - "*.css"
+      - "*.json"
+      - ".github/workflows/firebase-deploy.yml"
   workflow_dispatch:
 
 permissions:
@@ -10,112 +20,97 @@ permissions:
 
 concurrency:
   group: firebase-production
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   deploy:
-    name: Deploy Hosting and Firestore rules
+    name: Deploy Firebase Hosting + Firestore rules
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     environment:
       name: firebase-production
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+
       - name: Setup Node.js
         uses: actions/setup-node@v7
         with:
           node-version: 20
-      - name: Generate canonical site artifacts
+
+      - name: Generate and validate canonical site
         run: |
           python scripts/generate-site-artifacts.py
           python scripts/public-readiness.py
           python scripts/audit-data-quality.py
+
       - name: Prepare Firebase Hosting site
         shell: bash
         run: |
           rm -rf _site
           mkdir -p _site
           tar --exclude='./.git' --exclude='./.github' --exclude='./_site' -cf - . | tar -xf - -C _site
-
-          # Keep Firebase's production artifact in parity with GitHub Pages.
           python - <<'PY'
-          import json
-          import os
-          import re
+          import json, os, re
           from pathlib import Path
-
-          root = Path("_site")
+          root=Path("_site")
           for page in root.rglob("*.html"):
-              html = page.read_text(encoding="utf-8")
+              html=page.read_text(encoding="utf-8")
               for asset in ["site-theme.css"]:
-                  rel = Path(os.path.relpath(root / asset, page.parent)).as_posix()
-                  if f'href="{rel}"' not in html:
-                      html = html.replace("</head>", f'<link rel="stylesheet" href="{rel}">\n</head>', 1)
-              for asset in ["feedback-config.js", "site-theme.js", "feedback.js"]:
-                  rel = Path(os.path.relpath(root / asset, page.parent)).as_posix()
-                  pat = r'''<script[^>]+src=["']''' + re.escape(rel) + r'''(?:\?[^"']*)?["'][^>]*>'''
-                  if not re.search(pat, html, re.I):
-                      html = html.replace("</body>", f'<script src="{rel}" defer></script>\n</body>', 1)
-              if page.name == "plant.html":
+                  rel=Path(os.path.relpath(root/asset,page.parent)).as_posix()
+                  pat=r'''<link[^>]+rel=["']stylesheet["'][^>]+href=["']'''+re.escape(rel)+r'''(?:\?[^"']*)?["'][^>]*>'''
+                  if not re.search(pat,html,re.I):
+                      html=html.replace("</head>",f'<link rel="stylesheet" href="{rel}">\n</head>',1)
+              for asset in ["feedback-config.js","site-theme.js","feedback.js"]:
+                  rel=Path(os.path.relpath(root/asset,page.parent)).as_posix()
+                  pat=r'''<script[^>]+src=["']'''+re.escape(rel)+r'''(?:\?[^"']*)?["'][^>]*>'''
+                  if not re.search(pat,html,re.I):
+                      html=html.replace("</body>",f'<script src="{rel}" defer></script>\n</body>',1)
+              if page.name=="plant.html":
                   if 'href="plant-dossier-layout.css"' not in html:
-                      html = html.replace("</head>", '<link rel="stylesheet" href="plant-dossier-layout.css">\n</head>', 1)
-                  for src in ["cover-image-fix.js", "dossier-fallback.js", "image-gallery-delay.js", "academic-verification.js", "strict-gallery-guard.js"]:
+                      html=html.replace("</head>",'<link rel="stylesheet" href="plant-dossier-layout.css">\n</head>',1)
+                  for src in ["cover-image-fix.js","dossier-fallback.js","image-gallery-delay.js","academic-verification.js","strict-gallery-guard.js"]:
                       if f'src="{src}"' not in html:
-                          html = html.replace("</body>", f'<script src="{src}" defer></script>\n</body>', 1)
-              page.write_text(html, encoding="utf-8")
-
-          manifest = json.loads((root / "manifest.json").read_text(encoding="utf-8"))
-          manifest["icons"] = [{"src": "favicon-exact.jpg", "sizes": "128x128", "type": "image/jpeg", "purpose": "any"}]
-          (root / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+                          html=html.replace("</body>",f'<script src="{src}" defer></script>\n</body>',1)
+              page.write_text(html,encoding="utf-8")
+          manifest=json.loads((root/"manifest.json").read_text(encoding="utf-8"))
+          if (root/"favicon-exact.jpg").exists():
+              manifest["icons"]=[{"src":"favicon-exact.jpg","sizes":"128x128","type":"image/jpeg","purpose":"any"}]
+          (root/"manifest.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
           PY
+          test -f _site/index.html
+          test -f _site/firestore.rules
+          test -f _site/feedback.js
+          test -f _site/manifest.json
 
-          curl -fsSL 'https://raw.githubusercontent.com/aanandkumar799/Dravyaguna-97/f2da96c8ad2ec518246ca1d2fdcf60bf0d2f4f84/favicon-exact.jpg' -o _site/favicon-exact.jpg
-      - name: Authenticate Firebase CLI
-        id: firebase_auth
+      - name: Authenticate Firebase
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_DRAVYA_GUNA_97 }}
         run: |
+          set -euo pipefail
           if [ -z "$FIREBASE_SERVICE_ACCOUNT" ]; then
-            echo "::warning::FIREBASE_SERVICE_ACCOUNT_DRAVYA_GUNA_97 is not configured; skipping Firebase deployment."
-            echo "available=false" >> "$GITHUB_OUTPUT"
-            exit 0
+            echo "::error::FIREBASE_SERVICE_ACCOUNT_DRAVYA_GUNA_97 is missing from the firebase-production environment."
+            exit 1
           fi
-          echo "available=true" >> "$GITHUB_OUTPUT"
           umask 077
           printf '%s' "$FIREBASE_SERVICE_ACCOUNT" > "$RUNNER_TEMP/firebase-service-account.json"
           echo "GOOGLE_APPLICATION_CREDENTIALS=$RUNNER_TEMP/firebase-service-account.json" >> "$GITHUB_ENV"
-          FIREBASE_PROJECT_ID="$(python - <<'PY'
-          import json
-          import os
+          python - <<'PY'
+          import json, os
           from pathlib import Path
-          credentials = Path(os.environ["RUNNER_TEMP"]) / "firebase-service-account.json"
-          data = json.loads(credentials.read_text(encoding="utf-8"))
-          project_id = data.get("project_id", "").strip()
-          if not project_id:
-              raise SystemExit("Firebase service-account JSON does not contain project_id.")
-          print(project_id)
+          p=Path(os.environ["RUNNER_TEMP"])/"firebase-service-account.json"
+          data=json.loads(p.read_text(encoding="utf-8"))
+          project=data.get("project_id","").strip()
+          if project!="dravyaguna-97":
+              raise SystemExit(f"Service account belongs to unexpected Firebase project: {project!r}")
+          print("Firebase service-account project verified: dravyaguna-97")
           PY
-          )"
-          echo "FIREBASE_PROJECT_ID=$FIREBASE_PROJECT_ID" >> "$GITHUB_ENV"
-          echo "Firebase project from service account: $FIREBASE_PROJECT_ID"
-      - name: Deploy Firebase Hosting
-        if: steps.firebase_auth.outputs.available == 'true'
-        run: npx --yes firebase-tools@latest deploy --project "$FIREBASE_PROJECT_ID" --only hosting --non-interactive
 
       - name: Deploy Firestore security rules
-        id: firestore_rules
-        if: steps.firebase_auth.outputs.available == 'true'
-        continue-on-error: true
-        run: |
-          npx --yes firebase-tools@latest deploy --project "$FIREBASE_PROJECT_ID" --only firestore:rules --non-interactive
-          echo "Firestore security rules deployed successfully."
+        run: npx --yes firebase-tools@latest deploy --project dravyaguna-97 --only firestore:rules --non-interactive
 
-      - name: Report Firestore deployment status
-        if: steps.firebase_auth.outputs.available == 'true' && steps.firestore_rules.outcome == 'failure'
-        run: |
-          echo "::warning::Hosting deployed successfully, but Firestore rules could not be deployed."
-          echo "::warning::The Firebase service account needs permission to inspect/use the Firestore API and deploy Firestore rules."
-          echo "::warning::Grant the GitHub Actions service account the required Firebase/Service Usage and Firestore rules permissions, then rerun this workflow."
+      - name: Deploy Firebase Hosting
+        run: npx --yes firebase-tools@latest deploy --project dravyaguna-97 --only hosting --non-interactive
 
       - name: Remove Firebase credentials
         if: always()
