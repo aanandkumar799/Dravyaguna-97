@@ -166,18 +166,29 @@
   },
   "phytochemistry": {
     "major_constituents": [],
-    "chemical_notes": ""
+    "chemical_notes": "Phytochemical field intentionally left without a compound list until source-level verification is completed."
   },
   "modern_information": {
     "evidence_summary": "Camphor has stimulant, antispasmodic, and antiseptic actions, used in respiratory and skin conditions.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Botanical identification and pharmacognosy/dravyaguna education."
+    ],
+    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Botanical identity: Cinnamomum camphora (L.) J.Presl",
+      "Family: Lauraceae",
+      "Key identification: White translucent crystalline masses or powder, highly volatile at room temperature, characteristic penetrating aromatic odor, cool pungent taste followed by a cooling sensation."
+    ],
+    "viva_questions": [
+      "What is the botanical name and family of Karpura?",
+      "Which morphological characters help identify Karpura?"
+    ],
+    "identification_points": [
+      "White translucent crystalline masses or powder, highly volatile at room temperature, characteristic penetrating aromatic odor, cool pungent taste followed by a cooling sensation."
+    ],
     "mnemonics": [],
     "quick_revision": "Camphor has stimulant, antispasmodic, and antiseptic actions, used in respiratory and skin conditions."
   },
@@ -195,12 +206,22 @@
       "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data.",
       "Full Gemini batch 74 record merged; source object retained verbatim under gemini_source_data."
     ],
-    "practical_points": []
+    "practical_points": [
+      "Observe the diagnostic characters in authenticated material or herbarium specimens.",
+      "Record plant part used and identification basis separately."
+    ]
   },
   "doctor": {
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
-    "important_indications": [],
-    "useful_part": "",
+    "important_indications": [
+      "Hridroga (Heart disease / Functional cardiac weakness)",
+      "Shwasa / Kasa (Dyspnea / Cough)",
+      "Mukharoga (Oral infections / Dental pain)",
+      "Trishna (Excessive thirst)",
+      "Daha (Burning sensation)",
+      "Sandhishoola (Joint pain / Arthralgia)"
+    ],
+    "useful_part": "Crystalline Extract / Sublimated Niryasa (Karpura)",
     "dose": "",
     "anupana": "",
     "key_precautions": [
@@ -246,7 +267,7 @@
       74
     ],
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured botanical identification enrichment"
+    "last_enrichment": "botanical + educational field enrichment"
   },
   "gemini_source_data": {
     "id": 74,
