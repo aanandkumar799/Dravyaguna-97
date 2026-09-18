@@ -38,6 +38,7 @@ jobs:
           printf '%s' "$FIREBASE_SERVICE_ACCOUNT" > "$RUNNER_TEMP/firebase-service-account.json"
           echo "GOOGLE_APPLICATION_CREDENTIALS=$RUNNER_TEMP/firebase-service-account.json" >> "$GITHUB_ENV"
 
+      # Triggered after the Firebase environment secret was configured.
       - name: Deploy Firestore rules only
         run: npx --yes firebase-tools@latest deploy --project dravyaguna-97 --only firestore:rules --non-interactive
 
