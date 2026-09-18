@@ -1,49 +1,42 @@
 {
-  "generated_at": "2026-09-18T01:15:30.802512+00:00",
+  "generated_at": "2026-09-18T02:14:15.336342+00:00",
   "plants_checked": 97,
   "slots_checked": 873,
   "filled_this_run": [
     {
-      "plant_id": "kapikachhu",
-      "part": "flower",
+      "plant_id": "ashwagandha",
+      "part": "habit",
       "action": "downloaded-new-image",
-      "path": "images/plants/kapikachhu/flower/image.jpg",
-      "bytes": 964756
+      "path": "images/plants/ashwagandha/habit/image.jpg",
+      "bytes": 266667
+    },
+    {
+      "plant_id": "ashwagandha",
+      "part": "root",
+      "action": "downloaded-new-image",
+      "path": "images/plants/ashwagandha/root/image.jpg",
+      "bytes": 311878
+    },
+    {
+      "plant_id": "kantakari",
+      "part": "whole_plant",
+      "action": "downloaded-new-image",
+      "path": "images/plants/kantakari/whole_plant/image.jpg",
+      "bytes": 501190
     },
     {
       "plant_id": "kapikachhu",
-      "part": "fruit",
+      "part": "habit",
       "action": "downloaded-new-image",
-      "path": "images/plants/kapikachhu/fruit/image.jpg",
-      "bytes": 519336
+      "path": "images/plants/kapikachhu/habit/image.jpg",
+      "bytes": 886439
     },
     {
-      "plant_id": "japa",
-      "part": "leaf",
+      "plant_id": "mandukaparni",
+      "part": "habit",
       "action": "downloaded-new-image",
-      "path": "images/plants/japa/leaf/image.jpg",
-      "bytes": 260993
-    },
-    {
-      "plant_id": "japa",
-      "part": "flower",
-      "action": "downloaded-new-image",
-      "path": "images/plants/japa/flower/image.jpg",
-      "bytes": 460427
-    },
-    {
-      "plant_id": "nirgundi",
-      "part": "flower",
-      "action": "downloaded-new-image",
-      "path": "images/plants/nirgundi/flower/image.jpg",
-      "bytes": 523038
-    },
-    {
-      "plant_id": "nirgundi",
-      "part": "fruit",
-      "action": "downloaded-new-image",
-      "path": "images/plants/nirgundi/fruit/image.jpg",
-      "bytes": 410738
+      "path": "images/plants/mandukaparni/habit/image.jpg",
+      "bytes": 693547
     }
   ],
   "unresolved": [
@@ -199,16 +192,6 @@
     },
     {
       "plant_id": "ashwagandha",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ashwagandha",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "ashwagandha",
       "part": "stem",
       "reason": "no-high-confidence-unique-image"
     },
@@ -1339,11 +1322,6 @@
     },
     {
       "plant_id": "kantakari",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kantakari",
       "part": "habit",
       "reason": "no-high-confidence-unique-image"
     },
@@ -1365,7 +1343,8 @@
     {
       "plant_id": "kantakari",
       "part": "flower",
-      "reason": "no-high-confidence-unique-image"
+      "reason": "download-failed",
+      "detail": "HTTP Error 429: Too many requests (f061ab2)"
     },
     {
       "plant_id": "kantakari",
@@ -1385,11 +1364,6 @@
     {
       "plant_id": "kapikachhu",
       "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kapikachhu",
-      "part": "habit",
       "reason": "no-high-confidence-unique-image"
     },
     {
@@ -2660,11 +2634,6 @@
     {
       "plant_id": "mandukaparni",
       "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "mandukaparni",
-      "part": "habit",
       "reason": "no-high-confidence-unique-image"
     },
     {
@@ -4268,7 +4237,7 @@
       "reason": "no-high-confidence-unique-image"
     }
   ],
-  "remaining_missing": 844,
+  "remaining_missing": 839,
   "local_asset_root": "images/plants/<plant>/<part>/image.*",
   "policy": {
     "exact_species_required": true,
