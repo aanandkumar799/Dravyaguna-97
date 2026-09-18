@@ -8,18 +8,9 @@
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="favicon.svg" type="image/png">
 <title>DravyaGuna 97 | BAMS Dravyaguna Learning Portal</title>
-<script>
-(function(){
-  try {
-    var saved=localStorage.getItem('dravyaguna-theme');
-    var dark=saved==='dark'||(saved!=='light'&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches);
-    if(dark) document.documentElement.classList.add('dark-mode');
-  } catch(e){}
-})();
-</script>
+
 <style>
 :root{--green:#1b4332;--green2:#2d6a4f;--gold:#d4a373;--cream:#f8f5ed;--paper:#fff;--ink:#24302a;--muted:#6b756f;--line:#e3e8e3;--soft:#f5f8f4;--shadow:0 10px 30px rgba(27,67,50,.08);--input:#fff;--hero1:#e6f2e8;--hero2:#fff7e6;--badge:#eef5ef;--success-bg:#ecfdf3;--success:#027a48}
-html.dark-mode{--green:#86c9a4;--green2:#72b78f;--gold:#e5b980;--cream:#0b1410;--paper:#111c17;--ink:#edf5ef;--muted:#aebdb4;--line:#2c3d34;--soft:#16231c;--shadow:0 14px 38px rgba(0,0,0,.28);--input:#0d1712;--hero1:#132b20;--hero2:#302618;--badge:#173025;--success-bg:#0b2b1d;--success:#8de2b1}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;font-family:Outfit,Arial,sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;transition:background-color .25s ease,color .25s ease}
@@ -31,9 +22,6 @@ button,input,textarea{font:inherit}
 .nav{display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end}
 .nav a{padding:9px 12px;border-radius:8px;font-weight:600;color:var(--ink)}
 .nav a:hover{background:var(--badge);color:var(--green)}
-.theme-toggle{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:40px;padding:8px 13px;border:1px solid var(--line);border-radius:50px;background:var(--paper);color:var(--ink);font-weight:700;cursor:pointer;transition:.2s}
-.theme-toggle:hover{border-color:var(--green2);transform:translateY(-1px);box-shadow:0 5px 15px rgba(0,0,0,.1)}
-.theme-toggle:focus-visible,.review-submit:focus-visible,.form-group input:focus-visible,.form-group textarea:focus-visible{outline:3px solid rgba(45,106,79,.25);outline-offset:2px}
 main{max-width:1180px;margin:auto;padding:30px 22px}
 .hero{position:relative;overflow:hidden;text-align:center;padding:70px 24px 64px;border-radius:26px;background:linear-gradient(135deg,var(--hero1),var(--hero2));box-shadow:var(--shadow);border:1px solid var(--line)}
 .hero:after{content:'🌿';position:absolute;font-size:12rem;opacity:.06;right:-25px;bottom:-60px}
@@ -51,7 +39,6 @@ main{max-width:1180px;margin:auto;padding:30px 22px}
 .review-section{margin-top:42px;padding:0 0 10px}.review-card{max-width:850px;margin:auto;background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:38px;box-shadow:var(--shadow)}.review-header{text-align:center;margin-bottom:30px}.review-badge{display:inline-block;padding:7px 14px;margin-bottom:12px;border-radius:50px;background:var(--badge);color:var(--green);font-size:14px;font-weight:700}.review-header h2{margin:0 0 8px;font-family:Cinzel,serif;color:var(--green);font-size:1.9rem}.review-header p{margin:0;color:var(--muted)}.review-form{width:100%}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:18px}.form-group{position:relative;margin-bottom:20px}.form-group label{display:block;margin-bottom:7px;color:var(--ink);font-size:14px;font-weight:700}.form-group input,.form-group textarea{width:100%;box-sizing:border-box;border:1px solid var(--line);border-radius:12px;padding:13px 15px;background:var(--input);color:var(--ink);outline:none;transition:border-color .2s,box-shadow .2s,background-color .2s}.form-group input{height:50px}.form-group textarea{min-height:150px;resize:vertical;line-height:1.6}.form-group input::placeholder,.form-group textarea::placeholder{color:var(--muted);opacity:.8}.form-group input:focus,.form-group textarea:focus{border-color:var(--green2);box-shadow:0 0 0 4px rgba(45,106,79,.12)}.character-count{position:absolute;right:10px;bottom:8px;padding:3px 7px;border-radius:6px;background:var(--paper);color:var(--muted);font-size:12px;pointer-events:none}.review-submit{width:100%;min-height:52px;border:0;border-radius:12px;padding:14px 20px;background:var(--green);color:#fff;font-weight:800;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:10px;transition:.2s}.review-submit:hover{background:var(--green2);transform:translateY(-1px);box-shadow:0 8px 20px rgba(27,67,50,.22)}.review-submit:disabled{opacity:.65;cursor:not-allowed;transform:none;box-shadow:none}.submit-arrow{font-size:20px}.review-status{display:none;margin-top:14px;padding:12px;border-radius:10px;text-align:center;font-size:14px}.review-status.success{display:block;background:var(--success-bg);color:var(--success);border:1px solid var(--line)}.review-status.error{display:block;background:#3a1515;color:#ffb4b4;border:1px solid #6e2929}
 
 .footer{margin-top:55px;background:var(--green);color:#eaf2ec;padding:32px 22px;text-align:center}.footer p{margin:5px 0;font-size:.9rem}.footer strong{font-family:Cinzel,serif}
-@media(max-width:800px){.header-inner{align-items:flex-start;flex-direction:column}.nav{width:100%;justify-content:flex-start}.theme-toggle{align-self:flex-start}.persona-grid,.features,.quick{grid-template-columns:1fr}.link-list{grid-template-columns:1fr}.hero{padding:52px 18px}.form-row{grid-template-columns:1fr;gap:0}.review-card{padding:30px 20px}}
 .install-hint{display:block;color:var(--muted);font-size:.8rem;margin-top:7px}.install.is-installed{display:none!important}@media(max-width:480px){main{padding:18px 12px}.hero{border-radius:18px;padding:42px 15px}.hero h1{font-size:2.5rem}.btn{margin:4px 2px}.review-card{border-radius:18px;padding:25px 15px}.review-header h2{font-size:1.55rem}#themeText{display:none}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important}}
 </style>
@@ -68,7 +55,7 @@ main{max-width:1180px;margin:auto;padding:30px 22px}
       <a href="reference-library.html">References</a>
       <a href="compare.html">Compare</a>
       <a href="quiz.html">Quiz</a>
-      <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch to dark mode" title="Switch to dark mode"><span id="themeIcon" aria-hidden="true">🌙</span><span id="themeText">Dark Mode</span></button>
+      
     </nav>
   </div>
 </header>
@@ -124,39 +111,6 @@ main{max-width:1180px;margin:auto;padding:30px 22px}
 
 <script>
 (function(){
-  const html=document.documentElement;
-  const themeToggle=document.getElementById('themeToggle');
-  const themeIcon=document.getElementById('themeIcon');
-  const themeText=document.getElementById('themeText');
-  const themeColor=document.getElementById('themeColor');
-
-  function applyTheme(theme){
-    const dark=theme==='dark';
-    html.classList.toggle('dark-mode',dark);
-    themeIcon.textContent=dark?'☀️':'🌙';
-    themeText.textContent=dark?'Light Mode':'Dark Mode';
-    themeToggle.setAttribute('aria-label',dark?'Switch to light mode':'Switch to dark mode');
-    themeToggle.setAttribute('title',dark?'Switch to light mode':'Switch to dark mode');
-    themeColor.setAttribute('content',dark?'#0b1410':'#1b4332');
-  }
-
-  let saved=null;
-  try{saved=localStorage.getItem('dravyaguna-theme')}catch(e){}
-  if(saved==='dark'||saved==='light') applyTheme(saved);
-  else applyTheme(html.classList.contains('dark-mode')?'dark':'light');
-
-  themeToggle.addEventListener('click',function(){
-    const next=html.classList.contains('dark-mode')?'light':'dark';
-    try{localStorage.setItem('dravyaguna-theme',next)}catch(e){}
-    applyTheme(next);
-  });
-
-  const media=window.matchMedia?window.matchMedia('(prefers-color-scheme: dark)'):null;
-  if(media){
-    const sync=function(){let pref=null;try{pref=localStorage.getItem('dravyaguna-theme')}catch(e){}if(!pref)applyTheme(media.matches?'dark':'light')};
-    if(media.addEventListener) media.addEventListener('change',sync); else if(media.addListener) media.addListener(sync);
-  }
-
   let deferred=null;
   const install=document.getElementById('install'),hint=document.getElementById('installHint');
   const standalone=()=>window.matchMedia&&window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;
@@ -172,7 +126,7 @@ main{max-width:1180px;margin:auto;padding:30px 22px}
   if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
 })();
 </script>
-<script src="site-theme.js?v=4" defer></script>
+
 
 <script src="feedback-config.js?v=2"></script>
 <script src="feedback.js?v=2"></script>
