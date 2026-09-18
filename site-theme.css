@@ -84,3 +84,24 @@ html[data-theme="dark"] body :where(.btn:hover,.tool-btn:hover,.back-button:hove
 .quick-link:focus-visible{outline:3px solid #6fcf97!important;outline-offset:2px}
 html[data-theme="dark"] body .quick-link{color:#f8fafc!important;background:#172820!important;border-color:#466353!important}
 html[data-theme="dark"] body .quick-link:hover,html[data-theme="dark"] body .quick-link:focus-visible{color:#fff!important;background:#318b5d!important;border-color:#6fcf97!important}
+
+/* Header navigation layout hardening: theme toggle must stay in normal flow */
+.site-header .header-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.site-header .nav{display:flex;align-items:center;justify-content:flex-end;gap:6px;flex-wrap:wrap;min-width:0}
+.site-header .nav #dgThemeToggle{position:static!important;inset:auto!important;z-index:auto!important;float:none!important;transform:none}
+.site-header .nav #dgThemeToggle.nav-theme-toggle{flex:0 0 auto;margin:0 0 0 2px}
+@media(max-width:900px){
+  .site-header .header-inner{gap:12px}
+  .site-header .nav{width:100%;justify-content:flex-start;row-gap:6px}
+}
+@media(max-width:600px){
+  .site-header .header-inner{padding:12px 14px}
+  .site-header .nav{gap:5px}
+  .site-header .nav a{padding:8px 9px;font-size:.9rem}
+  .site-header .nav #dgThemeToggle.nav-theme-toggle{margin-left:0}
+}
+@media(max-width:420px){
+  .site-header .nav{justify-content:flex-start}
+  .site-header .nav a{padding:7px 8px;font-size:.84rem}
+  .site-header .nav #dgThemeToggle.nav-theme-toggle{min-width:38px}
+}
