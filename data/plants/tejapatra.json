@@ -110,7 +110,7 @@
     "recognized_uses": [
       "Botanical identification and pharmacognosy/dravyaguna education."
     ],
-    "safety_notes": "Do not infer clinical dose from this educational record. Verify identity of commercial leaf material before clinical or pharmacognosy use.",
+    "safety_notes": "do not infer clinical treatment instructions from this educational record. Verify identity of commercial leaf material before clinical or pharmacognosy use.",
     "sources": []
   },
   "student": {
@@ -138,7 +138,9 @@
       "Use Tejapatra to demonstrate botanical synonymy and authentication of an aromatic leaf drug.",
       "Current Kew taxonomy accepts Cinnamomum tamala; Laurus tamala is treated as a synonym."
     ],
-    "discussion_points": [],
+    "discussion_points": [
+      "Use the accepted botanical name and document any historical synonym separately."
+    ],
     "practical_points": [
       "Observe authenticated leaves for shape, venation, aroma and surface characters.",
       "Record specimen provenance and accepted botanical name separately."
@@ -193,10 +195,11 @@
     }
   ],
   "metadata": {
-    "status": "supplementary_botanical_enriched_needs_classical_verification",
+    "status": "supplementary_audited_needs_classical_verification",
     "source_batch": "Gemini batch 70",
     "version": "1.0",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "botanical + educational field enrichment"
+    "last_enrichment": "botanical + educational field enrichment",
+    "last_audit": "supplementary JSON completeness/safety audit"
   }
 }
