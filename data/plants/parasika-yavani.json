@@ -100,7 +100,12 @@
       "What is the botanical identity and family of Parasika Yavani?",
       "Which characters are useful for practical identification of Parasika Yavani?"
     ],
-    "identification_points": [],
+    "identification_points": [
+      "Leaves are soft, broad and lobed.",
+      "Flowers are funnel-shaped with dark venation.",
+      "Capsule contains numerous small seeds.",
+      "Glandular-hairy annual/biennial herb; verify leaf, flower and fruit characters against authenticated material."
+    ],
     "mnemonics": [],
     "quick_revision": "Pārasīka Yavānī — Hyoscyamus niger L. is an accepted Kew species in Solanaceae, native from the Mediterranean to Iran and mainly temperate."
   },
@@ -158,10 +163,11 @@
     }
   ],
   "metadata": {
-    "status": "supplementary_botanical_enriched_needs_classical_verification",
+    "status": "supplementary_audited_needs_classical_verification",
     "source_batch": "Gemini batch 97",
     "version": "1.0",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "botanical + educational field enrichment"
+    "last_enrichment": "botanical + educational field enrichment",
+    "last_audit": "supplementary JSON completeness/safety audit"
   }
 }
