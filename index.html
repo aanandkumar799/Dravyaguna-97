@@ -49,7 +49,12 @@ main{max-width:1240px;margin:auto;padding:0 22px 46px}
 </style>
 <link rel="stylesheet" href="site-theme.css?v=14">
 <script src="site-theme.js?v=2" defer></script>
-</head>
+<style>
+.home-search-hint{max-width:760px;margin:8px auto 0;padding:0 8px;color:#c9e2d4;font-size:.78rem;text-align:left}
+.search-box{transition:box-shadow .18s ease,transform .18s ease}.search-box:focus-within{box-shadow:0 16px 38px rgba(0,0,0,.24);transform:translateY(-1px)}
+.search-box input::placeholder{color:#718078}
+@media(max-width:560px){.home-search-hint{font-size:.74rem;text-align:center}.search-box button{white-space:nowrap}}
+</style></head>
 <body>
 <header class="site-header">
   <div class="header-inner">
@@ -75,9 +80,10 @@ main{max-width:1240px;margin:auto;padding:0 22px 46px}
     <p class="tagline">Learn • Identify • Revise • Cross-check</p>
     <p class="desc">A focused study portal for the BAMS undergraduate Dravyaguna plant series — with practical identification, Rasa Panchaka, classical references, formulations, revision tools and supplementary plants.</p>
     <form class="search-box" id="homeSearch" role="search">
-      <input id="homeSearchInput" type="search" autocomplete="off" placeholder="Search by plant name, Sanskrit name, botanical name or family…" aria-label="Search DravyaGuna plants">
-      <button type="submit">Search Plants</button>
+      <input id="homeSearchInput" type="search" autocomplete="off" enterkeyhint="search" spellcheck="false" placeholder="Search plants, Sanskrit names, botanical names, families, Rasa, Guna…" aria-label="Search the DravyaGuna database">
+      <button type="submit" aria-label="Search the DravyaGuna database">🔎 Search</button>
     </form>
+    <div id="homeSearchHint" class="home-search-hint" aria-live="polite">Search the complete 97-plant database by name, Sanskrit name, botanical name, family or indexed Dravyaguna terms.</div>
     <p class="hero-note">The complete plant database remains on the Plant Series page. This homepage only organizes access to it.</p>
     <div class="hero-actions"><a href="plants.html">Open 97 Plant Series →</a><a href="practical-lab.html">Practical Identification</a></div>
   </div>
@@ -176,5 +182,16 @@ main{max-width:1240px;margin:auto;padding:0 22px 46px}
   if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
 })();
 </script>
-</body>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  var form=document.getElementById('homeSearch'),input=document.getElementById('homeSearchInput');
+  if(!form||!input)return;
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var q=input.value.trim();
+    if(!q){input.focus();return;}
+    window.location.href='plants.html?q='+encodeURIComponent(q)+'#search';
+  });
+});
+</script></body>
 </html>
