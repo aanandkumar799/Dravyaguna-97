@@ -102,9 +102,9 @@ jobs:
           p=Path(os.environ["RUNNER_TEMP"])/"firebase-service-account.json"
           data=json.loads(p.read_text(encoding="utf-8"))
           project=data.get("project_id","").strip()
-          if project!="dravyaguna-97":
+          if project!="dravya-guna-97":
               raise SystemExit(f"Service account belongs to unexpected Firebase project: {project!r}")
-          print("Firebase service-account project verified: dravyaguna-97")
+          print("Firebase service-account project verified: dravya-guna-97")
           PY
 
       - name: Deploy Firestore security rules
