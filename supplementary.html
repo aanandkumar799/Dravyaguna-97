@@ -5,26 +5,28 @@
 <meta name="description" content="Supplementary Dravyaguna plant references for teacher and doctor use.">
 <meta name="theme-color" content="#1b4332">
 <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="site-theme.css?v=9"><style>
-.supplementary-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(285px,1fr));gap:18px}
-.supplementary-card{position:relative;background:#fff;border:1px solid #e3e8e3;border-radius:17px;overflow:hidden;box-shadow:0 8px 24px rgba(27,67,50,.07);display:flex;flex-direction:column}
-.supplementary-image{height:175px;background:#edf3ed;display:flex;align-items:center;justify-content:center;overflow:hidden;font-size:4.5rem}
-.supplementary-card-content{padding:18px;display:flex;flex-direction:column;flex:1}
-.supplementary-card-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:7px;padding-right:34px;gap:8px}
-.supplementary-number{background:#edf5ef;color:#1b4332;font-weight:700;padding:3px 9px;border-radius:20px;font-size:.8rem}
-.supplementary-marker{font-size:.72rem;color:#76551f;background:#fff3d9;padding:3px 9px;border-radius:12px;font-weight:700}
-.supplementary-card h3{margin:0;color:#1b4332;font-family:Cinzel,serif}
-.supplementary-card p{margin:5px 0}
-.supplementary-botanical{font-size:.9rem;color:#6b756f}
-.supplementary-family,.supplementary-english{font-size:.88rem}
-.supplementary-card .view-plant{display:block;margin-top:auto;padding-top:12px;text-align:center;background:#1b4332;color:#fff;padding:10px;border-radius:9px;font-weight:700;text-decoration:none}
-.supplementary-card .favorite-btn{position:absolute;top:12px;right:12px;width:38px;height:38px;border:1px solid #d8e0d9;border-radius:50%;background:#fff;font-size:1.1rem;cursor:pointer;color:#68736c;box-shadow:0 2px 8px rgba(0,0,0,.08);z-index:2}
-.supplementary-card .favorite-btn.active{color:#9b6b00;background:#fff8e9}
-@media(max-width:700px){.supplementary-grid{grid-template-columns:1fr}}
+.supplementary-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.supplementary-card{position:relative;overflow:hidden;background:var(--dg-surface,#fff);border:1px solid var(--dg-border,#dfe6df);border-radius:18px;box-shadow:var(--dg-shadow);transition:transform .2s ease,box-shadow .2s ease}
+.supplementary-card:hover{transform:translateY(-3px)}
+.supplementary-image{height:150px;display:grid;place-items:center;background:var(--dg-surface-2,#f5f8f4);font-size:3rem}
+.supplementary-card-content{padding:18px}
+.supplementary-card-top{display:flex;justify-content:space-between;gap:8px;margin-bottom:10px}
+.supplementary-number,.supplementary-marker{display:inline-flex;align-items:center;padding:4px 8px;border-radius:999px;font-size:.72rem;font-weight:800}
+.supplementary-number{background:var(--dg-surface-2);color:var(--dg-accent-strong)}
+.supplementary-marker{background:var(--dg-surface-2);color:var(--dg-muted)}
+.supplementary-card h3{margin:0 0 5px;color:var(--dg-accent-strong)}
+.supplementary-card p{margin:4px 0;color:var(--dg-muted)}
+.supplementary-botanical{font-size:.9rem}
+.view-plant{display:inline-flex;margin-top:12px;padding:9px 13px;border-radius:9px;background:var(--dg-accent-strong);color:#fff!important;font-weight:800}
+.favorite-btn{position:absolute;top:10px;right:10px;z-index:2;border:1px solid var(--dg-border);border-radius:50%;width:38px;height:38px;background:var(--dg-surface);color:var(--dg-text);font-size:1.2rem;cursor:pointer}
+.favorite-btn.active{color:#c28b00}
+@media(max-width:820px){.supplementary-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.supplementary-grid{grid-template-columns:1fr}}
 </style>
 <title>Supplementary Plant References | DravyaGuna 97</title>
 <script src="site-theme.js?v=1" defer></script>
 </head><body>
-<header class="site-header"><div class="header-inner"><a class="brand" href="index.html">🌿 DravyaGuna 97</a><nav class="nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="plants.html">NCISM 97</a><a href="reference-library.html">Teacher</a><a href="references.html">Doctor</a></nav></div></header>
+<header class="site-header"><div class="header-inner"><a class="brand" href="index.html">🌿 DravyaGuna 97</a><nav class="nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="plants.html">Plant Library</a><a href="practical-lab.html">Practical Lab</a><a href="reference-library.html">References</a><a href="compare.html">Compare</a><a href="quiz.html">Quiz</a></nav></div></header>
 <main style="max-width:1180px;margin:auto;padding:28px 20px 60px">
 <section class="hero"><p class="eyebrow">TEACHER / DOCTOR REFERENCE</p><h1>Supplementary Plants</h1><p class="desc">Additional Dravyaguna reference records kept separate from the 97 NCISM plants. These are not part of the NCISM-97 syllabus list and are shown only for teacher and doctor reference.</p></section>
 <section class="section"><div class="section-head"><h2>14 Supplementary Records</h2><p>Use these for reference and teaching discussion; verify source texts before relying on classical or clinical claims.</p></div><div id="supp-grid" class="supplementary-grid" aria-live="polite"><div class="supplementary-card"><div class="supplementary-image" aria-hidden="true">🌿</div><div class="supplementary-card-content"><h3>Loading…</h3><p>Loading supplementary records.</p></div></div></div></section>
