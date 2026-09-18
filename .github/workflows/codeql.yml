@@ -16,8 +16,12 @@ permissions:
 
 jobs:
   analyze:
-    name: CodeQL
+    name: CodeQL (${{ matrix.language }})
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [javascript, python]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
