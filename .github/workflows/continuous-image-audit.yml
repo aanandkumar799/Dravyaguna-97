@@ -1,8 +1,5 @@
 name: Continuous plant-part image audit
 on:
-  schedule:
-    # 04:30 Asia/Kolkata (23:00 UTC previous day)
-    - cron: "0 23 * * *"
   workflow_dispatch:
   push:
     paths:
