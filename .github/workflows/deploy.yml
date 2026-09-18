@@ -57,7 +57,7 @@ jobs:
               for asset in ['feedback-config.js','site-theme.js','feedback.js']:
                   rel=Path(os.path.relpath(root/asset,page.parent)).as_posix()
                   # Treat versioned/query-string script tags as already present; avoid duplicate execution.
-                  pat=r'<script[^>]+src=["\\']'+re.escape(rel)+r'(?:[?][^"\\']*)?["\\'][^>]*>'
+                  pat=r'''<script[^>]+src=["']''' + re.escape(rel) + r'''(?:\?[^"']*)?["'][^>]*>'''
                   if not re.search(pat,html,re.I): html=html.replace('</body>',f'<script src="{rel}" defer></script>\n</body>',1)
               if page.name=='plant.html':
                   if '<link rel="stylesheet" href="plant-dossier-layout.css">' not in html: html=html.replace('</head>','<link rel="stylesheet" href="plant-dossier-layout.css">\n</head>',1)
