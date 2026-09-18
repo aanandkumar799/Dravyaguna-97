@@ -12,9 +12,9 @@
 </style>
 <script src="site-theme.js?v=1" defer></script>
 <script src="feedback-config.js?v=4"></script>
-<script src="https://www.gstatic.com/firebase/10.12.5/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebase/10.12.5/firebase-auth-compat.js"></script>
-<script src="https://www.gstatic.com/firebase/10.12.5/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-firestore-compat.js"></script>
 </head>
 <body>
 <header class="site-header"><div class="header-inner"><a class="brand" href="index.html">🌿 DravyaGuna 97</a><nav class="nav"><a href="index.html">Home</a><a href="plants.html">Plant Library</a><a href="feedback.html">Feedback</a></nav></div></header>
@@ -34,7 +34,7 @@ const cfg=window.DRAVYAGUNA_FIREBASE_CONFIG||{};
 let auth,db,all=[];
 const $=id=>document.getElementById(id);
 function msg(t,type){const e=$('status');e.textContent=t;e.className='admin-status show '+(type||'')}
-function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function esc(v){return String(v??'').replace(/[&<>\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[c]))}
 function date(v){if(!v)return '—';try{const d=v.toDate?v.toDate():new Date(v);return d.toLocaleString()}catch(e){return '—'}}
 function cat(v){return ({content:'Content correction',bug:'Website bug',feature:'Feature request',general:'General feedback'})[v]||v||'—'}
 function matchesFilter(x,f){return f==='all'||x.category===f}
