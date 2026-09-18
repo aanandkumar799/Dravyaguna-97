@@ -7,8 +7,8 @@
     "name": "Parasika Yavani",
     "sanskrit_name": "पारसीक यवानी",
     "transliteration": "",
-    "botanical_name": "",
-    "family": "Apiaceae",
+    "botanical_name": "Hyoscyamus niger L.",
+    "family": "Solanaceae",
     "english_name": "Persian ajwain",
     "hindi_name": "",
     "regional_names": [],
@@ -16,12 +16,12 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "annual or biennial herb",
+    "habitat": "Temperate Eurasia and cultivated or introduced regions; recorded in western Himalayan areas",
+    "distribution": "Temperate Eurasia and cultivated or introduced regions; recorded in western Himalayan areas"
   },
   "identification": {
-    "description": "",
+    "description": "Sticky, strongly odorous herb with broad lobed leaves and pale yellow flowers marked by dark veins.",
     "whole_plant": "",
     "root": "",
     "stem": "",
@@ -30,7 +30,11 @@
     "fruit": "",
     "seed": "",
     "bark": "",
-    "identification_points": []
+    "identification_points": [
+      "Leaves are soft, broad and lobed.",
+      "Flowers are funnel-shaped with dark venation.",
+      "Capsule contains numerous small seeds."
+    ]
   },
   "images": {
     "whole_plant": "",
@@ -83,7 +87,7 @@
   "modern_information": {
     "evidence_summary": "",
     "recognized_uses": [],
-    "safety_notes": "",
+    "safety_notes": "Contains tropane alkaloids; identification and safety must be verified from authoritative pharmacopoeial sources.",
     "sources": []
   },
   "student": {
@@ -131,13 +135,19 @@
       "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
       "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
       "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "taxonomic_name_service",
+      "title": "Kew Medicinal Plant Names Services",
+      "url": "https://mpns.science.kew.org/",
+      "note": "Kew MPNS maps Parasika Yavani to Hyoscyamus niger L.; reviewed 2026-09-18."
     }
   ],
   "metadata": {
-    "status": "supplementary_needs_source_verification",
+    "status": "supplementary_botanical_enriched_needs_classical_verification",
     "source_batch": "Gemini batch 97",
     "version": "1.0",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+    "last_enrichment": "structured botanical identification enrichment"
   }
 }
