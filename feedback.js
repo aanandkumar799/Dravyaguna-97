@@ -38,12 +38,41 @@ function bindForm(){
  form.addEventListener('submit',submit);
 }
 function submit(ev){
- ev.preventDefault();if(!providerOk())return status('Please sign in with Google before submitting feedback.','err');if(!firebaseReady||!db)return status('Feedback service is not ready. Please refresh and try again.','err');
+ ev.preventDefault();
+ if(!providerOk())return status('Please sign in with Google before submitting feedback.','err');
+ if(!firebaseReady||!db)return status('feedback service is not ready. Please refresh and try again.','err');
  var rating=Number(document.getElementById('dgRating').value),message=document.getElementById('dgMessage').value.trim();
- if(!rating){document.querySelector('.rating').classList.add('invalid');return status('Please select a rating.','err')}if(message.length<3)return status('Please enter a little more detail so the issue can be understood.','err');if(message.length>2000)return status('Feedback is limited to 2000 characters.','err');
+ if(!rating){document.querySelector('.rating').classList.add('invalid');return status('Please select a rating.','err')}
+ if(message.length<3)return status('Please enter a little more detail so the issue can be understood.','err');
+ if(message.length>2000)return status('Feedback is limited to 2000 characters.','err');
  busy(true);
- var payload={category:document.getElementById('dgCategory').value,rating:rating,message:message,correction_area:document.getElementById('dgCorrection').value||null,user:{uid:user.uid,displayName:user.displayName||null,email:user.email||null,emailVerified:true,photoURL:user.photoURL||null},context:{page_url:location.href,page_path:location.pathname+location.search,page_title:document.title,referrer:document.referrer||'',language:navigator.language||''},status:'new',authProvider:'google.com',createdAt:firebase.firestore.FieldValue.serverTimestamp()};
- db.collection('reviews').add(payload).then(function(){document.getElementById('dgFeedbackForm').reset();document.getElementById('dgRating').value='0';document.getElementById('dgCount').textContent='0';document.querySelectorAll('.rating button').forEach(function(x){x.classList.remove('active');x.setAttribute('aria-checked','false')});busy(false);status('Thanks! Your feedback has been submitted.','ok')}).catch(function(e){console.error('Feedback submission failed:',e);busy(false);if(e&&e.code==='permission-denied')status('Firebase rejected this submission. The sign-in is valid, but the deployed Firestore rules may still be updating. Please wait a minute and try again.','err');else status('Could not submit feedback. Please try again.','err')});
+ user.getIdToken(true).then(function(){
+   var payload={
+     category:document.getElementById('dgCategory').value,
+     rating:rating,
+     message:message,
+     correction_area:document.getElementById('dgCorrection').value||null,
+     user:{uid:user.uid,displayName:user.displayName||null,email:user.email||null,emailVerified:true,photoURL:user.photoURL||null},
+     context:{page_url:location.href,page_path:location.pathname+location.search,page_title:document.title,referrer:document.referrer||'',language:navigator.language||''},
+     status:'new',
+     authProvider:'google.com',
+     createdAt:firebase.firestore.FieldValue.serverTimestamp()
+   };
+   return db.collection('reviews').add(payload);
+ }).then(function(){
+   document.getElementById('dgFeedbackForm').reset();
+   document.getElementById('dgRating').value='0';
+   document.getElementById('dgCount').textContent='0';
+   document.querySelectorAll('.rating button').forEach(function(x){x.classList.remove('active');x.setAttribute('aria-checked','false')});
+   busy(false);
+   status('Thanks! Your feedback has been submitted successfully.','ok');
+ }).catch(function(e){
+   console.error('Feedback submission failed:',e);
+   busy(false);
+   var code=e&&e.code?e.code:'unknown';
+   if(code==='permission-denied')status('Firebase still rejected the write. The Google login is working; the Firestore rules deployment is the remaining issue.','err');
+   else status('Could not submit feedback ('+code+'). Please try again.','err');
+ });
 }
 function init(){bindForm();initFirebase()}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
