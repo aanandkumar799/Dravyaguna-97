@@ -1,6 +1,6 @@
 (function(){
 'use strict';
-var cfg=window.DRAVYAGUNA_FIREBASE_CONFIG||{},auth=null,db=null,user=null,firebaseReady=false,V='10.12.5';
+var cfg=window.DRAVYAGUNA_FIREBASE_CONFIG||{},auth=null,db=null,user=null,firebaseReady=false;
 
 function configured(){return !!(cfg.apiKey&&cfg.projectId&&cfg.appId&&cfg.apiKey.indexOf('REPLACE_')!==0&&cfg.projectId.indexOf('REPLACE_')!==0&&cfg.appId.indexOf('REPLACE_')!==0)}
 function esc(v){return String(v==null?'':v).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
@@ -33,14 +33,14 @@ function loginUI(){
  if(!user){
    e.innerHTML='<div class="dg-feedback-login"><div><strong>Google verification required</strong><span>Sign in with the Google account already available in your browser. Anonymous feedback is disabled.</span></div><button type="button" class="dg-google-btn" id="dgGoogle">Continue with Google</button></div>';
    var b=document.getElementById('dgGoogle');if(b)b.onclick=googleLogin;
-   var em=document.getElementById('dgEmail');if(em)em.value='Sign in with Google to continue';
+   var em=document.getElementById('dgEmail');if(em){em.value='';em.placeholder='Sign in with Google to continue';}
    return;
  }
  var providerOk=user.providerData&&user.providerData.some(function(p){return p.providerId==='google.com';});
  if(!providerOk||!user.email||user.emailVerified!==true){
    e.innerHTML='<div class="dg-feedback-login"><div><strong>Verified Google account required</strong><span>Please sign in with a Google account whose email is verified.</span></div><button type="button" class="dg-google-btn" id="dgGoogle">Verify with Google</button></div>';
    var rb=document.getElementById('dgGoogle');if(rb)rb.onclick=googleLogin;
-   var rem=document.getElementById('dgEmail');if(rem)rem.value='Google verification required';
+   var rem=document.getElementById('dgEmail');if(rem)rem.value='';
    return;
  }
  e.innerHTML='<div class="dg-feedback-login"><div class="dg-user"><div class="dg-avatar">'+(user.photoURL?'<img src="'+esc(user.photoURL)+'" alt="">':'👤')+'</div><div class="dg-user-text"><strong>'+esc(user.displayName||'Verified Google user')+'</strong><span>'+esc(user.email)+' • Verified Google account</span></div></div><button type="button" class="dg-signout" id="dgSignout">Sign out</button></div>';
@@ -48,19 +48,27 @@ function loginUI(){
  var em2=document.getElementById('dgEmail');if(em2)em2.value=user.email;
 }
 
-function loadFirebase(){
- return Promise.all(['firebase-app-compat.js','firebase-auth-compat.js','firebase-firestore-compat.js'].map(function(n){
-   return new Promise(function(ok,no){var s=document.createElement('script');s.src='https://www.gstatic.com/firebase/'+V+'/'+n;s.onload=ok;s.onerror=no;document.head.appendChild(s)})
- })).then(function(){
+function initFirebase(){
+ if(!configured()){loginUI();status('Google-verified feedback storage is not configured right now.','err');return;}
+ if(!window.firebase){loginUI();status('Google verification could not load. Please refresh the page and try again.','err');return;}
+ try{
    if(window.firebase.apps&&window.firebase.apps.length)window.firebase.app();else window.firebase.initializeApp(cfg);
-   auth=window.firebase.auth();db=window.firebase.firestore();
+   auth=window.firebase.auth();
+   db=window.firebase.firestore();
    auth.onAuthStateChanged(function(u){user=u||null;loginUI()});
+   firebaseReady=true;
    loginUI();
- });
+   if(window.firebase.auth.Auth.Persistence.LOCAL)auth.setPersistence(window.firebase.auth.Auth.Persistence.LOCAL).catch(function(e){console.warn('Auth persistence unavailable',e)});
+ }catch(e){
+   console.error('Firebase initialization failed',e);
+   firebaseReady=false;
+   loginUI();
+   status('Google verification could not start. Please refresh the page and try again.','err');
+ }
 }
 
 function googleLogin(){
- if(!firebaseReady||!auth)return status('Google verification is still loading. Please try again.','err');
+ if(!firebaseReady||!auth)return status('Google verification is not ready yet. Please wait a moment and try again.','err');
  var p=new firebase.auth.GoogleAuthProvider();p.setCustomParameters({prompt:'select_account'});
  status('Opening Google sign-in…','loading');
  var mobile=/Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
@@ -73,7 +81,7 @@ function googleLogin(){
 
 function submit(ev){
  ev.preventDefault();
- if(!user||!db)return status('Please sign in with Google before submitting feedback.','err');
+ if(!firebaseReady||!user||!db)return status('Please complete Google verification before submitting feedback.','err');
  var providerOk=user.providerData&&user.providerData.some(function(p){return p.providerId==='google.com';});
  if(!providerOk||!user.email||user.emailVerified!==true)return status('A verified Google account is required to submit feedback.','err');
  var rating=Number(document.getElementById('dgRating').value),message=document.getElementById('dgMessage').value.trim();
@@ -87,38 +95,20 @@ function submit(ev){
    message:message.slice(0,2000),
    correction_area:document.getElementById('dgCorrection').value||null,
    user:{uid:user.uid,isAnonymous:!!user.isAnonymous,displayName:user.displayName||null,email:user.email||null,emailVerified:!!user.emailVerified,photoURL:user.photoURL||null},
-   context:context(),
-   status:'new',
-   authProvider:'google.com',
-   createdAt:firebase.firestore.FieldValue.serverTimestamp()
+   context:context(),status:'new',authProvider:'google.com',createdAt:firebase.firestore.FieldValue.serverTimestamp()
  };
  db.collection('reviews').add(payload)
- .then(function(){
-   return db.collection('reviewUsers').doc(user.uid).set({
-     uid:user.uid,isAnonymous:!!user.isAnonymous,displayName:user.displayName||null,email:user.email||null,
-     emailVerified:!!user.emailVerified,photoURL:user.photoURL||null,lastSubmittedAt:firebase.firestore.FieldValue.serverTimestamp()
-   },{merge:true});
- })
+ .then(function(){return db.collection('reviewUsers').doc(user.uid).set({uid:user.uid,isAnonymous:!!user.isAnonymous,displayName:user.displayName||null,email:user.email||null,emailVerified:!!user.emailVerified,photoURL:user.photoURL||null,lastSubmittedAt:firebase.firestore.FieldValue.serverTimestamp()},{merge:true})})
  .then(function(){
    document.getElementById('dgFeedbackForm').reset();
    document.getElementById('dgRating').value='0';
    document.getElementById('dgCount').textContent='0';
    document.querySelectorAll('.dg-rating button').forEach(function(x){x.classList.remove('active');x.setAttribute('aria-checked','false')});
-   busy(false);
-   status('Thanks! Your feedback has been submitted.','ok');
+   busy(false);status('Thanks! Your feedback has been submitted.','ok');
  })
- .catch(function(e){
-   console.error('Feedback submission failed',e);
-   busy(false);
-   status('Could not submit feedback. '+(e&&e.code?'('+e.code+') ':'')+'Please try again.','err');
- });
+ .catch(function(e){console.error('Feedback submission failed',e);busy(false);status('Could not submit feedback. '+(e&&e.code?'('+e.code+') ':'')+'Please try again.','err')});
 }
 
-function init(){
- bindForm();
- if(!configured()){loginUI();status('Google-verified feedback storage is not configured right now.','err');return}
- loadFirebase().then(function(){firebaseReady=true;loginUI()})
- .catch(function(e){console.error('Firebase initialization failed',e);loginUI();status('Google-verified feedback is unavailable right now. Please try again later.','err')});
-}
+function init(){bindForm();initFirebase()}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();
