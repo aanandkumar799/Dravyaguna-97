@@ -1,33 +1,73 @@
-# Firebase feedback setup
+# Firebase / GitHub production setup
 
-The feedback form is wired by `firebase-feedback.js` to Cloud Firestore collection `reviews`.
+The DravyaGuna 97 site uses Firebase project **dravya-guna-97** for authenticated feedback and Firestore storage. GitHub Pages remains the primary public site.
 
-## Required Firebase Console step
+## 1. Firebase web configuration
 
-In Firebase Console for `dravya-guna-97`:
+The public web configuration is stored in `feedback-config.js`. Firebase web API keys are not database credentials; Firestore and Authentication rules provide the access control.
 
-1. Build → Firestore Database → Create database.
-2. Create the database in your chosen region.
-3. Add/verify the web app under Project settings → Your apps.
-4. Deploy Firestore Security Rules that allow the intended feedback submission pattern.
+## 2. Authentication
 
-Example starting rule (tighten further before production if you add authentication/admin tooling):
+In Firebase Console:
 
-```text
-rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
-    match /reviews/{reviewId} {
-      allow create: if request.resource.data.name is string
-        && request.resource.data.review is string
-        && request.resource.data.name.size() >= 1
-        && request.resource.data.name.size() <= 100
-        && request.resource.data.review.size() >= 1
-        && request.resource.data.review.size() <= 5000;
-      allow read, update, delete: if false;
-    }
-  }
-}
-```
+- Project: `dravya-guna-97`
+- Authentication → Sign-in method → **Google** enabled
+- Authentication → Settings → Authorized domains must include:
+  - `aanandkumar799.github.io`
+  - the Firebase Hosting domain if Firebase Hosting is used
 
-`firebase-feedback.js` uses the Firebase Web SDK directly from Google's CDN and writes feedback to Firestore. The Firebase web configuration is not a server credential; do not put Firebase Admin/service-account private keys in this repository.
+## 3. Firestore
+
+Create/enable Firestore Database for the project.
+
+The production rules are in `firestore.rules`:
+
+- only verified Google accounts can create feedback
+- the authenticated UID/email must match the submitted user identity
+- users cannot read, update, or delete reviews
+- the configured admin email can read/update/delete reviews
+
+## 4. GitHub Actions credential
+
+The repository uses the GitHub environment **`firebase-production`**.
+
+Create this environment secret:
+
+`FIREBASE_SERVICE_ACCOUNT_DRAVYA_GUNA_97`
+
+The value must be the complete Firebase service-account JSON generated from:
+
+**Firebase Console → Project settings → Service accounts → Firebase Admin SDK → Generate new private key**
+
+Never commit this JSON to the repository or paste it into an issue/chat.
+
+## 5. Production deployment
+
+The single Firebase deployment workflow is:
+
+`.github/workflows/firebase-deploy.yml`
+
+It deploys:
+
+1. Firestore security rules
+2. Firebase Hosting
+
+The workflow verifies that the service-account JSON belongs to project `dravya-guna-97` and fails if Firestore rules deployment fails.
+
+Duplicate Firebase deployment workflows were removed to prevent conflicting deployments.
+
+## 6. GitHub Pages
+
+`.github/workflows/deploy.yml` deploys the public GitHub Pages site and performs database/artifact validation before publishing.
+
+## 7. Feedback test
+
+After a successful Firebase deployment:
+
+1. Open `https://aanandkumar799.github.io/Dravyaguna-97/feedback.html`
+2. Sign in with a verified Google account.
+3. Submit a short test message with a 1–5 rating.
+4. Confirm the success message.
+5. The admin dashboard is `admin-feedback.html` and is restricted by the Firestore rules to the configured admin email.
+
+If submission still returns `permission-denied`, verify the deployed Firestore rules and the Firebase Authentication Google provider/authorized domain settings in the Firebase Console.
