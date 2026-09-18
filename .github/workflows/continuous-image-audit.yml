@@ -1,8 +1,8 @@
 name: Continuous plant-part image audit
 on:
   schedule:
-    # 04:30 Asia/Kolkata (23:00 UTC previous day)
-    - cron: "0 23 * * *"
+    # Every hour
+    - cron: "0 * * * *"
   workflow_dispatch:
   push:
     paths:
@@ -16,39 +16,8 @@ concurrency:
   group: plant-image-audit
   cancel-in-progress: false
 jobs:
-  check-idle-image:
-    name: Decide whether autonomous image maintenance may run
-    runs-on: ubuntu-latest
-    outputs:
-      idle: ${{ steps.activity.outputs.idle }}
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v5
-        with:
-          fetch-depth: 0
-      - name: Check last human repository activity
-        id: activity
-        shell: bash
-        run: |
-          set -euo pipefail
-          if [ "${{ github.event_name }}" != "schedule" ]; then
-            echo "idle=true" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-          now=$(date -u +%s)
-          cutoff=$((now - 21600))
-          last_human=$(git log origin/main --format='%ct %ae' -n 200 | grep -v 'github-actions\[bot\]' | head -n 1 | awk '{print $1}')
-          if [ -z "$last_human" ] || [ "$last_human" -gt "$cutoff" ]; then
-            echo "idle=false" >> "$GITHUB_OUTPUT"
-            echo "Human repository work occurred within the last 6 hours; autonomous image maintenance is deferred."
-          else
-            echo "idle=true" >> "$GITHUB_OUTPUT"
-            echo "No human repository work for 6+ hours; autonomous image maintenance may run."
-          fi
-
   audit-images:
-    needs: check-idle-image
-    if: (github.event_name != 'push' || github.actor != 'github-actions[bot]') && (github.event_name != 'schedule' || needs.check-idle-image.outputs.idle == 'true')
+    if: (github.event_name != 'push' || github.actor != 'github-actions[bot]')
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
