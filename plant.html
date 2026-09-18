@@ -32,11 +32,37 @@ const error=(title,msg)=>{root.innerHTML=`<div class="error-box"><h2>${esc(title
 async function get(url){try{const r=await fetch(url,{cache:'no-store',headers:{Accept:'application/json'}});if(!r.ok)return null;return await r.json()}catch(e){console.warn('Load failed',url,e);return null}}
 async function load(){
  if(!id)return null;
- const [idx,dossier,manifest]=await Promise.all([get('plant-index.json?v=100'),get(`data/plants/${encodeURIComponent(id)}.json`),get('data/curated-image-manifest.json?v=5')]);
- const entries=Array.isArray(idx?.plants)?idx.plants:[];const ref=entries.find(x=>String(x?.id||'').toLowerCase()===id.toLowerCase()||String(x?.order||'')===id);if(!ref&&!dossier)return null;
- const p=dossier||{};const identity={...(ref||{}),...(p.identity||{})};const merged={...p,identity,order:p.order||ref?.order,classification:p.classification||{},identification:p.identification||{},images:p.images||{},dravyaguna:p.dravyaguna||p.dravya_guna||{},therapeutics:{...(p.therapeutics||{})},metadata:p.metadata||{}};
- if(!merged.dravyaguna.rasa?.length)merged.dravyaguna.rasa=ref?.rasa||[];if(!merged.dravyaguna.guna?.length)merged.dravyaguna.guna=ref?.guna||[];if(!merged.dravyaguna.virya)merged.dravyaguna.virya=ref?.virya||'';if(!merged.dravyaguna.vipaka)merged.dravyaguna.vipaka=ref?.vipaka||'';if(!merged.therapeutics.useful_part?.length)merged.therapeutics.useful_part=ref?.useful_part||[];
- return {p:merged,records:Array.isArray(manifest?.records)?manifest.records:[]};
+ // Load the plant record first. Image verification is optional and must never
+ // block the academic information from rendering.
+ const [idx,dossier]=await Promise.all([
+   get('plant-index.json?v=101'),
+   get(`data/plants/${encodeURIComponent(id)}.json?v=101`)
+ ]);
+ const entries=Array.isArray(idx?.plants)?idx.plants:[];
+ const ref=entries.find(x=>String(x?.id||'').toLowerCase()===id.toLowerCase()||String(x?.order||'')===id);
+ // The dossier is authoritative for the profile page; the index is only a
+ // lookup/fallback source. This keeps the page working if the generated index
+ // or image registry is temporarily unavailable.
+ if(!ref&&!dossier)return null;
+ const p=dossier||{};
+ const identity={...(ref||{}),...(p.identity||{})};
+ const merged={
+   ...p,
+   identity,
+   order:p.order||ref?.order,
+   classification:p.classification||{},
+   identification:p.identification||{},
+   images:p.images||{},
+   dravyaguna:p.dravyaguna||p.dravya_guna||{},
+   therapeutics:{...(p.therapeutics||{})},
+   metadata:p.metadata||{}
+ };
+ if(!merged.dravyaguna.rasa?.length)merged.dravyaguna.rasa=ref?.rasa||[];
+ if(!merged.dravyaguna.guna?.length)merged.dravyaguna.guna=ref?.guna||[];
+ if(!merged.dravyaguna.virya)merged.dravyaguna.virya=ref?.virya||'';
+ if(!merged.dravyaguna.vipaka)merged.dravyaguna.vipaka=ref?.vipaka||'';
+ if(!merged.therapeutics.useful_part?.length)merged.therapeutics.useful_part=ref?.useful_part||[];
+ return {p:merged,records:[]};
 }
 function gallery(p,records){
  const parts=[['whole_plant','Whole plant'],['habit','Habit / growth form'],['root','Root'],['stem','Stem'],['leaf','Leaf'],['flower','Flower'],['fruit','Fruit'],['seed','Seed'],['bark','Bark']];const id=String(p.id||p.identity?.id||''),local=p.images||{};
@@ -60,7 +86,38 @@ function render(data){
  root.setAttribute('aria-busy','false');document.getElementById('print').onclick=()=>window.print();root.querySelectorAll('.mcq-form').forEach(form=>form.addEventListener('submit',e=>{e.preventDefault();const selected=form.querySelector('input[type="radio"]:checked'),result=form.querySelector('.mcq-result'),answer=form.dataset.answer;if(!selected){result.textContent='Select an option first.';return}result.textContent=selected.value===answer?'✓ Correct':'✗ Try again';}));
  root.querySelectorAll('.gallery-item img').forEach(img=>{img.addEventListener('error',()=>{img.outerHTML='<div class="image-missing">🌿<br>Image could not be loaded</div>'},{once:true});img.addEventListener('click',()=>{const modal=document.getElementById('modal');document.getElementById('modal-img').src=img.dataset.full||img.src;modal.classList.add('show');modal.setAttribute('aria-hidden','false')})});
 }
-if(!id){error('No plant selected','Choose a plant from the DravyaGuna 97 library.')}else load().then(data=>data?render(data):error('Plant not found','This plant is not available in the canonical NCISM index.')).catch(e=>{console.error(e);error('Unable to load plant','Please refresh and try again.')});
+if(!id){
+ error('No plant selected','Choose a plant from the DravyaGuna 97 library.');
+}else{
+ load().then(data=>{
+   if(!data){error('Plant not found','This plant is not available in the canonical NCISM index.');return}
+   render(data);
+   // Hydrate verified images after the dossier is visible. A slow or
+   // unavailable image registry must never prevent plant information loading.
+   get('data/curated-image-manifest.json?v=6').then(manifest=>{
+     if(!manifest)return;
+     data.records=Array.isArray(manifest.records)?manifest.records:[];
+     const galleryHost=root.querySelector('.image-gallery');
+     if(galleryHost){
+       galleryHost.outerHTML=gallery(data.p,data.records);
+       root.querySelectorAll('.gallery-item img').forEach(img=>{
+         img.addEventListener('error',()=>{
+           img.outerHTML='<div class="image-missing">🌿<br>Image could not be loaded</div>';
+         },{once:true});
+         img.addEventListener('click',()=>{
+           const modal=document.getElementById('modal');
+           document.getElementById('modal-img').src=img.dataset.full||img.src;
+           modal.classList.add('show');
+           modal.setAttribute('aria-hidden','false');
+         });
+       });
+     }
+   }).catch(()=>{});
+ }).catch(e=>{
+   console.error(e);
+   error('Unable to load plant','Please refresh and try again.');
+ });
+}
 const modal=document.getElementById('modal');document.getElementById('modal-close').onclick=()=>{modal.classList.remove('show');modal.setAttribute('aria-hidden','true')};modal.onclick=e=>{if(e.target===modal)modal.classList.remove('show')};document.addEventListener('keydown',e=>{if(e.key==='Escape')modal.classList.remove('show')});
 })();
 </script>
