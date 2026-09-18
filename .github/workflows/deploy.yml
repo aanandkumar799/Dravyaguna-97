@@ -56,7 +56,9 @@ jobs:
                   if f'<link rel="stylesheet" href="{rel}">' not in html: html=html.replace('</head>',f'<link rel="stylesheet" href="{rel}">\n</head>',1)
               for asset in ['feedback-config.js','site-theme.js','feedback.js']:
                   rel=Path(os.path.relpath(root/asset,page.parent)).as_posix()
-                  if f'<script src="{rel}" defer></script>' not in html: html=html.replace('</body>',f'<script src="{rel}" defer></script>\n</body>',1)
+                  # Treat versioned/query-string script tags as already present; avoid duplicate execution.
+                  pat=r'<script[^>]+src=["\\']'+re.escape(rel)+r'(?:\\?[^"\\']*)?["\\'][^>]*>'
+                  if not re.search(pat,html,re.I): html=html.replace('</body>',f'<script src="{rel}" defer></script>\n</body>',1)
               if page.name=='plant.html':
                   if '<link rel="stylesheet" href="plant-dossier-layout.css">' not in html: html=html.replace('</head>','<link rel="stylesheet" href="plant-dossier-layout.css">\n</head>',1)
                   for src in ['cover-image-fix.js','dossier-fallback.js','image-gallery-delay.js','academic-verification.js','strict-gallery-guard.js']:
