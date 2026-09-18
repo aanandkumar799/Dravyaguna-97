@@ -19,7 +19,7 @@
 <body>
 <header class="site-header"><div class="header-inner"><a class="brand" href="index.html">🌿 DravyaGuna 97</a><nav class="nav"><a href="index.html">Home</a><a href="plants.html">Plant Library</a><a href="feedback.html">Feedback</a></nav></div></header>
 <main class="admin-wrap">
-<div id="login" class="admin-card admin-login"><h1>🔐 Private Feedback Dashboard</h1><p class="admin-sub">This area is restricted to the configured administrator.</p><button id="loginBtn" class="admin-btn">Continue with Google</button><div id="status" class="admin-status"></div></div>
+<div id="login" class="admin-card admin-login"><h1>🔐 Private Feedback Dashboard</h1><p class="admin-sub">Private administrator access only.</p><button id="loginBtn" class="admin-btn">Continue with Google</button><div id="status" class="admin-status"></div></div>
 <section id="dashboard" hidden>
 <div class="admin-head"><div><h1>Feedback Dashboard</h1><p class="admin-sub">Private view of suggestions submitted to DravyaGuna 97.</p></div><button id="logoutBtn" class="admin-btn secondary">Sign out</button></div>
 <div class="admin-card"><div class="stats"><div class="stat"><b id="total">0</b><span>Total responses</span></div><div class="stat"><b id="avg">—</b><span>Average rating</span></div><div class="stat"><b id="bugs">0</b><span>Bug reports</span></div><div class="stat"><b id="features">0</b><span>Feature requests</span></div></div></div>
@@ -41,8 +41,8 @@ function render(){
  const f=$('filter').value,q=$('search').value.trim().toLowerCase();
  const rows=all.filter(x=>(f==='all'||x.category===f)&&(!q||JSON.stringify(x).toLowerCase().includes(q)));
  $('list').innerHTML=rows.length?rows.map(x=>{
-  const u=x.user||{},c=x.context||{};
-  return '<article class="feedback-item"><div class="feedback-top"><div><span class="tag">'+esc(cat(x.category))+'</span> <span class="stars">'+('★'.repeat(Number(x.rating)||0))+'☆'.repeat(5-(Number(x.rating)||0))+'</span></div><strong>'+esc(date(x.createdAt||c.timestamp))+'</strong></div><div class="feedback-message">'+esc(x.message)+'</div><div class="meta"><span><b>User:</b> '+esc(u.displayName||'—')+'</span><span><b>Email:</b> '+esc(u.email||'—')+'</span><span><b>Area:</b> '+esc(x.correction_area||'—')+'</span><span><b>Page:</b> '+esc(c.page_url||c.page_path||'—')+'</span></div></article>'
+  const u=x.user||{},c=x.context||{}; if(!u.email||u.emailVerified!==true)return '';
+  return '<article class="feedback-item"><div class="feedback-top"><div><span class="tag">'+esc(cat(x.category))+'</span> <span class="stars">'+('★'.repeat(Number(x.rating)||0))+'☆'.repeat(5-(Number(x.rating)||0))+'</span></div><strong>'+esc(date(x.createdAt||c.timestamp))+'</strong></div><div class="feedback-message">'+esc(x.message)+'</div><div class="meta"><span><b>Google account:</b> '+esc(u.displayName||'Verified Google user')+'</span><span><b>Email:</b> '+esc(u.email||'—')+'</span><span><b>Area:</b> '+esc(x.correction_area||'—')+'</span><span><b>Page:</b> '+esc(c.page_url||c.page_path||'—')+'</span></div></article>'
  }).join(''):'<div class="empty">No matching feedback found.</div>';
  $('total').textContent=all.length;
  const ratings=all.map(x=>Number(x.rating)).filter(n=>n>=1&&n<=5);
