@@ -1,7 +1,7 @@
-const CACHE_NAME = 'dravya-guna-97-v21';
+const CACHE_NAME = 'dravya-guna-97-v22-light-only';
 const APP_SHELL = [
   './','./index.html','./plants.html','./plant.html','./compare.html','./quiz.html','./viva.html','./progress.html','./rasa.html','./reference-library.html','./data-quality.html',
-  './practical-lab.html','./references.html','./404.html','./style.css','./responsive-fix.css','./site-theme.css','./site-theme.js','./plant-dossier-layout.css','./cover-image-fix.js','./dossier-fallback.js','./image-gallery-delay.js',
+  './practical-lab.html','./references.html','./404.html','./style.css','./responsive-fix.css','./site-theme.css','./plant-dossier-layout.css','./cover-image-fix.js','./dossier-fallback.js','./image-gallery-delay.js',
   './image-gallery-fix.js','./academic-verification.js','./public-seo.js','./flashcard-entry.js','./classical-references-enhanced.js','./practical-lab-enhanced.js','./script.js',
   './data/curated-image-manifest.json','./plant-index.json','./plants.json','./manifest.json','./robots.txt','./sitemap.xml','./manifest.json','./feedback-config.js','./feedback.js','./feedback.css','./supplementary.html','./supplementary-plant.html','./data/supplementary-index.json','./favicon-exact.jpg'
 ];
