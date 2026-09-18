@@ -1,56 +1,28 @@
 {
-  "generated_at": "2026-09-18T19:56:40.286460+00:00",
+  "generated_at": "2026-09-18T21:24:39.916316+00:00",
   "plants_checked": 97,
   "slots_checked": 873,
   "filled_this_run": [
     {
-      "plant_id": "brahmi",
-      "part": "whole_plant",
-      "action": "downloaded-new-image",
-      "path": "images/plants/brahmi/whole_plant/image.jpg",
-      "bytes": 195595
-    },
-    {
-      "plant_id": "latakaranja",
-      "part": "whole_plant",
-      "action": "downloaded-new-image",
-      "path": "images/plants/latakaranja/whole_plant/image.jpg",
-      "bytes": 1908648
-    },
-    {
-      "plant_id": "latakaranja",
+      "plant_id": "kanchanara",
       "part": "habit",
       "action": "downloaded-new-image",
-      "path": "images/plants/latakaranja/habit/image.jpg",
-      "bytes": 1403639
+      "path": "images/plants/kanchanara/habit/image.jpg",
+      "bytes": 730034
     },
     {
-      "plant_id": "mandukaparni",
-      "part": "flower",
+      "plant_id": "chakramarda",
+      "part": "habit",
       "action": "downloaded-new-image",
-      "path": "images/plants/mandukaparni/flower/image.jpg",
-      "bytes": 130422
+      "path": "images/plants/chakramarda/habit/image.jpg",
+      "bytes": 267144
     },
     {
-      "plant_id": "manjishta",
-      "part": "root",
+      "plant_id": "nagkeshar",
+      "part": "fruit",
       "action": "downloaded-new-image",
-      "path": "images/plants/manjishta/root/image.jpg",
-      "bytes": 163179
-    },
-    {
-      "plant_id": "manjishta",
-      "part": "leaf",
-      "action": "downloaded-new-image",
-      "path": "images/plants/manjishta/leaf/image.jpg",
-      "bytes": 210185
-    },
-    {
-      "plant_id": "rasona",
-      "part": "flower",
-      "action": "downloaded-new-image",
-      "path": "images/plants/rasona/flower/image.jpg",
-      "bytes": 214821
+      "path": "images/plants/nagkeshar/fruit/image.jpg",
+      "bytes": 492385
     }
   ],
   "unresolved": [
@@ -1221,11 +1193,6 @@
     },
     {
       "plant_id": "kanchanara",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kanchanara",
       "part": "root",
       "reason": "no-high-confidence-unique-image"
     },
@@ -1942,11 +1909,6 @@
     {
       "plant_id": "chakramarda",
       "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chakramarda",
-      "part": "habit",
       "reason": "no-high-confidence-unique-image"
     },
     {
@@ -2782,11 +2744,6 @@
     {
       "plant_id": "nagkeshar",
       "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nagkeshar",
-      "part": "fruit",
       "reason": "no-high-confidence-unique-image"
     },
     {
@@ -4075,7 +4032,7 @@
       "reason": "no-high-confidence-unique-image"
     }
   ],
-  "remaining_missing": 804,
+  "remaining_missing": 801,
   "local_asset_root": "images/plants/<plant>/<part>/image.*",
   "policy": {
     "exact_species_required": true,
