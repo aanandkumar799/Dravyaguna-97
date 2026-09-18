@@ -4,16 +4,46 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
-  schedule:
-    - cron: "0 * * * *"
   workflow_dispatch:
 permissions:
   contents: write
 concurrency:
   group: website-doctor-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
+  check-idle:
+    name: Decide whether autonomous maintenance may run
+    runs-on: ubuntu-latest
+    outputs:
+      idle: ${{ steps.activity.outputs.idle }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - name: Check last human repository activity
+        id: activity
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "idle=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          now=$(date -u +%s)
+          cutoff=$((now - 21600))
+          last_human=$(git log origin/main --format='%ct %ae' -n 200 | grep -v 'github-actions\[bot\]' | head -n 1 | awk '{print $1}')
+          if [ -z "$last_human" ] || [ "$last_human" -gt "$cutoff" ]; then
+            echo "idle=false" >> "$GITHUB_OUTPUT"
+            echo "Human repository work occurred within the last 6 hours; autonomous maintenance is deferred."
+          else
+            echo "idle=true" >> "$GITHUB_OUTPUT"
+            echo "No human repository work for 6+ hours; autonomous maintenance may run."
+          fi
+
   check-website:
+    needs: check-idle
+    if: github.event_name != 'schedule' || needs.check-idle.outputs.idle == 'true'
     name: Website Doctor
     runs-on: ubuntu-latest
     steps:
