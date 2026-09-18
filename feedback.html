@@ -7,7 +7,7 @@
 <meta name="theme-color" content="#1b4332">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="site-theme.css?v=9">
-<link rel="stylesheet" href="feedback.css?v=5">
+<link rel="stylesheet" href="feedback.css?v=6">
 <title>Feedback | DravyaGuna 97</title>
 <script src="site-theme.js?v=1" defer></script>
 </head>
@@ -100,7 +100,27 @@
   <p><a href="index.html">← Back to Home</a></p>
   <p>BAMS Dravyaguna learning and reference portal.</p>
 </footer>
-<script src="feedback-config.js?v=4"></script>
-<script src="feedback.js?v=4"></script>
+<script>
+(function(){
+  function bindFeedbackRating(){
+    document.querySelectorAll('.dg-rating button').forEach(function(btn){
+      if(btn.dataset.ratingBound==='1')return;
+      btn.dataset.ratingBound='1';
+      btn.addEventListener('click',function(){
+        var n=Number(btn.dataset.rating), input=document.getElementById('dgRating');
+        if(input)input.value=n;
+        document.querySelectorAll('.dg-rating button').forEach(function(b){
+          var active=Number(b.dataset.rating)<=n;
+          b.classList.toggle('active',active);
+          b.setAttribute('aria-checked',Number(b.dataset.rating)===n?'true':'false');
+        });
+      });
+    });
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',bindFeedbackRating);else bindFeedbackRating();
+})();
+</script>
+<script src="feedback-config.js?v=5"></script>
+<script src="feedback.js?v=5"></script>
 </body>
 </html>
