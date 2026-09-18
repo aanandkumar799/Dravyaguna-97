@@ -26,13 +26,12 @@ body :where(.search-panel input,.jump-input,.filter-select){background:var(--dg-
 body :where(.plant-image,.image-missing){background:var(--dg-surface-2)!important}
 body :where(.shloka-card,.classical-section,.reference-box){background:linear-gradient(135deg,var(--dg-surface-2),var(--dg-surface))!important;color:var(--dg-text)!important;border-color:var(--dg-border)!important}
 
-/* Floating, accessible theme control */
-#dgThemeToggle{position:fixed;right:18px;bottom:18px;z-index:10000;display:inline-flex;align-items:center;gap:8px;border:1px solid var(--dg-border);border-radius:999px;padding:10px 14px;background:var(--dg-surface);color:var(--dg-text);box-shadow:0 8px 24px rgba(0,0,0,.16);font:700 13px/1 system-ui,sans-serif;cursor:pointer;transition:transform .18s ease,background .22s ease,color .22s ease,border-color .22s ease}
-#dgThemeToggle:hover{transform:translateY(-2px);border-color:var(--dg-accent)}
-#dgThemeToggle:focus-visible{outline:3px solid color-mix(in srgb,var(--dg-accent) 35%,transparent);outline-offset:2px}
-#dgThemeIcon{font-size:17px;line-height:1}
-html[data-theme="dark"] #dgThemeToggle{box-shadow:0 10px 28px rgba(0,0,0,.4)}
-@media(max-width:600px){#dgThemeToggle{right:12px;bottom:12px;padding:10px 12px}#dgThemeLabel{display:none}}
+/* Navigation theme control — placed immediately after Quiz */
+#dgThemeToggle.nav-theme-toggle{position:static;z-index:auto;display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:38px;margin-left:2px;padding:8px 11px;border:1px solid var(--dg-border);border-radius:9px;background:var(--dg-surface);color:var(--dg-text);box-shadow:none;font:700 13px/1 system-ui,sans-serif;cursor:pointer;transition:transform .18s ease,background .22s ease,color .22s ease,border-color .22s ease}
+#dgThemeToggle.nav-theme-toggle:hover{transform:translateY(-1px);border-color:var(--dg-accent);background:var(--dg-surface-2);color:var(--dg-accent)}
+#dgThemeToggle.nav-theme-toggle:focus-visible{outline:3px solid color-mix(in srgb,var(--dg-accent) 45%,transparent);outline-offset:2px}
+#dgThemeIcon{font-size:16px;line-height:1}
+@media(max-width:600px){#dgThemeToggle.nav-theme-toggle{min-height:36px;padding:8px 10px}#dgThemeLabel{display:none}}
 @media(prefers-reduced-motion:reduce){html,body,#dgThemeToggle{transition:none!important}}
 
 /* Verified Google feedback */
