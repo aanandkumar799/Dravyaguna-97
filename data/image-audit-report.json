@@ -1,63 +1,21 @@
 {
-  "generated_at": "2026-09-18T03:14:10.632734+00:00",
+  "generated_at": "2026-09-18T04:12:47.382192+00:00",
   "plants_checked": 97,
   "slots_checked": 873,
   "filled_this_run": [
     {
-      "plant_id": "ashoka",
-      "part": "habit",
-      "action": "downloaded-new-image",
-      "path": "images/plants/ashoka/habit/image.jpg",
-      "bytes": 847608
-    },
-    {
-      "plant_id": "kanchanara",
+      "plant_id": "aragwadha",
       "part": "whole_plant",
       "action": "downloaded-new-image",
-      "path": "images/plants/kanchanara/whole_plant/image.jpg",
-      "bytes": 1945434
+      "path": "images/plants/aragwadha/whole_plant/image.jpg",
+      "bytes": 17928
     },
     {
-      "plant_id": "maricha",
+      "plant_id": "aragwadha",
       "part": "habit",
       "action": "downloaded-new-image",
-      "path": "images/plants/maricha/habit/image.jpg",
-      "bytes": 1790851
-    },
-    {
-      "plant_id": "maricha",
-      "part": "root",
-      "action": "downloaded-new-image",
-      "path": "images/plants/maricha/root/image.jpg",
-      "bytes": 1408640
-    },
-    {
-      "plant_id": "maricha",
-      "part": "stem",
-      "action": "downloaded-new-image",
-      "path": "images/plants/maricha/stem/image.jpg",
-      "bytes": 200647
-    },
-    {
-      "plant_id": "maricha",
-      "part": "leaf",
-      "action": "downloaded-new-image",
-      "path": "images/plants/maricha/leaf/image.jpg",
-      "bytes": 111145
-    },
-    {
-      "plant_id": "vibhitaki",
-      "part": "whole_plant",
-      "action": "downloaded-new-image",
-      "path": "images/plants/vibhitaki/whole_plant/image.jpg",
-      "bytes": 660337
-    },
-    {
-      "plant_id": "vibhitaki",
-      "part": "habit",
-      "action": "downloaded-new-image",
-      "path": "images/plants/vibhitaki/habit/image.jpg",
-      "bytes": 483057
+      "path": "images/plants/aragwadha/habit/image.jpg",
+      "bytes": 664852
     }
   ],
   "unresolved": [
@@ -78,16 +36,6 @@
     },
     {
       "plant_id": "aragwadha",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "aragwadha",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "aragwadha",
       "part": "root",
       "reason": "no-high-confidence-unique-image"
     },
@@ -1324,8 +1272,7 @@
     {
       "plant_id": "kanchanara",
       "part": "seed",
-      "reason": "download-failed",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kanchanara",
@@ -1360,8 +1307,7 @@
     {
       "plant_id": "kantakari",
       "part": "fruit",
-      "reason": "download-failed",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kantakari",
@@ -4219,7 +4165,7 @@
       "reason": "no-high-confidence-unique-image"
     }
   ],
-  "remaining_missing": 831,
+  "remaining_missing": 829,
   "local_asset_root": "images/plants/<plant>/<part>/image.*",
   "policy": {
     "exact_species_required": true,
