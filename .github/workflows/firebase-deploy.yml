@@ -107,11 +107,11 @@ jobs:
           print("Firebase service-account project verified: dravya-guna-97")
           PY
 
-      - name: Deploy Firestore security rules
-        run: npx --yes firebase-tools@latest deploy --project dravyaguna-97 --only firestore:rules --non-interactive
-
       - name: Deploy Firebase Hosting
-        run: npx --yes firebase-tools@latest deploy --project dravyaguna-97 --only hosting --non-interactive
+        run: npx --yes firebase-tools@latest deploy --project dravya-guna-97 --only hosting --non-interactive
+
+      - name: Deploy Firestore security rules
+        run: npx --yes firebase-tools@latest deploy --project dravya-guna-97 --only firestore:rules --non-interactive
 
       - name: Remove Firebase credentials
         if: always()
