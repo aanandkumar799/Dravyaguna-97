@@ -82,9 +82,11 @@ jobs:
           from pathlib import Path
           data=json.loads(Path('_site/data/plants-index.json').read_text())
           plants=[p for p in data.get('plants',[]) if p.get('category')=='NCISM-97' and 1 <= int(p.get('order',0)) <= 97]
+          files = list(Path('_site/data/plants').glob('*.json'))
           assert len(plants)==97, len(plants)
-          assert len(list(Path('_site/data/plants').glob('*.json'))) == 97
-          print('Firebase production validation: 97 canonical plants OK')
+          assert len(files) >= 97, len(files)
+          print('Firebase production validation: 97 canonical plants + supplementary records OK')
+          print('Plant JSON files:', len(files))
           print('Local plant images:', len(list((Path('_site')/'images'/'plants').rglob('image.*'))))
           PY
 
