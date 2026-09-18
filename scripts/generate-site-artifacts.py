@@ -66,9 +66,9 @@ for page in sorted(ROOT.glob("*.html")):
     html = page.read_text(encoding="utf-8")
     original = html
     if 'href="site-theme.css' not in html and "</head>" in html:
-        html = html.replace("</head>", '<link rel="stylesheet" href="site-theme.css?v=3">\n</head>', 1)
+        html = html.replace("</head>", '<link rel="stylesheet" href="site-theme.css?v=4">\n</head>', 1)
     if 'src="site-theme.js' not in html and "</body>" in html:
-        html = html.replace("</body>", '<script src="site-theme.js?v=3" defer></script>\n</body>', 1)
+        html = html.replace("</body>", '<script src="site-theme.js?v=4" defer></script>\n</body>', 1)
     if html != original:
         page.write_text(html, encoding="utf-8")
 
