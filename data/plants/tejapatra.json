@@ -103,36 +103,63 @@
   },
   "phytochemistry": {
     "major_constituents": [],
-    "chemical_notes": ""
+    "chemical_notes": "Phytochemical compound list remains pending source-level verification; no unverified compound list is presented as authoritative."
   },
   "modern_information": {
     "evidence_summary": "Bay leaf improves appetite, respiration and balances kapha dosha.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Botanical identification and pharmacognosy/dravyaguna education."
+    ],
+    "safety_notes": "Do not infer clinical dose from this educational record. Verify identity of commercial leaf material before clinical or pharmacognosy use.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Current Kew accepted name: Cinnamomum tamala (Buch.-Ham.) T.Nees & C.H.Eberm.",
+      "Family: Lauraceae.",
+      "Drug material is the aromatic leaf; distinguish the accepted name from historical names such as Laurus tamala."
+    ],
+    "viva_questions": [
+      "What is the currently accepted botanical name of Tejapatra?",
+      "What family does Tejapatra belong to?",
+      "Which plant part constitutes the usual drug material?"
+    ],
+    "identification_points": [
+      "Leaves are lanceolate to ovate-lanceolate and aromatic.",
+      "Three prominent veins arise from near the leaf base.",
+      "Flowers are small."
+    ],
     "mnemonics": [],
-    "quick_revision": "Bay leaf improves appetite, respiration and balances kapha dosha."
+    "quick_revision": "Tejapatra — current Kew accepted name Cinnamomum tamala (Buch.-Ham.) T.Nees & C.H.Eberm.; Laurus tamala is a synonym."
   },
   "teacher": {
     "teaching_points": [
-      "Retained as supplementary material from Gemini batch 70."
+      "Retained as supplementary material from Gemini batch 70.",
+      "Use Tejapatra to demonstrate botanical synonymy and authentication of an aromatic leaf drug.",
+      "Current Kew taxonomy accepts Cinnamomum tamala; Laurus tamala is treated as a synonym."
     ],
     "discussion_points": [],
-    "practical_points": []
+    "practical_points": [
+      "Observe authenticated leaves for shape, venation, aroma and surface characters.",
+      "Record specimen provenance and accepted botanical name separately."
+    ]
   },
   "doctor": {
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
-    "important_indications": [],
-    "useful_part": "",
+    "important_indications": [
+      "Aruchi",
+      "Hrillasa",
+      "Peenasa",
+      "Arsha",
+      "Pinasa"
+    ],
+    "useful_part": "Patra",
     "dose": "",
     "anupana": "",
     "key_precautions": [
-      "Use authoritative identification and safety references."
+      "Use authoritative identification and safety references.",
+      "Do not infer clinical dose from this educational record.",
+      "Verify identity of commercial leaf material before clinical or pharmacognosy use."
     ]
   },
   "sources": [
@@ -170,6 +197,6 @@
     "source_batch": "Gemini batch 70",
     "version": "1.0",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured botanical identification enrichment"
+    "last_enrichment": "botanical + educational field enrichment"
   }
 }
