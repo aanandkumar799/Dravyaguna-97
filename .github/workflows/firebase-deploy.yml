@@ -74,9 +74,10 @@ jobs:
                           html=html.replace("</body>",f'<script src="{src}" defer></script>\n</body>',1)
               page.write_text(html,encoding="utf-8")
           manifest=json.loads((root/"manifest.json").read_text(encoding="utf-8"))
-          if (root/"favicon-exact.jpg").exists():
-              manifest["icons"]=[{"src":"favicon-exact.jpg","sizes":"128x128","type":"image/jpeg","purpose":"any"}]
-          (root/"manifest.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          icons=manifest.get("icons",[])
+          required={"192x192","512x512"}
+          found={str(i.get("sizes","")) for i in icons}
+          assert required.issubset(found), f"Manifest must retain 192x192 and 512x512 icons; found {sorted(found)}"
           PY
           test -f _site/index.html
           test -f _site/firestore.rules
