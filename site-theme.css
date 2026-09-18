@@ -130,3 +130,19 @@ html[data-theme="dark"] .supplementary-card .view-plant:hover,
 html[data-theme="dark"] .supplementary-card .view-plant:focus-visible{background:#3fae73!important;color:#fff!important}
 /* The image/header intentionally remains a pale visual canvas; keep its boundary clear. */
 html[data-theme="dark"] .supplementary-image{background:#eaf2eb!important}
+
+
+/* Plant library cover photographs */
+.plant-card .plant-image{
+  width:100%;
+  height:180px;
+  overflow:hidden;
+  background:var(--dg-surface-2,#f5f8f4);
+}
+.plant-card .plant-image img{
+  display:block;
+  width:100%;
+  height:180px;
+  object-fit:cover;
+  object-position:center;
+}
