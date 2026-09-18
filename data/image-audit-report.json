@@ -1,21 +1,49 @@
 {
-  "generated_at": "2026-09-18T04:12:47.382192+00:00",
+  "generated_at": "2026-09-18T05:14:39.388849+00:00",
   "plants_checked": 97,
   "slots_checked": 873,
   "filled_this_run": [
     {
       "plant_id": "aragwadha",
-      "part": "whole_plant",
+      "part": "stem",
       "action": "downloaded-new-image",
-      "path": "images/plants/aragwadha/whole_plant/image.jpg",
-      "bytes": 17928
+      "path": "images/plants/aragwadha/stem/image.jpg",
+      "bytes": 964187
     },
     {
-      "plant_id": "aragwadha",
+      "plant_id": "eranda",
       "part": "habit",
       "action": "downloaded-new-image",
-      "path": "images/plants/aragwadha/habit/image.jpg",
-      "bytes": 664852
+      "path": "images/plants/eranda/habit/image.jpg",
+      "bytes": 734633
+    },
+    {
+      "plant_id": "eranda",
+      "part": "stem",
+      "action": "downloaded-new-image",
+      "path": "images/plants/eranda/stem/image.jpg",
+      "bytes": 254889
+    },
+    {
+      "plant_id": "eranda",
+      "part": "leaf",
+      "action": "downloaded-new-image",
+      "path": "images/plants/eranda/leaf/image.jpg",
+      "bytes": 317163
+    },
+    {
+      "plant_id": "latakaranja",
+      "part": "flower",
+      "action": "downloaded-new-image",
+      "path": "images/plants/latakaranja/flower/image.jpg",
+      "bytes": 278412
+    },
+    {
+      "plant_id": "shigru",
+      "part": "habit",
+      "action": "downloaded-new-image",
+      "path": "images/plants/shigru/habit/image.jpg",
+      "bytes": 364299
     }
   ],
   "unresolved": [
@@ -41,11 +69,6 @@
     },
     {
       "plant_id": "aragwadha",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "aragwadha",
       "part": "leaf",
       "reason": "no-high-confidence-unique-image"
     },
@@ -811,22 +834,7 @@
     },
     {
       "plant_id": "eranda",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "eranda",
       "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "eranda",
-      "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "eranda",
-      "part": "leaf",
       "reason": "no-high-confidence-unique-image"
     },
     {
@@ -1597,11 +1605,6 @@
     {
       "plant_id": "latakaranja",
       "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "latakaranja",
-      "part": "flower",
       "reason": "no-high-confidence-unique-image"
     },
     {
@@ -3567,11 +3570,6 @@
     {
       "plant_id": "shigru",
       "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "shigru",
-      "part": "habit",
       "reason": "no-high-confidence-unique-image"
     },
     {
@@ -4165,7 +4163,7 @@
       "reason": "no-high-confidence-unique-image"
     }
   ],
-  "remaining_missing": 829,
+  "remaining_missing": 823,
   "local_asset_root": "images/plants/<plant>/<part>/image.*",
   "policy": {
     "exact_species_required": true,
