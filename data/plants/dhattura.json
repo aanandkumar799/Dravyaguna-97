@@ -163,18 +163,29 @@
   },
   "phytochemistry": {
     "major_constituents": [],
-    "chemical_notes": ""
+    "chemical_notes": "Phytochemical field intentionally left without a compound list until source-level verification is completed."
   },
   "modern_information": {
     "evidence_summary": "A toxic plant (Jimsonweed) used in purified form for asthma, pain, and skin diseases.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Botanical identification and pharmacognosy/dravyaguna education."
+    ],
+    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Botanical identity: Datura metel L.",
+      "Family: Solanaceae",
+      "Key identification: Flat kidney-shaped light yellowish-brown seeds with reticulated test, globose spinous capsule fruit, characteristic unpleasantly heavy narcotic odor and bitter acrid taste."
+    ],
+    "viva_questions": [
+      "What is the botanical name and family of Dhattura?",
+      "Which morphological characters help identify Dhattura?"
+    ],
+    "identification_points": [
+      "Flat kidney-shaped light yellowish-brown seeds with reticulated test, globose spinous capsule fruit, characteristic unpleasantly heavy narcotic odor and bitter acrid taste."
+    ],
     "mnemonics": [],
     "quick_revision": "A toxic plant (Jimsonweed) used in purified form for asthma, pain, and skin diseases."
   },
@@ -182,17 +193,31 @@
     "teaching_points": [
       "Retained as supplementary material from Gemini batches 88 and 102."
     ],
-    "discussion_points": [],
-    "practical_points": []
+    "discussion_points": [
+      "Compare the diagnostic characters of Dhattura with closely related or commonly substituted drugs.",
+      "Separate botanical identification from unverified classical-text claims."
+    ],
+    "practical_points": [
+      "Observe the diagnostic characters in authenticated material or herbarium specimens.",
+      "Record plant part used and identification basis separately."
+    ]
   },
   "doctor": {
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
-    "important_indications": [],
-    "useful_part": "",
+    "important_indications": [
+      "Shwasa (Bronchial asthma / Dyspnea)",
+      "Kasa (Cough / Spasmodic bronchitis)",
+      "Sandhishoola (Joint pain / Rheumatic pain)",
+      "Kushta (Skin diseases)",
+      "Juuka (Lice infestation / Scalp infections)",
+      "Unmada (Delirium / Agitation)"
+    ],
+    "useful_part": "Purified Seed (Shodhita Bija), Leaf (Patra), Root (Mula)",
     "dose": "",
     "anupana": "",
     "key_precautions": [
-      "Use authoritative identification and safety references."
+      "Use authoritative identification and safety references.",
+      "Toxicity risk: do not infer a clinical dose from this educational record."
     ]
   },
   "sources": [
@@ -234,7 +259,7 @@
       88
     ],
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured botanical identification enrichment"
+    "last_enrichment": "botanical + educational field enrichment"
   },
   "gemini_source_data": {
     "id": 88,
