@@ -31,7 +31,7 @@ function bindForm(){
 function loginUI(){
  var e=document.getElementById('dgLogin');if(!e)return;
  if(!user){
-   e.innerHTML='<div class="dg-feedback-login"><div><strong>Google verification required</strong><span>Sign in with the Google account already available in your browser. Anonymous feedback is disabled.</span></div><button type="button" class="dg-google-btn" id="dgGoogle">Continue with Google</button></div>';
+   e.innerHTML='<div class="dg-feedback-login"><div><strong>Google verification required</strong><span>Sign in with the Google account already available in your browser. Only verified Google accounts can submit feedback.</span></div><button type="button" class="dg-google-btn" id="dgGoogle">Continue with Google</button></div>';
    var b=document.getElementById('dgGoogle');if(b)b.onclick=googleLogin;
    var em=document.getElementById('dgEmail');if(em){em.value='';em.placeholder='Sign in with Google to continue';}
    return;
@@ -94,11 +94,11 @@ function submit(ev){
    rating:rating,
    message:message.slice(0,2000),
    correction_area:document.getElementById('dgCorrection').value||null,
-   user:{uid:user.uid,isAnonymous:!!user.isAnonymous,displayName:user.displayName||null,email:user.email||null,emailVerified:!!user.emailVerified,photoURL:user.photoURL||null},
+   user:{uid:user.uid,displayName:user.displayName||null,email:user.email||null,emailVerified:!!user.emailVerified,photoURL:user.photoURL||null},
    context:context(),status:'new',authProvider:'google.com',createdAt:firebase.firestore.FieldValue.serverTimestamp()
  };
  db.collection('reviews').add(payload)
- .then(function(){return db.collection('reviewUsers').doc(user.uid).set({uid:user.uid,isAnonymous:!!user.isAnonymous,displayName:user.displayName||null,email:user.email||null,emailVerified:!!user.emailVerified,photoURL:user.photoURL||null,lastSubmittedAt:firebase.firestore.FieldValue.serverTimestamp()},{merge:true})})
+ .then(function(){return db.collection('reviewUsers').doc(user.uid).set({uid:user.uid,displayName:user.displayName||null,email:user.email||null,emailVerified:!!user.emailVerified,lastSubmittedAt:firebase.firestore.FieldValue.serverTimestamp()},{merge:true})})
  .then(function(){
    document.getElementById('dgFeedbackForm').reset();
    document.getElementById('dgRating').value='0';
