@@ -22,9 +22,9 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "annual herb or shrub",
+    "habitat": "Seasonally dry tropical habitats; often in disturbed ground",
+    "distribution": "Seasonally dry tropical habitats; often in disturbed ground"
   },
   "identification": {
     "description": "Flat kidney-shaped light yellowish-brown seeds with reticulated test, globose spinous capsule fruit, characteristic unpleasantly heavy narcotic odor and bitter acrid taste.",
@@ -226,7 +226,7 @@
     }
   ],
   "metadata": {
-    "status": "supplementary_needs_source_verification",
+    "status": "supplementary_botanical_enriched_needs_classical_verification",
     "source_batch": "Gemini batches 88 and 102",
     "version": "1.0",
     "gemini_later_batches_reviewed": true,
@@ -234,7 +234,7 @@
       88
     ],
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+    "last_enrichment": "structured botanical identification enrichment"
   },
   "gemini_source_data": {
     "id": 88,
