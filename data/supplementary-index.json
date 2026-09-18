@@ -1,0 +1,145 @@
+{
+  "total": 14,
+  "plants": [
+    {
+      "id": "arka",
+      "name": "Arka",
+      "sanskrit_name": "अर्क",
+      "botanical_name": "Calotropis gigantea (L.) Dryand.",
+      "family": "Apocynaceae",
+      "english_name": "Crown flower",
+      "category": "Supplementary",
+      "status": "supplementary_needs_source_verification"
+    },
+    {
+      "id": "bhanga",
+      "name": "Bhanga",
+      "sanskrit_name": "भङ्गा",
+      "botanical_name": "Cannabis sativa L.",
+      "family": "Cannabaceae",
+      "english_name": "Cannabis",
+      "category": "Supplementary",
+      "status": "supplementary_needs_source_verification"
+    },
+    {
+      "id": "dhattura",
+      "name": "Dhattura",
+      "sanskrit_name": "Dhattura",
+      "botanical_name": "Datura metel L.",
+      "family": "Solanaceae",
+      "english_name": "Thorn Apple / Downy Datura",
+      "category": "Supplementary",
+      "status": "supplementary_needs_source_verification"
+    },
+    {
+      "id": "gunja",
+      "name": "Gunja",
+      "sanskrit_name": "Gunja",
+      "botanical_name": "Abrus precatorius L.",
+      "family": "Fabaceae (Papilionaceae)",
+      "english_name": "Rosary Pea / Jequirity Bean",
+      "category": "Supplementary",
+      "status": "supplementary_needs_source_verification"
+    },
+    {
+      "id": "jayapala",
+      "name": "Jayapala",
+      "sanskrit_name": "Jayapala",
+      "botanical_name": "Croton tiglium L.",
+      "family": "Euphorbiaceae",
+      "english_name": "Purging Croton",
+      "category": "Supplementary",
+      "status": "supplementary_needs_source_verification"
+    },
+    {
+      "id": "kankola",
+      "name": "Kankola",
+      "sanskrit_name": "कङ्कोल",
+      "botanical_name": "Cubeba officinalis Miq.",
+      "family": "Piperaceae",
+      "english_name": "Cubeb",
+      "category": "Supplementary",
+      "status": "supplementary_needs_source_verification"
+    },
+    {
+      "id": "karavira",
+      "name": "Karavira",
+      "sanskrit_name": "करवीर",
+      "botanical_name": "Nerium oleander L.",
+      "family": "Apocynaceae",
+      "english_name": "Oleander",
+      "category": "Supplementary",
+      "status": "supplementary_needs_source_verification"
+    },
+    {
+      "id": "karpura",
+      "name": "Karpura",
+      "sanskrit_name": "Karpura",
+      "botanical_name": "Cinnamomum camphora (L.) J.Presl",
+      "family": "Lauraceae",
+      "english_name": "Camphor",
+      "category": "Supplementary",
+      "status": "supplementary_needs_source_verification"
+    },
+    {
+      "id": "kiratatikta",
+      "name": "Kiratatikta",
+      "sanskrit_name": "Kiratatikta",
+      "botanical_name": "Swertia chirata Buch.-Ham.",
+      "family": "Gentianaceae",
+      "english_name": "Chirata / Bitter Stick",
+      "category": "Supplementary",
+      "status": "supplementary_needs_source_verification"
+    },
+    {
+      "id": "kupilu",
+      "name": "Kupilu",
+      "sanskrit_name": "कुपीलु",
+      "botanical_name": "Strychnos nux-vomica L.",
+      "family": "Loganiaceae",
+      "english_name": "Nux-vomica",
+      "category": "Supplementary",
+      "status": "supplementary_needs_source_verification"
+    },
+    {
+      "id": "langali",
+      "name": "Langali",
+      "sanskrit_name": "लाङ्गली",
+      "botanical_name": "Gloriosa superba L.",
+      "family": "Colchicaceae",
+      "english_name": "Gloriosa lily",
+      "category": "Supplementary",
+      "status": "supplementary_needs_source_verification"
+    },
+    {
+      "id": "parasika-yavani",
+      "name": "Parasika Yavani",
+      "sanskrit_name": "पारसीक यवानी",
+      "botanical_name": "",
+      "family": "Apiaceae",
+      "english_name": "Persian ajwain",
+      "category": "Supplementary",
+      "status": "supplementary_needs_source_verification"
+    },
+    {
+      "id": "snuhi",
+      "name": "Snuhi",
+      "sanskrit_name": "स्नुही",
+      "botanical_name": "Euphorbia neriifolia L.",
+      "family": "Euphorbiaceae",
+      "english_name": "Indian spurge tree",
+      "category": "Supplementary",
+      "status": "supplementary_needs_source_verification"
+    },
+    {
+      "id": "tejapatra",
+      "name": "Tejapatra",
+      "sanskrit_name": "तेजपत्त्र",
+      "botanical_name": "Cinnamomum tamala (Buch.-Ham.) T.Nees & Eberm.",
+      "family": "Lauraceae",
+      "english_name": "Indian bay leaf",
+      "category": "Supplementary",
+      "status": "supplementary_needs_source_verification"
+    }
+  ]
+}
