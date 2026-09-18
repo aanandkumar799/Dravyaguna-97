@@ -1,42 +1,14 @@
 {
-  "generated_at": "2026-09-18T05:23:58.554358+00:00",
+  "generated_at": "2026-09-18T14:23:19.764221+00:00",
   "plants_checked": 97,
   "slots_checked": 873,
   "filled_this_run": [
     {
-      "plant_id": "ashwagandha",
-      "part": "flower",
-      "action": "downloaded-new-image",
-      "path": "images/plants/ashwagandha/flower/image.jpg",
-      "bytes": 328089
-    },
-    {
-      "plant_id": "ashwagandha",
-      "part": "fruit",
-      "action": "downloaded-new-image",
-      "path": "images/plants/ashwagandha/fruit/image.jpg",
-      "bytes": 532917
-    },
-    {
-      "plant_id": "apamarga",
-      "part": "flower",
-      "action": "downloaded-new-image",
-      "path": "images/plants/apamarga/flower/image.jpg",
-      "bytes": 295382
-    },
-    {
-      "plant_id": "shalmali-mocharasa",
+      "plant_id": "chitraka",
       "part": "habit",
       "action": "downloaded-new-image",
-      "path": "images/plants/shalmali-mocharasa/habit/image.png",
-      "bytes": 731790
-    },
-    {
-      "plant_id": "shalmali-mocharasa",
-      "part": "root",
-      "action": "downloaded-new-image",
-      "path": "images/plants/shalmali-mocharasa/root/image.jpg",
-      "bytes": 1027207
+      "path": "images/plants/chitraka/habit/image.jpg",
+      "bytes": 310084
     }
   ],
   "unresolved": [
@@ -637,11 +609,6 @@
     },
     {
       "plant_id": "chitraka",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "chitraka",
       "part": "root",
       "reason": "no-high-confidence-unique-image"
     },
@@ -4131,7 +4098,7 @@
       "reason": "no-high-confidence-unique-image"
     }
   ],
-  "remaining_missing": 818,
+  "remaining_missing": 817,
   "local_asset_root": "images/plants/<plant>/<part>/image.*",
   "policy": {
     "exact_species_required": true,

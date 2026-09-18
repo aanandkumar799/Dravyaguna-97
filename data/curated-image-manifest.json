@@ -1972,13 +1972,15 @@
       "plant_name": "Chitraka",
       "botanical_name": "Plumbago zeylanica L.",
       "part": "habit",
-      "image_path": "",
-      "source_url": "",
-      "source_name": "",
-      "license": "",
-      "author": "",
-      "verified_botanical_name": "",
-      "verification_status": "missing-queued"
+      "image_path": "images/plants/chitraka/habit/image.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AGardenology.org-IMG_7744_qsbg11mar.jpg",
+      "source_name": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "author": "Raffi Kojian",
+      "verified_botanical_name": "Plumbago zeylanica L.",
+      "verification_status": "verified-local",
+      "source_media_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Gardenology.org-IMG_7744_qsbg11mar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "title": "Gardenology.org-IMG 7744 qsbg11mar.jpg"
     },
     {
       "plant_id": "chitraka",
