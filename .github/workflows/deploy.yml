@@ -82,8 +82,8 @@ jobs:
           if src.exists(): shutil.copy2(src,root/'favicon-exact.jpg')
           else: shutil.copy2(root/'favicon.svg',root/'favicon-exact.jpg') if (root/'favicon.svg').exists() else None
           m=json.loads((root/'manifest.json').read_text(encoding='utf-8'))
-          if (root/'favicon-exact.jpg').exists(): m['icons']=[{'src':'favicon-exact.jpg','sizes':'128x128','type':'image/jpeg','purpose':'any'}]
-          (root/'manifest.json').write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          found={str(i.get('sizes','')) for i in m.get('icons',[])}
+          assert {'192x192','512x512'}.issubset(found), f'PWA manifest must retain 192x192 and 512x512 icons; found {sorted(found)}'
           (root/' .nojekyll'.strip()).touch()
           PY
       - name: Upload Pages artifact
