@@ -1,14 +1,49 @@
 {
-  "generated_at": "2026-09-18T00:18:35.821070+00:00",
+  "generated_at": "2026-09-18T01:15:30.802512+00:00",
   "plants_checked": 97,
   "slots_checked": 873,
   "filled_this_run": [
     {
-      "plant_id": "kumkum",
-      "part": "whole_plant",
+      "plant_id": "kapikachhu",
+      "part": "flower",
       "action": "downloaded-new-image",
-      "path": "images/plants/kumkum/whole_plant/image.jpg",
-      "bytes": 57376
+      "path": "images/plants/kapikachhu/flower/image.jpg",
+      "bytes": 964756
+    },
+    {
+      "plant_id": "kapikachhu",
+      "part": "fruit",
+      "action": "downloaded-new-image",
+      "path": "images/plants/kapikachhu/fruit/image.jpg",
+      "bytes": 519336
+    },
+    {
+      "plant_id": "japa",
+      "part": "leaf",
+      "action": "downloaded-new-image",
+      "path": "images/plants/japa/leaf/image.jpg",
+      "bytes": 260993
+    },
+    {
+      "plant_id": "japa",
+      "part": "flower",
+      "action": "downloaded-new-image",
+      "path": "images/plants/japa/flower/image.jpg",
+      "bytes": 460427
+    },
+    {
+      "plant_id": "nirgundi",
+      "part": "flower",
+      "action": "downloaded-new-image",
+      "path": "images/plants/nirgundi/flower/image.jpg",
+      "bytes": 523038
+    },
+    {
+      "plant_id": "nirgundi",
+      "part": "fruit",
+      "action": "downloaded-new-image",
+      "path": "images/plants/nirgundi/fruit/image.jpg",
+      "bytes": 410738
     }
   ],
   "unresolved": [
@@ -1325,14 +1360,12 @@
     {
       "plant_id": "kantakari",
       "part": "leaf",
-      "reason": "download-failed",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kantakari",
       "part": "flower",
-      "reason": "download-failed",
-      "detail": "HTTP Error 429: Too many requests (f061ab2)"
+      "reason": "no-high-confidence-unique-image"
     },
     {
       "plant_id": "kantakari",
@@ -1376,16 +1409,6 @@
     },
     {
       "plant_id": "kapikachhu",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kapikachhu",
-      "part": "fruit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kapikachhu",
       "part": "seed",
       "reason": "no-high-confidence-unique-image"
     },
@@ -2226,16 +2249,6 @@
     },
     {
       "plant_id": "japa",
-      "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "japa",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "japa",
       "part": "fruit",
       "reason": "no-high-confidence-unique-image"
     },
@@ -3012,16 +3025,6 @@
     {
       "plant_id": "nirgundi",
       "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nirgundi",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "nirgundi",
-      "part": "fruit",
       "reason": "no-high-confidence-unique-image"
     },
     {
@@ -4265,7 +4268,7 @@
       "reason": "no-high-confidence-unique-image"
     }
   ],
-  "remaining_missing": 850,
+  "remaining_missing": 844,
   "local_asset_root": "images/plants/<plant>/<part>/image.*",
   "policy": {
     "exact_species_required": true,
