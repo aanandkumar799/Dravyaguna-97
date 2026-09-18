@@ -106,25 +106,28 @@
   },
   "phytochemistry": {
     "major_constituents": [],
-    "chemical_notes": "Phytochemical field intentionally left without a compound list until source-level verification is completed."
+    "chemical_notes": "Kew POWO describes Nerium oleander as accepted and highly toxic; this safety status should remain prominent."
   },
   "modern_information": {
     "evidence_summary": "Oleander is a toxic plant used externally after processing for skin diseases and wound healing.",
     "recognized_uses": [
       "Botanical identification and pharmacognosy/dravyaguna education."
     ],
-    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use.",
+    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use. Highly toxic plant; do not infer oral dose or treatment from this page. Kew explicitly describes Nerium oleander as highly toxic and records it as both a poison and a medicine.",
     "sources": []
   },
   "student": {
     "exam_points": [
       "Botanical identity: Nerium oleander L.",
       "Family: Apocynaceae",
-      "Key identification: Leaves occur in whorls and are narrow and leathery. Flowers may be white, pink or red. Fruit consists of paired follicles."
+      "Key identification: Leaves occur in whorls and are narrow and leathery. Flowers may be white, pink or red. Fruit consists of paired follicles.",
+      "Key identification: narrow leathery leaves, showy flowers and paired follicles."
     ],
     "viva_questions": [
       "What is the botanical name and family of Karavira?",
-      "Which morphological characters help identify Karavira?"
+      "Which morphological characters help identify Karavira?",
+      "What fruit type is characteristic of Karavira?",
+      "What major safety issue must be remembered when handling Karavira?"
     ],
     "identification_points": [
       "Leaves occur in whorls and are narrow and leathery.",
@@ -132,11 +135,13 @@
       "Fruit consists of paired follicles."
     ],
     "mnemonics": [],
-    "quick_revision": "Oleander is a toxic plant used externally after processing for skin diseases and wound healing."
+    "quick_revision": "Karavira — Nerium oleander L.; Kew identifies it as an accepted, highly toxic shrub/tree occurring from the Mediterranean to Myanmar and native in India."
   },
   "teacher": {
     "teaching_points": [
-      "Retained as supplementary material from Gemini batch 94."
+      "Retained as supplementary material from Gemini batch 94.",
+      "Use Karavira to teach botanical identification together with explicit toxic-plant safety documentation.",
+      "Separate traditional indications from modern toxicology and avoid unsupported clinical extrapolation."
     ],
     "discussion_points": [
       "Compare the diagnostic characters of Karavira with closely related or commonly substituted drugs.",
@@ -144,7 +149,9 @@
     ],
     "practical_points": [
       "Observe the diagnostic characters in authenticated material or herbarium specimens.",
-      "Record plant part used and identification basis separately."
+      "Record plant part used and identification basis separately.",
+      "Observe leaf arrangement, venation, flower colour and paired follicles in authenticated material.",
+      "Use photographs/herbarium material rather than handling plant material unnecessarily."
     ]
   },
   "doctor": {
@@ -161,7 +168,9 @@
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references.",
-      "Toxicity risk: do not infer a clinical dose from this educational record."
+      "Toxicity risk: do not infer a clinical dose from this educational record.",
+      "Highly toxic plant; do not infer oral dose or treatment from this page.",
+      "Kew explicitly describes Nerium oleander as highly toxic and records it as both a poison and a medicine."
     ]
   },
   "sources": [
