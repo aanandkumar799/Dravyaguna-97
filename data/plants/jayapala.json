@@ -154,35 +154,40 @@
   },
   "phytochemistry": {
     "major_constituents": [],
-    "chemical_notes": "Phytochemical field intentionally left without a compound list until source-level verification is completed."
+    "chemical_notes": "Croton tiglium is an accepted species in Kew POWO; the record should retain a strong toxicology/verification warning."
   },
   "modern_information": {
     "evidence_summary": "Croton tiglium is the most potent purgative in Ayurveda and must be used only after purification and in minute doses.",
     "recognized_uses": [
       "Botanical identification and pharmacognosy/dravyaguna education."
     ],
-    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use.",
+    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use. Toxic plant; this educational record must not be used to infer dose or unsupervised treatment. Croton tiglium is documented by Kew as a species native across tropical/subtropical Asia; safety information should be checked independently before clinical application.",
     "sources": []
   },
   "student": {
     "exam_points": [
       "Botanical identity: Croton tiglium L.",
       "Family: Euphorbiaceae",
-      "Key identification: Oval 3-angled dark dull brownish seeds with a thin brittle outer test enclosing an oily pale yellow kernel, intensely acrid taste causing severe burning throat irritation."
+      "Key identification: Oval 3-angled dark dull brownish seeds with a thin brittle outer test enclosing an oily pale yellow kernel, intensely acrid taste causing severe burning throat irritation.",
+      "Drug part: seed; identification is based primarily on characteristic seed morphology."
     ],
     "viva_questions": [
       "What is the botanical name and family of Jayapala?",
-      "Which morphological characters help identify Jayapala?"
+      "Which morphological characters help identify Jayapala?",
+      "Which part of Jayapala is used as the drug?",
+      "Why must Jayapala records be checked against authoritative toxicology before clinical use?"
     ],
     "identification_points": [
       "Oval 3-angled dark dull brownish seeds with a thin brittle outer test enclosing an oily pale yellow kernel, intensely acrid taste causing severe burning throat irritation."
     ],
     "mnemonics": [],
-    "quick_revision": "Croton tiglium is the most potent purgative in Ayurveda and must be used only after purification and in minute doses."
+    "quick_revision": "Jayapala — purgative seed drug; Croton tiglium L. is accepted by Kew and is native across tropical/subtropical Asia including India. Keep toxicity warning prominent."
   },
   "teacher": {
     "teaching_points": [
-      "Retained as supplementary material from Gemini batch 87."
+      "Retained as supplementary material from Gemini batch 87.",
+      "Use Jayapala as a discussion example for identity, drug part, purification, and safety documentation.",
+      "Distinguish botanical evidence from classical-text claims that still require edition-level verification."
     ],
     "discussion_points": [
       "Compare the diagnostic characters of Jayapala with closely related or commonly substituted drugs.",
@@ -190,7 +195,9 @@
     ],
     "practical_points": [
       "Observe the diagnostic characters in authenticated material or herbarium specimens.",
-      "Record plant part used and identification basis separately."
+      "Record plant part used and identification basis separately.",
+      "Use authenticated seed material or herbarium specimens for practical identification.",
+      "Record seed morphology and specimen provenance separately."
     ]
   },
   "doctor": {
@@ -208,7 +215,9 @@
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references.",
-      "Toxicity risk: do not infer a clinical dose from this educational record."
+      "Toxicity risk: do not infer a clinical dose from this educational record.",
+      "Toxic plant; this educational record must not be used to infer dose or unsupervised treatment.",
+      "Croton tiglium is documented by Kew as a species native across tropical/subtropical Asia; safety information should be checked independently before clinical application."
     ]
   },
   "sources": [
