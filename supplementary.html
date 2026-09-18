@@ -58,18 +58,51 @@ const card=(p,i)=>{
  '<a class="view-plant" href="supplementary-plant.html?id='+encodeURIComponent(id)+'">Open Reference →</a>'+
  '</div></article>';
 };
-Promise.all(ids.map(id=>fetch('data/plants/'+encodeURIComponent(id)+'.json?v=2',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('Failed to load '+id);return r.json()})))
-.then(plants=>{
- const rows=plants.filter(p=>p&&String(p.category||'').toLowerCase()==='supplementary');
- g.innerHTML=rows.map(card).join('');
+const errorCard=(title,details)=>'<div class="supplementary-card"><div class="supplementary-image" aria-hidden="true">⚠️</div><div class="supplementary-card-content"><h3>'+esc(title)+'</h3><p>'+esc(details)+'</p><button type="button" class="view-plant" onclick="location.reload()">Retry loading</button></div></div>';
+
+async function loadRecord(id){
+ const url=new URL('./data/plants/'+encodeURIComponent(id)+'.json',document.baseURI);
+ url.searchParams.set('v','3');
+ const response=await fetch(url.href,{cache:'no-store'});
+ if(!response.ok)throw new Error(id+': HTTP '+response.status);
+ const data=await response.json();
+ if(!data||typeof data!=='object')throw new Error(id+': invalid JSON object');
+ return data;
+}
+
+Promise.allSettled(ids.map(loadRecord)).then(results=>{
+ const plants=[];
+ const failures=[];
+ results.forEach((result,i)=>{
+   if(result.status==='fulfilled')plants.push(result.value);
+   else failures.push(result.reason?.message||('Failed to load '+ids[i]));
+ });
+ const rows=plants.filter(p=>String(p.category||'').toLowerCase()==='supplementary');
+ if(rows.length){
+   g.innerHTML=rows.map(card).join('');
+   if(failures.length){
+     const note=document.createElement('p');
+     note.setAttribute('role','status');
+     note.style.cssText='grid-column:1/-1;margin:0;padding:10px 12px;border-radius:10px;background:var(--dg-surface-2,#f5f8f4);color:var(--dg-muted,#68756d);font-size:.88rem';
+     note.textContent=failures.length+' record(s) could not be loaded: '+failures.join(', ');
+     g.appendChild(note);
+   }
+ }else{
+   g.innerHTML=errorCard('Unable to load supplementary records','No supplementary plant records could be loaded. Check your connection and GitHub Pages deployment, then retry.');
+   console.error('Supplementary data load failures:',failures);
+   return;
+ }
  g.querySelectorAll('[data-favorite]').forEach(btn=>btn.addEventListener('click',()=>{
    const fav=getFavorites(),id=String(btn.dataset.favorite);
    fav.has(id)?fav.delete(id):fav.add(id);saveFavorites(fav);
-   const active=fav.has(id);btn.classList.toggle('active',active);btn.setAttribute('aria-pressed',String(active));btn.textContent=active?'★':'☆';
-   const n=btn.getAttribute('aria-label')||'';btn.setAttribute('aria-label',n.replace(/^(Remove|Add)/,active?'Remove':'Add').replace(/ (from|to) favourites$/,' '+(active?'from':'to')+' favourites'));
+   const active=fav.has(id);btn.classList.toggle('active',active);btn.setAttribute('aria-pressed',String(active));
+   btn.textContent=active?'★':'☆';
+   btn.setAttribute('aria-label',(active?'Remove':'Add')+' '+(btn.getAttribute('aria-label')||'').replace(/^(Remove|Add)\s+/,'').replace(/\s+(from|to) favourites$/,'')+' '+(active?'from':'to')+' favourites');
  });
-})
-.catch(err=>{console.error(err);g.innerHTML='<div class="supplementary-card"><div class="supplementary-image" aria-hidden="true">⚠️</div><div class="supplementary-card-content"><h3>Unable to load</h3><p>Please refresh the page.</p></div></div>'});
+}).catch(err=>{
+ console.error('Supplementary loader error:',err);
+ g.innerHTML=errorCard('Unable to load supplementary records','A JavaScript or data-loading error occurred. Please refresh the page or use Retry loading.');
+});
 })();
 </script>
 
