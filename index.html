@@ -114,6 +114,32 @@ html[data-theme="dark"] .home-result h3{color:#e9f7ee}
 html[data-theme="dark"] .home-result .latin,html[data-theme="dark"] .home-result-areas{color:#afc3b7}
 html[data-theme="dark"] .home-result-meta span{background:#1b3428;border-color:#365547;color:#bcefd0}
 html[data-theme="dark"] .home-search-empty{color:#afc3b7}
+</style><style>
+/* Homepage feedback CTA */
+.dg-feedback-footer-link{margin:14px auto 6px;text-align:center}
+.dg-feedback-footer-link a{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-width:230px;padding:15px 24px;
+  font-size:1.16rem;line-height:1.35;font-weight:900;
+  letter-spacing:.15px;border-radius:14px;
+  color:var(--green);background:#fff;
+  border:2px solid #9fcbb0;
+  box-shadow:0 8px 22px rgba(7,59,42,.12);
+  transition:transform .18s ease,box-shadow .18s ease,background .18s ease;
+}
+.dg-feedback-footer-link a:hover,.dg-feedback-footer-link a:focus-visible{
+  transform:translateY(-2px);box-shadow:0 12px 28px rgba(7,59,42,.17);
+  background:#f1f8f3;text-decoration:none;
+}
+@media(max-width:560px){
+  .dg-feedback-footer-link a{min-width:250px;padding:14px 20px;font-size:1.12rem}
+}
+html[data-theme="dark"] .dg-feedback-footer-link a{
+  color:#e8f7ee;background:#172820;border-color:#47735d;
+  box-shadow:0 8px 24px rgba(0,0,0,.25)
+}
+html[data-theme="dark"] .dg-feedback-footer-link a:hover,
+html[data-theme="dark"] .dg-feedback-footer-link a:focus-visible{background:#1d3529}
 </style></head>
 <body>
 <header class="site-header">
@@ -127,7 +153,6 @@ html[data-theme="dark"] .home-search-empty{color:#afc3b7}
       <a href="compare.html">⚖️ Compare</a>
       <a href="quiz.html">🧠 Quiz</a>
       <a href="supplementary.html">🌱 Supplementary</a>
-      <button id="install" class="install-nav" type="button" aria-label="Install DravyaGuna 97">📲 Install</button>
     </nav>
   </div>
 </header>
@@ -213,34 +238,7 @@ html[data-theme="dark"] .home-search-empty{color:#afc3b7}
     location.href=q?'plants.html?q='+encodeURIComponent(q)+'#search':'plants.html#search';
   });
 
-  const install=document.getElementById('install');
-  let deferred=null;
-  const standalone=()=>window.matchMedia&&window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;
-  function refreshInstall(){if(!install)return;if(standalone())install.classList.add('is-installed');else install.classList.remove('is-installed');}
-  window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferred=e;refreshInstall()});
-  install?.addEventListener('click',async()=>{
-    if(deferred){deferred.prompt();try{await deferred.userChoice}catch(e){}deferred=null;refreshInstall();return;}
-    if(!standalone())alert('If the install prompt does not appear, use your browser menu and choose “Install app” or “Add to Home screen”.');
-  });
-  window.addEventListener('appinstalled',()=>{deferred=null;refreshInstall()});refreshInstall();
 
-  const featured=document.getElementById('featuredPlants');
-  const esc=v=>String(v??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');
-  const norm=v=>String(v??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
-  function placeholder(label){
-    const svg='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520"><rect width="800" height="520" fill="#edf5ef"/><text x="400" y="230" text-anchor="middle" font-family="Arial" font-size="72">🌿</text><text x="400" y="310" text-anchor="middle" font-family="Arial" font-size="28" fill="#1b4332">'+esc(label)+'</text></svg>';
-    return 'data:image/svg+xml;charset=UTF-8,'+encodeURIComponent(svg);
-  }
-  function renderPlants(rows){
-    const selected=rows.filter(p=>String(p.category||'').toUpperCase()==='NCISM-97').sort((a,b)=>Number(a.order)-Number(b.order)).slice(0,4);
-    if(!selected.length){featured.innerHTML='<div class="plant-mini"><div class="plant-mini-body">Plant index unavailable.</div></div>';return;}
-    featured.innerHTML=selected.map(p=>{
-      const id=String(p.id||''),name=String(p.name||id),img='images/plants/'+encodeURIComponent(id)+'/whole_plant/image.jpg';
-      return '<article class="plant-mini"><div class="plant-mini-image"><img src="'+img+'" alt="'+esc(name)+' — whole-plant photograph" loading="lazy" onerror="this.onerror=null;this.src=\''+placeholder(name)+'\'"></div><div class="plant-mini-body"><div class="plant-mini-top"><span class="plant-num">#'+esc(p.order)+'</span><span class="plant-badge">NCISM-97</span></div><h3>'+esc(name)+'</h3><p class="sanskrit">'+esc(p.sanskrit_name||'')+'</p><p class="botanical">'+esc(p.botanical_name||'')+'</p><a class="go" href="plant.html?id='+encodeURIComponent(id)+'">Open Dossier →</a></div></article>';
-    }).join('');
-  }
-  fetch('plant-index.json?v=100',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(data=>renderPlants(Array.isArray(data?.plants)?data.plants:Array.isArray(data)?data:[])).catch(()=>{featured.innerHTML='<div class="plant-mini"><div class="plant-mini-body"><strong>Plant preview unavailable.</strong><br><small>Open the full Plant Series to browse all indexed records.</small></div></div>';});
-  if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
 })();
 </script>
 <script>
