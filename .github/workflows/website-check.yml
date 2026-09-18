@@ -111,6 +111,31 @@ jobs:
           directory: .
           enforce_https: false
           disable_external: false
+          # NCISM blocks automated link probes with HTTP 409; keep these official references without failing the health check.
+          ignore_url_re: '^https://ncismindia\\.org/.*
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 20
+      - name: Run Lighthouse CI
+        run: |
+          npm install -g @lhci/cli@0.15.x
+          lhci autorun
+      - name: Commit generated site corrections
+        if: github.event_name != 'pull_request' && (github.event_name != 'push' || github.actor != 'github-actions[bot]')
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add plant-index.json plants.json sitemap.xml robots.txt *.html favicon.png images/favicon.png
+          if git diff --cached --quiet; then
+            echo 'No generated site corrections to commit.'
+          else
+            git commit -m 'Auto-fix generated site artifacts'
+            git push
+          fi
+      - name: Website health check complete
+        run: echo "DRAVYAGUNA 97 WEBSITE HEALTH CHECK PASSED"
+
       - name: Setup Node.js
         uses: actions/setup-node@v7
         with:
