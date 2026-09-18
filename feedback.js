@@ -31,26 +31,26 @@ function bindForm(){
 function loginUI(){
  var e=document.getElementById('dgLogin');if(!e)return;
  if(!user){
-   e.innerHTML='<div class="dg-feedback-login"><div><strong>Google verification required</strong><span>Sign in with the Google account already available in your browser. Only verified Google accounts can submit feedback.</span></div><button type="button" class="dg-google-btn" id="dgGoogle">Continue with Google</button></div>';
+   e.innerHTML='<div class="dg-feedback-login"><div><strong>Sign in to send feedback</strong><span>Continue with Google to submit your suggestion.</span></div><button type="button" class="dg-google-btn" id="dgGoogle">Continue with Google</button></div>';
    var b=document.getElementById('dgGoogle');if(b)b.onclick=googleLogin;
    var em=document.getElementById('dgEmail');if(em){em.value='';em.placeholder='Sign in with Google to continue';}
    return;
  }
  var providerOk=user.providerData&&user.providerData.some(function(p){return p.providerId==='google.com';});
  if(!providerOk||!user.email||user.emailVerified!==true){
-   e.innerHTML='<div class="dg-feedback-login"><div><strong>Verified Google account required</strong><span>Please sign in with a Google account whose email is verified.</span></div><button type="button" class="dg-google-btn" id="dgGoogle">Verify with Google</button></div>';
+   e.innerHTML='<div class="dg-feedback-login"><div><strong>Sign in to send feedback</strong><span>Please continue with Google to submit your suggestion.</span></div><button type="button" class="dg-google-btn" id="dgGoogle">Continue with Google</button></div>';
    var rb=document.getElementById('dgGoogle');if(rb)rb.onclick=googleLogin;
    var rem=document.getElementById('dgEmail');if(rem)rem.value='';
    return;
  }
- e.innerHTML='<div class="dg-feedback-login"><div class="dg-user"><div class="dg-avatar">'+(user.photoURL?'<img src="'+esc(user.photoURL)+'" alt="">':'👤')+'</div><div class="dg-user-text"><strong>'+esc(user.displayName||'Verified Google user')+'</strong><span>'+esc(user.email)+' • Verified Google account</span></div></div><button type="button" class="dg-signout" id="dgSignout">Sign out</button></div>';
+ e.innerHTML='<div class="dg-feedback-login"><div class="dg-user"><div class="dg-avatar">'+(user.photoURL?'<img src="'+esc(user.photoURL)+'" alt="">':'👤')+'</div><div class="dg-user-text"><strong>'+esc(user.displayName||'Signed-in user')+'</strong><span>'+esc(user.email)+'</span></div></div><button type="button" class="dg-signout" id="dgSignout">Sign out</button></div>';
  var sb=document.getElementById('dgSignout');if(sb)sb.onclick=function(){auth.signOut()};
  var em2=document.getElementById('dgEmail');if(em2)em2.value=user.email;
 }
 
 function initFirebase(){
- if(!configured()){loginUI();status('Google-verified feedback storage is not configured right now.','err');return;}
- if(!window.firebase){loginUI();status('Google verification could not load. Please refresh the page and try again.','err');return;}
+ if(!configured()){loginUI();status('Feedback storage is not configured right now.','err');return;}
+ if(!window.firebase){loginUI();status('Google sign-in could not load. Please refresh the page and try again.','err');return;}
  try{
    if(window.firebase.apps&&window.firebase.apps.length)window.firebase.app();else window.firebase.initializeApp(cfg);
    auth=window.firebase.auth();
@@ -63,12 +63,12 @@ function initFirebase(){
    console.error('Firebase initialization failed',e);
    firebaseReady=false;
    loginUI();
-   status('Google verification could not start. Please refresh the page and try again.','err');
+   status('Google sign-in could not start. Please refresh the page and try again.','err');
  }
 }
 
 function googleLogin(){
- if(!firebaseReady||!auth)return status('Google verification is not ready yet. Please wait a moment and try again.','err');
+ if(!firebaseReady||!auth)return status('Google sign-in is not ready yet. Please wait a moment and try again.','err');
  var p=new firebase.auth.GoogleAuthProvider();p.setCustomParameters({prompt:'select_account'});
  status('Opening Google sign-in…','loading');
  var mobile=/Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
@@ -81,9 +81,9 @@ function googleLogin(){
 
 function submit(ev){
  ev.preventDefault();
- if(!firebaseReady||!user||!db)return status('Please complete Google verification before submitting feedback.','err');
+ if(!firebaseReady||!user||!db)return status('Please sign in with Google before submitting feedback.','err');
  var providerOk=user.providerData&&user.providerData.some(function(p){return p.providerId==='google.com';});
- if(!providerOk||!user.email||user.emailVerified!==true)return status('A verified Google account is required to submit feedback.','err');
+ if(!providerOk||!user.email||user.emailVerified!==true)return status('Please sign in with Google before submitting feedback.','err');
  var rating=Number(document.getElementById('dgRating').value),message=document.getElementById('dgMessage').value.trim();
  if(!rating){document.querySelector('.dg-rating').classList.add('invalid');return status('Please select a rating.','err')}
  if(!message)return status('Please enter your feedback details.','err');
