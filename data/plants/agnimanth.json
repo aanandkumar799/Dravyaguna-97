@@ -75,10 +75,14 @@
   },
   "dravya_guna": {
     "rasa": [
-      "Tikta"
+      "Katu",
+      "Tikta",
+      "Kashaya",
+      "Madhura"
     ],
     "guna": [
-      "Laghu"
+      "Laghu",
+      "Ruksha"
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
@@ -86,7 +90,12 @@
       "Shoolaghna",
       "Virechana"
     ],
-    "karma": []
+    "karma": [
+      "Shothaghna",
+      "Agnivardhaka",
+      "Vibandhahara",
+      "Jwarahara"
+    ]
   },
   "dosha": {
     "vata": "shamaka",
@@ -350,13 +359,15 @@
     "status": "textbook_enriched_taxonomy_cross_checked",
     "last_verified": "2026-09-18",
     "verified_by": "source-assisted repository review",
-    "version": "1.5",
+    "version": "1.6",
     "image_enrichment_note": "Existing image retained; additional part-specific verified images still required.",
     "last_enrichment": "user-supplied textbook pages 14–20: full morphology + Grahya Lakshana + classical classification + therapeutic applications + formulations + synonyms/varieties + pharmacology/research + MCQs",
     "quality_pass": "2026-09-17",
     "source_note": "This enrichment is based on the supplied textbook photographs. Exact Sanskrit verse wording and bibliographic edition/page details should be checked against the physical source.",
     "taxonomy_cross_check": "Current Kew taxonomy cross-check added 2026-09-18; textbook nomenclature retained for educational continuity.",
-    "verification_scope": "Existing Agnimantha textbook-enriched record cross-checked against current botanical taxonomy; textbook wording is paraphrased, not copied."
+    "verification_scope": "Existing Agnimantha textbook-enriched record cross-checked against current botanical taxonomy; textbook wording is paraphrased, not copied.",
+    "mcq_note": "MCQs are original revision questions authored for the website; they are not copied from the supplied textbook.",
+    "formulation_note": "Formulations are stored once in the canonical formulations array to prevent duplicate rendering."
   },
   "category": "NCISM-97",
   "syllabus_marker": "NCISM-97",
@@ -381,56 +392,6 @@
       "Jwarahara"
     ]
   },
-  "important_formulations": [
-    {
-      "name": "Dashamularishta",
-      "dosage_form": "Arishta",
-      "indication": "Aruchi, Shula, Shwasa",
-      "reference": "Supplied textbook, Important formulations"
-    },
-    {
-      "name": "Dashamula kwatha",
-      "dosage_form": "Kwatha",
-      "indication": "Jwara, Kasa, Shwasa",
-      "reference": "Supplied textbook, Important formulations"
-    },
-    {
-      "name": "Dhanvantara ghrita",
-      "dosage_form": "Ghrita",
-      "indication": "Kushtha, Prameha, Shotha",
-      "reference": "Supplied textbook, Important formulations"
-    },
-    {
-      "name": "Narayana taila",
-      "dosage_form": "Taila",
-      "indication": "Vatavyadhi, Prakupitavata",
-      "reference": "Supplied textbook, Important formulations"
-    },
-    {
-      "name": "Indukanta ghrita",
-      "dosage_form": "Ghrita",
-      "indication": "Vatavyadhi, Kshaya",
-      "reference": "Supplied textbook, Important formulations"
-    },
-    {
-      "name": "Prathama Brahmarasayana",
-      "dosage_form": "Rasayana",
-      "indication": "Ayurvardhaka",
-      "reference": "Supplied textbook, Important formulations"
-    },
-    {
-      "name": "Agurvadya Taila",
-      "dosage_form": "Taila",
-      "indication": "Shitajwara",
-      "reference": "Supplied textbook, Important formulations"
-    },
-    {
-      "name": "Baladi lepa",
-      "dosage_form": "Lepa",
-      "indication": "Visarpa",
-      "reference": "Supplied textbook, Important formulations"
-    }
-  ],
   "grahya_lakshana": {
     "useful_part": "Mula (root) / Mula twak (root bark)",
     "diagnostic_characters": [
@@ -535,84 +496,84 @@
   ],
   "mcqs": [
     {
-      "question": "Useful part of Agnimantha is",
+      "question": "Agnimantha is included in which classical drug group?",
       "options": [
-        "Patra",
-        "Kanda",
-        "Mula twak",
-        "Phala"
+        "Dashamoola",
+        "Triphala",
+        "Panchakola",
+        "Jivaniya"
       ],
-      "answer": "Mula twak"
+      "answer": "Dashamoola"
     },
     {
-      "question": "Pradhana Rasa of Agnimantha",
+      "question": "Which combination correctly represents Agnimantha's Rasa-Panchaka?",
       "options": [
-        "Madhura",
-        "Katu",
-        "Kashaya",
-        "Arla"
+        "Katu–Tikta–Kashaya–Madhura; Laghu–Ruksha; Ushna; Katu",
+        "Madhura–Amla; Guru–Snigdha; Sheeta; Madhura",
+        "Katu–Amla; Laghu–Snigdha; Sheeta; Katu",
+        "Tikta only; Guru–Snigdha; Sheeta; Madhura"
       ],
-      "answer": "Katu"
+      "answer": "Katu–Tikta–Kashaya–Madhura; Laghu–Ruksha; Ushna; Katu"
     },
     {
-      "question": "Pradhana Karma of Agnimantha",
+      "question": "Which plant part is primarily described for identification and use of Agnimantha?",
       "options": [
-        "Brahmana",
-        "Bhedana",
-        "Balya",
-        "Shothaghna"
+        "Root/root bark",
+        "Fruit",
+        "Seed",
+        "Flower"
+      ],
+      "answer": "Root/root bark"
+    },
+    {
+      "question": "Agnimantha's therapeutic profile in the verified record prominently includes which action?",
+      "options": [
+        "Shothaghna",
+        "Vamanopaga",
+        "Stanyajanana",
+        "Vishaghna"
       ],
       "answer": "Shothaghna"
     },
     {
-      "question": "Agnimantha Kashaya is effective in",
+      "question": "Which botanical name is retained as the traditional/textbook name while the current accepted Kew name is Premna serratifolia L.?",
       "options": [
-        "Vasameha",
-        "Haridrameha",
-        "Shukrameha",
-        "—"
-      ],
-      "answer": "Vasameha"
-    },
-    {
-      "question": "Premnine, an alkaloid, is present in",
-      "options": [
-        "Ahiphena",
-        "Arka",
-        "Agnimantha",
-        "—"
-      ],
-      "answer": "Agnimantha"
-    },
-    {
-      "question": "Vaijayantika is a synonym of",
-      "options": [
-        "Amalaki",
-        "Agnimantha",
-        "Arka",
-        "—"
-      ],
-      "answer": "Agnimantha"
-    },
-    {
-      "question": "Premna integrifolia is the botanical name of",
-      "options": [
-        "Haridra",
-        "Panasa",
-        "Ashoka",
-        "Brihat Agnimantha"
-      ],
-      "answer": "Brihat Agnimantha"
-    },
-    {
-      "question": "Substitute for Agnimantha",
-      "options": [
+        "Premna integrifolia L.",
         "Premna mucronata",
-        "Plumbago zeylanica",
-        "Withania somnifera",
-        "Aegle marmelos"
+        "Clerodendrum inerme",
+        "Premna latifolia"
       ],
-      "answer": "Premna mucronata"
+      "answer": "Premna integrifolia L."
+    },
+    {
+      "question": "Which constituent is specifically recorded as an alkaloid in the verified Agnimantha record?",
+      "options": [
+        "Premnine",
+        "Curcumin",
+        "Piperine",
+        "Eugenol"
+      ],
+      "answer": "Premnine"
+    },
+    {
+      "question": "Which feature is useful for recognizing Agnimantha in the field?",
+      "options": [
+        "Terminal pubescent paniculate corymbose inflorescences",
+        "Large solitary underground rhizomes",
+        "Spiny globose fruits in clusters",
+        "Umbels of large white flowers"
+      ],
+      "answer": "Terminal pubescent paniculate corymbose inflorescences"
+    },
+    {
+      "question": "Which botanical placement is current for the genus Premna in the verified taxonomy note?",
+      "options": [
+        "Lamiaceae",
+        "Fabaceae",
+        "Apiaceae",
+        "Solanaceae"
+      ],
+      "answer": "Lamiaceae"
     }
   ],
   "research_corner": [
