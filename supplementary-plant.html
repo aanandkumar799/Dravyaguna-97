@@ -1,29 +1,121 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta name="theme-color" content="#1b4332"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="site-theme.css?v=8"><link rel="stylesheet" href="plant-dossier-layout.css"><title>Supplementary Plant Reference | DravyaGuna 97</title><script src="site-theme.js?v=1" defer></script>\n</head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta name="theme-color" content="#1b4332"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="site-theme.css?v=10"><link rel="stylesheet" href="plant-dossier-layout.css"><style>
+.supp-image-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin-top:16px}
+.supp-image-card{margin:0;border:1px solid var(--dg-border,#dfe6df);border-radius:14px;overflow:hidden;background:var(--dg-surface,#fff)}
+.supp-image-card img{display:block;width:100%;height:220px;object-fit:cover;background:var(--dg-surface-2,#f5f8f4)}
+.supp-image-card figcaption{padding:10px 12px;display:grid;gap:4px}
+.supp-image-card figcaption small{color:var(--dg-muted,#68756d)}
+.supp-image-card figcaption a{font-size:.8rem}
+.supp-image-card.image-load-error{opacity:.65}
+.image-empty{padding:22px;border:1px dashed var(--dg-border,#dfe6df);border-radius:14px;background:var(--dg-surface-2,#f5f8f4);color:var(--dg-muted,#68756d)}
+.formulation-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.formulation-card{padding:16px;border:1px solid var(--dg-border,#dfe6df);border-radius:14px;background:var(--dg-surface-2,#f5f8f4)}
+.formulation-card h3{margin-top:0}
+</style><title>Supplementary Plant Reference | DravyaGuna 97</title><script src="site-theme.js?v=1" defer></script>\n</head>
 <body><header class="site-header"><div class="header-inner"><a class="brand" href="index.html">🌿 DravyaGuna 97</a><nav class="nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="plants.html">NCISM 97</a><a href="reference-library.html">Teacher</a><a href="references.html">Doctor</a></nav></div></header>
 <main id="app" class="plant-profile"><section class="plant-header"><p class="eyebrow">SUPPLEMENTARY • TEACHER / DOCTOR REFERENCE</p><h1>Loading…</h1><p>Loading plant information…</p></section></main><footer class="footer"><p><strong>DravyaGuna 97</strong></p><p>Supplementary reference material • not part of the NCISM-97 core list.</p></footer>
 <script>
 (function(){
-const app=document.getElementById('app'), esc=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])), arr=v=>Array.isArray(v)?v.filter(Boolean):[], obj=v=>v&&typeof v==='object'&&!Array.isArray(v)?v:{};
-const block=(title,v)=>{if(Array.isArray(v)){if(!v.length)return '';return '<div class="info-block"><h3>'+title+'</h3><ul>'+v.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div>'} if(!String(v??'').trim())return '';return '<div class="info-block"><h3>'+title+'</h3><p>'+esc(v)+'</p></div>'};
-function render(p){
-const i=obj(p.identity),c=obj(p.classification),id=obj(p.identification),g=obj(p.dravyaguna||p.dravya_guna),d=obj(p.dosha),t=obj(p.therapeutics),cr=obj(p.classical_reference),ph=obj(p.phytochemistry),m=obj(p.modern_information),st=obj(p.student),te=obj(p.teacher),doc=obj(p.doctor),sources=arr(p.sources),forms=arr(p.formulations);
-const sh=arr(cr.shlokas);
-app.innerHTML=
-'<section class="plant-header"><p class="eyebrow">SUPPLEMENTARY • TEACHER / DOCTOR REFERENCE</p><h1>'+esc(i.name||p.id)+'</h1><p><strong>'+esc(i.sanskrit_name)+'</strong> · <em>'+esc(i.botanical_name)+'</em></p><div class="medical-disclaimer">Supplementary record — separate from the NCISM-97 core list. Verify authoritative identity, classical references, purification and safety information before academic or clinical use.</div></section>'+
-'<section class="plant-section"><h2>Identity & Classification</h2>'+block('Sanskrit name',i.sanskrit_name)+block('Botanical name',i.botanical_name)+block('Family',i.family)+block('English name',i.english_name)+block('Hindi name',i.hindi_name)+block('Habit',c.habit)+block('Habitat',c.habitat)+block('Distribution',c.distribution)+block('Synonyms',i.synonyms)+'</section>'+
-'<section class="plant-section"><h2>Identification</h2>'+block('Description',id.description)+block('Whole plant',id.whole_plant)+block('Root',id.root)+block('Stem',id.stem)+block('Leaf',id.leaf)+block('Flower',id.flower)+block('Fruit',id.fruit)+block('Seed',id.seed)+block('Bark',id.bark)+block('Key identification points',id.identification_points)+'</section>'+((p.images&&typeof p.images==='object')?'<section class="plant-section"><h2>Images</h2><div class="formulation-grid">'+Object.entries(p.images).filter(([k,v])=>typeof v==='string'&&v.trim()).map(([k,v])=>'<figure class="formulation-card"><img src="'+esc(v)+'" alt="'+esc((i.name||p.id)+' — '+k.replaceAll('_',' '))+'" loading="lazy" style="width:100%;height:auto;border-radius:12px"><figcaption>'+esc(k.replaceAll('_',' '))+'</figcaption></figure>').join('')+'</div></section>':'')+
-'<section class="plant-section"><h2>Dravya Guna & Rasa Panchaka</h2>'+block('Rasa',arr(g.rasa).join(', '))+block('Guna',arr(g.guna).join(', '))+block('Virya',g.virya)+block('Vipaka',g.vipaka)+block('Prabhava',Array.isArray(g.prabhava)?g.prabhava.join(', '):g.prabhava)+block('Karma',g.karma)+'</section>'+
-'<section class="plant-section"><h2>Doṣa Effect</h2>'+block('Vata',d.vata)+block('Pitta',d.pitta)+block('Kapha',d.kapha)+block('Summary',d.summary)+'</section>'+
-'<section class="plant-section"><h2>Therapeutic Information</h2>'+block('Useful parts',t.useful_part)+block('Indications',t.indications)+block('Therapeutic actions',t.therapeutic_actions)+block('Dose',t.dose)+block('Anupana',t.anupana)+block('Duration',t.duration)+block('Precautions',t.precautions)+block('Contraindications',t.contraindications)+'</section>'+
-'<section class="plant-section classical-section"><h2>Classical References</h2>'+(sh.length?'<div class="shloka-card"><div class="shloka-label">Śloka</div>'+sh.map(x=>'<p class="sanskrit-shloka">'+esc(x).replace(/\\n/g,'<br>')+'</p>').join('')+'</div>':'<p class="source-note">No verified verse is stored in this supplementary record.</p>')+block('Śloka reference status',cr.shloka_reference_status)+block('Nighantu references',cr.nighantu_references)+block('Saṃhitā references',cr.samhita_references)+'</section>'+
-'<section class="plant-section"><h2>Classical Formulations</h2>'+(forms.length?'<div class="formulation-grid">'+forms.map(f=>'<article class="formulation-card"><h3>'+esc(f.name)+'</h3>'+block('Dosage form',f.dosage_form)+block('Indication',f.indication)+block('Reference',f.reference)+'</article>').join('')+'</div>':'<p class="source-note">No formulation details recorded.</p>')+'</section>'+
-'<section class="plant-section"><h2>Phytochemistry & Modern Information</h2>'+block('Major constituents',ph.major_constituents)+block('Chemical notes',ph.chemical_notes)+block('Evidence summary',m.evidence_summary)+block('Recognized uses',m.recognized_uses)+block('Safety notes',m.safety_notes)+'</section>'+
-'<section class="plant-section"><h2>Teaching & Doctor Reference</h2>'+block('Teaching points',te.teaching_points)+block('Discussion points',te.discussion_points)+block('Practical points',te.practical_points)+block('Doctor quick reference',doc.quick_reference)+block('Important indications',doc.important_indications)+block('Useful part',doc.useful_part)+block('Dose',doc.dose)+block('Anupana',doc.anupana)+block('Key precautions',doc.key_precautions)+block('Exam points',st.exam_points)+block('Viva questions',st.viva_questions)+block('Quick revision',st.quick_revision)+'</section>'+
-'<section class="plant-section"><h2>Sources & Verification</h2>'+(sources.length?sources.map(s=>'<div class="source-note"><strong>'+esc(s.title||s.type)+'</strong>'+(s.url?'<p>'+esc(s.url)+'</p>':'')+(s.note?'<p>'+esc(s.note)+'</p>':'')+'</div>').join(''):'<p class="source-note">No source list recorded.</p>')+'</section>'+
-'<div class="plant-list-actions"><a class="btn btn-outline" href="supplementary.html">← Back to supplementary plants</a><a class="btn btn-outline" href="reference-library.html">Teacher reference</a><a class="btn btn-outline" href="references.html">Doctor reference</a></div>';
+'use strict';
+const app=document.getElementById('app');
+const esc=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const arr=v=>Array.isArray(v)?v.filter(Boolean):[];
+const obj=v=>v&&typeof v==='object'&&!Array.isArray(v)?v:{};
+const clean=v=>String(v??'').trim();
+const block=(title,v)=>{
+  if(Array.isArray(v)){const a=v.filter(x=>clean(x));if(!a.length)return '';return '<div class="info-block"><h3>'+esc(title)+'</h3><ul>'+a.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div>'}
+  if(!clean(v))return '';
+  return '<div class="info-block"><h3>'+esc(title)+'</h3><p>'+esc(v)+'</p></div>';
+};
+const link=(label,url)=>clean(url)?'<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">'+esc(label)+'</a>':'';
+async function get(url){
+  try{const r=await fetch(url,{cache:'no-store',headers:{Accept:'application/json'}});if(!r.ok)return null;return await r.json()}
+  catch(e){console.warn('Supplementary load failed',url,e);return null}
+}
+async function commonsImages(p){
+  const name=clean(p?.identity?.botanical_name||p?.botanical_name||p?.id);
+  if(!name)return [];
+  const q=encodeURIComponent(name.replace(/\s+L\.?$/i,''));
+  const url='https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch='+q+'&gsrnamespace=6&gsrlimit=6&prop=imageinfo&iiprop=url|extmetadata&iiurlwidth=1000&format=json&origin=*';
+  const data=await get(url),pages=data?.query?.pages||{};
+  return Object.values(pages).map(x=>{
+    const ii=x?.imageinfo?.[0],meta=ii?.extmetadata||{};
+    return ii?.thumburl||ii?.url?{url:ii.thumburl||ii.url,title:x.title||'',source:'Wikimedia Commons',page:'https://commons.wikimedia.org/wiki/'+encodeURIComponent(String(x.title||'').replace(/^File:/,''))}:null;
+  }).filter(Boolean);
+}
+function imageGallery(p,manifest,remote){
+  const id=String(p.id||''),local=obj(p.images),parts=[
+    ['whole_plant','Whole plant'],['habit','Habit / growth form'],['root','Root'],['stem','Stem'],
+    ['leaf','Leaf'],['flower','Flower'],['fruit','Fruit'],['seed','Seed'],['bark','Bark']
+  ];
+  const verified=parts.map(([part,label])=>{
+    const r=arr(manifest?.records).find(x=>String(x.plant_id)===id&&x.part===part&&['verified','verified-external','verified-local'].includes(String(x.verification_status||'').toLowerCase())&&(x.image_path||x.source_media_url));
+    const path=r?.image_path||r?.source_media_url||local[part];
+    return path?{part,label,url:path,source:r?.source_name||'Plant record',page:r?.source_url||''}:null;
+  }).filter(Boolean);
+  const fallback=remote.slice(0,6).map((x,i)=>({part:'reference_'+(i+1),label:'Reference image '+(i+1),url:x.url,source:x.source,page:x.page}));
+  const items=verified.length?verified:fallback;
+  if(!items.length)return '<div class="image-empty">No verified image is currently stored for this supplementary record. The page will keep the image area visible rather than silently omitting it.</div>';
+  return '<div class="supp-image-grid">'+items.map(x=>'<figure class="supp-image-card"><img src="'+esc(x.url)+'" alt="'+esc((p.identity?.name||p.id)+' — '+x.label)+'" loading="lazy" onerror="this.closest(\'figure\').classList.add(\'image-load-error\')"><figcaption><strong>'+esc(x.label)+'</strong>'+(x.source?'<small>'+esc(x.source)+'</small>':'')+(x.page?link('Source',x.page):'')+'</figcaption></figure>').join('')+'</div>';
+}
+function classicalData(p){
+  const cr=obj(p.classical_reference),gd=obj(p.gemini_source_data),gs=obj(gd.source||p.gemini_source_reference||gd.shloka_source);
+  const sh=arr(cr.shlokas).length?arr(cr.shlokas):(gd.classical_shloka?[gd.classical_shloka]:gd.shloka?[gd.shloka]:[]);
+  const n=arr(cr.nighantu_references).length?arr(cr.nighantu_references):[];
+  const s=arr(cr.samhita_references);
+  const ref=Object.keys(gs).length?[
+    gs.text_grantha_name||gs.text||'',
+    gs.sthana_section||'',
+    gs.adhyaya||'',
+    gs.varga_chapter||'',
+    gs.shloka_number||'',
+    gs.edition_publisher||'',
+    gs.page_number||''
+  ].filter(Boolean).join(' · '):'';
+  return {cr,sh,n,s,ref,status:cr.shloka_reference_status||gd.verification_status||''};
+}
+function formulations(p){
+  const forms=arr(p.formulations),gd=obj(p.gemini_source_data);
+  if(forms.length)return forms;
+  const names=arr(gd.important_formulations).length?arr(gd.important_formulations):arr(gd.formulations);
+  return names.map(name=>typeof name==='string'?{name}:obj(name));
+}
+function render(p,manifest,remote){
+  const i=obj(p.identity),c=obj(p.classification),id=obj(p.identification),g=obj(p.dravyaguna||p.dravya_guna),d=obj(p.dosha),t=obj(p.therapeutics),ph=obj(p.phytochemistry),m=obj(p.modern_information),st=obj(p.student),te=obj(p.teacher),doc=obj(p.doctor),sources=arr(p.sources);
+  const cl=classicalData(p),forms=formulations(p);
+  app.innerHTML=
+  '<section class="plant-header"><p class="eyebrow">SUPPLEMENTARY • TEACHER / DOCTOR REFERENCE</p><h1>'+esc(i.name||p.id)+'</h1><p><strong>'+esc(i.sanskrit_name)+'</strong> · <em>'+esc(i.botanical_name)+'</em></p><div class="medical-disclaimer">Supplementary record — separate from the NCISM-97 core list. Verify authoritative identity, classical references, purification and safety information before academic or clinical use.</div></section>'+
+  '<section class="plant-section"><h2>Identity & Classification</h2>'+block('Sanskrit name',i.sanskrit_name)+block('Botanical name',i.botanical_name)+block('Family',i.family)+block('English name',i.english_name)+block('Hindi name',i.hindi_name)+block('Habit',c.habit)+block('Habitat',c.habitat)+block('Distribution',c.distribution)+block('Synonyms',i.synonyms)+'</section>'+
+  '<section class="plant-section"><h2>Identification</h2>'+block('Description',id.description)+block('Whole plant',id.whole_plant)+block('Root',id.root)+block('Stem',id.stem)+block('Leaf',id.leaf)+block('Flower',id.flower)+block('Fruit',id.fruit)+block('Seed',id.seed)+block('Bark',id.bark)+block('Key identification points',id.identification_points)+'</section>'+
+  '<section class="plant-section"><h2>Plant Images</h2><p class="source-note">Images use the verified site registry when available, with a Wikimedia Commons fallback for supplementary records.</p>'+imageGallery(p,manifest,remote)+'</section>'+
+  '<section class="plant-section"><h2>Dravya Guna & Rasa Panchaka</h2>'+block('Rasa',arr(g.rasa).join(', '))+block('Guna',arr(g.guna).join(', '))+block('Virya',g.virya)+block('Vipaka',g.vipaka)+block('Prabhava',g.prabhava)+block('Karma',g.karma)+'</section>'+
+  '<section class="plant-section"><h2>Doṣa Effect</h2>'+block('Vata',d.vata)+block('Pitta',d.pitta)+block('Kapha',d.kapha)+block('Summary',d.summary)+'</section>'+
+  '<section class="plant-section"><h2>Therapeutic Information</h2>'+block('Useful parts',t.useful_part)+block('Indications',t.indications)+block('Therapeutic actions',t.therapeutic_actions)+block('Dose',t.dose)+block('Anupana',t.anupana)+block('Duration',t.duration)+block('Precautions',t.precautions)+block('Contraindications',t.contraindications)+'</section>'+
+  '<section class="plant-section classical-section"><h2>Classical References</h2>'+
+    (cl.sh.length?'<div class="shloka-card"><div class="shloka-label">Śloka</div>'+cl.sh.map(x=>'<p class="sanskrit-shloka">'+esc(x).replace(/\\n/g,'<br>')+'</p>').join('')+'</div>':'<p class="source-note">No verified verse is stored in this record. The reference source is retained below for verification.</p>')+
+    block('Nighantu references',cl.n)+block('Saṃhitā references',cl.s)+block('Reference status',cl.status)+block('Text / edition reference',cl.ref)+
+    (cl.cr.reference_hubs?.length?block('Reference hub',cl.cr.reference_hubs):'')+
+  '</section>'+
+  '<section class="plant-section"><h2>Classical Formulations</h2>'+
+    (forms.length?'<div class="formulation-grid">'+forms.map(f=>'<article class="formulation-card"><h3>'+esc(f.name||f.title||'Unnamed formulation')+'</h3>'+block('Dosage form',f.dosage_form||f.dosage_form_name)+block('Indication',f.indication||f.indications)+block('Reference',f.reference||f.source||f.classical_reference)+'</article>').join('')+'</div>':'<p class="source-note">No formulation is currently recorded in the verified supplementary record. This section is retained so missing data is explicit rather than hidden.</p>')+
+  '</section>'+
+  '<section class="plant-section"><h2>Phytochemistry & Modern Information</h2>'+block('Major constituents',ph.major_constituents)+block('Chemical notes',ph.chemical_notes)+block('Evidence summary',m.evidence_summary)+block('Recognized uses',m.recognized_uses)+block('Safety notes',m.safety_notes)+'</section>'+
+  '<section class="plant-section"><h2>Teaching & Doctor Reference</h2>'+block('Teaching points',te.teaching_points)+block('Discussion points',te.discussion_points)+block('Practical points',te.practical_points)+block('Doctor quick reference',doc.quick_reference)+block('Important indications',doc.important_indications)+block('Useful part',doc.useful_part)+block('Dose',doc.dose)+block('Anupana',doc.anupana)+block('Key precautions',doc.key_precautions)+block('Exam points',st.exam_points)+block('Viva questions',st.viva_questions)+block('Quick revision',st.quick_revision)+'</section>'+
+  '<section class="plant-section"><h2>Sources & Verification</h2>'+(sources.length?sources.map(s=>'<div class="source-note"><strong>'+esc(s.title||s.type)+'</strong>'+(s.url?'<p>'+link('Open source',s.url)+'</p>':'')+(s.note?'<p>'+esc(s.note)+'</p>':'')+'</div>').join(''):'<p class="source-note">No source list recorded.</p>')+'</section>'+
+  '<div class="plant-list-actions"><a class="btn btn-outline" href="supplementary.html">← Back to supplementary plants</a><a class="btn btn-outline" href="reference-library.html">Teacher reference</a><a class="btn btn-outline" href="references.html">Doctor reference</a></div>';
 }
 const id=new URLSearchParams(location.search).get('id');
-fetch('data/plants/'+encodeURIComponent(id)+'.json?v=2',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(p=>{if(p.category!=='Supplementary')throw new Error('Not a supplementary record');return p}).then(render).catch(()=>{app.innerHTML='<section class="plant-header"><h1>Plant not found</h1><p>The supplementary record could not be loaded.</p><a class="btn btn-outline" href="supplementary.html">← Back</a></section>'});
+if(!id){app.innerHTML='<section class="plant-header"><h1>No plant selected</h1><p>Choose a supplementary plant first.</p></section>'}
+else Promise.all([
+  get('data/plants/'+encodeURIComponent(id)+'.json?v=4'),
+  get('data/curated-image-manifest.json?v=6'),
+  commonsImages({identity:{botanical_name:id}})
+]).then(([p,manifest,remote])=>{
+  if(!p||p.category!=='Supplementary')throw new Error('Not a supplementary record');
+  return Promise.resolve().then(()=>render(p,manifest,remote||[]));
+}).catch(e=>{
+  console.error(e);
+  app.innerHTML='<section class="plant-header"><h1>Plant not found</h1><p>The supplementary record could not be loaded.</p><a class="btn btn-outline" href="supplementary.html">← Back</a></section>';
+});
 })();
 </script></body></html>
