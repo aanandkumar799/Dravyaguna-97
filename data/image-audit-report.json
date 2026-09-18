@@ -1,28 +1,21 @@
 {
-  "generated_at": "2026-09-18T21:24:39.916316+00:00",
+  "generated_at": "2026-09-18T21:33:10.372486+00:00",
   "plants_checked": 97,
   "slots_checked": 873,
   "filled_this_run": [
     {
-      "plant_id": "kanchanara",
+      "plant_id": "dhanyaka",
       "part": "habit",
       "action": "downloaded-new-image",
-      "path": "images/plants/kanchanara/habit/image.jpg",
-      "bytes": 730034
+      "path": "images/plants/dhanyaka/habit/image.jpg",
+      "bytes": 673486
     },
     {
-      "plant_id": "chakramarda",
-      "part": "habit",
+      "plant_id": "dhanyaka",
+      "part": "root",
       "action": "downloaded-new-image",
-      "path": "images/plants/chakramarda/habit/image.jpg",
-      "bytes": 267144
-    },
-    {
-      "plant_id": "nagkeshar",
-      "part": "fruit",
-      "action": "downloaded-new-image",
-      "path": "images/plants/nagkeshar/fruit/image.jpg",
-      "bytes": 492385
+      "path": "images/plants/dhanyaka/root/image.jpg",
+      "bytes": 88594
     }
   ],
   "unresolved": [
@@ -1953,16 +1946,6 @@
     },
     {
       "plant_id": "dhanyaka",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhanyaka",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "dhanyaka",
       "part": "stem",
       "reason": "no-high-confidence-unique-image"
     },
@@ -4032,7 +4015,7 @@
       "reason": "no-high-confidence-unique-image"
     }
   ],
-  "remaining_missing": 801,
+  "remaining_missing": 799,
   "local_asset_root": "images/plants/<plant>/<part>/image.*",
   "policy": {
     "exact_species_required": true,
