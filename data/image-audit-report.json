@@ -1,56 +1,14 @@
 {
-  "generated_at": "2026-09-17T23:13:25.040506+00:00",
+  "generated_at": "2026-09-18T00:18:35.821070+00:00",
   "plants_checked": 97,
   "slots_checked": 873,
   "filled_this_run": [
     {
-      "plant_id": "arjuna",
-      "part": "habit",
-      "action": "downloaded-new-image",
-      "path": "images/plants/arjuna/habit/image.jpg",
-      "bytes": 1220146
-    },
-    {
-      "plant_id": "haridra",
-      "part": "root",
-      "action": "downloaded-new-image",
-      "path": "images/plants/haridra/root/image.jpg",
-      "bytes": 193758
-    },
-    {
-      "plant_id": "haridra",
-      "part": "stem",
-      "action": "downloaded-new-image",
-      "path": "images/plants/haridra/stem/image.jpg",
-      "bytes": 2006193
-    },
-    {
-      "plant_id": "haridra",
-      "part": "leaf",
-      "action": "downloaded-new-image",
-      "path": "images/plants/haridra/leaf/image.jpg",
-      "bytes": 1584131
-    },
-    {
-      "plant_id": "nagkeshar",
-      "part": "habit",
-      "action": "downloaded-new-image",
-      "path": "images/plants/nagkeshar/habit/image.jpg",
-      "bytes": 241043
-    },
-    {
-      "plant_id": "usheera",
-      "part": "flower",
-      "action": "downloaded-new-image",
-      "path": "images/plants/usheera/flower/image.jpg",
-      "bytes": 695981
-    },
-    {
-      "plant_id": "vacha",
+      "plant_id": "kumkum",
       "part": "whole_plant",
       "action": "downloaded-new-image",
-      "path": "images/plants/vacha/whole_plant/image.jpg",
-      "bytes": 66191
+      "path": "images/plants/kumkum/whole_plant/image.jpg",
+      "bytes": 57376
     }
   ],
   "unresolved": [
@@ -1367,12 +1325,14 @@
     {
       "plant_id": "kantakari",
       "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
+      "reason": "download-failed",
+      "detail": "HTTP Error 429: Too many requests (f061ab2)"
     },
     {
       "plant_id": "kantakari",
       "part": "flower",
-      "reason": "no-high-confidence-unique-image"
+      "reason": "download-failed",
+      "detail": "HTTP Error 429: Too many requests (f061ab2)"
     },
     {
       "plant_id": "kantakari",
@@ -2512,11 +2472,6 @@
     {
       "plant_id": "kulatha",
       "part": "bark",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "kumkum",
-      "part": "whole_plant",
       "reason": "no-high-confidence-unique-image"
     },
     {
@@ -4310,7 +4265,7 @@
       "reason": "no-high-confidence-unique-image"
     }
   ],
-  "remaining_missing": 851,
+  "remaining_missing": 850,
   "local_asset_root": "images/plants/<plant>/<part>/image.*",
   "policy": {
     "exact_species_required": true,

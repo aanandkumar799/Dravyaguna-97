@@ -7116,13 +7116,15 @@
       "plant_name": "Kumkum",
       "botanical_name": "Crocus sativus L.",
       "part": "whole_plant",
-      "image_path": "",
-      "source_url": "",
-      "source_name": "",
-      "license": "",
-      "author": "",
-      "verified_botanical_name": "",
-      "verification_status": "missing-queued"
+      "image_path": "images/plants/kumkum/whole_plant/image.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3A328_Crocus_sativus_L.%2C_C._vernus_Wulf.jpg",
+      "source_name": "Wikimedia Commons",
+      "license": "Public domain",
+      "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Am%C3%A9d%C3%A9e_Masclef\" class=\"extiw\" title=\"w:en:Amédée Masclef\"><span title=\"botanist\">Amédée Masclef</span></a></bdi>",
+      "verified_botanical_name": "Crocus sativus L.",
+      "verification_status": "verified-local",
+      "source_media_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/328_Crocus_sativus_L.%2C_C._vernus_Wulf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "title": "328 Crocus sativus L., C. vernus Wulf.jpg"
     },
     {
       "plant_id": "kumkum",
