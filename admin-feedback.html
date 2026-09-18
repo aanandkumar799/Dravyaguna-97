@@ -37,9 +37,10 @@ function msg(t,type){const e=$('status');e.textContent=t;e.className='admin-stat
 function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function date(v){if(!v)return '—';try{const d=v.toDate?v.toDate():new Date(v);return d.toLocaleString()}catch(e){return '—'}}
 function cat(v){return ({content:'Content correction',bug:'Website bug',feature:'Feature request',general:'General feedback'})[v]||v||'—'}
+function matchesFilter(x,f){return f==='all'||x.category===f}
 function render(){
  const f=$('filter').value,q=$('search').value.trim().toLowerCase();
- const rows=all.filter(x=>(f==='all'||x.category===f)&&(!q||JSON.stringify(x).toLowerCase().includes(q)));
+ const rows=all.filter(x=>matchesFilter(x,f)&&(!q||JSON.stringify(x).toLowerCase().includes(q)));
  $('list').innerHTML=rows.length?rows.map(x=>{
   const u=x.user||{},c=x.context||{}; if(!u.email||u.emailVerified!==true)return '';
   return '<article class="feedback-item"><div class="feedback-top"><div><span class="tag">'+esc(cat(x.category))+'</span> <span class="stars">'+('★'.repeat(Number(x.rating)||0))+'☆'.repeat(5-(Number(x.rating)||0))+'</span></div><strong>'+esc(date(x.createdAt||c.timestamp))+'</strong></div><div class="feedback-message">'+esc(x.message)+'</div><div class="meta"><span><b>Google account:</b> '+esc(u.displayName||'Verified Google user')+'</span><span><b>Email:</b> '+esc(u.email||'—')+'</span><span><b>Area:</b> '+esc(x.correction_area||'—')+'</span><span><b>Page:</b> '+esc(c.page_url||c.page_path||'—')+'</span></div></article>'
