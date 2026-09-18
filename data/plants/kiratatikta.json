@@ -161,35 +161,40 @@
   },
   "phytochemistry": {
     "major_constituents": [],
-    "chemical_notes": "Phytochemical field intentionally left without a compound list until source-level verification is completed."
+    "chemical_notes": "Phytochemical compound list remains source-verification pending; do not treat an unverified compound list as authoritative."
   },
   "modern_information": {
     "evidence_summary": "Bitter tonic used for fever, appetite, and digestion.",
     "recognized_uses": [
       "Botanical identification and pharmacognosy/dravyaguna education."
     ],
-    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use.",
+    "safety_notes": "Educational reference only. Verify authoritative toxicological and pharmacopoeial guidance before use.",
     "sources": []
   },
   "student": {
     "exam_points": [
       "Botanical identity: Swertia chirata Buch.-Ham.",
       "Family: Gentianaceae",
-      "Key identification: Purplish-brown cylindrical stems with yellow pith, opposite decussate sessile leaves, 4-merous greenish-yellow flowers, intensely bitter taste throughout the plant."
+      "Key identification: Purplish-brown cylindrical stems with yellow pith, opposite decussate sessile leaves, 4-merous greenish-yellow flowers, intensely bitter taste throughout the plant.",
+      "Botanical identity and family should be checked against an authoritative taxonomy before final publication."
     ],
     "viva_questions": [
       "What is the botanical name and family of Kiratatikta?",
-      "Which morphological characters help identify Kiratatikta?"
+      "Which morphological characters help identify Kiratatikta?",
+      "What is the botanical identity and family of Kiratatikta?",
+      "Which characters are useful for practical identification of Kiratatikta?"
     ],
     "identification_points": [
       "Purplish-brown cylindrical stems with yellow pith, opposite decussate sessile leaves, 4-merous greenish-yellow flowers, intensely bitter taste throughout the plant."
     ],
     "mnemonics": [],
-    "quick_revision": "Bitter tonic used for fever, appetite, and digestion."
+    "quick_revision": "Kirātatikta — verify the exact species identity before treating the supplementary record as definitive."
   },
   "teacher": {
     "teaching_points": [
-      "Retained as supplementary material from Gemini batch 81."
+      "Retained as supplementary material from Gemini batch 81.",
+      "Use the record for botanical-identification teaching and keep classical-text status explicitly marked as requiring verification.",
+      "Separate botanical evidence from classical-text claims that remain unverified."
     ],
     "discussion_points": [
       "Compare the diagnostic characters of Kiratatikta with closely related or commonly substituted drugs.",
@@ -197,7 +202,9 @@
     ],
     "practical_points": [
       "Observe the diagnostic characters in authenticated material or herbarium specimens.",
-      "Record plant part used and identification basis separately."
+      "Record plant part used and identification basis separately.",
+      "Use authenticated material or herbarium specimens for practical identification.",
+      "Record plant part and identification basis separately."
     ]
   },
   "doctor": {
@@ -214,7 +221,9 @@
     "dose": "",
     "anupana": "",
     "key_precautions": [
-      "Use authoritative identification and safety references."
+      "Use authoritative identification and safety references.",
+      "Do not infer clinical dose from this educational record.",
+      "Verify current toxicological and pharmacopoeial guidance before clinical use."
     ]
   },
   "sources": [
