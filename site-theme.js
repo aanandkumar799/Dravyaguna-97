@@ -12,7 +12,7 @@ function apply(theme){
   b.setAttribute('aria-pressed',String(dark));
   b.setAttribute('aria-label',dark?'Switch to light mode':'Switch to dark mode');
   if(i)i.textContent=dark?'☀️':'🌙';
-  if(l)l.textContent=dark?'Light mode':'Dark mode';
+  if(l)l.textContent=dark?'Light mode':'Dark mode';var m=document.getElementById('themeColor');if(m)m.setAttribute('content',dark?'#0b1411':'#1b4332');
 }
 function save(theme){try{localStorage.setItem(KEY,theme)}catch(e){}}
 function mount(){
