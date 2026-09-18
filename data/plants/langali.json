@@ -123,7 +123,12 @@
       "What is the botanical identity and family of Langali?",
       "Which characters are useful for practical identification of Langali?"
     ],
-    "identification_points": [],
+    "identification_points": [
+      "Leaves are lanceolate with a tendril-like tip.",
+      "Flowers change from yellow/orange to red.",
+      "Fruit is a three-celled capsule.",
+      "Climbing herb with characteristic tuberous underground organ and showy flowers; verify against authenticated material."
+    ],
     "mnemonics": [],
     "quick_revision": "Lāṅgalī — Gloriosa superba L. is an accepted Kew species in Colchicaceae; Kew describes it as a tuberous climber and notes that all parts, especially tubers, are extremely poisonous."
   },
@@ -188,10 +193,11 @@
     }
   ],
   "metadata": {
-    "status": "supplementary_botanical_enriched_needs_classical_verification",
+    "status": "supplementary_audited_needs_classical_verification",
     "source_batch": "Gemini batch 93",
     "version": "1.0",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "botanical + educational field enrichment"
+    "last_enrichment": "botanical + educational field enrichment",
+    "last_audit": "supplementary JSON completeness/safety audit"
   }
 }
