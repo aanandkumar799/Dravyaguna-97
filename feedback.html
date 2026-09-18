@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="DravyaGuna 97 feedback form.">
+<meta name="description" content="Send suggestions, corrections, bug reports and feature requests for DravyaGuna 97.">
 <meta name="theme-color" content="#1b4332">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="site-theme.css?v=8">
@@ -26,7 +26,74 @@
   </div>
 </header>
 <main style="max-width:1180px;margin:auto;padding:30px 22px">
-  <section id="reviews" class="review-section" aria-label="Feedback"></section>
+  <section id="reviews" class="review-section" aria-label="Suggestion and feedback form">
+  <div class="dg-feedback-card">
+    <div class="dg-feedback-copy">
+      <span class="dg-feedback-badge">💬 SUGGESTIONS & FEEDBACK</span>
+      <h2>Help Improve DravyaGuna 97</h2>
+      <p>Have a suggestion, found an error, or want a new study feature? Use this form to send it to us.</p>
+      <div class="dg-feedback-highlights" aria-label="Feedback categories">
+        <article><strong>🌿 Content</strong><span>Suggest corrections, missing information or references.</span></article>
+        <article><strong>🛠️ Website</strong><span>Report broken links, bugs or display problems.</span></article>
+        <article><strong>💡 Ideas</strong><span>Request useful features for BAMS study and revision.</span></article>
+      </div>
+    </div>
+    <div class="dg-feedback-panel">
+      <div id="dgLogin"></div>
+      <form id="dgFeedbackForm" aria-label="Suggestion and feedback form" novalidate>
+        <div class="dg-feedback-grid">
+          <div class="dg-field">
+            <label for="dgCategory">What would you like to share? <span>*</span></label>
+            <select id="dgCategory" required>
+              <option value="content">Content correction / missing information</option>
+              <option value="bug">Website bug / broken link</option>
+              <option value="feature">New feature suggestion</option>
+              <option value="general">General suggestion</option>
+            </select>
+          </div>
+          <div class="dg-field">
+            <label for="dgCorrection">Related area</label>
+            <select id="dgCorrection">
+              <option value="">Select an area</option>
+              <option>Plant Library</option>
+              <option>Plant identification / Practical Lab</option>
+              <option>Classical references</option>
+              <option>Rasa Panchaka</option>
+              <option>Quiz / Viva / Revision</option>
+              <option>Compare tool</option>
+              <option>Mobile / Website design</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="dg-field full">
+            <label for="dgMessage">Your suggestion or feedback <span>*</span></label>
+            <textarea id="dgMessage" maxlength="2000" required placeholder="Tell us what should be corrected, added or improved…"></textarea>
+            <div class="dg-field-meta"><span>Please be as specific as possible.</span><span><b id="dgCount">0</b>/2000</span></div>
+          </div>
+          <div class="dg-field">
+            <label for="dgRating">How useful is the website for you?</label>
+            <div class="dg-rating" role="radiogroup" aria-label="Website usefulness">
+              <button type="button" role="radio" aria-checked="false" data-rating="1" aria-label="1 star">★</button>
+              <button type="button" role="radio" aria-checked="false" data-rating="2" aria-label="2 stars">★</button>
+              <button type="button" role="radio" aria-checked="false" data-rating="3" aria-label="3 stars">★</button>
+              <button type="button" role="radio" aria-checked="false" data-rating="4" aria-label="4 stars">★</button>
+              <button type="button" role="radio" aria-checked="false" data-rating="5" aria-label="5 stars">★</button>
+            </div>
+            <input type="hidden" id="dgRating" value="0">
+          </div>
+          <div class="dg-field">
+            <label for="dgEmail">Email</label>
+            <input id="dgEmail" type="email" placeholder="Optional — used only if you want a reply">
+          </div>
+        </div>
+        <button type="submit" class="dg-submit" id="dgSubmit"><span>Send Suggestion</span><span aria-hidden="true">→</span></button>
+        <div id="dgStatus" class="dg-status" role="status" aria-live="polite"></div>
+        <p class="dg-note">🔒 Your suggestion is submitted securely. Sign-in is required before submission so suggestions can be protected from spam.</p>
+      </form>
+      <noscript><p class="dg-status show err">Please enable JavaScript to submit this suggestion form.</p></noscript>
+    </div>
+  </div>
+</section>
 </main>
 <footer class="footer">
   <p><strong>DravyaGuna 97</strong></p>
