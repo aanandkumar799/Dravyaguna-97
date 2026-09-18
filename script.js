@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const initialLimit = 24;
   const EXPECTED_NCISM_COUNT = 97;
   const FAVORITES_KEY = 'dg97-favourites-v1';
-  let masterPlants = [], mode = 'grid', categoryFilter = 'all', showAll = false, coverRegistry = new Map(), favoritesOnly = false;
+  let masterPlants = [], mode = 'grid', categoryFilter = 'all', showAll = false, coverRegistry = new Map(), favoritesOnly = false, dossierSearchReady = false, dossierSearchLoading = false;
   const filters = { rasa:'', guna:'', virya:'', vipaka:'' };
 
   const esc = v => String(v ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\"/g,'&quot;').replace(/'/g,'&#039;');
@@ -34,11 +34,40 @@ document.addEventListener('DOMContentLoaded', () => {
   const getFavorites = () => { try { const x=JSON.parse(localStorage.getItem(FAVORITES_KEY)||'[]'); return new Set(Array.isArray(x)?x.map(String):[]); } catch(_) { return new Set(); } };
   const saveFavorites = set => { try { localStorage.setItem(FAVORITES_KEY, JSON.stringify([...set])); } catch(_) {} };
 
+  const dossierValue = v => Array.isArray(v) ? v.map(dossierValue).join(' ') : (v && typeof v === 'object' ? Object.values(v).map(dossierValue).join(' ') : String(v ?? ''));
+  const dossierAreas = p => p?._searchAreas || {};
+  const queryTokens = q => norm(q).split(' ').filter(Boolean);
   const score = (p, q) => {
     q = norm(q); if (!q) return 0;
-    const fields = [[name(p),1200],[sanskrit(p),1100],[p.transliteration,1050],[botanical(p),1000],[p.english_name||p.identity?.english_name,900],[family(p),800],[p.id,750],[text(p.useful_part),700],[p.search_text,200]];
-    return fields.reduce((total,[v,points]) => { const x=norm(v); if(!x) return total; return total+(x===q?points:x.startsWith(q)?points*.65:x.includes(q)?points*.45:0); },0);
+    const tokens = queryTokens(q);
+    const fields = [
+      [name(p),1500,'Identity'],[sanskrit(p),1450,'Identity'],[p.transliteration,1350,'Identity'],
+      [botanical(p),1300,'Botanical identity'],[p.english_name||p.identity?.english_name,1200,'Identity'],
+      [family(p),1050,'Family'],[p.id,950,'Identity'],[text(p.useful_part),900,'Useful part'],
+      [p.search_text,500,'Index']
+    ];
+    let total=0;
+    for(const [v,points] of fields){
+      const x=norm(v); if(!x) continue;
+      if(x===q) total+=points;
+      else if(x.startsWith(q)) total+=points*.72;
+      else if(x.includes(q)) total+=points*.5;
+      else if(tokens.length>1 && tokens.every(t=>x.includes(t))) total+=points*.42;
+    }
+    const areas=dossierAreas(p);
+    for(const [area,value] of Object.entries(areas)){
+      const x=norm(value); if(!x) continue;
+      if(x.includes(q)) total+=area==='Formulations'?850:area==='Classical References'?800:area==='Identification'?760:area==='Therapeutics'?700:600;
+      else if(tokens.length>1 && tokens.every(t=>x.includes(t))) total+=360;
+    }
+    return total;
   };
+  const matchAreas = (p,q) => {
+    const areas=dossierAreas(p), nq=norm(q);
+    if(!nq)return [];
+    return Object.entries(areas).filter(([,v])=>norm(v).includes(nq)).map(([k])=>k).slice(0,3);
+  };
+  const searchResult = (p,q) => ({p,s:score(p,q),areas:matchAreas(p,q)});
   const matchesFilter = (p,key,value) => !value || norm(text(p?.[key])).split(' ').includes(norm(value)) || norm(text(p?.[key])).includes(norm(value));
 
   const filtered = q => {
@@ -46,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
     list = list.filter(p => Object.entries(filters).every(([k,v]) => matchesFilter(p,k,v)));
     if (favoritesOnly) { const fav=getFavorites(); list=list.filter(p=>fav.has(String(p.id))); }
     if (!norm(q)) return list;
-    return list.map(p=>({p,s:score(p,q)})).filter(x=>x.s>0).sort((a,b)=>b.s-a.s||order(a.p)-order(b.p)).map(x=>x.p);
+    return list.map(p=>searchResult(p,q)).filter(x=>x.s>0).sort((a,b)=>b.s-a.s||order(a.p)-order(b.p)).map(x=>{x.p._searchMatchAreas=x.areas;return x.p;});
   };
 
   const placeholder = label => {
@@ -74,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const coverSrc=verified ? rec.image_path : dynamicCover;
     const fallback=placeholder(n);
     const image=`<img src="${esc(coverSrc)}" alt="${esc(n)} — whole-plant photograph" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='${fallback}'">`;
-    return `<article class="plant-card"><button class="favorite-btn ${fav?'active':''}" type="button" data-favorite="${esc(id)}" aria-label="${fav?'Remove':'Add'} ${esc(n)} ${fav?'from':'to'} favourites" aria-pressed="${fav}">${fav?'★':'☆'}</button><div class="plant-image">${image}</div><div class="plant-card-content"><div class="plant-card-top"><span class="plant-number">#${order(p)}</span><span class="syllabus-marker">NCISM-97</span></div><h3>${esc(n)}</h3>${sanskrit(p)?`<p class="plant-sanskrit">${esc(sanskrit(p))}</p>`:''}${botanical(p)?`<p class="plant-botanical"><em>${esc(botanical(p))}</em></p>`:''}${p.english_name?`<p class="plant-english">${esc(p.english_name)}</p>`:''}${family(p)?`<p class="plant-family"><strong>Family:</strong> ${esc(family(p))}</p>`:''}<a class="view-plant" href="./plant.html?id=${encodeURIComponent(id)}">Open Full Dossier →</a></div></article>`;
+    return `<article class="plant-card"><button class="favorite-btn ${fav?'active':''}" type="button" data-favorite="${esc(id)}" aria-label="${fav?'Remove':'Add'} ${esc(n)} ${fav?'from':'to'} favourites" aria-pressed="${fav}">${fav?'★':'☆'}</button><div class="plant-image">${image}</div><div class="plant-card-content"><div class="plant-card-top"><span class="plant-number">#${order(p)}</span><span class="syllabus-marker">NCISM-97</span></div><h3>${esc(n)}</h3>${sanskrit(p)?`<p class="plant-sanskrit">${esc(sanskrit(p))}</p>`:''}${botanical(p)?`<p class="plant-botanical"><em>${esc(botanical(p))}</em></p>`:''}${p.english_name?`<p class="plant-english">${esc(p.english_name)}</p>`:''}${family(p)?`<p class="plant-family"><strong>Family:</strong> ${esc(family(p))}</p>`:''}${Array.isArray(p._searchMatchAreas)&&p._searchMatchAreas.length?`<div class="search-match-badges" aria-label="Matching dossier sections">${p._searchMatchAreas.map(x=>`<span>${esc(x)}</span>`).join('')}</div>`:''}<a class="view-plant" href="./plant.html?id=${encodeURIComponent(id)}">Open Full Dossier →</a></div></article>`;
   }
 
   function flashcard(p){
@@ -121,6 +150,37 @@ document.addEventListener('DOMContentLoaded', () => {
     if(q && searchInput) searchInput.value=q;
   }
 
+  async function loadDossiersForSearch(){
+    if(dossierSearchReady || dossierSearchLoading || !masterPlants.length) return;
+    dossierSearchLoading=true;
+    const hint=document.getElementById('search-help');
+    if(hint) hint.textContent='Loading the full plant dossiers for deep search…';
+    const concurrency=10;
+    for(let i=0;i<masterPlants.length;i+=concurrency){
+      const batch=masterPlants.slice(i,i+concurrency);
+      await Promise.allSettled(batch.map(async p=>{
+        try{
+          const r=await fetch(`data/plants/${encodeURIComponent(p.id)}.json?v=2`,{cache:'force-cache',headers:{Accept:'application/json'}});
+          if(!r.ok) return;
+          const d=await r.json();
+          p._searchAreas={
+            Identity:d.identity, Classification:d.classification, Identification:d.identification,
+            'Rasa Panchaka':d.dravyaguna, Dosha:d.dosha, Therapeutics:d.therapeutics,
+            Formulations:d.formulations, 'Classical References':d.classical_reference,
+            Phytochemistry:d.phytochemistry, 'Modern Information':d.modern_information,
+            Student:d.student, Teacher:d.teacher, Doctor:d.doctor, Sources:d.sources
+          };
+          p._searchDossier=dossierValue(d);
+        }catch(_){}
+      }));
+      const q=searchInput?.value||'';
+      if(norm(q)) render(q);
+    }
+    dossierSearchReady=true; dossierSearchLoading=false;
+    if(hint) hint.textContent='Deep search is ready: names, identity, morphology, Rasa Panchaka, indications, formulations, classical references, exam points and other dossier data.';
+    render(searchInput?.value||'');
+  }
+
   async function load(){
     plantList.setAttribute('aria-busy','true');
     try{
@@ -130,6 +190,7 @@ document.addEventListener('DOMContentLoaded', () => {
       masterPlants=rows.filter(isNCISM).sort((a,b)=>order(a)-order(b));
       if(!masterPlants.length) throw new Error('No valid NCISM-97 records found in plant-index.json');
       showIndexNotice(masterPlants.length);populateFilters();applyUrlState();render(searchInput?.value||'');
+      if(norm(searchInput?.value||'')) await loadDossiersForSearch();
     }catch(e){
       console.error('DravyaGuna library load error:',e);
       plantList.innerHTML='<div class="plant-error"><h3>Plant database unavailable</h3><p>The plant index could not be loaded. Please refresh after deployment or check your connection.</p><button type="button" class="plant-list-actions" id="retry-library" style="border:0;background:#1b4332;color:#fff;border-radius:9px;padding:10px 16px;font:inherit;font-weight:700;cursor:pointer">Retry</button></div>';
@@ -139,7 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.querySelectorAll('[data-mode]').forEach(btn=>btn.addEventListener('click',()=>{mode=btn.dataset.mode;document.querySelectorAll('[data-mode]').forEach(x=>x.classList.toggle('active',x===btn));render(searchInput?.value||'')}));
   document.querySelectorAll('[data-category]').forEach(btn=>btn.addEventListener('click',()=>{categoryFilter=String(btn.dataset.category||'all').toUpperCase();showAll=false;document.querySelectorAll('[data-category]').forEach(x=>x.classList.toggle('active',x===btn));render(searchInput?.value||'')}));
-  searchInput?.addEventListener('input',()=>{showAll=false;clearTimeout(window.__dgSearchTimer);window.__dgSearchTimer=setTimeout(()=>render(searchInput.value),80)});
+  searchInput?.addEventListener('input',()=>{showAll=false;clearTimeout(window.__dgSearchTimer);window.__dgSearchTimer=setTimeout(async()=>{const q=searchInput.value;render(q);if(norm(q))await loadDossiersForSearch();},80)});
   document.getElementById('jumpButton')?.addEventListener('click',()=>{const n=Number(document.getElementById('ncismJump')?.value),p=masterPlants.find(x=>order(x)===n);if(p)location.href=`./plant.html?id=${encodeURIComponent(p.id)}`});
   document.getElementById('ncismJump')?.addEventListener('keydown',e=>{if(e.key==='Enter')document.getElementById('jumpButton')?.click()});
   document.getElementById('favoritesToggle')?.addEventListener('click',()=>{favoritesOnly=!favoritesOnly;showAll=false;const b=document.getElementById('favoritesToggle');b.classList.toggle('active',favoritesOnly);b.textContent=favoritesOnly?'★ Favourites':'☆ Favourites';render(searchInput?.value||'')});
