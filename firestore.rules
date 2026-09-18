@@ -14,8 +14,6 @@ service cloud.firestore {
     function validReview() {
       return isVerifiedGoogle()
         && request.resource.data.user.uid == request.auth.uid
-        && request.resource.data.user.email == request.auth.token.email
-        && request.resource.data.user.emailVerified == true
         && request.resource.data.authProvider == 'google.com'
         && request.resource.data.status == 'new'
         && request.resource.data.category in ['suggestion','correction','image','technical','other']
@@ -35,7 +33,6 @@ service cloud.firestore {
       allow create, update: if isVerifiedGoogle()
         && request.auth.uid == uid
         && request.resource.data.uid == request.auth.uid
-        && request.resource.data.email == request.auth.token.email
         && request.resource.data.emailVerified == true;
       allow read, delete: if isAdmin();
     }
