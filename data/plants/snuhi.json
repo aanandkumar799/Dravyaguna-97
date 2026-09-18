@@ -21,12 +21,12 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "large succulent shrub or small tree",
+    "habitat": "Dry rocky regions and cultivated hedges in tropical India",
+    "distribution": "Dry rocky regions and cultivated hedges in tropical India"
   },
   "identification": {
-    "description": "",
+    "description": "Spiny succulent shrub with thick angular branches and milky latex.",
     "whole_plant": "",
     "root": "",
     "stem": "",
@@ -35,7 +35,11 @@
     "fruit": "",
     "seed": "",
     "bark": "",
-    "identification_points": []
+    "identification_points": [
+      "Branches are fleshy and ribbed with paired spines.",
+      "Leaves are small and short-lived.",
+      "Flowers occur in cyathia."
+    ]
   },
   "images": {
     "whole_plant": "",
@@ -164,10 +168,10 @@
     }
   ],
   "metadata": {
-    "status": "supplementary_needs_source_verification",
+    "status": "supplementary_botanical_enriched_needs_classical_verification",
     "source_batch": "Gemini batches 92 and 106",
     "version": "1.0",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+    "last_enrichment": "structured botanical identification enrichment"
   }
 }
