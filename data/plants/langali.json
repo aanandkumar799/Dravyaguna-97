@@ -105,36 +105,56 @@
   },
   "phytochemistry": {
     "major_constituents": [],
-    "chemical_notes": ""
+    "chemical_notes": "Phytochemical compound list remains source-verification pending; do not treat an unverified compound list as authoritative."
   },
   "modern_information": {
     "evidence_summary": "Gloriosa superba is a potent herb used for inducing labor and in treating skin diseases, but is toxic if not used correctly.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Botanical identification and pharmacognosy/dravyaguna education."
+    ],
+    "safety_notes": "Educational reference only. Verify authoritative toxicological and pharmacopoeial guidance before use.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
+    "exam_points": [
+      "Botanical identity: Gloriosa superba L.; Family: Colchicaceae; characteristic climbing habit and showy flowers are useful identification features."
+    ],
+    "viva_questions": [
+      "What is the botanical identity and family of Langali?",
+      "Which characters are useful for practical identification of Langali?"
+    ],
     "identification_points": [],
     "mnemonics": [],
-    "quick_revision": "Gloriosa superba is a potent herb used for inducing labor and in treating skin diseases, but is toxic if not used correctly."
+    "quick_revision": "Lāṅgalī — Gloriosa superba L. is an accepted Kew species in Colchicaceae; Kew describes it as a tuberous climber and notes that all parts, especially tubers, are extremely poisonous."
   },
   "teacher": {
     "teaching_points": [
-      "Retained as supplementary material from Gemini batch 93."
+      "Retained as supplementary material from Gemini batch 93.",
+      "Use Lāṅgalī to teach identification with prominent toxic-plant safety documentation.",
+      "Separate botanical evidence from classical-text claims that remain unverified."
     ],
     "discussion_points": [],
-    "practical_points": []
+    "practical_points": [
+      "Use authenticated material or herbarium specimens for practical identification.",
+      "Record plant part and identification basis separately."
+    ]
   },
   "doctor": {
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
-    "important_indications": [],
-    "useful_part": "",
+    "important_indications": [
+      "Kushta",
+      "Vrana",
+      "Garbhasanga",
+      "Vata Vyadhi",
+      "Krimi"
+    ],
+    "useful_part": "Moola, Kanda",
     "dose": "",
     "anupana": "",
     "key_precautions": [
-      "Use authoritative identification and safety references."
+      "Use authoritative identification and safety references.",
+      "Do not infer clinical dose from this educational record.",
+      "Verify current toxicological and pharmacopoeial guidance before clinical use."
     ]
   },
   "sources": [
@@ -172,6 +192,6 @@
     "source_batch": "Gemini batch 93",
     "version": "1.0",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured botanical identification enrichment"
+    "last_enrichment": "botanical + educational field enrichment"
   }
 }
