@@ -183,3 +183,25 @@ html[data-theme="dark"] .dg-field label{color:#edf7f0!important}
 html[data-theme="dark"] .dg-field input,html[data-theme="dark"] .dg-field select,html[data-theme="dark"] .dg-field textarea{background:#0b1511!important;color:#f1faf4!important;border-color:#3a5145!important}
 @media(max-width:950px){.site-header .header-inner{padding-right:170px}}
 @media(max-width:650px){.site-header .header-inner{padding-right:70px}.site-header .header-inner>#dgThemeToggle{right:14px;top:11px}.site-header .nav{padding-right:0}}
+
+
+/* Compact global feedback link */
+.dg-feedback-footer-link{
+  width:100%;
+  text-align:center;
+  margin-top:10px;
+  padding-top:8px;
+}
+.dg-feedback-footer-link a{
+  color:var(--dg-accent,#2d6a4f);
+  font-size:.84rem;
+  font-weight:600;
+  text-decoration:none;
+}
+.dg-feedback-footer-link a:hover,
+.dg-feedback-footer-link a:focus-visible{
+  text-decoration:underline;
+}
+html[data-theme="dark"] .dg-feedback-footer-link a{
+  color:var(--dg-accent,#6fcf97);
+}
