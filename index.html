@@ -48,7 +48,6 @@ main{max-width:1240px;margin:auto;padding:0 22px 46px}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important}}
 </style>
 <link rel="stylesheet" href="site-theme.css?v=14">
-<link rel="stylesheet" href="feedback.css?v=4">
 <script src="site-theme.js?v=2" defer></script>
 </head>
 <body>
@@ -128,26 +127,8 @@ main{max-width:1240px;margin:auto;padding:0 22px 46px}
   </div>
 </section>
 
-<section id="reviews" class="review-section" aria-labelledby="feedback-title">
-  <div class="section-head"><div><h2 id="feedback-title">💬 Share Your Feedback</h2><p>Suggestions and corrections are submitted only by verified Google accounts.</p></div></div>
-  <div class="dg-feedback-card">
-    <div class="dg-feedback-copy">
-      <span class="dg-feedback-badge">Verified student / teacher feedback</span>
-      <h2>Help improve DravyaGuna 97</h2>
-      <p>Found a data issue, broken link, image problem or useful suggestion? Sign in with the Google account available in your browser and send it here.</p>
-      <div class="dg-feedback-points"><span>✓ Google verified</span><span>✓ No anonymous submissions</span><span>✓ Corrections welcome</span></div>
-    </div>
-    <div class="dg-feedback-panel">
-      <div id="dgLogin"></div>
-      <form id="dgFeedbackForm" class="dg-feedback-grid" novalidate>
-        <div class="dg-field"><label for="dgCategory">Feedback category</label><select id="dgCategory" required><option value="suggestion">Suggestion</option><option value="correction">Data correction</option><option value="image">Image / identification</option><option value="technical">Technical issue</option><option value="other">Other</option></select></div>
-        <div class="dg-field"><label for="dgCorrection">Area</label><select id="dgCorrection"><option value="">Select if applicable</option><option value="plant-data">Plant data</option><option value="classical-reference">Classical reference</option><option value="formulation">Formulation</option><option value="identification">Plant identification</option><option value="image">Image</option><option value="website">Website / UI</option></select></div>
-        <div class="dg-field full"><label for="dgRating">Overall usefulness</label><div class="dg-rating" role="radiogroup" aria-label="Overall usefulness"><button type="button" data-rating="1" role="radio" aria-checked="false" aria-label="1 star">★</button><button type="button" data-rating="2" role="radio" aria-checked="false" aria-label="2 stars">★</button><button type="button" data-rating="3" role="radio" aria-checked="false" aria-label="3 stars">★</button><button type="button" data-rating="4" role="radio" aria-checked="false" aria-label="4 stars">★</button><button type="button" data-rating="5" role="radio" aria-checked="false" aria-label="5 stars">★</button></div><input id="dgRating" type="hidden" value="0"></div>
-        <div class="dg-field full"><label for="dgMessage">Your feedback</label><textarea id="dgMessage" maxlength="2000" placeholder="Describe your suggestion, correction or issue…" required></textarea><small><span id="dgCount">0</span>/2000</small></div>
-        <div class="dg-field full"><button id="dgSubmit" class="dg-submit" type="submit"><span>Send Suggestion</span><span aria-hidden="true">→</span></button><div id="dgStatus" class="dg-status" role="status" aria-live="polite"></div></div>
-      </form>
-    </div>
-  </div>
+<section id="reviews" class="review-section" aria-label="Feedback">
+  <div class="dg-feedback-footer-link"><a href="feedback.html">💬 Share your feedback</a></div>
 </section>
 </main>
 
@@ -195,7 +176,5 @@ main{max-width:1240px;margin:auto;padding:0 22px 46px}
   if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
 })();
 </script>
-<script src="feedback-config.js?v=3"></script>
-<script src="feedback.js?v=3"></script>
 </body>
 </html>
