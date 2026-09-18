@@ -16,12 +16,12 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "annual or biennial herb",
-    "habitat": "Temperate Eurasia and cultivated or introduced regions; recorded in western Himalayan areas",
-    "distribution": "Temperate Eurasia and cultivated or introduced regions; recorded in western Himalayan areas"
+    "habit": "Annual or biennial herb",
+    "habitat": "Temperate habitats; recorded from the Mediterranean to Iran in current Kew POWO",
+    "distribution": "Native from the Mediterranean to Iran; introduced in multiple temperate regions"
   },
   "identification": {
-    "description": "Sticky, strongly odorous herb with broad lobed leaves and pale yellow flowers marked by dark veins.",
+    "description": "Erect annual or biennial herb, up to about 80 cm, densely covered with viscid glandular hairs; lower leaves are petiolate and upper leaves become sessile and clasp the stem.",
     "whole_plant": "",
     "root": "",
     "stem": "",
@@ -31,9 +31,10 @@
     "seed": "",
     "bark": "",
     "identification_points": [
-      "Leaves are soft, broad and lobed.",
-      "Flowers are funnel-shaped with dark venation.",
-      "Capsule contains numerous small seeds."
+      "Erect annual or biennial habit.",
+      "Viscid glandular hairs covering the plant.",
+      "Lower leaves petiolate; upper leaves sessile/amplexicaul.",
+      "Verify flowers and fruit on authenticated specimens."
     ]
   },
   "images": {
@@ -85,11 +86,11 @@
     "chemical_notes": "Phytochemical compound list remains source-verification pending; do not treat an unverified compound list as authoritative."
   },
   "modern_information": {
-    "evidence_summary": "",
+    "evidence_summary": "Hyoscyamus niger L. is an accepted Solanaceae species in Kew POWO; the genus Hyoscyamus is documented as a source of tropane alkaloids including hyoscyamine and scopolamine. This record is for botanical and educational reference and does not provide clinical dosing.",
     "recognized_uses": [
       "Botanical identification and pharmacognosy/dravyaguna education."
     ],
-    "safety_notes": "Educational reference only. Verify authoritative toxicological and pharmacopoeial guidance before use.",
+    "safety_notes": "Poisonous/tropane-alkaloid-containing plant group; do not infer clinical treatment or dosing from this educational record. Verify authoritative toxicology and pharmacopoeial guidance.",
     "sources": []
   },
   "student": {
@@ -168,6 +169,6 @@
     "version": "1.0",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
     "last_enrichment": "botanical + educational field enrichment",
-    "last_audit": "supplementary JSON completeness/safety audit"
+    "last_audit": "complete supplementary JSON audit"
   }
 }
