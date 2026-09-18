@@ -2,15 +2,14 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
     match /reviews/{reviewId} {
-      // Only signed-in Google users may create feedback.
-      // Feedback is write-only from the public site; reads/updates/deletes are denied.
+      // Public site: only verified Google-authenticated users may create feedback.
+      // Feedback remains write-only from the public client.
       allow create: if request.auth != null
-        && request.auth.token.firebase.sign_in_provider == 'google.com'
         && request.auth.token.email_verified == true
-        && request.resource.data.user.uid == request.auth.uid
-        && request.resource.data.authProvider == 'google.com'
-        && request.resource.data.status == 'new'
-        && request.resource.data.rating is int
+        && request.auth.token.firebase.sign_in_provider == "google.com"
+        && request.auth.uid == request.resource.data.user.uid
+        && request.resource.data.authProvider == "google.com"
+        && request.resource.data.status == "new"
         && request.resource.data.rating >= 1
         && request.resource.data.rating <= 5
         && request.resource.data.message is string
