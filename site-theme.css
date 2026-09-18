@@ -53,3 +53,12 @@ html.dark-mode body :where(.divider,.separator){background:var(--dg-border)!impo
 html.dark-mode body :where(.dg-field input,.dg-field select,.dg-field textarea){background:#0f1914!important}
 html.dark-mode body :where(.dg-field input:focus,.dg-field select:focus,.dg-field textarea:focus){box-shadow:0 0 0 3px rgba(114,183,143,.18)}
 .dg-theme-toggle{backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+
+/* Cross-page dark-mode hardening */
+html.dark-mode body :where(.library-header,.library-inner,.search-panel,.plant-card,.loading-plants,.plant-error,.no-results,.flash-face,.medical-disclaimer){background:var(--dg-surface)!important;color:var(--dg-text)!important;border-color:var(--dg-border)!important}
+html.dark-mode body :where(.library-hero h1,.plant-card h3,.flash-face h3,.plant-section h2,.plant-hero h1,.info-label){color:var(--dg-accent-strong)!important}
+html.dark-mode body :where(.plant-image,.image-missing,.gallery-item,.gallery-media,.missing){background:var(--dg-surface-2)!important;color:var(--dg-muted)!important;border-color:var(--dg-border)!important}
+html.dark-mode body :where(.search-panel input,.jump-input,.filter-select,.favorite-btn){background:var(--dg-surface-2)!important;color:var(--dg-text)!important;border-color:var(--dg-border)!important}
+html.dark-mode body :where(.nav a:hover,.tool-btn:hover,.quick-link:hover){background:var(--dg-surface-2)!important;color:var(--dg-accent-strong)!important}
+html.dark-mode body :where(.plant-botanical,.plant-family,.plant-english,.plant-sanskrit,#search-help,#search-result-info,.filter-label,.library-hero p){color:var(--dg-muted)!important}
+html.dark-mode body :where(.medical-disclaimer){border-left-color:var(--dg-accent)!important}
