@@ -251,7 +251,7 @@
     }
   ],
   "metadata": {
-    "status": "supplementary_botanical_enriched_needs_classical_verification",
+    "status": "supplementary_audited_needs_classical_verification",
     "source_batch": "Gemini batches 88 and 102",
     "version": "1.0",
     "gemini_later_batches_reviewed": true,
@@ -259,7 +259,8 @@
       88
     ],
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "botanical + educational field enrichment"
+    "last_enrichment": "botanical + educational field enrichment",
+    "last_audit": "complete supplementary JSON audit"
   },
   "gemini_source_data": {
     "id": 88,
