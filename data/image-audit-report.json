@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-09-18T14:28:40.091257+00:00",
+  "generated_at": "2026-09-18T19:56:40.286460+00:00",
   "plants_checked": 97,
   "slots_checked": 873,
   "filled_this_run": [
     {
       "plant_id": "brahmi",
-      "part": "flower",
-      "action": "downloaded-new-image",
-      "path": "images/plants/brahmi/flower/image.jpg",
-      "bytes": 372869
-    },
-    {
-      "plant_id": "brahmi",
-      "part": "fruit",
-      "action": "downloaded-new-image",
-      "path": "images/plants/brahmi/fruit/image.jpg",
-      "bytes": 292267
-    },
-    {
-      "plant_id": "brahmi",
-      "part": "seed",
-      "action": "downloaded-new-image",
-      "path": "images/plants/brahmi/seed/image.jpg",
-      "bytes": 1106326
-    },
-    {
-      "plant_id": "manjishta",
       "part": "whole_plant",
       "action": "downloaded-new-image",
-      "path": "images/plants/manjishta/whole_plant/image.jpg",
-      "bytes": 529609
+      "path": "images/plants/brahmi/whole_plant/image.jpg",
+      "bytes": 195595
+    },
+    {
+      "plant_id": "latakaranja",
+      "part": "whole_plant",
+      "action": "downloaded-new-image",
+      "path": "images/plants/latakaranja/whole_plant/image.jpg",
+      "bytes": 1908648
+    },
+    {
+      "plant_id": "latakaranja",
+      "part": "habit",
+      "action": "downloaded-new-image",
+      "path": "images/plants/latakaranja/habit/image.jpg",
+      "bytes": 1403639
+    },
+    {
+      "plant_id": "mandukaparni",
+      "part": "flower",
+      "action": "downloaded-new-image",
+      "path": "images/plants/mandukaparni/flower/image.jpg",
+      "bytes": 130422
     },
     {
       "plant_id": "manjishta",
-      "part": "habit",
+      "part": "root",
       "action": "downloaded-new-image",
-      "path": "images/plants/manjishta/habit/image.jpg",
-      "bytes": 335544
+      "path": "images/plants/manjishta/root/image.jpg",
+      "bytes": 163179
     },
     {
-      "plant_id": "shatavari",
+      "plant_id": "manjishta",
+      "part": "leaf",
+      "action": "downloaded-new-image",
+      "path": "images/plants/manjishta/leaf/image.jpg",
+      "bytes": 210185
+    },
+    {
+      "plant_id": "rasona",
       "part": "flower",
       "action": "downloaded-new-image",
-      "path": "images/plants/shatavari/flower/image.jpg",
-      "bytes": 436070
+      "path": "images/plants/rasona/flower/image.jpg",
+      "bytes": 214821
     }
   ],
   "unresolved": [
@@ -549,11 +556,6 @@
     },
     {
       "plant_id": "brahmi",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "brahmi",
       "part": "habit",
       "reason": "no-high-confidence-unique-image"
     },
@@ -1554,16 +1556,6 @@
     },
     {
       "plant_id": "latakaranja",
-      "part": "whole_plant",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "latakaranja",
-      "part": "habit",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "latakaranja",
       "part": "root",
       "reason": "no-high-confidence-unique-image"
     },
@@ -2575,11 +2567,6 @@
     {
       "plant_id": "mandukaparni",
       "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "mandukaparni",
-      "part": "flower",
       "reason": "no-high-confidence-unique-image"
     },
     {
@@ -2599,17 +2586,7 @@
     },
     {
       "plant_id": "manjishta",
-      "part": "root",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "manjishta",
       "part": "stem",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "manjishta",
-      "part": "leaf",
       "reason": "no-high-confidence-unique-image"
     },
     {
@@ -3195,11 +3172,6 @@
     {
       "plant_id": "rasona",
       "part": "leaf",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "rasona",
-      "part": "flower",
       "reason": "no-high-confidence-unique-image"
     },
     {
@@ -4103,7 +4075,7 @@
       "reason": "no-high-confidence-unique-image"
     }
   ],
-  "remaining_missing": 811,
+  "remaining_missing": 804,
   "local_asset_root": "images/plants/<plant>/<part>/image.*",
   "policy": {
     "exact_species_required": true,
