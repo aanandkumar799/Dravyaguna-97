@@ -68,7 +68,7 @@ main{max-width:1180px;margin:auto;padding:30px 22px}
   <h1>DravyaGuna 97</h1>
   <p class="tagline">Learn • Identify • Revise • Cross-check</p>
   <p class="desc">A clean, syllabus-oriented learning portal for medicinal plants, practical identification, classical references and examination preparation.</p>
-  <div id="install" class="install is-installed" aria-hidden="true"></div>
+  
   <div class="hero-actions"><a class="btn btn-primary" href="plants.html">Explore Plant Library →</a><a class="btn btn-outline" href="practical-lab.html">🔎 Practice Lab</a></div>
 </section>
 
@@ -82,23 +82,19 @@ main{max-width:1180px;margin:auto;padding:30px 22px}
 </section>
 
 <section class="section">
-  <div class="section-head"><h2>Study Tools</h2><p>Everything important is accessible without crowding the homepage.</p></div>
-  <div class="features">
-    <article class="feature"><div class="icon">🌿</div><h3>Plant Reference</h3><p>Browse the NCISM-oriented plant database with names, botanical identity, Rasa Panchaka and more.</p><a class="btn btn-outline" style="margin-top:12px" href="plants.html">Open Plant Reference →</a></article>
-    <article class="feature"><div class="icon">🔎</div><h3>Practical Identification</h3><p>Use morphology and identification points to revise plants for practicals and viva.</p><a class="btn btn-outline" style="margin-top:12px" href="practical-lab.html">Open Practical Lab →</a></article>
-    <article class="feature"><div class="icon">📚</div><h3>Classical References</h3><p>Browse available shlokas, Nighantu references and Samhita references alongside the plant database.</p><a class="btn btn-outline" style="margin-top:12px" href="reference-library.html">Open References →</a></article>
-    <article class="feature"><div class="icon">🧠</div><h3>Quick Revision</h3><p>Focus on exam points, mnemonics, viva questions and concise revision notes.</p><a class="btn btn-outline" style="margin-top:12px" href="plants.html?mode=flash#quick-revision">📇 Open Flashcards →</a></article>
-    <article class="feature"><div class="icon">⚖️</div><h3>Compare Dravyas</h3><p>Compare important plant characteristics side by side for faster study.</p><a class="btn btn-outline" style="margin-top:12px" href="compare.html">Open Compare →</a></article>
-    <article class="feature"><div class="icon">❓</div><h3>Quiz Yourself</h3><p>Test recall after studying with the dedicated interactive practice quiz.</p><a class="btn btn-outline" style="margin-top:12px" href="quiz.html">Start Quiz →</a></article>
+  <div class="section-head"><h2>Study Tools</h2><p>One clear 2×3 tool grid for the most-used study actions.</p></div>
+  <div class="features" aria-label="Study tools">
+    <a class="feature" href="plants.html"><div class="icon">🌿</div><h3>Plant Library</h3><p>Browse the NCISM-oriented plant database.</p></a>
+    <a class="feature" href="practical-lab.html"><div class="icon">🔎</div><h3>Practical Lab</h3><p>Revise morphology, identification and viva points.</p></a>
+    <a class="feature" href="reference-library.html"><div class="icon">📚</div><h3>Classical References</h3><p>Find available shlokas, Nighantu and Samhita references.</p></a>
+    <a class="feature" href="rasa.html"><div class="icon">🧪</div><h3>Rasa Panchaka</h3><p>Explore key pharmacodynamic characteristics.</p></a>
+    <a class="feature" href="compare.html"><div class="icon">⚖️</div><h3>Compare Dravyas</h3><p>Compare important plant characteristics side by side.</p></a>
+    <a class="feature" href="quiz.html"><div class="icon">❓</div><h3>Practice Quiz</h3><p>Test recall after studying.</p></a>
   </div>
 </section>
 
 <section class="section">
-  <div class="section-head"><h2>Study Tools</h2><p>Jump directly to the tool you want.</p></div>
-  <div class="quick" id="study-tools">
-    <div class="panel"><h3>Quick Access</h3><div class="link-list"><a class="quick-link" href="plants.html">🌿 Browse Plant Library</a><a class="quick-link" href="plants.html#search">🔍 Search a Dravya</a><a class="quick-link" href="practical-lab.html">🔎 Practical Identification</a><a class="quick-link" href="reference-library.html">📜 Classical References</a><a class="quick-link" href="rasa.html">🧪 Rasa Panchaka Explorer</a><a class="quick-link" href="compare.html">⚖️ Compare Dravyas</a><a class="quick-link" href="quiz.html">❓ Practice Quiz</a><a class="quick-link" href="viva.html">🎤 Rapid Viva</a><a class="quick-link" href="progress.html">📊 Study Progress</a><a class="quick-link" href="plants.html?mode=flash#quick-revision">📇 Flashcards</a></div></div>
-    <div class="panel"><h3>About the Database</h3><p style="color:var(--muted)">The homepage is intentionally kept light. The full plant library and study tools open separately so the landing page remains easy to navigate on mobile and desktop.</p><div class="notice"><strong>Study note:</strong> Cross-check classical and clinical information with authoritative texts and professional guidance.</div></div>
-  </div>
+  <div class="panel"><h3>About the Database</h3><p style="color:var(--muted)">The homepage is intentionally kept light. The full plant library and study tools open separately so the landing page remains easy to navigate on mobile and desktop.</p><div class="notice"><strong>Study note:</strong> Cross-check classical and clinical information with authoritative texts and professional guidance.</div></div>
 </section>
 
 <section id="reviews" class="review-section" aria-label="Feedback"></section>
@@ -113,21 +109,19 @@ main{max-width:1180px;margin:auto;padding:30px 22px}
 
 <script>
 (function(){
-  let deferred=null;
-  const install=document.getElementById('install'),hint=document.getElementById('installHint');
-  const standalone=()=>window.matchMedia&&window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;
-  function refreshInstall(){if(standalone()){install.classList.add('is-installed');if(hint)hint.textContent='DravyaGuna 97 is already installed on this device.';}else{install.classList.remove('is-installed');if(hint)hint.textContent=deferred?'Ready to install this portal.':'Install this portal on your device for faster access.';}}
-  window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferred=e;refreshInstall()});
-  install?.addEventListener('click',async()=>{
-    if(deferred){deferred.prompt();try{await deferred.userChoice}catch(e){}deferred=null;refreshInstall();return;}
-    if(standalone())return;
-    hint.textContent='If the install prompt does not appear, use your browser menu and choose “Install app” or “Add to Home screen”.';
-  });
-  window.addEventListener('appinstalled',()=>{deferred=null;refreshInstall()});
-  refreshInstall();
   const menu=document.getElementById('menuToggle'),nav=document.getElementById('primaryNav');
-  menu?.addEventListener('click',()=>{const open=nav.classList.toggle('is-open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Close menu':'Open menu');menu.textContent=open?'✕':'☰';});
-  nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('is-open');menu?.setAttribute('aria-expanded','false');menu?.setAttribute('aria-label','Open menu');if(menu)menu.textContent='☰';}));
+  menu?.addEventListener('click',()=>{
+    const open=nav.classList.toggle('is-open');
+    menu.setAttribute('aria-expanded',String(open));
+    menu.setAttribute('aria-label',open?'Close menu':'Open menu');
+    menu.textContent=open?'✕':'☰';
+  });
+  nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
+    nav.classList.remove('is-open');
+    menu?.setAttribute('aria-expanded','false');
+    menu?.setAttribute('aria-label','Open menu');
+    if(menu)menu.textContent='☰';
+  }));
   if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
 })();
 </script>
