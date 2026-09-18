@@ -112,7 +112,7 @@
     "recognized_uses": [
       "Botanical identification and pharmacognosy/dravyaguna education."
     ],
-    "safety_notes": "Do not infer dose or therapeutic use from this educational record. Latex-bearing material should be handled with appropriate laboratory precautions.",
+    "safety_notes": "Do not infer do not infer clinical treatment instructions or therapeutic use from this educational record. Latex-bearing material should be handled with appropriate laboratory precautions.",
     "sources": []
   },
   "student": {
@@ -140,7 +140,9 @@
       "Use Snuhi to demonstrate identification of succulent Euphorbiaceae and the importance of taxonomic synonym checking.",
       "Kew currently accepts Euphorbia neriifolia L.; the record should not silently substitute an older Roxb. name."
     ],
-    "discussion_points": [],
+    "discussion_points": [
+      "Use the accepted botanical name and document any historical synonym separately."
+    ],
     "practical_points": [
       "Observe authenticated material without direct contact with latex.",
       "Record stem/branch morphology and latex presence separately."
@@ -195,10 +197,11 @@
     }
   ],
   "metadata": {
-    "status": "supplementary_botanical_enriched_needs_classical_verification",
+    "status": "supplementary_audited_needs_classical_verification",
     "source_batch": "Gemini batches 92 and 106",
     "version": "1.0",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "botanical + educational field enrichment"
+    "last_enrichment": "botanical + educational field enrichment",
+    "last_audit": "supplementary JSON completeness/safety audit"
   }
 }
