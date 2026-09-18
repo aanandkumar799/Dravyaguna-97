@@ -1,0 +1,54 @@
+name: Firebase Deploy
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: firebase-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Deploy Hosting and Firestore rules
+    runs-on: ubuntu-latest
+    environment:
+      name: firebase-production
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 20
+      - name: Generate canonical site artifacts
+        run: |
+          python scripts/generate-site-artifacts.py
+          python scripts/public-readiness.py
+          python scripts/audit-data-quality.py
+      - name: Prepare Firebase Hosting site
+        shell: bash
+        run: |
+          rm -rf _site
+          mkdir -p _site
+          tar --exclude='./.git' --exclude='./.github' --exclude='./_site' -cf - . | tar -xf - -C _site
+      - name: Authenticate Firebase CLI
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_DRAVYA_GUNA_97 }}
+        run: |
+          test -n "$FIREBASE_SERVICE_ACCOUNT" || {
+            echo "::error::Missing FIREBASE_SERVICE_ACCOUNT_DRAVYA_GUNA_97 GitHub secret."
+            exit 1
+          }
+          umask 077
+          printf '%s' "$FIREBASE_SERVICE_ACCOUNT" > "$RUNNER_TEMP/firebase-service-account.json"
+          echo "GOOGLE_APPLICATION_CREDENTIALS=$RUNNER_TEMP/firebase-service-account.json" >> "$GITHUB_ENV"
+      - name: Deploy Firebase Hosting and Firestore rules
+        run: npx --yes firebase-tools@latest deploy --project dravya-guna-97 --only hosting,firestore:rules --non-interactive
+      - name: Remove Firebase credentials
+        if: always()
+        run: rm -f "$RUNNER_TEMP/firebase-service-account.json"
