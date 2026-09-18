@@ -22,9 +22,9 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "twining perennial herbaceous climber",
+    "habitat": "Tropical and subtropical thickets, hedges and disturbed vegetation",
+    "distribution": "Tropical and subtropical thickets, hedges and disturbed vegetation"
   },
   "identification": {
     "description": "Hard egg-shaped glossy seeds, bright scarlet red with a distinctive black mark at the hilum (Rakta Gunja) or glossy milk-white with black mark (Shweta Gunja), highly poisonous unpurified.",
@@ -217,7 +217,7 @@
     }
   ],
   "metadata": {
-    "status": "supplementary_needs_source_verification",
+    "status": "supplementary_botanical_enriched_needs_classical_verification",
     "source_batch": "Gemini batches 86 and 99",
     "version": "1.0",
     "gemini_later_batches_reviewed": true,
@@ -225,7 +225,7 @@
       86
     ],
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+    "last_enrichment": "structured botanical identification enrichment"
   },
   "gemini_source_data": {
     "id": 86,
