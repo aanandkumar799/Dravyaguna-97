@@ -60,6 +60,73 @@ for p in core:
         if not isinstance(source, dict):
             errors.append(f'{name}: source entry is not an object')
 
+
+# Cross-record revision/content checks.
+def norm_text(value):
+    return " ".join(str(value or "").casefold().split())
+
+question_seen = {}
+for p in core:
+    name = p.get('identity', {}).get('name', p.get('id', '?'))
+    mcqs = p.get('mcqs') or []
+    if not isinstance(mcqs, list):
+        errors.append(f'{name}: mcqs must be a list')
+        continue
+    for i, q in enumerate(mcqs, 1):
+        if not isinstance(q, dict):
+            errors.append(f'{name}: MCQ {i} must be an object')
+            continue
+        question = norm_text(q.get('question'))
+        options = q.get('options')
+        answer = norm_text(q.get('answer'))
+        if not question:
+            errors.append(f'{name}: MCQ {i} missing question')
+        if not isinstance(options, list) or len(options) < 2:
+            errors.append(f'{name}: MCQ {i} must have at least 2 options')
+            continue
+        option_keys = [norm_text(x) for x in options]
+        if any(not x for x in option_keys):
+            errors.append(f'{name}: MCQ {i} contains an empty option')
+        if len(option_keys) != len(set(option_keys)):
+            errors.append(f'{name}: MCQ {i} has duplicate options')
+        if answer not in option_keys:
+            errors.append(f'{name}: MCQ {i} answer does not match any option')
+        if question:
+            question_seen.setdefault(question, []).append(f'{name} MCQ {i}')
+
+for question, locations in question_seen.items():
+    if len(locations) > 1:
+        errors.append(f'Duplicate MCQ question across records: {locations}')
+
+for p in core:
+    name = p.get('identity', {}).get('name', p.get('id', '?'))
+    formulations = p.get('formulations') or []
+    if not isinstance(formulations, list):
+        errors.append(f'{name}: formulations must be a list')
+        continue
+    seen_formulations = set()
+    for i, f in enumerate(formulations, 1):
+        if not isinstance(f, dict):
+            errors.append(f'{name}: formulation {i} must be an object')
+            continue
+        key = (norm_text(f.get('name')), norm_text(f.get('dosage_form')), norm_text(f.get('indication')))
+        if not key[0]:
+            errors.append(f'{name}: formulation {i} missing name')
+        if key in seen_formulations:
+            errors.append(f'{name}: duplicate formulation entry "{f.get("name", "")}"')
+        seen_formulations.add(key)
+
+for path, p in zip(files, records):
+    if path.stem != str(p.get('id', '')).strip():
+        errors.append(f'{path.name}: filename does not match plant id "{p.get("id", "")}"')
+    images = p.get('images') or {}
+    if isinstance(images, dict):
+        for part, value in images.items():
+            if isinstance(value, str) and value.strip() and not value.startswith(('http://', 'https://', 'data:')):
+                asset = ROOT / value
+                if not asset.is_file():
+                    errors.append(f'{p.get("id", path.stem)}: image path missing for {part}: {value}')
+
 for p in supplementary:
     name = p.get('identity', {}).get('name', p.get('id', '?'))
     if not str(p.get('id', '')).strip():
