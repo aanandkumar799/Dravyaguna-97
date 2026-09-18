@@ -2,7 +2,7 @@
   "name": "DravyaGuna 97 — BAMS Dravyaguna Learning Portal",
   "short_name": "DravyaGuna 97",
   "description": "BAMS Dravyaguna Vigyan plant reference, practical identification, classical references and revision portal.",
-  "start_url": "./index.html",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
