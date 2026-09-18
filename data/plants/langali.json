@@ -21,12 +21,12 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "herbaceous climber",
+    "habitat": "Moist and dry deciduous forests, scrub and plains",
+    "distribution": "Moist and dry deciduous forests, scrub and plains"
   },
   "identification": {
-    "description": "",
+    "description": "Climbing herb arising from distinctive V-shaped tubers; flowers have strongly reflexed tepals.",
     "whole_plant": "",
     "root": "",
     "stem": "",
@@ -35,7 +35,11 @@
     "fruit": "",
     "seed": "",
     "bark": "",
-    "identification_points": []
+    "identification_points": [
+      "Leaves are lanceolate with a tendril-like tip.",
+      "Flowers change from yellow/orange to red.",
+      "Fruit is a three-celled capsule."
+    ]
   },
   "images": {
     "whole_plant": "",
@@ -164,10 +168,10 @@
     }
   ],
   "metadata": {
-    "status": "supplementary_needs_source_verification",
+    "status": "supplementary_botanical_enriched_needs_classical_verification",
     "source_batch": "Gemini batch 93",
     "version": "1.0",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+    "last_enrichment": "structured botanical identification enrichment"
   }
 }
