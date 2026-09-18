@@ -24,6 +24,6 @@ app.innerHTML=
 '<div class="plant-list-actions"><a class="btn btn-outline" href="supplementary.html">← Back to supplementary plants</a><a class="btn btn-outline" href="reference-library.html">Teacher reference</a><a class="btn btn-outline" href="references.html">Doctor reference</a></div>';
 }
 const id=new URLSearchParams(location.search).get('id');
-fetch('data/supplementary/index.json?v=2',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(d=>{const p=arr(d.plants).find(x=>x.id===id);if(!p)throw 0;render(p)}).catch(()=>{app.innerHTML='<section class="plant-header"><h1>Plant not found</h1><p>The supplementary record could not be loaded.</p><a class="btn btn-outline" href="supplementary.html">← Back</a></section>'});
+fetch('data/plants/'+encodeURIComponent(id)+'.json?v=2',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(render).catch(()=>{app.innerHTML='<section class="plant-header"><h1>Plant not found</h1><p>The supplementary record could not be loaded.</p><a class="btn btn-outline" href="supplementary.html">← Back</a></section>'});
 })();
 </script><script src="site-theme.js?v=6" defer></script></body></html>
