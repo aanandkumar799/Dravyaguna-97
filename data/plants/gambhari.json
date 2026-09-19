@@ -9,8 +9,18 @@
     "family": "Lamiaceae",
     "english_name": "Beechwood",
     "hindi_name": "गम्भारी",
-    "regional_names": [],
-    "synonyms": ["Kashmari", "Shriparni", "Madhuparni", "Sarvatobhadra"]
+    "regional_names": [
+      "Kashmari",
+      "Shriparni",
+      "Madhuparni",
+      "Sarvatobhadra"
+    ],
+    "synonyms": [
+      "Kashmari",
+      "Shriparni",
+      "Madhuparni",
+      "Sarvatobhadra"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
@@ -28,32 +38,76 @@
     "fruit": "Fleshy drupe, green when immature and yellow to orange-yellow on ripening, usually containing a hard stone.",
     "seed": "Seed is enclosed within the hard stone of the drupe.",
     "bark": "Outer bark grey to grey-brown; inner bark is fibrous and should be compared with authenticated pharmacopoeial material.",
-    "identification_points": ["Deciduous tree", "Large opposite leaves", "Yellowish clustered flowers", "Yellow-orange fleshy drupe at maturity"]
+    "identification_points": [
+      "Deciduous tree",
+      "Large opposite leaves",
+      "Yellowish clustered flowers",
+      "Yellow-orange fleshy drupe at maturity"
+    ]
   },
   "images": {
     "whole_plant": "images/plants/gambhari.jpg",
     "habit": "images/plants/gambhari.jpg",
-    "root": "", "stem": "", "leaf": "", "flower": "", "fruit": "", "seed": "", "bark": ""
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
   },
   "dravya_guna": {
-    "rasa": ["Tikta", "Kashaya"],
-    "guna": ["Laghu", "Snigdha"],
+    "rasa": [
+      "Tikta",
+      "Kashaya"
+    ],
+    "guna": [
+      "Laghu",
+      "Snigdha"
+    ],
     "virya": "Sheeta",
     "vipaka": "Katu",
-    "prabhava": ["Shothahara", "Balya"],
-    "karma": []
+    "prabhava": [
+      "Shothahara",
+      "Balya"
+    ],
+    "karma": [
+      "Shothahara",
+      "Balya"
+    ]
   },
-  "dosha": {"vata": "pacified", "pitta": "not specifically documented in imported dataset", "kapha": "aggravated"},
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "not specifically documented in imported dataset",
+    "kapha": "aggravated"
+  },
   "therapeutics": {
-    "useful_part": ["root"],
-    "indications": ["Daha", "Trishna", "Jwara", "Raktapitta", "Bhrama"],
-    "therapeutic_actions": [], "dose": "", "anupana": "", "duration": "", "precautions": "", "contraindications": ""
+    "useful_part": [
+      "root"
+    ],
+    "indications": [
+      "Daha",
+      "Trishna",
+      "Jwara",
+      "Raktapitta",
+      "Bhrama"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
   },
   "formulations": [],
   "classical_reference": {
-    "shlokas": [], "nighantu_references": [], "samhita_references": [],
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
     "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
-    "reference_hubs": ["TDU Indian Medicinal Plants Database — Shlokas"]
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
   },
   "phytochemistry": {
     "major_constituents": [],
@@ -66,29 +120,99 @@
     "sources": []
   },
   "student": {
-    "exam_points": ["Gambhari is Gmelina arborea Roxb.", "Family: Lamiaceae", "A Dashamoola-associated drug", "Root is the listed useful part in this project record"],
-    "viva_questions": ["What is the botanical name of Gambhari?", "Which family does Gambhari belong to?", "Which part is listed as useful in this record?", "Mention key identification characters of Gambhari."],
-    "identification_points": ["Medium deciduous tree", "Large opposite leaves", "Yellowish clustered flowers", "Fleshy yellow-orange mature fruit"],
-    "mnemonics": ["Gambhari = Gmelina; remember the large opposite leaves and yellowish flowers."],
+    "exam_points": [
+      "Gambhari is Gmelina arborea Roxb.",
+      "Family: Lamiaceae",
+      "A Dashamoola-associated drug",
+      "Root is the listed useful part in this project record"
+    ],
+    "viva_questions": [
+      "What is the botanical name of Gambhari?",
+      "Which family does Gambhari belong to?",
+      "Which part is listed as useful in this record?",
+      "Mention key identification characters of Gambhari."
+    ],
+    "identification_points": [
+      "Medium deciduous tree",
+      "Large opposite leaves",
+      "Yellowish clustered flowers",
+      "Fleshy yellow-orange mature fruit"
+    ],
+    "mnemonics": [
+      "Gambhari = Gmelina; remember the large opposite leaves and yellowish flowers."
+    ],
     "quick_revision": "Gambhari (Gmelina arborea) is a deciduous tree of Lamiaceae; the project record lists root as the useful part and associates it with the classical Dashamoola group."
   },
   "teacher": {
-    "teaching_points": ["Demonstrate family-level identification from opposite leaves and floral characters.", "Differentiate botanical identity from classical synonymy."],
-    "discussion_points": ["Why authenticated species identification matters in Dashamoola drugs", "Limits of transferring traditional indications directly into modern clinical claims"],
-    "practical_points": ["Show a labelled specimen or authenticated image.", "Record leaf arrangement, leaf shape, flower cluster and fruit characters during practical identification."]
+    "teaching_points": [
+      "Demonstrate family-level identification from opposite leaves and floral characters.",
+      "Differentiate botanical identity from classical synonymy."
+    ],
+    "discussion_points": [
+      "Why authenticated species identification matters in Dashamoola drugs",
+      "Limits of transferring traditional indications directly into modern clinical claims"
+    ],
+    "practical_points": [
+      "Show a labelled specimen or authenticated image.",
+      "Record leaf arrangement, leaf shape, flower cluster and fruit characters during practical identification."
+    ]
   },
   "doctor": {
     "quick_reference": "Gambhari — Gmelina arborea Roxb.; useful part recorded here: root. Traditional indications in the dossier should be interpreted within the Ayurvedic materia medica and verified against authoritative texts.",
-    "important_indications": ["Daha", "Trishna", "Jwara", "Raktapitta", "Bhrama"],
-    "useful_part": "root", "dose": "", "anupana": "", "key_precautions": ["Confirm botanical identity before dispensing.", "Use authoritative pharmacopoeial/classical references for dose and formulation decisions."]
+    "important_indications": [
+      "Daha",
+      "Trishna",
+      "Jwara",
+      "Raktapitta",
+      "Bhrama"
+    ],
+    "useful_part": "root",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Confirm botanical identity before dispensing.",
+      "Use authoritative pharmacopoeial/classical references for dose and formulation decisions."
+    ]
   },
   "sources": [
-    {"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},
-    {"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},
-    {"type":"official_pharmacopoeial_source","title":"Pharmacopoeia Commission for Indian Medicine & Homoeopathy","url":"https://pcimh.gov.in/","note":"Use PCIM&H pharmacopoeial material for authoritative identity and quality-control cross-checking."},
-    {"type":"image","title":"Wikimedia Commons","url":"https://commons.wikimedia.org/wiki/File:Gmelina_arborea_Roxb._(49263213883).jpg","license_note":"Check the original file page for current license/attribution requirements."}
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "official_pharmacopoeial_source",
+      "title": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy",
+      "url": "https://pcimh.gov.in/",
+      "note": "Use PCIM&H pharmacopoeial material for authoritative identity and quality-control cross-checking."
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Gmelina_arborea_Roxb._(49263213883).jpg",
+      "license_note": "Check the original file page for current license/attribution requirements."
+    },
+    {
+      "type": "secondary_structured_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Secondary source used only for blank structured fields."
+    }
   ],
-  "metadata": {"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3","image_enrichment_note":"Existing project image retained; part-specific verified images remain to be populated.","last_enrichment":"dossier enrichment batch"},
-  "category":"NCISM-97",
-  "syllabus_marker":"NCISM-97"
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "Project editorial pass",
+    "version": "1.3",
+    "image_enrichment_note": "Existing project image retained; part-specific verified images remain to be populated.",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass."
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
 }
