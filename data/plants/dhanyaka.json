@@ -1,20 +1,231 @@
 {
-  "id":"dhanyaka","order":48,
-  "identity":{"name":"Dhanyaka","sanskrit_name":"धन्यक","transliteration":"Dhanyaka","botanical_name":"Coriandrum sativum L.","family":"Apiaceae","english_name":"Coriander","hindi_name":"धनिया","regional_names":[],"synonyms":["Chatra","Kustumburu","Vitunnaka"]},
-  "classification":{"kingdom":"Plantae","habit":"Aromatic annual herb","habitat":"Cultivated and naturalized in temperate to subtropical regions; commonly grown as a culinary and medicinal crop","distribution":"Widely cultivated in India and elsewhere"},
-  "identification":{"description":"Small aromatic annual herb with finely divided leaves and characteristic compound umbels.","whole_plant":"Erect, branched aromatic annual herb, generally about 20–60 cm tall.","root":"Slender taproot with lateral rootlets.","stem":"Slender, branched and green; upper branches bear the inflorescences.","leaf":"Lower leaves broader and more divided; upper leaves finely dissected into narrow segments.","flower":"Small white to pinkish flowers arranged in compound umbels.","fruit":"Dry globose to ovoid schizocarp, commonly called coriander seed; aromatic when crushed.","seed":"Two mericarps remain closely joined in the mature fruit; surface shows characteristic ridges.","bark":"Not applicable as a distinct medicinal bark drug.","identification_points":["Strong characteristic aroma","Compound umbels with small pale flowers","Marked difference between lower and upper leaf division","Globose aromatic dry fruit"]},
-  "images":{"whole_plant":"images/plants/dhanyaka.jpg","habit":"images/plants/dhanyaka.jpg","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},
-  "dravya_guna":{"rasa":["Kashaya","Tikta"],"guna":["Laghu","Snigdha"],"virya":"Ushna","vipaka":"Madhura","prabhava":["Deepana","Pachana","Mutrala","Jwaraghna"],"karma":[]},
-  "dosha":{"vata":"not specifically documented in imported dataset","pitta":"not specifically documented in imported dataset","kapha":"not specifically documented in imported dataset"},
-  "therapeutics":{"useful_part":["fruit"],"indications":["Trishna","Daha","Jwara","Mutrakrichha","Ajeerna"],"therapeutic_actions":["Deepana","Pachana","Mutrala"],"dose":"","anupana":"","duration":"","precautions":"Use authenticated material; therapeutic dosing should follow an authoritative Ayurvedic formulation/reference.","contraindications":"No project-specific contraindication claim added without text-level verification."},
-  "formulations":[],
-  "classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},
-  "phytochemistry":{"major_constituents":["Linalool is a major constituent of coriander essential oil"],"chemical_notes":"Composition varies with plant part, cultivar and processing; this field is a study overview rather than a pharmacopoeial assay."},
-  "modern_information":{"evidence_summary":"Coriander is an aromatic culinary and medicinal plant. Its fruits and essential oil contain volatile constituents, with linalool commonly reported as a major component.","recognized_uses":["Culinary spice","Traditional digestive use"],"safety_notes":"Use correctly identified plant material. Avoid presenting traditional indications as established clinical efficacy.","sources":[]},
-  "student":{"exam_points":["Botanical name: Coriandrum sativum L.","Family: Apiaceae","Drug part commonly listed: fruit","Characteristic feature: aromatic globose dry fruit","Inflorescence: compound umbel"],"viva_questions":["What is the botanical name of Dhanyaka?","Which family does Dhanyaka belong to?","What is the usual drug part?","What is the characteristic fruit of coriander?"],"identification_points":["Aromatic fruit","Compound umbel","Finely divided upper leaves"],"mnemonics":["DHANYAKA = Dhaniya, aromatic Apiaceae fruit"],"quick_revision":"Dhanyaka (Coriandrum sativum) is an aromatic Apiaceae herb; the characteristic medicinal part is the dry fruit."},
-  "teacher":{"teaching_points":["Differentiate the lower and upper leaf forms.","Demonstrate the compound umbel and schizocarp fruit.","Relate botanical fruit terminology to the commonly used term coriander seed."],"discussion_points":["Taxonomic position within Apiaceae","Culinary versus medicinal use","Authentication of dried fruit by aroma and morphology"],"practical_points":["Observe whole herb and dried fruit separately.","Crush the fruit to demonstrate characteristic aroma.","Record colour, size, ridges and odour of authenticated sample."]},
-  "doctor":{"quick_reference":"Dhanyaka — Coriandrum sativum L.; Apiaceae; commonly used part: fruit. Traditional indications in the indexed record include Trishna, Daha, Jwara, Mutrakrichha and Ajeerna.","important_indications":["Trishna","Daha","Jwara","Mutrakrichha","Ajeerna"],"useful_part":"fruit","dose":"","anupana":"","key_precautions":["Use authenticated material.","Do not infer patient-specific dosing from this educational record.","Separate traditional indications from modern clinical evidence."]},
-  "sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"pharmacopoeial_baseline","title":"Pharmacopoeia Commission for Indian Medicine & Homoeopathy","url":"https://pcimh.gov.in/"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"image","title":"Wikimedia Commons","url":"https://commons.wikimedia.org/wiki/File:(MHNT)_Coriandrum_sativum_-_inflorescence.jpg","license_note":"Check original file page for current license/attribution requirements."}],
-  "metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3","last_enrichment":"morphology + student + teacher + doctor + safety + provenance"},
-  "category":"NCISM-97","syllabus_marker":"NCISM-97"
+  "id": "dhanyaka",
+  "order": 48,
+  "identity": {
+    "name": "Dhanyaka",
+    "sanskrit_name": "धन्यक",
+    "transliteration": "Dhanyaka",
+    "botanical_name": "Coriandrum sativum L.",
+    "family": "Apiaceae",
+    "english_name": "Coriander",
+    "hindi_name": "धनिया",
+    "regional_names": [
+      "Chatra",
+      "Kustumburu",
+      "Vitunnaka"
+    ],
+    "synonyms": [
+      "Chatra",
+      "Kustumburu",
+      "Vitunnaka"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Aromatic annual herb",
+    "habitat": "Cultivated and naturalized in temperate to subtropical regions; commonly grown as a culinary and medicinal crop",
+    "distribution": "Widely cultivated in India and elsewhere"
+  },
+  "identification": {
+    "description": "Small aromatic annual herb with finely divided leaves and characteristic compound umbels.",
+    "whole_plant": "Erect, branched aromatic annual herb, generally about 20–60 cm tall.",
+    "root": "Slender taproot with lateral rootlets.",
+    "stem": "Slender, branched and green; upper branches bear the inflorescences.",
+    "leaf": "Lower leaves broader and more divided; upper leaves finely dissected into narrow segments.",
+    "flower": "Small white to pinkish flowers arranged in compound umbels.",
+    "fruit": "Dry globose to ovoid schizocarp, commonly called coriander seed; aromatic when crushed.",
+    "seed": "Two mericarps remain closely joined in the mature fruit; surface shows characteristic ridges.",
+    "bark": "Not applicable as a distinct medicinal bark drug.",
+    "identification_points": [
+      "Strong characteristic aroma",
+      "Compound umbels with small pale flowers",
+      "Marked difference between lower and upper leaf division",
+      "Globose aromatic dry fruit"
+    ]
+  },
+  "images": {
+    "whole_plant": "images/plants/dhanyaka.jpg",
+    "habit": "images/plants/dhanyaka.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Kashaya",
+      "Tikta"
+    ],
+    "guna": [
+      "Laghu",
+      "Snigdha"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Madhura",
+    "prabhava": [
+      "Deepana",
+      "Pachana",
+      "Mutrala",
+      "Jwaraghna"
+    ],
+    "karma": [
+      "Deepana",
+      "Pachana",
+      "Mutrala",
+      "Jwaraghna"
+    ]
+  },
+  "dosha": {
+    "vata": "not specifically documented in imported dataset",
+    "pitta": "not specifically documented in imported dataset",
+    "kapha": "not specifically documented in imported dataset"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "fruit"
+    ],
+    "indications": [
+      "Trishna",
+      "Daha",
+      "Jwara",
+      "Mutrakrichha",
+      "Ajeerna"
+    ],
+    "therapeutic_actions": [
+      "Deepana",
+      "Pachana",
+      "Mutrala"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Use authenticated material; therapeutic dosing should follow an authoritative Ayurvedic formulation/reference.",
+    "contraindications": "No project-specific contraindication claim added without text-level verification."
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "Linalool is a major constituent of coriander essential oil"
+    ],
+    "chemical_notes": "Composition varies with plant part, cultivar and processing; this field is a study overview rather than a pharmacopoeial assay."
+  },
+  "modern_information": {
+    "evidence_summary": "Coriander is an aromatic culinary and medicinal plant. Its fruits and essential oil contain volatile constituents, with linalool commonly reported as a major component.",
+    "recognized_uses": [
+      "Culinary spice",
+      "Traditional digestive use"
+    ],
+    "safety_notes": "Use correctly identified plant material. Avoid presenting traditional indications as established clinical efficacy.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Botanical name: Coriandrum sativum L.",
+      "Family: Apiaceae",
+      "Drug part commonly listed: fruit",
+      "Characteristic feature: aromatic globose dry fruit",
+      "Inflorescence: compound umbel"
+    ],
+    "viva_questions": [
+      "What is the botanical name of Dhanyaka?",
+      "Which family does Dhanyaka belong to?",
+      "What is the usual drug part?",
+      "What is the characteristic fruit of coriander?"
+    ],
+    "identification_points": [
+      "Aromatic fruit",
+      "Compound umbel",
+      "Finely divided upper leaves"
+    ],
+    "mnemonics": [
+      "DHANYAKA = Dhaniya, aromatic Apiaceae fruit"
+    ],
+    "quick_revision": "Dhanyaka (Coriandrum sativum) is an aromatic Apiaceae herb; the characteristic medicinal part is the dry fruit."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Differentiate the lower and upper leaf forms.",
+      "Demonstrate the compound umbel and schizocarp fruit.",
+      "Relate botanical fruit terminology to the commonly used term coriander seed."
+    ],
+    "discussion_points": [
+      "Taxonomic position within Apiaceae",
+      "Culinary versus medicinal use",
+      "Authentication of dried fruit by aroma and morphology"
+    ],
+    "practical_points": [
+      "Observe whole herb and dried fruit separately.",
+      "Crush the fruit to demonstrate characteristic aroma.",
+      "Record colour, size, ridges and odour of authenticated sample."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Dhanyaka — Coriandrum sativum L.; Apiaceae; commonly used part: fruit. Traditional indications in the indexed record include Trishna, Daha, Jwara, Mutrakrichha and Ajeerna.",
+    "important_indications": [
+      "Trishna",
+      "Daha",
+      "Jwara",
+      "Mutrakrichha",
+      "Ajeerna"
+    ],
+    "useful_part": "fruit",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Use authenticated material.",
+      "Do not infer patient-specific dosing from this educational record.",
+      "Separate traditional indications from modern clinical evidence."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "pharmacopoeial_baseline",
+      "title": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy",
+      "url": "https://pcimh.gov.in/"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:(MHNT)_Coriandrum_sativum_-_inflorescence.jpg",
+      "license_note": "Check original file page for current license/attribution requirements."
+    },
+    {
+      "type": "secondary_structured_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Secondary source used only for blank structured fields."
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "Project editorial pass",
+    "version": "1.3",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass."
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
 }
