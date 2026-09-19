@@ -9,7 +9,12 @@
     "family": "Asparagaceae",
     "english_name": "Wild Asparagus",
     "hindi_name": "",
-    "regional_names": [],
+    "regional_names": [
+      "Shatamuli",
+      "Atirasa",
+      "Narayani",
+      "Bahusuta"
+    ],
     "synonyms": [
       "Shatamuli",
       "Atirasa",
@@ -24,7 +29,7 @@
     "distribution": ""
   },
   "identification": {
-    "description": "",
+    "description": "Shatavari (Asparagus racemosus) supports female reproductive health, boosts vitality, and is a top Ayurvedic rejuvenator for Pitta and Vata.",
     "whole_plant": "",
     "root": "",
     "stem": "",
@@ -62,7 +67,12 @@
       "rasayan",
       "Varnya"
     ],
-    "karma": []
+    "karma": [
+      "Stanyashodhana",
+      "Shukrala",
+      "rasayan",
+      "Varnya"
+    ]
   },
   "dosha": {
     "vata": "pacified",
@@ -166,7 +176,7 @@
     "verified_by": "",
     "version": "1.2",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "classical_review_batch": "1-8 corrected 2026-09-16"
   },
   "category": "NCISM-97",
