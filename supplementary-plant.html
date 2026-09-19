@@ -43,13 +43,13 @@ async function commonsImages(p){
   const tokens=species.split(/\s+/).filter(Boolean);
   const partOf=title=>{
     const t=String(title||'').toLowerCase();
-    if(/\\b(root|radix|roots)\\b/.test(t))return 'Root';
-    if(/\\b(stem|branch|twig|shoot)\\b/.test(t))return 'Stem';
-    if(/\\b(leaf|leaves|foliage)\\b/.test(t))return 'Leaf';
-    if(/\\b(flower|flowers|floral|inflorescence)\\b/.test(t))return 'Flower';
-    if(/\\b(fruit|fruits|pod|pods|capsule)\\b/.test(t))return 'Fruit';
-    if(/\\b(seed|seeds)\\b/.test(t))return 'Seed';
-    if(/\\b(bark)\\b/.test(t))return 'Bark';
+    if(/\b(root|radix|roots)\b/.test(t))return 'Root';
+    if(/\b(stem|branch|twig|shoot)\b/.test(t))return 'Stem';
+    if(/\b(leaf|leaves|foliage)\b/.test(t))return 'Leaf';
+    if(/\b(flower|flowers|floral|inflorescence)\b/.test(t))return 'Flower';
+    if(/\b(fruit|fruits|pod|pods|capsule)\b/.test(t))return 'Fruit';
+    if(/\b(seed|seeds)\b/.test(t))return 'Seed';
+    if(/\b(bark)\b/.test(t))return 'Bark';
     return 'Whole plant / habit';
   };
   return Object.values(pages).map(x=>{
