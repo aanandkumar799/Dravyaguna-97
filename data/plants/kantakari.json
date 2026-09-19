@@ -9,7 +9,12 @@
     "family": "Solanaceae",
     "english_name": "Yellow-berried Nightshade",
     "hindi_name": "कंटकारी",
-    "regional_names": [],
+    "regional_names": [
+      "Duhsparsha",
+      "Kshudra",
+      "Vyaghri",
+      "Nidigdhika"
+    ],
     "synonyms": [
       "Duhsparsha",
       "Kshudra",
@@ -66,7 +71,10 @@
       "Shwasahara",
       "Kasahara"
     ],
-    "karma": []
+    "karma": [
+      "Shwasahara",
+      "Kasahara"
+    ]
   },
   "dosha": {
     "vata": "pacified",
@@ -195,7 +203,7 @@
     "last_verified": "2026-09-17",
     "verified_by": "Project editorial pass",
     "version": "1.3",
-    "last_enrichment": "2026-09-19: blank structured fields supplemented from a cited secondary dataset; existing content preserved.",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "external_dataset_note": "Amidha v2.0 used only as a supplementary structured-data source; not treated as sole classical authority."
   },
   "category": "NCISM-97",
