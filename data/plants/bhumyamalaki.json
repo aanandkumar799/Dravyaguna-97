@@ -9,7 +9,12 @@
     "family": "Phyllanthaceae",
     "english_name": "Bhumi amla / Stonebreaker",
     "hindi_name": "भुई आंवला",
-    "regional_names": [],
+    "regional_names": [
+      "Tamalaki",
+      "Bhumyamalaki",
+      "Bahupatra",
+      "Ajata"
+    ],
     "synonyms": [
       "Tamalaki",
       "Bhumyamalaki",
@@ -194,7 +199,7 @@
     "verified_by": "",
     "version": "1.2",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+    "last_enrichment": "2026-09-19: blank-field enrichment pass."
   },
   "category": "NCISM-97",
   "syllabus_marker": "NCISM-97"
