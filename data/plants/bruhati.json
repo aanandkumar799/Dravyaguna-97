@@ -1,20 +1,208 @@
 {
-  "id":"bruhati","order":46,
-  "identity":{"name":"Bruhati","sanskrit_name":"बृहती","transliteration":"Bruhatī","botanical_name":"Solanum indicum L.","family":"Solanaceae","english_name":"Indian Nightshade","hindi_name":"बड़ी कटेरी","regional_names":[],"synonyms":["Kshudra","Simhi","Bahuputri","Vartaki"]},
-  "classification":{"kingdom":"Plantae","habit":"Prickly herb or undershrub","habitat":"Open scrub, wasteland and disturbed habitats in tropical to subtropical regions","distribution":"Widely distributed in the Indian subcontinent; exact local occurrence should be confirmed during field identification"},
-  "identification":{"description":"A prickly Solanum with characteristic lobed leaves, violet flowers and berry fruits; reliable identification requires examination of prickles, leaf form, inflorescence and fruit together.","whole_plant":"Erect, branched, prickly herb/undershrub with a robust appearance.","root":"Root is cylindrical to somewhat tapering; detailed pharmacognostic characters require specimen-level verification.","stem":"Branched green to greyish stem, commonly armed with prickles.","leaf":"Simple, alternate, ovate to elliptic leaves, often lobed, with prickles on the midrib or petiole in some specimens.","flower":"Small violet to purple, star-shaped Solanum flowers borne in clusters.","fruit":"Globose berry, green when immature and becoming yellowish to orange/red on maturity depending on specimen and stage.","seed":"Numerous small, flattened, pale yellow to brownish seeds embedded in the berry pulp.","bark":"Older stems may become greyish and woody; the root/stem bark should not be used as a substitute for authenticated material.","identification_points":["Prickly Solanum habit","Lobed or deeply incised leaves","Violet star-shaped flowers","Globose berry fruit","Differentiate carefully from other Solanum species used in Ayurveda"]},
-  "images":{"whole_plant":"","habit":"","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},
-  "dravya_guna":{"rasa":["Katu","Tikta"],"guna":["Laghu","Ruksha"],"virya":"Ushna","vipaka":"Katu","prabhava":["Kasahara","Shothahara","Deepana"],"karma":[]},
-  "dosha":{"vata":"pacified","pitta":"aggravated","kapha":"pacified"},
-  "therapeutics":{"useful_part":["root"],"indications":["Shwasa","Kasa","Aruchi","Hridroga","Jwara"],"therapeutic_actions":["Traditionally used in respiratory and digestive contexts; classical indications should be interpreted with the cited Ayurvedic source"],"dose":"","anupana":"","duration":"","precautions":"Use only authenticated plant material; avoid treating this educational record as an individual prescription.","contraindications":"No dose or patient-specific contraindication is supplied here because the classical source/edition has not been text-verified in this record."},
-  "formulations":[],
-  "classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},
-  "phytochemistry":{"major_constituents":[],"chemical_notes":"Solanum species contain steroidal glycoalkaloids and related constituents; species- and part-specific composition should be checked against an authoritative pharmacognostic/phytochemical source before inclusion as a quantified claim."},
-  "modern_information":{"evidence_summary":"Bruhati is an Ayurvedic Dashamoola-associated drug traditionally discussed in respiratory and other therapeutic contexts. This page does not make independent clinical efficacy claims.","recognized_uses":["Traditional Ayurvedic use in respiratory conditions","Traditional use as part of Dashamoola-related formulations"],"safety_notes":"Species authentication is important because multiple Solanum species may resemble one another. Do not infer safety or dosing from this educational record.","sources":[]},
-  "student":{"exam_points":["Botanical name: Solanum indicum L.","Family: Solanaceae","Remember the prickly habit and violet Solanum flowers","Useful part recorded in this project: root","Bruhati is associated with the Dashamoola group"],"viva_questions":["What is the botanical name and family of Bruhati?","What field characters help distinguish Bruhati?","Which part is listed as useful in this dossier?","Why is species authentication important among Solanum drugs?"],"identification_points":["Prickly stem/plant","Lobed leaves","Violet flowers","Globose berry"],"mnemonics":["Bruhati = Big/prickly Solanum; look for prickles + violet star flower"],"quick_revision":"Bruhati (Solanum indicum L., Solanaceae) is a prickly Solanum with lobed leaves, violet flowers and globose berries; the project record lists root as the useful part and respiratory indications in the classical-data field."},
-  "teacher":{"teaching_points":["Demonstrate Solanaceae floral and fruit characters using an authenticated specimen.","Discuss identification challenges among medicinal Solanum species.","Relate the drug to the Dashamoola teaching context without substituting vernacular identification for botanical authentication."],"discussion_points":["Compare Bruhati and Kantakari using habit, leaf, flower and fruit characters.","Discuss why botanical synonyms and local names should not be used alone for authentication."],"practical_points":["Observe prickles, leaf lobing, inflorescence and berry morphology.","Record specimen locality and developmental stage.","Use a validated herbarium/monograph for final authentication."]},
-  "doctor":{"quick_reference":"Bruhati — Solanum indicum L.; family Solanaceae; useful part recorded: root; traditional indications include Shwasa and Kasa. Use authenticated material and consult authoritative monographs for formulation and dose.","important_indications":["Shwasa","Kasa","Aruchi","Hridroga","Jwara"],"useful_part":"root","dose":"","anupana":"","key_precautions":["Confirm botanical identity before use.","Do not infer dosing from this website.","Check current authoritative pharmacopoeial/formulary information for therapeutic use."]},
-  "sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"tdu_classical_database","title":"TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database","note":"Verify exact Devanagari verse, edition and page before quoting a classical verse."}],
-  "metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"PCIM&H/AYUSH source baseline plus structured dossier review","version":"1.3","image_enrichment_note":"Part-specific verified images are still required; blank image fields are intentional rather than unverified substitutions.","last_enrichment":"practical morphology + student/teacher/doctor sections"},
-  "category":"NCISM-97","syllabus_marker":"NCISM-97"
+  "id": "bruhati",
+  "order": 46,
+  "identity": {
+    "name": "Bruhati",
+    "sanskrit_name": "बृहती",
+    "transliteration": "Bruhatī",
+    "botanical_name": "Solanum indicum L.",
+    "family": "Solanaceae",
+    "english_name": "Indian Nightshade",
+    "hindi_name": "बड़ी कटेरी",
+    "regional_names": [],
+    "synonyms": [
+      "Kshudra",
+      "Simhi",
+      "Bahuputri",
+      "Vartaki"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Prickly herb or undershrub",
+    "habitat": "Open scrub, wasteland and disturbed habitats in tropical to subtropical regions",
+    "distribution": "Widely distributed in the Indian subcontinent; exact local occurrence should be confirmed during field identification"
+  },
+  "identification": {
+    "description": "A prickly Solanum with characteristic lobed leaves, violet flowers and berry fruits; reliable identification requires examination of prickles, leaf form, inflorescence and fruit together.",
+    "whole_plant": "Erect, branched, prickly herb/undershrub with a robust appearance.",
+    "root": "Root is cylindrical to somewhat tapering; detailed pharmacognostic characters require specimen-level verification.",
+    "stem": "Branched green to greyish stem, commonly armed with prickles.",
+    "leaf": "Simple, alternate, ovate to elliptic leaves, often lobed, with prickles on the midrib or petiole in some specimens.",
+    "flower": "Small violet to purple, star-shaped Solanum flowers borne in clusters.",
+    "fruit": "Globose berry, green when immature and becoming yellowish to orange/red on maturity depending on specimen and stage.",
+    "seed": "Numerous small, flattened, pale yellow to brownish seeds embedded in the berry pulp.",
+    "bark": "Older stems may become greyish and woody; the root/stem bark should not be used as a substitute for authenticated material.",
+    "identification_points": [
+      "Prickly Solanum habit",
+      "Lobed or deeply incised leaves",
+      "Violet star-shaped flowers",
+      "Globose berry fruit",
+      "Differentiate carefully from other Solanum species used in Ayurveda"
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Katu",
+      "Tikta"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": [
+      "Kasahara",
+      "Shothahara",
+      "Deepana"
+    ],
+    "karma": []
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "aggravated",
+    "kapha": "pacified"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "root"
+    ],
+    "indications": [
+      "Shwasa",
+      "Kasa",
+      "Aruchi",
+      "Hridroga",
+      "Jwara"
+    ],
+    "therapeutic_actions": [
+      "Traditionally used in respiratory and digestive contexts; classical indications should be interpreted with the cited Ayurvedic source"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Use only authenticated plant material; avoid treating this educational record as an individual prescription.",
+    "contraindications": "No dose or patient-specific contraindication is supplied here because the classical source/edition has not been text-verified in this record."
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": "Solanum species contain steroidal glycoalkaloids and related constituents; species- and part-specific composition should be checked against an authoritative pharmacognostic/phytochemical source before inclusion as a quantified claim."
+  },
+  "modern_information": {
+    "evidence_summary": "Bruhati is an Ayurvedic Dashamoola-associated drug traditionally discussed in respiratory and other therapeutic contexts. This page does not make independent clinical efficacy claims.",
+    "recognized_uses": [
+      "Traditional Ayurvedic use in respiratory conditions",
+      "Traditional use as part of Dashamoola-related formulations"
+    ],
+    "safety_notes": "Species authentication is important because multiple Solanum species may resemble one another. Do not infer safety or dosing from this educational record.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Botanical name: Solanum indicum L.",
+      "Family: Solanaceae",
+      "Remember the prickly habit and violet Solanum flowers",
+      "Useful part recorded in this project: root",
+      "Bruhati is associated with the Dashamoola group"
+    ],
+    "viva_questions": [
+      "What is the botanical name and family of Bruhati?",
+      "What field characters help distinguish Bruhati?",
+      "Which part is listed as useful in this dossier?",
+      "Why is species authentication important among Solanum drugs?"
+    ],
+    "identification_points": [
+      "Prickly stem/plant",
+      "Lobed leaves",
+      "Violet flowers",
+      "Globose berry"
+    ],
+    "mnemonics": [
+      "Bruhati = Big/prickly Solanum; look for prickles + violet star flower"
+    ],
+    "quick_revision": "Bruhati (Solanum indicum L., Solanaceae) is a prickly Solanum with lobed leaves, violet flowers and globose berries; the project record lists root as the useful part and respiratory indications in the classical-data field."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Demonstrate Solanaceae floral and fruit characters using an authenticated specimen.",
+      "Discuss identification challenges among medicinal Solanum species.",
+      "Relate the drug to the Dashamoola teaching context without substituting vernacular identification for botanical authentication."
+    ],
+    "discussion_points": [
+      "Compare Bruhati and Kantakari using habit, leaf, flower and fruit characters.",
+      "Discuss why botanical synonyms and local names should not be used alone for authentication."
+    ],
+    "practical_points": [
+      "Observe prickles, leaf lobing, inflorescence and berry morphology.",
+      "Record specimen locality and developmental stage.",
+      "Use a validated herbarium/monograph for final authentication."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Bruhati — Solanum indicum L.; family Solanaceae; useful part recorded: root; traditional indications include Shwasa and Kasa. Use authenticated material and consult authoritative monographs for formulation and dose.",
+    "important_indications": [
+      "Shwasa",
+      "Kasa",
+      "Aruchi",
+      "Hridroga",
+      "Jwara"
+    ],
+    "useful_part": "root",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Confirm botanical identity before use.",
+      "Do not infer dosing from this website.",
+      "Check current authoritative pharmacopoeial/formulary information for therapeutic use."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Verify exact Devanagari verse, edition and page before quoting a classical verse."
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "PCIM&H/AYUSH source baseline plus structured dossier review",
+    "version": "1.3",
+    "image_enrichment_note": "Part-specific verified images are still required; blank image fields are intentional rather than unverified substitutions.",
+    "last_enrichment": "practical morphology + student/teacher/doctor sections"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
 }
