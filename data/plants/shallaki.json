@@ -1,2 +1,205 @@
 {
-"id":"shallaki","order":80,"identity":{"name":"Shallaki","sanskrit_name":"शल्लकी","transliteration":"Shallaki","botanical_name":"Boswellia serrata Roxb. ex Colebr.","family":"Burseraceae","english_name":"Indian Olibanum","hindi_name":"सलाई","regional_names":[],"synonyms":["Gajabhakshya","Suvaha","Surabhi","Kunduru"]},"classification":{"kingdom":"Plantae","habit":"Medium-sized deciduous tree","habitat":"Dry tropical and subtropical woodland","distribution":"Central and northern peninsular India"},"identification":{"description":"Resin-bearing deciduous tree with papery bark and pinnate leaves.","whole_plant":"Deciduous tree with spreading crown.","root":"Woody branched root system.","stem":"Grey-green to brown trunk and branches; bark peels in thin papery flakes.","leaf":"Pinnate compound leaves clustered near ends of branches; leaflets opposite to subopposite.","flower":"Small pale yellowish to cream flowers in axillary or terminal clusters.","fruit":"Small three-angled to obovoid capsule.","seed":"Small, hard seeds within the capsule.","bark":"Characteristic papery, peeling bark; resin obtained from stem/branch incisions.","identification_points":["Papery peeling bark","Pinnate leaves","Resin exudation","Deciduous habit"]},"images":{"whole_plant":"","habit":"","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},"dravya_guna":{"rasa":["Kashaya","Tikta"],"guna":["Laghu","Ruksha"],"virya":"Sheeta","vipaka":"Katu","prabhava":["Shothahara","Grahi","Vedanasthapana"],"karma":[]},"dosha":{"vata":"aggravated","pitta":"pacified","kapha":"pacified"},"therapeutics":{"useful_part":["oleo-gum-resin"],"indications":["Sandhivata","Amavata","Vrana","Atisara","Raktapitta"],"therapeutic_actions":["Traditional anti-inflammatory context","Grahi","Wound-supportive traditional use"],"dose":"","anupana":"","duration":"","precautions":"Authenticate resin and distinguish crude resin from standardized extracts.","contraindications":""},"formulations":[],"classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},"phytochemistry":{"major_constituents":["Boswellic acids in resin fractions"],"chemical_notes":"Boswellic-acid content varies with species, resin quality and extraction; do not equate a constituent with clinical efficacy."},"modern_information":{"evidence_summary":"Boswellia serrata resin has been extensively investigated for inflammatory pathways and musculoskeletal applications, but study results depend on preparation and population.","recognized_uses":[],"safety_notes":"Consider interactions and individual suitability when using concentrated preparations; raw resin identification is important.","sources":[]},"student":{"exam_points":["Botanical name: Boswellia serrata","Family: Burseraceae","Drug part: oleo-gum-resin","Papery bark and resin are key practical features"],"viva_questions":["Which family does Shallaki belong to?","What is the useful part?","How is the resin obtained?"],"identification_points":["Papery bark","Pinnate leaves","Resin exudate"],"mnemonics":["SHALLAKI = Salai resin"],"quick_revision":"Shallaki — Boswellia serrata — Burseraceae — oleo-gum-resin."},"teacher":{"teaching_points":["Demonstrate resin and bark characters","Discuss resin authentication"],"discussion_points":["Crude resin versus standardized Boswellia preparations","Quality control"],"practical_points":["Observe colour, odour and fracture of resin","Compare authentic and adulterated resin where available"]},"doctor":{"quick_reference":"Resin drug traditionally used in musculoskeletal and inflammatory presentations.","important_indications":["Sandhivata","Amavata","Vrana"],"useful_part":"oleo-gum-resin","dose":"","anupana":"","key_precautions":["Use authenticated resin","Preparation-specific evidence varies"]},"sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"pharmacopoeial_reference","title":"PCIM&H Ayurvedic Pharmacopoeia of India","url":"https://pcimh.gov.in/"}],"metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3","image_enrichment_note":"Verified image registry remains separate","last_enrichment":"structured identification + teaching + clinical-reference enrichment"},"category":"NCISM-97","syllabus_marker":"NCISM-97"}
+  "id": "shallaki",
+  "order": 80,
+  "identity": {
+    "name": "Shallaki",
+    "sanskrit_name": "शल्लकी",
+    "transliteration": "Shallaki",
+    "botanical_name": "Boswellia serrata Roxb. ex Colebr.",
+    "family": "Burseraceae",
+    "english_name": "Indian Olibanum",
+    "hindi_name": "सलाई",
+    "regional_names": [],
+    "synonyms": [
+      "Gajabhakshya",
+      "Suvaha",
+      "Surabhi",
+      "Kunduru"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Medium-sized deciduous tree",
+    "habitat": "Dry tropical and subtropical woodland",
+    "distribution": "Central and northern peninsular India"
+  },
+  "identification": {
+    "description": "Resin-bearing deciduous tree with papery bark and pinnate leaves.",
+    "whole_plant": "Deciduous tree with spreading crown.",
+    "root": "Woody branched root system.",
+    "stem": "Grey-green to brown trunk and branches; bark peels in thin papery flakes.",
+    "leaf": "Pinnate compound leaves clustered near ends of branches; leaflets opposite to subopposite.",
+    "flower": "Small pale yellowish to cream flowers in axillary or terminal clusters.",
+    "fruit": "Small three-angled to obovoid capsule.",
+    "seed": "Small, hard seeds within the capsule.",
+    "bark": "Characteristic papery, peeling bark; resin obtained from stem/branch incisions.",
+    "identification_points": [
+      "Papery peeling bark",
+      "Pinnate leaves",
+      "Resin exudation",
+      "Deciduous habit"
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Kashaya",
+      "Tikta"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Katu",
+    "prabhava": [
+      "Shothahara",
+      "Grahi",
+      "Vedanasthapana"
+    ],
+    "karma": []
+  },
+  "dosha": {
+    "vata": "aggravated",
+    "pitta": "pacified",
+    "kapha": "pacified"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "oleo-gum-resin"
+    ],
+    "indications": [
+      "Sandhivata",
+      "Amavata",
+      "Vrana",
+      "Atisara",
+      "Raktapitta"
+    ],
+    "therapeutic_actions": [
+      "Traditional anti-inflammatory context",
+      "Grahi",
+      "Wound-supportive traditional use"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Authenticate resin and distinguish crude resin from standardized extracts.",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "Boswellic acids in resin fractions"
+    ],
+    "chemical_notes": "Boswellic-acid content varies with species, resin quality and extraction; do not equate a constituent with clinical efficacy."
+  },
+  "modern_information": {
+    "evidence_summary": "Boswellia serrata resin has been extensively investigated for inflammatory pathways and musculoskeletal applications, but study results depend on preparation and population.",
+    "recognized_uses": [],
+    "safety_notes": "Consider interactions and individual suitability when using concentrated preparations; raw resin identification is important.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Botanical name: Boswellia serrata",
+      "Family: Burseraceae",
+      "Drug part: oleo-gum-resin",
+      "Papery bark and resin are key practical features"
+    ],
+    "viva_questions": [
+      "Which family does Shallaki belong to?",
+      "What is the useful part?",
+      "How is the resin obtained?"
+    ],
+    "identification_points": [
+      "Papery bark",
+      "Pinnate leaves",
+      "Resin exudate"
+    ],
+    "mnemonics": [
+      "SHALLAKI = Salai resin"
+    ],
+    "quick_revision": "Shallaki — Boswellia serrata — Burseraceae — oleo-gum-resin."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Demonstrate resin and bark characters",
+      "Discuss resin authentication"
+    ],
+    "discussion_points": [
+      "Crude resin versus standardized Boswellia preparations",
+      "Quality control"
+    ],
+    "practical_points": [
+      "Observe colour, odour and fracture of resin",
+      "Compare authentic and adulterated resin where available"
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Resin drug traditionally used in musculoskeletal and inflammatory presentations.",
+    "important_indications": [
+      "Sandhivata",
+      "Amavata",
+      "Vrana"
+    ],
+    "useful_part": "oleo-gum-resin",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Use authenticated resin",
+      "Preparation-specific evidence varies"
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "pharmacopoeial_reference",
+      "title": "PCIM&H Ayurvedic Pharmacopoeia of India",
+      "url": "https://pcimh.gov.in/"
+    },
+    {
+      "type": "open_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "Project editorial pass",
+    "version": "1.3",
+    "image_enrichment_note": "Verified image registry remains separate",
+    "last_enrichment": "blank structured fields cross-filled from supplementary open dataset; verified fields retained"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}
