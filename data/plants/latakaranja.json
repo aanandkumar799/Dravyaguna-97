@@ -9,7 +9,11 @@
     "family": "Fabaceae",
     "english_name": "Fever Nut",
     "hindi_name": "कंटकरंज",
-    "regional_names": [],
+    "regional_names": [
+      "Kuberakshi",
+      "Kanta Karanja",
+      "Vajrabijaka"
+    ],
     "synonyms": [
       "Kuberakshi",
       "Kanta Karanja",
@@ -65,7 +69,10 @@
       "Jwaraghna",
       "Krimighna"
     ],
-    "karma": []
+    "karma": [
+      "Jwaraghna",
+      "Krimighna"
+    ]
   },
   "dosha": {
     "vata": "pacified",
@@ -188,7 +195,7 @@
     "last_verified": "2026-09-17",
     "verified_by": "Project editorial pass",
     "version": "1.3",
-    "last_enrichment": "blank structured fields cross-filled from supplementary open dataset; verified fields retained",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "external_dataset_note": "Amidha v2.0 used only as a supplementary structured-data source; not treated as sole classical authority."
   },
   "category": "NCISM-97",
