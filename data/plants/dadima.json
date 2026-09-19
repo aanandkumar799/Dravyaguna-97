@@ -1,20 +1,222 @@
 {
-  "id":"dadima","order":17,
-  "identity":{"name":"Dadima","sanskrit_name":"दाडिम","transliteration":"Dadima","botanical_name":"Punica granatum L.","family":"Lythraceae","english_name":"Pomegranate","hindi_name":"अनार","regional_names":[],"synonyms":["Kuchaphala","Shukavallabha","Raktabija","Dantabeeja"]},
-  "classification":{"kingdom":"Plantae","habit":"Small deciduous to semi-deciduous shrub or small tree, often branched from the base","habitat":"Cultivated and naturalized in warm, relatively dry regions; tolerates seasonal drought","distribution":"Widely cultivated in India; distribution varies with cultivar and region"},
-  "identification":{"description":"Recognized by its branched habit, opposite or clustered narrow leaves, showy reddish flowers and characteristic leathery fruit with a persistent calyx.","whole_plant":"Much-branched shrub or small tree with grey-brown to reddish-brown bark and dense foliage.","root":"Woody root system; bark identity should be confirmed on authenticated material.","stem":"Young branches are slender and may bear short spine-like branch tips; older stems become woody with grey-brown bark.","leaf":"Simple, entire, glossy, narrow-oblong to lanceolate leaves, usually opposite or in short clusters.","flower":"Solitary or clustered, conspicuous red to orange-red flowers with a persistent calyx.","fruit":"Globose pomegranate fruit with tough leathery rind, persistent crown-like calyx and numerous arillate seeds internally separated by membranes.","seed":"Numerous angular seeds surrounded by juicy translucent arils; seed characters vary with cultivar.","bark":"Grey-brown outer bark on mature stems; bark microscopy should be performed on authenticated material.","identification_points":["Persistent crown-like calyx on fruit","Many-seeded leathery globose fruit","Simple narrow entire leaves","Showy reddish flowers","Frequently branched shrub/small-tree habit"]},
-  "images":{"whole_plant":"images/plants/dadima.jpg","habit":"images/plants/dadima.jpg","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},
-  "dravya_guna":{"rasa":["Madhura","Kashaya"],"guna":["Laghu"],"virya":"Sheeta","vipaka":"Madhura","prabhava":["Raktaprasadana","Agnivardhaka"],"karma":[]},
-  "dosha":{"vata":"not specifically documented in imported dataset","pitta":"pacified","kapha":"aggravated"},
-  "therapeutics":{"useful_part":["fruit"],"indications":["Aruchi","Trishna","Daha","Atisara","Pravahika"],"therapeutic_actions":["Digestive support","Traditional use in thirst and burning complaints","Traditional use in bowel disorders"],"dose":"","anupana":"","duration":"","precautions":"Use authenticated material; formulation-specific dosing should follow the authoritative formulation reference.","contraindications":"No blanket contraindication assigned here; assess individual clinical context."},
-  "formulations":[],
-  "classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},
-  "phytochemistry":{"major_constituents":["Punicalagin and related ellagitannins","Anthocyanin pigments in red arils/peel fractions","Ellagic acid and other polyphenols"],"chemical_notes":"Composition varies substantially among fruit part, cultivar and extraction method; this field is informational and not a substitute for pharmacopoeial assay."},
-  "modern_information":{"evidence_summary":"Punica granatum is extensively studied for its fruit and polyphenol-rich fractions. This dossier does not convert experimental evidence into a clinical efficacy claim.","recognized_uses":["Food fruit and traditional Ayurvedic use"],"safety_notes":"Use correctly identified plant material. Evidence and safety can differ by fruit, peel, bark, root and extract; do not interchange plant parts without source-specific support.","sources":[]},
-  "student":{"exam_points":["Botanical name: Punica granatum L.","Family: Lythraceae","Fruit has a persistent crown-like calyx and numerous arillate seeds","Commonly remembered by the characteristic pomegranate fruit and reddish flowers"],"viva_questions":["What is the botanical name and family of Dadima?","What is the diagnostic fruit character of Punica granatum?","Which plant part is listed as useful in this record?","Why should plant-part-specific evidence be distinguished in modern literature?"],"identification_points":["Persistent calyx","Leathery fruit","Numerous arillate seeds","Simple narrow leaves"],"mnemonics":["Dadima = Dantabeeja; think of the many seeds inside the crowned fruit"],"quick_revision":"Dadima (Punica granatum L.; Lythraceae) is a branched shrub/small tree recognized by reddish flowers and the characteristic many-seeded fruit with a persistent crown-like calyx."},
-  "teacher":{"teaching_points":["Use fruit morphology to distinguish Dadima from unrelated fruit drugs.","Discuss how cultivar and plant part affect pharmacognostic and phytochemical observations."],"discussion_points":["Compare classical rasa-panchaka entries with pharmacognostic identity.","Separate food use, traditional Ayurvedic use and modern experimental evidence."],"practical_points":["Show authenticated fruit, calyx, arils and leaves.","Record macroscopic characters before microscopy.","Avoid assigning bark/root characters from an unverified specimen."]},
-  "doctor":{"quick_reference":"Dadima — Punica granatum L.; useful part recorded here: fruit. Traditional indications in this dossier include Aruchi, Trishna, Daha, Atisara and Pravahika.","important_indications":["Aruchi","Trishna","Daha","Atisara","Pravahika"],"useful_part":"fruit","dose":"","anupana":"","key_precautions":["Confirm species and plant part.","Do not extrapolate evidence from one fruit fraction or extract to other plant parts.","Follow authoritative formulation-specific dosing rather than using a generic dose here."]},
-  "sources":[{"type":"official","title":"CCRAS Medicinal Plant Research","url":"https://ccras.nic.in/services/medicinal-plant-research/"},{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"}],
-  "metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"PCIM&H baseline + project source review","version":"1.3","last_enrichment":"detailed morphology + student/teacher/doctor enrichment"},
-  "category":"NCISM-97","syllabus_marker":"NCISM-97"
+  "id": "dadima",
+  "order": 17,
+  "identity": {
+    "name": "Dadima",
+    "sanskrit_name": "दाडिम",
+    "transliteration": "Dadima",
+    "botanical_name": "Punica granatum L.",
+    "family": "Lythraceae",
+    "english_name": "Pomegranate",
+    "hindi_name": "अनार",
+    "regional_names": [
+      "Kuchaphala",
+      "Shukavallabha",
+      "Raktabija",
+      "Dantabeeja"
+    ],
+    "synonyms": [
+      "Kuchaphala",
+      "Shukavallabha",
+      "Raktabija",
+      "Dantabeeja"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Small deciduous to semi-deciduous shrub or small tree, often branched from the base",
+    "habitat": "Cultivated and naturalized in warm, relatively dry regions; tolerates seasonal drought",
+    "distribution": "Widely cultivated in India; distribution varies with cultivar and region"
+  },
+  "identification": {
+    "description": "Recognized by its branched habit, opposite or clustered narrow leaves, showy reddish flowers and characteristic leathery fruit with a persistent calyx.",
+    "whole_plant": "Much-branched shrub or small tree with grey-brown to reddish-brown bark and dense foliage.",
+    "root": "Woody root system; bark identity should be confirmed on authenticated material.",
+    "stem": "Young branches are slender and may bear short spine-like branch tips; older stems become woody with grey-brown bark.",
+    "leaf": "Simple, entire, glossy, narrow-oblong to lanceolate leaves, usually opposite or in short clusters.",
+    "flower": "Solitary or clustered, conspicuous red to orange-red flowers with a persistent calyx.",
+    "fruit": "Globose pomegranate fruit with tough leathery rind, persistent crown-like calyx and numerous arillate seeds internally separated by membranes.",
+    "seed": "Numerous angular seeds surrounded by juicy translucent arils; seed characters vary with cultivar.",
+    "bark": "Grey-brown outer bark on mature stems; bark microscopy should be performed on authenticated material.",
+    "identification_points": [
+      "Persistent crown-like calyx on fruit",
+      "Many-seeded leathery globose fruit",
+      "Simple narrow entire leaves",
+      "Showy reddish flowers",
+      "Frequently branched shrub/small-tree habit"
+    ]
+  },
+  "images": {
+    "whole_plant": "images/plants/dadima.jpg",
+    "habit": "images/plants/dadima.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Madhura",
+      "Kashaya"
+    ],
+    "guna": [
+      "Laghu"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Madhura",
+    "prabhava": [
+      "Raktaprasadana",
+      "Agnivardhaka"
+    ],
+    "karma": [
+      "Raktaprasadana",
+      "Agnivardhaka"
+    ]
+  },
+  "dosha": {
+    "vata": "not specifically documented in imported dataset",
+    "pitta": "pacified",
+    "kapha": "aggravated"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "fruit"
+    ],
+    "indications": [
+      "Aruchi",
+      "Trishna",
+      "Daha",
+      "Atisara",
+      "Pravahika"
+    ],
+    "therapeutic_actions": [
+      "Digestive support",
+      "Traditional use in thirst and burning complaints",
+      "Traditional use in bowel disorders"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Use authenticated material; formulation-specific dosing should follow the authoritative formulation reference.",
+    "contraindications": "No blanket contraindication assigned here; assess individual clinical context."
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "Punicalagin and related ellagitannins",
+      "Anthocyanin pigments in red arils/peel fractions",
+      "Ellagic acid and other polyphenols"
+    ],
+    "chemical_notes": "Composition varies substantially among fruit part, cultivar and extraction method; this field is informational and not a substitute for pharmacopoeial assay."
+  },
+  "modern_information": {
+    "evidence_summary": "Punica granatum is extensively studied for its fruit and polyphenol-rich fractions. This dossier does not convert experimental evidence into a clinical efficacy claim.",
+    "recognized_uses": [
+      "Food fruit and traditional Ayurvedic use"
+    ],
+    "safety_notes": "Use correctly identified plant material. Evidence and safety can differ by fruit, peel, bark, root and extract; do not interchange plant parts without source-specific support.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Botanical name: Punica granatum L.",
+      "Family: Lythraceae",
+      "Fruit has a persistent crown-like calyx and numerous arillate seeds",
+      "Commonly remembered by the characteristic pomegranate fruit and reddish flowers"
+    ],
+    "viva_questions": [
+      "What is the botanical name and family of Dadima?",
+      "What is the diagnostic fruit character of Punica granatum?",
+      "Which plant part is listed as useful in this record?",
+      "Why should plant-part-specific evidence be distinguished in modern literature?"
+    ],
+    "identification_points": [
+      "Persistent calyx",
+      "Leathery fruit",
+      "Numerous arillate seeds",
+      "Simple narrow leaves"
+    ],
+    "mnemonics": [
+      "Dadima = Dantabeeja; think of the many seeds inside the crowned fruit"
+    ],
+    "quick_revision": "Dadima (Punica granatum L.; Lythraceae) is a branched shrub/small tree recognized by reddish flowers and the characteristic many-seeded fruit with a persistent crown-like calyx."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Use fruit morphology to distinguish Dadima from unrelated fruit drugs.",
+      "Discuss how cultivar and plant part affect pharmacognostic and phytochemical observations."
+    ],
+    "discussion_points": [
+      "Compare classical rasa-panchaka entries with pharmacognostic identity.",
+      "Separate food use, traditional Ayurvedic use and modern experimental evidence."
+    ],
+    "practical_points": [
+      "Show authenticated fruit, calyx, arils and leaves.",
+      "Record macroscopic characters before microscopy.",
+      "Avoid assigning bark/root characters from an unverified specimen."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Dadima — Punica granatum L.; useful part recorded here: fruit. Traditional indications in this dossier include Aruchi, Trishna, Daha, Atisara and Pravahika.",
+    "important_indications": [
+      "Aruchi",
+      "Trishna",
+      "Daha",
+      "Atisara",
+      "Pravahika"
+    ],
+    "useful_part": "fruit",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Confirm species and plant part.",
+      "Do not extrapolate evidence from one fruit fraction or extract to other plant parts.",
+      "Follow authoritative formulation-specific dosing rather than using a generic dose here."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official",
+      "title": "CCRAS Medicinal Plant Research",
+      "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+    },
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "secondary_structured_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Secondary source used only for blank structured fields."
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "PCIM&H baseline + project source review",
+    "version": "1.3",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass."
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
 }
