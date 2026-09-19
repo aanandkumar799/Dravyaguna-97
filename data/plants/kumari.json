@@ -9,7 +9,12 @@
     "family": "Asphodelaceae (Liliaceae)",
     "english_name": "Indian Aloe / Aloe Vera",
     "hindi_name": "",
-    "regional_names": [],
+    "regional_names": [
+      "Grihakanya",
+      "Ghritakumari",
+      "Kanya",
+      "Amara"
+    ],
     "synonyms": [
       "Kanya",
       "Grihakanya",
@@ -199,7 +204,7 @@
     "verified_by": "",
     "version": "1.3",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "dosha_karma_note": "Vata-Pitta shamaka; classical use includes Vata- and Vishaghna actions",
     "batch_54_63_added": true
   },
