@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-19T05:20:22.201209+00:00",
+  "generated_at": "2026-09-19T05:26:10.637285+00:00",
   "plants_checked": 10,
   "slots_checked": 50,
   "filled_this_run": [
     {
-      "plant_id": "arjuna",
-      "part": "whole_plant",
+      "plant_id": "bala",
+      "part": "flower",
       "action": "downloaded-new-image",
-      "path": "images/plants/arjuna/whole_plant/image.jpg",
-      "bytes": 317963
+      "path": "images/plants/bala/flower/image.jpg",
+      "bytes": 694766
     }
   ],
   "unresolved": [
@@ -164,11 +164,6 @@
     },
     {
       "plant_id": "bala",
-      "part": "flower",
-      "reason": "no-high-confidence-unique-image"
-    },
-    {
-      "plant_id": "bala",
       "part": "fruit",
       "reason": "no-high-confidence-unique-image"
     },
@@ -213,7 +208,7 @@
       "reason": "no-high-confidence-unique-image"
     }
   ],
-  "remaining_missing": 798,
+  "remaining_missing": 797,
   "local_asset_root": "images/plants/<plant>/<part>/image.*",
   "policy": {
     "exact_species_required": true,

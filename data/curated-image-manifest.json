@@ -892,13 +892,15 @@
       "plant_name": "Bala",
       "botanical_name": "Sida cordifolia L.",
       "part": "flower",
-      "image_path": "",
-      "source_url": "",
-      "source_name": "",
-      "license": "",
-      "author": "",
-      "verified_botanical_name": "",
-      "verification_status": "missing-queued"
+      "image_path": "images/plants/bala/flower/image.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3A%28Sida_cordifolia%29_at_Kambalakonda_Wildlife_Sanctuary_01.JPG",
+      "source_name": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Adityamadhav83\" title=\"User:Adityamadhav83\">Adityamadhav83</a>",
+      "verified_botanical_name": "Sida cordifolia L.",
+      "verification_status": "verified-local",
+      "source_media_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/%28Sida_cordifolia%29_at_Kambalakonda_Wildlife_Sanctuary_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "title": "(Sida cordifolia) at Kambalakonda Wildlife Sanctuary 01.JPG"
     },
     {
       "plant_id": "bala",
