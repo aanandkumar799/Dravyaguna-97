@@ -304,13 +304,15 @@
       "plant_name": "Arjuna",
       "botanical_name": "Terminalia arjuna (Roxb. ex DC.) Wight & Arn.",
       "part": "whole_plant",
-      "image_path": "",
-      "source_url": "",
-      "source_name": "",
-      "license": "",
-      "author": "",
-      "verified_botanical_name": "",
-      "verification_status": "missing-queued"
+      "image_path": "images/plants/arjuna/whole_plant/image.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ATerminalia_arjuna_%28Roxb._ex_DC.%29_Wight_%26_Arn._%2848913849936%29.jpg",
+      "source_name": "Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/91314344@N00\">Dinesh Valke</a> from Thane, India",
+      "verified_botanical_name": "Terminalia arjuna (Roxb. ex DC.) Wight & Arn.",
+      "verification_status": "verified-local",
+      "source_media_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Terminalia_arjuna_%28Roxb._ex_DC.%29_Wight_%26_Arn._%2848913849936%29.jpg/1920px-Terminalia_arjuna_%28Roxb._ex_DC.%29_Wight_%26_Arn._%2848913849936%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Terminalia arjuna (Roxb. ex DC.) Wight & Arn. (48913849936).jpg"
     },
     {
       "plant_id": "arjuna",
