@@ -9,7 +9,12 @@
     "family": "Acanthaceae",
     "english_name": "Malabar Nut",
     "hindi_name": "",
-    "regional_names": [],
+    "regional_names": [
+      "Vasa",
+      "Vrisha",
+      "Atarusha",
+      "Vaidyamata"
+    ],
     "synonyms": [
       "Vasaka",
       "Vasika",
@@ -202,7 +207,7 @@
     "verified_by": "independent searchable classical-text cross-check",
     "version": "1.2",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "batch_54_63_added": true,
     "classical_review_batch": "14-18 reviewed 2026-09-16"
   },
