@@ -9,7 +9,12 @@
     "family": "Apocynaceae",
     "english_name": "Serpentina Root / Snakeroot",
     "hindi_name": "",
-    "regional_names": [],
+    "regional_names": [
+      "Chandrika",
+      "Nandini",
+      "Dhavalavitapa",
+      "Raktapatrika"
+    ],
     "synonyms": [
       "Nakuli (नाकुली)",
       "Chandrika (चन्द्रिका)",
@@ -223,7 +228,7 @@
     "verified_by": "",
     "version": "1.2",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "gemini_later_batches_reviewed": true,
     "gemini_source_batches": [
       77
