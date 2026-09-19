@@ -9,7 +9,12 @@
     "family": "Plantaginaceae",
     "english_name": "Water hyssop",
     "hindi_name": "ब्राह्मी",
-    "regional_names": [],
+    "regional_names": [
+      "Sarasvati",
+      "Kapoti",
+      "Somavalli",
+      "Matsyakshi"
+    ],
     "synonyms": [
       "Sarasvati",
       "Kapoti",
@@ -199,7 +204,7 @@
     "verified_by": "",
     "version": "1.2",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "classical_review_batch": "1-8 corrected 2026-09-16"
   },
   "category": "NCISM-97",
