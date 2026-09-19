@@ -7,13 +7,13 @@ ROOT=Path(__file__).resolve().parents[1]; INDEX=ROOT/'plant-index.json'; PLANTS_
 PARTS=['whole_plant','habit','root','stem','leaf','flower','fruit','seed','bark']
 APPROVED_GALLERY_PARTS = {
     'amalaki': {'whole_plant','habit','root','stem','leaf','flower','fruit','seed','bark'},
-    'agnimantha': {'whole_plant','stem','leaf','flower','fruit','seed','bark','root'},
+    'agnimanth': {'whole_plant','stem','leaf','flower','fruit','seed','bark','root'},
     'ashwagandha': {'whole_plant','leaf','flower','fruit','root','seed','stem'},
     'arjuna': {'whole_plant','leaf','flower','fruit','root','seed','stem','bark'},
     'ashoka': {'whole_plant','leaf','flower','fruit','seed','stem','bark','root'},
     'ativisha': {'whole_plant','flower','root','stem'},
     'bala': {'whole_plant','leaf','flower','fruit','root','seed','stem'},
-    'bhringaraja': {'whole_plant','leaf','flower','fruit','root','seed','stem'},
+    'bhrungaraja': {'whole_plant','leaf','flower','fruit','root','seed','stem'},
     'beejaka': {'whole_plant','leaf','flower','fruit','seed','stem','bark'},
     'isabgol': {'whole_plant','leaf','flower','fruit','seed','stem'},
 }
