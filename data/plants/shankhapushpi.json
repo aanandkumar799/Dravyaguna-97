@@ -1,1 +1,196 @@
-{"id":"shankhapushpi","order":82,"identity":{"name":"Shankhapushpi","sanskrit_name":"शङ्खपुष्पी","transliteration":"Shankhapushpi","botanical_name":"Convolvulus pluricaulis Choisy","family":"Convolvulaceae","english_name":"Shankhpushpi","hindi_name":"शंखपुष्पी","regional_names":[],"synonyms":["Medhya","Kshirapushpi","Mangalyakusuma"]},"classification":{"kingdom":"Plantae","habit":"Small prostrate or spreading perennial herb","habitat":"Dry open grassland, scrub and sandy soils","distribution":"Indian subcontinent, especially dry regions"},"identification":{"description":"Small spreading herb with narrow leaves and characteristic funnel-shaped flowers.","whole_plant":"Low, prostrate to ascending herb forming mats.","root":"Slender branched roots.","stem":"Thin, trailing to ascending, often branched from base.","leaf":"Small narrow linear-lanceolate leaves, usually alternate.","flower":"Small funnel-shaped flowers, commonly pale blue to whitish depending on form.","fruit":"Small globose capsule.","seed":"Small angular seeds within capsule.","bark":"Not applicable as a distinct drug character.","identification_points":["Prostrate habit","Narrow leaves","Funnel-shaped flowers","Small mat-forming herb"]},"images":{"whole_plant":"","habit":"","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},"dravya_guna":{"rasa":["Tikta"],"guna":["Snigdha"],"virya":"Sheeta","vipaka":"Madhura","prabhava":["Medhya","Nidrajanana","rasayan"],"karma":[]},"dosha":{"vata":"pacified","pitta":"pacified","kapha":"aggravated"},"therapeutics":{"useful_part":["whole plant"],"indications":["Unmada","Apasmara","Smritidaurbalya","Anidra","Bhrama"],"therapeutic_actions":["Traditional medhya use","Calming traditional context"],"dose":"","anupana":"","duration":"","precautions":"Botanical identity is important because several plants are marketed under Shankhapushpi.","contraindications":""},"formulations":[],"classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},"phytochemistry":{"major_constituents":["Flavonoid and phenolic constituents reported in studies"],"chemical_notes":"Phytochemical profiles vary with botanical identity and extraction."},"modern_information":{"evidence_summary":"Convolvulus pluricaulis is traditionally described as a medhya drug and has been investigated experimentally for neuropharmacological properties; clinical conclusions require preparation-specific evidence.","recognized_uses":[],"safety_notes":"Confirm botanical identity before using commercial Shankhapushpi preparations.","sources":[]},"student":{"exam_points":["Botanical name: Convolvulus pluricaulis","Family: Convolvulaceae","Useful part: whole plant","Prostrate habit and funnel-shaped flowers are useful identification clues"],"viva_questions":["Why is botanical authentication important for Shankhapushpi?","What is its useful part?","What family does it belong to?"],"identification_points":["Prostrate herb","Narrow leaves","Funnel-shaped flowers"],"mnemonics":["SHANKHA = small spreading herb with trumpet/funnel flower"],"quick_revision":"Shankhapushpi — Convolvulus pluricaulis — Convolvulaceae — whole plant — Medhya."},"teacher":{"teaching_points":["Discuss identity controversy and substitution","Demonstrate macroscopic herb characters"],"discussion_points":["Multiple botanical identities in commerce","Classical naming versus botanical authentication"],"practical_points":["Observe habit, leaf shape and flower","Compare authenticated sample with market sample"]},"doctor":{"quick_reference":"Traditionally used as a Medhya drug; botanical authentication is essential.","important_indications":["Unmada","Apasmara","Smritidaurbalya","Anidra"],"useful_part":"whole plant","dose":"","anupana":"","key_precautions":["Confirm botanical identity","Do not extrapolate experimental evidence to clinical efficacy"]},"sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"pharmacopoeial_reference","title":"PCIM&H Ayurvedic Pharmacopoeia of India","url":"https://pcimh.gov.in/"}],"metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3","image_enrichment_note":"Verified image registry remains separate","last_enrichment":"structured identification + teaching + clinical-reference enrichment"},"category":"NCISM-97","syllabus_marker":"NCISM-97"}
+{
+  "id": "shankhapushpi",
+  "order": 82,
+  "identity": {
+    "name": "Shankhapushpi",
+    "sanskrit_name": "शङ्खपुष्पी",
+    "transliteration": "Shankhapushpi",
+    "botanical_name": "Convolvulus pluricaulis Choisy",
+    "family": "Convolvulaceae",
+    "english_name": "Shankhpushpi",
+    "hindi_name": "शंखपुष्पी",
+    "regional_names": [],
+    "synonyms": [
+      "Medhya",
+      "Kshirapushpi",
+      "Mangalyakusuma"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Small prostrate or spreading perennial herb",
+    "habitat": "Dry open grassland, scrub and sandy soils",
+    "distribution": "Indian subcontinent, especially dry regions"
+  },
+  "identification": {
+    "description": "Small spreading herb with narrow leaves and characteristic funnel-shaped flowers.",
+    "whole_plant": "Low, prostrate to ascending herb forming mats.",
+    "root": "Slender branched roots.",
+    "stem": "Thin, trailing to ascending, often branched from base.",
+    "leaf": "Small narrow linear-lanceolate leaves, usually alternate.",
+    "flower": "Small funnel-shaped flowers, commonly pale blue to whitish depending on form.",
+    "fruit": "Small globose capsule.",
+    "seed": "Small angular seeds within capsule.",
+    "bark": "Not applicable as a distinct drug character.",
+    "identification_points": [
+      "Prostrate habit",
+      "Narrow leaves",
+      "Funnel-shaped flowers",
+      "Small mat-forming herb"
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Tikta"
+    ],
+    "guna": [
+      "Snigdha"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Madhura",
+    "prabhava": [
+      "Medhya",
+      "Nidrajanana",
+      "rasayan"
+    ],
+    "karma": []
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "pacified",
+    "kapha": "aggravated"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "whole plant"
+    ],
+    "indications": [
+      "Unmada",
+      "Apasmara",
+      "Smritidaurbalya",
+      "Anidra",
+      "Bhrama"
+    ],
+    "therapeutic_actions": [
+      "Traditional medhya use",
+      "Calming traditional context"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Botanical identity is important because several plants are marketed under Shankhapushpi.",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "Flavonoid and phenolic constituents reported in studies"
+    ],
+    "chemical_notes": "Phytochemical profiles vary with botanical identity and extraction."
+  },
+  "modern_information": {
+    "evidence_summary": "Convolvulus pluricaulis is traditionally described as a medhya drug and has been investigated experimentally for neuropharmacological properties; clinical conclusions require preparation-specific evidence.",
+    "recognized_uses": [],
+    "safety_notes": "Confirm botanical identity before using commercial Shankhapushpi preparations.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Botanical name: Convolvulus pluricaulis",
+      "Family: Convolvulaceae",
+      "Useful part: whole plant",
+      "Prostrate habit and funnel-shaped flowers are useful identification clues"
+    ],
+    "viva_questions": [
+      "Why is botanical authentication important for Shankhapushpi?",
+      "What is its useful part?",
+      "What family does it belong to?"
+    ],
+    "identification_points": [
+      "Prostrate herb",
+      "Narrow leaves",
+      "Funnel-shaped flowers"
+    ],
+    "mnemonics": [
+      "SHANKHA = small spreading herb with trumpet/funnel flower"
+    ],
+    "quick_revision": "Shankhapushpi — Convolvulus pluricaulis — Convolvulaceae — whole plant — Medhya."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Discuss identity controversy and substitution",
+      "Demonstrate macroscopic herb characters"
+    ],
+    "discussion_points": [
+      "Multiple botanical identities in commerce",
+      "Classical naming versus botanical authentication"
+    ],
+    "practical_points": [
+      "Observe habit, leaf shape and flower",
+      "Compare authenticated sample with market sample"
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Traditionally used as a Medhya drug; botanical authentication is essential.",
+    "important_indications": [
+      "Unmada",
+      "Apasmara",
+      "Smritidaurbalya",
+      "Anidra"
+    ],
+    "useful_part": "whole plant",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Confirm botanical identity",
+      "Do not extrapolate experimental evidence to clinical efficacy"
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "pharmacopoeial_reference",
+      "title": "PCIM&H Ayurvedic Pharmacopoeia of India",
+      "url": "https://pcimh.gov.in/"
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "Project editorial pass",
+    "version": "1.3",
+    "image_enrichment_note": "Verified image registry remains separate",
+    "last_enrichment": "structured identification + teaching + clinical-reference enrichment"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}
