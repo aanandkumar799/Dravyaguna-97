@@ -35,23 +35,19 @@ jobs:
           assert len(core)==97, f'Expected 97 NCISM records, found {len(core)}'
           idx=json.loads((root/'plant-index.json').read_text(encoding='utf-8'))
           assert len(idx.get('plants',[]))==97, 'Generated index must contain exactly 97 canonical records'
-          local_images=list((root/'images'/'plants').rglob('image.*')) if (root/'images'/'plants').exists() else []
-          print('Local plant image files:', len(local_images))
+          favicon='images/favicon.png'
+          assert (root/favicon).is_file(), 'Required PWA/favicon asset is missing: images/favicon.png'
           for page in root.rglob('*.html'):
               html=page.read_text(encoding='utf-8')
               html=re.sub(r'<link[^>]+rel=["\'](?:icon|shortcut icon|apple-touch-icon)["\'][^>]*>', '', html, flags=re.I)
-              rel_fav=Path(os.path.relpath(root/'favicon-exact.jpg',page.parent)).as_posix()
-              html=html.replace('</head>',f'<link rel="icon" type="image/jpeg" href="{rel_fav}"><link rel="apple-touch-icon" href="{rel_fav}">\n</head>',1)
-              # Shared site theme is injected into every page so new pages inherit the same theme automatically.
-              # Page-specific styles (for example feedback.css) are loaded only by the page that owns them.
-              for asset in ['site-theme.css']:
-                  rel=Path(os.path.relpath(root/asset,page.parent)).as_posix()
-                  pat=r'''<link[^>]+rel=["']stylesheet["'][^>]+href=["']''' + re.escape(rel) + r'''(?:\?[^"']*)?["'][^>]*>'''
-                  if not re.search(pat,html,re.I): html=html.replace('</head>',f'<link rel="stylesheet" href="{rel}">\n</head>',1)
+              rel_fav=Path(os.path.relpath(root/favicon,page.parent)).as_posix()
+              html=html.replace('</head>',f'<link rel="icon" type="image/png" href="{rel_fav}"><link rel="apple-touch-icon" href="{rel_fav}">\n</head>',1)
+              rel_theme=Path(os.path.relpath(root/'site-theme.css',page.parent)).as_posix()
+              pat=r'<link[^>]+rel=["\']stylesheet["\'][^>]+href=["\']'+re.escape(rel_theme)+r'(?:\?[^"\']*)?["\'][^>]*>'
+              if not re.search(pat,html,re.I): html=html.replace('</head>',f'<link rel="stylesheet" href="{rel_theme}">\n</head>',1)
               for asset in ['feedback-config.js','site-theme.js','feedback.js']:
                   rel=Path(os.path.relpath(root/asset,page.parent)).as_posix()
-                  # Treat versioned/query-string script tags as already present; avoid duplicate execution.
-                  pat=r'''<script[^>]+src=["']''' + re.escape(rel) + r'''(?:\?[^"']*)?["'][^>]*>'''
+                  pat=r'<script[^>]+src=["\']'+re.escape(rel)+r'(?:\?[^"\']*)?["\'][^>]*>'
                   if not re.search(pat,html,re.I): html=html.replace('</body>',f'<script src="{rel}" defer></script>\n</body>',1)
               if page.name=='plant.html':
                   if '<link rel="stylesheet" href="plant-dossier-layout.css">' not in html: html=html.replace('</head>','<link rel="stylesheet" href="plant-dossier-layout.css">\n</head>',1)
@@ -64,23 +60,17 @@ jobs:
                   html=html.replace('<form class="review-form" id="reviewForm">','<form class="review-form" id="reviewForm" data-verification-gate="required">',1)
                   guard='''<script>(function(){var f=document.getElementById('reviewForm');if(!f)return;f.setAttribute('data-verification-status','required');var b=document.getElementById('reviewSubmit');var s=document.getElementById('reviewStatus');if(b){b.disabled=true;b.innerHTML='<span>🔐 Verification Required</span>';b.title='Verified account required before submitting a review'}if(s){s.className='review-status error';s.style.display='block';s.textContent='Reviews are locked until account/email verification is completed. No unverified comment can be submitted.'}f.addEventListener('submit',function(e){e.preventDefault();e.stopImmediatePropagation();return false},true)})();</script>\n'''
                   html=html.replace('</body>',guard+'</body>',1)
-              # Add one compact, consistent feedback link to the bottom of every page.
               if 'class="dg-feedback-footer-link"' not in html:
                   link_rel=Path(os.path.relpath(root/'feedback.html',page.parent)).as_posix()
                   feedback_html=f'<div class="dg-feedback-footer-link"><a href="{link_rel}" aria-label="Share your feedback">Share your feedback</a></div>'
-                  if '</footer>' in html:
-                      html=html.replace('</footer>',feedback_html+'</footer>',1)
-                  else:
-                      html=html.replace('</body>',f'<footer class="footer"><div class="footer-inner">{feedback_html}</div></footer>\n</body>',1)
+                  if '</footer>' in html: html=html.replace('</footer>',feedback_html+'</footer>',1)
+                  else: html=html.replace('</body>',f'<footer class="footer"><div class="footer-inner">{feedback_html}</div></footer>\n</body>',1)
               page.write_text(html,encoding='utf-8')
-          import shutil
-          src=root/'images'/'favicon.png'
-          if src.exists(): shutil.copy2(src,root/'favicon-exact.jpg')
-          else: shutil.copy2(root/'favicon.svg',root/'favicon-exact.jpg') if (root/'favicon.svg').exists() else None
           m=json.loads((root/'manifest.json').read_text(encoding='utf-8'))
-          found={str(i.get('sizes','')) for i in m.get('icons',[])}
-          assert {'192x192','512x512'}.issubset(found), f'PWA manifest must retain 192x192 and 512x512 icons; found {sorted(found)}'
-          (root/' .nojekyll'.strip()).touch()
+          icon_src={str(i.get('src')) for i in m.get('icons',[])}
+          assert 'images/favicon.png' in icon_src, 'Manifest must reference the real favicon PNG'
+          assert any('192x192' in str(i.get('sizes','')) and '512x512' in str(i.get('sizes','')) for i in m.get('icons',[])), 'Manifest must expose 192x192 and 512x512 icon sizes'
+          (root/'.nojekyll').touch()
           PY
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
