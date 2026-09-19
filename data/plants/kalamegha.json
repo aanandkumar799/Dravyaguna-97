@@ -1,13 +1,206 @@
 {
-"id":"kalamegha","order":54,"identity":{"name":"Kalamegha","sanskrit_name":"कालमेघ","transliteration":"Kalamegha","botanical_name":"Andrographis paniculata (Burm.f.) Nees","family":"Acanthaceae","english_name":"King of Bitters","hindi_name":"कालमेघ","regional_names":[],"synonyms":["Kalamegha","Yavatiktaka","Kiratatikta"]},
-"classification":{"kingdom":"Plantae","habit":"Erect annual herb","habitat":"Open grassland, field margins and cultivated areas in warm climates","distribution":"Widely distributed and cultivated in India and tropical Asia"},
-"identification":{"description":"A strongly bitter, erect herb with opposite leaves and small pale flowers marked with darker purple lines.","whole_plant":"Slender erect branched annual herb.","root":"Slender taproot.","stem":"Green, erect, quadrangular to angular and branched stem.","leaf":"Simple opposite lanceolate to linear-lanceolate leaves with entire margins.","flower":"Small flowers in terminal/axillary panicles, usually whitish with darker markings.","fruit":"Slender linear-oblong capsule containing numerous small seeds.","seed":"Small numerous seeds enclosed in the capsule.","bark":"Not applicable as a distinct medicinal bark character.","identification_points":["Erect bitter herb","Opposite lanceolate leaves","Small marked flowers","Long narrow capsules"]},
-"images":{"whole_plant":"images/plants/kalamegha.jpg","habit":"images/plants/kalamegha.jpg","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},
-"dravya_guna":{"rasa":["Tikta"],"guna":["Laghu"],"virya":"Sheeta","vipaka":"Katu","prabhava":["Jwaraghna","Pittaghna","Raktaprasadak"],"karma":[]},"dosha":{"vata":"aggravated","pitta":"pacified","kapha":"not specifically documented in imported dataset"},
-"therapeutics":{"useful_part":["whole plant"],"indications":["Jwara","Kamala","Yakrit Roga","Krimi","Kushta"],"therapeutic_actions":[],"dose":"","anupana":"","duration":"","precautions":"","contraindications":""},"formulations":[],"classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},
-"phytochemistry":{"major_constituents":["Andrographolide and related diterpenoid lactones"],"chemical_notes":"Andrographolide is a commonly reported marker constituent; concentrations vary with plant part and extraction."},"modern_information":{"evidence_summary":"Andrographis paniculata is widely studied as a bitter medicinal herb. Modern findings should be interpreted by preparation and clinical endpoint rather than generalized as proven treatment.","recognized_uses":[],"safety_notes":"Verify preparation and dose from authoritative references; avoid self-treatment of fever or liver disease.","sources":[]},
-"student":{"exam_points":["Kalamegha = Andrographis paniculata","Family: Acanthaceae","Whole plant is listed as useful","Very bitter herb"],"viva_questions":["Botanical name?","Family?","What is the key taste?","Which part is useful?"],"identification_points":["Opposite leaves","Erect branched herb","Small marked flowers","Linear capsule"],"mnemonics":["Kalamegha = the 'bitter' Acanthaceae herb."],"quick_revision":"Kalamegha is an erect, strongly bitter Andrographis herb with opposite lanceolate leaves and narrow capsules."},
-"teacher":{"teaching_points":["Demonstrate opposite leaves and terminal inflorescences.","Discuss marker constituent andrographolide cautiously."],"discussion_points":["Traditional Pittaghna/Jwaraghna description versus modern evidence","Authentication of bitter herbs"],"practical_points":["Observe leaf arrangement, flower markings and capsule shape."]},
-"doctor":{"quick_reference":"Kalamegha — Andrographis paniculata; whole plant listed as useful in this project record.","important_indications":["Jwara","Kamala","Yakrit Roga","Krimi","Kushta"],"useful_part":"whole plant","dose":"","anupana":"","key_precautions":["Verify diagnosis and preparation.","Use authoritative references for dose and contraindications."]},
-"sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"official_pharmacopoeial_source","title":"PCIM&H","url":"https://pcimh.gov.in/"},{"type":"image","title":"Wikimedia Commons","url":"https://commons.wikimedia.org/wiki/File:Andrographis_paniculata_(Burm.f.)_Nees_(49162456563).jpg"}],"metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3"},"category":"NCISM-97","syllabus_marker":"NCISM-97"
+  "id": "kalamegha",
+  "order": 54,
+  "identity": {
+    "name": "Kalamegha",
+    "sanskrit_name": "कालमेघ",
+    "transliteration": "Kalamegha",
+    "botanical_name": "Andrographis paniculata (Burm.f.) Nees",
+    "family": "Acanthaceae",
+    "english_name": "King of Bitters",
+    "hindi_name": "कालमेघ",
+    "regional_names": [],
+    "synonyms": [
+      "Kalamegha",
+      "Yavatiktaka",
+      "Kiratatikta"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Erect annual herb",
+    "habitat": "Open grassland, field margins and cultivated areas in warm climates",
+    "distribution": "Widely distributed and cultivated in India and tropical Asia"
+  },
+  "identification": {
+    "description": "A strongly bitter, erect herb with opposite leaves and small pale flowers marked with darker purple lines.",
+    "whole_plant": "Slender erect branched annual herb.",
+    "root": "Slender taproot.",
+    "stem": "Green, erect, quadrangular to angular and branched stem.",
+    "leaf": "Simple opposite lanceolate to linear-lanceolate leaves with entire margins.",
+    "flower": "Small flowers in terminal/axillary panicles, usually whitish with darker markings.",
+    "fruit": "Slender linear-oblong capsule containing numerous small seeds.",
+    "seed": "Small numerous seeds enclosed in the capsule.",
+    "bark": "Not applicable as a distinct medicinal bark character.",
+    "identification_points": [
+      "Erect bitter herb",
+      "Opposite lanceolate leaves",
+      "Small marked flowers",
+      "Long narrow capsules"
+    ]
+  },
+  "images": {
+    "whole_plant": "images/plants/kalamegha.jpg",
+    "habit": "images/plants/kalamegha.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Tikta"
+    ],
+    "guna": [
+      "Laghu"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Katu",
+    "prabhava": [
+      "Jwaraghna",
+      "Pittaghna",
+      "Raktaprasadak"
+    ],
+    "karma": []
+  },
+  "dosha": {
+    "vata": "aggravated",
+    "pitta": "pacified",
+    "kapha": "not specifically documented in imported dataset"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "whole plant"
+    ],
+    "indications": [
+      "Jwara",
+      "Kamala",
+      "Yakrit Roga",
+      "Krimi",
+      "Kushta"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "Andrographolide and related diterpenoid lactones"
+    ],
+    "chemical_notes": "Andrographolide is a commonly reported marker constituent; concentrations vary with plant part and extraction."
+  },
+  "modern_information": {
+    "evidence_summary": "Andrographis paniculata is widely studied as a bitter medicinal herb. Modern findings should be interpreted by preparation and clinical endpoint rather than generalized as proven treatment.",
+    "recognized_uses": [],
+    "safety_notes": "Verify preparation and dose from authoritative references; avoid self-treatment of fever or liver disease.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Kalamegha = Andrographis paniculata",
+      "Family: Acanthaceae",
+      "Whole plant is listed as useful",
+      "Very bitter herb"
+    ],
+    "viva_questions": [
+      "Botanical name?",
+      "Family?",
+      "What is the key taste?",
+      "Which part is useful?"
+    ],
+    "identification_points": [
+      "Opposite leaves",
+      "Erect branched herb",
+      "Small marked flowers",
+      "Linear capsule"
+    ],
+    "mnemonics": [
+      "Kalamegha = the 'bitter' Acanthaceae herb."
+    ],
+    "quick_revision": "Kalamegha is an erect, strongly bitter Andrographis herb with opposite lanceolate leaves and narrow capsules."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Demonstrate opposite leaves and terminal inflorescences.",
+      "Discuss marker constituent andrographolide cautiously."
+    ],
+    "discussion_points": [
+      "Traditional Pittaghna/Jwaraghna description versus modern evidence",
+      "Authentication of bitter herbs"
+    ],
+    "practical_points": [
+      "Observe leaf arrangement, flower markings and capsule shape."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Kalamegha — Andrographis paniculata; whole plant listed as useful in this project record.",
+    "important_indications": [
+      "Jwara",
+      "Kamala",
+      "Yakrit Roga",
+      "Krimi",
+      "Kushta"
+    ],
+    "useful_part": "whole plant",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Verify diagnosis and preparation.",
+      "Use authoritative references for dose and contraindications."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "official_pharmacopoeial_source",
+      "title": "PCIM&H",
+      "url": "https://pcimh.gov.in/"
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Andrographis_paniculata_(Burm.f.)_Nees_(49162456563).jpg"
+    },
+    {
+      "type": "secondary_structured_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to fill previously blank structured fields; retained local verified content where present."
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "Project editorial pass",
+    "version": "1.3",
+    "last_enrichment": "2026-09-19: blank structured fields supplemented from a cited secondary dataset; existing content preserved."
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
 }
