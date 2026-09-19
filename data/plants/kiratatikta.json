@@ -11,7 +11,12 @@
     "family": "Gentianaceae",
     "english_name": "Chirata / Bitter Stick",
     "hindi_name": "",
-    "regional_names": [],
+    "regional_names": [
+      "Chirayata",
+      "Kairata",
+      "Naditikta",
+      "Kandatikta"
+    ],
     "synonyms": [
       "Bhunimba (भूनिम्ब)",
       "Kirata (किरात)",
@@ -265,7 +270,7 @@
       81
     ],
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "botanical + educational field enrichment",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "last_audit": "complete supplementary JSON audit"
   },
   "gemini_source_data": {
