@@ -1,1 +1,197 @@
-{"id":"lodhra","order":39,"identity":{"name":"Lodhra","sanskrit_name":"लोध्र","transliteration":"Lodhra","botanical_name":"Symplocos racemosa Roxb.","family":"Symplocaceae","english_name":"Symplocos Tree","hindi_name":"लोध","regional_names":[],"synonyms":["Rodhra","Tilvaka","Shabara","Tirita"]},"classification":{"kingdom":"Plantae","habit":"Small to medium evergreen or semi-evergreen tree","habitat":"Moist forests, hills and subtropical woodland","distribution":"Indian subcontinent and adjoining regions"},"identification":{"description":"Tree with simple leaves, pale flowers and ovoid fruits; stem bark is the principal crude drug.","whole_plant":"Small to medium tree with a spreading crown.","root":"Woody root system.","stem":"Woody trunk and branches with grey-brown bark.","leaf":"Simple, alternate, elliptic to oblong leaves with entire or finely serrulate margins.","flower":"Small pale flowers, often in axillary or terminal clusters.","fruit":"Small ovoid drupe, becoming coloured as it matures.","seed":"Single to few seeds enclosed in the fruit.","bark":"Grey-brown stem bark; medicinal crude drug commonly consists of bark pieces.","identification_points":["Simple elliptic leaves","Small pale clustered flowers","Woody stem","Characteristic bark drug"]},"images":{"whole_plant":"images/plants/lodhra.jpg","habit":"images/plants/lodhra.jpg","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},"dravya_guna":{"rasa":["Kashaya"],"guna":["Laghu","Ruksha"],"virya":"Sheeta","vipaka":"Katu","prabhava":["Raktaprasadana","Yonishodhana"],"karma":[]},"dosha":{"vata":"aggravated","pitta":"pacified","kapha":"pacified"},"therapeutics":{"useful_part":["stem bark"],"indications":["Pradara","Raktapitta","Atisara","Netraroga","Shotha"],"therapeutic_actions":["Grahi/astringent context"],"dose":"","anupana":"","duration":"","precautions":"Clinical use requires authenticated crude drug and appropriate professional guidance.","contraindications":""},"formulations":[],"classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},"phytochemistry":{"major_constituents":["Tannins and phenolic constituents have been reported"],"chemical_notes":"No quantitative assay asserted."},"modern_information":{"evidence_summary":"Lodhra is a traditional bark drug studied for astringent and other biological properties; clinical claims require evidence-specific interpretation.","recognized_uses":["Traditional bark drug"],"safety_notes":"Use authenticated Symplocos racemosa material; avoid assuming similarly named species are equivalent.","sources":[]},"student":{"exam_points":["Symplocos racemosa; Symplocaceae","Useful part: stem bark","Kashaya rasa","Simple leaves and small flowers"],"viva_questions":["What is the botanical name of Lodhra?","Which plant part is used?","Describe its bark and leaf."],"identification_points":["Woody tree","Simple elliptic leaves","Pale flowers","Bark as crude drug"],"mnemonics":["Lodhra = bark drug with Kashaya profile"],"quick_revision":"Lodhra—Symplocos racemosa; Symplocaceae; stem bark; Kashaya, Laghu-Ruksha, Sheeta."},"teacher":{"teaching_points":["Demonstrate authenticated bark and whole plant morphology."],"discussion_points":["Discuss bark-drug identification and adulteration risk.","Relate Kashaya properties to traditional uses."],"practical_points":["Observe bark colour, texture and leaf morphology."]},"doctor":{"quick_reference":"Traditional Lodhra profile centers on stem bark and astringent/gynaecological contexts.","important_indications":["Pradara","Atisara","Raktapitta"],"useful_part":"stem bark","dose":"","anupana":"","key_precautions":["Authenticate the bark before medicinal use."]},"sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"}],"metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3","last_enrichment":"batch dossier enrichment"},"category":"NCISM-97","syllabus_marker":"NCISM-97"}
+{
+  "id": "lodhra",
+  "order": 39,
+  "identity": {
+    "name": "Lodhra",
+    "sanskrit_name": "लोध्र",
+    "transliteration": "Lodhra",
+    "botanical_name": "Symplocos racemosa Roxb.",
+    "family": "Symplocaceae",
+    "english_name": "Symplocos Tree",
+    "hindi_name": "लोध",
+    "regional_names": [],
+    "synonyms": [
+      "Rodhra",
+      "Tilvaka",
+      "Shabara",
+      "Tirita"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Small to medium evergreen or semi-evergreen tree",
+    "habitat": "Moist forests, hills and subtropical woodland",
+    "distribution": "Indian subcontinent and adjoining regions"
+  },
+  "identification": {
+    "description": "Tree with simple leaves, pale flowers and ovoid fruits; stem bark is the principal crude drug.",
+    "whole_plant": "Small to medium tree with a spreading crown.",
+    "root": "Woody root system.",
+    "stem": "Woody trunk and branches with grey-brown bark.",
+    "leaf": "Simple, alternate, elliptic to oblong leaves with entire or finely serrulate margins.",
+    "flower": "Small pale flowers, often in axillary or terminal clusters.",
+    "fruit": "Small ovoid drupe, becoming coloured as it matures.",
+    "seed": "Single to few seeds enclosed in the fruit.",
+    "bark": "Grey-brown stem bark; medicinal crude drug commonly consists of bark pieces.",
+    "identification_points": [
+      "Simple elliptic leaves",
+      "Small pale clustered flowers",
+      "Woody stem",
+      "Characteristic bark drug"
+    ]
+  },
+  "images": {
+    "whole_plant": "images/plants/lodhra.jpg",
+    "habit": "images/plants/lodhra.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Kashaya"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Katu",
+    "prabhava": [
+      "Raktaprasadana",
+      "Yonishodhana"
+    ],
+    "karma": []
+  },
+  "dosha": {
+    "vata": "aggravated",
+    "pitta": "pacified",
+    "kapha": "pacified"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "stem bark"
+    ],
+    "indications": [
+      "Pradara",
+      "Raktapitta",
+      "Atisara",
+      "Netraroga",
+      "Shotha"
+    ],
+    "therapeutic_actions": [
+      "Grahi/astringent context"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Clinical use requires authenticated crude drug and appropriate professional guidance.",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "Tannins and phenolic constituents have been reported"
+    ],
+    "chemical_notes": "No quantitative assay asserted."
+  },
+  "modern_information": {
+    "evidence_summary": "Lodhra is a traditional bark drug studied for astringent and other biological properties; clinical claims require evidence-specific interpretation.",
+    "recognized_uses": [
+      "Traditional bark drug"
+    ],
+    "safety_notes": "Use authenticated Symplocos racemosa material; avoid assuming similarly named species are equivalent.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Symplocos racemosa; Symplocaceae",
+      "Useful part: stem bark",
+      "Kashaya rasa",
+      "Simple leaves and small flowers"
+    ],
+    "viva_questions": [
+      "What is the botanical name of Lodhra?",
+      "Which plant part is used?",
+      "Describe its bark and leaf."
+    ],
+    "identification_points": [
+      "Woody tree",
+      "Simple elliptic leaves",
+      "Pale flowers",
+      "Bark as crude drug"
+    ],
+    "mnemonics": [
+      "Lodhra = bark drug with Kashaya profile"
+    ],
+    "quick_revision": "Lodhra—Symplocos racemosa; Symplocaceae; stem bark; Kashaya, Laghu-Ruksha, Sheeta."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Demonstrate authenticated bark and whole plant morphology."
+    ],
+    "discussion_points": [
+      "Discuss bark-drug identification and adulteration risk.",
+      "Relate Kashaya properties to traditional uses."
+    ],
+    "practical_points": [
+      "Observe bark colour, texture and leaf morphology."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Traditional Lodhra profile centers on stem bark and astringent/gynaecological contexts.",
+    "important_indications": [
+      "Pradara",
+      "Atisara",
+      "Raktapitta"
+    ],
+    "useful_part": "stem bark",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Authenticate the bark before medicinal use."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "open_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to fill previously blank structured fields; claims remain subject to classical/pharmacopoeial verification."
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "Project editorial pass",
+    "version": "1.3",
+    "last_enrichment": "blank structured fields cross-filled from an open CC BY Ayurveda dataset; original verified fields retained",
+    "external_dataset_note": "Amidha v2.0 used only as a supplementary structured-data source; not treated as sole classical authority."
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}
