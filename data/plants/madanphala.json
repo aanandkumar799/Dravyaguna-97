@@ -1,1 +1,194 @@
-{"id":"madanphala","order":60,"identity":{"name":"Madanphala","sanskrit_name":"मदनफल","transliteration":"Madanaphala","botanical_name":"Randia dumetorum (Retz.) Lam.","family":"Rubiaceae","english_name":"Emetic Nut / Randia","hindi_name":"मैनफल","regional_names":[],"synonyms":[]},"classification":{"kingdom":"Plantae","habit":"Small thorny tree or shrub","habitat":"Dry deciduous forest and scrub","distribution":"Indian subcontinent"},"identification":{"description":"Thorny shrub or small tree with opposite leaves, white fragrant flowers and globose fruits.","whole_plant":"Small tree or shrub, often armed with paired thorns.","root":"Woody root system.","stem":"Woody and branched, commonly bearing paired spines.","leaf":"Simple, opposite, elliptic to obovate leaves.","flower":"White, fragrant, tubular flowers, usually in axillary clusters.","fruit":"Globose berry-like fruit, green when young and yellowish when mature.","seed":"Numerous hard seeds embedded in pulp.","bark":"Grey-brown bark on mature branches.","identification_points":["Paired spines","Opposite simple leaves","White fragrant flowers","Globose fleshy fruit"]},"images":{"whole_plant":"","habit":"","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},"dravya_guna":{"rasa":["Madhura","Tikta","Kashaya"],"guna":["Laghu","Ruksha"],"virya":"Ushna","vipaka":"Katu","prabhava":"","karma":[]},"dosha":{"vata":"","pitta":"","kapha":""},"therapeutics":{"useful_part":["fruit","seed"],"indications":["Vamana context in classical practice"],"therapeutic_actions":["Emetic-drug context"],"dose":"","anupana":"","duration":"","precautions":"Madanaphala has a specific emetic-drug role; dosing and procedure must be taken from an authenticated classical/official protocol, not this educational record.","contraindications":""},"formulations":[],"classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},"phytochemistry":{"major_constituents":["Iridoid and other reported constituents"],"chemical_notes":"No quantitative assay asserted."},"modern_information":{"evidence_summary":"Randia dumetorum is primarily notable in Ayurveda as a classical emetic drug; modern use should not be inferred from that traditional role.","recognized_uses":["Traditional Vamana drug"],"safety_notes":"Emetic action can be clinically significant. Do not self-administer or infer a dose from this site.","sources":[]},"student":{"exam_points":["Randia dumetorum; Rubiaceae","Classical Vamana drug","Paired spines and globose fruit are useful identification features"],"viva_questions":["What is Madanaphala used for classically?","What is its botanical name?","Describe its fruit and thorns."],"identification_points":["Paired spines","Opposite leaves","White flowers","Globose fruit"],"mnemonics":["Madanaphala = remember Vamana"],"quick_revision":"Madanaphala—Randia dumetorum; Rubiaceae; fruit/seed; important classical emetic drug."},"teacher":{"teaching_points":["Teach identification before discussing Vamana application."],"discussion_points":["Discuss the distinction between classical emesis and unsupervised use.","Compare fruit and seed characters with adulterants."],"practical_points":["Observe paired spines and fruit morphology."]},"doctor":{"quick_reference":"Classical emetic drug; procedural details intentionally require verified source consultation.","important_indications":["Vamana context"],"useful_part":"fruit/seed","dose":"","anupana":"","key_precautions":["Not for unsupervised use","Use authenticated material and verified protocol"]},"sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"}],"metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3","last_enrichment":"batch dossier enrichment"},"category":"NCISM-97","syllabus_marker":"NCISM-97"}
+{
+  "id": "madanphala",
+  "order": 60,
+  "identity": {
+    "name": "Madanphala",
+    "sanskrit_name": "मदनफल",
+    "transliteration": "Madanaphala",
+    "botanical_name": "Randia dumetorum (Retz.) Lam.",
+    "family": "Rubiaceae",
+    "english_name": "Emetic Nut / Randia",
+    "hindi_name": "मैनफल",
+    "regional_names": [],
+    "synonyms": [
+      "Pindi",
+      "Ratha",
+      "Chardana",
+      "Pilu"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Small thorny tree or shrub",
+    "habitat": "Dry deciduous forest and scrub",
+    "distribution": "Indian subcontinent"
+  },
+  "identification": {
+    "description": "Thorny shrub or small tree with opposite leaves, white fragrant flowers and globose fruits.",
+    "whole_plant": "Small tree or shrub, often armed with paired thorns.",
+    "root": "Woody root system.",
+    "stem": "Woody and branched, commonly bearing paired spines.",
+    "leaf": "Simple, opposite, elliptic to obovate leaves.",
+    "flower": "White, fragrant, tubular flowers, usually in axillary clusters.",
+    "fruit": "Globose berry-like fruit, green when young and yellowish when mature.",
+    "seed": "Numerous hard seeds embedded in pulp.",
+    "bark": "Grey-brown bark on mature branches.",
+    "identification_points": [
+      "Paired spines",
+      "Opposite simple leaves",
+      "White fragrant flowers",
+      "Globose fleshy fruit"
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Madhura",
+      "Tikta",
+      "Kashaya"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": [
+      "Vamana",
+      "Lekhana"
+    ],
+    "karma": []
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "aggravated",
+    "kapha": "pacified"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "fruit",
+      "seed"
+    ],
+    "indications": [
+      "Vamana context in classical practice"
+    ],
+    "therapeutic_actions": [
+      "Emetic-drug context"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Madanaphala has a specific emetic-drug role; dosing and procedure must be taken from an authenticated classical/official protocol, not this educational record.",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "Iridoid and other reported constituents"
+    ],
+    "chemical_notes": "No quantitative assay asserted."
+  },
+  "modern_information": {
+    "evidence_summary": "Randia dumetorum is primarily notable in Ayurveda as a classical emetic drug; modern use should not be inferred from that traditional role.",
+    "recognized_uses": [
+      "Traditional Vamana drug"
+    ],
+    "safety_notes": "Emetic action can be clinically significant. Do not self-administer or infer a dose from this site.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Randia dumetorum; Rubiaceae",
+      "Classical Vamana drug",
+      "Paired spines and globose fruit are useful identification features"
+    ],
+    "viva_questions": [
+      "What is Madanaphala used for classically?",
+      "What is its botanical name?",
+      "Describe its fruit and thorns."
+    ],
+    "identification_points": [
+      "Paired spines",
+      "Opposite leaves",
+      "White flowers",
+      "Globose fruit"
+    ],
+    "mnemonics": [
+      "Madanaphala = remember Vamana"
+    ],
+    "quick_revision": "Madanaphala—Randia dumetorum; Rubiaceae; fruit/seed; important classical emetic drug."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Teach identification before discussing Vamana application."
+    ],
+    "discussion_points": [
+      "Discuss the distinction between classical emesis and unsupervised use.",
+      "Compare fruit and seed characters with adulterants."
+    ],
+    "practical_points": [
+      "Observe paired spines and fruit morphology."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Classical emetic drug; procedural details intentionally require verified source consultation.",
+    "important_indications": [
+      "Vamana context"
+    ],
+    "useful_part": "fruit/seed",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Not for unsupervised use",
+      "Use authenticated material and verified protocol"
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "open_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to fill previously blank structured fields; claims remain subject to classical/pharmacopoeial verification."
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "Project editorial pass",
+    "version": "1.3",
+    "last_enrichment": "blank structured fields cross-filled from an open CC BY Ayurveda dataset; original verified fields retained",
+    "external_dataset_note": "Amidha v2.0 used only as a supplementary structured-data source; not treated as sole classical authority."
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}
