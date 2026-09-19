@@ -1,20 +1,218 @@
 {
-  "id":"dhamasa","order":19,
-  "identity":{"name":"Dhamasa","sanskrit_name":"धमासा","transliteration":"Dhamasa","botanical_name":"Fagonia indica (syn. Fagonia cretica)","family":"Zygophyllaceae","english_name":"Fagonia","hindi_name":"धमासा","regional_names":[],"synonyms":["Dhanvayas","Duhsparsha","Ananta","Kachura"]},
-  "classification":{"kingdom":"Plantae","habit":"Small, much-branched, spiny herb or subshrub","habitat":"Dry, arid to semi-arid habitats; often found in sandy or rocky ground","distribution":"Indian dry and semi-arid regions; species-level nomenclature should be checked against the current botanical treatment"},
-  "identification":{"description":"A low, highly branched and often spiny plant with small leaves and small flowers; exact species authentication is important because Fagonia nomenclature has changed across sources.","whole_plant":"Low, diffusely branched herb/subshrub with a wiry appearance and spines at nodes or leaf bases.","root":"Slender woody/fibrous root; pharmacognostic characters require authenticated specimen.","stem":"Much-branched, slender, green to brownish stems with spiny stipular structures.","leaf":"Small, opposite, compound/trifoliate-looking leaves with narrow leaflets; associated stipular spines are conspicuous.","flower":"Small solitary flowers, generally pinkish to purplish in commonly described Fagonia material.","fruit":"Small dry capsule, with mature fruit characters to be confirmed on authenticated material.","seed":"Small seeds enclosed within the dry fruit; detailed microscopy requires authenticated sample.","bark":"Not a useful primary macroscopic discriminator in the young herbaceous portions.","identification_points":["Low highly branched habit","Spiny structures at nodes/leaf bases","Small compound leaves","Small pinkish-purple flowers","Dry-habitat adaptation"]},
-  "images":{"whole_plant":"","habit":"","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},
-  "dravya_guna":{"rasa":["Tikta","Kashaya"],"guna":["Laghu","Ruksha"],"virya":"Sheeta","vipaka":"Katu","prabhava":["Raktashodhak","Kushtaghna"],"karma":[]},
-  "dosha":{"vata":"aggravated","pitta":"pacified","kapha":"pacified"},
-  "therapeutics":{"useful_part":["whole plant"],"indications":["Raktapitta","Jwara","Daha","Trishna","Kushta"],"therapeutic_actions":["Traditional cooling use","Traditional use in skin and febrile disorders"],"dose":"","anupana":"","duration":"","precautions":"Species authentication is particularly important because Fagonia names and accepted species concepts vary among references.","contraindications":"No generic contraindication assigned here without formulation- and patient-specific evidence."},
-  "formulations":[],
-  "classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},
-  "phytochemistry":{"major_constituents":[],"chemical_notes":"Phytochemical reports are species-, geography- and extraction-dependent; detailed constituent claims are intentionally not populated without text-level source verification."},
-  "modern_information":{"evidence_summary":"Fagonia species have been investigated experimentally for several biological activities, but this dossier does not translate such studies into independent clinical efficacy claims.","recognized_uses":["Traditional Ayurvedic use"],"safety_notes":"Do not substitute a different Fagonia species solely on the basis of a common name. Verify botanical identity before medicinal use.","sources":[]},
-  "student":{"exam_points":["Botanical record: Fagonia indica (syn. Fagonia cretica)","Family: Zygophyllaceae","Characteristic low, much-branched and spiny habit","Dry and semi-arid habitat is an important practical clue"],"viva_questions":["Why is botanical authentication important for Dhamasa?","Which family is Dhamasa placed in this record?","What macroscopic features help identify Fagonia material?","Why should older synonyms and current botanical names be compared?"],"identification_points":["Spiny branched habit","Small leaves","Dry-habitat plant","Small flowers"],"mnemonics":["Dhamasa = dry, delicate, divided and spiny"],"quick_revision":"Dhamasa is a low, highly branched spiny Fagonia with small leaves and flowers; verify the accepted species name before using pharmacognostic or clinical information."},
-  "teacher":{"teaching_points":["Use Dhamasa to teach botanical synonymy and the need for specimen authentication.","Connect habitat adaptations with macroscopic identification."],"discussion_points":["Discuss differences between traditional identity and modern taxonomic nomenclature.","Explain why evidence from one Fagonia species should not automatically be transferred to another."],"practical_points":["Observe spines, branching pattern and leaf arrangement with a hand lens.","Record specimen locality and voucher information.","Use authenticated herbarium material for microscopic work."]},
-  "doctor":{"quick_reference":"Dhamasa — Fagonia record; whole plant is listed as useful in the project record. Species identity should be verified before medicinal application.","important_indications":["Raktapitta","Jwara","Daha","Trishna","Kushta"],"useful_part":"whole plant","dose":"","anupana":"","key_precautions":["Verify the accepted botanical species.","Do not transfer evidence between Fagonia species without support.","Use formulation-specific authoritative references for dosing."]},
-  "sources":[{"type":"official","title":"CCRAS Medicinal Plant Research","url":"https://ccras.nic.in/services/medicinal-plant-research/"},{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"}],
-  "metadata":{"status":"enriched_needs_taxonomic_text_cross_check","last_verified":"2026-09-17","verified_by":"PCIM&H baseline + project source review","version":"1.3","last_enrichment":"detailed morphology + student/teacher/doctor enrichment"},
-  "category":"NCISM-97","syllabus_marker":"NCISM-97"
+  "id": "dhamasa",
+  "order": 19,
+  "identity": {
+    "name": "Dhamasa",
+    "sanskrit_name": "धमासा",
+    "transliteration": "Dhamasa",
+    "botanical_name": "Fagonia indica (syn. Fagonia cretica)",
+    "family": "Zygophyllaceae",
+    "english_name": "Fagonia",
+    "hindi_name": "धमासा",
+    "regional_names": [
+      "Dhanvayas",
+      "Duhsparsha",
+      "Ananta",
+      "Kachura"
+    ],
+    "synonyms": [
+      "Dhanvayas",
+      "Duhsparsha",
+      "Ananta",
+      "Kachura"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Small, much-branched, spiny herb or subshrub",
+    "habitat": "Dry, arid to semi-arid habitats; often found in sandy or rocky ground",
+    "distribution": "Indian dry and semi-arid regions; species-level nomenclature should be checked against the current botanical treatment"
+  },
+  "identification": {
+    "description": "A low, highly branched and often spiny plant with small leaves and small flowers; exact species authentication is important because Fagonia nomenclature has changed across sources.",
+    "whole_plant": "Low, diffusely branched herb/subshrub with a wiry appearance and spines at nodes or leaf bases.",
+    "root": "Slender woody/fibrous root; pharmacognostic characters require authenticated specimen.",
+    "stem": "Much-branched, slender, green to brownish stems with spiny stipular structures.",
+    "leaf": "Small, opposite, compound/trifoliate-looking leaves with narrow leaflets; associated stipular spines are conspicuous.",
+    "flower": "Small solitary flowers, generally pinkish to purplish in commonly described Fagonia material.",
+    "fruit": "Small dry capsule, with mature fruit characters to be confirmed on authenticated material.",
+    "seed": "Small seeds enclosed within the dry fruit; detailed microscopy requires authenticated sample.",
+    "bark": "Not a useful primary macroscopic discriminator in the young herbaceous portions.",
+    "identification_points": [
+      "Low highly branched habit",
+      "Spiny structures at nodes/leaf bases",
+      "Small compound leaves",
+      "Small pinkish-purple flowers",
+      "Dry-habitat adaptation"
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Tikta",
+      "Kashaya"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Katu",
+    "prabhava": [
+      "Raktashodhak",
+      "Kushtaghna"
+    ],
+    "karma": [
+      "Raktashodhak",
+      "Kushtaghna"
+    ]
+  },
+  "dosha": {
+    "vata": "aggravated",
+    "pitta": "pacified",
+    "kapha": "pacified"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "whole plant"
+    ],
+    "indications": [
+      "Raktapitta",
+      "Jwara",
+      "Daha",
+      "Trishna",
+      "Kushta"
+    ],
+    "therapeutic_actions": [
+      "Traditional cooling use",
+      "Traditional use in skin and febrile disorders"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Species authentication is particularly important because Fagonia names and accepted species concepts vary among references.",
+    "contraindications": "No generic contraindication assigned here without formulation- and patient-specific evidence."
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": "Phytochemical reports are species-, geography- and extraction-dependent; detailed constituent claims are intentionally not populated without text-level source verification."
+  },
+  "modern_information": {
+    "evidence_summary": "Fagonia species have been investigated experimentally for several biological activities, but this dossier does not translate such studies into independent clinical efficacy claims.",
+    "recognized_uses": [
+      "Traditional Ayurvedic use"
+    ],
+    "safety_notes": "Do not substitute a different Fagonia species solely on the basis of a common name. Verify botanical identity before medicinal use.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Botanical record: Fagonia indica (syn. Fagonia cretica)",
+      "Family: Zygophyllaceae",
+      "Characteristic low, much-branched and spiny habit",
+      "Dry and semi-arid habitat is an important practical clue"
+    ],
+    "viva_questions": [
+      "Why is botanical authentication important for Dhamasa?",
+      "Which family is Dhamasa placed in this record?",
+      "What macroscopic features help identify Fagonia material?",
+      "Why should older synonyms and current botanical names be compared?"
+    ],
+    "identification_points": [
+      "Spiny branched habit",
+      "Small leaves",
+      "Dry-habitat plant",
+      "Small flowers"
+    ],
+    "mnemonics": [
+      "Dhamasa = dry, delicate, divided and spiny"
+    ],
+    "quick_revision": "Dhamasa is a low, highly branched spiny Fagonia with small leaves and flowers; verify the accepted species name before using pharmacognostic or clinical information."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Use Dhamasa to teach botanical synonymy and the need for specimen authentication.",
+      "Connect habitat adaptations with macroscopic identification."
+    ],
+    "discussion_points": [
+      "Discuss differences between traditional identity and modern taxonomic nomenclature.",
+      "Explain why evidence from one Fagonia species should not automatically be transferred to another."
+    ],
+    "practical_points": [
+      "Observe spines, branching pattern and leaf arrangement with a hand lens.",
+      "Record specimen locality and voucher information.",
+      "Use authenticated herbarium material for microscopic work."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Dhamasa — Fagonia record; whole plant is listed as useful in the project record. Species identity should be verified before medicinal application.",
+    "important_indications": [
+      "Raktapitta",
+      "Jwara",
+      "Daha",
+      "Trishna",
+      "Kushta"
+    ],
+    "useful_part": "whole plant",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Verify the accepted botanical species.",
+      "Do not transfer evidence between Fagonia species without support.",
+      "Use formulation-specific authoritative references for dosing."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official",
+      "title": "CCRAS Medicinal Plant Research",
+      "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+    },
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "secondary_structured_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Secondary source used only for blank structured fields."
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_taxonomic_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "PCIM&H baseline + project source review",
+    "version": "1.3",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass."
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
 }
