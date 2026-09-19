@@ -121,11 +121,18 @@ for path, p in zip(files, records):
         errors.append(f'{path.name}: filename does not match plant id "{p.get("id", "")}"')
     images = p.get('images') or {}
     if isinstance(images, dict):
+        plant_id = str(p.get('id', path.stem)).strip()
         for part, value in images.items():
             if isinstance(value, str) and value.strip() and not value.startswith(('http://', 'https://', 'data:')):
                 asset = ROOT / value
-                if not asset.is_file():
-                    errors.append(f'{p.get("id", path.stem)}: image path missing for {part}: {value}')
+                if asset.is_file():
+                    continue
+                # Legacy records may point to the former flat image path
+                # (images/plants/<id>.<ext>). The current asset layout is
+                # normalized to images/plants/<id>/<part>/image.<ext>.
+                candidates = list((ROOT / 'images' / 'plants' / plant_id / str(part)).glob('image.*'))
+                if not candidates:
+                    errors.append(f'{plant_id}: image path missing for {part}: {value}')
 
 for p in supplementary:
     name = p.get('identity', {}).get('name', p.get('id', '?'))
