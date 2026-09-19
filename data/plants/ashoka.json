@@ -9,7 +9,12 @@
     "family": "Fabaceae",
     "english_name": "Ashoka Tree",
     "hindi_name": "",
-    "regional_names": [],
+    "regional_names": [
+      "Hemapushpa",
+      "Tamrapallava",
+      "Kankeli",
+      "Pindapushpa"
+    ],
     "synonyms": [
       "Hemapushpa",
       "Kankelli",
@@ -195,7 +200,7 @@
     "last_verified": "",
     "verified_by": "",
     "version": "1.2",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "batch_49_53_added": true,
     "batch_54_63_added": true
   },
