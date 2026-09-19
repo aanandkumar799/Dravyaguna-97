@@ -9,7 +9,12 @@
     "family": "Euphorbiaceae",
     "english_name": "Kamala Tree",
     "hindi_name": "कमाला",
-    "regional_names": [],
+    "regional_names": [
+      "Rechi",
+      "Ranjaka",
+      "Lohitanga",
+      "Raktanga"
+    ],
     "synonyms": [
       "Rechi",
       "Ranjaka",
@@ -65,7 +70,10 @@
       "Krimighna",
       "Kushtaghna"
     ],
-    "karma": []
+    "karma": [
+      "Krimighna",
+      "Kushtaghna"
+    ]
   },
   "dosha": {
     "vata": "aggravated",
@@ -194,7 +202,7 @@
     "last_verified": "2026-09-17",
     "verified_by": "Project editorial pass",
     "version": "1.3",
-    "last_enrichment": "2026-09-19: blank structured fields supplemented from a cited secondary dataset; existing content preserved.",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "external_dataset_note": "Amidha v2.0 used only as a supplementary structured-data source; not treated as sole classical authority."
   },
   "category": "NCISM-97",
