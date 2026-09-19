@@ -11,7 +11,12 @@
     "family": "Solanaceae",
     "english_name": "Thorn Apple / Downy Datura",
     "hindi_name": "",
-    "regional_names": [],
+    "regional_names": [
+      "Unmatta",
+      "Kanaka",
+      "Shivapriya",
+      "Dhustura"
+    ],
     "synonyms": [
       "Kanaka (कनक)",
       "Umatta (उमत्त)",
@@ -259,7 +264,7 @@
       88
     ],
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "botanical + educational field enrichment",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "last_audit": "complete supplementary JSON audit"
   },
   "gemini_source_data": {
