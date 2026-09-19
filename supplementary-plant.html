@@ -36,13 +36,27 @@ async function get(url){
 async function commonsImages(p){
   const name=clean(p?.identity?.botanical_name||p?.botanical_name||p?.id);
   if(!name)return [];
-  const q=encodeURIComponent(name.replace(/\s+L\.?$/i,''));
-  const url='https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch='+q+'&gsrnamespace=6&gsrlimit=6&prop=imageinfo&iiprop=url|extmetadata&iiurlwidth=1000&format=json&origin=*';
+  const q=encodeURIComponent(name.replace(/\s+L\.?$/i,'')+' plant');
+  const url='https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch='+q+'&gsrnamespace=6&gsrlimit=12&prop=imageinfo&iiprop=url|extmetadata&iiurlwidth=1000&format=json&origin=*';
   const data=await get(url),pages=data?.query?.pages||{};
+  const species=name.toLowerCase().replace(/\s+\(.*?\)/g,'').replace(/\s+(l\.|linn\.?|willd\.|roxb\.?|dc\.)$/i,'').trim();
+  const tokens=species.split(/\s+/).filter(Boolean);
+  const partOf=title=>{
+    const t=String(title||'').toLowerCase();
+    if(/\\b(root|radix|roots)\\b/.test(t))return 'Root';
+    if(/\\b(stem|branch|twig|shoot)\\b/.test(t))return 'Stem';
+    if(/\\b(leaf|leaves|foliage)\\b/.test(t))return 'Leaf';
+    if(/\\b(flower|flowers|floral|inflorescence)\\b/.test(t))return 'Flower';
+    if(/\\b(fruit|fruits|pod|pods|capsule)\\b/.test(t))return 'Fruit';
+    if(/\\b(seed|seeds)\\b/.test(t))return 'Seed';
+    if(/\\b(bark)\\b/.test(t))return 'Bark';
+    return 'Whole plant / habit';
+  };
   return Object.values(pages).map(x=>{
-    const ii=x?.imageinfo?.[0],meta=ii?.extmetadata||{};
-    return ii?.thumburl||ii?.url?{url:ii.thumburl||ii.url,title:x.title||'',source:'Wikimedia Commons',page:'https://commons.wikimedia.org/wiki/'+encodeURIComponent(String(x.title||'').replace(/^File:/,''))}:null;
-  }).filter(Boolean);
+    const ii=x?.imageinfo?.[0],title=x?.title||'',lower=String(title).toLowerCase();
+    const speciesMatch=tokens.length>=2?tokens.every(t=>lower.includes(t)):lower.includes(tokens[0]||'');
+    return ii?.thumburl||ii?.url?{url:ii.thumburl||ii.url,title,part:partOf(title),source:'Wikimedia Commons',page:'https://commons.wikimedia.org/wiki/'+encodeURIComponent(String(title).replace(/^File:/,'')),speciesMatch}:null;
+  }).filter(x=>x&&x.speciesMatch);
 }
 function imageGallery(p,manifest,remote){
   const id=String(p.id||''),local=obj(p.images),parts=[
@@ -54,7 +68,7 @@ function imageGallery(p,manifest,remote){
     const path=r?.image_path||r?.source_media_url||local[part];
     return path?{part,label,url:path,source:r?.source_name||'Plant record',page:r?.source_url||''}:null;
   }).filter(Boolean);
-  const fallback=remote.slice(0,6).map((x,i)=>({part:'reference_'+(i+1),label:'Reference image '+(i+1),url:x.url,source:x.source,page:x.page}));
+  const fallback=remote.slice(0,8).map(x=>({part:x.part,label:x.part,url:x.url,source:x.source,page:x.page}));
   const items=verified.length?verified:fallback;
   if(!items.length)return '<div class="image-empty">No verified image is currently stored for this supplementary record. The page will keep the image area visible rather than silently omitting it.</div>';
   return '<div class="supp-image-grid">'+items.map(x=>'<figure class="supp-image-card"><img src="'+esc(x.url)+'" alt="'+esc((p.identity?.name||p.id)+' — '+x.label)+'" loading="lazy" onerror="this.closest(\'figure\').classList.add(\'image-load-error\')"><figcaption><strong>'+esc(x.label)+'</strong>'+(x.source?'<small>'+esc(x.source)+'</small>':'')+(x.page?link('Source',x.page):'')+'</figcaption></figure>').join('')+'</div>';
