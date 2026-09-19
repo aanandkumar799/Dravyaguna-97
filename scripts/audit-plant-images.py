@@ -1,5 +1,5 @@
 # Continuous audit: verified local assets are retained; unresolved slots remain missing.
-import json, re, urllib.parse, urllib.request
+import json, re, urllib.parse, urllib.request, hashlib
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -111,7 +111,8 @@ def commons_category_candidates(botanical,part):
 
 def direct_candidate(file_title,license_name,author):
     page='https://commons.wikimedia.org/wiki/File:'+urllib.parse.quote(file_title.replace(' ','_'))
-    media='https://commons.wikimedia.org/wiki/Special:Redirect/file/'+urllib.parse.quote(file_title.replace(' ','_'),safe='')
+    h=hashlib.md5(file_title.replace(' ','_').encode('utf-8')).hexdigest()
+    media='https://upload.wikimedia.org/wikipedia/commons/'+h[0]+'/'+h[:2]+'/'+urllib.parse.quote(file_title.replace(' ','_'))
     return {'url':media,'page':page,'title':file_title,'license':license_name,'author':author,'source':'Wikimedia Commons'}
 
 
