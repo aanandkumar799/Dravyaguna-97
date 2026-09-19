@@ -7,28 +7,43 @@
     "transliteration": "",
     "botanical_name": "Holarrhena pubescens Wall. ex G.Don",
     "family": "Apocynaceae",
-    "english_name": "",
-    "hindi_name": "",
-    "regional_names": [],
-    "synonyms": []
+    "english_name": "Kurchi / Conessi",
+    "hindi_name": "कुटज / इन्द्रयव",
+    "regional_names": [
+      "Kutaja",
+      "Indrayava"
+    ],
+    "synonyms": [
+      "Kutaja",
+      "Kūṭaja",
+      "Vatsaka",
+      "Kalinga",
+      "Indrayava"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Small deciduous, milky-latex-bearing tree or shrub",
+    "habitat": "Tropical and subtropical forests, scrub and sub-Himalayan tracts",
+    "distribution": "Widely distributed in India, including tropical and sub-Himalayan regions"
   },
   "identification": {
-    "description": "",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": "",
-    "identification_points": []
+    "description": "Small deciduous tree with opposite leaves, fragrant white flowers and paired elongated follicles; latex is present in the plant.",
+    "whole_plant": "Small to medium deciduous tree or shrub, often with a spreading crown.",
+    "root": "Woody root system; not the principal official crude-drug part in this record.",
+    "stem": "Woody, branched stem with grey-brown bark and milky latex.",
+    "leaf": "Simple, opposite, elliptic to ovate-oblong leaves with prominent venation.",
+    "flower": "White, fragrant flowers arranged in terminal or axillary cymose clusters.",
+    "fruit": "Paired long, slender follicles containing numerous seeds.",
+    "seed": "Oblong seeds with a tuft of hairs at the apex; the seed is known as Indrayava.",
+    "bark": "Grey-brown bark; stem bark is an important medicinal part.",
+    "identification_points": [
+      "Opposite elliptic leaves",
+      "White fragrant flowers",
+      "Paired long follicles",
+      "Milky latex",
+      "Indrayava seeds"
+    ]
   },
   "images": {
     "whole_plant": "images/plants/kutaja.jpg",
@@ -52,25 +67,50 @@
     ],
     "virya": "sheeta",
     "vipaka": "katu",
-    "prabhava": "",
-    "karma": []
+    "prabhava": [
+      "Grahi",
+      "Dipana",
+      "Stambhana"
+    ],
+    "karma": [
+      "Grahi",
+      "Dipana",
+      "Stambhana",
+      "Kandughna"
+    ]
   },
   "dosha": {
-    "vata": "",
-    "pitta": "",
-    "kapha": ""
+    "vata": "May aggravate Vata when used excessively because of Laghu-Ruksha qualities",
+    "pitta": "pacified",
+    "kapha": "pacified"
   },
   "therapeutics": {
     "useful_part": [
       "stem bark",
       "seed (Indrayava)"
     ],
-    "indications": [],
-    "therapeutic_actions": [],
-    "dose": "",
+    "indications": [
+      "Atisara",
+      "Grahani",
+      "Raktapitta",
+      "Arsha",
+      "Kushta",
+      "Krimi",
+      "Jwara",
+      "Chardi",
+      "Visarpa",
+      "Vatarakta"
+    ],
+    "therapeutic_actions": [
+      "Grahi",
+      "Dipana",
+      "Stambhana",
+      "Kandughna"
+    ],
+    "dose": "Bark/seed powder: 3–6 g; decoction: 50–100 ml, with preparation-specific variation. Use an authoritative formulation reference for prescribing.",
     "anupana": "",
     "duration": "",
-    "precautions": "",
+    "precautions": "Authenticate the species and distinguish Kutaja bark from Indrayava seed. Persistent or severe diarrhoea requires appropriate clinical assessment.",
     "contraindications": ""
   },
   "formulations": [],
@@ -98,34 +138,78 @@
     "verification_note": "Gemini-submitted numbering 116–117 and quotation were not accepted; the independently searchable Bhavaprakasha passage is used."
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "Conessine",
+      "Conessimine",
+      "Kurchicine and related steroidal alkaloids"
+    ],
+    "chemical_notes": "Holarrhena bark and seeds contain characteristic steroidal alkaloids; exact composition varies by plant part and preparation."
   },
   "modern_information": {
-    "evidence_summary": "",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "evidence_summary": "Holarrhena pubescens is studied for its alkaloid-rich bark and seed drugs and for gastrointestinal indications. Modern evidence is preparation-specific and is not presented as proof of clinical efficacy.",
+    "recognized_uses": [
+      "Traditional gastrointestinal and astringent applications"
+    ],
+    "safety_notes": "Use authenticated material and clinically appropriate dosing references; do not self-treat severe diarrhoea or dysentery.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
-    "mnemonics": [],
-    "quick_revision": ""
+    "exam_points": [
+      "Botanical name: Holarrhena pubescens",
+      "Family: Apocynaceae",
+      "Useful parts: stem bark and Indrayava seed",
+      "Rasa: Tikta-Kashaya; Guna: Laghu-Ruksha; Virya: Sheeta; Vipaka: Katu",
+      "Kutaja is classically associated with Atisara and Grahani"
+    ],
+    "viva_questions": [
+      "What is the botanical name of Kutaja?",
+      "What is Indrayava?",
+      "Which plant parts are used?",
+      "State the Rasa-Panchaka.",
+      "Name important therapeutic actions."
+    ],
+    "identification_points": [
+      "Opposite leaves",
+      "White fragrant flowers",
+      "Paired follicles",
+      "Milky latex"
+    ],
+    "mnemonics": [
+      "Kutaja = Kurchi bark + Indrayava seed + Grahi"
+    ],
+    "quick_revision": "Kutaja (Holarrhena pubescens): Apocynaceae tree; bark and Indrayava seed are important drugs; Tikta-Kashaya, Laghu-Ruksha, Sheeta, Katu profile."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Demonstrate the opposite leaves, white flowers and paired follicles.",
+      "Distinguish Kutaja bark from Indrayava seed as separate crude-drug parts."
+    ],
+    "discussion_points": [
+      "Kutaja in Atisara/Grahani",
+      "Steroidal alkaloids and pharmacognostic authentication"
+    ],
+    "practical_points": [
+      "Examine bark, leaf and follicle morphology.",
+      "Identify the hairy-tipped seeds when available."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
-    "useful_part": "stem bark/seed",
-    "dose": "",
-    "anupana": "",
-    "key_precautions": []
+    "quick_reference": "Kutaja is a classical Grahi drug used chiefly in Atisara/Grahani contexts; bark and Indrayava should be treated as distinct crude-drug parts.",
+    "important_indications": [
+      "Atisara",
+      "Grahani",
+      "Raktapitta",
+      "Arsha",
+      "Krimi"
+    ],
+    "useful_part": "stem bark / Indrayava seed",
+    "dose": "3–6 g powder or 50–100 ml decoction are reported in the referenced educational source; verify formulation-specific dosing.",
+    "anupana": "Preparation-specific",
+    "key_precautions": [
+      "Authenticate plant material",
+      "Differentiate bark from Indrayava seed",
+      "Seek clinical evaluation for severe or persistent diarrhoea"
+    ]
   },
   "sources": [
     {
@@ -153,15 +237,25 @@
       "title": "Wikimedia Commons",
       "url": "https://commons.wikimedia.org/wiki/File:Holarrhena_pubescens_(Buch.-Ham.)_Wall._ex_G.Don_(51009137061).jpg",
       "license_note": "Check the original file page for current license/attribution requirements."
+    },
+    {
+      "type": "educational_dravyaguna_source",
+      "title": "Shri Dhanwantry Ayurvedic College & Hospital — Kutaja",
+      "url": "https://www.sdach.ac.in/about-drayyaguna-vigyan/dravyaguna-vigyan-blogs/kutaja/"
+    },
+    {
+      "type": "independent_reference",
+      "title": "ETHMED — Holarrhena pubescens traditional profile",
+      "url": "https://ethmed.toyama-wakan.net/SearchEn/View/30171"
     }
   ],
   "metadata": {
-    "status": "working_draft_needs_text_cross_check",
-    "last_verified": "",
-    "verified_by": "",
-    "version": "1.2",
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-19",
+    "verified_by": "Project editorial pass",
+    "version": "1.4",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "last_enrichment": "completed identification + therapeutics + phytochemistry + student/teacher/doctor fields 2026-09-19",
     "panchaka_correction": "2026-09-16 audit correction; source-reviewed classical profile",
     "classical_review_batch": "19-23",
     "classical_review_date": "2026-09-16",
