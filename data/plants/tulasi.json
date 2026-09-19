@@ -4,31 +4,51 @@
   "identity": {
     "name": "Tulasi",
     "sanskrit_name": "तुलसी",
-    "transliteration": "",
+    "transliteration": "Tulasī",
     "botanical_name": "Ocimum tenuiflorum L.",
     "family": "Lamiaceae",
-    "english_name": "",
-    "hindi_name": "",
-    "regional_names": [],
-    "synonyms": []
+    "english_name": "Holy Basil / Sacred Basil",
+    "hindi_name": "तुलसी",
+    "regional_names": [
+      "Tulasi",
+      "Tulsi",
+      "Tulas"
+    ],
+    "synonyms": [
+      "Surasa",
+      "Surasā",
+      "Grāmya",
+      "Sulabhā",
+      "Bahumañjarī",
+      "Apetarākṣasī",
+      "Gaurī",
+      "Bhūtāghnī",
+      "Devadundubhi"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Annual erect, much-branched aromatic herb",
+    "habitat": "Gardens, sacred groves, cultivated areas and warm open habitats",
+    "distribution": "Widely cultivated and distributed throughout India"
   },
   "identification": {
-    "description": "",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": "",
-    "identification_points": []
+    "description": "Aromatic, erect, much-branched herb with opposite aromatic leaves and terminal flowering spikes.",
+    "whole_plant": "Erect, aromatic, much-branched herb, commonly 30–60 cm tall.",
+    "root": "Thin, branched fibrous root system.",
+    "stem": "Erect, branched, hairy and sub-quadrangular stem, often green to purplish.",
+    "leaf": "Opposite, ovate to elliptic leaves, aromatic and pubescent, with serrate or variable margins.",
+    "flower": "Small flowers arranged in elongated terminal racemes/spikes, commonly white to purplish depending on form.",
+    "fruit": "Small dry nutlets enclosed within the persistent calyx.",
+    "seed": "Small dark nutlets.",
+    "bark": "Not a distinct crude-drug part; stem is herbaceous and becomes firmer with age.",
+    "identification_points": [
+      "Strong aromatic odour",
+      "Opposite pubescent leaves",
+      "Quadrangular branched stem",
+      "Terminal flowering spikes",
+      "Small nutlets"
+    ]
   },
   "images": {
     "whole_plant": "",
@@ -52,25 +72,57 @@
     ],
     "virya": "ushna",
     "vipaka": "katu",
-    "prabhava": "",
-    "karma": []
+    "prabhava": [
+      "Krimighna"
+    ],
+    "karma": [
+      "Hridya",
+      "Deepana",
+      "Kaphahara",
+      "Vatahara",
+      "Rucya",
+      "Durgandhihara",
+      "Jwaraghna",
+      "Krimighna"
+    ]
   },
   "dosha": {
-    "vata": "",
-    "pitta": "",
-    "kapha": ""
+    "vata": "pacified",
+    "pitta": "may be aggravated in excess because of Ushna-Tikshna profile",
+    "kapha": "pacified"
   },
   "therapeutics": {
     "useful_part": [
       "leaf",
       "whole plant"
     ],
-    "indications": [],
-    "therapeutic_actions": [],
-    "dose": "",
+    "indications": [
+      "Kushta",
+      "Mutrakrichhra",
+      "Raktavikara",
+      "Parshvashula",
+      "Krimi",
+      "Shwasa",
+      "Kasa",
+      "Hikka",
+      "Chardi",
+      "Vishavikara",
+      "Netraroga",
+      "Jwara"
+    ],
+    "therapeutic_actions": [
+      "Kaphahara",
+      "Vatahara",
+      "Deepana",
+      "Krimighna",
+      "Jwaraghna",
+      "Hridya",
+      "Rucya"
+    ],
+    "dose": "API whole-plant monograph: 1–3 g powder. Preparation-specific doses should be taken from the relevant authoritative formulation.",
     "anupana": "",
     "duration": "",
-    "precautions": "",
+    "precautions": "The heating and sharp qualities warrant preparation- and patient-specific use; verify dosing from an authoritative monograph or formulation.",
     "contraindications": ""
   },
   "formulations": [],
@@ -104,34 +156,78 @@
     "verification_note": "Gemini-submitted verses 62–63 were not retained; independently supported text and numbering from searchable Bhavaprakasha recensions are used."
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "Eugenol",
+      "Ursolic acid",
+      "Rosmarinic acid",
+      "Volatile oil constituents"
+    ],
+    "chemical_notes": "Tulasi contains volatile-oil and phenolic constituents; composition varies with variety, plant part and extraction."
   },
   "modern_information": {
-    "evidence_summary": "",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "evidence_summary": "Ocimum tenuiflorum is widely studied for phytochemical and pharmacological properties, particularly its volatile oils and phenolic constituents. Modern findings are not treated here as proof of efficacy for individual diseases.",
+    "recognized_uses": [
+      "Traditional aromatic and respiratory-supportive applications"
+    ],
+    "safety_notes": "Use preparation-specific dosing and consider potential interactions in patients taking medicines.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
-    "mnemonics": [],
-    "quick_revision": ""
+    "exam_points": [
+      "Botanical name: Ocimum tenuiflorum L. (syn. O. sanctum)",
+      "Family: Lamiaceae",
+      "Useful part: whole plant/panchanga",
+      "Rasa: Katu-Tikta-Kashaya; Guna: Tikshna-Ruksha-Laghu; Virya: Ushna; Vipaka: Katu",
+      "Important actions include Kaphahara, Vatahara, Deepana and Krimighna"
+    ],
+    "viva_questions": [
+      "State the botanical name and family of Tulasi.",
+      "Which part is used in the API Tulasī Pañcāṅga monograph?",
+      "State the Rasa-Panchaka.",
+      "Name two important karmas."
+    ],
+    "identification_points": [
+      "Aromatic odour",
+      "Opposite leaves",
+      "Quadrangular hairy stem",
+      "Terminal spikes"
+    ],
+    "mnemonics": [
+      "Tulasi = aromatic Lamiaceae + opposite leaves + terminal spikes"
+    ],
+    "quick_revision": "Tulasi (Ocimum tenuiflorum): aromatic Lamiaceae herb; whole plant is official in the API monograph; Ushna, Katu-vipaka and Kaphahara-Vatahara profile."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Demonstrate the characteristic Lamiaceae stem and opposite leaves.",
+      "Compare green and purple forms without treating them as separate species without evidence."
+    ],
+    "discussion_points": [
+      "API monograph of Tulasī Pañcāṅga",
+      "Classical Tulasi actions versus modern phytochemical evidence"
+    ],
+    "practical_points": [
+      "Observe aroma, opposite leaves, hairy quadrangular stem and terminal spikes."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
-    "useful_part": "leaf/whole plant",
-    "dose": "",
-    "anupana": "",
-    "key_precautions": []
+    "quick_reference": "Tulasi whole plant is an official API monograph drug and is traditionally used in respiratory, digestive and Krimi-related contexts.",
+    "important_indications": [
+      "Kasa",
+      "Shwasa",
+      "Krimi",
+      "Hikka",
+      "Chardi",
+      "Jwara"
+    ],
+    "useful_part": "whole plant (Panchanga)",
+    "dose": "1–3 g powder according to the API monograph; verify formulation-specific dosing.",
+    "anupana": "Preparation-specific",
+    "key_precautions": [
+      "Use authenticated material",
+      "Verify preparation-specific dosing",
+      "Consider heating/sharp qualities and medicine interactions"
+    ]
   },
   "sources": [
     {
@@ -153,15 +249,25 @@
       "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
       "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
       "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+    },
+    {
+      "type": "official_pharmacopoeial_source",
+      "title": "Ayurvedic Pharmacopoeia of India / PCIM&H — Tulasī Pañcāṅga",
+      "url": "https://pcimh.gov.in/WriteReadData/RTF1984/Ayurvedic.pdf"
+    },
+    {
+      "type": "official_monograph_catalogue",
+      "title": "PCIM&H — Tulasī monograph",
+      "url": "https://www.portal.pcimh.gov.in/product_details/99902b4d-7714-48b1-810a-91cf2011fe22"
     }
   ],
   "metadata": {
-    "status": "working_draft_needs_text_cross_check",
-    "last_verified": "",
-    "verified_by": "",
-    "version": "1.2",
+    "status": "official_pharmacopoeial_profile_enriched",
+    "last_verified": "2026-09-19",
+    "verified_by": "Project editorial pass",
+    "version": "1.4",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "last_enrichment": "completed identification + therapeutics + phytochemistry + student/teacher/doctor fields 2026-09-19",
     "panchaka_correction": "2026-09-16 audit correction; source-reviewed classical profile",
     "classical_review_batch": "19-23",
     "classical_review_date": "2026-09-16",
