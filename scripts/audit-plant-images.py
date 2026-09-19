@@ -198,7 +198,7 @@ def main():
             if not candidates:candidates=commons_candidates(botanical,part)
             if not candidates:candidates=commons_category_candidates(botanical,part)
             if not candidates:candidates=inat_candidates(botanical,part)
-            best=next((x for x in candidates if x['page'] not in used_sources and x['url'] not in used_sources),None)
+            best=(candidates[0] if direct_meta and candidates else next((x for x in candidates if x['page'] not in used_sources and x['url'] not in used_sources),None))
             if not best:
                 unresolved.append({'plant_id':pid,'part':part,'reason':'no-high-confidence-unique-image'});continue
             try:local,size=download_image(best['url'],local_path(pid,part))
