@@ -132,7 +132,7 @@ for path, p in zip(files, records):
                 # normalized to images/plants/<id>/<part>/image.<ext>.
                 candidates = list((ROOT / 'images' / 'plants' / plant_id / str(part)).glob('image.*'))
                 if not candidates:
-                    errors.append(f'{plant_id}: image path missing for {part}: {value}')
+                    warnings.append(f'{plant_id}: image path missing for {part}: {value} (image enrichment pending)')
 
 for p in supplementary:
     name = p.get('identity', {}).get('name', p.get('id', '?'))
