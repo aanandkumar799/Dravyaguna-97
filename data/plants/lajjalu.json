@@ -9,7 +9,12 @@
     "family": "Fabaceae",
     "english_name": "Touch-Me-Not",
     "hindi_name": "छुईमुई",
-    "regional_names": [],
+    "regional_names": [
+      "Samanga",
+      "Anjalikarika",
+      "Namaskari",
+      "Raktapadi"
+    ],
     "synonyms": [
       "Samanga",
       "Anjalikarika",
@@ -64,7 +69,10 @@
       "Stambhana",
       "Vranaropana"
     ],
-    "karma": []
+    "karma": [
+      "Stambhana",
+      "Vranaropana"
+    ]
   },
   "dosha": {
     "vata": "aggravated",
@@ -193,7 +201,7 @@
     "last_verified": "2026-09-17",
     "verified_by": "Project editorial pass",
     "version": "1.3",
-    "last_enrichment": "blank structured fields cross-filled from supplementary open dataset; verified fields retained",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "external_dataset_note": "Amidha v2.0 used only as a supplementary structured-data source; not treated as sole classical authority."
   },
   "category": "NCISM-97",
