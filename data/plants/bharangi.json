@@ -107,7 +107,12 @@
     "sources": []
   },
   "student": {
-    "exam_points": [],
+    "exam_points": [
+      "Botanical name: Clerodendrum serratum (L.) Moon",
+      "Family: Lamiaceae",
+      "Useful part: root",
+      "Rasa-Panchaka: Tikta, Katu; Laghu, Ruksha; Ushna; Katu"
+    ],
     "viva_questions": [],
     "identification_points": [],
     "mnemonics": [],
@@ -171,7 +176,8 @@
     "last_verified": "",
     "verified_by": "",
     "version": "1.2",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+    "last_enrichment": "blank structured fields cross-filled from an open CC BY Ayurveda dataset; original verified fields retained",
+    "external_dataset_note": "Amidha v2.0 used only as a supplementary structured-data source; not treated as sole classical authority."
   },
   "category": "NCISM-97",
   "syllabus_marker": "NCISM-97"
