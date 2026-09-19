@@ -9,7 +9,12 @@
     "family": "Fabaceae (Caesalpiniaceae)",
     "english_name": "Golden Shower Tree / Purging Cassia",
     "hindi_name": "अमलतास",
-    "regional_names": [],
+    "regional_names": [
+      "Rajavriksha",
+      "Kritamala",
+      "Suvarnaka",
+      "Vyadhighata"
+    ],
     "synonyms": [
       "Rajavriksha",
       "Shampaka",
@@ -229,7 +234,7 @@
     "last_verified": "",
     "verified_by": "",
     "version": "1.3",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "dosha_karma_note": "Kapha-Pittashamaka",
     "batch_54_63_added": true
   },
