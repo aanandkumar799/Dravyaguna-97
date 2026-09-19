@@ -9,7 +9,12 @@
     "family": "Anacardiaceae",
     "english_name": "Marking Nut / Clearing Nut",
     "hindi_name": "",
-    "regional_names": [],
+    "regional_names": [
+      "Arushkara",
+      "Agnika",
+      "Sophakrit",
+      "Krimighna"
+    ],
     "synonyms": [
       "Arushkara (अरुष्कर)",
       "Agnimukhi (अग्निमुखी)",
@@ -248,7 +253,7 @@
     "last_verified": "2026-09-16",
     "verified_by": "independent searchable classical-text cross-check",
     "version": "1.2",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "batch_54_63_added": true,
     "gemini_later_batches_reviewed": true,
     "gemini_source_batches": [
