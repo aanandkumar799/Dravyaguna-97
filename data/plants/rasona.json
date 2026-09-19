@@ -1,11 +1,204 @@
 {
-  "id":"rasona","order":76,"identity":{"name":"Rasona","sanskrit_name":"रसोना","transliteration":"Rasona","botanical_name":"Allium sativum L.","family":"Amaryllidaceae","english_name":"Garlic","hindi_name":"लहसुन","regional_names":[],"synonyms":["Lashuna","Ugragandha","Yavanishta","Mahoushadha"]},
-  "classification":{"kingdom":"Plantae","habit":"Bulbous perennial herb, commonly cultivated as an annual","habitat":"Well-drained cultivated soils","distribution":"Widely cultivated worldwide; common in India"},
-  "identification":{"description":"Bulbous herb with linear flat leaves, an underground compound bulb and a characteristic strong odour.","whole_plant":"Herb arising from a compound bulb with several narrow leaves.","root":"Fibrous roots arise from the basal plate of the bulb.","stem":"Short compressed basal stem; a flowering scape may arise centrally.","leaf":"Long, flat, linear to strap-shaped leaves with sheathing bases.","flower":"Small whitish flowers borne in a rounded umbel; bulbils may occur in the inflorescence.","fruit":"Fruiting is uncommon in cultivated garlic; reproductive structures may include bulbils.","seed":"True seed production is uncommon in many cultivated forms; cloves are vegetative propagules, not seeds.","bark":"Not applicable.","identification_points":["Compound underground bulb","Multiple cloves","Flat linear leaves","Strong characteristic odour","Bulbils/umbel on flowering scape in suitable material"]},
-  "images":{"whole_plant":"","habit":"","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},"dravya_guna":{"rasa":["Katu","Tikta"],"guna":["Laghu","Ruksha"],"virya":"Ushna","vipaka":"Katu","prabhava":["Lekhana","Deepana","rasayan"],"karma":[]},"dosha":{"vata":"pacified","pitta":"aggravated","kapha":"pacified"},
-  "therapeutics":{"useful_part":["bulb"],"indications":["Vata Vyadhi","Hridroga","Kasa","Gulma","Avarana Vata"],"therapeutic_actions":["Deepana","Vatanulomana"],"dose":"","anupana":"","duration":"","precautions":"Strongly pungent material may cause gastrointestinal irritation in some people; use appropriate clinical references.","contraindications":""},"formulations":[],"classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},
-  "phytochemistry":{"major_constituents":["Alliin","Allicin and related organosulfur compounds formed during tissue disruption"],"chemical_notes":"Garlic chemistry changes rapidly after crushing because alliinase converts alliin to thiosulfinates such as allicin."},"modern_information":{"evidence_summary":"Garlic has been extensively studied for cardiovascular, metabolic and antimicrobial-related effects. Study outcomes depend on preparation, dose and population and are not reproduced here as guaranteed therapeutic effects.","recognized_uses":[],"safety_notes":"Garlic may increase bleeding tendency in some settings and can cause gastrointestinal irritation; review concurrent medicines when clinically relevant.","sources":[]},
-  "student":{"exam_points":["Botanical name: Allium sativum","Family: Amaryllidaceae","Useful part: bulb","Compound bulb consists of cloves","Characteristic pungent odour"],"viva_questions":["What is the useful part of Rasona?","How is a garlic bulb different from a true seed?","Name major organosulfur constituents.","Describe the leaves."],"identification_points":["Compound bulb","Flat leaves","Pungent odour","Cloves"],"mnemonics":["Rasona = Lashuna = remember the pungent compound bulb."],"quick_revision":"Rasona (Allium sativum): bulbous Amaryllidaceae herb; bulb/cloves are used; flat leaves and strong odour are characteristic; alliin/allicin chemistry is important."},
-  "teacher":{"teaching_points":["Demonstrate bulb, cloves and basal plate.","Explain enzymatic formation of allicin after crushing."],"discussion_points":["Traditional Rasona profile and pungency","Organosulfur chemistry and preparation-dependent evidence"],"practical_points":["Separate cloves and observe tunics.","Compare fresh intact bulb with crushed material for odour."]},"doctor":{"quick_reference":"Rasona is traditionally used mainly as bulb in Vata-related and digestive contexts; dosing requires a verified reference.","important_indications":["Vata Vyadhi","Kasa","Gulma"],"useful_part":"bulb","dose":"","anupana":"","key_precautions":["Consider gastrointestinal intolerance","Review anticoagulant/antiplatelet medicines when clinically relevant","Use authenticated bulb"]},
-  "sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"pharmacopoeial_authority","title":"Pharmacopoeia Commission for Indian Medicine & Homoeopathy","url":"https://pcimh.gov.in/"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"}],"metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3","image_enrichment_note":"Verified image registry is maintained separately; no unverified image URL added.","last_enrichment":"structured identification + student/teacher/doctor enrichment"},"category":"NCISM-97","syllabus_marker":"NCISM-97"
+  "id": "rasona",
+  "order": 76,
+  "identity": {
+    "name": "Rasona",
+    "sanskrit_name": "रसोना",
+    "transliteration": "Rasona",
+    "botanical_name": "Allium sativum L.",
+    "family": "Amaryllidaceae",
+    "english_name": "Garlic",
+    "hindi_name": "लहसुन",
+    "regional_names": [],
+    "synonyms": [
+      "Lashuna",
+      "Ugragandha",
+      "Yavanishta",
+      "Mahoushadha"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Bulbous perennial herb, commonly cultivated as an annual",
+    "habitat": "Well-drained cultivated soils",
+    "distribution": "Widely cultivated worldwide; common in India"
+  },
+  "identification": {
+    "description": "Bulbous herb with linear flat leaves, an underground compound bulb and a characteristic strong odour.",
+    "whole_plant": "Herb arising from a compound bulb with several narrow leaves.",
+    "root": "Fibrous roots arise from the basal plate of the bulb.",
+    "stem": "Short compressed basal stem; a flowering scape may arise centrally.",
+    "leaf": "Long, flat, linear to strap-shaped leaves with sheathing bases.",
+    "flower": "Small whitish flowers borne in a rounded umbel; bulbils may occur in the inflorescence.",
+    "fruit": "Fruiting is uncommon in cultivated garlic; reproductive structures may include bulbils.",
+    "seed": "True seed production is uncommon in many cultivated forms; cloves are vegetative propagules, not seeds.",
+    "bark": "Not applicable.",
+    "identification_points": [
+      "Compound underground bulb",
+      "Multiple cloves",
+      "Flat linear leaves",
+      "Strong characteristic odour",
+      "Bulbils/umbel on flowering scape in suitable material"
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Katu",
+      "Tikta"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": [
+      "Lekhana",
+      "Deepana",
+      "rasayan"
+    ],
+    "karma": []
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "aggravated",
+    "kapha": "pacified"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "bulb"
+    ],
+    "indications": [
+      "Vata Vyadhi",
+      "Hridroga",
+      "Kasa",
+      "Gulma",
+      "Avarana Vata"
+    ],
+    "therapeutic_actions": [
+      "Deepana",
+      "Vatanulomana"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Strongly pungent material may cause gastrointestinal irritation in some people; use appropriate clinical references.",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "Alliin",
+      "Allicin and related organosulfur compounds formed during tissue disruption"
+    ],
+    "chemical_notes": "Garlic chemistry changes rapidly after crushing because alliinase converts alliin to thiosulfinates such as allicin."
+  },
+  "modern_information": {
+    "evidence_summary": "Garlic has been extensively studied for cardiovascular, metabolic and antimicrobial-related effects. Study outcomes depend on preparation, dose and population and are not reproduced here as guaranteed therapeutic effects.",
+    "recognized_uses": [],
+    "safety_notes": "Garlic may increase bleeding tendency in some settings and can cause gastrointestinal irritation; review concurrent medicines when clinically relevant.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Botanical name: Allium sativum",
+      "Family: Amaryllidaceae",
+      "Useful part: bulb",
+      "Compound bulb consists of cloves",
+      "Characteristic pungent odour"
+    ],
+    "viva_questions": [
+      "What is the useful part of Rasona?",
+      "How is a garlic bulb different from a true seed?",
+      "Name major organosulfur constituents.",
+      "Describe the leaves."
+    ],
+    "identification_points": [
+      "Compound bulb",
+      "Flat leaves",
+      "Pungent odour",
+      "Cloves"
+    ],
+    "mnemonics": [
+      "Rasona = Lashuna = remember the pungent compound bulb."
+    ],
+    "quick_revision": "Rasona (Allium sativum): bulbous Amaryllidaceae herb; bulb/cloves are used; flat leaves and strong odour are characteristic; alliin/allicin chemistry is important."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Demonstrate bulb, cloves and basal plate.",
+      "Explain enzymatic formation of allicin after crushing."
+    ],
+    "discussion_points": [
+      "Traditional Rasona profile and pungency",
+      "Organosulfur chemistry and preparation-dependent evidence"
+    ],
+    "practical_points": [
+      "Separate cloves and observe tunics.",
+      "Compare fresh intact bulb with crushed material for odour."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Rasona is traditionally used mainly as bulb in Vata-related and digestive contexts; dosing requires a verified reference.",
+    "important_indications": [
+      "Vata Vyadhi",
+      "Kasa",
+      "Gulma"
+    ],
+    "useful_part": "bulb",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Consider gastrointestinal intolerance",
+      "Review anticoagulant/antiplatelet medicines when clinically relevant",
+      "Use authenticated bulb"
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "pharmacopoeial_authority",
+      "title": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy",
+      "url": "https://pcimh.gov.in/"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "Project editorial pass",
+    "version": "1.3",
+    "image_enrichment_note": "Verified image registry is maintained separately; no unverified image URL added.",
+    "last_enrichment": "structured identification + student/teacher/doctor enrichment"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
 }
