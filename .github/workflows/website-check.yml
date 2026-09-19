@@ -10,9 +10,6 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
-concurrency:
-  group: website-doctor-${{ github.ref }}
-  cancel-in-progress: false
 jobs:
   check-idle:
     name: Decide whether autonomous maintenance may run
