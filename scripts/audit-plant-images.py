@@ -52,8 +52,7 @@ def commons_candidates(botanical,part):
             lic=str(meta.get('LicenseShortName',{}).get('value') or '').strip(); desc=str(meta.get('ImageDescription',{}).get('value') or ''); cats=str(meta.get('Categories',{}).get('value') or '')
             blob=f'{title} {desc} {cats}'
             if mime not in ('image/jpeg','image/png','image/webp') or not LICENSE_OK.search(re.sub(r'\s+',' ',lic)):continue
-            if not species_in_text(f'{cat} {blob}',botanical) and not any(species_in_text(f'{a} {blob}',a) for a in aliases.get(botanical,[])):continue
-        if not part_ok(blob,part):continue
+            if not species_in_text(blob,botanical) or not part_ok(blob,part):continue
             u=info.get('thumburl') or info.get('url'); page='https://commons.wikimedia.org/wiki/'+urllib.parse.quote(title.replace(' ','_'))
             if not u or page in seen:continue
             seen.add(page); out.append({'url':u,'page':page,'title':title.replace('File:','',1),'license':lic,'author':str(meta.get('Artist',{}).get('value') or '').strip(),'source':'Wikimedia Commons'})
