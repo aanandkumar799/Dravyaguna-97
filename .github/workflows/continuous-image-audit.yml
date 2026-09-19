@@ -37,5 +37,7 @@ jobs:
             echo 'No image changes this run.'
           else
             git commit -m 'Store verified plant-part images locally'
+            git fetch origin main
+            git rebase origin/main
             git push
           fi
