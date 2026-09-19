@@ -1,1 +1,208 @@
-{"id":"kanchanara","order":30,"identity":{"name":"Kanchanara","sanskrit_name":"काञ्चनार","transliteration":"Kanchanara","botanical_name":"Bauhinia variegata L.","family":"Fabaceae","english_name":"Orchid Tree","hindi_name":"कचनार","regional_names":[],"synonyms":["Kovidara","Yugapatra","Kudalaka","Chamarika"]},"classification":{"kingdom":"Plantae","habit":"Small to medium deciduous tree","habitat":"Open forests, hills and cultivated landscapes","distribution":"Widely distributed and cultivated in India and South/Southeast Asia"},"identification":{"description":"A deciduous tree readily recognized by its characteristic bilobed leaves and showy orchid-like flowers.","whole_plant":"Small to medium tree with spreading crown.","root":"Woody root system.","stem":"Grey-brown woody trunk and branches.","leaf":"Simple alternate leaves, nearly round with a deep cleft dividing the two lobes, resembling a camel's hoof.","flower":"Large showy white, pink or purple flowers with prominent stamens, borne in clusters.","fruit":"Flat elongated pod containing several seeds.","seed":"Several flattened seeds within the mature pod.","bark":"Grey-brown bark, medicinal bark material should be authenticated.","identification_points":["Bilobed leaves","Showy orchid-like flowers","Flat legume pod","Deciduous tree"]},"images":{"whole_plant":"images/plants/kanchanara.jpg","habit":"images/plants/kanchanara.jpg","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},"dravya_guna":{"rasa":["Kashaya"],"guna":["Laghu","Ruksha"],"virya":"Sheeta","vipaka":"Katu","prabhava":["Grahi","Kushtaghna"],"karma":[]},"dosha":{"vata":"aggravated","pitta":"pacified","kapha":"pacified"},"therapeutics":{"useful_part":["stem bark"],"indications":["Gandamala","Apachi","Raktapitta","Pradara","Krimiroga"],"therapeutic_actions":[],"dose":"","anupana":"","duration":"","precautions":"","contraindications":""},"formulations":[],"classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},"phytochemistry":{"major_constituents":["Flavonoids and phenolic constituents","Tannins and other polyphenols"],"chemical_notes":"Published studies report varied phenolic/flavonoid profiles by plant part; exact values require source-specific verification."},"modern_information":{"evidence_summary":"Bauhinia variegata is a widely cultivated medicinal and ornamental tree. Traditional Kanchanara use is part-specific and should not be generalized to all plant preparations.","recognized_uses":[],"safety_notes":"Authenticate bark and avoid unsupervised long-term use of concentrated preparations.","sources":[]},"student":{"exam_points":["Kanchanara = Bauhinia variegata","Family: Fabaceae","Diagnostic bilobed leaf","Stem bark is the listed useful part"],"viva_questions":["Botanical name?","Family?","What is the characteristic leaf?","Which part is useful?"],"identification_points":["Bilobed leaf","Showy flowers","Flat pod","Deciduous habit"],"mnemonics":["Kanchanara = camel-hoof leaf + orchid-like flower."],"quick_revision":"Kanchanara is a deciduous Bauhinia tree with distinctive bilobed leaves and showy flowers; stem bark is listed as useful."},"teacher":{"teaching_points":["Use the bilobed leaf as a high-yield practical character."],"discussion_points":["Part-specific traditional indications","Authentication of bark drugs"],"practical_points":["Observe leaf cleft, flower colour and pod shape."]},"doctor":{"quick_reference":"Kanchanara — Bauhinia variegata L.; stem bark listed as useful in this record.","important_indications":["Gandamala","Apachi","Raktapitta","Pradara","Krimiroga"],"useful_part":"stem bark","dose":"","anupana":"","key_precautions":["Confirm botanical identity and bark source.","Use authoritative references for formulation and dose."]},"sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"official_pharmacopoeial_source","title":"PCIM&H","url":"https://pcimh.gov.in/"},{"type":"image","title":"Wikimedia Commons","url":"https://commons.wikimedia.org/wiki/File:Bauhinia_variegata_-_Jardim_Bot%C3%A2nico_da_Madeira_01.jpg"}],"metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3"},"category":"NCISM-97","syllabus_marker":"NCISM-97"}
+{
+  "id": "kanchanara",
+  "order": 30,
+  "identity": {
+    "name": "Kanchanara",
+    "sanskrit_name": "काञ्चनार",
+    "transliteration": "Kanchanara",
+    "botanical_name": "Bauhinia variegata L.",
+    "family": "Fabaceae",
+    "english_name": "Orchid Tree",
+    "hindi_name": "कचनार",
+    "regional_names": [],
+    "synonyms": [
+      "Kovidara",
+      "Yugapatra",
+      "Kudalaka",
+      "Chamarika"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Small to medium deciduous tree",
+    "habitat": "Open forests, hills and cultivated landscapes",
+    "distribution": "Widely distributed and cultivated in India and South/Southeast Asia"
+  },
+  "identification": {
+    "description": "A deciduous tree readily recognized by its characteristic bilobed leaves and showy orchid-like flowers.",
+    "whole_plant": "Small to medium tree with spreading crown.",
+    "root": "Woody root system.",
+    "stem": "Grey-brown woody trunk and branches.",
+    "leaf": "Simple alternate leaves, nearly round with a deep cleft dividing the two lobes, resembling a camel's hoof.",
+    "flower": "Large showy white, pink or purple flowers with prominent stamens, borne in clusters.",
+    "fruit": "Flat elongated pod containing several seeds.",
+    "seed": "Several flattened seeds within the mature pod.",
+    "bark": "Grey-brown bark, medicinal bark material should be authenticated.",
+    "identification_points": [
+      "Bilobed leaves",
+      "Showy orchid-like flowers",
+      "Flat legume pod",
+      "Deciduous tree"
+    ]
+  },
+  "images": {
+    "whole_plant": "images/plants/kanchanara.jpg",
+    "habit": "images/plants/kanchanara.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Kashaya"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Katu",
+    "prabhava": [
+      "Grahi",
+      "Kushtaghna"
+    ],
+    "karma": []
+  },
+  "dosha": {
+    "vata": "aggravated",
+    "pitta": "pacified",
+    "kapha": "pacified"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "stem bark"
+    ],
+    "indications": [
+      "Gandamala",
+      "Apachi",
+      "Raktapitta",
+      "Pradara",
+      "Krimiroga"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "Flavonoids and phenolic constituents",
+      "Tannins and other polyphenols"
+    ],
+    "chemical_notes": "Published studies report varied phenolic/flavonoid profiles by plant part; exact values require source-specific verification."
+  },
+  "modern_information": {
+    "evidence_summary": "Bauhinia variegata is a widely cultivated medicinal and ornamental tree. Traditional Kanchanara use is part-specific and should not be generalized to all plant preparations.",
+    "recognized_uses": [],
+    "safety_notes": "Authenticate bark and avoid unsupervised long-term use of concentrated preparations.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Kanchanara = Bauhinia variegata",
+      "Family: Fabaceae",
+      "Diagnostic bilobed leaf",
+      "Stem bark is the listed useful part"
+    ],
+    "viva_questions": [
+      "Botanical name?",
+      "Family?",
+      "What is the characteristic leaf?",
+      "Which part is useful?"
+    ],
+    "identification_points": [
+      "Bilobed leaf",
+      "Showy flowers",
+      "Flat pod",
+      "Deciduous habit"
+    ],
+    "mnemonics": [
+      "Kanchanara = camel-hoof leaf + orchid-like flower."
+    ],
+    "quick_revision": "Kanchanara is a deciduous Bauhinia tree with distinctive bilobed leaves and showy flowers; stem bark is listed as useful."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Use the bilobed leaf as a high-yield practical character."
+    ],
+    "discussion_points": [
+      "Part-specific traditional indications",
+      "Authentication of bark drugs"
+    ],
+    "practical_points": [
+      "Observe leaf cleft, flower colour and pod shape."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Kanchanara — Bauhinia variegata L.; stem bark listed as useful in this record.",
+    "important_indications": [
+      "Gandamala",
+      "Apachi",
+      "Raktapitta",
+      "Pradara",
+      "Krimiroga"
+    ],
+    "useful_part": "stem bark",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Confirm botanical identity and bark source.",
+      "Use authoritative references for formulation and dose."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "official_pharmacopoeial_source",
+      "title": "PCIM&H",
+      "url": "https://pcimh.gov.in/"
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Bauhinia_variegata_-_Jardim_Bot%C3%A2nico_da_Madeira_01.jpg"
+    },
+    {
+      "type": "open_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to fill previously blank structured fields; claims remain subject to classical/pharmacopoeial verification."
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "Project editorial pass",
+    "version": "1.3",
+    "last_enrichment": "blank structured fields cross-filled from an open CC BY Ayurveda dataset; original verified fields retained",
+    "external_dataset_note": "Amidha v2.0 used only as a supplementary structured-data source; not treated as sole classical authority."
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}
