@@ -9,7 +9,12 @@
     "family": "Zingiberaceae",
     "english_name": "Small Cardamom",
     "hindi_name": "",
-    "regional_names": [],
+    "regional_names": [
+      "Sukshma Ela",
+      "Upakunchika",
+      "Tutha",
+      "Dravidi"
+    ],
     "synonyms": [
       "Sukshma",
       "Dravidi",
@@ -209,7 +214,7 @@
     "verified_by": "",
     "version": "1.2",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "curated batch 64-68",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "classical_review_batch": "19-23",
     "classical_review_date": "2026-09-16",
     "classical_review_method": "independent text-level comparison; Gemini quotations not accepted without source confirmation"
