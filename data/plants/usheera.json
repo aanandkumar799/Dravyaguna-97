@@ -1,1 +1,198 @@
-{"id":"usheera","order":90,"identity":{"name":"Usheera","sanskrit_name":"उशीर","transliteration":"Usheera","botanical_name":"Chrysopogon zizanioides (L.) Roberty","family":"Poaceae","english_name":"Vetiver","hindi_name":"खस","regional_names":[],"synonyms":["Veerana","Reshira","Sugandhimoolaka","Abhaya"]},"classification":{"kingdom":"Plantae","habit":"Perennial tufted aromatic grass","habitat":"Moist to seasonally dry soils; commonly cultivated in clumps","distribution":"Widely cultivated in tropical and subtropical regions"},"identification":{"description":"Dense tufted aromatic grass with a deep fibrous root system; roots form the principal drug.","whole_plant":"Tall perennial grass growing in dense clumps.","root":"Dense, long, fibrous, highly aromatic roots forming a compact root mass.","stem":"Culms erect and slender.","leaf":"Long, narrow, linear grass leaves with rough margins.","flower":"Inflorescence a branched panicle with spikelets.","fruit":"Small caryopsis typical of grasses.","seed":"Small grass seeds.","bark":"Not applicable.","identification_points":["Dense tufted grass","Aromatic root mass","Long narrow leaves","Deep fibrous roots"]},"images":{"whole_plant":"","habit":"","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},"dravya_guna":{"rasa":["Tikta","Madhura"],"guna":["Laghu","Snigdha"],"virya":"Sheeta","vipaka":"Madhura","prabhava":["Trishnahara","Dahashamana"],"karma":[]},"dosha":{"vata":"pacified","pitta":"pacified","kapha":"aggravated"},"therapeutics":{"useful_part":["root"],"indications":["Daha","Trishna","Jwara","Mutrakrichha","Visha"],"therapeutic_actions":["Cooling","Aromatic","Traditional diuretic context"],"dose":"","anupana":"","duration":"","precautions":"Use authenticated root; avoid presenting traditional diuretic descriptions as established clinical efficacy.","contraindications":""},"formulations":[],"classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},"phytochemistry":{"major_constituents":["Vetiverol/vetivone-rich volatile oil fractions"],"chemical_notes":"Root oil composition varies with cultivar, geography and processing."},"modern_information":{"evidence_summary":"Vetiver roots are valued for aroma and have been studied for volatile constituents and several experimental properties; clinical conclusions require specific preparations and evidence.","recognized_uses":[],"safety_notes":"Authenticate roots and distinguish crude root from essential oil preparations.","sources":[]},"student":{"exam_points":["Botanical name: Chrysopogon zizanioides","Family: Poaceae","Useful part: root","Aromatic fibrous root mass is the key practical character"],"viva_questions":["What is the botanical name of Usheera?","Which part is used?","What is its most characteristic practical feature?"],"identification_points":["Tufted grass","Aromatic roots","Long narrow leaves"],"mnemonics":["USHEERA = aromatic root of a tufted grass"],"quick_revision":"Usheera — Chrysopogon zizanioides — Poaceae — aromatic root — Sheeta."},"teacher":{"teaching_points":["Demonstrate root mass and aroma","Discuss grass morphology"],"discussion_points":["Crude drug versus essential oil","Root authentication"],"practical_points":["Observe root colour, texture and odour","Examine leaf and inflorescence characters"]},"doctor":{"quick_reference":"Aromatic root drug traditionally used in cooling and thirst-related presentations.","important_indications":["Daha","Trishna","Jwara"],"useful_part":"root","dose":"","anupana":"","key_precautions":["Authenticate root material","Do not equate essential oil evidence with crude-drug evidence"]},"sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"pharmacopoeial_reference","title":"PCIM&H Ayurvedic Pharmacopoeia of India","url":"https://pcimh.gov.in/"}],"metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3","image_enrichment_note":"Verified image registry remains separate","last_enrichment":"structured identification + teaching + clinical-reference enrichment"},"category":"NCISM-97","syllabus_marker":"NCISM-97"}
+{
+  "id": "usheera",
+  "order": 90,
+  "identity": {
+    "name": "Usheera",
+    "sanskrit_name": "उशीर",
+    "transliteration": "Usheera",
+    "botanical_name": "Chrysopogon zizanioides (L.) Roberty",
+    "family": "Poaceae",
+    "english_name": "Vetiver",
+    "hindi_name": "खस",
+    "regional_names": [],
+    "synonyms": [
+      "Veerana",
+      "Reshira",
+      "Sugandhimoolaka",
+      "Abhaya"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Perennial tufted aromatic grass",
+    "habitat": "Moist to seasonally dry soils; commonly cultivated in clumps",
+    "distribution": "Widely cultivated in tropical and subtropical regions"
+  },
+  "identification": {
+    "description": "Dense tufted aromatic grass with a deep fibrous root system; roots form the principal drug.",
+    "whole_plant": "Tall perennial grass growing in dense clumps.",
+    "root": "Dense, long, fibrous, highly aromatic roots forming a compact root mass.",
+    "stem": "Culms erect and slender.",
+    "leaf": "Long, narrow, linear grass leaves with rough margins.",
+    "flower": "Inflorescence a branched panicle with spikelets.",
+    "fruit": "Small caryopsis typical of grasses.",
+    "seed": "Small grass seeds.",
+    "bark": "Not applicable.",
+    "identification_points": [
+      "Dense tufted grass",
+      "Aromatic root mass",
+      "Long narrow leaves",
+      "Deep fibrous roots"
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Tikta",
+      "Madhura"
+    ],
+    "guna": [
+      "Laghu",
+      "Snigdha"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Madhura",
+    "prabhava": [
+      "Trishnahara",
+      "Dahashamana"
+    ],
+    "karma": []
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "pacified",
+    "kapha": "aggravated"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "root"
+    ],
+    "indications": [
+      "Daha",
+      "Trishna",
+      "Jwara",
+      "Mutrakrichha",
+      "Visha"
+    ],
+    "therapeutic_actions": [
+      "Cooling",
+      "Aromatic",
+      "Traditional diuretic context"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Use authenticated root; avoid presenting traditional diuretic descriptions as established clinical efficacy.",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "Vetiverol/vetivone-rich volatile oil fractions"
+    ],
+    "chemical_notes": "Root oil composition varies with cultivar, geography and processing."
+  },
+  "modern_information": {
+    "evidence_summary": "Vetiver roots are valued for aroma and have been studied for volatile constituents and several experimental properties; clinical conclusions require specific preparations and evidence.",
+    "recognized_uses": [],
+    "safety_notes": "Authenticate roots and distinguish crude root from essential oil preparations.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Botanical name: Chrysopogon zizanioides",
+      "Family: Poaceae",
+      "Useful part: root",
+      "Aromatic fibrous root mass is the key practical character"
+    ],
+    "viva_questions": [
+      "What is the botanical name of Usheera?",
+      "Which part is used?",
+      "What is its most characteristic practical feature?"
+    ],
+    "identification_points": [
+      "Tufted grass",
+      "Aromatic roots",
+      "Long narrow leaves"
+    ],
+    "mnemonics": [
+      "USHEERA = aromatic root of a tufted grass"
+    ],
+    "quick_revision": "Usheera — Chrysopogon zizanioides — Poaceae — aromatic root — Sheeta."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Demonstrate root mass and aroma",
+      "Discuss grass morphology"
+    ],
+    "discussion_points": [
+      "Crude drug versus essential oil",
+      "Root authentication"
+    ],
+    "practical_points": [
+      "Observe root colour, texture and odour",
+      "Examine leaf and inflorescence characters"
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Aromatic root drug traditionally used in cooling and thirst-related presentations.",
+    "important_indications": [
+      "Daha",
+      "Trishna",
+      "Jwara"
+    ],
+    "useful_part": "root",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Authenticate root material",
+      "Do not equate essential oil evidence with crude-drug evidence"
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "pharmacopoeial_reference",
+      "title": "PCIM&H Ayurvedic Pharmacopoeia of India",
+      "url": "https://pcimh.gov.in/"
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "Project editorial pass",
+    "version": "1.3",
+    "image_enrichment_note": "Verified image registry remains separate",
+    "last_enrichment": "structured identification + teaching + clinical-reference enrichment"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}
