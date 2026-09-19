@@ -1,16 +1,8 @@
 {
-  "generated_at": "2026-09-19T05:26:10.637285+00:00",
+  "generated_at": "2026-09-19T05:28:20.023450+00:00",
   "plants_checked": 10,
   "slots_checked": 50,
-  "filled_this_run": [
-    {
-      "plant_id": "bala",
-      "part": "flower",
-      "action": "downloaded-new-image",
-      "path": "images/plants/bala/flower/image.jpg",
-      "bytes": 694766
-    }
-  ],
+  "filled_this_run": [],
   "unresolved": [
     {
       "plant_id": "amalaki",
