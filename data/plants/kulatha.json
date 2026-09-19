@@ -1,1 +1,202 @@
-{"id":"kulatha","order":56,"identity":{"name":"Kulatha","sanskrit_name":"कुलत्थ","transliteration":"Kulatha","botanical_name":"Macrotyloma uniflorum (Lam.) Verdc.","family":"Fabaceae","english_name":"Horse Gram","hindi_name":"कुलथी","regional_names":[],"synonyms":["Kuliraka","Tamrabija"]},"classification":{"kingdom":"Plantae","habit":"Annual or short-lived herbaceous legume","habitat":"Cultivated fields and dry to semi-arid areas","distribution":"Widely cultivated in India and other tropical regions"},"identification":{"description":"Small leguminous herb with trifoliate leaves, papilionaceous flowers and slender pods containing hard seeds.","whole_plant":"Herbaceous, branched annual; generally low-growing to semi-erect.","root":"Taproot with lateral roots; leguminous root system.","stem":"Slender, branched and herbaceous, becoming firmer toward maturity.","leaf":"Trifoliate leaves with ovate to lanceolate leaflets and a distinct petiole.","flower":"Small papilionaceous flowers, usually pale yellow to yellowish.","fruit":"Slender, curved to slightly straight pod containing several seeds.","seed":"Small, hard, kidney-shaped or angular seeds, commonly reddish-brown to mottled depending on variety.","bark":"Not applicable as a herbaceous annual.","identification_points":["Trifoliate leaves","Small papilionaceous flowers","Slender pods","Hard horse-gram seeds"]},"images":{"whole_plant":"images/plants/kulatha.jpg","habit":"images/plants/kulatha.jpg","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},"dravya_guna":{"rasa":["Kashaya"],"guna":["Laghu","Ruksha"],"virya":"Ushna","vipaka":"Amla","prabhava":["Ashmaribhedana","Lekhana","Kasahara"],"karma":[]},"dosha":{"vata":"pacified","pitta":"aggravated","kapha":"pacified"},"therapeutics":{"useful_part":["seed"],"indications":["Ashmari","Mutrakrichha","Medoroga","Kasa","Shwasa"],"therapeutic_actions":["Lekhana","Mutrala context","Kapha-reducing traditional use"],"dose":"","anupana":"","duration":"","precautions":"Use should be individualized; avoid presenting traditional indications as established treatment claims.","contraindications":""},"formulations":[],"classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},"phytochemistry":{"major_constituents":["Protein-rich seed","Polyphenolic and flavonoid constituents reported in literature"],"chemical_notes":"Composition varies with cultivar and processing; no quantitative assay is asserted here."},"modern_information":{"evidence_summary":"Horse gram is a food legume studied for nutritional and metabolic properties; this record does not infer clinical efficacy.","recognized_uses":["Food legume","Traditional dietary use"],"safety_notes":"Food and medicinal use should be distinguished; clinical claims require appropriate evidence.","sources":[]},"student":{"exam_points":["Botanical name: Macrotyloma uniflorum","Family: Fabaceae","Useful part: seed","Characteristic: trifoliate leaves and slender pods"],"viva_questions":["What is the botanical name of Kulatha?","Which family does Kulatha belong to?","What is its useful part?","Describe the seed and pod."],"identification_points":["Trifoliate leaves","Papilionaceous flowers","Slender pods","Hard seeds"],"mnemonics":["Kulatha = horse gram; remember the hard characteristic seed"],"quick_revision":"Kulatha—Macrotyloma uniflorum; Fabaceae; seed; Kashaya, Laghu-Ruksha, Ushna."},"teacher":{"teaching_points":["Demonstrate a whole plant specimen and mature seed.","Relate morphology to the legume family."],"discussion_points":["Distinguish Kulatha from other edible legumes.","Discuss food-drug distinction and traditional Ashmari context."],"practical_points":["Observe trifoliate leaf, flower and pod characters.","Record seed colour, size and shape without substituting a different legume."]},"doctor":{"quick_reference":"Traditional Kulatha profile centers on seed and lekhana/urinary contexts.","important_indications":["Ashmari","Mutrakrichha","Medoroga"],"useful_part":"seed","dose":"","anupana":"","key_precautions":["Do not infer a therapeutic dose from this educational dossier."]},"sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"}],"metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3","last_enrichment":"batch dossier enrichment"},"category":"NCISM-97","syllabus_marker":"NCISM-97"}
+{
+  "id": "kulatha",
+  "order": 56,
+  "identity": {
+    "name": "Kulatha",
+    "sanskrit_name": "कुलत्थ",
+    "transliteration": "Kulatha",
+    "botanical_name": "Macrotyloma uniflorum (Lam.) Verdc.",
+    "family": "Fabaceae",
+    "english_name": "Horse Gram",
+    "hindi_name": "कुलथी",
+    "regional_names": [],
+    "synonyms": [
+      "Kuliraka",
+      "Tamrabija"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Annual or short-lived herbaceous legume",
+    "habitat": "Cultivated fields and dry to semi-arid areas",
+    "distribution": "Widely cultivated in India and other tropical regions"
+  },
+  "identification": {
+    "description": "Small leguminous herb with trifoliate leaves, papilionaceous flowers and slender pods containing hard seeds.",
+    "whole_plant": "Herbaceous, branched annual; generally low-growing to semi-erect.",
+    "root": "Taproot with lateral roots; leguminous root system.",
+    "stem": "Slender, branched and herbaceous, becoming firmer toward maturity.",
+    "leaf": "Trifoliate leaves with ovate to lanceolate leaflets and a distinct petiole.",
+    "flower": "Small papilionaceous flowers, usually pale yellow to yellowish.",
+    "fruit": "Slender, curved to slightly straight pod containing several seeds.",
+    "seed": "Small, hard, kidney-shaped or angular seeds, commonly reddish-brown to mottled depending on variety.",
+    "bark": "Not applicable as a herbaceous annual.",
+    "identification_points": [
+      "Trifoliate leaves",
+      "Small papilionaceous flowers",
+      "Slender pods",
+      "Hard horse-gram seeds"
+    ]
+  },
+  "images": {
+    "whole_plant": "images/plants/kulatha.jpg",
+    "habit": "images/plants/kulatha.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Kashaya"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Amla",
+    "prabhava": [
+      "Ashmaribhedana",
+      "Lekhana",
+      "Kasahara"
+    ],
+    "karma": []
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "aggravated",
+    "kapha": "pacified"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "seed"
+    ],
+    "indications": [
+      "Ashmari",
+      "Mutrakrichha",
+      "Medoroga",
+      "Kasa",
+      "Shwasa"
+    ],
+    "therapeutic_actions": [
+      "Lekhana",
+      "Mutrala context",
+      "Kapha-reducing traditional use"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Use should be individualized; avoid presenting traditional indications as established treatment claims.",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "Protein-rich seed",
+      "Polyphenolic and flavonoid constituents reported in literature"
+    ],
+    "chemical_notes": "Composition varies with cultivar and processing; no quantitative assay is asserted here."
+  },
+  "modern_information": {
+    "evidence_summary": "Horse gram is a food legume studied for nutritional and metabolic properties; this record does not infer clinical efficacy.",
+    "recognized_uses": [
+      "Food legume",
+      "Traditional dietary use"
+    ],
+    "safety_notes": "Food and medicinal use should be distinguished; clinical claims require appropriate evidence.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Botanical name: Macrotyloma uniflorum",
+      "Family: Fabaceae",
+      "Useful part: seed",
+      "Characteristic: trifoliate leaves and slender pods"
+    ],
+    "viva_questions": [
+      "What is the botanical name of Kulatha?",
+      "Which family does Kulatha belong to?",
+      "What is its useful part?",
+      "Describe the seed and pod."
+    ],
+    "identification_points": [
+      "Trifoliate leaves",
+      "Papilionaceous flowers",
+      "Slender pods",
+      "Hard seeds"
+    ],
+    "mnemonics": [
+      "Kulatha = horse gram; remember the hard characteristic seed"
+    ],
+    "quick_revision": "Kulatha—Macrotyloma uniflorum; Fabaceae; seed; Kashaya, Laghu-Ruksha, Ushna."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Demonstrate a whole plant specimen and mature seed.",
+      "Relate morphology to the legume family."
+    ],
+    "discussion_points": [
+      "Distinguish Kulatha from other edible legumes.",
+      "Discuss food-drug distinction and traditional Ashmari context."
+    ],
+    "practical_points": [
+      "Observe trifoliate leaf, flower and pod characters.",
+      "Record seed colour, size and shape without substituting a different legume."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Traditional Kulatha profile centers on seed and lekhana/urinary contexts.",
+    "important_indications": [
+      "Ashmari",
+      "Mutrakrichha",
+      "Medoroga"
+    ],
+    "useful_part": "seed",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Do not infer a therapeutic dose from this educational dossier."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "secondary_structured_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to fill previously blank structured fields; retained local verified content where present."
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "Project editorial pass",
+    "version": "1.3",
+    "last_enrichment": "2026-09-19: blank structured fields supplemented from a cited secondary dataset; existing content preserved."
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}
