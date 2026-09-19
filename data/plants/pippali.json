@@ -9,7 +9,12 @@
     "family": "Piperaceae",
     "english_name": "Long Pepper",
     "hindi_name": "",
-    "regional_names": [],
+    "regional_names": [
+      "Magadhi",
+      "Kana",
+      "Vaidehi",
+      "Krishna"
+    ],
     "synonyms": [
       "Magadhi",
       "Vaidehi",
@@ -190,7 +195,7 @@
     "verified_by": "",
     "version": "1.2",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "curated batch 64-68",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "classical_review_batch": "1-8 corrected 2026-09-16"
   },
   "category": "NCISM-97",
