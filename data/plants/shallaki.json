@@ -9,7 +9,12 @@
     "family": "Burseraceae",
     "english_name": "Indian Olibanum",
     "hindi_name": "सलाई",
-    "regional_names": [],
+    "regional_names": [
+      "Gajabhakshya",
+      "Suvaha",
+      "Surabhi",
+      "Kunduru"
+    ],
     "synonyms": [
       "Gajabhakshya",
       "Suvaha",
@@ -67,7 +72,11 @@
       "Grahi",
       "Vedanasthapana"
     ],
-    "karma": []
+    "karma": [
+      "Shothahara",
+      "Grahi",
+      "Vedanasthapana"
+    ]
   },
   "dosha": {
     "vata": "aggravated",
@@ -198,7 +207,7 @@
     "verified_by": "Project editorial pass",
     "version": "1.3",
     "image_enrichment_note": "Verified image registry remains separate",
-    "last_enrichment": "blank structured fields cross-filled from supplementary open dataset; verified fields retained"
+    "last_enrichment": "2026-09-19: blank-field enrichment pass."
   },
   "category": "NCISM-97",
   "syllabus_marker": "NCISM-97"
