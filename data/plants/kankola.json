@@ -11,7 +11,12 @@
     "family": "Piperaceae",
     "english_name": "Cubeb",
     "hindi_name": "",
-    "regional_names": [],
+    "regional_names": [
+      "Sugandha Maricha",
+      "Kababchini",
+      "Chinoshana",
+      "Kola"
+    ],
     "synonyms": [
       "Sugandha Maricha",
       "Kababchini",
@@ -68,7 +73,11 @@
       "Deepana",
       "Hridaya"
     ],
-    "karma": []
+    "karma": [
+      "Mutrala",
+      "Deepana",
+      "Hridaya"
+    ]
   },
   "dosha": {
     "vata": "pacified",
@@ -208,7 +217,7 @@
     "source_batch": "Gemini batch 73",
     "version": "1.0",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "botanical + educational field enrichment",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "last_audit": "supplementary JSON completeness/safety audit"
   }
 }
