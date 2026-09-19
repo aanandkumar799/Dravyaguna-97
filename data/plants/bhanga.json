@@ -11,7 +11,12 @@
     "family": "Cannabaceae",
     "english_name": "Cannabis",
     "hindi_name": "",
-    "regional_names": [],
+    "regional_names": [
+      "Vijaya",
+      "Ganja",
+      "Matulani",
+      "Madini"
+    ],
     "synonyms": [
       "Vijaya",
       "Ganja",
@@ -65,7 +70,10 @@
       "Vedanasthapana",
       "Madakari"
     ],
-    "karma": []
+    "karma": [
+      "Vedanasthapana",
+      "Madakari"
+    ]
   },
   "dosha": {
     "vata": "pacified",
@@ -196,7 +204,7 @@
     "source_batch": "Gemini batches 89, 100 and 105",
     "version": "1.0",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "botanical + educational field enrichment",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "last_audit": "complete supplementary JSON audit"
   }
 }
