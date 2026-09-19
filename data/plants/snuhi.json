@@ -11,7 +11,12 @@
     "family": "Euphorbiaceae",
     "english_name": "Indian spurge tree",
     "hindi_name": "",
-    "regional_names": [],
+    "regional_names": [
+      "Sudha",
+      "Samantdugdha",
+      "Vajradruma",
+      "Sihunda"
+    ],
     "synonyms": [
       "Sudha",
       "Samantdugdha",
@@ -66,7 +71,10 @@
       "Virechana",
       "Kushtaghna"
     ],
-    "karma": []
+    "karma": [
+      "Virechana",
+      "Kushtaghna"
+    ]
   },
   "dosha": {
     "vata": "pacified",
@@ -201,7 +209,7 @@
     "source_batch": "Gemini batches 92 and 106",
     "version": "1.0",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "botanical + educational field enrichment",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "last_audit": "supplementary JSON completeness/safety audit"
   }
 }
