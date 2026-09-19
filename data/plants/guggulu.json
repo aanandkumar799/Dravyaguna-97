@@ -9,7 +9,12 @@
     "family": "Burseraceae",
     "english_name": "Indian Bdellium / Guggul",
     "hindi_name": "",
-    "regional_names": [],
+    "regional_names": [
+      "Devadhupa",
+      "Kaushika",
+      "Pur",
+      "Mahishaksha"
+    ],
     "synonyms": [
       "Devadhupa",
       "Koushika",
@@ -194,7 +199,7 @@
     "verified_by": "",
     "version": "1.2",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "batch_49_53_added": true,
     "batch_54_63_added": true,
     "classical_review_batch": "9-13 corrected 2026-09-16"
