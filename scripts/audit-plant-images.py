@@ -58,7 +58,7 @@ def commons_candidates(botanical,part):
             seen.add(page); out.append({'url':u,'page':page,'title':title.replace('File:','',1),'license':lic,'author':str(meta.get('Artist',{}).get('value') or '').strip(),'source':'Wikimedia Commons'})
         if len(out)>=25:break
     return out
-
+\n\ndef commons_category_candidates(botanical,part):\n    out=[]; seen=set()\n    cats=[f"Category:{' '.join(species_tokens(botanical))}"]\n    for cat in cats:\n        url='https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode({'action':'query','generator':'categorymembers','gcmtitle':cat,'gcmnamespace':6,'gcmlimit':100,'prop':'imageinfo','iiprop':'url|extmetadata|mime','iiurlwidth':1600,'format':'json','origin':'*'})\n        try:data=fetch_json(url)\n        except Exception:continue\n        for p in (data.get('query',{}).get('pages',{}) or {}).values():\n            info=(p.get('imageinfo') or [{}])[0]; title=str(p.get('title') or ''); mime=str(info.get('mime') or ''); meta=info.get('extmetadata') or {}\n            lic=str(meta.get('LicenseShortName',{}).get('value') or '').strip(); desc=str(meta.get('ImageDescription',{}).get('value') or ''); cats_text=str(meta.get('Categories',{}).get('value') or '')\n            blob=f'{title} {desc} {cats_text}'\n            if mime not in ('image/jpeg','image/png','image/webp') or not LICENSE_OK.search(re.sub(r'\\s+',' ',lic)):continue\n            if not species_in_text(blob,botanical) or not part_ok(blob,part):continue\n            u=info.get('thumburl') or info.get('url'); page='https://commons.wikimedia.org/wiki/'+urllib.parse.quote(title.replace(' ','_'))\n            if not u or page in seen:continue\n            seen.add(page); out.append({'url':u,'page':page,'title':title.replace('File:','',1),'license':lic,'author':str(meta.get('Artist',{}).get('value') or '').strip(),'source':'Wikimedia Commons'})\n    return out\n
 def inat_candidates(botanical,part):
     if part not in ('whole_plant','habit'):return []
     out=[]; seen=set()
@@ -118,6 +118,7 @@ def main():
                 except Exception: r['verification_status']='download-failed'; r['image_path']=''; changed=True
             if r.get('verification_status')=='verified-local' and r.get('image_path') and (ROOT/str(r['image_path'])).exists():continue
             candidates=commons_candidates(botanical,part)
+            if not candidates:candidates=commons_category_candidates(botanical,part)
             if not candidates:candidates=inat_candidates(botanical,part)
             best=next((x for x in candidates if x['page'] not in used_sources and x['url'] not in used_sources),None)
             if not best:
