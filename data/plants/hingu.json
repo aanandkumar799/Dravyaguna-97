@@ -1,19 +1,220 @@
 {
-  "id":"hingu","order":26,
-  "identity":{"name":"Hingu","sanskrit_name":"हिङ्गु","transliteration":"Hingu","botanical_name":"Ferula assa-foetida L.","family":"Apiaceae","english_name":"Asafoetida","hindi_name":"हींग","regional_names":[],"synonyms":["Ramatha","Bahlika","Ugra","Sahasravedhi"]},
-  "classification":{"kingdom":"Plantae","habit":"Large perennial herbaceous plant; commercial drug is an oleo-gum-resin","habitat":"Dry mountainous regions; the resin is obtained from Ferula species cultivated or collected mainly in Southwest/Central Asia","distribution":"The crude asafoetida drug is largely obtained through cultivation and trade from Iran, Afghanistan and neighbouring regions; Ferula taxonomy in commerce requires authentication"},
-  "identification":{"description":"Hingu is a dried oleo-gum-resin drug with a characteristic strong odour; the botanical source is a Ferula species and the resin is obtained from underground parts.","whole_plant":"Ferula plants are tall perennial herbs with a robust basal rosette and a large flowering stem; the traded drug is usually resin rather than the intact plant.","root":"Large taproot/rootstock from which the oleo-gum-resin is obtained by incision in source material.","stem":"Mature Ferula species have a tall, hollow or solid flowering stem with sheathing leaf bases.","leaf":"Large divided basal leaves; exact morphology varies among Ferula species used in commerce.","flower":"Small flowers arranged in compound umbels, typical of Apiaceae.","fruit":"Dry schizocarp characteristic of Apiaceae; not normally the traded medicinal part.","seed":"Flattened ridged mericarps typical of the genus; source-species authentication is important.","bark":"Not applicable as a distinct medicinal bark character.","identification_points":["Strong characteristic oleo-gum-resin odour","Apiaceae source","Ferula-type large divided leaves and umbels","Commercial drug is resinous exudate"]},
-  "images":{"whole_plant":"","habit":"","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},
-  "dravya_guna":{"rasa":["Katu"],"guna":["Laghu","Snigdha","Tikshna"],"virya":"Ushna","vipaka":"Katu","prabhava":["Deepana","Pachana","Shoolaghna","Vatanulomana"],"karma":[]},
-  "dosha":{"vata":"pacified","pitta":"aggravated","kapha":"pacified"},
-  "therapeutics":{"useful_part":["oleo-gum-resin"],"indications":["Gulma","Anaha","Shoola","Krimi","Ajeerna"],"therapeutic_actions":[],"dose":"","anupana":"","duration":"","precautions":"","contraindications":""},
-  "formulations":[],
-  "classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},
-  "phytochemistry":{"major_constituents":["Resin acids and resin-associated compounds","Volatile sulphur-containing compounds","Ferula oleo-gum-resin constituents"],"chemical_notes":"Asafoetida contains resin, gum and volatile components; composition varies with source and processing. Exact marker compounds should be taken from an authenticated pharmacopoeial monograph rather than inferred from common food descriptions."},
-  "modern_information":{"evidence_summary":"Asafoetida is widely used as a culinary spice and traditional digestive aromatic. Modern pharmacological findings are heterogeneous and should not be presented as established clinical efficacy for a specific disorder.","recognized_uses":[],"safety_notes":"Use appropriate food/pharmacopoeial quality material. Strongly concentrated resin should not be treated as equivalent to culinary quantities.","sources":[]},
-  "student":{"exam_points":["Hingu = asafoetida oleo-gum-resin","Botanical source recorded as Ferula assa-foetida L.","Family: Apiaceae","Useful part: oleo-gum-resin"],"viva_questions":["What is the botanical source of Hingu in this record?","Which family does Hingu belong to?","What is the traded medicinal part?","Why is botanical authentication important for Hingu?"],"identification_points":["Characteristic pungent odour","Resinous appearance","Ferula/Apiaceae source","Not a bark or leaf drug"],"mnemonics":["Hingu = Hing: pungent resin from Ferula of Apiaceae."],"quick_revision":"Hingu is an oleo-gum-resin drug associated with Ferula and Apiaceae; the project record describes it as Katu, Laghu-Snigdha-Tikshna and Ushna."},
-  "teacher":{"teaching_points":["Explain crude-drug identification of an oleo-gum-resin versus a whole plant.","Demonstrate Apiaceae/Ferula source and the importance of species authentication."],"discussion_points":["Difference between culinary asafoetida and pharmacopoeial crude drug", "Variation in commercial Ferula sources"],"practical_points":["Observe colour, texture and characteristic odour of authenticated material.","Do not infer source species from odour alone; verify supplier and pharmacopoeial identity."]},
-  "doctor":{"quick_reference":"Hingu — Ferula assa-foetida L. in the project record; useful part is oleo-gum-resin and traditional indications centre on digestive/Vata-related presentations.","important_indications":["Gulma","Anaha","Shoola","Krimi","Ajeerna"],"useful_part":"oleo-gum-resin","dose":"","anupana":"","key_precautions":["Verify source species and quality of resin.","Do not derive therapeutic dosing from culinary use.","Use authoritative references for dose, formulation and contraindications."]},
-  "sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"official_pharmacopoeial_source","title":"Pharmacopoeia Commission for Indian Medicine & Homoeopathy","url":"https://pcimh.gov.in/"}],
-  "metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3","image_enrichment_note":"No part-specific verified image added in this pass.","last_enrichment":"dossier enrichment batch"},"category":"NCISM-97","syllabus_marker":"NCISM-97"
+  "id": "hingu",
+  "order": 26,
+  "identity": {
+    "name": "Hingu",
+    "sanskrit_name": "हिङ्गु",
+    "transliteration": "Hingu",
+    "botanical_name": "Ferula assa-foetida L.",
+    "family": "Apiaceae",
+    "english_name": "Asafoetida",
+    "hindi_name": "हींग",
+    "regional_names": [
+      "Ramatha",
+      "Bahlika",
+      "Ugra",
+      "Sahasravedhi"
+    ],
+    "synonyms": [
+      "Ramatha",
+      "Bahlika",
+      "Ugra",
+      "Sahasravedhi"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Large perennial herbaceous plant; commercial drug is an oleo-gum-resin",
+    "habitat": "Dry mountainous regions; the resin is obtained from Ferula species cultivated or collected mainly in Southwest/Central Asia",
+    "distribution": "The crude asafoetida drug is largely obtained through cultivation and trade from Iran, Afghanistan and neighbouring regions; Ferula taxonomy in commerce requires authentication"
+  },
+  "identification": {
+    "description": "Hingu is a dried oleo-gum-resin drug with a characteristic strong odour; the botanical source is a Ferula species and the resin is obtained from underground parts.",
+    "whole_plant": "Ferula plants are tall perennial herbs with a robust basal rosette and a large flowering stem; the traded drug is usually resin rather than the intact plant.",
+    "root": "Large taproot/rootstock from which the oleo-gum-resin is obtained by incision in source material.",
+    "stem": "Mature Ferula species have a tall, hollow or solid flowering stem with sheathing leaf bases.",
+    "leaf": "Large divided basal leaves; exact morphology varies among Ferula species used in commerce.",
+    "flower": "Small flowers arranged in compound umbels, typical of Apiaceae.",
+    "fruit": "Dry schizocarp characteristic of Apiaceae; not normally the traded medicinal part.",
+    "seed": "Flattened ridged mericarps typical of the genus; source-species authentication is important.",
+    "bark": "Not applicable as a distinct medicinal bark character.",
+    "identification_points": [
+      "Strong characteristic oleo-gum-resin odour",
+      "Apiaceae source",
+      "Ferula-type large divided leaves and umbels",
+      "Commercial drug is resinous exudate"
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Katu"
+    ],
+    "guna": [
+      "Laghu",
+      "Snigdha",
+      "Tikshna"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": [
+      "Deepana",
+      "Pachana",
+      "Shoolaghna",
+      "Vatanulomana"
+    ],
+    "karma": [
+      "Deepana",
+      "Pachana",
+      "Shoolaghna",
+      "Vatanulomana"
+    ]
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "aggravated",
+    "kapha": "pacified"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "oleo-gum-resin"
+    ],
+    "indications": [
+      "Gulma",
+      "Anaha",
+      "Shoola",
+      "Krimi",
+      "Ajeerna"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "Resin acids and resin-associated compounds",
+      "Volatile sulphur-containing compounds",
+      "Ferula oleo-gum-resin constituents"
+    ],
+    "chemical_notes": "Asafoetida contains resin, gum and volatile components; composition varies with source and processing. Exact marker compounds should be taken from an authenticated pharmacopoeial monograph rather than inferred from common food descriptions."
+  },
+  "modern_information": {
+    "evidence_summary": "Asafoetida is widely used as a culinary spice and traditional digestive aromatic. Modern pharmacological findings are heterogeneous and should not be presented as established clinical efficacy for a specific disorder.",
+    "recognized_uses": [],
+    "safety_notes": "Use appropriate food/pharmacopoeial quality material. Strongly concentrated resin should not be treated as equivalent to culinary quantities.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Hingu = asafoetida oleo-gum-resin",
+      "Botanical source recorded as Ferula assa-foetida L.",
+      "Family: Apiaceae",
+      "Useful part: oleo-gum-resin"
+    ],
+    "viva_questions": [
+      "What is the botanical source of Hingu in this record?",
+      "Which family does Hingu belong to?",
+      "What is the traded medicinal part?",
+      "Why is botanical authentication important for Hingu?"
+    ],
+    "identification_points": [
+      "Characteristic pungent odour",
+      "Resinous appearance",
+      "Ferula/Apiaceae source",
+      "Not a bark or leaf drug"
+    ],
+    "mnemonics": [
+      "Hingu = Hing: pungent resin from Ferula of Apiaceae."
+    ],
+    "quick_revision": "Hingu is an oleo-gum-resin drug associated with Ferula and Apiaceae; the project record describes it as Katu, Laghu-Snigdha-Tikshna and Ushna."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Explain crude-drug identification of an oleo-gum-resin versus a whole plant.",
+      "Demonstrate Apiaceae/Ferula source and the importance of species authentication."
+    ],
+    "discussion_points": [
+      "Difference between culinary asafoetida and pharmacopoeial crude drug",
+      "Variation in commercial Ferula sources"
+    ],
+    "practical_points": [
+      "Observe colour, texture and characteristic odour of authenticated material.",
+      "Do not infer source species from odour alone; verify supplier and pharmacopoeial identity."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Hingu — Ferula assa-foetida L. in the project record; useful part is oleo-gum-resin and traditional indications centre on digestive/Vata-related presentations.",
+    "important_indications": [
+      "Gulma",
+      "Anaha",
+      "Shoola",
+      "Krimi",
+      "Ajeerna"
+    ],
+    "useful_part": "oleo-gum-resin",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Verify source species and quality of resin.",
+      "Do not derive therapeutic dosing from culinary use.",
+      "Use authoritative references for dose, formulation and contraindications."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "official_pharmacopoeial_source",
+      "title": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy",
+      "url": "https://pcimh.gov.in/"
+    },
+    {
+      "type": "secondary_structured_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Secondary source used only for blank structured fields."
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "Project editorial pass",
+    "version": "1.3",
+    "image_enrichment_note": "No part-specific verified image added in this pass.",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass."
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
 }
