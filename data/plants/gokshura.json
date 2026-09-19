@@ -1,19 +1,220 @@
 {
-  "id":"gokshura","order":21,
-  "identity":{"name":"Gokshura","sanskrit_name":"गोक्षुर","transliteration":"Gokshura","botanical_name":"Tribulus terrestris L.","family":"Zygophyllaceae","english_name":"Puncture Vine","hindi_name":"गोखरू","regional_names":[],"synonyms":["Shvadamshtra","Kantaphala","Trikantaka","Gokshuraka"]},
-  "classification":{"kingdom":"Plantae","habit":"Prostrate or trailing annual/perennial herb","habitat":"Dry open ground, roadsides, wastelands and sandy soils","distribution":"Widely distributed across India and many warm regions of the world"},
-  "identification":{"description":"A low-growing herb with opposite compound leaves and distinctive hard, spiny fruits.","whole_plant":"Prostrate, spreading herb forming mats on open ground.","root":"Slender branched root system; authenticate medicinal root material before use.","stem":"Trailing, branched stems, often hairy and close to the ground.","leaf":"Opposite, pinnate leaves with small paired leaflets; leaflets are unequal in size within a leaf pair.","flower":"Small solitary yellow flowers borne in leaf axils.","fruit":"Characteristic hard, globose to angled schizocarp with sharp spines; the spiny fruit is a key field character.","seed":"Seeds are enclosed within the hard segments of the spiny fruit.","bark":"Not applicable as a distinct medicinal bark character for the herb.","identification_points":["Prostrate habit","Small yellow axillary flowers","Opposite pinnate leaves","Hard spiny fruit"]},
-  "images":{"whole_plant":"images/plants/gokshura.png","habit":"images/plants/gokshura.png","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},
-  "dravya_guna":{"rasa":["Madhura"],"guna":["Guru","Snigdha"],"virya":"Sheeta","vipaka":"Madhura","prabhava":["Mutrala","Vrishya","rasayan","Shothahara"],"karma":[]},
-  "dosha":{"vata":"pacified","pitta":"pacified","kapha":"aggravated"},
-  "therapeutics":{"useful_part":["fruit"],"indications":["Mutrakrichha","Ashmari","Prameha","Klaibya","Hridroga"],"therapeutic_actions":[],"dose":"","anupana":"","duration":"","precautions":"","contraindications":""},
-  "formulations":[],
-  "classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},
-  "phytochemistry":{"major_constituents":[],"chemical_notes":"Tribulus contains steroidal saponins and other secondary metabolites reported in different plant parts; constituent profiles vary with plant material and geography, so exact composition should be source-verified."},
-  "modern_information":{"evidence_summary":"Tribulus terrestris is widely studied as a botanical used traditionally for urinary and reproductive-system indications. Modern evidence should not be presented as proof of clinical efficacy without condition-specific clinical evidence.","recognized_uses":[],"safety_notes":"Confirm species and plant part; avoid treating traditional indications as a substitute for diagnosis or evidence-based treatment.","sources":[]},
-  "student":{"exam_points":["Gokshura = Tribulus terrestris L.","Family: Zygophyllaceae","Key identification character: hard spiny fruit","Fruit is the useful part listed in this project record"],"viva_questions":["What is the botanical name of Gokshura?","Which family does Gokshura belong to?","What is the characteristic fruit of Gokshura?","Which part is listed as useful?"],"identification_points":["Prostrate herb","Pinnate leaves","Small yellow flowers","Spiny schizocarp"],"mnemonics":["Gokshura = go-like thorn: remember the conspicuously spiny fruit."],"quick_revision":"Gokshura (Tribulus terrestris) is a low-growing Zygophyllaceae herb distinguished by its yellow flowers and hard spiny fruits; the project record lists fruit as useful."},
-  "teacher":{"teaching_points":["Use the spiny fruit to demonstrate diagnostic field identification.","Discuss the importance of distinguishing Tribulus from other plants sold under vernacular names such as gokhru."],"discussion_points":["Traditional urinary indications versus modern evidence", "Botanical authentication of commercially supplied crude drug"],"practical_points":["Observe habit, leaflets, flower and especially fruit spines.","Document specimen source and authentication status in practical records."]},
-  "doctor":{"quick_reference":"Gokshura — Tribulus terrestris L.; project record lists fruit as useful part and traditional urinary/reproductive indications.","important_indications":["Mutrakrichha","Ashmari","Prameha","Klaibya","Hridroga"],"useful_part":"fruit","dose":"","anupana":"","key_precautions":["Confirm botanical identity and plant part.","Dose/formulation decisions require authoritative classical or pharmacopoeial verification."]},
-  "sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"official_pharmacopoeial_source","title":"Pharmacopoeia Commission for Indian Medicine & Homoeopathy","url":"https://pcimh.gov.in/"},{"type":"image","title":"Wikimedia Commons","url":"https://commons.wikimedia.org/wiki/File:Tribulus_terrestris.svg","license_note":"Check the original file page for current license/attribution requirements."}],
-  "metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3","image_enrichment_note":"Existing project image retained; part-specific verified images remain to be populated.","last_enrichment":"dossier enrichment batch"},"category":"NCISM-97","syllabus_marker":"NCISM-97"
+  "id": "gokshura",
+  "order": 21,
+  "identity": {
+    "name": "Gokshura",
+    "sanskrit_name": "गोक्षुर",
+    "transliteration": "Gokshura",
+    "botanical_name": "Tribulus terrestris L.",
+    "family": "Zygophyllaceae",
+    "english_name": "Puncture Vine",
+    "hindi_name": "गोखरू",
+    "regional_names": [
+      "Shvadamshtra",
+      "Kantaphala",
+      "Trikantaka",
+      "Gokshuraka"
+    ],
+    "synonyms": [
+      "Shvadamshtra",
+      "Kantaphala",
+      "Trikantaka",
+      "Gokshuraka"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Prostrate or trailing annual/perennial herb",
+    "habitat": "Dry open ground, roadsides, wastelands and sandy soils",
+    "distribution": "Widely distributed across India and many warm regions of the world"
+  },
+  "identification": {
+    "description": "A low-growing herb with opposite compound leaves and distinctive hard, spiny fruits.",
+    "whole_plant": "Prostrate, spreading herb forming mats on open ground.",
+    "root": "Slender branched root system; authenticate medicinal root material before use.",
+    "stem": "Trailing, branched stems, often hairy and close to the ground.",
+    "leaf": "Opposite, pinnate leaves with small paired leaflets; leaflets are unequal in size within a leaf pair.",
+    "flower": "Small solitary yellow flowers borne in leaf axils.",
+    "fruit": "Characteristic hard, globose to angled schizocarp with sharp spines; the spiny fruit is a key field character.",
+    "seed": "Seeds are enclosed within the hard segments of the spiny fruit.",
+    "bark": "Not applicable as a distinct medicinal bark character for the herb.",
+    "identification_points": [
+      "Prostrate habit",
+      "Small yellow axillary flowers",
+      "Opposite pinnate leaves",
+      "Hard spiny fruit"
+    ]
+  },
+  "images": {
+    "whole_plant": "images/plants/gokshura.png",
+    "habit": "images/plants/gokshura.png",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Madhura"
+    ],
+    "guna": [
+      "Guru",
+      "Snigdha"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Madhura",
+    "prabhava": [
+      "Mutrala",
+      "Vrishya",
+      "rasayan",
+      "Shothahara"
+    ],
+    "karma": [
+      "Mutrala",
+      "Vrishya",
+      "rasayan",
+      "Shothahara"
+    ]
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "pacified",
+    "kapha": "aggravated"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "fruit"
+    ],
+    "indications": [
+      "Mutrakrichha",
+      "Ashmari",
+      "Prameha",
+      "Klaibya",
+      "Hridroga"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": "Tribulus contains steroidal saponins and other secondary metabolites reported in different plant parts; constituent profiles vary with plant material and geography, so exact composition should be source-verified."
+  },
+  "modern_information": {
+    "evidence_summary": "Tribulus terrestris is widely studied as a botanical used traditionally for urinary and reproductive-system indications. Modern evidence should not be presented as proof of clinical efficacy without condition-specific clinical evidence.",
+    "recognized_uses": [],
+    "safety_notes": "Confirm species and plant part; avoid treating traditional indications as a substitute for diagnosis or evidence-based treatment.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Gokshura = Tribulus terrestris L.",
+      "Family: Zygophyllaceae",
+      "Key identification character: hard spiny fruit",
+      "Fruit is the useful part listed in this project record"
+    ],
+    "viva_questions": [
+      "What is the botanical name of Gokshura?",
+      "Which family does Gokshura belong to?",
+      "What is the characteristic fruit of Gokshura?",
+      "Which part is listed as useful?"
+    ],
+    "identification_points": [
+      "Prostrate herb",
+      "Pinnate leaves",
+      "Small yellow flowers",
+      "Spiny schizocarp"
+    ],
+    "mnemonics": [
+      "Gokshura = go-like thorn: remember the conspicuously spiny fruit."
+    ],
+    "quick_revision": "Gokshura (Tribulus terrestris) is a low-growing Zygophyllaceae herb distinguished by its yellow flowers and hard spiny fruits; the project record lists fruit as useful."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Use the spiny fruit to demonstrate diagnostic field identification.",
+      "Discuss the importance of distinguishing Tribulus from other plants sold under vernacular names such as gokhru."
+    ],
+    "discussion_points": [
+      "Traditional urinary indications versus modern evidence",
+      "Botanical authentication of commercially supplied crude drug"
+    ],
+    "practical_points": [
+      "Observe habit, leaflets, flower and especially fruit spines.",
+      "Document specimen source and authentication status in practical records."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Gokshura — Tribulus terrestris L.; project record lists fruit as useful part and traditional urinary/reproductive indications.",
+    "important_indications": [
+      "Mutrakrichha",
+      "Ashmari",
+      "Prameha",
+      "Klaibya",
+      "Hridroga"
+    ],
+    "useful_part": "fruit",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Confirm botanical identity and plant part.",
+      "Dose/formulation decisions require authoritative classical or pharmacopoeial verification."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "official_pharmacopoeial_source",
+      "title": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy",
+      "url": "https://pcimh.gov.in/"
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Tribulus_terrestris.svg",
+      "license_note": "Check the original file page for current license/attribution requirements."
+    },
+    {
+      "type": "secondary_structured_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Secondary source used only for blank structured fields."
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "Project editorial pass",
+    "version": "1.3",
+    "image_enrichment_note": "Existing project image retained; part-specific verified images remain to be populated.",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass."
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
 }
