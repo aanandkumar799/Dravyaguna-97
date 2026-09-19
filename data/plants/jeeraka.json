@@ -1,19 +1,222 @@
 {
-  "id":"jeeraka","order":53,
-  "identity":{"name":"Jeeraka","sanskrit_name":"जीरक","transliteration":"Jeeraka","botanical_name":"Cuminum cyminum L.","family":"Apiaceae","english_name":"Cumin Seeds","hindi_name":"जीरा","regional_names":[],"synonyms":["Jirana","Ajavaji","Deepyaka","Kana"]},
-  "classification":{"kingdom":"Plantae","habit":"Small annual aromatic herb","habitat":"Cultivated in dry, sunny agricultural areas; prefers well-drained soils","distribution":"Widely cultivated in India and other warm temperate to subtropical regions"},
-  "identification":{"description":"A small aromatic annual herb with finely divided leaves, small white or pinkish flowers and elongated ridged fruits commonly used as cumin seed.","whole_plant":"Slender annual herb, usually less than about half a metre tall.","root":"Slender taproot with fine lateral roots.","stem":"Erect, slender, branched and grooved stem.","leaf":"Alternate, finely dissected, thread-like segments typical of an Apiaceae aromatic herb.","flower":"Small flowers arranged in compound umbels, generally white to pale pink.","fruit":"Elongated aromatic schizocarp with several longitudinal ridges; the dried fruit is the commercial cumin seed.","seed":"Each mericarp contains a single seed; the dried fruit is commonly called cumin seed.","bark":"Not applicable as a distinct medicinal bark character.","identification_points":["Small annual aromatic herb","Finely divided leaves","Compound umbels","Elongated ridged aromatic fruits"]},
-  "images":{"whole_plant":"images/plants/jeeraka.jpg","habit":"images/plants/jeeraka.jpg","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},
-  "dravya_guna":{"rasa":["Katu"],"guna":["Laghu","Ruksha"],"virya":"Ushna","vipaka":"Katu","prabhava":["Deepana","Pachana","Grahi"],"karma":[]},
-  "dosha":{"vata":"pacified","pitta":"aggravated","kapha":"pacified"},
-  "therapeutics":{"useful_part":["fruit"],"indications":["Ajeerna","Atisara","Grahani","Gulma","Krimi"],"therapeutic_actions":[],"dose":"","anupana":"","duration":"","precautions":"","contraindications":""},
-  "formulations":[],
-  "classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},
-  "phytochemistry":{"major_constituents":["Volatile oil rich in cuminaldehyde","Terpenoid/aromatic constituents","Fixed oil and other seed metabolites"],"chemical_notes":"Cumin fruit contains volatile oil; cuminaldehyde is a commonly reported major aroma constituent. Exact composition varies with cultivar, origin and processing."},
-  "modern_information":{"evidence_summary":"Cumin is a widely used culinary spice with a long traditional digestive use. Modern studies cover digestive, antioxidant and other effects, but preparation-specific clinical evidence should be assessed separately.","recognized_uses":[],"safety_notes":"Use authenticated food/pharmacopoeial-quality material and avoid inferring therapeutic dosing from culinary amounts.","sources":[]},
-  "student":{"exam_points":["Jeeraka = Cuminum cyminum L.","Family: Apiaceae","Drug is the dried fruit commonly called cumin seed","Key character: aromatic elongated ridged fruit"],"viva_questions":["What is the botanical name of Jeeraka?","Which family does Jeeraka belong to?","What is the actual botanical nature of cumin seed?","Mention one major volatile constituent."],"identification_points":["Finely divided leaves","Compound umbels","Aromatic elongated fruits","Longitudinal ridges"],"mnemonics":["Jeeraka = cumin fruit: remember the fine leaves, umbels and ridged aromatic fruits."],"quick_revision":"Jeeraka (Cuminum cyminum) is an aromatic Apiaceae annual; the medicinal drug is the dried fruit, and cuminaldehyde is a commonly reported volatile-oil constituent."},
-  "teacher":{"teaching_points":["Explain why the culinary term 'seed' is botanically treated as fruit/mericarp in Apiaceae.","Demonstrate an aromatic fruit and compound umbel."],"discussion_points":["Difference between Jeeraka and other Apiaceae fruits", "Volatile-oil variation with storage and processing"],"practical_points":["Observe fruit ridges with a hand lens.","Compare aroma, fruit shape and leaf dissection with Dhanyaka."]},
-  "doctor":{"quick_reference":"Jeeraka — Cuminum cyminum L.; dried fruit is the listed useful part and traditional indications are mainly digestive/Grahani-related.","important_indications":["Ajeerna","Atisara","Grahani","Gulma","Krimi"],"useful_part":"fruit","dose":"","anupana":"","key_precautions":["Use authenticated fruit and appropriate preparation.","Verify dose and formulation from authoritative sources rather than this educational record."]},
-  "sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"official_pharmacopoeial_source","title":"Pharmacopoeia Commission for Indian Medicine & Homoeopathy","url":"https://pcimh.gov.in/"},{"type":"image","title":"Wikimedia Commons","url":"https://commons.wikimedia.org/wiki/File:Cuminum_cyminum.jpg","license_note":"Check the original file page for current license/attribution requirements."}],
-  "metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3","image_enrichment_note":"Existing project image retained; part-specific verified images remain to be populated.","last_enrichment":"dossier enrichment batch"},"category":"NCISM-97","syllabus_marker":"NCISM-97"
+  "id": "jeeraka",
+  "order": 53,
+  "identity": {
+    "name": "Jeeraka",
+    "sanskrit_name": "जीरक",
+    "transliteration": "Jeeraka",
+    "botanical_name": "Cuminum cyminum L.",
+    "family": "Apiaceae",
+    "english_name": "Cumin Seeds",
+    "hindi_name": "जीरा",
+    "regional_names": [
+      "Jirana",
+      "Ajavaji",
+      "Deepyaka",
+      "Kana"
+    ],
+    "synonyms": [
+      "Jirana",
+      "Ajavaji",
+      "Deepyaka",
+      "Kana"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Small annual aromatic herb",
+    "habitat": "Cultivated in dry, sunny agricultural areas; prefers well-drained soils",
+    "distribution": "Widely cultivated in India and other warm temperate to subtropical regions"
+  },
+  "identification": {
+    "description": "A small aromatic annual herb with finely divided leaves, small white or pinkish flowers and elongated ridged fruits commonly used as cumin seed.",
+    "whole_plant": "Slender annual herb, usually less than about half a metre tall.",
+    "root": "Slender taproot with fine lateral roots.",
+    "stem": "Erect, slender, branched and grooved stem.",
+    "leaf": "Alternate, finely dissected, thread-like segments typical of an Apiaceae aromatic herb.",
+    "flower": "Small flowers arranged in compound umbels, generally white to pale pink.",
+    "fruit": "Elongated aromatic schizocarp with several longitudinal ridges; the dried fruit is the commercial cumin seed.",
+    "seed": "Each mericarp contains a single seed; the dried fruit is commonly called cumin seed.",
+    "bark": "Not applicable as a distinct medicinal bark character.",
+    "identification_points": [
+      "Small annual aromatic herb",
+      "Finely divided leaves",
+      "Compound umbels",
+      "Elongated ridged aromatic fruits"
+    ]
+  },
+  "images": {
+    "whole_plant": "images/plants/jeeraka.jpg",
+    "habit": "images/plants/jeeraka.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Katu"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": [
+      "Deepana",
+      "Pachana",
+      "Grahi"
+    ],
+    "karma": [
+      "Deepana",
+      "Pachana",
+      "Grahi"
+    ]
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "aggravated",
+    "kapha": "pacified"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "fruit"
+    ],
+    "indications": [
+      "Ajeerna",
+      "Atisara",
+      "Grahani",
+      "Gulma",
+      "Krimi"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "Volatile oil rich in cuminaldehyde",
+      "Terpenoid/aromatic constituents",
+      "Fixed oil and other seed metabolites"
+    ],
+    "chemical_notes": "Cumin fruit contains volatile oil; cuminaldehyde is a commonly reported major aroma constituent. Exact composition varies with cultivar, origin and processing."
+  },
+  "modern_information": {
+    "evidence_summary": "Cumin is a widely used culinary spice with a long traditional digestive use. Modern studies cover digestive, antioxidant and other effects, but preparation-specific clinical evidence should be assessed separately.",
+    "recognized_uses": [],
+    "safety_notes": "Use authenticated food/pharmacopoeial-quality material and avoid inferring therapeutic dosing from culinary amounts.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Jeeraka = Cuminum cyminum L.",
+      "Family: Apiaceae",
+      "Drug is the dried fruit commonly called cumin seed",
+      "Key character: aromatic elongated ridged fruit"
+    ],
+    "viva_questions": [
+      "What is the botanical name of Jeeraka?",
+      "Which family does Jeeraka belong to?",
+      "What is the actual botanical nature of cumin seed?",
+      "Mention one major volatile constituent."
+    ],
+    "identification_points": [
+      "Finely divided leaves",
+      "Compound umbels",
+      "Aromatic elongated fruits",
+      "Longitudinal ridges"
+    ],
+    "mnemonics": [
+      "Jeeraka = cumin fruit: remember the fine leaves, umbels and ridged aromatic fruits."
+    ],
+    "quick_revision": "Jeeraka (Cuminum cyminum) is an aromatic Apiaceae annual; the medicinal drug is the dried fruit, and cuminaldehyde is a commonly reported volatile-oil constituent."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Explain why the culinary term 'seed' is botanically treated as fruit/mericarp in Apiaceae.",
+      "Demonstrate an aromatic fruit and compound umbel."
+    ],
+    "discussion_points": [
+      "Difference between Jeeraka and other Apiaceae fruits",
+      "Volatile-oil variation with storage and processing"
+    ],
+    "practical_points": [
+      "Observe fruit ridges with a hand lens.",
+      "Compare aroma, fruit shape and leaf dissection with Dhanyaka."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Jeeraka — Cuminum cyminum L.; dried fruit is the listed useful part and traditional indications are mainly digestive/Grahani-related.",
+    "important_indications": [
+      "Ajeerna",
+      "Atisara",
+      "Grahani",
+      "Gulma",
+      "Krimi"
+    ],
+    "useful_part": "fruit",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Use authenticated fruit and appropriate preparation.",
+      "Verify dose and formulation from authoritative sources rather than this educational record."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "official_pharmacopoeial_source",
+      "title": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy",
+      "url": "https://pcimh.gov.in/"
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Cuminum_cyminum.jpg",
+      "license_note": "Check the original file page for current license/attribution requirements."
+    },
+    {
+      "type": "secondary_structured_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Secondary source used only for blank structured fields."
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "Project editorial pass",
+    "version": "1.3",
+    "image_enrichment_note": "Existing project image retained; part-specific verified images remain to be populated.",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass."
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
 }
