@@ -9,7 +9,12 @@
     "family": "Symplocaceae",
     "english_name": "Symplocos Tree",
     "hindi_name": "लोध",
-    "regional_names": [],
+    "regional_names": [
+      "Rodhra",
+      "Tilvaka",
+      "Shabara",
+      "Tirita"
+    ],
     "synonyms": [
       "Rodhra",
       "Tilvaka",
@@ -65,7 +70,10 @@
       "Raktaprasadana",
       "Yonishodhana"
     ],
-    "karma": []
+    "karma": [
+      "Raktaprasadana",
+      "Yonishodhana"
+    ]
   },
   "dosha": {
     "vata": "aggravated",
@@ -189,7 +197,7 @@
     "last_verified": "2026-09-17",
     "verified_by": "Project editorial pass",
     "version": "1.3",
-    "last_enrichment": "blank structured fields cross-filled from supplementary open dataset; verified fields retained",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "external_dataset_note": "Amidha v2.0 used only as a supplementary structured-data source; not treated as sole classical authority."
   },
   "category": "NCISM-97",
