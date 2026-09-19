@@ -1,1 +1,202 @@
-{"id":"kampillaka","order":55,"identity":{"name":"Kampillaka","sanskrit_name":"कम्पिल्लक","transliteration":"Kampillaka","botanical_name":"Mallotus philippensis (Lam.) Müll.Arg.","family":"Euphorbiaceae","english_name":"Kamala Tree","hindi_name":"कमाला","regional_names":[],"synonyms":["Rechi","Ranjaka","Lohitanga","Raktanga"]},"classification":{"kingdom":"Plantae","habit":"Evergreen to semi-evergreen small to medium tree","habitat":"Forests and foothills of tropical and subtropical regions","distribution":"Widely distributed in India and South/Southeast Asia"},"identification":{"description":"A tree with simple alternate leaves; the fruit is characteristically covered with reddish glandular powder, the source of the crude drug Kampillaka.","whole_plant":"Small to medium tree with a rounded crown.","root":"Woody root system.","stem":"Woody branched stem with grey-brown bark.","leaf":"Simple alternate leaves, broadly ovate to lanceolate, often paler beneath.","flower":"Small unisexual flowers in axillary inflorescences.","fruit":"Small capsules densely covered with reddish-orange glandular hairs/powder.","seed":"Small seeds enclosed within the capsule.","bark":"Grey-brown mature bark.","identification_points":["Tree habit","Alternate simple leaves","Unisexual flowers","Reddish glandular fruit covering"]},"images":{"whole_plant":"images/plants/kampillaka.jpg","habit":"images/plants/kampillaka.jpg","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},"dravya_guna":{"rasa":["Tikta","Kashaya"],"guna":["Laghu"],"virya":"Ushna","vipaka":"Katu","prabhava":["Krimighna","Kushtaghna"],"karma":[]},"dosha":{"vata":"aggravated","pitta":"pacified","kapha":"pacified"},"therapeutics":{"useful_part":["glandular powder of fruit"],"indications":["Krimi","Kushta","Vrana","Gulma","Udararoga"],"therapeutic_actions":[],"dose":"","anupana":"","duration":"","precautions":"","contraindications":""},"formulations":[],"classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},"phytochemistry":{"major_constituents":["Rottlerin and related phloroglucinol derivatives","Flavonoid and phenolic constituents"],"chemical_notes":"Mallotus philippensis fruit glands contain characteristic secondary metabolites; exact profiles vary by extraction and plant material."},"modern_information":{"evidence_summary":"Kampillaka is a traditional crude drug obtained from the glandular fruit surface. Modern evidence should be interpreted by preparation and indication.","recognized_uses":[],"safety_notes":"Authenticate the reddish glandular material and do not infer dose from crude appearance alone.","sources":[]},"student":{"exam_points":["Kampillaka = Mallotus philippensis","Family: Euphorbiaceae","Drug is reddish glandular powder from fruit surface","Characteristic red-orange fruit covering"],"viva_questions":["Botanical name?","Family?","What is the useful drug material?","What identifies the fruit?"],"identification_points":["Tree with alternate leaves","Small flowers","Red glandular fruit surface"],"mnemonics":["Kampillaka = Kamala powder on the fruit surface."],"quick_revision":"Kampillaka is the reddish glandular material associated with Mallotus philippensis fruit."},"teacher":{"teaching_points":["Demonstrate crude-drug morphology rather than only whole-plant identification."],"discussion_points":["Authentication of glandular fruit material","Traditional Krimighna use and limits of modern evidence"],"practical_points":["Observe colour, texture and attachment of glandular material."]},"doctor":{"quick_reference":"Kampillaka — Mallotus philippensis; glandular fruit powder is the listed useful part.","important_indications":["Krimi","Kushta","Vrana","Gulma","Udararoga"],"useful_part":"glandular powder of fruit","dose":"","anupana":"","key_precautions":["Use authenticated material.","Verify dose and preparation from authoritative references."]},"sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"official_pharmacopoeial_source","title":"PCIM&H","url":"https://pcimh.gov.in/"}],"metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3"},"category":"NCISM-97","syllabus_marker":"NCISM-97"}
+{
+  "id": "kampillaka",
+  "order": 55,
+  "identity": {
+    "name": "Kampillaka",
+    "sanskrit_name": "कम्पिल्लक",
+    "transliteration": "Kampillaka",
+    "botanical_name": "Mallotus philippensis (Lam.) Müll.Arg.",
+    "family": "Euphorbiaceae",
+    "english_name": "Kamala Tree",
+    "hindi_name": "कमाला",
+    "regional_names": [],
+    "synonyms": [
+      "Rechi",
+      "Ranjaka",
+      "Lohitanga",
+      "Raktanga"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Evergreen to semi-evergreen small to medium tree",
+    "habitat": "Forests and foothills of tropical and subtropical regions",
+    "distribution": "Widely distributed in India and South/Southeast Asia"
+  },
+  "identification": {
+    "description": "A tree with simple alternate leaves; the fruit is characteristically covered with reddish glandular powder, the source of the crude drug Kampillaka.",
+    "whole_plant": "Small to medium tree with a rounded crown.",
+    "root": "Woody root system.",
+    "stem": "Woody branched stem with grey-brown bark.",
+    "leaf": "Simple alternate leaves, broadly ovate to lanceolate, often paler beneath.",
+    "flower": "Small unisexual flowers in axillary inflorescences.",
+    "fruit": "Small capsules densely covered with reddish-orange glandular hairs/powder.",
+    "seed": "Small seeds enclosed within the capsule.",
+    "bark": "Grey-brown mature bark.",
+    "identification_points": [
+      "Tree habit",
+      "Alternate simple leaves",
+      "Unisexual flowers",
+      "Reddish glandular fruit covering"
+    ]
+  },
+  "images": {
+    "whole_plant": "images/plants/kampillaka.jpg",
+    "habit": "images/plants/kampillaka.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Tikta",
+      "Kashaya"
+    ],
+    "guna": [
+      "Laghu"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": [
+      "Krimighna",
+      "Kushtaghna"
+    ],
+    "karma": []
+  },
+  "dosha": {
+    "vata": "aggravated",
+    "pitta": "pacified",
+    "kapha": "pacified"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "glandular powder of fruit"
+    ],
+    "indications": [
+      "Krimi",
+      "Kushta",
+      "Vrana",
+      "Gulma",
+      "Udararoga"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "Rottlerin and related phloroglucinol derivatives",
+      "Flavonoid and phenolic constituents"
+    ],
+    "chemical_notes": "Mallotus philippensis fruit glands contain characteristic secondary metabolites; exact profiles vary by extraction and plant material."
+  },
+  "modern_information": {
+    "evidence_summary": "Kampillaka is a traditional crude drug obtained from the glandular fruit surface. Modern evidence should be interpreted by preparation and indication.",
+    "recognized_uses": [],
+    "safety_notes": "Authenticate the reddish glandular material and do not infer dose from crude appearance alone.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Kampillaka = Mallotus philippensis",
+      "Family: Euphorbiaceae",
+      "Drug is reddish glandular powder from fruit surface",
+      "Characteristic red-orange fruit covering"
+    ],
+    "viva_questions": [
+      "Botanical name?",
+      "Family?",
+      "What is the useful drug material?",
+      "What identifies the fruit?"
+    ],
+    "identification_points": [
+      "Tree with alternate leaves",
+      "Small flowers",
+      "Red glandular fruit surface"
+    ],
+    "mnemonics": [
+      "Kampillaka = Kamala powder on the fruit surface."
+    ],
+    "quick_revision": "Kampillaka is the reddish glandular material associated with Mallotus philippensis fruit."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Demonstrate crude-drug morphology rather than only whole-plant identification."
+    ],
+    "discussion_points": [
+      "Authentication of glandular fruit material",
+      "Traditional Krimighna use and limits of modern evidence"
+    ],
+    "practical_points": [
+      "Observe colour, texture and attachment of glandular material."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Kampillaka — Mallotus philippensis; glandular fruit powder is the listed useful part.",
+    "important_indications": [
+      "Krimi",
+      "Kushta",
+      "Vrana",
+      "Gulma",
+      "Udararoga"
+    ],
+    "useful_part": "glandular powder of fruit",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Use authenticated material.",
+      "Verify dose and preparation from authoritative references."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "official_pharmacopoeial_source",
+      "title": "PCIM&H",
+      "url": "https://pcimh.gov.in/"
+    },
+    {
+      "type": "open_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Used only to fill previously blank structured fields; claims remain subject to classical/pharmacopoeial verification."
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "Project editorial pass",
+    "version": "1.3",
+    "last_enrichment": "blank structured fields cross-filled from an open CC BY Ayurveda dataset; original verified fields retained",
+    "external_dataset_note": "Amidha v2.0 used only as a supplementary structured-data source; not treated as sole classical authority."
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}
