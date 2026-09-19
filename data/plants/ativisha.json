@@ -9,7 +9,12 @@
     "family": "Ranunculaceae",
     "english_name": "Indian Atees",
     "hindi_name": "",
-    "regional_names": [],
+    "regional_names": [
+      "Aruna",
+      "Ghuna Vallabha",
+      "Shuklakanda",
+      "Visharupa"
+    ],
     "synonyms": [
       "Shuklakanda (शुक्लकन्दा)",
       "Bhangura (भङ्गुरा)",
@@ -244,7 +249,7 @@
     "last_verified": "",
     "verified_by": "",
     "version": "1.2",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "gemini_later_batches_reviewed": true,
     "gemini_source_batches": [
       78
