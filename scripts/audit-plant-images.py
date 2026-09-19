@@ -101,8 +101,10 @@ def main():
         for k in ('source_url','source_media_url'):
             if r.get(k):used_sources.add(str(r[k]))
     for ref in core:
-        pid=str(ref['id']);
-        if pid not in BATCH_IDS: continue fp=PLANTS_DIR/f'{pid}.json'; p=json.loads(fp.read_text(encoding='utf-8')) if fp.exists() else {}; botanical=str((p.get('identity') or {}).get('botanical_name') or ref.get('botanical_name') or '').strip()
+        pid=str(ref['id'])
+        if pid not in BATCH_IDS:
+            continue
+        fp=PLANTS_DIR/f'{pid}.json'; p=json.loads(fp.read_text(encoding='utf-8')) if fp.exists() else {}; botanical=str((p.get('identity') or {}).get('botanical_name') or ref.get('botanical_name') or '').strip()
         for part in PARTS:
             if part not in APPROVED_GALLERY_PARTS[pid]: continue
             r=by_key.get((pid,part))
