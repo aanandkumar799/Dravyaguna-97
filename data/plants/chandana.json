@@ -1,20 +1,241 @@
 {
-  "id":"chandana","order":15,
-  "identity":{"name":"Chandana","sanskrit_name":"चन्दन","transliteration":"Candana","botanical_name":"Santalum album L.","family":"Santalaceae","english_name":"White Sandalwood","hindi_name":"चन्दन","regional_names":[],"synonyms":["Shrikhanda","Gandhasara","Malayaja","Bhadrashriya"]},
-  "classification":{"kingdom":"Plantae","habit":"Small evergreen tree; hemiparasitic plant","habitat":"Dry to semi-dry tropical environments; commonly associated with other host plants through root connections","distribution":"Native to the Indian region and cultivated in several parts of India; authenticated provenance is important because sandalwood is commercially substituted and regulated in some contexts"},
-  "identification":{"description":"A small aromatic evergreen tree recognized by opposite leaves, small flowers and the characteristic fragrant heartwood of mature stems and roots.","whole_plant":"Small evergreen tree with slender branching crown; mature individuals develop a woody trunk.","root":"Woody roots; mature root heartwood may be aromatic. Detailed pharmacognostic characters require authenticated material.","stem":"Young branches are greenish; older stem develops grey-brown bark. Mature heartwood is yellowish to reddish-brown and characteristically aromatic.","leaf":"Simple, opposite, entire, smooth leaves, generally elliptic to lanceolate, with a glabrous surface.","flower":"Small flowers, initially pale green/yellowish and becoming darker reddish to purple-brown with age; borne in terminal or axillary cymose clusters.","fruit":"Small globose drupe, dark purple to nearly black when mature.","seed":"Single hard seed enclosed within the drupe.","bark":"Grey-brown outer bark; bark appearance alone is not sufficient for authentication of the medicinal heartwood.","identification_points":["Evergreen small tree","Opposite entire leaves","Small clustered flowers that darken with age","Dark mature drupes","Characteristic aromatic heartwood in authenticated mature material","Differentiate true Santalum album from other aromatic woods and substitutes"]},
-  "images":{"whole_plant":"images/plants/chandana.jpg","habit":"images/plants/chandana.jpg","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},
-  "dravya_guna":{"rasa":["Madhura","Tikta"],"guna":["Snigdha"],"virya":"Sheeta","vipaka":"Madhura","prabhava":["Mutrala","Chakshushya","Varnya"],"karma":[]},
-  "dosha":{"vata":"aggravated","pitta":"pacified","kapha":"not specifically documented in imported dataset"},
-  "therapeutics":{"useful_part":["heartwood"],"indications":["Daha","Raktapitta","Trishna","Mutrakrichha","Kushta"],"therapeutic_actions":["Traditional Ayurvedic use is centered on cooling and aromatic heartwood preparations; exact therapeutic application should follow authoritative texts/formularies"],"dose":"","anupana":"","duration":"","precautions":"Use authenticated Santalum album material. Do not infer dosing or treatment of urinary/skin disease from this educational record.","contraindications":"Not specified here because patient-specific prescribing requires authoritative source verification."},
-  "formulations":[],
-  "classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},
-  "phytochemistry":{"major_constituents":["Santalol-rich sandalwood oil is characteristic of Santalum album heartwood"],"chemical_notes":"The composition of sandalwood oil varies with age, provenance and extraction. Exact percentages should be taken from an authenticated pharmacopoeial or analytical source rather than inferred here."},
-  "modern_information":{"evidence_summary":"Santalum album is primarily recognized for its aromatic heartwood and sandalwood oil. This educational dossier distinguishes traditional Ayurvedic use from modern clinical evidence and does not provide independent efficacy claims.","recognized_uses":["Aromatic heartwood and essential-oil use","Traditional Ayurvedic cooling/aromatic applications"],"safety_notes":"Use authenticated material and appropriate regulated supply channels. Essential oils are concentrated preparations and should not be used as a substitute for traditional dosage/formulation guidance.","sources":[]},
-  "student":{"exam_points":["Botanical name: Santalum album L.","Family: Santalaceae","Useful part: heartwood","Characteristic aromatic heartwood","Opposite entire leaves and small clustered flowers","Mature fruit is a dark drupe"],"viva_questions":["What is the botanical name and family of Chandana?","Which part is chiefly used?","What is the characteristic identification feature of mature heartwood?","What are the leaf and fruit characters?","Why is authentication important for sandalwood?"],"identification_points":["Small evergreen tree","Opposite entire leaves","Clustered small flowers","Dark drupe","Aromatic mature heartwood"],"mnemonics":["Chandana = fragrant heartwood + cool Dravya; remember Santalum album"],"quick_revision":"Chandana (Santalum album L., Santalaceae) is a small evergreen aromatic tree. The Ayurvedic record lists heartwood as the useful part, with Madhura-Tikta rasa, Sheeta virya and traditional use in Daha, Raktapitta, Trishna and Mutrakrichha."},
-  "teacher":{"teaching_points":["Demonstrate authentication using leaf, flower, fruit and heartwood characters.","Explain that Santalum is hemiparasitic and can form root connections with host plants.","Discuss substitution and provenance issues in aromatic woods."],"discussion_points":["Compare Chandana with visually similar woods and discuss why fragrance alone is not a sufficient authentication criterion.","Discuss the distinction between traditional cooling indications and modern evidence."],"practical_points":["Observe opposite leaves and entire margins.","Examine mature fruit and authenticated heartwood where available.","Record specimen source/provenance.","Use a validated pharmacopoeial or herbarium reference for final identity."]},
-  "doctor":{"quick_reference":"Chandana — Santalum album L.; Santalaceae; useful part: heartwood; traditional indications include Daha, Raktapitta, Trishna and Mutrakrichha. No dose is supplied here.","important_indications":["Daha","Raktapitta","Trishna","Mutrakrichha","Kushta"],"useful_part":"heartwood","dose":"","anupana":"","key_precautions":["Authenticate Santalum album material.","Do not infer dose from this website.","Use current authoritative pharmacopoeial/formulary guidance for preparation and therapeutic use."]},
-  "sources":[{"type":"official","title":"CCRAS Medicinal Plant Research","url":"https://ccras.nic.in/services/medicinal-plant-research/"},{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"tdu_classical_database","title":"TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database","note":"Verify exact Devanagari verse, edition and page before quoting a classical verse."},{"type":"image","title":"Wikimedia Commons","url":"https://commons.wikimedia.org/wiki/File:Santalum_album_L._(31369816301).jpg","license_note":"Check the original file page for current license/attribution requirements."}],
-  "metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"PCIM&H/AYUSH source baseline plus structured dossier review","version":"1.3","image_enrichment_note":"Only existing whole-plant/habit image is retained; part-specific verified images remain unpopulated.","last_enrichment":"practical morphology + student/teacher/doctor sections"},
-  "category":"NCISM-97","syllabus_marker":"NCISM-97"
+  "id": "chandana",
+  "order": 15,
+  "identity": {
+    "name": "Chandana",
+    "sanskrit_name": "चन्दन",
+    "transliteration": "Candana",
+    "botanical_name": "Santalum album L.",
+    "family": "Santalaceae",
+    "english_name": "White Sandalwood",
+    "hindi_name": "चन्दन",
+    "regional_names": [
+      "Shrikhanda",
+      "Gandhasara",
+      "Malayaja",
+      "Bhadrashriya"
+    ],
+    "synonyms": [
+      "Shrikhanda",
+      "Gandhasara",
+      "Malayaja",
+      "Bhadrashriya"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Small evergreen tree; hemiparasitic plant",
+    "habitat": "Dry to semi-dry tropical environments; commonly associated with other host plants through root connections",
+    "distribution": "Native to the Indian region and cultivated in several parts of India; authenticated provenance is important because sandalwood is commercially substituted and regulated in some contexts"
+  },
+  "identification": {
+    "description": "A small aromatic evergreen tree recognized by opposite leaves, small flowers and the characteristic fragrant heartwood of mature stems and roots.",
+    "whole_plant": "Small evergreen tree with slender branching crown; mature individuals develop a woody trunk.",
+    "root": "Woody roots; mature root heartwood may be aromatic. Detailed pharmacognostic characters require authenticated material.",
+    "stem": "Young branches are greenish; older stem develops grey-brown bark. Mature heartwood is yellowish to reddish-brown and characteristically aromatic.",
+    "leaf": "Simple, opposite, entire, smooth leaves, generally elliptic to lanceolate, with a glabrous surface.",
+    "flower": "Small flowers, initially pale green/yellowish and becoming darker reddish to purple-brown with age; borne in terminal or axillary cymose clusters.",
+    "fruit": "Small globose drupe, dark purple to nearly black when mature.",
+    "seed": "Single hard seed enclosed within the drupe.",
+    "bark": "Grey-brown outer bark; bark appearance alone is not sufficient for authentication of the medicinal heartwood.",
+    "identification_points": [
+      "Evergreen small tree",
+      "Opposite entire leaves",
+      "Small clustered flowers that darken with age",
+      "Dark mature drupes",
+      "Characteristic aromatic heartwood in authenticated mature material",
+      "Differentiate true Santalum album from other aromatic woods and substitutes"
+    ]
+  },
+  "images": {
+    "whole_plant": "images/plants/chandana.jpg",
+    "habit": "images/plants/chandana.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Madhura",
+      "Tikta"
+    ],
+    "guna": [
+      "Snigdha"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Madhura",
+    "prabhava": [
+      "Mutrala",
+      "Chakshushya",
+      "Varnya"
+    ],
+    "karma": [
+      "Mutrala",
+      "Chakshushya",
+      "Varnya"
+    ]
+  },
+  "dosha": {
+    "vata": "aggravated",
+    "pitta": "pacified",
+    "kapha": "not specifically documented in imported dataset"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "heartwood"
+    ],
+    "indications": [
+      "Daha",
+      "Raktapitta",
+      "Trishna",
+      "Mutrakrichha",
+      "Kushta"
+    ],
+    "therapeutic_actions": [
+      "Traditional Ayurvedic use is centered on cooling and aromatic heartwood preparations; exact therapeutic application should follow authoritative texts/formularies"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Use authenticated Santalum album material. Do not infer dosing or treatment of urinary/skin disease from this educational record.",
+    "contraindications": "Not specified here because patient-specific prescribing requires authoritative source verification."
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "Santalol-rich sandalwood oil is characteristic of Santalum album heartwood"
+    ],
+    "chemical_notes": "The composition of sandalwood oil varies with age, provenance and extraction. Exact percentages should be taken from an authenticated pharmacopoeial or analytical source rather than inferred here."
+  },
+  "modern_information": {
+    "evidence_summary": "Santalum album is primarily recognized for its aromatic heartwood and sandalwood oil. This educational dossier distinguishes traditional Ayurvedic use from modern clinical evidence and does not provide independent efficacy claims.",
+    "recognized_uses": [
+      "Aromatic heartwood and essential-oil use",
+      "Traditional Ayurvedic cooling/aromatic applications"
+    ],
+    "safety_notes": "Use authenticated material and appropriate regulated supply channels. Essential oils are concentrated preparations and should not be used as a substitute for traditional dosage/formulation guidance.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Botanical name: Santalum album L.",
+      "Family: Santalaceae",
+      "Useful part: heartwood",
+      "Characteristic aromatic heartwood",
+      "Opposite entire leaves and small clustered flowers",
+      "Mature fruit is a dark drupe"
+    ],
+    "viva_questions": [
+      "What is the botanical name and family of Chandana?",
+      "Which part is chiefly used?",
+      "What is the characteristic identification feature of mature heartwood?",
+      "What are the leaf and fruit characters?",
+      "Why is authentication important for sandalwood?"
+    ],
+    "identification_points": [
+      "Small evergreen tree",
+      "Opposite entire leaves",
+      "Clustered small flowers",
+      "Dark drupe",
+      "Aromatic mature heartwood"
+    ],
+    "mnemonics": [
+      "Chandana = fragrant heartwood + cool Dravya; remember Santalum album"
+    ],
+    "quick_revision": "Chandana (Santalum album L., Santalaceae) is a small evergreen aromatic tree. The Ayurvedic record lists heartwood as the useful part, with Madhura-Tikta rasa, Sheeta virya and traditional use in Daha, Raktapitta, Trishna and Mutrakrichha."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Demonstrate authentication using leaf, flower, fruit and heartwood characters.",
+      "Explain that Santalum is hemiparasitic and can form root connections with host plants.",
+      "Discuss substitution and provenance issues in aromatic woods."
+    ],
+    "discussion_points": [
+      "Compare Chandana with visually similar woods and discuss why fragrance alone is not a sufficient authentication criterion.",
+      "Discuss the distinction between traditional cooling indications and modern evidence."
+    ],
+    "practical_points": [
+      "Observe opposite leaves and entire margins.",
+      "Examine mature fruit and authenticated heartwood where available.",
+      "Record specimen source/provenance.",
+      "Use a validated pharmacopoeial or herbarium reference for final identity."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Chandana — Santalum album L.; Santalaceae; useful part: heartwood; traditional indications include Daha, Raktapitta, Trishna and Mutrakrichha. No dose is supplied here.",
+    "important_indications": [
+      "Daha",
+      "Raktapitta",
+      "Trishna",
+      "Mutrakrichha",
+      "Kushta"
+    ],
+    "useful_part": "heartwood",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Authenticate Santalum album material.",
+      "Do not infer dose from this website.",
+      "Use current authoritative pharmacopoeial/formulary guidance for preparation and therapeutic use."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official",
+      "title": "CCRAS Medicinal Plant Research",
+      "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+    },
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "tdu_classical_database",
+      "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+      "note": "Verify exact Devanagari verse, edition and page before quoting a classical verse."
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Santalum_album_L._(31369816301).jpg",
+      "license_note": "Check the original file page for current license/attribution requirements."
+    },
+    {
+      "type": "secondary_structured_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Secondary source used only for blank structured fields."
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "PCIM&H/AYUSH source baseline plus structured dossier review",
+    "version": "1.3",
+    "image_enrichment_note": "Only existing whole-plant/habit image is retained; part-specific verified images remain unpopulated.",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass."
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
 }
