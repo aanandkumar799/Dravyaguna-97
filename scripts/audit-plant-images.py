@@ -75,7 +75,7 @@ def commons_category_candidates(botanical,part):
         blob=f'{title} {desc} {cats}'
         if mime not in ('image/jpeg','image/png','image/webp') or not LICENSE_OK.search(re.sub(r'\s+',' ',lic)):continue
         if not species_in_text(f'{cat} {blob}',botanical) and not any(species_in_text(f'{a} {blob}',a) for a in aliases.get(botanical,[])):continue
-        if not part_ok(blob,part):continue
+        if not part_ok(title,part):continue
         u=info.get('thumburl') or info.get('url'); page='https://commons.wikimedia.org/wiki/'+urllib.parse.quote(title.replace(' ','_'))
         if not u or page in seen:continue
         seen.add(page); out.append({'url':u,'page':page,'title':title.replace('File:','',1),'license':lic,'author':str(meta.get('Artist',{}).get('value') or '').strip(),'source':'Wikimedia Commons'})
