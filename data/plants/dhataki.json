@@ -1,20 +1,229 @@
 {
-  "id":"dhataki","order":18,
-  "identity":{"name":"Dhataki","sanskrit_name":"धातकी","transliteration":"Dhataki","botanical_name":"Woodfordia fruticosa (L.) Kurz","family":"Lythraceae","english_name":"Fire Flame Bush","hindi_name":"धायटी","regional_names":[],"synonyms":["Tamrapushpi","Bahupushpi","Vahnijwala","Subhiksha"]},
-  "classification":{"kingdom":"Plantae","habit":"Branched shrub","habitat":"Dry deciduous and subtropical habitats; commonly found on hills and forest margins","distribution":"Widely distributed in the Indian subcontinent"},
-  "identification":{"description":"Much-branched shrub recognized by small leaves and numerous reddish flowers borne along the branches.","whole_plant":"Erect, much-branched shrub with numerous slender branches.","root":"Woody root system; root is not the characteristic identifying organ of the crude flower drug.","stem":"Woody, branched stems; older portions become brownish.","leaf":"Small, simple, opposite to subopposite leaves, elliptic to lanceolate with entire margin.","flower":"Small, showy reddish to orange-red flowers borne in clusters along the branches; the flowers are the characteristic medicinal part.","fruit":"Small dry capsule developing after flowering.","seed":"Small seeds within the capsule.","bark":"Thin bark on young branches; not the principal crude drug in this dossier.","identification_points":["Much-branched shrub","Small opposite/simple leaves","Numerous reddish flowers along branches","Flowers used as the characteristic crude drug"]},
-  "images":{"whole_plant":"images/plants/dhataki.jpg","habit":"images/plants/dhataki.jpg","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},
-  "dravya_guna":{"rasa":["Kashaya","Tikta"],"guna":["Laghu"],"virya":"Sheeta","vipaka":"Katu","prabhava":["Yonishodhana","Grahi"],"karma":[]},
-  "dosha":{"vata":"aggravated","pitta":"pacified","kapha":"pacified"},
-  "therapeutics":{"useful_part":["flower"],"indications":["Atisara","Pravahika","Pradara","Trishna","Vrana"],"therapeutic_actions":["Grahi"],"dose":"","anupana":"","duration":"","precautions":"Use authenticated flowers and an authoritative formulation/reference for therapeutic dosing.","contraindications":"No project-specific contraindication claim added without text-level verification."},
-  "formulations":[],
-  "classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},
-  "phytochemistry":{"major_constituents":["Tannins and other phenolic constituents are reported from the flowers"],"chemical_notes":"Constituent profiles vary by plant material and analytical method; no assay value is asserted here."},
-  "modern_information":{"evidence_summary":"Woodfordia fruticosa is an important Ayurvedic medicinal shrub; its flowers are also traditionally used in fermentation processes. This dossier does not treat traditional use as proof of clinical efficacy.","recognized_uses":["Traditional fermentation adjunct","Traditional Ayurvedic use of flowers"],"safety_notes":"Authenticate the plant and crude drug before use. Therapeutic dosing should be taken from an authoritative formulation or pharmacopoeial source.","sources":[]},
-  "student":{"exam_points":["Botanical name: Woodfordia fruticosa (L.) Kurz","Family: Lythraceae","Drug part: flower","Characteristic: numerous reddish flowers on branches"],"viva_questions":["What is the botanical name of Dhataki?","Which family does Dhataki belong to?","Which part is chiefly used?","What is the characteristic flower colour?"],"identification_points":["Branched shrub","Small simple leaves","Reddish flowers borne along branches"],"mnemonics":["DHATAKI = Dhayati, the red-flowered shrub"],"quick_revision":"Dhataki is Woodfordia fruticosa, a branched Lythraceae shrub whose flowers are the characteristic medicinal part."},
-  "teacher":{"teaching_points":["Demonstrate the shrub habit and branch-associated flower clusters.","Explain why crude-drug identification should include flower morphology."],"discussion_points":["Lythraceae characters","Traditional role of Dhataki in fermented preparations","Difference between botanical identity and crude-drug identity"],"practical_points":["Examine authenticated dried flowers under magnification.","Record colour, size, odour and attached floral structures.","Compare genuine material with an unidentified market sample only under supervision."]},
-  "doctor":{"quick_reference":"Dhataki — Woodfordia fruticosa (L.) Kurz; Lythraceae; principal drug part: flower. Indexed traditional indications include Atisara, Pravahika, Pradara, Trishna and Vrana.","important_indications":["Atisara","Pravahika","Pradara","Trishna","Vrana"],"useful_part":"flower","dose":"","anupana":"","key_precautions":["Confirm botanical and crude-drug identity.","Use authoritative formulation-specific dosing rather than this educational record.","Do not equate traditional indication with established modern clinical efficacy."]},
-  "sources":[{"type":"official","title":"CCRAS Medicinal Plant Research","url":"https://ccras.nic.in/services/medicinal-plant-research/"},{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"pharmacopoeial_baseline","title":"Pharmacopoeia Commission for Indian Medicine & Homoeopathy","url":"https://pcimh.gov.in/"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"image","title":"Wikimedia Commons","url":"https://commons.wikimedia.org/wiki/File:Woodfordia_fruticosa_(L.)_Kurz_(50340373193).jpg","license_note":"Check original file page for current license/attribution requirements."}],
-  "metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3","last_enrichment":"morphology + student + teacher + doctor + safety + provenance"},
-  "category":"NCISM-97","syllabus_marker":"NCISM-97"
+  "id": "dhataki",
+  "order": 18,
+  "identity": {
+    "name": "Dhataki",
+    "sanskrit_name": "धातकी",
+    "transliteration": "Dhataki",
+    "botanical_name": "Woodfordia fruticosa (L.) Kurz",
+    "family": "Lythraceae",
+    "english_name": "Fire Flame Bush",
+    "hindi_name": "धायटी",
+    "regional_names": [
+      "Tamrapushpi",
+      "Bahupushpi",
+      "Vahnijwala",
+      "Subhiksha"
+    ],
+    "synonyms": [
+      "Tamrapushpi",
+      "Bahupushpi",
+      "Vahnijwala",
+      "Subhiksha"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Branched shrub",
+    "habitat": "Dry deciduous and subtropical habitats; commonly found on hills and forest margins",
+    "distribution": "Widely distributed in the Indian subcontinent"
+  },
+  "identification": {
+    "description": "Much-branched shrub recognized by small leaves and numerous reddish flowers borne along the branches.",
+    "whole_plant": "Erect, much-branched shrub with numerous slender branches.",
+    "root": "Woody root system; root is not the characteristic identifying organ of the crude flower drug.",
+    "stem": "Woody, branched stems; older portions become brownish.",
+    "leaf": "Small, simple, opposite to subopposite leaves, elliptic to lanceolate with entire margin.",
+    "flower": "Small, showy reddish to orange-red flowers borne in clusters along the branches; the flowers are the characteristic medicinal part.",
+    "fruit": "Small dry capsule developing after flowering.",
+    "seed": "Small seeds within the capsule.",
+    "bark": "Thin bark on young branches; not the principal crude drug in this dossier.",
+    "identification_points": [
+      "Much-branched shrub",
+      "Small opposite/simple leaves",
+      "Numerous reddish flowers along branches",
+      "Flowers used as the characteristic crude drug"
+    ]
+  },
+  "images": {
+    "whole_plant": "images/plants/dhataki.jpg",
+    "habit": "images/plants/dhataki.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Kashaya",
+      "Tikta"
+    ],
+    "guna": [
+      "Laghu"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Katu",
+    "prabhava": [
+      "Yonishodhana",
+      "Grahi"
+    ],
+    "karma": [
+      "Yonishodhana",
+      "Grahi"
+    ]
+  },
+  "dosha": {
+    "vata": "aggravated",
+    "pitta": "pacified",
+    "kapha": "pacified"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "flower"
+    ],
+    "indications": [
+      "Atisara",
+      "Pravahika",
+      "Pradara",
+      "Trishna",
+      "Vrana"
+    ],
+    "therapeutic_actions": [
+      "Grahi"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Use authenticated flowers and an authoritative formulation/reference for therapeutic dosing.",
+    "contraindications": "No project-specific contraindication claim added without text-level verification."
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "Tannins and other phenolic constituents are reported from the flowers"
+    ],
+    "chemical_notes": "Constituent profiles vary by plant material and analytical method; no assay value is asserted here."
+  },
+  "modern_information": {
+    "evidence_summary": "Woodfordia fruticosa is an important Ayurvedic medicinal shrub; its flowers are also traditionally used in fermentation processes. This dossier does not treat traditional use as proof of clinical efficacy.",
+    "recognized_uses": [
+      "Traditional fermentation adjunct",
+      "Traditional Ayurvedic use of flowers"
+    ],
+    "safety_notes": "Authenticate the plant and crude drug before use. Therapeutic dosing should be taken from an authoritative formulation or pharmacopoeial source.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Botanical name: Woodfordia fruticosa (L.) Kurz",
+      "Family: Lythraceae",
+      "Drug part: flower",
+      "Characteristic: numerous reddish flowers on branches"
+    ],
+    "viva_questions": [
+      "What is the botanical name of Dhataki?",
+      "Which family does Dhataki belong to?",
+      "Which part is chiefly used?",
+      "What is the characteristic flower colour?"
+    ],
+    "identification_points": [
+      "Branched shrub",
+      "Small simple leaves",
+      "Reddish flowers borne along branches"
+    ],
+    "mnemonics": [
+      "DHATAKI = Dhayati, the red-flowered shrub"
+    ],
+    "quick_revision": "Dhataki is Woodfordia fruticosa, a branched Lythraceae shrub whose flowers are the characteristic medicinal part."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Demonstrate the shrub habit and branch-associated flower clusters.",
+      "Explain why crude-drug identification should include flower morphology."
+    ],
+    "discussion_points": [
+      "Lythraceae characters",
+      "Traditional role of Dhataki in fermented preparations",
+      "Difference between botanical identity and crude-drug identity"
+    ],
+    "practical_points": [
+      "Examine authenticated dried flowers under magnification.",
+      "Record colour, size, odour and attached floral structures.",
+      "Compare genuine material with an unidentified market sample only under supervision."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Dhataki — Woodfordia fruticosa (L.) Kurz; Lythraceae; principal drug part: flower. Indexed traditional indications include Atisara, Pravahika, Pradara, Trishna and Vrana.",
+    "important_indications": [
+      "Atisara",
+      "Pravahika",
+      "Pradara",
+      "Trishna",
+      "Vrana"
+    ],
+    "useful_part": "flower",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Confirm botanical and crude-drug identity.",
+      "Use authoritative formulation-specific dosing rather than this educational record.",
+      "Do not equate traditional indication with established modern clinical efficacy."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official",
+      "title": "CCRAS Medicinal Plant Research",
+      "url": "https://ccras.nic.in/services/medicinal-plant-research/"
+    },
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "pharmacopoeial_baseline",
+      "title": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy",
+      "url": "https://pcimh.gov.in/"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Woodfordia_fruticosa_(L.)_Kurz_(50340373193).jpg",
+      "license_note": "Check original file page for current license/attribution requirements."
+    },
+    {
+      "type": "secondary_structured_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Secondary source used only for blank structured fields."
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "Project editorial pass",
+    "version": "1.3",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass."
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
 }
