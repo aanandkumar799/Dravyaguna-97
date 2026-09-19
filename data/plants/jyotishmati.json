@@ -1,19 +1,223 @@
 {
-  "id":"jyotishmati","order":29,
-  "identity":{"name":"Jyotishmati","sanskrit_name":"ज्योतिष्मती","transliteration":"Jyotishmati","botanical_name":"Celastrus paniculatus Willd.","family":"Celastraceae","english_name":"Intellect Tree","hindi_name":"मालकंगनी","regional_names":[],"synonyms":["Kanguni","Katabhi","Paravatapadi","Kakandaki"]},
-  "classification":{"kingdom":"Plantae","habit":"Woody climbing shrub or liana","habitat":"Forests, scrub and open woodland in tropical and subtropical regions","distribution":"Widely distributed in India and neighbouring South/Southeast Asian regions"},
-  "identification":{"description":"A woody climber with simple alternate leaves and distinctive yellow-orange arils surrounding seeds in mature capsules.","whole_plant":"Woody climber or scrambling shrub, often supported by surrounding vegetation.","root":"Woody root system; not a primary field character.","stem":"Woody, branched climbing stems, often with grey-brown bark when mature.","leaf":"Simple alternate leaves, generally elliptic to obovate with a serrated margin.","flower":"Small greenish-yellow flowers borne in axillary or terminal clusters.","fruit":"Capsule that opens when mature to expose seeds surrounded by a bright yellow-orange aril.","seed":"Hard seeds partly enclosed by a conspicuous orange-yellow aril; this is a useful recognition character.","bark":"Grey-brown bark on mature woody stems.","identification_points":["Woody climber/scrambler","Alternate serrated leaves","Small greenish-yellow flowers","Capsule with orange-yellow arillate seeds"]},
-  "images":{"whole_plant":"images/plants/jyotishmati.jpg","habit":"images/plants/jyotishmati.jpg","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},
-  "dravya_guna":{"rasa":["Katu","Tikta"],"guna":["Tikshna","Sara"],"virya":"Ushna","vipaka":"Katu","prabhava":["Medhya","Virechana","Deepana"],"karma":[]},
-  "dosha":{"vata":"pacified","pitta":"aggravated","kapha":"pacified"},
-  "therapeutics":{"useful_part":["seed/oil"],"indications":["Smritidaurbalya","Vata Vyadhi","Klaibya","Kushta","Kandu"],"therapeutic_actions":[],"dose":"","anupana":"","duration":"","precautions":"","contraindications":""},
-  "formulations":[],
-  "classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"source-hub-added; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},
-  "phytochemistry":{"major_constituents":["Fixed seed oil","Celastrus-associated sesquiterpenoid and alkaloid constituents reported in research literature"],"chemical_notes":"Seeds contain a fixed oil and diverse secondary metabolites. Exact marker compounds and concentrations vary by source and extraction method and should be verified from primary literature or pharmacopoeial material."},
-  "modern_information":{"evidence_summary":"Celastrus paniculatus has a long traditional history in Ayurveda and has been investigated experimentally for neurological and other effects. Experimental findings should not be presented as established human clinical efficacy.","recognized_uses":[],"safety_notes":"Seed oil is concentrated material; verify identity, preparation and dose from authoritative references before clinical use.","sources":[]},
-  "student":{"exam_points":["Jyotishmati = Celastrus paniculatus Willd.","Family: Celastraceae","Seed/oil is the listed useful part","Mature capsule exposes orange-yellow arillate seeds"],"viva_questions":["What is the botanical name of Jyotishmati?","Which family does it belong to?","What is distinctive about the mature fruit and seed?","Which part is listed as useful?"],"identification_points":["Woody climber","Alternate serrated leaves","Small greenish-yellow flowers","Orange-yellow aril around mature seeds"],"mnemonics":["Jyotishmati = Malakangni: remember the bright aril around the seed."],"quick_revision":"Jyotishmati (Celastrus paniculatus) is a woody climber of Celastraceae; seed/oil is listed as useful and the orange-yellow aril is a key identification feature."},
-  "teacher":{"teaching_points":["Demonstrate the distinctive arillate seed as a practical identification feature.","Discuss why seed oil and crude seed should not be treated as interchangeable preparations."],"discussion_points":["Traditional Medhya description versus modern experimental evidence", "Importance of preparation-specific safety assessment"],"practical_points":["Observe mature capsule opening and aril colour.","Record leaf margin and climbing habit before sampling reproductive material."]},
-  "doctor":{"quick_reference":"Jyotishmati — Celastrus paniculatus Willd.; seed/oil is the useful part listed in the project record and traditional indications include Smritidaurbalya and Vata-related disorders.","important_indications":["Smritidaurbalya","Vata Vyadhi","Klaibya","Kushta","Kandu"],"useful_part":"seed/oil","dose":"","anupana":"","key_precautions":["Use authenticated seed and clearly identified preparation.","Do not infer dose from experimental studies or culinary use.","Verify formulation-specific safety before clinical use."]},
-  "sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"official_pharmacopoeial_source","title":"Pharmacopoeia Commission for Indian Medicine & Homoeopathy","url":"https://pcimh.gov.in/"},{"type":"image","title":"Wikimedia Commons","url":"https://commons.wikimedia.org/wiki/File:Celastrus_paniculatus_Willd._(52534816887).jpg","license_note":"Check the original file page for current license/attribution requirements."}],
-  "metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3","image_enrichment_note":"Existing project image retained; part-specific verified images remain to be populated.","last_enrichment":"dossier enrichment batch"},"category":"NCISM-97","syllabus_marker":"NCISM-97"
+  "id": "jyotishmati",
+  "order": 29,
+  "identity": {
+    "name": "Jyotishmati",
+    "sanskrit_name": "ज्योतिष्मती",
+    "transliteration": "Jyotishmati",
+    "botanical_name": "Celastrus paniculatus Willd.",
+    "family": "Celastraceae",
+    "english_name": "Intellect Tree",
+    "hindi_name": "मालकंगनी",
+    "regional_names": [
+      "Kanguni",
+      "Katabhi",
+      "Paravatapadi",
+      "Kakandaki"
+    ],
+    "synonyms": [
+      "Kanguni",
+      "Katabhi",
+      "Paravatapadi",
+      "Kakandaki"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Woody climbing shrub or liana",
+    "habitat": "Forests, scrub and open woodland in tropical and subtropical regions",
+    "distribution": "Widely distributed in India and neighbouring South/Southeast Asian regions"
+  },
+  "identification": {
+    "description": "A woody climber with simple alternate leaves and distinctive yellow-orange arils surrounding seeds in mature capsules.",
+    "whole_plant": "Woody climber or scrambling shrub, often supported by surrounding vegetation.",
+    "root": "Woody root system; not a primary field character.",
+    "stem": "Woody, branched climbing stems, often with grey-brown bark when mature.",
+    "leaf": "Simple alternate leaves, generally elliptic to obovate with a serrated margin.",
+    "flower": "Small greenish-yellow flowers borne in axillary or terminal clusters.",
+    "fruit": "Capsule that opens when mature to expose seeds surrounded by a bright yellow-orange aril.",
+    "seed": "Hard seeds partly enclosed by a conspicuous orange-yellow aril; this is a useful recognition character.",
+    "bark": "Grey-brown bark on mature woody stems.",
+    "identification_points": [
+      "Woody climber/scrambler",
+      "Alternate serrated leaves",
+      "Small greenish-yellow flowers",
+      "Capsule with orange-yellow arillate seeds"
+    ]
+  },
+  "images": {
+    "whole_plant": "images/plants/jyotishmati.jpg",
+    "habit": "images/plants/jyotishmati.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Katu",
+      "Tikta"
+    ],
+    "guna": [
+      "Tikshna",
+      "Sara"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": [
+      "Medhya",
+      "Virechana",
+      "Deepana"
+    ],
+    "karma": [
+      "Medhya",
+      "Virechana",
+      "Deepana"
+    ]
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "aggravated",
+    "kapha": "pacified"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "seed/oil"
+    ],
+    "indications": [
+      "Smritidaurbalya",
+      "Vata Vyadhi",
+      "Klaibya",
+      "Kushta",
+      "Kandu"
+    ],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "Fixed seed oil",
+      "Celastrus-associated sesquiterpenoid and alkaloid constituents reported in research literature"
+    ],
+    "chemical_notes": "Seeds contain a fixed oil and diverse secondary metabolites. Exact marker compounds and concentrations vary by source and extraction method and should be verified from primary literature or pharmacopoeial material."
+  },
+  "modern_information": {
+    "evidence_summary": "Celastrus paniculatus has a long traditional history in Ayurveda and has been investigated experimentally for neurological and other effects. Experimental findings should not be presented as established human clinical efficacy.",
+    "recognized_uses": [],
+    "safety_notes": "Seed oil is concentrated material; verify identity, preparation and dose from authoritative references before clinical use.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Jyotishmati = Celastrus paniculatus Willd.",
+      "Family: Celastraceae",
+      "Seed/oil is the listed useful part",
+      "Mature capsule exposes orange-yellow arillate seeds"
+    ],
+    "viva_questions": [
+      "What is the botanical name of Jyotishmati?",
+      "Which family does it belong to?",
+      "What is distinctive about the mature fruit and seed?",
+      "Which part is listed as useful?"
+    ],
+    "identification_points": [
+      "Woody climber",
+      "Alternate serrated leaves",
+      "Small greenish-yellow flowers",
+      "Orange-yellow aril around mature seeds"
+    ],
+    "mnemonics": [
+      "Jyotishmati = Malakangni: remember the bright aril around the seed."
+    ],
+    "quick_revision": "Jyotishmati (Celastrus paniculatus) is a woody climber of Celastraceae; seed/oil is listed as useful and the orange-yellow aril is a key identification feature."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Demonstrate the distinctive arillate seed as a practical identification feature.",
+      "Discuss why seed oil and crude seed should not be treated as interchangeable preparations."
+    ],
+    "discussion_points": [
+      "Traditional Medhya description versus modern experimental evidence",
+      "Importance of preparation-specific safety assessment"
+    ],
+    "practical_points": [
+      "Observe mature capsule opening and aril colour.",
+      "Record leaf margin and climbing habit before sampling reproductive material."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Jyotishmati — Celastrus paniculatus Willd.; seed/oil is the useful part listed in the project record and traditional indications include Smritidaurbalya and Vata-related disorders.",
+    "important_indications": [
+      "Smritidaurbalya",
+      "Vata Vyadhi",
+      "Klaibya",
+      "Kushta",
+      "Kandu"
+    ],
+    "useful_part": "seed/oil",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Use authenticated seed and clearly identified preparation.",
+      "Do not infer dose from experimental studies or culinary use.",
+      "Verify formulation-specific safety before clinical use."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "official_pharmacopoeial_source",
+      "title": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy",
+      "url": "https://pcimh.gov.in/"
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Celastrus_paniculatus_Willd._(52534816887).jpg",
+      "license_note": "Check the original file page for current license/attribution requirements."
+    },
+    {
+      "type": "secondary_structured_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Secondary source used only for blank structured fields."
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "Project editorial pass",
+    "version": "1.3",
+    "image_enrichment_note": "Existing project image retained; part-specific verified images remain to be populated.",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass."
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
 }
