@@ -194,7 +194,7 @@
     "last_verified": "2026-09-17",
     "verified_by": "Project editorial pass",
     "version": "1.3",
-    "last_enrichment": "blank structured fields cross-filled from an open CC BY Ayurveda dataset; original verified fields retained",
+    "last_enrichment": "blank structured fields cross-filled from supplementary open dataset; verified fields retained",
     "external_dataset_note": "Amidha v2.0 used only as a supplementary structured-data source; not treated as sole classical authority."
   },
   "category": "NCISM-97",
