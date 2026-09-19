@@ -19,6 +19,16 @@ APPROVED_GALLERY_PARTS = {
 }
 BATCH_IDS = set(APPROVED_GALLERY_PARTS)
 
+PINNED_DIRECT={
+ 'arjuna':{'root':('Terminalia arjuna tree roots - India 1.jpg','CC BY-SA 4.0','Emőke Dénes'),'flower':('Inflorescence of Terminalia arjuna.jpg','CC BY-SA 4.0','Edurafi2')},
+ 'ashoka':{'flower':('Saraca asoca flowers.jpg','CC BY-SA 4.0','subhashini'),'leaf':('Saraca asoka leaves.jpg','CC BY-SA 4.0','Girish Mohan P K')},
+ 'beejaka':{'leaf':('Pterocarpus marsupium leaves.jpg','CC BY-SA 3.0','Vinayaraj'),'flower':('Pterocarpus marsupium flower1.jpg','CC BY-SA 4.0','Amkrishnan'),'seed':('Pterocarpus marsupium seed.jpg','CC BY 3.0','Shyamal'),'bark':('Pterocarpus marsupium bark.jpg','CC BY-SA 3.0','Vinayaraj')},
+ 'ashwagandha':{'whole_plant':('Withania somnifera.jpg','CC BY-SA 3.0','Neha.Vindhya'),'flower':('Withania somnifera 1DS-II 3-7491.jpg','CC BY-SA 4.0','SAplants'),'fruit':('Withania somnifera fruits.jpg','CC BY 3.0','Vinayaraj')},
+ 'bhringaraja':{'whole_plant':('A field of Eclipta alba.JPG','CC BY-SA 3.0',''),'flower':('Eclipta alba (506).jpg','CC BY-SA 3.0','Vinayaraj')},
+ 'isabgol':{'whole_plant':('Plantago ovata 1.jpg','CC BY 3.0','Gideon Pisanty')},
+ 'bala':{'leaf':('Starr-130709-2612-Sida cordifolia-leaves-Ulupalakua Ranch-Maui (25126624121).jpg','CC BY 3.0','Forest & Kim Starr'),'seed':('Starr-130709-2613-Sida cordifolia-leaves and seed capsules-Ulupalakua Ranch-Maui (25219830795).jpg','CC BY 3.0 US','Forest & Kim Starr'),'flower':('Sida cordifolia flower.JPG','CC BY-SA 4.0','Amazoniaexotics')},
+}
+
 PINNED_FILES={
     'arjuna':{
         'root':'Terminalia arjuna tree roots - India 1.jpg','flower':'Inflorescence of Terminalia arjuna.jpg','fruit':'Terminalia arjuna (Roxb. ex DC.) Wight & Arn. (48913851971).jpg','seed':'Terminalia arjuna-seeds-1-yercaud-salem-India.JPG','bark':'Bark of Terminalia arjuna.jpg'},
@@ -99,6 +109,12 @@ def commons_category_candidates(botanical,part):
         if len(out)>=25:break
     return out
 
+def direct_candidate(file_title,license_name,author):
+    page='https://commons.wikimedia.org/wiki/File:'+urllib.parse.quote(file_title.replace(' ','_'))
+    media='https://commons.wikimedia.org/wiki/Special:Redirect/file/'+urllib.parse.quote(file_title.replace(' ','_'),safe='')
+    return {'url':media,'page':page,'title':file_title,'license':license_name,'author':author,'source':'Wikimedia Commons'}
+
+
 def pinned_candidate(file_title,botanical,part):
     url='https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode({'action':'query','titles':'File:'+file_title,'prop':'imageinfo','iiprop':'url|extmetadata|mime','iiurlwidth':1600,'format':'json','origin':'*'})
     try:data=fetch_json(url)
@@ -174,8 +190,10 @@ def main():
                     continue
                 except Exception: r['verification_status']='download-failed'; r['image_path']=''; changed=True
             if r.get('verification_status')=='verified-local' and r.get('image_path') and (ROOT/str(r['image_path'])).exists():continue
-            pinned=PINNED_FILES.get(pid,{}).get(part)
-            candidates=[pinned_candidate(pinned,botanical,part)] if pinned else []
+            direct_meta=PINNED_DIRECT.get(pid,{}).get(part)
+            candidates=[direct_candidate(*direct_meta)] if direct_meta else []
+            pinned=PINNED_FILES.get(pid,{}).get(part) if not candidates else None
+            if pinned:candidates=[pinned_candidate(pinned,botanical,part)]
             candidates=[x for x in candidates if x]
             if not candidates:candidates=commons_candidates(botanical,part)
             if not candidates:candidates=commons_category_candidates(botanical,part)
