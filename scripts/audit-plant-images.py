@@ -18,6 +18,17 @@ APPROVED_GALLERY_PARTS = {
     'isabgol': {'whole_plant','leaf','flower','fruit','seed','stem'},
 }
 BATCH_IDS = set(APPROVED_GALLERY_PARTS)
+
+PINNED_FILES={
+    'arjuna':{
+        'root':'Terminalia arjuna tree roots - India 1.jpg','flower':'Inflorescence of Terminalia arjuna.jpg','fruit':'Terminalia arjuna (Roxb. ex DC.) Wight & Arn. (48913851971).jpg','seed':'Terminalia arjuna-seeds-1-yercaud-salem-India.JPG','bark':'Bark of Terminalia arjuna.jpg'},
+    'ashoka':{'flower':'Saraca asoca flowers.jpg','leaf':'Saraca asoca (Roxb.) W.J.de Wilde (51849650013).jpg'},
+    'beejaka':{'leaf':'Pterocarpus marsupium leaves.jpg','flower':'Pterocarpus marsupium flower1.jpg','seed':'Pterocarpus marsupium seed.jpg','bark':'Pterocarpus marsupium bark.jpg'},
+    'ashwagandha':{'whole_plant':'Withania somnifera.jpg','flower':'Withania somnifera 1DS-II 3-7491.jpg','fruit':'Withania somnifera fruits.jpg'},
+    'bhringaraja':{'whole_plant':'A field of Eclipta alba.JPG','flower':'Eclipta alba (506).jpg'},
+    'isabgol':{'whole_plant':'Plantago ovata 1.jpg'},
+    'bala':{'leaf':'Starr-130709-2612-Sida cordifolia-leaves-Ulupalakua Ranch-Maui (25126624121).jpg','seed':'Starr-130709-2613-Sida cordifolia-leaves and seed capsules-Ulupalakua Ranch-Maui (25219830795).jpg','flower':'Sida cordifolia flower.JPG'},
+}
 PART_WORDS={'root':['root','roots'],'stem':['stem','stems','twig','twigs'],'leaf':['leaf','leaves','foliage'],'flower':['flower','flowers','inflorescence','blossom'],'fruit':['fruit','fruits','pod','pods','berry','berries','capsule'],'seed':['seed','seeds','nut','nuts'],'bark':['bark','trunk','trunks'],'whole_plant':['whole plant','entire plant','plant specimen'],'habit':['habit','growth form','tree','shrub','herb','climber','vine']}
 PART_EXCLUDE={'whole_plant':['leaf','flower','fruit','seed','root','bark','stem','twig','trunk'],'habit':['leaf','flower','fruit','seed','root','bark','stem','twig','trunk']}
 BAD=re.compile(r'\b(diagram|map|microscope|illustration|drawing|icon|logo|chart|anatomy|cross[- ]section|histology|chemical|medicine|tablet|capsule|powder|poster|herbarium\s+sheet)\b',re.I)
@@ -88,6 +99,23 @@ def commons_category_candidates(botanical,part):
         if len(out)>=25:break
     return out
 
+def pinned_candidate(file_title,botanical,part):
+    url='https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode({'action':'query','titles':'File:'+file_title,'prop':'imageinfo','iiprop':'url|extmetadata|mime','iiurlwidth':1600,'format':'json','origin':'*'})
+    try:data=fetch_json(url)
+    except Exception:return None
+    pages=(data.get('query',{}).get('pages',{}) or {})
+    if not pages:return None
+    info=(next(iter(pages.values())).get('imageinfo') or [{}])[0]; mime=str(info.get('mime') or ''); meta=info.get('extmetadata') or {}
+    lic=str(meta.get('LicenseShortName',{}).get('value') or '').strip(); desc=str(meta.get('ImageDescription',{}).get('value') or '')
+    blob=f'{file_title} {desc}'
+    if mime not in ('image/jpeg','image/png','image/webp') or not LICENSE_OK.search(re.sub(r'\s+',' ',lic)):return None
+    if BAD.search(blob):return None
+    page='https://commons.wikimedia.org/wiki/File:'+urllib.parse.quote(file_title.replace(' ','_'))
+    u=info.get('thumburl') or info.get('url')
+    if not u:return None
+    return {'url':u,'page':page,'title':file_title,'license':lic,'author':str(meta.get('Artist',{}).get('value') or '').strip(),'source':'Wikimedia Commons'}
+
+
 def inat_candidates(botanical,part):
     if part not in ('whole_plant','habit'):return []
     out=[]; seen=set()
@@ -146,7 +174,10 @@ def main():
                     continue
                 except Exception: r['verification_status']='download-failed'; r['image_path']=''; changed=True
             if r.get('verification_status')=='verified-local' and r.get('image_path') and (ROOT/str(r['image_path'])).exists():continue
-            candidates=commons_candidates(botanical,part)
+            pinned=PINNED_FILES.get(pid,{}).get(part)
+            candidates=[pinned_candidate(pinned,botanical,part)] if pinned else []
+            candidates=[x for x in candidates if x]
+            if not candidates:candidates=commons_candidates(botanical,part)
             if not candidates:candidates=commons_category_candidates(botanical,part)
             if not candidates:candidates=inat_candidates(botanical,part)
             best=next((x for x in candidates if x['page'] not in used_sources and x['url'] not in used_sources),None)
