@@ -9,7 +9,12 @@
     "family": "Piperaceae",
     "english_name": "Black Pepper",
     "hindi_name": "",
-    "regional_names": [],
+    "regional_names": [
+      "Vellaja",
+      "Ushana",
+      "Suvritta",
+      "Krishna"
+    ],
     "synonyms": [
       "Vellaja",
       "Krishna",
@@ -189,7 +194,7 @@
     "verified_by": "",
     "version": "1.2",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "curated batch 64-68",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "classical_review_batch": "9-13 corrected 2026-09-16"
   },
   "category": "NCISM-97",
