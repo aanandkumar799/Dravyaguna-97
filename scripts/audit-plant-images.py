@@ -58,7 +58,26 @@ def commons_candidates(botanical,part):
             seen.add(page); out.append({'url':u,'page':page,'title':title.replace('File:','',1),'license':lic,'author':str(meta.get('Artist',{}).get('value') or '').strip(),'source':'Wikimedia Commons'})
         if len(out)>=25:break
     return out
-\n\ndef commons_category_candidates(botanical,part):\n    out=[]; seen=set()\n    cats=[f"Category:{' '.join(species_tokens(botanical))}"]\n    for cat in cats:\n        url='https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode({'action':'query','generator':'categorymembers','gcmtitle':cat,'gcmnamespace':6,'gcmlimit':100,'prop':'imageinfo','iiprop':'url|extmetadata|mime','iiurlwidth':1600,'format':'json','origin':'*'})\n        try:data=fetch_json(url)\n        except Exception:continue\n        for p in (data.get('query',{}).get('pages',{}) or {}).values():\n            info=(p.get('imageinfo') or [{}])[0]; title=str(p.get('title') or ''); mime=str(info.get('mime') or ''); meta=info.get('extmetadata') or {}\n            lic=str(meta.get('LicenseShortName',{}).get('value') or '').strip(); desc=str(meta.get('ImageDescription',{}).get('value') or ''); cats_text=str(meta.get('Categories',{}).get('value') or '')\n            blob=f'{title} {desc} {cats_text}'\n            if mime not in ('image/jpeg','image/png','image/webp') or not LICENSE_OK.search(re.sub(r'\\s+',' ',lic)):continue\n            if not species_in_text(blob,botanical) or not part_ok(blob,part):continue\n            u=info.get('thumburl') or info.get('url'); page='https://commons.wikimedia.org/wiki/'+urllib.parse.quote(title.replace(' ','_'))\n            if not u or page in seen:continue\n            seen.add(page); out.append({'url':u,'page':page,'title':title.replace('File:','',1),'license':lic,'author':str(meta.get('Artist',{}).get('value') or '').strip(),'source':'Wikimedia Commons'})\n    return out\n
+
+
+def commons_category_candidates(botanical,part):
+    out=[]; seen=set()
+    cats=[f"Category:{' '.join(species_tokens(botanical))}"]
+    for cat in cats:
+        url='https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode({'action':'query','generator':'categorymembers','gcmtitle':cat,'gcmnamespace':6,'gcmlimit':100,'prop':'imageinfo','iiprop':'url|extmetadata|mime','iiurlwidth':1600,'format':'json','origin':'*'})
+        try:data=fetch_json(url)
+        except Exception:continue
+        for p in (data.get('query',{}).get('pages',{}) or {}).values():
+            info=(p.get('imageinfo') or [{}])[0]; title=str(p.get('title') or ''); mime=str(info.get('mime') or ''); meta=info.get('extmetadata') or {}
+            lic=str(meta.get('LicenseShortName',{}).get('value') or '').strip(); desc=str(meta.get('ImageDescription',{}).get('value') or ''); cats_text=str(meta.get('Categories',{}).get('value') or '')
+            blob=f'{title} {desc} {cats_text}'
+            if mime not in ('image/jpeg','image/png','image/webp') or not LICENSE_OK.search(re.sub(r'\\s+',' ',lic)):continue
+            if not species_in_text(blob,botanical) or not part_ok(blob,part):continue
+            u=info.get('thumburl') or info.get('url'); page='https://commons.wikimedia.org/wiki/'+urllib.parse.quote(title.replace(' ','_'))
+            if not u or page in seen:continue
+            seen.add(page); out.append({'url':u,'page':page,'title':title.replace('File:','',1),'license':lic,'author':str(meta.get('Artist',{}).get('value') or '').strip(),'source':'Wikimedia Commons'})
+    return out
+
 def inat_candidates(botanical,part):
     if part not in ('whole_plant','habit'):return []
     out=[]; seen=set()
@@ -126,8 +145,10 @@ def main():
             try:local,size=download_image(best['url'],local_path(pid,part))
             except Exception as e:unresolved.append({'plant_id':pid,'part':part,'reason':'download-failed','detail':str(e)});continue
             used_sources.update((best['page'],best['url'])); r.update({'image_path':local,'source_media_url':best['url'],'source_url':best['page'],'source_name':best['source'],'license':best['license'],'author':best['author'],'verified_botanical_name':botanical,'verification_status':'verified-local','title':best['title']}); filled.append({'plant_id':pid,'part':part,'action':'downloaded-new-image','path':local,'bytes':size}); changed=True
-    manifest['version']=5; manifest['parts']=PARTS; manifest['policy']={'exact_species_required':True,'part_specific_required':True,'source_license_required':True,'global_duplicates_forbidden':True,'ai_only_matches_forbidden':True,'wrong_image_preferred_over_missing':False,'old_registry_reverification_required':True,'local_assets_required':True,'additional_sources':['Wikimedia Commons','iNaturalist']}; manifest['records']=sorted(records,key=lambda r:(int(r.get('ncism_order') or 9999),PARTS.index(r.get('part')) if r.get('part') in PARTS else 99)); MANIFEST.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    manifest['version']=5; manifest['parts']=PARTS; manifest['policy']={'exact_species_required':True,'part_specific_required':True,'source_license_required':True,'global_duplicates_forbidden':True,'ai_only_matches_forbidden':True,'wrong_image_preferred_over_missing':False,'old_registry_reverification_required':True,'local_assets_required':True,'additional_sources':['Wikimedia Commons','iNaturalist']}; manifest['records']=sorted(records,key=lambda r:(int(r.get('ncism_order') or 9999),PARTS.index(r.get('part')) if r.get('part') in PARTS else 99)); MANIFEST.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'
+',encoding='utf-8')
     remaining=sum(1 for r in manifest['records'] if not r.get('image_path') or r.get('verification_status')!='verified-local')
-    REPORT.write_text(json.dumps({'generated_at':datetime.now(timezone.utc).isoformat(),'plants_checked':len(BATCH_IDS),'slots_checked':sum(len(APPROVED_GALLERY_PARTS.get(str(x.get('id')),set())) for x in core),'filled_this_run':filled,'unresolved':unresolved,'remaining_missing':remaining,'local_asset_root':'images/plants/<plant>/<part>/image.*','policy':manifest['policy']},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    REPORT.write_text(json.dumps({'generated_at':datetime.now(timezone.utc).isoformat(),'plants_checked':len(BATCH_IDS),'slots_checked':sum(len(APPROVED_GALLERY_PARTS.get(str(x.get('id')),set())) for x in core),'filled_this_run':filled,'unresolved':unresolved,'remaining_missing':remaining,'local_asset_root':'images/plants/<plant>/<part>/image.*','policy':manifest['policy']},ensure_ascii=False,indent=2)+'
+',encoding='utf-8')
     print(json.dumps({'changed':changed,'filled':len(filled),'remaining_missing':remaining},indent=2))
 if __name__=='__main__':main()
