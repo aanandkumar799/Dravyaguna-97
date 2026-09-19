@@ -9,7 +9,12 @@
     "family": "Zingiberaceae",
     "english_name": "Dry Ginger",
     "hindi_name": "",
-    "regional_names": [],
+    "regional_names": [
+      "Mahaoushadha",
+      "Nagara",
+      "Vishwa",
+      "Vishwabheshaja"
+    ],
     "synonyms": [
       "Nagara",
       "Vishvabhesaja",
@@ -188,7 +193,7 @@
     "verified_by": "",
     "version": "1.2",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "curated batch 64-68",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "classical_review_batch": "9-13 corrected 2026-09-16"
   },
   "category": "NCISM-97",
