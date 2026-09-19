@@ -11,7 +11,12 @@
     "family": "Euphorbiaceae",
     "english_name": "Purging Croton",
     "hindi_name": "",
-    "regional_names": [],
+    "regional_names": [
+      "Dantibija",
+      "Nepala",
+      "Rechaka",
+      "Tittiphala"
+    ],
     "synonyms": [
       "Rechaka (रेचक)",
       "Kumbhini (कुम्भिनी)",
@@ -259,7 +264,7 @@
       87
     ],
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "botanical + educational field enrichment",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "last_audit": "supplementary JSON completeness/safety audit"
   },
   "gemini_source_data": {
