@@ -1,20 +1,189 @@
 {
-  "id":"ajamoda","order":42,
-  "identity":{"name":"Ajamoda","sanskrit_name":"अजमोदा","transliteration":"Ajamodā","botanical_name":"Apium leptophyllum (Pers.) F.Muell. ex Benth.","family":"Apiaceae","english_name":"Slender celery / wild celery (botanical common-name usage varies)","hindi_name":"अजमोद","regional_names":[],"synonyms":[]},
-  "classification":{"kingdom":"Plantae","habit":"Aromatic annual or short-lived herb","habitat":"Open cultivated and disturbed habitats in suitable temperate/subtropical regions","distribution":"Reported from parts of South Asia; exact occurrence should be checked against an authenticated flora for the region"},
-  "identification":{"description":"Small aromatic herb of Apiaceae with finely divided foliage and small flowers arranged in umbels.","whole_plant":"Slender aromatic herb with delicate, finely divided leaves and terminal or axillary compound umbels.","root":"Slender taproot.","stem":"Erect, slender and branched, generally grooved or angular.","leaf":"Alternate, finely divided, pinnate to dissected leaves; lower leaves generally more developed.","flower":"Small, typically white flowers arranged in compound umbels.","fruit":"Small dry schizocarp typical of Apiaceae, splitting into two mericarps at maturity.","seed":"Small aromatic mericarp; detailed diagnostic characters require authenticated pharmacognostic material.","bark":"Not applicable as a distinct woody character.","identification_points":["Aromatic slender herb","Finely divided leaves","Compound umbels with small flowers","Small dry schizocarp typical of Apiaceae"]},
-  "images":{"whole_plant":"","habit":"","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},
-  "dravya_guna":{"rasa":["Katu","Tikta"],"guna":["Laghu","Ruksha","Tikshna"],"virya":"Ushna","vipaka":"Katu","prabhava":"","karma":["Deepana","Pachana","Vatanulomana"]},
-  "dosha":{"vata":"May be useful in Vata-related digestive disturbance when appropriately used","pitta":"May aggravate in excess because of Ushna/Tikshna properties","kapha":"Generally reduces Kapha"},
-  "therapeutics":{"useful_part":["fruit"],"indications":["Agnimandya","Adhmana","Aruchi","Ajirna"],"therapeutic_actions":["Deepana","Pachana","Vatanulomana"],"dose":"Not specified in this educational dossier; dose depends on the authenticated drug material and preparation.","anupana":"","duration":"","precautions":"Use authenticated botanical material; excessive use of pungent/heating drugs may be unsuitable in some Pitta-dominant conditions.","contraindications":"Preparation- and patient-specific; clinical use should be guided by a qualified practitioner."},
-  "formulations":[],
-  "classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"Exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},
-  "phytochemistry":{"major_constituents":[],"chemical_notes":"Do not equate the botanical identity with Ajwain (Trachyspermum ammi); authenticated raw material is essential because vernacular names can overlap."},
-  "modern_information":{"evidence_summary":"Ajamoda is used traditionally as an aromatic digestive drug. Botanical authentication is particularly important because related Apiaceae drugs have overlapping vernacular terminology.","recognized_uses":[],"safety_notes":"Educational entry; clinical use should use authenticated material and preparation-specific guidance.","sources":["Standard pharmacognosy and Ayurvedic Dravyaguna references"]},
-  "student":{"exam_points":["Botanical identity recorded in the project as Apium leptophyllum.","Family: Apiaceae","Fruit is the useful part recorded in this dossier.","Rasa-panchaka: Katu-Tikta; Laghu-Ruksha-Tikshna; Ushna; Katu vipaka."],"viva_questions":["State the botanical name and family of Ajamoda.","Which plant part is recorded as useful?","State its rasa-panchaka.","Why is botanical authentication important for Ajamoda?"],"identification_points":["Aromatic herb","Finely divided leaves","Compound umbels","Small schizocarp"],"mnemonics":[],"quick_revision":"Ajamoda — Apium leptophyllum; Apiaceae; fruit; Katu-Tikta rasa, Laghu-Ruksha-Tikshna guna, Ushna virya and Katu vipaka."},
-  "teacher":{"teaching_points":["Demonstrate Apiaceae diagnostic characters and compound umbels.","Emphasize distinction between Ajamoda and similarly named aromatic drugs.","Discuss the importance of authenticated botanical identity in crude-drug study."],"discussion_points":["Apiaceae fruit morphology","Botanical identity versus vernacular naming"],"practical_points":["Use authenticated herbarium/crude-drug specimens for practical identification."]},
-  "doctor":{"quick_reference":"Traditional aromatic digestive drug; fruit is the useful part recorded here.","important_indications":["Agnimandya","Adhmana","Aruchi","Ajirna"],"useful_part":"fruit","dose":"Not provided","anupana":"","key_precautions":["Authenticate the raw drug before use","Consider Ushna/Tikshna properties in Pitta-sensitive patients"]},
-  "sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"}],
-  "metadata":{"status":"structured_dossier_completed; botanical/classical identity requires edition-level verification","last_verified":"","verified_by":"","version":"1.3","last_enrichment":"dossier completion batch 2026-09-17"},
-  "category":"NCISM-97","syllabus_marker":"NCISM-97"
+  "id": "ajamoda",
+  "order": 42,
+  "identity": {
+    "name": "Ajamoda",
+    "sanskrit_name": "अजमोदा",
+    "transliteration": "Ajamodā",
+    "botanical_name": "Apium leptophyllum (Pers.) F.Muell. ex Benth.",
+    "family": "Apiaceae",
+    "english_name": "Slender celery / wild celery (botanical common-name usage varies)",
+    "hindi_name": "अजमोद",
+    "regional_names": [],
+    "synonyms": []
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Aromatic annual or short-lived herb",
+    "habitat": "Open cultivated and disturbed habitats in suitable temperate/subtropical regions",
+    "distribution": "Reported from parts of South Asia; exact occurrence should be checked against an authenticated flora for the region"
+  },
+  "identification": {
+    "description": "Small aromatic herb of Apiaceae with finely divided foliage and small flowers arranged in umbels.",
+    "whole_plant": "Slender aromatic herb with delicate, finely divided leaves and terminal or axillary compound umbels.",
+    "root": "Slender taproot.",
+    "stem": "Erect, slender and branched, generally grooved or angular.",
+    "leaf": "Alternate, finely divided, pinnate to dissected leaves; lower leaves generally more developed.",
+    "flower": "Small, typically white flowers arranged in compound umbels.",
+    "fruit": "Small dry schizocarp typical of Apiaceae, splitting into two mericarps at maturity.",
+    "seed": "Small aromatic mericarp; detailed diagnostic characters require authenticated pharmacognostic material.",
+    "bark": "Not applicable as a distinct woody character.",
+    "identification_points": [
+      "Aromatic slender herb",
+      "Finely divided leaves",
+      "Compound umbels with small flowers",
+      "Small dry schizocarp typical of Apiaceae"
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Katu",
+      "Tikta"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha",
+      "Tikshna"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": "",
+    "karma": [
+      "Deepana",
+      "Pachana",
+      "Vatanulomana"
+    ]
+  },
+  "dosha": {
+    "vata": "May be useful in Vata-related digestive disturbance when appropriately used",
+    "pitta": "May aggravate in excess because of Ushna/Tikshna properties",
+    "kapha": "Generally reduces Kapha"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "fruit"
+    ],
+    "indications": [
+      "Agnimandya",
+      "Adhmana",
+      "Aruchi",
+      "Ajirna"
+    ],
+    "therapeutic_actions": [
+      "Deepana",
+      "Pachana",
+      "Vatanulomana"
+    ],
+    "dose": "Not specified in this educational dossier; dose depends on the authenticated drug material and preparation.",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Use authenticated botanical material; excessive use of pungent/heating drugs may be unsuitable in some Pitta-dominant conditions.",
+    "contraindications": "Preparation- and patient-specific; clinical use should be guided by a qualified practitioner."
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "Exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": "Do not equate the botanical identity with Ajwain (Trachyspermum ammi); authenticated raw material is essential because vernacular names can overlap."
+  },
+  "modern_information": {
+    "evidence_summary": "Ajamoda is used traditionally as an aromatic digestive drug. Botanical authentication is particularly important because related Apiaceae drugs have overlapping vernacular terminology.",
+    "recognized_uses": [],
+    "safety_notes": "Educational entry; clinical use should use authenticated material and preparation-specific guidance.",
+    "sources": [
+      "Standard pharmacognosy and Ayurvedic Dravyaguna references"
+    ]
+  },
+  "student": {
+    "exam_points": [
+      "Botanical identity recorded in the project as Apium leptophyllum.",
+      "Family: Apiaceae",
+      "Fruit is the useful part recorded in this dossier.",
+      "Rasa-panchaka: Katu-Tikta; Laghu-Ruksha-Tikshna; Ushna; Katu vipaka."
+    ],
+    "viva_questions": [
+      "State the botanical name and family of Ajamoda.",
+      "Which plant part is recorded as useful?",
+      "State its rasa-panchaka.",
+      "Why is botanical authentication important for Ajamoda?"
+    ],
+    "identification_points": [
+      "Aromatic herb",
+      "Finely divided leaves",
+      "Compound umbels",
+      "Small schizocarp"
+    ],
+    "mnemonics": [],
+    "quick_revision": "Ajamoda — Apium leptophyllum; Apiaceae; fruit; Katu-Tikta rasa, Laghu-Ruksha-Tikshna guna, Ushna virya and Katu vipaka."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Demonstrate Apiaceae diagnostic characters and compound umbels.",
+      "Emphasize distinction between Ajamoda and similarly named aromatic drugs.",
+      "Discuss the importance of authenticated botanical identity in crude-drug study."
+    ],
+    "discussion_points": [
+      "Apiaceae fruit morphology",
+      "Botanical identity versus vernacular naming"
+    ],
+    "practical_points": [
+      "Use authenticated herbarium/crude-drug specimens for practical identification."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Traditional aromatic digestive drug; fruit is the useful part recorded here.",
+    "important_indications": [
+      "Agnimandya",
+      "Adhmana",
+      "Aruchi",
+      "Ajirna"
+    ],
+    "useful_part": "fruit",
+    "dose": "Not provided",
+    "anupana": "",
+    "key_precautions": [
+      "Authenticate the raw drug before use",
+      "Consider Ushna/Tikshna properties in Pitta-sensitive patients"
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    }
+  ],
+  "metadata": {
+    "status": "structured_dossier_completed; botanical/classical identity requires edition-level verification",
+    "last_verified": "",
+    "verified_by": "",
+    "version": "1.3",
+    "last_enrichment": "dossier completion batch 2026-09-17"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
 }
