@@ -12,10 +12,13 @@ failed = False
 
 for page in sorted(ROOT.rglob("*.html")):
     source = page.read_text(encoding="utf-8", errors="replace")
-    scripts = re.findall(r"<script(?:\s[^>]*)?>(.*?)</script>", source, flags=re.IGNORECASE | re.DOTALL)
+    scripts = re.findall(r"<script([^>]*)>(.*?)</script>", source, flags=re.IGNORECASE | re.DOTALL)
 
-    for index, script in enumerate(scripts, start=1):
+    for index, (attrs, script) in enumerate(scripts, start=1):
         if not script.strip():
+            continue
+        if re.search(r'type=["']application/ld\+json["']', attrs, flags=re.IGNORECASE):
+            print(f"⏭️ {page} script {index}: JSON-LD (not executable JavaScript)")
             continue
         with tempfile.NamedTemporaryFile("w", suffix=".js", encoding="utf-8", delete=False) as handle:
             handle.write(script)
