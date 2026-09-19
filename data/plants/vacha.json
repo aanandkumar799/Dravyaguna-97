@@ -9,7 +9,12 @@
     "family": "Acoraceae (Araceae)",
     "english_name": "Sweet Flag / Calamus",
     "hindi_name": "",
-    "regional_names": [],
+    "regional_names": [
+      "Ugra",
+      "Sadgrantha",
+      "Golomi",
+      "Shadgrantha"
+    ],
     "synonyms": [
       "Ugragandha (उग्रगन्धा)",
       "Shadgrantha (षड्ग्रन्था)",
@@ -234,7 +239,7 @@
     "verified_by": "",
     "version": "1.2",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass.",
     "gemini_later_batches_reviewed": true,
     "gemini_source_batches": [
       76
