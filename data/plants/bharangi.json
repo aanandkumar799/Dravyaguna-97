@@ -24,7 +24,7 @@
     "distribution": ""
   },
   "identification": {
-    "description": "",
+    "description": "Tulsi (Ocimum sanctum) is known as the 'Queen of Herbs' in Ayurveda. It boosts immunity, combats respiratory disorders, and has adaptogenic properties.",
     "whole_plant": "",
     "root": "",
     "stem": "",
@@ -176,7 +176,7 @@
     "last_verified": "",
     "verified_by": "",
     "version": "1.2",
-    "last_enrichment": "blank structured fields cross-filled from supplementary open dataset; verified fields retained",
+    "last_enrichment": "2026-09-19: blank structured fields supplemented from a cited secondary dataset; existing content preserved.",
     "external_dataset_note": "Amidha v2.0 used only as a supplementary structured-data source; not treated as sole classical authority."
   },
   "category": "NCISM-97",
