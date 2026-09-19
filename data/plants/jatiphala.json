@@ -9,7 +9,11 @@
     "family": "Myristicaceae",
     "english_name": "Nutmeg",
     "hindi_name": "",
-    "regional_names": [],
+    "regional_names": [
+      "Jatikosha",
+      "Malatiphala",
+      "Putaphala"
+    ],
     "synonyms": [
       "Jatikosha",
       "Jatisasya",
@@ -180,7 +184,7 @@
     "verified_by": "",
     "version": "1.2",
     "image_enrichment_note": "HTTP Error 429: Too Many Requests",
-    "last_enrichment": "structured-field + image + reference enrichment + curated batch"
+    "last_enrichment": "2026-09-19: blank-field enrichment pass."
   },
   "category": "NCISM-97",
   "syllabus_marker": "NCISM-97"
