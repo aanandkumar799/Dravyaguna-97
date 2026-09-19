@@ -1,20 +1,256 @@
 {
-  "id":"bakuchi","order":45,
-  "identity":{"name":"Bakuchi","sanskrit_name":"बाकुची","transliteration":"Bākucī","botanical_name":"Cullen corylifolium (L.) Medik.","family":"Fabaceae","english_name":"Bakuchi / Babchi","hindi_name":"बावची / बाबची","regional_names":["Marathi: Bawchi","Telugu: Bavanchalu","Tamil: Karpokarisi"],"synonyms":["Avalguja","Somaraji","Somavalli","Kushtaghni"]},
-  "classification":{"kingdom":"Plantae","habit":"Erect aromatic annual herb","habitat":"Open fields and dry to semi-dry habitats in tropical and subtropical regions","distribution":"Native to the Indian region and cultivated/introduced elsewhere; distribution varies by source."},
-  "identification":{"description":"An erect herb with gland-dotted foliage and small flowers; the mature fruits/seeds are the characteristic crude drug material commonly encountered as Bakuchi.","whole_plant":"Erect annual herb, commonly around 0.3–1.8 m in classical drug descriptions; aromatic and gland-dotted.","root":"Slender taproot; detailed crude-drug authentication should follow pharmacopoeial standards.","stem":"Erect, branched, gland-dotted stem, becoming firmer toward maturity.","leaf":"Simple, alternate to subopposite leaves, broadly ovate and gland-dotted; surface may feel somewhat rough.","flower":"Small pale to bluish-purple flowers in axillary clusters/racemes.","fruit":"Small, dark, oblong to rounded pod-like legume enclosing a single seed.","seed":"Dark brown to blackish, rounded/oblong seed with a characteristic aromatic/oily character; seed is the principal traditional drug part.","bark":"Not a distinct bark-bearing woody drug; stem characters are secondary to seed identification.","identification_points":["Erect herb with gland-dotted leaves","Small bluish-purple flowers","Dark aromatic seeds","Seed is the commonly used medicinal part","Do not confuse authentic seed with visually similar adulterants"]},
-  "images":{"whole_plant":"images/plants/bakuchi.jpg","habit":"images/plants/bakuchi.jpg","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},
-  "dravya_guna":{"rasa":["Tikta","Katu"],"guna":["Laghu","Ruksha"],"virya":"Ushna","vipaka":"Katu","prabhava":["Kushtaghna","Varnya"],"karma":["Traditional use in skin disorders"]},
-  "dosha":{"vata":"aggravated","pitta":"aggravated","kapha":"pacified"},
-  "therapeutics":{"useful_part":["seed"],"indications":["Shvitra","Kushta","Krimi","Khalitya","Pandu"],"therapeutic_actions":["Traditional use in selected skin disorders, including Shvitra/Kushta","Traditional external use in selected preparations"],"dose":"No general oral dose supplied; use a verified formulation-specific reference.","anupana":"Not populated","duration":"Not populated","precautions":"Bakuchi can cause photosensitivity, especially with topical exposure to sunlight; oral preparations have also been associated with liver injury in modern safety reports. Use only under qualified supervision.","contraindications":"Avoid unsupervised use in pregnancy/breastfeeding, liver disease, or with photosensitising medicines; individual contraindications require clinical assessment."},
-  "formulations":[],
-  "classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[{"source":"Charaka Saṃhitā","references":["Sūtra Sthāna 2/24","Vimāna Sthāna 8/143","Cikitsā Sthāna 7/170–171"],"note":"References are recorded from the Charak Samhita Research, Training and Skill Development Centre herb database; exact verse text/edition should be checked before quotation."}],"shloka_reference_status":"Reference locations identified; exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas","Charak Samhita Research herb database"]},
-  "phytochemistry":{"major_constituents":["Bakuchiol","Psoralen","Isopsoralen","Psoralidin","Flavonoids","Fixed oil / essential oil components"],"chemical_notes":"Bakuchiol and furanocoumarins such as psoralen/isopsoralen are important reported constituents; these compounds are relevant to photosensitivity and should not be interpreted as automatically therapeutic."},
-  "modern_information":{"evidence_summary":"Bakuchi has a long traditional dermatological role. Modern literature has investigated bakuchiol and psoralen-related compounds, while safety literature highlights photosensitivity and possible hepatotoxicity; clinical use requires supervision.","recognized_uses":["Traditional dermatological use"],"safety_notes":"Photosensitisation is a major practical safety issue. Oral use should not be treated as automatically safe because a preparation is traditional; monitor clinically when indicated.","sources":["Charak Samhita herb database","Ayurvedic drug references","Recent medically reviewed safety summaries"]},
-  "student":{"exam_points":["Botanical name used in this dossier: Cullen corylifolium (L.) Medik.","Older literature commonly uses Psoralea corylifolia L.","Family: Fabaceae","Useful part: seed","Important synonyms: Avalguja, Somaraji","Traditional role: Kushtaghna / Shvitra management"],"viva_questions":["What is Bakuchi's botanical name?","Which older botanical name is commonly encountered?","Which family does Bakuchi belong to?","Which part is commonly used?","Name two important constituents.","Why is photosensitivity important with Bakuchi?"],"identification_points":["Gland-dotted leaves","Small purple/blue flowers","Dark aromatic seeds","Erect herb"],"mnemonics":["BAKUCHI = Black aromatic seed + Kushta care; remember photosensitivity"],"quick_revision":"Bakuchi is the Ayurvedic drug associated with Avalguja/Somaraji; modern nomenclature commonly uses Cullen corylifolium, while many classical and older pharmacognosy sources use Psoralea corylifolia. Seeds are the principal drug part and photosensitivity is an essential safety point."},
-  "teacher":{"teaching_points":["Teach the current and historical botanical names together to prevent confusion in textbooks and databases.","Demonstrate seed authentication and adulteration awareness.","Explain why traditional dermatological use does not remove the need for photoprotection."],"discussion_points":["Review Bakuchi references in Charaka Saṃhitā.","Discuss psoralen-mediated photosensitivity and the difference between PUVA-like controlled therapy and unsupervised exposure.","Discuss botanical nomenclature changes from Psoralea to Cullen."],"practical_points":["Compare authentic seeds with suspected adulterants.","Record seed colour, size, surface and odour.","Use authenticated material for crude-drug practicals and avoid direct sunlight exposure after topical preparations unless specifically directed by a qualified clinician."]},
-  "doctor":{"quick_reference":"Bakuchi seed; Fabaceae. Traditional profile: Tikta-Katu rasa, Laghu-Ruksha guna, Ushna virya, Katu vipaka. Traditional dermatological use is documented, but safety requires particular attention to photosensitivity and liver risk.","important_indications":["Shvitra","Kushta","Krimi","Khalitya"],"useful_part":"seed","dose":"Not supplied in this educational dossier.","anupana":"Not supplied","key_precautions":["Photosensitivity can occur; counsel regarding sunlight exposure when relevant.","Consider liver safety before internal use.","Avoid unsupervised combination with other photosensitising agents.","Verify botanical identity and formulation before prescribing."]},
-  "sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"classical_database","title":"Bakuchi — Charak Samhita Research, Training and Skill Development Centre","url":"https://www.carakasamhitaonline.com/index.php?title=Bakuchi"},{"type":"academic_college","title":"Bakuchi — Shri Dhanwantry Ayurvedic College & Hospital","url":"https://www.sdach.ac.in/about-dravyaguna-vigyan/dravyaguna-vigyan-blogs/bakuchi/"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"image","title":"Wikimedia Commons","url":"https://commons.wikimedia.org/wiki/File:Bawchi_Seeds.jpg","license_note":"Check the original file page for current license/attribution requirements."}],
-  "metadata":{"status":"quality_pass_with_classical_text_pending","last_verified":"2026-09-17","verified_by":"source-assisted dossier pass","version":"1.3","image_enrichment_note":"Existing local image retained; additional part-specific verified images remain to be curated.","last_enrichment":"dossier completion batch"},
-  "category":"NCISM-97","syllabus_marker":"NCISM-97"
+  "id": "bakuchi",
+  "order": 45,
+  "identity": {
+    "name": "Bakuchi",
+    "sanskrit_name": "बाकुची",
+    "transliteration": "Bākucī",
+    "botanical_name": "Cullen corylifolium (L.) Medik.",
+    "family": "Fabaceae",
+    "english_name": "Bakuchi / Babchi",
+    "hindi_name": "बावची / बाबची",
+    "regional_names": [
+      "Marathi: Bawchi",
+      "Telugu: Bavanchalu",
+      "Tamil: Karpokarisi"
+    ],
+    "synonyms": [
+      "Avalguja",
+      "Somaraji",
+      "Somavalli",
+      "Kushtaghni"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Erect aromatic annual herb",
+    "habitat": "Open fields and dry to semi-dry habitats in tropical and subtropical regions",
+    "distribution": "Native to the Indian region and cultivated/introduced elsewhere; distribution varies by source."
+  },
+  "identification": {
+    "description": "An erect herb with gland-dotted foliage and small flowers; the mature fruits/seeds are the characteristic crude drug material commonly encountered as Bakuchi.",
+    "whole_plant": "Erect annual herb, commonly around 0.3–1.8 m in classical drug descriptions; aromatic and gland-dotted.",
+    "root": "Slender taproot; detailed crude-drug authentication should follow pharmacopoeial standards.",
+    "stem": "Erect, branched, gland-dotted stem, becoming firmer toward maturity.",
+    "leaf": "Simple, alternate to subopposite leaves, broadly ovate and gland-dotted; surface may feel somewhat rough.",
+    "flower": "Small pale to bluish-purple flowers in axillary clusters/racemes.",
+    "fruit": "Small, dark, oblong to rounded pod-like legume enclosing a single seed.",
+    "seed": "Dark brown to blackish, rounded/oblong seed with a characteristic aromatic/oily character; seed is the principal traditional drug part.",
+    "bark": "Not a distinct bark-bearing woody drug; stem characters are secondary to seed identification.",
+    "identification_points": [
+      "Erect herb with gland-dotted leaves",
+      "Small bluish-purple flowers",
+      "Dark aromatic seeds",
+      "Seed is the commonly used medicinal part",
+      "Do not confuse authentic seed with visually similar adulterants"
+    ]
+  },
+  "images": {
+    "whole_plant": "images/plants/bakuchi.jpg",
+    "habit": "images/plants/bakuchi.jpg",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Tikta",
+      "Katu"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": [
+      "Kushtaghna",
+      "Varnya"
+    ],
+    "karma": [
+      "Traditional use in skin disorders"
+    ]
+  },
+  "dosha": {
+    "vata": "aggravated",
+    "pitta": "aggravated",
+    "kapha": "pacified"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "seed"
+    ],
+    "indications": [
+      "Shvitra",
+      "Kushta",
+      "Krimi",
+      "Khalitya",
+      "Pandu"
+    ],
+    "therapeutic_actions": [
+      "Traditional use in selected skin disorders, including Shvitra/Kushta",
+      "Traditional external use in selected preparations"
+    ],
+    "dose": "No general oral dose supplied; use a verified formulation-specific reference.",
+    "anupana": "Not populated",
+    "duration": "Not populated",
+    "precautions": "Bakuchi can cause photosensitivity, especially with topical exposure to sunlight; oral preparations have also been associated with liver injury in modern safety reports. Use only under qualified supervision.",
+    "contraindications": "Avoid unsupervised use in pregnancy/breastfeeding, liver disease, or with photosensitising medicines; individual contraindications require clinical assessment."
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [
+      {
+        "source": "Charaka Saṃhitā",
+        "references": [
+          "Sūtra Sthāna 2/24",
+          "Vimāna Sthāna 8/143",
+          "Cikitsā Sthāna 7/170–171"
+        ],
+        "note": "References are recorded from the Charak Samhita Research, Training and Skill Development Centre herb database; exact verse text/edition should be checked before quotation."
+      }
+    ],
+    "shloka_reference_status": "Reference locations identified; exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas",
+      "Charak Samhita Research herb database"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "Bakuchiol",
+      "Psoralen",
+      "Isopsoralen",
+      "Psoralidin",
+      "Flavonoids",
+      "Fixed oil / essential oil components"
+    ],
+    "chemical_notes": "Bakuchiol and furanocoumarins such as psoralen/isopsoralen are important reported constituents; these compounds are relevant to photosensitivity and should not be interpreted as automatically therapeutic."
+  },
+  "modern_information": {
+    "evidence_summary": "Bakuchi has a long traditional dermatological role. Modern literature has investigated bakuchiol and psoralen-related compounds, while safety literature highlights photosensitivity and possible hepatotoxicity; clinical use requires supervision.",
+    "recognized_uses": [
+      "Traditional dermatological use"
+    ],
+    "safety_notes": "Photosensitisation is a major practical safety issue. Oral use should not be treated as automatically safe because a preparation is traditional; monitor clinically when indicated.",
+    "sources": [
+      "Charak Samhita herb database",
+      "Ayurvedic drug references",
+      "Recent medically reviewed safety summaries"
+    ]
+  },
+  "student": {
+    "exam_points": [
+      "Botanical name used in this dossier: Cullen corylifolium (L.) Medik.",
+      "Older literature commonly uses Psoralea corylifolia L.",
+      "Family: Fabaceae",
+      "Useful part: seed",
+      "Important synonyms: Avalguja, Somaraji",
+      "Traditional role: Kushtaghna / Shvitra management"
+    ],
+    "viva_questions": [
+      "What is Bakuchi's botanical name?",
+      "Which older botanical name is commonly encountered?",
+      "Which family does Bakuchi belong to?",
+      "Which part is commonly used?",
+      "Name two important constituents.",
+      "Why is photosensitivity important with Bakuchi?"
+    ],
+    "identification_points": [
+      "Gland-dotted leaves",
+      "Small purple/blue flowers",
+      "Dark aromatic seeds",
+      "Erect herb"
+    ],
+    "mnemonics": [
+      "BAKUCHI = Black aromatic seed + Kushta care; remember photosensitivity"
+    ],
+    "quick_revision": "Bakuchi is the Ayurvedic drug associated with Avalguja/Somaraji; modern nomenclature commonly uses Cullen corylifolium, while many classical and older pharmacognosy sources use Psoralea corylifolia. Seeds are the principal drug part and photosensitivity is an essential safety point."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Teach the current and historical botanical names together to prevent confusion in textbooks and databases.",
+      "Demonstrate seed authentication and adulteration awareness.",
+      "Explain why traditional dermatological use does not remove the need for photoprotection."
+    ],
+    "discussion_points": [
+      "Review Bakuchi references in Charaka Saṃhitā.",
+      "Discuss psoralen-mediated photosensitivity and the difference between PUVA-like controlled therapy and unsupervised exposure.",
+      "Discuss botanical nomenclature changes from Psoralea to Cullen."
+    ],
+    "practical_points": [
+      "Compare authentic seeds with suspected adulterants.",
+      "Record seed colour, size, surface and odour.",
+      "Use authenticated material for crude-drug practicals and avoid direct sunlight exposure after topical preparations unless specifically directed by a qualified clinician."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Bakuchi seed; Fabaceae. Traditional profile: Tikta-Katu rasa, Laghu-Ruksha guna, Ushna virya, Katu vipaka. Traditional dermatological use is documented, but safety requires particular attention to photosensitivity and liver risk.",
+    "important_indications": [
+      "Shvitra",
+      "Kushta",
+      "Krimi",
+      "Khalitya"
+    ],
+    "useful_part": "seed",
+    "dose": "Not supplied in this educational dossier.",
+    "anupana": "Not supplied",
+    "key_precautions": [
+      "Photosensitivity can occur; counsel regarding sunlight exposure when relevant.",
+      "Consider liver safety before internal use.",
+      "Avoid unsupervised combination with other photosensitising agents.",
+      "Verify botanical identity and formulation before prescribing."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "classical_database",
+      "title": "Bakuchi — Charak Samhita Research, Training and Skill Development Centre",
+      "url": "https://www.carakasamhitaonline.com/index.php?title=Bakuchi"
+    },
+    {
+      "type": "academic_college",
+      "title": "Bakuchi — Shri Dhanwantry Ayurvedic College & Hospital",
+      "url": "https://www.sdach.ac.in/about-dravyaguna-vigyan/dravyaguna-vigyan-blogs/bakuchi/"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "image",
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Bawchi_Seeds.jpg",
+      "license_note": "Check the original file page for current license/attribution requirements."
+    },
+    {
+      "type": "secondary_structured_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Secondary source used only for blank structured fields."
+    }
+  ],
+  "metadata": {
+    "status": "quality_pass_with_classical_text_pending",
+    "last_verified": "2026-09-17",
+    "verified_by": "source-assisted dossier pass",
+    "version": "1.3",
+    "image_enrichment_note": "Existing local image retained; additional part-specific verified images remain to be curated.",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass."
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
 }
