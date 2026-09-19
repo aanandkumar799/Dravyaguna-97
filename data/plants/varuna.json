@@ -1,1 +1,214 @@
-{"id":"varuna","order":92,"identity":{"name":"Varuna","sanskrit_name":"वरुण","transliteration":"Varuna","botanical_name":"Crataeva nurvala Buch.-Ham.","family":"Capparaceae","english_name":"Three-leaved Caper","hindi_name":"वरुण","regional_names":[],"synonyms":["Tiktashaka","Setu","Ashmarighna","Kumara"]},"classification":{"kingdom":"Plantae","habit":"Small to medium deciduous tree","habitat":"Riverbanks, moist areas and tropical/subtropical woodland","distribution":"Indian subcontinent"},"identification":{"description":"Deciduous tree with characteristic trifoliate leaves and showy flowers.","whole_plant":"Small to medium tree with spreading crown.","root":"Woody branched roots.","stem":"Grey-brown trunk with branching crown.","leaf":"Trifoliate leaves with three leaflets arising from a common petiole.","flower":"Showy flowers with numerous prominent stamens, often white to yellowish with changing colour tones.","fruit":"Rounded to ovoid berry-like fruit.","seed":"Numerous seeds embedded in fleshy fruit.","bark":"Grey-brown bark; stem bark is the principal traditional drug part.","identification_points":["Trifoliate leaves","Prominent stamens","Rounded fruits","Stem bark drug"]},"images":{"whole_plant":"","habit":"","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},"dravya_guna":{"rasa":["Tikta","Kashaya"],"guna":["Laghu","Ruksha"],"virya":"Ushna","vipaka":"Katu","prabhava":["Mutrala","Ashmaribhedana","Deepana"],"karma":[]},"dosha":{"vata":"pacified","pitta":"aggravated","kapha":"pacified"},"therapeutics":{"useful_part":["stem bark"],"indications":["Ashmari","Mutrakrichha","Vidradhi","Vata Vyadhi","Gulma"],"therapeutic_actions":["Traditional urinary-supportive use","Ashmaribhedana context"],"dose":"","anupana":"","duration":"","precautions":"Use authenticated stem bark and avoid equating traditional stone-related use with guaranteed stone dissolution.","contraindications":""},"formulations":[],"classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},"phytochemistry":{"major_constituents":["Flavonoid and triterpenoid constituents reported from bark studies"],"chemical_notes":"Composition depends on plant part and extraction."},"modern_information":{"evidence_summary":"Crataeva nurvala has been investigated for urinary and phytochemical properties; evidence should be interpreted by preparation and study design.","recognized_uses":[],"safety_notes":"Urinary obstruction or suspected stones require appropriate clinical assessment; do not substitute herbal use for evaluation of acute symptoms.","sources":[]},"student":{"exam_points":["Botanical name: Crataeva nurvala","Family: Capparaceae","Useful part: stem bark","Trifoliate leaves are a key identification character"],"viva_questions":["Which part of Varuna is commonly used?","What is its botanical name?","What is a distinctive leaf character?"],"identification_points":["Three leaflets","Showy staminate flowers","Stem bark"],"mnemonics":["VARUNA = three leaflets + urinary traditional use"],"quick_revision":"Varuna — Crataeva nurvala — Capparaceae — stem bark — Mutrala/Ashmaribhedana."},"teacher":{"teaching_points":["Demonstrate trifoliate leaf and flower morphology","Discuss bark authentication"],"discussion_points":["Urinary-drug pharmacognosy","Substitution and sustainable bark collection"],"practical_points":["Observe three-leaflet arrangement","Examine bark macroscopic characters"]},"doctor":{"quick_reference":"Stem bark traditionally used in urinary and Ashmari-related presentations.","important_indications":["Ashmari","Mutrakrichha","Vidradhi"],"useful_part":"stem bark","dose":"","anupana":"","key_precautions":["Do not delay evaluation of urinary obstruction","Use authenticated bark"]},"sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"pharmacopoeial_reference","title":"PCIM&H Ayurvedic Pharmacopoeia of India","url":"https://pcimh.gov.in/"}],"metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3","image_enrichment_note":"Verified image registry remains separate","last_enrichment":"structured identification + teaching + clinical-reference enrichment"},"category":"NCISM-97","syllabus_marker":"NCISM-97"}
+{
+  "id": "varuna",
+  "order": 92,
+  "identity": {
+    "name": "Varuna",
+    "sanskrit_name": "वरुण",
+    "transliteration": "Varuna",
+    "botanical_name": "Crataeva nurvala Buch.-Ham.",
+    "family": "Capparaceae",
+    "english_name": "Three-leaved Caper",
+    "hindi_name": "वरुण",
+    "regional_names": [
+      "Tiktashaka",
+      "Setu",
+      "Ashmarighna",
+      "Kumara"
+    ],
+    "synonyms": [
+      "Tiktashaka",
+      "Setu",
+      "Ashmarighna",
+      "Kumara"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Small to medium deciduous tree",
+    "habitat": "Riverbanks, moist areas and tropical/subtropical woodland",
+    "distribution": "Indian subcontinent"
+  },
+  "identification": {
+    "description": "Deciduous tree with characteristic trifoliate leaves and showy flowers.",
+    "whole_plant": "Small to medium tree with spreading crown.",
+    "root": "Woody branched roots.",
+    "stem": "Grey-brown trunk with branching crown.",
+    "leaf": "Trifoliate leaves with three leaflets arising from a common petiole.",
+    "flower": "Showy flowers with numerous prominent stamens, often white to yellowish with changing colour tones.",
+    "fruit": "Rounded to ovoid berry-like fruit.",
+    "seed": "Numerous seeds embedded in fleshy fruit.",
+    "bark": "Grey-brown bark; stem bark is the principal traditional drug part.",
+    "identification_points": [
+      "Trifoliate leaves",
+      "Prominent stamens",
+      "Rounded fruits",
+      "Stem bark drug"
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "Tikta",
+      "Kashaya"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": [
+      "Mutrala",
+      "Ashmaribhedana",
+      "Deepana"
+    ],
+    "karma": [
+      "Mutrala",
+      "Ashmaribhedana",
+      "Deepana"
+    ]
+  },
+  "dosha": {
+    "vata": "pacified",
+    "pitta": "aggravated",
+    "kapha": "pacified"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "stem bark"
+    ],
+    "indications": [
+      "Ashmari",
+      "Mutrakrichha",
+      "Vidradhi",
+      "Vata Vyadhi",
+      "Gulma"
+    ],
+    "therapeutic_actions": [
+      "Traditional urinary-supportive use",
+      "Ashmaribhedana context"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Use authenticated stem bark and avoid equating traditional stone-related use with guaranteed stone dissolution.",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "Flavonoid and triterpenoid constituents reported from bark studies"
+    ],
+    "chemical_notes": "Composition depends on plant part and extraction."
+  },
+  "modern_information": {
+    "evidence_summary": "Crataeva nurvala has been investigated for urinary and phytochemical properties; evidence should be interpreted by preparation and study design.",
+    "recognized_uses": [],
+    "safety_notes": "Urinary obstruction or suspected stones require appropriate clinical assessment; do not substitute herbal use for evaluation of acute symptoms.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Botanical name: Crataeva nurvala",
+      "Family: Capparaceae",
+      "Useful part: stem bark",
+      "Trifoliate leaves are a key identification character"
+    ],
+    "viva_questions": [
+      "Which part of Varuna is commonly used?",
+      "What is its botanical name?",
+      "What is a distinctive leaf character?"
+    ],
+    "identification_points": [
+      "Three leaflets",
+      "Showy staminate flowers",
+      "Stem bark"
+    ],
+    "mnemonics": [
+      "VARUNA = three leaflets + urinary traditional use"
+    ],
+    "quick_revision": "Varuna — Crataeva nurvala — Capparaceae — stem bark — Mutrala/Ashmaribhedana."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Demonstrate trifoliate leaf and flower morphology",
+      "Discuss bark authentication"
+    ],
+    "discussion_points": [
+      "Urinary-drug pharmacognosy",
+      "Substitution and sustainable bark collection"
+    ],
+    "practical_points": [
+      "Observe three-leaflet arrangement",
+      "Examine bark macroscopic characters"
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Stem bark traditionally used in urinary and Ashmari-related presentations.",
+    "important_indications": [
+      "Ashmari",
+      "Mutrakrichha",
+      "Vidradhi"
+    ],
+    "useful_part": "stem bark",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Do not delay evaluation of urinary obstruction",
+      "Use authenticated bark"
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "pharmacopoeial_reference",
+      "title": "PCIM&H Ayurvedic Pharmacopoeia of India",
+      "url": "https://pcimh.gov.in/"
+    },
+    {
+      "type": "secondary_structured_dataset",
+      "title": "Amidha Ayurveda Herb Database v2.0",
+      "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+      "license": "CC BY 4.0",
+      "note": "Secondary source used only for blank structured fields."
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "Project editorial pass",
+    "version": "1.3",
+    "image_enrichment_note": "Verified image registry remains separate",
+    "last_enrichment": "2026-09-19: blank-field enrichment pass."
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}
