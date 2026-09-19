@@ -5,6 +5,19 @@ from datetime import datetime, timezone
 
 ROOT=Path(__file__).resolve().parents[1]; INDEX=ROOT/'plant-index.json'; PLANTS_DIR=ROOT/'data'/'plants'; MANIFEST=ROOT/'data'/'curated-image-manifest.json'; REPORT=ROOT/'data'/'image-audit-report.json'; IMAGE_ROOT=ROOT/'images'/'plants'
 PARTS=['whole_plant','habit','root','stem','leaf','flower','fruit','seed','bark']
+APPROVED_GALLERY_PARTS = {
+    'amalaki': {'whole_plant','habit','root','stem','leaf','flower','fruit','seed','bark'},
+    'agnimantha': {'whole_plant','stem','leaf','flower','fruit','seed','bark','root'},
+    'ashwagandha': {'whole_plant','leaf','flower','fruit','root','seed','stem'},
+    'arjuna': {'whole_plant','leaf','flower','fruit','root','seed','stem','bark'},
+    'ashoka': {'whole_plant','leaf','flower','fruit','seed','stem','bark','root'},
+    'ativisha': {'whole_plant','flower','root','stem'},
+    'bala': {'whole_plant','leaf','flower','fruit','root','seed','stem'},
+    'bhringaraja': {'whole_plant','leaf','flower','fruit','root','seed','stem'},
+    'beejaka': {'whole_plant','leaf','flower','fruit','seed','stem','bark'},
+    'isabgol': {'whole_plant','leaf','flower','fruit','seed','stem'},
+}
+BATCH_IDS = set(APPROVED_GALLERY_PARTS)
 PART_WORDS={'root':['root','roots'],'stem':['stem','stems','twig','twigs'],'leaf':['leaf','leaves','foliage'],'flower':['flower','flowers','inflorescence','blossom'],'fruit':['fruit','fruits','pod','pods','berry','berries','capsule'],'seed':['seed','seeds','nut','nuts'],'bark':['bark','trunk','trunks'],'whole_plant':['whole plant','entire plant','plant specimen'],'habit':['habit','growth form','tree','shrub','herb','climber','vine']}
 PART_EXCLUDE={'whole_plant':['leaf','flower','fruit','seed','root','bark','stem','twig','trunk'],'habit':['leaf','flower','fruit','seed','root','bark','stem','twig','trunk']}
 BAD=re.compile(r'\b(diagram|map|microscope|illustration|drawing|icon|logo|chart|anatomy|cross[- ]section|histology|chemical|medicine|tablet|capsule|powder|poster|herbarium\s+sheet)\b',re.I)
@@ -88,8 +101,10 @@ def main():
         for k in ('source_url','source_media_url'):
             if r.get(k):used_sources.add(str(r[k]))
     for ref in core:
-        pid=str(ref['id']); fp=PLANTS_DIR/f'{pid}.json'; p=json.loads(fp.read_text(encoding='utf-8')) if fp.exists() else {}; botanical=str((p.get('identity') or {}).get('botanical_name') or ref.get('botanical_name') or '').strip()
+        pid=str(ref['id']);
+        if pid not in BATCH_IDS: continue fp=PLANTS_DIR/f'{pid}.json'; p=json.loads(fp.read_text(encoding='utf-8')) if fp.exists() else {}; botanical=str((p.get('identity') or {}).get('botanical_name') or ref.get('botanical_name') or '').strip()
         for part in PARTS:
+            if part not in APPROVED_GALLERY_PARTS[pid]: continue
             r=by_key.get((pid,part))
             if not r:
                 r={'plant_id':pid,'ncism_order':ref.get('order'),'plant_name':ref.get('name'),'botanical_name':botanical,'part':part,'image_path':'','source_url':'','source_name':'','license':'','author':'','verified_botanical_name':'','verification_status':'missing-queued'}; records.append(r); by_key[(pid,part)]=r; changed=True
@@ -110,6 +125,6 @@ def main():
             used_sources.update((best['page'],best['url'])); r.update({'image_path':local,'source_media_url':best['url'],'source_url':best['page'],'source_name':best['source'],'license':best['license'],'author':best['author'],'verified_botanical_name':botanical,'verification_status':'verified-local','title':best['title']}); filled.append({'plant_id':pid,'part':part,'action':'downloaded-new-image','path':local,'bytes':size}); changed=True
     manifest['version']=5; manifest['parts']=PARTS; manifest['policy']={'exact_species_required':True,'part_specific_required':True,'source_license_required':True,'global_duplicates_forbidden':True,'ai_only_matches_forbidden':True,'wrong_image_preferred_over_missing':False,'old_registry_reverification_required':True,'local_assets_required':True,'additional_sources':['Wikimedia Commons','iNaturalist']}; manifest['records']=sorted(records,key=lambda r:(int(r.get('ncism_order') or 9999),PARTS.index(r.get('part')) if r.get('part') in PARTS else 99)); MANIFEST.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     remaining=sum(1 for r in manifest['records'] if not r.get('image_path') or r.get('verification_status')!='verified-local')
-    REPORT.write_text(json.dumps({'generated_at':datetime.now(timezone.utc).isoformat(),'plants_checked':len(core),'slots_checked':len(core)*len(PARTS),'filled_this_run':filled,'unresolved':unresolved,'remaining_missing':remaining,'local_asset_root':'images/plants/<plant>/<part>/image.*','policy':manifest['policy']},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    REPORT.write_text(json.dumps({'generated_at':datetime.now(timezone.utc).isoformat(),'plants_checked':len(BATCH_IDS),'slots_checked':sum(len(APPROVED_GALLERY_PARTS.get(str(x.get('id')),set())) for x in core),'filled_this_run':filled,'unresolved':unresolved,'remaining_missing':remaining,'local_asset_root':'images/plants/<plant>/<part>/image.*','policy':manifest['policy']},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps({'changed':changed,'filled':len(filled),'remaining_missing':remaining},indent=2))
 if __name__=='__main__':main()
