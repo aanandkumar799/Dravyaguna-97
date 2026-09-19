@@ -1,1 +1,205 @@
-{"id":"shalmali-mocharasa","order":81,"identity":{"name":"Shalmali (Mocharasa)","sanskrit_name":"शाल्मली (मोचरसा)","transliteration":"Shalmali Mocharasa","botanical_name":"Bombax ceiba L.","family":"Malvaceae","english_name":"Silk Cotton Tree Resin","hindi_name":"सेमल","regional_names":[],"synonyms":["Shalmali Niryasa","Pichhila","Raktapushpa","Kantakadruma"]},"classification":{"kingdom":"Plantae","habit":"Large deciduous tree","habitat":"Tropical and subtropical plains, forests and riverine areas","distribution":"Widespread in the Indian subcontinent"},"identification":{"description":"Large spiny deciduous tree with palmate leaves and conspicuous flowers; Mocharasa is the plant exudate.","whole_plant":"Large tree with a broad crown and often conspicuously spiny trunk when young.","root":"Large woody root system.","stem":"Young trunk often bears conical prickles; mature bark becomes greyish.","leaf":"Palmately compound leaves with several lanceolate leaflets, often shed seasonally.","flower":"Large showy red to orange-red flowers appearing prominently on leafless branches.","fruit":"Large ovoid capsule containing numerous seeds embedded in silky floss.","seed":"Small blackish seeds surrounded by silky fibres.","bark":"Grey bark; exudate (Mocharasa) may emerge from wounded bark.","identification_points":["Spiny young trunk","Palmate leaves","Large red flowers","Silky floss in fruit","Mocharasa exudate"]},"images":{"whole_plant":"","habit":"","root":"","stem":"","leaf":"","flower":"","fruit":"","seed":"","bark":""},"dravya_guna":{"rasa":["madhura","kashaya"],"guna":["guru","snigdha","picchila"],"virya":"sheeta","vipaka":"madhura","prabhava":["Stambhana","Raktaprasadana"],"karma":[]},"dosha":{"vata":"not specifically documented in imported dataset","pitta":"pacified","kapha":"aggravated"},"therapeutics":{"useful_part":["gum (Mocharasa)","bark","flower","root"],"indications":["Atisara","Pravahika","Pradara","Raktapitta","Vrana"],"therapeutic_actions":["Stambhana","Traditional wound-supportive use"],"dose":"","anupana":"","duration":"","precautions":"Use authenticated exudate; avoid assuming all Bombax products are equivalent.","contraindications":""},"formulations":[],"classical_reference":{"shlokas":[],"nighantu_references":[],"samhita_references":[],"shloka_reference_status":"exact verse/edition requires text-level verification","reference_hubs":["TDU Indian Medicinal Plants Database — Shlokas"]},"phytochemistry":{"major_constituents":["Polysaccharide/gum fractions reported in exudate studies"],"chemical_notes":"Composition varies with source and processing."},"modern_information":{"evidence_summary":"Bombax ceiba is studied for phytochemical and traditional medicinal properties; evidence should be interpreted by plant part and preparation.","recognized_uses":[],"safety_notes":"Authenticate Mocharasa and distinguish it from other plant gums.","sources":[]},"student":{"exam_points":["Botanical name: Bombax ceiba","Family: Malvaceae","Mocharasa = plant exudate","Young trunk commonly spiny","Fruit contains silky floss"],"viva_questions":["What is Mocharasa?","What is the botanical name of Shalmali?","Which family does it belong to?"],"identification_points":["Spiny trunk","Red flowers","Silky floss"],"mnemonics":["SHALMALI = spikes + scarlet flowers + silk floss"],"quick_revision":"Shalmali — Bombax ceiba — Malvaceae — Mocharasa exudate."},"teacher":{"teaching_points":["Show whole tree, flower and Mocharasa samples","Differentiate plant drug from exudate"],"discussion_points":["Authentication of gums and exudates","Plant-part-specific pharmacognosy"],"practical_points":["Observe exudate colour, odour and consistency","Examine fruit and floss characters"]},"doctor":{"quick_reference":"Mocharasa is the exudate associated with Shalmali and has traditional stambhana applications.","important_indications":["Atisara","Pravahika","Pradara","Raktapitta"],"useful_part":"gum (Mocharasa)","dose":"","anupana":"","key_precautions":["Authenticate exudate","Do not substitute unrelated gums"]},"sources":[{"type":"official_syllabus","title":"NCISM II BAMS Dravyaguna Vigyan curriculum","url":"https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"},{"type":"medicinal_plants_database","title":"TDU Indian Medicinal Plants Database","url":"https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"},{"type":"pharmacopoeial_reference","title":"PCIM&H Ayurvedic Pharmacopoeia of India","url":"https://pcimh.gov.in/"}],"metadata":{"status":"enriched_needs_text_cross_check","last_verified":"2026-09-17","verified_by":"Project editorial pass","version":"1.3","image_enrichment_note":"Verified image registry remains separate","last_enrichment":"structured identification + teaching + clinical-reference enrichment","panchaka_correction":"2026-09-16 audit correction; source-reviewed classical profile"},"category":"NCISM-97","syllabus_marker":"NCISM-97"}
+{
+  "id": "shalmali-mocharasa",
+  "order": 81,
+  "identity": {
+    "name": "Shalmali (Mocharasa)",
+    "sanskrit_name": "शाल्मली (मोचरसा)",
+    "transliteration": "Shalmali Mocharasa",
+    "botanical_name": "Bombax ceiba L.",
+    "family": "Malvaceae",
+    "english_name": "Silk Cotton Tree Resin",
+    "hindi_name": "सेमल",
+    "regional_names": [],
+    "synonyms": [
+      "Shalmali Niryasa",
+      "Pichhila",
+      "Raktapushpa",
+      "Kantakadruma"
+    ]
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "Large deciduous tree",
+    "habitat": "Tropical and subtropical plains, forests and riverine areas",
+    "distribution": "Widespread in the Indian subcontinent"
+  },
+  "identification": {
+    "description": "Large spiny deciduous tree with palmate leaves and conspicuous flowers; Mocharasa is the plant exudate.",
+    "whole_plant": "Large tree with a broad crown and often conspicuously spiny trunk when young.",
+    "root": "Large woody root system.",
+    "stem": "Young trunk often bears conical prickles; mature bark becomes greyish.",
+    "leaf": "Palmately compound leaves with several lanceolate leaflets, often shed seasonally.",
+    "flower": "Large showy red to orange-red flowers appearing prominently on leafless branches.",
+    "fruit": "Large ovoid capsule containing numerous seeds embedded in silky floss.",
+    "seed": "Small blackish seeds surrounded by silky fibres.",
+    "bark": "Grey bark; exudate (Mocharasa) may emerge from wounded bark.",
+    "identification_points": [
+      "Spiny young trunk",
+      "Palmate leaves",
+      "Large red flowers",
+      "Silky floss in fruit",
+      "Mocharasa exudate"
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [
+      "madhura",
+      "kashaya"
+    ],
+    "guna": [
+      "guru",
+      "snigdha",
+      "picchila"
+    ],
+    "virya": "sheeta",
+    "vipaka": "madhura",
+    "prabhava": [
+      "Stambhana",
+      "Raktaprasadana"
+    ],
+    "karma": []
+  },
+  "dosha": {
+    "vata": "not specifically documented in imported dataset",
+    "pitta": "pacified",
+    "kapha": "aggravated"
+  },
+  "therapeutics": {
+    "useful_part": [
+      "gum (Mocharasa)",
+      "bark",
+      "flower",
+      "root"
+    ],
+    "indications": [
+      "Atisara",
+      "Pravahika",
+      "Pradara",
+      "Raktapitta",
+      "Vrana"
+    ],
+    "therapeutic_actions": [
+      "Stambhana",
+      "Traditional wound-supportive use"
+    ],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Use authenticated exudate; avoid assuming all Bombax products are equivalent.",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "exact verse/edition requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — Shlokas"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [
+      "Polysaccharide/gum fractions reported in exudate studies"
+    ],
+    "chemical_notes": "Composition varies with source and processing."
+  },
+  "modern_information": {
+    "evidence_summary": "Bombax ceiba is studied for phytochemical and traditional medicinal properties; evidence should be interpreted by plant part and preparation.",
+    "recognized_uses": [],
+    "safety_notes": "Authenticate Mocharasa and distinguish it from other plant gums.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Botanical name: Bombax ceiba",
+      "Family: Malvaceae",
+      "Mocharasa = plant exudate",
+      "Young trunk commonly spiny",
+      "Fruit contains silky floss"
+    ],
+    "viva_questions": [
+      "What is Mocharasa?",
+      "What is the botanical name of Shalmali?",
+      "Which family does it belong to?"
+    ],
+    "identification_points": [
+      "Spiny trunk",
+      "Red flowers",
+      "Silky floss"
+    ],
+    "mnemonics": [
+      "SHALMALI = spikes + scarlet flowers + silk floss"
+    ],
+    "quick_revision": "Shalmali — Bombax ceiba — Malvaceae — Mocharasa exudate."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Show whole tree, flower and Mocharasa samples",
+      "Differentiate plant drug from exudate"
+    ],
+    "discussion_points": [
+      "Authentication of gums and exudates",
+      "Plant-part-specific pharmacognosy"
+    ],
+    "practical_points": [
+      "Observe exudate colour, odour and consistency",
+      "Examine fruit and floss characters"
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Mocharasa is the exudate associated with Shalmali and has traditional stambhana applications.",
+    "important_indications": [
+      "Atisara",
+      "Pravahika",
+      "Pradara",
+      "Raktapitta"
+    ],
+    "useful_part": "gum (Mocharasa)",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Authenticate exudate",
+      "Do not substitute unrelated gums"
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_syllabus",
+      "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+      "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+    },
+    {
+      "type": "medicinal_plants_database",
+      "title": "TDU Indian Medicinal Plants Database",
+      "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+    },
+    {
+      "type": "pharmacopoeial_reference",
+      "title": "PCIM&H Ayurvedic Pharmacopoeia of India",
+      "url": "https://pcimh.gov.in/"
+    }
+  ],
+  "metadata": {
+    "status": "enriched_needs_text_cross_check",
+    "last_verified": "2026-09-17",
+    "verified_by": "Project editorial pass",
+    "version": "1.3",
+    "image_enrichment_note": "Verified image registry remains separate",
+    "last_enrichment": "structured identification + teaching + clinical-reference enrichment",
+    "panchaka_correction": "2026-09-16 audit correction; source-reviewed classical profile"
+  },
+  "category": "NCISM-97",
+  "syllabus_marker": "NCISM-97"
+}
