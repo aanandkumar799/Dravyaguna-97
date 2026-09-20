@@ -8,4 +8,3 @@ window.DRAVYAGUNA_FIREBASE_CONFIG = {
   appId: "1:84513350587:web:a2a77be972725efe61da9e",
   measurementId: "G-PCL9S31RW9"
 };
-window.DRAVYAGUNA_FEEDBACK_ADMIN_EMAIL = "aanandkumar799@gmail.com";
