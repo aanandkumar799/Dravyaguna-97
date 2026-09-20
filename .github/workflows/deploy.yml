@@ -24,6 +24,16 @@ jobs:
         shell: bash
         run: |
           rm -rf _site && mkdir -p _site
+          python -m pip install --disable-pip-version-check --quiet cairosvg
+          python - <<'PY'
+          from pathlib import Path
+          import cairosvg
+          src=Path('favicon.svg')
+          out=Path('images')
+          out.mkdir(exist_ok=True)
+          for size,name in [(192,'icon-192.png'),(512,'icon-512.png')]:
+              cairosvg.svg2png(url=str(src),write_to=str(out/name),output_width=size,output_height=size)
+          PY
           tar --exclude='./.git' --exclude='./.github' --exclude='./_site' -cf - . | tar -xf - -C _site
           python - <<'PY'
           import json,re,os
@@ -68,8 +78,9 @@ jobs:
               page.write_text(html,encoding='utf-8')
           m=json.loads((root/'manifest.json').read_text(encoding='utf-8'))
           icon_src={str(i.get('src')) for i in m.get('icons',[])}
-          assert 'images/favicon.png' in icon_src, 'Manifest must reference the real favicon PNG'
-          assert any('192x192' in str(i.get('sizes','')) and '512x512' in str(i.get('sizes','')) for i in m.get('icons',[])), 'Manifest must expose 192x192 and 512x512 icon sizes'
+          assert {'images/icon-192.png','images/icon-512.png'}.issubset(icon_src), 'Manifest must expose generated 192x192 and 512x512 icons'
+          for icon in ['images/icon-192.png','images/icon-512.png']:
+              assert (root/icon).is_file(), f'Missing generated PWA icon: {icon}'
           (root/'.nojekyll').touch()
           PY
       - name: Upload Pages artifact
