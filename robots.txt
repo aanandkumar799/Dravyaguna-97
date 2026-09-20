@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dravyaguna-97.web.app/sitemap.xml
+Sitemap: https://aanandkumar799.github.io/Dravyaguna-97/sitemap.xml
