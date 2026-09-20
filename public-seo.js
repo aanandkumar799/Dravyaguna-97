@@ -1,5 +1,5 @@
 (() => {
-  const base = new URL('./', location.href);
+  const base = new URL('https://dravyaguna-97.web.app/');
   const setMeta = (name, content, attr = 'name') => {
     if (!content) return;
     let el = document.head.querySelector(`meta[${attr}="${CSS.escape(name)}"]`);
