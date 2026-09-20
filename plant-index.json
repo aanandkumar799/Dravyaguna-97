@@ -930,7 +930,7 @@
       "transliteration": "",
       "botanical_name": "Holarrhena pubescens Wall. ex G.Don",
       "family": "Apocynaceae",
-      "english_name": "",
+      "english_name": "Kurchi / Conessi",
       "rasa": [
         "tikta",
         "kashaya"
@@ -945,7 +945,7 @@
         "stem bark",
         "seed (Indrayava)"
       ],
-      "search_text": "Kutaja कुटज  Holarrhena pubescens Wall. ex G.Don Apocynaceae   kutaja"
+      "search_text": "Kutaja कुटज  Holarrhena pubescens Wall. ex G.Don Apocynaceae Kurchi / Conessi कुटज / इन्द्रयव kutaja"
     },
     {
       "id": "latakaranja",
@@ -1007,10 +1007,14 @@
       "family": "Lamiaceae",
       "english_name": "Wind killer",
       "rasa": [
-        "Tikta"
+        "Katu",
+        "Tikta",
+        "Kashaya",
+        "Madhura"
       ],
       "guna": [
-        "Laghu"
+        "Laghu",
+        "Ruksha"
       ],
       "virya": "Ushna",
       "vipaka": "Katu",
@@ -2195,10 +2199,10 @@
       "category": "NCISM-97",
       "name": "Tulasi",
       "sanskrit_name": "तुलसी",
-      "transliteration": "",
+      "transliteration": "Tulasī",
       "botanical_name": "Ocimum tenuiflorum L.",
       "family": "Lamiaceae",
-      "english_name": "",
+      "english_name": "Holy Basil / Sacred Basil",
       "rasa": [
         "katu",
         "tikta"
@@ -2213,7 +2217,7 @@
         "leaf",
         "whole plant"
       ],
-      "search_text": "Tulasi तुलसी  Ocimum tenuiflorum L. Lamiaceae   tulasi"
+      "search_text": "Tulasi तुलसी Tulasī Ocimum tenuiflorum L. Lamiaceae Holy Basil / Sacred Basil तुलसी tulasi"
     },
     {
       "id": "twak",

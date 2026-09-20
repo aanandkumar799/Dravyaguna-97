@@ -844,7 +844,7 @@
       "useful_part": [
         "gall (Keeta Kosha)"
       ],
-      "search_text": "Karkatshrungi कर्कटशृङ्गी Karkatashringi Pistacia integerrima J.L.Stewart ex Brandis Anacardiaceae Crab's Claw काकड़ासिंगी karkatshrungi Shringi Karkata Vishanika Ajashringi Kulira Vishana Vakra gall Keeta Kosha"
+      "search_text": "Karkatshrungi कर्कटशृङ्गी Karkatashringi Pistacia integerrima J.L.Stewart ex Brandis Anacardiaceae Crab's Claw काकड़ासिंगी karkatshrungi"
     },
     {
       "id": "katuki",
@@ -930,7 +930,7 @@
       "transliteration": "",
       "botanical_name": "Holarrhena pubescens Wall. ex G.Don",
       "family": "Apocynaceae",
-      "english_name": "",
+      "english_name": "Kurchi / Conessi",
       "rasa": [
         "tikta",
         "kashaya"
@@ -945,7 +945,7 @@
         "stem bark",
         "seed (Indrayava)"
       ],
-      "search_text": "Kutaja कुटज  Holarrhena pubescens Wall. ex G.Don Apocynaceae   kutaja"
+      "search_text": "Kutaja कुटज  Holarrhena pubescens Wall. ex G.Don Apocynaceae Kurchi / Conessi कुटज / इन्द्रयव kutaja"
     },
     {
       "id": "latakaranja",
@@ -1022,8 +1022,7 @@
         "Mula (root)",
         "Mula twak (root bark)"
       ],
-      "search_text": "Agnimanth अग्निमन्थ Agnimantha Agnimantha Premna integrifolia Premna serratifolia Lamiaceae Verbenaceae Arani Arani Jaya Jayanti Vaijayantika Tarkari Dashamoola root root bark Shothaghna",
-      "accepted_botanical_name": "Premna serratifolia L."
+      "search_text": "Agnimanth अग्निमन्थ Agnimantha Premna integrifolia L. Lamiaceae Wind killer अरनी agnimanth"
     },
     {
       "id": "ahiphena",
@@ -2200,10 +2199,10 @@
       "category": "NCISM-97",
       "name": "Tulasi",
       "sanskrit_name": "तुलसी",
-      "transliteration": "",
+      "transliteration": "Tulasī",
       "botanical_name": "Ocimum tenuiflorum L.",
       "family": "Lamiaceae",
-      "english_name": "",
+      "english_name": "Holy Basil / Sacred Basil",
       "rasa": [
         "katu",
         "tikta"
@@ -2218,7 +2217,7 @@
         "leaf",
         "whole plant"
       ],
-      "search_text": "Tulasi तुलसी  Ocimum tenuiflorum L. Lamiaceae   tulasi"
+      "search_text": "Tulasi तुलसी Tulasī Ocimum tenuiflorum L. Lamiaceae Holy Basil / Sacred Basil तुलसी tulasi"
     },
     {
       "id": "twak",
