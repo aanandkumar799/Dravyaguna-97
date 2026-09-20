@@ -1,4 +1,4 @@
-name: Firebase Production Deploy
+name: Firebase Production Deploy (Hosting)
 
 on:
   push:
@@ -24,7 +24,7 @@ concurrency:
 
 jobs:
   deploy:
-    name: Deploy Firebase Hosting + Firestore rules
+    name: Deploy Firebase Hosting
     runs-on: ubuntu-latest
     timeout-minutes: 30
     environment:
@@ -110,8 +110,6 @@ jobs:
       - name: Deploy Firebase Hosting
         run: npx --yes firebase-tools@latest deploy --project dravya-guna-97 --only hosting --non-interactive
 
-      - name: Deploy Firestore security rules
-        run: npx --yes firebase-tools@latest deploy --project dravya-guna-97 --only firestore:rules --non-interactive
 
       - name: Remove Firebase credentials
         if: always()
