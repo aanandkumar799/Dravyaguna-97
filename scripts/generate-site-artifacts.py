@@ -60,7 +60,29 @@ for filename, replacements in fixes.items():
     if html != original:
         path.write_text(html, encoding="utf-8")
 
-# Enforce one production origin for SEO metadata on every public HTML page.\n# GitHub Pages remains a deployment mirror, but Firebase Hosting is the canonical origin.\nfor page in sorted(ROOT.glob("*.html")):\n    html = page.read_text(encoding="utf-8")\n    canonical = BASE if page.name == "index.html" else BASE + page.name\n    if page.name == "plant.html":\n        # Plant pages are parameterized (plant.html?id=...). public-seo.js supplies\n        # the final canonical URL after reading the id; keep a non-parameterized\n        # fallback only for direct visits without an id.\n        canonical = BASE + "plant.html"\n    tag = f'<link rel="canonical" href="{canonical}">'\n    if re.search(r'<link[^>]+rel=["\\\']canonical["\\\'][^>]*>', html, re.I):\n        html = re.sub(r'<link[^>]+rel=["\\\']canonical["\\\'][^>]*>', tag, html, count=1, flags=re.I)\n    elif "</head>" in html:\n        html = html.replace("</head>", tag + "\\n</head>", 1)\n    if page.name != "plant.html":\n        og = f'<meta property="og:url" content="{canonical}">'\n        if re.search(r'<meta[^>]+property=["\\\']og:url["\\\'][^>]*>', html, re.I):\n            html = re.sub(r'<meta[^>]+property=["\\\']og:url["\\\'][^>]*>', og, html, count=1, flags=re.I)\n        elif "</head>" in html:\n            html = html.replace("</head>", og + "\\n</head>", 1)\n    # Load the shared SEO layer on every public page. It pins the canonical\n    # origin and generates plant-specific canonical/structured metadata.\n    if 'src="public-seo.js"' not in html and "</head>" in html:\n        html = html.replace("</head>", '<script src="public-seo.js" defer></script>\\n</head>', 1)\n    page.write_text(html, encoding="utf-8")\n\n# Materialize the theme on every generated HTML page. Versioned URLs prevent
+# Enforce one production origin for SEO metadata on every public HTML page.
+# GitHub Pages remains a deployment mirror; Firebase Hosting is the canonical origin.
+for page in sorted(ROOT.glob("*.html")):
+    html = page.read_text(encoding="utf-8")
+    canonical = BASE if page.name == "index.html" else BASE + page.name
+    if page.name == "plant.html":
+        canonical = BASE + "plant.html"
+    tag = f'<link rel="canonical" href="{canonical}">'
+    if re.search(r'<link[^>]+rel=["\\\']canonical["\\\'][^>]*>', html, re.I):
+        html = re.sub(r'<link[^>]+rel=["\\\']canonical["\\\'][^>]*>', tag, html, count=1, flags=re.I)
+    elif "</head>" in html:
+        html = html.replace("</head>", tag + "\n</head>", 1)
+    if page.name != "plant.html":
+        og = f'<meta property="og:url" content="{canonical}">'
+        if re.search(r'<meta[^>]+property=["\\\']og:url["\\\'][^>]*>', html, re.I):
+            html = re.sub(r'<meta[^>]+property=["\\\']og:url["\\\'][^>]*>', og, html, count=1, flags=re.I)
+        elif "</head>" in html:
+            html = html.replace("</head>", og + "\n</head>", 1)
+    if 'src="public-seo.js"' not in html and "</head>" in html:
+        html = html.replace("</head>", '<script src="public-seo.js" defer></script>\n</head>', 1)
+    page.write_text(html, encoding="utf-8")
+
+# Materialize the theme on every generated HTML page. Versioned URLs prevent
 # stale browser/CDN assets from hiding a newly deployed theme.
 for page in sorted(ROOT.glob("*.html")):
     html = page.read_text(encoding="utf-8")
