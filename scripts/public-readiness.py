@@ -7,7 +7,7 @@ from urllib.parse import quote
 ROOT=Path(__file__).resolve().parent.parent
 DB=ROOT/"data"/"plants"
 INDEX=ROOT/"plant-index.json"
-BASE="https://aanandkumar799.github.io/Dravyaguna-97/"
+BASE="https://dravyaguna-97.web.app/"
 REQUIRED=["identity","classification","identification","dravya_guna","therapeutics","classical_reference","student","metadata"]
 PUBLIC_PAGES=[
     "index.html","plants.html","plant.html","compare.html","quiz.html",
