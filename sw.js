@@ -1,4 +1,4 @@
-const CACHE_NAME = 'dravya-guna-97-v42-pwa-cache-fix';
+const CACHE_NAME = 'dravya-guna-97-v43-pwa-icons';
 const APP_SHELL = [
   './','./index.html','./plants.html','./plant.html','./compare.html','./quiz.html','./viva.html','./progress.html','./saved.html','./rasa.html','./reference-library.html','./data-quality.html',
   './practical-lab.html','./references.html','./404.html','./style.css','./responsive-fix.css','./site-theme.css','./plant-dossier-layout.css',
@@ -6,7 +6,7 @@ const APP_SHELL = [
   './flashcard-entry.js','./classical-references-enhanced.js','./practical-lab-enhanced.js','./script.js',
   './data/curated-image-manifest.json','./plant-index.json','./plants.json','./manifest.json','./robots.txt','./sitemap.xml',
   './feedback-config.js','./feedback.js','./feedback.css','./feedback.html','./site-theme.js','./supplementary.html','./supplementary-plant.html',
-  './data/supplementary-index.json','./images/favicon.png'
+  './data/supplementary-index.json','./images/favicon.png','./images/icon-192.png','./images/icon-512.png'
 ];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE_NAME).then(cache=>cache.addAll(APP_SHELL).catch(()=>Promise.all(APP_SHELL.map(url=>cache.add(url).catch(()=>{}))))).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE_NAME).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
