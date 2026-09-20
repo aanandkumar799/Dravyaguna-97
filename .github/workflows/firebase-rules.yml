@@ -1,0 +1,52 @@
+name: Firebase Firestore Rules Deploy
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy-rules:
+    name: Deploy Firestore security rules
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: firebase-production
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 20
+
+      - name: Authenticate Firebase
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_DRAVYA_GUNA_97 }}
+        run: |
+          set -euo pipefail
+          if [ -z "$FIREBASE_SERVICE_ACCOUNT" ]; then
+            echo "::error::FIREBASE_SERVICE_ACCOUNT_DRAVYA_GUNA_97 is missing from the firebase-production environment."
+            exit 1
+          fi
+          umask 077
+          printf '%s' "$FIREBASE_SERVICE_ACCOUNT" > "$RUNNER_TEMP/firebase-service-account.json"
+          echo "GOOGLE_APPLICATION_CREDENTIALS=$RUNNER_TEMP/firebase-service-account.json" >> "$GITHUB_ENV"
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p=Path(os.environ["RUNNER_TEMP"])/"firebase-service-account.json"
+          data=json.loads(p.read_text(encoding="utf-8"))
+          if data.get("project_id","").strip()!="dravya-guna-97":
+              raise SystemExit("Service account belongs to an unexpected Firebase project.")
+          print("Firebase service-account project verified: dravya-guna-97")
+          PY
+
+      - name: Deploy Firestore security rules
+        run: npx --yes firebase-tools@latest deploy --project dravya-guna-97 --only firestore:rules --non-interactive
+
+      - name: Remove Firebase credentials
+        if: always()
+        run: rm -f "$RUNNER_TEMP/firebase-service-account.json"
