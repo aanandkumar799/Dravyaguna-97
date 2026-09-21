@@ -12,7 +12,11 @@
     "english_name": "Indian barberry / Tree turmeric",
     "hindi_name": "",
     "regional_names": [],
-    "synonyms": []
+    "synonyms": [
+      "Darvi",
+      "Kastaranjani",
+      "Suvarnavarna"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
@@ -46,12 +50,24 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": [],
-    "guna": [],
-    "virya": "",
-    "vipaka": "",
+    "rasa": [
+      "tikta",
+      "kashaya"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
     "prabhava": [],
-    "karma": []
+    "karma": [
+      "kaphapittahara",
+      "netrya",
+      "vranahara",
+      "pramehahara",
+      "kandughna"
+    ]
   },
   "dosha": {
     "vata": "",
@@ -61,11 +77,16 @@
   },
   "therapeutics": {
     "useful_part": [
-      "stem",
       "root",
-      "wood"
+      "stem",
+      "fruit"
     ],
-    "indications": [],
+    "indications": [
+      "prameha",
+      "netra roga",
+      "kustha",
+      "vrana"
+    ],
     "therapeutic_actions": [],
     "dose": "",
     "anupana": "",
@@ -99,7 +120,11 @@
     "exam_points": [
       "Botanical identity: Berberis aristata DC.",
       "Family: Berberidaceae",
-      "Useful part(s): stem; root; wood"
+      "Rasa: tikta, kashaya",
+      "Guna: laghu, ruksha",
+      "Virya: ushna",
+      "Vipaka: katu",
+      "Useful part(s): root, stem, fruit"
     ],
     "viva_questions": [
       "What is the botanical name and family of Daruharidra?",
@@ -109,7 +134,7 @@
       "Spiny shrub with simple leaves in clusters and yellow wood; bark and wood show characteristic yellow colour."
     ],
     "mnemonics": [],
-    "quick_revision": "Daruharidra — Berberis aristata DC.. Useful part(s): stem; root; wood."
+    "quick_revision": "Daruharidra — tikta, kashaya rasa; laghu, ruksha guna; ushna virya; katu vipaka."
   },
   "teacher": {
     "teaching_points": [
@@ -125,7 +150,7 @@
   "doctor": {
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
-    "useful_part": "stem; root; wood",
+    "useful_part": "root, stem, fruit",
     "dose": "",
     "anupana": "",
     "key_precautions": [
@@ -142,12 +167,18 @@
       "type": "official_medicinal_plant_resource",
       "title": "NMPB / Ministry of AYUSH medicinal plant resources",
       "url": "https://echarak.ayush.gov.in/knowledge_resources"
+    },
+    {
+      "type": "ayurvedic_dravyaguna_reference",
+      "title": "Source used for Rasapanchaka enrichment",
+      "url": "https://www.sdach.ac.in/about-dravyaguna-vigyan/dravyaguna-vigyan-blogs/daruharidra/"
     }
   ],
   "metadata": {
-    "status": "supplementary_identity_verified_needs_classical_enrichment",
+    "status": "supplementary_enriched_rasapanchaka_source_reviewed",
     "source_batch": "Production supplementary expansion",
     "version": "1.0",
-    "last_audit": "2026-09-21"
+    "last_audit": "2026-09-21",
+    "last_enrichment": "2026-09-21"
   }
 }
