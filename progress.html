@@ -23,8 +23,8 @@
 <nav class="nav" aria-label="Student navigation"><a href="index.html">← Home</a><a href="plants.html">🌿 Plant Library</a><a href="quiz.html">🧠 Quiz</a><a href="viva.html">🎤 Viva</a><a href="compare.html">⚖️ Compare</a></nav>
 <section class="dashboard" aria-label="Progress summary"><div class="stat"><strong id="studiedCount">0</strong><span>Studied</span></div><div class="stat"><strong id="remainingCount">97</strong><span>Remaining</span></div><div class="stat"><strong id="favoriteCount">0</strong><span>Favourites</span></div><div class="stat"><strong id="percentCount">0%</strong><span>Completion</span></div></section>
 <section class="panel"><div class="panel-top"><h2>97-Drug Completion</h2><strong id="progressText">0 / 97</strong></div><div class="progress-track" role="progressbar" aria-label="Study progress" aria-valuemin="0" aria-valuemax="97" aria-valuenow="0"><div class="progress-fill" id="progressFill"></div></div></section>
-<section class="panel"><div class="panel-top"><h2>Study Checklist</h2></div><input id="search" class="search" type="search" placeholder="Search by drug, Sanskrit name or botanical name…" autocomplete="off"><div class="toolbar"><button class="btn" id="showAll" type="button">All 97</button><button class="btn" id="showPending" type="button">Pending</button><button class="btn" id="showDone" type="button">Studied</button><button class="btn" id="showFav" type="button">⭐ Favourites</button><button class="btn danger" id="reset" type="button">Reset Progress</button></div><div id="plantGrid" class="plant-grid"><div class="empty">Loading NCISM 97…</div></div></section>
-<p class="note"><strong>Local progress:</strong> your checklist is stored in this browser/device using local storage. It is not a cloud account or official academic record.</p>
+<section class="panel"><div class="panel-top"><h2>Study Checklist</h2></div><input id="search" class="search" type="search" placeholder="Search by drug, Sanskrit name or botanical name…" autocomplete="off"><div class="toolbar"><button class="btn" id="showAll" type="button">All 97</button><button class="btn" id="showPending" type="button">Pending</button><button class="btn" id="showDone" type="button">Studied</button><button class="btn" id="showFav" type="button">⭐ Favourites</button><button class="btn" id="exportData" type="button">⬇️ Export Data</button><button class="btn" id="importData" type="button">⬆️ Import Data</button><input id="importFile" type="file" accept="application/json" hidden><button class="btn danger" id="reset" type="button">Reset Progress</button></div><div id="plantGrid" class="plant-grid"><div class="empty">Loading NCISM 97…</div></div></section>
+<p class="note"><strong>Local progress:</strong> your checklist and favourites are stored in this browser/device using local storage. Use Export Data to back them up or move them to another device. Imported data replaces the local checklist/favourites. It is not a cloud account or official academic record.</p>
 </main>
 <script>
 (()=>{
@@ -43,7 +43,26 @@
  function esc(v){return String(v??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;')}
  function update(){const n=studied.size, pct=Math.round(n/97*100);$('studiedCount').textContent=n;$('remainingCount').textContent=Math.max(0,97-n);$('favoriteCount').textContent=favorites.size;$('percentCount').textContent=pct+'%';$('progressText').textContent=n+' / 97';$('progressFill').style.width=pct+'%'}
  function setFilter(v){filter=v;render()}
- $('search').addEventListener('input',render);$('showAll').onclick=()=>setFilter('all');$('showPending').onclick=()=>setFilter('pending');$('showDone').onclick=()=>setFilter('done');$('showFav').onclick=()=>setFilter('fav');
+ $('search').addEventListener('input',render);
+ $('exportData').onclick=()=>{
+   const payload={format:'dravyaGuna97-student-data',version:1,exportedAt:new Date().toISOString(),studied:[...studied],favourites:[...favorites]};
+   const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');
+   a.href=url;a.download='dravyaGuna97-study-data.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+ };
+ $('importData').onclick=()=>$('importFile').click();
+ $('importFile').addEventListener('change',async e=>{
+   const file=e.target.files?.[0];if(!file)return;
+   try{
+     const data=JSON.parse(await file.text());
+     if(data?.format!=='dravyaGuna97-student-data')throw new Error('Invalid backup');
+     const nextStudy=Array.isArray(data.studied)?data.studied.map(String):[];
+     const nextFav=Array.isArray(data.favourites)?data.favourites.map(String):[];
+     if(!confirm('Import this backup and replace your current local progress and favourites?'))return;
+     studied=new Set(nextStudy);favorites=new Set(nextFav);save();localStorage.setItem(FAV,JSON.stringify(nextFav));update();render();
+   }catch(err){alert('Import failed. Please choose a DravyaGuna 97 JSON backup.')}
+   e.target.value='';
+ });
+ $('showAll').onclick=()=>setFilter('all');$('showPending').onclick=()=>setFilter('pending');$('showDone').onclick=()=>setFilter('done');$('showFav').onclick=()=>setFilter('fav');
  $('reset').onclick=()=>{if(confirm('Reset your local study checklist?')){studied.clear();save();update();render()}};
  async function init(){try{const r=await fetch(INDEX,{cache:'no-store'});if(!r.ok)throw new Error('Index unavailable');const d=await r.json();plants=(Array.isArray(d)?d:d.plants||[]).filter(p=>p.category==='NCISM-97'&&Number(p.order)>=1&&Number(p.order)<=97).sort((a,b)=>Number(a.order)-Number(b.order));studied=readSet(STUDY);favorites=readSet(FAV);update();render()}catch(e){$('plantGrid').innerHTML='<div class="empty">Could not load the NCISM plant index. Refresh and try again.</div>'}}
  init();
