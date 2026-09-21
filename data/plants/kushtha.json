@@ -12,7 +12,10 @@
     "english_name": "Costus / Kuth",
     "hindi_name": "",
     "regional_names": [],
-    "synonyms": []
+    "synonyms": [
+      "Kushta",
+      "Pushkaramula"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
@@ -46,12 +49,23 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": [],
-    "guna": [],
-    "virya": "",
-    "vipaka": "",
+    "rasa": [
+      "tikta",
+      "katu"
+    ],
+    "guna": [
+      "laghu",
+      "tikshna"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
     "prabhava": [],
-    "karma": []
+    "karma": [
+      "kaphavataghna",
+      "deepana",
+      "pachana",
+      "kandughna"
+    ]
   },
   "dosha": {
     "vata": "",
@@ -63,7 +77,12 @@
     "useful_part": [
       "root"
     ],
-    "indications": [],
+    "indications": [
+      "kustha",
+      "kandu",
+      "shvasa",
+      "kasa"
+    ],
     "therapeutic_actions": [],
     "dose": "",
     "anupana": "",
@@ -97,6 +116,10 @@
     "exam_points": [
       "Botanical identity: Saussurea costus (Falc.) Lipsch.",
       "Family: Asteraceae",
+      "Rasa: tikta, katu",
+      "Guna: laghu, tikshna",
+      "Virya: ushna",
+      "Vipaka: katu",
       "Useful part(s): root"
     ],
     "viva_questions": [
@@ -107,7 +130,7 @@
       "Robust herb with large basal leaves and aromatic roots; capitula are borne on an erect flowering stem."
     ],
     "mnemonics": [],
-    "quick_revision": "Kushtha — Saussurea costus (Falc.) Lipsch.. Useful part(s): root."
+    "quick_revision": "Kushtha — tikta, katu rasa; laghu, tikshna guna; ushna virya; katu vipaka."
   },
   "teacher": {
     "teaching_points": [
@@ -140,12 +163,18 @@
       "type": "official_medicinal_plant_resource",
       "title": "NMPB / Ministry of AYUSH medicinal plant resources",
       "url": "https://echarak.ayush.gov.in/knowledge_resources"
+    },
+    {
+      "type": "ayurvedic_dravyaguna_reference",
+      "title": "Source used for Rasapanchaka enrichment",
+      "url": "https://www.sdach.ac.in/about-dravyaguna-vigyan/dravyaguna-vigyan-blogs/kushta/"
     }
   ],
   "metadata": {
-    "status": "supplementary_identity_verified_needs_classical_enrichment",
+    "status": "supplementary_enriched_rasapanchaka_source_reviewed",
     "source_batch": "Production supplementary expansion",
     "version": "1.0",
-    "last_audit": "2026-09-21"
+    "last_audit": "2026-09-21",
+    "last_enrichment": "2026-09-21"
   }
 }
