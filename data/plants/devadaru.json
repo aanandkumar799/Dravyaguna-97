@@ -1,0 +1,151 @@
+{
+  "id": "devadaru",
+  "order": null,
+  "category": "Supplementary",
+  "syllabus_marker": "Supplementary",
+  "identity": {
+    "name": "Devadaru",
+    "sanskrit_name": "देवदारु",
+    "transliteration": "",
+    "botanical_name": "Cedrus deodara (Roxb. ex D.Don) G.Don",
+    "family": "Pinaceae",
+    "english_name": "Deodar cedar",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": []
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "large evergreen conifer",
+    "habitat": "Western Himalaya",
+    "distribution": "Western Himalaya"
+  },
+  "identification": {
+    "description": "Large conifer with drooping branchlets, needle-like leaves and cones; aromatic wood.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": [
+      "Large conifer with drooping branchlets, needle-like leaves and cones; aromatic wood."
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [],
+    "guna": [],
+    "virya": "",
+    "vipaka": "",
+    "prabhava": [],
+    "karma": []
+  },
+  "dosha": {
+    "vata": "",
+    "pitta": "",
+    "kapha": "",
+    "summary": "Classical doṣa effect requires text-level verification."
+  },
+  "therapeutics": {
+    "useful_part": [
+      "heartwood"
+    ],
+    "indications": [],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — verify exact classical entry"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": "Compound-level data intentionally left blank pending source-level verification."
+  },
+  "modern_information": {
+    "evidence_summary": "Botanical and medicinal-plant reference record; detailed modern evidence should be added from authoritative sources.",
+    "recognized_uses": [
+      "Botanical identification and Dravyaguna education."
+    ],
+    "safety_notes": "Educational reference only; confirm current pharmacopoeial, toxicological and clinical guidance before use.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Botanical identity: Cedrus deodara (Roxb. ex D.Don) G.Don",
+      "Family: Pinaceae",
+      "Useful part(s): heartwood"
+    ],
+    "viva_questions": [
+      "What is the botanical name and family of Devadaru?",
+      "Which morphological characters help identify Devadaru?"
+    ],
+    "identification_points": [
+      "Large conifer with drooping branchlets, needle-like leaves and cones; aromatic wood."
+    ],
+    "mnemonics": [],
+    "quick_revision": "Devadaru — Cedrus deodara (Roxb. ex D.Don) G.Don. Useful part(s): heartwood."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Added as a supplementary BAMS-relevant medicinal plant; separate from the NCISM-97 core list."
+    ],
+    "discussion_points": [
+      "Compare botanical identification and classical nomenclature with the NCISM-97 plants."
+    ],
+    "practical_points": [
+      "Observe authenticated material or herbarium specimens and record the identification basis separately."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+    "important_indications": [],
+    "useful_part": "heartwood",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Use authoritative identification and safety references."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_medicinal_plant_resource",
+      "title": "E-Charak / Ministry of AYUSH medicinal plant knowledge resources",
+      "url": "https://echarak.ayush.gov.in/knowledge_resources"
+    },
+    {
+      "type": "official_medicinal_plant_resource",
+      "title": "NMPB / Ministry of AYUSH medicinal plant resources",
+      "url": "https://echarak.ayush.gov.in/knowledge_resources"
+    }
+  ],
+  "metadata": {
+    "status": "supplementary_identity_verified_needs_classical_enrichment",
+    "source_batch": "Production supplementary expansion",
+    "version": "1.0",
+    "last_audit": "2026-09-21"
+  }
+}
