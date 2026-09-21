@@ -29,18 +29,6 @@
           }
         ]
       }
-    ],
-    "redirects": [
-      {
-        "source": "/saved.html",
-        "destination": "/saved-plants/",
-        "type": 301
-      },
-      {
-        "source": "/bookmarks.html",
-        "destination": "/saved-plants/",
-        "type": 301
-      }
     ]
   }
 }
