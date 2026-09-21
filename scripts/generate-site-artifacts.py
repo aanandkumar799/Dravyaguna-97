@@ -214,6 +214,32 @@ for page in sorted(ROOT.glob("*.html")):
             html = re.sub(r'<meta[^>]+property=["\']og:url["\'][^>]*>', og, html, count=1, flags=re.I)
         elif "</head>" in html:
             html = html.replace("</head>", og + "\n</head>", 1)
+
+    # Ensure every indexable page has share metadata in the original HTML,
+    # not only after JavaScript executes.
+    if page.name != "plant.html":
+        title_match = re.search(r'<title[^>]*>(.*?)</title>', html, re.I | re.S)
+        desc_match = re.search(r'<meta[^>]+name=["\']description["\'][^>]*content=["\']([^"\']*)["\']', html, re.I)
+        page_title = re.sub(r'\s+', ' ', title_match.group(1)).strip() if title_match else "DravyaGuna 97"
+        page_desc = desc_match.group(1).strip() if desc_match else "BAMS Dravyaguna learning and reference portal."
+        meta = [
+            f'<meta property="og:type" content="website">',
+            f'<meta property="og:title" content="{html_escape(page_title, quote=True)}">',
+            f'<meta property="og:description" content="{html_escape(page_desc, quote=True)}">',
+            f'<meta property="og:image" content="{BASE}images/icon-512.png">',
+            f'<meta name="twitter:card" content="summary_large_image">',
+            f'<meta name="twitter:title" content="{html_escape(page_title, quote=True)}">',
+            f'<meta name="twitter:description" content="{html_escape(page_desc, quote=True)}">',
+            f'<meta name="twitter:image" content="{BASE}images/icon-512.png">',
+        ]
+        for tag in meta:
+            marker = tag.split(" ", 2)[1]
+            if marker.startswith('property="og:'):
+                exists = re.search(r'<meta[^>]+property=["\']'+re.escape(marker.split('="')[1].rstrip('"'))+r'["\'][^>]*>', html, re.I)
+            else:
+                exists = re.search(r'<meta[^>]+name=["\']'+re.escape(marker.split('="')[1].rstrip('"'))+r'["\'][^>]*>', html, re.I)
+            if not exists and "</head>" in html:
+                html = html.replace("</head>", tag + "\n</head>", 1)
     if 'src="public-seo.js"' not in html and "</head>" in html:
         html = html.replace("</head>", '<script src="public-seo.js" defer></script>\n</head>', 1)
     page.write_text(html, encoding="utf-8")
