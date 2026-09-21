@@ -12,7 +12,10 @@
     "english_name": "Psyllium / Blond psyllium",
     "hindi_name": "",
     "regional_names": [],
-    "synonyms": []
+    "synonyms": [
+      "Ashwagola",
+      "Ashwakarnā"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
@@ -46,12 +49,22 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": [],
-    "guna": [],
-    "virya": "",
-    "vipaka": "",
+    "rasa": [
+      "madhura",
+      "kashaya"
+    ],
+    "guna": [
+      "guru",
+      "snigdha",
+      "picchila"
+    ],
+    "virya": "sheeta",
+    "vipaka": "madhura",
     "prabhava": [],
-    "karma": []
+    "karma": [
+      "grahi",
+      "vibandhahara"
+    ]
   },
   "dosha": {
     "vata": "",
@@ -61,9 +74,13 @@
   },
   "therapeutics": {
     "useful_part": [
-      "seed husk"
+      "seed husk",
+      "seed"
     ],
-    "indications": [],
+    "indications": [
+      "vibandha",
+      "atisara"
+    ],
     "therapeutic_actions": [],
     "dose": "",
     "anupana": "",
@@ -97,7 +114,11 @@
     "exam_points": [
       "Botanical identity: Plantago ovata Forssk.",
       "Family: Plantaginaceae",
-      "Useful part(s): seed husk"
+      "Rasa: madhura, kashaya",
+      "Guna: guru, snigdha, picchila",
+      "Virya: sheeta",
+      "Vipaka: madhura",
+      "Useful part(s): seed husk, seed"
     ],
     "viva_questions": [
       "What is the botanical name and family of Isabgol?",
@@ -107,7 +128,7 @@
       "Low herb with narrow leaves and terminal cylindrical spikes; seeds produce characteristic mucilaginous husk."
     ],
     "mnemonics": [],
-    "quick_revision": "Isabgol — Plantago ovata Forssk.. Useful part(s): seed husk."
+    "quick_revision": "Isabgol — madhura, kashaya rasa; guru, snigdha, picchila guna; sheeta virya; madhura vipaka."
   },
   "teacher": {
     "teaching_points": [
@@ -123,7 +144,7 @@
   "doctor": {
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
-    "useful_part": "seed husk",
+    "useful_part": "seed husk, seed",
     "dose": "",
     "anupana": "",
     "key_precautions": [
@@ -140,12 +161,18 @@
       "type": "official_medicinal_plant_resource",
       "title": "NMPB / Ministry of AYUSH medicinal plant resources",
       "url": "https://echarak.ayush.gov.in/knowledge_resources"
+    },
+    {
+      "type": "ayurvedic_dravyaguna_reference",
+      "title": "Source used for Rasapanchaka enrichment",
+      "url": "https://www.ijraset.com/research-paper/ashwagola-plantago-ovata"
     }
   ],
   "metadata": {
-    "status": "supplementary_identity_verified_needs_classical_enrichment",
+    "status": "supplementary_enriched_rasapanchaka_source_reviewed",
     "source_batch": "Production supplementary expansion",
     "version": "1.0",
-    "last_audit": "2026-09-21"
+    "last_audit": "2026-09-21",
+    "last_enrichment": "2026-09-21"
   }
 }
