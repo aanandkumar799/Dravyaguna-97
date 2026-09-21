@@ -12,7 +12,12 @@
     "english_name": "Thumbai",
     "hindi_name": "",
     "regional_names": [],
-    "synonyms": []
+    "synonyms": [
+      "Chitrapatrika",
+      "Phalepushpa",
+      "Karabhapriya",
+      "Drona"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
@@ -46,12 +51,22 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": [],
-    "guna": [],
-    "virya": "",
-    "vipaka": "",
+    "rasa": [
+      "katu"
+    ],
+    "guna": [
+      "guru",
+      "ruksha"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
     "prabhava": [],
-    "karma": []
+    "karma": [
+      "jvarahara",
+      "deepana",
+      "pachana",
+      "kaphavataghna"
+    ]
   },
   "dosha": {
     "vata": "",
@@ -61,9 +76,16 @@
   },
   "therapeutics": {
     "useful_part": [
-      "whole plant"
+      "whole plant",
+      "leaf",
+      "flower"
     ],
-    "indications": [],
+    "indications": [
+      "jvara",
+      "agnimandya",
+      "kasa",
+      "krimi"
+    ],
     "therapeutic_actions": [],
     "dose": "",
     "anupana": "",
@@ -97,7 +119,11 @@
     "exam_points": [
       "Botanical identity: Leucas aspera (Willd.) Link",
       "Family: Lamiaceae",
-      "Useful part(s): whole plant"
+      "Rasa: katu",
+      "Guna: guru, ruksha",
+      "Virya: ushna",
+      "Vipaka: katu",
+      "Useful part(s): whole plant, leaf, flower"
     ],
     "viva_questions": [
       "What is the botanical name and family of Dronapushpi?",
@@ -107,7 +133,7 @@
       "Aromatic herb with opposite leaves and dense whorls of small white flowers around the stem nodes."
     ],
     "mnemonics": [],
-    "quick_revision": "Dronapushpi — Leucas aspera (Willd.) Link. Useful part(s): whole plant."
+    "quick_revision": "Dronapushpi — katu rasa; guru, ruksha guna; ushna virya; katu vipaka."
   },
   "teacher": {
     "teaching_points": [
@@ -123,7 +149,7 @@
   "doctor": {
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
-    "useful_part": "whole plant",
+    "useful_part": "whole plant, leaf, flower",
     "dose": "",
     "anupana": "",
     "key_precautions": [
@@ -140,12 +166,18 @@
       "type": "official_medicinal_plant_resource",
       "title": "NMPB / Ministry of AYUSH medicinal plant resources",
       "url": "https://echarak.ayush.gov.in/knowledge_resources"
+    },
+    {
+      "type": "ayurvedic_dravyaguna_reference",
+      "title": "Source used for Rasapanchaka enrichment",
+      "url": "https://www.sdach.ac.in/about-dravyaguna-vigyan/dravyaguna-vigyan-blogs/dronapushpi/"
     }
   ],
   "metadata": {
-    "status": "supplementary_identity_verified_needs_classical_enrichment",
+    "status": "supplementary_enriched_rasapanchaka_source_reviewed",
     "source_batch": "Production supplementary expansion",
     "version": "1.0",
-    "last_audit": "2026-09-21"
+    "last_audit": "2026-09-21",
+    "last_enrichment": "2026-09-21"
   }
 }
