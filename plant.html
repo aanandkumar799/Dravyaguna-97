@@ -20,6 +20,8 @@
 </style>
 <link rel="stylesheet" href="site-theme.css?v=8">
 <script src="site-theme.js?v=1" defer></script>
+<link rel="canonical" href="https://aanandkumar799.github.io/Dravyaguna-97/plant.html">
+<script src="public-seo.js" defer></script>
 </head>
 <body>
 <header class="site-header"><div class="header-inner"><a href="index.html" class="brand">🌿 <span>DravyaGuna 97</span></a><nav class="main-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="plants.html">Plants</a><a href="progress.html">Student</a><a href="reference-library.html">Teacher</a><a href="references.html">Doctor</a></nav></div></header>
@@ -94,7 +96,7 @@ const family=i.family||'';
 const metaDescription=(plantName+' ('+botanical+') — Ayurvedic Dravyaguna profile covering identification, Rasa Panchaka, therapeutic uses, formulations, classical references and BAMS revision.').replace(/\s+/g,' ').trim();
 document.title=plantName+' | DravyaGuna 97 — BAMS Dravyaguna';
 const descMeta=document.querySelector('meta[name="description"]'); if(descMeta)descMeta.setAttribute('content',metaDescription);
-const canonicalUrl='https://aanandkumar799.github.io/Dravyaguna-97/plant.html?id='+encodeURIComponent(String(p.id||id));
+const canonicalUrl='https://dravyaguna-97.web.app/plant.html?id='+encodeURIComponent(String(p.id||id));
 const canonical=document.getElementById('canonical-link'); if(canonical)canonical.setAttribute('href',canonicalUrl);
 const ogTitle=document.getElementById('og-title'); if(ogTitle)ogTitle.setAttribute('content',document.title);
 const ogDescription=document.getElementById('og-description'); if(ogDescription)ogDescription.setAttribute('content',metaDescription);
