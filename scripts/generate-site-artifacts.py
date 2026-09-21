@@ -64,6 +64,7 @@ for filename, replacements in fixes.items():
 # GitHub Pages remains a deployment mirror; Firebase Hosting is the canonical origin.
 for page in sorted(ROOT.glob("*.html")):
     html = page.read_text(encoding="utf-8")
+    html = html.replace('href="saved.html"', 'href="saved-plants/"')
     canonical = BASE if page.name == "index.html" else BASE + page.name
     if page.name == "plant.html":
         canonical = BASE + "plant.html"
