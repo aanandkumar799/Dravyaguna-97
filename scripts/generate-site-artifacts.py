@@ -8,7 +8,7 @@ from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / "data" / "plants"
-BASE = "https://dravyaguna-97.web.app/"
+BASE = "https://aanandkumar799.github.io/Dravyaguna-97/"
 
 records=[]
 for path in sorted(DB.glob("*.json")):
@@ -61,7 +61,8 @@ for filename, replacements in fixes.items():
         path.write_text(html, encoding="utf-8")
 
 # Enforce one production origin for SEO metadata on every public HTML page.
-# GitHub Pages remains a deployment mirror; Firebase Hosting is the canonical origin.
+# GitHub Pages is the public production origin used by canonical, Open Graph,
+# sitemap, and robots metadata.
 for page in sorted(ROOT.glob("*.html")):
     html = page.read_text(encoding="utf-8")
     html = html.replace('href="saved.html"', 'href="plants.html#favorites"')
@@ -69,14 +70,14 @@ for page in sorted(ROOT.glob("*.html")):
     if page.name == "plant.html":
         canonical = BASE + "plant.html"
     tag = f'<link rel="canonical" href="{canonical}">'
-    if re.search(r'<link[^>]+rel=["\\\']canonical["\\\'][^>]*>', html, re.I):
-        html = re.sub(r'<link[^>]+rel=["\\\']canonical["\\\'][^>]*>', tag, html, count=1, flags=re.I)
+    if re.search(r'<link[^>]+rel=["\']canonical["\'][^>]*>', html, re.I):
+        html = re.sub(r'<link[^>]+rel=["\']canonical["\'][^>]*>', tag, html, count=1, flags=re.I)
     elif "</head>" in html:
         html = html.replace("</head>", tag + "\n</head>", 1)
     if page.name != "plant.html":
         og = f'<meta property="og:url" content="{canonical}">'
-        if re.search(r'<meta[^>]+property=["\\\']og:url["\\\'][^>]*>', html, re.I):
-            html = re.sub(r'<meta[^>]+property=["\\\']og:url["\\\'][^>]*>', og, html, count=1, flags=re.I)
+        if re.search(r'<meta[^>]+property=["\']og:url["\'][^>]*>', html, re.I):
+            html = re.sub(r'<meta[^>]+property=["\']og:url["\'][^>]*>', og, html, count=1, flags=re.I)
         elif "</head>" in html:
             html = html.replace("</head>", og + "\n</head>", 1)
     if 'src="public-seo.js"' not in html and "</head>" in html:
