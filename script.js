@@ -205,5 +205,6 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('ncismJump')?.addEventListener('keydown',e=>{if(e.key==='Enter')document.getElementById('jumpButton')?.click()});
   document.getElementById('favoritesToggle')?.addEventListener('click',()=>{favoritesOnly=!favoritesOnly;showAll=false;const b=document.getElementById('favoritesToggle');b.classList.toggle('active',favoritesOnly);b.textContent=favoritesOnly?'★ Favourites':'☆ Favourites';render(searchInput?.value||'')});
   document.getElementById('clearFilters')?.addEventListener('click',()=>{Object.keys(filters).forEach(k=>filters[k]='');document.querySelectorAll('.filter-select').forEach(x=>x.value='');favoritesOnly=false;showAll=false;categoryFilter='all';document.querySelectorAll('[data-category]').forEach(x=>x.classList.toggle('active',String(x.dataset.category||'all').toUpperCase()==='ALL'));const b=document.getElementById('favoritesToggle');if(b){b.classList.remove('active');b.textContent='☆ Favourites';}if(searchInput)searchInput.value='';render('');});
+  if(location.hash==='#favorites'){favoritesOnly=true;const b=document.getElementById('favoritesToggle');if(b){b.classList.add('active');b.textContent='★ Favourites';}}
   load();
 });
