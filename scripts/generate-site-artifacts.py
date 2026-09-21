@@ -8,7 +8,7 @@ from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / "data" / "plants"
-BASE = "https://dravyaguna-97.web.app/"
+BASE = "https://aanandkumar799.github.io/Dravyaguna-97/"
 
 records=[]
 for path in sorted(DB.glob("*.json")):
