@@ -1,0 +1,153 @@
+{
+  "id": "agastya",
+  "order": null,
+  "category": "Supplementary",
+  "syllabus_marker": "Supplementary",
+  "identity": {
+    "name": "Agastya",
+    "sanskrit_name": "अगस्त्य",
+    "transliteration": "",
+    "botanical_name": "Sesbania grandiflora (L.) Poir.",
+    "family": "Fabaceae",
+    "english_name": "Agati / Hummingbird tree",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": []
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "tree",
+    "habitat": "Tropical and subtropical South and Southeast Asia",
+    "distribution": "Tropical and subtropical South and Southeast Asia"
+  },
+  "identification": {
+    "description": "Leaves are pinnate with many leaflets; large white, pink or red flowers are distinctive.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": [
+      "Leaves are pinnate with many leaflets; large white, pink or red flowers are distinctive."
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [],
+    "guna": [],
+    "virya": "",
+    "vipaka": "",
+    "prabhava": [],
+    "karma": []
+  },
+  "dosha": {
+    "vata": "",
+    "pitta": "",
+    "kapha": "",
+    "summary": "Classical doṣa effect requires text-level verification."
+  },
+  "therapeutics": {
+    "useful_part": [
+      "leaf",
+      "flower",
+      "bark"
+    ],
+    "indications": [],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — verify exact classical entry"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": "Compound-level data intentionally left blank pending source-level verification."
+  },
+  "modern_information": {
+    "evidence_summary": "Botanical and medicinal-plant reference record; detailed modern evidence should be added from authoritative sources.",
+    "recognized_uses": [
+      "Botanical identification and Dravyaguna education."
+    ],
+    "safety_notes": "Educational reference only; confirm current pharmacopoeial, toxicological and clinical guidance before use.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Botanical identity: Sesbania grandiflora (L.) Poir.",
+      "Family: Fabaceae",
+      "Useful part(s): leaf; flower; bark"
+    ],
+    "viva_questions": [
+      "What is the botanical name and family of Agastya?",
+      "Which morphological characters help identify Agastya?"
+    ],
+    "identification_points": [
+      "Leaves are pinnate with many leaflets; large white, pink or red flowers are distinctive."
+    ],
+    "mnemonics": [],
+    "quick_revision": "Agastya — Sesbania grandiflora (L.) Poir.. Useful part(s): leaf; flower; bark."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Added as a supplementary BAMS-relevant medicinal plant; separate from the NCISM-97 core list."
+    ],
+    "discussion_points": [
+      "Compare botanical identification and classical nomenclature with the NCISM-97 plants."
+    ],
+    "practical_points": [
+      "Observe authenticated material or herbarium specimens and record the identification basis separately."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+    "important_indications": [],
+    "useful_part": "leaf; flower; bark",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Use authoritative identification and safety references."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_medicinal_plant_resource",
+      "title": "E-Charak / Ministry of AYUSH medicinal plant knowledge resources",
+      "url": "https://echarak.ayush.gov.in/knowledge_resources"
+    },
+    {
+      "type": "official_medicinal_plant_resource",
+      "title": "NMPB / Ministry of AYUSH medicinal plant resources",
+      "url": "https://echarak.ayush.gov.in/knowledge_resources"
+    }
+  ],
+  "metadata": {
+    "status": "supplementary_identity_verified_needs_classical_enrichment",
+    "source_batch": "Production supplementary expansion",
+    "version": "1.0",
+    "last_audit": "2026-09-21"
+  }
+}
