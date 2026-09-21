@@ -12,7 +12,11 @@
     "english_name": "Agati / Hummingbird tree",
     "hindi_name": "",
     "regional_names": [],
-    "synonyms": []
+    "synonyms": [
+      "Agasti",
+      "Vangasena",
+      "Munipushpa"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
@@ -46,12 +50,20 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": [],
-    "guna": [],
-    "virya": "",
-    "vipaka": "",
+    "rasa": [
+      "tikta"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "sheeta",
+    "vipaka": "katu",
     "prabhava": [],
-    "karma": []
+    "karma": [
+      "kaphapittahara",
+      "jvarahara"
+    ]
   },
   "dosha": {
     "vata": "",
@@ -65,7 +77,11 @@
       "flower",
       "bark"
     ],
-    "indications": [],
+    "indications": [
+      "jvara",
+      "kasa",
+      "pratishyaya"
+    ],
     "therapeutic_actions": [],
     "dose": "",
     "anupana": "",
@@ -99,7 +115,11 @@
     "exam_points": [
       "Botanical identity: Sesbania grandiflora (L.) Poir.",
       "Family: Fabaceae",
-      "Useful part(s): leaf; flower; bark"
+      "Rasa: tikta",
+      "Guna: laghu, ruksha",
+      "Virya: sheeta",
+      "Vipaka: katu",
+      "Useful part(s): leaf, flower, bark"
     ],
     "viva_questions": [
       "What is the botanical name and family of Agastya?",
@@ -109,7 +129,7 @@
       "Leaves are pinnate with many leaflets; large white, pink or red flowers are distinctive."
     ],
     "mnemonics": [],
-    "quick_revision": "Agastya — Sesbania grandiflora (L.) Poir.. Useful part(s): leaf; flower; bark."
+    "quick_revision": "Agastya — tikta rasa; laghu, ruksha guna; sheeta virya; katu vipaka."
   },
   "teacher": {
     "teaching_points": [
@@ -125,7 +145,7 @@
   "doctor": {
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
-    "useful_part": "leaf; flower; bark",
+    "useful_part": "leaf, flower, bark",
     "dose": "",
     "anupana": "",
     "key_precautions": [
@@ -142,12 +162,18 @@
       "type": "official_medicinal_plant_resource",
       "title": "NMPB / Ministry of AYUSH medicinal plant resources",
       "url": "https://echarak.ayush.gov.in/knowledge_resources"
+    },
+    {
+      "type": "ayurvedic_dravyaguna_reference",
+      "title": "Source used for Rasapanchaka enrichment",
+      "url": "https://www.planetayurveda.com/library/agastya-sesbania-grandiflora/"
     }
   ],
   "metadata": {
-    "status": "supplementary_identity_verified_needs_classical_enrichment",
+    "status": "supplementary_enriched_rasapanchaka_source_reviewed",
     "source_batch": "Production supplementary expansion",
     "version": "1.0",
-    "last_audit": "2026-09-21"
+    "last_audit": "2026-09-21",
+    "last_enrichment": "2026-09-21"
   }
 }
