@@ -34,7 +34,7 @@
     "rewrites": [
       {
         "source": "/saved.html",
-        "destination": "/_saved.html"
+        "destination": "/bookmarks.html"
       }
     ]
   }
