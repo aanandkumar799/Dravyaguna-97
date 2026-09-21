@@ -1,5 +1,5 @@
 (() => {
-  const base = new URL('https://dravyaguna-97.web.app/');
+  const base = new URL('https://aanandkumar799.github.io/Dravyaguna-97/');
   const setMeta = (name, content, attr = 'name') => {
     if (!content) return;
     let el = document.head.querySelector(`meta[${attr}="${CSS.escape(name)}"]`);
@@ -37,7 +37,10 @@
       setMeta('og:title', `${name} | DravyaGuna 97`, 'property');
       setMeta('og:description', description, 'property');
       setMeta('og:type', 'article', 'property');
-      setCanonical(new URL(`plant.html?id=${encodeURIComponent(id)}`, base).href);
-      addJsonLd({ '@context':'https://schema.org', '@type':'Article', headline:`${name} | DravyaGuna 97`, description, url:location.href, isPartOf:{'@type':'WebSite',name:'DravyaGuna 97',url:base.href}, about:{'@type':'Thing',name, ...(botanical ? {alternateName:botanical}:{})}, ...(family ? {keywords:[family,'Dravyaguna','BAMS','Ayurveda']} : {}), educationalUse:['study','revision','practical identification'], citation:m.sources || p.sources || [] });
+      setMeta('og:image', new URL('images/icon-512.png', base).href, 'property');
+      setMeta('twitter:card', 'summary_large_image');
+      setMeta('twitter:image', new URL('images/icon-512.png', base).href);
+      setCanonical(new URL(`plants/${encodeURIComponent(id)}/`, base).href);
+      addJsonLd({ '@context':'https://schema.org', '@type':'Article', headline:`${name} | DravyaGuna 97`, description, url:new URL(`plants/${encodeURIComponent(id)}/`, base).href, isPartOf:{'@type':'WebSite',name:'DravyaGuna 97',url:base.href}, about:{'@type':'Thing',name, ...(botanical ? {alternateName:botanical}:{})}, ...(family ? {keywords:[family,'Dravyaguna','BAMS','Ayurveda']} : {}), educationalUse:['study','revision','practical identification'], citation:m.sources || p.sources || [] });
     }).catch(() => {});
 })();
