@@ -12,7 +12,10 @@
     "english_name": "Prishniparni",
     "hindi_name": "",
     "regional_names": [],
-    "synonyms": []
+    "synonyms": [
+      "Prishniparni",
+      "Chitrika"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
@@ -46,12 +49,22 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": [],
-    "guna": [],
-    "virya": "",
-    "vipaka": "",
+    "rasa": [
+      "madhura",
+      "tikta"
+    ],
+    "guna": [
+      "laghu",
+      "snigdha"
+    ],
+    "virya": "ushna",
+    "vipaka": "madhura",
     "prabhava": [],
-    "karma": []
+    "karma": [
+      "vatashamaka",
+      "balya",
+      "brimhana"
+    ]
   },
   "dosha": {
     "vata": "",
@@ -64,7 +77,11 @@
       "root",
       "whole plant"
     ],
-    "indications": [],
+    "indications": [
+      "jvara",
+      "atisara",
+      "vata disorders"
+    ],
     "therapeutic_actions": [],
     "dose": "",
     "anupana": "",
@@ -98,7 +115,11 @@
     "exam_points": [
       "Botanical identity: Uraria picta (Jacq.) Desv. ex DC.",
       "Family: Fabaceae",
-      "Useful part(s): root; whole plant"
+      "Rasa: madhura, tikta",
+      "Guna: laghu, snigdha",
+      "Virya: ushna",
+      "Vipaka: madhura",
+      "Useful part(s): root, whole plant"
     ],
     "viva_questions": [
       "What is the botanical name and family of Prishniparni?",
@@ -108,7 +129,7 @@
       "Small herb with trifoliate leaves, often with a mottled central leaflet, and slender flowering racemes."
     ],
     "mnemonics": [],
-    "quick_revision": "Prishniparni — Uraria picta (Jacq.) Desv. ex DC.. Useful part(s): root; whole plant."
+    "quick_revision": "Prishniparni — madhura, tikta rasa; laghu, snigdha guna; ushna virya; madhura vipaka."
   },
   "teacher": {
     "teaching_points": [
@@ -124,7 +145,7 @@
   "doctor": {
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
-    "useful_part": "root; whole plant",
+    "useful_part": "root, whole plant",
     "dose": "",
     "anupana": "",
     "key_precautions": [
@@ -141,12 +162,18 @@
       "type": "official_medicinal_plant_resource",
       "title": "NMPB / Ministry of AYUSH medicinal plant resources",
       "url": "https://echarak.ayush.gov.in/knowledge_resources"
+    },
+    {
+      "type": "ayurvedic_dravyaguna_reference",
+      "title": "Source used for Rasapanchaka enrichment",
+      "url": "https://www.sdach.ac.in/about-dravyaguna-vigyan/dravyaguna-vigyan-blogs/prishniparni/"
     }
   ],
   "metadata": {
-    "status": "supplementary_identity_verified_needs_classical_enrichment",
+    "status": "supplementary_enriched_rasapanchaka_source_reviewed",
     "source_batch": "Production supplementary expansion",
     "version": "1.0",
-    "last_audit": "2026-09-21"
+    "last_audit": "2026-09-21",
+    "last_enrichment": "2026-09-21"
   }
 }
