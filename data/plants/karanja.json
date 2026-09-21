@@ -12,7 +12,10 @@
     "english_name": "Indian beech",
     "hindi_name": "",
     "regional_names": [],
-    "synonyms": []
+    "synonyms": [
+      "Naktamala",
+      "Karanja"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
@@ -46,12 +49,22 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": [],
-    "guna": [],
-    "virya": "",
-    "vipaka": "",
+    "rasa": [
+      "tikta",
+      "kashaya"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "ushna",
+    "vipaka": "katu",
     "prabhava": [],
-    "karma": []
+    "karma": [
+      "kaphavataghna",
+      "kandughna",
+      "krimighna"
+    ]
   },
   "dosha": {
     "vata": "",
@@ -65,7 +78,11 @@
       "seed oil",
       "bark"
     ],
-    "indications": [],
+    "indications": [
+      "kustha",
+      "kandu",
+      "krimi"
+    ],
     "therapeutic_actions": [],
     "dose": "",
     "anupana": "",
@@ -99,7 +116,11 @@
     "exam_points": [
       "Botanical identity: Pongamia pinnata (L.) Pierre",
       "Family: Fabaceae",
-      "Useful part(s): seed; seed oil; bark"
+      "Rasa: tikta, kashaya",
+      "Guna: laghu, ruksha",
+      "Virya: ushna",
+      "Vipaka: katu",
+      "Useful part(s): seed, seed oil, bark"
     ],
     "viva_questions": [
       "What is the botanical name and family of Karanja?",
@@ -109,7 +130,7 @@
       "Medium tree with pinnate leaves, fragrant flowers and flat pods containing one or two seeds."
     ],
     "mnemonics": [],
-    "quick_revision": "Karanja — Pongamia pinnata (L.) Pierre. Useful part(s): seed; seed oil; bark."
+    "quick_revision": "Karanja — tikta, kashaya rasa; laghu, ruksha guna; ushna virya; katu vipaka."
   },
   "teacher": {
     "teaching_points": [
@@ -125,7 +146,7 @@
   "doctor": {
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
-    "useful_part": "seed; seed oil; bark",
+    "useful_part": "seed, seed oil, bark",
     "dose": "",
     "anupana": "",
     "key_precautions": [
@@ -142,12 +163,18 @@
       "type": "official_medicinal_plant_resource",
       "title": "NMPB / Ministry of AYUSH medicinal plant resources",
       "url": "https://echarak.ayush.gov.in/knowledge_resources"
+    },
+    {
+      "type": "ayurvedic_dravyaguna_reference",
+      "title": "Source used for Rasapanchaka enrichment",
+      "url": "https://www.sdach.ac.in/about-dravyaguna-vigyan/dravyaguna-vigyan-blogs/karanja/"
     }
   ],
   "metadata": {
-    "status": "supplementary_identity_verified_needs_classical_enrichment",
+    "status": "supplementary_enriched_rasapanchaka_source_reviewed",
     "source_batch": "Production supplementary expansion",
     "version": "1.0",
-    "last_audit": "2026-09-21"
+    "last_audit": "2026-09-21",
+    "last_enrichment": "2026-09-21"
   }
 }
