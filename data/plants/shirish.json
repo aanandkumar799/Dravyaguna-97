@@ -12,7 +12,10 @@
     "english_name": "Siris / Lebbek tree",
     "hindi_name": "",
     "regional_names": [],
-    "synonyms": []
+    "synonyms": [
+      "Shirisha",
+      "Shirisha"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
@@ -46,12 +49,22 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": [],
-    "guna": [],
-    "virya": "",
-    "vipaka": "",
+    "rasa": [
+      "kashaya",
+      "tikta"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "sheeta",
+    "vipaka": "katu",
     "prabhava": [],
-    "karma": []
+    "karma": [
+      "kaphapittahara",
+      "vishaghna",
+      "kandughna"
+    ]
   },
   "dosha": {
     "vata": "",
@@ -65,7 +78,12 @@
       "seed",
       "flower"
     ],
-    "indications": [],
+    "indications": [
+      "visha",
+      "kandu",
+      "shvasa",
+      "kasa"
+    ],
     "therapeutic_actions": [],
     "dose": "",
     "anupana": "",
@@ -99,7 +117,11 @@
     "exam_points": [
       "Botanical identity: Albizia lebbeck (L.) Benth.",
       "Family: Fabaceae",
-      "Useful part(s): bark; seed; flower"
+      "Rasa: kashaya, tikta",
+      "Guna: laghu, ruksha",
+      "Virya: sheeta",
+      "Vipaka: katu",
+      "Useful part(s): bark, seed, flower"
     ],
     "viva_questions": [
       "What is the botanical name and family of Shirish?",
@@ -109,7 +131,7 @@
       "Tree with bipinnate leaves, rounded heads of fragrant flowers and flat pods."
     ],
     "mnemonics": [],
-    "quick_revision": "Shirish — Albizia lebbeck (L.) Benth.. Useful part(s): bark; seed; flower."
+    "quick_revision": "Shirish — kashaya, tikta rasa; laghu, ruksha guna; sheeta virya; katu vipaka."
   },
   "teacher": {
     "teaching_points": [
@@ -125,7 +147,7 @@
   "doctor": {
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
-    "useful_part": "bark; seed; flower",
+    "useful_part": "bark, seed, flower",
     "dose": "",
     "anupana": "",
     "key_precautions": [
@@ -142,12 +164,18 @@
       "type": "official_medicinal_plant_resource",
       "title": "NMPB / Ministry of AYUSH medicinal plant resources",
       "url": "https://echarak.ayush.gov.in/knowledge_resources"
+    },
+    {
+      "type": "ayurvedic_dravyaguna_reference",
+      "title": "Source used for Rasapanchaka enrichment",
+      "url": "https://www.sdach.ac.in/about-dravyaguna-vigyan/dravyaguna-vigyan-blogs/shirish/"
     }
   ],
   "metadata": {
-    "status": "supplementary_identity_verified_needs_classical_enrichment",
+    "status": "supplementary_enriched_rasapanchaka_source_reviewed",
     "source_batch": "Production supplementary expansion",
     "version": "1.0",
-    "last_audit": "2026-09-21"
+    "last_audit": "2026-09-21",
+    "last_enrichment": "2026-09-21"
   }
 }
