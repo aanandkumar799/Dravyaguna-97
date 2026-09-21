@@ -8,10 +8,10 @@ on:
       - "firestore.rules"
       - "data/**"
       - "scripts/**"
-      - "*.html"
-      - "*.js"
-      - "*.css"
-      - "*.json"
+      - "**/*.html"
+      - "**/*.js"
+      - "**/*.css"
+      - "**/*.json"
       - ".github/workflows/firebase-deploy.yml"
   workflow_dispatch:
 
