@@ -177,6 +177,28 @@ fixes = {
         (r'src="data:image/svg\+xml[^\"]*"', 'src="favicon.svg"'),
     ],
 }
+# Add a crawlable HTML index to the interactive Plant Library. The JavaScript
+# experience remains unchanged; this provides 97 real internal links in the
+# original HTML so users and crawlers can discover every static plant page.
+plants_page = ROOT / "plants.html"
+if plants_page.exists():
+    h = plants_page.read_text(encoding="utf-8")
+    links = "".join(
+        f'<li><a href="plants/{quote(str(p["id"]), safe="")}/">{esc(p.get("order"))}. {esc((p.get("identity") or {}).get("name") or p.get("name") or p["id"])}</a></li>'
+        for p in canonical
+    )
+    crawlable = f'''<section class="crawlable-plant-index" aria-label="NCISM 97 plant index">
+      <h2>Browse all 97 NCISM plant pages</h2>
+      <p>Each plant has a dedicated, shareable study page.</p>
+      <ul>{links}</ul>
+    </section>'''
+    if 'class="crawlable-plant-index"' in h:
+        h = re.sub(r'<section class="crawlable-plant-index".*?</section>', crawlable, h, count=1, flags=re.S)
+    elif '</main>' in h:
+        h = h.replace('</main>', crawlable + '</main>', 1)
+    h = h.replace('</head>', '<style>.crawlable-plant-index{background:#fff;border:1px solid #dfe8df;border-radius:18px;padding:20px;margin-top:22px}.crawlable-plant-index h2{color:#1b4332;margin:0 0 4px}.crawlable-plant-index p{color:#68746d;margin:0 0 12px}.crawlable-plant-index ul{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:7px 18px;margin:0;padding-left:20px}.crawlable-plant-index a{color:#1b4332;font-weight:700}@media(max-width:600px){.crawlable-plant-index ul{grid-template-columns:1fr}}</style>\n</head>', 1)
+    plants_page.write_text(h, encoding="utf-8")
+
 for filename, replacements in fixes.items():
     path = ROOT / filename
     if not path.exists(): continue
