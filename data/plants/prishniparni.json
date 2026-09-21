@@ -1,0 +1,152 @@
+{
+  "id": "prishniparni",
+  "order": null,
+  "category": "Supplementary",
+  "syllabus_marker": "Supplementary",
+  "identity": {
+    "name": "Prishniparni",
+    "sanskrit_name": "पृष्णिपर्णी",
+    "transliteration": "",
+    "botanical_name": "Uraria picta (Jacq.) Desv. ex DC.",
+    "family": "Fabaceae",
+    "english_name": "Prishniparni",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": []
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "perennial herb",
+    "habitat": "Tropical India",
+    "distribution": "Tropical India"
+  },
+  "identification": {
+    "description": "Small herb with trifoliate leaves, often with a mottled central leaflet, and slender flowering racemes.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": [
+      "Small herb with trifoliate leaves, often with a mottled central leaflet, and slender flowering racemes."
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [],
+    "guna": [],
+    "virya": "",
+    "vipaka": "",
+    "prabhava": [],
+    "karma": []
+  },
+  "dosha": {
+    "vata": "",
+    "pitta": "",
+    "kapha": "",
+    "summary": "Classical doṣa effect requires text-level verification."
+  },
+  "therapeutics": {
+    "useful_part": [
+      "root",
+      "whole plant"
+    ],
+    "indications": [],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — verify exact classical entry"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": "Compound-level data intentionally left blank pending source-level verification."
+  },
+  "modern_information": {
+    "evidence_summary": "Botanical and medicinal-plant reference record; detailed modern evidence should be added from authoritative sources.",
+    "recognized_uses": [
+      "Botanical identification and Dravyaguna education."
+    ],
+    "safety_notes": "Educational reference only; confirm current pharmacopoeial, toxicological and clinical guidance before use.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Botanical identity: Uraria picta (Jacq.) Desv. ex DC.",
+      "Family: Fabaceae",
+      "Useful part(s): root; whole plant"
+    ],
+    "viva_questions": [
+      "What is the botanical name and family of Prishniparni?",
+      "Which morphological characters help identify Prishniparni?"
+    ],
+    "identification_points": [
+      "Small herb with trifoliate leaves, often with a mottled central leaflet, and slender flowering racemes."
+    ],
+    "mnemonics": [],
+    "quick_revision": "Prishniparni — Uraria picta (Jacq.) Desv. ex DC.. Useful part(s): root; whole plant."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Added as a supplementary BAMS-relevant medicinal plant; separate from the NCISM-97 core list."
+    ],
+    "discussion_points": [
+      "Compare botanical identification and classical nomenclature with the NCISM-97 plants."
+    ],
+    "practical_points": [
+      "Observe authenticated material or herbarium specimens and record the identification basis separately."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+    "important_indications": [],
+    "useful_part": "root; whole plant",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Use authoritative identification and safety references."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_medicinal_plant_resource",
+      "title": "E-Charak / Ministry of AYUSH medicinal plant knowledge resources",
+      "url": "https://echarak.ayush.gov.in/knowledge_resources"
+    },
+    {
+      "type": "official_medicinal_plant_resource",
+      "title": "NMPB / Ministry of AYUSH medicinal plant resources",
+      "url": "https://echarak.ayush.gov.in/knowledge_resources"
+    }
+  ],
+  "metadata": {
+    "status": "supplementary_identity_verified_needs_classical_enrichment",
+    "source_batch": "Production supplementary expansion",
+    "version": "1.0",
+    "last_audit": "2026-09-21"
+  }
+}
