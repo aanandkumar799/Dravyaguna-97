@@ -1,0 +1,152 @@
+{
+  "id": "tagara",
+  "order": null,
+  "category": "Supplementary",
+  "syllabus_marker": "Supplementary",
+  "identity": {
+    "name": "Tagara",
+    "sanskrit_name": "तगर",
+    "transliteration": "",
+    "botanical_name": "Valeriana jatamansi Jones",
+    "family": "Caprifoliaceae",
+    "english_name": "Indian valerian",
+    "hindi_name": "",
+    "regional_names": [],
+    "synonyms": []
+  },
+  "classification": {
+    "kingdom": "Plantae",
+    "habit": "perennial herb",
+    "habitat": "Himalayan region",
+    "distribution": "Himalayan region"
+  },
+  "identification": {
+    "description": "Aromatic perennial with basal leaves and a characteristic underground rhizome/root system.",
+    "whole_plant": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": "",
+    "identification_points": [
+      "Aromatic perennial with basal leaves and a characteristic underground rhizome/root system."
+    ]
+  },
+  "images": {
+    "whole_plant": "",
+    "habit": "",
+    "root": "",
+    "stem": "",
+    "leaf": "",
+    "flower": "",
+    "fruit": "",
+    "seed": "",
+    "bark": ""
+  },
+  "dravya_guna": {
+    "rasa": [],
+    "guna": [],
+    "virya": "",
+    "vipaka": "",
+    "prabhava": [],
+    "karma": []
+  },
+  "dosha": {
+    "vata": "",
+    "pitta": "",
+    "kapha": "",
+    "summary": "Classical doṣa effect requires text-level verification."
+  },
+  "therapeutics": {
+    "useful_part": [
+      "rhizome",
+      "root"
+    ],
+    "indications": [],
+    "therapeutic_actions": [],
+    "dose": "",
+    "anupana": "",
+    "duration": "",
+    "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
+    "contraindications": ""
+  },
+  "formulations": [],
+  "classical_reference": {
+    "shlokas": [],
+    "nighantu_references": [],
+    "samhita_references": [],
+    "shloka_reference_status": "requires text-level verification",
+    "reference_hubs": [
+      "TDU Indian Medicinal Plants Database — verify exact classical entry"
+    ]
+  },
+  "phytochemistry": {
+    "major_constituents": [],
+    "chemical_notes": "Compound-level data intentionally left blank pending source-level verification."
+  },
+  "modern_information": {
+    "evidence_summary": "Botanical and medicinal-plant reference record; detailed modern evidence should be added from authoritative sources.",
+    "recognized_uses": [
+      "Botanical identification and Dravyaguna education."
+    ],
+    "safety_notes": "Educational reference only; confirm current pharmacopoeial, toxicological and clinical guidance before use.",
+    "sources": []
+  },
+  "student": {
+    "exam_points": [
+      "Botanical identity: Valeriana jatamansi Jones",
+      "Family: Caprifoliaceae",
+      "Useful part(s): rhizome; root"
+    ],
+    "viva_questions": [
+      "What is the botanical name and family of Tagara?",
+      "Which morphological characters help identify Tagara?"
+    ],
+    "identification_points": [
+      "Aromatic perennial with basal leaves and a characteristic underground rhizome/root system."
+    ],
+    "mnemonics": [],
+    "quick_revision": "Tagara — Valeriana jatamansi Jones. Useful part(s): rhizome; root."
+  },
+  "teacher": {
+    "teaching_points": [
+      "Added as a supplementary BAMS-relevant medicinal plant; separate from the NCISM-97 core list."
+    ],
+    "discussion_points": [
+      "Compare botanical identification and classical nomenclature with the NCISM-97 plants."
+    ],
+    "practical_points": [
+      "Observe authenticated material or herbarium specimens and record the identification basis separately."
+    ]
+  },
+  "doctor": {
+    "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+    "important_indications": [],
+    "useful_part": "rhizome; root",
+    "dose": "",
+    "anupana": "",
+    "key_precautions": [
+      "Use authoritative identification and safety references."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_medicinal_plant_resource",
+      "title": "E-Charak / Ministry of AYUSH medicinal plant knowledge resources",
+      "url": "https://echarak.ayush.gov.in/knowledge_resources"
+    },
+    {
+      "type": "official_medicinal_plant_resource",
+      "title": "NMPB / Ministry of AYUSH medicinal plant resources",
+      "url": "https://echarak.ayush.gov.in/knowledge_resources"
+    }
+  ],
+  "metadata": {
+    "status": "supplementary_identity_verified_needs_classical_enrichment",
+    "source_batch": "Production supplementary expansion",
+    "version": "1.0",
+    "last_audit": "2026-09-21"
+  }
+}
