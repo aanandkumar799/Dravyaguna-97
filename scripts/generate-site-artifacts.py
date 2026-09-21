@@ -147,7 +147,7 @@ header{{background:#fff;border-bottom:1px solid #dfe8df}}
 <section class="card"><h2>Verified study data</h2><dl>{row_html}</dl></section>
 <div class="grid"><section class="card"><h2>Academic trust & review</h2><p>This page is a static, crawlable rendering of the DravyaGuna 97 database record. It does not invent missing fields.</p><p>Reviewer attribution is shown only when a named reviewer is actually recorded in the project data. See the <a href="{esc(BASE)}sources-review.html">Sources & Review</a> page for the verification framework and source policy.</p></section>
 <section class="card"><h2>Continue to full dossier</h2><p>The interactive dossier contains the full image gallery, detailed textbook notes, MCQs and revision tools.</p><div class="actions"><a class="btn" href="{esc(BASE)}plant.html?id={quote(pid,safe='')}">Open full dossier</a><a class="btn" href="{esc(BASE)}plants.html">Back to Plant Library</a></div></section></div>
-{"}
+{("<section class=\"card\"><h2>Sources recorded for this entry</h2><ul>"+source_html+"</ul></section>" if source_html else "")}
 </main><div class="notice wrap"><strong>Educational reference only.</strong> This site is for BAMS study and revision. Do not use its dosing, therapeutic or identification information as a substitute for qualified clinical assessment, prescribing, dispensing, or professional supervision. Cross-check authoritative Ayurvedic texts, pharmacopoeial standards and current professional guidance before clinical use.</div>
 <footer>DravyaGuna 97 • <a href="{esc(BASE)}sources-review.html">Sources & Review</a> • <a href="{esc(BASE)}feedback.html">Share your feedback</a></footer>
 </body></html>"""
