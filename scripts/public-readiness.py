@@ -9,7 +9,7 @@ DB=ROOT/"data"/"plants"
 INDEX=ROOT/"plant-index.json"
 BASE="https://dravyaguna-97.web.app/"
 REQUIRED=["identity","classification","identification","dravya_guna","therapeutics","classical_reference","student","metadata"]
-PUBLIC_PAGES=["index.html","plants.html","plant.html","compare.html","quiz.html","viva.html","progress.html","rasa.html","reference-library.html","practical-lab.html","references.html","saved.html","404.html"]
+PUBLIC_PAGES=["index.html","plants.html","plant.html","compare.html","quiz.html","viva.html","progress.html","rasa.html","reference-library.html","practical-lab.html","references.html","404.html"]
 
 records=[]
 for path in sorted(DB.glob("*.json")):
