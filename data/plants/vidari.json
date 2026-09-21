@@ -12,7 +12,10 @@
     "english_name": "Indian kudzu",
     "hindi_name": "",
     "regional_names": [],
-    "synonyms": []
+    "synonyms": [
+      "Bhumi-kushmanda",
+      "Kshirashukla"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
@@ -46,12 +49,22 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": [],
-    "guna": [],
-    "virya": "",
-    "vipaka": "",
+    "rasa": [
+      "madhura"
+    ],
+    "guna": [
+      "guru",
+      "snigdha"
+    ],
+    "virya": "sheeta",
+    "vipaka": "madhura",
     "prabhava": [],
-    "karma": []
+    "karma": [
+      "vatapittashamaka",
+      "balya",
+      "brimhana",
+      "vrishya"
+    ]
   },
   "dosha": {
     "vata": "",
@@ -63,7 +76,12 @@
     "useful_part": [
       "tuberous root"
     ],
-    "indications": [],
+    "indications": [
+      "daha",
+      "durbalata",
+      "kshaya",
+      "vata-pitta disorders"
+    ],
     "therapeutic_actions": [],
     "dose": "",
     "anupana": "",
@@ -97,6 +115,10 @@
     "exam_points": [
       "Botanical identity: Pueraria tuberosa (Roxb. ex Willd.) DC.",
       "Family: Fabaceae",
+      "Rasa: madhura",
+      "Guna: guru, snigdha",
+      "Virya: sheeta",
+      "Vipaka: madhura",
       "Useful part(s): tuberous root"
     ],
     "viva_questions": [
@@ -107,7 +129,7 @@
       "Large climber with trifoliate leaves and conspicuous underground tubers."
     ],
     "mnemonics": [],
-    "quick_revision": "Vidari — Pueraria tuberosa (Roxb. ex Willd.) DC.. Useful part(s): tuberous root."
+    "quick_revision": "Vidari — madhura rasa; guru, snigdha guna; sheeta virya; madhura vipaka."
   },
   "teacher": {
     "teaching_points": [
@@ -140,12 +162,18 @@
       "type": "official_medicinal_plant_resource",
       "title": "NMPB / Ministry of AYUSH medicinal plant resources",
       "url": "https://echarak.ayush.gov.in/knowledge_resources"
+    },
+    {
+      "type": "ayurvedic_dravyaguna_reference",
+      "title": "Source used for Rasapanchaka enrichment",
+      "url": "https://www.sdach.ac.in/about-dravyaguna-vigyan/dravyaguna-vigyan-blogs/vidari/"
     }
   ],
   "metadata": {
-    "status": "supplementary_identity_verified_needs_classical_enrichment",
+    "status": "supplementary_enriched_rasapanchaka_source_reviewed",
     "source_batch": "Production supplementary expansion",
     "version": "1.0",
-    "last_audit": "2026-09-21"
+    "last_audit": "2026-09-21",
+    "last_enrichment": "2026-09-21"
   }
 }
