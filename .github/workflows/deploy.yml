@@ -61,8 +61,7 @@ jobs:
                   if not re.search(pat,html,re.I): html=html.replace('</body>',f'<script src="{rel}" defer></script>\n</body>',1)
               if page.name=='plant.html':
                   if '<link rel="stylesheet" href="plant-dossier-layout.css">' not in html: html=html.replace('</head>','<link rel="stylesheet" href="plant-dossier-layout.css">\n</head>',1)
-                  for src in ['cover-image-fix.js','dossier-fallback.js','image-gallery-delay.js','academic-verification.js','strict-gallery-guard.js']:
-                      if f'<script src="{src}" defer></script>' not in html: html=html.replace('</body>',f'<script src="{src}" defer></script>\n</body>',1)
+                  if '<script src="academic-verification.js" defer></script>' not in html: html=html.replace('</body>','<script src="academic-verification.js" defer></script>\n</body>',1)
               if page.name=='plants.html' and '<script src="flashcard-entry.js" defer></script>' not in html: html=html.replace('</body>','<script src="flashcard-entry.js" defer></script>\n</body>',1)
               if page.name=='practical-lab.html' and '<script src="practical-lab-enhanced.js" defer></script>' not in html: html=html.replace('</body>','<script src="practical-lab-enhanced.js" defer></script>\n</body>',1)
               if page.name=='references.html' and '<script src="classical-references-enhanced.js" defer></script>' not in html: html=html.replace('</body>','<script src="classical-references-enhanced.js" defer></script>\n</body>',1)
