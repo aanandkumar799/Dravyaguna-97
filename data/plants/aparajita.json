@@ -12,7 +12,10 @@
     "english_name": "Butterfly pea",
     "hindi_name": "",
     "regional_names": [],
-    "synonyms": []
+    "synonyms": [
+      "Vishnukranta",
+      "Girikarnika"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
@@ -46,12 +49,23 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": [],
-    "guna": [],
-    "virya": "",
-    "vipaka": "",
+    "rasa": [
+      "tikta",
+      "kashaya"
+    ],
+    "guna": [
+      "laghu",
+      "ruksha"
+    ],
+    "virya": "sheeta",
+    "vipaka": "katu",
     "prabhava": [],
-    "karma": []
+    "karma": [
+      "tridoshahara",
+      "medhya",
+      "vishaghna",
+      "chakshushya"
+    ]
   },
   "dosha": {
     "vata": "",
@@ -65,7 +79,11 @@
       "seed",
       "flower"
     ],
-    "indications": [],
+    "indications": [
+      "medhya use",
+      "visha",
+      "netra disorders"
+    ],
     "therapeutic_actions": [],
     "dose": "",
     "anupana": "",
@@ -99,7 +117,11 @@
     "exam_points": [
       "Botanical identity: Clitoria ternatea L.",
       "Family: Fabaceae",
-      "Useful part(s): root; seed; flower"
+      "Rasa: tikta, kashaya",
+      "Guna: laghu, ruksha",
+      "Virya: sheeta",
+      "Vipaka: katu",
+      "Useful part(s): root, seed, flower"
     ],
     "viva_questions": [
       "What is the botanical name and family of Aparajita?",
@@ -109,7 +131,7 @@
       "Twining herb with trifoliate leaves and distinctive blue or white papilionaceous flowers."
     ],
     "mnemonics": [],
-    "quick_revision": "Aparajita — Clitoria ternatea L.. Useful part(s): root; seed; flower."
+    "quick_revision": "Aparajita — tikta, kashaya rasa; laghu, ruksha guna; sheeta virya; katu vipaka."
   },
   "teacher": {
     "teaching_points": [
@@ -125,7 +147,7 @@
   "doctor": {
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
-    "useful_part": "root; seed; flower",
+    "useful_part": "root, seed, flower",
     "dose": "",
     "anupana": "",
     "key_precautions": [
@@ -142,12 +164,18 @@
       "type": "official_medicinal_plant_resource",
       "title": "NMPB / Ministry of AYUSH medicinal plant resources",
       "url": "https://echarak.ayush.gov.in/knowledge_resources"
+    },
+    {
+      "type": "ayurvedic_dravyaguna_reference",
+      "title": "Source used for Rasapanchaka enrichment",
+      "url": "https://jaims.in/jaims/article/download/6507/11699?inline=1"
     }
   ],
   "metadata": {
-    "status": "supplementary_identity_verified_needs_classical_enrichment",
+    "status": "supplementary_enriched_rasapanchaka_source_reviewed",
     "source_batch": "Production supplementary expansion",
     "version": "1.0",
-    "last_audit": "2026-09-21"
+    "last_audit": "2026-09-21",
+    "last_enrichment": "2026-09-21"
   }
 }
