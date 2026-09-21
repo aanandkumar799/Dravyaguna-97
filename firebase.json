@@ -31,10 +31,16 @@
         ]
       }
     ],
-    "rewrites": [
+    "redirects": [
       {
         "source": "/saved.html",
-        "destination": "/bookmarks.html"
+        "destination": "/saved-plants/",
+        "type": 301
+      },
+      {
+        "source": "/bookmarks.html",
+        "destination": "/saved-plants/",
+        "type": 301
       }
     ]
   }
