@@ -12,7 +12,10 @@
     "english_name": "Indian mallow",
     "hindi_name": "",
     "regional_names": [],
-    "synonyms": []
+    "synonyms": [
+      "Kankita",
+      "Rishyaprokta"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
@@ -46,12 +49,22 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": [],
-    "guna": [],
-    "virya": "",
-    "vipaka": "",
+    "rasa": [
+      "madhura"
+    ],
+    "guna": [
+      "laghu",
+      "snigdha"
+    ],
+    "virya": "sheeta",
+    "vipaka": "madhura",
     "prabhava": [],
-    "karma": []
+    "karma": [
+      "vatapittahara",
+      "balya",
+      "brimhana",
+      "vrishya"
+    ]
   },
   "dosha": {
     "vata": "",
@@ -61,11 +74,13 @@
   },
   "therapeutics": {
     "useful_part": [
-      "root",
-      "seed",
-      "whole plant"
+      "root"
     ],
-    "indications": [],
+    "indications": [
+      "vata disorders",
+      "prameha",
+      "raktapitta"
+    ],
     "therapeutic_actions": [],
     "dose": "",
     "anupana": "",
@@ -99,7 +114,11 @@
     "exam_points": [
       "Botanical identity: Abutilon indicum (L.) Sweet",
       "Family: Malvaceae",
-      "Useful part(s): root; seed; whole plant"
+      "Rasa: madhura",
+      "Guna: laghu, snigdha",
+      "Virya: sheeta",
+      "Vipaka: madhura",
+      "Useful part(s): root"
     ],
     "viva_questions": [
       "What is the botanical name and family of Atibala?",
@@ -109,7 +128,7 @@
       "Softly pubescent plant with cordate leaves, yellow flowers and characteristic schizocarpic fruit."
     ],
     "mnemonics": [],
-    "quick_revision": "Atibala — Abutilon indicum (L.) Sweet. Useful part(s): root; seed; whole plant."
+    "quick_revision": "Atibala — madhura rasa; laghu, snigdha guna; sheeta virya; madhura vipaka."
   },
   "teacher": {
     "teaching_points": [
@@ -125,7 +144,7 @@
   "doctor": {
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
-    "useful_part": "root; seed; whole plant",
+    "useful_part": "root",
     "dose": "",
     "anupana": "",
     "key_precautions": [
@@ -142,12 +161,18 @@
       "type": "official_medicinal_plant_resource",
       "title": "NMPB / Ministry of AYUSH medicinal plant resources",
       "url": "https://echarak.ayush.gov.in/knowledge_resources"
+    },
+    {
+      "type": "ayurvedic_dravyaguna_reference",
+      "title": "Source used for Rasapanchaka enrichment",
+      "url": "https://sanskrit.uohyd.ac.in/Corpus/Typed-Texts/bhava-prakash/bhavaprakashaha.html"
     }
   ],
   "metadata": {
-    "status": "supplementary_identity_verified_needs_classical_enrichment",
+    "status": "supplementary_enriched_rasapanchaka_source_reviewed",
     "source_batch": "Production supplementary expansion",
     "version": "1.0",
-    "last_audit": "2026-09-21"
+    "last_audit": "2026-09-21",
+    "last_enrichment": "2026-09-21"
   }
 }
