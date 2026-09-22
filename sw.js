@@ -1,7 +1,7 @@
-const CACHE_NAME = 'dravya-guna-97-v45-pwa-shell';
+const CACHE_NAME = 'dravya-guna-97-v46-pwa-shell';
 const APP_SHELL = [
   './','./index.html','./plants.html','./plant.html','./compare.html','./quiz.html','./viva.html','./progress.html','./rasa.html','./reference-library.html','./data-quality.html','./sources-review.html',
-  './practical-lab.html','./references.html','./formulations.html','./404.html','./style.css','./responsive-fix.css','./site-theme.css','./plant-dossier-layout.css',
+  './practical-lab.html','./references.html','./formulations.html','./404.html','./style.css','./site-theme.css','./plant-dossier-layout.css',
   './cover-image-fix.js','./dossier-fallback.js','./image-gallery-delay.js','./image-gallery-fix.js','./academic-verification.js','./public-seo.js',
   './flashcard-entry.js','./classical-references-enhanced.js','./practical-lab-enhanced.js','./script.js',
   './data/curated-image-manifest.json','./plant-index.json','./plants.json','./manifest.json','./robots.txt','./sitemap.xml',
