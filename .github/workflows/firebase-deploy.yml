@@ -43,7 +43,9 @@ jobs:
           python scripts/generate-site-artifacts.py
           python scripts/public-readiness.py
           python scripts/audit-data-quality.py
+          python -m pip install --disable-pip-version-check --quiet pillow
           python scripts/predeploy-validation.py
+          python scripts/visual-image-audit.py
 
       - name: Prepare Firebase Hosting site
         shell: bash
@@ -114,3 +116,4 @@ jobs:
       - name: Remove Firebase credentials
         if: always()
         run: rm -f "$RUNNER_TEMP/firebase-service-account.json"
+
