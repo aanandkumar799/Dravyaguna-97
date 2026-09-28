@@ -64,6 +64,21 @@ if isinstance(manifest, dict):
     unexpected = sorted(statuses - allowed)
     if unexpected:
         errors.append(f"Unexpected image verification statuses: {unexpected}")
+    # A verified-local row is valid only when the referenced file is actually in the repository.
+    canonical_by_id = {str(data.get("id")): data for _, data in canonical}
+    for row in rows:
+        if not isinstance(row, dict) or row.get("verification_status") != "verified-local":
+            continue
+        image_path = str(row.get("image_path", "")).strip()
+        if not image_path:
+            errors.append(f"verified-local image has no image_path: {row.get('plant_id')}/{row.get('part')}")
+        elif not (ROOT / image_path).is_file():
+            errors.append(f"verified-local image file is missing: {image_path}")
+        elif (ROOT / image_path).stat().st_size == 0:
+            errors.append(f"verified-local image file is empty: {image_path}")
+        expected_botanical = str(canonical_by_id.get(str(row.get("plant_id")), {}).get("botanical_name", "")).strip()
+        if str(row.get("verified_botanical_name", "")).strip() != expected_botanical:
+            errors.append(f"verified-local botanical name mismatch: {row.get('plant_id')}/{row.get('part')}")
 
 report = load(REPORT)
 if isinstance(report, dict) and isinstance(manifest, dict):
@@ -73,6 +88,8 @@ if isinstance(report, dict) and isinstance(manifest, dict):
     for row in rows:
         status = str(row.get("verification_status", ""))
         counts[status] = counts.get(status, 0) + 1
+    # Support the current flat audit-report schema and the earlier nested summary schema.
+    summary = report.get("summary") if isinstance(report.get("summary"), dict) else report
     if summary.get("plants_checked") != 97:
         errors.append("Image audit report plants_checked is not 97")
     if summary.get("slots_checked") != 873:
