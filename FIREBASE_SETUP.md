@@ -49,10 +49,10 @@ The single Firebase deployment workflow is:
 
 It deploys:
 
-1. Firestore security rules
-2. Firebase Hosting
+1. Firebase Hosting
+2. Firestore security rules
 
-The workflow verifies that the service-account JSON belongs to project `dravya-guna-97` and fails if Firestore rules deployment fails.
+The workflow verifies that the service-account JSON belongs to project `dravya-guna-97` and fails if either Hosting or Firestore rules deployment fails.
 
 Duplicate Firebase deployment workflows were removed to prevent conflicting deployments.
 
