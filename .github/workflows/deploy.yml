@@ -20,7 +20,9 @@ jobs:
           python scripts/generate-site-artifacts.py
           python scripts/public-readiness.py
           python scripts/audit-data-quality.py
+          python -m pip install --disable-pip-version-check --quiet pillow
           python scripts/predeploy-validation.py
+          python scripts/visual-image-audit.py
       - name: Prepare static site
         shell: bash
         run: |
@@ -90,3 +92,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
