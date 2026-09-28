@@ -69,9 +69,8 @@ jobs:
               if page.name=="plant.html":
                   if 'href="plant-dossier-layout.css"' not in html:
                       html=html.replace("</head>",'<link rel="stylesheet" href="plant-dossier-layout.css">\n</head>',1)
-                  for src in ["cover-image-fix.js","dossier-fallback.js","image-gallery-delay.js","academic-verification.js","strict-gallery-guard.js"]:
-                      if f'src="{src}"' not in html:
-                          html=html.replace("</body>",f'<script src="{src}" defer></script>\n</body>',1)
+                  if 'src="academic-verification.js" defer' not in html:
+                      html=html.replace("</body>",'<script src="academic-verification.js" defer></script>\n</body>',1)
               page.write_text(html,encoding="utf-8")
           manifest=json.loads((root/"manifest.json").read_text(encoding="utf-8"))
           icons=manifest.get("icons",[])
