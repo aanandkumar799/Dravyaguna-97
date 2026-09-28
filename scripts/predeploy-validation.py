@@ -76,13 +76,14 @@ if isinstance(manifest, dict):
             errors.append(f"verified-local image file is missing: {image_path}")
         elif (ROOT / image_path).stat().st_size == 0:
             errors.append(f"verified-local image file is empty: {image_path}")
-        canonical_record = canonical_by_id.get(str(row.get("plant_id")), {})\n        identity = canonical_record.get("identity", {}) if isinstance(canonical_record, dict) else {}\n        expected_botanical = str(identity.get("botanical_name", canonical_record.get("botanical_name", ""))).strip()
+        canonical_record = canonical_by_id.get(str(row.get("plant_id")), {})
+        identity = canonical_record.get("identity", {}) if isinstance(canonical_record, dict) else {}
+        expected_botanical = str(identity.get("botanical_name", canonical_record.get("botanical_name", ""))).strip()
         if str(row.get("verified_botanical_name", "")).strip() != expected_botanical:
             errors.append(f"verified-local botanical name mismatch: {row.get('plant_id')}/{row.get('part')}")
 
 report = load(REPORT)
 if isinstance(report, dict) and isinstance(manifest, dict):
-    summary = report.get("summary") or {}
     rows = manifest.get("records") or []
     counts = {}
     for row in rows:
