@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 5,
   "status": "production-registry",
   "purpose": "Fresh image registry for the 97 NCISM Dravyaguna plants. All previous image approvals have been cleared. Images are added only after strict botanical-species, plant-part, licensing, and duplicate checks.",
   "policy": {
