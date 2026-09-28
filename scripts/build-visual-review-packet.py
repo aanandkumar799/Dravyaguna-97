@@ -7,7 +7,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 ROOT=Path(__file__).resolve().parents[1]
 manifest=json.loads((ROOT/"data/curated-image-manifest.json").read_text(encoding="utf-8"))
-plants={p["id"]:p for p in (json.loads((ROOT/"data/plants/index.json").read_text(encoding="utf-8")).get("plants",[]))}
+plants={p.get("id"):p for p in (json.loads(x.read_text(encoding="utf-8")) for x in (ROOT/"data/plants").glob("*.json")) if p.get("id")}
 rows=[r for r in manifest["records"] if r.get("verification_status")=="verified-local" and r.get("image_path")]
 out=ROOT/"visual-review"
 out.mkdir(exist_ok=True)
