@@ -46,6 +46,7 @@ jobs:
           python -m pip install --disable-pip-version-check --quiet pillow
           python scripts/predeploy-validation.py
           python scripts/visual-image-audit.py
+          python scripts/build-visual-review-packet.py
 
       - name: Prepare Firebase Hosting site
         shell: bash
