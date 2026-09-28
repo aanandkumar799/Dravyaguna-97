@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "status": "production-registry",
   "purpose": "Fresh image registry for the 97 NCISM Dravyaguna plants. All previous image approvals have been cleared. Images are added only after strict botanical-species, plant-part, licensing, and duplicate checks.",
   "policy": {
@@ -10288,15 +10288,15 @@
       "plant_name": "Shalmali (Mocharasa)",
       "botanical_name": "Bombax ceiba L.",
       "part": "habit",
-      "image_path": "images/plants/shalmali-mocharasa/habit/image.png",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3A%28CCC_No._35%2C_1927%29_-_Los_Cuatro_Monarcas._Feliz_Base_para_un_Hermoso_Parque_en_Santa_Beatriz._%281%29.png",
-      "source_name": "Wikimedia Commons",
-      "license": "Public domain",
-      "author": "The West Coast Leader, Ltd.",
-      "verified_botanical_name": "Bombax ceiba L.",
-      "verification_status": "verified-local",
-      "source_media_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/%28CCC_No._35%2C_1927%29_-_Los_Cuatro_Monarcas._Feliz_Base_para_un_Hermoso_Parque_en_Santa_Beatriz._%281%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "title": "(CCC No. 35, 1927) - Los Cuatro Monarcas. Feliz Base para un Hermoso Parque en Santa Beatriz. (1).png"
+      "image_path": "",
+      "source_url": "",
+      "source_name": "",
+      "license": "",
+      "author": "",
+      "verified_botanical_name": "",
+      "verification_status": "missing-queued",
+      "source_media_url": "",
+      "title": ""
     },
     {
       "plant_id": "shalmali-mocharasa",
@@ -12434,5 +12434,6 @@
       "verified_botanical_name": "",
       "verification_status": "missing-queued"
     }
-  ]
+  ],
+  "last_verified_at": "2026-09-28T17:20:00Z"
 }
