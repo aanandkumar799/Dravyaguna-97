@@ -108,7 +108,7 @@ jobs:
           PY
 
       - name: Deploy Firebase Hosting
-        run: npx --yes firebase-tools@latest deploy --project dravya-guna-97 --only hosting --non-interactive
+        run: npx --yes firebase-tools@latest deploy --project dravya-guna-97 --only hosting,firestore:rules --non-interactive
 
 
       - name: Remove Firebase credentials
