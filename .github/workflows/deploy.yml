@@ -20,6 +20,7 @@ jobs:
           python scripts/generate-site-artifacts.py
           python scripts/public-readiness.py
           python scripts/audit-data-quality.py
+          python scripts/predeploy-validation.py
       - name: Prepare static site
         shell: bash
         run: |
