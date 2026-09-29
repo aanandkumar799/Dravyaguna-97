@@ -32,7 +32,7 @@ jobs:
           fi
           now=$(date -u +%s)
           cutoff=$((now - 21600))
-          last_human=$(git log origin/main --format='%ct %ae' -n 200 | awk '$0 !~ /github-actions\\[bot\\]/ {print $1; exit}')
+          last_human=$(git log origin/main --format='%ct %ae' -n 200 | awk '$0 !~ /github-actions\\[bot\\]/ && !found {print $1; found=1}')
           if [ -z "$last_human" ] || [ "$last_human" -gt "$cutoff" ]; then
             echo "idle=false" >> "$GITHUB_OUTPUT"
             echo "Human repository work occurred within the last 6 hours; autonomous maintenance is deferred."
