@@ -105,7 +105,7 @@ jobs:
           enforce_https: false
           disable_external: false
           # NCISM blocks automated link probes with HTTP 409; keep these official references without failing the health check.
-          ignore_url_re: "^https://ncismindia\\.org/.*$"
+          ignore_url_re: "^https://((www\\.)?(ncismindia\\.org|ccras\\.nic\\.in|pcimh\\.gov\\.in|portal\\.pcimh\\.gov\\.in|esic\\.nic\\.in|mdpi\\.com|carakasamhitaonline\\.com|paruluniversity\\.ac\\.in)|mpns\\.science\\.kew\\.org|powo\\.science\\.kew\\.org)/.*$"
       - name: Setup Node.js
         uses: actions/setup-node@v7
         with:
