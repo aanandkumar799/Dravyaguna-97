@@ -12,6 +12,14 @@
 </style><link rel="stylesheet" href="site-theme.css?v=8">
 <script src="site-theme.js?v=1" defer></script>
 <script src="public-seo.js" defer></script>
+<meta property="og:type" content="website">
+<meta property="og:title" content="Viva Revision | DravyaGuna 97">
+<meta property="og:description" content="DravyaGuna 97 rapid viva revision tool for BAMS students.">
+<meta property="og:image" content="https://aanandkumar799.github.io/Dravyaguna-97/images/icon-512.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Viva Revision | DravyaGuna 97">
+<meta name="twitter:description" content="DravyaGuna 97 rapid viva revision tool for BAMS students.">
+<meta name="twitter:image" content="https://aanandkumar799.github.io/Dravyaguna-97/images/icon-512.png">
 </head>
 <body><main class="page"><section class="head"><div class="eyebrow">BAMS • DRAVYAGUNA VIGYAN • VIVA REVISION</div><h1>Rapid Viva</h1><p>Reveal one quick identification or Dravyaguna prompt at a time. Use it for oral revision.</p></section><section class="panel"><label class="label" for="scope">Practice scope</label><select id="scope" class="select"><option value="all">All NCISM 97 Plants</option></select><p class="help">Questions are generated from the verified canonical index. Cross-check classical and clinical details with authoritative sources.</p></section><section class="card"><div class="label" id="counter">Question</div><div class="drug" id="drug">Loading…</div><div class="question" id="question">Loading the viva bank…</div><div class="answer" id="answer" hidden></div><div class="actions"><button class="btn primary" id="reveal">Reveal Answer</button><button class="btn secondary" id="next">Next Viva →</button></div><div class="meta" id="meta"></div></section><div class="progress" id="progress"></div><a class="back" href="index.html">← Return to Home</a></main><script>
 let plants=[],current=null,shown=false;const $=id=>document.getElementById(id);const clean=v=>String(v??'').trim();const list=v=>Array.isArray(v)?v.filter(Boolean).join(', '):clean(v);const pick=a=>a[Math.floor(Math.random()*a.length)];
