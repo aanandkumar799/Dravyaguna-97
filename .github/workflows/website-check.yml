@@ -57,25 +57,33 @@ jobs:
           python scripts/generate-site-artifacts.py
           python scripts/public-readiness.py
           python scripts/audit-data-quality.py
-      - name: Generate favicon compatibility assets outside plant image tree
+      - name: Generate favicon and PWA compatibility assets
         run: |
           python3 - <<'PY'
           from pathlib import Path
           import struct, zlib
-          w = h = 32
-          raw = bytearray()
-          for y in range(h):
-              raw.append(0)
-              for x in range(w):
-                  dx, dy = x - 16, y - 16
-                  inside = (dx * dx) / 110 + (dy * dy) / 170 <= 1
-                  raw.extend((27, 67, 50, 255) if inside else (248, 245, 237, 255))
           def chunk(kind, data):
-              return (struct.pack('>I', len(data)) + kind + data + struct.pack('>I', zlib.crc32(kind + data) & 0xffffffff))
-          png = (b'\x89PNG\r\n\x1a\n' + chunk(b'IHDR', struct.pack('>IIBBBBB', w, h, 8, 6, 0, 0, 0)) + chunk(b'IDAT', zlib.compress(bytes(raw), 9)) + chunk(b'IEND', b''))
-          for target in (Path('favicon.png'), Path('images/favicon.png')):
+              return struct.pack('>I', len(data)) + kind + data + struct.pack('>I', zlib.crc32(kind + data) & 0xffffffff)
+          def png(size):
+              raw = bytearray()
+              c = size / 2
+              for y in range(size):
+                  raw.append(0)
+                  for x in range(size):
+                      dx, dy = x - c, y - c
+                      inside = (dx * dx) / (size * 0.36) + (dy * dy) / (size * 0.58) <= 1
+                      raw.extend((27, 67, 50, 255) if inside else (248, 245, 237, 255))
+              return (b'\x89PNG\r\n\x1a\n' +
+                      chunk(b'IHDR', struct.pack('>IIBBBBB', size, size, 8, 6, 0, 0, 0)) +
+                      chunk(b'IDAT', zlib.compress(bytes(raw), 9)) + chunk(b'IEND', b''))
+          for target, size in (
+              (Path('favicon.png'), 32),
+              (Path('images/favicon.png'), 32),
+              (Path('images/icon-192.png'), 192),
+              (Path('images/icon-512.png'), 512),
+          ):
               target.parent.mkdir(parents=True, exist_ok=True)
-              target.write_bytes(png)
+              target.write_bytes(png(size))
           PY
       - name: Validate curated image registry
         run: python scripts/validate-curated-images.py
