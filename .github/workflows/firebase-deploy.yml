@@ -47,7 +47,7 @@ jobs:
           python scripts/visual-image-audit.py
           python scripts/build-visual-review-packet.py
       - name: Upload visual image review packet
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: visual-image-review
           path: visual-review/
