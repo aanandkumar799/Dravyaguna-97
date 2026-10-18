@@ -7,9 +7,9 @@ from urllib.parse import quote
 ROOT=Path(__file__).resolve().parent.parent
 DB=ROOT/"data"/"plants"
 INDEX=ROOT/"plant-index.json"
-BASE="https://dravyaguna-97.web.app/"
+BASE="https://aanandkumar799.github.io/Dravyaguna-97/"
 REQUIRED=["identity","classification","identification","dravya_guna","therapeutics","classical_reference","student","metadata"]
-PUBLIC_PAGES=["index.html","plants.html","plant.html","compare.html","quiz.html","viva.html","progress.html","rasa.html","reference-library.html","practical-lab.html","references.html","404.html"]
+PUBLIC_PAGES=["index.html","plants.html","compare.html","quiz.html","viva.html","rasa.html","reference-library.html","practical-lab.html","references.html","supplementary.html","sources-review.html","404.html"]
 
 records=[]
 for path in sorted(DB.glob("*.json")):
@@ -49,18 +49,15 @@ print("NCISM-97 records:",len(indexed))
 print("Verification status counts:",json.dumps(status_counts,ensure_ascii=False,sort_keys=True))
 print("Public pages validated:",len(PUBLIC_PAGES))
 
-urls=[BASE]+[BASE+p for p in PUBLIC_PAGES if p not in {"index.html","plant.html","404.html"}]
-urls += [BASE+"plant.html?id="+quote(str(p["id"]),safe="") for p in sorted(indexed,key=lambda x:int(x["order"]))]
+urls=[BASE]+[BASE+p for p in PUBLIC_PAGES if p not in {"index.html","404.html"}]
+urls += [BASE+"plants/"+quote(str(p["id"]),safe="")+"/" for p in sorted(indexed,key=lambda x:int(x["order"]))]
 (ROOT/"sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f"  <url><loc>{u}</loc></url>\n" for u in urls)+'</urlset>\n',encoding="utf-8")
 (ROOT/"robots.txt").write_text("User-agent: *\nAllow: /\n\nSitemap: "+BASE+"sitemap.xml\n",encoding="utf-8")
 
-# Prevent plant.html's client-side canonical assignment from reverting to GitHub Pages.
-plant=ROOT/"plant.html"
-if plant.exists():
-    html=plant.read_text(encoding="utf-8")
-    old="https://aanandkumar799.github.io/Dravyaguna-97/plant.html?id="
-    new=BASE+"plant.html?id="
-    if old in html: plant.write_text(html.replace(old,new),encoding="utf-8")
+expected_routes = [ROOT / "plants" / str(p["id"]) / "index.html" for p in indexed]
+missing_routes = [str(path.relative_to(ROOT)) for path in expected_routes if not path.is_file()]
+if missing_routes:
+    errors.append("Missing generated clean plant routes: " + ", ".join(missing_routes[:5]) + (" …" if len(missing_routes) > 5 else ""))
 
 if errors:
     print("PUBLIC READINESS FAILED",file=sys.stderr)

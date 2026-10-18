@@ -107,6 +107,20 @@ for rel in required:
     if not (ROOT / rel).is_file():
         errors.append(f"Missing deployment-critical file: {rel}")
 
+for _, data in canonical:
+    route = ROOT / "plants" / str(data.get("id", "")).strip() / "index.html"
+    if not route.is_file():
+        errors.append(f"Missing generated SEO route: {route.relative_to(ROOT)}")
+
+for rel in ("robots.txt", "sitemap.xml"):
+    path = ROOT / rel
+    if path.is_file():
+        text = path.read_text(encoding="utf-8")
+        if "https://aanandkumar799.github.io/Dravyaguna-97/" not in text:
+            errors.append(f"{rel} does not use the public GitHub Pages origin")
+        if "dravyaguna-97.web.app" in text:
+            errors.append(f"{rel} still contains the retired Firebase origin")
+
 if errors:
     print("PRE-DEPLOY VALIDATION FAILED")
     for error in errors:
