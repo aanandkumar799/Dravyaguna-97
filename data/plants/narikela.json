@@ -137,12 +137,12 @@
     {
       "type": "official_medicinal_plant_resource",
       "title": "E-Charak / Ministry of AYUSH medicinal plant knowledge resources",
-      "url": "https://echarak.ayush.gov.in/knowledge_resources"
+      "url": "https://ccras.nic.in/services/medicinal-plant-research/"
     },
     {
       "type": "official_medicinal_plant_resource",
       "title": "NMPB / Ministry of AYUSH medicinal plant resources",
-      "url": "https://echarak.ayush.gov.in/knowledge_resources"
+      "url": "https://ccras.nic.in/services/medicinal-plant-research/"
     }
   ],
   "metadata": {

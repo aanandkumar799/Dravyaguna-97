@@ -137,10 +137,10 @@ jobs:
       - name: Deploy Firebase Hosting
         run: |
           # Hosting deployment is independent of Firestore rules deployment.
-          # The current CI service account is authorized for Hosting but lacks
-          # serviceusage/firestore permissions required by the Firebase CLI when
-          # firestore:rules is included. Keep Hosting green while rules remain
-          # managed by an appropriately privileged Firebase administrator.
+          # The CI service account must have both Firebase Hosting Admin and
+          # Service Usage Consumer on project dravya-guna-97. The latter is
+          # required even with --only hosting because Firebase CLI queries the
+          # firebasehosting.googleapis.com service before deployment.
           npx --yes firebase-tools@latest deploy --project dravya-guna-97 --only hosting --non-interactive
 
 

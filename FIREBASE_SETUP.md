@@ -41,6 +41,21 @@ The value must be the complete Firebase service-account JSON generated from:
 
 Never commit this JSON to the repository or paste it into an issue/chat.
 
+The CI service account must also have these Google Cloud IAM permissions on `dravya-guna-97`:
+
+- `roles/firebasehosting.admin` (or an equivalent Hosting deployment role)
+- `roles/serviceusage.serviceUsageConsumer`
+
+The second role is required for the Firebase CLI to query the `firebasehosting.googleapis.com` service. Without it, the Hosting workflow fails with HTTP 403 before deployment begins. A Firebase/Google Cloud administrator can grant it with:
+
+```bash
+gcloud projects add-iam-policy-binding dravya-guna-97 \
+  --member="serviceAccount:CI_SERVICE_ACCOUNT_EMAIL" \
+  --role="roles/serviceusage.serviceUsageConsumer"
+```
+
+Replace `CI_SERVICE_ACCOUNT_EMAIL` with the `client_email` from the GitHub environment secret.
+
 ## 5. Production deployment
 
 The single Firebase deployment workflow is:
@@ -52,7 +67,7 @@ It deploys:
 1. Firebase Hosting
 2. Firestore security rules
 
-The workflow verifies that the service-account JSON belongs to project `dravya-guna-97` and fails if either Hosting or Firestore rules deployment fails.
+The Hosting workflow verifies that the service-account JSON belongs to project `dravya-guna-97`. Firestore rules are deployed by the separate `.github/workflows/firebase-rules.yml` workflow.
 
 Duplicate Firebase deployment workflows were removed to prevent conflicting deployments.
 
