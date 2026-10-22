@@ -20,16 +20,16 @@ function initFirebase(){
   if(window.firebase.apps&&window.firebase.apps.length)window.firebase.app();else window.firebase.initializeApp(cfg);
   auth=window.firebase.auth();db=window.firebase.firestore();firebaseReady=true;
   auth.onAuthStateChanged(function(u){user=u||null;loginUI()});
-  auth.setPersistence(window.firebase.auth.Auth.Persistence.LOCAL).catch(function(e){console.warn('Auth persistence:',e)});
-  auth.getRedirectResult().catch(function(e){if(e&&e.code&&e.code!=='auth/no-auth-event')console.warn('Redirect result:',e)});
+  auth.setPersistence(window.firebase.auth.Auth.Persistence.SESSION).catch(function(){status('Google sign-in could not start. Please refresh the page.','err')});
+  auth.getRedirectResult().catch(function(e){if(e&&e.code&&e.code!=='auth/no-auth-event')status('Google sign-in could not be completed. Please try again.','err')});
   loginUI();
- }catch(e){console.error(e);firebaseReady=false;loginUI();status('Google sign-in could not start. Please refresh the page.','err')}
+ }catch(e){firebaseReady=false;loginUI();status('Google sign-in could not start. Please refresh the page.','err')}
 }
 function googleLogin(){
  if(!firebaseReady||!auth)return status('Google sign-in is not ready yet. Please wait a moment and try again.','err');
  var p=new firebase.auth.GoogleAuthProvider();p.setCustomParameters({prompt:'select_account'});status('Opening Google sign-in…','loading');
  var mobile=/Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
- (mobile?auth.signInWithRedirect(p):auth.signInWithPopup(p)).catch(function(e){console.error(e);if(e&&e.code==='auth/popup-blocked')return auth.signInWithRedirect(p);status(e&&e.code==='auth/unauthorized-domain'?'This website domain is not authorized in Firebase Authentication.':'Google sign-in failed. Please try again.','err')});
+ (mobile?auth.signInWithRedirect(p):auth.signInWithPopup(p)).catch(function(e){if(e&&e.code==='auth/popup-blocked')return auth.signInWithRedirect(p);status(e&&e.code==='auth/unauthorized-domain'?'This website domain is not authorized in Firebase Authentication.':'Google sign-in failed. Please try again.','err')});
 }
 function bindForm(){
  var form=document.getElementById('dgFeedbackForm');if(!form||form.dataset.bound==='1')return;form.dataset.bound='1';
@@ -64,7 +64,7 @@ function submit(ev){
    document.getElementById('dgFeedbackForm').reset();document.getElementById('dgRating').value='0';document.getElementById('dgCount').textContent='0';
    document.querySelectorAll('.rating button').forEach(function(x){x.classList.remove('active');x.setAttribute('aria-checked','false')});busy(false);status('Thanks! Your feedback has been submitted successfully.','ok');
  }).catch(function(e){
-   console.error('Feedback submission failed:',e);busy(false);var code=e&&e.code?e.code:'unknown';
+   busy(false);var code=e&&e.code?e.code:'unknown';
    if(code==='verified-google-token-required')status('Your Google session needs to be refreshed. Please sign out, sign in again, and submit once more.','err');
    else if(code==='permission-denied')status('Feedback is temporarily blocked by the Firestore security rules. Please try again after the Firebase rules deployment completes.','err');
    else status('Could not submit feedback ('+code+'). Please try again.','err');

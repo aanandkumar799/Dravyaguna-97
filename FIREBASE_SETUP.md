@@ -4,7 +4,7 @@ The DravyaGuna 97 site uses Firebase project **dravya-guna-97** for authenticate
 
 ## 1. Firebase web configuration
 
-The public web configuration is stored in `feedback-config.js`. Firebase web API keys are not database credentials; Firestore and Authentication rules provide the access control.
+The public web configuration is stored in `feedback-config.js`. Firebase web API keys are not database credentials; Firestore and Authentication rules provide the access control. The feedback and administrator pages use browser-session Firebase persistence, so closing the browser ends the local sign-in session. Never replace this public configuration with a service-account key; service-account credentials belong only in the GitHub `firebase-production` environment secret.
 
 ## 2. Authentication
 

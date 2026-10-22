@@ -67,10 +67,11 @@ async function load(){
  try{
   const snap=await db.collection('reviews').orderBy('createdAt','desc').get();
   all=snap.docs.map(d=>({id:d.id,...d.data()}));render();
- }catch(e){console.error(e);$('list').innerHTML='<div class="empty danger">Could not load feedback. Check Firestore rules and administrator access.</div>'}
+ }catch(e){$('list').innerHTML='<div class="empty danger">Could not load feedback. Check Firestore rules and administrator access.</div>'}
 }
 function start(){
  firebase.initializeApp(cfg);auth=firebase.auth();db=firebase.firestore();
+ auth.setPersistence(firebase.auth.Auth.Persistence.SESSION).catch(function(){msg('Could not start a secure administrator session. Please refresh the page.','err')});
  auth.onAuthStateChanged(async user=>{
   if(!user){$('login').hidden=false;$('dashboard').hidden=true;return}
   if(!user.email||user.email.toLowerCase()!==ADMIN){await auth.signOut();msg('Access denied. This Google account is not the authorized administrator.','err');return}
