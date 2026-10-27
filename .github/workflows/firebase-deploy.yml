@@ -35,7 +35,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v7
         with:
-          node-version: 20
+          node-version: 22
 
       - name: Generate and validate canonical site
         run: |
@@ -147,4 +147,3 @@ jobs:
       - name: Remove Firebase credentials
         if: always()
         run: rm -f "$RUNNER_TEMP/firebase-service-account.json"
-
