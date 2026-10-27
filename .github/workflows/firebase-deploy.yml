@@ -133,6 +133,7 @@ jobs:
           if project!="dravya-guna-97":
               raise SystemExit(f"Service account belongs to unexpected Firebase project: {project!r}")
           print("Firebase service-account project verified: dravya-guna-97")
+          print(f"Firebase CI service-account email: {data.get('client_email','(missing)')}")
           PY
 
       - name: Deploy Firebase Hosting
