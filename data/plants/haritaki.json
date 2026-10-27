@@ -8,7 +8,7 @@
     "botanical_name": "Terminalia chebula Retz.",
     "family": "Combretaceae",
     "english_name": "Chebulic Myrobalan",
-    "hindi_name": "",
+    "hindi_name": "हरड़ / हर्रे",
     "regional_names": [
       "Abhaya",
       "Pathya",
@@ -63,23 +63,18 @@
     ],
     "virya": "Ushna",
     "vipaka": "Madhura",
-    "prabhava": [
-      "rasayan",
-      "Virechana",
-      "Chakshushya",
-      "Deepana"
-    ],
+    "prabhava": [],
     "karma": [
       "rasayan",
-      "Virechana",
+      "Anulomana",
       "Chakshushya",
       "Deepana"
     ]
   },
   "dosha": {
-    "vata": "not specifically documented in imported dataset",
-    "pitta": "not specifically documented in imported dataset",
-    "kapha": "not specifically documented in imported dataset"
+    "vata": "pacified",
+    "pitta": "pacified",
+    "kapha": "pacified"
   },
   "therapeutics": {
     "useful_part": [
@@ -93,22 +88,47 @@
       "Agnimandya"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Phala churna 3–6 g",
     "anupana": "",
     "duration": "",
     "precautions": "",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Triphala Churna",
+      "dosage_form": "churna",
+      "indication": "",
+      "reference": "AFI"
+    },
+    {
+      "name": "Abhayarishta",
+      "dosage_form": "arishta",
+      "indication": "",
+      "reference": "AFI"
+    },
+    {
+      "name": "Agastya Haritaki Rasayana",
+      "dosage_form": "avaleha",
+      "indication": "",
+      "reference": "AFI"
+    },
+    {
+      "name": "Chitraka Haritaki",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "AFI"
+    }
+  ],
   "classical_reference": {
     "shlokas": [
-      "हरीतकी पञ्चरसा लवणवर्जिता ।\nरूक्षा चोष्णा सरा मेध्या स्वादुपाका रसायनी ॥"
+      "हरीतकी पञ्चरसाऽलवणा तुवरा परम्।\nरूक्षोष्णा दीपनी मेध्या स्वादुपाका रसायनी॥\nचक्षुष्या लघुरायुष्या बृंहणी चानुलोमिनी।"
     ],
     "nighantu_references": [
       "Bhavaprakasha Nighantu, Haritakyadi Varga, Haritaki properties passage; exact verse numbering varies by edition."
     ],
     "samhita_references": [],
-    "shloka_reference_status": "classical_text_corrected; edition/numbering explicitly qualified",
+    "shloka_reference_status": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas",
       "CCRAS/NIIMH e-Nighantu — Bhavaprakasha Nighantu"
@@ -140,7 +160,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "fruit",
-    "dose": "",
+    "dose": "Phala churna 3–6 g",
     "anupana": "",
     "key_precautions": []
   },

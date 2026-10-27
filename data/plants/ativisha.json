@@ -3,12 +3,12 @@
   "order": 6,
   "identity": {
     "name": "Ativisha",
-    "sanskrit_name": "Ativisha",
+    "sanskrit_name": "अतिविषा",
     "transliteration": "",
     "botanical_name": "Aconitum heterophyllum Wall. ex Royle",
     "family": "Ranunculaceae",
     "english_name": "Indian Atees",
-    "hindi_name": "",
+    "hindi_name": "अतीस",
     "regional_names": [
       "Aruna",
       "Ghuna Vallabha",
@@ -63,7 +63,7 @@
     ],
     "virya": "ushna",
     "vipaka": "katu",
-    "prabhava": "Deepana / Pachana / Atisarahara / Bala-rogahara (Agrya Atisarahara in Children)",
+    "prabhava": "",
     "karma": [
       "Deepana",
       "Pachana",
@@ -72,7 +72,8 @@
       "Jwarahara",
       "Krimighna",
       "Vishaghna",
-      "Atisarahara"
+      "Atisarahara",
+      "Balarogahara"
     ]
   },
   "dosha": {
@@ -103,7 +104,7 @@
       "Vishaghna",
       "Atisarahara"
     ],
-    "dose": "",
+    "dose": "Churna 0.6–2 g",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -143,13 +144,13 @@
   ],
   "classical_reference": {
     "shlokas": [
-      "अतिविषा कटुः तिक्ता उष्णोष्णा दीपनी परा।\nअतिसारज्वरच्छर्दिकफपित्तविषापहा॥"
+      "विषा सोष्णा कटुस्तिक्ता पाचनी दीपनी हरेत्।\nकफपित्तातिसारामविषकासवमिक्रिमीन्॥"
     ],
     "nighantu_references": [
       "Bhavaprakasha Nighantu, Haritakyadi Varga, Verse 153-154"
     ],
     "samhita_references": [],
-    "shloka_reference_status": "A. Directly verified classical reference",
+    "shloka_reference_status": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ],
@@ -198,7 +199,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "root",
-    "dose": "",
+    "dose": "Churna 0.6–2 g",
     "anupana": "",
     "key_precautions": []
   },

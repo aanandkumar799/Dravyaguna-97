@@ -8,7 +8,7 @@
     "botanical_name": "Operculina turpethum (L.) Silva Manso",
     "family": "Convolvulaceae",
     "english_name": "Indian Jalap / Turpeth",
-    "hindi_name": "",
+    "hindi_name": "निसोथ",
     "regional_names": [],
     "synonyms": [
       "Triputa",
@@ -85,7 +85,7 @@
       "Pandu"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Mula churna 1–3 g (API); for virechana 3–6 g",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -107,13 +107,13 @@
   ],
   "classical_reference": {
     "shlokas": [
-      "त्रिवृत् तु कटुका तिक्ता रूक्षा सूक्ष्मा हिमाऽग्निजित् ।\\nसुखं विरेचयत्याशु पित्तश्लेष्मानिलापहा ॥"
+      "श्वेता त्रिवृद्रेचनी स्यात्स्वाद्वी उष्णा समीरजित् ।\nरूक्षा पित्तज्वरश्लेष्मपित्तशोथोदरापहा ॥"
     ],
     "nighantu_references": [
       "Bhavaprakasha Nighantu, Haritakyadi Varga; verse numbering varies by edition and should be checked"
     ],
     "samhita_references": [],
-    "shloka_reference_status": "text/reference pending final edition-level verification",
+    "shloka_reference_status": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ]
@@ -144,7 +144,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "root bark",
-    "dose": "",
+    "dose": "Mula churna 1–3 g (API); for virechana 3–6 g",
     "anupana": "",
     "key_precautions": []
   },

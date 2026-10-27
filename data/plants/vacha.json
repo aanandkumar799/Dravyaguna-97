@@ -3,12 +3,12 @@
   "order": 91,
   "identity": {
     "name": "Vacha",
-    "sanskrit_name": "Vacha",
+    "sanskrit_name": "वचा",
     "transliteration": "",
     "botanical_name": "Acorus calamus L.",
-    "family": "Acoraceae (Araceae)",
+    "family": "Acoraceae",
     "english_name": "Sweet Flag / Calamus",
-    "hindi_name": "",
+    "hindi_name": "बच",
     "regional_names": [
       "Ugra",
       "Sadgrantha",
@@ -105,7 +105,7 @@
       "Kaphaghna",
       "Unmadahara"
     ],
-    "dose": "",
+    "dose": "Churna 60–120 mg (API; after shodhana only); 1–2 g for vamana",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -145,13 +145,13 @@
   ],
   "classical_reference": {
     "shlokas": [
-      "वचा उग्रा कटुका तिक्ता तीक्ष्णोष्णा वमनकृत् सरः।\nमेध्या वह्निकरः कण्ठ्या उन्मादापस्मारापहः॥"
+      "वचोग्रगन्धा कटुका तिक्तोष्णा वान्तिवह्निकृत् ।\nविबन्धाध्मानशूलघ्नी शकृन्मूत्रविशोधिनी ॥\nअपस्मारकफोन्मादभूतजन्त्वनिलान् हरेत् ॥"
     ],
     "nighantu_references": [
       "Bhavaprakasha Nighantu, Haritakyadi Varga, Verse 102-103"
     ],
     "samhita_references": [],
-    "shloka_reference_status": "A. Directly verified classical reference",
+    "shloka_reference_status": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ],
@@ -200,7 +200,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "rhizome",
-    "dose": "",
+    "dose": "Churna 60–120 mg (API; after shodhana only); 1–2 g for vamana",
     "anupana": "",
     "key_precautions": []
   },

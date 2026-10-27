@@ -64,12 +64,7 @@
     ],
     "virya": "Sheeta",
     "vipaka": "Madhura",
-    "prabhava": [
-      "Mutrala",
-      "Vrishya",
-      "rasayan",
-      "Shothahara"
-    ],
+    "prabhava": [],
     "karma": [
       "Mutrala",
       "Vrishya",
@@ -94,13 +89,32 @@
       "Hridroga"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Phala churna 3–6 g; kwatha 50–100 ml",
     "anupana": "",
     "duration": "",
     "precautions": "",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Gokshuradi Guggulu",
+      "dosage_form": "guggulu",
+      "indication": "",
+      "reference": "AFI"
+    },
+    {
+      "name": "Gokshuradi Churna",
+      "dosage_form": "churna",
+      "indication": "",
+      "reference": "AFI"
+    },
+    {
+      "name": "Trinapanchamula",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "AFI"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -168,7 +182,7 @@
       "Hridroga"
     ],
     "useful_part": "fruit",
-    "dose": "",
+    "dose": "Phala churna 3–6 g; kwatha 50–100 ml",
     "anupana": "",
     "key_precautions": [
       "Confirm botanical identity and plant part.",

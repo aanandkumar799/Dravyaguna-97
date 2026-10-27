@@ -8,13 +8,15 @@
     "botanical_name": "Tinospora cordifolia (Willd.) Hook.f. & Thomson",
     "family": "Menispermaceae",
     "english_name": "Heart-leaved Moonseed",
-    "hindi_name": "",
+    "hindi_name": "गिलोय / गुरच",
     "regional_names": [],
     "synonyms": [
-      "Guduchi",
       "Madhuparni",
       "Chinnaruha",
-      "Kundalini"
+      "Kundalini",
+      "Amrita",
+      "Chinnodbhava",
+      "Vatsadani"
     ]
   },
   "classification": {
@@ -56,16 +58,16 @@
     ],
     "virya": "Ushna",
     "vipaka": "Madhura",
-    "prabhava": [
-      "rasayana",
+    "prabhava": [],
+    "karma": [
+      "Rasayana",
       "Jwaraghna"
-    ],
-    "karma": []
+    ]
   },
   "dosha": {
-    "vata": "not specifically documented in imported dataset",
-    "pitta": "not specifically documented in imported dataset",
-    "kapha": "not specifically documented in imported dataset"
+    "vata": "pacified",
+    "pitta": "pacified",
+    "kapha": "pacified"
   },
   "therapeutics": {
     "useful_part": [
@@ -79,13 +81,38 @@
       "Prameha"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Churna 3–6 g; kwatha 20–30 g drug; sattva 1–2 g",
     "anupana": "",
     "duration": "",
     "precautions": "",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Guduchyadi Kwatha",
+      "dosage_form": "kwatha",
+      "indication": "",
+      "reference": "AFI"
+    },
+    {
+      "name": "Amritarishta",
+      "dosage_form": "arishta",
+      "indication": "",
+      "reference": "AFI"
+    },
+    {
+      "name": "Guduchi Satva",
+      "dosage_form": "satva",
+      "indication": "",
+      "reference": "AFI"
+    },
+    {
+      "name": "Amritadi Guggulu",
+      "dosage_form": "guggulu",
+      "indication": "",
+      "reference": "AFI"
+    }
+  ],
   "classical_reference": {
     "shlokas": [
       "गुडूची कटुका तिक्ता स्वादुपाका रसायनी ।\nसंग्राहिणी कषायोष्णा लघ्वी बल्याऽग्निदीपनी ।\nदोषत्रयामतृड्दाहमेहकासांश्च पाण्डुताम् ॥\nकामलाकुष्ठवातास्रज्वरकृमिवमीन् हरेत् ।\nप्रमेहश्वासकासार्शःकृच्छ्रहृद्रोगवातनुत् ॥"
@@ -126,7 +153,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "stem",
-    "dose": "",
+    "dose": "Churna 3–6 g; kwatha 20–30 g drug; sattva 1–2 g",
     "anupana": "",
     "key_precautions": []
   },

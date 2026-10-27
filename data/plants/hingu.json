@@ -67,12 +67,7 @@
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
-      "Deepana",
-      "Pachana",
-      "Shoolaghna",
-      "Vatanulomana"
-    ],
+    "prabhava": [],
     "karma": [
       "Deepana",
       "Pachana",
@@ -97,13 +92,32 @@
       "Ajeerna"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Shodhita Hingu 125–500 mg (API)",
     "anupana": "",
     "duration": "",
     "precautions": "",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Hingvashtaka Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Hingvadi Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Hinguvachadi Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -175,7 +189,7 @@
       "Ajeerna"
     ],
     "useful_part": "oleo-gum-resin",
-    "dose": "",
+    "dose": "Shodhita Hingu 125–500 mg (API)",
     "anupana": "",
     "key_precautions": [
       "Verify source species and quality of resin.",

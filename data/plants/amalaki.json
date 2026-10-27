@@ -71,7 +71,7 @@
   "dosha": {
     "vata": "generally pacifies",
     "pitta": "pacifies",
-    "kapha": "may pacify; context dependent"
+    "kapha": "pacifies"
   },
   "therapeutics": {
     "useful_part": [
@@ -84,7 +84,7 @@
     "therapeutic_actions": [
       "rasayana"
     ],
-    "dose": "",
+    "dose": "Churna 3–6 g; fresh swarasa 10–20 ml",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -165,7 +165,7 @@
     "quick_reference": "Traditional rasayana drug chiefly represented by its fruit.",
     "important_indications": [],
     "useful_part": "fruit",
-    "dose": "",
+    "dose": "Churna 3–6 g; fresh swarasa 10–20 ml",
     "anupana": "",
     "key_precautions": []
   },

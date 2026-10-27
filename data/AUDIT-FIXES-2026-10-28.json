@@ -1,0 +1,6525 @@
+[
+ {
+  "id": "amalaki",
+  "path": "dosha.kapha",
+  "old": "may pacify; context dependent",
+  "new": "pacifies",
+  "reason": "Record's own shloka: फलं धात्र्यास्त्रिदोषजित् (tridoshahara)",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "amalaki",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 3–6 g; fresh swarasa 10–20 ml",
+  "reason": "missing_fill: dose from review",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "amalaki",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 3–6 g; fresh swarasa 10–20 ml",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "aragwadha",
+  "path": "dravya_guna.prabhava",
+  "old": "Sramsi / Mridu Virechana",
+  "new": "",
+  "reason": "Prabhava merely repeated karma; no classical prabhava",
+  "source": "Bhavaprakasha Nighantu; P.V. Sharma DGV II",
+  "confidence": "high"
+ },
+ {
+  "id": "aragwadha",
+  "path": "classical_reference.shlokas",
+  "old": [
+   "कर्णिकारो दीर्घफलः स्वर्णाङ्गः स्वर्णभूषणः ।\\nआरग्वधो गुरुः स्वादुः शीतलः स्रंसनोत्तमः ॥१४९॥\\nज्वरहृद्रोगपित्तास्रवातोदावर्त्तशूलनुत् ।\\nतत्फलं स्रंसनं रुच्यं कुष्ठपित्तकफापहम् ॥१५०॥\\nज्वरे तु सततं पथ्यं कोष्ठशुद्धिकरं परम् ॥१५१॥"
+  ],
+  "new": [
+   "कर्णिकारो दीर्घफलः स्वर्णाङ्गः स्वर्णभूषणः ।\nआरग्वधो गुरुः स्वादुः शीतलः स्रंसनोत्तमः ॥१४९॥\nज्वरहृद्रोगपित्तास्रवातोदावर्त्तशूलनुत् ।\nतत्फलं स्रंसनं रुच्यं कुष्ठपित्तकफापहम् ॥१५०॥\nज्वरे तु सततं पथ्यं कोष्ठशुद्धिकरं परम् ॥१५१॥"
+  ],
+  "reason": "Literal backslash-n replaced with real line breaks",
+  "source": "data format",
+  "confidence": "high"
+ },
+ {
+  "id": "aragwadha",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Phala majja churna 5–10 g; 10–20 g for virechana",
+  "reason": "missing_fill: dose from review",
+  "source": "IMPPAT (API data) https://cb.imsc.res.in/imppat/apiformulationdetails/Āragvadha",
+  "confidence": "high"
+ },
+ {
+  "id": "aragwadha",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Phala majja churna 5–10 g; 10–20 g for virechana",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "IMPPAT (API data) https://cb.imsc.res.in/imppat/apiformulationdetails/Āragvadha",
+  "confidence": "high"
+ },
+ {
+  "id": "arjuna",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Hridaya",
+   "Raktashodhak",
+   "Sandhanakaraka"
+  ],
+  "new": [],
+  "reason": "Prabhava merely repeated karma; no classical prabhava",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "arjuna",
+  "path": "dravya_guna.karma",
+  "old": [
+   "hridya"
+  ],
+  "new": [
+   "hridya",
+   "sandhaniya",
+   "raktashodhak"
+  ],
+  "reason": "Terms moved from prabhava to karma",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "arjuna",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Twak churna 3–6 g; Kshirapaka 50–100 ml",
+  "reason": "missing_fill: dose from review",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "arjuna",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Twak churna 3–6 g; Kshirapaka 50–100 ml",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "ashoka",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "अशोक",
+  "reason": "missing_fill: Hindi name",
+  "source": "API",
+  "confidence": "high"
+ },
+ {
+  "id": "ashoka",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Twak 20–30 g for kwatha",
+  "reason": "missing_fill: dose from review",
+  "source": "IMPPAT (API data) https://cb.imsc.res.in/imppat/apiformulationdetails/Aśoka",
+  "confidence": "high"
+ },
+ {
+  "id": "ashoka",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Twak 20–30 g for kwatha",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "IMPPAT (API data) https://cb.imsc.res.in/imppat/apiformulationdetails/Aśoka",
+  "confidence": "high"
+ },
+ {
+  "id": "ashwagandha",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "असगंध",
+  "reason": "missing_fill: Hindi name",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "ashwagandha",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Balya",
+   "Medhya",
+   "Vrishya",
+   "rasayan"
+  ],
+  "new": [],
+  "reason": "Prabhava merely repeated karma; no classical prabhava",
+  "source": "P.V. Sharma DGV II",
+  "confidence": "high"
+ },
+ {
+  "id": "ashwagandha",
+  "path": "dravya_guna.karma",
+  "old": [
+   "Rasayana",
+   "Balya",
+   "Vajikarana"
+  ],
+  "new": [
+   "Rasayana",
+   "Balya",
+   "Vajikarana",
+   "Medhya",
+   "Vrishya"
+  ],
+  "reason": "Terms moved from prabhava to karma",
+  "source": "P.V. Sharma DGV II",
+  "confidence": "high"
+ },
+ {
+  "id": "ashwagandha",
+  "path": "identity.synonyms",
+  "old": [
+   "अश्वगन्धा",
+   "अश्वकन्दा",
+   "वाराहकर्णी",
+   "वाजीगन्धा",
+   "बलदा",
+   "वरा"
+  ],
+  "new": [
+   "अश्वकन्दा",
+   "वराहकर्णी",
+   "वाजीगन्धा",
+   "बलदा",
+   "वरा",
+   "हयगन्धा",
+   "कुष्ठगन्धिनी"
+  ],
+  "reason": "Removed the plant's own name; BPN spelling वराहकर्णी; added हयगन्धा, कुष्ठगन्धिनी",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "ashwagandha",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Mula churna 3–6 g",
+  "reason": "missing_fill: dose from review",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "ashwagandha",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Mula churna 3–6 g",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "ashwagandha",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Ashwagandharishta",
+    "dosage_form": "arishta",
+    "indication": "",
+    "reference": "AFI"
+   },
+   {
+    "name": "Ashwagandhadi Lehya",
+    "dosage_form": "avaleha",
+    "indication": "",
+    "reference": "AFI"
+   },
+   {
+    "name": "Ashwagandha Churna",
+    "dosage_form": "churna",
+    "indication": "",
+    "reference": "AFI"
+   }
+  ],
+  "reason": "missing_fill: formulations from review",
+  "source": "AFI",
+  "confidence": "medium"
+ },
+ {
+  "id": "ativisha",
+  "path": "identity.sanskrit_name",
+  "old": "Ativisha",
+  "new": "अतिविषा",
+  "reason": "Sanskrit name was in Roman script",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "ativisha",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "अतीस",
+  "reason": "missing_fill: Hindi name",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "ativisha",
+  "path": "classical_reference.shlokas.0",
+  "old": "अतिविषा कटुः तिक्ता उष्णोष्णा दीपनी परा।\nअतिसारज्वरच्छर्दिकफपित्तविषापहा॥",
+  "new": "विषा सोष्णा कटुस्तिक्ता पाचनी दीपनी हरेत्।\nकफपित्तातिसारामविषकासवमिक्रिमीन्॥",
+  "reason": "Shloka corrected per review (BPN)",
+  "source": "Bhavaprakasha Nighantu Haritakyadi varga",
+  "confidence": "high"
+ },
+ {
+  "id": "ativisha",
+  "path": "classical_reference.shloka_reference_status",
+  "old": "A. Directly verified classical reference",
+  "new": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
+  "reason": "Shloka replaced; flag for print verification",
+  "source": "Bhavaprakasha Nighantu Haritakyadi varga",
+  "confidence": "high"
+ },
+ {
+  "id": "ativisha",
+  "path": "dravya_guna.prabhava",
+  "old": "Deepana / Pachana / Atisarahara / Bala-rogahara (Agrya Atisarahara in Children)",
+  "new": "",
+  "reason": "Prabhava merely repeated karma; no classical prabhava",
+  "source": "Charaka Su.25",
+  "confidence": "high"
+ },
+ {
+  "id": "ativisha",
+  "path": "dravya_guna.karma",
+  "old": [
+   "Deepana",
+   "Pachana",
+   "Grahi",
+   "Amapachana",
+   "Jwarahara",
+   "Krimighna",
+   "Vishaghna",
+   "Atisarahara"
+  ],
+  "new": [
+   "Deepana",
+   "Pachana",
+   "Grahi",
+   "Amapachana",
+   "Jwarahara",
+   "Krimighna",
+   "Vishaghna",
+   "Atisarahara",
+   "Balarogahara"
+  ],
+  "reason": "Terms moved from prabhava to karma",
+  "source": "Charaka Su.25",
+  "confidence": "high"
+ },
+ {
+  "id": "ativisha",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 0.6–2 g",
+  "reason": "missing_fill: dose from review",
+  "source": "IMPPAT (API data) https://cb.imsc.res.in/imppat/apiformulationdetails/Ativiṣā",
+  "confidence": "high"
+ },
+ {
+  "id": "ativisha",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 0.6–2 g",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "IMPPAT (API data) https://cb.imsc.res.in/imppat/apiformulationdetails/Ativiṣā",
+  "confidence": "high"
+ },
+ {
+  "id": "bala",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "खरेटी / बरियारा",
+  "reason": "missing_fill: Hindi name",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "bala",
+  "path": "dravya_guna.prabhava",
+  "old": "Balya / Vrishya / Vataharanam",
+  "new": "",
+  "reason": "Prabhava merely repeated karma; no classical prabhava",
+  "source": "P.V. Sharma DGV II",
+  "confidence": "high"
+ },
+ {
+  "id": "bala",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Mula churna 3–6 g; kwatha 50–100 ml",
+  "reason": "missing_fill: dose from review",
+  "source": "API Part I",
+  "confidence": "medium"
+ },
+ {
+  "id": "bala",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Mula churna 3–6 g; kwatha 50–100 ml",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "API Part I",
+  "confidence": "medium"
+ },
+ {
+  "id": "bala",
+  "path": "classical_reference.shlokas",
+  "old": [],
+  "new": [
+   "बलाचतुष्टयं शीतं मधुरं बलकान्तिकृत्।\nस्निग्धं ग्राहि समीरास्रपित्तास्रक्षतनाशनम्॥"
+  ],
+  "reason": "Shloka corrected per review (BPN)",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "medium"
+ },
+ {
+  "id": "bala",
+  "path": "classical_reference.shloka_reference_status",
+  "old": "needs_verification",
+  "new": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
+  "reason": "Shloka replaced; flag for print verification",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "medium"
+ },
+ {
+  "id": "beejaka",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "विजयसार",
+  "reason": "missing_fill: Hindi name",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "beejaka",
+  "path": "identity.synonyms",
+  "old": [
+   "Bijaka",
+   "Pitasara",
+   "Vijayaka",
+   "Bahusara"
+  ],
+  "new": [
+   "Pitasara",
+   "Vijayaka",
+   "Bahusara"
+  ],
+  "reason": "Removed 'Bijaka' (duplicates the plant's own name)",
+  "source": "Bhavaprakasha Nighantu (Asana)",
+  "confidence": "medium"
+ },
+ {
+  "id": "beejaka",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Pramehaghna",
+   "Kushtaghna",
+   "Raktashodhak"
+  ],
+  "new": [],
+  "reason": "Prabhava merely repeated karma; no classical prabhava",
+  "source": "P.V. Sharma DGV II",
+  "confidence": "high"
+ },
+ {
+  "id": "beejaka",
+  "path": "dravya_guna.karma",
+  "old": [],
+  "new": [
+   "Pramehaghna",
+   "Kushtaghna",
+   "Raktashodhak"
+  ],
+  "reason": "Terms moved from prabhava to karma",
+  "source": "P.V. Sharma DGV II",
+  "confidence": "high"
+ },
+ {
+  "id": "beejaka",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Sara (heartwood) churna 3–6 g; kwatha 50–100 ml",
+  "reason": "missing_fill: dose from review",
+  "source": "J.L.N. Sastry DGV",
+  "confidence": "medium"
+ },
+ {
+  "id": "beejaka",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Sara (heartwood) churna 3–6 g; kwatha 50–100 ml",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "J.L.N. Sastry DGV",
+  "confidence": "medium"
+ },
+ {
+  "id": "beejaka",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Asanadi Kwatha",
+    "dosage_form": "kwatha",
+    "indication": "",
+    "reference": "AFI"
+   },
+   {
+    "name": "Nyagrodhadi Churna",
+    "dosage_form": "churna",
+    "indication": "",
+    "reference": "AFI"
+   }
+  ],
+  "reason": "missing_fill: formulations from review",
+  "source": "AFI",
+  "confidence": "medium"
+ },
+ {
+  "id": "bhallataka",
+  "path": "identity.sanskrit_name",
+  "old": "Bhallataka",
+  "new": "भल्लातक",
+  "reason": "Sanskrit name was in Roman script",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "bhallataka",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "भिलावा",
+  "reason": "missing_fill: Hindi name",
+  "source": "API Part I Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "bhallataka",
+  "path": "dravya_guna.vipaka",
+  "old": "katu",
+  "new": "madhura",
+  "reason": "API madhura vipaka; BPN स्वादुपाकरसं",
+  "source": "IMPPAT (API data) https://cb.imsc.res.in/imppat/apiformulationdetails/Bhallātaka",
+  "confidence": "high"
+ },
+ {
+  "id": "bhallataka",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "katu",
+   "tikta",
+   "kashaya"
+  ],
+  "new": [
+   "madhura",
+   "katu",
+   "tikta",
+   "kashaya"
+  ],
+  "reason": "API rasa includes madhura",
+  "source": "IMPPAT (API data) https://cb.imsc.res.in/imppat/apiformulationdetails/Bhallātaka",
+  "confidence": "high"
+ },
+ {
+  "id": "bhallataka",
+  "path": "classical_reference.shlokas.0",
+  "old": "भल्लातकं त्रिषु प्रोक्तमरुष्कोऽष्करोऽग्निकः ।\nतथैवाग्निमुखी भल्ली वीरवृक्षश्च शोफकृत् ॥२००॥",
+  "new": "भल्लातकं त्रिषु प्रोक्तमरुष्कोऽरुष्करोऽग्निकः ।\nतथैवाग्निमुखी भल्ली वीरवृक्षश्च शोफकृत् ॥२००॥",
+  "reason": "Shloka corrected per review (BPN)",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "medium"
+ },
+ {
+  "id": "bhallataka",
+  "path": "classical_reference.shloka_reference_status",
+  "old": "verified_text_location_edition_numbering_may_vary",
+  "new": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
+  "reason": "Shloka replaced; flag for print verification",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "medium"
+ },
+ {
+  "id": "bharangi",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "भारंगी",
+  "reason": "missing_fill: Hindi name",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "bharangi",
+  "path": "identity.synonyms",
+  "old": [
+   "Angaravalli",
+   "Bhargi",
+   "Brahmani",
+   "Kashaghni"
+  ],
+  "new": [
+   "Angaravalli",
+   "Bhargi",
+   "Brahmani",
+   "Kasaghni"
+  ],
+  "reason": "Spelling Kasaghni (कासघ्नी)",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "bharangi",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Shwasahara",
+   "Kasahara"
+  ],
+  "new": [],
+  "reason": "Prabhava merely repeated karma; no classical prabhava",
+  "source": "P.V. Sharma DGV II",
+  "confidence": "high"
+ },
+ {
+  "id": "bharangi",
+  "path": "dravya_guna.karma",
+  "old": [],
+  "new": [
+   "Shwasahara",
+   "Kasahara"
+  ],
+  "reason": "Terms moved from prabhava to karma",
+  "source": "P.V. Sharma DGV II",
+  "confidence": "high"
+ },
+ {
+  "id": "bharangi",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Mula churna 3–6 g",
+  "reason": "missing_fill: dose from review",
+  "source": "API Part I",
+  "confidence": "medium"
+ },
+ {
+  "id": "bharangi",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Mula churna 3–6 g",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "API Part I",
+  "confidence": "medium"
+ },
+ {
+  "id": "bharangi",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Bharangyadi Kwatha",
+    "dosage_form": "kwatha",
+    "indication": "",
+    "reference": "AFI/Sharangadhara"
+   },
+   {
+    "name": "Bharangi Guda",
+    "dosage_form": "guda",
+    "indication": "",
+    "reference": "AFI/Sharangadhara"
+   }
+  ],
+  "reason": "missing_fill: formulations from review",
+  "source": "AFI/Sharangadhara",
+  "confidence": "medium"
+ },
+ {
+  "id": "bhrungaraja",
+  "path": "identity.sanskrit_name",
+  "old": "Bhringaraja",
+  "new": "भृङ्गराज",
+  "reason": "Sanskrit name was in Roman script",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "bhrungaraja",
+  "path": "dosha.vata",
+  "old": "may increase when excessive",
+  "new": "pacifies",
+  "reason": "Contradicted record's own summary Kapha-Vatashamaka; BPN कफवातनुत्",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "bhrungaraja",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 1–3 g; swarasa 3–6 ml",
+  "reason": "missing_fill: dose from review",
+  "source": "IMPPAT (API data) https://cb.imsc.res.in/imppat/apiformulationdetails/Bhṛṅgarāja_1",
+  "confidence": "high"
+ },
+ {
+  "id": "bhrungaraja",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 1–3 g; swarasa 3–6 ml",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "IMPPAT (API data) https://cb.imsc.res.in/imppat/apiformulationdetails/Bhṛṅgarāja_1",
+  "confidence": "high"
+ },
+ {
+  "id": "bhumyamalaki",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "tikta",
+   "madhura"
+  ],
+  "new": [
+   "tikta",
+   "kashaya",
+   "madhura"
+  ],
+  "reason": "API Part I (confirmed in api_all.txt: Rasa Kasaya, Tikta, Madhura) — add kashaya",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "bhumyamalaki",
+  "path": "identity.synonyms",
+  "old": [
+   "Tamalaki",
+   "Bhumyamalaki",
+   "Bahupatra",
+   "Ajata"
+  ],
+  "new": [
+   "Tamalaki",
+   "Bahupatra",
+   "Ajata",
+   "Bahuphala",
+   "Bhudhatri"
+  ],
+  "reason": "Removed the plant's own name; added standard synonyms Bahuphala, Bhudhatri",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "bhumyamalaki",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Panchanga churna 3–6 g; swarasa 10–20 ml",
+  "reason": "missing_fill: dose from review",
+  "source": "API Part I",
+  "confidence": "medium"
+ },
+ {
+  "id": "bhumyamalaki",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Panchanga churna 3–6 g; swarasa 10–20 ml",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "API Part I",
+  "confidence": "medium"
+ },
+ {
+  "id": "bilva",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Bala phala majja churna 3–6 g",
+  "reason": "missing_fill: dose from review",
+  "source": "API Part I",
+  "confidence": "medium"
+ },
+ {
+  "id": "bilva",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Bala phala majja churna 3–6 g",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "API Part I",
+  "confidence": "medium"
+ },
+ {
+  "id": "bilva",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Bilvadi Churna",
+    "dosage_form": "churna",
+    "indication": "",
+    "reference": "AFI"
+   },
+   {
+    "name": "Bilvadi Leha",
+    "dosage_form": "avaleha",
+    "indication": "",
+    "reference": "AFI"
+   },
+   {
+    "name": "Dashamula",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "AFI"
+   }
+  ],
+  "reason": "missing_fill: formulations from review",
+  "source": "AFI",
+  "confidence": "medium"
+ },
+ {
+  "id": "brahmi",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "tikta"
+  ],
+  "new": [
+   "madhura",
+   "tikta",
+   "kashaya"
+  ],
+  "reason": "API rasa: Madhura, Tikta, Kashaya",
+  "source": "API (Brahmi whole plant) https://miracledrinksclinic.com/Liquids/Sugar_Care/Brahmi_Wh_Pt.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "brahmi",
+  "path": "dravya_guna.guna",
+  "old": [
+   "laghu"
+  ],
+  "new": [
+   "laghu",
+   "sara"
+  ],
+  "reason": "API guna: Laghu, Sara",
+  "source": "API (Brahmi)",
+  "confidence": "high"
+ },
+ {
+  "id": "brahmi",
+  "path": "identity.synonyms",
+  "old": [
+   "Sarasvati",
+   "Kapoti",
+   "Somavalli",
+   "Matsyakshi"
+  ],
+  "new": [
+   "Sarasvati",
+   "Kapoti",
+   "Somavalli"
+  ],
+  "reason": "Matsyakshi is a distinct drug (Alternanthera sessilis) — wrong-plant synonym removed",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "medium"
+ },
+ {
+  "id": "brahmi",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 1–3 g; swarasa 10–20 ml",
+  "reason": "missing_fill: dose from review",
+  "source": "API Part I",
+  "confidence": "medium"
+ },
+ {
+  "id": "brahmi",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 1–3 g; swarasa 10–20 ml",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "API Part I",
+  "confidence": "medium"
+ },
+ {
+  "id": "chandana",
+  "path": "dravya_guna.guna",
+  "old": [
+   "Snigdha"
+  ],
+  "new": [
+   "Laghu",
+   "Ruksha"
+  ],
+  "reason": "API; BPN चन्दनं शीतलं रूक्षं ... लघु",
+  "source": "IMPPAT (API data) https://cb.imsc.res.in/imppat/apiformulationdetails/Śvetacandana",
+  "confidence": "high"
+ },
+ {
+  "id": "chandana",
+  "path": "dravya_guna.vipaka",
+  "old": "Madhura",
+  "new": "Katu",
+  "reason": "API: katu vipaka",
+  "source": "IMPPAT (API data) https://cb.imsc.res.in/imppat/apiformulationdetails/Śvetacandana",
+  "confidence": "high"
+ },
+ {
+  "id": "chandana",
+  "path": "dosha.kapha",
+  "old": "not specifically documented in imported dataset",
+  "new": "pacified",
+  "reason": "Placeholder replaced: Kaphapittashamaka (API)",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "chandana",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Mutrala",
+   "Chakshushya",
+   "Varnya"
+  ],
+  "new": [],
+  "reason": "Prabhava merely repeated karma; no classical prabhava",
+  "source": "Charaka Su.25",
+  "confidence": "high"
+ },
+ {
+  "id": "chandana",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 3–6 g",
+  "reason": "missing_fill: dose from review",
+  "source": "IMPPAT (API data) https://cb.imsc.res.in/imppat/apiformulationdetails/Śvetacandana",
+  "confidence": "high"
+ },
+ {
+  "id": "chandana",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 3–6 g",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "IMPPAT (API data) https://cb.imsc.res.in/imppat/apiformulationdetails/Śvetacandana",
+  "confidence": "high"
+ },
+ {
+  "id": "chitraka",
+  "path": "identity.sanskrit_name",
+  "old": "Chitraka",
+  "new": "चित्रक",
+  "reason": "Sanskrit name was in Roman script",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "chitraka",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "चीता / चित्रक",
+  "reason": "missing_fill: Hindi name",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "chitraka",
+  "path": "classical_reference.shlokas.0",
+  "old": "चित्रकोऽग्निसमः पाके कटुकः कफवातजित्।\nशोथअर्ंशःकृमिहा दीपनः पाचकः सरः॥",
+  "new": "चित्रकः कटुकः पाके वह्निकृत्पाचनो लघुः।\nरूक्षोष्णो ग्रहणीकुष्ठशोथार्शःकृमिकासनुत्।\nवातश्लेष्महरो ग्राही वातार्शःश्लेष्मपित्तहृत्॥",
+  "reason": "Shloka corrected per review (BPN)",
+  "source": "Bhavaprakasha Nighantu Haritakyadi varga",
+  "confidence": "high"
+ },
+ {
+  "id": "chitraka",
+  "path": "classical_reference.shloka_reference_status",
+  "old": "A. Directly verified classical reference",
+  "new": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
+  "reason": "Shloka replaced; flag for print verification",
+  "source": "Bhavaprakasha Nighantu Haritakyadi varga",
+  "confidence": "high"
+ },
+ {
+  "id": "chitraka",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Mula churna 1–2 g",
+  "reason": "missing_fill: dose from review",
+  "source": "API Part I",
+  "confidence": "medium"
+ },
+ {
+  "id": "chitraka",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Mula churna 1–2 g",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "API Part I",
+  "confidence": "medium"
+ },
+ {
+  "id": "dadima",
+  "path": "dosha.kapha",
+  "old": "aggravated",
+  "new": "pacified",
+  "reason": "Madhura dadima tridoshaghna, amla dadima vata-kaphaghna — kapha not aggravated",
+  "source": "Bhavaprakasha Nighantu Amradi phala varga",
+  "confidence": "high"
+ },
+ {
+  "id": "dadima",
+  "path": "dosha.vata",
+  "old": "not specifically documented in imported dataset",
+  "new": "pacified",
+  "reason": "Placeholder replaced: pacifies (BPN)",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "dadima",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "Madhura",
+   "Kashaya"
+  ],
+  "new": [
+   "Madhura",
+   "Amla",
+   "Kashaya"
+  ],
+  "reason": "BPN स्वाद्वम्लकषायम् — add Amla",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "dadima",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Dadimashtaka Churna",
+    "dosage_form": "churna",
+    "indication": "",
+    "reference": "AFI"
+   },
+   {
+    "name": "Dadimadi Ghrita",
+    "dosage_form": "ghrita",
+    "indication": "",
+    "reference": "AFI"
+   }
+  ],
+  "reason": "missing_fill: formulations from review",
+  "source": "AFI",
+  "confidence": "high"
+ },
+ {
+  "id": "dhataki",
+  "path": "identity.hindi_name",
+  "old": "धायटी",
+  "new": "धाय / धावई",
+  "reason": "धायटी is Marathi; Hindi धाय / धावई",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "dhataki",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Pushpa churna 3–6 g",
+  "reason": "missing_fill: dose from review",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "dhataki",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Pushpa churna 3–6 g",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "dhataki",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Ashokarishta",
+    "dosage_form": "arishta",
+    "indication": "",
+    "reference": "AFI"
+   },
+   {
+    "name": "Kutajarishta",
+    "dosage_form": "arishta",
+    "indication": "",
+    "reference": "AFI"
+   },
+   {
+    "name": "Arjunarishta",
+    "dosage_form": "arishta",
+    "indication": "",
+    "reference": "AFI"
+   }
+  ],
+  "reason": "missing_fill: formulations from review",
+  "source": "AFI",
+  "confidence": "high"
+ },
+ {
+  "id": "dhamasa",
+  "path": "identity.sanskrit_name",
+  "old": "धमासा",
+  "new": "धन्वयास",
+  "reason": "धमासा is the Hindi name; Sanskrit is धन्वयास",
+  "source": "Bhavaprakasha Nighantu; API",
+  "confidence": "high"
+ },
+ {
+  "id": "dhamasa",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Kwatha 50–100 ml; churna 3–6 g",
+  "reason": "missing_fill: dose from review",
+  "source": "J.L.N. Sastry DGV",
+  "confidence": "medium"
+ },
+ {
+  "id": "dhamasa",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Kwatha 50–100 ml; churna 3–6 g",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "J.L.N. Sastry DGV",
+  "confidence": "medium"
+ },
+ {
+  "id": "eranda",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "अरण्ड / रेंड़ी",
+  "reason": "missing_fill: Hindi name",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "eranda",
+  "path": "dravya_guna.karma",
+  "old": [
+   "Virechana",
+   "Vatashamaka",
+   "Vedanasthapana",
+   "Shothahara",
+   "Vrishya",
+   "Vayasthapana"
+  ],
+  "new": [
+   "Virechana",
+   "Vatashamaka",
+   "Vedanasthapana",
+   "Shothahara",
+   "Vrishya"
+  ],
+  "reason": "Vayasthapana is not a classical karma of Eranda (not in Charaka vayasthapana gana)",
+  "source": "Charaka Su.4",
+  "confidence": "high"
+ },
+ {
+  "id": "eranda",
+  "path": "dravya_guna.prabhava",
+  "old": "Virechana / Vataharanam",
+  "new": "",
+  "reason": "Prabhava merely repeated karma; no classical prabhava",
+  "source": "Charaka Su.25",
+  "confidence": "high"
+ },
+ {
+  "id": "eranda",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Mula kwatha 50–100 ml; Eranda taila 5–15 ml (virechana 15–30 ml)",
+  "reason": "missing_fill: dose from review",
+  "source": "J.L.N. Sastry DGV",
+  "confidence": "medium"
+ },
+ {
+  "id": "eranda",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Mula kwatha 50–100 ml; Eranda taila 5–15 ml (virechana 15–30 ml)",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "J.L.N. Sastry DGV",
+  "confidence": "medium"
+ },
+ {
+  "id": "gokshura",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Mutrala",
+   "Vrishya",
+   "rasayan",
+   "Shothahara"
+  ],
+  "new": [],
+  "reason": "Prabhava merely repeated karma; no classical prabhava",
+  "source": "P.V. Sharma DGV II",
+  "confidence": "high"
+ },
+ {
+  "id": "gokshura",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Phala churna 3–6 g; kwatha 50–100 ml",
+  "reason": "missing_fill: dose from review",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "gokshura",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Phala churna 3–6 g; kwatha 50–100 ml",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "gokshura",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Gokshuradi Guggulu",
+    "dosage_form": "guggulu",
+    "indication": "",
+    "reference": "AFI"
+   },
+   {
+    "name": "Gokshuradi Churna",
+    "dosage_form": "churna",
+    "indication": "",
+    "reference": "AFI"
+   },
+   {
+    "name": "Trinapanchamula",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "AFI"
+   }
+  ],
+  "reason": "missing_fill: formulations from review",
+  "source": "AFI",
+  "confidence": "high"
+ },
+ {
+  "id": "guduchi",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "गिलोय / गुरच",
+  "reason": "missing_fill: Hindi name",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "guduchi",
+  "path": "dosha.vata",
+  "old": "not specifically documented in imported dataset",
+  "new": "pacified",
+  "reason": "Tridoshashamaka (API; BPN दोषत्रय...हरेत्)",
+  "source": "IMPPAT (API data) https://cb.imsc.res.in/imppat/apiformulationdetails/Guḍūcī",
+  "confidence": "high"
+ },
+ {
+  "id": "guduchi",
+  "path": "dosha.pitta",
+  "old": "not specifically documented in imported dataset",
+  "new": "pacified",
+  "reason": "Tridoshashamaka (API; BPN दोषत्रय...हरेत्)",
+  "source": "IMPPAT (API data) https://cb.imsc.res.in/imppat/apiformulationdetails/Guḍūcī",
+  "confidence": "high"
+ },
+ {
+  "id": "guduchi",
+  "path": "dosha.kapha",
+  "old": "not specifically documented in imported dataset",
+  "new": "pacified",
+  "reason": "Tridoshashamaka (API; BPN दोषत्रय...हरेत्)",
+  "source": "IMPPAT (API data) https://cb.imsc.res.in/imppat/apiformulationdetails/Guḍūcī",
+  "confidence": "high"
+ },
+ {
+  "id": "guduchi",
+  "path": "identity.synonyms",
+  "old": [
+   "Guduchi",
+   "Madhuparni",
+   "Chinnaruha",
+   "Kundalini"
+  ],
+  "new": [
+   "Madhuparni",
+   "Chinnaruha",
+   "Kundalini",
+   "Amrita",
+   "Chinnodbhava",
+   "Vatsadani"
+  ],
+  "reason": "Removed the plant's own name; added Amrita, Chinnodbhava, Vatsadani",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "guduchi",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "rasayana",
+   "Jwaraghna"
+  ],
+  "new": [],
+  "reason": "Prabhava merely repeated karma; no classical prabhava",
+  "source": "P.V. Sharma DGV II",
+  "confidence": "high"
+ },
+ {
+  "id": "guduchi",
+  "path": "dravya_guna.karma",
+  "old": [],
+  "new": [
+   "Rasayana",
+   "Jwaraghna"
+  ],
+  "reason": "Terms moved from prabhava to karma",
+  "source": "P.V. Sharma DGV II",
+  "confidence": "high"
+ },
+ {
+  "id": "guduchi",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 3–6 g; kwatha 20–30 g drug; sattva 1–2 g",
+  "reason": "missing_fill: dose from review",
+  "source": "IMPPAT (API data) https://cb.imsc.res.in/imppat/apiformulationdetails/Guḍūcī",
+  "confidence": "high"
+ },
+ {
+  "id": "guduchi",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 3–6 g; kwatha 20–30 g drug; sattva 1–2 g",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "IMPPAT (API data) https://cb.imsc.res.in/imppat/apiformulationdetails/Guḍūcī",
+  "confidence": "high"
+ },
+ {
+  "id": "guduchi",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Guduchyadi Kwatha",
+    "dosage_form": "kwatha",
+    "indication": "",
+    "reference": "AFI"
+   },
+   {
+    "name": "Amritarishta",
+    "dosage_form": "arishta",
+    "indication": "",
+    "reference": "AFI"
+   },
+   {
+    "name": "Guduchi Satva",
+    "dosage_form": "satva",
+    "indication": "",
+    "reference": "AFI"
+   },
+   {
+    "name": "Amritadi Guggulu",
+    "dosage_form": "guggulu",
+    "indication": "",
+    "reference": "AFI"
+   }
+  ],
+  "reason": "missing_fill: formulations from review",
+  "source": "AFI",
+  "confidence": "high"
+ },
+ {
+  "id": "guggulu",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "गुग्गुल",
+  "reason": "missing_fill: Hindi name",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "guggulu",
+  "path": "classical_reference.shlokas",
+  "old": [
+   "गुग्गुलुर्विशदस्तिक्तो वीर्योष्णः पित्तलः सरः ।\\nकषायः कटुकः पाके कटू रूक्षो लघुः परः ॥३५॥"
+  ],
+  "new": [
+   "गुग्गुलुर्विशदस्तिक्तो वीर्योष्णः पित्तलः सरः ।\nकषायः कटुकः पाके कटू रूक्षो लघुः परः ॥३५॥"
+  ],
+  "reason": "Literal backslash-n replaced with real line breaks",
+  "source": "data format",
+  "confidence": "high"
+ },
+ {
+  "id": "guggulu",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Shodhita guggulu 2–4 g",
+  "reason": "missing_fill: dose from review",
+  "source": "IMPPAT (API data) https://cb.imsc.res.in/imppat/apiformulationdetails/Guggulu",
+  "confidence": "high"
+ },
+ {
+  "id": "guggulu",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Shodhita guggulu 2–4 g",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "IMPPAT (API data) https://cb.imsc.res.in/imppat/apiformulationdetails/Guggulu",
+  "confidence": "high"
+ },
+ {
+  "id": "haridra",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "हल्दी",
+  "reason": "missing_fill: Hindi name",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "haridra",
+  "path": "dosha.pitta",
+  "old": "may increase when excessive",
+  "new": "pacifies",
+  "reason": "BPN कफपित्तनुत् (the record's own shloka) — pitta pacified",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "haridra",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 1–3 g",
+  "reason": "missing_fill: dose from review",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "haridra",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 1–3 g",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "haritaki",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "हरड़ / हर्रे",
+  "reason": "missing_fill: Hindi name",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "haritaki",
+  "path": "classical_reference.shlokas.0",
+  "old": "हरीतकी पञ्चरसा लवणवर्जिता ।\nरूक्षा चोष्णा सरा मेध्या स्वादुपाका रसायनी ॥",
+  "new": "हरीतकी पञ्चरसाऽलवणा तुवरा परम्।\nरूक्षोष्णा दीपनी मेध्या स्वादुपाका रसायनी॥\nचक्षुष्या लघुरायुष्या बृंहणी चानुलोमिनी।",
+  "reason": "Shloka corrected per review (BPN)",
+  "source": "Bhavaprakasha Nighantu Haritakyadi varga",
+  "confidence": "high"
+ },
+ {
+  "id": "haritaki",
+  "path": "classical_reference.shloka_reference_status",
+  "old": "classical_text_corrected; edition/numbering explicitly qualified",
+  "new": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
+  "reason": "Shloka replaced; flag for print verification",
+  "source": "Bhavaprakasha Nighantu Haritakyadi varga",
+  "confidence": "high"
+ },
+ {
+  "id": "haritaki",
+  "path": "dosha.vata",
+  "old": "not specifically documented in imported dataset",
+  "new": "pacified",
+  "reason": "Tridoshahara (BPN)",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "haritaki",
+  "path": "dosha.pitta",
+  "old": "not specifically documented in imported dataset",
+  "new": "pacified",
+  "reason": "Tridoshahara (BPN)",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "haritaki",
+  "path": "dosha.kapha",
+  "old": "not specifically documented in imported dataset",
+  "new": "pacified",
+  "reason": "Tridoshahara (BPN)",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "haritaki",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "rasayan",
+   "Virechana",
+   "Chakshushya",
+   "Deepana"
+  ],
+  "new": [],
+  "reason": "Prabhava merely repeated karma; no classical prabhava",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "haritaki",
+  "path": "dravya_guna.karma",
+  "old": [
+   "rasayan",
+   "Virechana",
+   "Chakshushya",
+   "Deepana"
+  ],
+  "new": [
+   "rasayan",
+   "Anulomana",
+   "Chakshushya",
+   "Deepana"
+  ],
+  "reason": "Review: 'Virechana' → 'Anulomana' (mridu rechana)",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "haritaki",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Phala churna 3–6 g",
+  "reason": "missing_fill: dose from review",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "haritaki",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Phala churna 3–6 g",
+  "reason": "missing_fill: copy of therapeutics.dose to empty doctor.dose",
+  "source": "API Part I",
+  "confidence": "high"
+ },
+ {
+  "id": "haritaki",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Triphala Churna",
+    "dosage_form": "churna",
+    "indication": "",
+    "reference": "AFI"
+   },
+   {
+    "name": "Abhayarishta",
+    "dosage_form": "arishta",
+    "indication": "",
+    "reference": "AFI"
+   },
+   {
+    "name": "Agastya Haritaki Rasayana",
+    "dosage_form": "avaleha",
+    "indication": "",
+    "reference": "AFI"
+   },
+   {
+    "name": "Chitraka Haritaki",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "AFI"
+   }
+  ],
+  "reason": "missing_fill: formulations from review",
+  "source": "AFI",
+  "confidence": "high"
+ },
+ {
+  "id": "ashoka",
+  "path": "classical_reference.shlokas",
+  "old": [
+   "अशोकः शीतलस्तिक्तो ग्राही वर्ण्यः कषायकः ।\\nदोषापचीतृषादाहकृमिशोषविषापहः ॥"
+  ],
+  "new": [
+   "अशोकः शीतलस्तिक्तो ग्राही वर्ण्यः कषायकः ।\nदोषापचीतृषादाहकृमिशोषविषापहः ॥"
+  ],
+  "reason": "Literal backslash-n replaced with real line breaks (global rule)",
+  "source": "data format",
+  "confidence": "high"
+ },
+ {
+  "id": "hingu",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Shodhita Hingu 125–500 mg (API)",
+  "reason": "[missing_fill] dose: Shodhita Hingu 125–500 mg (API)",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "hingu",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Shodhita Hingu 125–500 mg (API)",
+  "reason": "copy of therapeutics.dose (doctor.dose was empty/placeholder: '')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "hingu",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Hingvashtaka Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   },
+   {
+    "name": "Hingvadi Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   },
+   {
+    "name": "Hinguvachadi Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   }
+  ],
+  "reason": "[missing_fill] formulations: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "hingu",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Deepana",
+   "Pachana",
+   "Shoolaghna",
+   "Vatanulomana"
+  ],
+  "new": [],
+  "reason": "[note] prabhava repeated karma / not a classical prabhava: These are karma, not prabhava; no specific prabhava is classically stated – leave empty",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "jambu",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Seed churna 3–6 g; stem bark 10–20 g for decoction (API)",
+  "reason": "[missing_fill] dose: Seed churna 3–6 g; stem bark 10–20 g for decoction (API)",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "jambu",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Seed churna 3–6 g; stem bark 10–20 g for decoction (API)",
+  "reason": "copy of therapeutics.dose (doctor.dose was empty/placeholder: '')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "jambu",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Pushyanuga Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I (seed)"
+   },
+   {
+    "name": "Usirasava",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I (stem bark)"
+   }
+  ],
+  "reason": "[missing_fill] formulations: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "jambu",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Grahi",
+   "Pramehaghna"
+  ],
+  "new": [],
+  "reason": "[note] prabhava repeated karma / not a classical prabhava: Prabhava field should hold only a classically stated prabhava (usually none); the listed terms are karma",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "jatamansi",
+  "path": "identity.sanskrit_name",
+  "old": "Jatamansi",
+  "new": "जटामांसी",
+  "reason": "[error] sanskrit: जटामांसी",
+  "source": "standard Devanagari",
+  "confidence": "high"
+ },
+ {
+  "id": "jatamansi",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "जटामांसी / बालछड़",
+  "reason": "[missing_fill] hindi: जटामांसी / बालछड़ (Balchhar)",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "jatamansi",
+  "path": "classification.habit",
+  "old": "",
+  "new": "Erect perennial rhizomatous herb, 10–60 cm, alpine Himalaya 3000–5000 m",
+  "reason": "[missing_fill] habit: Erect perennial rhizomatous herb, 10–60 cm, alpine Himalaya 3000–5000 m",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "jatamansi",
+  "path": "dosha.kapha",
+  "old": "aggravated",
+  "new": "pacified",
+  "reason": "[error] dosha.kapha: pacified (API: Tridoshanut; BPN 'त्रिदोषास्र…'); contradicts own summary 'Tridoshashamaka'",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/); Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "jatamansi",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 2–3 g; decoction 5–10 g of drug (API)",
+  "reason": "[missing_fill] dose: Churna 2–3 g; decoction 5–10 g of drug (API)",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "jatamansi",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 2–3 g; decoction 5–10 g of drug (API)",
+  "reason": "copy of therapeutics.dose (doctor.dose was empty/placeholder: '')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "jatamansi",
+  "path": "dravya_guna.prabhava",
+  "old": "Medhya / Nidrajanana / Manasadoshahara",
+  "new": "",
+  "reason": "[note] prabhava repeated karma / not a classical prabhava: These are karma; no separate prabhava in API (karma list: Tridoshanut, Medhya, Varnya, Nidrajanana, Kushthaghna)",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "jyotishmati",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Seed 1–2 g; oil 5–15 drops (API)",
+  "reason": "[missing_fill] dose: Seed 1–2 g; oil 5–15 drops (API)",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "jyotishmati",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Seed 1–2 g; oil 5–15 drops (API)",
+  "reason": "copy of therapeutics.dose (doctor.dose was empty/placeholder: '')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "jyotishmati",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Jyotishmati Taila",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   },
+   {
+    "name": "Smritisagara Rasa",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   }
+  ],
+  "reason": "[missing_fill] formulations: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "kanchanara",
+  "path": "dravya_guna.karma",
+  "old": [],
+  "new": [
+   "Grahi",
+   "Deepana",
+   "Gandavriddhihara (Gandamalanashana)",
+   "Tridoshahara",
+   "Vranaropana"
+  ],
+  "reason": "[missing_fill] karma: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "kanchanara",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Stem bark 20–30 g for decoction (API); churna 3–6 g",
+  "reason": "[missing_fill] dose: Stem bark 20–30 g for decoction (API); churna 3–6 g",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "kanchanara",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Stem bark 20–30 g for decoction (API); churna 3–6 g",
+  "reason": "copy of therapeutics.dose (doctor.dose was empty/placeholder: '')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "kanchanara",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Kanchanara Guggulu",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   }
+  ],
+  "reason": "[missing_fill] formulations: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "kanchanara",
+  "path": "identity.synonyms",
+  "old": [
+   "Kovidara",
+   "Yugapatra",
+   "Kudalaka",
+   "Chamarika"
+  ],
+  "new": [
+   "Yugapatra",
+   "Kudalaka",
+   "Chamarika"
+  ],
+  "reason": "wrong-plant synonym removed: Kovidara is a separate allied drug (usually Bauhinia purpurea) in BPN",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "medium"
+ },
+ {
+  "id": "kanchanara",
+  "path": "dravya_guna.karma",
+  "old": [
+   "Grahi",
+   "Deepana",
+   "Gandavriddhihara (Gandamalanashana)",
+   "Tridoshahara",
+   "Vranaropana"
+  ],
+  "new": [
+   "Grahi",
+   "Deepana",
+   "Gandavriddhihara (Gandamalanashana)",
+   "Tridoshahara",
+   "Vranaropana",
+   "Kushtaghna"
+  ],
+  "reason": "prabhava terms are karma; moved into karma before clearing prabhava",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "kanchanara",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Grahi",
+   "Kushtaghna"
+  ],
+  "new": [],
+  "reason": "[note] prabhava repeated karma / not a classical prabhava: Prabhava field should hold only a classically stated prabhava (usually none); the listed terms are karma",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "kantakari",
+  "path": "identity.hindi_name",
+  "old": "कंटकारी",
+  "new": "छोटी कटेरी / भटकटैया",
+  "reason": "[warning] hindi: छोटी कटेरी / भटकटैया (Kateri, Bhatkataiya)",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "kantakari",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Whole plant 20–30 g for decoction (API)",
+  "reason": "[missing_fill] dose: Whole plant 20–30 g for decoction (API)",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "kantakari",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Whole plant 20–30 g for decoction (API)",
+  "reason": "copy of therapeutics.dose (doctor.dose was empty/placeholder: '')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "kantakari",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Kantakaryavaleha",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   },
+   {
+    "name": "Vyaghri Haritaki",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   },
+   {
+    "name": "Dashamularishta",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   }
+  ],
+  "reason": "[missing_fill] formulations: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "kantakari",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Shwasahara",
+   "Kasahara"
+  ],
+  "new": [],
+  "reason": "[note] prabhava repeated karma / not a classical prabhava: Prabhava field should hold only a classically stated prabhava (usually none); the listed terms are karma",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "kapikachhu",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "Madhura"
+  ],
+  "new": [
+   "Madhura",
+   "Tikta"
+  ],
+  "reason": "[warning] rasa: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/); Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "kapikachhu",
+  "path": "dravya_guna.guna",
+  "old": [
+   "Snigdha"
+  ],
+  "new": [
+   "Guru",
+   "Snigdha"
+  ],
+  "reason": "[warning] guna: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/); Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "kapikachhu",
+  "path": "dosha.pitta",
+  "old": "not specifically documented in imported dataset",
+  "new": "pacified",
+  "reason": "[missing_fill] dosha.pitta: pacified (API: Pittanashaka)",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "kapikachhu",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Seed churna 3–6 g (API)",
+  "reason": "[missing_fill] dose: Seed churna 3–6 g (API)",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "kapikachhu",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Seed churna 3–6 g (API)",
+  "reason": "copy of therapeutics.dose (doctor.dose was empty/placeholder: '')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "kapikachhu",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Vrishya",
+   "Balya",
+   "Medhya"
+  ],
+  "new": [],
+  "reason": "[note] prabhava repeated karma / not a classical prabhava: Prabhava field should hold only a classically stated prabhava (usually none); the listed terms are karma",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "karkatshrungi",
+  "path": "dravya_guna.guna",
+  "old": [
+   "Laghu",
+   "Ruksha",
+   "Guru"
+  ],
+  "new": [
+   "Guru",
+   "Ruksha"
+  ],
+  "reason": "[error] guna: Guru, Ruksha (API lists Guru) – 'Laghu' contradicts 'Guru' and must be removed",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/); Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "karkatshrungi",
+  "path": "classical_reference.shlokas.0",
+  "old": {
+   "section": "Synonyms",
+   "text": "The cited Bhavaprakasha passage groups names including Shringi, Karkatashringi, Vishanika, Ajashringi, Karkata and related descriptive synonyms.",
+   "reference": "Bhavaprakasha Nighantu, Haritakyadi Varga, 178–179",
+   "verification": "Paraphrased from user-provided textbook pages 379–381; not reproduced verbatim."
+  },
+  "new": "शृङ्गी कर्कटशृङ्गी च स्यात् कुलीरविषाणिका।\nअजशृङ्गी च वक्रा च कर्कटाख्या च कीर्तिता॥",
+  "reason": "[error] shloka: Field contains JSON metadata, not a shloka. BPN Haritakyadi: 'शृङ्गी कर्कटशृङ्गी च स्यात् कुलीरविषाणिका। अजशृङ्गी च वक्रा च कर्कटाख्या च कीर्तिता॥ कर्कटी तु गुरुस्तिक्ता कषायोष्णा कफानिलौ। श्वासकासातिसारांश्च हिक्कातृष्णारुचीर्जयेत्॥' (verify wording)",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "medium"
+ },
+ {
+  "id": "karkatshrungi",
+  "path": "classical_reference.shloka_reference_status",
+  "old": "source-hub-added; exact verse/edition requires text-level verification",
+  "new": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
+  "reason": "shloka replaced/added per review_2",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "medium"
+ },
+ {
+  "id": "karkatshrungi",
+  "path": "classical_reference.shlokas.1",
+  "old": {
+   "section": "Properties and actions",
+   "text": "The cited verse describes Karkatashringi as Kashaya-Tikta and useful in cough, dyspnoea and related disorders; the source also cites additional actions.",
+   "reference": "Bhavaprakasha Nighantu, Haritakyadi Varga, 179",
+   "verification": "Paraphrased from user-provided textbook page 380."
+  },
+  "new": "कर्कटी तु गुरुस्तिक्ता कषायोष्णा कफानिलौ।\nश्वासकासातिसारांश्च हिक्कातृष्णारुचीर्जयेत्॥",
+  "reason": "[error] shlokas held paraphrase metadata dicts; second half of the review verse (properties) replaces the \"Properties and actions\" paraphrase dict",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "medium"
+ },
+ {
+  "id": "karkatshrungi",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Balachaturbhadrika Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   },
+   {
+    "name": "Shringyadi Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   }
+  ],
+  "reason": "[missing_fill] formulations: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "medium"
+ },
+ {
+  "id": "karkatshrungi",
+  "path": "dravya_guna.karma",
+  "old": [
+   "Shwasahara",
+   "Kasahara",
+   "Hikkanigrahana",
+   "Rochana",
+   "Chardighna",
+   "Atisarajit"
+  ],
+  "new": [
+   "Shwasahara",
+   "Kasahara",
+   "Hikkanigrahana",
+   "Rochana",
+   "Chardighna",
+   "Atisarajit",
+   "Grahi"
+  ],
+  "reason": "prabhava terms are karma; moved into karma before clearing prabhava",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "karkatshrungi",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Kasahara",
+   "Shwasahara",
+   "Hikkanigrahana",
+   "Grahi"
+  ],
+  "new": [],
+  "reason": "[note] prabhava repeated karma / not a classical prabhava: Prabhava field should hold only a classically stated prabhava (usually none); the listed terms are karma",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "katuki",
+  "path": "identity.sanskrit_name",
+  "old": "Katuki",
+  "new": "कटुका",
+  "reason": "[error] sanskrit: कटुका (कटुकी)",
+  "source": "standard Devanagari",
+  "confidence": "high"
+ },
+ {
+  "id": "katuki",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "कुटकी",
+  "reason": "[missing_fill] hindi: कुटकी",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "katuki",
+  "path": "classification.habit",
+  "old": "",
+  "new": "Small perennial hairy herb with long creeping rhizome; alpine Himalaya 3000–5000 m",
+  "reason": "[missing_fill] habit: Small perennial hairy herb with long creeping rhizome; alpine Himalaya 3000–5000 m",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "katuki",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 1–3 g (API); 3–6 g as bhedana",
+  "reason": "[missing_fill] dose: Churna 1–3 g (API); 3–6 g as bhedana",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "katuki",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 1–3 g (API); 3–6 g as bhedana",
+  "reason": "copy of therapeutics.dose (doctor.dose was empty/placeholder: '')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "katuki",
+  "path": "dravya_guna.karma",
+  "old": [
+   "Bhedana",
+   "Deepana",
+   "Pachana",
+   "Jwarahara",
+   "Yakriduttejaka",
+   "Raktashodhaka",
+   "Hridya"
+  ],
+  "new": [
+   "Bhedana",
+   "Deepana",
+   "Pachana",
+   "Jwarahara",
+   "Yakriduttejaka",
+   "Raktashodhaka",
+   "Hridya",
+   "Yakridrakshaka"
+  ],
+  "reason": "prabhava terms are karma; moved into karma before clearing prabhava",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "katuki",
+  "path": "dravya_guna.prabhava",
+  "old": "Bhedana / Yakridrakshaka (Hepatoprotective) / Jwarahara",
+  "new": "",
+  "reason": "[note] prabhava repeated karma / not a classical prabhava: Prabhava field should hold only a classically stated prabhava (usually none); the listed terms are karma",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "khadira",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "Kashaya"
+  ],
+  "new": [
+   "Tikta",
+   "Kashaya"
+  ],
+  "reason": "[warning] rasa: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/); Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "khadira",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Heartwood 20–30 g for decoction (API); Khadirasara/katha 0.5–1 g",
+  "reason": "[missing_fill] dose: Heartwood 20–30 g for decoction (API); Khadirasara/katha 0.5–1 g",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "khadira",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Heartwood 20–30 g for decoction (API); Khadirasara/katha 0.5–1 g",
+  "reason": "copy of therapeutics.dose (doctor.dose was empty/placeholder: '')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "khadira",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Khadirarishta",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   },
+   {
+    "name": "Khadiradi Gutika",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   },
+   {
+    "name": "Arimedadi Taila",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   }
+  ],
+  "reason": "[missing_fill] formulations: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "khadira",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Raktashodhak",
+   "Kushtaghna",
+   "Grahi"
+  ],
+  "new": [],
+  "reason": "[note] prabhava repeated karma / not a classical prabhava: Prabhava field should hold only a classically stated prabhava (usually none); the listed terms are karma",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "kumari",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "घीकुआँर / ग्वारपाठा",
+  "reason": "[missing_fill] hindi: घीकुआँर / ग्वारपाठा",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "kumari",
+  "path": "classification.habit",
+  "old": "",
+  "new": "Perennial succulent, stemless or short-stemmed herb with thick fleshy spiny-margined leaves in rosette",
+  "reason": "[missing_fill] habit: Perennial succulent, stemless or short-stemmed herb with thick fleshy spiny-margined leaves in rosette",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "kumari",
+  "path": "classical_reference.shlokas.0",
+  "old": "कुमारी भेदनी शीता तिक्ता स्वाद्वी रसायनी ।\\nनेत्र्या वृष्या बल्या च वातपित्तविषापहा ॥",
+  "new": "कुमारी भेदनी शीता तिक्ता नेत्र्या रसायनी। मधुरा बृंहणी बल्या वृष्या वातविषप्रणुत्॥\nगुल्मप्लीहयकृद्वृद्धिकफज्वरहरी हरेत्। ग्रन्थ्यग्निदग्धविस्फोटपित्तरक्तत्वगामयान्॥",
+  "reason": "[error] shloka: Contains literal '\\n' and is a paraphrase. BPN Guduchyadi: 'कुमारी भेदनी शीता तिक्ता नेत्र्या रसायनी। मधुरा बृंहणी बल्या वृष्या वातविषप्रणुत्॥ गुल्मप्लीहयकृद्वृद्धिकफज्वरहरी हरेत्। ग्रन्थ्यग्निदग्धविस्फोटपित्तरक्तत्वगामयान्॥'",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "medium"
+ },
+ {
+  "id": "kumari",
+  "path": "classical_reference.shloka_reference_status",
+  "old": "text/reference pending final edition-level verification",
+  "new": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
+  "reason": "shloka replaced/added per review_2",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "medium"
+ },
+ {
+  "id": "kumari",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Swarasa 10–20 ml; Kanyasara (Elua) 125–500 mg (API)",
+  "reason": "[missing_fill] dose: Swarasa 10–20 ml; Kanyasara (Elua) 125–500 mg (API)",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/); P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "kumari",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Swarasa 10–20 ml; Kanyasara (Elua) 125–500 mg (API)",
+  "reason": "copy of therapeutics.dose (doctor.dose was empty/placeholder: '')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/); P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "kumari",
+  "path": "dravya_guna.prabhava",
+  "old": "Bhedana / Artavajanana / Rasayana",
+  "new": "",
+  "reason": "[note] prabhava repeated karma / not a classical prabhava: These are karma; no separate prabhava",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "kutaja",
+  "path": "identity.synonyms",
+  "old": [
+   "Kutaja",
+   "Kūṭaja",
+   "Vatsaka",
+   "Kalinga",
+   "Indrayava"
+  ],
+  "new": [
+   "Kūṭaja",
+   "Vatsaka",
+   "Kalinga",
+   "Indrayava"
+  ],
+  "reason": "plant's own name removed from synonyms",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "kutaja",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Kutajarishta",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   },
+   {
+    "name": "Kutajavaleha",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   },
+   {
+    "name": "Kutajaghana Vati",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   }
+  ],
+  "reason": "[missing_fill] formulations: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "kutaja",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Grahi",
+   "Dipana",
+   "Stambhana"
+  ],
+  "new": [],
+  "reason": "[note] prabhava repeated karma / not a classical prabhava: Prabhava field should hold only a classically stated prabhava (usually none); the listed terms are karma",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "latakaranja",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "Tikta",
+   "Katu"
+  ],
+  "new": [
+   "Tikta",
+   "Kashaya"
+  ],
+  "reason": "[warning] rasa: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "latakaranja",
+  "path": "dravya_guna.guna",
+  "old": [
+   "Laghu",
+   "Tikshna"
+  ],
+  "new": [
+   "Laghu",
+   "Ruksha"
+  ],
+  "reason": "[warning] guna: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "latakaranja",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Seed churna 1–3 g (API)",
+  "reason": "[missing_fill] dose: Seed churna 1–3 g (API)",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "latakaranja",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Seed churna 1–3 g (API)",
+  "reason": "copy of therapeutics.dose (doctor.dose was empty/placeholder: '')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "latakaranja",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Kuberakshadi Vati",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   },
+   {
+    "name": "Aragvadhadi Kvatha Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   }
+  ],
+  "reason": "[missing_fill] formulations: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "latakaranja",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Jwaraghna",
+   "Krimighna"
+  ],
+  "new": [],
+  "reason": "[note] prabhava repeated karma / not a classical prabhava: Prabhava field should hold only a classically stated prabhava (usually none); the listed terms are karma",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "lodhra",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 3–5 g; 20–30 g for decoction (API)",
+  "reason": "[missing_fill] dose: Churna 3–5 g; 20–30 g for decoction (API)",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "lodhra",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 3–5 g; 20–30 g for decoction (API)",
+  "reason": "copy of therapeutics.dose (doctor.dose was empty/placeholder: '')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "lodhra",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Lodhrasava",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   },
+   {
+    "name": "Pushyanuga Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   },
+   {
+    "name": "Brihat Gangadhara Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   }
+  ],
+  "reason": "[missing_fill] formulations: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "lodhra",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Raktaprasadana",
+   "Yonishodhana"
+  ],
+  "new": [],
+  "reason": "[note] prabhava repeated karma / not a classical prabhava: Prabhava field should hold only a classically stated prabhava (usually none); the listed terms are karma",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "agnimanth",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Shoolaghna",
+   "Virechana"
+  ],
+  "new": [],
+  "reason": "[warning] prabhava repeated karma / not a classical prabhava: No classical prabhava; 'Virechana' is not a karma of Agnimantha (BPN: श्वयथुनुत्, कफवातहा, पाण्डुनुत्, अग्निद). Leave empty",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "agnimanth",
+  "path": "classical_reference.shlokas.0",
+  "old": null,
+  "new": "अग्निमन्थः श्वयथुनुद्वीर्योष्णः कफवातहा।\nपाण्डुनुत् कटुकस्तिक्तस्तुवरो मधुरोऽग्निदः॥",
+  "reason": "[missing_fill] shloka: अग्निमन्थः श्वयथुनुद्वीर्योष्णः कफवातहा। पाण्डुनुत् कटुकस्तिक्तस्तुवरो मधुरोऽग्निदः॥ (BPN Guduchyadi)",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "medium"
+ },
+ {
+  "id": "agnimanth",
+  "path": "classical_reference.shloka_reference_status",
+  "old": "Reference numbers and Sanskrit passages were transcribed only where legible from the supplied textbook images; exact verse wording/edition should be checked against the cited text.",
+  "new": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
+  "reason": "shloka replaced/added per review_2",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "medium"
+ },
+ {
+  "id": "ahiphena",
+  "path": "dravya_guna.guna",
+  "old": [
+   "Guru",
+   "Snigdha"
+  ],
+  "new": [
+   "Laghu",
+   "Ruksha",
+   "Sukshma",
+   "Vyavayi",
+   "Vikashi"
+  ],
+  "reason": "[error] guna: review corrected list",
+  "source": "P.V. Sharma DGV Vol II; e.g. https://doi.org/10.18231/j.ijpp.2023.015",
+  "confidence": "high"
+ },
+ {
+  "id": "ahiphena",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "Tikta",
+   "Katu"
+  ],
+  "new": [
+   "Tikta",
+   "Kashaya"
+  ],
+  "reason": "[warning] rasa: review corrected list",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "ahiphena",
+  "path": "dosha.kapha",
+  "old": "May aggravate",
+  "new": "pacified",
+  "reason": "[error] dosha.kapha: Kapha pacified (Kapha-vatashamaka, Pittaprakopaka; BPN 'श्लेष्मघ्नं')",
+  "source": "P.V. Sharma DGV Vol II; Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "ahiphena",
+  "path": "identity.hindi_name",
+  "old": "पोस्त",
+  "new": "अफ़ीम",
+  "reason": "[warning] hindi: अफ़ीम (latex); पोस्त = capsule husk, खसखस = seed",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "ahiphena",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Vedanasthapana",
+   "Grahi"
+  ],
+  "new": [
+   "Madaka"
+  ],
+  "reason": "[note] prabhava repeated karma / not a classical prabhava: Classical prabhava: Madaka; Vedanasthapana/Grahi are karma",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "ajamoda",
+  "path": "identity.synonyms",
+  "old": [],
+  "new": [
+   "Kharashva",
+   "Mayura",
+   "Dipyaka",
+   "Brahmakusha",
+   "Karavi",
+   "Lochamastaka"
+  ],
+  "reason": "[missing_fill] synonyms: review corrected list",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "ajamoda",
+  "path": "therapeutics.dose",
+  "old": "Not specified in this educational dossier; dose depends on the authenticated drug material and preparation.",
+  "new": "Churna 1–3 g (API)",
+  "reason": "[missing_fill] dose: Churna 1–3 g (API)",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "ajamoda",
+  "path": "doctor.dose",
+  "old": "Not provided",
+  "new": "Churna 1–3 g (API)",
+  "reason": "copy of therapeutics.dose (doctor.dose was empty/placeholder: 'Not provided')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "ajamoda",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Ajamodadi Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   },
+   {
+    "name": "Ajamodarka",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   }
+  ],
+  "reason": "[missing_fill] formulations: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "apamarga",
+  "path": "dravya_guna.karma",
+  "old": [
+   "Traditional use in Kapha-related conditions and selected cleansing procedures"
+  ],
+  "new": [
+   "Deepana",
+   "Pachana",
+   "Shirovirechana",
+   "Vamaka",
+   "Chedana",
+   "Medohara",
+   "Krimighna",
+   "Mutrala"
+  ],
+  "reason": "[warning] karma: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "apamarga",
+  "path": "therapeutics.dose",
+  "old": "Not populated; use only a verified formulation-specific source.",
+  "new": "Whole plant 20–50 g for decoction; root 5–10 g (API); Apamarga Kshara 0.5–2 g",
+  "reason": "[missing_fill] dose: Whole plant 20–50 g for decoction; root 5–10 g (API); Apamarga Kshara 0.5–2 g",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "apamarga",
+  "path": "doctor.dose",
+  "old": "Not supplied in this educational dossier.",
+  "new": "Whole plant 20–50 g for decoction; root 5–10 g (API); Apamarga Kshara 0.5–2 g",
+  "reason": "copy of therapeutics.dose (doctor.dose was empty/placeholder: 'Not supplied in this educational dossier.')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "apamarga",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Apamarga Kshara",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   },
+   {
+    "name": "Apamarga Kshara Taila",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   },
+   {
+    "name": "Agastya Haritaki Rasayana",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   }
+  ],
+  "reason": "[missing_fill] formulations: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "asthishrunkhala",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "Madhura"
+  ],
+  "new": [
+   "Katu",
+   "Madhura"
+  ],
+  "reason": "[warning] rasa: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "asthishrunkhala",
+  "path": "dravya_guna.karma",
+  "old": [
+   "Traditional asthisandhanaka use"
+  ],
+  "new": [
+   "Asthisandhanakara",
+   "Deepana",
+   "Vata-shleshmahara",
+   "Vrishya",
+   "Chakshushya",
+   "Balya"
+  ],
+  "reason": "[warning] karma: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "asthishrunkhala",
+  "path": "therapeutics.dose",
+  "old": "Not populated; use an authenticated formulation-specific source.",
+  "new": "Swarasa 10–20 ml; ardra kalka 10–20 g (API)",
+  "reason": "[missing_fill] dose: Swarasa 10–20 ml; ardra kalka 10–20 g (API)",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "asthishrunkhala",
+  "path": "doctor.dose",
+  "old": "Not supplied in this educational dossier.",
+  "new": "Swarasa 10–20 ml; ardra kalka 10–20 g (API)",
+  "reason": "copy of therapeutics.dose (doctor.dose was empty/placeholder: 'Not supplied in this educational dossier.')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "asthishrunkhala",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Sandhanakaraka",
+   "Balya"
+  ],
+  "new": [],
+  "reason": "[note] prabhava repeated karma / not a classical prabhava: Prabhava field should hold only a classically stated prabhava (usually none); the listed terms are karma",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "bakuchi",
+  "path": "dravya_guna.karma",
+  "old": [
+   "Traditional use in skin disorders"
+  ],
+  "new": [
+   "Kushthaghna",
+   "Krimighna",
+   "Grahi",
+   "Vranapaha",
+   "Hridya",
+   "Rasayana"
+  ],
+  "reason": "[warning] karma: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/); Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "bakuchi",
+  "path": "therapeutics.dose",
+  "old": "No general oral dose supplied; use a verified formulation-specific reference.",
+  "new": "Churna 3–6 g (API); textbooks 1–3 g",
+  "reason": "[missing_fill] dose: Churna 3–6 g (API); textbooks 1–3 g",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "bakuchi",
+  "path": "doctor.dose",
+  "old": "Not supplied in this educational dossier.",
+  "new": "Churna 3–6 g (API); textbooks 1–3 g",
+  "reason": "copy of therapeutics.dose (doctor.dose was empty/placeholder: 'Not supplied in this educational dossier.')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "bakuchi",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Somaraji Taila",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   },
+   {
+    "name": "Avalgujadi Lepa",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   },
+   {
+    "name": "Bakuchi Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   }
+  ],
+  "reason": "[missing_fill] formulations: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "bakuchi",
+  "path": "dravya_guna.karma",
+  "old": [
+   "Kushthaghna",
+   "Krimighna",
+   "Grahi",
+   "Vranapaha",
+   "Hridya",
+   "Rasayana"
+  ],
+  "new": [
+   "Kushthaghna",
+   "Krimighna",
+   "Grahi",
+   "Vranapaha",
+   "Hridya",
+   "Rasayana",
+   "Varnya"
+  ],
+  "reason": "prabhava terms are karma; moved into karma before clearing prabhava",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "bakuchi",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Kushtaghna",
+   "Varnya"
+  ],
+  "new": [],
+  "reason": "[note] prabhava repeated karma / not a classical prabhava: Prabhava field should hold only a classically stated prabhava (usually none); the listed terms are karma",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "bruhati",
+  "path": "identity.synonyms",
+  "old": [
+   "Kshudra",
+   "Simhi",
+   "Bahuputri",
+   "Vartaki"
+  ],
+  "new": [
+   "Mahati",
+   "Simhi",
+   "Vartaki",
+   "Kshudrabhantaki",
+   "Rashtrika",
+   "Kuli"
+  ],
+  "reason": "[error] synonyms: 'Kshudra' is a synonym of Kantakari, not Brihati; 'Bahuputri' is Shatavari. Use Mahati, Simhi, Vartaki, Kshudrabhantaki, Rashtrika, Kuli",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "bruhati",
+  "path": "dravya_guna.karma",
+  "old": [],
+  "new": [
+   "Deepana",
+   "Pachana",
+   "Grahi",
+   "Hridya",
+   "Vatahara",
+   "Kaphahara"
+  ],
+  "reason": "[missing_fill] karma: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/); Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "bruhati",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Root 10–20 g for decoction; whole plant churna 3–6 g (API)",
+  "reason": "[missing_fill] dose: Root 10–20 g for decoction; whole plant churna 3–6 g (API)",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "bruhati",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Root 10–20 g for decoction; whole plant churna 3–6 g (API)",
+  "reason": "copy of therapeutics.dose (doctor.dose was empty/placeholder: '')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "bruhati",
+  "path": "dravya_guna.karma",
+  "old": [
+   "Deepana",
+   "Pachana",
+   "Grahi",
+   "Hridya",
+   "Vatahara",
+   "Kaphahara"
+  ],
+  "new": [
+   "Deepana",
+   "Pachana",
+   "Grahi",
+   "Hridya",
+   "Vatahara",
+   "Kaphahara",
+   "Kasahara",
+   "Shothahara"
+  ],
+  "reason": "prabhava terms are karma; moved into karma before clearing prabhava",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "bruhati",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Kasahara",
+   "Shothahara",
+   "Deepana"
+  ],
+  "new": [],
+  "reason": "[note] prabhava repeated karma / not a classical prabhava: Prabhava field should hold only a classically stated prabhava (usually none); the listed terms are karma",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "chakramarda",
+  "path": "identity.hindi_name",
+  "old": "चक्रवर्त",
+  "new": "चकवड़ / पवाड़",
+  "reason": "[warning] hindi: चकवड़ / पवाड़ (Chakwad, Panwar)",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "chakramarda",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "Tikta",
+   "Kashaya"
+  ],
+  "new": [
+   "Katu"
+  ],
+  "reason": "[warning] rasa: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/) (Prapunnada seed)",
+  "confidence": "high"
+ },
+ {
+  "id": "chakramarda",
+  "path": "dosha.vata",
+  "old": "not specifically documented in imported dataset",
+  "new": "pacified",
+  "reason": "[missing_fill] dosha.vata: pacified (API: Kaphavatashamaka)",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "chakramarda",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Seed churna 1–3 g (API)",
+  "reason": "[missing_fill] dose: Seed churna 1–3 g (API)",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "chakramarda",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Seed churna 1–3 g (API)",
+  "reason": "copy of therapeutics.dose (doctor.dose was empty/placeholder: '')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "chakramarda",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Kushtaghna",
+   "Rechana"
+  ],
+  "new": [],
+  "reason": "[note] prabhava repeated karma / not a classical prabhava: Prabhava field should hold only a classically stated prabhava (usually none); the listed terms are karma",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "dhanyaka",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "Kashaya",
+   "Tikta"
+  ],
+  "new": [
+   "Kashaya",
+   "Tikta",
+   "Katu",
+   "Madhura"
+  ],
+  "reason": "[warning] rasa: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "dhanyaka",
+  "path": "dosha.vata",
+  "old": "not specifically documented in imported dataset",
+  "new": "pacified",
+  "reason": "[missing_fill] dosha: Tridoshashamaka (API 'Tridoshanut'; BPN 'त्रिदोषनुत्')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/); Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "dhanyaka",
+  "path": "dosha.pitta",
+  "old": "not specifically documented in imported dataset",
+  "new": "pacified",
+  "reason": "[missing_fill] dosha: Tridoshashamaka (API 'Tridoshanut'; BPN 'त्रिदोषनुत्')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/); Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "dhanyaka",
+  "path": "dosha.kapha",
+  "old": "not specifically documented in imported dataset",
+  "new": "pacified",
+  "reason": "[missing_fill] dosha: Tridoshashamaka (API 'Tridoshanut'; BPN 'त्रिदोषनुत्')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/); Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "dhanyaka",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 1–3 g (API); Hima/Phanta 20–40 ml",
+  "reason": "[missing_fill] dose: Churna 1–3 g (API); Hima/Phanta 20–40 ml",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "dhanyaka",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 1–3 g (API); Hima/Phanta 20–40 ml",
+  "reason": "copy of therapeutics.dose (doctor.dose was empty/placeholder: '')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "dhanyaka",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Dhanyapanchaka Kwatha",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   },
+   {
+    "name": "Shadanga Paniya",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   }
+  ],
+  "reason": "[missing_fill] formulations: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "medium"
+ },
+ {
+  "id": "dhanyaka",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Deepana",
+   "Pachana",
+   "Mutrala",
+   "Jwaraghna"
+  ],
+  "new": [],
+  "reason": "[note] prabhava repeated karma / not a classical prabhava: Prabhava field should hold only a classically stated prabhava (usually none); the listed terms are karma",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "ela",
+  "path": "dosha.pitta",
+  "old": "aggravated",
+  "new": "pacified",
+  "reason": "[error] dosha.pitta: pacified – Sheeta virya, Madhura vipaka; Tridoshashamaka (Kapha-vatahara and not pittala)",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/); P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "ela",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "छोटी इलायची",
+  "reason": "[missing_fill] hindi: छोटी इलायची",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "ela",
+  "path": "classification.habit",
+  "old": "",
+  "new": "Perennial rhizomatous herb 2–4 m with leafy pseudostems; panicles arise from base",
+  "reason": "[missing_fill] habit: Perennial rhizomatous herb 2–4 m with leafy pseudostems; panicles arise from base",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "ela",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Seed churna 250–500 mg (API)",
+  "reason": "[missing_fill] dose: Seed churna 250–500 mg (API)",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "ela",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Seed churna 250–500 mg (API)",
+  "reason": "copy of therapeutics.dose (doctor.dose was empty/placeholder: '')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "ela",
+  "path": "dravya_guna.karma",
+  "old": [
+   "Deepana",
+   "Pachana",
+   "Chhardighna",
+   "Mutrala",
+   "Hridya",
+   "Swarya",
+   "Mukhashodhaka"
+  ],
+  "new": [
+   "Deepana",
+   "Pachana",
+   "Chhardighna",
+   "Mutrala",
+   "Hridya",
+   "Swarya",
+   "Mukhashodhaka",
+   "Anulomana"
+  ],
+  "reason": "prabhava terms are karma; moved into karma before clearing prabhava",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "ela",
+  "path": "dravya_guna.prabhava",
+  "old": "Mutrala / Chhardighna / Anulomana",
+  "new": "",
+  "reason": "[note] prabhava repeated karma / not a classical prabhava: These are karma; no separate prabhava",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "gambhari",
+  "path": "dravya_guna.virya",
+  "old": "Sheeta",
+  "new": "Ushna",
+  "reason": "[error] virya: Ushna (root/root bark). Sheeta applies to the fruit",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/); Bhavaprakasha Nighantu 'वीर्योष्णा'",
+  "confidence": "high"
+ },
+ {
+  "id": "gambhari",
+  "path": "dravya_guna.guna",
+  "old": [
+   "Laghu",
+   "Snigdha"
+  ],
+  "new": [
+   "Guru"
+  ],
+  "reason": "[error] guna: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/); Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "gambhari",
+  "path": "dosha.kapha",
+  "old": "aggravated",
+  "new": "pacified",
+  "reason": "[warning] dosha.kapha: Root is Tridoshashamaka (API 'Tridoshajit'); fruit is vata-pitta-hara",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "gambhari",
+  "path": "dosha.pitta",
+  "old": "not specifically documented in imported dataset",
+  "new": "pacified",
+  "reason": "[missing_fill] dosha.pitta: pacified",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "gambhari",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Root bark 20–30 g for decoction (API); fruit churna 1–3 g",
+  "reason": "[missing_fill] dose: Root bark 20–30 g for decoction (API); fruit churna 1–3 g",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "gambhari",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Root bark 20–30 g for decoction (API); fruit churna 1–3 g",
+  "reason": "copy of therapeutics.dose (doctor.dose was empty/placeholder: '')",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "gambhari",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Dashamularishta",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   },
+   {
+    "name": "Dashamula Kwatha",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   },
+   {
+    "name": "Dashamula Haritaki",
+    "dosage_form": "",
+    "indication": "",
+    "reference": "API Part I"
+   }
+  ],
+  "reason": "[missing_fill] formulations: review corrected list",
+  "source": "API Part I (archive.org full text: https://archive.org/download/AyurvedicPharmacopoeiaOfIndiaAllVolume/)",
+  "confidence": "high"
+ },
+ {
+  "id": "gambhari",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Shothahara",
+   "Balya"
+  ],
+  "new": [],
+  "reason": "[note] prabhava repeated karma / not a classical prabhava: Prabhava field should hold only a classically stated prabhava (usually none); the listed terms are karma",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "japa",
+  "path": "identity.synonyms",
+  "old": [
+   "Oundrapushpa",
+   "Raktapushpi",
+   "Arka"
+  ],
+  "new": [
+   "Odrapushpa",
+   "Raktapushpi",
+   "Java",
+   "Aruna"
+  ],
+  "reason": "Removed \"Arka\" (= Calotropis, wrong plant); \"Oundrapushpa\" corrected to \"Odrapushpa\"; added accepted synonyms Java, Aruna (own name Japa not listed)",
+  "source": "Bhavaprakasha Nighantu; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "japa",
+  "path": "dravya_guna.karma",
+  "old": [
+   "Keshya",
+   "Raktashodhak",
+   "Hridaya"
+  ],
+  "new": [
+   "Keshya",
+   "Raktashodhak",
+   "Hridya"
+  ],
+  "reason": "\"Hridaya\" corrected to \"Hridya\"",
+  "source": "karma",
+  "confidence": "high"
+ },
+ {
+  "id": "japa",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Keshya",
+   "Raktashodhak",
+   "Hridaya"
+  ],
+  "new": [],
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "jatiphala",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "जायफल",
+  "reason": "Hindi name missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "jatiphala",
+  "path": "classification.habit",
+  "old": "",
+  "new": "Evergreen aromatic tree",
+  "reason": "Habit missing",
+  "source": "POWO (Kew)",
+  "confidence": "high"
+ },
+ {
+  "id": "jatiphala",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 0.5–1 g",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "jatiphala",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 0.5–1 g",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "jatiphala",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Jatiphaladi Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   }
+  ],
+  "reason": "Formulations missing; API formulation",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "jatiphala",
+  "path": "dravya_guna.prabhava",
+  "old": "Grahi / Deepana / Rochana",
+  "new": "",
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "jeeraka",
+  "path": "identity.synonyms",
+  "old": [
+   "Jirana",
+   "Ajavaji",
+   "Deepyaka",
+   "Kana"
+  ],
+  "new": [
+   "Jirana",
+   "Ajavaji",
+   "Kana"
+  ],
+  "reason": "Removed \"Deepyaka\" (synonym of Ajamoda/Yavani, wrong plant)",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "medium"
+ },
+ {
+  "id": "jeeraka",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 1–3 g",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "jeeraka",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 1–3 g",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "jeeraka",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Jirakadyarishta",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Jirakadi Modaka",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Hingvadi Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   }
+  ],
+  "reason": "Formulations missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "jeeraka",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Deepana",
+   "Pachana",
+   "Grahi"
+  ],
+  "new": [],
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "kalamegha",
+  "path": "identity.synonyms",
+  "old": [
+   "Kalamegha",
+   "Yavatiktaka",
+   "Kiratatikta"
+  ],
+  "new": [
+   "Yavatiktaka",
+   "Kiratatikta"
+  ],
+  "reason": "Removed plant's own name \"Kalamegha\" from synonyms",
+  "source": "P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "kalamegha",
+  "path": "dravya_guna.virya",
+  "old": "Sheeta",
+  "new": "Ushna",
+  "reason": "API: Virya Ushna (some textbooks give Sheeta – variance)",
+  "source": "API Kalamegha via IMPPAT https://cb.imsc.res.in/imppat/apiformulationdetails/K%C4%81lamegha",
+  "confidence": "medium"
+ },
+ {
+  "id": "kalamegha",
+  "path": "dosha.kapha",
+  "old": "not specifically documented in imported dataset",
+  "new": "pacified",
+  "reason": "Placeholder replaced: Kapha-pittashamaka",
+  "source": "P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "kalamegha",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 1–3 g",
+  "reason": "Dose missing; filled from review",
+  "source": "API via IMPPAT",
+  "confidence": "high"
+ },
+ {
+  "id": "kalamegha",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 1–3 g",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API via IMPPAT",
+  "confidence": "high"
+ },
+ {
+  "id": "kalamegha",
+  "path": "dravya_guna.karma",
+  "old": [],
+  "new": [
+   "Jwaraghna",
+   "Yakriduttejaka",
+   "Krimighna",
+   "Deepana",
+   "Pittasaraka"
+  ],
+  "reason": "Karma missing; filled from review",
+  "source": "P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "kalamegha",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Jwaraghna",
+   "Pittaghna",
+   "Raktaprasadak"
+  ],
+  "new": [],
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "kalamegha",
+  "path": "dravya_guna.karma",
+  "old": [
+   "Jwaraghna",
+   "Yakriduttejaka",
+   "Krimighna",
+   "Deepana",
+   "Pittasaraka"
+  ],
+  "new": [
+   "Jwaraghna",
+   "Yakriduttejaka",
+   "Krimighna",
+   "Deepana",
+   "Pittasaraka",
+   "Pittaghna",
+   "Raktaprasadak"
+  ],
+  "reason": "Ensure former prabhava terms are present in karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "kampillaka",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "Tikta",
+   "Kashaya"
+  ],
+  "new": [
+   "Katu"
+  ],
+  "reason": "API rasa: Katu",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf (Kampilla Frt.); Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "kampillaka",
+  "path": "dravya_guna.guna",
+  "old": [
+   "Laghu"
+  ],
+  "new": [
+   "Laghu",
+   "Ruksha",
+   "Tikshna"
+  ],
+  "reason": "API guna: Laghu, Ruksha, Tikshna",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "kampillaka",
+  "path": "dravya_guna.karma",
+  "old": [
+   "Krimighna",
+   "Kushtaghna"
+  ],
+  "new": [
+   "Virechana",
+   "Vranapaha",
+   "Krimighna",
+   "Kushtaghna"
+  ],
+  "reason": "Main karma Virechana missing; API: Virechana, Vranapaha, Krimighna",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "kampillaka",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 0.5–1 g (after shodhana)",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "kampillaka",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 0.5–1 g (after shodhana)",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "kampillaka",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Dhanvantara Ghrita",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Mishraka Sneha",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   }
+  ],
+  "reason": "Formulations missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "kampillaka",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Krimighna",
+   "Kushtaghna"
+  ],
+  "new": [],
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "kulatha",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 12 g for kwatha; Kwatha 50–100 ml",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "medium"
+ },
+ {
+  "id": "kulatha",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 12 g for kwatha; Kwatha 50–100 ml",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "medium"
+ },
+ {
+  "id": "kulatha",
+  "path": "dravya_guna.karma",
+  "old": [],
+  "new": [
+   "Ashmaribhedana",
+   "Kaphavatahara",
+   "Swedasangrahaka",
+   "Krimihara",
+   "Vidahi"
+  ],
+  "reason": "Karma missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "kulatha",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Ashmaribhedana",
+   "Lekhana",
+   "Kasahara"
+  ],
+  "new": [],
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "kulatha",
+  "path": "dravya_guna.karma",
+  "old": [
+   "Ashmaribhedana",
+   "Kaphavatahara",
+   "Swedasangrahaka",
+   "Krimihara",
+   "Vidahi"
+  ],
+  "new": [
+   "Ashmaribhedana",
+   "Kaphavatahara",
+   "Swedasangrahaka",
+   "Krimihara",
+   "Vidahi",
+   "Lekhana",
+   "Kasahara"
+  ],
+  "reason": "Ensure former prabhava terms are present in karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "kumkum",
+  "path": "identity.sanskrit_name",
+  "old": "Kumkuma",
+  "new": "कुङ्कुम",
+  "reason": "Sanskrit name was romanised; replaced with Devanagari",
+  "source": "—",
+  "confidence": "high"
+ },
+ {
+  "id": "kumkum",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "केसर",
+  "reason": "Hindi name missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "kumkum",
+  "path": "classification.habit",
+  "old": "",
+  "new": "Perennial cormous herb (sterile triploid cultigen)",
+  "reason": "Habit missing",
+  "source": "POWO (Kew)",
+  "confidence": "high"
+ },
+ {
+  "id": "kumkum",
+  "path": "dosha.kapha",
+  "old": "aggravated",
+  "new": "pacified",
+  "reason": "\"kapha: aggravated\" contradicted own summary (Tridoshashamaka); API: Shleshmahara",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf Kumkuma; Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "kumkum",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "25–50 mg",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "kumkum",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "25–50 mg",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "kumkum",
+  "path": "classical_reference.shlokas.0",
+  "old": "कुङ्कुमं कटुकं तिक्तं उष्णं श्लेष्मसीरार्तिजित्।\nवर्ण्यं वृष्यं च शोषघ्नमग्निदीप्तिप्रदं परम्॥",
+  "new": "कुङ्कुमं कटुकं स्निग्धं शिरोरुग्व्रणजन्तुजित्।\nतिक्तं वमिहरं वर्ण्यं व्यङ्गदोषत्रयापहम्॥",
+  "reason": "Garbled verse replaced with BP Karpuradi varga verse",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "medium"
+ },
+ {
+  "id": "kumkum",
+  "path": "classical_reference.shloka_reference_status",
+  "old": "A. Directly verified classical reference",
+  "new": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
+  "reason": "Shloka replaced",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "medium"
+ },
+ {
+  "id": "kumkum",
+  "path": "dravya_guna.prabhava",
+  "old": "Varnya / Keshya / Hridya / Stri-rogahara",
+  "new": "",
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "kumkum",
+  "path": "dravya_guna.karma",
+  "old": [
+   "Varnya",
+   "Hridya",
+   "Vedanasthapana",
+   "Shothahara",
+   "Artavajanana",
+   "Vrishya",
+   "Vishaghna",
+   "Deepana"
+  ],
+  "new": [
+   "Varnya",
+   "Hridya",
+   "Vedanasthapana",
+   "Shothahara",
+   "Artavajanana",
+   "Vrishya",
+   "Vishaghna",
+   "Deepana",
+   "Keshya",
+   "Stri-rogahara"
+  ],
+  "reason": "Ensure former prabhava terms are present in karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "lajjalu",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "Tikta"
+  ],
+  "new": [
+   "Tikta",
+   "Kashaya"
+  ],
+  "reason": "Rasa: Tikta, Kashaya",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "lajjalu",
+  "path": "dravya_guna.guna",
+  "old": [
+   "Laghu"
+  ],
+  "new": [
+   "Laghu",
+   "Ruksha"
+  ],
+  "reason": "Guna: Laghu, Ruksha",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "lajjalu",
+  "path": "dosha.kapha",
+  "old": "aggravated",
+  "new": "pacified",
+  "reason": "API: Kaphahara, Pittahara",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "lajjalu",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Kwatha: 10–20 g drug for decoction",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "lajjalu",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Kwatha: 10–20 g drug for decoction",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "lajjalu",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Samangadi Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Kutajavaleha",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Pushyanuga Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Brihat Gangadhara Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   }
+  ],
+  "reason": "Formulations missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "lajjalu",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Stambhana",
+   "Vranaropana"
+  ],
+  "new": [],
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "lavanga",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "लौंग",
+  "reason": "Hindi name missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "lavanga",
+  "path": "classification.habit",
+  "old": "",
+  "new": "Evergreen tree",
+  "reason": "Habit missing",
+  "source": "POWO (Kew)",
+  "confidence": "high"
+ },
+ {
+  "id": "lavanga",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 0.5–2 g",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "lavanga",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 0.5–2 g",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "lavanga",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Lavangadi Vati",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Lavangadi Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   }
+  ],
+  "reason": "Formulations missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "lavanga",
+  "path": "dravya_guna.prabhava",
+  "old": "Chhardighna / Shoolahara / Kasahara",
+  "new": "",
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "madanphala",
+  "path": "identity.botanical_name",
+  "old": "Randia dumetorum (Retz.) Lam.",
+  "new": "Randia dumetorum (Retz.) Poir.",
+  "reason": "Author citation corrected from \"(Retz.) Lam.\" to \"(Retz.) Poir.\"; NCISM name retained",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; POWO (Kew)",
+  "confidence": "high"
+ },
+ {
+  "id": "madanphala",
+  "path": "identity.synonyms",
+  "old": [
+   "Pindi",
+   "Ratha",
+   "Chardana",
+   "Pilu"
+  ],
+  "new": [
+   "Pindi",
+   "Ratha",
+   "Chhardana",
+   "Shalyaka",
+   "Karahata",
+   "Madani"
+  ],
+  "reason": "Removed \"Pilu\" (= Salvadora persica, wrong plant); \"Chardana\" → \"Chhardana\"; added accepted synonyms",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "madanphala",
+  "path": "therapeutics.indications",
+  "old": [
+   "Vamana context in classical practice"
+  ],
+  "new": [
+   "Gulma",
+   "Vidradhi",
+   "Kushtha",
+   "Shleshmajwara",
+   "Pratishyaya"
+  ],
+  "reason": "Placeholder indication replaced",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "madanphala",
+  "path": "dravya_guna.karma",
+  "old": [],
+  "new": [
+   "Vamana",
+   "Lekhana"
+  ],
+  "reason": "Karma missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "madanphala",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 0.5–1 g; 3–6 g for inducing vomiting",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "madanphala",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 0.5–1 g; 3–6 g for inducing vomiting",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "madanphala",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Pippalyadi Taila",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   }
+  ],
+  "reason": "Formulations missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "medium"
+ },
+ {
+  "id": "mandukaparni",
+  "path": "dosha.kapha",
+  "old": "aggravated",
+  "new": "pacified",
+  "reason": "API: Kaphapittahara",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "mandukaparni",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "Tikta"
+  ],
+  "new": [
+   "Tikta",
+   "Kashaya",
+   "Madhura",
+   "Katu"
+  ],
+  "reason": "Rasa: Tikta, Kashaya, Madhura, Katu",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "mandukaparni",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 3–6 g; Swarasa 10–20 ml",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "mandukaparni",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 3–6 g; Swarasa 10–20 ml",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "mandukaparni",
+  "path": "dravya_guna.karma",
+  "old": [],
+  "new": [
+   "Medhya",
+   "Rasayana",
+   "Hridya",
+   "Swarya",
+   "Varnya",
+   "Kaphapittahara"
+  ],
+  "reason": "Karma missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "mandukaparni",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Brahma Rasayana",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   }
+  ],
+  "reason": "Formulations missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "manjishta",
+  "path": "dravya_guna.virya",
+  "old": "Sheeta",
+  "new": "Ushna",
+  "reason": "Virya: Ushna",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf (Manjishta St.); Bhavaprakasha Nighantu; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "manjishta",
+  "path": "dravya_guna.vipaka",
+  "old": "Madhura",
+  "new": "Katu",
+  "reason": "Vipaka: Katu",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; Bhavaprakasha Nighantu; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "manjishta",
+  "path": "dravya_guna.guna",
+  "old": [
+   "Laghu"
+  ],
+  "new": [
+   "Guru",
+   "Ruksha"
+  ],
+  "reason": "Guna: Guru, Ruksha",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; Bhavaprakasha Nighantu; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "manjishta",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "Tikta",
+   "Kashaya"
+  ],
+  "new": [
+   "Madhura",
+   "Tikta",
+   "Kashaya"
+  ],
+  "reason": "Rasa: Madhura, Tikta, Kashaya",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "manjishta",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 2–4 g; Kwatha 50–100 ml",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "manjishta",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 2–4 g; Kwatha 50–100 ml",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "manjishta",
+  "path": "dravya_guna.karma",
+  "old": [],
+  "new": [
+   "Varnya",
+   "Raktashodhaka",
+   "Kushthaghna",
+   "Shothahara",
+   "Vishaghna",
+   "Stambhana",
+   "Artavajanana"
+  ],
+  "reason": "Karma missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "manjishta",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Manjishthadi Kwatha (Brihat)",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Manjishthadi Taila",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Chandanasava",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Ushirasava",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   }
+  ],
+  "reason": "Formulations missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "manjishta",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Raktashodhana",
+   "Kushtaghna"
+  ],
+  "new": [],
+  "reason": "Listed items are karma, not prabhava; moved to karma (Raktashodhana/Kushtaghna = Raktashodhaka/Kushthaghna already in karma)",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "maricha",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "काली मिर्च",
+  "reason": "Hindi name missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "maricha",
+  "path": "classification.habit",
+  "old": "",
+  "new": "Perennial woody climber",
+  "reason": "Habit missing",
+  "source": "POWO (Kew)",
+  "confidence": "high"
+ },
+ {
+  "id": "maricha",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 250 mg–1 g",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "maricha",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 250 mg–1 g",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "maricha",
+  "path": "dravya_guna.prabhava",
+  "old": "Pramathi / Deepana / Krimighna",
+  "new": "",
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "meshshrungi",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Leaf churna 3–6 g",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "meshshrungi",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Leaf churna 3–6 g",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "meshshrungi",
+  "path": "dravya_guna.karma",
+  "old": [],
+  "new": [
+   "Madhumehaghna",
+   "Kaphavatahara",
+   "Vishaghna",
+   "Deepana",
+   "Chakshushya",
+   "Sramsana"
+  ],
+  "reason": "Karma missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "meshshrungi",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Ayaskriti",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Nyagrodhadi Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Mahavishagarbha Taila",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   }
+  ],
+  "reason": "Formulations missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "meshshrungi",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Pramehaghna",
+   "Medohara"
+  ],
+  "new": [],
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "meshshrungi",
+  "path": "dravya_guna.karma",
+  "old": [
+   "Madhumehaghna",
+   "Kaphavatahara",
+   "Vishaghna",
+   "Deepana",
+   "Chakshushya",
+   "Sramsana"
+  ],
+  "new": [
+   "Madhumehaghna",
+   "Kaphavatahara",
+   "Vishaghna",
+   "Deepana",
+   "Chakshushya",
+   "Sramsana",
+   "Pramehaghna",
+   "Medohara"
+  ],
+  "reason": "Ensure former prabhava terms are present in karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "methika",
+  "path": "identity.synonyms",
+  "old": [
+   "Methika",
+   "Peetabeeja",
+   "Bahuputrika",
+   "Dipani"
+  ],
+  "new": [
+   "Peetabeeja",
+   "Bahuputrika",
+   "Dipani"
+  ],
+  "reason": "Removed plant's own name \"Methika\" from synonyms",
+  "source": "synonyms",
+  "confidence": "high"
+ },
+ {
+  "id": "methika",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 3–6 g",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "methika",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 3–6 g",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "methika",
+  "path": "dravya_guna.karma",
+  "old": [],
+  "new": [
+   "Vatahara",
+   "Kaphahara",
+   "Deepana",
+   "Rucya"
+  ],
+  "reason": "Karma missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "methika",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Mustakarishta",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Mritasanjivani Sura",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   }
+  ],
+  "reason": "Formulations missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "methika",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Deepana",
+   "Vatanulomana",
+   "Balya"
+  ],
+  "new": [],
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "methika",
+  "path": "dravya_guna.karma",
+  "old": [
+   "Vatahara",
+   "Kaphahara",
+   "Deepana",
+   "Rucya"
+  ],
+  "new": [
+   "Vatahara",
+   "Kaphahara",
+   "Deepana",
+   "Rucya",
+   "Vatanulomana",
+   "Balya"
+  ],
+  "reason": "Ensure former prabhava terms are present in karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "musta",
+  "path": "identity.synonyms",
+  "old": [
+   "Musta",
+   "Abda",
+   "Jalada",
+   "Ghan"
+  ],
+  "new": [
+   "Abda",
+   "Jalada",
+   "Ghan"
+  ],
+  "reason": "Removed plant's own name \"Musta\" from synonyms",
+  "source": "synonyms",
+  "confidence": "high"
+ },
+ {
+  "id": "musta",
+  "path": "dravya_guna.virya",
+  "old": "Ushna",
+  "new": "Sheeta",
+  "reason": "Virya: Sheeta",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf (Musta Rz.); Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "musta",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "Tikta",
+   "Katu"
+  ],
+  "new": [
+   "Tikta",
+   "Katu",
+   "Kashaya"
+  ],
+  "reason": "Rasa: Tikta, Katu, Kashaya",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "musta",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 3–6 g; Kwatha 20–30 ml",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "musta",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 3–6 g; Kwatha 20–30 ml",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "musta",
+  "path": "dravya_guna.karma",
+  "old": [],
+  "new": [
+   "Deepana",
+   "Pachana",
+   "Grahi",
+   "Trishnanigrahana",
+   "Krimighna",
+   "Jwaraghna",
+   "Sthaulyahara"
+  ],
+  "reason": "Karma missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "musta",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Mustakarishta",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Mustakadi Kwatha",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Ashokarishta",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   }
+  ],
+  "reason": "Formulations missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "musta",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Deepana",
+   "Pachana",
+   "Grahi"
+  ],
+  "new": [],
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "nagkeshar",
+  "path": "identity.synonyms",
+  "old": [
+   "Nagapushpa",
+   "Naga",
+   "Kesara",
+   "Nagakeshara",
+   "Champaka",
+   "Nagakinjalka"
+  ],
+  "new": [
+   "Nagapushpa",
+   "Naga",
+   "Kesara",
+   "Nagakinjalka",
+   "Hema",
+   "Gajakeshara"
+  ],
+  "reason": "Removed \"Champaka\" (= Michelia champaca, wrong plant) and own name \"Nagakeshara\"; added API synonyms Hema, Gajakeshara",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "nagkeshar",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "नागकेसर",
+  "reason": "Hindi name missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "nagkeshar",
+  "path": "classification.habit",
+  "old": "",
+  "new": "Evergreen medium to large tree",
+  "reason": "Habit missing",
+  "source": "POWO (Kew)",
+  "confidence": "high"
+ },
+ {
+  "id": "nagkeshar",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 1–3 g",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "nagkeshar",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 1–3 g",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "nagkeshar",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Nagakesaradi Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Kumaryasava",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Chandanabalalakshadi Taila",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   }
+  ],
+  "reason": "Formulations missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "nagkeshar",
+  "path": "dravya_guna.prabhava",
+  "old": "Amapachana / Vishaghna",
+  "new": "",
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "nimba",
+  "path": "classical_reference.shlokas.0",
+  "old": "निम्बः शीतो लघुग्राही कटुपाकोऽग्निवातनुत् ।\nस्रध्रः श्रमद्वाक्स्वरार्चिचक्रिमिप्रघ्नुत् ।\nव्रणपित्तकफच्छर्दिकुष्ठलासमेहनुत् ॥७४॥",
+  "new": "निम्बः शीतो लघुर्ग्राही कटुपाकोऽग्निवातकृत्।\nअहृद्यः श्रमतृट्कासज्वरारुचिकृमिप्रणुत्॥\nव्रणपित्तकफच्छर्दिकुष्ठहृल्लासमेहनुत्॥",
+  "reason": "Garbled verse replaced with BP text",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "medium"
+ },
+ {
+  "id": "nimba",
+  "path": "classical_reference.shloka_reference_status",
+  "old": "verified_text_location_edition_numbering_may_vary",
+  "new": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
+  "reason": "Shloka replaced",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "medium"
+ },
+ {
+  "id": "nimba",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "नीम",
+  "reason": "Hindi name missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "nimba",
+  "path": "classification.habit",
+  "old": "",
+  "new": "Evergreen tree",
+  "reason": "Habit missing",
+  "source": "POWO (Kew)",
+  "confidence": "high"
+ },
+ {
+  "id": "nimba",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Leaf churna 1–3 g; stem-bark churna 2–4 g",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "nimba",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Leaf churna 1–3 g; stem-bark churna 2–4 g",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "nimba",
+  "path": "dravya_guna.prabhava",
+  "old": "Kushtaghna / Kandughna / Krimighna",
+  "new": "",
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "nirgundi",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Swarasa 10–20 ml (leaf); root churna 3–6 g",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "medium"
+ },
+ {
+  "id": "nirgundi",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Swarasa 10–20 ml (leaf); root churna 3–6 g",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "medium"
+ },
+ {
+  "id": "nirgundi",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Nirgundi Taila",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Vatagajankusha Rasa",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Trivikrama Rasa",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Dashamula Taila",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   }
+  ],
+  "reason": "Formulations missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "nirgundi",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Shothahara",
+   "Vedanasthapana"
+  ],
+  "new": [],
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "palasha",
+  "path": "identity.synonyms",
+  "old": [
+   "Kimshuka",
+   "Raktapushpaka",
+   "Brahmavriksha",
+   "Trivrita"
+  ],
+  "new": [
+   "Kimshuka",
+   "Raktapushpaka",
+   "Brahmavriksha",
+   "Triparna"
+  ],
+  "reason": "\"Trivrita\" (= Operculina turpethum, wrong plant) replaced by intended \"Triparna\"",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "palasha",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "Tikta",
+   "Katu"
+  ],
+  "new": [
+   "Kashaya",
+   "Katu",
+   "Tikta"
+  ],
+  "reason": "Kashaya missing from rasa",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "palasha",
+  "path": "dravya_guna.guna",
+  "old": [
+   "Laghu",
+   "Ruksha"
+  ],
+  "new": [
+   "Laghu",
+   "Snigdha"
+  ],
+  "reason": "API (bark/seed/gum): Laghu, Snigdha – not Ruksha (Ruksha applies to flower only)",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "medium"
+ },
+ {
+  "id": "palasha",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Seed churna 0.5–1 g (up to 3 g); flower churna 3–6 g; bark 5–10 g for decoction",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "palasha",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Seed churna 0.5–1 g (up to 3 g); flower churna 3–6 g; bark 5–10 g for decoction",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "palasha",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Palasha Kshara",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Palashabija Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Krimimudgara Rasa",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Ayaskriti",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   }
+  ],
+  "reason": "Formulations missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "palasha",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Krimighna",
+   "Raktashodhak",
+   "Shothahara"
+  ],
+  "new": [],
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "pashanabheda",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 3–6 g; 20–30 g for decoction",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "pashanabheda",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 3–6 g; 20–30 g for decoction",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "pashanabheda",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Ashmarihara Kashaya Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Mutravirechaniya Kashaya Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   }
+  ],
+  "reason": "Formulations missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "pashanabheda",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Ashmaribhedana",
+   "Mutrala"
+  ],
+  "new": [],
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "patha",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "Tikta"
+  ],
+  "new": [
+   "Tikta",
+   "Katu"
+  ],
+  "reason": "Rasa: Tikta, Katu",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "patha",
+  "path": "dosha.vata",
+  "old": "not specifically documented in imported dataset",
+  "new": "pacified",
+  "reason": "Placeholder replaced: Tridoshashamana (API)",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "patha",
+  "path": "dosha.pitta",
+  "old": "not specifically documented in imported dataset",
+  "new": "pacified",
+  "reason": "Placeholder replaced: Tridoshashamana (API)",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "patha",
+  "path": "dosha.kapha",
+  "old": "not specifically documented in imported dataset",
+  "new": "pacified",
+  "reason": "Placeholder replaced: Tridoshashamana (API)",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "patha",
+  "path": "identity.synonyms",
+  "old": [
+   "Ambashtha",
+   "Prachina",
+   "Vriddhakarna",
+   "Laghu Patha"
+  ],
+  "new": [
+   "Ambashtha",
+   "Prachina",
+   "Vriddhakarna"
+  ],
+  "reason": "Removed \"Laghu Patha\" (different drug, Cyclea peltata)",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "medium"
+ },
+ {
+  "id": "patha",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 3–6 g",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "patha",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 3–6 g",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "patha",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Pushyanuga Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Pradarantaka Lauha",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Brihat Gangadhara Churna",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Stanyashodhana Kashaya",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   }
+  ],
+  "reason": "Formulations missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "patha",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Vishaghna",
+   "Grahi",
+   "Jwaraghna"
+  ],
+  "new": [],
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "pippali",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "पीपल / पिपली",
+  "reason": "Hindi name missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "medium"
+ },
+ {
+  "id": "pippali",
+  "path": "classification.habit",
+  "old": "",
+  "new": "Slender aromatic perennial climber/undershrub",
+  "reason": "Habit missing",
+  "source": "POWO (Kew)",
+  "confidence": "high"
+ },
+ {
+  "id": "pippali",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 1–3 g (fruit); Pippalimula churna 0.5–1 g",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "pippali",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 1–3 g (fruit); Pippalimula churna 0.5–1 g",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "pippali",
+  "path": "dravya_guna.prabhava",
+  "old": "Rasayana / Kasahara / Shwasahara",
+  "new": "",
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "punarnava",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "गदहपूरना / पुनर्नवा",
+  "reason": "Hindi name missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "medium"
+ },
+ {
+  "id": "punarnava",
+  "path": "classification.habit",
+  "old": "",
+  "new": "Diffuse perennial herb with tuberous root",
+  "reason": "Habit missing",
+  "source": "POWO (Kew)",
+  "confidence": "high"
+ },
+ {
+  "id": "punarnava",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna (root) 1–3 g; Kwatha: 20–30 g drug for decoction",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "medium"
+ },
+ {
+  "id": "punarnava",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna (root) 1–3 g; Kwatha: 20–30 g drug for decoction",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "medium"
+ },
+ {
+  "id": "punarnava",
+  "path": "dravya_guna.prabhava",
+  "old": "Shothahara / Mutrala",
+  "new": "",
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "rasna",
+  "path": "therapeutics.useful_part",
+  "old": [
+   "root"
+  ],
+  "new": [
+   "leaf"
+  ],
+  "reason": "API monograph: dried leaf of Pluchea lanceolata (record's botanical source)",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "rasna",
+  "path": "doctor.useful_part",
+  "old": "root",
+  "new": "leaf",
+  "reason": "Kept in sync with corrected therapeutics.useful_part (was stale \"root\")",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "rasna",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Kwatha: 25–50 g drug for decoction",
+  "reason": "Dose missing; filled from review",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "rasna",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Kwatha: 25–50 g drug for decoction",
+  "reason": "doctor.dose empty; copied from therapeutics.dose",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "rasna",
+  "path": "formulations",
+  "old": [],
+  "new": [
+   {
+    "name": "Rasnadi Kwatha",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Rasnairandadi Kwatha",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Dashamularishta",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   },
+   {
+    "name": "Karpasasthyadi Taila",
+    "dosage_form": "",
+    "indication": "",
+    "reference": ""
+   }
+  ],
+  "reason": "Formulations missing",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf",
+  "confidence": "high"
+ },
+ {
+  "id": "rasna",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Vatahara",
+   "Shothahara"
+  ],
+  "new": [],
+  "reason": "Listed items are karma, not prabhava; moved to karma",
+  "source": "API Part I (vols I–V), monograph text from archive.org API all-volume PDF: https://ia800501.us.archive.org/34/items/AyurvedicPharmacopoeiaOfIndiaAllVolume/Ayurvedic%20Pharmacopoeia%20of%20India%20All%20Volume.pdf; P.V. Sharma, Dravyaguna Vijnana Vol II",
+  "confidence": "medium"
+ },
+ {
+  "id": "rasona",
+  "path": "identity.sanskrit_name",
+  "old": "रसोना",
+  "new": "रसोन",
+  "reason": "error: sanskrit — review_4 #0",
+  "source": "Bhavaprakasha Nighantu, Haritakyadi varga",
+  "confidence": "high"
+ },
+ {
+  "id": "rasona",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "Katu",
+   "Tikta"
+  ],
+  "new": [
+   "Katu",
+   "Madhura",
+   "Lavana",
+   "Tikta",
+   "Kashaya"
+  ],
+  "reason": "error: rasa — review_4 #1",
+  "source": "API Lasuna monograph https://cb.imsc.res.in/imppat/apiformulationdetails/La%C5%9Buna; BPN 'amla-varjita pancha rasa'",
+  "confidence": "high"
+ },
+ {
+  "id": "rasona",
+  "path": "dravya_guna.guna",
+  "old": [
+   "Laghu",
+   "Ruksha"
+  ],
+  "new": [
+   "Guru",
+   "Snigdha",
+   "Tikshna",
+   "Picchila",
+   "Sara"
+  ],
+  "reason": "error: guna — review_4 #2",
+  "source": "API Lasuna (Guru, Snigdha); BPN 'snigdhoshna tikshna katu picchila guru sara'",
+  "confidence": "high"
+ },
+ {
+  "id": "rasona",
+  "path": "dravya_guna.karma",
+  "old": [],
+  "new": [
+   "Lekhana",
+   "Deepana",
+   "Rasayana"
+  ],
+  "reason": "prabhava terms are karma; ensured present in karma",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "rasona",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Lekhana",
+   "Deepana",
+   "rasayan"
+  ],
+  "new": [],
+  "reason": "prabhava merely repeats karma; cleared",
+  "source": "P.V. Sharma DGV Vol II",
+  "confidence": "high"
+ },
+ {
+  "id": "rasona",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Kalka (bulb paste) 3 g (API); classical 3–6 g",
+  "reason": "missing_fill: dose — review_4 #4",
+  "source": "API Lasuna (3 g)",
+  "confidence": "high"
+ },
+ {
+  "id": "rasona",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Kalka (bulb paste) 3 g (API); classical 3–6 g",
+  "reason": "copy of corrected therapeutics.dose — review_4 #4",
+  "source": "API Lasuna (3 g)",
+  "confidence": "high"
+ },
+ {
+  "id": "sarpagandha",
+  "path": "identity.sanskrit_name",
+  "old": "Sarpagandha",
+  "new": "सर्पगन्धा",
+  "reason": "warning: sanskrit — review_4 #5",
+  "source": "Field should be Devanagari",
+  "confidence": "high"
+ },
+ {
+  "id": "sarpagandha",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "सर्पगन्धा / छोटा चाँद",
+  "reason": "missing_fill: hindi — review_4 #6",
+  "source": "Sastry DGV; P.V. Sharma",
+  "confidence": "high"
+ },
+ {
+  "id": "sarpagandha",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "tikta"
+  ],
+  "new": [
+   "tikta",
+   "katu"
+  ],
+  "reason": "warning: rasa — review_4 #7",
+  "source": "API Sarpagandha https://cb.imsc.res.in/imppat/apiformulationdetails/Sarpagandh%C4%81",
+  "confidence": "high"
+ },
+ {
+  "id": "sarpagandha",
+  "path": "dravya_guna.guna",
+  "old": [
+   "ruksha"
+  ],
+  "new": [
+   "ruksha",
+   "laghu"
+  ],
+  "reason": "warning: guna — review_4 #8",
+  "source": "API Sarpagandha (IMPPAT)",
+  "confidence": "high"
+ },
+ {
+  "id": "sarpagandha",
+  "path": "dravya_guna.karma",
+  "old": [
+   "Nidrajanana",
+   "Raktachapahara (Antihypertensive)",
+   "Unmadahara",
+   "Hrid-shamak",
+   "Vishaghna",
+   "Vedanasthapana",
+   "Kamoddepaka"
+  ],
+  "new": [
+   "Nidrajanana",
+   "Raktachapahara (Antihypertensive)",
+   "Unmadahara",
+   "Hrid-shamak",
+   "Vishaghna",
+   "Vedanasthapana",
+   "Kamavasadaka",
+   "Hridayavasadaka",
+   "Mutrala",
+   "Deepana"
+  ],
+  "reason": "error: karma — review_4 #9",
+  "source": "API Sarpagandha karma list (IMPPAT)",
+  "confidence": "high"
+ },
+ {
+  "id": "sarpagandha",
+  "path": "dosha.summary",
+  "old": "Kapha-Vatashamaka (Reduces Vata & Pitta in Manovaha Srotas)",
+  "new": "Kapha-Vatashamaka",
+  "reason": "warning: dosha.summary — review_4 #10",
+  "source": "API karma: Vatahara, Kaphahara",
+  "confidence": "high"
+ },
+ {
+  "id": "sarpagandha",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Mula churna 1–2 g (API)",
+  "reason": "missing_fill: dose — review_4 #11",
+  "source": "API Sarpagandha (1–2 g)",
+  "confidence": "high"
+ },
+ {
+  "id": "sarpagandha",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Mula churna 1–2 g (API)",
+  "reason": "copy of corrected therapeutics.dose — review_4 #11",
+  "source": "API Sarpagandha (1–2 g)",
+  "confidence": "high"
+ },
+ {
+  "id": "sairayak",
+  "path": "identity.sanskrit_name",
+  "old": "सैरयक",
+  "new": "सैरेयक",
+  "reason": "error: name/sanskrit — review_4 #15",
+  "source": "Bhavaprakasha Nighantu, Pushpa varga",
+  "confidence": "high"
+ },
+ {
+  "id": "sairayak",
+  "path": "identity.transliteration",
+  "old": "Sairayaka",
+  "new": "Saireyaka",
+  "reason": "error: name/sanskrit — review_4 #15",
+  "source": "Bhavaprakasha Nighantu, Pushpa varga",
+  "confidence": "high"
+ },
+ {
+  "id": "sairayak",
+  "path": "identity.hindi_name",
+  "old": "सैरयक",
+  "new": "कटसरैया",
+  "reason": "error: hindi — review_4 #16",
+  "source": "Sastry DGV; P.V. Sharma",
+  "confidence": "high"
+ },
+ {
+  "id": "sairayak",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Swarasa 10–20 ml; Mula churna 3–6 g; Kwatha 50–100 ml",
+  "reason": "missing_fill: dose — review_4 #19",
+  "source": "Sastry DGV / P.V. Sharma",
+  "confidence": "medium"
+ },
+ {
+  "id": "sairayak",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Swarasa 10–20 ml; Mula churna 3–6 g; Kwatha 50–100 ml",
+  "reason": "copy of corrected therapeutics.dose — review_4 #19",
+  "source": "Sastry DGV / P.V. Sharma",
+  "confidence": "medium"
+ },
+ {
+  "id": "sariva",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Raktashodhak",
+   "Kushtaghna",
+   "Varnya"
+  ],
+  "new": [],
+  "reason": "prabhava merely repeats karma; cleared",
+  "source": "P.V. Sharma",
+  "confidence": "high"
+ },
+ {
+  "id": "sariva",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Mula churna 3–6 g; Kwatha 50–100 ml",
+  "reason": "missing_fill: dose — review_4 #23",
+  "source": "API Sariva; Sastry DGV",
+  "confidence": "medium"
+ },
+ {
+  "id": "sariva",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Mula churna 3–6 g; Kwatha 50–100 ml",
+  "reason": "copy of corrected therapeutics.dose — review_4 #23",
+  "source": "API Sariva; Sastry DGV",
+  "confidence": "medium"
+ },
+ {
+  "id": "shallaki",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Shothahara",
+   "Grahi",
+   "Vedanasthapana"
+  ],
+  "new": [],
+  "reason": "prabhava merely repeats karma; cleared",
+  "source": "P.V. Sharma",
+  "confidence": "high"
+ },
+ {
+  "id": "shallaki",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Niryasa churna 1–3 g; Twak kwatha 50–100 ml",
+  "reason": "missing_fill: dose — review_4 #28",
+  "source": "Sastry DGV",
+  "confidence": "medium"
+ },
+ {
+  "id": "shallaki",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Niryasa churna 1–3 g; Twak kwatha 50–100 ml",
+  "reason": "copy of corrected therapeutics.dose — review_4 #28",
+  "source": "Sastry DGV",
+  "confidence": "medium"
+ },
+ {
+  "id": "shalmali-mocharasa",
+  "path": "identity.sanskrit_name",
+  "old": "शाल्मली (मोचरसा)",
+  "new": "शाल्मली (मोचरस)",
+  "reason": "warning: sanskrit — review_4 #29",
+  "source": "BPN Vatadi varga ('मोचरसः')",
+  "confidence": "high"
+ },
+ {
+  "id": "shalmali-mocharasa",
+  "path": "dosha.vata",
+  "old": "not specifically documented in imported dataset",
+  "new": "pacified",
+  "reason": "error: dosha.vata — review_4 #30",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "shalmali-mocharasa",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Mocharasa churna 1–3 g; Twak kwatha 50–100 ml; Pushpa swarasa 10–20 ml",
+  "reason": "missing_fill: dose — review_4 #33",
+  "source": "Sastry DGV",
+  "confidence": "medium"
+ },
+ {
+  "id": "shalmali-mocharasa",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Mocharasa churna 1–3 g; Twak kwatha 50–100 ml; Pushpa swarasa 10–20 ml",
+  "reason": "copy of corrected therapeutics.dose — review_4 #33",
+  "source": "Sastry DGV",
+  "confidence": "medium"
+ },
+ {
+  "id": "shalmali-mocharasa",
+  "path": "dravya_guna.karma",
+  "old": [],
+  "new": [
+   "Stambhana",
+   "Raktaprasadana"
+  ],
+  "reason": "prabhava terms are karma; ensured present in karma",
+  "source": "P.V. Sharma",
+  "confidence": "high"
+ },
+ {
+  "id": "shalmali-mocharasa",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Stambhana",
+   "Raktaprasadana"
+  ],
+  "new": [],
+  "reason": "prabhava merely repeats karma; cleared",
+  "source": "P.V. Sharma",
+  "confidence": "high"
+ },
+ {
+  "id": "shankhapushpi",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 3–6 g; Swarasa 10–20 ml",
+  "reason": "missing_fill: dose — review_4 #38",
+  "source": "API Shankhapushpi; Sastry",
+  "confidence": "medium"
+ },
+ {
+  "id": "shankhapushpi",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 3–6 g; Swarasa 10–20 ml",
+  "reason": "copy of corrected therapeutics.dose — review_4 #38",
+  "source": "API Shankhapushpi; Sastry",
+  "confidence": "medium"
+ },
+ {
+  "id": "shatavari",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "शतावर",
+  "reason": "missing_fill: hindi — review_4 #39",
+  "source": "Sastry; P.V. Sharma",
+  "confidence": "high"
+ },
+ {
+  "id": "shatavari",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "Madhura"
+  ],
+  "new": [
+   "Madhura",
+   "Tikta"
+  ],
+  "reason": "error: rasa — review_4 #40",
+  "source": "API Shatavari; own shloka says 'तिक्ता स्वाद्वी'",
+  "confidence": "high"
+ },
+ {
+  "id": "shatavari",
+  "path": "dravya_guna.karma",
+  "old": [
+   "Stanyashodhana",
+   "Shukrala",
+   "rasayan",
+   "Varnya"
+  ],
+  "new": [
+   "Stanyajanana",
+   "Shukrala",
+   "rasayan",
+   "Varnya"
+  ],
+  "reason": "error: karma/prabhava — review_4 #41",
+  "source": "Bhavaprakasha Nighantu",
+  "confidence": "high"
+ },
+ {
+  "id": "shatavari",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Stanyashodhana",
+   "Shukrala",
+   "rasayan",
+   "Varnya"
+  ],
+  "new": [],
+  "reason": "prabhava merely repeats karma; cleared",
+  "source": "P.V. Sharma",
+  "confidence": "high"
+ },
+ {
+  "id": "shatavari",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Mula churna 3–6 g; Swarasa 10–20 ml",
+  "reason": "missing_fill: dose — review_4 #44",
+  "source": "API Shatavari",
+  "confidence": "high"
+ },
+ {
+  "id": "shatavari",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Mula churna 3–6 g; Swarasa 10–20 ml",
+  "reason": "copy of corrected therapeutics.dose — review_4 #44",
+  "source": "API Shatavari",
+  "confidence": "high"
+ },
+ {
+  "id": "shigru",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Shothahara",
+   "Krimighna",
+   "Medohara"
+  ],
+  "new": [],
+  "reason": "prabhava merely repeats karma; cleared",
+  "source": "P.V. Sharma",
+  "confidence": "high"
+ },
+ {
+  "id": "shigru",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Mula twak kwatha 50–100 ml; Patra swarasa 10–20 ml; Bija churna 1–3 g",
+  "reason": "missing_fill: dose — review_4 #48",
+  "source": "Sastry DGV",
+  "confidence": "medium"
+ },
+ {
+  "id": "shigru",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Mula twak kwatha 50–100 ml; Patra swarasa 10–20 ml; Bija churna 1–3 g",
+  "reason": "copy of corrected therapeutics.dose — review_4 #48",
+  "source": "Sastry DGV",
+  "confidence": "medium"
+ },
+ {
+  "id": "shunthi",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "सोंठ",
+  "reason": "missing_fill: hindi — review_4 #49",
+  "source": "Standard",
+  "confidence": "high"
+ },
+ {
+  "id": "shunthi",
+  "path": "dravya_guna.prabhava",
+  "old": "Deepana / Pachana / Vata-Anulomana",
+  "new": "",
+  "reason": "prabhava merely repeats karma; cleared",
+  "source": "P.V. Sharma",
+  "confidence": "high"
+ },
+ {
+  "id": "shunthi",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 1–2 g",
+  "reason": "missing_fill: dose — review_4 #53",
+  "source": "API Shunthi",
+  "confidence": "high"
+ },
+ {
+  "id": "shunthi",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 1–2 g",
+  "reason": "copy of corrected therapeutics.dose — review_4 #53",
+  "source": "API Shunthi",
+  "confidence": "high"
+ },
+ {
+  "id": "talisapatra",
+  "path": "identity.sanskrit_name",
+  "old": "तालिसपत्र",
+  "new": "तालीसपत्र",
+  "reason": "warning: sanskrit — review_4 #54",
+  "source": "BPN Karpuradi varga",
+  "confidence": "high"
+ },
+ {
+  "id": "talisapatra",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "Katu"
+  ],
+  "new": [
+   "Tikta",
+   "Madhura",
+   "Katu"
+  ],
+  "reason": "error: rasa — review_4 #56",
+  "source": "API Talisa https://cb.imsc.res.in/imppat/apiformulationdetails/T%C4%81l%C4%ABsa",
+  "confidence": "high"
+ },
+ {
+  "id": "talisapatra",
+  "path": "dravya_guna.guna",
+  "old": [
+   "Laghu"
+  ],
+  "new": [
+   "Laghu",
+   "Tikshna"
+  ],
+  "reason": "warning: guna — review_4 #57",
+  "source": "API Talisa; BPN 'लघु तीक्ष्णोष्णं'",
+  "confidence": "high"
+ },
+ {
+  "id": "talisapatra",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Kasahara",
+   "Shwasahara"
+  ],
+  "new": [],
+  "reason": "prabhava merely repeats karma; cleared",
+  "source": "P.V. Sharma",
+  "confidence": "high"
+ },
+ {
+  "id": "talisapatra",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Patra churna 2–3 g",
+  "reason": "missing_fill: dose — review_4 #59",
+  "source": "API Talisa (2–3 g)",
+  "confidence": "high"
+ },
+ {
+  "id": "talisapatra",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Patra churna 2–3 g",
+  "reason": "copy of corrected therapeutics.dose — review_4 #59",
+  "source": "API Talisa (2–3 g)",
+  "confidence": "high"
+ },
+ {
+  "id": "trivrut",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "निसोथ",
+  "reason": "missing_fill: hindi — review_4 #60",
+  "source": "Standard",
+  "confidence": "high"
+ },
+ {
+  "id": "trivrut",
+  "path": "classical_reference.shlokas.0",
+  "old": "त्रिवृत् तु कटुका तिक्ता रूक्षा सूक्ष्मा हिमाऽग्निजित् ।\\nसुखं विरेचयत्याशु पित्तश्लेष्मानिलापहा ॥",
+  "new": "श्वेता त्रिवृद्रेचनी स्यात्स्वाद्वी उष्णा समीरजित् ।\nरूक्षा पित्तज्वरश्लेष्मपित्तशोथोदरापहा ॥",
+  "reason": "error: shloka — review_4 #61",
+  "source": "Bhavaprakasha Nighantu Guduchyadi varga",
+  "confidence": "medium"
+ },
+ {
+  "id": "trivrut",
+  "path": "classical_reference.shloka_reference_status",
+  "old": "text/reference pending final edition-level verification",
+  "new": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
+  "reason": "shloka replaced; status updated",
+  "source": "Bhavaprakasha Nighantu Guduchyadi varga",
+  "confidence": "medium"
+ },
+ {
+  "id": "trivrut",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Mula churna 1–3 g (API); for virechana 3–6 g",
+  "reason": "missing_fill: dose — review_4 #63",
+  "source": "API Trivrit; Sastry",
+  "confidence": "medium"
+ },
+ {
+  "id": "trivrut",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Mula churna 1–3 g (API); for virechana 3–6 g",
+  "reason": "copy of corrected therapeutics.dose — review_4 #63",
+  "source": "API Trivrit; Sastry",
+  "confidence": "medium"
+ },
+ {
+  "id": "tulasi",
+  "path": "identity.synonyms",
+  "old": [
+   "Surasa",
+   "Surasā",
+   "Grāmya",
+   "Sulabhā",
+   "Bahumañjarī",
+   "Apetarākṣasī",
+   "Gaurī",
+   "Bhūtāghnī",
+   "Devadundubhi"
+  ],
+  "new": [
+   "Surasā",
+   "Grāmya",
+   "Sulabhā",
+   "Bahumañjarī",
+   "Apetarākṣasī",
+   "Gaurī",
+   "Bhūtāghnī",
+   "Devadundubhi"
+  ],
+  "reason": "warning: duplicate synonym removed (kept diacritic form Surasā, matching list convention) — review_4 #65",
+  "source": "-",
+  "confidence": "high"
+ },
+ {
+  "id": "twak",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "दालचीनी",
+  "reason": "missing_fill: hindi — review_4 #68",
+  "source": "Standard",
+  "confidence": "high"
+ },
+ {
+  "id": "twak",
+  "path": "dravya_guna.prabhava",
+  "old": "Mukhashodhaka / Hridya / Chhardighna",
+  "new": "",
+  "reason": "prabhava merely repeats karma; cleared",
+  "source": "P.V. Sharma",
+  "confidence": "high"
+ },
+ {
+  "id": "twak",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 1–3 g",
+  "reason": "missing_fill: dose — review_4 #73",
+  "source": "API Twak",
+  "confidence": "high"
+ },
+ {
+  "id": "twak",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 1–3 g",
+  "reason": "copy of corrected therapeutics.dose — review_4 #73",
+  "source": "API Twak",
+  "confidence": "high"
+ },
+ {
+  "id": "usheera",
+  "path": "dosha.kapha",
+  "old": "aggravated",
+  "new": "pacified",
+  "reason": "error: dosha.kapha — review_4 #74",
+  "source": "API Ushira https://cb.imsc.res.in/imppat/apiformulationdetails/U%C5%9Bir%C4%81; BPN",
+  "confidence": "high"
+ },
+ {
+  "id": "usheera",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 3–6 g (API); Hima/Phanta 50–100 ml",
+  "reason": "missing_fill: dose — review_4 #78",
+  "source": "API Ushira",
+  "confidence": "high"
+ },
+ {
+  "id": "usheera",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 3–6 g (API); Hima/Phanta 50–100 ml",
+  "reason": "copy of corrected therapeutics.dose — review_4 #78",
+  "source": "API Ushira",
+  "confidence": "high"
+ },
+ {
+  "id": "vacha",
+  "path": "identity.sanskrit_name",
+  "old": "Vacha",
+  "new": "वचा",
+  "reason": "warning: sanskrit — review_4 #79",
+  "source": "-",
+  "confidence": "high"
+ },
+ {
+  "id": "vacha",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "बच",
+  "reason": "missing_fill: hindi — review_4 #80",
+  "source": "Standard",
+  "confidence": "high"
+ },
+ {
+  "id": "vacha",
+  "path": "identity.family",
+  "old": "Acoraceae (Araceae)",
+  "new": "Acoraceae",
+  "reason": "warning: family — review_4 #81",
+  "source": "APG IV / POWO",
+  "confidence": "high"
+ },
+ {
+  "id": "vacha",
+  "path": "classical_reference.shlokas.0",
+  "old": "वचा उग्रा कटुका तिक्ता तीक्ष्णोष्णा वमनकृत् सरः।\nमेध्या वह्निकरः कण्ठ्या उन्मादापस्मारापहः॥",
+  "new": "वचोग्रगन्धा कटुका तिक्तोष्णा वान्तिवह्निकृत् ।\nविबन्धाध्मानशूलघ्नी शकृन्मूत्रविशोधिनी ॥\nअपस्मारकफोन्मादभूतजन्त्वनिलान् हरेत् ॥",
+  "reason": "error: shloka — review_4 #82",
+  "source": "Bhavaprakasha Nighantu Haritakyadi varga",
+  "confidence": "medium"
+ },
+ {
+  "id": "vacha",
+  "path": "classical_reference.shloka_reference_status",
+  "old": "A. Directly verified classical reference",
+  "new": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
+  "reason": "shloka replaced; status updated",
+  "source": "Bhavaprakasha Nighantu Haritakyadi varga",
+  "confidence": "medium"
+ },
+ {
+  "id": "vacha",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 60–120 mg (API; after shodhana only); 1–2 g for vamana",
+  "reason": "missing_fill: dose — review_4 #83",
+  "source": "API Vacha https://cb.imsc.res.in/imppat/apiformulationdetails/Vac%C4%81",
+  "confidence": "high"
+ },
+ {
+  "id": "vacha",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 60–120 mg (API; after shodhana only); 1–2 g for vamana",
+  "reason": "copy of corrected therapeutics.dose — review_4 #83",
+  "source": "API Vacha https://cb.imsc.res.in/imppat/apiformulationdetails/Vac%C4%81",
+  "confidence": "high"
+ },
+ {
+  "id": "varuna",
+  "path": "identity.hindi_name",
+  "old": "वरुण",
+  "new": "बरना",
+  "reason": "warning: hindi — review_4 #86",
+  "source": "Sastry; P.V. Sharma",
+  "confidence": "high"
+ },
+ {
+  "id": "varuna",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Mutrala",
+   "Ashmaribhedana",
+   "Deepana"
+  ],
+  "new": [],
+  "reason": "prabhava merely repeats karma; cleared",
+  "source": "P.V. Sharma",
+  "confidence": "high"
+ },
+ {
+  "id": "varuna",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Twak kwatha 50–100 ml; Churna 3–6 g",
+  "reason": "missing_fill: dose — review_4 #88",
+  "source": "API Varuna; Sastry",
+  "confidence": "medium"
+ },
+ {
+  "id": "varuna",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Twak kwatha 50–100 ml; Churna 3–6 g",
+  "reason": "copy of corrected therapeutics.dose — review_4 #88",
+  "source": "API Varuna; Sastry",
+  "confidence": "medium"
+ },
+ {
+  "id": "vasa",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "अडूसा",
+  "reason": "missing_fill: hindi — review_4 #89",
+  "source": "Standard",
+  "confidence": "high"
+ },
+ {
+  "id": "vasa",
+  "path": "identity.synonyms",
+  "old": [
+   "Vasaka",
+   "Vasika",
+   "Singhasya",
+   "Vajradanti",
+   "Bhishagmata"
+  ],
+  "new": [
+   "Vasaka",
+   "Vasika",
+   "Simhasya",
+   "Vajidanta",
+   "Bhishagmata"
+  ],
+  "reason": "error: wrong-plant synonym Vajradanti (Barleria) replaced by Vajidanta; Singhasya→Simhasya — review_4 #91",
+  "source": "BPN Guduchyadi varga: 'सिंहास्यो वाजिदन्तः स्यात्'",
+  "confidence": "high"
+ },
+ {
+  "id": "vasa",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Patra swarasa 10–20 ml; Mula kwatha 40–80 ml; Pushpa swarasa 10–20 ml",
+  "reason": "missing_fill: dose — review_4 #92",
+  "source": "API Vasa; Sastry",
+  "confidence": "medium"
+ },
+ {
+  "id": "vasa",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Patra swarasa 10–20 ml; Mula kwatha 40–80 ml; Pushpa swarasa 10–20 ml",
+  "reason": "copy of corrected therapeutics.dose — review_4 #92",
+  "source": "API Vasa; Sastry",
+  "confidence": "medium"
+ },
+ {
+  "id": "vasa",
+  "path": "dravya_guna.prabhava",
+  "old": "Kasahara / Shwasahara / Raktapittahara",
+  "new": "",
+  "reason": "prabhava merely repeats karma; cleared",
+  "source": "P.V. Sharma",
+  "confidence": "high"
+ },
+ {
+  "id": "vatsanabha",
+  "path": "identity.sanskrit_name",
+  "old": "Vatsanabha",
+  "new": "वत्सनाभ",
+  "reason": "warning: sanskrit — review_4 #94",
+  "source": "-",
+  "confidence": "high"
+ },
+ {
+  "id": "vatsanabha",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "बछनाग",
+  "reason": "missing_fill: hindi — review_4 #95",
+  "source": "Standard",
+  "confidence": "high"
+ },
+ {
+  "id": "vatsanabha",
+  "path": "dravya_guna.rasa",
+  "old": [
+   "madhura",
+   "katu",
+   "tikta",
+   "kashaya"
+  ],
+  "new": [
+   "madhura"
+  ],
+  "reason": "error: rasa — review_4 #97",
+  "source": "API Vatsanabha https://cb.imsc.res.in/imppat/apiformulationdetails/Vatsan%C4%81bha",
+  "confidence": "high"
+ },
+ {
+  "id": "vatsanabha",
+  "path": "dosha.kapha",
+  "old": "aggravated",
+  "new": "pacified",
+  "reason": "error: dosha.kapha — review_4 #100",
+  "source": "Bhavaprakasha Nighantu Dhatvadi/Vishadi varga",
+  "confidence": "high"
+ },
+ {
+  "id": "vatsanabha",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "15–30 mg (shodhita only; API) — after shodhana only",
+  "reason": "missing_fill: dose — review_4 #101",
+  "source": "API Vatsanabha (IMPPAT)",
+  "confidence": "high"
+ },
+ {
+  "id": "vatsanabha",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "15–30 mg (shodhita only; API) — after shodhana only",
+  "reason": "copy of corrected therapeutics.dose — review_4 #101",
+  "source": "API Vatsanabha (IMPPAT)",
+  "confidence": "high"
+ },
+ {
+  "id": "vibhitaki",
+  "path": "identity.hindi_name",
+  "old": "",
+  "new": "बहेड़ा",
+  "reason": "missing_fill: hindi — review_4 #104",
+  "source": "Standard",
+  "confidence": "high"
+ },
+ {
+  "id": "vibhitaki",
+  "path": "classical_reference.shlokas.0",
+  "old": "बिभीतकस्त्रिलिङ्गः स्यान्नाक्षः कर्षफलस्तु सः ।\nकलिद्रुमो भूतवासस्तथा कलियुगालयः ॥\nबिभीतकं स्वादुपाकं कषायं कफपित्तनुत् ।\nउष्णवीर्यं हिमस्पर्शं भेदनं कासनाशनम् ॥",
+  "new": "बिभीतकस्त्रिलिङ्गः स्यादक्षः कर्षफलस्तु सः ।\nकलिद्रुमो भूतवासस्तथा कलियुगालयः ॥\nबिभीतकं स्वादुपाकं कषायं कफपित्तनुत् ।\nउष्णवीर्यं हिमस्पर्शं भेदनं कासनाशनम् ।\nरूक्षं नेत्रहितं केश्यं कृमिवैस्वर्यनाशनम् ॥",
+  "reason": "warning: shloka — review_4 #106",
+  "source": "Bhavaprakasha Nighantu Haritakyadi varga",
+  "confidence": "high"
+ },
+ {
+  "id": "vibhitaki",
+  "path": "classical_reference.shloka_reference_status",
+  "old": "classical_text_corrected; edition/numbering explicitly qualified",
+  "new": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
+  "reason": "shloka replaced; status updated",
+  "source": "Bhavaprakasha Nighantu Haritakyadi varga",
+  "confidence": "high"
+ },
+ {
+  "id": "vibhitaki",
+  "path": "dravya_guna.karma",
+  "old": [],
+  "new": [
+   "Kasahara",
+   "Krimighna",
+   "Chakshushya",
+   "Bhedana",
+   "Keshya"
+  ],
+  "reason": "prabhava terms are karma; ensured present in karma",
+  "source": "BPN",
+  "confidence": "high"
+ },
+ {
+  "id": "vibhitaki",
+  "path": "dravya_guna.prabhava",
+  "old": [
+   "Kasahara",
+   "Krimighna",
+   "Chakshushya"
+  ],
+  "new": [],
+  "reason": "prabhava merely repeats karma; cleared",
+  "source": "BPN",
+  "confidence": "high"
+ },
+ {
+  "id": "vibhitaki",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Phala churna 3–6 g",
+  "reason": "missing_fill: dose — review_4 #108",
+  "source": "API Bibhitaka",
+  "confidence": "high"
+ },
+ {
+  "id": "vibhitaki",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Phala churna 3–6 g",
+  "reason": "copy of corrected therapeutics.dose — review_4 #108",
+  "source": "API Bibhitaka",
+  "confidence": "high"
+ },
+ {
+  "id": "vidanga",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 5–10 g (API)",
+  "reason": "missing_fill: dose — review_4 #111",
+  "source": "API Vidanga",
+  "confidence": "medium"
+ },
+ {
+  "id": "vidanga",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 5–10 g (API)",
+  "reason": "copy of corrected therapeutics.dose — review_4 #111",
+  "source": "API Vidanga",
+  "confidence": "medium"
+ },
+ {
+  "id": "yashtimadhu",
+  "path": "dravya_guna.prabhava",
+  "old": "Varnya / Keshya / Swarya / Vrishya",
+  "new": "",
+  "reason": "prabhava merely repeats karma; cleared",
+  "source": "P.V. Sharma",
+  "confidence": "high"
+ },
+ {
+  "id": "yashtimadhu",
+  "path": "therapeutics.dose",
+  "old": "",
+  "new": "Churna 2–4 g",
+  "reason": "missing_fill: dose — review_4 #113",
+  "source": "API Yashtimadhu",
+  "confidence": "high"
+ },
+ {
+  "id": "yashtimadhu",
+  "path": "doctor.dose",
+  "old": "",
+  "new": "Churna 2–4 g",
+  "reason": "copy of corrected therapeutics.dose — review_4 #113",
+  "source": "API Yashtimadhu",
+  "confidence": "high"
+ }
+]

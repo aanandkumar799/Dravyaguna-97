@@ -11,7 +11,6 @@
     "hindi_name": "नागरमोथा",
     "regional_names": [],
     "synonyms": [
-      "Musta",
       "Abda",
       "Jalada",
       "Ghan"
@@ -55,20 +54,25 @@
   "dravya_guna": {
     "rasa": [
       "Tikta",
-      "Katu"
+      "Katu",
+      "Kashaya"
     ],
     "guna": [
       "Laghu",
       "Ruksha"
     ],
-    "virya": "Ushna",
+    "virya": "Sheeta",
     "vipaka": "Katu",
-    "prabhava": [
+    "prabhava": [],
+    "karma": [
       "Deepana",
       "Pachana",
-      "Grahi"
-    ],
-    "karma": []
+      "Grahi",
+      "Trishnanigrahana",
+      "Krimighna",
+      "Jwaraghna",
+      "Sthaulyahara"
+    ]
   },
   "dosha": {
     "vata": "aggravated",
@@ -91,13 +95,32 @@
       "Pachana",
       "Grahi"
     ],
-    "dose": "",
+    "dose": "Churna 3–6 g; Kwatha 20–30 ml",
     "anupana": "",
     "duration": "",
     "precautions": "Correct botanical authentication is important because Cyperaceae species may be confused in crude material.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Mustakarishta",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Mustakadi Kwatha",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Ashokarishta",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -166,7 +189,7 @@
       "Jwara"
     ],
     "useful_part": "rhizome",
-    "dose": "",
+    "dose": "Churna 3–6 g; Kwatha 20–30 ml",
     "anupana": "",
     "key_precautions": [
       "Authenticate the rhizome",

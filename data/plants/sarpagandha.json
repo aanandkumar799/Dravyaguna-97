@@ -3,12 +3,12 @@
   "order": 77,
   "identity": {
     "name": "Sarpagandha",
-    "sanskrit_name": "Sarpagandha",
+    "sanskrit_name": "सर्पगन्धा",
     "transliteration": "",
     "botanical_name": "Rauvolfia serpentina (L.) Benth. ex Kurz",
     "family": "Apocynaceae",
     "english_name": "Serpentina Root / Snakeroot",
-    "hindi_name": "",
+    "hindi_name": "सर्पगन्धा / छोटा चाँद",
     "regional_names": [
       "Chandrika",
       "Nandini",
@@ -56,10 +56,12 @@
   },
   "dravya_guna": {
     "rasa": [
-      "tikta"
+      "tikta",
+      "katu"
     ],
     "guna": [
-      "ruksha"
+      "ruksha",
+      "laghu"
     ],
     "virya": "ushna",
     "vipaka": "katu",
@@ -71,14 +73,17 @@
       "Hrid-shamak",
       "Vishaghna",
       "Vedanasthapana",
-      "Kamoddepaka"
+      "Kamavasadaka",
+      "Hridayavasadaka",
+      "Mutrala",
+      "Deepana"
     ]
   },
   "dosha": {
     "vata": "pacified",
     "pitta": "aggravated",
     "kapha": "pacified",
-    "summary": "Kapha-Vatashamaka (Reduces Vata & Pitta in Manovaha Srotas)"
+    "summary": "Kapha-Vatashamaka"
   },
   "therapeutics": {
     "useful_part": [
@@ -100,7 +105,7 @@
       "Vedanasthapana",
       "Kamoddepaka"
     ],
-    "dose": "",
+    "dose": "Mula churna 1–2 g (API)",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -189,7 +194,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "root",
-    "dose": "",
+    "dose": "Mula churna 1–2 g (API)",
     "anupana": "",
     "key_precautions": []
   },

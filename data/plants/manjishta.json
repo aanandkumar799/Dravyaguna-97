@@ -53,19 +53,26 @@
   },
   "dravya_guna": {
     "rasa": [
+      "Madhura",
       "Tikta",
       "Kashaya"
     ],
     "guna": [
-      "Laghu"
+      "Guru",
+      "Ruksha"
     ],
-    "virya": "Sheeta",
-    "vipaka": "Madhura",
-    "prabhava": [
-      "Raktashodhana",
-      "Kushtaghna"
-    ],
-    "karma": []
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": [],
+    "karma": [
+      "Varnya",
+      "Raktashodhaka",
+      "Kushthaghna",
+      "Shothahara",
+      "Vishaghna",
+      "Stambhana",
+      "Artavajanana"
+    ]
   },
   "dosha": {
     "vata": "aggravated",
@@ -86,13 +93,38 @@
     "therapeutic_actions": [
       "Traditional Raktashodhana context"
     ],
-    "dose": "",
+    "dose": "Churna 2–4 g; Kwatha 50–100 ml",
     "anupana": "",
     "duration": "",
     "precautions": "Avoid converting the traditional 'Raktashodhana' term into an unsupported modern biomedical claim.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Manjishthadi Kwatha (Brihat)",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Manjishthadi Taila",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Chandanasava",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Ushirasava",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -138,7 +170,7 @@
     "mnemonics": [
       "Manjishta = red root"
     ],
-    "quick_revision": "Manjishta—Rubia cordifolia; Rubiaceae; root; Tikta-Kashaya, Laghu, Sheeta."
+    "quick_revision": "Manjishta—Rubia cordifolia; Rubiaceae; root; Madhura-Tikta-Kashaya, Guru-Ruksha, Ushna virya, Katu vipaka."
   },
   "teacher": {
     "teaching_points": [
@@ -160,7 +192,7 @@
       "Vrana"
     ],
     "useful_part": "root",
-    "dose": "",
+    "dose": "Churna 2–4 g; Kwatha 50–100 ml",
     "anupana": "",
     "key_precautions": [
       "Use authenticated root material."

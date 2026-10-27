@@ -8,7 +8,7 @@
     "botanical_name": "Asparagus racemosus Willd.",
     "family": "Asparagaceae",
     "english_name": "Wild Asparagus",
-    "hindi_name": "",
+    "hindi_name": "शतावर",
     "regional_names": [
       "Shatamuli",
       "Atirasa",
@@ -53,7 +53,8 @@
   },
   "dravya_guna": {
     "rasa": [
-      "Madhura"
+      "Madhura",
+      "Tikta"
     ],
     "guna": [
       "Guru",
@@ -61,14 +62,9 @@
     ],
     "virya": "Sheeta",
     "vipaka": "Madhura",
-    "prabhava": [
-      "Stanyashodhana",
-      "Shukrala",
-      "rasayan",
-      "Varnya"
-    ],
+    "prabhava": [],
     "karma": [
-      "Stanyashodhana",
+      "Stanyajanana",
       "Shukrala",
       "rasayan",
       "Varnya"
@@ -90,7 +86,7 @@
       "Shukrakshaya"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Mula churna 3–6 g; Swarasa 10–20 ml",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -137,7 +133,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "root",
-    "dose": "",
+    "dose": "Mula churna 3–6 g; Swarasa 10–20 ml",
     "anupana": "",
     "key_precautions": []
   },

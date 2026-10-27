@@ -8,7 +8,7 @@
     "botanical_name": "Solanum xanthocarpum Schrad. & Wendl.",
     "family": "Solanaceae",
     "english_name": "Yellow-berried Nightshade",
-    "hindi_name": "कंटकारी",
+    "hindi_name": "छोटी कटेरी / भटकटैया",
     "regional_names": [
       "Duhsparsha",
       "Kshudra",
@@ -66,10 +66,7 @@
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
-      "Shwasahara",
-      "Kasahara"
-    ],
+    "prabhava": [],
     "karma": [
       "Shwasahara",
       "Kasahara"
@@ -92,13 +89,32 @@
       "Parshwashoola"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Whole plant 20–30 g for decoction (API)",
     "anupana": "",
     "duration": "",
     "precautions": "",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Kantakaryavaleha",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Vyaghri Haritaki",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Dashamularishta",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -166,7 +182,7 @@
       "Parshwashoola"
     ],
     "useful_part": "whole plant/fruit",
-    "dose": "",
+    "dose": "Whole plant 20–30 g for decoction (API)",
     "anupana": "",
     "key_precautions": [
       "Confirm species before use.",

@@ -8,7 +8,7 @@
     "botanical_name": "Elettaria cardamomum (L.) Maton",
     "family": "Zingiberaceae",
     "english_name": "Small Cardamom",
-    "hindi_name": "",
+    "hindi_name": "छोटी इलायची",
     "regional_names": [
       "Sukshma Ela",
       "Upakunchika",
@@ -24,7 +24,7 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
+    "habit": "Perennial rhizomatous herb 2–4 m with leafy pseudostems; panicles arise from base",
     "habitat": "",
     "distribution": ""
   },
@@ -60,7 +60,7 @@
     ],
     "virya": "sheeta",
     "vipaka": "madhura",
-    "prabhava": "Mutrala / Chhardighna / Anulomana",
+    "prabhava": "",
     "karma": [
       "Deepana",
       "Pachana",
@@ -68,12 +68,13 @@
       "Mutrala",
       "Hridya",
       "Swarya",
-      "Mukhashodhaka"
+      "Mukhashodhaka",
+      "Anulomana"
     ]
   },
   "dosha": {
     "vata": "pacified",
-    "pitta": "aggravated",
+    "pitta": "pacified",
     "kapha": "pacified"
   },
   "therapeutics": {
@@ -90,7 +91,7 @@
       "Shwasa"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Seed churna 250–500 mg (API)",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -167,7 +168,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "fruit/seed",
-    "dose": "",
+    "dose": "Seed churna 250–500 mg (API)",
     "anupana": "",
     "key_precautions": []
   },

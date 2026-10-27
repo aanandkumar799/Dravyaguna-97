@@ -56,19 +56,19 @@
   },
   "dravya_guna": {
     "rasa": [
-      "Tikta",
-      "Kashaya"
+      "Katu"
     ],
     "guna": [
-      "Laghu"
+      "Laghu",
+      "Ruksha",
+      "Tikshna"
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
-      "Krimighna",
-      "Kushtaghna"
-    ],
+    "prabhava": [],
     "karma": [
+      "Virechana",
+      "Vranapaha",
       "Krimighna",
       "Kushtaghna"
     ]
@@ -90,13 +90,26 @@
       "Udararoga"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Churna 0.5–1 g (after shodhana)",
     "anupana": "",
     "duration": "",
     "precautions": "",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Dhanvantara Ghrita",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Mishraka Sneha",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -164,7 +177,7 @@
       "Udararoga"
     ],
     "useful_part": "glandular powder of fruit",
-    "dose": "",
+    "dose": "Churna 0.5–1 g (after shodhana)",
     "anupana": "",
     "key_precautions": [
       "Use authenticated material.",

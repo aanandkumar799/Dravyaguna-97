@@ -65,25 +65,20 @@
       "Tikta"
     ],
     "guna": [
-      "Laghu",
-      "Ruksha",
-      "Guru"
+      "Guru",
+      "Ruksha"
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
-      "Kasahara",
-      "Shwasahara",
-      "Hikkanigrahana",
-      "Grahi"
-    ],
+    "prabhava": [],
     "karma": [
       "Shwasahara",
       "Kasahara",
       "Hikkanigrahana",
       "Rochana",
       "Chardighna",
-      "Atisarajit"
+      "Atisarajit",
+      "Grahi"
     ]
   },
   "dosha": {
@@ -141,21 +136,24 @@
       }
     ]
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Balachaturbhadrika Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Shringyadi Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [
-      {
-        "section": "Synonyms",
-        "text": "The cited Bhavaprakasha passage groups names including Shringi, Karkatashringi, Vishanika, Ajashringi, Karkata and related descriptive synonyms.",
-        "reference": "Bhavaprakasha Nighantu, Haritakyadi Varga, 178–179",
-        "verification": "Paraphrased from user-provided textbook pages 379–381; not reproduced verbatim."
-      },
-      {
-        "section": "Properties and actions",
-        "text": "The cited verse describes Karkatashringi as Kashaya-Tikta and useful in cough, dyspnoea and related disorders; the source also cites additional actions.",
-        "reference": "Bhavaprakasha Nighantu, Haritakyadi Varga, 179",
-        "verification": "Paraphrased from user-provided textbook page 380."
-      }
+      "शृङ्गी कर्कटशृङ्गी च स्यात् कुलीरविषाणिका।\nअजशृङ्गी च वक्रा च कर्कटाख्या च कीर्तिता॥",
+      "कर्कटी तु गुरुस्तिक्ता कषायोष्णा कफानिलौ।\nश्वासकासातिसारांश्च हिक्कातृष्णारुचीर्जयेत्॥"
     ],
     "nighantu_references": [
       "Bhavaprakasha Nighantu, Haritakyadi Varga, 178–179",
@@ -167,7 +165,7 @@
       "Ashtanga Sangraha: cited Vajikarana use",
       "Priya Nighantu: cited Kasa/Hikka/Shwasa-related reference"
     ],
-    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "shloka_reference_status": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ]
@@ -202,7 +200,7 @@
       "Family: Anacardiaceae",
       "Useful part: Keeta Kosha (gall)",
       "Rasa: Kashaya, Tikta",
-      "Guna: Laghu, Ruksha, Guru",
+      "Guna: Guru, Ruksha",
       "Virya: Ushna",
       "Vipaka: Katu",
       "Key actions: Kasahara, Shwasahara, Hikkanigrahana"

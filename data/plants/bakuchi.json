@@ -65,12 +65,15 @@
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
-      "Kushtaghna",
-      "Varnya"
-    ],
+    "prabhava": [],
     "karma": [
-      "Traditional use in skin disorders"
+      "Kushthaghna",
+      "Krimighna",
+      "Grahi",
+      "Vranapaha",
+      "Hridya",
+      "Rasayana",
+      "Varnya"
     ]
   },
   "dosha": {
@@ -93,13 +96,32 @@
       "Traditional use in selected skin disorders, including Shvitra/Kushta",
       "Traditional external use in selected preparations"
     ],
-    "dose": "No general oral dose supplied; use a verified formulation-specific reference.",
+    "dose": "Churna 3–6 g (API); textbooks 1–3 g",
     "anupana": "Not populated",
     "duration": "Not populated",
     "precautions": "Bakuchi can cause photosensitivity, especially with topical exposure to sunlight; oral preparations have also been associated with liver injury in modern safety reports. Use only under qualified supervision.",
     "contraindications": "Avoid unsupervised use in pregnancy/breastfeeding, liver disease, or with photosensitising medicines; individual contraindications require clinical assessment."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Somaraji Taila",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Avalgujadi Lepa",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Bakuchi Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -197,7 +219,7 @@
       "Khalitya"
     ],
     "useful_part": "seed",
-    "dose": "Not supplied in this educational dossier.",
+    "dose": "Churna 3–6 g (API); textbooks 1–3 g",
     "anupana": "Not supplied",
     "key_precautions": [
       "Photosensitivity can occur; counsel regarding sunlight exposure when relevant.",

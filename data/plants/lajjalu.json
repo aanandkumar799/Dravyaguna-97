@@ -58,17 +58,16 @@
   },
   "dravya_guna": {
     "rasa": [
-      "Tikta"
+      "Tikta",
+      "Kashaya"
     ],
     "guna": [
-      "Laghu"
+      "Laghu",
+      "Ruksha"
     ],
     "virya": "Sheeta",
     "vipaka": "Katu",
-    "prabhava": [
-      "Stambhana",
-      "Vranaropana"
-    ],
+    "prabhava": [],
     "karma": [
       "Stambhana",
       "Vranaropana"
@@ -77,7 +76,7 @@
   "dosha": {
     "vata": "aggravated",
     "pitta": "pacified",
-    "kapha": "aggravated"
+    "kapha": "pacified"
   },
   "therapeutics": {
     "useful_part": [
@@ -94,13 +93,38 @@
       "Stambhana",
       "Vranaropana context"
     ],
-    "dose": "",
+    "dose": "Kwatha: 10–20 g drug for decoction",
     "anupana": "",
     "duration": "",
     "precautions": "Traditional indications should not be treated as proof of clinical efficacy.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Samangadi Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Kutajavaleha",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Pushyanuga Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Brihat Gangadhara Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -171,7 +195,7 @@
       "Raktapitta"
     ],
     "useful_part": "whole plant/root",
-    "dose": "",
+    "dose": "Kwatha: 10–20 g drug for decoction",
     "anupana": "",
     "key_precautions": [
       "Confirm botanical identity before medicinal use."

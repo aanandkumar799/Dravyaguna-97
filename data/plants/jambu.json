@@ -65,10 +65,7 @@
     ],
     "virya": "Sheeta",
     "vipaka": "Katu",
-    "prabhava": [
-      "Grahi",
-      "Pramehaghna"
-    ],
+    "prabhava": [],
     "karma": [
       "Grahi",
       "Pramehaghna"
@@ -91,13 +88,26 @@
       "Chhardi"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Seed churna 3–6 g; stem bark 10–20 g for decoction (API)",
     "anupana": "",
     "duration": "",
     "precautions": "",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Pushyanuga Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I (seed)"
+    },
+    {
+      "name": "Usirasava",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I (stem bark)"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -169,7 +179,7 @@
       "Chhardi"
     ],
     "useful_part": "fruit/seed",
-    "dose": "",
+    "dose": "Seed churna 3–6 g; stem bark 10–20 g for decoction (API)",
     "anupana": "",
     "key_precautions": [
       "Verify the plant part and preparation.",

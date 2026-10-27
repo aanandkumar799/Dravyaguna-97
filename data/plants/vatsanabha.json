@@ -3,12 +3,12 @@
   "order": 94,
   "identity": {
     "name": "Vatsanabha",
-    "sanskrit_name": "Vatsanabha",
+    "sanskrit_name": "वत्सनाभ",
     "transliteration": "",
     "botanical_name": "Aconitum ferox Wall. ex Ser.",
     "family": "Ranunculaceae",
     "english_name": "Monkshood / Indian Aconite",
-    "hindi_name": "",
+    "hindi_name": "बछनाग",
     "regional_names": [
       "Amrita",
       "Visha",
@@ -56,10 +56,7 @@
   },
   "dravya_guna": {
     "rasa": [
-      "madhura",
-      "katu",
-      "tikta",
-      "kashaya"
+      "madhura"
     ],
     "guna": [
       "laghu",
@@ -85,7 +82,7 @@
   "dosha": {
     "vata": "pacified",
     "pitta": "aggravated",
-    "kapha": "aggravated",
+    "kapha": "pacified",
     "summary": "Tridoshara (Specially Kapha-Vatashamaka)"
   },
   "therapeutics": {
@@ -110,7 +107,7 @@
       "Rasayana",
       "Vyavayi"
     ],
-    "dose": "",
+    "dose": "15–30 mg (shodhita only; API) — after shodhana only",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -196,7 +193,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "root/tuber",
-    "dose": "",
+    "dose": "15–30 mg (shodhita only; API) — after shodhana only",
     "anupana": "",
     "key_precautions": []
   },

@@ -62,15 +62,12 @@
       "Tikta"
     ],
     "guna": [
-      "Snigdha"
+      "Laghu",
+      "Ruksha"
     ],
     "virya": "Sheeta",
-    "vipaka": "Madhura",
-    "prabhava": [
-      "Mutrala",
-      "Chakshushya",
-      "Varnya"
-    ],
+    "vipaka": "Katu",
+    "prabhava": [],
     "karma": [
       "Mutrala",
       "Chakshushya",
@@ -80,7 +77,7 @@
   "dosha": {
     "vata": "aggravated",
     "pitta": "pacified",
-    "kapha": "not specifically documented in imported dataset"
+    "kapha": "pacified"
   },
   "therapeutics": {
     "useful_part": [
@@ -96,7 +93,7 @@
     "therapeutic_actions": [
       "Traditional Ayurvedic use is centered on cooling and aromatic heartwood preparations; exact therapeutic application should follow authoritative texts/formularies"
     ],
-    "dose": "",
+    "dose": "Churna 3–6 g",
     "anupana": "",
     "duration": "",
     "precautions": "Use authenticated Santalum album material. Do not infer dosing or treatment of urinary/skin disease from this educational record.",
@@ -182,7 +179,7 @@
       "Kushta"
     ],
     "useful_part": "heartwood",
-    "dose": "",
+    "dose": "Churna 3–6 g",
     "anupana": "",
     "key_precautions": [
       "Authenticate Santalum album material.",

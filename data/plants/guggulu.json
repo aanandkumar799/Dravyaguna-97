@@ -8,7 +8,7 @@
     "botanical_name": "Commiphora wightii (Arn.) Bhandari",
     "family": "Burseraceae",
     "english_name": "Indian Bdellium / Guggul",
-    "hindi_name": "",
+    "hindi_name": "गुग्गुल",
     "regional_names": [
       "Devadhupa",
       "Kaushika",
@@ -98,7 +98,7 @@
       "Kushta"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Shodhita guggulu 2–4 g",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -123,7 +123,7 @@
   ],
   "classical_reference": {
     "shlokas": [
-      "गुग्गुलुर्विशदस्तिक्तो वीर्योष्णः पित्तलः सरः ।\\nकषायः कटुकः पाके कटू रूक्षो लघुः परः ॥३५॥"
+      "गुग्गुलुर्विशदस्तिक्तो वीर्योष्णः पित्तलः सरः ।\nकषायः कटुकः पाके कटू रूक्षो लघुः परः ॥३५॥"
     ],
     "nighantu_references": [
       "Bhavaprakasha Nighantu, Karpuradi Varga. The searchable recension places Guggulu after the five varieties (verses 29–30) and its properties in the following verses; exact verse numbering is edition-dependent. The unverified 33–35 citation is removed."
@@ -160,7 +160,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "oleo-gum-resin",
-    "dose": "",
+    "dose": "Shodhita guggulu 2–4 g",
     "anupana": "",
     "key_precautions": []
   },

@@ -8,7 +8,7 @@
     "botanical_name": "Myristica fragrans Houtt.",
     "family": "Myristicaceae",
     "english_name": "Nutmeg",
-    "hindi_name": "",
+    "hindi_name": "जायफल",
     "regional_names": [
       "Jatikosha",
       "Malatiphala",
@@ -24,7 +24,7 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
+    "habit": "Evergreen aromatic tree",
     "habitat": "",
     "distribution": ""
   },
@@ -60,7 +60,7 @@
     ],
     "virya": "ushna",
     "vipaka": "katu",
-    "prabhava": "Grahi / Deepana / Rochana",
+    "prabhava": "",
     "karma": [
       "Deepana",
       "Grahi",
@@ -91,13 +91,20 @@
       "Kaphavata disorders"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Churna 0.5–1 g",
     "anupana": "",
     "duration": "",
     "precautions": "",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Jatiphaladi Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
   "classical_reference": {
     "shlokas": [
       "जातीफलं जातिकोशं मालतीफलमित्यपि ।\nजातीफलं रसे तिक्तं तीक्ष्णोष्णं रोचनं लघु ।\nकटुकं दीपनं ग्राहि स्वर्यं श्लेष्मानिलापहम् ॥\nनिहन्ति मुखवैरस्यं मलदौर्गन्ध्यकृष्णताः ।\nकृमिकासवमिश्वासशोषपीनसहृद्रुजः ॥"
@@ -137,7 +144,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "seed",
-    "dose": "",
+    "dose": "Churna 0.5–1 g",
     "anupana": "",
     "key_precautions": []
   },

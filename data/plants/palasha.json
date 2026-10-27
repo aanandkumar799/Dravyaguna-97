@@ -19,7 +19,7 @@
       "Kimshuka",
       "Raktapushpaka",
       "Brahmavriksha",
-      "Trivrita"
+      "Triparna"
     ]
   },
   "classification": {
@@ -59,20 +59,17 @@
   },
   "dravya_guna": {
     "rasa": [
-      "Tikta",
-      "Katu"
+      "Kashaya",
+      "Katu",
+      "Tikta"
     ],
     "guna": [
       "Laghu",
-      "Ruksha"
+      "Snigdha"
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
-      "Krimighna",
-      "Raktashodhak",
-      "Shothahara"
-    ],
+    "prabhava": [],
     "karma": [
       "Krimighna",
       "Raktashodhak",
@@ -98,13 +95,38 @@
     "therapeutic_actions": [
       "Krimighna"
     ],
-    "dose": "",
+    "dose": "Seed churna 0.5–1 g (up to 3 g); flower churna 3–6 g; bark 5–10 g for decoction",
     "anupana": "",
     "duration": "",
     "precautions": "Different plant parts have different traditional uses; do not infer dosing from this educational record.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Palasha Kshara",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Palashabija Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Krimimudgara Rasa",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Ayaskriti",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -174,7 +196,7 @@
       "Prameha"
     ],
     "useful_part": "seed/flower/bark",
-    "dose": "",
+    "dose": "Seed churna 0.5–1 g (up to 3 g); flower churna 3–6 g; bark 5–10 g for decoction",
     "anupana": "",
     "key_precautions": [
       "Confirm plant part and identity",

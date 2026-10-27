@@ -8,7 +8,7 @@
     "botanical_name": "Curcuma longa L.",
     "family": "Zingiberaceae",
     "english_name": "Turmeric",
-    "hindi_name": "",
+    "hindi_name": "हल्दी",
     "regional_names": [
       "Kanchani",
       "Nisha",
@@ -74,7 +74,7 @@
   },
   "dosha": {
     "vata": "may increase when excessive",
-    "pitta": "may increase when excessive",
+    "pitta": "pacifies",
     "kapha": "generally pacifies"
   },
   "therapeutics": {
@@ -98,7 +98,7 @@
       "Vranaropana",
       "Raktashodhaka"
     ],
-    "dose": "",
+    "dose": "Churna 1–3 g",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -173,7 +173,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "rhizome",
-    "dose": "",
+    "dose": "Churna 1–3 g",
     "anupana": "",
     "key_precautions": []
   },

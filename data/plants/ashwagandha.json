@@ -8,7 +8,7 @@
     "botanical_name": "Withania somnifera (L.) Dunal",
     "family": "Solanaceae",
     "english_name": "Winter Cherry",
-    "hindi_name": "",
+    "hindi_name": "असगंध",
     "regional_names": [
       "Turagi",
       "Vajigandha",
@@ -16,12 +16,13 @@
       "Kushtagandhini"
     ],
     "synonyms": [
-      "अश्वगन्धा",
       "अश्वकन्दा",
-      "वाराहकर्णी",
+      "वराहकर्णी",
       "वाजीगन्धा",
       "बलदा",
-      "वरा"
+      "वरा",
+      "हयगन्धा",
+      "कुष्ठगन्धिनी"
     ],
     "common_names": [
       "Indian Ginseng",
@@ -75,16 +76,13 @@
     ],
     "virya": "Ushna",
     "vipaka": "Madhura",
-    "prabhava": [
-      "Balya",
-      "Medhya",
-      "Vrishya",
-      "rasayan"
-    ],
+    "prabhava": [],
     "karma": [
       "Rasayana",
       "Balya",
-      "Vajikarana"
+      "Vajikarana",
+      "Medhya",
+      "Vrishya"
     ]
   },
   "dosha": {
@@ -103,13 +101,32 @@
       "Klaibya"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Mula churna 3–6 g",
     "anupana": "",
     "duration": "",
     "precautions": "",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Ashwagandharishta",
+      "dosage_form": "arishta",
+      "indication": "",
+      "reference": "AFI"
+    },
+    {
+      "name": "Ashwagandhadi Lehya",
+      "dosage_form": "avaleha",
+      "indication": "",
+      "reference": "AFI"
+    },
+    {
+      "name": "Ashwagandha Churna",
+      "dosage_form": "churna",
+      "indication": "",
+      "reference": "AFI"
+    }
+  ],
   "classical_reference": {
     "shlokas": [
       "गन्धान्ता वाजिनामादिरश्वगन्धा हयाह्वया ।\nवराहकर्णी वरदा बलदा कुष्ठगन्धिनी ॥\nअश्वगन्धाऽनिलश्लेष्मश्वित्रशोथक्षयापहा ।\nबल्या रसायनी तिक्ता कषायोष्णाऽतिशुक्रला ॥"
@@ -150,7 +167,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "root",
-    "dose": "",
+    "dose": "Mula churna 3–6 g",
     "anupana": "",
     "key_precautions": []
   },

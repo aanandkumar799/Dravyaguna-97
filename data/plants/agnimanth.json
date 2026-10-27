@@ -84,10 +84,7 @@
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
-      "Shoolaghna",
-      "Virechana"
-    ],
+    "prabhava": [],
     "karma": [
       "Shothaghna",
       "Agnivardhaka",
@@ -178,7 +175,9 @@
     }
   ],
   "classical_reference": {
-    "shlokas": [],
+    "shlokas": [
+      "अग्निमन्थः श्वयथुनुद्वीर्योष्णः कफवातहा।\nपाण्डुनुत् कटुकस्तिक्तस्तुवरो मधुरोऽग्निदः॥"
+    ],
     "nighantu_references": [
       "Dhanvantari Nighantu: Agnimantha (Tarkari), Nadeyi, Kshudragnimantha",
       "Kaiyyadeva Nighantu: Agnimantha, Tarkari",
@@ -190,7 +189,7 @@
       "Su. Chi. 22/51 — passage concerning Agnimantha and Karanja in Shitapitta/Urticaria, as shown on the supplied page",
       "Cha. Chi. 21/125 — passage concerning Granthi Visarpa, as shown on the supplied page"
     ],
-    "shloka_reference_status": "Reference numbers and Sanskrit passages were transcribed only where legible from the supplied textbook images; exact verse wording/edition should be checked against the cited text.",
+    "shloka_reference_status": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ]

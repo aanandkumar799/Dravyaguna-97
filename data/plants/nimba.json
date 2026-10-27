@@ -8,7 +8,7 @@
     "botanical_name": "Azadirachta indica A. Juss.",
     "family": "Meliaceae",
     "english_name": "Neem / Margosa Tree",
-    "hindi_name": "",
+    "hindi_name": "नीम",
     "regional_names": [],
     "synonyms": [
       "Picumarda",
@@ -20,7 +20,7 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
+    "habit": "Evergreen tree",
     "habitat": "",
     "distribution": ""
   },
@@ -58,7 +58,7 @@
     ],
     "virya": "sheeta",
     "vipaka": "katu",
-    "prabhava": "Kushtaghna / Kandughna / Krimighna",
+    "prabhava": "",
     "karma": [
       "Kushtaghna",
       "Krimighna",
@@ -90,7 +90,7 @@
       "Prameha"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Leaf churna 1–3 g; stem-bark churna 2–4 g",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -115,7 +115,7 @@
   ],
   "classical_reference": {
     "shlokas": [
-      "निम्बः शीतो लघुग्राही कटुपाकोऽग्निवातनुत् ।\nस्रध्रः श्रमद्वाक्स्वरार्चिचक्रिमिप्रघ्नुत् ।\nव्रणपित्तकफच्छर्दिकुष्ठलासमेहनुत् ॥७४॥",
+      "निम्बः शीतो लघुर्ग्राही कटुपाकोऽग्निवातकृत्।\nअहृद्यः श्रमतृट्कासज्वरारुचिकृमिप्रणुत्॥\nव्रणपित्तकफच्छर्दिकुष्ठहृल्लासमेहनुत्॥",
       "निम्बपर्णं स्मृतं नेत्र्यं कृमिपित्तविषप्रघुत् ।\nवातलं कटुपाकं च सवरीचकुष्ठनुत् ॥७५॥",
       "निम्बफलं रसे तिक्तं पाके तु कटुभेदनम् ।\nस्निग्धं लघुष्णं कुष्ठघ्नं गुल्मार्शःकृमिमेहनुत् ॥७६॥"
     ],
@@ -123,7 +123,7 @@
       "Bhavaprakasha Nighantu, Nimba passage, verses 74–76 in the searchable Parul University PDF recension; edition numbering may vary."
     ],
     "samhita_references": [],
-    "shloka_reference_status": "verified_text_location_edition_numbering_may_vary",
+    "shloka_reference_status": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ],
@@ -163,7 +163,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "bark/leaf",
-    "dose": "",
+    "dose": "Leaf churna 1–3 g; stem-bark churna 2–4 g",
     "anupana": "",
     "key_precautions": []
   },

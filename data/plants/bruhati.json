@@ -11,10 +11,12 @@
     "hindi_name": "बड़ी कटेरी",
     "regional_names": [],
     "synonyms": [
-      "Kshudra",
+      "Mahati",
       "Simhi",
-      "Bahuputri",
-      "Vartaki"
+      "Vartaki",
+      "Kshudrabhantaki",
+      "Rashtrika",
+      "Kuli"
     ]
   },
   "classification": {
@@ -63,12 +65,17 @@
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
+    "prabhava": [],
+    "karma": [
+      "Deepana",
+      "Pachana",
+      "Grahi",
+      "Hridya",
+      "Vatahara",
+      "Kaphahara",
       "Kasahara",
-      "Shothahara",
-      "Deepana"
-    ],
-    "karma": []
+      "Shothahara"
+    ]
   },
   "dosha": {
     "vata": "pacified",
@@ -89,7 +96,7 @@
     "therapeutic_actions": [
       "Traditionally used in respiratory and digestive contexts; classical indications should be interpreted with the cited Ayurvedic source"
     ],
-    "dose": "",
+    "dose": "Root 10–20 g for decoction; whole plant churna 3–6 g (API)",
     "anupana": "",
     "duration": "",
     "precautions": "Use only authenticated plant material; avoid treating this educational record as an individual prescription.",
@@ -169,7 +176,7 @@
       "Jwara"
     ],
     "useful_part": "root",
-    "dose": "",
+    "dose": "Root 10–20 g for decoction; whole plant churna 3–6 g (API)",
     "anupana": "",
     "key_precautions": [
       "Confirm botanical identity before use.",

@@ -18,8 +18,7 @@
     "synonyms": [
       "Sarasvati",
       "Kapoti",
-      "Somavalli",
-      "Matsyakshi"
+      "Somavalli"
     ]
   },
   "classification": {
@@ -56,10 +55,13 @@
   },
   "dravya_guna": {
     "rasa": [
-      "tikta"
+      "madhura",
+      "tikta",
+      "kashaya"
     ],
     "guna": [
-      "laghu"
+      "laghu",
+      "sara"
     ],
     "virya": "sheeta",
     "vipaka": "madhura",
@@ -89,7 +91,7 @@
     "therapeutic_actions": [
       "medhya"
     ],
-    "dose": "",
+    "dose": "Churna 1–3 g; swarasa 10–20 ml",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -153,7 +155,7 @@
     "quick_reference": "Traditional medhya rasayana; whole plant used.",
     "important_indications": [],
     "useful_part": "whole plant",
-    "dose": "",
+    "dose": "Churna 1–3 g; swarasa 10–20 ml",
     "anupana": "",
     "key_precautions": []
   },

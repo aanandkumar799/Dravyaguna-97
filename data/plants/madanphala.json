@@ -5,7 +5,7 @@
     "name": "Madanphala",
     "sanskrit_name": "मदनफल",
     "transliteration": "Madanaphala",
-    "botanical_name": "Randia dumetorum (Retz.) Lam.",
+    "botanical_name": "Randia dumetorum (Retz.) Poir.",
     "family": "Rubiaceae",
     "english_name": "Emetic Nut / Randia",
     "hindi_name": "मैनफल",
@@ -13,8 +13,10 @@
     "synonyms": [
       "Pindi",
       "Ratha",
-      "Chardana",
-      "Pilu"
+      "Chhardana",
+      "Shalyaka",
+      "Karahata",
+      "Madani"
     ]
   },
   "classification": {
@@ -67,7 +69,10 @@
       "Vamana",
       "Lekhana"
     ],
-    "karma": []
+    "karma": [
+      "Vamana",
+      "Lekhana"
+    ]
   },
   "dosha": {
     "vata": "pacified",
@@ -80,18 +85,29 @@
       "seed"
     ],
     "indications": [
-      "Vamana context in classical practice"
+      "Gulma",
+      "Vidradhi",
+      "Kushtha",
+      "Shleshmajwara",
+      "Pratishyaya"
     ],
     "therapeutic_actions": [
       "Emetic-drug context"
     ],
-    "dose": "",
+    "dose": "Churna 0.5–1 g; 3–6 g for inducing vomiting",
     "anupana": "",
     "duration": "",
     "precautions": "Madanaphala has a specific emetic-drug role; dosing and procedure must be taken from an authenticated classical/official protocol, not this educational record.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Pippalyadi Taila",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -155,7 +171,7 @@
       "Vamana context"
     ],
     "useful_part": "fruit/seed",
-    "dose": "",
+    "dose": "Churna 0.5–1 g; 3–6 g for inducing vomiting",
     "anupana": "",
     "key_precautions": [
       "Not for unsupervised use",

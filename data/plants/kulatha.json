@@ -57,12 +57,16 @@
     ],
     "virya": "Ushna",
     "vipaka": "Amla",
-    "prabhava": [
+    "prabhava": [],
+    "karma": [
       "Ashmaribhedana",
+      "Kaphavatahara",
+      "Swedasangrahaka",
+      "Krimihara",
+      "Vidahi",
       "Lekhana",
       "Kasahara"
-    ],
-    "karma": []
+    ]
   },
   "dosha": {
     "vata": "pacified",
@@ -85,7 +89,7 @@
       "Mutrala context",
       "Kapha-reducing traditional use"
     ],
-    "dose": "",
+    "dose": "Churna 12 g for kwatha; Kwatha 50–100 ml",
     "anupana": "",
     "duration": "",
     "precautions": "Use should be individualized; avoid presenting traditional indications as established treatment claims.",
@@ -163,7 +167,7 @@
       "Medoroga"
     ],
     "useful_part": "seed",
-    "dose": "",
+    "dose": "Churna 12 g for kwatha; Kwatha 50–100 ml",
     "anupana": "",
     "key_precautions": [
       "Do not infer a therapeutic dose from this educational dossier."

@@ -17,9 +17,10 @@
     ],
     "synonyms": [
       "Tamalaki",
-      "Bhumyamalaki",
       "Bahupatra",
-      "Ajata"
+      "Ajata",
+      "Bahuphala",
+      "Bhudhatri"
     ]
   },
   "classification": {
@@ -56,6 +57,7 @@
   "dravya_guna": {
     "rasa": [
       "tikta",
+      "kashaya",
       "madhura"
     ],
     "guna": [
@@ -88,7 +90,7 @@
     "therapeutic_actions": [
       "pittahara"
     ],
-    "dose": "",
+    "dose": "Panchanga churna 3–6 g; swarasa 10–20 ml",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -147,7 +149,7 @@
     "quick_reference": "Whole plant is traditionally used; species authentication is important.",
     "important_indications": [],
     "useful_part": "whole plant",
-    "dose": "",
+    "dose": "Panchanga churna 3–6 g; swarasa 10–20 ml",
     "anupana": "",
     "key_precautions": []
   },

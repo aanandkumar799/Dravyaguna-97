@@ -69,7 +69,14 @@
       "Deepana"
     ],
     "karma": [
-      "Traditional use in Kapha-related conditions and selected cleansing procedures"
+      "Deepana",
+      "Pachana",
+      "Shirovirechana",
+      "Vamaka",
+      "Chedana",
+      "Medohara",
+      "Krimighna",
+      "Mutrala"
     ]
   },
   "dosha": {
@@ -92,13 +99,32 @@
       "Traditional lekhana and deepana actions",
       "Traditional use in selected urinary and digestive indications"
     ],
-    "dose": "Not populated; use only a verified formulation-specific source.",
+    "dose": "Whole plant 20–50 g for decoction; root 5–10 g (API); Apamarga Kshara 0.5–2 g",
     "anupana": "Not populated",
     "duration": "Not populated",
     "precautions": "Clinical use and dose should be formulation-specific and supervised; do not infer a dose from this educational record.",
     "contraindications": "No universal contraindication statement added without source-level verification."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Apamarga Kshara",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Apamarga Kshara Taila",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Agastya Haritaki Rasayana",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -173,7 +199,7 @@
       "Mutrakrichha"
     ],
     "useful_part": "whole plant / pañcāṅga",
-    "dose": "Not supplied in this educational dossier.",
+    "dose": "Whole plant 20–50 g for decoction; root 5–10 g (API); Apamarga Kshara 0.5–2 g",
     "anupana": "Not supplied",
     "key_precautions": [
       "Verify botanical identity before use.",

@@ -11,7 +11,6 @@
     "hindi_name": "मेथी",
     "regional_names": [],
     "synonyms": [
-      "Methika",
       "Peetabeeja",
       "Bahuputrika",
       "Dipani"
@@ -63,12 +62,15 @@
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
+    "prabhava": [],
+    "karma": [
+      "Vatahara",
+      "Kaphahara",
       "Deepana",
+      "Rucya",
       "Vatanulomana",
       "Balya"
-    ],
-    "karma": []
+    ]
   },
   "dosha": {
     "vata": "pacified",
@@ -90,13 +92,26 @@
       "Deepana",
       "Vatanulomana"
     ],
-    "dose": "",
+    "dose": "Churna 3–6 g",
     "anupana": "",
     "duration": "",
     "precautions": "Excessive intake may cause gastrointestinal effects; clinical use should follow an appropriate reference.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Mustakarishta",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Mritasanjivani Sura",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -167,7 +182,7 @@
       "Prameha"
     ],
     "useful_part": "seed",
-    "dose": "",
+    "dose": "Churna 3–6 g",
     "anupana": "",
     "key_precautions": [
       "Potential glucose-lowering effect may be relevant with antidiabetic medicines",

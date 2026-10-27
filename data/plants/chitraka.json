@@ -3,12 +3,12 @@
   "order": 16,
   "identity": {
     "name": "Chitraka",
-    "sanskrit_name": "Chitraka",
+    "sanskrit_name": "चित्रक",
     "transliteration": "",
     "botanical_name": "Plumbago zeylanica L.",
     "family": "Plumbaginaceae",
     "english_name": "Leadwort / White Leadwort",
-    "hindi_name": "",
+    "hindi_name": "चीता / चित्रक",
     "regional_names": [],
     "synonyms": [
       "Agni (अग्नि)",
@@ -99,7 +99,7 @@
       "Krimighna",
       "Bhedana"
     ],
-    "dose": "",
+    "dose": "Mula churna 1–2 g",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -139,13 +139,13 @@
   ],
   "classical_reference": {
     "shlokas": [
-      "चित्रकोऽग्निसमः पाके कटुकः कफवातजित्।\nशोथअर्ंशःकृमिहा दीपनः पाचकः सरः॥"
+      "चित्रकः कटुकः पाके वह्निकृत्पाचनो लघुः।\nरूक्षोष्णो ग्रहणीकुष्ठशोथार्शःकृमिकासनुत्।\nवातश्लेष्महरो ग्राही वातार्शःश्लेष्मपित्तहृत्॥"
     ],
     "nighantu_references": [
       "Bhavaprakasha Nighantu, Haritakyadi Varga, Verse 70-72"
     ],
     "samhita_references": [],
-    "shloka_reference_status": "A. Directly verified classical reference",
+    "shloka_reference_status": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ],
@@ -183,7 +183,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "root",
-    "dose": "",
+    "dose": "Mula churna 1–2 g",
     "anupana": "",
     "key_precautions": []
   },

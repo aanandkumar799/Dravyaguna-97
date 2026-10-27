@@ -68,10 +68,7 @@
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
-      "Shothahara",
-      "Vedanasthapana"
-    ],
+    "prabhava": [],
     "karma": [
       "Shothahara",
       "Vedanasthapana"
@@ -97,13 +94,38 @@
       "Shothahara",
       "Vedanasthapana"
     ],
-    "dose": "",
+    "dose": "Swarasa 10–20 ml (leaf); root churna 3–6 g",
     "anupana": "",
     "duration": "",
     "precautions": "Use authenticated plant material; topical and internal use should follow appropriate references.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Nirgundi Taila",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Vatagajankusha Rasa",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Trivikrama Rasa",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Dashamula Taila",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -173,7 +195,7 @@
       "Sandhigata Vata"
     ],
     "useful_part": "leaf",
-    "dose": "",
+    "dose": "Swarasa 10–20 ml (leaf); root churna 3–6 g",
     "anupana": "",
     "key_precautions": [
       "Use authenticated material",

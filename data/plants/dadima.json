@@ -58,6 +58,7 @@
   "dravya_guna": {
     "rasa": [
       "Madhura",
+      "Amla",
       "Kashaya"
     ],
     "guna": [
@@ -75,9 +76,9 @@
     ]
   },
   "dosha": {
-    "vata": "not specifically documented in imported dataset",
+    "vata": "pacified",
     "pitta": "pacified",
-    "kapha": "aggravated"
+    "kapha": "pacified"
   },
   "therapeutics": {
     "useful_part": [
@@ -101,7 +102,20 @@
     "precautions": "Use authenticated material; formulation-specific dosing should follow the authoritative formulation reference.",
     "contraindications": "No blanket contraindication assigned here; assess individual clinical context."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Dadimashtaka Churna",
+      "dosage_form": "churna",
+      "indication": "",
+      "reference": "AFI"
+    },
+    {
+      "name": "Dadimadi Ghrita",
+      "dosage_form": "ghrita",
+      "indication": "",
+      "reference": "AFI"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],

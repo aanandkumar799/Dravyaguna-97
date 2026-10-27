@@ -3,7 +3,7 @@
   "order": 76,
   "identity": {
     "name": "Rasona",
-    "sanskrit_name": "रसोना",
+    "sanskrit_name": "रसोन",
     "transliteration": "Rasona",
     "botanical_name": "Allium sativum L.",
     "family": "Amaryllidaceae",
@@ -55,20 +55,26 @@
   "dravya_guna": {
     "rasa": [
       "Katu",
-      "Tikta"
+      "Madhura",
+      "Lavana",
+      "Tikta",
+      "Kashaya"
     ],
     "guna": [
-      "Laghu",
-      "Ruksha"
+      "Guru",
+      "Snigdha",
+      "Tikshna",
+      "Picchila",
+      "Sara"
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
+    "prabhava": [],
+    "karma": [
       "Lekhana",
       "Deepana",
-      "rasayan"
-    ],
-    "karma": []
+      "Rasayana"
+    ]
   },
   "dosha": {
     "vata": "pacified",
@@ -90,7 +96,7 @@
       "Deepana",
       "Vatanulomana"
     ],
-    "dose": "",
+    "dose": "Kalka (bulb paste) 3 g (API); classical 3–6 g",
     "anupana": "",
     "duration": "",
     "precautions": "Strongly pungent material may cause gastrointestinal irritation in some people; use appropriate clinical references.",
@@ -166,7 +172,7 @@
       "Gulma"
     ],
     "useful_part": "bulb",
-    "dose": "",
+    "dose": "Kalka (bulb paste) 3 g (API); classical 3–6 g",
     "anupana": "",
     "key_precautions": [
       "Consider gastrointestinal intolerance",

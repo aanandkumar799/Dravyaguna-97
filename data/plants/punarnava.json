@@ -8,7 +8,7 @@
     "botanical_name": "Boerhavia diffusa L.",
     "family": "Nyctaginaceae",
     "english_name": "Spreading Hogweed",
-    "hindi_name": "",
+    "hindi_name": "गदहपूरना / पुनर्नवा",
     "regional_names": [
       "Shothaghni",
       "Raktapushpa",
@@ -25,7 +25,7 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
+    "habit": "Diffuse perennial herb with tuberous root",
     "habitat": "",
     "distribution": ""
   },
@@ -64,7 +64,7 @@
     ],
     "virya": "ushna",
     "vipaka": "madhura",
-    "prabhava": "Shothahara / Mutrala",
+    "prabhava": "",
     "karma": [
       "Shothahara",
       "Mutrala",
@@ -93,7 +93,7 @@
       "Udara Roga"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Churna (root) 1–3 g; Kwatha: 20–30 g drug for decoction",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -155,7 +155,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "root/whole plant",
-    "dose": "",
+    "dose": "Churna (root) 1–3 g; Kwatha: 20–30 g drug for decoction",
     "anupana": "",
     "key_precautions": []
   },

@@ -53,7 +53,10 @@
   },
   "dravya_guna": {
     "rasa": [
-      "Tikta"
+      "Tikta",
+      "Kashaya",
+      "Madhura",
+      "Katu"
     ],
     "guna": [
       "Laghu"
@@ -64,12 +67,19 @@
       "Medhya",
       "Rasayana"
     ],
-    "karma": []
+    "karma": [
+      "Medhya",
+      "Rasayana",
+      "Hridya",
+      "Swarya",
+      "Varnya",
+      "Kaphapittahara"
+    ]
   },
   "dosha": {
     "vata": "pacified",
     "pitta": "pacified",
-    "kapha": "aggravated"
+    "kapha": "pacified"
   },
   "therapeutics": {
     "useful_part": [
@@ -86,13 +96,20 @@
       "Medhya context",
       "Rasayana context"
     ],
-    "dose": "",
+    "dose": "Churna 3–6 g; Swarasa 10–20 ml",
     "anupana": "",
     "duration": "",
     "precautions": "Do not equate traditional Medhya use with a proven treatment for neurological disease.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Brahma Rasayana",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -160,7 +177,7 @@
       "Kushta"
     ],
     "useful_part": "whole plant",
-    "dose": "",
+    "dose": "Churna 3–6 g; Swarasa 10–20 ml",
     "anupana": "",
     "key_precautions": [
       "Do not substitute another 'Brahmi' species without authentication."

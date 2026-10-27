@@ -8,7 +8,7 @@
     "botanical_name": "Woodfordia fruticosa (L.) Kurz",
     "family": "Lythraceae",
     "english_name": "Fire Flame Bush",
-    "hindi_name": "धायटी",
+    "hindi_name": "धाय / धावई",
     "regional_names": [
       "Tamrapushpi",
       "Bahupushpi",
@@ -92,13 +92,32 @@
     "therapeutic_actions": [
       "Grahi"
     ],
-    "dose": "",
+    "dose": "Pushpa churna 3–6 g",
     "anupana": "",
     "duration": "",
     "precautions": "Use authenticated flowers and an authoritative formulation/reference for therapeutic dosing.",
     "contraindications": "No project-specific contraindication claim added without text-level verification."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Ashokarishta",
+      "dosage_form": "arishta",
+      "indication": "",
+      "reference": "AFI"
+    },
+    {
+      "name": "Kutajarishta",
+      "dosage_form": "arishta",
+      "indication": "",
+      "reference": "AFI"
+    },
+    {
+      "name": "Arjunarishta",
+      "dosage_form": "arishta",
+      "indication": "",
+      "reference": "AFI"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -172,7 +191,7 @@
       "Vrana"
     ],
     "useful_part": "flower",
-    "dose": "",
+    "dose": "Pushpa churna 3–6 g",
     "anupana": "",
     "key_precautions": [
       "Confirm botanical and crude-drug identity.",

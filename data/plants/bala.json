@@ -8,7 +8,7 @@
     "botanical_name": "Sida cordifolia L.",
     "family": "Malvaceae",
     "english_name": "Country Mallow",
-    "hindi_name": "",
+    "hindi_name": "खरेटी / बरियारा",
     "regional_names": [
       "Vatyalika",
       "Kharayashtika",
@@ -60,7 +60,7 @@
     ],
     "virya": "sheeta",
     "vipaka": "madhura",
-    "prabhava": "Balya / Vrishya / Vataharanam",
+    "prabhava": "",
     "karma": [
       "Balya",
       "Brimhana",
@@ -89,7 +89,7 @@
       "Daurbalya"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Mula churna 3–6 g; kwatha 50–100 ml",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -110,12 +110,14 @@
     }
   ],
   "classical_reference": {
-    "shlokas": [],
+    "shlokas": [
+      "बलाचतुष्टयं शीतं मधुरं बलकान्तिकृत्।\nस्निग्धं ग्राहि समीरास्रपित्तास्रक्षतनाशनम्॥"
+    ],
     "nighantu_references": [
       "Bhavaprakasha Nighantu, Guduchyadi Varga — exact verse requires edition-level verification"
     ],
     "samhita_references": [],
-    "shloka_reference_status": "needs_verification",
+    "shloka_reference_status": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ]
@@ -146,7 +148,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "root/whole plant",
-    "dose": "",
+    "dose": "Mula churna 3–6 g; kwatha 50–100 ml",
     "anupana": "",
     "key_precautions": []
   },

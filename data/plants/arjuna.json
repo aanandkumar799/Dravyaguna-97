@@ -63,13 +63,11 @@
     ],
     "virya": "sheeta",
     "vipaka": "katu",
-    "prabhava": [
-      "Hridaya",
-      "Raktashodhak",
-      "Sandhanakaraka"
-    ],
+    "prabhava": [],
     "karma": [
-      "hridya"
+      "hridya",
+      "sandhaniya",
+      "raktashodhak"
     ]
   },
   "dosha": {
@@ -88,7 +86,7 @@
     "therapeutic_actions": [
       "hridya"
     ],
-    "dose": "",
+    "dose": "Twak churna 3–6 g; Kshirapaka 50–100 ml",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -172,7 +170,7 @@
     "quick_reference": "Arjuna bark is the principal medicinal part; traditionally used as a hridya drug.",
     "important_indications": [],
     "useful_part": "bark",
-    "dose": "",
+    "dose": "Twak churna 3–6 g; Kshirapaka 50–100 ml",
     "anupana": "",
     "key_precautions": []
   },

@@ -8,7 +8,7 @@
     "botanical_name": "Ricinus communis L.",
     "family": "Euphorbiaceae",
     "english_name": "Castor Oil Plant",
-    "hindi_name": "",
+    "hindi_name": "अरण्ड / रेंड़ी",
     "regional_names": [
       "Panchangula",
       "Vatari",
@@ -66,14 +66,13 @@
     ],
     "virya": "ushna",
     "vipaka": "madhura",
-    "prabhava": "Virechana / Vataharanam",
+    "prabhava": "",
     "karma": [
       "Virechana",
       "Vatashamaka",
       "Vedanasthapana",
       "Shothahara",
-      "Vrishya",
-      "Vayasthapana"
+      "Vrishya"
     ]
   },
   "dosha": {
@@ -96,7 +95,7 @@
       "Gulma"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Mula kwatha 50–100 ml; Eranda taila 5–15 ml (virechana 15–30 ml)",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -158,7 +157,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "seed/root",
-    "dose": "",
+    "dose": "Mula kwatha 50–100 ml; Eranda taila 5–15 ml (virechana 15–30 ml)",
     "anupana": "",
     "key_precautions": []
   },

@@ -3,12 +3,12 @@
   "order": 9,
   "identity": {
     "name": "Bhallataka",
-    "sanskrit_name": "Bhallataka",
+    "sanskrit_name": "भल्लातक",
     "transliteration": "",
     "botanical_name": "Semecarpus anacardium L.f.",
     "family": "Anacardiaceae",
     "english_name": "Marking Nut / Clearing Nut",
-    "hindi_name": "",
+    "hindi_name": "भिलावा",
     "regional_names": [
       "Arushkara",
       "Agnika",
@@ -56,6 +56,7 @@
   },
   "dravya_guna": {
     "rasa": [
+      "madhura",
       "katu",
       "tikta",
       "kashaya"
@@ -66,7 +67,7 @@
       "snigdha"
     ],
     "virya": "ushna",
-    "vipaka": "katu",
+    "vipaka": "madhura",
     "prabhava": "Chedana / Rasayana / Vrana-rohana / Arshoghna",
     "karma": [
       "Deepana",
@@ -147,7 +148,7 @@
   ],
   "classical_reference": {
     "shlokas": [
-      "भल्लातकं त्रिषु प्रोक्तमरुष्कोऽष्करोऽग्निकः ।\nतथैवाग्निमुखी भल्ली वीरवृक्षश्च शोफकृत् ॥२००॥",
+      "भल्लातकं त्रिषु प्रोक्तमरुष्कोऽरुष्करोऽग्निकः ।\nतथैवाग्निमुखी भल्ली वीरवृक्षश्च शोफकृत् ॥२००॥",
       "भल्लातकफलं पक्वं स्वादुपाकरसं लघु ।\nकषायं पाचनं स्निग्धं तीक्ष्णोष्णं चेदि भेदनम् ॥२०१॥",
       "मेध्यं वह्निकरं हन्ति कफवातव्रणोदरम् ।\nकुष्ठार्शोग्रहणीगुल्मशोफानाहज्वरक्रिमीन् ॥२०२॥",
       "तन्मज्जा मधुरो वृष्यो बृंहणो वातपित्तहा ।\nवृन्तमारुष्करं स्वादु पित्तघ्नं केश्यमग्निकृत् ॥२०३॥",
@@ -157,7 +158,7 @@
       "Bhavaprakasha Nighantu, Bhallataka passage, verses 200–204 in the Vishvasa searchable transcription; printed editions/recensions may number this passage differently."
     ],
     "samhita_references": [],
-    "shloka_reference_status": "verified_text_location_edition_numbering_may_vary",
+    "shloka_reference_status": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ],

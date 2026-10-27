@@ -11,7 +11,6 @@
     "hindi_name": "कचनार",
     "regional_names": [],
     "synonyms": [
-      "Kovidara",
       "Yugapatra",
       "Kudalaka",
       "Chamarika"
@@ -61,11 +60,15 @@
     ],
     "virya": "Sheeta",
     "vipaka": "Katu",
-    "prabhava": [
+    "prabhava": [],
+    "karma": [
       "Grahi",
+      "Deepana",
+      "Gandavriddhihara (Gandamalanashana)",
+      "Tridoshahara",
+      "Vranaropana",
       "Kushtaghna"
-    ],
-    "karma": []
+    ]
   },
   "dosha": {
     "vata": "aggravated",
@@ -84,13 +87,20 @@
       "Krimiroga"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Stem bark 20–30 g for decoction (API); churna 3–6 g",
     "anupana": "",
     "duration": "",
     "precautions": "",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Kanchanara Guggulu",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -159,7 +169,7 @@
       "Krimiroga"
     ],
     "useful_part": "stem bark",
-    "dose": "",
+    "dose": "Stem bark 20–30 g for decoction (API); churna 3–6 g",
     "anupana": "",
     "key_precautions": [
       "Confirm botanical identity and bark source.",

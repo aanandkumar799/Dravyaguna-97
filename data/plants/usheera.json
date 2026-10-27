@@ -71,7 +71,7 @@
   "dosha": {
     "vata": "pacified",
     "pitta": "pacified",
-    "kapha": "aggravated"
+    "kapha": "pacified"
   },
   "therapeutics": {
     "useful_part": [
@@ -89,7 +89,7 @@
       "Aromatic",
       "Traditional diuretic context"
     ],
-    "dose": "",
+    "dose": "Churna 3–6 g (API); Hima/Phanta 50–100 ml",
     "anupana": "",
     "duration": "",
     "precautions": "Use authenticated root; avoid presenting traditional diuretic descriptions as established clinical efficacy.",
@@ -161,7 +161,7 @@
       "Jwara"
     ],
     "useful_part": "root",
-    "dose": "",
+    "dose": "Churna 3–6 g (API); Hima/Phanta 50–100 ml",
     "anupana": "",
     "key_precautions": [
       "Authenticate root material",

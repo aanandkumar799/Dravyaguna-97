@@ -93,13 +93,26 @@
       "Kandu"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Seed 1–2 g; oil 5–15 drops (API)",
     "anupana": "",
     "duration": "",
     "precautions": "",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Jyotishmati Taila",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Smritisagara Rasa",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -170,7 +183,7 @@
       "Kandu"
     ],
     "useful_part": "seed/oil",
-    "dose": "",
+    "dose": "Seed 1–2 g; oil 5–15 drops (API)",
     "anupana": "",
     "key_precautions": [
       "Use authenticated seed and clearly identified preparation.",

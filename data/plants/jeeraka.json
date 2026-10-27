@@ -18,7 +18,6 @@
     "synonyms": [
       "Jirana",
       "Ajavaji",
-      "Deepyaka",
       "Kana"
     ]
   },
@@ -64,11 +63,7 @@
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
-      "Deepana",
-      "Pachana",
-      "Grahi"
-    ],
+    "prabhava": [],
     "karma": [
       "Deepana",
       "Pachana",
@@ -92,13 +87,32 @@
       "Krimi"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Churna 1–3 g",
     "anupana": "",
     "duration": "",
     "precautions": "",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Jirakadyarishta",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Jirakadi Modaka",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Hingvadi Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -170,7 +184,7 @@
       "Krimi"
     ],
     "useful_part": "fruit",
-    "dose": "",
+    "dose": "Churna 1–3 g",
     "anupana": "",
     "key_precautions": [
       "Use authenticated fruit and appropriate preparation.",

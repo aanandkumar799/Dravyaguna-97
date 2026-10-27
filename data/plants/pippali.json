@@ -8,7 +8,7 @@
     "botanical_name": "Piper longum L.",
     "family": "Piperaceae",
     "english_name": "Long Pepper",
-    "hindi_name": "",
+    "hindi_name": "पीपल / पिपली",
     "regional_names": [
       "Magadhi",
       "Kana",
@@ -25,7 +25,7 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
+    "habit": "Slender aromatic perennial climber/undershrub",
     "habitat": "",
     "distribution": ""
   },
@@ -63,7 +63,7 @@
     ],
     "virya": "anushnasheeta",
     "vipaka": "madhura",
-    "prabhava": "Rasayana / Kasahara / Shwasahara",
+    "prabhava": "",
     "karma": [
       "Rasayana",
       "Deepana",
@@ -93,7 +93,7 @@
       "Agnimandya"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Churna 1–3 g (fruit); Pippalimula churna 0.5–1 g",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -156,7 +156,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "fruit",
-    "dose": "",
+    "dose": "Churna 1–3 g (fruit); Pippalimula churna 0.5–1 g",
     "anupana": "",
     "key_precautions": []
   },

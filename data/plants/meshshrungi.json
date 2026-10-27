@@ -62,11 +62,17 @@
     ],
     "virya": "ushna",
     "vipaka": "katu",
-    "prabhava": [
+    "prabhava": [],
+    "karma": [
+      "Madhumehaghna",
+      "Kaphavatahara",
+      "Vishaghna",
+      "Deepana",
+      "Chakshushya",
+      "Sramsana",
       "Pramehaghna",
       "Medohara"
-    ],
-    "karma": []
+    ]
   },
   "dosha": {
     "vata": "aggravated",
@@ -90,13 +96,32 @@
       "Pramehaghna",
       "Medohara"
     ],
-    "dose": "",
+    "dose": "Leaf churna 3–6 g",
     "anupana": "",
     "duration": "",
     "precautions": "Use authenticated material; clinical use should follow an appropriate Ayurvedic reference and practitioner guidance.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Ayaskriti",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Nyagrodhadi Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Mahavishagarbha Taila",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -163,7 +188,7 @@
       "selected traditional metabolic indications"
     ],
     "useful_part": "leaf/root",
-    "dose": "",
+    "dose": "Leaf churna 3–6 g",
     "anupana": "",
     "key_precautions": [
       "Use authenticated material",

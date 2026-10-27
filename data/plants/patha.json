@@ -18,8 +18,7 @@
     "synonyms": [
       "Ambashtha",
       "Prachina",
-      "Vriddhakarna",
-      "Laghu Patha"
+      "Vriddhakarna"
     ]
   },
   "classification": {
@@ -59,7 +58,8 @@
   },
   "dravya_guna": {
     "rasa": [
-      "Tikta"
+      "Tikta",
+      "Katu"
     ],
     "guna": [
       "Laghu",
@@ -67,11 +67,7 @@
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
-      "Vishaghna",
-      "Grahi",
-      "Jwaraghna"
-    ],
+    "prabhava": [],
     "karma": [
       "Vishaghna",
       "Grahi",
@@ -79,9 +75,9 @@
     ]
   },
   "dosha": {
-    "vata": "not specifically documented in imported dataset",
-    "pitta": "not specifically documented in imported dataset",
-    "kapha": "not specifically documented in imported dataset"
+    "vata": "pacified",
+    "pitta": "pacified",
+    "kapha": "pacified"
   },
   "therapeutics": {
     "useful_part": [
@@ -98,13 +94,38 @@
       "Grahi",
       "Jwaraghna"
     ],
-    "dose": "",
+    "dose": "Churna 3–6 g",
     "anupana": "",
     "duration": "",
     "precautions": "The species identity and plant part should be authenticated before medicinal use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Pushyanuga Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Pradarantaka Lauha",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Brihat Gangadhara Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Stanyashodhana Kashaya",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -173,7 +194,7 @@
       "Mutrakrichha"
     ],
     "useful_part": "root",
-    "dose": "",
+    "dose": "Churna 3–6 g",
     "anupana": "",
     "key_precautions": [
       "Authenticate species and root",

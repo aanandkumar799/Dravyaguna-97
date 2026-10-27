@@ -68,10 +68,7 @@
     ],
     "virya": "Sheeta",
     "vipaka": "Katu",
-    "prabhava": [
-      "Ashmaribhedana",
-      "Mutrala"
-    ],
+    "prabhava": [],
     "karma": [
       "Ashmaribhedana",
       "Mutrala"
@@ -97,13 +94,26 @@
       "Mutrala",
       "Ashmaribhedana"
     ],
-    "dose": "",
+    "dose": "Churna 3–6 g; 20–30 g for decoction",
     "anupana": "",
     "duration": "",
     "precautions": "Urinary stone disease may require medical assessment; this educational record does not replace diagnosis or treatment.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Ashmarihara Kashaya Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Mutravirechaniya Kashaya Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -171,7 +181,7 @@
       "Mutraghata"
     ],
     "useful_part": "rhizome",
-    "dose": "",
+    "dose": "Churna 3–6 g; 20–30 g for decoction",
     "anupana": "",
     "key_precautions": [
       "Do not delay evaluation of obstruction or infection symptoms",

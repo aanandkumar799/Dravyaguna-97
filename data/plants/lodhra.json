@@ -64,10 +64,7 @@
     ],
     "virya": "Sheeta",
     "vipaka": "Katu",
-    "prabhava": [
-      "Raktaprasadana",
-      "Yonishodhana"
-    ],
+    "prabhava": [],
     "karma": [
       "Raktaprasadana",
       "Yonishodhana"
@@ -92,13 +89,32 @@
     "therapeutic_actions": [
       "Grahi/astringent context"
     ],
-    "dose": "",
+    "dose": "Churna 3–5 g; 20–30 g for decoction (API)",
     "anupana": "",
     "duration": "",
     "precautions": "Clinical use requires authenticated crude drug and appropriate professional guidance.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Lodhrasava",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Pushyanuga Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Brihat Gangadhara Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -165,7 +181,7 @@
       "Raktapitta"
     ],
     "useful_part": "stem bark",
-    "dose": "",
+    "dose": "Churna 3–5 g; 20–30 g for decoction (API)",
     "anupana": "",
     "key_precautions": [
       "Authenticate the bark before medicinal use."

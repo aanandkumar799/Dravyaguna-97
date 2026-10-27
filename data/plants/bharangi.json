@@ -8,13 +8,13 @@
     "botanical_name": "Clerodendrum serratum (L.) Moon",
     "family": "Lamiaceae",
     "english_name": "Blue Fountain Bush",
-    "hindi_name": "",
+    "hindi_name": "भारंगी",
     "regional_names": [],
     "synonyms": [
       "Angaravalli",
       "Bhargi",
       "Brahmani",
-      "Kashaghni"
+      "Kasaghni"
     ]
   },
   "classification": {
@@ -55,11 +55,11 @@
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
+    "prabhava": [],
+    "karma": [
       "Shwasahara",
       "Kasahara"
-    ],
-    "karma": []
+    ]
   },
   "dosha": {
     "vata": "pacified",
@@ -78,13 +78,26 @@
       "Pinasa"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Mula churna 3–6 g",
     "anupana": "",
     "duration": "",
     "precautions": "",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Bharangyadi Kwatha",
+      "dosage_form": "kwatha",
+      "indication": "",
+      "reference": "AFI/Sharangadhara"
+    },
+    {
+      "name": "Bharangi Guda",
+      "dosage_form": "guda",
+      "indication": "",
+      "reference": "AFI/Sharangadhara"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -125,7 +138,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "root",
-    "dose": "",
+    "dose": "Mula churna 3–6 g",
     "anupana": "",
     "key_precautions": []
   },

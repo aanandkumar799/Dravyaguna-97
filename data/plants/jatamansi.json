@@ -3,12 +3,12 @@
   "order": 28,
   "identity": {
     "name": "Jatamansi",
-    "sanskrit_name": "Jatamansi",
+    "sanskrit_name": "जटामांसी",
     "transliteration": "",
     "botanical_name": "Nardostachys jatamansi (D.Don) DC.",
     "family": "Caprifoliaceae (Valerianaceae)",
     "english_name": "Spikenard / Indian Nard",
-    "hindi_name": "",
+    "hindi_name": "जटामांसी / बालछड़",
     "regional_names": [
       "Tapaswini",
       "Vilomasa",
@@ -25,7 +25,7 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
+    "habit": "Erect perennial rhizomatous herb, 10–60 cm, alpine Himalaya 3000–5000 m",
     "habitat": "",
     "distribution": ""
   },
@@ -64,7 +64,7 @@
     ],
     "virya": "sheeta",
     "vipaka": "katu",
-    "prabhava": "Medhya / Nidrajanana / Manasadoshahara",
+    "prabhava": "",
     "karma": [
       "Medhya",
       "Nidrajanana",
@@ -79,7 +79,7 @@
   "dosha": {
     "vata": "pacified",
     "pitta": "pacified",
-    "kapha": "aggravated",
+    "kapha": "pacified",
     "summary": "Tridoshashamaka (Specially Kapha-Pittashamaka)"
   },
   "therapeutics": {
@@ -104,7 +104,7 @@
       "Keshya",
       "Vishaghna"
     ],
-    "dose": "",
+    "dose": "Churna 2–3 g; decoction 5–10 g of drug (API)",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -199,7 +199,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "rhizome",
-    "dose": "",
+    "dose": "Churna 2–3 g; decoction 5–10 g of drug (API)",
     "anupana": "",
     "key_precautions": []
   },

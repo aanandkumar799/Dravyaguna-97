@@ -57,18 +57,16 @@
   },
   "dravya_guna": {
     "rasa": [
-      "Madhura"
+      "Madhura",
+      "Tikta"
     ],
     "guna": [
+      "Guru",
       "Snigdha"
     ],
     "virya": "Ushna",
     "vipaka": "Madhura",
-    "prabhava": [
-      "Vrishya",
-      "Balya",
-      "Medhya"
-    ],
+    "prabhava": [],
     "karma": [
       "Vrishya",
       "Balya",
@@ -77,7 +75,7 @@
   },
   "dosha": {
     "vata": "pacified",
-    "pitta": "not specifically documented in imported dataset",
+    "pitta": "pacified",
     "kapha": "aggravated"
   },
   "therapeutics": {
@@ -92,7 +90,7 @@
       "Kshaya"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Seed churna 3–6 g (API)",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -170,7 +168,7 @@
       "Kshaya"
     ],
     "useful_part": "seed",
-    "dose": "",
+    "dose": "Seed churna 3–6 g (API)",
     "anupana": "",
     "key_precautions": [
       "Raw seed/pod can cause irritation.",

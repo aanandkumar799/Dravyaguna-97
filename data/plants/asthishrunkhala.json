@@ -55,6 +55,7 @@
   },
   "dravya_guna": {
     "rasa": [
+      "Katu",
       "Madhura"
     ],
     "guna": [
@@ -63,12 +64,14 @@
     ],
     "virya": "Ushna",
     "vipaka": "Madhura",
-    "prabhava": [
-      "Sandhanakaraka",
-      "Balya"
-    ],
+    "prabhava": [],
     "karma": [
-      "Traditional asthisandhanaka use"
+      "Asthisandhanakara",
+      "Deepana",
+      "Vata-shleshmahara",
+      "Vrishya",
+      "Chakshushya",
+      "Balya"
     ]
   },
   "dosha": {
@@ -90,7 +93,7 @@
       "Traditional use in fracture-related care",
       "Traditional use as a strengthening/supportive drug"
     ],
-    "dose": "Not populated; use an authenticated formulation-specific source.",
+    "dose": "Swarasa 10–20 ml; ardra kalka 10–20 g (API)",
     "anupana": "Not populated",
     "duration": "Not populated",
     "precautions": "Fractures require appropriate medical assessment, reduction/immobilisation when indicated, and follow-up; the herb should not replace orthopaedic care.",
@@ -179,7 +182,7 @@
       "Sandhishoola"
     ],
     "useful_part": "stem",
-    "dose": "Not supplied in this educational dossier.",
+    "dose": "Swarasa 10–20 ml; ardra kalka 10–20 g (API)",
     "anupana": "Not supplied",
     "key_precautions": [
       "Do not substitute herbal treatment for fracture reduction, immobilisation or follow-up.",

@@ -66,10 +66,7 @@
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
-      "Vatahara",
-      "Shothahara"
-    ],
+    "prabhava": [],
     "karma": [
       "Vatahara",
       "Shothahara"
@@ -82,7 +79,7 @@
   },
   "therapeutics": {
     "useful_part": [
-      "root"
+      "leaf"
     ],
     "indications": [
       "Amavata",
@@ -95,13 +92,38 @@
       "Vatahara",
       "Shothahara"
     ],
-    "dose": "",
+    "dose": "Kwatha: 25–50 g drug for decoction",
     "anupana": "",
     "duration": "",
     "precautions": "Botanical identity should be checked carefully because Rasna is a name associated with more than one plant in traditional sources.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Rasnadi Kwatha",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Rasnairandadi Kwatha",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Dashamularishta",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Karpasasthyadi Taila",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -169,8 +191,8 @@
       "Gridhrasi",
       "Shotha"
     ],
-    "useful_part": "root",
-    "dose": "",
+    "useful_part": "leaf",
+    "dose": "Kwatha: 25–50 g drug for decoction",
     "anupana": "",
     "key_precautions": [
       "Confirm species identity",

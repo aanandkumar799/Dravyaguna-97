@@ -8,7 +8,7 @@
     "botanical_name": "Aloe vera (L.) Burm.f. (syn. Aloe barbadensis Mill.)",
     "family": "Asphodelaceae (Liliaceae)",
     "english_name": "Indian Aloe / Aloe Vera",
-    "hindi_name": "",
+    "hindi_name": "घीकुआँर / ग्वारपाठा",
     "regional_names": [
       "Grihakanya",
       "Ghritakumari",
@@ -24,7 +24,7 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
+    "habit": "Perennial succulent, stemless or short-stemmed herb with thick fleshy spiny-margined leaves in rosette",
     "habitat": "",
     "distribution": ""
   },
@@ -61,7 +61,7 @@
     ],
     "virya": "sheeta",
     "vipaka": "madhura",
-    "prabhava": "Bhedana / Artavajanana / Rasayana",
+    "prabhava": "",
     "karma": [
       "Bhedana",
       "Brimhana",
@@ -98,7 +98,7 @@
       "Yakrit-Pliha supportive use",
       "Chakshushya"
     ],
-    "dose": "",
+    "dose": "Swarasa 10–20 ml; Kanyasara (Elua) 125–500 mg (API)",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -120,13 +120,13 @@
   ],
   "classical_reference": {
     "shlokas": [
-      "कुमारी भेदनी शीता तिक्ता स्वाद्वी रसायनी ।\\nनेत्र्या वृष्या बल्या च वातपित्तविषापहा ॥"
+      "कुमारी भेदनी शीता तिक्ता नेत्र्या रसायनी। मधुरा बृंहणी बल्या वृष्या वातविषप्रणुत्॥\nगुल्मप्लीहयकृद्वृद्धिकफज्वरहरी हरेत्। ग्रन्थ्यग्निदग्धविस्फोटपित्तरक्तत्वगामयान्॥"
     ],
     "nighantu_references": [
       "Bhavaprakasha Nighantu, Guduchyadi Varga; principal verse around 229–230 in searchable recensions"
     ],
     "samhita_references": [],
-    "shloka_reference_status": "text/reference pending final edition-level verification",
+    "shloka_reference_status": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ]
@@ -157,7 +157,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "leaf pulp",
-    "dose": "",
+    "dose": "Swarasa 10–20 ml; Kanyasara (Elua) 125–500 mg (API)",
     "anupana": "",
     "key_precautions": []
   },

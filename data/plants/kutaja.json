@@ -14,7 +14,6 @@
       "Indrayava"
     ],
     "synonyms": [
-      "Kutaja",
       "Kūṭaja",
       "Vatsaka",
       "Kalinga",
@@ -65,11 +64,7 @@
     ],
     "virya": "sheeta",
     "vipaka": "katu",
-    "prabhava": [
-      "Grahi",
-      "Dipana",
-      "Stambhana"
-    ],
+    "prabhava": [],
     "karma": [
       "Grahi",
       "Dipana",
@@ -111,7 +106,26 @@
     "precautions": "Authenticate the species and distinguish Kutaja bark from Indrayava seed. Persistent or severe diarrhoea requires appropriate clinical assessment.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Kutajarishta",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Kutajavaleha",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Kutajaghana Vati",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [
       "कुटजः कूटजः कीटो वत्सको गिरिमल्लिका ।\nकालिङ्गः शक्रशाखी च मल्लिकापुष्प इत्यपि ।\nइन्द्रो यवफलः प्रोक्तो वृक्षकः पाण्डुरद्रुमः ॥१०१॥",

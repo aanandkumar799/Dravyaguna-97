@@ -3,7 +3,7 @@
   "order": 86,
   "identity": {
     "name": "Talisapatra",
-    "sanskrit_name": "तालिसपत्र",
+    "sanskrit_name": "तालीसपत्र",
     "transliteration": "Talisapatra",
     "botanical_name": "Abies webbiana Lindl.",
     "family": "Pinaceae",
@@ -56,17 +56,17 @@
   },
   "dravya_guna": {
     "rasa": [
+      "Tikta",
+      "Madhura",
       "Katu"
     ],
     "guna": [
-      "Laghu"
+      "Laghu",
+      "Tikshna"
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
-      "Kasahara",
-      "Shwasahara"
-    ],
+    "prabhava": [],
     "karma": [
       "Kasahara",
       "Shwasahara"
@@ -91,7 +91,7 @@
     "therapeutic_actions": [
       "Traditional expectorant/respiratory use"
     ],
-    "dose": "",
+    "dose": "Patra churna 2–3 g",
     "anupana": "",
     "duration": "",
     "precautions": "Correct botanical identity is essential because conifer leaves can be confused with other species.",
@@ -163,7 +163,7 @@
       "Aruchi"
     ],
     "useful_part": "leaf",
-    "dose": "",
+    "dose": "Patra churna 2–3 g",
     "anupana": "",
     "key_precautions": [
       "Authenticate botanical source",

@@ -8,7 +8,7 @@
     "botanical_name": "Terminalia bellirica (Gaertn.) Roxb.",
     "family": "Combretaceae",
     "english_name": "Beleric Myrobalan",
-    "hindi_name": "",
+    "hindi_name": "बहेड़ा",
     "regional_names": [],
     "synonyms": [
       "Aksha",
@@ -56,12 +56,14 @@
     ],
     "virya": "Ushna",
     "vipaka": "Madhura",
-    "prabhava": [
+    "prabhava": [],
+    "karma": [
       "Kasahara",
       "Krimighna",
-      "Chakshushya"
-    ],
-    "karma": []
+      "Chakshushya",
+      "Bhedana",
+      "Keshya"
+    ]
   },
   "dosha": {
     "vata": "aggravated",
@@ -80,7 +82,7 @@
       "Krimi"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Phala churna 3–6 g",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -89,13 +91,13 @@
   "formulations": [],
   "classical_reference": {
     "shlokas": [
-      "बिभीतकस्त्रिलिङ्गः स्यान्नाक्षः कर्षफलस्तु सः ।\nकलिद्रुमो भूतवासस्तथा कलियुगालयः ॥\nबिभीतकं स्वादुपाकं कषायं कफपित्तनुत् ।\nउष्णवीर्यं हिमस्पर्शं भेदनं कासनाशनम् ॥"
+      "बिभीतकस्त्रिलिङ्गः स्यादक्षः कर्षफलस्तु सः ।\nकलिद्रुमो भूतवासस्तथा कलियुगालयः ॥\nबिभीतकं स्वादुपाकं कषायं कफपित्तनुत् ।\nउष्णवीर्यं हिमस्पर्शं भेदनं कासनाशनम् ।\nरूक्षं नेत्रहितं केश्यं कृमिवैस्वर्यनाशनम् ॥"
     ],
     "nighantu_references": [
       "Bhavaprakasha Nighantu, Haritakyadi Varga, verses 33–34 in the searchable recension; edition numbering may vary."
     ],
     "samhita_references": [],
-    "shloka_reference_status": "classical_text_corrected; edition/numbering explicitly qualified",
+    "shloka_reference_status": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas",
       "CCRAS/NIIMH e-Nighantu — Bhavaprakasha Nighantu"
@@ -127,7 +129,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "fruit",
-    "dose": "",
+    "dose": "Phala churna 3–6 g",
     "anupana": "",
     "key_precautions": []
   },

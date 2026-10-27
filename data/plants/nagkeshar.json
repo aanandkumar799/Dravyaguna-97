@@ -8,20 +8,20 @@
     "botanical_name": "Mesua ferrea L.",
     "family": "Calophyllaceae (Guttiferae)",
     "english_name": "Cobra's Saffron / Ironwood Tree",
-    "hindi_name": "",
+    "hindi_name": "नागकेसर",
     "regional_names": [],
     "synonyms": [
       "Nagapushpa",
       "Naga",
       "Kesara",
-      "Nagakeshara",
-      "Champaka",
-      "Nagakinjalka"
+      "Nagakinjalka",
+      "Hema",
+      "Gajakeshara"
     ]
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
+    "habit": "Evergreen medium to large tree",
     "habitat": "",
     "distribution": ""
   },
@@ -59,7 +59,7 @@
     ],
     "virya": "ushna",
     "vipaka": "katu",
-    "prabhava": "Amapachana / Vishaghna",
+    "prabhava": "",
     "karma": [
       "Amapachana",
       "Kandughna",
@@ -89,13 +89,32 @@
       "Raktapitta"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Churna 1–3 g",
     "anupana": "",
     "duration": "",
     "precautions": "",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Nagakesaradi Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Kumaryasava",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Chandanabalalakshadi Taila",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
   "classical_reference": {
     "shlokas": [
       "नागपुष्पं कषायोष्णं रूक्षं लघ्वामपाचनम् ।\nज्वरकण्डूतृषास्वेदच्छर्दिहृल्लासनाशनम् ।\nदौर्गन्ध्यकुष्ठवीसर्पकफपित्तविषापहम् ॥"
@@ -135,7 +154,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "stamen",
-    "dose": "",
+    "dose": "Churna 1–3 g",
     "anupana": "",
     "key_precautions": []
   },

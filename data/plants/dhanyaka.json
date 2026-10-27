@@ -56,7 +56,9 @@
   "dravya_guna": {
     "rasa": [
       "Kashaya",
-      "Tikta"
+      "Tikta",
+      "Katu",
+      "Madhura"
     ],
     "guna": [
       "Laghu",
@@ -64,12 +66,7 @@
     ],
     "virya": "Ushna",
     "vipaka": "Madhura",
-    "prabhava": [
-      "Deepana",
-      "Pachana",
-      "Mutrala",
-      "Jwaraghna"
-    ],
+    "prabhava": [],
     "karma": [
       "Deepana",
       "Pachana",
@@ -78,9 +75,9 @@
     ]
   },
   "dosha": {
-    "vata": "not specifically documented in imported dataset",
-    "pitta": "not specifically documented in imported dataset",
-    "kapha": "not specifically documented in imported dataset"
+    "vata": "pacified",
+    "pitta": "pacified",
+    "kapha": "pacified"
   },
   "therapeutics": {
     "useful_part": [
@@ -98,13 +95,26 @@
       "Pachana",
       "Mutrala"
     ],
-    "dose": "",
+    "dose": "Churna 1–3 g (API); Hima/Phanta 20–40 ml",
     "anupana": "",
     "duration": "",
     "precautions": "Use authenticated material; therapeutic dosing should follow an authoritative Ayurvedic formulation/reference.",
     "contraindications": "No project-specific contraindication claim added without text-level verification."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Dhanyapanchaka Kwatha",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Shadanga Paniya",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -180,7 +190,7 @@
       "Ajeerna"
     ],
     "useful_part": "fruit",
-    "dose": "",
+    "dose": "Churna 1–3 g (API); Hima/Phanta 20–40 ml",
     "anupana": "",
     "key_precautions": [
       "Use authenticated material.",

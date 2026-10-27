@@ -57,6 +57,7 @@
   },
   "dravya_guna": {
     "rasa": [
+      "Tikta",
       "Kashaya"
     ],
     "guna": [
@@ -65,11 +66,7 @@
     ],
     "virya": "Sheeta",
     "vipaka": "Katu",
-    "prabhava": [
-      "Raktashodhak",
-      "Kushtaghna",
-      "Grahi"
-    ],
+    "prabhava": [],
     "karma": [
       "Raktashodhak",
       "Kushtaghna",
@@ -92,13 +89,32 @@
       "Raktapitta"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Heartwood 20–30 g for decoction (API); Khadirasara/katha 0.5–1 g",
     "anupana": "",
     "duration": "",
     "precautions": "",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Khadirarishta",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Khadiradi Gutika",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Arimedadi Taila",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -168,7 +184,7 @@
       "Raktapitta"
     ],
     "useful_part": "heartwood",
-    "dose": "",
+    "dose": "Heartwood 20–30 g for decoction (API); Khadirasara/katha 0.5–1 g",
     "anupana": "",
     "key_precautions": [
       "Authenticate heartwood and distinguish it from bark.",

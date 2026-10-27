@@ -3,7 +3,7 @@
   "order": 11,
   "identity": {
     "name": "Bhrungaraja",
-    "sanskrit_name": "Bhringaraja",
+    "sanskrit_name": "भृङ्गराज",
     "transliteration": "Bhṛṅgarāja",
     "botanical_name": "Eclipta alba (L.) Hassk.",
     "family": "Asteraceae (Compositae)",
@@ -71,7 +71,7 @@
     ]
   },
   "dosha": {
-    "vata": "may increase when excessive",
+    "vata": "pacifies",
     "pitta": "generally pacifies",
     "kapha": "pacifies",
     "summary": "Kapha-Vatashamaka"
@@ -98,7 +98,7 @@
       "Vishaghna",
       "Vedanasthapana"
     ],
-    "dose": "",
+    "dose": "Churna 1–3 g; swarasa 3–6 ml",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -202,7 +202,7 @@
     "quick_reference": "Traditional keshya/rasayana drug; whole plant is used.",
     "important_indications": [],
     "useful_part": "whole plant",
-    "dose": "",
+    "dose": "Churna 1–3 g; swarasa 3–6 ml",
     "anupana": "",
     "key_precautions": []
   },

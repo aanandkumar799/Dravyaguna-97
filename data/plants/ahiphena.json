@@ -8,7 +8,7 @@
     "botanical_name": "Papaver somniferum L.",
     "family": "Papaveraceae",
     "english_name": "Opium poppy",
-    "hindi_name": "पोस्त",
+    "hindi_name": "अफ़ीम",
     "regional_names": [
       "Aphena",
       "Nidrakara",
@@ -55,17 +55,19 @@
   "dravya_guna": {
     "rasa": [
       "Tikta",
-      "Katu"
+      "Kashaya"
     ],
     "guna": [
-      "Guru",
-      "Snigdha"
+      "Laghu",
+      "Ruksha",
+      "Sukshma",
+      "Vyavayi",
+      "Vikashi"
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
     "prabhava": [
-      "Vedanasthapana",
-      "Grahi"
+      "Madaka"
     ],
     "karma": [
       "Vedanasthapana",
@@ -75,7 +77,7 @@
   "dosha": {
     "vata": "May pacify; classical and clinical context required",
     "pitta": "May aggravate",
-    "kapha": "May aggravate"
+    "kapha": "pacified"
   },
   "therapeutics": {
     "useful_part": [

@@ -8,10 +8,9 @@
     "botanical_name": "Pterocarpus marsupium Roxb.",
     "family": "Fabaceae",
     "english_name": "Indian Kino Tree",
-    "hindi_name": "",
+    "hindi_name": "विजयसार",
     "regional_names": [],
     "synonyms": [
-      "Bijaka",
       "Pitasara",
       "Vijayaka",
       "Bahusara"
@@ -55,12 +54,12 @@
     ],
     "virya": "Sheeta",
     "vipaka": "Katu",
-    "prabhava": [
+    "prabhava": [],
+    "karma": [
       "Pramehaghna",
       "Kushtaghna",
       "Raktashodhak"
-    ],
-    "karma": []
+    ]
   },
   "dosha": {
     "vata": "aggravated",
@@ -79,13 +78,26 @@
       "Krimi"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Sara (heartwood) churna 3–6 g; kwatha 50–100 ml",
     "anupana": "",
     "duration": "",
     "precautions": "",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Asanadi Kwatha",
+      "dosage_form": "kwatha",
+      "indication": "",
+      "reference": "AFI"
+    },
+    {
+      "name": "Nyagrodhadi Churna",
+      "dosage_form": "churna",
+      "indication": "",
+      "reference": "AFI"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -121,7 +133,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "heartwood",
-    "dose": "",
+    "dose": "Sara (heartwood) churna 3–6 g; kwatha 50–100 ml",
     "anupana": "",
     "key_precautions": []
   },

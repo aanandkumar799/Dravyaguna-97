@@ -88,13 +88,32 @@
       "grahi",
       "dipana"
     ],
-    "dose": "",
+    "dose": "Bala phala majja churna 3–6 g",
     "anupana": "",
     "duration": "",
     "precautions": "",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Bilvadi Churna",
+      "dosage_form": "churna",
+      "indication": "",
+      "reference": "AFI"
+    },
+    {
+      "name": "Bilvadi Leha",
+      "dosage_form": "avaleha",
+      "indication": "",
+      "reference": "AFI"
+    },
+    {
+      "name": "Dashamula",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "AFI"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -151,7 +170,7 @@
     "quick_reference": "Bilva is traditionally important in digestive/grahi applications.",
     "important_indications": [],
     "useful_part": "fruit/root",
-    "dose": "",
+    "dose": "Bala phala majja churna 3–6 g",
     "anupana": "",
     "key_precautions": []
   },

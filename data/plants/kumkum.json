@@ -3,12 +3,12 @@
   "order": 57,
   "identity": {
     "name": "Kumkum",
-    "sanskrit_name": "Kumkuma",
+    "sanskrit_name": "कुङ्कुम",
     "transliteration": "",
     "botanical_name": "Crocus sativus L.",
     "family": "Iridaceae",
     "english_name": "Saffron",
-    "hindi_name": "",
+    "hindi_name": "केसर",
     "regional_names": [],
     "synonyms": [
       "Kesara (केसर)",
@@ -20,7 +20,7 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
+    "habit": "Perennial cormous herb (sterile triploid cultigen)",
     "habitat": "",
     "distribution": ""
   },
@@ -59,7 +59,7 @@
     ],
     "virya": "ushna",
     "vipaka": "katu",
-    "prabhava": "Varnya / Keshya / Hridya / Stri-rogahara",
+    "prabhava": "",
     "karma": [
       "Varnya",
       "Hridya",
@@ -68,13 +68,15 @@
       "Artavajanana",
       "Vrishya",
       "Vishaghna",
-      "Deepana"
+      "Deepana",
+      "Keshya",
+      "Stri-rogahara"
     ]
   },
   "dosha": {
     "vata": "pacified",
     "pitta": "pacified",
-    "kapha": "aggravated",
+    "kapha": "pacified",
     "summary": "Tridoshashamaka (Specially Kapha-Pittashamaka)"
   },
   "therapeutics": {
@@ -99,7 +101,7 @@
       "Vishaghna",
       "Deepana"
     ],
-    "dose": "",
+    "dose": "25–50 mg",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -139,13 +141,13 @@
   ],
   "classical_reference": {
     "shlokas": [
-      "कुङ्कुमं कटुकं तिक्तं उष्णं श्लेष्मसीरार्तिजित्।\nवर्ण्यं वृष्यं च शोषघ्नमग्निदीप्तिप्रदं परम्॥"
+      "कुङ्कुमं कटुकं स्निग्धं शिरोरुग्व्रणजन्तुजित्।\nतिक्तं वमिहरं वर्ण्यं व्यङ्गदोषत्रयापहम्॥"
     ],
     "nighantu_references": [
       "Bhavaprakasha Nighantu, Karpuradi Varga, Verse 12-14"
     ],
     "samhita_references": [],
-    "shloka_reference_status": "A. Directly verified classical reference",
+    "shloka_reference_status": "corrected_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ],
@@ -185,7 +187,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "stigma",
-    "dose": "",
+    "dose": "25–50 mg",
     "anupana": "",
     "key_precautions": []
   },

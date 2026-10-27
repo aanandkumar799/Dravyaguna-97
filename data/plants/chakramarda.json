@@ -8,7 +8,7 @@
     "botanical_name": "Senna tora (L.) Roxb.",
     "family": "Fabaceae",
     "english_name": "Ringworm Plant",
-    "hindi_name": "चक्रवर्त",
+    "hindi_name": "चकवड़ / पवाड़",
     "regional_names": [
       "Dadrughna",
       "Edagaja",
@@ -59,25 +59,21 @@
   },
   "dravya_guna": {
     "rasa": [
-      "Tikta",
-      "Kashaya"
+      "Katu"
     ],
     "guna": [
       "Laghu"
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
-      "Kushtaghna",
-      "Rechana"
-    ],
+    "prabhava": [],
     "karma": [
       "Kushtaghna",
       "Rechana"
     ]
   },
   "dosha": {
-    "vata": "not specifically documented in imported dataset",
+    "vata": "pacified",
     "pitta": "aggravated",
     "kapha": "pacified"
   },
@@ -95,7 +91,7 @@
     "therapeutic_actions": [
       "Traditional Ayurvedic use includes skin-related indications and rechana context; exact application should follow authoritative texts/formularies"
     ],
-    "dose": "",
+    "dose": "Seed churna 1–3 g (API)",
     "anupana": "",
     "duration": "",
     "precautions": "Do not infer purgative dosing from this educational record. Authenticate the plant and consult an authoritative monograph before therapeutic use.",
@@ -176,7 +172,7 @@
       "Shwasa"
     ],
     "useful_part": "seed/whole plant",
-    "dose": "",
+    "dose": "Seed churna 1–3 g (API)",
     "anupana": "",
     "key_precautions": [
       "Authenticate the species before use.",

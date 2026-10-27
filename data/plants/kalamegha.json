@@ -11,7 +11,6 @@
     "hindi_name": "कालमेघ",
     "regional_names": [],
     "synonyms": [
-      "Kalamegha",
       "Yavatiktaka",
       "Kiratatikta"
     ]
@@ -55,19 +54,23 @@
     "guna": [
       "Laghu"
     ],
-    "virya": "Sheeta",
+    "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
+    "prabhava": [],
+    "karma": [
       "Jwaraghna",
+      "Yakriduttejaka",
+      "Krimighna",
+      "Deepana",
+      "Pittasaraka",
       "Pittaghna",
       "Raktaprasadak"
-    ],
-    "karma": []
+    ]
   },
   "dosha": {
     "vata": "aggravated",
     "pitta": "pacified",
-    "kapha": "not specifically documented in imported dataset"
+    "kapha": "pacified"
   },
   "therapeutics": {
     "useful_part": [
@@ -81,7 +84,7 @@
       "Kushta"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Churna 1–3 g",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -156,7 +159,7 @@
       "Kushta"
     ],
     "useful_part": "whole plant",
-    "dose": "",
+    "dose": "Churna 1–3 g",
     "anupana": "",
     "key_precautions": [
       "Verify diagnosis and preparation.",

@@ -8,7 +8,7 @@
     "botanical_name": "Piper nigrum L.",
     "family": "Piperaceae",
     "english_name": "Black Pepper",
-    "hindi_name": "",
+    "hindi_name": "काली मिर्च",
     "regional_names": [
       "Vellaja",
       "Ushana",
@@ -24,7 +24,7 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
+    "habit": "Perennial woody climber",
     "habitat": "",
     "distribution": ""
   },
@@ -62,7 +62,7 @@
     ],
     "virya": "ushna",
     "vipaka": "katu",
-    "prabhava": "Pramathi / Deepana / Krimighna",
+    "prabhava": "",
     "karma": [
       "Deepana",
       "Pachana",
@@ -91,7 +91,7 @@
       "Pratishyaya"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Churna 250 mg–1 g",
     "anupana": "",
     "duration": "",
     "precautions": "",
@@ -155,7 +155,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "fruit",
-    "dose": "",
+    "dose": "Churna 250 mg–1 g",
     "anupana": "",
     "key_precautions": []
   },

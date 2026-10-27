@@ -8,7 +8,7 @@
     "botanical_name": "Syzygium aromaticum (L.) Merr. & L.M.Perry",
     "family": "Myrtaceae",
     "english_name": "Clove",
-    "hindi_name": "",
+    "hindi_name": "लौंग",
     "regional_names": [
       "Devakusuma",
       "Shriprasuna",
@@ -23,7 +23,7 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
+    "habit": "Evergreen tree",
     "habitat": "",
     "distribution": ""
   },
@@ -60,7 +60,7 @@
     ],
     "virya": "sheeta",
     "vipaka": "katu",
-    "prabhava": "Chhardighna / Shoolahara / Kasahara",
+    "prabhava": "",
     "karma": [
       "Deepana",
       "Pachana",
@@ -91,13 +91,26 @@
       "Agnimandya"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Churna 0.5–2 g",
     "anupana": "",
     "duration": "",
     "precautions": "",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Lavangadi Vati",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    },
+    {
+      "name": "Lavangadi Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": ""
+    }
+  ],
   "classical_reference": {
     "shlokas": [
       "लवङ्गं देवकुसुमं श्रीसंज्ञं श्रीप्रसूनकम् ।\nलवङ्गं कटुकं तिक्तं लघु नेत्रहितं हिमम् ।\nदीपनं पाचनं रुच्यं कफपित्तास्रनाशकृत् ।\nतृष्णां छर्दिं तथाध्मानं शूलमाशु विनाशयेत् ।\nकासं श्वासञ्च हिक्काञ्च क्षयं क्षययति ध्रुवम् ॥"
@@ -137,7 +150,7 @@
     "quick_reference": "",
     "important_indications": [],
     "useful_part": "flower bud",
-    "dose": "",
+    "dose": "Churna 0.5–2 g",
     "anupana": "",
     "key_precautions": []
   },

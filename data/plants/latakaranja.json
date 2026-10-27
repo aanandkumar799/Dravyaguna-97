@@ -57,18 +57,15 @@
   "dravya_guna": {
     "rasa": [
       "Tikta",
-      "Katu"
+      "Kashaya"
     ],
     "guna": [
       "Laghu",
-      "Tikshna"
+      "Ruksha"
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
-      "Jwaraghna",
-      "Krimighna"
-    ],
+    "prabhava": [],
     "karma": [
       "Jwaraghna",
       "Krimighna"
@@ -93,13 +90,26 @@
       "Jwaraghna context",
       "Krimighna context"
     ],
-    "dose": "",
+    "dose": "Seed churna 1–3 g (API)",
     "anupana": "",
     "duration": "",
     "precautions": "Do not interpret historical fever terminology as a modern diagnosis or treatment recommendation.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Kuberakshadi Vati",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Aragvadhadi Kvatha Churna",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -165,7 +175,7 @@
       "Krimi"
     ],
     "useful_part": "seed",
-    "dose": "",
+    "dose": "Seed churna 1–3 g (API)",
     "anupana": "",
     "key_precautions": [
       "Botanical authentication is essential."
