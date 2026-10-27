@@ -9,7 +9,14 @@
     "family": "Fabaceae (Papilionaceae)",
     "english_name": "Licorice / Liquorice",
     "hindi_name": "मुलेठी",
-    "regional_names": [],
+    "regional_names": [
+      "Marathi: Jeshthamadh",
+      "Gujarati: Jethimadh",
+      "Bengali: Jashtimadhu",
+      "Tamil: Athimathuram",
+      "Telugu: Atimadhuram",
+      "Malayalam: Irattimadhuram"
+    ],
     "synonyms": [
       "Madhuka",
       "Klitaka",
@@ -97,7 +104,7 @@
       "Vranaropana"
     ],
     "dose": "Churna 2–4 g",
-    "anupana": "",
+    "anupana": "Ksheera (milk) or Madhu (honey)",
     "duration": "",
     "precautions": "Prolonged or high intake of glycyrrhizin-containing preparations may cause sodium retention, hypokalaemia and blood-pressure effects; use cautiously in susceptible individuals.",
     "contraindications": "Avoid unsupervised prolonged/high-dose use in hypertension, significant cardiovascular/renal disease or hypokalaemia."
@@ -120,12 +127,14 @@
     }
   ],
   "classical_reference": {
-    "shlokas": [],
+    "shlokas": [
+      "यष्टी हिमा गुरुः स्वाद्वी चक्षुष्या बलवर्णकृत्।\nसुस्निग्धा शुक्रला केश्या स्वर्या पित्तानिलास्रजित्।\nव्रणशोथविषच्छर्दितृष्णाग्लानिक्षयापहा॥"
+    ],
     "nighantu_references": [
       "Bhavaprakasha Nighantu, Haritakyadi Varga; exact verse/edition requires verification"
     ],
     "samhita_references": [],
-    "shloka_reference_status": "needs_verification",
+    "shloka_reference_status": "added_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ]
@@ -139,7 +148,11 @@
   },
   "modern_information": {
     "evidence_summary": "Licorice has been studied for demulcent, gastrointestinal and respiratory applications, but effects and safety depend on preparation, dose and duration.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Cough and sore throat (demulcent)",
+      "Hyperacidity and peptic ulcer (deglycyrrhizinated licorice)",
+      "Flavouring and sweetening agent"
+    ],
     "safety_notes": "Glycyrrhizin-containing products can cause mineralocorticoid-like adverse effects with excessive or prolonged use.",
     "sources": []
   },
@@ -190,7 +203,7 @@
     ],
     "useful_part": "stolons and roots",
     "dose": "Churna 2–4 g",
-    "anupana": "",
+    "anupana": "Ksheera (milk) or Madhu (honey)",
     "key_precautions": [
       "Prolonged/high-dose glycyrrhizin can cause hypertension, fluid retention and hypokalaemia",
       "Use caution with cardiovascular/renal disease and interacting medicines"

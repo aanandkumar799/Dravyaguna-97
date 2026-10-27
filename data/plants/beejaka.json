@@ -4,12 +4,18 @@
   "identity": {
     "name": "Beejaka",
     "sanskrit_name": "बीजक",
-    "transliteration": "",
+    "transliteration": "Bījaka",
     "botanical_name": "Pterocarpus marsupium Roxb.",
     "family": "Fabaceae",
     "english_name": "Indian Kino Tree",
     "hindi_name": "विजयसार",
-    "regional_names": [],
+    "regional_names": [
+      "Marathi: Bibalā",
+      "Tamil: Vengai",
+      "Telugu: Yegi",
+      "Kannada: Honne",
+      "Malayalam: Venga"
+    ],
     "synonyms": [
       "Pitasara",
       "Vijayaka",
@@ -18,21 +24,26 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Moderate to large deciduous tree, up to 30 m high, with a straight clear bole.",
+    "habitat": "Mixed deciduous forests on hilly and undulating ground.",
+    "distribution": "Peninsular and Central India, extending to Gujarat, Madhya Pradesh, Bihar and Odisha."
   },
   "identification": {
-    "description": "Tulsi (Ocimum sanctum) is known as the 'Queen of Herbs' in Ayurveda. It boosts immunity, combats respiratory disorders, and has adaptogenic properties.",
-    "whole_plant": "",
+    "description": "Large deciduous tree with grey bark that exudes a red gum (kino) when cut; imparipinnate leaves of 5–7 leathery leaflets, yellow flowers and orbicular winged pods.",
+    "whole_plant": "Large deciduous tree with grey bark exuding red kino, imparipinnate leaves and yellow flowers.",
     "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": "",
-    "identification_points": []
+    "stem": "Bole straight; bark grey, rough, exuding a blood-red gum (kino) when cut.",
+    "leaf": "Imparipinnate with 5–7 alternate, oblong, coriaceous leaflets with an emarginate tip.",
+    "flower": "Yellow, fragrant, papilionaceous, in large terminal panicles.",
+    "fruit": "Orbicular, flat, winged pod 2.5–5 cm across, usually one-seeded.",
+    "seed": "Single, reniform, enclosed in the centre of the winged pod.",
+    "bark": "Grey to dark brown, rough, exuding red kino on injury.",
+    "identification_points": [
+      "Heartwood golden-yellowish brown with darker streaks",
+      "Water in contact turns yellow with blue fluorescence",
+      "Very hard, heavy wood with astringent taste",
+      "Tree exudes red kino; fruit a round winged pod"
+    ]
   },
   "images": {
     "root": "",
@@ -77,12 +88,18 @@
       "Shwitra",
       "Krimi"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Pramehaghna",
+      "Kushtaghna",
+      "Raktashodhaka",
+      "Medohara",
+      "Rasayana"
+    ],
     "dose": "Sara (heartwood) churna 3–6 g; kwatha 50–100 ml",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "May potentiate antidiabetic drugs; monitor blood glucose. Strong astringency may cause constipation.",
+    "contraindications": "Avoid in pregnancy without advice, and in Vata-predominant constipation."
   },
   "formulations": [
     {
@@ -108,34 +125,81 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "pterostilbene",
+      "marsupin",
+      "pterosupin",
+      "liquiritigenin",
+      "epicatechin",
+      "kinotannic acid"
+    ],
+    "chemical_notes": "The heartwood contains stilbenes and flavonoids (pterostilbene, marsupin, pterosupin, epicatechin), along with tannins and resin."
   },
   "modern_information": {
     "evidence_summary": "Pterocarpus marsupium is a well-known anti-diabetic herb that also purifies the blood and helps with skin issues.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Prameha (traditionally as water stored in Vijayasar wooden tumblers)",
+      "Medoroga",
+      "Kushta and Shwitra",
+      "Pandu and Krimi"
+    ],
+    "safety_notes": "Generally well tolerated in traditional use; additive glucose lowering with antidiabetic medication is possible.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Pterocarpus marsupium Roxb., family Fabaceae",
+      "Useful part: heartwood (sara)",
+      "Rasa kashaya, tikta; guna laghu, ruksha; virya sheeta; vipaka katu",
+      "Key karma: Pramehaghna, Kushtaghna, Raktashodhaka",
+      "Agrya dravya for Prameha; heartwood water shows blue fluorescence",
+      "Formulations: Nyagrodhadi Churna, Asanabilvadi Taila",
+      "Dose: kwatha 50–100 ml"
+    ],
+    "viva_questions": [
+      "What is the identifying test of Vijayasar heartwood in water?",
+      "Give the rasa-panchaka of Beejaka.",
+      "Name two formulations of Asana.",
+      "What is the main use of Beejaka?"
+    ],
+    "identification_points": [
+      "Golden-brown heartwood with dark streaks",
+      "Yellow solution with blue fluorescence in water",
+      "Very hard, astringent"
+    ],
     "mnemonics": [],
     "quick_revision": "Pterocarpus marsupium is a well-known anti-diabetic herb that also purifies the blood and helps with skin issues."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Beejaka as a principal pramehaghna dravya",
+      "Heartwood (sara) as a drug part and its identification"
+    ],
+    "discussion_points": [
+      "Traditional Vijayasar tumbler practice and its basis",
+      "Asana–Beejaka nomenclature in classical texts"
+    ],
+    "practical_points": [
+      "Soak heartwood in water and observe fluorescence",
+      "Identify heartwood pieces"
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Astringent heartwood for Prameha, Medoroga and Kushta; kashaya-tikta, sheeta; kwatha 50–100 ml.",
+    "important_indications": [
+      "Prameha",
+      "Medoroga",
+      "Kushta",
+      "Shwitra",
+      "Pandu"
+    ],
     "useful_part": "heartwood",
     "dose": "Sara (heartwood) churna 3–6 g; kwatha 50–100 ml",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": [
+      "Monitor blood glucose with antidiabetic drugs",
+      "May cause constipation"
+    ]
   },
   "sources": [
     {

@@ -4,7 +4,7 @@
   "identity": {
     "name": "Guggulu",
     "sanskrit_name": "गुग्गुलु",
-    "transliteration": "",
+    "transliteration": "Guggulu",
     "botanical_name": "Commiphora wightii (Arn.) Bhandari",
     "family": "Burseraceae",
     "english_name": "Indian Bdellium / Guggul",
@@ -25,21 +25,26 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Small, much-branched, thorny shrub or small tree, 1.2–1.8 m tall.",
+    "habitat": "Arid rocky tracts and dry hills.",
+    "distribution": "Rajasthan, Gujarat (Kutch), Madhya Pradesh and Karnataka; now a threatened species."
   },
   "identification": {
     "description": "Irregular brownish-yellow translucent or sticky oleo-gum resin masses with strong balsamic aromatic odor.",
-    "whole_plant": "",
+    "whole_plant": "Thorny shrub with knotty crooked branches, ash-coloured papery bark and small trifoliate leaves.",
     "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
+    "stem": "Branches knotty, crooked, ending in sharp spines.",
+    "leaf": "Small, 1–3-foliolate, leaflets obovate, serrate towards the tip, shining.",
+    "flower": "Small, brownish-red, in fascicles of 2–3.",
+    "fruit": "Ovoid drupe, red when ripe, about 1 cm long.",
     "seed": "",
-    "bark": "",
-    "identification_points": []
+    "bark": "Ash-coloured, peeling in papery flakes; exudes the aromatic oleo-gum resin when incised.",
+    "identification_points": [
+      "Vermicular or stalactitic pale yellow to brown pieces",
+      "Forms milky emulsion in hot water",
+      "Burns readily with aromatic smoke",
+      "Bitter, astringent taste; sticky when fresh"
+    ]
   },
   "images": {
     "whole_plant": "",
@@ -97,12 +102,19 @@
       "Granthi/Arbuda",
       "Kushta"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Medohara",
+      "Lekhana",
+      "Shothahara",
+      "Vedanasthapana",
+      "Bhagnasandhanakara",
+      "Rasayana"
+    ],
     "dose": "Shodhita guggulu 2–4 g",
-    "anupana": "",
+    "anupana": "Ushnodaka (warm water); specific anupanas such as Rasnadi kwatha in Vatavyadhi.",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Use only shodhita guggulu (e.g. boiled in Triphala kwatha or cow's milk). Can cause gastric upset, skin rash and loose stools; may interact with anticoagulants, thyroid drugs and propranolol. Fresh guggulu is brimhana and old guggulu lekhana.",
+    "contraindications": "Contraindicated in pregnancy; avoid in Pitta-predominant conditions, bleeding disorders and during menstruation in heavy bleeders. Classical apathya includes sour foods, excessive exertion, sun and anger during its use."
   },
   "formulations": [
     {
@@ -135,34 +147,85 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "guggulsterones E and Z",
+      "guggulipid",
+      "myrrhanol",
+      "cembrene",
+      "essential oil",
+      "gum and resin"
+    ],
+    "chemical_notes": "The oleo-gum resin contains essential oil, gum and resin, with the pregnane steroids guggulsterone E and Z as the main bioactive markers."
   },
   "modern_information": {
     "evidence_summary": "Excellent for arthritis, high cholesterol, and detoxification.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Amavata and Vatavyadhi",
+      "Medoroga",
+      "Granthi, Gandamala and Arbuda",
+      "Prameha and Kushta",
+      "Bhagna"
+    ],
+    "safety_notes": "Generally tolerated as shodhita guggulu; adverse effects include gastric upset, headache and skin rash, and it may interact with several prescription drugs.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Commiphora wightii (Arn.) Bhandari, family Burseraceae",
+      "Useful part: oleo-gum resin (niryasa), used after shodhana",
+      "Rasa tikta, katu, kashaya, madhura; guna laghu, ruksha, tikshna, vishada, sukshma, sara; virya ushna; vipaka katu",
+      "Nava guggulu brimhana, purana guggulu lekhana",
+      "Agrya for Medoroga and Vatavyadhi",
+      "Formulations: Yogaraja, Kaishora, Kanchanara, Triphala, Simhanada Guggulu",
+      "Dose 2–4 g (API); active markers guggulsterones"
+    ],
+    "viva_questions": [
+      "Describe the shodhana of Guggulu.",
+      "Differentiate nava and purana Guggulu.",
+      "Give the rasa-panchaka of Guggulu.",
+      "Name five Guggulu kalpas.",
+      "What is the active principle of Guggulu?"
+    ],
+    "identification_points": [
+      "Vermicular yellow-brown resin",
+      "Milky emulsion in hot water",
+      "Burns with aromatic smoke"
+    ],
     "mnemonics": [],
     "quick_revision": "Excellent for arthritis, high cholesterol, and detoxification."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Guggulu kalpana and shodhana",
+      "Nava versus purana Guggulu",
+      "Medohara and Vatahara actions"
+    ],
+    "discussion_points": [
+      "Conservation of Commiphora wightii and sustainable tapping",
+      "Clinical evidence on guggulsterones in hyperlipidaemia"
+    ],
+    "practical_points": [
+      "Perform shodhana of Guggulu in Triphala kwatha",
+      "Test emulsion and burning characters"
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Purified oleo-gum resin for Amavata, Vatavyadhi, Medoroga and Granthi; ushna, katu vipaka; 2–4 g with warm water.",
+    "important_indications": [
+      "Amavata",
+      "Sandhivata",
+      "Medoroga",
+      "Granthi",
+      "Vatarakta"
+    ],
     "useful_part": "oleo-gum-resin",
     "dose": "Shodhita guggulu 2–4 g",
-    "anupana": "",
-    "key_precautions": []
+    "anupana": "Ushnodaka (warm water); specific anupanas such as Rasnadi kwatha in Vatavyadhi.",
+    "key_precautions": [
+      "Use only shodhita guggulu",
+      "Contraindicated in pregnancy",
+      "Drug interactions with anticoagulants and thyroid medicines"
+    ]
   },
   "sources": [
     {

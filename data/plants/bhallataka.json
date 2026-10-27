@@ -4,7 +4,7 @@
   "identity": {
     "name": "Bhallataka",
     "sanskrit_name": "भल्लातक",
-    "transliteration": "",
+    "transliteration": "Bhallātaka",
     "botanical_name": "Semecarpus anacardium L.f.",
     "family": "Anacardiaceae",
     "english_name": "Marking Nut / Clearing Nut",
@@ -25,20 +25,20 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Medium-sized deciduous tree, 10–15 m tall.",
+    "habitat": "Moist and dry deciduous forests, especially in hilly tracts.",
+    "distribution": "Sub-Himalayan tract and the warmer parts of India, from Bihar and Assam to the Deccan and Western Ghats."
   },
   "identification": {
     "description": "Heart-shaped or ovoid dark shiny black drupe seated on an orange-yellow fleshy receptacle (receptacle edible), pericarp filled with corrosive black vesicating juice.",
-    "whole_plant": "",
+    "whole_plant": "Deciduous tree with large obovate leaves crowded at branch ends and black nuts seated on swollen orange receptacles.",
     "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": "",
+    "stem": "Trunk with dark brown, rough bark exuding an acrid juice that blackens on exposure.",
+    "leaf": "Simple, alternate, large, obovate-oblong, 30–60 cm long, coriaceous, crowded towards the branch ends.",
+    "flower": "Small, greenish-yellow, in terminal panicles; polygamous.",
+    "fruit": "Drupe laterally flattened, obliquely ovoid, 2.5–3 cm long, smooth, shining black, seated on a fleshy orange-yellow receptacle; pericarp full of acrid black oil.",
+    "seed": "Single kernel, white and oily, enclosed in the hard nut.",
+    "bark": "Dark brown, rough, exuding an irritant juice that turns black.",
     "identification_points": [
       "Heart-shaped or ovoid dark shiny black drupe seated on an orange-yellow fleshy receptacle (receptacle edible), pericarp filled with corrosive black vesicating juice."
     ]
@@ -108,11 +108,11 @@
       "Kushtaghna",
       "Krimighna"
     ],
-    "dose": "",
-    "anupana": "",
+    "dose": "1–2 g of shodhita drug in kshirapaka form (API).",
+    "anupana": "Milk (kshirapaka) and ghee; give with ample ghee and milk in the diet.",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Must be used only after shodhana. The raw nut oil is a severe contact irritant producing blistering dermatitis; ghee or coconut is applied before handling. Avoid exposure to heat and sun during use and take a ghee- and milk-rich diet.",
+    "contraindications": "Contraindicated in pregnancy, in children and the elderly, in Pitta-predominant persons, bleeding disorders, kidney disease and hot season; never used without shodhana."
   },
   "formulations": [
     {
@@ -180,34 +180,84 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "anacardic acid",
+      "cardol",
+      "bhilawanol",
+      "semecarpol",
+      "biflavonoids (tetrahydroamentoflavone)"
+    ],
+    "chemical_notes": "The pericarp contains a black tarry oil of phenolic lipids (anacardic acid, cardol, bhilawanol), responsible for both its action and its vesicant toxicity."
   },
   "modern_information": {
     "evidence_summary": "Powerful digestive and stimulant, used under medical supervision for vata disorders.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Arsha",
+      "Kushta and Shwitra",
+      "Gulma, Anaha and Grahani",
+      "Krimi",
+      "Rasayana use in Kapha-Vata disorders"
+    ],
+    "safety_notes": "Raw nut juice causes severe contact dermatitis and blistering; internal use is restricted to purified drug in small doses under supervision.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Semecarpus anacardium L.f., family Anacardiaceae",
+      "Useful part: fruit (shodhita), nut oil",
+      "Rasa madhura, katu, tikta, kashaya; guna laghu, tikshna, snigdha; virya ushna; vipaka madhura",
+      "Upavisha dravya; shodhana is compulsory (e.g. rubbing with brick powder, boiling in milk/godugdha)",
+      "Key karma: Deepana, Bhedana, Kushtaghna, Arshoghna, Rasayana",
+      "Formulations: Bhallataka Rasayana, Amrita Bhallataka Leha, Sanjivani Vati",
+      "Antidote for skin reaction: coconut, sesame paste, ghee; dose 1–2 g in kshirapaka"
+    ],
+    "viva_questions": [
+      "Why is shodhana of Bhallataka necessary?",
+      "Describe one method of Bhallataka shodhana.",
+      "What are the contraindications of Bhallataka?",
+      "Name the toxic principles of Bhallataka.",
+      "Name two formulations containing Bhallataka."
+    ],
+    "identification_points": [
+      "Black, shining, flattened nut",
+      "Fleshy orange receptacle at base",
+      "Acrid black oil in pericarp"
+    ],
     "mnemonics": [],
     "quick_revision": "Powerful digestive and stimulant, used under medical supervision for vata disorders."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Bhallataka as an upavisha dravya and shodhana procedures",
+      "Rasayana use with strict pathya",
+      "Management of Bhallataka-induced dermatitis"
+    ],
+    "discussion_points": [
+      "Balancing ushna-tikshna properties with madhura vipaka",
+      "Safety and contraindications in modern practice"
+    ],
+    "practical_points": [
+      "Demonstrate shodhana of Bhallataka with protective precautions",
+      "Identify the fruit with receptacle"
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Purified fruit used for Arsha, Kushta, Gulma and as a Kapha-Vata rasayana; strictly after shodhana, with milk and ghee.",
+    "important_indications": [
+      "Arsha",
+      "Kushta",
+      "Gulma",
+      "Grahani",
+      "Krimi"
+    ],
     "useful_part": "fruit",
-    "dose": "",
-    "anupana": "",
-    "key_precautions": []
+    "dose": "1–2 g of shodhita drug in kshirapaka form (API).",
+    "anupana": "Milk (kshirapaka) and ghee; give with ample ghee and milk in the diet.",
+    "key_precautions": [
+      "Use only after shodhana",
+      "Contraindicated in pregnancy, children and Pitta disorders",
+      "Severe contact dermatitis from raw oil"
+    ]
   },
   "sources": [
     {

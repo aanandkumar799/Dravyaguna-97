@@ -96,30 +96,30 @@
     "anupana": "",
     "duration": "",
     "precautions": "Botanical identity should be checked carefully because Rasna is a name associated with more than one plant in traditional sources.",
-    "contraindications": ""
+    "contraindications": "Pitta-predominant states and pregnancy in medicinal doses."
   },
   "formulations": [
     {
       "name": "Rasnadi Kwatha",
-      "dosage_form": "",
+      "dosage_form": "Kwatha",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Rasnairandadi Kwatha",
-      "dosage_form": "",
+      "dosage_form": "Kwatha",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Dashamularishta",
-      "dosage_form": "",
+      "dosage_form": "Arishta",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Karpasasthyadi Taila",
-      "dosage_form": "",
+      "dosage_form": "Taila",
       "indication": "",
       "reference": ""
     }
@@ -141,7 +141,10 @@
   },
   "modern_information": {
     "evidence_summary": "Pluchea lanceolata has been investigated in experimental studies related to inflammation and pain. The available evidence does not justify presenting it here as a proven treatment for arthritis or other diseases.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Traditional use in rheumatic and inflammatory joint disorders",
+      "Ingredient of Rasnadi and Rasnairandadi kwatha"
+    ],
     "safety_notes": "Correct botanical identity is particularly important because the name Rasna can refer to different taxa in traditional literature.",
     "sources": []
   },
@@ -196,7 +199,7 @@
     "anupana": "",
     "key_precautions": [
       "Confirm species identity",
-      "Do not infer dose from this page",
+      "Do not infer dose without a qualified physician",
       "Use verified classical/pharmacopoeial references"
     ]
   },

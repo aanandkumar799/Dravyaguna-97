@@ -110,7 +110,7 @@
     "recognized_uses": [
       "Botanical identification and pharmacognosy/dravyaguna education."
     ],
-    "safety_notes": "do not infer clinical treatment instructions from this educational record. Verify identity of commercial leaf material before clinical or pharmacognosy use.",
+    "safety_notes": "Verify identity of commercial leaf material before clinical or pharmacognosy use.",
     "sources": []
   },
   "student": {
@@ -160,7 +160,6 @@
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references.",
-      "Do not infer clinical dose from this educational record.",
       "Verify identity of commercial leaf material before clinical or pharmacognosy use."
     ]
   },

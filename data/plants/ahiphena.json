@@ -99,7 +99,20 @@
     "precautions": "Opium and opioid-containing preparations can cause dependence, respiratory depression, constipation and other serious adverse effects. Use only under qualified medical supervision and according to applicable regulations.",
     "contraindications": "Do not self-medicate with opium or opioid-containing preparations; contraindications depend on the preparation, patient and clinical context."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Ahiphenasava",
+      "dosage_form": "Asava",
+      "indication": "Atisara, Visuchika (under strict medical supervision)",
+      "reference": "AFI"
+    },
+    {
+      "name": "Karpura Rasa",
+      "dosage_form": "Rasaushadhi (vati)",
+      "indication": "Atisara, Grahani (opium-containing; restricted use)",
+      "reference": "AFI"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],

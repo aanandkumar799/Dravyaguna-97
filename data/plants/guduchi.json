@@ -4,12 +4,20 @@
   "identity": {
     "name": "Guduchi",
     "sanskrit_name": "गुडूची",
-    "transliteration": "",
+    "transliteration": "Guḍūcī",
     "botanical_name": "Tinospora cordifolia (Willd.) Hook.f. & Thomson",
     "family": "Menispermaceae",
     "english_name": "Heart-leaved Moonseed",
     "hindi_name": "गिलोय / गुरच",
-    "regional_names": [],
+    "regional_names": [
+      "Marathi: Gulvel",
+      "Gujarati: Galo",
+      "Bengali: Gulancha",
+      "Tamil: Cīntil",
+      "Telugu: Tippatīga",
+      "Kannada: Amṛtaballi",
+      "Malayalam: Chittamṛtu"
+    ],
     "synonyms": [
       "Madhuparni",
       "Chinnaruha",
@@ -21,21 +29,27 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Large, glabrous, deciduous climbing shrub with succulent stems and aerial roots.",
+    "habitat": "Climbs over trees and hedges in forests, gardens and around habitations; often grown on Neem.",
+    "distribution": "Throughout tropical India, ascending to about 1,000 m."
   },
   "identification": {
-    "description": "Tulsi (Ocimum sanctum) is known as the 'Queen of Herbs' in Ayurveda. It boosts immunity, combats respiratory disorders, and has adaptogenic properties.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": "",
-    "identification_points": []
+    "description": "Large climbing shrub with succulent, corky-barked stems and thread-like aerial roots; cordate leaves, small greenish-yellow flowers and red pea-sized drupes.",
+    "whole_plant": "Perennial climber with corky warty stems, long thread-like aerial roots and heart-shaped leaves.",
+    "root": "Aerial roots long, filiform, hanging from the stem.",
+    "stem": "Pieces 0.6–5 cm thick; young stems green and smooth with swollen nodes; older stems light brown with warty lenticels; cut surface shows a radial wheel-like structure with conspicuous medullary rays; taste bitter.",
+    "leaf": "Simple, alternate, cordate, 5–10 cm long, membranous, long-petioled.",
+    "flower": "Small, greenish-yellow, unisexual, in axillary or terminal racemes, appearing when the plant is leafless.",
+    "fruit": "Drupes, ovoid, red when ripe, in clusters.",
+    "seed": "Curved, single per drupe.",
+    "bark": "Thin, papery, creamy to grey-brown outer bark that peels off, with warty lenticels.",
+    "identification_points": [
+      "Wheel-like radial pattern on cut stem",
+      "Warty lenticels on light brown papery bark",
+      "Long thread-like aerial roots",
+      "Heart-shaped leaves; red drupes",
+      "Strongly bitter taste"
+    ]
   },
   "images": {
     "whole_plant": "",
@@ -80,12 +94,19 @@
       "Vatarakta",
       "Prameha"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Rasayana",
+      "Jwaraghna",
+      "Deepana",
+      "Sangrahi",
+      "Tridoshashamaka",
+      "Kushtaghna"
+    ],
     "dose": "Churna 3–6 g; kwatha 20–30 g drug; sattva 1–2 g",
-    "anupana": "",
+    "anupana": "Ghee in Vata, sugar in Pitta, honey in Kapha, castor oil in Vatarakta and shunthi in Amavata (classical anupana of Guduchi).",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "May lower blood glucose; monitor with antidiabetic drugs. Use with care with immunosuppressants and in autoimmune disease. Use authenticated Tinospora cordifolia stem.",
+    "contraindications": "Avoid in pregnancy and lactation without advice; avoid in severe constipation."
   },
   "formulations": [
     {
@@ -128,34 +149,86 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "tinosporin",
+      "berberine",
+      "palmatine",
+      "magnoflorine",
+      "cordifolioside A",
+      "tinosporaside",
+      "columbin"
+    ],
+    "chemical_notes": "The stem contains clerodane diterpenoids (tinosporaside, columbin), protoberberine and aporphine alkaloids (berberine, palmatine, magnoflorine) and glycosides."
   },
   "modern_information": {
     "evidence_summary": "Divine herb for immunity, detox and chronic fevers.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Jwara, including Jirna and Vishama Jwara",
+      "Vatarakta and Amavata",
+      "Kamala, Pandu and Prameha",
+      "Kushta",
+      "Rasayana use"
+    ],
+    "safety_notes": "Generally well tolerated; isolated reports of liver injury exist, often linked to misidentified species or concentrated products. Monitor glucose in diabetics.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Tinospora cordifolia (Willd.) Hook.f. & Thomson, family Menispermaceae",
+      "Useful part: stem",
+      "Rasa tikta, kashaya; guna laghu; virya ushna; vipaka madhura",
+      "Tridoshashamaka; agrya as Sangrahi, Vatahara, Deepaniya, Shleshmashonita-vibandha-prashamana (Charaka)",
+      "Guduchi sattva is its starch extract",
+      "Formulations: Amritarishta, Guduchi Sattva, Guduchyadi Churna, Amritottara Kwatha",
+      "Dose: churna 3–6 g; kwatha from 20–30 g drug"
+    ],
+    "viva_questions": [
+      "Why is Guduchi called Chinnaruha?",
+      "What is Guduchi sattva and how is it prepared?",
+      "Give the rasa-panchaka of Guduchi.",
+      "State the anupana of Guduchi in different doshas.",
+      "Name three formulations of Guduchi."
+    ],
+    "identification_points": [
+      "Wheel-like cut surface",
+      "Warty papery bark",
+      "Bitter taste"
+    ],
     "mnemonics": [],
     "quick_revision": "Divine herb for immunity, detox and chronic fevers."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Guduchi as a tridoshahara rasayana",
+      "Preparation of Guduchi sattva",
+      "Anupana-bheda of Guduchi"
+    ],
+    "discussion_points": [
+      "Guduchi grown on Neem (Nimba Guduchi) and its claimed superiority",
+      "Safety reports and species misidentification"
+    ],
+    "practical_points": [
+      "Prepare Guduchi sattva in the laboratory",
+      "Identify stem pieces by transverse section"
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Bitter tridoshahara stem for Jwara, Vatarakta, Kamala, Prameha and Kushta; ushna, madhura vipaka; churna 3–6 g, sattva 1–2 g.",
+    "important_indications": [
+      "Jwara",
+      "Vatarakta",
+      "Kamala",
+      "Prameha",
+      "Kushta"
+    ],
     "useful_part": "stem",
     "dose": "Churna 3–6 g; kwatha 20–30 g drug; sattva 1–2 g",
-    "anupana": "",
-    "key_precautions": []
+    "anupana": "Ghee in Vata, sugar in Pitta, honey in Kapha, castor oil in Vatarakta and shunthi in Amavata (classical anupana of Guduchi).",
+    "key_precautions": [
+      "Monitor glucose with antidiabetic drugs",
+      "Caution in autoimmune disease",
+      "Use authenticated stem only"
+    ]
   },
   "sources": [
     {

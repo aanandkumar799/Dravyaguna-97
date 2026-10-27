@@ -4,7 +4,7 @@
   "identity": {
     "name": "Pippali",
     "sanskrit_name": "पिप्पली",
-    "transliteration": "",
+    "transliteration": "Pippalī",
     "botanical_name": "Piper longum L.",
     "family": "Piperaceae",
     "english_name": "Long Pepper",
@@ -26,20 +26,25 @@
   "classification": {
     "kingdom": "Plantae",
     "habit": "Slender aromatic perennial climber/undershrub",
-    "habitat": "",
-    "distribution": ""
+    "habitat": "Moist shady evergreen forests and cultivated in humid areas.",
+    "distribution": "Hotter parts of India from the central Himalaya to Assam, lower hills of West Bengal and evergreen forests of the Western Ghats; cultivated in North-East and South India."
   },
   "identification": {
     "description": "Cylindrical dark fruit spikes formed by fused berries, characteristically aromatic and pungent.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
+    "whole_plant": "Slender, aromatic, creeping or climbing undershrub with perennial woody roots and jointed stems.",
+    "root": "Perennial, woody, cylindrical roots and root-stock, used as Pippalimula; pungent.",
+    "stem": "Slender, jointed, creeping or climbing stems, swollen at nodes and rooting there.",
+    "leaf": "Simple, alternate; lower leaves broadly ovate-cordate and petiolate, upper ones oblong and nearly sessile; 5–9 nerved.",
+    "flower": "Unisexual flowers in dense cylindrical spikes; male spikes slender and long, female spikes shorter and thicker.",
+    "fruit": "Catkin-like fruit greenish-black to black, cylindrical, 2.5–5 cm long and 0.4–1 cm thick, made of minute sessile fruitlets around an axis; taste pungent causing numbness, odour aromatic.",
+    "seed": "Minute seeds embedded singly in the fused berries.",
     "bark": "",
-    "identification_points": []
+    "identification_points": [
+      "Cylindrical catkin-like spike, 2.5–5 cm long",
+      "Rough surface of many minute fused fruitlets",
+      "Cross section shows central axis with 6–12 fruitlets",
+      "Pungent taste causing numbness of the tongue"
+    ]
   },
   "images": {
     "whole_plant": "",
@@ -92,12 +97,21 @@
       "Amavata",
       "Agnimandya"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Deepana",
+      "Pachana",
+      "Rasayana",
+      "Vrishya",
+      "Kasahara",
+      "Shwasahara",
+      "Rechana",
+      "Pleehahara"
+    ],
     "dose": "Churna 1–3 g (fruit); Pippalimula churna 0.5–1 g",
-    "anupana": "",
+    "anupana": "Madhu (honey) in Kasa and Shwasa; Ksheera (milk) in Vardhamana Pippali Rasayana",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Prolonged or excessive use is cautioned in classics (Charaka advises against continuous use except as Rasayana); it may aggravate Pitta in high doses.",
+    "contraindications": "Amlapitta, Raktapitta and other Pitta-predominant states; caution in pregnancy in medicinal doses; piperine may raise blood levels of some medicines."
   },
   "formulations": [
     {
@@ -131,34 +145,82 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "Piperine",
+      "Piperlongumine (piplartine)",
+      "Pipernonaline",
+      "Sylvatine and other amide alkaloids",
+      "Essential oil (caryophyllene, pentadecane)"
+    ],
+    "chemical_notes": "API lists essential oil and alkaloids; piperine and piperlongumine are the principal amide alkaloids."
   },
   "modern_information": {
     "evidence_summary": "Long pepper is a powerful stimulant for the digestive and respiratory systems. It is a key ingredient in the Trikatu formula.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Respiratory and digestive stimulant in traditional systems",
+      "Bioenhancer component of Trikatu",
+      "Spice"
+    ],
+    "safety_notes": "Generally safe in the stated dose; piperine may alter the metabolism of co-administered drugs.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Pippali = Piper longum L., family Piperaceae",
+      "Useful part: dried fruit (spike); root is Pippalimula",
+      "Rasa Katu; Guna Laghu, Snigdha, Tikshna; Virya Anushnasheeta; Vipaka Madhura",
+      "Karma: Deepana, Rasayana, Vrishya, Kasa-Shwasahara, Pleehahara",
+      "Vardhamana Pippali Rasayana: dose increased and decreased daily",
+      "Member of Trikatu and Chaturushana (with Pippalimula)",
+      "Formulations: Pippalyasava, Trikatu Churna, Chyavanaprasha"
+    ],
+    "viva_questions": [
+      "Why is Pippali called Anushnasheeta?",
+      "What is Vardhamana Pippali?",
+      "What is the difference between Trikatu and Chaturushana?",
+      "Which part is Pippalimula?"
+    ],
+    "identification_points": [
+      "Black cylindrical spike",
+      "Fused fruitlets",
+      "Pungent with numbness"
+    ],
     "mnemonics": [],
     "quick_revision": "Long pepper is a powerful stimulant for the digestive and respiratory systems. It is a key ingredient in the Trikatu formula."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Pippali as a Katu drug with Madhura Vipaka and Rasayana action.",
+      "Explain Vardhamana Pippali Rasayana protocol.",
+      "Compare fruit and root (Pippalimula) actions."
+    ],
+    "discussion_points": [
+      "Exceptions to the Rasa-Vipaka rule",
+      "Pippali as Yogavahi and bioenhancer"
+    ],
+    "practical_points": [
+      "Cut a spike transversely and count fruitlets.",
+      "Compare Pippali and Maricha specimens."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Pippali (Piper longum fruit): Katu, Madhura Vipaka, Anushnasheeta; Rasayana, Deepana; for Kasa, Shwasa, Pleeha, Jwara; 1–3 g with honey.",
+    "important_indications": [
+      "Kasa",
+      "Shwasa",
+      "Pleeharoga",
+      "Jwara",
+      "Agnimandya",
+      "Amavata"
+    ],
     "useful_part": "fruit",
     "dose": "Churna 1–3 g (fruit); Pippalimula churna 0.5–1 g",
-    "anupana": "",
-    "key_precautions": []
+    "anupana": "Madhu (honey) in Kasa and Shwasa; Ksheera (milk) in Vardhamana Pippali Rasayana",
+    "key_precautions": [
+      "Avoid prolonged continuous use outside Rasayana protocol",
+      "Caution in Pitta states",
+      "Possible drug interactions via piperine"
+    ]
   },
   "sources": [
     {

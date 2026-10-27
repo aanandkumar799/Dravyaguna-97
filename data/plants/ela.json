@@ -4,7 +4,7 @@
   "identity": {
     "name": "Ela",
     "sanskrit_name": "एला",
-    "transliteration": "",
+    "transliteration": "Elā",
     "botanical_name": "Elettaria cardamomum (L.) Maton",
     "family": "Zingiberaceae",
     "english_name": "Small Cardamom",
@@ -25,20 +25,26 @@
   "classification": {
     "kingdom": "Plantae",
     "habit": "Perennial rhizomatous herb 2–4 m with leafy pseudostems; panicles arise from base",
-    "habitat": "",
-    "distribution": ""
+    "habitat": "Moist, shaded evergreen forests at about 600–1500 m; grown as a shade-loving plantation crop.",
+    "distribution": "Native to the Western Ghats; cultivated mainly in Kerala, Karnataka and Tamil Nadu."
   },
   "identification": {
     "description": "Small aromatic greenish-yellow capsules containing numerous dark angular seeds.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
+    "whole_plant": "Tall perennial herb (2–4 m) with a thick underground rhizome and erect leafy pseudostems formed by overlapping leaf sheaths.",
+    "root": "Thick, fleshy, branched rhizome bearing fibrous roots; not a used part.",
+    "stem": "Aerial \"stem\" is a pseudostem of sheathing leaf bases; the true stem is the creeping rhizome.",
+    "leaf": "Distichous, lanceolate leaves 30–90 cm long with sheathing bases and a short ligule, dark green above and paler beneath.",
+    "flower": "Flowers on long panicles arising from the base of the pseudostem near the ground; corolla pale greenish-white with a white labellum streaked violet or pink.",
+    "fruit": "Fruit 1–2 cm long, ovoid or oblong, more or less three-sided with rounded angles, greenish to pale buff, shortly beaked, trilocular, each containing about 15–20 seeds adhering in a compact mass.",
+    "seed": "Seed dark brown to black, about 4 mm long, irregularly angular, transversely wrinkled, with a longitudinal channel for the raphe and a thin membranous aril; strongly aromatic.",
     "bark": "",
-    "identification_points": []
+    "identification_points": [
+      "Small, three-sided greenish trilocular capsule",
+      "Dark brown angular, transversely wrinkled seeds in compact masses",
+      "Seeds enclosed in a thin colourless aril",
+      "Strong pleasant aromatic odour",
+      "Panicles arise from the base of the leafy pseudostem"
+    ]
   },
   "images": {
     "root": "",
@@ -90,12 +96,21 @@
       "Kasa",
       "Shwasa"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Deepana",
+      "Pachana",
+      "Chhardighna",
+      "Mutrala",
+      "Hridya",
+      "Mukhashodhaka",
+      "Anulomana",
+      "Kasa-Shwasahara"
+    ],
     "dose": "Seed churna 250–500 mg (API)",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Generally well tolerated in culinary and pharmacopoeial doses; use whole, well-stored capsules as the volatile oil is lost from exposed powder. Large amounts may irritate in hyperacidity.",
+    "contraindications": "Known hypersensitivity. Use cautiously in gallstone colic, where aromatic spice therapy is conventionally avoided."
   },
   "formulations": [
     {
@@ -143,34 +158,84 @@
     "verification_note": "The independently supported Bhavaprakasha passage is used; the Gemini quotation was not retained."
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "1,8-Cineole",
+      "α-Terpinyl acetate",
+      "Linalool",
+      "Limonene",
+      "α-Terpineol"
+    ],
+    "chemical_notes": "The seeds owe their aroma to an essential oil dominated by 1,8-cineole and α-terpinyl acetate, which is lost on prolonged storage of powdered seed."
   },
   "modern_information": {
     "evidence_summary": "Improves digestion, relieves nausea and freshens breath.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Carminative and anti-nausea agent",
+      "Mouth freshener for halitosis",
+      "Flavouring corrigent in many formulations, e.g. Sitopaladi Churna"
+    ],
+    "safety_notes": "Regarded as safe in food amounts; occasional contact allergy is reported. Medicinal use should follow pharmacopoeial doses.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Botanical name: Elettaria cardamomum (Sukshma Ela); Family: Zingiberaceae",
+      "Useful part: seeds and dried fruit capsule",
+      "Rasa: Katu-Madhura; Guna: Laghu-Ruksha; Virya: Sheeta; Vipaka: Madhura",
+      "Key karma: Chhardighna, Mukhashodhaka, Mutrala, Deepana",
+      "Member of Trijata and Chaturjata",
+      "Differentiate from Brihat Ela (Amomum subulatum, large cardamom)",
+      "Formulations: Eladi Churna, Eladi Modaka, Sitopaladi Churna (API)",
+      "Dose: seed churna 250–500 mg (API)"
+    ],
+    "viva_questions": [
+      "What is the botanical source of Sukshma Ela?",
+      "How do you differentiate Sukshma Ela from Brihat Ela?",
+      "Name the drugs of Trijata and Chaturjata.",
+      "State the Rasa-Panchaka of Ela.",
+      "Name two API formulations containing Ela."
+    ],
+    "identification_points": [
+      "Three-sided greenish capsule",
+      "Dark angular wrinkled seeds",
+      "Membranous aril",
+      "Strong aroma"
+    ],
     "mnemonics": [],
     "quick_revision": "Improves digestion, relieves nausea and freshens breath."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Compare Sukshma Ela (Elettaria cardamomum) with Brihat Ela (Amomum subulatum) by capsule size, colour and aroma.",
+      "Explain Ela as a Chhardighna and Mukhashodhaka drug and its role in Trijata/Chaturjata."
+    ],
+    "discussion_points": [
+      "Why Ela is used as a flavouring corrigent in many churnas.",
+      "Loss of volatile oil on storage and its effect on drug quality."
+    ],
+    "practical_points": [
+      "Open a capsule to show three locules and seeds in rows.",
+      "Examine the seed surface and aril under a hand lens."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Sukshma Ela is a Sheeta, Madhura-vipaka aromatic used for Chhardi, Aruchi, Mukhadurgandhya, Kasa-Shwasa and Mutrakrichhra; seed churna 250–500 mg.",
+    "important_indications": [
+      "Chhardi",
+      "Mukhadurgandhya",
+      "Aruchi",
+      "Kasa",
+      "Shwasa",
+      "Mutrakrichhra"
+    ],
     "useful_part": "fruit/seed",
     "dose": "Seed churna 250–500 mg (API)",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": [
+      "Use fresh whole capsules for potency",
+      "Caution in hyperacidity with large amounts",
+      "Caution in gallstone colic"
+    ]
   },
   "sources": [
     {

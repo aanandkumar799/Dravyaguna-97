@@ -4,12 +4,18 @@
   "identity": {
     "name": "Kumkum",
     "sanskrit_name": "कुङ्कुम",
-    "transliteration": "",
+    "transliteration": "Kuṅkuma",
     "botanical_name": "Crocus sativus L.",
     "family": "Iridaceae",
     "english_name": "Saffron",
     "hindi_name": "केसर",
-    "regional_names": [],
+    "regional_names": [
+      "Kashmiri: Kong, Kongposh",
+      "Marathi: Keshar",
+      "Tamil: Kunkumappu",
+      "Urdu: Zafran",
+      "Bengali: Jafran"
+    ],
     "synonyms": [
       "Kesara (केसर)",
       "Kashmiraka (काश्मीरक)",
@@ -21,17 +27,17 @@
   "classification": {
     "kingdom": "Plantae",
     "habit": "Perennial cormous herb (sterile triploid cultigen)",
-    "habitat": "",
-    "distribution": ""
+    "habitat": "Cool, dry, sunny highlands with well-drained loamy soil; grown in open fields (karewas).",
+    "distribution": "Cultivated in India mainly in Kashmir (Pampore) and to a small extent in Himachal Pradesh; also Iran and Spain."
   },
   "identification": {
     "description": "Dark reddish-orange tri-fid thread-like stigmas attached to a short yellow style top, intensely aromatic sweet odor, colors water or saliva deep golden-yellow.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
+    "whole_plant": "Small perennial cormous herb, 10–30 cm high, flowering in autumn; propagated only by corms as it is a sterile triploid.",
+    "root": "Fibrous adventitious roots arise from the base of the corm; contractile roots pull the corm down in the soil.",
+    "stem": "Underground globose corm, 2–5 cm across, covered with fibrous brown tunics; no aerial stem.",
+    "leaf": "Narrow, linear, grass-like leaves with a white mid-stripe, appearing with or just after the flowers.",
+    "flower": "Lilac to purple funnel-shaped flower with six tepals, three yellow stamens and a long style ending in three deep red stigmas, which with the style top form the drug.",
+    "fruit": "Fruit (capsule) is not formed in the sterile cultivated plant.",
     "seed": "",
     "bark": "",
     "identification_points": [
@@ -104,37 +110,37 @@
     "dose": "25–50 mg",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Use in the small dose stated; large doses (several grams) are toxic and can cause uterine bleeding, vomiting and giddiness. Adulteration with dyed fibres, safflower or corn silk is common, so authenticate before use.",
+    "contraindications": "Pregnancy (large doses are emmenagogue and abortifacient), bleeding disorders; use with caution alongside anticoagulant or antidepressant medicines."
   },
   "formulations": [
     {
       "name": "Kumkumadi Taila",
-      "dosage_form": "",
+      "dosage_form": "Taila",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Kumkumadi Lehya",
-      "dosage_form": "",
+      "dosage_form": "Lehya",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Kesaradi Churna",
-      "dosage_form": "",
+      "dosage_form": "Churna",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Chandanadi Vati",
-      "dosage_form": "",
+      "dosage_form": "Vati",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Kasturyadi Gutika",
-      "dosage_form": "",
+      "dosage_form": "Gutika",
       "indication": "",
       "reference": ""
     }
@@ -162,34 +168,80 @@
     }
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "Crocin (water-soluble carotenoid glycoside)",
+      "Crocetin",
+      "Picrocrocin (bitter principle)",
+      "Safranal (aroma principle of the volatile oil)"
+    ],
+    "chemical_notes": "Crocin gives the colour, picrocrocin the bitter taste and safranal the aroma; these three define commercial saffron quality."
   },
   "modern_information": {
     "evidence_summary": "Saffron used for complexion, mood elevation, and female fertility.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Spice and natural colouring agent",
+      "Traditional use for complexion and skin care",
+      "Studied for mood and premenstrual symptoms"
+    ],
+    "safety_notes": "Culinary amounts are well tolerated; doses of several grams can cause toxicity and are unsafe in pregnancy. Adulteration is frequent in the market.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Kumkuma = Crocus sativus L., family Iridaceae",
+      "Useful part: dried stigma with style top (Keshara)",
+      "Rasa Tikta, Katu; Guna Snigdha, Laghu; Virya Ushna; Vipaka Katu",
+      "Karma: Varnya, Hridya, Vedanasthapana, Artavajanana, Vishaghna",
+      "Indicated in Vyanga, Mukhadushika, Shirahshoola, Artavadushti",
+      "Dose: 25–50 mg",
+      "Formulation: Kumkumadi Taila (for Vyanga and complexion)"
+    ],
+    "viva_questions": [
+      "Which part of Crocus sativus is used as Kumkuma?",
+      "Name the chemical responsible for the colour of saffron.",
+      "How will you detect adulteration of saffron in water?",
+      "Name a classical oil containing Kumkuma and its use."
+    ],
+    "identification_points": [
+      "Thread-like dark red trifid stigmas",
+      "Short yellow style attached",
+      "Colours water golden-yellow slowly without leaving colour streaks of dye"
+    ],
     "mnemonics": [],
     "quick_revision": "Saffron used for complexion, mood elevation, and female fertility."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Explain why saffron is propagated only by corms (sterile triploid).",
+      "Demonstrate genuine versus adulterated saffron.",
+      "Relate Varnya karma to the use of Kumkumadi Taila in Vyanga."
+    ],
+    "discussion_points": [
+      "Adulteration of costly drugs and quality control",
+      "Dose-dependent safety of an emmenagogue drug"
+    ],
+    "practical_points": [
+      "Float a few strands on water and observe slow diffusion of yellow colour.",
+      "Examine stigma shape under a hand lens."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Kumkuma (Crocus sativus stigma): Ushna, Varnya and Hridya; used in Vyanga, headache and menstrual disorders; 25–50 mg.",
+    "important_indications": [
+      "Vyanga",
+      "Mukhadushika",
+      "Shirahshoola",
+      "Artavadushti",
+      "Hridroga"
+    ],
     "useful_part": "stigma",
     "dose": "25–50 mg",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": [
+      "Avoid large doses and use in pregnancy",
+      "Authenticate; adulteration is common",
+      "Caution in bleeding disorders"
+    ]
   },
   "sources": [
     {

@@ -4,7 +4,7 @@
   "identity": {
     "name": "Vatsanabha",
     "sanskrit_name": "वत्सनाभ",
-    "transliteration": "",
+    "transliteration": "Vatsanābha",
     "botanical_name": "Aconitum ferox Wall. ex Ser.",
     "family": "Ranunculaceae",
     "english_name": "Monkshood / Indian Aconite",
@@ -25,19 +25,19 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Erect perennial herb, 1–2 m tall, arising from paired tuberous roots.",
+    "habitat": "Alpine and sub-alpine meadows and scrub of the Himalaya, about 3,000–5,000 m.",
+    "distribution": "Temperate and alpine Himalaya: Kashmir, Himachal Pradesh, Uttarakhand, Sikkim and Nepal."
   },
   "identification": {
     "description": "Conical tuberous root resembling a calf's navel, dark brown exterior with longitudinal wrinkles, whitish or pinkish internal fracture; highly toxic in unpurified state.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
+    "whole_plant": "Tall erect herb with deeply palmately divided leaves and a terminal raceme of blue to purple helmet-shaped flowers, from paired dark tubers.",
+    "root": "Paired, ovoid-conical tuberous roots tapering to a point, 2–4.5 cm long and 0.4–1.8 cm thick, wrinkled, dark brown to blackish-brown with root scars; fracture cartilaginous, white within the cambium ring; taste slightly bitter followed by strong tingling and numbness; poisonous (API).",
+    "stem": "Erect, stout, unbranched or sparsely branched leafy stem.",
+    "leaf": "Alternate, long-petioled leaves, palmately deeply divided into 3–5 lobed and toothed segments.",
+    "flower": "Zygomorphic, blue to purple flowers in terminal racemes; the upper sepal forms a hood or helmet.",
+    "fruit": "Cluster of 3–5 follicles.",
+    "seed": "Many small, angular or winged seeds.",
     "bark": "",
     "identification_points": [
       "Conical tuberous root resembling a calf's navel, dark brown exterior with longitudinal wrinkles, whitish or pinkish internal fracture; highly toxic in unpurified state."
@@ -110,39 +110,39 @@
     "dose": "15–30 mg (shodhita only; API) — after shodhana only",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Highly poisonous Sthavara visha (Kanda visha). Use internally ONLY after classical shodhana (gomutra bhavana for 3 days, or Dola yantra swedana in gomutra or godugdha) and only in the API dose of 15–30 mg of shodhita drug, almost always within a formulation. Exceeding the dose is dangerous. Ashodhita Vatsanabha, even in small amounts, can cause tingling and numbness of mouth and limbs, vomiting, hypotension, arrhythmias and death. To be prescribed only by a qualified physician; never for self-medication.",
+    "contraindications": "Ashodhita (unpurified) drug in any form; pregnancy and lactation; children and the elderly or debilitated; heart disease, arrhythmias or hypotension; Pitta-predominant conditions, Raktapitta and Daha; hot season and use with heat exposure; patients with poor Agni or debility; long-term use."
   },
   "formulations": [
     {
       "name": "Tribhuvan Kirti Rasa",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
+      "dosage_form": "Rasaushadhi (Vati)",
+      "indication": "Jwara, Pratishyaya",
+      "reference": "API Part I"
     },
     {
       "name": "Anand Bhairav Rasa",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
+      "dosage_form": "Rasaushadhi (Vati)",
+      "indication": "Atisara, Jwara",
+      "reference": "API Part I"
     },
     {
       "name": "Sanjivani Vati",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
+      "dosage_form": "Vati",
+      "indication": "Jwara, Ajirna, Visuchika",
+      "reference": "AFI"
     },
     {
       "name": "Mrityunjaya Rasa",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
+      "dosage_form": "Rasaushadhi (Vati)",
+      "indication": "Jwara",
+      "reference": "AFI"
     },
     {
       "name": "Mahavisagarbha Taila",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
+      "dosage_form": "Taila (external use only)",
+      "indication": "Vatavyadhi, Sandhishoola",
+      "reference": "API Part I"
     }
   ],
   "classical_reference": {
@@ -168,34 +168,87 @@
     }
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "Aconitine",
+      "Pseudaconitine",
+      "Indaconitine",
+      "Bikhaconitine",
+      "Chasmaconitine",
+      "Benzoylaconine (shodhana product)"
+    ],
+    "chemical_notes": "Toxicity is due to C19-diterpenoid ester alkaloids such as aconitine and pseudaconitine, which keep sodium channels open; shodhana partly hydrolyses them to far less toxic benzoyl derivatives."
   },
   "modern_information": {
     "evidence_summary": "Processed aconite, used in fevers, pain and digestion.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Ingredient of classical Rasaushadhis for fever and pain in very small doses",
+      "Studied for detoxification by shodhana",
+      "No safe use outside qualified practice"
+    ],
+    "safety_notes": "Aconite poisoning causes oral and limb paresthesia, vomiting, hypotension, ventricular arrhythmias and can be fatal; there is no specific antidote. Raw roots must never be consumed.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Botanical name: Aconitum ferox Wall. ex Ser. (API monograph: A. chasmanthum); Family: Ranunculaceae",
+      "Useful part: shodhita tuberous root",
+      "Rasa: Madhura; Guna: Laghu, Ruksha, Tikshna, Vikasi, Vyavayi; Virya: Ushna",
+      "Karma: Yogavahi, Jwarahara, Swedana, Vedanasthapana, Rasayana (after shodhana)",
+      "Sthavara Kanda visha; shodhana in gomutra is mandatory",
+      "Dose: 15–30 mg shodhita drug (API)",
+      "Toxic alkaloid: aconitine",
+      "Formulations: Tribhuvanakirti Rasa, Anandabhairava Rasa, Mahavishagarbha Taila"
+    ],
+    "viva_questions": [
+      "Describe the shodhana of Vatsanabha.",
+      "What is the dose of shodhita Vatsanabha?",
+      "What are the signs of aconite poisoning?",
+      "Name two formulations containing Vatsanabha.",
+      "Why is Vatsanabha called Yogavahi?"
+    ],
+    "identification_points": [
+      "Paired, conical tubers tapering to a point",
+      "Dark brown to blackish, wrinkled surface",
+      "White cartilaginous fracture",
+      "Tingling numbness on tasting (do not taste in class)",
+      "Helmet-shaped blue flowers"
+    ],
     "mnemonics": [],
     "quick_revision": "Processed aconite, used in fevers, pain and digestion."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Teach Vatsanabha as a visha dravya: shodhana, dose and toxicity first.",
+      "Explain how gomutra shodhana reduces aconitine toxicity.",
+      "Discuss the botanical source debate (A. ferox, A. chasmanthum and other Aconitum species)."
+    ],
+    "discussion_points": [
+      "Visha as Amrita: conditions under which a poison becomes medicine",
+      "Management of aconite poisoning"
+    ],
+    "practical_points": [
+      "Demonstrate the root only as a museum specimen; students must not taste it.",
+      "Demonstrate Vatsanabha shodhana in the Rasashastra practical."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Vatsanabha is a Sthavara visha used only after shodhana, 15–30 mg, mostly inside Rasaushadhis for Jwara, Vatavyadhi and pain; ashodhita drug or overdose can be fatal.",
+    "important_indications": [
+      "Jwara (Sannipata, Vatakaphaja)",
+      "Vatavyadhi",
+      "Sandhishoola and Amavata",
+      "Kasa and Shwasa"
+    ],
     "useful_part": "root/tuber",
     "dose": "15–30 mg (shodhita only; API) — after shodhana only",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": [
+      "Shodhana is mandatory before internal use",
+      "Never exceed 15–30 mg of shodhita drug",
+      "Avoid in pregnancy, children, heart disease and Pitta conditions",
+      "Monitor for tingling, vomiting, hypotension and arrhythmia",
+      "Prescription by a qualified physician only"
+    ]
   },
   "sources": [
     {

@@ -9,7 +9,15 @@
     "family": "Poaceae",
     "english_name": "Vetiver",
     "hindi_name": "खस",
-    "regional_names": [],
+    "regional_names": [
+      "Marathi: Vala",
+      "Gujarati: Valo",
+      "Bengali: Khaskhas",
+      "Tamil: Vettiver",
+      "Telugu: Vattiveru",
+      "Kannada: Lavancha",
+      "Malayalam: Ramacham"
+    ],
     "synonyms": [
       "Veerana",
       "Reshira",
@@ -66,7 +74,16 @@
       "Trishnahara",
       "Dahashamana"
     ],
-    "karma": []
+    "karma": [
+      "Dahaprashamana",
+      "Trishnanigrahana",
+      "Jwarahara",
+      "Chhardinigrahana",
+      "Pachana",
+      "Stambhana",
+      "Varnya",
+      "Kandughna"
+    ]
   },
   "dosha": {
     "vata": "pacified",
@@ -93,14 +110,37 @@
     "anupana": "",
     "duration": "",
     "precautions": "Use authenticated root; avoid presenting traditional diuretic descriptions as established clinical efficacy.",
-    "contraindications": ""
+    "contraindications": "Kaphaja disorders with heaviness and cold, and Vataja conditions with chill, because the drug is Sheeta."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Ushirasava",
+      "dosage_form": "Asava",
+      "indication": "Raktapitta, Daha",
+      "reference": "AFI"
+    },
+    {
+      "name": "Chandanasava",
+      "dosage_form": "Asava",
+      "indication": "Mutrakrichhra, Prameha",
+      "reference": "AFI"
+    },
+    {
+      "name": "Shadanga Paniya",
+      "dosage_form": "Paniya (Kwatha)",
+      "indication": "Jwara, Trishna",
+      "reference": "AFI"
+    }
+  ],
   "classical_reference": {
-    "shlokas": [],
-    "nighantu_references": [],
+    "shlokas": [
+      "उशीरं पाचनं शीतं स्तम्भनं लघु तिक्तकम्।\nमधुरं ज्वरहृद्वान्तिमदनुत् कफपित्तहृत्॥\nतृष्णास्रविषवीसर्पदाहकृच्छ्रव्रणापहम्॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Karpuradi Varga"
+    ],
     "samhita_references": [],
-    "shloka_reference_status": "exact verse/edition requires text-level verification",
+    "shloka_reference_status": "added_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ]
@@ -113,7 +153,11 @@
   },
   "modern_information": {
     "evidence_summary": "Vetiver roots are valued for aroma and have been studied for volatile constituents and several experimental properties; clinical conclusions require specific preparations and evidence.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Cooling drink and summer heat (Ushira jala)",
+      "Aromatic oil in perfumery",
+      "Burning micturition (traditional)"
+    ],
     "safety_notes": "Authenticate roots and distinguish crude root from essential oil preparations.",
     "sources": []
   },

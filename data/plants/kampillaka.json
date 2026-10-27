@@ -89,23 +89,28 @@
       "Gulma",
       "Udararoga"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Virechana",
+      "Krimighna",
+      "Kushtaghna",
+      "Vranashodhana"
+    ],
     "dose": "Churna 0.5–1 g (after shodhana)",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "A strong purgative; use only after shodhana and within the stated dose under supervision. Can cause griping, nausea and vomiting.",
+    "contraindications": "Pregnancy, children, the elderly and debilitated, and in Atisara, Grahani, Arsha with bleeding and other inflammatory bowel conditions."
   },
   "formulations": [
     {
       "name": "Dhanvantara Ghrita",
-      "dosage_form": "",
+      "dosage_form": "Ghrita",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Mishraka Sneha",
-      "dosage_form": "",
+      "dosage_form": "Sneha",
       "indication": "",
       "reference": ""
     }
@@ -128,7 +133,11 @@
   },
   "modern_information": {
     "evidence_summary": "Kampillaka is a traditional crude drug obtained from the glandular fruit surface. Modern evidence should be interpreted by preparation and indication.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Traditional anthelmintic for tapeworm",
+      "Purgative",
+      "Source of the orange dye kamala"
+    ],
     "safety_notes": "Authenticate the reddish glandular material and do not infer dose from crude appearance alone.",
     "sources": []
   },

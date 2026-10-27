@@ -86,12 +86,17 @@
       "Indralupta",
       "Keshapata"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Keshya",
+      "Raktastambhana",
+      "Hridya",
+      "Grahi"
+    ],
     "dose": "",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Authenticate the red single-flowered form traditionally used; ornamental hybrids vary in composition.",
+    "contraindications": "Avoid in pregnancy and in those trying to conceive; flowers are traditionally reported to have antifertility and emmenagogue effects."
   },
   "formulations": [],
   "classical_reference": {
@@ -113,7 +118,11 @@
   },
   "modern_information": {
     "evidence_summary": "Hibiscus rosa-sinensis is primarily known as an ornamental species and is also represented in traditional medicinal literature. Evidence for specific clinical uses should be assessed preparation by preparation.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Hair oils and hair-care preparations",
+      "Ornamental plant",
+      "Traditional use in menorrhagia"
+    ],
     "safety_notes": "Botanical cultivar variation is substantial; authenticate the material used for medicinal purposes.",
     "sources": []
   },
@@ -139,7 +148,7 @@
     "mnemonics": [
       "Japa = Hibiscus: think of the large showy flower and staminal column."
     ],
-    "quick_revision": "Japa (Hibiscus rosa-sinensis) is a Malvaceae shrub with large axillary flowers; flower is the listed useful part in this project record."
+    "quick_revision": "Japa (Hibiscus rosa-sinensis) is a Malvaceae shrub with large axillary flowers; flower is the listed useful part."
   },
   "teacher": {
     "teaching_points": [
@@ -156,7 +165,7 @@
     ]
   },
   "doctor": {
-    "quick_reference": "Japa — Hibiscus rosa-sinensis L.; flower is the useful part in this project record, with traditional indications including Pradara and hair-related uses.",
+    "quick_reference": "Japa — Hibiscus rosa-sinensis L.; flower is the useful part, with traditional indications including Pradara and hair-related uses.",
     "important_indications": [
       "Raktapitta",
       "Pradara",

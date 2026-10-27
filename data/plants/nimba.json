@@ -4,12 +4,20 @@
   "identity": {
     "name": "Nimba",
     "sanskrit_name": "निम्ब",
-    "transliteration": "",
+    "transliteration": "Nimba",
     "botanical_name": "Azadirachta indica A. Juss.",
     "family": "Meliaceae",
     "english_name": "Neem / Margosa Tree",
     "hindi_name": "नीम",
-    "regional_names": [],
+    "regional_names": [
+      "Bengali: Nim",
+      "Gujarati: Limdo, Kadvo Limbdo",
+      "Marathi: Kadunimb, Limba",
+      "Tamil: Veppu, Vembu",
+      "Telugu: Vepa",
+      "Kannada: Bevu",
+      "Malayalam: Veppu"
+    ],
     "synonyms": [
       "Picumarda",
       "Arishta",
@@ -21,20 +29,26 @@
   "classification": {
     "kingdom": "Plantae",
     "habit": "Evergreen tree",
-    "habitat": "",
-    "distribution": ""
+    "habitat": "Dry deciduous and thorn forests, roadsides and villages; tolerant of poor and dry soils.",
+    "distribution": "Throughout India up to about 900 m, wild and widely planted, especially in dry regions."
   },
   "identification": {
     "description": "Large evergreen tree with pinnate leaves, serrated leaflets, small fragrant white flowers and yellow ripe drupes.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": "",
-    "identification_points": []
+    "whole_plant": "Moderate-sized to large evergreen tree, 12–15 m high, with a stout trunk and wide spreading crown.",
+    "root": "Deep, strong tap root with lateral roots.",
+    "stem": "Stout straight trunk with spreading branches; wood reddish-brown and hard.",
+    "leaf": "Imparipinnate (or paripinnate) compound leaves, rachis 15–25 cm; leaflets opposite, lanceolate, oblique at base, serrate, 7–8.5 cm long; taste bitter.",
+    "flower": "Small white, fragrant, honey-scented flowers in axillary drooping panicles.",
+    "fruit": "Ovoid one-seeded drupe, green turning yellow on ripening, with sweetish-bitter pulp.",
+    "seed": "Single ellipsoid seed with a hard shell enclosing an oily kernel (source of neem oil).",
+    "bark": "Bark thick, rough, fissured and rusty-grey outside; inner surface yellowish and laminated; fracture fibrous; taste bitter.",
+    "identification_points": [
+      "Pinnate leaves with oblique-based serrate leaflets",
+      "Intensely bitter taste of all parts",
+      "Small white fragrant flowers in panicles",
+      "Yellow one-seeded drupes",
+      "Rough fissured grey bark with fibrous fracture"
+    ]
   },
   "images": {
     "whole_plant": "",
@@ -89,12 +103,20 @@
       "Jwara",
       "Prameha"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Kushtaghna",
+      "Kandughna",
+      "Krimighna",
+      "Vranashodhana",
+      "Jwaraghna",
+      "Vishaghna",
+      "Grahi"
+    ],
     "dose": "Leaf churna 1–3 g; stem-bark churna 2–4 g",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Tikta-Ruksha and Sheeta; prolonged or high-dose internal use can aggravate Vata and cause weakness. Bark decoction is used mainly externally per API.",
+    "contraindications": "Neem seed oil must not be given internally to infants and children (reports of serious toxicity). Avoid internal use in pregnancy, in those trying to conceive and in marked Vata states or debility."
   },
   "formulations": [
     {
@@ -138,34 +160,84 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "Nimbin",
+      "Nimbidin",
+      "Nimbiol",
+      "Azadirachtin (seed)",
+      "Salannin",
+      "Quercetin and other flavonoids",
+      "Triterpenoids and sterols (beta-sitosterol)"
+    ],
+    "chemical_notes": "API lists triterpenoids and sterols in the leaf and the bitter principles nimbin and nimbiol in the bark; limonoids such as azadirachtin are concentrated in the seed."
   },
   "modern_information": {
-    "evidence_summary": "",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "evidence_summary": "Neem leaf, bark and seed extracts show antimicrobial, anti-inflammatory, antifungal and insecticidal activities in laboratory studies; human evidence is limited to small trials (e.g., dental and skin preparations).",
+    "recognized_uses": [
+      "Antiseptic in skin and oral care products",
+      "Neem oil and azadirachtin as natural insecticides",
+      "Traditional use in skin diseases and wounds"
+    ],
+    "safety_notes": "Neem oil ingestion has caused metabolic acidosis, seizures and encephalopathy in infants; leaf preparations should not be used long-term or in pregnancy without supervision.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Nimba = Azadirachta indica A. Juss., family Meliaceae",
+      "Useful parts: bark, leaf, seed oil, flower, fruit",
+      "Rasa Tikta, Kashaya; Guna Laghu, Ruksha; Virya Sheeta; Vipaka Katu",
+      "Karma: Kushtaghna, Kandughna, Krimighna, Vranashodhana, Jwaraghna",
+      "Vatala; indicated in Kushta, Vrana, Krimi, Prameha, Jwara",
+      "Bitter principles: nimbin, nimbidin; seed: azadirachtin",
+      "Formulations: Nimbadi Churna, Panchatikta Ghrita Guggulu, Jatyadi Taila"
+    ],
+    "viva_questions": [
+      "Name the active bitter principles of Nimba.",
+      "Which dosha does Nimba aggravate and why?",
+      "Why is neem oil not given orally to infants?",
+      "Name two formulations containing Nimba for skin disease."
+    ],
+    "identification_points": [
+      "Pinnate leaves, serrate oblique leaflets",
+      "Bitter taste",
+      "Rusty-grey fissured bark"
+    ],
     "mnemonics": [],
-    "quick_revision": ""
+    "quick_revision": "Nimba (Azadirachta indica, Meliaceae): Tikta-Kashaya, Sheeta, Vatala; the classical Kushtaghna, Krimighna and Vranashodhana drug."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Use Nimba as the model Tikta, Sheeta, Kushtaghna drug.",
+      "Contrast Nimba (Melia azadirachta) with Mahanimba (Melia azedarach).",
+      "Discuss uses of different parts: leaf, bark, oil, flower."
+    ],
+    "discussion_points": [
+      "Tikta rasa and Vata aggravation",
+      "Safety of neem oil in children"
+    ],
+    "practical_points": [
+      "Compare leaflets of Nimba and Mahanimba.",
+      "Observe laminated inner surface and fibrous fracture of bark."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Nimba (Azadirachta indica): Tikta-Kashaya, Sheeta; Kushtaghna, Krimighna, Vranashodhana; leaf churna 1–3 g, bark churna 2–4 g; Vatala.",
+    "important_indications": [
+      "Kushta",
+      "Kandu",
+      "Vrana",
+      "Krimi",
+      "Prameha",
+      "Jwara"
+    ],
     "useful_part": "bark/leaf",
     "dose": "Leaf churna 1–3 g; stem-bark churna 2–4 g",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": [
+      "Never give neem oil orally to infants",
+      "Avoid internal use in pregnancy",
+      "Long use may aggravate Vata"
+    ]
   },
   "sources": [
     {

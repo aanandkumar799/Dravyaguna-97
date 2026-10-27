@@ -4,7 +4,7 @@
   "identity": {
     "name": "Vacha",
     "sanskrit_name": "वचा",
-    "transliteration": "",
+    "transliteration": "Vacā",
     "botanical_name": "Acorus calamus L.",
     "family": "Acoraceae",
     "english_name": "Sweet Flag / Calamus",
@@ -25,18 +25,18 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Perennial semi-aquatic, aromatic herb with a creeping branched rhizome and sword-shaped leaves.",
+    "habitat": "Marshy places, banks of streams, ponds and wet fields.",
+    "distribution": "Throughout India up to about 2,200 m in the Himalaya, especially Manipur, Nagaland and the North-East; widely cultivated."
   },
   "identification": {
     "description": "Sub-cylindrical tortuous branched rhizomes marked with triangular leaf scars and rootlets, brownish exterior and whitish spongy interior, strong peculiar aromatic odor and warm pungent bitter taste.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
+    "whole_plant": "Iris-like marsh herb with a stout, aromatic, horizontally creeping rhizome and tufts of erect sword-shaped leaves.",
+    "root": "Numerous fibrous roots arise from the lower side of the rhizome, leaving tubercular root scars.",
+    "stem": "Rhizome sub-cylindrical to slightly flattened, 0.5–1.5 cm thick, tortuous; upper side with alternate triangular leaf scars almost encircling it, lower side with tubercular root scars; light brown with reddish tinge outside, buff inside; fracture short; aromatic, pungent and bitter (API).",
+    "leaf": "Ensiform (sword-shaped) leaves up to about 1 m long with a prominent midrib and wavy margin, aromatic when crushed.",
+    "flower": "Minute yellowish-green flowers packed on a cylindrical spadix 5–10 cm long, borne laterally on a leaf-like scape.",
+    "fruit": "Small berries; rarely formed in India.",
     "seed": "",
     "bark": "",
     "identification_points": [
@@ -106,41 +106,41 @@
       "Unmadahara"
     ],
     "dose": "Churna 60–120 mg (API; after shodhana only); 1–2 g for vamana",
-    "anupana": "",
+    "anupana": "Madhu (honey) or Ksheera (milk) for Medhya use",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Ushna-Tikshna drug with emetic action in larger doses: use only in prescribed dose and preferably after shodhana. Avoid long-term or high-dose use; the β-asarone content of tetraploid (Indian) chemotypes is a safety concern. Use cautiously in Pitta disorders.",
+    "contraindications": "Pregnancy and lactation, Raktapitta and bleeding states, Pitta-predominant conditions, and young children except in small classical doses under supervision."
   },
   "formulations": [
     {
       "name": "Saraswata Churna",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
+      "dosage_form": "Churna",
+      "indication": "Smritidaurbalya, Unmada, Apasmara",
+      "reference": "API Part I"
     },
     {
       "name": "Vachadi Churna",
-      "dosage_form": "",
-      "indication": "",
+      "dosage_form": "Churna",
+      "indication": "Agnimandya, Adhmana",
       "reference": ""
     },
     {
       "name": "Brahmi Ghrita",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
+      "dosage_form": "Ghrita",
+      "indication": "Unmada, Apasmara",
+      "reference": "AFI"
     },
     {
       "name": "Sanjivani Vati",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
+      "dosage_form": "Vati",
+      "indication": "Jwara, Ajirna, Visuchika",
+      "reference": "AFI"
     },
     {
       "name": "Vachadi Taila",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
+      "dosage_form": "Taila",
+      "indication": "Karnaroga, Vatavyadhi",
+      "reference": "API Part I"
     }
   ],
   "classical_reference": {
@@ -166,43 +166,89 @@
     }
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "β-Asarone",
+      "α-Asarone",
+      "Acorin (bitter glucoside)",
+      "Asaryl alcohol",
+      "Eugenol",
+      "Calamenol",
+      "Tannin",
+      "Starch"
+    ],
+    "chemical_notes": "The rhizome contains a volatile oil rich in asarones (especially β-asarone in Indian strains) plus the bitter glucoside acorin (API)."
   },
   "modern_information": {
     "evidence_summary": "Sweet flag is a powerful herb for the mind, improving speech, intelligence, and clearing toxins from the nervous system.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Nervine, memory and speech in traditional practice",
+      "Carminative and emetic",
+      "Hoarseness of voice (Swarabheda)"
+    ],
+    "safety_notes": "β-Asarone has shown toxicity and carcinogenicity in animal studies; oral use should be short-term, in low doses and on professional advice.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Botanical name: Acorus calamus L.; Family: Acoraceae (earlier Araceae)",
+      "Useful part: rhizome",
+      "Rasa: Katu, Tikta; Guna: Laghu, Tikshna; Virya: Ushna; Vipaka: Katu",
+      "Karma: Medhya, Vamaka, Dipana, Kanthya, Krimihara, Vatakaphahara (API)",
+      "Synonyms: Ugragandha, Shadgrantha, Golomi",
+      "Constituents: asarone, acorin",
+      "Formulations: Sarasvata Churna, Sarasvatarishta, Manasamitra Vataka, Vacha-Lasunadi Taila"
+    ],
+    "viva_questions": [
+      "Why is Vacha called Ugragandha and Shadgrantha?",
+      "Give the botanical name and family of Vacha.",
+      "State the Rasa-panchaka of Vacha.",
+      "Name two Medhya formulations containing Vacha.",
+      "What is the safety concern with Vacha oil?"
+    ],
+    "identification_points": [
+      "Tortuous sub-cylindrical rhizome",
+      "Triangular leaf scars on upper side",
+      "Tubercular root scars below",
+      "Light brown outside, buff inside",
+      "Strong aromatic odour, pungent-bitter taste"
+    ],
     "mnemonics": [],
     "quick_revision": "Sweet flag is a powerful herb for the mind, improving speech, intelligence, and clearing toxins from the nervous system."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [
-      "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 76 record merged; source object retained verbatim under gemini_source_data."
+    "teaching_points": [
+      "Relate the synonym Shadgrantha to the nodes on the rhizome.",
+      "Teach Vacha as Medhya and Vamaka, with dose-dependent action.",
+      "Discuss shodhana of Vacha before internal use."
     ],
-    "practical_points": []
+    "discussion_points": [
+      "Medhya action of Vacha and its place in Saraswata preparations",
+      "Why dose limits and shodhana matter for Vacha (vamaka at higher doses)"
+    ],
+    "practical_points": [
+      "Examine the rhizome for leaf and root scars, colour, odour and taste.",
+      "Show a fresh plant with sword-shaped leaves and spadix."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Vacha rhizome (Katu-Tikta, Ushna, Tikshna) is a Medhya, Vamaka and Kanthya drug used in Unmada, Apasmara, Swarabheda and Agnimandya; small doses, short term, preferably shodhita.",
+    "important_indications": [
+      "Apasmara",
+      "Unmada",
+      "Smritidaurbalya",
+      "Swarabheda",
+      "Agnimandya",
+      "Adhmana"
+    ],
     "useful_part": "rhizome",
     "dose": "Churna 60–120 mg (API; after shodhana only); 1–2 g for vamana",
-    "anupana": "",
-    "key_precautions": []
+    "anupana": "Madhu (honey) or Ksheera (milk) for Medhya use",
+    "key_precautions": [
+      "Keep to prescribed dose; emetic in larger dose",
+      "Avoid in pregnancy",
+      "Avoid long-term use (β-asarone)",
+      "Caution in Pitta and bleeding states"
+    ]
   },
   "sources": [
     {

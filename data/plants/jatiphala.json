@@ -4,7 +4,7 @@
   "identity": {
     "name": "Jatiphala",
     "sanskrit_name": "जातिफल",
-    "transliteration": "",
+    "transliteration": "Jātīphala",
     "botanical_name": "Myristica fragrans Houtt.",
     "family": "Myristicaceae",
     "english_name": "Nutmeg",
@@ -25,20 +25,25 @@
   "classification": {
     "kingdom": "Plantae",
     "habit": "Evergreen aromatic tree",
-    "habitat": "",
-    "distribution": ""
+    "habitat": "Humid tropical evergreen settings; grown in plantations and home gardens on well-drained soils.",
+    "distribution": "Native to the Moluccas; cultivated in India mainly in Kerala, Tamil Nadu and parts of Karnataka and Assam."
   },
   "identification": {
     "description": "Ovoid hard seed with marbled/ruminate brown endosperm and strong characteristic aromatic odor; mace is the separate aril.",
-    "whole_plant": "",
+    "whole_plant": "Dioecious (occasionally monoecious) aromatic evergreen tree, about 10–20 m high, with dense conical crown.",
     "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": "",
-    "identification_points": []
+    "stem": "Erect trunk with greyish-brown smooth bark; branches spreading, exuding reddish sap when cut.",
+    "leaf": "Simple, alternate, elliptic to oblong-lanceolate, glossy dark green above, paler below, aromatic when crushed.",
+    "flower": "Small, pale yellow, urn-shaped unisexual flowers in axillary umbellate clusters; perianth 3-lobed.",
+    "fruit": "Fleshy, pear-shaped to globose yellow drupe-like fruit that splits into two valves to expose the seed covered by a crimson lacinate aril (mace, Jatipatri).",
+    "seed": "Seed (kernel) ellipsoid, 20–30 mm long and about 20 mm broad, greenish-brown and reticulately furrowed outside; cut surface shows dark brown ruminations of perisperm in greyish-brown endosperm; odour strong aromatic, taste pungent and aromatic.",
+    "bark": "Smooth, greyish-brown bark exuding a reddish juice when cut.",
+    "identification_points": [
+      "Ellipsoid kernel, 2–3 cm long, reticulately furrowed",
+      "Cut surface shows marbled (ruminate) endosperm",
+      "Strong aromatic odour and pungent taste",
+      "Crimson lacinate aril (mace) surrounds the fresh seed"
+    ]
   },
   "images": {
     "root": "",
@@ -90,17 +95,24 @@
       "Pinas",
       "Kaphavata disorders"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Deepana",
+      "Grahi",
+      "Rochana",
+      "Mukhadaurgandhyanashaka",
+      "Kaphavatahara",
+      "Vrishya"
+    ],
     "dose": "Churna 0.5–1 g",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Use only in the recommended small dose; larger amounts of nutmeg are narcotic and can cause nausea, palpitations, dizziness and hallucinations. Being Ushna and Tikshna, it may aggravate Pitta.",
+    "contraindications": "Pregnancy and lactation, young children, Pitta-predominant conditions and bleeding disorders; avoid with sedatives or psychoactive medicines."
   },
   "formulations": [
     {
       "name": "Jatiphaladi Churna",
-      "dosage_form": "",
+      "dosage_form": "Churna",
       "indication": "",
       "reference": ""
     }
@@ -119,34 +131,80 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "Essential oil (sabinene, alpha- and beta-pinene, myristicin, elemicin, safrole, eugenol)",
+      "Fixed oil (nutmeg butter, rich in trimyristin)",
+      "Lignans and neolignans (macelignan)",
+      "Starch and protein"
+    ],
+    "chemical_notes": "API lists essential oil and fixed oil; myristicin and elemicin in the volatile oil are responsible for the psychoactive toxicity of large doses."
   },
   "modern_information": {
     "evidence_summary": "Nutmeg is an aromatic stimulant used for improving digestion, inducing sleep, and relieving pain.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Spice and flavouring agent",
+      "Carminative and antidiarrhoeal in traditional systems",
+      "Source of nutmeg oil and nutmeg butter"
+    ],
+    "safety_notes": "Nutmeg intoxication (anticholinergic-like symptoms, agitation, hallucinations, tachycardia) is reported after ingestion of several grams; keep doses within the pharmacopoeial range.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Jatiphala = Myristica fragrans Houtt., family Myristicaceae",
+      "Useful part: seed kernel; aril is the separate drug Jatipatri (mace)",
+      "Rasa Tikta, Katu; Guna Laghu, Tikshna; Virya Ushna; Vipaka Katu",
+      "Karma: Deepana, Grahi, Rochana, Mukhadaurgandhyanashaka, Kaphavatahara",
+      "Indicated in Atisara, Grahani, Mukharoga, Kasa, Shwasa",
+      "Dose: churna 0.5–1 g; large doses are narcotic (myristicin)",
+      "Formulation: Jatiphaladi Churna"
+    ],
+    "viva_questions": [
+      "What is the difference between Jatiphala and Jatipatri?",
+      "What gives the cut nutmeg its marbled appearance?",
+      "Why is the dose of Jatiphala kept small?",
+      "Name a formulation containing Jatiphala used in Atisara."
+    ],
+    "identification_points": [
+      "Ellipsoid reticulately furrowed kernel",
+      "Ruminate (marbled) endosperm on section",
+      "Strong aromatic odour, pungent taste"
+    ],
     "mnemonics": [],
     "quick_revision": "Nutmeg is an aromatic stimulant used for improving digestion, inducing sleep, and relieving pain."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Show one plant yielding two drugs: seed (Jatiphala) and aril (Jatipatri).",
+      "Link Grahi action to its use in Atisara and Grahani.",
+      "Explain dose-dependent toxicity using myristicin as an example."
+    ],
+    "discussion_points": [
+      "Spice versus medicine: dose makes the difference",
+      "Ruminate endosperm as a diagnostic character"
+    ],
+    "practical_points": [
+      "Cut a kernel transversely and observe ruminations.",
+      "Compare the seed with mace and note colour and odour."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Jatiphala (Myristica fragrans seed): Ushna, Tikshna, Grahi and Deepana drug for Atisara, Grahani and Kapha-Vata disorders; 0.5–1 g churna.",
+    "important_indications": [
+      "Atisara",
+      "Grahani",
+      "Mukharoga",
+      "Kasa",
+      "Shwasa"
+    ],
     "useful_part": "seed",
     "dose": "Churna 0.5–1 g",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": [
+      "Do not exceed 1 g churna; narcotic in large doses",
+      "Avoid in pregnancy and in children",
+      "May aggravate Pitta"
+    ]
   },
   "sources": [
     {

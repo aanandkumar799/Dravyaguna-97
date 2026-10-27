@@ -64,7 +64,15 @@
       "Nidrajanana",
       "rasayan"
     ],
-    "karma": []
+    "karma": [
+      "Medhya",
+      "Rasayana",
+      "Smritiprada",
+      "Manasarogahara",
+      "Apasmarahara",
+      "Sara",
+      "Vrishya"
+    ]
   },
   "dosha": {
     "vata": "pacified",
@@ -87,12 +95,37 @@
       "Calming traditional context"
     ],
     "dose": "Churna 3–6 g; Swarasa 10–20 ml",
-    "anupana": "",
+    "anupana": "Ksheera (milk)",
     "duration": "",
     "precautions": "Botanical identity is important because several plants are marketed under Shankhapushpi.",
-    "contraindications": ""
+    "contraindications": "Hypotension and concurrent sedative or antiepileptic medicines without medical advice."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Brahma Rasayana",
+      "dosage_form": "Avaleha",
+      "indication": "Rasayana, Medhya",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Brahmi Ghrita",
+      "dosage_form": "Ghrita",
+      "indication": "Unmada, Apasmara",
+      "reference": "AFI"
+    },
+    {
+      "name": "Manasamitra Vataka",
+      "dosage_form": "Vati",
+      "indication": "Manasa roga, Unmada",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Agastya Haritaki Rasayana",
+      "dosage_form": "Avaleha",
+      "indication": "Kasa, Shwasa",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -110,7 +143,11 @@
   },
   "modern_information": {
     "evidence_summary": "Convolvulus pluricaulis is traditionally described as a medhya drug and has been investigated experimentally for neuropharmacological properties; clinical conclusions require preparation-specific evidence.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Memory and learning (nootropic)",
+      "Anxiety and insomnia",
+      "Adjunct in epilepsy (traditional)"
+    ],
     "safety_notes": "Confirm botanical identity before using commercial Shankhapushpi preparations.",
     "sources": []
   },
@@ -160,7 +197,7 @@
     ],
     "useful_part": "whole plant",
     "dose": "Churna 3–6 g; Swarasa 10–20 ml",
-    "anupana": "",
+    "anupana": "Ksheera (milk)",
     "key_precautions": [
       "Confirm botanical identity",
       "Do not extrapolate experimental evidence to clinical efficacy"

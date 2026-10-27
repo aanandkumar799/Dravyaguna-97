@@ -98,9 +98,22 @@
     "anupana": "",
     "duration": "",
     "precautions": "Use authenticated stem bark and avoid equating traditional stone-related use with guaranteed stone dissolution.",
-    "contraindications": ""
+    "contraindications": "Pregnancy (insufficient safety data); obstructive uropathy needing surgical care should not rely on Varuna alone."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Varunadi Kwatha",
+      "dosage_form": "Kwatha",
+      "indication": "Ashmari, Mutrakrichhra",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Varunadi Ghrita",
+      "dosage_form": "Ghrita",
+      "indication": "Ashmari, Gulma",
+      "reference": "AFI"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -118,7 +131,10 @@
   },
   "modern_information": {
     "evidence_summary": "Crataeva nurvala has been investigated for urinary and phytochemical properties; evidence should be interpreted by preparation and study design.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Urinary stones and urinary tract disorders",
+      "Prostatic enlargement and urinary retention (traditional)"
+    ],
     "safety_notes": "Urinary obstruction or suspected stones require appropriate clinical assessment; do not substitute herbal use for evaluation of acute symptoms.",
     "sources": []
   },

@@ -9,7 +9,14 @@
     "family": "Fabaceae",
     "english_name": "Fenugreek",
     "hindi_name": "मेथी",
-    "regional_names": [],
+    "regional_names": [
+      "Marathi: Methi",
+      "Bengali: Methi",
+      "Tamil: Vendayam",
+      "Telugu: Menthulu",
+      "Kannada: Menthya",
+      "Malayalam: Uluva"
+    ],
     "synonyms": [
       "Peetabeeja",
       "Bahuputrika",
@@ -96,18 +103,18 @@
     "anupana": "",
     "duration": "",
     "precautions": "Excessive intake may cause gastrointestinal effects; clinical use should follow an appropriate reference.",
-    "contraindications": ""
+    "contraindications": "Pregnancy in medicinal doses (uterine stimulant); peanut or chickpea allergy (possible cross-reactivity); caution with anticoagulants and antidiabetic medicines."
   },
   "formulations": [
     {
       "name": "Mustakarishta",
-      "dosage_form": "",
+      "dosage_form": "Arishta",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Mritasanjivani Sura",
-      "dosage_form": "",
+      "dosage_form": "Sura (fermented)",
       "indication": "",
       "reference": ""
     }
@@ -131,7 +138,11 @@
   },
   "modern_information": {
     "evidence_summary": "Fenugreek has been investigated for glycaemic, lipid, digestive and lactation-related outcomes. Evidence varies by preparation and study design, so this record does not treat these findings as established clinical indications.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Spice and leafy vegetable",
+      "Traditional galactagogue",
+      "Studied for glycaemic and lipid control"
+    ],
     "safety_notes": "May affect glucose levels and may interact with medicines; gastrointestinal effects and allergy are possible.",
     "sources": []
   },

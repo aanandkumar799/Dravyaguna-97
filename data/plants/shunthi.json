@@ -4,7 +4,7 @@
   "identity": {
     "name": "Shunthi",
     "sanskrit_name": "शुण्ठी",
-    "transliteration": "",
+    "transliteration": "Śuṇṭhī",
     "botanical_name": "Zingiber officinale Roscoe",
     "family": "Zingiberaceae",
     "english_name": "Dry Ginger",
@@ -24,21 +24,27 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Perennial rhizomatous herb with leafy pseudostems 30–90 cm tall.",
+    "habitat": "Cultivated in warm, humid tropical areas on well-drained loamy soil.",
+    "distribution": "Cultivated throughout India, chiefly in Kerala, Karnataka, Odisha, Meghalaya and the North-East."
   },
   "identification": {
     "description": "Dried, buff to light-grey, branched rhizome with characteristic aromatic pungency.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
+    "whole_plant": "Herb with an aromatic branched rhizome and erect leafy shoots formed of rolled leaf sheaths.",
+    "root": "Fibrous adventitious roots arise from the lower surface of the rhizome.",
+    "stem": "The true stem is the horizontal rhizome: laterally compressed, with short flattish ovate branches on the upper side, buff coloured externally with longitudinal striations, fracture short, aromatic and pungent (API); aerial shoot is a pseudostem of leaf sheaths.",
+    "leaf": "Distichous, linear-lanceolate, sessile leaves 15–30 cm long with sheathing bases.",
+    "flower": "Flowers in dense cone-like spikes on a separate scape; corolla greenish-yellow with a purple lip; flowering is rare in cultivation.",
+    "fruit": "Fruit is a capsule, rarely formed in cultivation.",
     "seed": "",
     "bark": "",
-    "identification_points": []
+    "identification_points": [
+      "Laterally compressed, branched rhizome pieces",
+      "Buff colour with longitudinal striations",
+      "Short fracture showing scattered vascular bundles and yellow secretory cells",
+      "Agreeable aromatic odour",
+      "Pungent taste"
+    ]
   },
   "images": {
     "whole_plant": "",
@@ -89,12 +95,20 @@
       "Kasa",
       "Shoola"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Deepana",
+      "Pachana",
+      "Anulomana",
+      "Amadoshahara",
+      "Vatakaphahara",
+      "Hridya",
+      "Vrishya"
+    ],
     "dose": "Churna 1–2 g",
-    "anupana": "",
+    "anupana": "Ushna jala (warm water); with Guda in Amavata",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Ushna-Tikshna drug: use cautiously in Pitta-predominant states, Raktapitta, Amlapitta, Daha and bleeding tendencies, and in summer. Large doses may cause heartburn.",
+    "contraindications": "Raktapitta and active bleeding, severe Amlapitta and peptic ulcer, Pittaja Jwara with burning; use cautiously with anticoagulant medicines."
   },
   "formulations": [
     {
@@ -129,34 +143,89 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "Gingerols ([6]-gingerol)",
+      "Shogaols ([6]-shogaol)",
+      "Zingerone",
+      "Zingiberene",
+      "β-Bisabolene",
+      "Starch",
+      "Oleo-resin"
+    ],
+    "chemical_notes": "Pungency is due to gingerols, which convert to the more pungent shogaols on drying; the aroma comes from the sesquiterpene-rich essential oil."
   },
   "modern_information": {
     "evidence_summary": "Dry ginger is known as the 'universal medicine'. It aids digestion, reduces inflammation, and pacifies Vata and Kapha.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Nausea and vomiting, including motion sickness",
+      "Digestive and carminative use",
+      "Joint pain and inflammatory conditions (traditional)"
+    ],
+    "safety_notes": "Generally safe in culinary amounts; higher doses can cause heartburn and may add to the effect of anticoagulant and antiplatelet drugs.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
-    "mnemonics": [],
+    "exam_points": [
+      "Botanical name: Zingiber officinale Roscoe; Family: Zingiberaceae",
+      "Useful part: dried rhizome (Shunthi); fresh rhizome is Ardraka",
+      "Rasa: Katu; Guna: Laghu, Snigdha; Virya: Ushna; Vipaka: Madhura",
+      "Karma: Deepana, Pachana, Anulomana, Amadoshahara, Vatakaphahara (API)",
+      "Called Vishvabheshaja and Mahaushadha",
+      "Constituents: gingerols and shogaols",
+      "Formulations: Trikatu Churna, Saubhagya Shunthi, Vaishvanara Churna"
+    ],
+    "viva_questions": [
+      "What is the difference between Shunthi and Ardraka?",
+      "State the Rasa-panchaka of Shunthi.",
+      "Why is Shunthi called Vishvabheshaja?",
+      "Name the components of Trikatu.",
+      "Which compounds give ginger its pungency?"
+    ],
+    "identification_points": [
+      "Flattened branched rhizome",
+      "Buff surface with striations",
+      "Short fracture",
+      "Aromatic odour",
+      "Pungent taste"
+    ],
+    "mnemonics": [
+      "Trikatu = Shunthi + Maricha + Pippali"
+    ],
     "quick_revision": "Dry ginger is known as the 'universal medicine'. It aids digestion, reduces inflammation, and pacifies Vata and Kapha."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Contrast Shunthi (dry) and Ardraka (fresh) in properties and uses.",
+      "Explain the exception: Katu rasa with Madhura vipaka and Snigdha guna.",
+      "Show Shunthi as the key Amapachana drug in Amavata."
+    ],
+    "discussion_points": [
+      "Why Shunthi is Vrishya and Snigdha unlike other Katu dravyas",
+      "Evidence for ginger in nausea and vomiting"
+    ],
+    "practical_points": [
+      "Examine rhizome pieces for shape, colour, fracture, odour and taste.",
+      "Prepare Trikatu Churna in the pharmacy practical."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Shunthi (Katu, Ushna, Madhura vipaka, Laghu-Snigdha) is the chief Deepana-Pachana and Amapachana drug for Agnimandya, Amavata, Adhmana and Kapha-Vata disorders; 1–2 g churna.",
+    "important_indications": [
+      "Agnimandya",
+      "Amavata",
+      "Adhmana",
+      "Chhardi",
+      "Kasa",
+      "Shwasa"
+    ],
     "useful_part": "rhizome",
     "dose": "Churna 1–2 g",
-    "anupana": "",
-    "key_precautions": []
+    "anupana": "Ushna jala (warm water); with Guda in Amavata",
+    "key_precautions": [
+      "Caution in Pitta states and Raktapitta",
+      "Avoid high doses in Amlapitta",
+      "Caution with anticoagulants"
+    ]
   },
   "sources": [
     {

@@ -4,12 +4,19 @@
   "identity": {
     "name": "Twak",
     "sanskrit_name": "त्वक्",
-    "transliteration": "",
+    "transliteration": "Tvak",
     "botanical_name": "Cinnamomum verum J.Presl",
     "family": "Lauraceae",
     "english_name": "Cinnamon",
     "hindi_name": "दालचीनी",
-    "regional_names": [],
+    "regional_names": [
+      "Marathi: Dalchini",
+      "Bengali: Darchini",
+      "Tamil: Lavangappattai",
+      "Telugu: Lavangapatta",
+      "Kannada: Lavangapatte",
+      "Malayalam: Karuvapatta"
+    ],
     "synonyms": [
       "Darusita",
       "Utkata",
@@ -19,21 +26,27 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Small evergreen tree, 6–15 m tall, coppiced in cultivation as a bushy shrub.",
+    "habitat": "Tropical evergreen forests and plantations on sandy, well-drained soil in humid climates.",
+    "distribution": "Native to Sri Lanka and South India; cultivated in Kerala, Karnataka and Tamil Nadu (Western Ghats)."
   },
   "identification": {
     "description": "Thin inner bark, usually in rolled or quilled pieces, yellowish-brown and strongly aromatic.",
-    "whole_plant": "",
+    "whole_plant": "Aromatic evergreen tree with thick, leathery, opposite, three-nerved leaves and small yellowish flowers in panicles.",
     "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
+    "stem": "Woody stem with thick, aromatic bark; young shoots of coppiced plants provide the drug.",
+    "leaf": "Opposite, ovate to elliptic, coriaceous leaves 7–18 cm long with three prominent longitudinal nerves; young leaves reddish; aromatic when crushed.",
+    "flower": "Small, pale yellowish, silky flowers in axillary or terminal panicles.",
+    "fruit": "Ovoid, dark purple, one-seeded berry about 1–1.5 cm long, seated on an enlarged perianth cup.",
     "seed": "",
-    "bark": "",
-    "identification_points": []
+    "bark": "Dried inner bark, about 0.5 mm thick, in single or double compound quills; outer surface dull yellowish-brown with pale wavy lines, inner surface darker; fracture splintery; fragrant odour; sweet, aromatic taste with warmth (API).",
+    "identification_points": [
+      "Thin, brittle bark in packed compound quills",
+      "Dull yellowish-brown outer surface with pale wavy lines",
+      "Splintery fracture",
+      "Fragrant odour",
+      "Sweet, warm aromatic taste"
+    ]
   },
   "images": {
     "whole_plant": "",
@@ -87,12 +100,20 @@
       "Kasa",
       "Pinasa"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Kaphavatahara",
+      "Vishaghna",
+      "Kanthashuddhikara",
+      "Ruchya",
+      "Deepana",
+      "Pachana",
+      "Mukhashodhana"
+    ],
     "dose": "Churna 1–3 g",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Ushna-Tikshna drug: use in small doses and cautiously in Pitta disorders and bleeding states. Cassia bark (C. cassia) has much higher coumarin than true cinnamon; prolonged high doses should be avoided.",
+    "contraindications": "Raktapitta and bleeding disorders, Pitta-predominant conditions with burning, pregnancy in medicinal doses, and known cinnamon allergy."
   },
   "formulations": [
     {
@@ -141,34 +162,89 @@
     "verification_note": "The Gemini-submitted Twak quotation was not found in the checked Bhavaprakasha recensions and was replaced by the independently supported passage."
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "Cinnamaldehyde",
+      "Eugenol",
+      "Cinnamyl acetate",
+      "Linalool",
+      "Coumarin (traces)",
+      "Procyanidins (tannin)",
+      "Mucilage"
+    ],
+    "chemical_notes": "The aroma and taste come from the essential oil, mainly cinnamaldehyde with some eugenol; tannins and mucilage are also present (API)."
   },
   "modern_information": {
     "evidence_summary": "Stimulates digestion, circulation and balances kapha dosha.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Flavouring and carminative",
+      "Oral freshener and Mukhashodhana",
+      "Ingredient of Chaturjata and Trijata"
+    ],
+    "safety_notes": "Safe in culinary amounts; concentrated oil can irritate skin and mucosa, and cassia-type bark used in high doses for long periods may affect the liver because of coumarin.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
-    "mnemonics": [],
+    "exam_points": [
+      "Botanical name: Cinnamomum verum J.Presl (syn. C. zeylanicum); Family: Lauraceae",
+      "Useful part: inner stem bark",
+      "Rasa: Katu, Tikta, Madhura; Guna: Laghu, Ruksha, Tikshna; Virya: Ushna; Vipaka: Katu",
+      "Karma: Kaphavatahara, Kanthashuddhikara, Ruchya, Vishaghna (API)",
+      "Member of Trijata (Twak, Ela, Patra) and Chaturjata (+ Nagakeshara)",
+      "Main constituent: cinnamaldehyde",
+      "Formulations: Sitopaladi Churna, Chaturjata Churna"
+    ],
+    "viva_questions": [
+      "What is Trijata and Chaturjata?",
+      "Give the botanical name and family of Twak.",
+      "Which part of the plant is Twak and how is it identified?",
+      "Name two formulations containing Twak.",
+      "What is the chief constituent of cinnamon bark oil?"
+    ],
+    "identification_points": [
+      "Compound quills",
+      "Yellowish-brown, thin bark",
+      "Splintery fracture",
+      "Fragrant odour",
+      "Sweet warm taste"
+    ],
+    "mnemonics": [
+      "Trijata = Twak + Ela + Tejapatra; add Nagakeshara for Chaturjata"
+    ],
     "quick_revision": "Stimulates digestion, circulation and balances kapha dosha."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Distinguish true cinnamon (C. verum) from cassia (C. cassia).",
+      "Explain Trijata and Chaturjata groups.",
+      "Use Twak to teach bark as a crude drug."
+    ],
+    "discussion_points": [
+      "Adulteration of Twak with cassia bark",
+      "Coumarin content and safety of cinnamon products"
+    ],
+    "practical_points": [
+      "Compare quills of true cinnamon and cassia by thickness, colour and taste.",
+      "Prepare Sitopaladi Churna."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Twak (inner bark of Cinnamomum verum; Katu-Tikta-Madhura, Ushna) is a Kaphavatahara, Ruchya and Mukhashodhana drug used in Kasa, Pinasa, Agnimandya and mouth disorders; 1–3 g churna.",
+    "important_indications": [
+      "Kasa",
+      "Pinasa",
+      "Agnimandya",
+      "Mukharoga and Mukhadurgandhya",
+      "Trishna",
+      "Krimi"
+    ],
     "useful_part": "bark",
     "dose": "Churna 1–3 g",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": [
+      "Caution in Pitta and bleeding states",
+      "Avoid high medicinal doses in pregnancy",
+      "Avoid prolonged high doses of cassia-type bark"
+    ]
   },
   "sources": [
     {

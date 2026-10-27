@@ -102,7 +102,7 @@
     "dose": "Whole plant 20–50 g for decoction; root 5–10 g (API); Apamarga Kshara 0.5–2 g",
     "anupana": "Not populated",
     "duration": "Not populated",
-    "precautions": "Clinical use and dose should be formulation-specific and supervised; do not infer a dose from this educational record.",
+    "precautions": "Clinical use and dose should be formulation-specific and supervised; do not infer a dose without a qualified physician.",
     "contraindications": "No universal contraindication statement added without source-level verification."
   },
   "formulations": [
@@ -135,12 +135,21 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
+    "major_constituents": [
+      "Saponins (oleanolic acid glycosides)",
+      "Ecdysterone (phytoecdysteroid)",
+      "Achyranthine (water-soluble alkaloid)",
+      "Betaine"
+    ],
     "chemical_notes": "Not populated in this pass; pharmacopoeial identity is prioritized over unsourced constituent lists."
   },
   "modern_information": {
     "evidence_summary": "The official pharmacopoeial draft identifies Apāmārga Pañcāṅga as the dried whole plant of Achyranthes aspera L. Traditional medicinal uses are documented in AYUSH educational material, but individual claims should not be treated as proof of clinical efficacy.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Source of Apamarga Kshara used in Kshara karma and Ksharasutra for Arsha and Bhagandara",
+      "Traditional use of root as a dantadhavana (tooth-stick)",
+      "Studied for diuretic, anti-inflammatory and antifertility activities in experimental models"
+    ],
     "safety_notes": "This dossier is educational. Traditional indications and pharmacopoeial identity do not establish efficacy for a specific patient or replace diagnosis and treatment.",
     "sources": [
       "PCIM&H Ayurvedic Pharmacopoeia of India draft monograph",

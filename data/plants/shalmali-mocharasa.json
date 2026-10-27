@@ -9,7 +9,14 @@
     "family": "Malvaceae",
     "english_name": "Silk Cotton Tree Resin",
     "hindi_name": "सेमल",
-    "regional_names": [],
+    "regional_names": [
+      "Marathi: Sawar",
+      "Bengali: Shimul",
+      "Tamil: Ilavam",
+      "Telugu: Buruga",
+      "Kannada: Booruga",
+      "Malayalam: Mullilavu"
+    ],
     "synonyms": [
       "Shalmali Niryasa",
       "Pichhila",
@@ -97,9 +104,22 @@
     "anupana": "",
     "duration": "",
     "precautions": "Use authenticated exudate; avoid assuming all Bombax products are equivalent.",
-    "contraindications": ""
+    "contraindications": "Vibandha (constipation) and Ama, because Mocharasa is Stambhana and Guru."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Pushyanuga Churna",
+      "dosage_form": "Churna",
+      "indication": "Pradara, Atisara",
+      "reference": "AFI"
+    },
+    {
+      "name": "Sarsapadi Pralepa",
+      "dosage_form": "Lepa",
+      "indication": "Shotha, skin disorders (Shalmali bark)",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -117,7 +137,11 @@
   },
   "modern_information": {
     "evidence_summary": "Bombax ceiba is studied for phytochemical and traditional medicinal properties; evidence should be interpreted by plant part and preparation.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Diarrhoea and dysentery (astringent gum)",
+      "Menorrhagia and leucorrhoea (traditional)",
+      "Demulcent and wound use"
+    ],
     "safety_notes": "Authenticate Mocharasa and distinguish it from other plant gums.",
     "sources": []
   },

@@ -4,12 +4,20 @@
   "identity": {
     "name": "Vibhitaki",
     "sanskrit_name": "विभीतकी",
-    "transliteration": "",
+    "transliteration": "Vibhītakī",
     "botanical_name": "Terminalia bellirica (Gaertn.) Roxb.",
     "family": "Combretaceae",
     "english_name": "Beleric Myrobalan",
     "hindi_name": "बहेड़ा",
-    "regional_names": [],
+    "regional_names": [
+      "Marathi: Behada",
+      "Gujarati: Baheda",
+      "Bengali: Bahera",
+      "Tamil: Thanikkai",
+      "Telugu: Tani",
+      "Kannada: Tare",
+      "Malayalam: Thannikka"
+    ],
     "synonyms": [
       "Aksha",
       "Karshaphala",
@@ -19,21 +27,27 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Large deciduous tree, 20–30 m tall, with a straight buttressed trunk.",
+    "habitat": "Deciduous forests of the plains and lower hills, up to about 900 m.",
+    "distribution": "Throughout India except the arid west and high Himalaya."
   },
   "identification": {
-    "description": "",
-    "whole_plant": "",
+    "description": "Large deciduous tree whose dried ripe fruit (Vibhitaka) is used; fruit nearly spherical to ovoid, 2.5–4 cm, greyish-brown, astringent.",
+    "whole_plant": "Tall deciduous tree with leaves crowded at branch ends, long spikes of small foul-smelling flowers and velvety ovoid fruits.",
     "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": "",
-    "identification_points": []
+    "stem": "Straight trunk with bluish-grey or ash-coloured bark marked by fine longitudinal cracks.",
+    "leaf": "Alternate, broadly elliptic to obovate leaves, 10–20 cm long, clustered at the ends of branches, with long petioles.",
+    "flower": "Small, greenish-yellow, offensive-smelling flowers in axillary spikes, upper flowers male and lower bisexual.",
+    "fruit": "Nearly spherical to ovoid drupe, 2.5–4 cm across, obscurely five-angled; fresh ripe fruit silvery-pubescent, mature dried fruit grey or greyish-brown and slightly wrinkled; rind 3–5 mm thick; taste astringent (API).",
+    "seed": "Single seed inside a hard stony endocarp; kernel sweet and oily (Akshamajja), traditionally described as Madakari.",
+    "bark": "Bluish-grey to ash-coloured bark with fine longitudinal fissures.",
+    "identification_points": [
+      "Spherical to ovoid fruit, 2.5–4 cm",
+      "Grey to greyish-brown, slightly wrinkled, velvety surface",
+      "Rind 3–5 mm thick",
+      "Hard stony endocarp with one seed",
+      "Astringent taste"
+    ]
   },
   "images": {
     "whole_plant": "",
@@ -81,14 +95,41 @@
       "Netraroga",
       "Krimi"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Kaphapittajit",
+      "Bhedana",
+      "Krimighna",
+      "Chakshushya",
+      "Keshya",
+      "Kasahara",
+      "Swarya"
+    ],
     "dose": "Phala churna 3–6 g",
-    "anupana": "",
+    "anupana": "Madhu (honey) in Kasa and Swarabheda",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Ruksha and Kashaya drug: use cautiously in Vata-predominant constipation and dryness, and in debility. The seed kernel (majja) is Madakari; use only the pericarp unless a formulation specifies otherwise.",
+    "contraindications": "Pregnancy in high doses, severe debility and emaciation, and Vataja disorders with marked dryness unless combined with Snigdha drugs."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Triphala Churna",
+      "dosage_form": "Churna",
+      "indication": "Vibandha, Netraroga",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Triphaladi Taila",
+      "dosage_form": "Taila",
+      "indication": "Shiroroga, Netraroga",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Lavangadi Vati",
+      "dosage_form": "Vati",
+      "indication": "Kasa, Swarabheda",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [
       "बिभीतकस्त्रिलिङ्गः स्यादक्षः कर्षफलस्तु सः ।\nकलिद्रुमो भूतवासस्तथा कलियुगालयः ॥\nबिभीतकं स्वादुपाकं कषायं कफपित्तनुत् ।\nउष्णवीर्यं हिमस्पर्शं भेदनं कासनाशनम् ।\nरूक्षं नेत्रहितं केश्यं कृमिवैस्वर्यनाशनम् ॥"
@@ -104,34 +145,89 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "Gallic acid",
+      "Ellagic acid",
+      "Chebulagic acid",
+      "Tannic acid",
+      "β-Sitosterol",
+      "Belleric acid",
+      "Fixed oil (kernel)"
+    ],
+    "chemical_notes": "The pericarp is rich in hydrolysable tannins and phenolic acids (gallic and ellagic acids), explaining its astringent taste; the kernel contains a fixed oil (API: gallic acid, tannic acid, glycosides)."
   },
   "modern_information": {
     "evidence_summary": "The second fruit of Triphala, Bibhitaki is excellent for balancing Kapha dosha. It supports the respiratory system and purifies the blood.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Component of Triphala",
+      "Cough, hoarseness and throat disorders (traditional)",
+      "Constipation and eye disorders as part of Triphala"
+    ],
+    "safety_notes": "Generally well tolerated at usual doses; high doses may cause loose stools. Use in pregnancy only on medical advice.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
-    "mnemonics": [],
+    "exam_points": [
+      "Botanical name: Terminalia bellirica (Gaertn.) Roxb.; Family: Combretaceae",
+      "Useful part: fruit pericarp",
+      "Rasa: Kashaya; Guna: Laghu, Ruksha; Virya: Ushna; Vipaka: Madhura",
+      "Karma: Kaphapittajit, Bhedaka, Krimighna, Chakshushya, Keshya, Kasahara (API)",
+      "One of the three fruits of Triphala; seed (majja) is Madakari",
+      "Constituents: gallic acid, tannins",
+      "Formulations: Triphala Churna, Triphaladi Taila, Lavangadi Vati"
+    ],
+    "viva_questions": [
+      "Give the botanical name and family of Vibhitaki.",
+      "Which part is used and which part is Madakari?",
+      "State the Rasa-panchaka of Vibhitaki.",
+      "What are the components of Triphala and their ratio?",
+      "In which disorders is Vibhitaki especially used?"
+    ],
+    "identification_points": [
+      "Spherical-ovoid greyish fruit",
+      "Velvety, slightly wrinkled surface",
+      "Thick rind",
+      "Stony endocarp",
+      "Astringent taste"
+    ],
+    "mnemonics": [
+      "Triphala = Haritaki + Vibhitaki + Amalaki"
+    ],
     "quick_revision": "The second fruit of Triphala, Bibhitaki is excellent for balancing Kapha dosha. It supports the respiratory system and purifies the blood."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Compare the three Triphala fruits morphologically.",
+      "Explain Vibhitaki as Kasahara and Swarya.",
+      "Point out the Madakari seed and use of pericarp only."
+    ],
+    "discussion_points": [
+      "Kashaya rasa drug acting as Bhedana: reconciling the karma",
+      "Triphala proportions (equal versus 1:2:4)"
+    ],
+    "practical_points": [
+      "Identify Vibhitaki fruit against Haritaki and Amalaki.",
+      "Prepare Triphala Churna."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Vibhitaki fruit pericarp (Kashaya, Ushna, Madhura vipaka) is a Kaphapittahara, Kasahara, Chakshushya drug used in Kasa, Swarabheda, Netraroga and Vibandha; 3–6 g churna.",
+    "important_indications": [
+      "Kasa",
+      "Swarabheda",
+      "Netraroga",
+      "Chhardi",
+      "Krimi",
+      "Vibandha"
+    ],
     "useful_part": "fruit",
     "dose": "Phala churna 3–6 g",
-    "anupana": "",
-    "key_precautions": []
+    "anupana": "Madhu (honey) in Kasa and Swarabheda",
+    "key_precautions": [
+      "Use pericarp, not the Madakari seed",
+      "Caution in Vataja dryness and debility",
+      "High doses may cause loose stools"
+    ]
   },
   "sources": [
     {

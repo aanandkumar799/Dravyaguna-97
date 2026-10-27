@@ -4,7 +4,7 @@
   "identity": {
     "name": "Haritaki",
     "sanskrit_name": "हरीतकी",
-    "transliteration": "",
+    "transliteration": "Harītakī",
     "botanical_name": "Terminalia chebula Retz.",
     "family": "Combretaceae",
     "english_name": "Chebulic Myrobalan",
@@ -24,21 +24,26 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Moderate-sized to large deciduous tree, 15–25 m tall, with a rounded crown.",
+    "habitat": "Deciduous forests and open dry hill slopes, up to about 1,500 m.",
+    "distribution": "Throughout India, chiefly in deciduous forests of the sub-Himalayan tract, Central India and the Deccan."
   },
   "identification": {
     "description": "A key component of Triphala, Haritaki is a powerful rejuvenator and detoxifier, especially for Vata dosha. It supports digestion and colon health.",
-    "whole_plant": "",
+    "whole_plant": "Deciduous tree with dark brown longitudinally cracked bark, ovate leaves and yellowish-brown ridged fruits.",
     "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": "",
-    "identification_points": []
+    "stem": "Trunk short and cylindrical with spreading branches.",
+    "leaf": "Simple, alternate or sub-opposite, ovate to elliptic, 7–20 cm long, with a pair of glands at the top of the petiole.",
+    "flower": "Small, dull white to yellowish, unpleasant-smelling, in terminal spikes.",
+    "fruit": "Drupe ovoid, 2–3.5 cm long, yellowish-brown, wrinkled and longitudinally five-ribbed when dry; pericarp fibrous, 3–4 mm thick, not adherent to the seed; taste astringent.",
+    "seed": "Single, hard, pale yellow, bony stone enclosing the kernel.",
+    "bark": "Dark brown, with longitudinal cracks, exfoliating in woody scales.",
+    "identification_points": [
+      "Ovoid yellowish-brown fruit with five longitudinal ridges",
+      "Fibrous pericarp 3–4 mm thick, free from the stone",
+      "Strongly astringent taste, sweetish after-taste",
+      "Pair of glands at the top of the leaf petiole"
+    ]
   },
   "images": {
     "root": "",
@@ -87,12 +92,19 @@
       "Kushta",
       "Agnimandya"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Rasayana",
+      "Anulomana",
+      "Deepana",
+      "Chakshushya",
+      "Medhya",
+      "Tridoshahara"
+    ],
     "dose": "Phala churna 3–6 g",
-    "anupana": "",
+    "anupana": "Ritu Haritaki: with Saindhava in Varsha, Sharkara in Sharad, Shunthi in Hemanta, Pippali in Shishira, Madhu in Vasanta and Guda in Grishma.",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Laxative in larger doses; may cause loose stools and dehydration. Use carefully in debility, emaciation and after fasting.",
+    "contraindications": "Classically contraindicated in pregnancy, in persons weakened by travel, fasting, or bloodletting, in emaciation, dehydration and Pitta aggravation with dryness."
   },
   "formulations": [
     {
@@ -135,34 +147,86 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "chebulinic acid",
+      "chebulagic acid",
+      "corilagin",
+      "gallic acid",
+      "ellagic acid",
+      "punicalagin",
+      "anthraquinone glycosides"
+    ],
+    "chemical_notes": "The pericarp is rich in hydrolysable tannins (chebulinic and chebulagic acids, corilagin) along with gallic acid, ellagic acid and small amounts of anthraquinones."
   },
   "modern_information": {
     "evidence_summary": "A key component of Triphala, Haritaki is a powerful rejuvenator and detoxifier, especially for Vata dosha. It supports digestion and colon health.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Vibandha, Udavarta and Arsha",
+      "Agnimandya, Aruchi and Gulma",
+      "Rasayana use (Ritu Haritaki, Triphala)",
+      "Kasa, Shwasa and Prameha",
+      "Netraroga (as Triphala)"
+    ],
+    "safety_notes": "Well tolerated at usual doses; higher doses act as a laxative. Avoid in pregnancy and dehydration.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Terminalia chebula Retz., family Combretaceae",
+      "Useful part: fruit pericarp",
+      "Rasa: five rasas except lavana, kashaya predominant; guna laghu, ruksha; virya ushna; vipaka madhura",
+      "Prabhava-based tridoshahara; 'Haritaki = mata' in BPN",
+      "Seven varieties: Vijaya, Rohini, Putana, Amrita, Abhaya, Jivanti, Chetaki",
+      "Formulations: Triphala Churna, Abhayarishta, Agastya Haritaki Rasayana, Chitraka Haritaki",
+      "Dose 3–6 g churna; Ritu Haritaki anupana"
+    ],
+    "viva_questions": [
+      "Name the seven varieties of Haritaki.",
+      "Explain Ritu Haritaki.",
+      "Which rasa is absent in Haritaki?",
+      "Give the rasa-panchaka of Haritaki.",
+      "In whom is Haritaki contraindicated?"
+    ],
+    "identification_points": [
+      "Five-ridged yellowish-brown fruit",
+      "Fibrous pericarp free from stone",
+      "Astringent taste"
+    ],
     "mnemonics": [],
     "quick_revision": "A key component of Triphala, Haritaki is a powerful rejuvenator and detoxifier, especially for Vata dosha. It supports digestion and colon health."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Haritaki as a tridoshahara rasayana",
+      "Ritu Haritaki and anupana",
+      "Varieties of Haritaki and their uses"
+    ],
+    "discussion_points": [
+      "Explain how an ushna drug with madhura vipaka pacifies all three doshas",
+      "Haritaki in Triphala: complementary actions with Bibhitaki and Amalaki"
+    ],
+    "practical_points": [
+      "Identify fruits of Haritaki, Bibhitaki and Amalaki",
+      "Prepare Triphala churna"
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Tridoshahara fruit for Vibandha, Arsha, Agnimandya and as rasayana; ushna, madhura vipaka; 3–6 g with seasonal anupana.",
+    "important_indications": [
+      "Vibandha",
+      "Arsha",
+      "Agnimandya",
+      "Gulma",
+      "Prameha"
+    ],
     "useful_part": "fruit",
     "dose": "Phala churna 3–6 g",
-    "anupana": "",
-    "key_precautions": []
+    "anupana": "Ritu Haritaki: with Saindhava in Varsha, Sharkara in Sharad, Shunthi in Hemanta, Pippali in Shishira, Madhu in Vasanta and Guda in Grishma.",
+    "key_precautions": [
+      "Avoid in pregnancy",
+      "Avoid in debility, fasting and dehydration",
+      "Laxative in higher doses"
+    ]
   },
   "sources": [
     {

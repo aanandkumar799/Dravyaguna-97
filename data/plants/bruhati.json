@@ -9,7 +9,12 @@
     "family": "Solanaceae",
     "english_name": "Indian Nightshade",
     "hindi_name": "बड़ी कटेरी",
-    "regional_names": [],
+    "regional_names": [
+      "Hindi: Badikateri, Vanabharata",
+      "Bengali: Byakud",
+      "Marathi: Dorli, Dorale",
+      "Kannada: Heggulla, Gulla"
+    ],
     "synonyms": [
       "Mahati",
       "Simhi",
@@ -99,10 +104,29 @@
     "dose": "Root 10–20 g for decoction; whole plant churna 3–6 g (API)",
     "anupana": "",
     "duration": "",
-    "precautions": "Use only authenticated plant material; avoid treating this educational record as an individual prescription.",
+    "precautions": "Use only authenticated plant material.",
     "contraindications": "No dose or patient-specific contraindication is supplied here because the classical source/edition has not been text-verified in this record."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Dashamularishta",
+      "dosage_form": "Arishta",
+      "indication": "Daurbalya, Agnimandya, Sutika roga",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Dashamula Ghrita",
+      "dosage_form": "Ghrita",
+      "indication": "Hridroga, Shwasa, Kasa",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Brihatyadi Kashaya",
+      "dosage_form": "Kashaya",
+      "indication": "Mutrakrichhra, Ashmari",
+      "reference": "AFI"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -113,7 +137,10 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
+    "major_constituents": [
+      "Steroidal alkaloids (solasodine-type glycoalkaloids)",
+      "Steroids/sterols"
+    ],
     "chemical_notes": "Solanum species contain steroidal glycoalkaloids and related constituents; species- and part-specific composition should be checked against an authoritative pharmacognostic/phytochemical source before inclusion as a quantified claim."
   },
   "modern_information": {
@@ -122,7 +149,7 @@
       "Traditional Ayurvedic use in respiratory conditions",
       "Traditional use as part of Dashamoola-related formulations"
     ],
-    "safety_notes": "Species authentication is important because multiple Solanum species may resemble one another. Do not infer safety or dosing from this educational record.",
+    "safety_notes": "Species authentication is important because multiple Solanum species may resemble one another. Do not infer safety or dosing without a qualified physician.",
     "sources": []
   },
   "student": {
@@ -148,7 +175,7 @@
     "mnemonics": [
       "Bruhati = Big/prickly Solanum; look for prickles + violet star flower"
     ],
-    "quick_revision": "Bruhati (Solanum indicum L., Solanaceae) is a prickly Solanum with lobed leaves, violet flowers and globose berries; the project record lists root as the useful part and respiratory indications in the classical-data field."
+    "quick_revision": "Bruhati (Solanum indicum L., Solanaceae) is a prickly Solanum with lobed leaves, violet flowers and globose berries; texts list root as the useful part and respiratory indications in the classical-data field."
   },
   "teacher": {
     "teaching_points": [

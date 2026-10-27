@@ -173,7 +173,7 @@
     "recognized_uses": [
       "Botanical identification and pharmacognosy/dravyaguna education."
     ],
-    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use. Do not infer therapeutic do not infer clinical treatment instructions from this educational record. Kew lists Cinnamomum camphora as a synonym of accepted Camphora officinarum and notes medicinal and poison uses; verify product-specific safety guidance.",
+    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use. Kew lists Cinnamomum camphora as a synonym of accepted Camphora officinarum and notes medicinal and poison uses; verify product-specific safety guidance.",
     "sources": []
   },
   "student": {
@@ -226,7 +226,6 @@
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references.",
-      "Do not infer therapeutic dose from this educational record.",
       "Kew lists Cinnamomum camphora as a synonym of accepted Camphora officinarum and notes medicinal and poison uses; verify product-specific safety guidance."
     ]
   },

@@ -33,7 +33,7 @@
     "kingdom": "Plantae",
     "habit": "Subshrub or shrub",
     "habitat": "Subtropical, semi-arid and relatively dry regions",
-    "distribution": ""
+    "distribution": "Drier parts of India, especially Madhya Pradesh, Rajasthan, Gujarat, Punjab and Maharashtra; cultivated in Mandsaur and Neemuch."
   },
   "identification": {
     "description": "An erect, branched, tomentose subshrub with ovate leaves, small greenish-yellow flowers and globose red berries enclosed by an enlarged persistent calyx.",
@@ -43,7 +43,7 @@
     "leaf": "Simple, generally ovate to oblong leaves.",
     "flower": "Small greenish-yellow flowers in axillary clusters.",
     "fruit": "Globose red berry enclosed by an enlarged persistent calyx.",
-    "seed": "",
+    "seed": "Numerous, small, reniform, yellowish, enclosed in the orange-red berry.",
     "bark": "",
     "identification_points": [
       "Erect branched tomentose habit",
@@ -100,12 +100,19 @@
       "Vata Vyadhi",
       "Klaibya"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Rasayana",
+      "Balya",
+      "Vajikarana",
+      "Medhya",
+      "Shothahara",
+      "Vatashamaka"
+    ],
     "dose": "Mula churna 3–6 g",
-    "anupana": "",
+    "anupana": "Milk or ghee (classically Ashwagandha churna with milk, ghee or lukewarm water).",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Ushna virya; may aggravate Pitta in excess. Use with care alongside sedatives, thyroid hormone, immunosuppressants and antidiabetic drugs. Rare liver injury has been reported with concentrated extracts.",
+    "contraindications": "Avoid in pregnancy, in hyperthyroidism, and in states of high Ama or severe Pitta aggravation."
   },
   "formulations": [
     {
@@ -142,34 +149,83 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "withanolides (withaferin A, withanolide D)",
+      "withanine",
+      "somniferine",
+      "anaferine",
+      "tropine and pseudotropine"
+    ],
+    "chemical_notes": "The root contains steroidal lactones (withanolides) and several alkaloids, which are regarded as its main active groups."
   },
   "modern_information": {
     "evidence_summary": "Ashwagandha (Withania somnifera) is a powerful adaptogen. It reduces stress, increases strength, and supports reproductive and nervous systems.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Kshaya and Daurbalya",
+      "Vatavyadhi and Shotha",
+      "Klaibya (vajikarana)",
+      "Anidra and stress-related complaints (rasayana, medhya use)"
+    ],
+    "safety_notes": "Usually well tolerated; drowsiness and gastric upset can occur. Avoid in pregnancy and hyperthyroidism, and stop if signs of liver injury appear.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Withania somnifera (L.) Dunal, family Solanaceae",
+      "Useful part: root",
+      "Rasa madhura, tikta, kashaya; guna laghu, snigdha; virya ushna; vipaka madhura",
+      "Key karma: Rasayana, Balya, Vajikarana, Medhya",
+      "Root has a horse-like odour, hence the name Ashwagandha",
+      "Formulations: Ashwagandharishta, Ashwagandhadi Lehya, Balashwagandhalakshadi Taila",
+      "Dose: churna 3–6 g, with milk or ghee"
+    ],
+    "viva_questions": [
+      "Why is the drug named Ashwagandha?",
+      "Give the rasa-panchaka of Ashwagandha.",
+      "Name three formulations containing Ashwagandha.",
+      "What is the main group of active constituents?",
+      "In which conditions is Ashwagandha avoided?"
+    ],
+    "identification_points": [
+      "Straight, unbranched buff root with longitudinal wrinkles",
+      "Short uneven fracture, starchy inside",
+      "Characteristic horse-like odour, bitter-acrid taste"
+    ],
     "mnemonics": [],
     "quick_revision": "Ashwagandha (Withania somnifera) is a powerful adaptogen. It reduces stress, increases strength, and supports reproductive and nervous systems."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Rasayana and balya concept illustrated by Ashwagandha",
+      "Root morphology and odour as identification keys",
+      "Comparison with Bala and Shatavari as brimhana drugs"
+    ],
+    "discussion_points": [
+      "Use of root versus leaf in modern products",
+      "Safety of concentrated extracts and reported adverse events"
+    ],
+    "practical_points": [
+      "Identify dried roots and test the characteristic odour",
+      "Prepare Ashwagandha kshirapaka"
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Root rasayana and balya drug for Kshaya, Daurbalya, Vatavyadhi and Klaibya; ushna virya, madhura vipaka; 3–6 g churna with milk or ghee.",
+    "important_indications": [
+      "Daurbalya",
+      "Kshaya",
+      "Vatavyadhi",
+      "Klaibya",
+      "Anidra"
+    ],
     "useful_part": "root",
     "dose": "Mula churna 3–6 g",
-    "anupana": "",
-    "key_precautions": []
+    "anupana": "Milk or ghee (classically Ashwagandha churna with milk, ghee or lukewarm water).",
+    "key_precautions": [
+      "Avoid in pregnancy and hyperthyroidism",
+      "Caution with sedative, thyroid and antidiabetic drugs",
+      "May aggravate Pitta in excess"
+    ]
   },
   "sources": [
     {

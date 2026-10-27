@@ -4,7 +4,7 @@
   "identity": {
     "name": "Bala",
     "sanskrit_name": "बला",
-    "transliteration": "",
+    "transliteration": "Balā",
     "botanical_name": "Sida cordifolia L.",
     "family": "Malvaceae",
     "english_name": "Country Mallow",
@@ -24,21 +24,27 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Erect perennial undershrub, 0.5–1.5 m tall, covered with soft stellate hairs.",
+    "habitat": "Waste places, roadsides and open dry ground in the plains.",
+    "distribution": "Throughout tropical and subtropical India, ascending to about 1,000 m."
   },
   "identification": {
     "description": "Subshrub with cylindrical taproot, cordate velvety leaves and yellow solitary flowers; seeds are characteristic.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
+    "whole_plant": "Erect, velvety undershrub with cordate leaves and small yellow axillary flowers.",
+    "root": "Long, cylindrical, woody, pale yellowish-brown, with few lateral roots; mucilaginous and slightly sweet.",
+    "stem": "Erect, terete, woody below and branched, covered with stellate hairs.",
+    "leaf": "Simple, alternate, cordate-ovate, 2.5–5 cm long, crenate-serrate, softly hairy on both surfaces.",
+    "flower": "Solitary or clustered, axillary, small, yellow, on short pedicels jointed near the top.",
+    "fruit": "Schizocarp of 8–10 mericarps, each with two long awns.",
+    "seed": "Small, reniform, dark brown to black, smooth.",
     "bark": "",
-    "identification_points": []
+    "identification_points": [
+      "Velvety stellate-hairy undershrub",
+      "Cordate crenate leaves",
+      "Small yellow axillary flowers",
+      "Fruit of 8–10 awned mericarps",
+      "Long pale woody root, mucilaginous"
+    ]
   },
   "images": {
     "root": "",
@@ -88,12 +94,18 @@
       "Raktapitta",
       "Daurbalya"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Balya",
+      "Brimhana",
+      "Vrishya",
+      "Vatashamaka",
+      "Prajasthapana"
+    ],
     "dose": "Mula churna 3–6 g; kwatha 50–100 ml",
-    "anupana": "",
+    "anupana": "Milk (as in Kshirabala preparations).",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Contains ephedrine-type alkaloids; use cautiously in hypertension, heart disease, anxiety, insomnia and glaucoma, and with stimulant or MAO-inhibitor drugs.",
+    "contraindications": "Avoid concentrated extracts in uncontrolled hypertension, cardiac arrhythmia and thyrotoxicosis; avoid in Kapha-predominant Ama states."
   },
   "formulations": [
     {
@@ -123,34 +135,83 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "ephedrine",
+      "pseudoephedrine",
+      "vasicine",
+      "vasicinone",
+      "hypaphorine",
+      "beta-phenethylamine"
+    ],
+    "chemical_notes": "Sida cordifolia contains ephedrine-type and quinazoline alkaloids, with the highest concentration in the seeds."
   },
   "modern_information": {
     "evidence_summary": "Improves strength and stamina, useful in vata disorders and nervous weakness.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Vatavyadhi (internally and as Bala Taila)",
+      "Daurbalya and Kshaya",
+      "Raktapitta",
+      "Klaibya"
+    ],
+    "safety_notes": "Traditional preparations are generally well tolerated; ephedrine content means extracts can raise blood pressure and heart rate.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Sida cordifolia L., family Malvaceae",
+      "Useful part: root (also seeds, whole plant)",
+      "Rasa madhura; guna guru, snigdha, picchila; virya sheeta; vipaka madhura",
+      "Key karma: Balya, Brimhana, Vrishya, Vatashamaka",
+      "Balachatushtaya: Bala, Atibala, Nagabala, Mahabala",
+      "Formulations: Balarishta, Bala Taila, Kshirabala Taila",
+      "Contains ephedrine"
+    ],
+    "viva_questions": [
+      "What is Balachatushtaya?",
+      "Give the rasa-panchaka of Bala.",
+      "Name the alkaloid of Bala of modern interest.",
+      "Name two oils prepared with Bala.",
+      "Which part of Bala is mainly used?"
+    ],
+    "identification_points": [
+      "Velvety cordate leaves",
+      "Yellow axillary flowers",
+      "Awned mericarps"
+    ],
     "mnemonics": [],
     "quick_revision": "Improves strength and stamina, useful in vata disorders and nervous weakness."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Balachatushtaya and their botanical sources",
+      "Bala as a Vatashamaka and balya drug in taila preparations"
+    ],
+    "discussion_points": [
+      "Ephedrine content and safety of Sida cordifolia products",
+      "Identification confusion among Sida species"
+    ],
+    "practical_points": [
+      "Compare specimens of Bala, Atibala and Mahabala",
+      "Demonstrate Kshirabala taila preparation"
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Sweet, cooling, nourishing root for Vatavyadhi, Daurbalya and Raktapitta; used widely as Bala Taila and Kshirabala.",
+    "important_indications": [
+      "Vatavyadhi",
+      "Daurbalya",
+      "Kshaya",
+      "Raktapitta",
+      "Klaibya"
+    ],
     "useful_part": "root/whole plant",
     "dose": "Mula churna 3–6 g; kwatha 50–100 ml",
-    "anupana": "",
-    "key_precautions": []
+    "anupana": "Milk (as in Kshirabala preparations).",
+    "key_precautions": [
+      "Caution in hypertension and heart disease",
+      "Avoid combining with stimulant drugs",
+      "May increase Kapha"
+    ]
   },
   "sources": [
     {

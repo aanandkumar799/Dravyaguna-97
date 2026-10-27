@@ -4,12 +4,19 @@
   "identity": {
     "name": "Nagkeshar",
     "sanskrit_name": "नागकेशर",
-    "transliteration": "",
+    "transliteration": "Nāgakeśara",
     "botanical_name": "Mesua ferrea L.",
     "family": "Calophyllaceae (Guttiferae)",
     "english_name": "Cobra's Saffron / Ironwood Tree",
     "hindi_name": "नागकेसर",
-    "regional_names": [],
+    "regional_names": [
+      "Bengali: Nageshvara, Nagesar",
+      "Marathi: Nagkesara",
+      "Tamil: Nagappu, Sirunagappu",
+      "Telugu: Nagachampakamu",
+      "Kannada: Nagasampige",
+      "Malayalam: Nangu, Peri"
+    ],
     "synonyms": [
       "Nagapushpa",
       "Naga",
@@ -22,20 +29,25 @@
   "classification": {
     "kingdom": "Plantae",
     "habit": "Evergreen medium to large tree",
-    "habitat": "",
-    "distribution": ""
+    "habitat": "Evergreen and semi-evergreen rain forests, often planted around temples and gardens.",
+    "distribution": "Eastern Himalaya from Nepal eastwards, Assam and North-East India, Bengal, Western Ghats (North Kanara, Konkan) and Andhra Pradesh."
   },
   "identification": {
     "description": "Golden-yellow stamens of Mesua ferrea flower; the dried stamens are the principal drug material.",
-    "whole_plant": "",
+    "whole_plant": "Evergreen tree, 15–18 m high, with a short often buttressed trunk and dense conical crown; young leaves red.",
     "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": "",
-    "identification_points": []
+    "stem": "Straight trunk with dark ash-grey bark peeling in thin flakes.",
+    "leaf": "Simple, opposite, narrowly lanceolate, coriaceous, dark green above, glaucous white below; young flush crimson.",
+    "flower": "Large, fragrant, white four-petalled flowers with a central mass of numerous golden-yellow stamens.",
+    "fruit": "Ovoid, woody, pointed capsule with persistent sepals, 1–4 seeded.",
+    "seed": "Seeds large, angular, smooth and brown, yielding a fixed oil.",
+    "bark": "Ash-grey to reddish bark exfoliating in thin flakes, exuding a resin.",
+    "identification_points": [
+      "Drug consists of dried stamens, coppery or golden brown",
+      "Each stamen 0.9–1.9 cm long with a linear basifixed anther",
+      "Filaments slender, twisted, united at base into a fleshy ring",
+      "Fragrant odour, astringent taste"
+    ]
   },
   "images": {
     "whole_plant": "",
@@ -88,29 +100,35 @@
       "Kushta",
       "Raktapitta"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Kaphahara",
+      "Varnya",
+      "Raktastambhana",
+      "Vastivatamayaghna",
+      "Urdhvajatrugatarogahara"
+    ],
     "dose": "Churna 1–3 g",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Authenticate before use: the name Nagakeshara is also applied to flower buds of Ochrocarpus/Mammea and to Cinnamomum species in the market.",
+    "contraindications": "Being Ushna and Ruksha, use with caution in dryness and constipation; avoid medicinal doses in pregnancy without supervision."
   },
   "formulations": [
     {
       "name": "Nagakesaradi Churna",
-      "dosage_form": "",
+      "dosage_form": "Churna",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Kumaryasava",
-      "dosage_form": "",
+      "dosage_form": "Asava",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Chandanabalalakshadi Taila",
-      "dosage_form": "",
+      "dosage_form": "Taila",
       "indication": "",
       "reference": ""
     }
@@ -129,34 +147,81 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "Essential oil",
+      "Oleo-resin",
+      "Mesuaferrone A and B (biflavonoids)",
+      "Mesuol and mammeigin (coumarins)",
+      "Xanthones (mesuaxanthones)"
+    ],
+    "chemical_notes": "API lists essential oil and oleo-resin in the stamens; coumarins and biflavonoids are reported from flowers and seeds."
   },
   "modern_information": {
     "evidence_summary": "Used primarily in bleeding disorders due to its astringent and hemostatic properties. It is also good for the skin.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Traditional haemostatic in bleeding piles and menorrhagia",
+      "Ingredient of Nagakesaradi Churna and Kumaryasava",
+      "Ornamental and timber tree"
+    ],
+    "safety_notes": "Few safety data are available; substitution with other 'Nagakeshara' sources is common, so authentication is essential.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Nagakeshara = Mesua ferrea L., family Calophyllaceae (Guttiferae)",
+      "Useful part: dried stamens",
+      "Rasa Kashaya, Tikta; Guna Laghu, Ruksha; Virya Ushna; Vipaka Katu",
+      "Karma: Kaphahara, Varnya, Raktastambhana, Vastivatamayaghna",
+      "Indicated in Raktapitta, Raktarsha, Vatarakta, Shopha, Vastiroga",
+      "Dose: churna 1–3 g",
+      "Formulations: Nagakesaradi Churna, Kumaryasava, Chandanabalalakshadi Taila"
+    ],
+    "viva_questions": [
+      "Which part of Mesua ferrea is used as Nagakeshara?",
+      "What is the English name 'Cobra's saffron' referring to?",
+      "Name substitutes sold as Nagakeshara.",
+      "Name a formulation of Nagakeshara used in bleeding piles."
+    ],
+    "identification_points": [
+      "Golden-brown stamens",
+      "Linear anthers",
+      "Fragrant, astringent"
+    ],
     "mnemonics": [],
     "quick_revision": "Used primarily in bleeding disorders due to its astringent and hemostatic properties. It is also good for the skin."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Show stamen as an unusual useful part.",
+      "Discuss the controversy around the source of Nagakeshara.",
+      "Link Kashaya rasa to Raktastambhana use."
+    ],
+    "discussion_points": [
+      "Controversial drugs and market substitutes",
+      "Kashaya-Tikta drugs in Raktapitta"
+    ],
+    "practical_points": [
+      "Examine stamens under a lens for anther and filament.",
+      "Compare with Mammea buds sold as Nagakeshara."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Nagakeshara (Mesua ferrea stamens): Kashaya-Tikta, Ushna; Raktastambhana and Kaphahara; for Raktapitta, Raktarsha, Vastiroga; 1–3 g.",
+    "important_indications": [
+      "Raktapitta",
+      "Raktarsha",
+      "Vatarakta",
+      "Shopha",
+      "Vastiroga"
+    ],
     "useful_part": "stamen",
     "dose": "Churna 1–3 g",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": [
+      "Authenticate the source",
+      "Caution in pregnancy",
+      "Ruksha: may cause dryness"
+    ]
   },
   "sources": [
     {

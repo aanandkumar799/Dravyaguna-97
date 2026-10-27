@@ -119,10 +119,14 @@
     }
   ],
   "classical_reference": {
-    "shlokas": [],
-    "nighantu_references": [],
+    "shlokas": [
+      "धातकी कटुका शीता मृदुकृत्तुवरा लघुः ।\nतृष्णातीसारपित्तास्रविषक्रिमिविसर्पजित् ॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Guduchyadi Varga"
+    ],
     "samhita_references": [],
-    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "shloka_reference_status": "added_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ]
@@ -195,7 +199,7 @@
     "anupana": "",
     "key_precautions": [
       "Confirm botanical and crude-drug identity.",
-      "Use authoritative formulation-specific dosing rather than this educational record.",
+      "Use authoritative formulation-specific dosing for the specific formulation.",
       "Do not equate traditional indication with established modern clinical efficacy."
     ]
   },

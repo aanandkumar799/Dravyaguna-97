@@ -9,7 +9,14 @@
     "family": "Fabaceae",
     "english_name": "Horse Gram",
     "hindi_name": "कुलथी",
-    "regional_names": [],
+    "regional_names": [
+      "Bengali: Kulattha, Kalaya",
+      "Gujarati: Kalathi",
+      "Marathi: Kulitha",
+      "Tamil: Kollu",
+      "Telugu: Ulavalu",
+      "Kannada: Huruli"
+    ],
     "synonyms": [
       "Kuliraka",
       "Tamrabija"
@@ -93,9 +100,22 @@
     "anupana": "",
     "duration": "",
     "precautions": "Use should be individualized; avoid presenting traditional indications as established treatment claims.",
-    "contraindications": ""
+    "contraindications": "Raktapitta and Pitta-predominant states, Daha, and pregnancy in medicinal doses, as it is Ushna and Vidahi."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Saptasara Kwatha Churna",
+      "dosage_form": "Kwatha churna",
+      "indication": "Gulma, Shotha, Vatika shoola",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Dhanvantara Taila",
+      "dosage_form": "Taila",
+      "indication": "Vatavyadhi, Sutika roga",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -170,7 +190,7 @@
     "dose": "Churna 12 g for kwatha; Kwatha 50–100 ml",
     "anupana": "",
     "key_precautions": [
-      "Do not infer a therapeutic dose from this educational dossier."
+      "Do not infer a therapeutic dose without a qualified physician."
     ]
   },
   "sources": [

@@ -9,7 +9,14 @@
     "family": "Rubiaceae",
     "english_name": "Emetic Nut / Randia",
     "hindi_name": "मैनफल",
-    "regional_names": [],
+    "regional_names": [
+      "Bengali: Mainaphal",
+      "Gujarati: Mindhal",
+      "Marathi: Gelphala, Madanphala",
+      "Tamil: Marukkarai",
+      "Telugu: Manga kaya",
+      "Malayalam: Malamkara"
+    ],
     "synonyms": [
       "Pindi",
       "Ratha",
@@ -98,12 +105,12 @@
     "anupana": "",
     "duration": "",
     "precautions": "Madanaphala has a specific emetic-drug role; dosing and procedure must be taken from an authenticated classical/official protocol, not this educational record.",
-    "contraindications": ""
+    "contraindications": "Vamana is contraindicated in children, the elderly, the weak, pregnant women, and in cardiac disease, Urdhvaga Raktapitta and Kshata-kshina."
   },
   "formulations": [
     {
       "name": "Pippalyadi Taila",
-      "dosage_form": "",
+      "dosage_form": "Taila",
       "indication": "",
       "reference": ""
     }

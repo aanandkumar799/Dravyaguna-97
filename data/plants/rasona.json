@@ -9,7 +9,14 @@
     "family": "Amaryllidaceae",
     "english_name": "Garlic",
     "hindi_name": "लहसुन",
-    "regional_names": [],
+    "regional_names": [
+      "Marathi: Lasun",
+      "Bengali: Rasun",
+      "Tamil: Vellaipoondu",
+      "Telugu: Vellulli",
+      "Kannada: Bellulli",
+      "Malayalam: Veluthulli"
+    ],
     "synonyms": [
       "Lashuna",
       "Ugragandha",
@@ -97,17 +104,40 @@
       "Vatanulomana"
     ],
     "dose": "Kalka (bulb paste) 3 g (API); classical 3–6 g",
-    "anupana": "",
+    "anupana": "Ksheera (as Rasona Ksheerapaka) in Vatavyadhi and Hridroga",
     "duration": "",
     "precautions": "Strongly pungent material may cause gastrointestinal irritation in some people; use appropriate clinical references.",
-    "contraindications": ""
+    "contraindications": "Raktapitta and bleeding disorders, active peptic ulcer and Amlapitta, Pitta-predominant states; before surgery and with anticoagulant medicines without medical advice."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Lasunadi Vati",
+      "dosage_form": "Vati",
+      "indication": "Agnimandya, Visuchika",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Lasunadi Ghrita",
+      "dosage_form": "Ghrita",
+      "indication": "Gulma, Vatavyadhi",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Vacha-Lasunadi Taila",
+      "dosage_form": "Taila",
+      "indication": "Karnashoola, Karnaroga",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
-    "shlokas": [],
-    "nighantu_references": [],
+    "shlokas": [
+      "रसोनो बृंहणो वृष्यः स्निग्धोष्णः पाचनः सरः।\nरसे पाके च कटुकस्तीक्ष्णो मधुरको मतः॥\nभग्नसन्धानकृत् कण्ठ्यो गुरुः पित्तास्रवृद्धिदः।\nबलवर्णकरो मेधाहितो नेत्र्यो रसायनः॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Haritakyadi Varga"
+    ],
     "samhita_references": [],
-    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "shloka_reference_status": "added_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ]
@@ -121,7 +151,11 @@
   },
   "modern_information": {
     "evidence_summary": "Garlic has been extensively studied for cardiovascular, metabolic and antimicrobial-related effects. Study outcomes depend on preparation, dose and population and are not reproduced here as guaranteed therapeutic effects.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Lipid-lowering and cardiovascular support",
+      "Antimicrobial (allicin)",
+      "Digestive and carminative use"
+    ],
     "safety_notes": "Garlic may increase bleeding tendency in some settings and can cause gastrointestinal irritation; review concurrent medicines when clinically relevant.",
     "sources": []
   },
@@ -173,7 +207,7 @@
     ],
     "useful_part": "bulb",
     "dose": "Kalka (bulb paste) 3 g (API); classical 3–6 g",
-    "anupana": "",
+    "anupana": "Ksheera (as Rasona Ksheerapaka) in Vatavyadhi and Hridroga",
     "key_precautions": [
       "Consider gastrointestinal intolerance",
       "Review anticoagulant/antiplatelet medicines when clinically relevant",

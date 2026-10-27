@@ -9,7 +9,14 @@
     "family": "Acanthaceae",
     "english_name": "King of Bitters",
     "hindi_name": "कालमेघ",
-    "regional_names": [],
+    "regional_names": [
+      "Bengali: Kalmegh",
+      "Tamil: Nilavembu",
+      "Malayalam: Kiriyattu",
+      "Telugu: Nelavemu",
+      "Marathi: Olikiryata",
+      "Gujarati: Kariyatu"
+    ],
     "synonyms": [
       "Yavatiktaka",
       "Kiratatikta"
@@ -83,12 +90,18 @@
       "Krimi",
       "Kushta"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Jwaraghna",
+      "Yakriduttejaka",
+      "Pittasaraka",
+      "Krimighna",
+      "Deepana"
+    ],
     "dose": "Churna 1–3 g",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Intensely bitter; may cause nausea, loss of appetite and gastric upset. Monitor when used with antihypertensive, anticoagulant or immunosuppressant medicines.",
+    "contraindications": "Pregnancy (reported antifertility and abortifacient effects in animals) and lactation; known allergy to Acanthaceae plants."
   },
   "formulations": [],
   "classical_reference": {
@@ -108,7 +121,10 @@
   },
   "modern_information": {
     "evidence_summary": "Andrographis paniculata is widely studied as a bitter medicinal herb. Modern findings should be interpreted by preparation and clinical endpoint rather than generalized as proven treatment.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Traditional bitter tonic in fever and liver disorders",
+      "Studied for upper respiratory tract infections"
+    ],
     "safety_notes": "Verify preparation and dose from authoritative references; avoid self-treatment of fever or liver disease.",
     "sources": []
   },
@@ -150,7 +166,7 @@
     ]
   },
   "doctor": {
-    "quick_reference": "Kalamegha — Andrographis paniculata; whole plant listed as useful in this project record.",
+    "quick_reference": "Kalamegha — Andrographis paniculata; whole plant listed as useful.",
     "important_indications": [
       "Jwara",
       "Kamala",

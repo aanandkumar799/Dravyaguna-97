@@ -9,7 +9,14 @@
     "family": "Apocynaceae",
     "english_name": "Gymnema",
     "hindi_name": "गुड़मार",
-    "regional_names": [],
+    "regional_names": [
+      "Hindi: Gudmar",
+      "Bengali: Medhasingi",
+      "Marathi: Kavali",
+      "Tamil: Sirukurinjan",
+      "Malayalam: Chakkarakolli",
+      "Gujarati: Kavali"
+    ],
     "synonyms": [
       "Madhunashini",
       "Ajasringi",
@@ -100,7 +107,7 @@
     "anupana": "",
     "duration": "",
     "precautions": "Use authenticated material; clinical use should follow an appropriate Ayurvedic reference and practitioner guidance.",
-    "contraindications": ""
+    "contraindications": "Hypoglycaemia; pregnancy and lactation; caution with insulin or oral glucose-lowering medicines."
   },
   "formulations": [
     {
@@ -111,13 +118,13 @@
     },
     {
       "name": "Nyagrodhadi Churna",
-      "dosage_form": "",
+      "dosage_form": "Churna",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Mahavishagarbha Taila",
-      "dosage_form": "",
+      "dosage_form": "Taila",
       "indication": "",
       "reference": ""
     }
@@ -139,7 +146,11 @@
   },
   "modern_information": {
     "evidence_summary": "Gymnema sylvestre has been studied extensively for metabolic and glucose-related effects; this project does not infer clinical efficacy from preclinical or limited human evidence.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Traditional use in Madhumeha",
+      "Gymnemic acids temporarily suppress sweet taste",
+      "Studied as an adjunct in type 2 diabetes"
+    ],
     "safety_notes": "Potential effects on glucose handling are relevant when combined with glucose-lowering therapy; clinical supervision is appropriate.",
     "sources": []
   },

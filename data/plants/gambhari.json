@@ -86,12 +86,18 @@
       "Raktapitta",
       "Bhrama"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Shothahara",
+      "Balya",
+      "Dahaprashamana",
+      "Trishnanigrahana",
+      "Jwaraghna"
+    ],
     "dose": "Root bark 20–30 g for decoction (API); fruit churna 1–3 g",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Use authenticated root bark of Gmelina arborea for Dashamula preparations; it is usually given in compound formulations rather than alone.",
+    "contraindications": "No specific classical contraindication; avoid in known hypersensitivity and use compound preparations according to their own indications."
   },
   "formulations": [
     {
@@ -123,13 +129,20 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
+    "major_constituents": [
+      "Lignans: arboreal, isoarboreal, gmelinol",
+      "Alkaloids"
+    ],
     "chemical_notes": "Published phytochemical reports describe phenolic, flavonoid and other secondary metabolites in different parts; exact constituent lists should be checked against the authenticated drug and source before teaching as pharmacopoeial data."
   },
   "modern_information": {
     "evidence_summary": "Gmelina arborea is a recognized medicinal and timber tree. Its Ayurvedic identity and therapeutic discussion should be kept distinct from modern clinical efficacy claims.",
-    "recognized_uses": [],
-    "safety_notes": "Use authenticated raw drug material; do not infer a clinical dose from this educational dossier.",
+    "recognized_uses": [
+      "Root is one of the Brihat Panchamula of Dashamula",
+      "Ingredient of Dashamularishta and Dashamula Ghrita",
+      "Studied for anti-inflammatory and antioxidant activity in experimental models"
+    ],
+    "safety_notes": "Use authenticated raw drug material; do not infer a clinical dose without a qualified physician.",
     "sources": []
   },
   "student": {
@@ -137,7 +150,7 @@
       "Gambhari is Gmelina arborea Roxb.",
       "Family: Lamiaceae",
       "A Dashamoola-associated drug",
-      "Root is the listed useful part in this project record"
+      "Root is the listed useful part"
     ],
     "viva_questions": [
       "What is the botanical name of Gambhari?",
@@ -154,7 +167,7 @@
     "mnemonics": [
       "Gambhari = Gmelina; remember the large opposite leaves and yellowish flowers."
     ],
-    "quick_revision": "Gambhari (Gmelina arborea) is a deciduous tree of Lamiaceae; the project record lists root as the useful part and associates it with the classical Dashamoola group."
+    "quick_revision": "Gambhari (Gmelina arborea) is a deciduous tree of Lamiaceae; texts list root as the useful part and associate it with the classical Dashamoola group."
   },
   "teacher": {
     "teaching_points": [

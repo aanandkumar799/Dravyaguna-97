@@ -100,17 +100,40 @@
       "Deepana"
     ],
     "dose": "Churna 5–10 g (API)",
-    "anupana": "",
+    "anupana": "Madhu (honey) in Krimi",
     "duration": "",
     "precautions": "Use authenticated fruit; concentrated preparations require qualified guidance.",
-    "contraindications": ""
+    "contraindications": "Pregnancy (antifertility activity reported), Pitta-predominant states and debility."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Vidangarishta",
+      "dosage_form": "Arishta",
+      "indication": "Krimi, Vidradhi",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Vidanga Lauha",
+      "dosage_form": "Lauha",
+      "indication": "Krimi, Pandu",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Vidangadi Lauha",
+      "dosage_form": "Lauha",
+      "indication": "Krimi, Pandu",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
-    "shlokas": [],
-    "nighantu_references": [],
+    "shlokas": [
+      "विडङ्गं कटु तीक्ष्णोष्णं रूक्षं वह्निकरं लघु।\nशूलाध्मानोदरश्लेष्मकृमिवातविबन्धनुत्॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Haritakyadi Varga"
+    ],
     "samhita_references": [],
-    "shloka_reference_status": "exact verse/edition requires text-level verification",
+    "shloka_reference_status": "added_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ]
@@ -124,7 +147,11 @@
   },
   "modern_information": {
     "evidence_summary": "Embelia ribes is traditionally associated with Krimighna use and has been studied for embelin and other phytochemicals; clinical conclusions require preparation-specific evidence.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Intestinal worms (embelin)",
+      "Digestive and carminative use",
+      "Skin disorders (traditional)"
+    ],
     "safety_notes": "Avoid unsupervised concentrated use, particularly in pregnancy or with interacting medicines; clinical suitability should be assessed individually.",
     "sources": []
   },
@@ -173,7 +200,7 @@
     ],
     "useful_part": "fruit",
     "dose": "Churna 5–10 g (API)",
-    "anupana": "",
+    "anupana": "Madhu (honey) in Krimi",
     "key_precautions": [
       "Authenticate fruit",
       "Avoid unsupervised concentrated use"

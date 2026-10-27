@@ -9,7 +9,15 @@
     "family": "Phyllanthaceae",
     "english_name": "Indian gooseberry / Amla",
     "hindi_name": "आंवला",
-    "regional_names": [],
+    "regional_names": [
+      "Marathi: Āvaḷā",
+      "Gujarati: Āmaḷā",
+      "Bengali: Āmlakī",
+      "Tamil: Nellikkāi",
+      "Telugu: Usirika",
+      "Kannada: Nellikāyi",
+      "Malayalam: Nellikka"
+    ],
     "synonyms": [
       "Dhatri",
       "Amrita"
@@ -87,8 +95,8 @@
     "dose": "Churna 3–6 g; fresh swarasa 10–20 ml",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Use cautiously in persons with very sensitive teeth or hyperacidity aggravated by sour fruit; fresh juice in excess may loosen stools.",
+    "contraindications": "No absolute contraindication at usual doses; avoid large doses of the fresh sour fruit in acute Ama with severe indigestion."
   },
   "formulations": [
     {
@@ -128,7 +136,12 @@
   },
   "modern_information": {
     "evidence_summary": "Extensively studied as a medicinal fruit; research includes antioxidant and other pharmacological investigations.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Rasayana and vayasthapana (rejuvenative) use",
+      "Raktapitta, Amlapitta and Daha",
+      "Prameha",
+      "Component of Triphala for bowel regulation and eye care"
+    ],
     "safety_notes": "Clinical use should consider preparation, dose and individual factors.",
     "sources": [
       "CCRAS medicinal-plant/pharmacological research resources"
@@ -163,11 +176,20 @@
   },
   "doctor": {
     "quick_reference": "Traditional rasayana drug chiefly represented by its fruit.",
-    "important_indications": [],
+    "important_indications": [
+      "Raktapitta",
+      "Amlapitta",
+      "Prameha",
+      "Daha",
+      "Rasayana use"
+    ],
     "useful_part": "fruit",
     "dose": "Churna 3–6 g; fresh swarasa 10–20 ml",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": [
+      "Large amounts of fresh fruit may loosen stools",
+      "Monitor blood glucose when used with antidiabetic drugs"
+    ]
   },
   "sources": [
     {

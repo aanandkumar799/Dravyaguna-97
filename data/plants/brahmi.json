@@ -94,10 +94,41 @@
     "dose": "Churna 1–3 g; swarasa 10–20 ml",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "May cause gastrointestinal upset, nausea or loose stools; may add to the effect of sedatives and thyroid medicines.",
+    "contraindications": "Avoid in pregnancy without advice; use cautiously in bradycardia and peptic ulcer."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Sarasvatarishta",
+      "dosage_form": "arishta",
+      "indication": "Smritibhramsha, Anidra, Unmada",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Brahmi Ghrita",
+      "dosage_form": "ghrita",
+      "indication": "Unmada, Apasmara",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Brahmi Vati",
+      "dosage_form": "vati",
+      "indication": "Manasavikara, Anidra",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Sarasvata Churna",
+      "dosage_form": "churna",
+      "indication": "Medhya, Smritibhramsha",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Smritisagara Rasa",
+      "dosage_form": "rasaushadhi",
+      "indication": "Apasmara, Smritibhramsha",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [
       "ब्राह्मी हिमा सरा तिक्ता लघुर्मेध्या च शीतला ।\nकषाया मधुरा स्वादुपाकायुष्या रसायनी ।\nस्वर्या स्मृतिप्रदा कुष्ठपाण्डुमेहास्रकासजित् ।\nविषशोथज्वरहरी तद्वन्मण्डूकपर्ण्यपि ॥"
@@ -116,11 +147,16 @@
     "major_constituents": [
       "bacosides"
     ],
-    "chemical_notes": ""
+    "chemical_notes": "The herb contains triterpenoid saponins (bacosides A and B, bacopasides) together with alkaloids such as brahmine."
   },
   "modern_information": {
     "evidence_summary": "Bacopa monnieri has been studied in cognition-related and neuropharmacological research.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Medhya use for memory and learning",
+      "Manasavikara, Unmada and Apasmara",
+      "Kushta, Shotha and Pandu",
+      "Jwara"
+    ],
     "safety_notes": "Evidence depends on extract/preparation; avoid translating supplement evidence directly to all Ayurvedic preparations.",
     "sources": []
   },
@@ -153,11 +189,21 @@
   },
   "doctor": {
     "quick_reference": "Traditional medhya rasayana; whole plant used.",
-    "important_indications": [],
+    "important_indications": [
+      "Smritibhramsha",
+      "Unmada",
+      "Apasmara",
+      "Anidra",
+      "Kushta"
+    ],
     "useful_part": "whole plant",
     "dose": "Churna 1–3 g; swarasa 10–20 ml",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": [
+      "May cause GI upset",
+      "Additive effect with sedatives",
+      "Avoid in pregnancy without advice"
+    ]
   },
   "sources": [
     {

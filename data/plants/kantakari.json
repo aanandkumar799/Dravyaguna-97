@@ -88,12 +88,19 @@
       "Pinasa",
       "Parshwashoola"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Kasahara",
+      "Shwasahara",
+      "Deepana",
+      "Pachana",
+      "Jwaraghna",
+      "Kanthya"
+    ],
     "dose": "Whole plant 20–30 g for decoction (API)",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Contains Solanum glycoalkaloids; berries should not be eaten raw in quantity. The plant is very prickly, so handle carefully. Persistent cough or breathlessness needs clinical evaluation.",
+    "contraindications": "Pitta-predominant burning states and bleeding disorders; avoid high doses in pregnancy."
   },
   "formulations": [
     {
@@ -132,7 +139,11 @@
   },
   "modern_information": {
     "evidence_summary": "Kantakari has a long traditional respiratory-system use and has been investigated experimentally. Modern findings should not be presented as established treatment for asthma or other disease.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Traditional drug for cough and asthma",
+      "Member of Laghu Panchamula of Dashamula",
+      "Ingredient of Kantakaryavaleha and Vyaghri Haritaki"
+    ],
     "safety_notes": "Use authenticated material and authoritative dosing/formulation references.",
     "sources": []
   },
@@ -173,7 +184,7 @@
     ]
   },
   "doctor": {
-    "quick_reference": "Kantakari — Solanum xanthocarpum; whole plant/fruit listed as useful in the project record.",
+    "quick_reference": "Kantakari — Solanum xanthocarpum; whole plant/fruit listed as useful.",
     "important_indications": [
       "Kasa",
       "Shwasa",

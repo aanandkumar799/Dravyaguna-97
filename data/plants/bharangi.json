@@ -4,12 +4,17 @@
   "identity": {
     "name": "Bharangi",
     "sanskrit_name": "भारङ्गी",
-    "transliteration": "",
+    "transliteration": "Bhārṅgī",
     "botanical_name": "Clerodendrum serratum (L.) Moon",
     "family": "Lamiaceae",
     "english_name": "Blue Fountain Bush",
     "hindi_name": "भारंगी",
-    "regional_names": [],
+    "regional_names": [
+      "Marathi: Bhāraṅgī",
+      "Bengali: Bāmunhāṭī",
+      "Tamil: Kāṇṭuparaṅki",
+      "Telugu: Gaṇṭubhāraṅgi"
+    ],
     "synonyms": [
       "Angaravalli",
       "Bhargi",
@@ -19,21 +24,26 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Perennial erect shrub, 1–2.5 m tall, with bluntly quadrangular stems.",
+    "habitat": "Forests and moist shady places, especially along forest edges.",
+    "distribution": "Throughout India, particularly the Himalayan foothills, Eastern India and the Western Ghats."
   },
   "identification": {
-    "description": "Tulsi (Ocimum sanctum) is known as the 'Queen of Herbs' in Ayurveda. It boosts immunity, combats respiratory disorders, and has adaptogenic properties.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
+    "description": "Shrub with bluntly quadrangular stems, opposite or ternate serrate leaves, terminal panicles of pale blue-violet flowers and succulent purple-black drupes.",
+    "whole_plant": "Erect shrub with whorled serrate leaves and terminal panicles of pale blue to violet flowers.",
+    "root": "Hard, woody, cylindrical, up to 5 cm thick, light brown with elongated lenticels; bark thin and easily separated; wood with marked medullary rays and concentric rings; taste acrid.",
+    "stem": "Bluntly quadrangular, little branched, with prominent leaf scars.",
+    "leaf": "Opposite or in whorls of three, subsessile, elliptic-oblong, 10–25 cm long, coarsely serrate.",
+    "flower": "Pale blue to violet, in terminal panicles; the lower corolla lobe larger and deep blue; stamens long-exserted.",
+    "fruit": "Drupe, 4-lobed, black-purple when ripe, seated on the enlarged persistent calyx.",
     "seed": "",
     "bark": "",
-    "identification_points": []
+    "identification_points": [
+      "Woody root with thin, easily separable bark",
+      "Prominent medullary rays and growth rings",
+      "Acrid taste",
+      "Whorled serrate leaves and blue-violet flowers"
+    ]
   },
   "images": {
     "root": "",
@@ -77,12 +87,19 @@
       "Jwara",
       "Pinasa"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Shwasahara",
+      "Kasahara",
+      "Kaphavatashamaka",
+      "Deepana",
+      "Pachana",
+      "Shothahara"
+    ],
     "dose": "Mula churna 3–6 g",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Ushna and may aggravate Pitta in excess; use with care in bleeding tendencies. Authenticate the root, as other species are sold as Bharangi.",
+    "contraindications": "Avoid in Pitta-predominant conditions and in pregnancy without advice."
   },
   "formulations": [
     {
@@ -108,13 +125,25 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "saponins",
+      "oleanolic acid",
+      "queretaroic acid",
+      "serratagenic acid",
+      "D-mannitol",
+      "scutellarein"
+    ],
+    "chemical_notes": "The root is rich in triterpenoid saponins and sapogenins (oleanolic, queretaroic and serratagenic acids)."
   },
   "modern_information": {
     "evidence_summary": "Clerodendrum serratum is a specific herb for respiratory disorders like asthma, chronic cough, and rhinitis.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Shwasa and Kasa",
+      "Hikka and Pinasa",
+      "Jwara and Gulma",
+      "Shotha"
+    ],
+    "safety_notes": "Generally well tolerated at classical doses; data on long-term use and pregnancy are limited.",
     "sources": []
   },
   "student": {
@@ -124,23 +153,51 @@
       "Useful part: root",
       "Rasa-Panchaka: Tikta, Katu; Laghu, Ruksha; Ushna; Katu"
     ],
-    "viva_questions": [],
-    "identification_points": [],
+    "viva_questions": [
+      "Give the botanical name and family of Bharangi.",
+      "What is the rasa-panchaka of Bharangi?",
+      "Name two formulations containing Bharangi.",
+      "What are the main indications of Bharangi?"
+    ],
+    "identification_points": [
+      "Woody root with separable bark",
+      "Radiating medullary rays",
+      "Acrid taste"
+    ],
     "mnemonics": [],
     "quick_revision": "Clerodendrum serratum is a specific herb for respiratory disorders like asthma, chronic cough, and rhinitis."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Bharangi as a principal Shwasahara drug",
+      "Kapha-Vata pathology of Shwasa and Kasa"
+    ],
+    "discussion_points": [
+      "Substitution of Bharangi with other Clerodendrum species",
+      "Family shift from Verbenaceae to Lamiaceae"
+    ],
+    "practical_points": [
+      "Identify Bharangi roots by transverse section",
+      "Prepare Bharangyadi Kwatha"
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Acrid root for Shwasa, Kasa, Hikka and Pinasa; ushna, katu vipaka; 3–6 g churna.",
+    "important_indications": [
+      "Shwasa",
+      "Kasa",
+      "Hikka",
+      "Pinasa",
+      "Jwara"
+    ],
     "useful_part": "root",
     "dose": "Mula churna 3–6 g",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": [
+      "May aggravate Pitta",
+      "Use authenticated root",
+      "Avoid in pregnancy without advice"
+    ]
   },
   "sources": [
     {

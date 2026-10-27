@@ -98,25 +98,25 @@
     "dose": "Seed churna 0.5–1 g (up to 3 g); flower churna 3–6 g; bark 5–10 g for decoction",
     "anupana": "",
     "duration": "",
-    "precautions": "Different plant parts have different traditional uses; do not infer dosing from this educational record.",
-    "contraindications": ""
+    "precautions": "Different plant parts have different traditional uses; do not infer dosing without a qualified physician.",
+    "contraindications": "Seeds are purgative and anthelmintic: avoid in pregnancy, in children without supervision and in Atisara; bark and Kshara are contraindicated in bleeding states."
   },
   "formulations": [
     {
       "name": "Palasha Kshara",
-      "dosage_form": "",
+      "dosage_form": "Kshara",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Palashabija Churna",
-      "dosage_form": "",
+      "dosage_form": "Churna",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Krimimudgara Rasa",
-      "dosage_form": "",
+      "dosage_form": "Rasaushadhi",
       "indication": "",
       "reference": ""
     },
@@ -128,10 +128,14 @@
     }
   ],
   "classical_reference": {
-    "shlokas": [],
-    "nighantu_references": [],
+    "shlokas": [
+      "पलाशः किंशुकः पर्णो याज्ञिको रक्तपुष्पकः ।\nक्षारश्रेष्ठो वातपोथो ब्रह्मवृक्षः समिद्वरः ॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Vatadi Varga (Palasha passage)"
+    ],
     "samhita_references": [],
-    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "shloka_reference_status": "added_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ]
@@ -145,7 +149,11 @@
   },
   "modern_information": {
     "evidence_summary": "Butea monosperma has been investigated for antimicrobial, anti-inflammatory and anthelmintic-related activities; laboratory findings should not be treated as proof of clinical efficacy.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Traditional anthelmintic (seed)",
+      "Natural dye from flowers",
+      "Source of Bengal kino gum"
+    ],
     "safety_notes": "Use correctly identified plant material and appropriate professional references.",
     "sources": []
   },
@@ -200,7 +208,7 @@
     "anupana": "",
     "key_precautions": [
       "Confirm plant part and identity",
-      "Do not infer dosing from this page",
+      "Do not infer dosing without a qualified physician",
       "Use authoritative Ayurvedic references for therapeutic decisions"
     ]
   },

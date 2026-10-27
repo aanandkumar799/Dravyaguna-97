@@ -102,7 +102,32 @@
     "precautions": "Species authentication is particularly important because Fagonia names and accepted species concepts vary among references.",
     "contraindications": "No generic contraindication assigned here without formulation- and patient-specific evidence."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Duralabhadi Kwatha",
+      "dosage_form": "kwatha",
+      "indication": "Jwara, Daha, Trishna",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Tiktaka Ghrita",
+      "dosage_form": "ghrita",
+      "indication": "Kushta, Visarpa, Raktavikara",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Ushirasava",
+      "dosage_form": "asava",
+      "indication": "Raktapitta, Daha",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Kantakaryavaleha",
+      "dosage_form": "avaleha",
+      "indication": "Kasa, Shwasa",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -113,7 +138,12 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
+    "major_constituents": [
+      "harmine",
+      "amino acids (alanine, glycine, leucine, proline)",
+      "oleanane-type triterpenoids",
+      "triterpenoid saponins"
+    ],
     "chemical_notes": "Phytochemical reports are species-, geography- and extraction-dependent; detailed constituent claims are intentionally not populated without text-level source verification."
   },
   "modern_information": {
@@ -164,7 +194,7 @@
     ]
   },
   "doctor": {
-    "quick_reference": "Dhamasa — Fagonia record; whole plant is listed as useful in the project record. Species identity should be verified before medicinal application.",
+    "quick_reference": "Dhamasa — Fagonia record; whole plant is listed as useful. Species identity should be verified before medicinal application.",
     "important_indications": [
       "Raktapitta",
       "Jwara",

@@ -86,38 +86,48 @@
       "Gulma",
       "Krimi"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Deepana",
+      "Pachana",
+      "Grahi",
+      "Garbhashaya-vishodhana",
+      "Ruchya"
+    ],
     "dose": "Churna 1–3 g",
-    "anupana": "",
+    "anupana": "Takra (buttermilk) in Grahani and Atisara",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Ushna and Pittala; excess use may cause heartburn. Large medicinal doses are best avoided in pregnancy.",
+    "contraindications": "Amlapitta and other Pitta-predominant states in medicinal doses."
   },
   "formulations": [
     {
       "name": "Jirakadyarishta",
-      "dosage_form": "",
+      "dosage_form": "Arishta",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Jirakadi Modaka",
-      "dosage_form": "",
+      "dosage_form": "Modaka",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Hingvadi Churna",
-      "dosage_form": "",
+      "dosage_form": "Churna",
       "indication": "",
       "reference": ""
     }
   ],
   "classical_reference": {
-    "shlokas": [],
-    "nighantu_references": [],
+    "shlokas": [
+      "जीरकत्रितयं रूक्षं कटूष्णं दीपनं लघु ।\nसंग्राहि पित्तलं मेध्यं गर्भाशयविशुद्धिकृत् ॥\nज्वरघ्नं पाचनं वृष्यं बल्यं रुच्यं कफापहम् ।\nचक्षुष्यं पवनाध्मानगुल्मच्छर्द्यतिसारहृत् ॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Haritakyadi Varga (Jiraka passage)"
+    ],
     "samhita_references": [],
-    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "shloka_reference_status": "added_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ]
@@ -132,7 +142,10 @@
   },
   "modern_information": {
     "evidence_summary": "Cumin is a widely used culinary spice with a long traditional digestive use. Modern studies cover digestive, antioxidant and other effects, but preparation-specific clinical evidence should be assessed separately.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Spice and carminative",
+      "Traditional digestive in diarrhoea and dyspepsia"
+    ],
     "safety_notes": "Use authenticated food/pharmacopoeial-quality material and avoid inferring therapeutic dosing from culinary amounts.",
     "sources": []
   },
@@ -185,10 +198,10 @@
     ],
     "useful_part": "fruit",
     "dose": "Churna 1–3 g",
-    "anupana": "",
+    "anupana": "Takra (buttermilk) in Grahani and Atisara",
     "key_precautions": [
       "Use authenticated fruit and appropriate preparation.",
-      "Verify dose and formulation from authoritative sources rather than this educational record."
+      "Verify dose and formulation from authoritative sources for the specific formulation."
     ]
   },
   "sources": [

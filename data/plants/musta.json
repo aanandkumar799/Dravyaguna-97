@@ -9,7 +9,14 @@
     "family": "Cyperaceae",
     "english_name": "Nut Grass",
     "hindi_name": "नागरमोथा",
-    "regional_names": [],
+    "regional_names": [
+      "Bengali: Mutha",
+      "Gujarati: Moth",
+      "Marathi: Nagarmotha",
+      "Tamil: Korai kizhangu",
+      "Telugu: Tungamustalu",
+      "Malayalam: Muthanga"
+    ],
     "synonyms": [
       "Abda",
       "Jalada",
@@ -99,33 +106,37 @@
     "anupana": "",
     "duration": "",
     "precautions": "Correct botanical authentication is important because Cyperaceae species may be confused in crude material.",
-    "contraindications": ""
+    "contraindications": "Constipation and Vata-predominant dryness (Grahi, Ruksha); medicinal doses avoided in pregnancy without supervision."
   },
   "formulations": [
     {
       "name": "Mustakarishta",
-      "dosage_form": "",
+      "dosage_form": "Arishta",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Mustakadi Kwatha",
-      "dosage_form": "",
+      "dosage_form": "Kwatha",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Ashokarishta",
-      "dosage_form": "",
+      "dosage_form": "Arishta",
       "indication": "",
       "reference": ""
     }
   ],
   "classical_reference": {
-    "shlokas": [],
-    "nighantu_references": [],
+    "shlokas": [
+      "मुस्तं कटु हिमं ग्राहि तिक्तं दीपनपाचनम् ।\nकषायं कफपित्तास्रतृड्ज्वरारुचिजन्तुजित् ॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Karpuradi Varga (Musta passage)"
+    ],
     "samhita_references": [],
-    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "shloka_reference_status": "added_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ]
@@ -138,7 +149,11 @@
   },
   "modern_information": {
     "evidence_summary": "Cyperus rotundus has been investigated experimentally for digestive, inflammatory and other pharmacological activities. These findings are not treated here as proof of clinical efficacy.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Traditional digestive and antidiarrhoeal",
+      "Aromatic ingredient in perfumery",
+      "Component of Shadangapaniya in fever"
+    ],
     "safety_notes": "Use authenticated crude drug and appropriate professional guidance for medicinal use.",
     "sources": []
   },

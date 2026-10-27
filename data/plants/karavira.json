@@ -121,7 +121,7 @@
     "recognized_uses": [
       "Botanical identification and pharmacognosy/dravyaguna education."
     ],
-    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use. Highly toxic plant; do not infer oral do not infer clinical treatment instructions or treatment from this page. Kew explicitly describes Nerium oleander as highly toxic and records it as both a poison and a medicine.",
+    "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use. Highly toxic plant; do not infer oral do not infer clinical treatment instructions or treatment without a qualified physician. Kew explicitly describes Nerium oleander as highly toxic and records it as both a poison and a medicine.",
     "sources": []
   },
   "student": {
@@ -176,8 +176,8 @@
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references.",
-      "Toxicity risk: do not infer a clinical dose from this educational record.",
-      "Highly toxic plant; do not infer oral dose or treatment from this page.",
+      "Toxicity risk:",
+      "Highly toxic plant; do not infer oral dose or treatment without a qualified physician.",
       "Kew explicitly describes Nerium oleander as highly toxic and records it as both a poison and a medicine."
     ]
   },

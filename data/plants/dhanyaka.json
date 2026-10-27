@@ -194,7 +194,7 @@
     "anupana": "",
     "key_precautions": [
       "Use authenticated material.",
-      "Do not infer patient-specific dosing from this educational record.",
+      "Do not infer patient-specific dosing without a qualified physician.",
       "Separate traditional indications from modern clinical evidence."
     ]
   },

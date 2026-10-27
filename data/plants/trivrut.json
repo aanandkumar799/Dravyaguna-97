@@ -4,12 +4,19 @@
   "identity": {
     "name": "Trivrut",
     "sanskrit_name": "त्रिवृत्",
-    "transliteration": "",
+    "transliteration": "Trivṛt",
     "botanical_name": "Operculina turpethum (L.) Silva Manso",
     "family": "Convolvulaceae",
     "english_name": "Indian Jalap / Turpeth",
     "hindi_name": "निसोथ",
-    "regional_names": [],
+    "regional_names": [
+      "Marathi: Nishottar",
+      "Gujarati: Nasottar",
+      "Bengali: Teudi",
+      "Tamil: Karuppu Sivadai",
+      "Telugu: Tella Tegada",
+      "Malayalam: Trikolpakonna"
+    ],
     "synonyms": [
       "Triputa",
       "Sarala",
@@ -20,21 +27,27 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Large perennial twining herb with milky juice and long fleshy roots.",
+    "habitat": "Hedges, thickets and open waste land in the plains and lower hills.",
+    "distribution": "Throughout India up to about 900 m; also cultivated."
   },
   "identification": {
     "description": "Long fleshy roots with central woody core, longitudinally furrowed dark reddish-brown bark and faint odor.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
+    "whole_plant": "Twining herb with winged, three-angled stems, heart-shaped leaves and large white funnel-shaped flowers.",
+    "root": "Cylindrical root pieces 1.5–15 cm long and 1–5 cm thick, dull grey to reddish-grey or light brown, deeply furrowed giving a rope-like look; cut surface shows thick whitish bark and light yellow centre; taste slightly acrid and nauseating (API).",
+    "stem": "Twining stem with three to four longitudinal wings (hence 'Trivrit'), often reddish, with milky latex.",
+    "leaf": "Alternate, ovate to cordate leaves, 5–15 cm long, entire or slightly lobed, pubescent.",
+    "flower": "Large white funnel-shaped flowers in few-flowered axillary cymes, with large persistent sepals.",
+    "fruit": "Globose capsule enclosed by the enlarged, persistent sepals.",
+    "seed": "Usually four black, smooth or glabrous seeds per capsule.",
     "bark": "",
-    "identification_points": []
+    "identification_points": [
+      "Rope-like, deeply furrowed cylindrical root",
+      "Thick whitish bark with light yellow central wood",
+      "Winged (three-angled) twining stem",
+      "Large white funnel-shaped flowers",
+      "Acrid, nauseating taste of root"
+    ]
   },
   "images": {
     "whole_plant": "",
@@ -84,12 +97,19 @@
       "Arsha",
       "Pandu"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Sukhavirechana",
+      "Virechana",
+      "Kaphapittahara",
+      "Jwarahara",
+      "Shothahara",
+      "Udarahara"
+    ],
     "dose": "Mula churna 1–3 g (API); for virechana 3–6 g",
-    "anupana": "",
+    "anupana": "Ushna jala or Triphala kwatha (for Virechana)",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Purgative drug: give only after assessing Koshtha, Agni and Bala; use under supervision for Virechana. Excess use can cause dehydration, weakness and Vata aggravation (Trivrit is Vatala).",
+    "contraindications": "Pregnancy, children, the elderly and debilitated, Atisara and Grahani, Gudabhramsha, rectal bleeding, recent fever with debility, and dehydration."
   },
   "formulations": [
     {
@@ -119,34 +139,87 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "Turpethin (resin glycoside)",
+      "Turpethinic acids",
+      "α- and β-Turpethein",
+      "Scopoletin",
+      "Betulin",
+      "Lupeol"
+    ],
+    "chemical_notes": "The purgative action is due to resinous glycosides (turpeth resin) concentrated in the root bark (API: resinous glycosides)."
   },
   "modern_information": {
     "evidence_summary": "Operculina turpethum is a strong purgative herb used in Ayurveda for detoxification and relieving constipation.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Purgative (Sukhavirechana) in Panchakarma",
+      "Constipation and Udara roga (traditional)",
+      "Ingredient of Avipattikara Churna for hyperacidity"
+    ],
+    "safety_notes": "Strong cathartic in higher doses; may cause cramps, diarrhoea and electrolyte loss. Avoid in pregnancy.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Botanical name: Operculina turpethum (L.) Silva Manso; Family: Convolvulaceae",
+      "Useful part: root (root bark); Shveta Trivrit preferred, Shyama Trivrit is more drastic",
+      "Rasa: Tikta, Katu; Guna: Laghu, Ruksha, Tikshna; Virya: Ushna; Vipaka: Katu",
+      "Karma: Sukhavirechana (best mild purgative), Kaphapittahara",
+      "Charaka: Trivrit is the best among Sukhavirechaka dravyas",
+      "Constituent: turpethin (resin glycoside)",
+      "Formulations: Avipattikara Churna, Manibhadra Guda, Hridyavirechana Leha"
+    ],
+    "viva_questions": [
+      "What are the two varieties of Trivrit and how do they differ?",
+      "Why is Trivrit called Sukhavirechana?",
+      "Give the botanical name and family of Trivrit.",
+      "Name two formulations containing Trivrit.",
+      "What is the active principle of Trivrit?"
+    ],
+    "identification_points": [
+      "Rope-like furrowed root",
+      "Whitish bark, yellow wood",
+      "Winged stem",
+      "White funnel flowers",
+      "Nauseating taste"
+    ],
     "mnemonics": [],
     "quick_revision": "Operculina turpethum is a strong purgative herb used in Ayurveda for detoxification and relieving constipation."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Compare Shveta and Shyama Trivrit.",
+      "Place Trivrit in Virechana karma and the Sukhavirechana concept.",
+      "Relate the winged stem to the name Trivrit."
+    ],
+    "discussion_points": [
+      "Why Trivrit is Vatala despite being Ushna",
+      "Selection of Virechana drug by Koshtha type"
+    ],
+    "practical_points": [
+      "Identify root pieces by rope-like surface and whitish bark.",
+      "Demonstrate preparation of Avipattikara Churna."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Trivrit root is the classical Sukhavirechana drug (Tikta-Katu, Ushna) used for Virechana in Pitta and Kapha disorders, Vibandha, Udara and Shotha; 1–3 g churna, more only for supervised Virechana.",
+    "important_indications": [
+      "Vibandha",
+      "Udara roga",
+      "Gulma",
+      "Shotha",
+      "Pandu",
+      "Amlapitta (in Avipattikara Churna)"
+    ],
     "useful_part": "root bark",
     "dose": "Mula churna 1–3 g (API); for virechana 3–6 g",
-    "anupana": "",
-    "key_precautions": []
+    "anupana": "Ushna jala or Triphala kwatha (for Virechana)",
+    "key_precautions": [
+      "Avoid in pregnancy",
+      "Avoid in Atisara and debility",
+      "Assess Koshtha and Bala before Virechana",
+      "Watch for dehydration"
+    ]
   },
   "sources": [
     {

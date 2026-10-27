@@ -96,15 +96,44 @@
     "dose": "Churna 3–6 g",
     "anupana": "",
     "duration": "",
-    "precautions": "Use authenticated Santalum album material. Do not infer dosing or treatment of urinary/skin disease from this educational record.",
+    "precautions": "Use authenticated Santalum album material. Do not infer dosing or treatment of urinary/skin disease without a qualified physician.",
     "contraindications": "Not specified here because patient-specific prescribing requires authoritative source verification."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Chandanasava",
+      "dosage_form": "asava",
+      "indication": "Mutrakrichha, Shukrameha, Daha",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Chandanadi Taila",
+      "dosage_form": "taila",
+      "indication": "Daha, Raktapitta, Shosha",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Chandanadi Churna",
+      "dosage_form": "churna",
+      "indication": "Daha, Raktapitta",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Sarivadyasava",
+      "dosage_form": "asava",
+      "indication": "Raktavikara, Prameha",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
-    "shlokas": [],
-    "nighantu_references": [],
+    "shlokas": [
+      "चन्दनं शीतलं रूक्षं तिक्तमाह्लादनं लघु ।\nश्रमशोषविषश्लेष्मतृष्णापित्तास्रदाहनुत् ॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Karpuradi Varga"
+    ],
     "samhita_references": [],
-    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "shloka_reference_status": "added_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ]
@@ -116,7 +145,7 @@
     "chemical_notes": "The composition of sandalwood oil varies with age, provenance and extraction. Exact percentages should be taken from an authenticated pharmacopoeial or analytical source rather than inferred here."
   },
   "modern_information": {
-    "evidence_summary": "Santalum album is primarily recognized for its aromatic heartwood and sandalwood oil. This educational dossier distinguishes traditional Ayurvedic use from modern clinical evidence and does not provide independent efficacy claims.",
+    "evidence_summary": "Santalum album is primarily recognized for its aromatic heartwood and sandalwood oil. This entry distinguishes traditional Ayurvedic use from modern clinical evidence and does not provide independent efficacy claims.",
     "recognized_uses": [
       "Aromatic heartwood and essential-oil use",
       "Traditional Ayurvedic cooling/aromatic applications"

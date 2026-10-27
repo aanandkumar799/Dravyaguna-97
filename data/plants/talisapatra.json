@@ -92,12 +92,37 @@
       "Traditional expectorant/respiratory use"
     ],
     "dose": "Patra churna 2–3 g",
-    "anupana": "",
+    "anupana": "Madhu (honey)",
     "duration": "",
     "precautions": "Correct botanical identity is essential because conifer leaves can be confused with other species.",
-    "contraindications": ""
+    "contraindications": "Pitta-predominant and bleeding states, pregnancy in high doses."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Talisadi Churna",
+      "dosage_form": "Churna",
+      "indication": "Kasa, Shwasa, Aruchi",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Talisadi Modaka",
+      "dosage_form": "Modaka",
+      "indication": "Kasa, Agnimandya",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Bhaskara Lavana",
+      "dosage_form": "Churna",
+      "indication": "Agnimandya, Gulma",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Draksadi Churna",
+      "dosage_form": "Churna",
+      "indication": "Amlapitta",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -115,7 +140,10 @@
   },
   "modern_information": {
     "evidence_summary": "Abies webbiana is an aromatic Himalayan conifer studied for volatile constituents and traditional respiratory applications; clinical claims require preparation-specific evidence.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Cough and bronchitis",
+      "Loss of appetite and indigestion"
+    ],
     "safety_notes": "Use authenticated material and appropriate preparation.",
     "sources": []
   },
@@ -164,7 +192,7 @@
     ],
     "useful_part": "leaf",
     "dose": "Patra churna 2–3 g",
-    "anupana": "",
+    "anupana": "Madhu (honey)",
     "key_precautions": [
       "Authenticate botanical source",
       "Avoid unsupported extrapolation from traditional use"

@@ -89,14 +89,38 @@
       "Daurbalya",
       "Kshaya"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Vrishya",
+      "Balya",
+      "Brimhana",
+      "Vatahara"
+    ],
     "dose": "Seed churna 3–6 g (API)",
-    "anupana": "",
+    "anupana": "Milk (Ksheera)",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Pod hairs cause intense itching; use only cleaned seed purified (shodhana) by boiling in milk and dehusking. Seeds contain L-DOPA, which can cause nausea, insomnia and involuntary movements.",
+    "contraindications": "Concurrent levodopa therapy or MAO inhibitors without supervision, history of psychosis, malignant melanoma, and pregnancy."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Vanari Gutika",
+      "dosage_form": "Gutika",
+      "indication": "Klaibya, Shukrakshaya",
+      "reference": "AFI"
+    },
+    {
+      "name": "Brihat Masha Taila",
+      "dosage_form": "Taila",
+      "indication": "Vatavyadhi, Pakshaghata, Kampavata",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Mashatmaguptadi Kashaya",
+      "dosage_form": "Kashaya",
+      "indication": "Vatavyadhi, Pakshaghata",
+      "reference": "AFI"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -115,7 +139,11 @@
   },
   "modern_information": {
     "evidence_summary": "Mucuna pruriens is studied particularly because its seeds contain L-DOPA. This does not establish that all traditional preparations are clinically interchangeable with standardized medicines.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Natural source of L-DOPA studied in Parkinson's disease (Kampavata)",
+      "Traditional aphrodisiac and male fertility drug",
+      "Ingredient of Brihat Masha Taila"
+    ],
     "safety_notes": "Seed hairs can cause marked skin irritation. Use authenticated, appropriately processed material and specialist guidance for therapeutic preparations.",
     "sources": []
   },
@@ -169,7 +197,7 @@
     ],
     "useful_part": "seed",
     "dose": "Seed churna 3–6 g (API)",
-    "anupana": "",
+    "anupana": "Milk (Ksheera)",
     "key_precautions": [
       "Raw seed/pod can cause irritation.",
       "L-DOPA content makes preparation-specific safety and interaction review important.",

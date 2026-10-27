@@ -4,12 +4,19 @@
   "identity": {
     "name": "Chitraka",
     "sanskrit_name": "चित्रक",
-    "transliteration": "",
+    "transliteration": "Citraka",
     "botanical_name": "Plumbago zeylanica L.",
     "family": "Plumbaginaceae",
     "english_name": "Leadwort / White Leadwort",
     "hindi_name": "चीता / चित्रक",
-    "regional_names": [],
+    "regional_names": [
+      "Marathi: Chitraka",
+      "Bengali: Chitā",
+      "Tamil: Chittiramūlam",
+      "Telugu: Chitramūlamu",
+      "Kannada: Chitramūla",
+      "Malayalam: Koduveli"
+    ],
     "synonyms": [
       "Agni (अग्नि)",
       "Dahana (दहन)",
@@ -20,19 +27,19 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Perennial sub-scandent shrub, 1–2 m tall, with spreading branches.",
+    "habitat": "Open and shady places, hedges and waste ground; also cultivated.",
+    "distribution": "Throughout India in the wild state and occasionally cultivated in gardens."
   },
   "identification": {
     "description": "Cylindrical brownish-grey roots with striations and rootlet scars, acrid biting persistent burning taste causing intense tingling on tongue, distinct pungent odor.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
+    "whole_plant": "Straggling shrub with alternate ovate leaves and spikes of white flowers bearing sticky glandular calyces.",
+    "root": "Roots 30 cm or more long and about 6 mm or more thick, reddish to deep brown with rootlet scars; bark thin and brown; odour disagreeable; taste acrid.",
+    "stem": "Woody at base, branches striate, glabrous, somewhat climbing.",
+    "leaf": "Simple, alternate, ovate to oblong, 3–8 cm long, entire, with a short amplexicaul petiole.",
+    "flower": "White, in elongated terminal spikes; calyx tubular, covered with stalked sticky glands; corolla salver-shaped with a long slender tube.",
+    "fruit": "Oblong, five-furrowed capsule enclosed in the persistent glandular calyx.",
+    "seed": "Single, oblong, dark brown.",
     "bark": "",
     "identification_points": [
       "Cylindrical brownish-grey roots with striations and rootlet scars, acrid biting persistent burning taste causing intense tingling on tongue, distinct pungent odor."
@@ -100,10 +107,10 @@
       "Bhedana"
     ],
     "dose": "Mula churna 1–2 g",
-    "anupana": "",
+    "anupana": "Takra (buttermilk), especially in Arsha and Grahani.",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Use only after shodhana (e.g. in lime water). Fresh root is vesicant and irritant; avoid prolonged contact. Use measured doses as it is tikshna and ushna.",
+    "contraindications": "Contraindicated in pregnancy (classically abortifacient), in Pitta-predominant states, Amlapitta, Raktapitta and peptic ulcer."
   },
   "formulations": [
     {
@@ -158,34 +165,84 @@
     }
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "plumbagin",
+      "chitranone",
+      "zeylanone",
+      "isozeylanone",
+      "elliptinone",
+      "beta-sitosterol"
+    ],
+    "chemical_notes": "The root contains naphthoquinones, chiefly plumbagin, which accounts for its pungent, vesicant and pharmacological activity."
   },
   "modern_information": {
     "evidence_summary": "Ignites digestive fire, used in weight loss and ama digestion.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Agnimandya and Grahani",
+      "Arsha",
+      "Udarashula and Gulma",
+      "Shotha"
+    ],
+    "safety_notes": "Plumbagin is irritant and can be toxic in high doses; the drug is used only after shodhana and in small doses, and avoided in pregnancy.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Plumbago zeylanica L., family Plumbaginaceae",
+      "Useful part: root (root bark)",
+      "Rasa katu; guna laghu, ruksha, tikshna; virya ushna; vipaka katu",
+      "Charaka: agrya for Deepana, Pachana, Gudashotha and Arsha",
+      "Shodhana in lime water (churnodaka) before use",
+      "Formulations: Chitrakadi Vati, Chitraka Haritaki, Chitrakadi Churna",
+      "Dose 1–2 g churna; active principle plumbagin"
+    ],
+    "viva_questions": [
+      "Why is shodhana of Chitraka done and how?",
+      "Give the rasa-panchaka of Chitraka.",
+      "What is the main constituent of Chitraka?",
+      "Name three formulations of Chitraka.",
+      "Name the other species of Chitraka (red and blue flowered)."
+    ],
+    "identification_points": [
+      "Reddish-brown root, acrid taste",
+      "Glandular sticky calyx",
+      "White spike inflorescence"
+    ],
     "mnemonics": [],
     "quick_revision": "Ignites digestive fire, used in weight loss and ama digestion."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Chitraka as the agrya Deepaniya dravya",
+      "Shodhana of Chitraka and safety",
+      "Chitraka types: shveta, rakta, nila"
+    ],
+    "discussion_points": [
+      "Abortifacient reputation and use in pregnancy",
+      "Use of Chitraka in Arsha with takra"
+    ],
+    "practical_points": [
+      "Demonstrate Chitraka shodhana in lime water",
+      "Identify root and flowering twig"
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Pungent, hot root used as the foremost deepana-pachana drug for Agnimandya, Grahani and Arsha; shodhita, 1–2 g with takra.",
+    "important_indications": [
+      "Agnimandya",
+      "Grahani",
+      "Arsha",
+      "Udarashula",
+      "Shotha"
+    ],
     "useful_part": "root",
     "dose": "Mula churna 1–2 g",
-    "anupana": "",
-    "key_precautions": []
+    "anupana": "Takra (buttermilk), especially in Arsha and Grahani.",
+    "key_precautions": [
+      "Shodhana required",
+      "Contraindicated in pregnancy",
+      "Avoid in Pitta disorders and peptic ulcer"
+    ]
   },
   "sources": [
     {

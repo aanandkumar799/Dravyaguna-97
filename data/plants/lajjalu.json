@@ -97,30 +97,30 @@
     "anupana": "",
     "duration": "",
     "precautions": "Traditional indications should not be treated as proof of clinical efficacy.",
-    "contraindications": ""
+    "contraindications": "Constipation and Vata-predominant dryness (Grahi, Ruksha); medicinal doses avoided in pregnancy."
   },
   "formulations": [
     {
       "name": "Samangadi Churna",
-      "dosage_form": "",
+      "dosage_form": "Churna",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Kutajavaleha",
-      "dosage_form": "",
+      "dosage_form": "Avaleha",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Pushyanuga Churna",
-      "dosage_form": "",
+      "dosage_form": "Churna",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Brihat Gangadhara Churna",
-      "dosage_form": "",
+      "dosage_form": "Churna",
       "indication": "",
       "reference": ""
     }

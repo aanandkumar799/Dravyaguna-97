@@ -120,7 +120,7 @@
     "recognized_uses": [
       "Botanical identification and pharmacognosy/dravyaguna education."
     ],
-    "safety_notes": "Do not infer do not infer clinical treatment instructions or therapeutic use from this educational record. Latex-bearing material should be handled with appropriate laboratory precautions.",
+    "safety_notes": "Latex-bearing material should be handled with appropriate laboratory precautions.",
     "sources": []
   },
   "student": {
@@ -170,7 +170,6 @@
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references.",
-      "Do not infer dose or therapeutic use from this educational record.",
       "Latex-bearing material should be handled with appropriate laboratory precautions."
     ]
   },

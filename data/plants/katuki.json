@@ -4,7 +4,7 @@
   "identity": {
     "name": "Katuki",
     "sanskrit_name": "कटुका",
-    "transliteration": "",
+    "transliteration": "Kaṭukā",
     "botanical_name": "Picrorhiza kurroa Royle ex Benth.",
     "family": "Plantaginaceae (Scrophulariaceae)",
     "english_name": "Picrorhiza / Gentian",
@@ -26,18 +26,18 @@
   "classification": {
     "kingdom": "Plantae",
     "habit": "Small perennial hairy herb with long creeping rhizome; alpine Himalaya 3000–5000 m",
-    "habitat": "",
-    "distribution": ""
+    "habitat": "Moist rocky crevices and alpine slopes of the Himalaya at about 3000–5000 m.",
+    "distribution": "North-western to eastern Himalaya, from Kashmir to Sikkim; heavily collected from the wild and now threatened."
   },
   "identification": {
     "description": "Sub-cylindrical grayish-brown rhizomes marked with prominent circular leaf-scars and stem remnants, porous white internal fracture, intensely bitter persistent taste.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
+    "whole_plant": "Small, more or less hairy perennial herb with a long creeping rhizome, a rosette of basal leaves and a short flowering spike.",
+    "root": "Roots thin, cylindrical, 5–10 cm long, dusty grey, mostly attached to the rhizome; inner surface black with whitish xylem; taste bitter.",
+    "stem": "Rhizome 2.5–8 cm long and 4–8 mm thick, subcylindrical, greyish-brown, rough with longitudinal wrinkles and circular scars, ending in a bud with a tuft of leaves; fracture short, taste bitter.",
+    "leaf": "Leaves mostly basal, spathulate, sharply serrate, narrowed into a winged stalk.",
+    "flower": "Small whitish or pale blue-purple flowers crowded in a dense terminal spike, with long projecting stamens.",
+    "fruit": "Small ovoid capsule containing many seeds.",
+    "seed": "Minute, numerous seeds with a loose, transparent, net-like coat.",
     "bark": "",
     "identification_points": [
       "Sub-cylindrical grayish-brown rhizomes marked with prominent circular leaf-scars and stem remnants, porous white internal fracture, intensely bitter persistent taste."
@@ -106,8 +106,8 @@
     "dose": "Churna 1–3 g (API); 3–6 g as bhedana",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Bhedana in larger doses; may cause griping and loose stools. Commonly adulterated or substituted with Gentiana kurroo, so authenticate the rhizome.",
+    "contraindications": "Pregnancy, Atisara, marked Vata predominance and debility (Laghu-Ruksha, Bhedana drug)."
   },
   "formulations": [
     {
@@ -174,34 +174,84 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "Picrorhizin",
+      "Kutkin (picroside I and kutkoside)",
+      "Picroside II",
+      "Apocynin",
+      "Cucurbitacin glycosides"
+    ],
+    "chemical_notes": "The bitter principles are iridoid glycosides (picrosides and kutkoside, together called kutkin), which are the main markers of the rhizome."
   },
   "modern_information": {
     "evidence_summary": "Used in liver cleansing, detox, and skin conditions.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Traditional hepatoprotective drug in Kamala and liver disorders",
+      "Bitter for fever and loss of appetite",
+      "Key ingredient of Arogyavardhini Vati and Tiktaka Ghrita"
+    ],
+    "safety_notes": "Generally tolerated in pharmacopoeial doses; higher doses act as a purgative. Wild supply is threatened and adulteration is common.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Botanical name: Picrorhiza kurroa; Family: Plantaginaceae (Scrophulariaceae)",
+      "Useful part: rhizome with roots",
+      "Rasa: Tikta; Guna: Laghu-Ruksha; Virya: Sheeta; Vipaka: Katu",
+      "Key karma: Bhedana, Deepana, Jwarahara, Yakriduttejaka",
+      "Indications: Kamala, Jwara, Kushta, Vibandha",
+      "Active principle: kutkin (picroside I, kutkoside), picroside II",
+      "Formulations: Arogyavardhini Vati, Tiktaka Ghrita, Mahatiktaka Ghrita (API)",
+      "Dose: churna 1–3 g (API)"
+    ],
+    "viva_questions": [
+      "What is the botanical source of Katuki?",
+      "Name the bitter principle of Katuki.",
+      "What is the common adulterant of Katuki?",
+      "Why is Katuki used in Kamala?",
+      "Name formulations containing Katuki."
+    ],
+    "identification_points": [
+      "Greyish-brown subcylindrical rhizome",
+      "Circular root and scale scars",
+      "Tuft of leaves at the tip",
+      "Intensely bitter taste"
+    ],
     "mnemonics": [],
-    "quick_revision": "Katuki: curated batch data added; classical reference reviewed against searchable Bhavaprakasha text."
+    "quick_revision": "Katuki — Picrorhiza kurroa Royle ex Benth.; Plantaginaceae (Scrophulariaceae); part: Rhizome / Root (Kanda / Mula); Rasa tikta; Guna laghu, ruksha; sheeta virya; katu vipaka."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Explain Katuki as the classical Tikta Bhedana drug for Kamala and liver disorders.",
+      "Show how dose decides its action: small doses Deepana, larger doses Bhedana."
+    ],
+    "discussion_points": [
+      "Kutkin and hepatoprotection: what the experimental evidence shows.",
+      "Conservation of overharvested alpine drugs and cultivation of Katuki."
+    ],
+    "practical_points": [
+      "Examine rhizome scars, bud tuft and fracture.",
+      "Compare with Gentiana kurroo as an adulterant."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Katuki is a Tikta, Sheeta Bhedana drug used in Kamala, liver disorders, Jwara and Kushta; churna 1–3 g (API), larger doses purge.",
+    "important_indications": [
+      "Kamala",
+      "Yakridroga",
+      "Jwara",
+      "Vishamajwara",
+      "Kushta",
+      "Aruchi"
+    ],
     "useful_part": "rhizome",
     "dose": "Churna 1–3 g (API); 3–6 g as bhedana",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": [
+      "Purgative in higher doses",
+      "Avoid in pregnancy and Atisara",
+      "Authenticate against Gentiana kurroo"
+    ]
   },
   "sources": [
     {

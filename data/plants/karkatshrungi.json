@@ -112,8 +112,8 @@
     "dose": "Churna (powder): 1–3 g",
     "anupana": "Depends on indication and formulation; cited examples include sesame oil and honey.",
     "duration": "",
-    "precautions": "",
-    "contraindications": "",
+    "precautions": "Authenticate the horn-shaped gall of Pistacia integerrima; usually given with honey in children's cough preparations under guidance.",
+    "contraindications": "Constipation, because of its Kashaya-Grahi nature; limited safety data in pregnancy.",
     "formulations": [
       {
         "name": "Shrangyadi Churna",
@@ -185,7 +185,10 @@
   },
   "modern_information": {
     "evidence_summary": "Karkatashringi is a traditional plant-gall drug. Its pharmacological literature is limited compared with standardized modern medicines and should be interpreted cautiously.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Traditional drug for cough, asthma and hiccup",
+      "Common ingredient of paediatric preparations such as Balachaturbhadrika Churna and Shringyadi Churna"
+    ],
     "safety_notes": "Authenticate the characteristic gall and host plant; do not substitute unrelated plant galls.",
     "sources": [
       "Mehmood R, Imran M, Malikb A, Afzal RA. Flavonoid constituents of Pistacia integerrima. Natural Product Communications. 2012;7(8):1011–1014.",
@@ -252,7 +255,7 @@
       "Jwara"
     ],
     "useful_part": "gall",
-    "dose": "",
+    "dose": "Churna (powder): 1–3 g",
     "anupana": "",
     "key_precautions": [
       "Authenticate the gall and host plant.",

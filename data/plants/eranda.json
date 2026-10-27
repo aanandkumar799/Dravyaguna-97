@@ -4,7 +4,7 @@
   "identity": {
     "name": "Eranda",
     "sanskrit_name": "एरण्ड",
-    "transliteration": "",
+    "transliteration": "Eraṇḍa",
     "botanical_name": "Ricinus communis L.",
     "family": "Euphorbiaceae",
     "english_name": "Castor Oil Plant",
@@ -25,21 +25,26 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Tall glabrous shrub or small soft-wooded tree, 2–4 m high.",
+    "habitat": "Waste land, riverbanks and around habitations; widely cultivated as an oilseed crop.",
+    "distribution": "Throughout India, mostly growing wild and also cultivated, notably in Gujarat, Rajasthan and Andhra Pradesh."
   },
   "identification": {
     "description": "Tall shrub with palmately lobed leaves, prickly three-celled fruits and smooth mottled seeds.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
+    "whole_plant": "Fast-growing shrub with large palmately lobed leaves, often reddish stems, and spiny capsules in terminal racemes.",
+    "root": "Light, almost straight with few rootlets; outer surface dull yellowish-brown with longitudinal wrinkles; odourless; taste acrid.",
+    "stem": "Hollow, glaucous, green or reddish, with prominent nodes and leaf scars.",
+    "leaf": "Large, alternate, peltate, palmately 5–11-lobed, lobes serrate; petiole long.",
+    "flower": "Monoecious, in terminal panicled racemes; male flowers below with branched stamens, female flowers above with red feathery stigmas.",
+    "fruit": "Three-celled capsule, globose, usually covered with soft spines, splitting into three cocci.",
+    "seed": "Oblong, one face convex, 1–1.5 cm long, glossy, grey to brown and variously mottled, with a prominent caruncle.",
     "bark": "",
-    "identification_points": []
+    "identification_points": [
+      "Large palmately lobed peltate leaves",
+      "Spiny three-lobed capsules",
+      "Glossy mottled seeds with caruncle",
+      "Light yellowish-brown root, acrid taste"
+    ]
   },
   "images": {
     "habit": "images/plants/eranda/habit/image.jpg",
@@ -94,12 +99,18 @@
       "Udavarta",
       "Gulma"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Virechana",
+      "Vatashamaka",
+      "Vedanasthapana",
+      "Shothahara",
+      "Vrishya"
+    ],
     "dose": "Mula kwatha 50–100 ml; Eranda taila 5–15 ml (virechana 15–30 ml)",
-    "anupana": "",
+    "anupana": "Warm milk or warm water for Eranda Taila; Shunthi kwatha in Amavata.",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Seeds contain the highly toxic protein ricin and must not be chewed or eaten raw; only the oil and processed preparations are used. Purgative doses cause fluid and electrolyte loss.",
+    "contraindications": "Eranda Taila in purgative dose is contraindicated in pregnancy, intestinal obstruction, acute abdomen, inflammatory bowel conditions and in children without supervision."
   },
   "formulations": [
     {
@@ -132,34 +143,82 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "ricinine (root, leaf)",
+      "ricinoleic acid (in castor oil)",
+      "ricin (toxic protein in seed)",
+      "fixed oil (seed)"
+    ],
+    "chemical_notes": "Castor oil consists mainly of ricinoleic acid glycerides, while the root contains the alkaloid ricinine; the seed protein ricin is highly toxic and does not pass into properly expressed oil."
   },
   "modern_information": {
     "evidence_summary": "Castor plant used for joint pain, digestive issues and vata-related disorders.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Amavata and Vatavyadhi, including Gridhrasi and Katishula",
+      "Vibandha and Udavarta (Eranda Taila virechana)",
+      "Shotha and Vastishula",
+      "Udararoga"
+    ],
+    "safety_notes": "Castor oil is a stimulant laxative; avoid in pregnancy and obstruction. Raw seeds are poisonous because of ricin.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Ricinus communis L., family Euphorbiaceae",
+      "Useful part: root, leaves, seeds, seed oil",
+      "Rasa madhura, katu, kashaya; guna snigdha, tikshna, sukshma, guru; virya ushna; vipaka madhura",
+      "Charaka: Eranda mula agrya as Vrishya and Vatahara",
+      "Eranda Taila: best drug for Amavata and safe virechana",
+      "Formulations: Gandharvahastadi Kwatha, Eranda Taila, Simhanada Guggulu",
+      "Seeds contain toxic ricin"
+    ],
+    "viva_questions": [
+      "Why is Eranda called Vatari and Gandharvahasta?",
+      "Give the rasa-panchaka of Eranda.",
+      "What is the role of Eranda Taila in Amavata?",
+      "Name the toxic principle of castor seed.",
+      "Name three formulations of Eranda."
+    ],
+    "identification_points": [
+      "Palmately lobed leaves",
+      "Spiny capsule",
+      "Mottled seeds with caruncle"
+    ],
     "mnemonics": [],
     "quick_revision": "Castor plant used for joint pain, digestive issues and vata-related disorders."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Eranda as agrya Vrishya and Vatahara (Charaka)",
+      "Eranda Taila in virechana and Amavata",
+      "Toxicity of seed versus safety of oil"
+    ],
+    "discussion_points": [
+      "Red and white varieties of Eranda",
+      "Role of castor oil in modern labour induction and its risks"
+    ],
+    "practical_points": [
+      "Identify Eranda root, leaf and seed",
+      "Demonstrate dose calculation of Eranda Taila for virechana"
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Vatahara root and oil for Amavata, Vatavyadhi, Gridhrasi and Vibandha; Eranda Taila 5–15 ml (15–30 ml for virechana).",
+    "important_indications": [
+      "Amavata",
+      "Gridhrasi",
+      "Vibandha",
+      "Vatavyadhi",
+      "Shotha"
+    ],
     "useful_part": "seed/root",
     "dose": "Mula kwatha 50–100 ml; Eranda taila 5–15 ml (virechana 15–30 ml)",
-    "anupana": "",
-    "key_precautions": []
+    "anupana": "Warm milk or warm water for Eranda Taila; Shunthi kwatha in Amavata.",
+    "key_precautions": [
+      "Raw seeds are poisonous (ricin)",
+      "Avoid purgative dose in pregnancy and obstruction",
+      "Watch for dehydration after virechana"
+    ]
   },
   "sources": [
     {

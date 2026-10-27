@@ -92,12 +92,17 @@
       "Kushta",
       "Kandu"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Medhya",
+      "Virechana",
+      "Deepana",
+      "Vatahara"
+    ],
     "dose": "Seed 1–2 g; oil 5–15 drops (API)",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Tikshna and Ushna; seed and especially oil should be used only in small measured doses, as excess causes nausea, vomiting, purgation and burning.",
+    "contraindications": "Pregnancy, Raktapitta, gastritis/peptic ulcer and Pitta-predominant conditions."
   },
   "formulations": [
     {
@@ -131,7 +136,11 @@
   },
   "modern_information": {
     "evidence_summary": "Celastrus paniculatus has a long traditional history in Ayurveda and has been investigated experimentally for neurological and other effects. Experimental findings should not be presented as established human clinical efficacy.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Traditional memory-enhancing (Medhya) drug",
+      "Oil used externally in Vatavyadhi and Shvitra",
+      "Ingredient of Jyotishmati Taila and Smritisagara Rasa"
+    ],
     "safety_notes": "Seed oil is concentrated material; verify identity, preparation and dose from authoritative references before clinical use.",
     "sources": []
   },
@@ -174,7 +183,7 @@
     ]
   },
   "doctor": {
-    "quick_reference": "Jyotishmati — Celastrus paniculatus Willd.; seed/oil is the useful part listed in the project record and traditional indications include Smritidaurbalya and Vata-related disorders.",
+    "quick_reference": "Jyotishmati — Celastrus paniculatus Willd.; seed/oil is the useful part listed and traditional indications include Smritidaurbalya and Vata-related disorders.",
     "important_indications": [
       "Smritidaurbalya",
       "Vata Vyadhi",

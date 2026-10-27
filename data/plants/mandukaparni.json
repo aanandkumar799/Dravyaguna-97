@@ -9,7 +9,14 @@
     "family": "Apiaceae",
     "english_name": "Gotu Kola",
     "hindi_name": "मण्डूकपर्णी",
-    "regional_names": [],
+    "regional_names": [
+      "Bengali: Thankuni",
+      "Gujarati: Khadbrahmi",
+      "Marathi: Karivana",
+      "Tamil: Vallarai",
+      "Kannada: Ondelaga",
+      "Malayalam: Kodangal"
+    ],
     "synonyms": [
       "Brahmi",
       "Saraswati",
@@ -100,12 +107,12 @@
     "anupana": "",
     "duration": "",
     "precautions": "Do not equate traditional Medhya use with a proven treatment for neurological disease.",
-    "contraindications": ""
+    "contraindications": "Pregnancy in medicinal doses; caution with sedative medicines and in known liver disease."
   },
   "formulations": [
     {
       "name": "Brahma Rasayana",
-      "dosage_form": "",
+      "dosage_form": "Rasayana (avaleha)",
       "indication": "",
       "reference": ""
     }

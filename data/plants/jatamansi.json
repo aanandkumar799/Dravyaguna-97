@@ -4,7 +4,7 @@
   "identity": {
     "name": "Jatamansi",
     "sanskrit_name": "जटामांसी",
-    "transliteration": "",
+    "transliteration": "Jaṭāmāṃsī",
     "botanical_name": "Nardostachys jatamansi (D.Don) DC.",
     "family": "Caprifoliaceae (Valerianaceae)",
     "english_name": "Spikenard / Indian Nard",
@@ -26,17 +26,17 @@
   "classification": {
     "kingdom": "Plantae",
     "habit": "Erect perennial rhizomatous herb, 10–60 cm, alpine Himalaya 3000–5000 m",
-    "habitat": "",
-    "distribution": ""
+    "habitat": "Moist alpine slopes, rocky grassland and meadows of the Himalaya at about 3000–5000 m.",
+    "distribution": "Alpine Himalaya of Uttarakhand, Himachal Pradesh, Sikkim and Arunachal Pradesh; a threatened, CITES-listed species."
   },
   "identification": {
     "description": "Dark brown highly fibrous woody rhizomes crowned with dense reddish-brown tufts of fibrous leaf-remnants, intensely aromatic heavy musky-earthy odor, bitter acrid taste.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
+    "whole_plant": "Small erect perennial herb 10–60 cm high arising from a stout woody rhizome covered with fibrous remains of old leaf bases.",
+    "root": "Dried rhizome dark brown, 2.5–7.5 cm long, cylindrical, covered with reddish-brown fibres forming a network (skeletons of sheathing leaf bases); fracture brittle, inside reddish-brown; strongly aromatic, taste acrid and slightly bitter.",
+    "stem": "Aerial flowering stem erect, slender, more or less hairy, bearing one or two pairs of sessile leaves.",
+    "leaf": "Radical leaves long, spathulate to oblong-lanceolate with parallel longitudinal veins; stem leaves few, opposite, sessile.",
+    "flower": "Small pale pink to purplish flowers in dense terminal cymose heads; corolla campanulate, five-lobed, with four stamens.",
+    "fruit": "Small obovoid one-seeded fruit, covered with hairs and crowned by persistent calyx teeth.",
     "seed": "",
     "bark": "",
     "identification_points": [
@@ -107,8 +107,8 @@
     "dose": "Churna 2–3 g; decoction 5–10 g of drug (API)",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Sedative action may add to other CNS depressants. The species is threatened; use authenticated, legally sourced rhizome and do not confuse it with Tagara (Valeriana jatamansi).",
+    "contraindications": "Avoid with sedative or hypnotic drugs without supervision; avoid unsupervised use in pregnancy and lactation owing to limited safety data."
   },
   "formulations": [
     {
@@ -165,43 +165,85 @@
     }
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "Jatamansone (valeranone)",
+      "Nardostachone",
+      "Jatamansic acid",
+      "Jatamansin",
+      "Calarenol"
+    ],
+    "chemical_notes": "The rhizome contains an essential oil rich in sesquiterpenes such as jatamansone (valeranone), together with coumarins and resinous matter."
   },
   "modern_information": {
     "evidence_summary": "Calms the mind, supports mental clarity, and acts as a nervine tonic.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Traditional nervine and sleep-promoting drug",
+      "Aromatic hair-oil ingredient (Keshya)",
+      "Studied for sedative, anticonvulsant and antioxidant activity in experimental models"
+    ],
+    "safety_notes": "Generally tolerated in pharmacopoeial doses; may cause drowsiness. Wild-harvested supplies are under conservation pressure and adulteration is common.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Botanical name: Nardostachys jatamansi; Family: Caprifoliaceae (Valerianaceae)",
+      "Useful part: rhizome",
+      "Rasa: Tikta-Kashaya-Madhura; Guna: Laghu-Snigdha; Virya: Sheeta; Vipaka: Katu",
+      "Key karma: Medhya, Nidrajanana, Manasadoshahara, Keshya",
+      "Indications: Anidra, Unmada, Apasmara, Manasaroga",
+      "Key constituent: jatamansone (valeranone) in the essential oil",
+      "API formulation: Jatamamsyarka",
+      "Dose: churna 2–3 g (API)"
+    ],
+    "viva_questions": [
+      "What is the botanical source and family of Jatamansi?",
+      "Describe the macroscopy of the Jatamansi rhizome.",
+      "How is Jatamansi differentiated from Tagara?",
+      "Name the main sesquiterpene of Jatamansi.",
+      "Name formulations containing Jatamansi."
+    ],
+    "identification_points": [
+      "Dark brown cylindrical rhizome",
+      "Network of reddish-brown fibres (leaf-base remains)",
+      "Strong musky aroma",
+      "Acrid, slightly bitter taste"
+    ],
     "mnemonics": [],
     "quick_revision": "Calms the mind, supports mental clarity, and acts as a nervine tonic."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [
-      "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 75 record merged; source object retained verbatim under gemini_source_data."
+    "teaching_points": [
+      "Use the fibrous \"jata\" (hair-like) covering to explain the name Jatamansi.",
+      "Contrast Jatamansi with Tagara (Valeriana jatamansi) as Medhya-Nidrajanana drugs.",
+      "Discuss conservation status and sustainable sourcing of alpine drugs."
     ],
-    "practical_points": []
+    "discussion_points": [
+      "Medhya and Nidrajanana actions of Jatamansi",
+      "Conservation status of Nardostachys jatamansi and use of cultivated material"
+    ],
+    "practical_points": [
+      "Examine the rhizome for the fibrous network and odour.",
+      "Compare authentic rhizome with Tagara samples."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Jatamansi is a Sheeta, Medhya and Nidrajanana rhizome used in Anidra, Unmada, Apasmara and Manasaroga; churna 2–3 g (API).",
+    "important_indications": [
+      "Anidra",
+      "Unmada",
+      "Apasmara",
+      "Manasaroga",
+      "Daha",
+      "Kushta"
+    ],
     "useful_part": "rhizome",
     "dose": "Churna 2–3 g; decoction 5–10 g of drug (API)",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": [
+      "May potentiate sedatives",
+      "Threatened species: authenticate source",
+      "Limited data in pregnancy"
+    ]
   },
   "sources": [
     {

@@ -88,12 +88,19 @@
       "Klaibya",
       "Hridroga"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Mutrala",
+      "Ashmaribhedana",
+      "Vrishya",
+      "Rasayana",
+      "Shothahara",
+      "Bastishodhana"
+    ],
     "dose": "Phala churna 3–6 g; kwatha 50–100 ml",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Diuretic action may alter fluid balance; use cautiously with diuretics, antihypertensives and lithium. May increase Kapha in excess.",
+    "contraindications": "Avoid in pregnancy and lactation without advice, and in Kapha-predominant conditions with Ama."
   },
   "formulations": [
     {
@@ -116,21 +123,37 @@
     }
   ],
   "classical_reference": {
-    "shlokas": [],
-    "nighantu_references": [],
+    "shlokas": [
+      "गोक्षुरः शीतलः स्वादुर्बलकृद्बस्तिशोधनः ।\nमधुरो दीपनो वृष्यः पुष्टिदश्चाश्मरीहरः ।\nप्रमेहश्वासकासार्शःकृच्छ्रहृद्रोगवातनुत् ॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Guduchyadi Varga"
+    ],
     "samhita_references": [],
-    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "shloka_reference_status": "added_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
+    "major_constituents": [
+      "diosgenin",
+      "gitogenin",
+      "hecogenin",
+      "protodioscin",
+      "potassium nitrate",
+      "sterols"
+    ],
     "chemical_notes": "Tribulus contains steroidal saponins and other secondary metabolites reported in different plant parts; constituent profiles vary with plant material and geography, so exact composition should be source-verified."
   },
   "modern_information": {
     "evidence_summary": "Tribulus terrestris is widely studied as a botanical used traditionally for urinary and reproductive-system indications. Modern evidence should not be presented as proof of clinical efficacy without condition-specific clinical evidence.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Mutrakrichha and Ashmari",
+      "Prameha",
+      "Klaibya and Daurbalya",
+      "Shotha and Hridroga"
+    ],
     "safety_notes": "Confirm species and plant part; avoid treating traditional indications as a substitute for diagnosis or evidence-based treatment.",
     "sources": []
   },
@@ -139,7 +162,7 @@
       "Gokshura = Tribulus terrestris L.",
       "Family: Zygophyllaceae",
       "Key identification character: hard spiny fruit",
-      "Fruit is the useful part listed in this project record"
+      "Fruit is the useful part listed"
     ],
     "viva_questions": [
       "What is the botanical name of Gokshura?",
@@ -156,7 +179,7 @@
     "mnemonics": [
       "Gokshura = go-like thorn: remember the conspicuously spiny fruit."
     ],
-    "quick_revision": "Gokshura (Tribulus terrestris) is a low-growing Zygophyllaceae herb distinguished by its yellow flowers and hard spiny fruits; the project record lists fruit as useful."
+    "quick_revision": "Gokshura (Tribulus terrestris) is a low-growing Zygophyllaceae herb distinguished by its yellow flowers and hard spiny fruits; texts list fruit as useful."
   },
   "teacher": {
     "teaching_points": [

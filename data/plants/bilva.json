@@ -28,7 +28,7 @@
   "identification": {
     "description": "Aromatic tree with trifoliate leaves and hard-shelled globose fruits.",
     "whole_plant": "Small to medium tree, sometimes thorny.",
-    "root": "",
+    "root": "Cream-yellow to pale yellowish-brown, irregularly and shallowly ridged with lenticels, outer layer peeling; fracture short; taste sweet.",
     "stem": "Woody, often with spines.",
     "leaf": "Trifoliate, aromatic; terminal leaflet larger.",
     "flower": "Greenish-white, fragrant, in clusters.",
@@ -91,8 +91,8 @@
     "dose": "Bala phala majja churna 3–6 g",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Unripe fruit is grahi and may cause constipation; ripe fruit is heavy and hard to digest.",
+    "contraindications": "Avoid the grahi unripe fruit in Vibandha and Anaha; avoid in pregnancy in large doses without advice."
   },
   "formulations": [
     {
@@ -130,11 +130,16 @@
       "tannins",
       "flavonoids"
     ],
-    "chemical_notes": ""
+    "chemical_notes": "The fruit pulp contains the coumarin marmelosin with tannins, mucilage and sugars, while the root contains coumarins such as auraptene."
   },
   "modern_information": {
     "evidence_summary": "Aegle marmelos has been investigated for gastrointestinal and other pharmacological activities.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Atisara, Pravahika and Grahani (unripe fruit)",
+      "Agnimandya",
+      "Vatavyadhi, Shotha and Shula (root, in Dashamula)",
+      "Chardi"
+    ],
     "safety_notes": "Clinical claims should be linked to the exact preparation and evidence level.",
     "sources": []
   },
@@ -168,11 +173,20 @@
   },
   "doctor": {
     "quick_reference": "Bilva is traditionally important in digestive/grahi applications.",
-    "important_indications": [],
+    "important_indications": [
+      "Atisara",
+      "Pravahika",
+      "Grahani",
+      "Agnimandya",
+      "Vatavyadhi (root)"
+    ],
     "useful_part": "fruit/root",
     "dose": "Bala phala majja churna 3–6 g",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": [
+      "Unripe fruit may cause constipation",
+      "Ripe fruit is heavy to digest"
+    ]
   },
   "sources": [
     {

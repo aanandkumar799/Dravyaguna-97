@@ -99,7 +99,7 @@
     "anupana": "",
     "duration": "",
     "precautions": "Authenticate resin and distinguish crude resin from standardized extracts.",
-    "contraindications": ""
+    "contraindications": "Pregnancy (insufficient safety data); caution with anticoagulant medicines."
   },
   "formulations": [],
   "classical_reference": {
@@ -119,7 +119,11 @@
   },
   "modern_information": {
     "evidence_summary": "Boswellia serrata resin has been extensively investigated for inflammatory pathways and musculoskeletal applications, but study results depend on preparation and population.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Osteoarthritis and joint pain (boswellic acids)",
+      "Inflammatory bowel and respiratory conditions (studied)",
+      "Incense resin (Kunduru)"
+    ],
     "safety_notes": "Consider interactions and individual suitability when using concentrated preparations; raw resin identification is important.",
     "sources": []
   },

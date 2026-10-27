@@ -4,7 +4,7 @@
   "identity": {
     "name": "Lavanga",
     "sanskrit_name": "लवङ्ग",
-    "transliteration": "",
+    "transliteration": "Lavaṅga",
     "botanical_name": "Syzygium aromaticum (L.) Merr. & L.M.Perry",
     "family": "Myrtaceae",
     "english_name": "Clove",
@@ -24,20 +24,26 @@
   "classification": {
     "kingdom": "Plantae",
     "habit": "Evergreen tree",
-    "habitat": "",
-    "distribution": ""
+    "habitat": "Warm humid tropical climate with good rainfall; grown in plantations on well-drained loamy soils.",
+    "distribution": "Native to the Moluccas; cultivated in India in Kerala, Tamil Nadu (Nilgiris, Kanyakumari) and Karnataka."
   },
   "identification": {
     "description": "Dark reddish-brown nail-shaped dried flower buds with four calyx teeth and an unopened rounded corolla.",
-    "whole_plant": "",
+    "whole_plant": "Evergreen conical tree, 8–12 m high, with aromatic leaves and flowers in terminal clusters.",
     "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
+    "stem": "Straight trunk with smooth greyish bark and many ascending branches.",
+    "leaf": "Simple, opposite, elliptic-lanceolate, glossy, leathery, gland-dotted and aromatic when crushed.",
+    "flower": "Flower bud 10–17.5 mm long, dark brown, with a sub-cylindrical four-sided hypanthium exuding oil when pressed, four thick divergent sepals and an unopened ball of four imbricate petals enclosing many stamens.",
+    "fruit": "Fruit is a one- or two-seeded purplish berry (mother of clove).",
     "seed": "",
-    "bark": "",
-    "identification_points": []
+    "bark": "Smooth, thin, greyish bark.",
+    "identification_points": [
+      "Nail-shaped dried flower bud, 10–17.5 mm long",
+      "Four-sided hypanthium with four spreading sepals",
+      "Ball-like unopened corolla at the top",
+      "Oil exudes when pressed with a fingernail",
+      "Strongly aromatic, pungent taste with tingling of the tongue"
+    ]
   },
   "images": {
     "whole_plant": "",
@@ -90,23 +96,30 @@
       "Hikka",
       "Agnimandya"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Deepana",
+      "Pachana",
+      "Ruchya",
+      "Kaphapittashamaka",
+      "Shoolahara",
+      "Kasahara"
+    ],
     "dose": "Churna 0.5–2 g",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Use in the stated dose; concentrated clove oil is irritant to mucosa and skin and should be diluted. Excessive use may cause gastric irritation.",
+    "contraindications": "Undiluted oil in children; bleeding disorders and concurrent anticoagulant therapy (eugenol inhibits platelet aggregation); caution in pregnancy beyond culinary amounts."
   },
   "formulations": [
     {
       "name": "Lavangadi Vati",
-      "dosage_form": "",
+      "dosage_form": "Vati",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Lavangadi Churna",
-      "dosage_form": "",
+      "dosage_form": "Churna",
       "indication": "",
       "reference": ""
     }
@@ -125,34 +138,82 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "Eugenol (major component of volatile oil)",
+      "Eugenyl acetate",
+      "Beta-caryophyllene",
+      "Tannins (gallotannins)",
+      "Oleanolic acid"
+    ],
+    "chemical_notes": "API lists essential oil with eugenyl acetate and caryophyllene; eugenol (about 70–85% of clove oil) gives the local anaesthetic and antiseptic action."
   },
   "modern_information": {
     "evidence_summary": "Clove is a powerful aromatic herb that acts as a pain reliever, especially for toothaches, and stimulates digestion.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Spice and flavouring",
+      "Clove oil as a dental analgesic and antiseptic",
+      "Carminative in traditional systems"
+    ],
+    "safety_notes": "Clove oil can cause mucosal burns and, if swallowed by children, serious toxicity; it should be used diluted and in small quantities.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Lavanga = Syzygium aromaticum (L.) Merr. & L.M.Perry, family Myrtaceae",
+      "Useful part: dried flower bud",
+      "Rasa Katu, Tikta; Guna Laghu; Virya Sheeta; Vipaka Katu",
+      "Karma: Deepana, Pachana, Ruchya, Kaphapittahara, Shoolahara, Kasahara",
+      "Indicated in Kasa, Shwasa, Hikka, Chhardi, Trishna, Adhmana",
+      "Main constituent: eugenol in clove oil",
+      "Formulations: Lavangadi Vati, Lavangadi Churna"
+    ],
+    "viva_questions": [
+      "Which part of the clove tree is used?",
+      "What is the Virya of Lavanga despite its pungent taste?",
+      "Name the main constituent of clove oil and its use in dentistry.",
+      "Name two formulations of Lavanga."
+    ],
+    "identification_points": [
+      "Nail-shaped bud",
+      "Four sepals and round unopened corolla",
+      "Oil exudes on pressing"
+    ],
     "mnemonics": [],
     "quick_revision": "Clove is a powerful aromatic herb that acts as a pain reliever, especially for toothaches, and stimulates digestion."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Use Lavanga as an example of a Katu drug with Sheeta Virya.",
+      "Demonstrate the 'oil on pressing' test for quality.",
+      "Relate eugenol to its use in toothache."
+    ],
+    "discussion_points": [
+      "Exhausted (oil-extracted) cloves as adulterants",
+      "Rasa versus Virya exceptions"
+    ],
+    "practical_points": [
+      "Press a clove with a fingernail to check oil exudation.",
+      "Drop cloves in water: good cloves sink or float upright."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Lavanga (clove bud): Katu-Tikta, Sheeta, Kapha-Pittahara; for Kasa, Hikka, Chhardi and Adhmana; 0.5–2 g churna.",
+    "important_indications": [
+      "Kasa",
+      "Shwasa",
+      "Hikka",
+      "Chhardi",
+      "Adhmana",
+      "Trishna"
+    ],
     "useful_part": "flower bud",
     "dose": "Churna 0.5–2 g",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": [
+      "Dilute clove oil before applying",
+      "Caution with anticoagulants",
+      "Keep oil away from children"
+    ]
   },
   "sources": [
     {

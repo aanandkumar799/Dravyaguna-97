@@ -99,7 +99,26 @@
     "precautions": "Fractures require appropriate medical assessment, reduction/immobilisation when indicated, and follow-up; the herb should not replace orthopaedic care.",
     "contraindications": "No universal contraindication statement added without source-level verification."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Asthisanghatika Yoga",
+      "dosage_form": "Churna/Yoga",
+      "indication": "Asthibhagna (fracture healing support)",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Asthisamhara Vatika",
+      "dosage_form": "Vati",
+      "indication": "Asthibhagna, Arsha",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Asthisamhara Taila",
+      "dosage_form": "Taila (external)",
+      "indication": "Asthibhagna, Sandhishoola",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],

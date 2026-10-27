@@ -4,7 +4,7 @@
   "identity": {
     "name": "Sarpagandha",
     "sanskrit_name": "सर्पगन्धा",
-    "transliteration": "",
+    "transliteration": "Sarpagandhā",
     "botanical_name": "Rauvolfia serpentina (L.) Benth. ex Kurz",
     "family": "Apocynaceae",
     "english_name": "Serpentina Root / Snakeroot",
@@ -25,19 +25,19 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Erect perennial undershrub, 30–90 cm tall, with milky latex.",
+    "habitat": "Moist, shady tropical forests and forest margins, often under the canopy in humus-rich soil.",
+    "distribution": "Sub-Himalayan tract from Punjab to Assam, the Western and Eastern Ghats and the Andamans; now largely cultivated as wild stocks are depleted."
   },
   "identification": {
     "description": "Tapering tortuous cylindrical roots with pale greyish-brown corky bark bearing longitudinal fissures, bitter persistent taste, odorless.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
+    "whole_plant": "Glabrous erect undershrub with whorled leaves, terminal clusters of small pinkish-white flowers and shiny purple-black drupes.",
+    "root": "Tuberous, tortuous, sub-cylindrical roots 8–15 cm long and 0.5–2 cm thick; outer surface greyish-yellow to brown with irregular longitudinal fissures; fracture short; slight odour and bitter taste.",
+    "stem": "Erect, pale, sparsely branched stem with milky latex and conspicuous leaf scars.",
+    "leaf": "Leaves in whorls of 3–4, elliptic-lanceolate to obovate, 7–18 cm long, acute, bright green above and pale beneath.",
+    "flower": "Small tubular flowers in long-stalked terminal or axillary corymbose cymes; corolla white with a pink to red tube, calyx and pedicels bright red.",
+    "fruit": "Small drupes, single or didymous (paired), turning shining purplish-black when ripe.",
+    "seed": "One ovoid, wrinkled seed in each drupe.",
     "bark": "",
     "identification_points": [
       "Tapering tortuous cylindrical roots with pale greyish-brown corky bark bearing longitudinal fissures, bitter persistent taste, odorless."
@@ -108,32 +108,32 @@
     "dose": "Mula churna 1–2 g (API)",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Potent drug with strong central and cardiovascular depressant action; use the root only under qualified supervision and in the API dose (1–2 g churna). Avoid self-medication and long unsupervised use; may cause nasal congestion, drowsiness, bradycardia and low mood. Not to be combined with conventional antihypertensives or sedatives without medical advice.",
+    "contraindications": "Pregnancy and lactation; depression or history of suicidal ideation; peptic ulcer and ulcerative colitis; hypotension, bradycardia; patients on MAO inhibitors, digoxin or other antihypertensives without supervision."
   },
   "formulations": [
     {
       "name": "Sarpagandha Churna",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
+      "dosage_form": "Churna",
+      "indication": "Anidra, Raktachapa vriddhi",
+      "reference": "API Part I"
     },
     {
       "name": "Sarpagandha Vati",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
+      "dosage_form": "Vati",
+      "indication": "Anidra, Unmada, Raktachapa vriddhi",
+      "reference": "API Part I"
     },
     {
       "name": "Sarpagandhadi Churna",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
+      "dosage_form": "Churna",
+      "indication": "Anidra, Unmada",
+      "reference": "API Part I"
     },
     {
       "name": "Sarpagandha Ghrita",
-      "dosage_form": "",
-      "indication": "",
+      "dosage_form": "Ghrita",
+      "indication": "Unmada, Anidra",
       "reference": ""
     }
   ],
@@ -160,43 +160,90 @@
     }
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "Reserpine",
+      "Rescinnamine",
+      "Deserpidine",
+      "Ajmaline",
+      "Ajmalicine (raubasine)",
+      "Serpentine",
+      "Serpentinine",
+      "Reserpinine",
+      "Yohimbine"
+    ],
+    "chemical_notes": "The root contains indole alkaloids (about 1–2% total), of which reserpine is the best known; it depletes catecholamine stores, explaining the sedative and blood-pressure-lowering effects."
   },
   "modern_information": {
     "evidence_summary": "Indian snakeroot is a powerful herb for managing high blood pressure and calming anxiety, but should be used with caution.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Source of reserpine and ajmaline in conventional pharmacology",
+      "Traditional use in Anidra, Unmada and raised blood pressure",
+      "Snakebite in folk practice (traditional claim)"
+    ],
+    "safety_notes": "Reserpine-containing material can cause depression, nasal stuffiness, bradycardia, hypotension and gastric hyperacidity; dosing should stay within API limits and under medical supervision.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Botanical name: Rauvolfia serpentina (L.) Benth. ex Kurz; Family: Apocynaceae",
+      "Useful part: root (Mula)",
+      "Rasa: Tikta, Katu; Guna: Ruksha, Laghu; Virya: Ushna; Vipaka: Katu",
+      "Karma: Nidraprada, Vatakaphahara, Dipana, Vishaghna, Kamavasadaka, Hridayavasadaka (API)",
+      "Major alkaloid: reserpine (indole alkaloid)",
+      "Dose: Mula churna 1–2 g (API)",
+      "Formulation: Sarpagandha Ghana Vati / Sarpagandhadi Churna"
+    ],
+    "viva_questions": [
+      "Give the botanical name and family of Sarpagandha.",
+      "Which alkaloid of Sarpagandha is used in modern medicine and for what?",
+      "State the Rasa-panchaka of Sarpagandha.",
+      "Name two formulations of Sarpagandha.",
+      "What are the main adverse effects of Sarpagandha?"
+    ],
+    "identification_points": [
+      "Tortuous sub-cylindrical root, greyish-yellow to brown",
+      "Irregular longitudinal fissures on the root surface",
+      "Short fracture, bitter taste",
+      "Whorled leaves and red pedicels with pinkish-white flowers",
+      "Purple-black paired drupes"
+    ],
     "mnemonics": [],
     "quick_revision": "Indian snakeroot is a powerful herb for managing high blood pressure and calming anxiety, but should be used with caution."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [
-      "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 77 record merged; source object retained verbatim under gemini_source_data."
+    "teaching_points": [
+      "Link the alkaloid reserpine to the classical Nidraprada and Hridayavasadaka karma.",
+      "Stress the conservation status: wild Sarpagandha is threatened and cultivated root is preferred.",
+      "Explain why the drug is used under supervision and in small doses."
     ],
-    "practical_points": []
+    "discussion_points": [
+      "Reserpine and the modern history of Sarpagandha in hypertension",
+      "Nidrajanana action versus safety limits (depression, hypotension)"
+    ],
+    "practical_points": [
+      "Examine root pieces for fissured greyish-brown surface, short fracture and bitter taste.",
+      "Show herbarium specimens with whorled leaves, red pedicels and paired drupes."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Sarpagandha root (Tikta-Katu, Ushna) is used as Nidraprada and in Unmada and raised blood pressure; potent reserpine-containing drug, 1–2 g churna under supervision.",
+    "important_indications": [
+      "Anidra",
+      "Unmada",
+      "Raktachapa vriddhi (hypertension)",
+      "Bhrama",
+      "Apasmara"
+    ],
     "useful_part": "root",
     "dose": "Mula churna 1–2 g (API)",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": [
+      "Avoid in pregnancy and lactation",
+      "Avoid in depression",
+      "Watch for hypotension, bradycardia and nasal congestion",
+      "Do not combine with antihypertensives or sedatives without supervision",
+      "Do not exceed API dose"
+    ]
   },
   "sources": [
     {

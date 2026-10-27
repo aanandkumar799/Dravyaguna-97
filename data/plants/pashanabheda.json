@@ -97,19 +97,19 @@
     "dose": "Churna 3–6 g; 20–30 g for decoction",
     "anupana": "",
     "duration": "",
-    "precautions": "Urinary stone disease may require medical assessment; this educational record does not replace diagnosis or treatment.",
-    "contraindications": ""
+    "precautions": "Urinary stone disease may require medical assessment; it does not replace diagnosis or treatment.",
+    "contraindications": "Pregnancy in medicinal doses; urinary obstruction or large stones require medical management."
   },
   "formulations": [
     {
       "name": "Ashmarihara Kashaya Churna",
-      "dosage_form": "",
+      "dosage_form": "Kwatha churna",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Mutravirechaniya Kashaya Churna",
-      "dosage_form": "",
+      "dosage_form": "Kwatha churna",
       "indication": "",
       "reference": ""
     }
@@ -131,7 +131,10 @@
   },
   "modern_information": {
     "evidence_summary": "Bergenia ligulata has been investigated in urinary and antioxidant-related experimental research. Evidence should be interpreted according to preparation and study quality.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Traditional use in urinary calculi",
+      "Studied for antiurolithiatic and diuretic activity"
+    ],
     "safety_notes": "Persistent urinary pain, fever, obstruction or blood in urine requires appropriate medical evaluation.",
     "sources": []
   },

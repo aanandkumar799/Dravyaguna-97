@@ -88,12 +88,19 @@
       "Prameha",
       "Raktapitta"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Kushtaghna",
+      "Raktashodhaka",
+      "Grahi",
+      "Krimighna",
+      "Pramehaghna",
+      "Dantya"
+    ],
     "dose": "Heartwood 20–30 g for decoction (API); Khadirasara/katha 0.5–1 g",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Highly astringent; prolonged high doses may cause constipation, and tannins can reduce iron absorption.",
+    "contraindications": "Constipation (Vibandha)."
   },
   "formulations": [
     {
@@ -133,7 +140,11 @@
   },
   "modern_information": {
     "evidence_summary": "Senegalia catechu is a tannin-rich tree used traditionally for astringent preparations. Modern evidence should be linked to the specific preparation and indication.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Classical Kushtaghna drug for skin diseases",
+      "Astringent mouthwash and dental use (Dantadhavana; Khadiradi Gutika)",
+      "Source of catechu (Khadirasara/katha)"
+    ],
     "safety_notes": "Avoid assuming that heartwood, bark and commercial catechu extracts are chemically identical.",
     "sources": []
   },
@@ -176,7 +187,7 @@
     ]
   },
   "doctor": {
-    "quick_reference": "Khadira — Senegalia catechu; heartwood listed as useful in this project record.",
+    "quick_reference": "Khadira — Senegalia catechu; heartwood listed as useful.",
     "important_indications": [
       "Kushta",
       "Krimi",

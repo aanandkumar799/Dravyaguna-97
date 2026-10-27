@@ -4,7 +4,7 @@
   "identity": {
     "name": "Haridra",
     "sanskrit_name": "हरिद्रा",
-    "transliteration": "",
+    "transliteration": "Haridrā",
     "botanical_name": "Curcuma longa L.",
     "family": "Zingiberaceae",
     "english_name": "Turmeric",
@@ -25,21 +25,27 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Perennial rhizomatous herb, 60–90 cm tall, with large leaves arising in a tuft.",
+    "habitat": "Warm humid tropical regions on well-drained loamy soils; grown as a field crop.",
+    "distribution": "Extensively cultivated in all parts of India, notably Andhra Pradesh, Telangana, Tamil Nadu, Odisha and Maharashtra."
   },
   "identification": {
     "description": "Primary ovate or secondary cylindrical branched rhizomes with deep orange-yellow interior and characteristic aromatic odor.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
+    "whole_plant": "Stemless herb with tufts of large oblong leaves and a short pseudostem arising from a branched aromatic rhizome.",
+    "root": "Fibrous roots arise from the rhizome, some ending in small tubers.",
+    "stem": "Underground rhizome ovate, oblong or cylindrical and branched, externally yellowish-brown with annulations and root scars; fracture horny, orange to reddish-brown; aerial pseudostem formed by leaf sheaths.",
+    "leaf": "Large, oblong-lanceolate, 30–45 cm long, long-petioled, with sheathing bases.",
+    "flower": "Pale yellow flowers in a cylindrical spike with green and pinkish bracts arising from the centre of the leaf tuft.",
+    "fruit": "Rarely formed in cultivation.",
     "seed": "",
     "bark": "",
-    "identification_points": []
+    "identification_points": [
+      "Rhizome with annulations and root scars",
+      "Horny fracture, orange to reddish-brown interior",
+      "Central cylinder about twice as broad as cortex",
+      "Characteristic aromatic odour and bitter-pungent taste",
+      "Stains fingers yellow"
+    ]
   },
   "images": {
     "root": "",
@@ -101,8 +107,8 @@
     "dose": "Churna 1–3 g",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "May add to anticoagulant and antiplatelet effects; high doses may cause gastric irritation. Use cautiously in gallstones and biliary obstruction.",
+    "contraindications": "Avoid large medicinal doses in pregnancy, biliary obstruction and before surgery; culinary use is safe."
   },
   "formulations": [
     {
@@ -148,34 +154,84 @@
     "verification_note": "Text is independently supported; verse numbering varies among digital/printed recensions."
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "curcumin",
+      "demethoxycurcumin",
+      "bisdemethoxycurcumin",
+      "ar-turmerone",
+      "turmerones",
+      "zingiberene"
+    ],
+    "chemical_notes": "The rhizome contains yellow curcuminoids (curcumin and its demethoxy derivatives) and an essential oil rich in turmerones."
   },
   "modern_information": {
     "evidence_summary": "Turmeric is powerful anti-inflammatory and detoxifying herb.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Prameha (as Nisha-Amalaki)",
+      "Kushta, Tvagroga and Vrana",
+      "Sheetapitta and Pratishyaya (Haridra Khanda)",
+      "Pandu and Vishavikara"
+    ],
+    "safety_notes": "Safe as a spice; concentrated curcumin products have been linked to rare liver injury and can interact with anticoagulants.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Curcuma longa L., family Zingiberaceae",
+      "Useful part: rhizome",
+      "Rasa tikta, katu; guna ruksha, laghu; virya ushna; vipaka katu",
+      "Key karma: Varnya, Vishaghna, Pramehaghna, Kushtaghna, Vranaropana",
+      "Nisha-Amalaki is the classical combination for Prameha",
+      "Formulations: Haridra Khanda, Nisha Amalaki Churna, Haridradi Ghrita",
+      "Colouring principle curcumin; dose 1–3 g"
+    ],
+    "viva_questions": [
+      "Give the rasa-panchaka of Haridra.",
+      "Which combination of Haridra is used in Prameha?",
+      "Name the colouring principle of turmeric.",
+      "Name two formulations of Haridra.",
+      "What is Daruharidra and how does it differ?"
+    ],
+    "identification_points": [
+      "Annulated yellow rhizome",
+      "Orange horny fracture",
+      "Aromatic odour, yellow stain"
+    ],
     "mnemonics": [],
-    "quick_revision": "Haridra: curated batch data added; classical reference reviewed against searchable Bhavaprakasha text."
+    "quick_revision": "Haridra — Curcuma longa L.; Zingiberaceae; part: rhizome (Kanda); Rasa tikta, katu; Guna ruksha, laghu; ushna virya; katu vipaka."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Haridra and Daruharidra (Haridradvaya)",
+      "Varnya and Vishaghna actions",
+      "Nisha-Amalaki in Prameha"
+    ],
+    "discussion_points": [
+      "Bioavailability of curcumin and role of black pepper",
+      "Adulteration of turmeric powder with lead chromate and metanil yellow"
+    ],
+    "practical_points": [
+      "Identify round and long turmeric rhizomes",
+      "Simple test for adulterant dyes in turmeric powder"
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Pungent-bitter rhizome for Prameha, Kushta, Vrana, Sheetapitta and Pratishyaya; ushna, katu vipaka; 1–3 g churna.",
+    "important_indications": [
+      "Prameha",
+      "Kushta",
+      "Vrana",
+      "Sheetapitta",
+      "Pratishyaya"
+    ],
     "useful_part": "rhizome",
     "dose": "Churna 1–3 g",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": [
+      "Caution with anticoagulants",
+      "Avoid high doses in biliary obstruction",
+      "Avoid medicinal doses in pregnancy"
+    ]
   },
   "sources": [
     {

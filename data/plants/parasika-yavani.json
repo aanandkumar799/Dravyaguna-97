@@ -90,7 +90,7 @@
     "recognized_uses": [
       "Botanical identification and pharmacognosy/dravyaguna education."
     ],
-    "safety_notes": "Poisonous/tropane-alkaloid-containing plant group; do not infer clinical treatment or dosing from this educational record. Verify authoritative toxicology and pharmacopoeial guidance.",
+    "safety_notes": "Poisonous/tropane-alkaloid-containing plant group; Verify authoritative toxicology and pharmacopoeial guidance.",
     "sources": []
   },
   "student": {
@@ -130,7 +130,6 @@
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references.",
-      "Do not infer clinical dose from this educational record.",
       "Verify current toxicological and pharmacopoeial guidance before clinical use."
     ]
   },

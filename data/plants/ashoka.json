@@ -4,7 +4,7 @@
   "identity": {
     "name": "Ashoka",
     "sanskrit_name": "अशोक",
-    "transliteration": "",
+    "transliteration": "Aśoka",
     "botanical_name": "Saraca asoca (Roxb.) Willd.",
     "family": "Fabaceae",
     "english_name": "Ashoka Tree",
@@ -24,21 +24,27 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Medium-sized evergreen tree with a dense crown and drooping young foliage.",
+    "habitat": "Shady moist evergreen forests and stream banks; widely planted in gardens and near temples.",
+    "distribution": "Central and Eastern Himalaya, Western Ghats, Eastern India and the Deccan; cultivated throughout India."
   },
   "identification": {
     "description": "Stem bark pieces are channelled or curved, with rough greyish-brown outer surface and reddish-brown inner surface; strongly astringent.",
-    "whole_plant": "",
+    "whole_plant": "Evergreen tree 6–9 m tall with dense dark green foliage; young leaves coppery-red and limp, hanging in tassels.",
     "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
-    "bark": "",
-    "identification_points": []
+    "stem": "Trunk erect with dark brown to greyish, warty bark.",
+    "leaf": "Paripinnate, 15–25 cm long, with 4–6 pairs of oblong-lanceolate leaflets; young leaves reddish and drooping.",
+    "flower": "Fragrant, orange-yellow turning scarlet, in dense axillary corymbs; petals absent, calyx petaloid, stamens 7–8 and long-exserted.",
+    "fruit": "Flat, leathery, oblong pod 10–25 cm long, purplish-black when ripe, containing 4–8 seeds.",
+    "seed": "Ellipsoid-oblong, compressed, about 3.5 cm long.",
+    "bark": "Channelled pieces, externally dark green to greenish grey with circular lenticels and transverse ridges; internally reddish-brown with fine longitudinal fibres; fracture splintery; taste astringent.",
+    "identification_points": [
+      "Channelled bark, reddish-brown inside, with circular lenticels",
+      "Thin whitish layer below the cork",
+      "Splintery fracture and strongly astringent taste",
+      "Paripinnate leaves with drooping coppery young shoots",
+      "Orange to scarlet flower clusters without petals"
+    ]
   },
   "images": {
     "whole_plant": "images/plants/ashoka/whole_plant/image.jpg",
@@ -91,12 +97,18 @@
       "Trishna",
       "Apachi"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Asrigdarahara",
+      "Garbhashaya-shothahara",
+      "Sangrahi",
+      "Varnya",
+      "Vranaropana"
+    ],
     "dose": "Twak 20–30 g for kwatha",
-    "anupana": "",
+    "anupana": "Milk (as Ashoka kshirapaka).",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Strongly astringent and may cause constipation. Heavy or irregular uterine bleeding should be diagnosed before treatment.",
+    "contraindications": "Avoid in pregnancy except under specialist advice; avoid in Vibandha. Market bark is often substituted with Polyalthia longifolia, so authenticated material is essential."
   },
   "formulations": [
     {
@@ -126,34 +138,83 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "tannins",
+      "crystalline glycoside",
+      "catechin and epicatechin",
+      "leucocyanidin",
+      "flavonoids"
+    ],
+    "chemical_notes": "The stem bark is rich in tannins and contains a crystalline glycoside, with catechins and flavonoids also reported."
   },
   "modern_information": {
     "evidence_summary": "A prime uterine tonic, it regulates menstruation and reduces cramps.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Asrigdara and Pradara",
+      "Garbhashaya shotha",
+      "Daha, Trishna and Apachi",
+      "Raktadosha"
+    ],
+    "safety_notes": "Generally well tolerated at classical doses; its astringency can cause constipation, and adulteration of commercial bark is common.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Saraca asoca (Roxb.) Willd., family Fabaceae (Caesalpinioideae)",
+      "Useful part: stem bark (also flowers and seeds)",
+      "Rasa kashaya, tikta; guna laghu, ruksha; virya sheeta; vipaka katu",
+      "Key karma: Asrigdarahara, Garbhashaya-shothahara, Sangrahi, Varnya",
+      "Chief formulations: Ashokarishta, Ashoka Ghrita",
+      "Classical decoction dose 20–30 g of bark (API)",
+      "Common adulterant: Polyalthia longifolia bark"
+    ],
+    "viva_questions": [
+      "Give the botanical name and family of Ashoka.",
+      "What is the rasa-panchaka of Ashoka?",
+      "Name two formulations of Ashoka.",
+      "How will you identify genuine Ashoka bark?",
+      "Name the common adulterant of Ashoka bark."
+    ],
+    "identification_points": [
+      "Channelled bark, reddish-brown inside",
+      "Circular lenticels on greenish-grey outer surface",
+      "Splintery fracture, astringent taste"
+    ],
     "mnemonics": [],
     "quick_revision": "A prime uterine tonic, it regulates menstruation and reduces cramps."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Ashoka as the principal uterine sedative and Asrigdarahara dravya",
+      "Rasa-panchaka and its relation to stambhana action",
+      "Ashokarishta: composition and use"
+    ],
+    "discussion_points": [
+      "Adulteration of Ashoka bark with Polyalthia longifolia and its detection",
+      "Conservation status and sustainable harvesting of Saraca asoca"
+    ],
+    "practical_points": [
+      "Compare genuine and substitute bark samples",
+      "Prepare Ashoka kshirapaka in the laboratory"
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Uterine astringent bark used chiefly for Asrigdara and Pradara; kashaya-tikta, sheeta; given as kwatha or kshirapaka.",
+    "important_indications": [
+      "Asrigdara",
+      "Pradara",
+      "Yoniroga",
+      "Daha",
+      "Apachi"
+    ],
     "useful_part": "bark",
     "dose": "Twak 20–30 g for kwatha",
-    "anupana": "",
-    "key_precautions": []
+    "anupana": "Milk (as Ashoka kshirapaka).",
+    "key_precautions": [
+      "Diagnose cause of abnormal uterine bleeding first",
+      "May cause constipation",
+      "Use authenticated bark only"
+    ]
   },
   "sources": [
     {

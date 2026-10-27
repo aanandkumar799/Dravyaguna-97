@@ -4,7 +4,7 @@
   "identity": {
     "name": "Ativisha",
     "sanskrit_name": "अतिविषा",
-    "transliteration": "",
+    "transliteration": "Ativiṣā",
     "botanical_name": "Aconitum heterophyllum Wall. ex Royle",
     "family": "Ranunculaceae",
     "english_name": "Indian Atees",
@@ -25,19 +25,19 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Erect perennial herb, 15–90 cm tall, with paired tuberous roots.",
+    "habitat": "Alpine and sub-alpine meadows and slopes at about 2,400–4,500 m.",
+    "distribution": "Western and Central Himalaya, including Kashmir, Himachal Pradesh, Garhwal and Kumaon."
   },
   "identification": {
     "description": "Ovoid or conical small tuberous roots (2-4 cm), light greyish-white chalky fracture, non-poisonous (nirvisha), pure intense bitter taste without numbness of tongue.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
+    "whole_plant": "Perennial herb with leafy stem, paired tuberous roots and a raceme of hooded blue or violet flowers.",
+    "root": "Tuberous roots ovoid-conical, 2–7.5 cm long, externally ash-grey to grey-brown and internally starchy white; fracture short, showing 4–7 yellowish-brown dots in a ring; taste bitter without tingling.",
+    "stem": "Erect, simple or branched, leafy, glabrous below and pubescent above.",
+    "leaf": "Lower leaves long-petioled, orbicular-cordate, 5-lobed; upper leaves smaller, sessile and amplexicaul.",
+    "flower": "Bright blue or greenish-violet with purple veins, in loose racemes or panicles; upper sepal helmet-shaped.",
+    "fruit": "Follicles about 1.6 cm long, usually five, pubescent.",
+    "seed": "Small, pyramidal, blackish-brown, with transverse lamellae.",
     "bark": "",
     "identification_points": [
       "Ovoid or conical small tuberous roots (2-4 cm), light greyish-white chalky fracture, non-poisonous (nirvisha), pure intense bitter taste without numbness of tongue."
@@ -105,10 +105,10 @@
       "Atisarahara"
     ],
     "dose": "Churna 0.6–2 g",
-    "anupana": "",
+    "anupana": "Honey, especially for children (as in Balachaturbhadra Churna).",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Authenticate the drug: toxic Aconitum species (Vatsanabha) may be mixed with it; the genuine root is bitter without tingling or numbness of the tongue. Use measured doses in children.",
+    "contraindications": "Avoid in pregnancy without specialist advice; avoid if tingling or numbness on tasting suggests adulteration with poisonous Aconitum."
   },
   "formulations": [
     {
@@ -165,43 +165,82 @@
     }
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "atisine",
+      "dihydroatisine",
+      "hetisine",
+      "heteratisine",
+      "atidine"
+    ],
+    "chemical_notes": "The root contains non-toxic diterpenoid alkaloids of the atisine type, unlike the highly toxic aconitine of Vatsanabha."
   },
   "modern_information": {
     "evidence_summary": "Aconitum heterophyllum is a key herb for fever, diarrhea, and cough, especially in children.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Atisara and Amatisara, including pediatric diarrhoea",
+      "Jwara",
+      "Agnimandya and Chhardi",
+      "Krimiroga"
+    ],
+    "safety_notes": "Considered safe in therapeutic doses because its alkaloids are of low toxicity; the main risk is adulteration with toxic Aconitum roots. The species is threatened, so authenticated, sustainably sourced material should be used.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Aconitum heterophyllum Wall. ex Royle, family Ranunculaceae",
+      "Useful part: tuberous root",
+      "Rasa tikta, katu; guna laghu, ruksha; virya ushna; vipaka katu",
+      "Key karma: Deepana, Pachana, Grahi, Amapachana, Jwarahara",
+      "Non-poisonous member of Aconitum; called 'shishu bhaishajya' for children's ailments",
+      "Formulations: Balachaturbhadra Churna, Sudarshana Churna, Rasnairandadi Kwatha",
+      "Dose 0.6–2 g churna (API)"
+    ],
+    "viva_questions": [
+      "How will you distinguish Ativisha from Vatsanabha?",
+      "Give the rasa-panchaka of Ativisha.",
+      "Why is Ativisha used in pediatric practice?",
+      "Name two formulations containing Ativisha.",
+      "Name the main alkaloids of Ativisha."
+    ],
+    "identification_points": [
+      "Ovoid-conical root, white starchy interior",
+      "4–7 dots in a ring on fracture",
+      "Bitter, no tingling on tongue"
+    ],
     "mnemonics": [],
     "quick_revision": "Aconitum heterophyllum is a key herb for fever, diarrhea, and cough, especially in children."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [
-      "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data.",
-      "Full Gemini batch 78 record merged; source object retained verbatim under gemini_source_data."
+    "teaching_points": [
+      "Ativisha as a non-toxic Aconitum compared with Vatsanabha",
+      "Role in Amatisara and pediatric diarrhoea"
     ],
-    "practical_points": []
+    "discussion_points": [
+      "Why Ativisha is the agrya drug for pediatric Atisara (Shishu-bhaishajya)",
+      "Ativisha vs Vatsanabha: a non-toxic Aconitum versus a visha dravya"
+    ],
+    "practical_points": [
+      "Identification of Ativisha roots by fracture and taste",
+      "Comparison of Ativisha and Vatsanabha specimens"
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Bitter tuberous root for Atisara, Amatisara, Jwara and pediatric digestive disorders; ushna, katu vipaka; 0.6–2 g churna, often with honey for children.",
+    "important_indications": [
+      "Atisara",
+      "Amatisara",
+      "Jwara",
+      "Agnimandya",
+      "Balaroga"
+    ],
     "useful_part": "root",
     "dose": "Churna 0.6–2 g",
-    "anupana": "",
-    "key_precautions": []
+    "anupana": "Honey, especially for children (as in Balachaturbhadra Churna).",
+    "key_precautions": [
+      "Ensure authentic root (no tingling on tasting)",
+      "Weigh doses carefully for children",
+      "Avoid in pregnancy without advice"
+    ]
   },
   "sources": [
     {

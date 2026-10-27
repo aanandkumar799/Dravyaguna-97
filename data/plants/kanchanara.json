@@ -9,7 +9,13 @@
     "family": "Fabaceae",
     "english_name": "Orchid Tree",
     "hindi_name": "कचनार",
-    "regional_names": [],
+    "regional_names": [
+      "Bengali: Kanchana, Rakta Kanchana",
+      "Gujarati: Kanchnar",
+      "Marathi: Kanchana, Raktakanchana",
+      "Malayalam: Chuvanna Mandharam",
+      "Tamil: Sigappu mandarai"
+    ],
     "synonyms": [
       "Yugapatra",
       "Kudalaka",
@@ -86,12 +92,19 @@
       "Pradara",
       "Krimiroga"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Grahi",
+      "Deepana",
+      "Gandamalanashana",
+      "Vranaropana",
+      "Kushtaghna",
+      "Krimighna"
+    ],
     "dose": "Stem bark 20–30 g for decoction (API); churna 3–6 g",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Glandular and thyroid swellings (Gandamala, Apachi) need proper clinical evaluation; Kanchanara is mostly used as Kanchanara Guggulu.",
+    "contraindications": "Chronic constipation, because of its Kashaya-Grahi nature."
   },
   "formulations": [
     {
@@ -119,7 +132,11 @@
   },
   "modern_information": {
     "evidence_summary": "Bauhinia variegata is a widely cultivated medicinal and ornamental tree. Traditional Kanchanara use is part-specific and should not be generalized to all plant preparations.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Main ingredient of Kanchanara Guggulu for Gandamala and Apachi",
+      "Astringent bark used in Raktapitta and Pradara",
+      "Flower buds used as a vegetable"
+    ],
     "safety_notes": "Authenticate bark and avoid unsupervised long-term use of concentrated preparations.",
     "sources": []
   },

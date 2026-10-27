@@ -9,7 +9,13 @@
     "family": "Acanthaceae",
     "english_name": "Porcupine Flower",
     "hindi_name": "कटसरैया",
-    "regional_names": [],
+    "regional_names": [
+      "Marathi: Pivali Koranti",
+      "Gujarati: Kantashelio",
+      "Bengali: Kantajati",
+      "Tamil: Semmulli",
+      "Telugu: Mullu Gorinta"
+    ],
     "synonyms": [
       "Kurantaka",
       "Jhinti",
@@ -66,7 +72,15 @@
       "Vedanasthapana",
       "Vatahara"
     ],
-    "karma": []
+    "karma": [
+      "Kushthaghna",
+      "Kandughna",
+      "Vatahara",
+      "Kaphahara",
+      "Keshya",
+      "Vishaghna",
+      "Shothahara"
+    ]
   },
   "dosha": {
     "vata": "pacified",
@@ -91,7 +105,7 @@
     "anupana": "",
     "duration": "",
     "precautions": "Spines can cause injury during collection; use authenticated material and appropriate references.",
-    "contraindications": ""
+    "contraindications": "Pregnancy (insufficient safety data) and known hypersensitivity."
   },
   "formulations": [],
   "classical_reference": {
@@ -111,7 +125,11 @@
   },
   "modern_information": {
     "evidence_summary": "Barleria prionitis has been investigated experimentally for anti-inflammatory, analgesic and antimicrobial-related activities. These findings are not presented as established clinical efficacy.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Toothache and gum disorders (leaf juice, traditional)",
+      "Inflammatory joint pain",
+      "Skin disorders and wounds"
+    ],
     "safety_notes": "Handle carefully because of spines; use authenticated plant material.",
     "sources": []
   },

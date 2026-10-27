@@ -4,7 +4,7 @@
   "identity": {
     "name": "Vasa",
     "sanskrit_name": "वासा",
-    "transliteration": "",
+    "transliteration": "Vāsā",
     "botanical_name": "Adhatoda vasica Nees (syn. Justicia adhatoda L.)",
     "family": "Acanthaceae",
     "english_name": "Malabar Nut",
@@ -25,21 +25,27 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Dense evergreen shrub, 1–3 m tall, with opposite leaves.",
+    "habitat": "Waste lands, roadsides, hedges and lower hill slopes; often grown as a hedge.",
+    "distribution": "Throughout India in the plains and up to about 1,300 m in the Himalaya."
   },
   "identification": {
     "description": "Broad lanceolate leaves with prominent pinnate venation and white two-lipped flowers resembling a lion mouth.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
+    "whole_plant": "Gregarious shrub with many ascending branches, large opposite lanceolate leaves and dense spikes of white two-lipped flowers.",
+    "root": "Woody taproot with yellowish-brown bark, bitter in taste.",
+    "stem": "Woody, branched stem; young branches green and pubescent, older ones with smooth light-brown bark.",
+    "leaf": "Leaves 10–30 cm long, 3–10 cm broad, lanceolate to ovate-lanceolate, slightly acuminate, base tapering, petiole 2–8 cm, exstipulate, 8–10 pairs of lateral veins; dried leaves dull brown above, greyish-brown below; characteristic odour; bitter taste (API).",
+    "flower": "White, two-lipped flowers with purple or red-barred lower lip, in dense axillary spikes with large ovate bracts.",
+    "fruit": "Club-shaped, pubescent capsule about 2 cm long, opening by two valves.",
+    "seed": "Usually four rounded, tubercled seeds per capsule.",
     "bark": "",
-    "identification_points": []
+    "identification_points": [
+      "Large lanceolate leaves with tapering base",
+      "8–10 pairs of lateral veins",
+      "Characteristic odour, bitter taste",
+      "Dense spikes of white two-lipped flowers with large bracts",
+      "Club-shaped capsules"
+    ]
   },
   "images": {
     "whole_plant": "",
@@ -92,12 +98,19 @@
       "Kshayaja Kasa",
       "Jwara"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Kasaghna",
+      "Shwasahara",
+      "Raktasangrahika",
+      "Kaphapittahara",
+      "Hridya",
+      "Jwarahara"
+    ],
     "dose": "Patra swarasa 10–20 ml; Mula kwatha 40–80 ml; Pushpa swarasa 10–20 ml",
-    "anupana": "",
+    "anupana": "Madhu (honey), especially with Vasa swarasa in Kasa and Raktapitta",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Generally well tolerated in usual doses; the alkaloid vasicine has uterotonic (oxytocic) activity, so avoid in pregnancy. Large doses of swarasa may cause nausea and vomiting.",
+    "contraindications": "Pregnancy; caution in Vata-predominant dry cough and in very weak patients because the drug is Ruksha and Sheeta."
   },
   "formulations": [
     {
@@ -137,34 +150,86 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "Vasicine (peganine)",
+      "Vasicinone",
+      "Vasicol",
+      "Adhatodine",
+      "Vasicinol",
+      "Essential oil"
+    ],
+    "chemical_notes": "The leaves contain quinazoline alkaloids, chiefly vasicine and vasicinone (API: alkaloids and essential oil); bromhexine and ambroxol are synthetic analogues of vasicine."
   },
   "modern_information": {
     "evidence_summary": "Adhatoda vasica for cough, bleeding and Pitta conditions.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Cough, bronchitis and asthma (expectorant, bronchodilator)",
+      "Bleeding disorders such as epistaxis and haemoptysis (traditional)",
+      "Source molecule for the mucolytic bromhexine"
+    ],
+    "safety_notes": "Usually well tolerated at recommended doses; avoid in pregnancy because of the uterotonic action of vasicine.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Botanical name: Adhatoda vasica Nees (syn. Justicia adhatoda L.); Family: Acanthaceae",
+      "Useful part: leaf (also root and flower)",
+      "Rasa: Tikta, Kashaya; Guna: Laghu, Ruksha; Virya: Sheeta; Vipaka: Katu",
+      "Karma: Kasaghna, Raktasangrahika, Kaphapittahara (API)",
+      "Drug of choice in Raktapitta and Kasa",
+      "Alkaloid: vasicine (parent of bromhexine)",
+      "Formulations: Vasavaleha, Vasakasava"
+    ],
+    "viva_questions": [
+      "Give the botanical name and family of Vasa.",
+      "Why is Vasa the drug of choice in Raktapitta?",
+      "State the Rasa-panchaka of Vasa.",
+      "Which modern drug is derived from vasicine?",
+      "How is Vasa swarasa prepared (Putapaka) and given?"
+    ],
+    "identification_points": [
+      "Lanceolate leaves 10–30 cm",
+      "Tapering base, long petiole",
+      "Bitter taste, characteristic odour",
+      "White two-lipped flowers in spikes",
+      "Club-shaped capsule"
+    ],
     "mnemonics": [],
     "quick_revision": "Adhatoda vasica for cough, bleeding and Pitta conditions."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Explain Vasa as Raktasangrahika and its role in Raktapitta.",
+      "Link vasicine to the modern mucolytics bromhexine and ambroxol.",
+      "Teach Putapaka swarasa of Vasa as a classical preparation."
+    ],
+    "discussion_points": [
+      "Vasa in Urdhvaga Raktapitta versus Adhoga",
+      "Uterotonic action of vasicine and use in pregnancy"
+    ],
+    "practical_points": [
+      "Identify fresh and dried leaves by shape, venation, odour and taste.",
+      "Prepare Vasa swarasa by Putapaka method."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Vasa leaf (Tikta-Kashaya, Sheeta) is the key Kasaghna and Raktasangrahika drug for Kasa, Shwasa and Raktapitta; swarasa 10–20 ml with honey.",
+    "important_indications": [
+      "Kasa",
+      "Shwasa",
+      "Raktapitta",
+      "Kshaya",
+      "Jwara",
+      "Kamala"
+    ],
     "useful_part": "leaf",
     "dose": "Patra swarasa 10–20 ml; Mula kwatha 40–80 ml; Pushpa swarasa 10–20 ml",
-    "anupana": "",
-    "key_precautions": []
+    "anupana": "Madhu (honey), especially with Vasa swarasa in Kasa and Raktapitta",
+    "key_precautions": [
+      "Avoid in pregnancy (uterotonic)",
+      "Large doses may cause nausea",
+      "Caution in dry Vataja cough"
+    ]
   },
   "sources": [
     {

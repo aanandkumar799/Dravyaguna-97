@@ -106,7 +106,7 @@
     "anupana": "",
     "duration": "",
     "precautions": "Purgative effect varies with preparation and dose.",
-    "contraindications": ""
+    "contraindications": "Avoid in Atisara, Pravahika, rectal bleeding and in pregnancy in purgative doses; not for long-term continuous use as a laxative."
   },
   "formulations": [
     {
@@ -140,11 +140,15 @@
       "anthraquinone-related compounds",
       "flavonoids"
     ],
-    "chemical_notes": ""
+    "chemical_notes": "The fruit pulp contains sugars, mucilage, pectin and anthraquinone derivatives, the last being chiefly responsible for its mild laxative action."
   },
   "modern_information": {
     "evidence_summary": "Investigated pharmacologically; traditional use prominently concerns laxative action of fruit pulp.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Mridu virechana (mild purgation) in Vibandha, Udavarta and Gulma",
+      "Kushta and Kandu",
+      "Jwara (as in Aragvadhadi Kwatha)"
+    ],
     "safety_notes": "Excessive laxative use may cause gastrointestinal effects and fluid/electrolyte disturbance.",
     "sources": [
       "CCRAS/Ayurvedic literature resources"
@@ -164,7 +168,7 @@
       "Long cylindrical pod"
     ],
     "mnemonics": [],
-    "quick_revision": "Aragwadha: curated batch data added; classical reference reviewed against searchable Bhavaprakasha text."
+    "quick_revision": "Aragwadha — Cassia fistula L.; Fabaceae (Caesalpiniaceae); part: fruit pulp (Phala Majja), stem bark (Twak); Rasa madhura; Guna guru, mridu, snigdha; sheeta virya; madhura vipaka."
   },
   "teacher": {
     "teaching_points": [

@@ -98,9 +98,34 @@
     "anupana": "",
     "duration": "",
     "precautions": "Different plant parts have different traditional uses; avoid unsupervised concentrated root preparations.",
-    "contraindications": ""
+    "contraindications": "Pregnancy (root and bark are traditionally abortifacient), Pitta-predominant and bleeding states."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Vastyamayantaka Ghrita",
+      "dosage_form": "Ghrita",
+      "indication": "Mutraghata, bladder disorders",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Sarshapadi Pralepa",
+      "dosage_form": "Lepa",
+      "indication": "Shotha",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Kshara Taila",
+      "dosage_form": "Taila",
+      "indication": "Karnaroga",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Sudarshana Churna",
+      "dosage_form": "Churna",
+      "indication": "Jwara",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -119,7 +144,11 @@
   },
   "modern_information": {
     "evidence_summary": "Moringa oleifera is nutritionally important and widely studied for phytochemical properties; claims of therapeutic benefit should be tied to specific preparations and evidence.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Nutritional supplement (leaves)",
+      "Inflammatory and joint pain",
+      "Water clarification (seed)"
+    ],
     "safety_notes": "Part-specific safety matters, particularly for concentrated root/bark material.",
     "sources": []
   },

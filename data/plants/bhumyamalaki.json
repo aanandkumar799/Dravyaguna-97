@@ -32,7 +32,7 @@
   "identification": {
     "description": "Small herb with pinnate-looking branchlets bearing tiny leaves and small fruits beneath the branchlets.",
     "whole_plant": "Low, delicate annual herb.",
-    "root": "",
+    "root": "Small, nearly straight, gradually tapering, 2.5–11 cm long, with fibrous lateral roots; light brown.",
     "stem": "Slender, erect or branched.",
     "leaf": "Small, simple, alternate on branchlets and arranged in two rows.",
     "flower": "Very small, inconspicuous.",
@@ -93,15 +93,44 @@
     "dose": "Panchanga churna 3–6 g; swarasa 10–20 ml",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "May lower blood glucose and blood pressure; monitor with corresponding medicines. Hepatitis and jaundice need proper medical diagnosis.",
+    "contraindications": "Avoid in pregnancy and lactation without advice; avoid excessive use in Vata-predominant persons."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Chyavanaprasha",
+      "dosage_form": "avaleha",
+      "indication": "Kasa, Shwasa, Kshaya; rasayana",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Chitraka Haritaki",
+      "dosage_form": "avaleha",
+      "indication": "Pratishyaya, Kasa, Agnimandya",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Pippalyadi Ghrita",
+      "dosage_form": "ghrita",
+      "indication": "Jwara, Kasa, Kshaya",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Shatavari Guda",
+      "dosage_form": "guda",
+      "indication": "Raktapitta, Daurbalya",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
-    "shlokas": [],
-    "nighantu_references": [],
+    "shlokas": [
+      "भूम्यामलकिका तिक्ता कषाया मधुरा हिमा ।\nपिपासाकासपित्तास्रकफकण्डूक्षतापहा ॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Guduchyadi Varga"
+    ],
     "samhita_references": [],
-    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "shloka_reference_status": "added_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ]
@@ -112,11 +141,16 @@
       "flavonoids",
       "tannins"
     ],
-    "chemical_notes": ""
+    "chemical_notes": "The herb contains lignans (phyllanthin, hypophyllanthin), flavonoids and hydrolysable tannins such as geraniin, with phyllanthin used as the marker compound."
   },
   "modern_information": {
     "evidence_summary": "Phyllanthus species have been investigated extensively for hepatobiliary and antiviral-related pharmacology; species identification is important.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Kamala and Yakrit vikara",
+      "Trishna, Kasa and Amlapitta",
+      "Mutraroga and Prameha",
+      "Pandu and Kushta"
+    ],
     "safety_notes": "Do not equate preclinical evidence with established clinical efficacy.",
     "sources": []
   },
@@ -147,11 +181,21 @@
   },
   "doctor": {
     "quick_reference": "Whole plant is traditionally used; species authentication is important.",
-    "important_indications": [],
+    "important_indications": [
+      "Kamala",
+      "Yakrit vikara",
+      "Amlapitta",
+      "Mutrakrichha",
+      "Prameha"
+    ],
     "useful_part": "whole plant",
     "dose": "Panchanga churna 3–6 g; swarasa 10–20 ml",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": [
+      "Monitor glucose and blood pressure with medicines",
+      "Avoid in pregnancy without advice",
+      "Jaundice needs medical diagnosis"
+    ]
   },
   "sources": [
     {

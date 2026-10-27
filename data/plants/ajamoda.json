@@ -9,7 +9,11 @@
     "family": "Apiaceae",
     "english_name": "Slender celery / wild celery (botanical common-name usage varies)",
     "hindi_name": "अजमोद",
-    "regional_names": [],
+    "regional_names": [
+      "Hindi: Ajmod, Ajmuda",
+      "Bengali: Randhuni, Banyamani",
+      "Gujarati: Bodi Ajamo, Ajamo"
+    ],
     "synonyms": [
       "Kharashva",
       "Mayura",
@@ -122,12 +126,19 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
+    "major_constituents": [
+      "Essential (volatile) oil",
+      "Fixed oil"
+    ],
     "chemical_notes": "Do not equate the botanical identity with Ajwain (Trachyspermum ammi); authenticated raw material is essential because vernacular names can overlap."
   },
   "modern_information": {
     "evidence_summary": "Ajamoda is used traditionally as an aromatic digestive drug. Botanical authentication is particularly important because related Apiaceae drugs have overlapping vernacular terminology.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Aromatic digestive (carminative) in flatulence and indigestion",
+      "Ingredient of classical Ajamodadi Churna and Ajamodarka",
+      "Culinary spice and flavouring"
+    ],
     "safety_notes": "Educational entry; clinical use should use authenticated material and preparation-specific guidance.",
     "sources": [
       "Standard pharmacognosy and Ayurvedic Dravyaguna references"

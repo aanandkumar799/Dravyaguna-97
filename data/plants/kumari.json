@@ -4,7 +4,7 @@
   "identity": {
     "name": "Kumari",
     "sanskrit_name": "कुमारी",
-    "transliteration": "",
+    "transliteration": "Kumārī",
     "botanical_name": "Aloe vera (L.) Burm.f. (syn. Aloe barbadensis Mill.)",
     "family": "Asphodelaceae (Liliaceae)",
     "english_name": "Indian Aloe / Aloe Vera",
@@ -25,20 +25,26 @@
   "classification": {
     "kingdom": "Plantae",
     "habit": "Perennial succulent, stemless or short-stemmed herb with thick fleshy spiny-margined leaves in rosette",
-    "habitat": "",
-    "distribution": ""
+    "habitat": "Dry, sandy, well-drained soils in open sunny places; widely grown in gardens and fields.",
+    "distribution": "Cultivated throughout India and naturalised in drier regions, especially Rajasthan, Gujarat and the peninsular coasts."
   },
   "identification": {
     "description": "Sessile rosette succulent with thick fleshy lanceolate leaves, spiny margins and abundant translucent inner gel.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
+    "whole_plant": "Stemless or short-stemmed perennial succulent 30–60 cm high with a dense rosette of fleshy leaves and suckers at the base.",
+    "root": "Shallow fibrous root system.",
+    "stem": "Very short, stout stem hidden by the leaf bases; spreads by basal suckers.",
+    "leaf": "Thick, fleshy, lanceolate leaves 30–50 cm long, grey-green, with spiny-toothed margins; inside is a colourless mucilaginous gel, and a yellow bitter juice lies just beneath the rind.",
+    "flower": "Tubular, pendulous yellow flowers in a dense raceme on a tall scape.",
+    "fruit": "Three-valved capsule; rarely formed under cultivation in India.",
     "seed": "",
     "bark": "",
-    "identification_points": []
+    "identification_points": [
+      "Rosette of thick fleshy grey-green leaves",
+      "Spiny-toothed leaf margins",
+      "Clear mucilaginous inner gel",
+      "Yellow bitter juice beneath the rind",
+      "Yellow tubular flowers on a tall scape"
+    ]
   },
   "images": {
     "root": "",
@@ -101,8 +107,8 @@
     "dose": "Swarasa 10–20 ml; Kanyasara (Elua) 125–500 mg (API)",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Kanyasara (Elua, dried juice) is a strong purgative: prolonged use can cause loss of electrolytes such as potassium and may interact with digoxin and diuretics. The leaf gel is milder; topical use can occasionally cause contact dermatitis.",
+    "contraindications": "Pregnancy (Artavajanana and purgative), lactation, intestinal obstruction, inflammatory bowel disease, abdominal pain of unknown cause, and young children (for Kanyasara)."
   },
   "formulations": [
     {
@@ -132,34 +138,84 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "Aloin (barbaloin)",
+      "Aloe-emodin",
+      "Anthraquinone glycosides",
+      "Acemannan and other gel polysaccharides",
+      "Aloesin"
+    ],
+    "chemical_notes": "The purgative action of Kanyasara comes from anthraquinone glycosides such as aloin, while the inner leaf gel is mainly water and polysaccharides."
   },
   "modern_information": {
     "evidence_summary": "Known as Aloe Vera, Kumari is a premier herb for skin, liver detoxification, and regulating menstruation.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Leaf gel applied to minor burns, wounds and skin irritation",
+      "Dried juice (Kanyasara) used as a purgative and emmenagogue",
+      "Ingredient of Kumaryasava and Rajahpravartini Vati"
+    ],
+    "safety_notes": "Oral aloe latex products are stimulant laxatives and are not suitable for long-term use; gel used topically is generally well tolerated.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Botanical name: Aloe vera (syn. Aloe barbadensis); Family: Asphodelaceae (Liliaceae)",
+      "Useful parts: leaf pulp/gel and Kanyasara (Elua, dried leaf juice)",
+      "Rasa: Tikta-Madhura; Guna: Guru-Snigdha-Picchila; Virya: Sheeta; Vipaka: Madhura",
+      "Key karma: Bhedana, Artavajanana, Rasayana, Yakrit-Plihahara",
+      "Indications: Rajorodha, Yakrit-Pliharoga, Gulma, Vrana",
+      "Active principle of Kanyasara: aloin (anthraquinone glycoside)",
+      "Formulations: Kumaryasava, Rajahpravartini Vati",
+      "Dose: Kanyasara 125–500 mg (API)"
+    ],
+    "viva_questions": [
+      "What is Kanyasara (Elua)?",
+      "State the Rasa-Panchaka of Kumari.",
+      "Why is Kumari avoided in pregnancy?",
+      "Name the active principle of aloe juice.",
+      "Name formulations containing Kumari."
+    ],
+    "identification_points": [
+      "Fleshy spiny-margined leaves in a rosette",
+      "Clear inner gel",
+      "Yellow bitter juice",
+      "Kanyasara: dark brown to black brittle masses with nauseous bitter taste"
+    ],
     "mnemonics": [],
-    "quick_revision": "Kumari: curated batch data added; classical reference reviewed against searchable Bhavaprakasha text."
+    "quick_revision": "Kumari — Aloe vera (L.) Burm.f. (syn. Aloe barbadensis Mill.); Asphodelaceae (Liliaceae); part: leaf gel/pulp, dried resinous leaf juice (Elua); Rasa tikta, madhura; Guna guru, snigdha, picchila; sheeta virya; madhura vipaka."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Distinguish the leaf gel (soothing, Brimhana) from Kanyasara (purgative) as separate drugs.",
+      "Explain Kumari as an Artavajanana drug in Rajorodha and Kashtartava."
+    ],
+    "discussion_points": [
+      "Safety of oral aloe latex versus topical gel.",
+      "Kumari as a Yakrit-Plihahara drug in Kumaryasava."
+    ],
+    "practical_points": [
+      "Cut a fresh leaf to show rind, yellow juice and inner gel.",
+      "Examine a Kanyasara sample for colour, fracture and taste."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Kumari leaf pulp is Sheeta and Bhedana, used in Rajorodha, Yakrit-Pliharoga, Gulma and Vrana; Kanyasara 125–500 mg is a strong purgative to be avoided in pregnancy.",
+    "important_indications": [
+      "Rajorodha / Kashtartava",
+      "Yakrit-Pliharoga",
+      "Gulma",
+      "Udararoga",
+      "Vrana",
+      "Kushta"
+    ],
     "useful_part": "leaf pulp",
     "dose": "Swarasa 10–20 ml; Kanyasara (Elua) 125–500 mg (API)",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": [
+      "Avoid in pregnancy and lactation",
+      "Kanyasara: not for long-term use (electrolyte loss)",
+      "Avoid in intestinal obstruction and IBD"
+    ]
   },
   "sources": [
     {

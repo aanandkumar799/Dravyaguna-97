@@ -91,12 +91,19 @@
       "Krimi",
       "Ajeerna"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Deepana",
+      "Pachana",
+      "Shoolaghna",
+      "Vatanulomana",
+      "Krimighna",
+      "Rochana"
+    ],
     "dose": "Shodhita Hingu 125–500 mg (API)",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Use only shodhita Hingu (roasted/fried in ghee) internally. Its Tikshna-Ushna nature can aggravate Pitta; commercial compounded asafoetida is often mixed with flour or gum. Avoid giving to infants.",
+    "contraindications": "Raktapitta, burning sensation, hyperacidity/peptic ulcer and other Pitta-predominant states; avoid medicinal doses in pregnancy."
   },
   "formulations": [
     {
@@ -137,7 +144,11 @@
   },
   "modern_information": {
     "evidence_summary": "Asafoetida is widely used as a culinary spice and traditional digestive aromatic. Modern pharmacological findings are heterogeneous and should not be presented as established clinical efficacy for a specific disorder.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Carminative and antiflatulent in Gulma, Anaha and colic",
+      "Ingredient of Hingvashtaka Churna and Hingvadi Churna",
+      "Culinary spice"
+    ],
     "safety_notes": "Use appropriate food/pharmacopoeial quality material. Strongly concentrated resin should not be treated as equivalent to culinary quantities.",
     "sources": []
   },
@@ -163,7 +174,7 @@
     "mnemonics": [
       "Hingu = Hing: pungent resin from Ferula of Apiaceae."
     ],
-    "quick_revision": "Hingu is an oleo-gum-resin drug associated with Ferula and Apiaceae; the project record describes it as Katu, Laghu-Snigdha-Tikshna and Ushna."
+    "quick_revision": "Hingu is an oleo-gum-resin drug associated with Ferula and Apiaceae; texts list it as Katu, Laghu-Snigdha-Tikshna and Ushna."
   },
   "teacher": {
     "teaching_points": [
@@ -180,7 +191,7 @@
     ]
   },
   "doctor": {
-    "quick_reference": "Hingu — Ferula assa-foetida L. in the project record; useful part is oleo-gum-resin and traditional indications centre on digestive/Vata-related presentations.",
+    "quick_reference": "Hingu — Ferula assa-foetida L.; useful part is oleo-gum-resin and traditional indications centre on digestive/Vata-related presentations.",
     "important_indications": [
       "Gulma",
       "Anaha",

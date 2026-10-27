@@ -87,10 +87,10 @@
       "hridya"
     ],
     "dose": "Twak churna 3–6 g; Kshirapaka 50–100 ml",
-    "anupana": "",
+    "anupana": "Milk (as Arjuna kshirapaka); ghee, jaggery or water as directed.",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Strongly astringent; may cause constipation. Persons on cardiac, antihypertensive or anticoagulant medicines should use it only under medical supervision.",
+    "contraindications": "Not a substitute for emergency cardiac care; avoid self-medication in acute chest pain, and use cautiously in Vibandha."
   },
   "formulations": [
     {
@@ -129,11 +129,16 @@
       "flavonoids",
       "tannins"
     ],
-    "chemical_notes": ""
+    "chemical_notes": "The stem bark is rich in tannins, with triterpenoids (arjunolic acid, arjungenin, arjunic acid, arjunetin) and flavonoids also reported."
   },
   "modern_information": {
     "evidence_summary": "Modern research has investigated Terminalia arjuna, including cardiovascular applications.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Hridroga (as hridya dravya)",
+      "Kshata-kshaya and Bhagna (sandhaniya)",
+      "Medoroga and Prameha",
+      "Vrana (astringent wound application)"
+    ],
     "safety_notes": "Evidence and preparations differ; clinical use should be individualized.",
     "sources": [
       "CCRAS clinical/pharmacological research resources"
@@ -168,11 +173,21 @@
   },
   "doctor": {
     "quick_reference": "Arjuna bark is the principal medicinal part; traditionally used as a hridya drug.",
-    "important_indications": [],
+    "important_indications": [
+      "Hridroga",
+      "Kshata-kshaya",
+      "Bhagna",
+      "Medoroga",
+      "Prameha"
+    ],
     "useful_part": "bark",
     "dose": "Twak churna 3–6 g; Kshirapaka 50–100 ml",
-    "anupana": "",
-    "key_precautions": []
+    "anupana": "Milk (as Arjuna kshirapaka); ghee, jaggery or water as directed.",
+    "key_precautions": [
+      "May cause constipation",
+      "Interaction possible with cardiac and antihypertensive drugs",
+      "Not for acute chest pain without medical care"
+    ]
   },
   "sources": [
     {

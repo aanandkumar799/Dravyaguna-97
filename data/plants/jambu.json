@@ -87,12 +87,17 @@
       "Pravahika",
       "Chhardi"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Grahi",
+      "Pramehaghna",
+      "Stambhana",
+      "Raktapittahara"
+    ],
     "dose": "Seed churna 3–6 g; stem bark 10–20 g for decoction (API)",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Seed powder may add to the effect of antidiabetic drugs; blood glucose should be monitored. Excess ripe fruit is classically Vishtambhi and Vata-aggravating.",
+    "contraindications": "Constipation (Vibandha) and Anaha because of its Grahi action."
   },
   "formulations": [
     {
@@ -127,7 +132,11 @@
   },
   "modern_information": {
     "evidence_summary": "Syzygium cumini is a widely consumed fruit tree and has a substantial traditional and research literature, including studies of fruit, seed and bark. Modern evidence should be interpreted by preparation and clinical endpoint rather than generalized to the whole plant.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Seed powder used traditionally in Madhumeha",
+      "Bark and seed as astringents in diarrhoea",
+      "Ingredient of Pushyanuga Churna"
+    ],
     "safety_notes": "Traditional use for metabolic conditions should not replace monitoring or prescribed treatment. Verify plant part and preparation.",
     "sources": []
   },
@@ -153,7 +162,7 @@
     "mnemonics": [
       "Jambu = Jamun: remember the glossy leaves and dark jamun fruit."
     ],
-    "quick_revision": "Jambu (Syzygium cumini) is a large Myrtaceae tree with glossy opposite leaves and dark purple-black fruits; the project record lists fruit/seed as useful."
+    "quick_revision": "Jambu (Syzygium cumini) is a large Myrtaceae tree with glossy opposite leaves and dark purple-black fruits; texts list fruit/seed as useful."
   },
   "teacher": {
     "teaching_points": [
@@ -170,7 +179,7 @@
     ]
   },
   "doctor": {
-    "quick_reference": "Jambu — Syzygium cumini (L.) Skeels; fruit/seed listed as useful in this project record, with traditional indications including Prameha and Atisara.",
+    "quick_reference": "Jambu — Syzygium cumini (L.) Skeels; fruit/seed listed as useful, with traditional indications including Prameha and Atisara.",
     "important_indications": [
       "Prameha",
       "Atisara",

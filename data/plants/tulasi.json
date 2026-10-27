@@ -119,12 +119,37 @@
       "Rucya"
     ],
     "dose": "API whole-plant monograph: 1–3 g powder. Preparation-specific doses should be taken from the relevant authoritative formulation.",
-    "anupana": "",
+    "anupana": "Madhu (honey) with swarasa",
     "duration": "",
     "precautions": "The heating and sharp qualities warrant preparation- and patient-specific use; verify dosing from an authoritative monograph or formulation.",
-    "contraindications": ""
+    "contraindications": "Pregnancy and those trying to conceive in medicinal doses, Pitta-predominant and bleeding states; caution with anticoagulant and antidiabetic medicines."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Manasamitra Vataka",
+      "dosage_form": "Vati",
+      "indication": "Manasa roga",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Tribhuvanakirti Rasa",
+      "dosage_form": "Rasaushadhi (Vati)",
+      "indication": "Jwara",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Muktapanchamrita Rasa",
+      "dosage_form": "Rasaushadhi",
+      "indication": "Kshaya, Daurbalya",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Mahajvarankusha Rasa",
+      "dosage_form": "Rasaushadhi",
+      "indication": "Jwara",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [
       "तुलसी सुरसा ग्राम्या सुलभा बहुमञ्जरी ।\nअपेतराक्षसी गौरी भूतघ्नी देवदुन्दुभिः ॥५०॥",

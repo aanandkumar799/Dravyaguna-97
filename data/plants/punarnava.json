@@ -4,7 +4,7 @@
   "identity": {
     "name": "Punarnava",
     "sanskrit_name": "पुनर्नवा",
-    "transliteration": "",
+    "transliteration": "Punarnavā",
     "botanical_name": "Boerhavia diffusa L.",
     "family": "Nyctaginaceae",
     "english_name": "Spreading Hogweed",
@@ -26,20 +26,26 @@
   "classification": {
     "kingdom": "Plantae",
     "habit": "Diffuse perennial herb with tuberous root",
-    "habitat": "",
-    "distribution": ""
+    "habitat": "Waste lands, roadsides, fields and sandy soils, flourishing after the rainy season.",
+    "distribution": "Throughout India as a common weed, from the plains up to about 2000 m."
   },
   "identification": {
     "description": "Diffusely branched perennial herb with stout root, green upper leaf surface, pale/whitish lower surface and small pinkish-red flowers.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
+    "whole_plant": "Diffusely branched, trailing perennial herb with a stout tuberous root-stock and long slender prostrate or ascending branches.",
+    "root": "Well developed, fairly long, somewhat tortuous, cylindrical, 0.2–1.5 cm thick, yellowish-brown to brown, with longitudinal striations; fracture short; taste slightly bitter.",
+    "stem": "Greenish-purple, slender, cylindrical, swollen at nodes, minutely pubescent, divaricately branched, often over a metre long.",
+    "leaf": "Opposite in unequal pairs, ovate-oblong to suborbicular, green and glabrous above, whitish below, margin entire or wavy, petiole nearly as long as the blade.",
+    "flower": "Very small pink flowers in small umbels on long slender stalks; perianth tube constricted above the ovary, upper part funnel-shaped; stamens 2–3.",
+    "fruit": "One-seeded clavate anthocarp, about 6 mm long, bluntly 5-ribbed and viscid-glandular.",
     "seed": "",
     "bark": "",
-    "identification_points": []
+    "identification_points": [
+      "Prostrate herb with purple, node-swollen stems",
+      "Opposite leaves in unequal pairs, whitish beneath",
+      "Minute pink flowers in umbels on long stalks",
+      "Sticky glandular 5-ribbed fruit",
+      "Tortuous yellowish-brown tap root"
+    ]
   },
   "images": {
     "whole_plant": "",
@@ -92,12 +98,19 @@
       "Hridroga with swelling",
       "Udara Roga"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Shothahara",
+      "Mutrala",
+      "Anulomana",
+      "Vatashleshmahara",
+      "Rasayana",
+      "Panduhara"
+    ],
     "dose": "Churna (root) 1–3 g; Kwatha: 20–30 g drug for decoction",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Strongly diuretic; monitor fluid and electrolyte status in long use, and do not replace medical evaluation of oedema, ascites or kidney disease.",
+    "contraindications": "Pregnancy (in medicinal doses) and severe dehydration; caution with concurrent diuretic or antihypertensive medicines."
   },
   "formulations": [
     {
@@ -130,34 +143,83 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "Punarnavine (alkaloid)",
+      "Boeravinones A–F (rotenoids)",
+      "Punarnavoside",
+      "Liriodendrin",
+      "Beta-sitosterol",
+      "Potassium nitrate"
+    ],
+    "chemical_notes": "API lists the alkaloid punarnavine; rotenoids (boeravinones) and potassium salts are also reported and contribute to the diuretic profile."
   },
   "modern_information": {
     "evidence_summary": "Known for its diuretic and rejuvenating properties, Punarnava supports kidney and liver function and reduces swelling.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Traditional diuretic for oedema",
+      "Hepatoprotective and nephroprotective research interest",
+      "Leafy vegetable in parts of India"
+    ],
+    "safety_notes": "Generally well tolerated in traditional doses; its diuretic effect may add to that of prescribed diuretics.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Punarnava = Boerhavia diffusa L., family Nyctaginaceae",
+      "Useful part: root and whole plant",
+      "Rasa Madhura, Tikta, Kashaya; Guna Laghu, Ruksha; Virya Ushna; Vipaka Madhura",
+      "Karma: Shothahara, Mutrala, Anulomana, Rasayana",
+      "Indicated in Shotha, Pandu, Udara, Hridroga with swelling",
+      "Alkaloid: punarnavine",
+      "Formulations: Punarnavadi Mandura, Punarnavasava, Punarnavashtaka Kwatha"
+    ],
+    "viva_questions": [
+      "What does the name 'Punarnava' mean?",
+      "What are the Shveta and Rakta varieties of Punarnava?",
+      "Name the main alkaloid of Punarnava.",
+      "Name two formulations used in Shotha."
+    ],
+    "identification_points": [
+      "Unequal opposite leaves",
+      "Pink minute flowers",
+      "Sticky fruits",
+      "Purple nodes"
+    ],
     "mnemonics": [],
     "quick_revision": "Known for its diuretic and rejuvenating properties, Punarnava supports kidney and liver function and reduces swelling."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Explain the name 'renews again' from the plant's regrowth each rainy season.",
+      "Discuss Shothahara and Mutrala karma with clinical examples.",
+      "Distinguish Rakta Punarnava (Boerhavia diffusa) from Shveta Punarnava (Trianthema portulacastrum)."
+    ],
+    "discussion_points": [
+      "Diuretic herbs and electrolyte safety",
+      "Controversy over Shveta and Rakta Punarnava"
+    ],
+    "practical_points": [
+      "Observe unequal leaf pairs and glandular fruits.",
+      "Examine root transverse section for concentric vascular rings."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Punarnava (Boerhavia diffusa): Madhura-Tikta-Kashaya, Ushna; Shothahara and Mutrala; for Shotha, Pandu, Udara; root churna 1–3 g, kwatha 20–30 g.",
+    "important_indications": [
+      "Shotha",
+      "Pandu",
+      "Udara Roga",
+      "Mutrakrichra",
+      "Hridroga with swelling"
+    ],
     "useful_part": "root/whole plant",
     "dose": "Churna (root) 1–3 g; Kwatha: 20–30 g drug for decoction",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": [
+      "Monitor fluids in long use",
+      "Caution with diuretic drugs",
+      "Evaluate the cause of oedema"
+    ]
   },
   "sources": [
     {

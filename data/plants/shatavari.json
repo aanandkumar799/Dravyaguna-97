@@ -4,7 +4,7 @@
   "identity": {
     "name": "Shatavari",
     "sanskrit_name": "शतावरी",
-    "transliteration": "",
+    "transliteration": "Śatāvarī",
     "botanical_name": "Asparagus racemosus Willd.",
     "family": "Asparagaceae",
     "english_name": "Wild Asparagus",
@@ -24,21 +24,27 @@
   },
   "classification": {
     "kingdom": "Plantae",
-    "habit": "",
-    "habitat": "",
-    "distribution": ""
+    "habit": "Much-branched, spiny, woody climber with tuberous fasciculated roots.",
+    "habitat": "Tropical and subtropical forests, scrub and hedges, ascending the hills to about 1,500 m.",
+    "distribution": "Throughout India, including the Himalaya and the peninsular forests; widely cultivated."
   },
   "identification": {
     "description": "Shatavari (Asparagus racemosus) supports female reproductive health, boosts vitality, and is a top Ayurvedic rejuvenator for Pitta and Vata.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
+    "whole_plant": "Climbing shrub with slender grooved branches, recurved spines and tufts of needle-like cladodes instead of true leaves, bearing numerous spindle-shaped root tubers.",
+    "root": "Numerous fasciculated, fusiform tuberous roots, 10–30 cm long, tapering at both ends, cream coloured with longitudinal wrinkles; taste sweetish (API).",
+    "stem": "Woody, whitish-grey, grooved stem with stout straight or recurved spines at the nodes.",
+    "leaf": "True leaves reduced to scales or spines; green, linear, curved cladodes 1–2.5 cm long occur in tufts of 2–6.",
+    "flower": "Small, white, fragrant flowers in simple or branched racemes.",
+    "fruit": "Globose berries, about 5 mm across, turning red when ripe.",
+    "seed": "One to few hard, black seeds per berry.",
     "bark": "",
-    "identification_points": []
+    "identification_points": [
+      "Fasciculated spindle-shaped tuberous roots",
+      "Cream-coloured, wrinkled root with sweetish taste",
+      "Needle-like cladodes in tufts",
+      "Recurved spines on stems",
+      "Red globose berries"
+    ]
   },
   "images": {
     "whole_plant": "",
@@ -85,14 +91,54 @@
       "Amlapitta",
       "Shukrakshaya"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Rasayana",
+      "Stanyajanana",
+      "Shukrala",
+      "Vrishya",
+      "Balya",
+      "Medhya",
+      "Pittahara",
+      "Vatahara"
+    ],
     "dose": "Mula churna 3–6 g; Swarasa 10–20 ml",
-    "anupana": "",
+    "anupana": "Ksheera (milk) or Ghrita",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Guru and Snigdha drug: use cautiously in Mandagni, Ama and Kapha-predominant states and in obesity. Use authenticated root; peeled, dried root is the standard drug.",
+    "contraindications": "Ama with weak digestion, Kaphaja disorders with heaviness, and hormone-sensitive conditions without medical advice; known allergy to Asparagus."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Shatavari Guda",
+      "dosage_form": "Guda",
+      "indication": "Pradara, Raktapitta",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Shatavari Ghrita",
+      "dosage_form": "Ghrita",
+      "indication": "Stanyakshaya, Raktapitta, Vatapitta disorders",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Brahma Rasayana",
+      "dosage_form": "Avaleha",
+      "indication": "Rasayana",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Maha Narayana Taila",
+      "dosage_form": "Taila",
+      "indication": "Vatavyadhi",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Ashwagandharishta",
+      "dosage_form": "Arishta",
+      "indication": "Daurbalya, Manasa roga",
+      "reference": "API Part I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [
       "शतावरी बहुसुता भीरुरिन्दीवरी वरी ।\nनारायणी शतपदी शतवीर्या च पीवरी ॥\nशतावरी गुरुः शीता तिक्तास्वाद्वी रसायनी ।\nमेधाग्निपुष्टिदा स्निग्धा नेत्र्या गुल्मातिसारजित् ।\nशुक्रस्तन्यकरी बल्या वातपित्तास्रशोथजित् ॥"
@@ -108,34 +154,85 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "Shatavarin I–IV (steroidal saponins)",
+      "Sarsasapogenin",
+      "Racemosol",
+      "Asparagamine A",
+      "Sitosterol",
+      "Sugars and mucilage"
+    ],
+    "chemical_notes": "The root is rich in steroidal saponins (shatavarins based on sarsasapogenin) with sugars and mucilage, matching its Madhura-Snigdha profile."
   },
   "modern_information": {
     "evidence_summary": "Shatavari (Asparagus racemosus) supports female reproductive health, boosts vitality, and is a top Ayurvedic rejuvenator for Pitta and Vata.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Galactagogue and female reproductive tonic in traditional practice",
+      "Rasayana and general tonic",
+      "Amlapitta and other Pitta disorders"
+    ],
+    "safety_notes": "Generally well tolerated at usual doses; mild gastrointestinal upset may occur. Data in pregnancy are limited, so use only on medical advice.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Botanical name: Asparagus racemosus Willd.; Family: Asparagaceae (earlier Liliaceae)",
+      "Useful part: tuberous root",
+      "Rasa: Madhura, Tikta; Guna: Guru, Snigdha; Virya: Sheeta; Vipaka: Madhura",
+      "Karma: Rasayana, Stanyajanana, Shukrala, Vrishya, Balya, Medhya",
+      "Charaka: Balya, Vayahsthapana and Madhura skandha",
+      "Constituents: shatavarins (steroidal saponins)",
+      "Formulations: Shatavari Guda, Shatavari Ghrita, Brahma Rasayana"
+    ],
+    "viva_questions": [
+      "Give the botanical name and family of Shatavari.",
+      "Which part of Shatavari is used and how is it identified?",
+      "State the Rasa-panchaka of Shatavari.",
+      "Why is Shatavari called a Stanyajanana and Rasayana dravya?",
+      "Name two formulations containing Shatavari."
+    ],
+    "identification_points": [
+      "Bunch of spindle-shaped tuberous roots",
+      "Cream colour, longitudinal wrinkles, sweetish taste",
+      "Needle-like cladodes",
+      "Spiny climbing stem",
+      "Red berries"
+    ],
     "mnemonics": [],
     "quick_revision": "Shatavari (Asparagus racemosus) supports female reproductive health, boosts vitality, and is a top Ayurvedic rejuvenator for Pitta and Vata."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Explain cladodes as modified stems replacing leaves.",
+      "Correlate Madhura-Sheeta-Guru profile with Pittahara and Brimhana action.",
+      "Discuss Shatavari as a Stanyajanana and female Rasayana."
+    ],
+    "discussion_points": [
+      "Classical Rasayana claims versus modern evidence on galactagogue action",
+      "Sustainable harvesting of wild Shatavari"
+    ],
+    "practical_points": [
+      "Examine fresh and dried roots: shape, colour, wrinkles and sweetish taste.",
+      "Show a herbarium twig with cladodes and spines."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Shatavari root (Madhura-Tikta, Sheeta, Madhura vipaka) is a Rasayana, Stanyajanana and Pittahara drug used in Stanyakshaya, Amlapitta and Shukrakshaya; given with milk or ghee.",
+    "important_indications": [
+      "Stanyakshaya",
+      "Shukrakshaya",
+      "Amlapitta",
+      "Raktapitta",
+      "Daurbalya"
+    ],
     "useful_part": "root",
     "dose": "Mula churna 3–6 g; Swarasa 10–20 ml",
-    "anupana": "",
-    "key_precautions": []
+    "anupana": "Ksheera (milk) or Ghrita",
+    "key_precautions": [
+      "Use cautiously in Mandagni and Ama",
+      "Use cautiously in Kapha disorders and obesity",
+      "Use in pregnancy only on medical advice"
+    ]
   },
   "sources": [
     {

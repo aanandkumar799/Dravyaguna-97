@@ -98,30 +98,30 @@
     "anupana": "",
     "duration": "",
     "precautions": "Use authenticated plant material; topical and internal use should follow appropriate references.",
-    "contraindications": ""
+    "contraindications": "Pregnancy in internal medicinal doses; Pitta-predominant states, as it is Ushna."
   },
   "formulations": [
     {
       "name": "Nirgundi Taila",
-      "dosage_form": "",
+      "dosage_form": "Taila",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Vatagajankusha Rasa",
-      "dosage_form": "",
+      "dosage_form": "Rasaushadhi",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Trivikrama Rasa",
-      "dosage_form": "",
+      "dosage_form": "Rasaushadhi",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Dashamula Taila",
-      "dosage_form": "",
+      "dosage_form": "Taila",
       "indication": "",
       "reference": ""
     }
@@ -144,7 +144,11 @@
   },
   "modern_information": {
     "evidence_summary": "Vitex negundo has been investigated for anti-inflammatory and analgesic-related pharmacological activity; this record does not convert experimental findings into clinical efficacy claims.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Topical use in joint pain and swelling",
+      "Traditional insect repellent (leaves stored with grain)",
+      "Studied for anti-inflammatory and analgesic activity"
+    ],
     "safety_notes": "Avoid relying on unverified preparations; consider interactions and pregnancy-related clinical considerations when relevant.",
     "sources": []
   },
@@ -199,7 +203,7 @@
     "anupana": "",
     "key_precautions": [
       "Use authenticated material",
-      "Do not infer dose from this educational record",
+      "Do not infer dose without a qualified physician",
       "Review patient-specific interactions and contraindications"
     ]
   },

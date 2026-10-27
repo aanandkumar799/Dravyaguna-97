@@ -9,7 +9,14 @@
     "family": "Rubiaceae",
     "english_name": "Indian Madder",
     "hindi_name": "मंजीठ",
-    "regional_names": [],
+    "regional_names": [
+      "Bengali: Manjith",
+      "Gujarati: Manjitha",
+      "Marathi: Manjishtha",
+      "Tamil: Manjitti",
+      "Malayalam: Manjatti",
+      "Urdu: Majeeth"
+    ],
     "synonyms": [
       "Vikasa",
       "Yojanavalli",
@@ -97,39 +104,43 @@
     "anupana": "",
     "duration": "",
     "precautions": "Avoid converting the traditional 'Raktashodhana' term into an unsupported modern biomedical claim.",
-    "contraindications": ""
+    "contraindications": "Medicinal doses avoided in pregnancy (Artavajanana); may colour urine red, which should not be mistaken for haematuria."
   },
   "formulations": [
     {
       "name": "Manjishthadi Kwatha (Brihat)",
-      "dosage_form": "",
+      "dosage_form": "Kwatha",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Manjishthadi Taila",
-      "dosage_form": "",
+      "dosage_form": "Taila",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Chandanasava",
-      "dosage_form": "",
+      "dosage_form": "Asava",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Ushirasava",
-      "dosage_form": "",
+      "dosage_form": "Asava",
       "indication": "",
       "reference": ""
     }
   ],
   "classical_reference": {
-    "shlokas": [],
-    "nighantu_references": [],
+    "shlokas": [
+      "मञ्जिष्ठा मधुरा तिक्ता कषाया स्वरवर्णकृत् ।\nगुरुरुष्णा विषश्लेष्मशोथयोन्यक्षिकर्णरुक् ॥\nरक्तातीसारकुष्ठास्रवीसर्पव्रणमेहनुत् ॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Haritakyadi Varga (Manjishtha passage)"
+    ],
     "samhita_references": [],
-    "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+    "shloka_reference_status": "added_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ]

@@ -98,30 +98,30 @@
     "anupana": "",
     "duration": "",
     "precautions": "The species identity and plant part should be authenticated before medicinal use.",
-    "contraindications": ""
+    "contraindications": "Pregnancy (in medicinal doses) and Pitta-predominant states, as it is Ushna and Tikshna."
   },
   "formulations": [
     {
       "name": "Pushyanuga Churna",
-      "dosage_form": "",
+      "dosage_form": "Churna",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Pradarantaka Lauha",
-      "dosage_form": "",
+      "dosage_form": "Lauha (bhasma preparation)",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Brihat Gangadhara Churna",
-      "dosage_form": "",
+      "dosage_form": "Churna",
       "indication": "",
       "reference": ""
     },
     {
       "name": "Stanyashodhana Kashaya",
-      "dosage_form": "",
+      "dosage_form": "Kwatha churna",
       "indication": "",
       "reference": ""
     }
@@ -143,7 +143,10 @@
   },
   "modern_information": {
     "evidence_summary": "Cissampelos pareira has been investigated experimentally for antimicrobial, anti-inflammatory and other activities. These findings are not presented as established clinical efficacy.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Traditional use in diarrhoea, fever and menstrual disorders",
+      "Component of Stanyashodhana preparations"
+    ],
     "safety_notes": "Use authenticated material and appropriate professional guidance.",
     "sources": []
   },

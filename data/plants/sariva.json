@@ -99,14 +99,31 @@
     "anupana": "",
     "duration": "",
     "precautions": "Use authenticated raw drug; therapeutic use should follow qualified clinical guidance.",
-    "contraindications": ""
+    "contraindications": "Mandagni with Ama and Kapha-predominant heaviness, because the drug is Guru and Snigdha."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Sarivadyasava",
+      "dosage_form": "Asava",
+      "indication": "Prameha, Vatarakta, skin disorders",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Kalyanaka Ghrita",
+      "dosage_form": "Ghrita",
+      "indication": "Unmada, Apasmara",
+      "reference": "AFI"
+    }
+  ],
   "classical_reference": {
-    "shlokas": [],
-    "nighantu_references": [],
+    "shlokas": [
+      "सारिवायुगलं स्वादु स्निग्धं शुक्रकरं गुरु।\nअग्निमान्द्यारुचिश्वासकासामविषनाशनम्।\nदोषत्रयास्रप्रदरज्वरातीसारनाशनम्॥"
+    ],
+    "nighantu_references": [
+      "Bhavaprakasha Nighantu, Guduchyadi Varga"
+    ],
     "samhita_references": [],
-    "shloka_reference_status": "exact verse/edition requires text-level verification",
+    "shloka_reference_status": "added_2026-10-28; verify against printed Bhavaprakasha Nighantu",
     "reference_hubs": [
       "TDU Indian Medicinal Plants Database — Shlokas"
     ]
@@ -120,7 +137,11 @@
   },
   "modern_information": {
     "evidence_summary": "Sariva is traditionally described as cooling and is studied for phytochemical and pharmacological properties; specific clinical efficacy should not be inferred from traditional use alone.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Blood purifier in skin disorders",
+      "Urinary and burning conditions",
+      "Flavouring of syrups (sarsaparilla substitute)"
+    ],
     "safety_notes": "Avoid treating traditional indications as established clinical efficacy; authenticate the root drug.",
     "sources": []
   },

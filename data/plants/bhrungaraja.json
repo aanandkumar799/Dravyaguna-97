@@ -9,7 +9,14 @@
     "family": "Asteraceae (Compositae)",
     "english_name": "False Daisy",
     "hindi_name": "भृंगराज",
-    "regional_names": [],
+    "regional_names": [
+      "Marathi: Māka",
+      "Bengali: Kesuti",
+      "Tamil: Karisalāṅkaṇṇi",
+      "Telugu: Guntagalagara",
+      "Kannada: Garugada soppu",
+      "Malayalam: Kayyunni"
+    ],
     "synonyms": [
       "Markava (मार्कव)",
       "Kesharaja (केशराज)",
@@ -27,7 +34,7 @@
   "identification": {
     "description": "Prostrate or erect annual herb with appressed hairs, opposite lanceolate leaves, small solitary white ray-floreted head inflorescence, acrid bitter taste.",
     "whole_plant": "Usually prostrate/ascending, branched herb.",
-    "root": "",
+    "root": "Well developed, with many secondary branches, cylindrical and greyish, up to about 7 mm thick.",
     "stem": "Slender, branched, often hairy.",
     "leaf": "Opposite, sessile or nearly sessile, lanceolate to oblong, usually hairy.",
     "flower": "Small white capitula, solitary or in leaf axils/ends of branches.",
@@ -101,8 +108,8 @@
     "dose": "Churna 1–3 g; swarasa 3–6 ml",
     "anupana": "",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Ushna virya; use cautiously in Pitta-predominant states. Genuine Eclipta should be distinguished from Wedelia (yellow-flowered Bhringaraja).",
+    "contraindications": "Avoid in pregnancy without advice; avoid self-medication in established liver disease without medical evaluation."
   },
   "formulations": [
     {
@@ -167,7 +174,12 @@
   },
   "modern_information": {
     "evidence_summary": "Investigated in pharmacological and phytochemical studies; traditional use includes hair/scalp preparations.",
-    "recognized_uses": [],
+    "recognized_uses": [
+      "Khalitya and Palitya (as Bhringaraja Taila)",
+      "Kamala and Yakrit vikara",
+      "Kasa and Shwasa",
+      "Pandu and Shotha"
+    ],
     "safety_notes": "Use should follow the preparation and source-specific guidance.",
     "sources": []
   },
@@ -200,11 +212,21 @@
   },
   "doctor": {
     "quick_reference": "Traditional keshya/rasayana drug; whole plant is used.",
-    "important_indications": [],
+    "important_indications": [
+      "Khalitya",
+      "Palitya",
+      "Kamala",
+      "Yakridvriddhi",
+      "Kasa"
+    ],
     "useful_part": "whole plant",
     "dose": "Churna 1–3 g; swarasa 3–6 ml",
     "anupana": "",
-    "key_precautions": []
+    "key_precautions": [
+      "Use cautiously in Pitta excess",
+      "Liver disease needs medical evaluation",
+      "Avoid in pregnancy without advice"
+    ]
   },
   "sources": [
     {

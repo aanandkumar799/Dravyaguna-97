@@ -4,7 +4,7 @@
   "identity": {
     "name": "Maricha",
     "sanskrit_name": "मरिच",
-    "transliteration": "",
+    "transliteration": "Marica",
     "botanical_name": "Piper nigrum L.",
     "family": "Piperaceae",
     "english_name": "Black Pepper",
@@ -25,20 +25,25 @@
   "classification": {
     "kingdom": "Plantae",
     "habit": "Perennial woody climber",
-    "habitat": "",
-    "distribution": ""
+    "habitat": "Warm humid tropical forests and plantations; trained on support trees in areas of high rainfall.",
+    "distribution": "Native to the Western Ghats; cultivated in Kerala, Karnataka, Tamil Nadu, Konkan and parts of North-East India."
   },
   "identification": {
     "description": "Small globose, dark brown to black, reticulately wrinkled dried fruits with pungent aromatic taste.",
-    "whole_plant": "",
-    "root": "",
-    "stem": "",
-    "leaf": "",
-    "flower": "",
-    "fruit": "",
-    "seed": "",
+    "whole_plant": "Perennial woody climber climbing by adventitious roots at the nodes, with jointed stems and pendulous fruiting spikes.",
+    "root": "Adventitious clinging roots arise at the swollen nodes; underground roots fibrous.",
+    "stem": "Stout, jointed, woody climbing stem, swollen at the nodes.",
+    "leaf": "Simple, alternate, broadly ovate, acuminate, leathery, dark green and glossy, with 5–7 prominent curved veins.",
+    "flower": "Minute flowers on pendulous spikes 3–15 cm long, opposite the leaves.",
+    "fruit": "Fruits greyish-black to black, hard, wrinkled, 0.4–0.5 cm in diameter; odour aromatic, taste pungent.",
+    "seed": "Single seed per berry, globose, with a white starchy perisperm (white pepper is the seed freed from the pericarp).",
     "bark": "",
-    "identification_points": []
+    "identification_points": [
+      "Globose black fruit, 4–5 mm in diameter",
+      "Surface coarsely reticulately wrinkled",
+      "Hard; single white seed inside",
+      "Aromatic odour and sharply pungent taste"
+    ]
   },
   "images": {
     "whole_plant": "",
@@ -90,12 +95,20 @@
       "Shwasa",
       "Pratishyaya"
     ],
-    "therapeutic_actions": [],
+    "therapeutic_actions": [
+      "Deepana",
+      "Pachana",
+      "Chedana",
+      "Krimighna",
+      "Shirovirechana",
+      "Kaphavatajit",
+      "Medohara"
+    ],
     "dose": "Churna 250 mg–1 g",
-    "anupana": "",
+    "anupana": "Madhu (honey) in Kasa and Pratishyaya, as with Trikatu",
     "duration": "",
-    "precautions": "",
-    "contraindications": ""
+    "precautions": "Ushna and Tikshna; it is Pittakara and may cause burning in the stomach or throat with excess use. Use within the stated dose.",
+    "contraindications": "Amlapitta, peptic ulcer, Raktapitta and other Pitta-predominant states; caution in pregnancy in medicinal doses. Piperine can raise blood levels of several medicines."
   },
   "formulations": [
     {
@@ -130,34 +143,82 @@
     ]
   },
   "phytochemistry": {
-    "major_constituents": [],
-    "chemical_notes": ""
+    "major_constituents": [
+      "Piperine",
+      "Chavicine",
+      "Piperidine",
+      "Piperettine",
+      "Essential oil (sabinene, limonene, beta-caryophyllene, alpha- and beta-pinene)"
+    ],
+    "chemical_notes": "API lists the alkaloids piperine, chavicine, piperidine and piperettine with essential oil; piperine gives pungency and acts as a bioavailability enhancer."
   },
   "modern_information": {
     "evidence_summary": "Black pepper enhances digestion, stimulates metabolism, and helps clear congestion. It is a part of the Trikatu formula.",
-    "recognized_uses": [],
-    "safety_notes": "",
+    "recognized_uses": [
+      "Spice and condiment",
+      "Bioavailability enhancer (piperine) in combination formulations",
+      "Carminative and expectorant in traditional systems"
+    ],
+    "safety_notes": "Safe in culinary amounts; concentrated piperine may alter the metabolism of drugs such as phenytoin, theophylline and rifampicin.",
     "sources": []
   },
   "student": {
-    "exam_points": [],
-    "viva_questions": [],
-    "identification_points": [],
+    "exam_points": [
+      "Maricha = Piper nigrum L., family Piperaceae",
+      "Useful part: dried fruit",
+      "Rasa Katu; Guna Laghu, Ruksha, Tikshna; Virya Ushna; Vipaka Katu",
+      "Karma: Deepana, Chedana, Pramathi, Krimighna, Shirovirechana, Kaphavatajit",
+      "Pittakara; indicated in Agnimandya, Kasa, Shwasa, Pratishyaya, Krimi",
+      "Member of Trikatu with Pippali and Shunthi",
+      "Main alkaloid: piperine"
+    ],
+    "viva_questions": [
+      "What are the three drugs of Trikatu?",
+      "Which alkaloid gives pungency to black pepper?",
+      "How does white pepper differ from black pepper?",
+      "Why is Maricha avoided in Amlapitta?"
+    ],
+    "identification_points": [
+      "Black wrinkled globose fruit",
+      "4–5 mm diameter",
+      "Pungent, aromatic"
+    ],
     "mnemonics": [],
     "quick_revision": "Black pepper enhances digestion, stimulates metabolism, and helps clear congestion. It is a part of the Trikatu formula."
   },
   "teacher": {
-    "teaching_points": [],
-    "discussion_points": [],
-    "practical_points": []
+    "teaching_points": [
+      "Compare Maricha (Katu Vipaka, Ushna) with Pippali (Madhura Vipaka, Anushnasheeta).",
+      "Explain Pramathi and Chedana karma using Maricha.",
+      "Discuss piperine as a Yogavahi-like bioenhancer."
+    ],
+    "discussion_points": [
+      "Papaya seeds as an adulterant of black pepper",
+      "Trikatu in Agnimandya and Kapha disorders"
+    ],
+    "practical_points": [
+      "Compare black pepper with papaya seed (floats, no pungency).",
+      "Remove the pericarp to show white pepper seed."
+    ]
   },
   "doctor": {
-    "quick_reference": "",
-    "important_indications": [],
+    "quick_reference": "Maricha (Piper nigrum fruit): Katu, Tikshna, Ushna; Kapha-Vatahara, Pittakara; for Agnimandya, Kasa, Pratishyaya, Krimi; 250 mg–1 g.",
+    "important_indications": [
+      "Agnimandya",
+      "Kasa",
+      "Shwasa",
+      "Pratishyaya",
+      "Krimi",
+      "Sthaulya"
+    ],
     "useful_part": "fruit",
     "dose": "Churna 250 mg–1 g",
-    "anupana": "",
-    "key_precautions": []
+    "anupana": "Madhu (honey) in Kasa and Pratishyaya, as with Trikatu",
+    "key_precautions": [
+      "Pittakara: avoid in Amlapitta and ulcers",
+      "Possible drug interactions via piperine",
+      "Keep within 1 g"
+    ]
   },
   "sources": [
     {
