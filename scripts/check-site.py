@@ -3,7 +3,7 @@
 from pathlib import Path
 import hashlib, json, re, sys
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 DB=ROOT/'data'/'plants'
 INDEX=ROOT/'plant-index.json'
 errors=[]

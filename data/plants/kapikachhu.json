@@ -46,8 +46,7 @@
     ]
   },
   "images": {
-    "whole_plant": "images/plants/kapikachhu.jpg",
-    "habit": "images/plants/kapikachhu.jpg",
+    "habit": "images/plants/kapikachhu/habit/image.jpg",
     "root": "",
     "stem": "",
     "leaf": "",

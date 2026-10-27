@@ -45,8 +45,7 @@
     ]
   },
   "images": {
-    "whole_plant": "images/plants/brahmi.jpg",
-    "habit": "images/plants/brahmi.jpg",
+    "whole_plant": "images/plants/brahmi/whole_plant/image.jpg",
     "root": "",
     "stem": "",
     "leaf": "",

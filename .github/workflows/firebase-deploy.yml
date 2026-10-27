@@ -78,6 +78,7 @@ jobs:
               target.write_bytes(png(size))
           PY
           tar --exclude='./.git' --exclude='./.github' --exclude='./_site' -cf - . | tar -xf - -C _site
+          python scripts/optimize-deploy-images.py _site
           python - <<'PY'
           import json, os, re
           from pathlib import Path

@@ -7,7 +7,7 @@ This folder is the **single authoritative editable database** for the NCISM 97 s
 - Each NCISM record is identified by its `id` and `order` (1–97).
 - Do **not** create batch files, correction files, aggregate databases, or duplicate plant records.
 - `plant-index.json` is only a lightweight navigation/search index; the detailed JSON files are the source of truth.
-- `plants.json` is intentionally absent and must not be recreated.
+- `plant-index.json` is the single canonical navigation/search index.
 
 ## Editing a plant
 Edit only the relevant plant JSON file. Keep the common top-level structure:

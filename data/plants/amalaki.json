@@ -38,8 +38,8 @@
     ]
   },
   "images": {
-    "whole_plant": "images/plants/amalaki.jpg",
-    "habit": "images/plants/amalaki.jpg",
+    "whole_plant": "images/plants/amalaki/whole_plant/image.jpg",
+    "habit": "images/plants/amalaki/habit/image.jpg",
     "root": "",
     "stem": "",
     "leaf": "",

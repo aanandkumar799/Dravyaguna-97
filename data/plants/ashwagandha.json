@@ -53,8 +53,8 @@
     ]
   },
   "images": {
-    "whole_plant": "images/plants/ashwagandha.jpg",
-    "habit": "images/plants/ashwagandha.jpg",
+    "whole_plant": "images/plants/ashwagandha/whole_plant/image.jpg",
+    "habit": "images/plants/ashwagandha/habit/image.jpg",
     "root": "",
     "stem": "",
     "leaf": "",

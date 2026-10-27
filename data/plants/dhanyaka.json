@@ -44,8 +44,7 @@
     ]
   },
   "images": {
-    "whole_plant": "images/plants/dhanyaka.jpg",
-    "habit": "images/plants/dhanyaka.jpg",
+    "habit": "images/plants/dhanyaka/habit/image.jpg",
     "root": "",
     "stem": "",
     "leaf": "",

@@ -7,7 +7,7 @@ import subprocess
 import tempfile
 import sys
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 failed = False
 
 for page in sorted(ROOT.rglob("*.html")):

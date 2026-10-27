@@ -42,8 +42,7 @@
     "identification_points": []
   },
   "images": {
-    "whole_plant": "images/plants/eranda.jpg",
-    "habit": "images/plants/eranda.jpg",
+    "habit": "images/plants/eranda/habit/image.jpg",
     "root": "",
     "stem": "",
     "leaf": "",

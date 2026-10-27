@@ -48,8 +48,7 @@
     ]
   },
   "images": {
-    "whole_plant": "images/plants/chakramarda.jpg",
-    "habit": "images/plants/chakramarda.jpg",
+    "habit": "images/plants/chakramarda/habit/image.jpg",
     "root": "",
     "stem": "",
     "leaf": "",

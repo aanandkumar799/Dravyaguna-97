@@ -41,8 +41,8 @@
     ]
   },
   "images": {
-    "whole_plant": "images/plants/kanchanara.jpg",
-    "habit": "images/plants/kanchanara.jpg",
+    "whole_plant": "images/plants/kanchanara/whole_plant/image.jpg",
+    "habit": "images/plants/kanchanara/habit/image.jpg",
     "root": "",
     "stem": "",
     "leaf": "",

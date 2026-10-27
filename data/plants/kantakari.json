@@ -46,8 +46,7 @@
     ]
   },
   "images": {
-    "whole_plant": "images/plants/kantakari.png",
-    "habit": "images/plants/kantakari.png",
+    "whole_plant": "images/plants/kantakari/whole_plant/image.jpg",
     "root": "",
     "stem": "",
     "leaf": "",

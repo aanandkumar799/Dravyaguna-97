@@ -41,8 +41,8 @@
     "identification_points": []
   },
   "images": {
-    "whole_plant": "images/plants/ashoka.jpg",
-    "habit": "images/plants/ashoka.jpg",
+    "whole_plant": "images/plants/ashoka/whole_plant/image.jpg",
+    "habit": "images/plants/ashoka/habit/image.jpg",
     "root": "",
     "stem": "",
     "leaf": "",

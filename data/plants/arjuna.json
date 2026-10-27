@@ -43,8 +43,8 @@
     ]
   },
   "images": {
-    "whole_plant": "images/plants/arjuna.png",
-    "habit": "images/plants/arjuna.png",
+    "whole_plant": "images/plants/arjuna/whole_plant/image.jpg",
+    "habit": "images/plants/arjuna/habit/image.jpg",
     "root": "",
     "stem": "",
     "leaf": "",

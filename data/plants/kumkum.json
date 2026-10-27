@@ -39,8 +39,7 @@
     ]
   },
   "images": {
-    "whole_plant": "images/plants/kumkum.jpg",
-    "habit": "images/plants/kumkum.jpg",
+    "whole_plant": "images/plants/kumkum/whole_plant/image.jpg",
     "root": "",
     "stem": "",
     "leaf": "",

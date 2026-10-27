@@ -9,6 +9,7 @@ from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / "data" / "plants"
+MANIFEST_PATH = ROOT / "data" / "curated-image-manifest.json"
 BASE = "https://aanandkumar799.github.io/Dravyaguna-97/"
 
 records=[]
@@ -23,6 +24,8 @@ ids=[str(p.get("id","")).strip() for p in canonical]
 if len(canonical)!=97: raise SystemExit(f"Expected exactly 97 NCISM-97 plant files, found {len(canonical)}")
 if len(ids)!=len(set(ids)): raise SystemExit("Duplicate NCISM plant IDs detected")
 canonical=sorted(canonical,key=lambda p:(int(p.get("order",9999)),str(p.get("id",""))))
+manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8")) if MANIFEST_PATH.exists() else {}
+manifest_records = {(str(r.get("plant_id")), str(r.get("part"))): r for r in manifest.get("records", [])}
 
 index=[]
 for plant in canonical:
@@ -31,7 +34,7 @@ for plant in canonical:
 
 payload={"total":97,"plants":index}
 (ROOT/"plant-index.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-(ROOT/"plants.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+(ROOT/"plant-index.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
 def as_list(value):
     if isinstance(value, list):
@@ -79,17 +82,23 @@ def static_plant_html(plant):
     family = str(identity.get("family") or "")
     sanskrit = str(identity.get("sanskrit_name") or "")
     english = str(identity.get("english_name") or "")
+    hindi = str(identity.get("hindi_name") or "")
     description = str(identification.get("description") or "")
     quick = student.get("quick_revision") or student.get("exam_points") or ""
     last_updated = metadata.get("last_verified") or metadata.get("last_enrichment") or metadata.get("updated_at") or ""
     sources = source_items(plant)
+    cover_record = manifest_records.get((pid, "whole_plant"), {})
+    cover_path = str(cover_record.get("image_path") or "") if cover_record.get("verification_status") == "verified-local" else ""
+    cover_url = BASE + cover_path if cover_path else BASE + "images/icon-512.png"
+    cover_rel = "../../" + cover_path if cover_path else "../../images/icon-512.png"
+    formulations = plant.get("formulations") or []
     source_html = "".join(
         f'<li>{esc(title)}' + (f' — <a href="{esc(url)}" target="_blank" rel="noopener noreferrer">source</a>' if url else "") + "</li>"
         for title, url in sources
     )
     canonical = BASE + "plants/" + quote(pid, safe="") + "/"
-    image = BASE + "images/icon-512.png"
-    title = f"{name} | DravyaGuna 97"
+    image = cover_url
+    title = f"{name}" + (f" ({hindi})" if hindi else "") + " | DravyaGuna 97"
     meta_desc = f"BAMS Dravyaguna reference for {name}" + (f" ({botanical})" if botanical else "") + ". Identification, Rasa Panchaka, therapeutic information, classical references and exam revision."
     rows = [
         ("Sanskrit name", sanskrit), ("Botanical name", botanical), ("Family", family),
@@ -97,7 +106,7 @@ def static_plant_html(plant):
         ("Description", description), ("Rasa", guna.get("rasa")), ("Guna", guna.get("guna")),
         ("Virya", guna.get("virya")), ("Vipaka", guna.get("vipaka")),
         ("Useful part", therapeutics.get("useful_part")), ("Indications", therapeutics.get("indications")),
-        ("Dose", therapeutics.get("dose")), ("Quick revision", quick),
+        ("Dose", therapeutics.get("dose")), ("Anupana", therapeutics.get("anupana")), ("Precautions", therapeutics.get("precautions")), ("Contraindications", therapeutics.get("contraindications")), ("Therapeutic actions", therapeutics.get("therapeutic_actions") or therapeutics.get("actions")), ("Quick revision", quick),
         ("Shloka / classical text", classical.get("shlokas") or classical.get("text")),
         ("Nighantu references", classical.get("nighantu_references")),
         ("Samhita references", classical.get("samhita_references")),
@@ -106,8 +115,9 @@ def static_plant_html(plant):
         f'<div class="row"><dt>{esc(label)}</dt><dd>{esc(value) if str(flat(value)).strip() else "<span class=\"muted\">Not available in verified record</span>"}</dd></div>'
         for label, value in rows
     )
-    status = metadata.get("status") or metadata.get("verification_status") or "recorded in the database"
-    updated_html = f"<p><strong>Last verified/updated:</strong> {esc(last_updated)}</p>" if last_updated else "<p><strong>Last verified/updated:</strong> Not recorded for this entry.</p>"
+    cover_html = f'<figure class="plant-cover"><img src="{esc(cover_rel)}" alt="{esc(name)} whole-plant photograph" loading="eager"><figcaption>Verified whole-plant photograph</figcaption></figure>' if cover_path else ''
+    formulation_items = ''.join(f'<li><strong>{esc(x.get("name") or "Formulation")}</strong>{(" — " + esc(x.get("indication"))) if x.get("indication") else ""}</li>' for x in formulations if isinstance(x, dict))
+    formulations_html = f'<section class="card"><h2>Important formulations</h2><ul>{formulation_items}</ul></section>' if formulation_items else ''
     return f"""<!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -135,16 +145,16 @@ header{{background:#fff;border-bottom:1px solid #dfe8df}}
 .brand{{font-weight:800;color:#1b4332;text-decoration:none}}nav{{display:flex;gap:6px;flex-wrap:wrap}}nav a{{padding:7px 9px;border-radius:8px;color:#24302a;text-decoration:none;font-weight:700}}nav a:hover{{background:#edf5ef;color:#1b4332}}
 .crumb{{font-size:.86rem;color:#66736b;margin-bottom:14px}}.crumb a{{color:#2d6a4f;font-weight:700}}
 .hero,.card{{background:#fff;border:1px solid #dfe8df;border-radius:18px;padding:22px;box-shadow:0 7px 22px rgba(27,67,50,.06);margin-bottom:18px}}
-.hero h1{{margin:0 0 6px;color:#1b4332;font-family:Georgia,serif;font-size:clamp(2rem,5vw,3rem)}}.botanical{{font-style:italic;color:#5e7469}}.badge{{display:inline-block;margin-top:10px;padding:5px 9px;border-radius:999px;background:#edf5ef;color:#1b4332;font-weight:800;font-size:.78rem}}
+.hero h1{{margin:0 0 6px;color:#1b4332;font-family:Georgia,serif;font-size:clamp(2rem,5vw,3rem)}}.plant-cover{{margin:0 0 18px;background:#fff;border:1px solid #dfe8df;border-radius:14px;overflow:hidden}}.plant-cover img{{width:100%;max-height:390px;object-fit:cover;display:block}}.plant-cover figcaption{{padding:8px 12px;color:#66736b;font-size:.85rem}}.botanical{{font-style:italic;color:#5e7469}}.badge{{display:inline-block;margin-top:10px;padding:5px 9px;border-radius:999px;background:#edf5ef;color:#1b4332;font-weight:800;font-size:.78rem}}
 .grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:16px}}.card h2{{color:#1b4332;margin-top:0}}.row{{display:grid;grid-template-columns:145px 1fr;gap:12px;padding:9px 0;border-top:1px solid #edf1ee}}.row:first-child{{border-top:0}}dt{{font-weight:800;color:#365f50}}dd{{margin:0;overflow-wrap:anywhere}}.muted{{color:#8a958f;font-style:italic}}
 .notice{{background:#fff8e9;border-left:4px solid #d4a373;padding:13px 15px;border-radius:8px;color:#594a2e}}footer{{margin-top:25px;padding:22px;text-align:center;background:#1b4332;color:#eaf2ec}}footer a{{color:#fff}}.actions{{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}}.btn{{display:inline-block;padding:9px 12px;border-radius:9px;background:#1b4332;color:#fff;text-decoration:none;font-weight:800}}@media(max-width:620px){{.head{{align-items:flex-start;flex-direction:column}}.row{{grid-template-columns:1fr;gap:3px}}}}
 </style></head><body>
 <header><div class="head"><a class="brand" href="{esc(BASE)}">🌿 DravyaGuna 97</a>
 <nav aria-label="Primary"><a href="{esc(BASE)}">Home</a><a href="{esc(BASE)}plants.html">Plant Library</a><a href="{esc(BASE)}practical-lab.html">Practical Lab</a><a href="{esc(BASE)}reference-library.html">References</a><a href="{esc(BASE)}supplementary.html">Supplementary</a><a href="{esc(BASE)}quiz.html">Quiz</a></nav></div></header>
 <main class="wrap"><div class="crumb"><a href="{esc(BASE)}plants.html">Plant Library</a> › {esc(name)}</div>
-<section class="hero"><h1>{esc(name)}</h1><div class="botanical">{esc(botanical or "Botanical name not available")}</div><span class="badge">NCISM 97 · No. {esc(plant.get("order") or "—")} · {esc(status)}</span>
-<p>{esc(description or f"{name} is part of the canonical NCISM-97 DravyaGuna plant library.")}</p>{updated_html}</section>
-<section class="card"><h2>Verified study data</h2><dl>{row_html}</dl></section>
+<section class="hero"><h1>{esc(name)}</h1><div class="botanical">{esc(botanical or "Botanical name not available")}</div><span class="badge">NCISM 97 · No. {esc(plant.get("order") or "—")}</span>
+<p>{esc(description or f"{name} is part of the canonical NCISM-97 DravyaGuna plant library.")}</p></section>{cover_html}
+<section class="card"><h2>Verified study data</h2><dl>{row_html}</dl></section>{formulations_html}
 <div class="grid"><section class="card"><h2>Academic trust & review</h2><p>This page is a static, crawlable rendering of the DravyaGuna 97 database record. It does not invent missing fields.</p><p>Reviewer attribution is shown only when a named reviewer is actually recorded in the project data. See the <a href="{esc(BASE)}sources-review.html">Sources & Review</a> page for the verification framework and source policy.</p></section>
 <section class="card"><h2>Continue to full dossier</h2><p>The interactive dossier contains the full image gallery, detailed textbook notes, MCQs and revision tools.</p><div class="actions"><a class="btn" href="{esc(BASE)}plant.html?id={quote(pid,safe='')}">Open full dossier</a><a class="btn" href="{esc(BASE)}plants.html">Back to Plant Library</a></div></section></div>
 {("<section class=\"card\"><h2>Sources recorded for this entry</h2><ul>"+source_html+"</ul></section>" if source_html else "")}

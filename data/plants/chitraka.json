@@ -39,8 +39,7 @@
     ]
   },
   "images": {
-    "whole_plant": "images/plants/chitraka.jpg",
-    "habit": "images/plants/chitraka.jpg",
+    "habit": "images/plants/chitraka/habit/image.jpg",
     "root": "",
     "stem": "",
     "leaf": "",

@@ -44,8 +44,8 @@
     ]
   },
   "images": {
-    "whole_plant": "images/plants/latakaranja.jpg",
-    "habit": "images/plants/latakaranja.jpg",
+    "whole_plant": "images/plants/latakaranja/whole_plant/image.jpg",
+    "habit": "images/plants/latakaranja/habit/image.jpg",
     "root": "",
     "stem": "",
     "leaf": "",

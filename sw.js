@@ -4,7 +4,7 @@ const APP_SHELL = [
   './practical-lab.html','./references.html','./formulations.html','./404.html','./style.css','./site-theme.css','./plant-dossier-layout.css',
   './academic-verification.js','./public-seo.js',
   './flashcard-entry.js','./classical-references-enhanced.js','./practical-lab-enhanced.js','./script.js',
-  './data/curated-image-manifest.json','./plant-index.json','./plants.json','./manifest.json','./robots.txt','./sitemap.xml',
+  './data/curated-image-manifest.json','./plant-index.json','./manifest.json','./robots.txt','./sitemap.xml',
   './feedback-config.js','./feedback.js','./feedback.css','./feedback.html','./site-theme.js','./supplementary.html','./supplementary-plant.html',
   './data/supplementary-index.json','./images/favicon.png','./images/icon-192.png','./images/icon-512.png','./favicon.svg'
 ];

@@ -46,8 +46,8 @@
     ]
   },
   "images": {
-    "whole_plant": "images/plants/aragwadha.jpg",
-    "habit": "images/plants/aragwadha.jpg",
+    "whole_plant": "images/plants/aragwadha/whole_plant/image.jpg",
+    "habit": "images/plants/aragwadha/habit/image.jpg",
     "root": "",
     "stem": "",
     "leaf": "",
