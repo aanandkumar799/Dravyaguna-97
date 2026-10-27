@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-28T17:21:00Z",
+  "generated_at": "2026-10-27T07:41:47Z",
   "source_manifest": "data/curated-image-manifest.json",
   "manifest_version": 6,
   "plants_checked": 97,
   "slots_checked": 873,
-  "filled_slots": 90,
+  "filled_slots": 83,
   "status_counts": {
-    "verified-local": 90,
-    "missing-queued": 781,
+    "verified-local": 83,
+    "missing-queued": 788,
     "download-failed": 2
   },
-  "unresolved_count": 783
+  "unresolved_count": 790
 }
