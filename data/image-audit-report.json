@@ -4,10 +4,10 @@
   "manifest_version": 6,
   "plants_checked": 97,
   "slots_checked": 873,
-  "filled_slots": 373,
+  "filled_slots": 377,
   "status_counts": {
-    "verified-local": 373,
-    "missing-queued": 500
+    "verified-local": 377,
+    "missing-queued": 496
   },
-  "unresolved_count": 500
+  "unresolved_count": 496
 }
