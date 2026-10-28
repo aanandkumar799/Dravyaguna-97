@@ -28,8 +28,14 @@ function initFirebase(){
 function googleLogin(){
  if(!firebaseReady||!auth)return status('Google sign-in is not ready yet. Please wait a moment and try again.','err');
  var p=new firebase.auth.GoogleAuthProvider();p.setCustomParameters({prompt:'select_account'});status('Opening Google sign-in…','loading');
- var mobile=/Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
- (mobile?auth.signInWithRedirect(p):auth.signInWithPopup(p)).catch(function(e){if(e&&e.code==='auth/popup-blocked')return auth.signInWithRedirect(p);status(e&&e.code==='auth/unauthorized-domain'?'This website domain is not authorized in Firebase Authentication.':'Google sign-in failed. Please try again.','err')});
+ // Popup on every device: redirect sign-in loses the session on mobile browsers
+ // when the site (github.io) differs from authDomain (firebaseapp.com).
+ auth.signInWithPopup(p).then(function(){status('Signed in. You can send feedback now.','ok')}).catch(function(e){
+  var c=e&&e.code;
+  if(c==='auth/popup-blocked')return status('Please allow pop-ups for this site, then tap Continue with Google again.','err');
+  if(c==='auth/popup-closed-by-user'||c==='auth/cancelled-popup-request')return status('Sign-in was closed. Tap Continue with Google to try again.','err');
+  status(c==='auth/unauthorized-domain'?'This website domain is not authorized in Firebase Authentication.':'Google sign-in failed ('+(c||'unknown')+'). Please try again.','err');
+ });
 }
 function bindForm(){
  var form=document.getElementById('dgFeedbackForm');if(!form||form.dataset.bound==='1')return;form.dataset.bound='1';
