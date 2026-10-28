@@ -243,3 +243,26 @@ html[data-theme="dark"] .dg-feedback-footer-link a{
   color:var(--dg-accent-strong);font-size:.7rem;font-weight:800;
 }
 html[data-theme="dark"] .search-match-badges span{color:#bff4d1;background:#173024;border-color:#365447}
+
+/* v16 — Plant page dark-mode readability (values, captions, verification legend, buttons, placeholders) */
+html[data-theme="dark"] body .info-value,
+html[data-theme="dark"] body .info-value :where(p,li,span,small,em,i,div,dd,.description,.meta,.muted,.botanical),
+html[data-theme="dark"] body .plant-section :where(dd,td,li,p),
+html[data-theme="dark"] body .plant-section .info-value a{color:#e3efe7!important}
+html[data-theme="dark"] body .info-value a{text-decoration:underline;color:#b9f0ce!important}
+html[data-theme="dark"] body .info-label{color:#9fdcb8!important}
+html[data-theme="dark"] body .info-row{border-bottom-color:#24362d!important}
+html[data-theme="dark"] body .not-available,
+html[data-theme="dark"] body .info-value .not-available{color:#7f9488!important;font-style:italic}
+html[data-theme="dark"] body .gallery-item figcaption{color:#e8f5ed!important}
+html[data-theme="dark"] body .gallery-source,html[data-theme="dark"] body .gallery-source a{color:#a9d9bd!important}
+html[data-theme="dark"] body .image-missing{color:#c5d7cc!important}
+html[data-theme="dark"] body .favorite-plant-button{background:#172820!important;color:#ffd76a!important;border-color:#466353!important}
+html[data-theme="dark"] body .favorite-plant-button.active{background:#352d18!important;color:#ffd76a!important;border-color:#8a6b2a!important}
+html[data-theme="dark"] body .back-button{background:#172820!important;color:#e9f8ee!important;border-color:#466353!important}
+html[data-theme="dark"] body .dg-verification-legend{background:#111c18!important;color:#dcebe2!important;border-color:#2a3d34!important}
+html[data-theme="dark"] body .dg-verification-legend :where(strong,b,h2,h3,h4){color:#edf7f0!important}
+html[data-theme="dark"] body .dg-verification-legend :where(p,small,div,span){color:#c5d7cc!important}
+html[data-theme="dark"] body .dg-verification-item{background:#1b2c24!important;color:#edf7f0!important;border:1px solid #33493e!important}
+html[data-theme="dark"] body .plant-card .plant-image img[src^="data:image/svg"]{filter:invert(.9) hue-rotate(180deg) brightness(.95)}
+html[data-theme="dark"] body .plant-card .plant-image{background:#182720!important}
