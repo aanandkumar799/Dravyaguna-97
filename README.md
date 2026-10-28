@@ -31,3 +31,7 @@ The deploy workflows also optimize plant photos into resized WebP files in the d
 ## Deployments
 
 GitHub Pages is the primary public deployment. Firebase Hosting is used for the Firebase-backed copy and authenticated feedback integration. Firebase CI requires the environment secret `FIREBASE_SERVICE_ACCOUNT_DRAVYA_GUNA_97` and the service account roles documented in [`docs/FIREBASE_SETUP.md`](docs/FIREBASE_SETUP.md).
+
+## License
+
+Code: MIT. Plant content: CC BY-NC-SA 4.0. Photos: per-image licences in `data/curated-image-manifest.json`. See [LICENSE](LICENSE).
