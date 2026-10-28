@@ -119,7 +119,7 @@ function render(p,manifest,remote){
   '<section class="plant-section"><h2>Therapeutic Information</h2>'+block('Useful parts',t.useful_part)+block('Indications',t.indications)+block('Therapeutic actions',t.therapeutic_actions)+block('Dose',t.dose)+block('Anupana',t.anupana)+block('Duration',t.duration)+block('Precautions',t.precautions)+block('Contraindications',t.contraindications)+'</section>'+
   '<section class="plant-section classical-section"><h2>Classical References</h2>'+
     (cl.sh.length?'<div class="shloka-card"><div class="shloka-label">Śloka</div>'+cl.sh.map(x=>'<p class="sanskrit-shloka">'+esc(x).replace(/\\n/g,'<br>')+'</p>').join('')+'</div>':'<p class="source-note">No verified verse is stored in this record. The reference source is retained below for verification.</p>')+
-    block('Nighantu references',cl.n)+block('Saṃhitā references',cl.s)+block('Reference status',cl.status)+block('Text / edition reference',cl.ref)+
+    block('Nighantu references',cl.n)+block('Saṃhitā references',cl.s)+block('Text / edition reference',cl.ref)+
     (cl.cr.reference_hubs?.length?block('Reference hub',cl.cr.reference_hubs):'')+
   '</section>'+
   '<section class="plant-section"><h2>Classical Formulations</h2>'+

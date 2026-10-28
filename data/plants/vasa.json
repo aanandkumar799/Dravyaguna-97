@@ -10,10 +10,11 @@
     "english_name": "Malabar Nut",
     "hindi_name": "अडूसा",
     "regional_names": [
-      "Vasa",
-      "Vrisha",
-      "Atarusha",
-      "Vaidyamata"
+      "Marathi: Adulsa",
+      "Bengali: Basak",
+      "Tamil: Adathodai",
+      "Telugu: Addasaramu",
+      "Malayalam: Adalodakam"
     ],
     "synonyms": [
       "Vasaka",
@@ -144,7 +145,7 @@
       {
         "type": "classical_text_verification",
         "title": "Bhavaprakasha Nighantu searchable PDF — Vasa passage",
-        "url": "https://www.paruluniversity.ac.in/parul-institute-of-ayurved/pdf/PIA-Institute/E%20Shamhita/Bhavapraksha/bhava_prakash_nighantu.pdf",
+        "url": "https://web.archive.org/web/20260317160423/https://www.paruluniversity.ac.in/parul-institute-of-ayurved/pdf/PIA-Institute/E%20Shamhita/Bhavapraksha/bhava_prakash_nighantu.pdf",
         "reference": "Vasa passage around verses 68–69 in the searchable PDF; OCR is imperfect, so exact Devanagari quotation is intentionally not imported."
       }
     ]
@@ -262,7 +263,7 @@
     {
       "type": "classical_text_verification",
       "title": "Bhavaprakasha Nighantu searchable PDF — Vasa passage",
-      "url": "https://www.paruluniversity.ac.in/parul-institute-of-ayurved/pdf/PIA-Institute/E%20Shamhita/Bhavapraksha/bhava_prakash_nighantu.pdf",
+      "url": "https://web.archive.org/web/20260317160423/https://www.paruluniversity.ac.in/parul-institute-of-ayurved/pdf/PIA-Institute/E%20Shamhita/Bhavapraksha/bhava_prakash_nighantu.pdf",
       "reference": "Vasa passage around verses 68–69 in the searchable PDF; OCR is imperfect, so exact Devanagari quotation is intentionally not imported."
     }
   ],
