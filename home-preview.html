@@ -1,0 +1,58 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>DravyaGuna 97 — preview</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;600;800&family=Tiro+Devanagari+Sanskrit&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f3e8;--card:#fff;--ink:#1d2b22;--mut:#5f6f65;--g:#1b4332;--g2:#2d6a4f;--gold:#c9a24a;--bd:#e4e0d2}
+[data-theme=dark]{--bg:#0b1411;--card:#13201b;--ink:#eef7f1;--mut:#a9bcb1;--g:#6fcf97;--g2:#3fae73;--gold:#e0b95a;--bd:#253830}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,sans-serif;padding-bottom:70px}
+a{color:inherit;text-decoration:none}
+.top{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--bd)}
+.logo{font:700 1.15rem Cinzel,serif;color:var(--g)}.tbtn{border:1px solid var(--bd);background:var(--card);border-radius:10px;padding:6px 10px}
+.hero{position:relative;min-height:520px;display:flex;align-items:flex-end;color:#fff;overflow:hidden}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,20,14,.15) 0%,rgba(6,20,14,.55) 45%,rgba(6,20,14,.95) 100%)}
+.hc{position:relative;z-index:1;padding:22px 18px 26px;width:100%;max-width:1100px;margin:auto}
+.pod{display:inline-block;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;background:var(--gold);color:#1d1606;padding:4px 10px;border-radius:999px;font-weight:800}
+.hc h1{font:700 clamp(2.4rem,9vw,4rem)/1 Cinzel,serif;margin:10px 0 4px}.dev{font:1.4rem 'Tiro Devanagari Sanskrit',serif;opacity:.95}
+.bot{font-style:italic;opacity:.85;margin:2px 0 12px}
+.chip{display:inline-block;margin:0 6px 6px 0;padding:5px 10px;border-radius:999px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);font-size:.8rem;font-weight:600}
+.search{display:flex;margin:14px 0 12px;background:#fff;border-radius:14px;padding:5px;box-shadow:0 10px 30px rgba(0,0,0,.3)}
+.search input{flex:1;border:0;padding:12px;font:inherit;border-radius:10px;outline:0;color:#1d2b22}.search button{border:0;background:var(--g2);color:#fff;border-radius:10px;padding:0 16px;font-weight:800}
+.cta{display:flex;gap:10px;flex-wrap:wrap}.b{padding:11px 16px;border-radius:12px;font-weight:800}.b1{background:var(--gold);color:#1d1606}.b2{border:1px solid rgba(255,255,255,.5)}
+.trust{margin-top:14px;font-size:.8rem;opacity:.8}
+main{max-width:1100px;margin:auto;padding:0 16px}
+h2{font:700 1.35rem Cinzel,serif;color:var(--g);margin:30px 0 12px}
+.daily{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));margin-top:-28px;position:relative;z-index:2}
+.box{background:var(--card);border:1px solid var(--bd);border-radius:18px;padding:16px;box-shadow:0 10px 28px rgba(27,67,50,.10)}
+.box h3{margin:0 0 6px;font-size:1rem}.streak{float:right;font-weight:800;color:#d9772b}
+.q{font-weight:600;margin:6px 0 10px}.opt{display:block;border:1px solid var(--bd);border-radius:10px;padding:9px 12px;margin:6px 0;font-size:.92rem}.opt.ok{border-color:var(--g2);background:color-mix(in srgb,var(--g2) 14%,transparent)}
+.bar{height:6px;background:var(--bd);border-radius:9px;overflow:hidden;margin-top:10px}.bar i{display:block;height:100%;width:40%;background:var(--g2)}
+.shl{font:1.05rem/1.7 'Tiro Devanagari Sanskrit',serif;color:var(--ink);border-left:3px solid var(--gold);padding-left:12px}
+.mut{color:var(--mut);font-size:.85rem}
+.strip{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px}
+.pc{flex:0 0 160px;scroll-snap-align:start;background:var(--card);border:1px solid var(--bd);border-radius:16px;overflow:hidden}
+.pc img{width:100%;height:150px;object-fit:cover;display:block}.pc span{display:block;padding:9px 11px}.pc b{display:block}.pc i{font-size:.78rem;color:var(--mut)}
+.chips2 .f{display:inline-block;margin:0 8px 8px 0;padding:8px 13px;border-radius:999px;background:var(--card);border:1px solid var(--bd);font-weight:600;font-size:.88rem}
+.tools{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.tool{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:14px}.ti{font-size:1.5rem}.tool b{display:block;margin-top:6px}.tool small{color:var(--mut)}
+.tab{position:fixed;bottom:0;left:0;right:0;display:flex;justify-content:space-around;background:var(--card);border-top:1px solid var(--bd);padding:8px 0 10px;font-size:.72rem;font-weight:700;z-index:9}.tab a{text-align:center;color:var(--mut)}.tab a span{display:block;font-size:1.2rem}.tab a.on{color:var(--g2)}
+footer{margin-top:34px;padding:20px;text-align:center;font-size:.8rem;color:var(--mut)}
+</style><script>document.documentElement.dataset.theme=new URLSearchParams(location.search).get('theme')||'light'</script></head><body>
+<div class="top"><span class="logo">🌿 DravyaGuna 97</span><span class="tbtn">🌙</span></div>
+<section class="hero"><img src="images/plants/amalaki/whole_plant/image.jpg" alt="Amalaki"><div class="hc">
+<span class="pod">☀ Plant of the Day · #1 of 97</span><h1>Amalaki</h1><div class="dev">आमलकी</div><div class="bot">Phyllanthus emblica L. · Phyllanthaceae</div>
+<span class="chip">Rasa: Amla, Madhura, Kashaya…</span><span class="chip">Guna: Guru, Ruksha</span><span class="chip">Virya: Sheeta</span><span class="chip">Vipaka: Madhura</span>
+<form class="search" onsubmit="return false"><input placeholder="Search 97 plants — name, Sanskrit, botanical…"><button>Search</button></form>
+<div class="cta"><a class="b b1" href="#">Study Amalaki →</a><a class="b b2" href="#">🧠 Today's 5-question quiz</a></div>
+<div class="trust">97 NCISM plants · Verified photos · Classical shlokas · Free</div></div></section>
+<main>
+<div class="daily">
+<div class="box"><h3>🧠 Daily Quiz <span class="streak">🔥 4-day streak</span></h3><div class="mut">Question 2 of 5</div><div class="q">Vipaka of Amalaki is…</div><span class="opt">Katu</span><span class="opt ok">✓ Madhura</span><span class="opt">Amla</span><div class="bar"><i></i></div></div>
+<div class="box"><h3>📖 Continue where you left off</h3><div style="display:flex;gap:12px;align-items:center;margin-top:8px"><img src="images/plants/ashwagandha/whole_plant/image.jpg" style="width:64px;height:64px;border-radius:12px;object-fit:cover"><div><b>Ashwagandha</b><div class="mut">Therapeutic information · 3 saved plants</div></div></div><div class="bar"><i style="width:62%"></i></div><div class="mut" style="margin-top:6px">You've studied 38 of 97 plants</div></div>
+<div class="box"><h3>🪷 Shloka of the Day</h3><div class="shl">हरीतकीसमं धात्रीफलं किन्तु विशेषतः ।<br>रक्तपित्तप्रमेहघ्नं परं वृष्यं रसायनम् ॥</div><div class="mut" style="margin-top:8px">Bhavaprakasha Nighantu · Amalaki</div></div>
+</div>
+<h2>Explore the Plants</h2><div class="strip"><a class="pc" href="plant.html?id=ashwagandha"><img loading="lazy" src="images/plants/ashwagandha/whole_plant/image.jpg" alt=""><span><b>Ashwagandha</b><i>Withania somnifera (L.) Dunal</i></span></a><a class="pc" href="plant.html?id=tulasi"><img loading="lazy" src="images/plants/tulasi/whole_plant/image.jpg" alt=""><span><b>Tulasi</b><i>Ocimum tenuiflorum L.</i></span></a><a class="pc" href="plant.html?id=haritaki"><img loading="lazy" src="images/plants/haritaki/whole_plant/image.jpg" alt=""><span><b>Haritaki</b><i>Terminalia chebula Retz.</i></span></a><a class="pc" href="plant.html?id=guduchi"><img loading="lazy" src="images/plants/guduchi/whole_plant/image.jpg" alt=""><span><b>Guduchi</b><i>Tinospora cordifolia (Willd.) Hook.f. &amp; Thomson</i></span></a><a class="pc" href="plant.html?id=arjuna"><img loading="lazy" src="images/plants/arjuna/whole_plant/image.jpg" alt=""><span><b>Arjuna</b><i>Terminalia arjuna (Roxb. ex DC.) Wight &amp; Arn.</i></span></a><a class="pc" href="plant.html?id=brahmi"><img loading="lazy" src="images/plants/brahmi/whole_plant/image.jpg" alt=""><span><b>Brahmi</b><i>Bacopa monnieri (L.) Wettst.</i></span></a><a class="pc" href="plant.html?id=nimba"><img loading="lazy" src="images/plants/nimba/whole_plant/image.jpg" alt=""><span><b>Nimba</b><i>Azadirachta indica A. Juss.</i></span></a><a class="pc" href="plant.html?id=yashtimadhu"><img loading="lazy" src="images/plants/yashtimadhu/whole_plant/image.jpg" alt=""><span><b>Yashtimadhu</b><i>Glycyrrhiza glabra L.</i></span></a></div>
+<h2>Browse by Property</h2><div class="chips2"><span class="f">🍯 Madhura</span><span class="f">🍋 Amla</span><span class="f">🌶 Katu</span><span class="f">🌿 Tikta</span><span class="f">🔥 Ushna Virya</span><span class="f">❄️ Sheeta Virya</span><span class="f">Vata-shamaka</span><span class="f">Pitta-shamaka</span><span class="f">Kapha-shamaka</span></div>
+<h2>Study Tools</h2><div class="tools"><a class="tool" href="#"><span class="ti">🌿</span><b>Plant Library</b><small>97 full dossiers</small></a><a class="tool" href="#"><span class="ti">🔬</span><b>Practical Lab</b><small>Identify by morphology</small></a><a class="tool" href="#"><span class="ti">📚</span><b>References</b><small>Samhita & Nighantu</small></a><a class="tool" href="#"><span class="ti">⚖️</span><b>Compare</b><small>Side-by-side dravyas</small></a><a class="tool" href="#"><span class="ti">🧠</span><b>Quiz</b><small>Exam-style MCQs</small></a><a class="tool" href="#"><span class="ti">🎤</span><b>Rapid Viva</b><small>Oral practice</small></a><a class="tool" href="#"><span class="ti">📇</span><b>Flashcards</b><small>Quick revision</small></a><a class="tool" href="#"><span class="ti">📊</span><b>Progress</b><small>Track your study</small></a></div>
+</main><footer>Educational reference for BAMS students · cross-check with authoritative texts</footer>
+<nav class="tab"><a class="on"><span>🏠</span>Home</a><a><span>🔎</span>Search</a><a><span>🌿</span>Library</a><a><span>🧠</span>Quiz</a><a><span>⭐</span>Saved</a></nav>
+</body></html>
