@@ -41,7 +41,7 @@ jobs:
           src=Path('favicon.svg')
           out=Path('images')
           out.mkdir(exist_ok=True)
-          for size,name in [(192,'icon-192.png'),(512,'icon-512.png')]:
+          for size,name in [(64,'favicon.png'),(192,'icon-192.png'),(512,'icon-512.png')]:
               cairosvg.svg2png(url=str(src),write_to=str(out/name),output_width=size,output_height=size)
           PY
           tar --exclude='./.git' --exclude='./.github' --exclude='./_site' -cf - . | tar -xf - -C _site
