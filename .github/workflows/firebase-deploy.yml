@@ -5,6 +5,10 @@ on:
     branches: ["main"]
     paths:
       - "firebase.json"
+      - "favicon.svg"
+      - "sw.js"
+      - "manifest.json"
+      - "images/**"
       - "data/**"
       - "scripts/**"
       - "**/*.html"
