@@ -29,4 +29,4 @@ function mount(){
 function init(){apply(getTheme());if(document.body)mount();else document.addEventListener('DOMContentLoaded',mount,{once:true})}
 init();
 window.DravyaGunaTheme={get:getTheme,set:function(t){if(t!=='dark'&&t!=='light')t=systemTheme();save(t);apply(t)}};
-})();
+})();(function(){try{if(/plant\.html$/.test(location.pathname)){var id=new URLSearchParams(location.search).get('id');if(id&&/^[a-z0-9-]+$/i.test(id))localStorage.setItem('dg97-last-plant',JSON.stringify(id))}}catch(e){}})();
