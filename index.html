@@ -85,7 +85,10 @@ a{text-decoration:none;color:inherit}button,input{font:inherit}
 .lp-sugg a:hover,.lp-sugg a.act{background:var(--dg-surface-2,#eef4ef)}.lp-sugg img{width:38px;height:38px;border-radius:8px;object-fit:cover;background:#ccc}.lp-sugg small{display:block;font-style:italic;color:var(--lp-mut)!important}.lp-sugg b{color:var(--lp-ink)!important}
 .lp-cta{display:flex;gap:10px;flex-wrap:wrap}.lp-b{display:inline-block;padding:12px 18px;border-radius:12px;font-weight:800;transition:transform .15s}.lp-b:hover{transform:translateY(-2px)}
 .lp-b1{background:var(--lp-gold)!important;color:#1d1606!important}.lp-b2{border:1px solid rgba(255,255,255,.55);background:rgba(255,255,255,.08)}
-.lp-trust{margin-top:14px;font-size:.82rem;opacity:.85}
+.lp-trust{margin-top:14px;font-size:.84rem}
+html[data-theme] .lp-hc a.lp-b1,html[data-theme] .lp-hc .lp-pod,html[data-theme] .lp-hc .lp-pod *{color:#1d1606!important}
+html[data-theme] .lp-hc a.lp-b2,html[data-theme] .lp-hc .lp-trust,html[data-theme] .lp-hc .lp-bot{color:#fff!important}
+html[data-theme] .lp-search input{color:#1d2b22!important;background:#fff!important}
 /* main */
 .lp-main{max-width:1180px;margin:auto;padding:0 18px 40px}
 .lp-h2{font:700 1.45rem Cinzel,serif;color:var(--lp-g)!important;margin:38px 0 14px;display:flex;justify-content:space-between;align-items:baseline;gap:10px}
@@ -227,7 +230,7 @@ a{text-decoration:none;color:inherit}button,input{font:inherit}
   var cap=function(s){s=String(s||'');return s.charAt(0).toUpperCase()+s.slice(1)};
   var list=function(v){return (Array.isArray(v)?v:(v?[v]:[])).map(cap).join(', ')};
   var norm=function(v){return String(v||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').trim()};
-  var img=function(id){return 'images/plants/'+encodeURIComponent(id)+'/whole_plant/image.jpg'};
+  var img=function(id){return 'images/plants/PLANTID/whole_plant/image.jpg'.replace('PLANTID',encodeURIComponent(id))};
   var url=function(id){return 'plant.html?id='+encodeURIComponent(id)};
   var get=function(k,d){try{var v=JSON.parse(localStorage.getItem(k));return v==null?d:v}catch(e){return d}};
   var put=function(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
@@ -274,8 +277,8 @@ a{text-decoration:none;color:inherit}button,input{font:inherit}
 
   /* Daily quiz */
   function makeQuiz(){var r=rng(dayNum*7+3),pool=shuffle(plants,r),qs=[],kinds=['vipaka','virya','botanical_name','family','useful_part','sanskrit_name'];
-    var vals=function(k){var s={};plants.forEach(function(p){var v=p[k];if(Array.isArray(v))v=v[0];if(v)s[String(v)]=1});return Object.keys(s)};
-    for(var i=0;i<pool.length&&qs.length<5;i++){var p=pool[i],k=kinds[qs.length%kinds.length],ans=p[k];if(Array.isArray(ans))ans=ans[0];if(!ans)continue;ans=String(ans);
+    var vals=function(k){var s={};plants.forEach(function(p){var v=p[k];if(Array.isArray(v))v=v[0];if(v)s[k==='sanskrit_name'||k==='botanical_name'||k==='family'?String(v):String(v).toLowerCase()]=1});return Object.keys(s)};
+    for(var i=0;i<pool.length&&qs.length<5;i++){var p=pool[i],k=kinds[qs.length%kinds.length],ans=p[k];if(Array.isArray(ans))ans=ans[0];if(!ans)continue;ans=String(ans);if(!(k==='sanskrit_name'||k==='botanical_name'||k==='family'))ans=ans.toLowerCase();
       var others=shuffle(vals(k).filter(function(v){return v!==ans}),r).slice(0,k==='virya'?1:3);if(!others.length)continue;
       var label={vipaka:'Vipaka of '+p.name+' is…',virya:'Virya of '+p.name+' is…',botanical_name:'Botanical name of '+p.name+'?',family:p.name+' belongs to which family?',useful_part:'A useful part (Prayojyanga) of '+p.name+' is…',sanskrit_name:'Sanskrit (Devanagari) name of '+p.name+'?'}[k];
       qs.push({p:p,q:label,a:ans,o:shuffle(others.concat([ans]),r)})}
