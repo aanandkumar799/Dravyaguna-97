@@ -53,7 +53,6 @@
 })();
 </script>
 
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;600;800&family=Tiro+Devanagari+Sanskrit&display=swap" rel="stylesheet">
 <style>
 :root{--lp-gold:#c9a24a;--lp-ink:var(--dg-text,#1d2b22);--lp-mut:var(--dg-muted,#5f6f65);--lp-card:var(--dg-surface,#fff);--lp-bd:var(--dg-border,#e4e0d2);--lp-g:#1b4332;--lp-g2:#2d6a4f}
@@ -93,7 +92,7 @@ a{text-decoration:none;color:inherit}button,input{font:inherit}
 .lp-h2 a{font:600 .85rem Inter,sans-serif;color:var(--lp-g2)!important}
 .lp-daily{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));margin-top:-42px;position:relative;z-index:3}
 .lp-box{background:var(--lp-card)!important;color:var(--lp-ink)!important;border:1px solid var(--lp-bd);border-radius:18px;padding:18px;box-shadow:0 12px 30px rgba(27,67,50,.12)}
-.lp-box h3{margin:0 0 6px;font-size:1.02rem;display:flex;justify-content:space-between;gap:8px;color:var(--lp-ink)!important}
+.lp-bh{margin:0 0 6px!important;font:700 1.02rem Inter,sans-serif!important;display:flex;justify-content:space-between;gap:8px;color:var(--lp-ink)!important}
 .lp-streak{color:#d9772b!important;font-weight:800;white-space:nowrap}
 .lp-mut{color:var(--lp-mut)!important;font-size:.86rem}
 .lp-q{font-weight:700;margin:6px 0 10px;color:var(--lp-ink)!important}
@@ -119,8 +118,8 @@ a{text-decoration:none;color:inherit}button,input{font:inherit}
 .lp-ti{font-size:1.6rem}.lp-tool b{display:block;margin-top:6px;color:var(--lp-ink)!important}.lp-tool small{color:var(--lp-mut)!important}
 .lp-two{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(290px,1fr))}
 .lp-tag{display:inline-block;font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--lp-gold)!important}
-.lp-box h4{margin:4px 0 6px;color:var(--lp-ink)!important}
-.lp-box p{margin:0;color:var(--lp-mut)!important;font-size:.92rem}
+.lp-box h3.x{color:var(--lp-ink)!important}
+.lp-up h3{margin:4px 0 6px;font-size:1.05rem;color:var(--lp-ink)!important}.lp-box p{margin:0;color:var(--lp-mut)!important;font-size:.92rem}
 .footer{margin-top:20px;padding:26px 18px 90px;text-align:center}.footer-inner{max-width:1180px;margin:auto;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .lp-tab{display:none}
 .lp-reveal{opacity:0;transform:translateY(14px);transition:opacity .5s ease,transform .5s ease}.lp-reveal.in{opacity:1;transform:none}
@@ -159,7 +158,6 @@ a{text-decoration:none;color:inherit}button,input{font:inherit}
 </header>
 <main>
 <section class="lp-hero" aria-labelledby="hero-title">
-  <img id="podImg" alt="" fetchpriority="high">
   <div class="lp-hc">
     <span class="lp-pod">☀ Plant of the Day · <span id="podNo">BAMS 2nd Prof</span></span>
     <h1 id="hero-title">DravyaGuna 97</h1>
@@ -180,12 +178,12 @@ a{text-decoration:none;color:inherit}button,input{font:inherit}
 </section>
 <div class="lp-main">
 <section class="lp-daily" id="daily" aria-label="Daily study">
-  <div class="lp-box" id="quizBox"><h3><span>🧠 Daily Quiz</span><span class="lp-streak" id="streak"></span></h3><div id="quiz"><div class="lp-mut">Loading today's questions…</div></div></div>
-  <div class="lp-box"><h3><span>📖 Continue studying</span></h3><div id="cont"></div></div>
-  <div class="lp-box"><h3><span>🪷 Shloka of the Day</span></h3><div id="shloka"><div class="lp-mut">Loading…</div></div></div>
+  <div class="lp-box" id="quizBox"><h2 class="lp-bh"><span>🧠 Daily Quiz</span><span class="lp-streak" id="streak"></span></h2><div id="quiz"><div class="lp-mut">Loading today's questions…</div></div></div>
+  <div class="lp-box"><h2 class="lp-bh"><span>📖 Continue studying</span></h2><div id="cont"></div></div>
+  <div class="lp-box"><h2 class="lp-bh"><span>🪷 Shloka of the Day</span></h2><div id="shloka"><div class="lp-mut">Loading…</div></div></div>
 </section>
 <h2 class="lp-h2 lp-reveal"><span>Explore the Plants</span><a href="plants.html">All 97 →</a></h2>
-<div class="lp-strip lp-reveal" id="strip" aria-label="Plant photographs"></div>
+<div class="lp-strip lp-reveal" id="strip"></div>
 <h2 class="lp-h2 lp-reveal">Browse by Property</h2>
 <div class="lp-reveal">
   <a class="lp-f" href="plants.html?q=madhura#search">🍯 Madhura</a><a class="lp-f" href="plants.html?q=amla#search">🍋 Amla</a><a class="lp-f" href="plants.html?q=lavana#search">🧂 Lavana</a><a class="lp-f" href="plants.html?q=katu#search">🌶 Katu</a><a class="lp-f" href="plants.html?q=tikta#search">🌿 Tikta</a><a class="lp-f" href="plants.html?q=kashaya#search">🍂 Kashaya</a><a class="lp-f" href="plants.html?q=ushna#search">🔥 Ushna Virya</a><a class="lp-f" href="plants.html?q=sheeta#search">❄️ Sheeta Virya</a><a class="lp-f" href="rasa.html">🧪 Rasa Panchaka explorer</a>
@@ -205,10 +203,10 @@ a{text-decoration:none;color:inherit}button,input{font:inherit}
 </div>
 <h2 class="lp-h2 lp-reveal" id="updates-title">Updates &amp; More</h2>
 <div class="lp-two lp-reveal">
-  <article class="lp-box"><span class="lp-tag">Official curriculum</span><h4>2nd Prof BAMS — Dravyaguna Vigyan</h4><p>NCISM AyUG-DG curriculum: course outcomes, syllabus and assessment.</p><a class="lp-link" href="https://ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf" target="_blank" rel="noopener noreferrer">Open NCISM curriculum →</a></article>
-  <article class="lp-box"><span class="lp-tag">Academic calendar</span><h4>Second Professional BAMS calendar</h4><p>Term, preparation-holiday and university-exam schedule for your batch.</p><a class="lp-link" href="https://ncismindia.org/ug-2021-25.php" target="_blank" rel="noopener noreferrer">Open NCISM calendar →</a></article>
-  <article class="lp-box" aria-labelledby="supp-title"><span class="lp-tag">Beyond the 97</span><h4 id="supp-title">🌱 Supplementary Plants</h4><p>Additional plant dossiers, kept separate from the core NCISM series.</p><a class="lp-link" href="supplementary.html">Explore supplementary →</a></article>
-  <article class="lp-box" aria-labelledby="sources-title"><span class="lp-tag">Trust</span><h4 id="sources-title">🔎 Sources &amp; Review</h4><p>Verification framework, source policy and image licences.</p><a class="lp-link" href="sources-review.html">See sources →</a></article>
+  <article class="lp-box lp-up"><span class="lp-tag">Official curriculum</span><h3>2nd Prof BAMS — Dravyaguna Vigyan</h3><p>NCISM AyUG-DG curriculum: course outcomes, syllabus and assessment.</p><a class="lp-link" href="https://ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf" target="_blank" rel="noopener noreferrer">Open NCISM curriculum →</a></article>
+  <article class="lp-box lp-up"><span class="lp-tag">Academic calendar</span><h3>Second Professional BAMS calendar</h3><p>Term, preparation-holiday and university-exam schedule for your batch.</p><a class="lp-link" href="https://ncismindia.org/ug-2021-25.php" target="_blank" rel="noopener noreferrer">Open NCISM calendar →</a></article>
+  <article class="lp-box lp-up" aria-labelledby="supp-title"><span class="lp-tag">Beyond the 97</span><h3 id="supp-title">🌱 Supplementary Plants</h3><p>Additional plant dossiers, kept separate from the core NCISM series.</p><a class="lp-link" href="supplementary.html">Explore supplementary →</a></article>
+  <article class="lp-box lp-up" aria-labelledby="sources-title"><span class="lp-tag">Trust</span><h3 id="sources-title">🔎 Sources &amp; Review</h3><p>Verification framework, source policy and image licences.</p><a class="lp-link" href="sources-review.html">See sources →</a></article>
 </div>
 <section id="reviews" class="review-section" aria-label="Feedback">
   <div class="dg-feedback-footer-link" style="text-align:center;margin-top:28px"><a class="lp-link" href="feedback.html">💬 Share your feedback</a></div>
@@ -266,7 +264,7 @@ a{text-decoration:none;color:inherit}button,input{font:inherit}
   $('homeSearch').addEventListener('submit',function(e){e.preventDefault();var as=box.querySelectorAll('a');if(act>-1&&as[act]){location.href=as[act].href;return}var q=input.value.trim();location.href=q?'plants.html?q='+encodeURIComponent(q)+'#search':'plants.html#search'});
 
   /* Plant of the day */
-  function hero(p){var i=$('podImg');i.onload=function(){i.classList.add('on')};i.alt=p.name+' whole-plant photograph';i.src=img(p.id);
+  function hero(p){var i=document.createElement('img');i.id='podImg';i.setAttribute('fetchpriority','high');document.querySelector('.lp-hero').prepend(i);i.onload=function(){i.classList.add('on')};i.alt=p.name+' whole-plant photograph';i.src=img(p.id);
     $('podNo').textContent='#'+p.order+' of 97';$('hero-title').textContent=p.name;$('podDev').textContent=p.sanskrit_name||'';
     $('podBot').textContent=(p.botanical_name||'')+(p.family?' · '+p.family:'');
     var r=(p.rasa||[]);$('podChips').innerHTML=[r.length?'Rasa: '+list(r.slice(0,3))+(r.length>3?'…':''):'',p.guna&&p.guna.length?'Guna: '+list(p.guna):'',p.virya?'Virya: '+cap(p.virya):'',p.vipaka?'Vipaka: '+cap(p.vipaka):''].filter(Boolean).map(function(t){return '<span class="lp-chip">'+esc(t)+'</span>'}).join('');
