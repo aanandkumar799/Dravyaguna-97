@@ -267,8 +267,13 @@ html[data-theme="dark"] body .dg-verification-item{background:#1b2c24!important;
 html[data-theme="dark"] body .plant-card .plant-image img[src^="data:image/svg"]{filter:invert(.9) hue-rotate(180deg) brightness(.95)}
 html[data-theme="dark"] body .plant-card .plant-image{background:#182720!important}
 
-/* Install app button */
-.dg-install-btn{display:inline-flex;align-items:center;gap:6px;min-height:38px;margin-left:2px;padding:8px 12px;border:0;border-radius:9px;background:var(--dg-accent,#2d6a4f);color:#fff;font:700 13px/1 system-ui,sans-serif;cursor:pointer}
+/* Install app button: header on wide screens, floating pill on phones */
+.dg-install-btn{display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:8px 12px;border:0;border-radius:9px;background:var(--dg-accent,#2d6a4f);color:#fff;font:700 13px/1 system-ui,sans-serif;cursor:pointer}
 .dg-install-btn:hover{filter:brightness(1.08)}
-.dg-install-btn[hidden],.dg-install-btn.is-installed{display:none!important}
-.dg-install-float{position:fixed;right:14px;bottom:78px;z-index:60;box-shadow:0 6px 18px rgba(0,0,0,.18)}
+.dg-install-fab{display:none;position:fixed;right:14px;bottom:calc(16px + env(safe-area-inset-bottom));z-index:70;align-items:center;gap:6px;min-height:44px;padding:11px 16px;border:0;border-radius:999px;background:var(--dg-accent,#2d6a4f);color:#fff;font:700 14px/1 system-ui,sans-serif;box-shadow:0 6px 20px rgba(0,0,0,.22);cursor:pointer}
+.dg-install-fab--only{display:inline-flex}
+.dg-install-fab--tabbar{bottom:calc(76px + env(safe-area-inset-bottom))}
+@media(max-width:760px){.dg-install-head{display:none!important}.dg-install-fab{display:inline-flex}}
+.dg-install-btn[hidden],.dg-install-btn.is-installed,.dg-install-fab[hidden],.dg-install-fab.is-installed,#install[hidden],#install.is-installed{display:none!important}
+@media print{.dg-install-fab,.dg-install-btn{display:none!important}}
+html[data-theme="dark"] .dg-install-btn,html[data-theme="dark"] .dg-install-fab{background:#2d6a4f;color:#fff}

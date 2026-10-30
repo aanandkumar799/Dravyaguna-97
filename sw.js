@@ -1,4 +1,4 @@
-const CACHE_NAME = 'dravya-guna-97-v55-install-button';
+const CACHE_NAME = 'dravya-guna-97-v56-install-mobile';
 const APP_SHELL = [
   './','./index.html','./plants.html','./plant.html','./compare.html','./quiz.html','./viva.html','./progress.html','./rasa.html','./reference-library.html','./data-quality.html','./sources-review.html',
   './practical-lab.html','./references.html','./formulations.html','./404.html','./style.css','./site-theme.css','./plant-dossier-layout.css',
