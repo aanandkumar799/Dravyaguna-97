@@ -266,3 +266,9 @@ html[data-theme="dark"] body .dg-verification-legend :where(p,small,div,span){co
 html[data-theme="dark"] body .dg-verification-item{background:#1b2c24!important;color:#edf7f0!important;border:1px solid #33493e!important}
 html[data-theme="dark"] body .plant-card .plant-image img[src^="data:image/svg"]{filter:invert(.9) hue-rotate(180deg) brightness(.95)}
 html[data-theme="dark"] body .plant-card .plant-image{background:#182720!important}
+
+/* Install app button */
+.dg-install-btn{display:inline-flex;align-items:center;gap:6px;min-height:38px;margin-left:2px;padding:8px 12px;border:0;border-radius:9px;background:var(--dg-accent,#2d6a4f);color:#fff;font:700 13px/1 system-ui,sans-serif;cursor:pointer}
+.dg-install-btn:hover{filter:brightness(1.08)}
+.dg-install-btn[hidden],.dg-install-btn.is-installed{display:none!important}
+.dg-install-float{position:fixed;right:14px;bottom:78px;z-index:60;box-shadow:0 6px 18px rgba(0,0,0,.18)}

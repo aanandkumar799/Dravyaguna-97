@@ -136,7 +136,7 @@ def static_plant_html(plant):
 <meta name="twitter:image" content="{esc(image)}">
 <link rel="icon" href="{esc(BASE)}favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="{esc(BASE)}apple-touch-icon.png">
-<link rel="stylesheet" href="{esc(BASE)}site-theme.css?v=16">
+<link rel="stylesheet" href="{esc(BASE)}site-theme.css?v=17">
 <script type="application/ld+json">{json.dumps({"@context":"https://schema.org","@type":"Article","headline":title,"description":meta_desc,"url":canonical,"inLanguage":"en-IN","isPartOf":{"@type":"WebSite","name":"DravyaGuna 97","url":BASE},"about":{"@type":"Thing","name":name, **({"alternateName":botanical} if botanical else {})},"educationalUse":["study","revision","practical identification"]}, ensure_ascii=False)}</script>
 <style>
 body{{margin:0;background:#f8f5ed;color:#24302a;font:16px/1.6 Arial,sans-serif}}

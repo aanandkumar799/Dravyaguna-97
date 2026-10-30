@@ -30,3 +30,40 @@ function init(){apply(getTheme());if(document.body)mount();else document.addEven
 init();
 window.DravyaGunaTheme={get:getTheme,set:function(t){if(t!=='dark'&&t!=='light')t=systemTheme();save(t);apply(t)}};
 })();(function(){try{if(/plant\.html$/.test(location.pathname)){var id=new URLSearchParams(location.search).get('id');if(id&&/^[a-z0-9-]+$/i.test(id))localStorage.setItem('dg97-last-plant',JSON.stringify(id))}}catch(e){}})();
+
+/* Install button: shown only while the app can be installed; removed once installed. */
+(function(){
+'use strict';
+var KEY='dg97-installed',deferred=null,btn=null;
+var ua=navigator.userAgent||'';
+var ios=/iphone|ipad|ipod/i.test(ua)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+var iosSafari=ios&&/safari/i.test(ua)&&!/crios|fxios|edgios|gsa/i.test(ua);
+function standalone(){return !!(window.matchMedia&&(matchMedia('(display-mode: standalone)').matches||matchMedia('(display-mode: minimal-ui)').matches||matchMedia('(display-mode: window-controls-overlay)').matches))||navigator.standalone===true}
+function flagged(){try{return localStorage.getItem(KEY)==='1'}catch(e){return false}}
+function flag(v){try{if(v)localStorage.setItem(KEY,'1');else localStorage.removeItem(KEY)}catch(e){}}
+function canShow(){if(standalone())return false;if(deferred)return true;return iosSafari&&!flagged()}
+function update(){if(!btn)return;var show=canShow();btn.hidden=!show;btn.classList.toggle('is-installed',!show)}
+function removeBtn(){flag(true);deferred=null;if(btn){btn.hidden=true;btn.classList.add('is-installed')}}
+addEventListener('beforeinstallprompt',function(e){e.preventDefault();deferred=e;flag(false);update()});
+addEventListener('appinstalled',removeBtn);
+function onClick(){
+  if(standalone()){removeBtn();return}
+  if(deferred){var d=deferred;deferred=null;d.prompt();if(d.userChoice)d.userChoice.then(function(c){if(c&&c.outcome==='accepted')removeBtn();else update()});else update();return}
+  if(iosSafari){alert('To install DravyaGuna 97: tap the Share button in Safari, then choose \u201cAdd to Home Screen\u201d.');flag(true);update()}
+}
+function mount(){
+  btn=document.getElementById('install');
+  if(!btn){
+    btn=document.createElement('button');btn.id='install';btn.type='button';btn.className='install-nav dg-install-btn';btn.hidden=true;
+    btn.setAttribute('aria-label','Install DravyaGuna 97 app');btn.textContent='\ud83d\udcf2 Install app';
+    var header=document.querySelector('.site-header .header-inner, header .header-inner');
+    var toggle=document.getElementById('dgThemeToggle');
+    if(toggle&&toggle.parentNode)toggle.parentNode.insertBefore(btn,toggle);else if(header)header.appendChild(btn);else{btn.classList.add('dg-install-float');document.body.appendChild(btn)}
+  }
+  btn.addEventListener('click',onClick);
+  if(window.matchMedia){try{matchMedia('(display-mode: standalone)').addEventListener('change',update)}catch(e){}}
+  if(navigator.getInstalledRelatedApps){navigator.getInstalledRelatedApps().then(function(a){if(a&&a.length)removeBtn()}).catch(function(){})}
+  update();
+}
+if(document.body)mount();else document.addEventListener('DOMContentLoaded',mount,{once:true});
+})();

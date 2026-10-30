@@ -38,5 +38,11 @@
       "purpose": "any"
     }
   ],
-  "id": "./"
+  "id": "./",
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://aanandkumar799.github.io/Dravyaguna-97/manifest.json"
+    }
+  ]
 }
