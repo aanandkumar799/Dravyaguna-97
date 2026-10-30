@@ -1,11 +1,11 @@
-const CACHE_NAME = 'dravya-guna-97-v53-offline-fallbacks';
+const CACHE_NAME = 'dravya-guna-97-v54-app-icon';
 const APP_SHELL = [
   './','./index.html','./plants.html','./plant.html','./compare.html','./quiz.html','./viva.html','./progress.html','./rasa.html','./reference-library.html','./data-quality.html','./sources-review.html',
   './practical-lab.html','./references.html','./formulations.html','./404.html','./style.css','./site-theme.css','./plant-dossier-layout.css',
   './academic-verification.js','./public-seo.js','./flashcard-entry.js','./classical-references-enhanced.js','./practical-lab-enhanced.js','./script.js',
   './data/curated-image-manifest.json','./plant-index.json','./manifest.json','./robots.txt','./sitemap.xml',
   './feedback-config.js','./feedback.js','./feedback.css','./feedback.html','./site-theme.js','./supplementary.html','./supplementary-plant.html',
-  './data/supplementary-index.json','./images/favicon.png','./images/icon-192.png','./images/icon-512.png','./favicon.svg'
+  './data/supplementary-index.json','./images/favicon.png','./images/icon-192.png','./images/icon-512.png','./images/icon-maskable-512.png','./apple-touch-icon.png','./favicon.svg'
 ];
 
 self.addEventListener('install', event => {

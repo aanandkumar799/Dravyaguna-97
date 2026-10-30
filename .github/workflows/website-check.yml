@@ -57,28 +57,6 @@ jobs:
           python scripts/generate-site-artifacts.py
           python scripts/public-readiness.py
           python scripts/audit-data-quality.py
-      - name: Generate favicon and PWA compatibility assets from canonical SVG
-        run: |
-          python -m pip install --disable-pip-version-check --quiet cairosvg
-          python - <<'PY'
-          from pathlib import Path
-          import cairosvg
-          source = Path("favicon.svg")
-          targets = [
-              (Path("favicon.png"), 32),
-              (Path("images/favicon.png"), 32),
-              (Path("images/icon-192.png"), 192),
-              (Path("images/icon-512.png"), 512),
-          ]
-          for target, size in targets:
-              target.parent.mkdir(parents=True, exist_ok=True)
-              cairosvg.svg2png(
-                  url=str(source),
-                  write_to=str(target),
-                  output_width=size,
-                  output_height=size,
-              )
-          PY
       - name: Validate curated image registry
         run: python scripts/validate-curated-images.py
       - name: Check JSON files

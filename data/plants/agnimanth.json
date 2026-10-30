@@ -368,27 +368,6 @@
   },
   "category": "NCISM-97",
   "syllabus_marker": "NCISM-97",
-  "dravyaguna": {
-    "rasa": [
-      "Katu",
-      "Tikta",
-      "Kashaya",
-      "Madhura"
-    ],
-    "guna": [
-      "Laghu",
-      "Ruksha"
-    ],
-    "virya": "Ushna",
-    "vipaka": "Katu",
-    "prabhava": [],
-    "karma": [
-      "Shothaghna",
-      "Agnivardhaka",
-      "Vibandhahara",
-      "Jwarahara"
-    ]
-  },
   "grahya_lakshana": {
     "useful_part": "Mula (root) / Mula twak (root bark)",
     "diagnostic_characters": [

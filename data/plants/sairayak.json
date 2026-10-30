@@ -107,7 +107,32 @@
     "precautions": "Spines can cause injury during collection; use authenticated material and appropriate references.",
     "contraindications": "Pregnancy (insufficient safety data) and known hypersensitivity."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Sahacaradi Taila",
+      "dosage_form": "Taila",
+      "indication": "",
+      "reference": "API Part I, Sahacara monograph"
+    },
+    {
+      "name": "Nilikadya Taila",
+      "dosage_form": "Taila",
+      "indication": "",
+      "reference": "API Part I, Sahacara monograph"
+    },
+    {
+      "name": "Astavarga Kvatha Churna",
+      "dosage_form": "Kvatha churna",
+      "indication": "",
+      "reference": "API Part I, Sahacara monograph"
+    },
+    {
+      "name": "Rasnairandadi Kvatha Churna",
+      "dosage_form": "Kvatha churna",
+      "indication": "",
+      "reference": "API Part I, Sahacara monograph"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],

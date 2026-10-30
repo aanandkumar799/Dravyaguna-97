@@ -62,16 +62,6 @@ jobs:
         run: |
           rm -rf _site
           mkdir -p _site
-          python -m pip install --disable-pip-version-check --quiet cairosvg
-          python - <<'PY'
-          from pathlib import Path
-          import cairosvg
-          source = Path("favicon.svg")
-          out = Path("images")
-          out.mkdir(parents=True, exist_ok=True)
-          for size, name in [(64, "favicon.png"), (192, "icon-192.png"), (512, "icon-512.png")]:
-              cairosvg.svg2png(url=str(source), write_to=str(out / name), output_width=size, output_height=size)
-          PY
           tar --exclude='./.git' --exclude='./.github' --exclude='./_site' -cf - . | tar -xf - -C _site
           python scripts/optimize-deploy-images.py _site
           python - <<'PY'
@@ -83,7 +73,7 @@ jobs:
               html=re.sub(r"""<link[^>]+rel=["'](?:icon|shortcut icon|apple-touch-icon)["'][^>]*>""", '', html, flags=re.I)
               rel_fav=Path(os.path.relpath(root/"images/favicon.png",page.parent)).as_posix()
               rel_svg=Path(os.path.relpath(root/"favicon.svg",page.parent)).as_posix()
-              rel_touch=Path(os.path.relpath(root/"images/icon-192.png",page.parent)).as_posix()
+              rel_touch=Path(os.path.relpath(root/"apple-touch-icon.png",page.parent)).as_posix()
               icons='<link rel="icon" type="image/png" href="'+rel_fav+'"><link rel="icon" type="image/svg+xml" href="'+rel_svg+'"><link rel="apple-touch-icon" href="'+rel_touch+'">'
               html=html.replace("</head>",icons+"\n</head>",1)
               for asset in ["site-theme.css"]:

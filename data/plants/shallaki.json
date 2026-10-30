@@ -100,7 +100,32 @@
     "precautions": "Authenticate resin and distinguish crude resin from standardized extracts.",
     "contraindications": "Pregnancy (insufficient safety data); caution with anticoagulant medicines."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Karpuradyarka",
+      "dosage_form": "Arka",
+      "indication": "",
+      "reference": "API Part I, Kunduru (Boswellia serrata exudate) monograph"
+    },
+    {
+      "name": "Jirakadi Modaka",
+      "dosage_form": "Modaka",
+      "indication": "",
+      "reference": "API Part I, Kunduru (Boswellia serrata exudate) monograph"
+    },
+    {
+      "name": "Bala Taila",
+      "dosage_form": "Taila",
+      "indication": "",
+      "reference": "API Part I, Kunduru (Boswellia serrata exudate) monograph"
+    },
+    {
+      "name": "Bala Guduchyadi Taila",
+      "dosage_form": "Taila",
+      "indication": "",
+      "reference": "API Part I, Kunduru (Boswellia serrata exudate) monograph"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
