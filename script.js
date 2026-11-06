@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const m=await r.json();
       for(const rec of (Array.isArray(m?.records)?m.records:[])){
         if(rec?.part!=='whole_plant'||!rec.image_path) continue;
-        if(!['verified','verified-external'].includes(String(rec.verification_status))||!rec.source_url||!rec.source_name||!rec.verified_botanical_name) continue;
+        if(!['verified','verified-external','verified-local'].includes(String(rec.verification_status).toLowerCase())||!rec.source_url||!rec.source_name||!rec.verified_botanical_name) continue;
         const id=String(rec.plant_id||''); if(id&&!coverRegistry.has(id)){ const resolved={...rec,image_path:new URL(String(rec.image_path),location.href).href}; coverRegistry.set(id,resolved); }
       }
     }catch(_){/* Images are optional; the library remains usable. */}
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const dynamicCover=new URL(`images/plants/${encodeURIComponent(id)}/whole_plant/image.jpg`,location.href).href;
     const coverSrc=verified ? rec.image_path : dynamicCover;
     const fallback=placeholder(n);
-    const image=`<img src="${esc(coverSrc)}" alt="${esc(n)} — whole-plant photograph" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='${fallback}'">`;
+    const image=`<img src="${esc(coverSrc)}" alt="${esc(n)} — whole-plant photograph" loading="lazy" decoding="async" onerror="if(this.dataset.swap){this.onerror=null;this.src='${fallback}'}else{this.dataset.swap='1';this.src=/\\.webp(\\?|$)/.test(this.src)?this.src.replace(/\\.webp(\\?|$)/,'.jpg$1'):this.src.replace(/\\.(jpe?g|png)(\\?|$)/,'.webp$2')}">`;
     return `<article class="plant-card"><button class="favorite-btn ${fav?'active':''}" type="button" data-favorite="${esc(id)}" aria-label="${fav?'Remove':'Add'} ${esc(n)} ${fav?'from':'to'} favourites" aria-pressed="${fav}">${fav?'★':'☆'}</button><div class="plant-image">${image}</div><div class="plant-card-content"><div class="plant-card-top"><span class="plant-number">#${order(p)}</span><span class="syllabus-marker">NCISM-97</span></div><h3>${esc(n)}</h3>${sanskrit(p)?`<p class="plant-sanskrit">${esc(sanskrit(p))}</p>`:''}${botanical(p)?`<p class="plant-botanical"><em>${esc(botanical(p))}</em></p>`:''}${p.english_name?`<p class="plant-english">${esc(p.english_name)}</p>`:''}${family(p)?`<p class="plant-family"><strong>Family:</strong> ${esc(family(p))}</p>`:''}${Array.isArray(p._searchMatchAreas)&&p._searchMatchAreas.length?`<div class="search-match-badges" aria-label="Matching dossier sections">${p._searchMatchAreas.map(x=>`<span>${esc(x)}</span>`).join('')}</div>`:''}<a class="view-plant" href="./plant.html?id=${encodeURIComponent(id)}">Open Full Dossier →</a></div></article>`;
   }
 
