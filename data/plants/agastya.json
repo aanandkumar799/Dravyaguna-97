@@ -6,16 +6,27 @@
   "identity": {
     "name": "Agastya",
     "sanskrit_name": "अगस्त्य",
-    "transliteration": "",
+    "transliteration": "Agastya",
     "botanical_name": "Sesbania grandiflora (L.) Poir.",
     "family": "Fabaceae",
     "english_name": "Agati / Hummingbird tree",
-    "hindi_name": "",
-    "regional_names": [],
+    "hindi_name": "अगस्त (Agast)",
+    "regional_names": [
+      "Hindi: Agast, Agasti, Hadga",
+      "Bengali: Bak",
+      "Marathi: Hadga, Agasta",
+      "Gujarati: Agathiyo",
+      "Kannada: Agase",
+      "Tamil: Agathi",
+      "Telugu: Avisi",
+      "Malayalam: Agathi"
+    ],
     "synonyms": [
       "Agasti",
       "Vangasena",
-      "Munipushpa"
+      "Munipushpa",
+      "Munidruma",
+      "Vakrapushpa"
     ]
   },
   "classification": {
@@ -39,7 +50,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/agastya/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -83,7 +94,7 @@
       "pratishyaya"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Patra swarasa 10–15 ml; Churna 2–4 g; Kwatha 50–100 ml",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
@@ -146,7 +157,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "leaf, flower, bark",
-    "dose": "",
+    "dose": "Patra swarasa 10–15 ml; Churna 2–4 g; Kwatha 50–100 ml",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

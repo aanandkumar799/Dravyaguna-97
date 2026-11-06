@@ -6,15 +6,29 @@
   "identity": {
     "name": "Patola",
     "sanskrit_name": "पटोल",
-    "transliteration": "",
+    "transliteration": "Paṭola",
     "botanical_name": "Trichosanthes dioica Roxb.",
     "family": "Cucurbitaceae",
     "english_name": "Pointed gourd",
-    "hindi_name": "",
-    "regional_names": [],
+    "hindi_name": "परवल (Parwal)",
+    "regional_names": [
+      "Hindi: Parwal",
+      "Bengali: Potol",
+      "Gujarati: Parval",
+      "Marathi: Padval",
+      "Oriya: Potala",
+      "Kannada: Kaadu padavala",
+      "Malayalam: Patolam",
+      "Tamil: Kombu pudalai",
+      "Telugu: Kommu potla"
+    ],
     "synonyms": [
       "Rajapatola",
-      "Karkotaki"
+      "Rajiphala",
+      "Kulaka",
+      "Tiktottama",
+      "Panduka",
+      "Amritaphala"
     ]
   },
   "classification": {
@@ -38,7 +52,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/patola/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -82,13 +96,29 @@
       "pitta disorders"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Patra swarasa 10–20 ml; Kwatha 50–100 ml",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Patoladi Kwatha",
+      "indication": "Kushtha, Visarpa, Jvara",
+      "reference": "Sushruta Patoladi gana; formulation named in API 'Important formulations'"
+    },
+    {
+      "name": "Panchatikta Ghrita Guggulu",
+      "indication": "Kushtha, Vatarakta, Nadivrana",
+      "reference": "Patola is one of the Panchatikta"
+    },
+    {
+      "name": "Mahatiktaka Ghrita",
+      "indication": "Kushtha, Raktapitta, Amlapitta",
+      "reference": "https://laisha.ai/dravya/patola"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -145,7 +175,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "leaf, fruit",
-    "dose": "",
+    "dose": "Patra swarasa 10–20 ml; Kwatha 50–100 ml",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

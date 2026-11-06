@@ -6,12 +6,22 @@
   "identity": {
     "name": "Aparajita",
     "sanskrit_name": "अपराजिता",
-    "transliteration": "",
+    "transliteration": "Aparājitā",
     "botanical_name": "Clitoria ternatea L.",
     "family": "Fabaceae",
     "english_name": "Butterfly pea",
-    "hindi_name": "",
-    "regional_names": [],
+    "hindi_name": "अपराजिता (Aparajita)",
+    "regional_names": [
+      "Hindi: Aparajita, Koyal",
+      "Bengali: Aparajita",
+      "Gujarati: Garni",
+      "Marathi: Gokarni",
+      "Oriya: Aparajita",
+      "Kannada: Girikarnike",
+      "Malayalam: Shankhupushpam",
+      "Tamil: Kakkanam",
+      "Telugu: Dintena, Shankupushpam"
+    ],
     "synonyms": [
       "Vishnukranta",
       "Girikarnika"
@@ -38,7 +48,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/aparajita/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -85,13 +95,24 @@
       "netra disorders"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Mula churna 1–3 g; Beeja churna 1–3 g; Patra churna 2–5 g",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Vataraktantaka Rasa",
+      "indication": "Vatarakta",
+      "reference": "API Part I Vol II & IV"
+    },
+    {
+      "name": "Mishraka Sneha",
+      "indication": "Virechana in Udara, Gulma, Vriddhi",
+      "reference": "API Part I Vol II (Aparajita root)"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -148,7 +169,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "root, seed, flower",
-    "dose": "",
+    "dose": "Mula churna 1–3 g; Beeja churna 1–3 g; Patra churna 2–5 g",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

@@ -6,12 +6,20 @@
   "identity": {
     "name": "Dronapushpi",
     "sanskrit_name": "द्रोणपुष्पी",
-    "transliteration": "",
+    "transliteration": "Droṇapuṣpī",
     "botanical_name": "Leucas aspera (Willd.) Link",
     "family": "Lamiaceae",
     "english_name": "Thumbai",
-    "hindi_name": "",
-    "regional_names": [],
+    "hindi_name": "गूमा (Guma)",
+    "regional_names": [
+      "Hindi: Guma, Gumma",
+      "Gujarati: Kubo",
+      "Marathi: Tumba",
+      "Kannada: Tumbe",
+      "Malayalam: Thumba",
+      "Tamil: Thumbai",
+      "Telugu: Tummi"
+    ],
     "synonyms": [
       "Chitrapatrika",
       "Phalepushpa",
@@ -40,7 +48,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/dronapushpi/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -87,13 +95,24 @@
       "krimi"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Panchanga churna 1–3 g; Swarasa 5–10 ml",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Gorochanadi Vati",
+      "indication": "Jvara, Shvasa, Kasa",
+      "reference": "API Part I Vol II"
+    },
+    {
+      "name": "Plihari Vatika",
+      "indication": "Pliha vriddhi",
+      "reference": "API Part I Vol II"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -150,7 +169,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "whole plant, leaf, flower",
-    "dose": "",
+    "dose": "Panchanga churna 1–3 g; Swarasa 5–10 ml",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

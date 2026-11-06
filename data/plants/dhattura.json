@@ -5,21 +5,30 @@
   "syllabus_marker": "Supplementary",
   "identity": {
     "name": "Dhattura",
-    "sanskrit_name": "Dhattura",
-    "transliteration": "",
+    "sanskrit_name": "धत्तूर",
+    "transliteration": "Dhattūra",
     "botanical_name": "Datura metel L.",
     "family": "Solanaceae",
     "english_name": "Thorn Apple / Downy Datura",
-    "hindi_name": "",
+    "hindi_name": "धतूरा (Dhatura)",
     "regional_names": [
-      "Unmatta",
-      "Kanaka",
-      "Shivapriya",
-      "Dhustura"
+      "Hindi: Dhatura",
+      "Bengali: Dhutura",
+      "Assamese: Dhatura",
+      "Gujarati: Dhaturo",
+      "Marathi: Dhotra",
+      "Oriya: Dudura",
+      "Punjabi: Dhatura",
+      "Kannada: Ummatti",
+      "Malayalam: Ummam",
+      "Tamil: Umattai",
+      "Telugu: Ummetta",
+      "Urdu: Dhatura"
     ],
     "synonyms": [
       "Kanaka (कनक)",
-      "Umatta (उमत्त)",
+      "Unmatta (उन्मत्त)",
+      "Dhustura (धुस्तूर)",
       "Kitava (कितव)",
       "Madana (मदन)",
       "Shivapriya (शिवप्रिय)"
@@ -46,7 +55,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/dhattura/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -70,7 +79,7 @@
     ],
     "virya": "ushna",
     "vipaka": "katu",
-    "prabhava": "Madakari / Vedanasthapana / Shoolahara / Kasahara",
+    "prabhava": [],
     "karma": [
       "Vedanasthapana",
       "Shoolaprashamana",
@@ -108,42 +117,37 @@
       "Kandughna",
       "Krimighna"
     ],
-    "dose": "",
+    "dose": "Shodhita beeja churna 30–60 mg; Panchanga churna 100–200 mg",
     "anupana": "",
     "duration": "",
-    "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
-    "contraindications": ""
+    "precautions": "Upavisha. Seeds are used only after Shodhana (purification, e.g. Godugdha dola-yantra swedana); dose must stay within 30–60 mg (seed). Anticholinergic poisoning risk (dry mouth, mydriasis, delirium). Use only under qualified supervision.",
+    "contraindications": "Contraindicated in pregnancy and lactation, in children, and in glaucoma."
   },
   "formulations": [
     {
       "name": "Kanakasava",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
+      "indication": "Tamaka shvasa, Kasa",
+      "reference": "API Part I Vol III & IV"
+    },
+    {
+      "name": "Lakshmivilasa Rasa (Naradiya)",
+      "indication": "Pratishyaya, Kasa, Jvara",
+      "reference": "API Part I Vol III"
+    },
+    {
+      "name": "Tribhuvana Kirti Rasa",
+      "indication": "Jvara, Pratishyaya",
+      "reference": "API Part I Vol IV"
+    },
+    {
+      "name": "Jvarankusha Rasa",
+      "indication": "Jvara (Vishama jvara)",
+      "reference": "API Part I Vol III"
     },
     {
       "name": "Dhattura Taila",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
-    },
-    {
-      "name": "Mahavishagarbha Taila",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
-    },
-    {
-      "name": "Laxmi Vilas Rasa",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
-    },
-    {
-      "name": "Tribhuvan Kirti Rasa",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
+      "indication": "Kushtha, Kandu, Yuka (external)",
+      "reference": "API Part I Vol IV"
     }
   ],
   "classical_reference": {
@@ -218,7 +222,7 @@
       "Unmada (Delirium / Agitation)"
     ],
     "useful_part": "Purified Seed (Shodhita Bija), Leaf (Patra), Root (Mula)",
-    "dose": "",
+    "dose": "Shodhita beeja churna 30–60 mg; Panchanga churna 100–200 mg",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references.",

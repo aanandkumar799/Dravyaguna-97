@@ -6,13 +6,30 @@
   "identity": {
     "name": "Kadali",
     "sanskrit_name": "कदली",
-    "transliteration": "",
+    "transliteration": "Kadalī",
     "botanical_name": "Musa × paradisiaca L.",
     "family": "Musaceae",
     "english_name": "Banana / Plantain",
-    "hindi_name": "",
-    "regional_names": [],
-    "synonyms": []
+    "hindi_name": "केला (Kela)",
+    "regional_names": [
+      "Hindi: Kela",
+      "Bengali: Kala, Kodali",
+      "Assamese: Kal",
+      "Gujarati: Kela",
+      "Marathi: Kela",
+      "Oriya: Kadali",
+      "Punjabi: Kela",
+      "Kannada: Bale",
+      "Malayalam: Vazha",
+      "Tamil: Vazhai",
+      "Telugu: Arati",
+      "Urdu: Kela"
+    ],
+    "synonyms": [
+      "Varana",
+      "Ambusara",
+      "Rambha"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
@@ -35,7 +52,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/kadali/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -46,12 +63,27 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": [],
-    "guna": [],
-    "virya": "",
-    "vipaka": "",
+    "rasa": [
+      "Madhura",
+      "Kashaya"
+    ],
+    "guna": [
+      "Sita",
+      "Guru",
+      "Ruksha"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Madhura",
     "prabhava": [],
-    "karma": []
+    "karma": [
+      "Balya",
+      "Kaphahara",
+      "Pittahara",
+      "Deepana",
+      "Ruchya",
+      "Keshya"
+    ],
+    "source_note": "Rasapanchaka filled from Ayurvedic Pharmacopoeia of India, Part I, Vol III, monograph KADALI (Rhizome) (cached api_all.txt line 41606)"
   },
   "dosha": {
     "vata": "",
@@ -67,13 +99,24 @@
     ],
     "indications": [],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Kanda (rhizome) churna 10–20 g; Kanda swarasa 10–20 ml; Pushpa 10–20 g",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Kshara Taila",
+      "indication": "Karnaroga (Karnanada, Karnasrava)",
+      "reference": "API Part I Vol III"
+    },
+    {
+      "name": "Hemanatha Rasa",
+      "indication": "",
+      "reference": "API Part I Vol IV (Kadali flower)"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -126,7 +169,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "fruit; pseudostem; flower",
-    "dose": "",
+    "dose": "Kanda (rhizome) churna 10–20 g; Kanda swarasa 10–20 ml; Pushpa 10–20 g",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

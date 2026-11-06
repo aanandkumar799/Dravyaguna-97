@@ -6,13 +6,25 @@
   "identity": {
     "name": "Narikela",
     "sanskrit_name": "नारिकेल",
-    "transliteration": "",
+    "transliteration": "Nārikela",
     "botanical_name": "Cocos nucifera L.",
     "family": "Arecaceae",
     "english_name": "Coconut",
-    "hindi_name": "",
-    "regional_names": [],
-    "synonyms": []
+    "hindi_name": "नारियल (Nariyal)",
+    "regional_names": [
+      "Hindi: Nariyal",
+      "Bengali: Narkel",
+      "Gujarati: Nariyel",
+      "Marathi: Naral",
+      "Kannada: Tengu",
+      "Malayalam: Thengu, Nalikeram",
+      "Tamil: Thenkai",
+      "Telugu: Kobbari, Narikelamu",
+      "Urdu: Narjil"
+    ],
+    "synonyms": [
+      "Trinaraja"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
@@ -35,7 +47,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/narikela/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -46,12 +58,27 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": [],
-    "guna": [],
-    "virya": "",
-    "vipaka": "",
+    "rasa": [
+      "Madhura"
+    ],
+    "guna": [
+      "Guru",
+      "Snigdha"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Madhura",
     "prabhava": [],
-    "karma": []
+    "karma": [
+      "Vatahara",
+      "Pittahara",
+      "Kaphakara",
+      "Balya",
+      "Vrishya",
+      "Brimhana",
+      "Hridya",
+      "Bastishodhaka"
+    ],
+    "source_note": "Rasapanchaka filled from Ayurvedic Pharmacopoeia of India, Part I, Vol III, monograph NARIKELA (Endosperm) (cached api_all.txt line 46947)"
   },
   "dosha": {
     "vata": "",
@@ -68,13 +95,24 @@
     ],
     "indications": [],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Endosperm (kernel) churna 10–20 g",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Narikela Khanda",
+      "indication": "Amlapitta, Parinamashula",
+      "reference": "API Part I Vol III"
+    },
+    {
+      "name": "Narikela Lavana",
+      "indication": "Parinamashula, Amlapitta",
+      "reference": "API Part I Vol III"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -127,7 +165,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "fruit; oil; water; kernel",
-    "dose": "",
+    "dose": "Endosperm (kernel) churna 10–20 g",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

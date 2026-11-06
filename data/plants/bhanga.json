@@ -6,16 +6,25 @@
   "identity": {
     "name": "Bhanga",
     "sanskrit_name": "भङ्गा",
-    "transliteration": "",
+    "transliteration": "Bhaṅgā",
     "botanical_name": "Cannabis sativa L.",
     "family": "Cannabaceae",
     "english_name": "Cannabis",
-    "hindi_name": "",
+    "hindi_name": "भांग (Bhang)",
     "regional_names": [
-      "Vijaya",
-      "Ganja",
-      "Matulani",
-      "Madini"
+      "Hindi: Bhang",
+      "Bengali: Bhang, Siddhi",
+      "Assamese: Bhang",
+      "Gujarati: Bhang",
+      "Marathi: Bhang, Ganja",
+      "Oriya: Ganjei",
+      "Punjabi: Bhang",
+      "Kashmiri: Pang",
+      "Kannada: Bhangi",
+      "Malayalam: Kanchavu",
+      "Tamil: Ganja",
+      "Telugu: Ganjayi",
+      "Urdu: Qinnab, Bhang"
     ],
     "synonyms": [
       "Vijaya",
@@ -47,7 +56,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/bhanga/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -67,7 +76,6 @@
     "virya": "Ushna",
     "vipaka": "Katu",
     "prabhava": [
-      "Vedanasthapana",
       "Madakari"
     ],
     "karma": [
@@ -93,13 +101,24 @@
       "Dhanurvata"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Shodhita patra churna 125–250 mg",
     "anupana": "",
     "duration": "",
-    "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
-    "contraindications": ""
+    "precautions": "Upavisha. API requires Shodhana (purification) of the leaf before use; dose 125–250 mg only. Narcotic: cultivation, possession and use are regulated under the NDPS Act, 1985; use only under qualified supervision.",
+    "contraindications": "Contraindicated in pregnancy and lactation, in children, and in psychiatric illness."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Jatiphaladi Churna",
+      "indication": "Atisara, Grahani",
+      "reference": "API Part I Vol I"
+    },
+    {
+      "name": "Madanananda Modaka",
+      "indication": "Klaibya (Vajikarana)",
+      "reference": "API Part I Vol I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -162,7 +181,7 @@
       "Dhanurvata"
     ],
     "useful_part": "Patra, Pushpa",
-    "dose": "",
+    "dose": "Shodhita patra churna 125–250 mg",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references.",

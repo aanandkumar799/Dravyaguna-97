@@ -135,8 +135,10 @@ const id=new URLSearchParams(location.search).get('id');
 if(!id){app.innerHTML='<section class="plant-header"><h1>No plant selected</h1><p>Choose a supplementary plant first.</p></section>'}
 else Promise.all([
   get('data/plants/'+encodeURIComponent(id)+'.json?v=4'),
-  get('data/curated-image-manifest.json?v=6')
-]).then(async ([p,manifest])=>{
+  get('data/curated-image-manifest.json?v=6'),
+  get('data/supplementary-image-manifest.json?v=1').catch(()=>null)
+]).then(async ([p,manifest,suppManifest])=>{
+  manifest={records:[...arr(suppManifest?.records),...arr(manifest?.records)]};
   if(!p||p.category!=='Supplementary')throw new Error('Not a supplementary record');
   const remote=await commonsImages(p);
   render(p,manifest,remote||[]);

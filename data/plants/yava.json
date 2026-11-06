@@ -6,13 +6,27 @@
   "identity": {
     "name": "Yava",
     "sanskrit_name": "यव",
-    "transliteration": "",
+    "transliteration": "Yava",
     "botanical_name": "Hordeum vulgare L.",
     "family": "Poaceae",
     "english_name": "Barley",
-    "hindi_name": "",
-    "regional_names": [],
-    "synonyms": []
+    "hindi_name": "जौ (Jau)",
+    "regional_names": [
+      "Hindi: Jau",
+      "Bengali: Jab",
+      "Gujarati: Jav",
+      "Marathi: Jav",
+      "Kannada: Jave godhi",
+      "Malayalam: Yavam",
+      "Tamil: Barliarisi",
+      "Telugu: Yavalu",
+      "Urdu: Jau"
+    ],
+    "synonyms": [
+      "Dhanyaraja",
+      "Tikshnashuka",
+      "Hayeshta"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
@@ -35,7 +49,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/yava/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -46,12 +60,32 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": [],
-    "guna": [],
-    "virya": "",
-    "vipaka": "",
+    "rasa": [
+      "Kashaya",
+      "Madhura"
+    ],
+    "guna": [
+      "Ruksha",
+      "Guru",
+      "Picchila",
+      "Mridu"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Katu",
     "prabhava": [],
-    "karma": []
+    "karma": [
+      "Pittahara",
+      "Kaphahara",
+      "Medohara",
+      "Lekhana",
+      "Balya",
+      "Vrishya",
+      "Svarya",
+      "Varnya",
+      "Purishakrit",
+      "Vatakrit"
+    ],
+    "source_note": "Rasapanchaka filled from Ayurvedic Pharmacopoeia of India, Part I, Vol II, monograph YAVA (Fruit) (cached api_all.txt line 33229)"
   },
   "dosha": {
     "vata": "",
@@ -65,13 +99,29 @@
     ],
     "indications": [],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Phala (grain) 100–200 g as food/diet article; Panchanga 10–20 g",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Agastya Haritaki Rasayana",
+      "indication": "Kasa, Shvasa, Arsha, Pratishyaya",
+      "reference": "API Part I Vol II"
+    },
+    {
+      "name": "Dhanvantara Taila",
+      "indication": "Vatavyadhi, Sutika paricharya",
+      "reference": "API Part I Vol II"
+    },
+    {
+      "name": "Dhanvantara Ghrita",
+      "indication": "Prameha, Prameha pidaka",
+      "reference": "API Part I Vol II"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -124,7 +174,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "grain",
-    "dose": "",
+    "dose": "Phala (grain) 100–200 g as food/diet article; Panchanga 10–20 g",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

@@ -5,24 +5,32 @@
   "syllabus_marker": "Supplementary",
   "identity": {
     "name": "Jayapala",
-    "sanskrit_name": "Jayapala",
-    "transliteration": "",
+    "sanskrit_name": "जयपाल",
+    "transliteration": "Jayapāla",
     "botanical_name": "Croton tiglium L.",
     "family": "Euphorbiaceae",
     "english_name": "Purging Croton",
-    "hindi_name": "",
+    "hindi_name": "जमालगोटा (Jamalgota)",
     "regional_names": [
-      "Dantibija",
-      "Nepala",
-      "Rechaka",
-      "Tittiphala"
+      "Hindi: Jamalgota",
+      "Bengali: Jaipal",
+      "Assamese: Kanibish",
+      "Gujarati: Nepalo, Jamalgota",
+      "Marathi: Jepal",
+      "Punjabi: Japolota",
+      "Kannada: Japala",
+      "Malayalam: Nervalam",
+      "Tamil: Nervalam",
+      "Telugu: Nepalamu",
+      "Urdu: Jamalgota"
     ],
     "synonyms": [
       "Rechaka (रेचक)",
       "Kumbhini (कुम्भिनी)",
       "Danti-bija (दन्तीबीज)",
       "Nikumbha (निकुम्भ)",
-      "Tintidiphala (तिन्तिडीफल)"
+      "Tintidiphala (तिन्तिडीफल)",
+      "Mukula (मुकुल)"
     ]
   },
   "classification": {
@@ -46,7 +54,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/jayapala/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -69,7 +77,7 @@
     ],
     "virya": "ushna",
     "vipaka": "katu",
-    "prabhava": "Tivra-Rechana (Druta Virechana / Hydragogue Cathartic)",
+    "prabhava": [],
     "karma": [
       "Tivra-Virechana",
       "Deepana",
@@ -105,36 +113,27 @@
       "Shothahara",
       "Krimighna"
     ],
-    "dose": "",
+    "dose": "Shodhita beeja churna 6–12 mg",
     "anupana": "",
     "duration": "",
-    "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
-    "contraindications": ""
+    "precautions": "Upavisha. Seeds are used only after Shodhana (purification: removal of embryo/cotyledon, Godugdha dola-yantra swedana) and only in 6–12 mg doses; a drastic purgative that can cause severe gastroenteritis and dehydration. Use only under qualified supervision.",
+    "contraindications": "Contraindicated in pregnancy and lactation, in children, the elderly and debilitated, and in GI ulceration, bleeding piles or acute abdominal conditions."
   },
   "formulations": [
     {
-      "name": "Ichhabhedi Rasa",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
+      "name": "Icchabhedi Rasa",
+      "indication": "Vibandha, Udara (tikshna virechana)",
+      "reference": "API Part I Vol II"
     },
     {
       "name": "Jalodarari Rasa",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
+      "indication": "Jalodara",
+      "reference": "Existing record list"
     },
     {
-      "name": "Anand Bhairav Rasa",
-      "dosage_form": "",
+      "name": "Ashvakanchuki Rasa",
       "indication": "",
-      "reference": ""
-    },
-    {
-      "name": "Mahamrityunjaya Rasa",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
+      "reference": "API Part I Vol II"
     }
   ],
   "classical_reference": {
@@ -216,7 +215,7 @@
       "Kaphaja Gulma (Abdominal masses)"
     ],
     "useful_part": "Purified Seed (Shodhita Bija)",
-    "dose": "",
+    "dose": "Shodhita beeja churna 6–12 mg",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references.",

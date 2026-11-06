@@ -6,17 +6,32 @@
   "identity": {
     "name": "Tejapatra",
     "sanskrit_name": "तेजपत्त्र",
-    "transliteration": "",
+    "transliteration": "Tejapatra",
     "botanical_name": "Cinnamomum tamala (Buch.-Ham.) T.Nees & Eberm.",
     "family": "Lauraceae",
     "english_name": "Indian bay leaf",
-    "hindi_name": "",
-    "regional_names": [],
+    "hindi_name": "तेजपात (Tejpat)",
+    "regional_names": [
+      "Hindi: Tejpat, Tejpatra",
+      "Bengali: Tejpata",
+      "Assamese: Tejpat",
+      "Gujarati: Tamalapatra",
+      "Marathi: Tamalpatra",
+      "Oriya: Tejapatra",
+      "Punjabi: Tajpater",
+      "Kashmiri: Dalchini pan",
+      "Kannada: Tamalapatra",
+      "Malayalam: Karuvapatta",
+      "Tamil: Lavangapatri",
+      "Telugu: Akupatri",
+      "Urdu: Tezpat"
+    ],
     "synonyms": [
-      "Tejpatra",
       "Patra",
       "Dala",
-      "Guchhapatra"
+      "Guchhapatra",
+      "Varanga",
+      "Choca"
     ]
   },
   "classification": {
@@ -42,7 +57,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/tejapatra/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -62,11 +77,14 @@
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
+    "prabhava": [],
+    "karma": [
       "Deepana",
-      "Krimighna"
-    ],
-    "karma": []
+      "Krimighna",
+      "Ruchya",
+      "Kaphavatahara",
+      "Arshoghna"
+    ]
   },
   "dosha": {
     "vata": "pacified",
@@ -85,13 +103,29 @@
       "Pinasa"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Patra churna 1–3 g",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Kasisadi Taila",
+      "indication": "Arsha (external)",
+      "reference": "API Part I Vol I"
+    },
+    {
+      "name": "Vajraka Taila",
+      "indication": "Kushtha (external)",
+      "reference": "API Part I Vol I"
+    },
+    {
+      "name": "Chitrakadi Taila",
+      "indication": "",
+      "reference": "API Part I Vol I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -156,7 +190,7 @@
       "Pinasa"
     ],
     "useful_part": "Patra",
-    "dose": "",
+    "dose": "Patra churna 1–3 g",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references.",

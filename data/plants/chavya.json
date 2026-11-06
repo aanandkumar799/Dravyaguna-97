@@ -6,13 +6,28 @@
   "identity": {
     "name": "Chavya",
     "sanskrit_name": "चव्य",
-    "transliteration": "",
+    "transliteration": "Cavya",
     "botanical_name": "Piper retrofractum Vahl",
     "family": "Piperaceae",
     "english_name": "Javanese long pepper",
-    "hindi_name": "",
-    "regional_names": [],
-    "synonyms": []
+    "hindi_name": "चव्य (Chavya)",
+    "regional_names": [
+      "Hindi: Chavya, Chab",
+      "Bengali: Chai",
+      "Assamese: Chepaan",
+      "Gujarati: Chavka",
+      "Marathi: Chavak",
+      "Oriya: Chainkath",
+      "Punjabi: Chabak",
+      "Kannada: Kadumenasinaballi",
+      "Malayalam: Kattumulaku",
+      "Tamil: Chavyam",
+      "Telugu: Chevyamu",
+      "Urdu: Peepal chab"
+    ],
+    "synonyms": [
+      "Chavika"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
@@ -35,7 +50,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/chavya/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -46,12 +61,26 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": [],
-    "guna": [],
-    "virya": "",
-    "vipaka": "",
+    "rasa": [
+      "Katu"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha",
+      "Tikshna"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
     "prabhava": [],
-    "karma": []
+    "karma": [
+      "Vatahara",
+      "Kaphahara",
+      "Deepana",
+      "Pachana",
+      "Rechana",
+      "Bhedana"
+    ],
+    "source_note": "Rasapanchaka filled from Ayurvedic Pharmacopoeia of India, Part I, Vol II, monograph CAVYA (Stem) (cached api_all.txt line 20106)"
   },
   "dosha": {
     "vata": "",
@@ -66,13 +95,24 @@
     ],
     "indications": [],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Kanda (stem) churna 1–2 g",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Chandramrita Rasa",
+      "indication": "Kasa",
+      "reference": "API Part I Vol II"
+    },
+    {
+      "name": "Pranada Gutika",
+      "indication": "Arsha",
+      "reference": "API Part I Vol II"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -125,7 +165,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "fruit; root",
-    "dose": "",
+    "dose": "Kanda (stem) churna 1–2 g",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

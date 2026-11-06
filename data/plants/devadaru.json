@@ -6,14 +6,29 @@
   "identity": {
     "name": "Devadaru",
     "sanskrit_name": "देवदारु",
-    "transliteration": "",
+    "transliteration": "Devadāru",
     "botanical_name": "Cedrus deodara (Roxb. ex D.Don) G.Don",
     "family": "Pinaceae",
     "english_name": "Deodar cedar",
-    "hindi_name": "",
-    "regional_names": [],
+    "hindi_name": "देवदार (Devdar)",
+    "regional_names": [
+      "Hindi: Devdar",
+      "Bengali: Debdaru",
+      "Gujarati: Devdar",
+      "Marathi: Devdar",
+      "Punjabi: Diar",
+      "Kannada: Devadaru",
+      "Malayalam: Devatharam",
+      "Telugu: Devadari"
+    ],
     "synonyms": [
-      "Devadāru"
+      "Bhadradaru",
+      "Surabhuruha",
+      "Amaradaru",
+      "Devakashtha",
+      "Daru",
+      "Suradaru",
+      "Amarataru"
     ]
   },
   "classification": {
@@ -37,7 +52,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/devadaru/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -85,13 +100,34 @@
       "skin disorders"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Kashtha (heartwood) churna 3–6 g",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Devadarvarishta",
+      "indication": "Prameha, Vatavyadhi, Grahani, Kushtha",
+      "reference": "API Part I Vol IV"
+    },
+    {
+      "name": "Dashamularishta",
+      "indication": "Sutikaroga, Daurbalya, Agnimandya",
+      "reference": "API Part I Vol IV"
+    },
+    {
+      "name": "Narayana Taila",
+      "indication": "Vatavyadhi",
+      "reference": "API Part I Vol IV"
+    },
+    {
+      "name": "Sudarshana Churna",
+      "indication": "Jvara (Vishama jvara)",
+      "reference": "API Part I Vol IV"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -148,7 +184,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "heartwood, bark, resin",
-    "dose": "",
+    "dose": "Kashtha (heartwood) churna 3–6 g",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

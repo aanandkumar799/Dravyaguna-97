@@ -6,15 +6,31 @@
   "identity": {
     "name": "Tagara",
     "sanskrit_name": "तगर",
-    "transliteration": "",
+    "transliteration": "Tagara",
     "botanical_name": "Valeriana jatamansi Jones",
     "family": "Caprifoliaceae",
     "english_name": "Indian valerian",
-    "hindi_name": "",
-    "regional_names": [],
+    "hindi_name": "तगर (Tagar)",
+    "regional_names": [
+      "Hindi: Tagar, Mushkbala, Sugandhbala",
+      "Bengali: Tagarpaduka",
+      "Assamese: Tagar",
+      "Gujarati: Tagar ganthoda",
+      "Marathi: Tagar, Ganthode",
+      "Oriya: Tagarapaduka",
+      "Punjabi: Mushkbala",
+      "Kashmiri: Mushkbala",
+      "Kannada: Mandibattal",
+      "Malayalam: Thakaram",
+      "Tamil: Tagarai",
+      "Telugu: Grandhi tagaramu",
+      "Urdu: Tagar"
+    ],
     "synonyms": [
       "Kutila",
-      "Natam"
+      "Nata",
+      "Kalanusari",
+      "Kalanusarika"
     ]
   },
   "classification": {
@@ -38,7 +54,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/tagara/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -83,13 +99,34 @@
       "shula"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Mula/rhizome churna 1–3 g",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Dhanvantara Taila",
+      "indication": "Vatavyadhi, Sutika paricharya",
+      "reference": "API Part I Vol I"
+    },
+    {
+      "name": "Maha Narayana Taila",
+      "indication": "Vatavyadhi, Pakshaghata",
+      "reference": "API Part I Vol I"
+    },
+    {
+      "name": "Jatiphaladi Churna",
+      "indication": "Atisara, Grahani",
+      "reference": "API Part I Vol I"
+    },
+    {
+      "name": "Devadarvarishta",
+      "indication": "Prameha, Vatavyadhi",
+      "reference": "API Part I Vol I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -146,7 +183,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "rhizome, root",
-    "dose": "",
+    "dose": "Mula/rhizome churna 1–3 g",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

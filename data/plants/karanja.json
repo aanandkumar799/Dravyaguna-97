@@ -6,15 +6,30 @@
   "identity": {
     "name": "Karanja",
     "sanskrit_name": "करञ्ज",
-    "transliteration": "",
+    "transliteration": "Karañja",
     "botanical_name": "Pongamia pinnata (L.) Pierre",
     "family": "Fabaceae",
     "english_name": "Indian beech",
-    "hindi_name": "",
-    "regional_names": [],
+    "hindi_name": "करंज (Karanj)",
+    "regional_names": [
+      "Hindi: Karanj",
+      "Bengali: Natakaranja",
+      "Assamese: Korach",
+      "Gujarati: Kanaji",
+      "Marathi: Karanja",
+      "Oriya: Karanja",
+      "Punjabi: Karanj",
+      "Kannada: Honge",
+      "Malayalam: Pungu, Ungu",
+      "Tamil: Pungai",
+      "Telugu: Kanuga",
+      "Urdu: Karanj"
+    ],
     "synonyms": [
       "Naktamala",
-      "Karanja"
+      "Karanjaka",
+      "Naktahva",
+      "Ghritakaranja"
     ]
   },
   "classification": {
@@ -38,7 +53,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/karanja/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -84,13 +99,34 @@
       "krimi"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Beeja churna 0.25 g; 5–10 g of seed for kwatha; Kanda twak churna 1–2 g; Mula twak 1–3 g for kwatha; Patra — external use only",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Aragvadhadi Kwatha Churna",
+      "indication": "Kushtha, Kandu, Prameha, Dushta vrana",
+      "reference": "API Part I Vol I"
+    },
+    {
+      "name": "Jatyadi Taila",
+      "indication": "Vrana, Nadivrana (external)",
+      "reference": "API Part I Vol II (leaf)"
+    },
+    {
+      "name": "Brihanmanjishthadi Kwatha Churna",
+      "indication": "Kushtha, Vatarakta",
+      "reference": "API Part I Vol II (stem bark)"
+    },
+    {
+      "name": "Prabhanjana Vimardana Taila",
+      "indication": "Vatavyadhi (external)",
+      "reference": "API Part I Vol II (root bark)"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -147,7 +183,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "seed, seed oil, bark",
-    "dose": "",
+    "dose": "Beeja churna 0.25 g; 5–10 g of seed for kwatha; Kanda twak churna 1–2 g; Mula twak 1–3 g for kwatha; Patra — external use only",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

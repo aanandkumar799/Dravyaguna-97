@@ -6,13 +6,26 @@
   "identity": {
     "name": "Kokum",
     "sanskrit_name": "कोकम",
-    "transliteration": "",
+    "transliteration": "Kokam (Vṛkṣāmla)",
     "botanical_name": "Garcinia indica (Thouars) Choisy",
     "family": "Clusiaceae",
     "english_name": "Kokum",
-    "hindi_name": "",
-    "regional_names": [],
-    "synonyms": []
+    "hindi_name": "कोकम (Kokam)",
+    "regional_names": [
+      "Hindi: Kokam",
+      "Marathi: Kokam, Ratamba, Amsol",
+      "Gujarati: Kokam",
+      "Konkani: Bhirand, Ratambi",
+      "Kannada: Murugala, Punarpuli",
+      "Malayalam: Punampuli, Kokkam",
+      "Tamil: Murgal"
+    ],
+    "synonyms": [
+      "Vrikshamla",
+      "Tintidika",
+      "Chukra",
+      "Amlavrikshaka"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
@@ -35,7 +48,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/kokum/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",

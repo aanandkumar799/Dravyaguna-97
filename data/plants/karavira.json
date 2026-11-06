@@ -6,22 +6,34 @@
   "identity": {
     "name": "Karavira",
     "sanskrit_name": "करवीर",
-    "transliteration": "",
+    "transliteration": "Karavīra",
     "botanical_name": "Nerium oleander L.",
     "family": "Apocynaceae",
     "english_name": "Oleander",
-    "hindi_name": "",
+    "hindi_name": "कनेर (Kaner)",
     "regional_names": [
-      "Hayamaraka",
-      "Ashwamaraka",
-      "Pratihasa",
-      "Chandata"
+      "Hindi: Kaner",
+      "Bengali: Karavi",
+      "Assamese: Karbira",
+      "Gujarati: Kanera",
+      "Marathi: Kanher",
+      "Oriya: Kaniara",
+      "Punjabi: Kaner",
+      "Kashmiri: Gandeela",
+      "Kannada: Kanagalu",
+      "Malayalam: Arali, Kanaveeram",
+      "Tamil: Arali",
+      "Telugu: Ganneru",
+      "Urdu: Kaner"
     ],
     "synonyms": [
       "Hayamaraka",
-      "Ashwamaraka",
+      "Ashvamaraka",
       "Pratihasa",
-      "Chandata"
+      "Chandata",
+      "Harapriya",
+      "Shatakumbha",
+      "Divyapushpa"
     ]
   },
   "classification": {
@@ -47,7 +59,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/karavira/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -69,8 +81,7 @@
     "virya": "Ushna",
     "vipaka": "Katu",
     "prabhava": [
-      "Kushtaghna",
-      "Vranashodhak"
+      "Hridya"
     ],
     "karma": [
       "Kushtaghna",
@@ -96,13 +107,29 @@
       "Upadamsha"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Shodhita patra or mula churna 30–125 mg (must not exceed the upper limit)",
     "anupana": "",
     "duration": "",
-    "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
-    "contraindications": ""
+    "precautions": "Upavisha. API requires Shodhana (purification, e.g. Godugdha dola-yantra) before use; dose 30–125 mg, not to be exceeded. Contains cardiac glycosides (oleandrin) — risk of arrhythmia; mostly used externally. Use only under qualified supervision.",
+    "contraindications": "Contraindicated in pregnancy and lactation, in children, and in heart disease or with cardiac glycosides/antiarrhythmic drugs."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Kasisadi Taila",
+      "indication": "Arsha (external)",
+      "reference": "API Part I Vol I"
+    },
+    {
+      "name": "Karaviradya Taila",
+      "indication": "Kushtha, Kandu (external)",
+      "reference": "API Part I Vol III"
+    },
+    {
+      "name": "Brihanmarichadya Taila",
+      "indication": "Kushtha, Vicharchika (external)",
+      "reference": "API Part I Vol III"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -172,7 +199,7 @@
       "Upadamsha"
     ],
     "useful_part": "Moola, Twak, Patra",
-    "dose": "",
+    "dose": "Shodhita patra or mula churna 30–125 mg (must not exceed the upper limit)",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references.",

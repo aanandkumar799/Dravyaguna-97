@@ -6,13 +6,25 @@
   "identity": {
     "name": "Parasika Yavani",
     "sanskrit_name": "पारसीक यवानी",
-    "transliteration": "",
+    "transliteration": "Pārasīka Yavānī",
     "botanical_name": "Hyoscyamus niger L.",
     "family": "Solanaceae",
     "english_name": "Persian ajwain",
-    "hindi_name": "",
-    "regional_names": [],
-    "synonyms": []
+    "hindi_name": "खुरासानी अजवाइन (Khurasani Ajwain)",
+    "regional_names": [
+      "Hindi: Khurasani Ajwain",
+      "Bengali: Khorasani Ajwan",
+      "Gujarati: Khurasani Ajmo",
+      "Marathi: Khurasani Ova",
+      "Tamil: Kurasani Omam",
+      "Telugu: Kurasani Vamu",
+      "Urdu: Ajwain Khurasani"
+    ],
+    "synonyms": [
+      "Khurasani Yavani",
+      "Turushka",
+      "Madakarini"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
@@ -38,7 +50,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/parasika-yavani/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -49,12 +61,28 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": [],
-    "guna": [],
-    "virya": "",
-    "vipaka": "",
-    "prabhava": "",
-    "karma": []
+    "rasa": [
+      "Tikta",
+      "Katu"
+    ],
+    "guna": [
+      "Ruksha",
+      "Guru"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhava": [],
+    "karma": [
+      "Vatahara",
+      "Kaphahara",
+      "Madaka",
+      "Vedanasthapana",
+      "Pachaka",
+      "Grahi",
+      "Deepana",
+      "Nidrakara"
+    ],
+    "source_note": "Rasapanchaka filled from Ayurvedic Pharmacopoeia of India, Part I, Vol V, monograph PARASIKAYAVANI (Seed) (cached api_all.txt line 83320)"
   },
   "dosha": {
     "vata": "",
@@ -65,13 +93,19 @@
     "useful_part": [],
     "indications": [],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Beeja 125–500 mg",
     "anupana": "",
     "duration": "",
-    "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
-    "contraindications": ""
+    "precautions": "Toxic (Visha-category) drug containing tropane alkaloids (hyoscyamine, scopolamine). Use only authenticated, properly processed material (Shodhana where the institution's Rasashastra protocol requires it) within the API dose of 125–500 mg, under qualified supervision.",
+    "contraindications": "Contraindicated in pregnancy and lactation, in children, and in glaucoma or prostatic enlargement/urinary retention."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Sarpagandha Ghana Vati",
+      "indication": "Uchcha raktachapa (hypertension), Anidra, Unmada",
+      "reference": "API Part I Vol V"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -126,7 +160,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "",
-    "dose": "",
+    "dose": "Beeja 125–500 mg",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references.",

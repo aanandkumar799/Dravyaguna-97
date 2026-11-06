@@ -6,16 +6,28 @@
   "identity": {
     "name": "Daruharidra",
     "sanskrit_name": "दारुहरिद्रा",
-    "transliteration": "",
+    "transliteration": "Dāruharidrā",
     "botanical_name": "Berberis aristata DC.",
     "family": "Berberidaceae",
     "english_name": "Indian barberry / Tree turmeric",
-    "hindi_name": "",
-    "regional_names": [],
+    "hindi_name": "दारुहल्दी (Daruhaldi)",
+    "regional_names": [
+      "Hindi: Daruhaldi, Darhald",
+      "Bengali: Darhaldi",
+      "Gujarati: Daruhaldar",
+      "Marathi: Daruhalad",
+      "Oriya: Daruhaldi",
+      "Punjabi: Chitra, Kasmal",
+      "Malayalam: Maramanjal",
+      "Telugu: Manupasupu",
+      "Urdu: Zarishk"
+    ],
     "synonyms": [
       "Darvi",
       "Kastaranjani",
-      "Suvarnavarna"
+      "Suvarnavarna",
+      "Darunisha",
+      "Katankateri"
     ]
   },
   "classification": {
@@ -39,7 +51,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/daruharidra/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -88,13 +100,34 @@
       "vrana"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Phala (fruit) churna 3–5 g. Kanda (stem): API Vol II prints 'Kwatha 5–10 ml' — check against the printed edition before using.",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Khadiradi Gutika",
+      "indication": "Mukharoga, Dantaroga",
+      "reference": "API Part I Vol II"
+    },
+    {
+      "name": "Jatyadi Taila",
+      "indication": "Vrana, Nadivrana (external)",
+      "reference": "API Part I Vol II"
+    },
+    {
+      "name": "Triphala Ghrita",
+      "indication": "Netraroga, Timira",
+      "reference": "API Part I Vol II"
+    },
+    {
+      "name": "Khadirarishta",
+      "indication": "Kushtha, Krimi",
+      "reference": "API Part I Vol II"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -151,7 +184,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "root, stem, fruit",
-    "dose": "",
+    "dose": "Phala (fruit) churna 3–5 g. Kanda (stem): API Vol II prints 'Kwatha 5–10 ml' — check against the printed edition before using.",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

@@ -6,14 +6,25 @@
   "identity": {
     "name": "Atibala",
     "sanskrit_name": "अतिबला",
-    "transliteration": "",
+    "transliteration": "Atibalā",
     "botanical_name": "Abutilon indicum (L.) Sweet",
     "family": "Malvaceae",
     "english_name": "Indian mallow",
-    "hindi_name": "",
-    "regional_names": [],
+    "hindi_name": "कंघी (Kanghi)",
+    "regional_names": [
+      "Hindi: Kanghi",
+      "Bengali: Badela",
+      "Gujarati: Kansaki, Khapat",
+      "Marathi: Chakrabhendi, Petari",
+      "Oriya: Pedipidika",
+      "Punjabi: Kangi",
+      "Kannada: Shrimudrigida, Mudragida",
+      "Malayalam: Urubam, Katuvan",
+      "Tamil: Thuthi",
+      "Telugu: Tutturubenda"
+    ],
     "synonyms": [
-      "Kankita",
+      "Kankatika",
       "Rishyaprokta"
     ]
   },
@@ -38,7 +49,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/atibala/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -82,13 +93,29 @@
       "raktapitta"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Mula churna 3–6 g",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Bala Taila",
+      "indication": "Vatavyadhi",
+      "reference": "API Part I Vol I"
+    },
+    {
+      "name": "Narayana Taila",
+      "indication": "Vatavyadhi, Pakshaghata",
+      "reference": "API Part I Vol I"
+    },
+    {
+      "name": "Maha Narayana Taila",
+      "indication": "Vatavyadhi, Pakshaghata, Sandhigata vata",
+      "reference": "API Part I Vol I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -145,7 +172,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "root",
-    "dose": "",
+    "dose": "Mula churna 3–6 g",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

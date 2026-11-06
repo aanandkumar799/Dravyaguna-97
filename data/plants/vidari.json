@@ -6,15 +6,25 @@
   "identity": {
     "name": "Vidari",
     "sanskrit_name": "विदारी",
-    "transliteration": "",
+    "transliteration": "Vidārī",
     "botanical_name": "Pueraria tuberosa (Roxb. ex Willd.) DC.",
     "family": "Fabaceae",
     "english_name": "Indian kudzu",
-    "hindi_name": "",
-    "regional_names": [],
+    "hindi_name": "विदारीकन्द (Vidarikand)",
+    "regional_names": [
+      "Hindi: Vidarikand",
+      "Bengali: Bhuikumra",
+      "Gujarati: Vidarikand",
+      "Marathi: Bhuikohala",
+      "Kannada: Nelagumbala",
+      "Malayalam: Mudakku",
+      "Tamil: Nilapoosani",
+      "Telugu: Nelagummudu"
+    ],
     "synonyms": [
       "Bhumi-kushmanda",
-      "Kshirashukla"
+      "Kshirashukla",
+      "Vidarika"
     ]
   },
   "classification": {
@@ -38,7 +48,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/vidari/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -83,13 +93,29 @@
       "vata-pitta disorders"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Kanda churna 3–6 g",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Vidaryadi Ghrita",
+      "indication": "Kasa, Shvasa, Shosha, Parshvashula",
+      "reference": "API Part I Vol II"
+    },
+    {
+      "name": "Marma Gutika",
+      "indication": "Marmaghata, Abhighata (injury)",
+      "reference": "API Part I Vol II"
+    },
+    {
+      "name": "Manmathabhra Rasa",
+      "indication": "Klaibya (Vajikarana)",
+      "reference": "API Part I Vol II"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -146,7 +172,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "tuberous root",
-    "dose": "",
+    "dose": "Kanda churna 3–6 g",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

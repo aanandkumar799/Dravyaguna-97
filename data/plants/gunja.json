@@ -5,17 +5,25 @@
   "syllabus_marker": "Supplementary",
   "identity": {
     "name": "Gunja",
-    "sanskrit_name": "Gunja",
-    "transliteration": "",
+    "sanskrit_name": "गुञ्जा",
+    "transliteration": "Guñjā",
     "botanical_name": "Abrus precatorius L.",
     "family": "Fabaceae (Papilionaceae)",
     "english_name": "Rosary Pea / Jequirity Bean",
-    "hindi_name": "",
+    "hindi_name": "घुंघची (Ghunghchi)",
     "regional_names": [
-      "Raktika",
-      "Kakajangha",
-      "Kakananti",
-      "Kakadani"
+      "Hindi: Ratti, Ghunghchi",
+      "Bengali: Kunch",
+      "Assamese: Rati",
+      "Gujarati: Rati, Chanothi",
+      "Marathi: Gunja",
+      "Oriya: Kainch",
+      "Punjabi: Ratti",
+      "Kannada: Gulaganji",
+      "Malayalam: Kunni",
+      "Tamil: Kundumani",
+      "Telugu: Guriginja",
+      "Urdu: Ghongchi, Ratti"
     ],
     "synonyms": [
       "Raktika (रक्तिका)",
@@ -46,7 +54,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/gunja/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -68,7 +76,7 @@
     ],
     "virya": "ushna",
     "vipaka": "katu",
-    "prabhava": "Keshya / Vishaghna / Kandughna",
+    "prabhava": [],
     "karma": [
       "Keshya",
       "Vishaghna",
@@ -105,36 +113,22 @@
       "Vrishya",
       "Vranarohana"
     ],
-    "dose": "",
+    "dose": "Shodhita beeja churna 60–180 mg (must not exceed the upper limit); Mula churna 1–3 g",
     "anupana": "",
     "duration": "",
-    "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
-    "contraindications": ""
+    "precautions": "Upavisha. Seeds (abrin-containing) are used only after Shodhana (purification, e.g. Kanji/Godugdha swedana) as described in the API appendix; dose 60–180 mg and must not exceed the upper limit. Use only under qualified supervision.",
+    "contraindications": "Contraindicated in pregnancy (API karma includes Garbhanirodhaka) and lactation, and in children."
   },
   "formulations": [
     {
-      "name": "Gunja Taila",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
+      "name": "Nili Bhringadi Taila",
+      "indication": "Khalitya, Palitya, Indralupta (external)",
+      "reference": "API Part I Vol II (Gunja root)"
     },
     {
-      "name": "Gunjadi Lepa",
-      "dosage_form": "",
+      "name": "Gunjabhadra Rasa",
       "indication": "",
-      "reference": ""
-    },
-    {
-      "name": "Gunjadi Taila",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
-    },
-    {
-      "name": "Mahavishagarbha Taila",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
+      "reference": "API Part I Vol I (Gunja seed)"
     }
   ],
   "classical_reference": {
@@ -208,7 +202,7 @@
       "Shiro-shoola (Headache / Hemicrania)"
     ],
     "useful_part": "Purified Seeds (Shodhita Bija), Leaves (Patra), Root (Mula)",
-    "dose": "",
+    "dose": "Shodhita beeja churna 60–180 mg (must not exceed the upper limit); Mula churna 1–3 g",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references.",

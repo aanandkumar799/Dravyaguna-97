@@ -6,13 +6,27 @@
   "identity": {
     "name": "Draksha",
     "sanskrit_name": "द्राक्षा",
-    "transliteration": "",
+    "transliteration": "Drākṣā",
     "botanical_name": "Vitis vinifera L.",
     "family": "Vitaceae",
     "english_name": "Grape vine",
-    "hindi_name": "",
-    "regional_names": [],
-    "synonyms": []
+    "hindi_name": "मुनक्का (Munakka)",
+    "regional_names": [
+      "Hindi: Munakka, Angur",
+      "Bengali: Monakka",
+      "Gujarati: Drakh",
+      "Marathi: Draksha, Angur",
+      "Oriya: Gostoni",
+      "Kannada: Draksha",
+      "Malayalam: Munthiri",
+      "Tamil: Drakshai",
+      "Telugu: Draksha",
+      "Urdu: Munaqqa"
+    ],
+    "synonyms": [
+      "Mridvika",
+      "Gostani"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
@@ -35,7 +49,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/draksha/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -46,12 +60,26 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": [],
-    "guna": [],
-    "virya": "",
-    "vipaka": "",
+    "rasa": [
+      "Madhura",
+      "Kashaya"
+    ],
+    "guna": [
+      "Guru",
+      "Sara",
+      "Snigdha"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Madhura",
     "prabhava": [],
-    "karma": []
+    "karma": [
+      "Brimhana",
+      "Chakshushya",
+      "Vrishya",
+      "Vatapittahara",
+      "Svarya"
+    ],
+    "source_note": "Rasapanchaka filled from Ayurvedic Pharmacopoeia of India, Part I, Vol III, monograph DRAKSA (Fruit) (cached api_all.txt line 39041)"
   },
   "dosha": {
     "vata": "",
@@ -66,13 +94,34 @@
     ],
     "indications": [],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Phala 5–10 g",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Draksharishta",
+      "indication": "Kasa, Shvasa, Urahkshata, Daurbalya",
+      "reference": "API Part I Vol III"
+    },
+    {
+      "name": "Drakshasava",
+      "indication": "Agnimandya, Arsha, Kasa, Daurbalya",
+      "reference": "API Part I Vol III"
+    },
+    {
+      "name": "Drakshavaleha",
+      "indication": "Pandu, Kamala, Raktapitta",
+      "reference": "API Part I Vol III"
+    },
+    {
+      "name": "Drakshadi Kwatha Churna",
+      "indication": "Jvara, Daha, Trishna, Madatyaya",
+      "reference": "API Part I Vol III"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -125,7 +174,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "fruit; dried fruit",
-    "dose": "",
+    "dose": "Phala 5–10 g",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

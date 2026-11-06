@@ -6,22 +6,33 @@
   "identity": {
     "name": "Arka",
     "sanskrit_name": "अर्क",
-    "transliteration": "",
+    "transliteration": "Arka",
     "botanical_name": "Calotropis gigantea (L.) Dryand.",
     "family": "Apocynaceae",
     "english_name": "Crown flower",
-    "hindi_name": "",
+    "hindi_name": "आक (Aak)",
     "regional_names": [
-      "Mandara",
-      "Alarka",
-      "Surya",
-      "Vikirana"
+      "Hindi: Aak, Madar",
+      "Bengali: Akanda",
+      "Assamese: Akand",
+      "Gujarati: Aakado",
+      "Marathi: Rui",
+      "Oriya: Arakha",
+      "Punjabi: Ak",
+      "Kannada: Ekka",
+      "Malayalam: Erikku",
+      "Tamil: Erukku, Vellerukku",
+      "Telugu: Jilledu",
+      "Urdu: Madar"
     ],
     "synonyms": [
       "Mandara",
       "Alarka",
       "Surya",
-      "Vikirana"
+      "Vikirana",
+      "Ravi",
+      "Bhanu",
+      "Tapana"
     ]
   },
   "classification": {
@@ -47,7 +58,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/arka/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -68,10 +79,7 @@
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
-      "Virechana",
-      "Kushtaghna"
-    ],
+    "prabhava": [],
     "karma": [
       "Virechana",
       "Kushtaghna"
@@ -97,13 +105,29 @@
       "Krimi"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Mula (root) 1–3 g for kwatha; Patra churna 250–750 mg; Kanda twak churna 0.5–1 g",
     "anupana": "",
     "duration": "",
-    "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
-    "contraindications": ""
+    "precautions": "Upavisha. Ksheera (latex) and other parts are used internally only after Shodhana (purification); the raw latex is a strong irritant to skin, eyes and the gut. Do not exceed API doses; use only under qualified supervision.",
+    "contraindications": "Contraindicated in pregnancy and lactation and in children."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Maha Vishagarbha Taila",
+      "indication": "Vatavyadhi, Sandhishula (external)",
+      "reference": "API Part I Vol I (Arka root)"
+    },
+    {
+      "name": "Arka Lavana",
+      "indication": "Pliha-Yakrit roga, Udara, Gulma",
+      "reference": "API Part I Vol I (Arka leaf)"
+    },
+    {
+      "name": "Abhaya Lavana",
+      "indication": "Pliha-Yakrit vriddhi, Gulma, Udara",
+      "reference": "API Part I Vol III (Arka stem bark)"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -166,7 +190,7 @@
       "Krimi"
     ],
     "useful_part": "Moola Twak, Patra, Ksheera, Pushpa",
-    "dose": "",
+    "dose": "Mula (root) 1–3 g for kwatha; Patra churna 250–750 mg; Kanda twak churna 0.5–1 g",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

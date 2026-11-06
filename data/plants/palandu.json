@@ -6,13 +6,26 @@
   "identity": {
     "name": "Palandu",
     "sanskrit_name": "पलाण्डु",
-    "transliteration": "",
+    "transliteration": "Palāṇḍu",
     "botanical_name": "Allium cepa L.",
     "family": "Amaryllidaceae",
     "english_name": "Onion",
-    "hindi_name": "",
-    "regional_names": [],
-    "synonyms": []
+    "hindi_name": "प्याज़ (Pyaz)",
+    "regional_names": [
+      "Hindi: Pyaz",
+      "Bengali: Peyaj",
+      "Gujarati: Dungli, Kanda",
+      "Marathi: Kanda",
+      "Kannada: Eerulli",
+      "Malayalam: Ulli, Savala",
+      "Tamil: Vengayam",
+      "Telugu: Ullipaya"
+    ],
+    "synonyms": [
+      "Yavaneshta",
+      "Durgandha",
+      "Mukhadushaka"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
@@ -35,7 +48,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/palandu/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -65,7 +78,7 @@
     ],
     "indications": [],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Swarasa 10–20 ml",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
@@ -124,7 +137,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "bulb",
-    "dose": "",
+    "dose": "Swarasa 10–20 ml",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

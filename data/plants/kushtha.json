@@ -6,15 +6,28 @@
   "identity": {
     "name": "Kushtha",
     "sanskrit_name": "कुष्ठ",
-    "transliteration": "",
+    "transliteration": "Kuṣṭha",
     "botanical_name": "Saussurea costus (Falc.) Lipsch.",
     "family": "Asteraceae",
     "english_name": "Costus / Kuth",
-    "hindi_name": "",
-    "regional_names": [],
+    "hindi_name": "कूठ (Kuth)",
+    "regional_names": [
+      "Hindi: Kuth",
+      "Bengali: Kur",
+      "Gujarati: Upleta, Kath",
+      "Marathi: Upleta, Kushtha",
+      "Punjabi: Kuth",
+      "Kashmiri: Kuth",
+      "Kannada: Changala koshtu",
+      "Malayalam: Kottam",
+      "Tamil: Goshtam, Kottam",
+      "Telugu: Changalva koshtu",
+      "Urdu: Qust"
+    ],
     "synonyms": [
-      "Kushta",
-      "Pushkaramula"
+      "Pushkaramula",
+      "Amaya",
+      "Pakala"
     ]
   },
   "classification": {
@@ -38,7 +51,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/kushtha/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -84,13 +97,19 @@
       "kasa"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Mula churna 0.2–1 g",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Kottamchukkadi Taila",
+      "indication": "Vatavyadhi, Shotha, Sandhishula (external)",
+      "reference": "API Part I Vol I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -147,7 +166,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "root",
-    "dose": "",
+    "dose": "Mula churna 0.2–1 g",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

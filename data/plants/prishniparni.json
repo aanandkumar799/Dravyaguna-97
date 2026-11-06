@@ -6,15 +6,28 @@
   "identity": {
     "name": "Prishniparni",
     "sanskrit_name": "पृष्णिपर्णी",
-    "transliteration": "",
+    "transliteration": "Pṛśniparṇī",
     "botanical_name": "Uraria picta (Jacq.) Desv. ex DC.",
     "family": "Fabaceae",
     "english_name": "Prishniparni",
-    "hindi_name": "",
-    "regional_names": [],
+    "hindi_name": "पिठवन (Pithvan)",
+    "regional_names": [
+      "Hindi: Pithvan, Dabra",
+      "Bengali: Chakule",
+      "Gujarati: Pithavan",
+      "Marathi: Pithvan",
+      "Kannada: Murele honne",
+      "Malayalam: Orila",
+      "Tamil: Oripai",
+      "Telugu: Kolakuponna"
+    ],
     "synonyms": [
-      "Prishniparni",
-      "Chitrika"
+      "Chitrika",
+      "Chitraparni",
+      "Kalashi",
+      "Dhavani",
+      "Prithakparni",
+      "Shrigalavinna"
     ]
   },
   "classification": {
@@ -83,13 +96,34 @@
       "vata disorders"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Panchanga 20–50 g for kwatha",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Dashamularishta",
+      "indication": "Sutikaroga, Daurbalya, Agnimandya",
+      "reference": "API Part I Vol IV"
+    },
+    {
+      "name": "Amritarishta",
+      "indication": "Jvara (Jirna/Vishama jvara)",
+      "reference": "API Part I Vol IV"
+    },
+    {
+      "name": "Madhyama Narayana Taila",
+      "indication": "Vatavyadhi",
+      "reference": "API Part I Vol IV"
+    },
+    {
+      "name": "Vyaghri Taila",
+      "indication": "Pinasa, Pratishyaya (nasya)",
+      "reference": "API Part I Vol IV"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -146,7 +180,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "root, whole plant",
-    "dose": "",
+    "dose": "Panchanga 20–50 g for kwatha",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

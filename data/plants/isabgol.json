@@ -6,12 +6,18 @@
   "identity": {
     "name": "Isabgol",
     "sanskrit_name": "इसबगोल",
-    "transliteration": "",
+    "transliteration": "Īsabgol (Aśvagola)",
     "botanical_name": "Plantago ovata Forssk.",
     "family": "Plantaginaceae",
     "english_name": "Psyllium / Blond psyllium",
-    "hindi_name": "",
-    "regional_names": [],
+    "hindi_name": "ईसबगोल (Isabgol)",
+    "regional_names": [
+      "Hindi: Isabgol",
+      "Bengali: Isabgul",
+      "Gujarati: Isabgul",
+      "Marathi: Isabgol",
+      "Malayalam: Snigdhajirakam"
+    ],
     "synonyms": [
       "Ashwagola",
       "Ashwakarnā"
@@ -38,7 +44,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/isabgol/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -82,8 +88,8 @@
       "atisara"
     ],
     "therapeutic_actions": [],
-    "dose": "",
-    "anupana": "",
+    "dose": "Twak (seed husk) 7–11 g per day in 1–3 doses, each dose stirred into plenty of water (at least 30 ml per g)",
+    "anupana": "Jala (water) or Dugdha (milk)",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
@@ -145,8 +151,8 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "seed husk, seed",
-    "dose": "",
-    "anupana": "",
+    "dose": "Twak (seed husk) 7–11 g per day in 1–3 doses, each dose stirred into plenty of water (at least 30 ml per g)",
+    "anupana": "Jala (water) or Dugdha (milk)",
     "key_precautions": [
       "Use authoritative identification and safety references."
     ]

@@ -6,13 +6,27 @@
   "identity": {
     "name": "Madhuka",
     "sanskrit_name": "मधूक",
-    "transliteration": "",
+    "transliteration": "Madhūka",
     "botanical_name": "Madhuca longifolia (J.Koenig ex L.) J.F.Macbr.",
     "family": "Sapotaceae",
     "english_name": "Mahua",
-    "hindi_name": "",
-    "regional_names": [],
-    "synonyms": []
+    "hindi_name": "महुआ (Mahua)",
+    "regional_names": [
+      "Hindi: Mahua",
+      "Bengali: Mahua",
+      "Gujarati: Mahudo",
+      "Marathi: Moha",
+      "Oriya: Mahula",
+      "Punjabi: Mahua",
+      "Kannada: Hippe",
+      "Malayalam: Iluppa",
+      "Tamil: Iluppai",
+      "Telugu: Ippa",
+      "Urdu: Mahuva"
+    ],
+    "synonyms": [
+      "Gudapushpa"
+    ]
   },
   "classification": {
     "kingdom": "Plantae",
@@ -35,7 +49,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/madhuka/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -46,12 +60,23 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": [],
-    "guna": [],
-    "virya": "",
-    "vipaka": "",
+    "rasa": [
+      "Madhura"
+    ],
+    "guna": [
+      "Guru"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Madhura",
     "prabhava": [],
-    "karma": []
+    "karma": [
+      "Vatahara",
+      "Pittakara",
+      "Shukrala",
+      "Shramahara",
+      "Balya"
+    ],
+    "source_note": "Rasapanchaka filled from Ayurvedic Pharmacopoeia of India, Part I, Vol II, monograph MADHUKA (Flower) (cached api_all.txt line 26888)"
   },
   "dosha": {
     "vata": "",
@@ -68,13 +93,24 @@
     ],
     "indications": [],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Pushpa 10–15 g",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Madhukasava",
+      "indication": "",
+      "reference": "API Part I Vol II"
+    },
+    {
+      "name": "Drakshadi Kwatha Churna",
+      "indication": "Jvara, Daha, Trishna, Madatyaya",
+      "reference": "API Part I Vol II"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -127,7 +163,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "flower; seed; seed oil; bark",
-    "dose": "",
+    "dose": "Pushpa 10–15 g",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

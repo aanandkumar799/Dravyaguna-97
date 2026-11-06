@@ -6,22 +6,34 @@
   "identity": {
     "name": "Kankola",
     "sanskrit_name": "कङ्कोल",
-    "transliteration": "",
+    "transliteration": "Kaṅkola",
     "botanical_name": "Cubeba officinalis Miq.",
     "family": "Piperaceae",
     "english_name": "Cubeb",
-    "hindi_name": "",
+    "hindi_name": "कबाबचीनी (Kababchini)",
     "regional_names": [
-      "Sugandha Maricha",
-      "Kababchini",
-      "Chinoshana",
-      "Kola"
+      "Hindi: Kababchini, Sheetalchini",
+      "Bengali: Kababchini",
+      "Assamese: Kakkol",
+      "Gujarati: Chanakabab",
+      "Marathi: Kankol",
+      "Oriya: Kababchini",
+      "Punjabi: Kababchini",
+      "Kashmiri: Kushfal",
+      "Kannada: Gandhamenasu",
+      "Malayalam: Valmulaku",
+      "Tamil: Valmilagu",
+      "Telugu: Tokamiriyalu",
+      "Urdu: Kababchini"
     ],
     "synonyms": [
       "Sugandha Maricha",
-      "Kababchini",
       "Chinoshana",
-      "Kola"
+      "Kola",
+      "Kankolaka",
+      "Kakkola",
+      "Kankolika",
+      "Chinatikshna"
     ]
   },
   "classification": {
@@ -47,7 +59,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/kankola/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -68,11 +80,7 @@
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
-      "Mutrala",
-      "Deepana",
-      "Hridaya"
-    ],
+    "prabhava": [],
     "karma": [
       "Mutrala",
       "Deepana",
@@ -96,13 +104,24 @@
       "Kasa"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Phala churna 1–2 g",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Dashamularishta",
+      "indication": "Sutikaroga, Daurbalya, Agnimandya",
+      "reference": "API Part I Vol I"
+    },
+    {
+      "name": "Kumaryasava",
+      "indication": "Gulma, Yakrit-Pliha roga, Agnimandya, Kashtartava",
+      "reference": "API Part I Vol I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -174,7 +193,7 @@
       "Kasa"
     ],
     "useful_part": "Phala",
-    "dose": "",
+    "dose": "Phala churna 1–2 g",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references.",

@@ -6,22 +6,28 @@
   "identity": {
     "name": "Snuhi",
     "sanskrit_name": "स्नुही",
-    "transliteration": "",
+    "transliteration": "Snuhī",
     "botanical_name": "Euphorbia neriifolia L.",
     "family": "Euphorbiaceae",
     "english_name": "Indian spurge tree",
-    "hindi_name": "",
+    "hindi_name": "थूहर (Thuhar)",
     "regional_names": [
-      "Sudha",
-      "Samantdugdha",
-      "Vajradruma",
-      "Sihunda"
+      "Hindi: Thuhar, Sehund",
+      "Bengali: Manasasij",
+      "Gujarati: Thor",
+      "Marathi: Nivdung",
+      "Punjabi: Thohar",
+      "Kannada: Muru kanina kalli",
+      "Malayalam: Kalli",
+      "Tamil: Ilaikalli",
+      "Telugu: Kadajemudu"
     ],
     "synonyms": [
       "Sudha",
       "Samantdugdha",
       "Vajradruma",
-      "Sihunda"
+      "Sihunda",
+      "Snuk"
     ]
   },
   "classification": {
@@ -47,7 +53,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/snuhi/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -67,10 +73,7 @@
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
-      "Virechana",
-      "Kushtaghna"
-    ],
+    "prabhava": [],
     "karma": [
       "Virechana",
       "Kushtaghna"
@@ -95,13 +98,29 @@
       "Pliharoga"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Shodhita kanda churna 125–250 mg",
     "anupana": "",
     "duration": "",
-    "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
-    "contraindications": ""
+    "precautions": "Upavisha. Ksheera (latex) and stem are used internally only after Shodhana (purification) as described in the API appendix; dose 125–250 mg. The latex is a strong irritant (skin, eyes) and drastic purgative. Use only under qualified supervision.",
+    "contraindications": "Contraindicated in pregnancy and lactation, in children, and in the weak or debilitated."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Abhaya Lavana",
+      "indication": "Pliha-Yakrit vriddhi, Gulma, Udara",
+      "reference": "API Part I Vol I"
+    },
+    {
+      "name": "Vajrakshara",
+      "indication": "Ajirna, Gulma, Udara, Agnimandya",
+      "reference": "API Part I Vol I"
+    },
+    {
+      "name": "Chitrakadi Taila",
+      "indication": "",
+      "reference": "API Part I Vol I"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -166,7 +185,7 @@
       "Pliharoga"
     ],
     "useful_part": "Ksheera, Kanda, Patra",
-    "dose": "",
+    "dose": "Shodhita kanda churna 125–250 mg",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references.",

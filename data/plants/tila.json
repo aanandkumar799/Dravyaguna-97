@@ -6,12 +6,24 @@
   "identity": {
     "name": "Tila",
     "sanskrit_name": "तिल",
-    "transliteration": "",
+    "transliteration": "Tila",
     "botanical_name": "Sesamum indicum L.",
     "family": "Pedaliaceae",
     "english_name": "Sesame",
-    "hindi_name": "",
-    "regional_names": [],
+    "hindi_name": "तिल (Til)",
+    "regional_names": [
+      "Hindi: Til",
+      "Bengali: Til",
+      "Gujarati: Tal",
+      "Marathi: Til",
+      "Oriya: Til",
+      "Punjabi: Til",
+      "Kannada: Ellu",
+      "Malayalam: Ellu",
+      "Tamil: Ellu",
+      "Telugu: Nuvvulu",
+      "Urdu: Kunjad"
+    ],
     "synonyms": []
   },
   "classification": {
@@ -35,7 +47,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/tila/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -46,12 +58,33 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": [],
-    "guna": [],
-    "virya": "",
-    "vipaka": "",
+    "rasa": [
+      "Madhura",
+      "Tikta",
+      "Kashaya",
+      "Katu"
+    ],
+    "guna": [
+      "Guru",
+      "Snigdha",
+      "Sukshma",
+      "Vyavayi"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Madhura",
     "prabhava": [],
-    "karma": []
+    "karma": [
+      "Snehana",
+      "Balya",
+      "Vataghna",
+      "Keshya",
+      "Medhavardhaka",
+      "Agnivardhaka",
+      "Vranashodhaka",
+      "Rasayana",
+      "Varnya"
+    ],
+    "source_note": "Rasapanchaka filled from Ayurvedic Pharmacopoeia of India, Part I, Vol IV, monograph TILA (Seed) (cached api_all.txt line 67644)"
   },
   "dosha": {
     "vata": "",
@@ -66,13 +99,24 @@
     ],
     "indications": [],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Beeja churna 5–10 g per day",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Jatiphaladi Churna",
+      "indication": "Atisara, Grahani",
+      "reference": "API Part I Vol IV"
+    },
+    {
+      "name": "Narasimha Churna",
+      "indication": "Rasayana, Vajikarana",
+      "reference": "API Part I Vol IV"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -125,7 +169,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "seed; seed oil",
-    "dose": "",
+    "dose": "Beeja churna 5–10 g per day",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

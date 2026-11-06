@@ -6,12 +6,25 @@
   "identity": {
     "name": "Amra",
     "sanskrit_name": "आम्र",
-    "transliteration": "",
+    "transliteration": "Āmra",
     "botanical_name": "Mangifera indica L.",
     "family": "Anacardiaceae",
     "english_name": "Mango",
-    "hindi_name": "",
-    "regional_names": [],
+    "hindi_name": "आम (Aam)",
+    "regional_names": [
+      "Hindi: Aam",
+      "Bengali: Am",
+      "Assamese: Aam",
+      "Gujarati: Ambo",
+      "Marathi: Amba",
+      "Oriya: Amba",
+      "Punjabi: Amb",
+      "Kannada: Mavu",
+      "Malayalam: Mavu",
+      "Tamil: Mamaram",
+      "Telugu: Mamidi",
+      "Urdu: Aam"
+    ],
     "synonyms": []
   },
   "classification": {
@@ -35,7 +48,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/amra/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -46,12 +59,23 @@
     "bark": ""
   },
   "dravya_guna": {
-    "rasa": [],
-    "guna": [],
-    "virya": "",
-    "vipaka": "",
+    "rasa": [
+      "Kashaya"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Katu",
     "prabhava": [],
-    "karma": []
+    "karma": [
+      "Grahi",
+      "Kaphapittashamaka",
+      "Vranaropana",
+      "Ruchya"
+    ],
+    "source_note": "Rasapanchaka filled from Ayurvedic Pharmacopoeia of India, Part I, Vol III, monograph AMRA (Stem Bark) (cached api_all.txt line 35766)"
   },
   "dosha": {
     "vata": "",
@@ -68,13 +92,34 @@
     ],
     "indications": [],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Twak (stem bark) churna 3–6 g; 25–50 g of bark for kwatha; Beeja-majja (seed kernel) churna 1–2 g",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Pushyanuga Churna",
+      "indication": "Pradara, Atisara, Raktatisara",
+      "reference": "API Part I Vol III (Amra seed)"
+    },
+    {
+      "name": "Brihat Gangadhara Churna",
+      "indication": "Atisara, Pravahika, Grahani",
+      "reference": "API Part I Vol III (Amra seed)"
+    },
+    {
+      "name": "Ashokarishta",
+      "indication": "Pradara, Asrigdara, Kashtartava",
+      "reference": "API Part I Vol III (Amra seed)"
+    },
+    {
+      "name": "Nyagrodhadi Churna",
+      "indication": "Prameha",
+      "reference": "API Part I Vol III (Amra stem bark)"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -127,7 +172,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "fruit; bark; leaf; seed kernel",
-    "dose": "",
+    "dose": "Twak (stem bark) churna 3–6 g; 25–50 g of bark for kwatha; Beeja-majja (seed kernel) churna 1–2 g",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

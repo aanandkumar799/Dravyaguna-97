@@ -6,16 +6,26 @@
   "identity": {
     "name": "Gudmar",
     "sanskrit_name": "गुडमार",
-    "transliteration": "",
+    "transliteration": "Guḍamāra (Meṣaśṛṅgī)",
     "botanical_name": "Gymnema sylvestre (Retz.) R.Br. ex Sm.",
     "family": "Apocynaceae",
     "english_name": "Gymnema / Sugar destroyer",
-    "hindi_name": "",
-    "regional_names": [],
+    "hindi_name": "गुड़मार (Gudmar)",
+    "regional_names": [
+      "Hindi: Gudmar, Medhasingi",
+      "Bengali: Medhasingi",
+      "Gujarati: Kavali, Medhasingi",
+      "Marathi: Kavali, Medhashingi",
+      "Kannada: Kadhasige",
+      "Malayalam: Chakkarakolli",
+      "Tamil: Sirukurumkai, Sakkaraikolli",
+      "Telugu: Podapatri"
+    ],
     "synonyms": [
       "Madhunashini",
       "Meshashringi",
-      "Vishani"
+      "Vishani",
+      "Ajashringi"
     ]
   },
   "classification": {
@@ -39,7 +49,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/gudmar/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -82,13 +92,29 @@
       "aruchi"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Patra churna 3–6 g; Mula churna 1–2 g; Mula kwatha 50–100 ml",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Ayaskriti",
+      "indication": "Prameha, Pandu, Kushtha",
+      "reference": "API Part I Vol V"
+    },
+    {
+      "name": "Nyagrodhadi Churna",
+      "indication": "Prameha",
+      "reference": "API Part I Vol V"
+    },
+    {
+      "name": "Maha Vishagarbha Taila",
+      "indication": "Vatavyadhi (external)",
+      "reference": "API Part I Vol V"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -145,7 +171,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "leaf, root",
-    "dose": "",
+    "dose": "Patra churna 3–6 g; Mula churna 1–2 g; Mula kwatha 50–100 ml",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

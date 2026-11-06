@@ -6,17 +6,29 @@
   "identity": {
     "name": "Kupilu",
     "sanskrit_name": "कुपीलु",
-    "transliteration": "",
+    "transliteration": "Kupīlu",
     "botanical_name": "Strychnos nux-vomica L.",
     "family": "Loganiaceae",
     "english_name": "Nux-vomica",
-    "hindi_name": "",
-    "regional_names": [],
+    "hindi_name": "कुचला (Kuchla)",
+    "regional_names": [
+      "Hindi: Kuchla",
+      "Bengali: Kuchila",
+      "Gujarati: Zer kochla",
+      "Marathi: Kajra",
+      "Kannada: Kasarkayi",
+      "Malayalam: Kanjiram",
+      "Tamil: Etti",
+      "Telugu: Mushti",
+      "Urdu: Azaraqi, Kuchla"
+    ],
     "synonyms": [
-      "Kupilu",
       "Kulukaka",
       "Ramaphala",
-      "Chipita"
+      "Chipita",
+      "Karaskara",
+      "Vishatinduka",
+      "Kakatinduka"
     ]
   },
   "classification": {
@@ -42,7 +54,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/kupilu/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -63,11 +75,17 @@
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
+    "prabhava": [],
+    "karma": [
       "Vatahara",
-      "Deepana"
-    ],
-    "karma": []
+      "Deepana",
+      "Grahi",
+      "Madakaraka",
+      "Kaphahara",
+      "Vranashodhana",
+      "Vedanahara",
+      "Jantughna"
+    ]
   },
   "dosha": {
     "vata": "pacified",
@@ -86,13 +104,39 @@
       "Klaibya"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Shodhita beeja churna 60–125 mg",
     "anupana": "",
     "duration": "",
-    "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
-    "contraindications": ""
+    "precautions": "Upavisha. Seeds are used only after Shodhana (purification, e.g. Kanji/Godugdha/Goghrita processing) — API dose is for the shodhita drug, 60–125 mg. Strychnine poisoning risk (convulsions). Use only under qualified supervision.",
+    "contraindications": "Contraindicated in pregnancy and lactation, in children, and in epilepsy or convulsive disorders."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Vishatinduka Vati",
+      "indication": "Vatavyadhi, Agnimandya",
+      "reference": "API Part I Vol IV"
+    },
+    {
+      "name": "Agnitundi Vati",
+      "indication": "Agnimandya, Ajirna",
+      "reference": "API Part I Vol IV"
+    },
+    {
+      "name": "Ekangavira Rasa",
+      "indication": "Pakshaghata, Ardita, Vatavyadhi",
+      "reference": "API Part I Vol IV"
+    },
+    {
+      "name": "Krimimudgara Rasa",
+      "indication": "Krimi",
+      "reference": "API Part I Vol IV"
+    },
+    {
+      "name": "Navajivana Rasa",
+      "indication": "Daurbalya, Vatavyadhi",
+      "reference": "API Part I Vol IV"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -162,7 +206,7 @@
       "Klaibya"
     ],
     "useful_part": "Bija",
-    "dose": "",
+    "dose": "Shodhita beeja churna 60–125 mg",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references.",

@@ -6,15 +6,29 @@
   "identity": {
     "name": "Shalaparni",
     "sanskrit_name": "शालपर्णी",
-    "transliteration": "",
+    "transliteration": "Śālaparṇī",
     "botanical_name": "Desmodium gangeticum (L.) DC.",
     "family": "Fabaceae",
     "english_name": "Salparni",
-    "hindi_name": "",
-    "regional_names": [],
+    "hindi_name": "सरिवन (Sarivan)",
+    "regional_names": [
+      "Hindi: Sarivan",
+      "Bengali: Shalpani",
+      "Gujarati: Salvan, Sameravo",
+      "Marathi: Salvan",
+      "Oriya: Saloparni",
+      "Punjabi: Sarivan, Shalpurni",
+      "Kannada: Murelchonne",
+      "Malayalam: Moovila, Orila",
+      "Tamil: Pulladi, Moovilai",
+      "Telugu: Kolaponna",
+      "Urdu: Shalwan"
+    ],
     "synonyms": [
-      "Shalaparni",
-      "Vidarigandha"
+      "Vidarigandha",
+      "Sthira",
+      "Amshumati",
+      "Triparni"
     ]
   },
   "classification": {
@@ -38,7 +52,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/shalaparni/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -82,13 +96,34 @@
       "kshaya"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Mula churna 5–10 g; 10–20 g of root for kwatha; Panchanga churna 6–12 g; Panchanga kwatha 50–100 ml",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Dashamularishta",
+      "indication": "Sutikaroga, Daurbalya, Agnimandya",
+      "reference": "API Part I Vol III & VI"
+    },
+    {
+      "name": "Dashamula Kwatha",
+      "indication": "Shotha, Jvara, Shvasa, Vatavyadhi",
+      "reference": "API Part I Vol VI"
+    },
+    {
+      "name": "Narayana Taila",
+      "indication": "Vatavyadhi",
+      "reference": "API Part I Vol III"
+    },
+    {
+      "name": "Dhanvantara Taila",
+      "indication": "Vatavyadhi, Sutika paricharya",
+      "reference": "API Part I Vol III"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -145,7 +180,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "root, whole plant",
-    "dose": "",
+    "dose": "Mula churna 5–10 g; 10–20 g of root for kwatha; Panchanga churna 6–12 g; Panchanga kwatha 50–100 ml",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

@@ -6,15 +6,29 @@
   "identity": {
     "name": "Shirish",
     "sanskrit_name": "शिरीष",
-    "transliteration": "",
+    "transliteration": "Śirīṣa",
     "botanical_name": "Albizia lebbeck (L.) Benth.",
     "family": "Fabaceae",
     "english_name": "Siris / Lebbek tree",
-    "hindi_name": "",
-    "regional_names": [],
+    "hindi_name": "सिरस (Siras)",
+    "regional_names": [
+      "Hindi: Siris",
+      "Bengali: Sirish",
+      "Gujarati: Shirish",
+      "Marathi: Shirish",
+      "Oriya: Sersuan",
+      "Punjabi: Sirish",
+      "Kannada: Bage",
+      "Malayalam: Vaka",
+      "Tamil: Vagai",
+      "Telugu: Dirisena",
+      "Urdu: Siris"
+    ],
     "synonyms": [
-      "Shirisha",
-      "Shirisha"
+      "Bhandi",
+      "Shitapushpa",
+      "Shukapriya",
+      "Mridupushpa"
     ]
   },
   "classification": {
@@ -38,7 +52,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/shirish/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -85,13 +99,34 @@
       "kasa"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Twak churna 3–6 g; 25–50 g of bark for kwatha",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary educational reference. Verify classical identity, source text, pharmacopoeial status and safety before clinical use.",
     "contraindications": ""
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Dashanga Lepa",
+      "indication": "Visarpa, Vrana, Shotha, Visha (external)",
+      "reference": "API Part I Vol III"
+    },
+    {
+      "name": "Vajraka Taila",
+      "indication": "Kushtha (external)",
+      "reference": "API Part I Vol III"
+    },
+    {
+      "name": "Ayaskriti",
+      "indication": "Prameha, Pandu, Kushtha",
+      "reference": "API Part I Vol III"
+    },
+    {
+      "name": "Brihanmarichadya Taila",
+      "indication": "Kushtha, Vicharchika (external)",
+      "reference": "API Part I Vol III"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -148,7 +183,7 @@
     "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
     "important_indications": [],
     "useful_part": "bark, seed, flower",
-    "dose": "",
+    "dose": "Twak churna 3–6 g; 25–50 g of bark for kwatha",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references."

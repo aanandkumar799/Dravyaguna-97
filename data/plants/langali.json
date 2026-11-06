@@ -6,22 +6,27 @@
   "identity": {
     "name": "Langali",
     "sanskrit_name": "लाङ्गली",
-    "transliteration": "",
+    "transliteration": "Lāṅgalī",
     "botanical_name": "Gloriosa superba L.",
     "family": "Colchicaceae",
     "english_name": "Gloriosa lily",
-    "hindi_name": "",
+    "hindi_name": "कलिहारी (Kalihari)",
     "regional_names": [
-      "Kalihari",
-      "Garbhaghatini",
-      "Agnishikha",
-      "Visalya"
+      "Hindi: Kalihari",
+      "Bengali: Bishalanguli",
+      "Marathi: Kallavi",
+      "Kannada: Kolikutumana gadde",
+      "Malayalam: Methonni",
+      "Tamil: Kalappai kizhangu",
+      "Telugu: Adavi nabhi"
     ],
     "synonyms": [
       "Kalihari",
       "Garbhaghatini",
       "Agnishikha",
-      "Visalya"
+      "Visalya",
+      "Halini",
+      "Garbhanut"
     ]
   },
   "classification": {
@@ -47,7 +52,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/langali/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -68,10 +73,7 @@
     ],
     "virya": "Ushna",
     "vipaka": "Katu",
-    "prabhava": [
-      "Kushtaghna",
-      "Garbhashaya Sankochaka"
-    ],
+    "prabhava": [],
     "karma": [
       "Kushtaghna",
       "Garbhashaya Sankochaka"
@@ -95,13 +97,29 @@
       "Krimi"
     ],
     "therapeutic_actions": [],
-    "dose": "",
+    "dose": "Shodhita kanda churna 125–250 mg",
     "anupana": "",
     "duration": "",
-    "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
-    "contraindications": ""
+    "precautions": "Upavisha. Tuber is used only after Shodhana (purification, e.g. soaking in Gomutra) and only in 125–250 mg doses; colchicine poisoning risk. Use only under qualified supervision.",
+    "contraindications": "Absolutely contraindicated in pregnancy (API karma: Garbhapatana); also in lactation and in children."
   },
-  "formulations": [],
+  "formulations": [
+    {
+      "name": "Nirgundi Taila",
+      "indication": "Gandamala, Nadivrana, Vatavyadhi",
+      "reference": "API Part I Vol III"
+    },
+    {
+      "name": "Kasisadi Taila",
+      "indication": "Arsha (external)",
+      "reference": "API Part I Vol III"
+    },
+    {
+      "name": "Maha Vishagarbha Taila",
+      "indication": "Vatavyadhi (external)",
+      "reference": "API Part I Vol III"
+    }
+  ],
   "classical_reference": {
     "shlokas": [],
     "nighantu_references": [],
@@ -162,7 +180,7 @@
       "Krimi"
     ],
     "useful_part": "Moola, Kanda",
-    "dose": "",
+    "dose": "Shodhita kanda churna 125–250 mg",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references.",

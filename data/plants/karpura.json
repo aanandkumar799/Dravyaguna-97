@@ -5,19 +5,34 @@
   "syllabus_marker": "Supplementary",
   "identity": {
     "name": "Karpura",
-    "sanskrit_name": "Karpura",
-    "transliteration": "",
+    "sanskrit_name": "कर्पूर",
+    "transliteration": "Karpūra",
     "botanical_name": "Cinnamomum camphora (L.) J.Presl",
     "family": "Lauraceae",
     "english_name": "Camphor",
-    "hindi_name": "",
-    "regional_names": [],
+    "hindi_name": "कपूर (Kapur)",
+    "regional_names": [
+      "Hindi: Kapur",
+      "Bengali: Karpur",
+      "Assamese: Karpura",
+      "Gujarati: Kapur",
+      "Marathi: Kapur",
+      "Oriya: Karpur",
+      "Punjabi: Kapura",
+      "Kannada: Karpura",
+      "Malayalam: Karpuram",
+      "Tamil: Karpuram",
+      "Telugu: Karpuramu",
+      "Urdu: Kafur"
+    ],
     "synonyms": [
-      "Ghanasara (घनसारा)",
+      "Ghanasara (घनसार)",
       "Himavaluka (हिमवालुका)",
       "Chandra (चन्द्र)",
       "Sphatika (स्फटिक)",
-      "Subhra (शुभ्र)"
+      "Shubhra (शुभ्र)",
+      "Himahva",
+      "Sitashiva"
     ]
   },
   "classification": {
@@ -41,7 +56,7 @@
     ]
   },
   "images": {
-    "whole_plant": "",
+    "whole_plant": "images/plants/karpura/whole_plant/image.jpg",
     "habit": "",
     "root": "",
     "stem": "",
@@ -64,7 +79,7 @@
     ],
     "virya": "sheeta",
     "vipaka": "katu",
-    "prabhava": "Hridya / Chakshushya / Vedanasthapana",
+    "prabhava": [],
     "karma": [
       "Hridya",
       "Vedanasthapana",
@@ -104,7 +119,7 @@
       "Dahaprashamana",
       "Krimighna"
     ],
-    "dose": "",
+    "dose": "125–375 mg",
     "anupana": "",
     "duration": "",
     "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
@@ -112,34 +127,19 @@
   },
   "formulations": [
     {
-      "name": "Karpuradi Churna",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
-    },
-    {
-      "name": "Karpuradi Taila",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
-    },
-    {
       "name": "Karpura Rasa",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
-    },
-    {
-      "name": "Amritdhara",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
+      "indication": "Atisara, Grahani (opium-containing)",
+      "reference": "API Part I Vol VI"
     },
     {
       "name": "Karpurasava",
-      "dosage_form": "",
-      "indication": "",
-      "reference": ""
+      "indication": "Visuchika, Atisara, Shula",
+      "reference": "API Part I Vol VI"
+    },
+    {
+      "name": "Khadiradi Vati",
+      "indication": "Mukharoga, Kasa, Svarabheda",
+      "reference": "API Part I Vol VI"
     }
   ],
   "classical_reference": {
@@ -222,7 +222,7 @@
       "Sandhishoola (Joint pain / Arthralgia)"
     ],
     "useful_part": "Crystalline Extract / Sublimated Niryasa (Karpura)",
-    "dose": "",
+    "dose": "125–375 mg",
     "anupana": "",
     "key_precautions": [
       "Use authoritative identification and safety references.",
