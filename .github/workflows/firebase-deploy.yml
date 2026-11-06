@@ -62,7 +62,7 @@ jobs:
         run: |
           rm -rf _site
           mkdir -p _site
-          tar --exclude='./.git' --exclude='./.github' --exclude='./_site' -cf - . | tar -xf - -C _site
+          tar --exclude='./.git' --exclude='./.github' --exclude='./_site' --exclude='./scripts' --exclude='./docs' --exclude='*.md' --exclude='./lighthouserc.js' --exclude='./firestore.rules' --exclude='./firebase.json' --exclude='./visual-review' -cf - . | tar -xf - -C _site
           python scripts/optimize-deploy-images.py _site
           python - <<'PY'
           import json, os, re
@@ -99,7 +99,6 @@ jobs:
           assert required.issubset(found), f"Manifest must retain 192x192 and 512x512 icons; found {sorted(found)}"
           PY
           test -f _site/index.html
-          test -f _site/firestore.rules
           test -f _site/feedback.js
           test -f _site/manifest.json
 

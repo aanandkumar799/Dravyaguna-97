@@ -34,7 +34,7 @@ jobs:
         shell: bash
         run: |
           rm -rf _site && mkdir -p _site
-          tar --exclude='./.git' --exclude='./.github' --exclude='./_site' -cf - . | tar -xf - -C _site
+          tar --exclude='./.git' --exclude='./.github' --exclude='./_site' --exclude='./scripts' --exclude='./docs' --exclude='*.md' --exclude='./lighthouserc.js' --exclude='./firestore.rules' --exclude='./firebase.json' --exclude='./visual-review' -cf - . | tar -xf - -C _site
           python scripts/optimize-deploy-images.py _site
           python - <<'PY'
           import json,re,os
