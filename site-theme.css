@@ -277,3 +277,10 @@ html[data-theme="dark"] body .plant-card .plant-image{background:#182720!importa
 .dg-install-btn[hidden],.dg-install-btn.is-installed,.dg-install-fab[hidden],.dg-install-fab.is-installed,#install[hidden],#install.is-installed{display:none!important}
 @media print{.dg-install-fab,.dg-install-btn{display:none!important}}
 html[data-theme="dark"] .dg-install-btn,html[data-theme="dark"] .dg-install-fab{background:#2d6a4f;color:#fff}
+
+/* Responsive safety net (mobile / tablet / laptop) */
+img,video,iframe,canvas{max-width:100%}
+:where(.grid,.cards,.plant-grid,.supplementary-grid,.formulation-grid,.feature-grid,.stats-grid,.flash-grid)>*{min-width:0}
+:where(.card,.shloka,.block,.section,.meta,.botanical,.label,.study-item,.source-note,.reference-card,.plant-section,td,th,dd,li,p,h1,h2,h3){overflow-wrap:anywhere}
+.study-item>*{min-width:0}
+@media(max-width:420px){:where(.grid,.cards){grid-template-columns:minmax(0,1fr)!important}}
