@@ -177,14 +177,14 @@
       "botanical_name": "Cassia fistula L.",
       "part": "whole_plant",
       "image_path": "images/plants/aragwadha/whole_plant/image.jpg",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACassia-fistula.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cassia_Fistula_in_brihadeeswarar_temple.jpg",
       "source_name": "Wikimedia Commons",
-      "license": "CC BY 2.5",
-      "author": "<a href=\"https://en.wikipedia.org/wiki/User:Peter_Greenwell\" class=\"extiw\" title=\"wikipedia:User:Peter Greenwell\">Peter Greenwell</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+      "license": "CC BY-SA 4.0",
+      "author": "Jasheema",
       "verified_botanical_name": "Cassia fistula L.",
       "verification_status": "verified-local",
-      "source_media_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cassia-fistula.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "title": "Cassia-fistula.jpg"
+      "source_media_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Cassia_Fistula_in_brihadeeswarar_temple.jpg",
+      "title": "Cassia Fistula in brihadeeswarar temple.jpg"
     },
     {
       "plant_id": "aragwadha",
@@ -6601,14 +6601,14 @@
       "botanical_name": "Gmelina arborea Roxb.",
       "part": "whole_plant",
       "image_path": "images/plants/gambhari/whole_plant/image.jpg",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Gamhar.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gmelina_Arborea.jpg",
       "source_name": "Wikimedia Commons",
-      "license": "CC BY-SA 3.0",
-      "author": "LRBurdak",
+      "license": "CC BY-SA 4.0",
+      "author": "Abdurrazaq A.F.O",
       "verified_botanical_name": "Gmelina arborea Roxb.",
       "verification_status": "verified-local",
-      "source_media_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Gamhar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "title": "Gamhar.jpg"
+      "source_media_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Gmelina_Arborea.jpg",
+      "title": "Gmelina Arborea.jpg"
     },
     {
       "plant_id": "gambhari",
@@ -7011,14 +7011,14 @@
       "botanical_name": "Cuminum cyminum L.",
       "part": "whole_plant",
       "image_path": "images/plants/jeeraka/whole_plant/image.jpg",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Historical_CUMIN.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cuminum_cyminum.jpg",
       "source_name": "Wikimedia Commons",
-      "license": "Public domain",
-      "author": "Robert Bentley and Henry Trimen",
+      "license": "CC BY 2.0",
+      "author": "Herbolario Allium: www.alliumherbal.com",
       "verified_botanical_name": "Cuminum cyminum L.",
       "verification_status": "verified-local",
-      "source_media_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Historical_CUMIN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "title": "Historical CUMIN.jpg"
+      "source_media_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Cuminum_cyminum.jpg",
+      "title": "Cuminum cyminum.jpg"
     },
     {
       "plant_id": "jeeraka",
@@ -11963,14 +11963,14 @@
       "botanical_name": "Chrysopogon zizanioides (L.) Roberty",
       "part": "whole_plant",
       "image_path": "images/plants/usheera/whole_plant/image.jpg",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Vetiveria_zizanioides0.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ethiopia_2008_vetiver_grass.jpg",
       "source_name": "Wikimedia Commons",
-      "license": "Public domain",
-      "author": "",
+      "license": "CC BY 2.0",
+      "author": "treesftf",
       "verified_botanical_name": "Chrysopogon zizanioides (L.) Roberty",
       "verification_status": "verified-local",
-      "source_media_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Vetiveria_zizanioides0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "title": "Vetiveria zizanioides0.jpg"
+      "source_media_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Ethiopia_2008_vetiver_grass.jpg",
+      "title": "Ethiopia 2008 vetiver grass.jpg"
     },
     {
       "plant_id": "usheera",
