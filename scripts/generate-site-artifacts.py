@@ -36,6 +36,39 @@ payload={"total":97,"plants":index}
 (ROOT/"plant-index.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 (ROOT/"plant-index.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
+
+def image_size(path):
+    """Return (width, height) of a local JPEG/PNG/WebP without third-party libs, or None."""
+    import struct
+    try:
+        data = (ROOT / path).read_bytes() if not Path(path).is_absolute() else Path(path).read_bytes()
+    except Exception:
+        return None
+    if data[:8] == b"\x89PNG\r\n\x1a\n":
+        return struct.unpack(">II", data[16:24])
+    if data[:4] == b"RIFF" and data[8:12] == b"WEBP":
+        chunk = data[12:16]
+        if chunk == b"VP8X":
+            return 1 + int.from_bytes(data[24:27], "little"), 1 + int.from_bytes(data[27:30], "little")
+        if chunk == b"VP8 ":
+            w, h = struct.unpack("<HH", data[26:30]); return w & 0x3FFF, h & 0x3FFF
+        if chunk == b"VP8L":
+            b = int.from_bytes(data[21:25], "little"); return (b & 0x3FFF) + 1, ((b >> 14) & 0x3FFF) + 1
+        return None
+    if data[:2] == b"\xff\xd8":
+        i = 2
+        while i + 9 < len(data):
+            if data[i] != 0xFF:
+                i += 1; continue
+            marker = data[i + 1]
+            if marker in (0xD8, 0x01) or 0xD0 <= marker <= 0xD7:
+                i += 2; continue
+            seg = struct.unpack(">H", data[i + 2:i + 4])[0]
+            if marker in (0xC0, 0xC1, 0xC2, 0xC3, 0xC5, 0xC6, 0xC7, 0xC9, 0xCA, 0xCB, 0xCD, 0xCE, 0xCF):
+                h, w = struct.unpack(">HH", data[i + 5:i + 9]); return w, h
+            i += 2 + seg
+    return None
+
 def as_list(value):
     if isinstance(value, list):
         return [str(x).strip() for x in value if str(x).strip()]
@@ -115,7 +148,9 @@ def static_plant_html(plant):
         f'<div class="row"><dt>{esc(label)}</dt><dd>{esc(value) if str(flat(value)).strip() else "<span class=\"muted\">Not available in verified record</span>"}</dd></div>'
         for label, value in rows
     )
-    cover_html = f'<figure class="plant-cover"><img src="{esc(cover_rel)}" alt="{esc(name)} whole-plant photograph" loading="eager"><figcaption>Verified whole-plant photograph</figcaption></figure>' if cover_path else ''
+    _dims = image_size(cover_path) if cover_path else None
+    cover_dims = f' width="{_dims[0]}" height="{_dims[1]}"' if _dims else ''
+    cover_html = f'<figure class="plant-cover"><img src="{esc(cover_rel)}" alt="{esc(name)} whole-plant photograph"{cover_dims} loading="eager"><figcaption>Verified whole-plant photograph</figcaption></figure>' if cover_path else ''
     formulation_items = ''.join(f'<li><strong>{esc(x.get("name") or "Formulation")}</strong>{(" — " + esc(x.get("indication"))) if x.get("indication") else ""}</li>' for x in formulations if isinstance(x, dict))
     formulations_html = f'<section class="card"><h2>Important formulations</h2><ul>{formulation_items}</ul></section>' if formulation_items else ''
     return f"""<!doctype html>
@@ -146,7 +181,7 @@ header{{background:#fff;border-bottom:1px solid #dfe8df}}
 .brand{{font-weight:800;color:#1b4332;text-decoration:none}}nav{{display:flex;gap:6px;flex-wrap:wrap}}nav a{{padding:7px 9px;border-radius:8px;color:#24302a;text-decoration:none;font-weight:700}}nav a:hover{{background:#edf5ef;color:#1b4332}}
 .crumb{{font-size:.86rem;color:#66736b;margin-bottom:14px}}.crumb a{{color:#2d6a4f;font-weight:700}}
 .hero,.card{{background:#fff;border:1px solid #dfe8df;border-radius:18px;padding:22px;box-shadow:0 7px 22px rgba(27,67,50,.06);margin-bottom:18px}}
-.hero h1{{margin:0 0 6px;color:#1b4332;font-family:Georgia,serif;font-size:clamp(2rem,5vw,3rem)}}.plant-cover{{margin:0 0 18px;background:#fff;border:1px solid #dfe8df;border-radius:14px;overflow:hidden}}.plant-cover img{{width:100%;max-height:390px;object-fit:cover;display:block}}.plant-cover figcaption{{padding:8px 12px;color:#66736b;font-size:.85rem}}.botanical{{font-style:italic;color:#5e7469}}.badge{{display:inline-block;margin-top:10px;padding:5px 9px;border-radius:999px;background:#edf5ef;color:#1b4332;font-weight:800;font-size:.78rem}}
+.hero h1{{margin:0 0 6px;color:#1b4332;font-family:Georgia,serif;font-size:clamp(2rem,5vw,3rem)}}.plant-cover{{margin:0 0 18px;background:#fff;border:1px solid #dfe8df;border-radius:14px;overflow:hidden}}.plant-cover img{{width:100%;height:auto;max-height:390px;object-fit:cover;display:block}}.plant-cover figcaption{{padding:8px 12px;color:#66736b;font-size:.85rem}}.botanical{{font-style:italic;color:#5e7469}}.badge{{display:inline-block;margin-top:10px;padding:5px 9px;border-radius:999px;background:#edf5ef;color:#1b4332;font-weight:800;font-size:.78rem}}
 .grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:16px}}.card h2{{color:#1b4332;margin-top:0}}.row{{display:grid;grid-template-columns:145px 1fr;gap:12px;padding:9px 0;border-top:1px solid #edf1ee}}.row:first-child{{border-top:0}}dt{{font-weight:800;color:#365f50}}dd{{margin:0;overflow-wrap:anywhere}}.muted{{color:#8a958f;font-style:italic}}
 .notice{{background:#fff8e9;border-left:4px solid #d4a373;padding:13px 15px;border-radius:8px;color:#594a2e}}footer{{margin-top:25px;padding:22px;text-align:center;background:#1b4332;color:#eaf2ec}}footer a{{color:#fff}}.actions{{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}}.btn{{display:inline-block;padding:9px 12px;border-radius:9px;background:#1b4332;color:#fff;text-decoration:none;font-weight:800}}@media(max-width:620px){{.head{{align-items:flex-start;flex-direction:column}}.row{{grid-template-columns:1fr;gap:3px}}}}
 </style></head><body>
@@ -170,7 +205,7 @@ for plant in canonical:
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(static_plant_html(plant), encoding="utf-8")
 
-urls=[BASE,BASE+"plants.html",BASE+"compare.html",BASE+"quiz.html",BASE+"viva.html",BASE+"progress.html",BASE+"rasa.html",BASE+"reference-library.html",BASE+"practical-lab.html",BASE+"references.html",BASE+"supplementary.html",BASE+"sources-review.html"]+[BASE+"plants/"+quote(pid,safe="")+"/" for pid in ids]
+urls=[BASE,BASE+"plants.html",BASE+"compare.html",BASE+"quiz.html",BASE+"viva.html",BASE+"progress.html",BASE+"rasa.html",BASE+"reference-library.html",BASE+"practical-lab.html",BASE+"references.html",BASE+"sources-review.html"]+[BASE+"plants/"+quote(pid,safe="")+"/" for pid in ids]
 sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f"  <url><loc>{escape(u)}</loc></url>\n" for u in urls)+'</urlset>\n'
 (ROOT/"sitemap.xml").write_text(sitemap,encoding="utf-8")
 (ROOT/"robots.txt").write_text("User-agent: *\nAllow: /\n\nSitemap: "+BASE+"sitemap.xml\n",encoding="utf-8")

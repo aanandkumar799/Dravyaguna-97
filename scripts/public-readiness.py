@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Validate the modular NCISM-97 database and generate sitemap/robots."""
 from pathlib import Path
-import json, sys
+import json, re, sys
 from urllib.parse import quote
 
 ROOT=Path(__file__).resolve().parent.parent
@@ -49,7 +49,12 @@ print("NCISM-97 records:",len(indexed))
 print("Verification status counts:",json.dumps(status_counts,ensure_ascii=False,sort_keys=True))
 print("Public pages validated:",len(PUBLIC_PAGES))
 
-urls=[BASE]+[BASE+p for p in PUBLIC_PAGES if p not in {"index.html","404.html"}]
+def _noindex(page):
+    try:
+        return bool(re.search(r'<meta[^>]+name=["\']robots["\'][^>]+noindex', (ROOT/page).read_text(encoding="utf-8"), re.I))
+    except OSError:
+        return False
+urls=[BASE]+[BASE+p for p in PUBLIC_PAGES if p not in {"index.html","404.html"} and not _noindex(p)]
 urls += [BASE+"plants/"+quote(str(p["id"]),safe="")+"/" for p in sorted(indexed,key=lambda x:int(x["order"]))]
 (ROOT/"sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f"  <url><loc>{u}</loc></url>\n" for u in urls)+'</urlset>\n',encoding="utf-8")
 (ROOT/"robots.txt").write_text("User-agent: *\nAllow: /\n\nSitemap: "+BASE+"sitemap.xml\n",encoding="utf-8")
