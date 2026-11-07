@@ -233,18 +233,14 @@ if plants_page.exists():
         f'<li><a href="plants/{quote(str(p["id"]), safe="")}/">{esc(p.get("order"))}. {esc((p.get("identity") or {}).get("name") or p.get("name") or p["id"])}</a></li>'
         for p in canonical
     )
-    crawlable = f'''<section class="crawlable-plant-index" aria-label="NCISM 97 plant index">
-      <h2>Browse all 97 NCISM plant pages</h2>
-      <p>Each plant has a dedicated, shareable study page.</p>
+    crawlable = f'''<details class="crawlable-plant-index" aria-label="NCISM 97 plant index">
+      <summary>Quick index: all 97 plant pages</summary>
       <ul>{links}</ul>
-    </section>'''
-    if 'class="crawlable-plant-index"' in h:
-        h = re.sub(r'<section class="crawlable-plant-index".*?</section>', crawlable, h, count=1, flags=re.S)
-    elif '</main>' in h:
-        h = h.replace('</main>', crawlable + '</main>', 1)
-    crawlable_style = '<style>.crawlable-plant-index{background:#fff;border:1px solid #dfe8df;border-radius:18px;padding:20px;margin-top:22px}.crawlable-plant-index h2{color:#1b4332;margin:0 0 4px}.crawlable-plant-index p{color:#68746d;margin:0 0 12px}.crawlable-plant-index ul{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:7px 18px;margin:0;padding-left:20px}.crawlable-plant-index a{color:#1b4332;font-weight:700}@media(max-width:600px){.crawlable-plant-index ul{grid-template-columns:1fr}}</style>'
-    if '.crawlable-plant-index{' not in h:
-        h = h.replace('</head>', crawlable_style + '\n</head>', 1)
+    </details>'''
+    h = re.sub(r'<(section|details) class="crawlable-plant-index".*?</(section|details)>', lambda m: crawlable, h, count=1, flags=re.S) if 'class="crawlable-plant-index"' in h else h.replace('</main>', crawlable + '</main>', 1)
+    crawlable_style = '<style id="crawlable-index-style">.crawlable-plant-index{border:1px solid rgba(128,160,140,.35);border-radius:14px;padding:4px 16px;margin-top:22px;background:transparent;color:inherit}.crawlable-plant-index summary{cursor:pointer;font-weight:700;padding:10px 0;list-style-position:inside}.crawlable-plant-index ul{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 14px;padding:0;list-style:none}.crawlable-plant-index li a{display:inline-block;padding:4px 10px;border:1px solid rgba(128,160,140,.35);border-radius:999px;font-size:.85rem;color:inherit;text-decoration:none}.crawlable-plant-index li a:hover{border-color:currentColor}</style>'
+    h = re.sub(r'<style[^>]*>\.crawlable-plant-index\{.*?</style>|<style id="crawlable-index-style">.*?</style>', '', h, flags=re.S)
+    h = h.replace('</head>', crawlable_style + '\n</head>', 1)
     plants_page.write_text(h, encoding="utf-8")
 
 for filename, replacements in fixes.items():
