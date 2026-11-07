@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta name="theme-color" content="#1b4332"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="site-theme.css?v=19"><link rel="stylesheet" href="plant-dossier-layout.css"><style>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta name="theme-color" content="#1b4332"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="site-theme.css?v=20"><link rel="stylesheet" href="plant-dossier-layout.css"><style>
 .supp-image-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin-top:16px}
 .supp-image-card{margin:0;border:1px solid var(--dg-border,#dfe6df);border-radius:14px;overflow:hidden;background:var(--dg-surface,#fff)}
 .supp-image-card img{display:block;width:100%;height:220px;object-fit:cover;background:var(--dg-surface-2,#f5f8f4)}
@@ -11,7 +11,7 @@
 .formulation-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
 .formulation-card{padding:16px;border:1px solid var(--dg-border,#dfe6df);border-radius:14px;background:var(--dg-surface-2,#f5f8f4)}
 .formulation-card h3{margin-top:0}
-</style><title>Supplementary Plant Reference | DravyaGuna 97</title><script src="site-theme.js?v=5" defer></script>
+</style><title>Supplementary Plant Reference | DravyaGuna 97</title><script src="site-theme.js?v=6" defer></script>
 <link rel="canonical" href="https://aanandkumar799.github.io/Dravyaguna-97/supplementary-plant.html">
 <meta property="og:url" content="https://aanandkumar799.github.io/Dravyaguna-97/supplementary-plant.html">
 <script src="public-seo.js" defer></script>
@@ -128,7 +128,7 @@ function render(p,manifest,remote){
   '</section>'+
   '<section class="plant-section"><h2>Phytochemistry & Modern Information</h2>'+block('Major constituents',ph.major_constituents)+block('Chemical notes',ph.chemical_notes)+block('Evidence summary',m.evidence_summary)+block('Recognized uses',m.recognized_uses)+block('Safety notes',m.safety_notes)+'</section>'+
   '<section class="plant-section"><h2>Teaching & Doctor Reference</h2>'+block('Teaching points',te.teaching_points)+block('Discussion points',te.discussion_points)+block('Practical points',te.practical_points)+block('Doctor quick reference',doc.quick_reference)+block('Important indications',doc.important_indications)+block('Useful part',doc.useful_part)+block('Dose',doc.dose)+block('Anupana',doc.anupana)+block('Key precautions',doc.key_precautions)+block('Exam points',st.exam_points)+block('Viva questions',st.viva_questions)+block('Quick revision',st.quick_revision)+'</section>'+
-  '<section class="plant-section"><h2>Sources & Verification</h2>'+(sources.length?sources.map(s=>'<div class="source-note"><strong>'+esc(s.title||s.type)+'</strong>'+(s.url?'<p>'+link('Open source',s.url)+'</p>':'')+(s.note?'<p>'+esc(s.note)+'</p>':'')+'</div>').join(''):'<p class="source-note">No source list recorded.</p>')+'</section>'+
+  '<section class="plant-section"><h2>Sources & Verification</h2>'+(sources.filter(s=>!/gemini/i.test(String(s.title||s.type||''))).length?sources.filter(s=>!/gemini/i.test(String(s.title||s.type||''))).map(s=>'<div class="source-note"><strong>'+esc(s.title||s.type)+'</strong>'+(s.url?'<p>'+link('Open source',s.url)+'</p>':'')+(s.note?'<p>'+esc(s.note)+'</p>':'')+'</div>').join(''):'<p class="source-note">No source list recorded.</p>')+'</section>'+
   '<div class="plant-list-actions"><a class="btn btn-outline" href="supplementary.html">← Back to supplementary plants</a><a class="btn btn-outline" href="reference-library.html">Teacher reference</a><a class="btn btn-outline" href="references.html">Doctor reference</a></div>';
 }
 const id=new URLSearchParams(location.search).get('id');

@@ -72,3 +72,21 @@ function mount(){
 }
 if(document.body)mount();else document.addEventListener('DOMContentLoaded',mount,{once:true});
 })();
+
+/* Dark-mode contrast safety net: catches light cards created by page scripts */
+(function(){
+function rgb(c){var m=(c||'').match(/[\d.]+/g);return m?{r:+m[0],g:+m[1],b:+m[2],a:m[3]===undefined?1:+m[3]}:null}
+function lum(c){function f(v){v/=255;return v<=.03928?v/12.92:Math.pow((v+.055)/1.055,2.4)}return .2126*f(c.r)+.7152*f(c.g)+.0722*f(c.b)}
+function fix(){if(document.documentElement.getAttribute('data-theme')!=='dark')return;
+ var els=document.querySelectorAll('main *, section *, .plant-page *, body > div *');
+ for(var i=0;i<els.length&&i<6000;i++){var el=els[i];if(el.dataset.dgFixed||el.tagName==='IMG'||el.tagName==='svg')continue;
+  var s=getComputedStyle(el),b=rgb(s.backgroundColor);if(!b||b.a<.6||lum(b)<.55)continue;
+  if(s.backgroundImage&&s.backgroundImage!=='none'&&s.backgroundImage.indexOf('gradient')<0)continue;
+  var f=rgb(s.color);if(f&&lum(f)<.3)continue; /* dark text on light bg already readable */
+  if(!(el.textContent||'').trim())continue;
+  el.dataset.dgFixed='1';el.style.setProperty('background-color','#16231e','important');el.style.setProperty('border-color','#2c3f36','important');}
+}
+var t;function later(){clearTimeout(t);t=setTimeout(fix,250)}
+document.addEventListener('DOMContentLoaded',later);window.addEventListener('load',later);
+try{new MutationObserver(later).observe(document.documentElement,{subtree:true,childList:true,attributes:true,attributeFilter:['data-theme']})}catch(e){}
+})();

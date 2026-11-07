@@ -284,3 +284,19 @@ img,video,iframe,canvas{max-width:100%}
 :where(.card,.shloka,.block,.section,.meta,.botanical,.label,.study-item,.source-note,.reference-card,.plant-section,td,th,dd,li,p,h1,h2,h3){overflow-wrap:anywhere}
 .study-item>*{min-width:0}
 @media(max-width:420px){:where(.grid,.cards){grid-template-columns:minmax(0,1fr)!important}}
+
+/* Dark-mode contrast fixes (light cards / dark text that slipped through) */
+[data-theme="dark"] :is(.stat,.note,.warning,.source-note,.shloka-card,.supplementary-image,.quiz-controls,.secondary-btn,.study-item,.crawlable-plant-index,.reference-card){background:#16231e!important;color:#e3efe7!important;border-color:#2c3f36!important}
+[data-theme="dark"] :is(.stat,.note,.warning,.source-note,.quiz-controls,.study-item) :is(b,strong,p,span,label,small){color:inherit!important}
+[data-theme="dark"] :is(.note,.warning){border-left-color:#c9a24a!important}
+[data-theme="dark"] .control-help{color:#a9bdb1!important}
+[data-theme="dark"] :is(.quiz-title,.quiz-question,.drug,.control-label){color:#eaf6ee!important}
+[data-theme="dark"] :is(.source-note,.study-actions,.secondary-btn) a,[data-theme="dark"] a.secondary-btn{color:#9fe3bb!important}
+[data-theme="dark"] nav.nav a{color:#cfeedd}
+[data-theme="dark"] .plant-section ul,[data-theme="dark"] .plant-section ol{padding-left:1.3em}
+.plant-section ul,.plant-section ol{padding-left:1.3em}
+[data-theme="dark"] :is(.submit-btn,.dg-google-btn,form>button,.print-button,.show-all-btn){background:#24774c}
+[data-theme="dark"] #homeSearch button{background:#24774c!important;color:#fff!important}
+html body :is(footer,.site-footer,.footer,.footer-inner) :is(p,small,strong,a,span){color:#d9e9df!important}
+:is(footer,.site-footer,.footer,.footer-inner) a:hover{color:#fff}
+html:not([data-theme="dark"]) .lp-tag{color:#7a5c14!important}
