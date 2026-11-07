@@ -109,7 +109,11 @@
       "Vibandha",
       "Jwara",
       "Arshas",
-      "Adhmana"
+      "Adhmana",
+      "Gulma",
+      "Mutrakricchra",
+      "Mutraghata",
+      "Vatavikara"
     ],
     "therapeutic_actions": [
       "Shothaghna",
@@ -118,8 +122,8 @@
       "Jwarahara",
       "Kapha-Vata shamaka"
     ],
-    "dose": "Kashaya 50–100 mL; Swarasa 10–20 mL; Churna 1–3 g (as shown in the supplied textbook page).",
-    "anupana": "",
+    "dose": "Kashaya 50–100 mL; Swarasa 10–20 mL; Churna 1–3 g (as shown in the supplied textbook page). API-I: 12–24 g of coarse root powder for decoction.",
+    "anupana": "Kashaya taken lukewarm; with ghrita as in Su. Chi. 11/9 for Vasameha.",
     "duration": "The supplied passage describes Agnimantha Kashaya for Vasameha and notes administration with ghrita and Kotha for seven days in the relevant passage.",
     "precautions": "Use textbook doses as educational reference and verify current pharmacopoeial/clinical guidance before use.",
     "contraindications": "Use cautiously in Pitta-predominant states, Raktapitta and burning sensations because of its Ushna virya; avoid unsupervised use in pregnancy owing to limited safety data."
@@ -288,11 +292,15 @@
       "Vibandha",
       "Jwara",
       "Arshas",
-      "Adhmana"
+      "Adhmana",
+      "Gulma",
+      "Mutrakricchra",
+      "Mutraghata",
+      "Vatavikara"
     ],
     "useful_part": "Mula / Mula twak",
-    "dose": "Kashaya 50–100 mL; Swarasa 10–20 mL; Churna 1–3 g (as shown in the supplied textbook page).",
-    "anupana": "",
+    "dose": "Kashaya 50–100 mL; Swarasa 10–20 mL; Churna 1–3 g (as shown in the supplied textbook page). API-I: 12–24 g of coarse root powder for decoction.",
+    "anupana": "Kashaya taken lukewarm; with ghrita as in Su. Chi. 11/9 for Vasameha.",
     "key_precautions": [
       "Educational reference only; verify identity, dose and indication against authoritative current sources before clinical use.",
       "Premna mucronata is listed as a substitute in the supplied reference; authentication remains important."
