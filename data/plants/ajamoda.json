@@ -86,9 +86,14 @@
       "fruit"
     ],
     "indications": [
-      "Agnimandya",
-      "Adhmana",
       "Aruchi",
+      "Adhmana",
+      "Gulma",
+      "Hikka",
+      "Chardi",
+      "Krimiroga",
+      "Shula",
+      "Agnimandya",
       "Ajirna"
     ],
     "therapeutic_actions": [
@@ -105,14 +110,14 @@
   "formulations": [
     {
       "name": "Ajamodadi Churna",
-      "dosage_form": "",
-      "indication": "",
+      "dosage_form": "Churna",
+      "indication": "Aruchi, Adhmana, Gulma, Shula (API therapeutic uses of Ajamoda)",
       "reference": "API Part I"
     },
     {
       "name": "Ajamodarka",
-      "dosage_form": "",
-      "indication": "",
+      "dosage_form": "Arka (distillate)",
+      "indication": "Adhmana, Aruchi, Chardi (API therapeutic uses of Ajamoda)",
       "reference": "API Part I"
     }
   ],
@@ -183,9 +188,14 @@
   "doctor": {
     "quick_reference": "Traditional aromatic digestive drug; fruit is the useful part recorded here.",
     "important_indications": [
-      "Agnimandya",
-      "Adhmana",
       "Aruchi",
+      "Adhmana",
+      "Gulma",
+      "Hikka",
+      "Chardi",
+      "Krimiroga",
+      "Shula",
+      "Agnimandya",
       "Ajirna"
     ],
     "useful_part": "fruit",
