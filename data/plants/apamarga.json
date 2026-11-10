@@ -76,7 +76,9 @@
       "Chedana",
       "Medohara",
       "Krimighna",
-      "Mutrala"
+      "Mutrala",
+      "Kaphahara",
+      "Vatahara"
     ]
   },
   "dosha": {
@@ -89,9 +91,13 @@
       "whole plant / pañcāṅga"
     ],
     "indications": [
-      "Krimi",
+      "Shula",
+      "Udara roga",
       "Apachi",
+      "Arsha",
+      "Kandu",
       "Medoroga",
+      "Krimi",
       "Kasa",
       "Mutrakrichha"
     ],
@@ -119,7 +125,13 @@
       "reference": "API Part I"
     },
     {
-      "name": "Agastya Haritaki Rasayana",
+      "name": "Abhaya Lavana",
+      "dosage_form": "",
+      "indication": "",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Gudapippali",
       "dosage_form": "",
       "indication": "",
       "reference": "API Part I"
