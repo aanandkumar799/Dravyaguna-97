@@ -94,7 +94,10 @@
       "Kushta",
       "Jwara",
       "Hridroga",
-      "Udarasula"
+      "Udarasula",
+      "Udavarta",
+      "Gulma",
+      "Prameha"
     ],
     "therapeutic_actions": [
       "Mridu Virechana",
@@ -104,7 +107,7 @@
       "Hridya",
       "Kandughna"
     ],
-    "dose": "Phala majja churna 5–10 g; 10–20 g for virechana",
+    "dose": "Phala majja churna 5–10 g; 10–20 g for virechana (API: 5–10 g powder; remove seeds/septa)",
     "anupana": "",
     "duration": "",
     "precautions": "Purgative effect varies with preparation and dose.",
@@ -112,16 +115,20 @@
   },
   "formulations": [
     {
-      "name": "Aragvadharishta"
+      "name": "Aragvadharishta",
+      "indication": "Kushta, Kandu, Vibandha"
     },
     {
-      "name": "Aragvadhadi Kwatha"
+      "name": "Aragvadhadi Kwatha",
+      "indication": "Kushta, Visarpa, Kandu"
     },
     {
-      "name": "Aragvadhadi Leha"
+      "name": "Aragvadhadi Leha",
+      "indication": "Vibandha, Kasa"
     },
     {
-      "name": "Maha Manjisthadi Kwatha"
+      "name": "Maha Manjisthadi Kwatha",
+      "indication": "Kushta, Vatarakta"
     }
   ],
   "classical_reference": {
