@@ -10,14 +10,22 @@
     "english_name": "Arjuna",
     "hindi_name": "अर्जुन",
     "regional_names": [
-      "Partha",
-      "Dhavala",
-      "Kakubha",
-      "Nadi Sarja"
+      "Gujarati: Sadad",
+      "Marathi: Sadada",
+      "Bengali: Arjun",
+      "Tamil: Marudam",
+      "Telugu: Tella maddi",
+      "Kannada: Holematti"
     ],
     "synonyms": [
       "Dhananjaya",
-      "Partha"
+      "Partha",
+      "Dhavala",
+      "Kakubha",
+      "Nadisarja",
+      "Indradru",
+      "Veeravriksha",
+      "Veera"
     ]
   },
   "classification": {
@@ -67,7 +75,11 @@
     "karma": [
       "hridya",
       "sandhaniya",
-      "raktashodhak"
+      "raktashodhak",
+      "kaphahara",
+      "pittahara",
+      "vrananashana",
+      "vyangahara"
     ]
   },
   "dosha": {
@@ -80,8 +92,13 @@
       "bark"
     ],
     "indications": [
-      "traditional cardiovascular support",
-      "astringent applications"
+      "Hridroga",
+      "Kshata-kshaya",
+      "Medoroga",
+      "Prameha",
+      "Vrana",
+      "Trishna",
+      "Vyanga"
     ],
     "therapeutic_actions": [
       "hridya"
@@ -94,10 +111,22 @@
   },
   "formulations": [
     {
-      "name": "Arjunarishta",
+      "name": "Parthadyarishta",
       "dosage_form": "arishta",
-      "indication": "Traditional cardiac/general use",
-      "reference": ""
+      "indication": "Hridroga",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Arjuna Ghrita",
+      "dosage_form": "ghrita",
+      "indication": "Hridroga, Kshataksaya",
+      "reference": "API Part I"
+    },
+    {
+      "name": "Nagarjunabhra Rasa",
+      "dosage_form": "rasaushadhi",
+      "indication": "Hridroga",
+      "reference": "API Part I"
     }
   ],
   "classical_reference": {
@@ -176,9 +205,11 @@
     "important_indications": [
       "Hridroga",
       "Kshata-kshaya",
-      "Bhagna",
       "Medoroga",
-      "Prameha"
+      "Prameha",
+      "Vrana",
+      "Trishna",
+      "Vyanga"
     ],
     "useful_part": "bark",
     "dose": "Twak churna 3–6 g; Kshirapaka 50–100 ml",
