@@ -10,10 +10,9 @@
     "english_name": "Ashoka Tree",
     "hindi_name": "अशोक",
     "regional_names": [
-      "Hemapushpa",
-      "Tamrapallava",
-      "Kankeli",
-      "Pindapushpa"
+      "Bengali: Ashok",
+      "Kannada: Ashokadamara",
+      "Tamil: Asogam"
     ],
     "synonyms": [
       "Hemapushpa",
@@ -75,7 +74,10 @@
       "Varnya",
       "Hridya",
       "Vranaropana",
-      "Sangrahi"
+      "Sangrahi",
+      "Grahi",
+      "Shothahara",
+      "Vishaghna"
     ]
   },
   "dosha": {
@@ -95,16 +97,20 @@
       "Yoniroga",
       "Daha",
       "Trishna",
-      "Apachi"
+      "Apachi",
+      "Raktadosha",
+      "Shotha"
     ],
     "therapeutic_actions": [
       "Asrigdarahara",
       "Garbhashaya-shothahara",
       "Sangrahi",
       "Varnya",
-      "Vranaropana"
+      "Vranaropana",
+      "Shothahara",
+      "Vishaghna"
     ],
-    "dose": "Twak 20–30 g for kwatha",
+    "dose": "Twak 20–30 g of the drug for kwatha (API)",
     "anupana": "Milk (as Ashoka kshirapaka).",
     "duration": "",
     "precautions": "Strongly astringent and may cause constipation. Heavy or irregular uterine bleeding should be diagnosed before treatment.",
@@ -112,16 +118,16 @@
   },
   "formulations": [
     {
-      "name": "Ashokarishta"
+      "name": "Ashokarishta",
+      "indication": "Asrigdara, Pradara, Yoniroga"
     },
     {
-      "name": "Ashoka Ghrita"
+      "name": "Ashoka Ghrita",
+      "indication": "Asrigdara"
     },
     {
-      "name": "Ashokaksheerapaka"
-    },
-    {
-      "name": "Chandanasava"
+      "name": "Ashoka Ksheerapaka",
+      "indication": "Asrigdara (bleeding with Daha)"
     }
   ],
   "classical_reference": {
@@ -148,7 +154,7 @@
     "chemical_notes": "The stem bark is rich in tannins and contains a crystalline glycoside, with catechins and flavonoids also reported."
   },
   "modern_information": {
-    "evidence_summary": "A prime uterine tonic, it regulates menstruation and reduces cramps.",
+    "evidence_summary": "Ashoka (Saraca asoca) bark: kashaya-tikta, laghu-ruksha, sheeta, katu vipaka; Grahi, Varnya, Hridya, Shothahara; chief use Asrigdara; dose 20–30 g kwatha.",
     "recognized_uses": [
       "Asrigdara and Pradara",
       "Garbhashaya shotha",
@@ -181,7 +187,7 @@
       "Splintery fracture, astringent taste"
     ],
     "mnemonics": [],
-    "quick_revision": "A prime uterine tonic, it regulates menstruation and reduces cramps."
+    "quick_revision": "Ashoka (Saraca asoca) bark: kashaya-tikta, laghu-ruksha, sheeta, katu vipaka; Grahi, Varnya, Hridya, Shothahara; chief use Asrigdara; dose 20–30 g kwatha."
   },
   "teacher": {
     "teaching_points": [
@@ -208,7 +214,7 @@
       "Apachi"
     ],
     "useful_part": "bark",
-    "dose": "Twak 20–30 g for kwatha",
+    "dose": "Twak 20–30 g of the drug for kwatha (API)",
     "anupana": "Milk (as Ashoka kshirapaka).",
     "key_precautions": [
       "Diagnose cause of abnormal uterine bleeding first",
