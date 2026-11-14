@@ -77,6 +77,21 @@ jobs:
           node --check public-seo.js
           node --check sw.js
           python scripts/check-inline-js.py
+      - name: Wait for GitHub Pages deploy to publish WebP plant images
+        # Push runs start while Pages is still deploying, so the live .webp og:image URLs
+        # briefly 404. Wait (up to 15 min) until a sample deployed image is live.
+        if: github.event_name == 'push'
+        shell: bash
+        run: |
+          url="https://aanandkumar799.github.io/Dravyaguna-97/images/plants/agnimanth/whole_plant/image.webp"
+          sleep 60
+          for i in $(seq 1 28); do
+            code=$(curl -s -o /dev/null -w '%{http_code}' -H 'Cache-Control: no-cache' "$url?run=${GITHUB_RUN_ID}-$i" || true)
+            if [ "$code" = "200" ]; then echo "Deployed WebP images are live (attempt $i)."; exit 0; fi
+            echo "Attempt $i: $url returned $code; waiting 30s for Pages deploy..."
+            sleep 30
+          done
+          echo "::warning::Deployed WebP images still not live after 15 minutes; link check may fail."
       - name: Validate HTML CSS Links Images
         uses: anishathalye/proof-html@v2
         with:
