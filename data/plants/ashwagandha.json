@@ -10,10 +10,18 @@
     "english_name": "Winter Cherry",
     "hindi_name": "असगंध",
     "regional_names": [
-      "Turagi",
-      "Vajigandha",
-      "Balada",
-      "Kushtagandhini"
+      "Assamese: Ashvagandha",
+      "Bengali: Ashvagandha",
+      "Gujarati: Asgandha",
+      "Kannada: Angarberu, Hiremaddina-gida",
+      "Kashmiri: Asagandh",
+      "Malayalam: Amukkuram",
+      "Marathi: Asagandha, Askagandha",
+      "Oriya: Aswagandha",
+      "Punjabi: Asgandh",
+      "Tamil: Amukkaramkizhangu",
+      "Telugu: Pennerugadda",
+      "Urdu: Asgand"
     ],
     "synonyms": [
       "अश्वकन्दा",
@@ -98,6 +106,7 @@
       "Kshaya",
       "Daurbalya",
       "Vata Vyadhi",
+      "Shotha",
       "Klaibya"
     ],
     "therapeutic_actions": [
@@ -108,7 +117,7 @@
       "Shothahara",
       "Vatashamaka"
     ],
-    "dose": "Mula churna 3–6 g",
+    "dose": "Mula churna 3–6 g (API)",
     "anupana": "Milk or ghee (classically Ashwagandha churna with milk, ghee or lukewarm water).",
     "duration": "",
     "precautions": "Ushna virya; may aggravate Pitta in excess. Use with care alongside sedatives, thyroid hormone, immunosuppressants and antidiabetic drugs. Rare liver injury has been reported with concentrated extracts.",
@@ -118,20 +127,20 @@
     {
       "name": "Ashwagandharishta",
       "dosage_form": "arishta",
-      "indication": "",
+      "indication": "Daurbalya, Kshaya, Vata Vyadhi (rasayana, balya)",
       "reference": "AFI"
     },
     {
       "name": "Ashwagandhadi Lehya",
       "dosage_form": "avaleha",
-      "indication": "",
+      "indication": "Kshaya, Daurbalya, Klaibya (rasayana, vrishya)",
       "reference": "AFI"
     },
     {
-      "name": "Ashwagandha Churna",
-      "dosage_form": "churna",
-      "indication": "",
-      "reference": "AFI"
+      "name": "Balashwagandhalakshadi Taila",
+      "dosage_form": "taila",
+      "indication": "Vata Vyadhi, Daurbalya (balya)",
+      "reference": "API"
     }
   ],
   "classical_reference": {
@@ -159,7 +168,7 @@
     "chemical_notes": "The root contains steroidal lactones (withanolides) and several alkaloids, which are regarded as its main active groups."
   },
   "modern_information": {
-    "evidence_summary": "Ashwagandha (Withania somnifera) is a powerful adaptogen. It reduces stress, increases strength, and supports reproductive and nervous systems.",
+    "evidence_summary": "Ashwagandha (Withania somnifera) root is a classical rasayana and balya drug; its withanolides and alkaloids are the main studied constituents, with research on stress, strength and nervous-system effects.",
     "recognized_uses": [
       "Kshaya and Daurbalya",
       "Vatavyadhi and Shotha",
