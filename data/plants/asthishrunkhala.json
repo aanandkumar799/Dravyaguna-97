@@ -71,7 +71,11 @@
       "Vata-shleshmahara",
       "Vrishya",
       "Chakshushya",
-      "Balya"
+      "Balya",
+      "Krimighna",
+      "Pachana",
+      "Sandhaniya",
+      "Stambhana"
     ]
   },
   "dosha": {
@@ -87,15 +91,20 @@
       "Bhagna",
       "Asthi Daurbalya",
       "Sandhishoola",
-      "Arsha"
+      "Arsha",
+      "Krimi",
+      "Netraroga",
+      "Shwasa",
+      "Urustambha",
+      "Vrana"
     ],
     "therapeutic_actions": [
       "Traditional use in fracture-related care",
       "Traditional use as a strengthening/supportive drug"
     ],
     "dose": "Swarasa 10–20 ml; ardra kalka 10–20 g (API)",
-    "anupana": "Not populated",
-    "duration": "Not populated",
+    "anupana": "",
+    "duration": "",
     "precautions": "Fractures require appropriate medical assessment, reduction/immobilisation when indicated, and follow-up; the herb should not replace orthopaedic care.",
     "contraindications": "No universal contraindication statement added without source-level verification."
   },
