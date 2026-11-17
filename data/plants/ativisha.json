@@ -10,17 +10,22 @@
     "english_name": "Indian Atees",
     "hindi_name": "अतीस",
     "regional_names": [
-      "Aruna",
-      "Ghuna Vallabha",
-      "Shuklakanda",
-      "Visharupa"
+      "Assamese: Aatich",
+      "Bengali: Ataicha",
+      "English: Atis Root",
+      "Gujarati: Ativikhani Kali",
+      "Hindi: Atis",
+      "Kannada: Athihage",
+      "Malayalam: Atividayam"
     ],
     "synonyms": [
       "Shuklakanda (शुक्लकन्दा)",
       "Bhangura (भङ्गुरा)",
       "Vishva (विश्वा)",
       "Aruna (अरुणा)",
-      "Shringi (शृङ्गी)"
+      "Shringi (शृङ्गी)",
+      "Visha (विषा)",
+      "Ghunapriya (घुणप्रिया)"
     ]
   },
   "classification": {
@@ -92,7 +97,9 @@
       "Jwara (Fever / Intermittent fever)",
       "Agnimandya (Dyspepsia / Loss of appetite)",
       "Chhardi (Vomiting)",
-      "Balaroga (Pediatric gastrointestinal disorders)"
+      "Balaroga (Pediatric gastrointestinal disorders)",
+      "Kasa (Cough)",
+      "Krimiroga (Worm infestation)"
     ],
     "therapeutic_actions": [
       "Deepana",
@@ -102,9 +109,11 @@
       "Jwarahara",
       "Krimighna",
       "Vishaghna",
-      "Atisarahara"
+      "Atisarahara",
+      "Samgrahika",
+      "Kaphapittahara"
     ],
-    "dose": "Churna 0.6–2 g",
+    "dose": "Churna 0.6–2 g (API)",
     "anupana": "Honey, especially for children (as in Balachaturbhadra Churna).",
     "duration": "",
     "precautions": "Authenticate the drug: toxic Aconitum species (Vatsanabha) may be mixed with it; the genuine root is bitter without tingling or numbness of the tongue. Use measured doses in children.",
@@ -114,7 +123,7 @@
     {
       "name": "Balachaturbhadra Churna",
       "dosage_form": "",
-      "indication": "",
+      "indication": "Pediatric fever, cough, vomiting and diarrhoea (API important formulation)",
       "reference": ""
     },
     {
@@ -132,13 +141,13 @@
     {
       "name": "Kutajarishta",
       "dosage_form": "",
-      "indication": "",
+      "indication": "Atisara and Grahani",
       "reference": ""
     },
     {
       "name": "Sudarshana Churna",
       "dosage_form": "",
-      "indication": "",
+      "indication": "Jwara (fever) (API important formulation)",
       "reference": ""
     }
   ],
@@ -208,7 +217,7 @@
       "Bitter, no tingling on tongue"
     ],
     "mnemonics": [],
-    "quick_revision": "Aconitum heterophyllum is a key herb for fever, diarrhea, and cough, especially in children."
+    "quick_revision": "Ativisha (Aconitum heterophyllum): tuberous root; tikta-katu, laghu-ruksha, ushna, katu vipaka; Deepana, Pachana, Samgrahika, Kaphapittahara; non-toxic Aconitum, best for pediatric Atisara/Amatisara, Jwara; 0.6–2 g churna."
   },
   "teacher": {
     "teaching_points": [
